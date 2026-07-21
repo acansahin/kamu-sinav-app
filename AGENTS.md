@@ -33,6 +33,23 @@ edilirse `npm run build` değil, Android paketi bozulur — yani hata geç fark 
 | `npm run content:build` | Yalnızca içerik doğrulama + derleme |
 | `npm test` | İçeriği derler, sonra Vitest |
 | `npm run typecheck` | `tsc --noEmit` |
+| `npm run android:sync` | Build alır ve `out/`u Android projesine kopyalar |
+
+## Android paketleme
+
+`android/` klasörü Capacitor tarafından üretilir ve **git'te tutulur** (Capacitor'ın
+önerdiği yaklaşım). Kopyalanan web varlıkları ve Gradle çıktıları `android/.gitignore`
+ile dışlanmıştır; kök `.gitignore` bunları tekrarlamaz.
+
+- **APK yerel makinede derlenmez.** Android SDK kurulu değildir ve kurulması gerekmez;
+  APK yalnızca `.github/workflows/android.yml` içinde üretilir (Java 21 + AGP).
+- Sıra bağlayıcıdır: `npm run build` → `cap sync android` → `gradlew assembleDebug`.
+  `out/` yoksa Capacitor kopyalayacak bir şey bulamaz.
+- `appId` (`tr.kamusinavakademi.app`) bir Java paket adıdır: küçük harf, yalnızca nokta
+  ayracı; tire veya Türkçe karakter kullanılamaz. Değiştirmek `android/` klasörünün
+  yeniden üretilmesini gerektirir.
+- Debug imzalama anahtarını Android Gradle Plugin kendisi üretir; ayrıca keystore
+  yönetmek gerekmez.
 
 ## İçerik nasıl eklenir
 

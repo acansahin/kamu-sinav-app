@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # İçerik doğrulaması ayrı bir adımdır: kırılırsa hatanın kaynağı
+      # (şema ihlali mi, telif kuralı mı) doğrudan görünür olsun.
+      - name: İçeriği doğrula ve derle
+        run: npm run content:build
+
+      - name: Tip kontrolü
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Birim testler
+        run: npx vitest run
+
+      - name: Statik export
+        run: npx next build
+
+      - name: Web çıktısını yükle
+        uses: actions/upload-artifact@v4
+        with:
+          name: web-out
+          path: out/
+          retention-days: 7

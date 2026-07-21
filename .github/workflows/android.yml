@@ -1,0 +1,50 @@
+name: Android APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Android SDK yerel makinede kurulu değildir ve kurulması da gerekmez.
+# APK yalnızca burada üretilir.
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      # Capacitor 8 / Android Gradle Plugin Java 21 ister.
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: android-actions/setup-android@v3
+
+      - run: npm ci
+
+      # Sıra önemli: Capacitor `out/` klasörünü WebView varlıklarına kopyalar,
+      # dolayısıyla statik export önce üretilmiş olmalıdır.
+      - name: Statik export üret
+        run: npm run build
+
+      - name: Web varlıklarını Android projesine kopyala
+        run: npx cap sync android
+
+      - name: Debug APK derle
+        working-directory: android
+        run: |
+          chmod +x ./gradlew
+          ./gradlew assembleDebug --no-daemon
+
+      - name: APK'yı yükle
+        uses: actions/upload-artifact@v4
+        with:
+          name: kamu-sinav-akademi-debug
+          path: android/app/build/outputs/apk/debug/*.apk
+          retention-days: 30

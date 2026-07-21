@@ -25,10 +25,14 @@ npm run dev      # içeriği derler, sonra http://localhost:3000
 
 ```bash
 npm run build        # statik export → out/
-npm test             # birim testler (38)
+npm test             # birim testler (54)
 npm run typecheck
 npm run content:build   # yalnızca içerik doğrulama + kapsam raporu
+npm run android:sync    # build + web varlıklarını Android projesine kopyala
 ```
+
+APK yerel makinede derlenmez; `.github/workflows/android.yml` üretir ve **Artifacts**
+altına koyar.
 
 ## Teknoloji
 
@@ -40,7 +44,7 @@ npm run content:build   # yalnızca içerik doğrulama + kapsam raporu
 | Kalıcılık | Dexie / IndexedDB — repository arayüzü arkasında |
 | İçerik | MDX + JSON, Zod ile derleme zamanında doğrulanır |
 | Test | Vitest |
-| Mobil | Capacitor (Android) — bu yüzden çıktı **tam statik** olmak zorunda |
+| Mobil | Capacitor (Android), APK GitHub Actions'ta üretilir — bu yüzden çıktı **tam statik** olmak zorunda |
 
 ## Yapı
 
@@ -48,10 +52,11 @@ npm run content:build   # yalnızca içerik doğrulama + kapsam raporu
 content/       kaynak içerik (MDX özetler + JSON sorular) — insan yazar, git'te durur
 scripts/       build-content.ts: doğrulama + telif kapısı + derleme
 src/app/       rotalar (App Router)
-src/features/  dikey dilimler: study, quiz, progress, settings
+src/features/  dikey dilimler: study, quiz, exam, progress, settings
 src/lib/       çerçeveden bağımsız saf mantık: scoring, selector, db, repositories
 src/types/     Zod şemaları → türetilmiş TypeScript tipleri
 tests/         birim testler
+android/       Capacitor tarafından üretilen Android projesi
 ```
 
 ## Belgeler

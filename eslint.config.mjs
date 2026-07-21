@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Capacitor tarafından üretilen Android projesi ve oraya kopyalanan
+    // küçültülmüş web varlıkları. ESLint .gitignore'u okumaz, bu yüzden
+    // burada ayrıca dışlanmaları gerekir.
+    "android/**",
   ]),
 ]);
 
