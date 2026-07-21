@@ -1,0 +1,39 @@
+{
+	"id": "etik",
+	"name": "Etik Davranış İlkeleri",
+	"shortName": "Etik",
+	"description": "5176 sayılı Kanun ve Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği çerçevesinde etik ilkeler, çıkar çatışması ve hediye alma yasağı.",
+	"scope": "ortak",
+	"order": 3,
+	"icon": "ShieldCheck",
+	"topics": [
+		{
+			"id": "etik/etik-kurul-ve-mevzuat",
+			"slug": "etik-kurul-ve-mevzuat",
+			"name": "Kamu Görevlileri Etik Kurulu ve Mevzuatı",
+			"order": 1,
+			"estimatedMinutes": 8
+		},
+		{
+			"id": "etik/etik-davranis-ilkeleri",
+			"slug": "etik-davranis-ilkeleri",
+			"name": "Etik Davranış İlkeleri",
+			"order": 2,
+			"estimatedMinutes": 12
+		},
+		{
+			"id": "etik/cikar-catismasi-ve-hediye",
+			"slug": "cikar-catismasi-ve-hediye",
+			"name": "Çıkar Çatışması ve Hediye Alma Yasağı",
+			"order": 3,
+			"estimatedMinutes": 9
+		},
+		{
+			"id": "etik/saydamlik-ve-hesap-verebilirlik",
+			"slug": "saydamlik-ve-hesap-verebilirlik",
+			"name": "Saydamlık ve Hesap Verebilirlik",
+			"order": 4,
+			"estimatedMinutes": 8
+		}
+	]
+}

@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kamu Sınav Akademi
 
-## Getting Started
+Türkiye'deki kamu kurumlarında yapılan **Görevde Yükselme** ve **Unvan Değişikliği**
+sınavlarına hazırlık uygulaması. Web tabanlı, çevrimdışı çalışır, reklamsız.
 
-First, run the development server:
+> **Durum:** Faz 1 / dikey dilim. Mimarinin tüm katmanları tek bir konu üzerinden uçtan
+> uca çalışıyor. İçerik doldurma devam ediyor.
+
+## Ne farklı?
+
+Rakiplerin çözemediği sorun soru sayısı değil, **güven**:
+
+- **Her sorunun mevzuat dayanağı görünür** — hangi kanunun hangi maddesi, şema düzeyinde zorunlu alan.
+- **Her sorunun kaynağı izlenebilir** — kaynağı doğrulanmamış soru yayımlanamaz, build kırılır.
+- **İçerik mevzuat sürümüyle damgalı** — hangi tarihli hâle göre hazırlandığı ve en son ne zaman doğrulandığı yazar.
+- **Gerçek erişilebilirlik** — hedef kitlenin yaş profiline uygun; 44px dokunma hedefi, üç kademeli yazı boyutu, yüksek kontrast modu.
+- **Reklamsız ve çevrimdışı** — hesap gerekmez, veri cihazda kalır, JSON olarak dışa aktarılabilir.
+
+## Hızlı başlangıç
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # içeriği derler, sonra http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+npm run build        # statik export → out/
+npm test             # birim testler (38)
+npm run typecheck
+npm run content:build   # yalnızca içerik doğrulama + kapsam raporu
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Teknoloji
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Katman | Seçim |
+|---|---|
+| Uygulama | Next.js 16 (App Router, **statik export**) · React 19 · TypeScript strict |
+| Arayüz | Tailwind CSS v4 · lucide-react |
+| Durum | Zustand (görsel tercihler) · Dexie live query (ilerleme) |
+| Kalıcılık | Dexie / IndexedDB — repository arayüzü arkasında |
+| İçerik | MDX + JSON, Zod ile derleme zamanında doğrulanır |
+| Test | Vitest |
+| Mobil | Capacitor (Android) — bu yüzden çıktı **tam statik** olmak zorunda |
 
-## Learn More
+## Yapı
 
-To learn more about Next.js, take a look at the following resources:
+```
+content/       kaynak içerik (MDX özetler + JSON sorular) — insan yazar, git'te durur
+scripts/       build-content.ts: doğrulama + telif kapısı + derleme
+src/app/       rotalar (App Router)
+src/features/  dikey dilimler: study, quiz, progress, settings
+src/lib/       çerçeveden bağımsız saf mantık: scoring, selector, db, repositories
+src/types/     Zod şemaları → türetilmiş TypeScript tipleri
+tests/         birim testler
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Belgeler
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **[PROJECT_PLAN.md](PROJECT_PLAN.md)** — pazar araştırması, rakip analizi, mimari
+  kararlar ve gerekçeleri, veri modeli, ekran listesi, kullanıcı akışları, yol haritası.
+- **[AGENTS.md](AGENTS.md)** — geliştirme kuralları, içerik ekleme, telif kısıtları,
+  bilinen tuzaklar.
 
-## Deploy on Vercel
+## Telif
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Kamu kurumlarının yayımladığı çıkmış sınav soruları kaynak gösterilerek kullanılır; özel
+yayınevlerinin ve ücretli platformların soru bankaları **kullanılmaz**. Ayrıntı için
+[PROJECT_PLAN.md §14](PROJECT_PLAN.md) ve [AGENTS.md](AGENTS.md).

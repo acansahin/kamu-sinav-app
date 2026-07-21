@@ -1,0 +1,46 @@
+{
+	"id": "anayasa",
+	"name": "Türkiye Cumhuriyeti Anayasası",
+	"shortName": "Anayasa",
+	"description": "Cumhuriyetin nitelikleri, temel hak ve ödevler ile yasama, yürütme ve yargı organlarının kuruluş ve işleyişi.",
+	"scope": "ortak",
+	"order": 2,
+	"icon": "Landmark",
+	"topics": [
+		{
+			"id": "anayasa/genel-esaslar",
+			"slug": "genel-esaslar",
+			"name": "Genel Esaslar ve Cumhuriyetin Nitelikleri",
+			"order": 1,
+			"estimatedMinutes": 9
+		},
+		{
+			"id": "anayasa/temel-hak-ve-odevler",
+			"slug": "temel-hak-ve-odevler",
+			"name": "Temel Hak ve Ödevler",
+			"order": 2,
+			"estimatedMinutes": 14
+		},
+		{
+			"id": "anayasa/yasama",
+			"slug": "yasama",
+			"name": "Yasama — Türkiye Büyük Millet Meclisi",
+			"order": 3,
+			"estimatedMinutes": 12
+		},
+		{
+			"id": "anayasa/yurutme",
+			"slug": "yurutme",
+			"name": "Yürütme — Cumhurbaşkanı ve İdare",
+			"order": 4,
+			"estimatedMinutes": 12
+		},
+		{
+			"id": "anayasa/yargi",
+			"slug": "yargi",
+			"name": "Yargı ve Yüksek Mahkemeler",
+			"order": 5,
+			"estimatedMinutes": 11
+		}
+	]
+}

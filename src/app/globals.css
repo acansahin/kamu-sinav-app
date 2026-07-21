@@ -1,26 +1,226 @@
 @import "tailwindcss";
 
+/*
+ * Tasarım token'ları.
+ * Üç eksende değişir: tema (sistem/açık/koyu), kontrast (normal/yüksek),
+ * yazı boyutu (normal/büyük/çok büyük). Hepsi <html> üzerindeki data-* ile.
+ * Bkz. PROJECT_PLAN.md §13.
+ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	/* Yüzeyler */
+	--surface: #f7f8fa;
+	--surface-raised: #ffffff;
+	--surface-sunken: #eef0f4;
+
+	/* Kenarlıklar */
+	--border: #d6dae1;
+	--border-strong: #a9b1bd;
+
+	/* Metin */
+	--fg: #16202c;
+	--fg-muted: #4a5768;
+	--fg-subtle: #6b7889;
+
+	/* Marka — sakin lacivert, tek vurgu rengi */
+	--brand: #17395e;
+	--brand-hover: #1f4a78;
+	--brand-fg: #ffffff;
+	--brand-soft: #e3ecf6;
+
+	/* Anlam renkleri. Renk asla tek başına anlam taşımaz; ikon + metin eşlik eder. */
+	--correct: #17694a;
+	--correct-soft: #e2f3ea;
+	--wrong: #a3202b;
+	--wrong-soft: #fbe6e7;
+	--flag: #8a5a06;
+	--flag-soft: #fdf0da;
+
+	--focus: #1f6feb;
+
+	/* Yazı boyutu tabanı — rem tabanlı olduğu için boşluklar da birlikte ölçeklenir */
+	font-size: 16px;
+}
+
+:root[data-font-scale="buyuk"] {
+	font-size: 18px;
+}
+:root[data-font-scale="cok-buyuk"] {
+	font-size: 20px;
+}
+
+/* Koyu tema: sistem tercihi (açık'a sabitlenmediyse) veya açık seçim */
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme="acik"]) {
+		--surface: #0e141b;
+		--surface-raised: #161e28;
+		--surface-sunken: #0a0f14;
+		--border: #2a3542;
+		--border-strong: #465565;
+		--fg: #e8edf3;
+		--fg-muted: #a7b4c3;
+		--fg-subtle: #8593a3;
+		--brand: #6ea8e0;
+		--brand-hover: #8bbcec;
+		--brand-fg: #0a1420;
+		--brand-soft: #17293c;
+		--correct: #63c79c;
+		--correct-soft: #123528;
+		--wrong: #f08a92;
+		--wrong-soft: #3a171b;
+		--flag: #e0b062;
+		--flag-soft: #33260f;
+		--focus: #79b8ff;
+	}
+}
+
+:root[data-theme="koyu"] {
+	--surface: #0e141b;
+	--surface-raised: #161e28;
+	--surface-sunken: #0a0f14;
+	--border: #2a3542;
+	--border-strong: #465565;
+	--fg: #e8edf3;
+	--fg-muted: #a7b4c3;
+	--fg-subtle: #8593a3;
+	--brand: #6ea8e0;
+	--brand-hover: #8bbcec;
+	--brand-fg: #0a1420;
+	--brand-soft: #17293c;
+	--correct: #63c79c;
+	--correct-soft: #123528;
+	--wrong: #f08a92;
+	--wrong-soft: #3a171b;
+	--flag: #e0b062;
+	--flag-soft: #33260f;
+	--focus: #79b8ff;
+}
+
+/* Yüksek kontrast — kontrast oranlarını AAA sınırına taşır */
+:root[data-contrast="yuksek"] {
+	--surface: #ffffff;
+	--surface-raised: #ffffff;
+	--surface-sunken: #f0f0f0;
+	--border: #4a4a4a;
+	--border-strong: #000000;
+	--fg: #000000;
+	--fg-muted: #1f1f1f;
+	--fg-subtle: #333333;
+	--brand: #0b2c4d;
+	--brand-hover: #123f6c;
+	--brand-soft: #dce8f4;
+	--correct: #0c4a30;
+	--wrong: #7a1219;
+	--flag: #5c3b02;
+}
+
+:root[data-contrast="yuksek"][data-theme="koyu"],
+:root[data-contrast="yuksek"]:not([data-theme="acik"]) {
+	color-scheme: dark;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+	--color-surface: var(--surface);
+	--color-surface-raised: var(--surface-raised);
+	--color-surface-sunken: var(--surface-sunken);
+	--color-line: var(--border);
+	--color-line-strong: var(--border-strong);
+	--color-fg: var(--fg);
+	--color-fg-muted: var(--fg-muted);
+	--color-fg-subtle: var(--fg-subtle);
+	--color-brand: var(--brand);
+	--color-brand-hover: var(--brand-hover);
+	--color-brand-fg: var(--brand-fg);
+	--color-brand-soft: var(--brand-soft);
+	--color-correct: var(--correct);
+	--color-correct-soft: var(--correct-soft);
+	--color-wrong: var(--wrong);
+	--color-wrong-soft: var(--wrong-soft);
+	--color-flag: var(--flag);
+	--color-flag-soft: var(--flag-soft);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+	--font-sans:
+		system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+		sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+	background-color: var(--surface);
+	color: var(--fg);
+	font-family: var(--font-sans);
+	line-height: 1.65;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* Odak her yerde görünür. Hiçbir yerde outline:none kullanılmaz. */
+:focus-visible {
+	outline: 3px solid var(--focus);
+	outline-offset: 2px;
+	border-radius: 4px;
+}
+
+/* Hareket azaltma tercihi mutlak saygı görür */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* Okuma sütunu — satır uzunluğu 75 karakteri aşmaz */
+.prose-okuma {
+	max-width: 68ch;
+}
+.prose-okuma h2 {
+	font-size: 1.35rem;
+	font-weight: 700;
+	margin-block: 2rem 0.75rem;
+	line-height: 1.3;
+}
+.prose-okuma h3 {
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-block: 1.5rem 0.5rem;
+}
+.prose-okuma p {
+	margin-block: 0.85rem;
+}
+.prose-okuma ul,
+.prose-okuma ol {
+	margin-block: 0.85rem;
+	padding-inline-start: 1.5rem;
+}
+.prose-okuma ul {
+	list-style: disc;
+}
+.prose-okuma ol {
+	list-style: decimal;
+}
+.prose-okuma li {
+	margin-block: 0.4rem;
+}
+.prose-okuma strong {
+	font-weight: 700;
+	color: var(--fg);
+}
+.prose-okuma table {
+	width: 100%;
+	margin-block: 1.25rem;
+	border-collapse: collapse;
+	font-size: 0.95rem;
+}
+.prose-okuma th,
+.prose-okuma td {
+	border: 1px solid var(--border);
+	padding: 0.5rem 0.7rem;
+	text-align: start;
+	vertical-align: top;
+}
+.prose-okuma th {
+	background-color: var(--surface-sunken);
+	font-weight: 600;
 }

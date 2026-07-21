@@ -1,0 +1,116 @@
+"use client";
+
+import { useLiveQuery } from "dexie-react-hooks";
+import { ArrowRight, BookOpen, Target } from "lucide-react";
+import { ButtonLink } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { ProgressBar } from "@/components/ui/progress-bar";
+import { progressRepository } from "@/lib/repositories/progress.repository";
+import { routes } from "@/lib/routes";
+import { MASTERY_THRESHOLD } from "@/lib/scoring/mastery";
+import type { TopicRef } from "@/types/ui";
+
+/**
+ * Ana sayfanın tek baskın çağrısı: "bugün ne çalışmalıyım?"
+ *
+ * Öncelik sırası bilinçlidir (PROJECT_PLAN.md §11, ekran 1):
+ *   1. Zayıf konu varsa onu kapat.
+ *   2. Yoksa okunmamış ilk konuya başla.
+ *   3. Her şey bittiyse tekrar öner.
+ */
+export function ContinueCard({ topics }: { topics: TopicRef[] }) {
+	const progress = useLiveQuery(
+		() => progressRepository.getAllTopicProgress(),
+		[],
+		undefined,
+	);
+
+	// Veri henüz yüklenmediyse iskelet göster — düzen sıçraması olmasın.
+	if (progress === undefined) {
+		return <Card className="h-40 animate-pulse bg-surface-sunken" />;
+	}
+
+	const byTopic = new Map(progress.map((p) => [p.topicId, p]));
+
+	const weak = topics
+		.filter((topic) => {
+			const p = byTopic.get(topic.topicId);
+			return (
+				p !== undefined &&
+				p.questionsAttempted >= 3 &&
+				p.masteryScore < MASTERY_THRESHOLD &&
+				topic.questionCount > 0
+			);
+		})
+		.sort(
+			(a, b) =>
+				(byTopic.get(a.topicId)?.masteryScore ?? 0) -
+				(byTopic.get(b.topicId)?.masteryScore ?? 0),
+		);
+
+	const unread = topics.filter(
+		(topic) => topic.hasSummary && !byTopic.get(topic.topicId)?.summaryRead,
+	);
+
+	const target = weak[0] ?? unread[0] ?? topics.find((t) => t.hasSummary);
+
+	if (!target) {
+		return (
+			<Card>
+				<h2 className="text-lg font-bold">İçerik hazırlanıyor</h2>
+				<p className="mt-1 text-fg-muted">
+					Konu özetleri ve sorular eklendikçe burada çalışma önerin görünecek.
+				</p>
+			</Card>
+		);
+	}
+
+	const targetProgress = byTopic.get(target.topicId);
+	const isWeak = weak[0]?.topicId === target.topicId;
+
+	return (
+		<Card className="border-brand/40 bg-brand-soft">
+			<p className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-brand">
+				{isWeak ? <Target aria-hidden size={16} /> : <BookOpen aria-hidden size={16} />}
+				{isWeak ? "Zayıf konun" : "Kaldığın yerden devam"}
+			</p>
+
+			<h2 className="mt-2 text-xl font-bold">{target.topicName}</h2>
+			<p className="text-fg-muted">{target.subjectName}</p>
+
+			{targetProgress && targetProgress.questionsAttempted > 0 && (
+				<div className="mt-4">
+					<div className="mb-1.5 flex items-baseline justify-between text-sm">
+						<span className="text-fg-muted">Hakimiyet</span>
+						<span className="font-semibold tabular-nums">
+							%{Math.round(targetProgress.masteryScore)}
+						</span>
+					</div>
+					<ProgressBar
+						value={targetProgress.masteryScore}
+						label={`${target.topicName} hakimiyeti`}
+						tone={
+							targetProgress.masteryScore >= MASTERY_THRESHOLD
+								? "correct"
+								: "brand"
+						}
+					/>
+				</div>
+			)}
+
+			<ButtonLink
+				href={
+					isWeak
+						? routes.topicTest(target.subjectId, target.topicSlug)
+						: routes.topic(target.subjectId, target.topicSlug)
+				}
+				size="lg"
+				block
+				className="mt-5"
+			>
+				{isWeak ? "Tekrar çöz" : "Okumaya başla"}
+				<ArrowRight aria-hidden size={20} />
+			</ButtonLink>
+		</Card>
+	);
+}

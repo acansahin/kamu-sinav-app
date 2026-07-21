@@ -20,6 +20,14 @@
 # production
 /build
 
+# üretilmiş içerik — kaynak content/ altındadır, `npm run content:build` üretir
+/public/content/
+
+# Capacitor (Android paketleme)
+/android/app/build/
+/android/.gradle/
+/android/local.properties
+
 # misc
 .DS_Store
 *.pem

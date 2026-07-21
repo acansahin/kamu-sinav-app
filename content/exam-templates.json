@@ -1,0 +1,44 @@
+[
+	{
+		"id": "hizli-20",
+		"name": "Hızlı Deneme — 20 Soru",
+		"examKind": "gorevde-yukselme",
+		"questionCount": 20,
+		"durationSeconds": 1800,
+		"passingScore": 60,
+		"negativeMarking": false,
+		"distribution": [
+			{ "subjectId": "657-dmk", "count": 10 },
+			{ "subjectId": "anayasa", "count": 6 },
+			{ "subjectId": "etik", "count": 4 }
+		]
+	},
+	{
+		"id": "unvan-50",
+		"name": "Unvan Değişikliği Formatı — 50 Soru",
+		"examKind": "unvan-degisikligi",
+		"questionCount": 50,
+		"durationSeconds": 4500,
+		"passingScore": 60,
+		"negativeMarking": false,
+		"distribution": [
+			{ "subjectId": "657-dmk", "count": 22 },
+			{ "subjectId": "anayasa", "count": 16 },
+			{ "subjectId": "etik", "count": 12 }
+		]
+	},
+	{
+		"id": "gys-80",
+		"name": "Görevde Yükselme Formatı — 80 Soru",
+		"examKind": "gorevde-yukselme",
+		"questionCount": 80,
+		"durationSeconds": 7200,
+		"passingScore": 60,
+		"negativeMarking": false,
+		"distribution": [
+			{ "subjectId": "657-dmk", "count": 36 },
+			{ "subjectId": "anayasa", "count": 26 },
+			{ "subjectId": "etik", "count": 18 }
+		]
+	}
+]

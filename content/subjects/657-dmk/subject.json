@@ -1,0 +1,67 @@
+{
+	"id": "657-dmk",
+	"name": "657 Sayılı Devlet Memurları Kanunu",
+	"shortName": "657 DMK",
+	"description": "Memurluğun temel ilkeleri, hak ve yükümlülükler, yasaklar, disiplin rejimi ve memurluğun sona ermesi. Ortak konuların en yüksek soru ağırlığına sahip dersi.",
+	"scope": "ortak",
+	"order": 1,
+	"icon": "Scale",
+	"topics": [
+		{
+			"id": "657-dmk/genel-hukumler",
+			"slug": "genel-hukumler",
+			"name": "Genel Hükümler ve Kapsam",
+			"order": 1,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "657-dmk/temel-ilkeler",
+			"slug": "temel-ilkeler",
+			"name": "Temel İlkeler",
+			"order": 2,
+			"estimatedMinutes": 8
+		},
+		{
+			"id": "657-dmk/odevler-ve-sorumluluklar",
+			"slug": "odevler-ve-sorumluluklar",
+			"name": "Ödevler ve Sorumluluklar",
+			"order": 3,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "657-dmk/genel-haklar",
+			"slug": "genel-haklar",
+			"name": "Genel Haklar ve İzinler",
+			"order": 4,
+			"estimatedMinutes": 12
+		},
+		{
+			"id": "657-dmk/yasaklar",
+			"slug": "yasaklar",
+			"name": "Yasaklar",
+			"order": 5,
+			"estimatedMinutes": 9
+		},
+		{
+			"id": "657-dmk/disiplin-cezalari",
+			"slug": "disiplin-cezalari",
+			"name": "Disiplin Cezaları",
+			"order": 6,
+			"estimatedMinutes": 12
+		},
+		{
+			"id": "657-dmk/atama-ve-yer-degistirme",
+			"slug": "atama-ve-yer-degistirme",
+			"name": "Atama, Yer Değiştirme ve Görevlendirme",
+			"order": 7,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "657-dmk/memurlugun-sona-ermesi",
+			"slug": "memurlugun-sona-ermesi",
+			"name": "Memurluğun Sona Ermesi",
+			"order": 8,
+			"estimatedMinutes": 8
+		}
+	]
+}
