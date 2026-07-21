@@ -1,0 +1,352 @@
+[
+	{
+		"id": "anayasa-thakl-001",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'ya göre temel hak ve hürriyetler hangi araçla sınırlanabilir?",
+		"options": [
+			"Yalnızca kanunla",
+			"Cumhurbaşkanlığı kararnamesiyle",
+			"Yönetmelikle",
+			"Bakanlık genelgesiyle"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 13. maddesine göre temel hak ve hürriyetler, özlerine dokunulmaksızın yalnızca Anayasanın ilgili maddelerinde belirtilen sebeplere bağlı olarak ve ancak kanunla sınırlanabilir. Kararname, yönetmelik veya genelge gibi idari düzenleyici işlemlerle temel hak sınırlaması yapılamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-13", "sinirlama"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-thakl-002",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 12. maddesine göre temel hak ve hürriyetlerin nitelikleri aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"Dokunulmaz, devredilebilir, vazgeçilebilir",
+			"Dokunulmaz, devredilmez, vazgeçilmez",
+			"Sınırsız, devredilmez, mutlak",
+			"Devredilebilir, sınırlanamaz, vazgeçilmez"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 12'ye göre herkes, kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez temel hak ve hürriyetlere sahiptir. 'Sınırsız' veya 'mutlak' nitelemesi yanlıştır; haklar madde 13 çerçevesinde sınırlanabilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-12", "nitelik"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-thakl-003",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Yakalanan bir kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç, en geç ne kadar sürede hâkim önüne çıkarılır?",
+		"options": ["24 saat", "48 saat", "72 saat", "4 gün"],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 19. maddesine göre yakalanan veya tutuklanan kişi en geç 48 saat içinde hâkim önüne çıkarılır. Toplu olarak işlenen suçlarda bu süre en çok 4 gündür. Şıktaki '4 gün' bu istisnaya ait olup, sorunun sorduğu genel kurala değil.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "19"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-19", "sure"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-thakl-004",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 13. maddesine göre temel hak ve hürriyetlere getirilen sınırlamalar aşağıdakilerden hangisine aykırı olamaz?",
+		"options": [
+			"Yalnızca hakkın özüne",
+			"Yalnızca ölçülülük ilkesine",
+			"Hakkın özüne, Anayasa'nın sözüne ve ruhuna, demokratik toplum düzeninin ve laik Cumhuriyetin gereklerine ve ölçülülük ilkesine",
+			"Yalnızca Anayasa'nın sözüne"
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 13, sınırlamanın dört ayrı sınırını birlikte sayar: hakkın özüne dokunulamaz; sınırlama Anayasa'nın sözüne ve ruhuna, demokratik toplum düzeninin ve laik Cumhuriyetin gereklerine ve ölçülülük ilkesine aykırı olamaz. Bunlardan yalnızca birini veren şıklar eksiktir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-13", "olcululuk"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-thakl-005",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 15. maddesine göre temel hak ve hürriyetlerin kullanılması hangi hâllerde durdurulabilir?",
+		"options": [
+			"Savaş, seferberlik veya olağanüstü hâllerde",
+			"Yalnızca savaş hâlinde",
+			"Savaş, seferberlik, sıkıyönetim veya olağanüstü hâllerde",
+			"Ekonomik kriz ve doğal afet hâllerinde"
+		],
+		"correctIndex": 0,
+		"explanation": "Madde 15'e göre savaş, seferberlik veya olağanüstü hâllerde, milletlerarası hukuktan doğan yükümlülükler ihlal edilmemek kaydıyla ve durumun gerektirdiği ölçüde temel hak ve hürriyetlerin kullanılması kısmen veya tamamen durdurulabilir. 'Sıkıyönetim' 2017 Anayasa değişikliğiyle metinden çıkarılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-15", "guncellik"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-thakl-006",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'daki hak sınıflandırmasına göre 'eğitim ve öğrenim hakkı' hangi grupta yer alır?",
+		"options": [
+			"Kişi hakları ve ödevleri",
+			"Sosyal ve ekonomik haklar ve ödevler",
+			"Siyasi haklar ve ödevler",
+			"Koruyucu haklar"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa temel hakları üç grupta düzenler: kişi hakları ve ödevleri (m. 17-40), sosyal ve ekonomik haklar ve ödevler (m. 41-65), siyasi haklar ve ödevler (m. 66-74). Eğitim ve öğrenim hakkı 42. maddede yer aldığından sosyal ve ekonomik haklar grubundadır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "42"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["siniflandirma"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-thakl-007",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 15. maddesine göre olağanüstü hâllerde dahi dokunulamayacak haklar arasında aşağıdakilerden hangisi yer almaz?",
+		"options": [
+			"Suç ve cezaların geçmişe yürütülemeyeceği",
+			"Masumiyet karinesi",
+			"Toplantı ve gösteri yürüyüşü düzenleme hakkı",
+			"Kimsenin din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaması"
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 15'in ikinci fıkrasındaki çekirdek alan dört başlıktan oluşur: savaş hukukuna uygun fiiller sonucu meydana gelen ölümler dışında yaşama hakkı ile maddi ve manevi varlığın bütünlüğü; din, vicdan, düşünce ve kanaatleri açıklamaya zorlanmama; suç ve cezaların geçmişe yürütülmemesi; masumiyet karinesi. Toplantı ve gösteri yürüyüşü hakkı bu çekirdeğe dâhil değildir, dolayısıyla durdurulabilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-15", "cekirdek"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-thakl-008",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 16. maddesine göre temel hak ve hürriyetler yabancılar için nasıl sınırlanabilir?",
+		"options": [
+			"Hiçbir şekilde sınırlanamaz.",
+			"Milletlerarası hukuka uygun olarak kanunla sınırlanabilir.",
+			"İdari kararla serbestçe sınırlanabilir.",
+			"Yalnızca karşılıklılık esasına dayanarak Cumhurbaşkanı kararıyla sınırlanabilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 16, temel hak ve hürriyetlerin yabancılar için milletlerarası hukuka uygun olarak kanunla sınırlanabileceğini düzenler. Burada iki koşul birlikte aranır: sınırlamanın aracı kanundur ve içeriği milletlerarası hukuka uygun olmalıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-16", "yabanci"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-thakl-009",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Toplu olarak işlenen bir suç nedeniyle yakalanan kişi, en çok ne kadar süre içinde hâkim önüne çıkarılmalıdır?",
+		"options": ["48 saat", "3 gün", "4 gün", "7 gün"],
+		"correctIndex": 2,
+		"explanation": "Madde 19'da iki ayrı süre vardır: genel kural 48 saat, toplu olarak işlenen suçlarda ise en çok 4 gündür. Her iki sürede de tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hesaba katılmaz. Soruların ayırt edici noktası suçun toplu işlenip işlenmediğidir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "19"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-19", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-thakl-010",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "uzman",
+		"stem": "Bir yönetmelikle, kamuya açık alanlarda toplantı düzenlemenin valilik iznine bağlanması öngörülmüştür. Bu düzenleme Anayasa açısından nasıl değerlendirilir?",
+		"options": [
+			"Anayasa'ya uygundur; idare kamu düzenini korumak için hak sınırlayabilir.",
+			"Anayasa'ya aykırıdır; temel hak ve hürriyetler ancak kanunla sınırlanabilir.",
+			"Anayasa'ya uygundur; ölçülülük ilkesine uyulması yeterlidir.",
+			"Anayasa'ya uygundur; toplantı hakkı çekirdek alanda yer almaz."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 13'e göre sınırlamanın aracı yalnızca kanundur. Ölçülülüğe uyulması veya hakkın çekirdek alanda bulunmaması, kanunilik şartını ortadan kaldırmaz; bu şartlar sınırlama kanunla yapıldıktan sonra ayrıca aranan ek denetim ölçütleridir. Yönetmelikle getirilen sınırlama en baştan kanunilik şartını karşılamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-13", "senaryo"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-thakl-011",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "uzman",
+		"stem": "Olağanüstü hâl ilan edilen bir dönemde, daha önce suç olmayan bir fiil için geçmişe etkili şekilde ceza öngören bir düzenleme yapılmıştır. Bu düzenleme için ne söylenebilir?",
+		"options": [
+			"Olağanüstü hâlde temel haklar durdurulabildiğinden düzenleme geçerlidir.",
+			"Durumun gerektirdiği ölçüde olduğu sürece geçerlidir.",
+			"Suç ve cezaların geçmişe yürütülemeyeceği kuralı olağanüstü hâlde dahi askıya alınamaz; düzenleme Anayasa'ya aykırıdır.",
+			"Yalnızca milletlerarası hukuka aykırılık varsa geçersizdir."
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 15'in birinci fıkrası olağanüstü hâllerde hakların durdurulabileceğini söylerken, ikinci fıkrası dokunulamayacak çekirdek alanı belirler. Suç ve cezaların geçmişe yürütülemeyeceği bu çekirdek alandadır; dolayısıyla ölçülülük veya olağanüstü hâl gerekçesi bu yasağı aşamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-15", "senaryo"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-thakl-012",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "uzman",
+		"stem": "Temel hak ve hürriyetlerin sınırlanmasına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Sınırlama, Anayasa'nın ilgili maddesinde belirtilmeyen bir sebebe dayandırılamaz.",
+			"Sınırlama, hakkın özüne dokunamaz.",
+			"Sınırlama için kanun çıkarılması yeterlidir; ayrıca ölçülülük aranmaz.",
+			"Sınırlama, demokratik toplum düzeninin gereklerine aykırı olamaz."
+		],
+		"correctIndex": 2,
+		"explanation": "Kanunilik, sınırlamanın yalnızca ilk şartıdır. Madde 13'e göre kanunla yapılan sınırlama ayrıca hakkın özüne dokunmamalı; Anayasa'nın sözüne ve ruhuna, demokratik toplum düzeninin ve laik Cumhuriyetin gereklerine ve ölçülülük ilkesine de uygun olmalıdır. Bu nedenle III. ifade yanlıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-13", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	}
+]

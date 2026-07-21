@@ -1,0 +1,342 @@
+[
+	{
+		"id": "etik-cikar-001",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "kolay",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'ne göre aşağıdakilerden hangisi hediye alma yasağı kapsamı dışındadır?",
+		"options": [
+			"Hizmetten yararlananların verdiği gıda türü hediyeler",
+			"Kitap, dergi, takvim ve CD gibi yayınlar",
+			"Kurumla iş ilişkisi içinde bulunanlardan alınan ücretsiz konaklama",
+			"Kurumla hizmet ilişkisi içinde olanlardan alınan borç"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik, kitap, dergi, makale, kaset, takvim, CD ve benzeri nitelikteki yayınları hediye alma yasağının dışında tutar. Diğer üç seçenek yönetmelikte açıkça yasak sayılan hâllerdir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["hediye", "istisna"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "etik-cikar-002",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "kolay",
+		"stem": "Mal bildirimleri hangi yılların hangi ayının sonuna kadar yenilenir?",
+		"options": [
+			"Sonu 0 ve 5 ile biten yılların şubat ayı sonuna kadar",
+			"Her yılın ocak ayı sonuna kadar",
+			"Sonu çift sayı ile biten yılların aralık ayı sonuna kadar",
+			"Sonu 0 ve 5 ile biten yılların aralık ayı sonuna kadar"
+		],
+		"correctIndex": 0,
+		"explanation": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu'na göre mal bildirimleri, sonu (0) ve (5) ile biten yılların en geç şubat ayı sonuna kadar yenilenir.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["mal-bildirimi", "sure"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "etik-cikar-003",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 29. maddesindeki hediye alma ve menfaat sağlama yasağı ne zaman geçerlidir?",
+		"options": [
+			"Yalnızca mesai saatleri içinde",
+			"Yalnızca görev sırasında",
+			"Görevi sırasında olmasa dahi",
+			"Yalnızca görevle doğrudan ilgili işlerde"
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 29'a göre Devlet memurlarının doğrudan doğruya veya aracı eliyle hediye istemeleri ve görevleri sırasında olmasa dahi menfaat sağlama amacıyla hediye kabul etmeleri yasaktır. 'Görevi sırasında olmasa dahi' ibaresi yasağı mesai saatlerinin dışına da taşır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "29"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-29", "kapsam"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "etik-cikar-004",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre çıkar çatışması tanımının kapsamı için aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca tarafsızlığı fiilen etkileyen durumları kapsar.",
+			"Tarafsızlığı etkileyen ya da etkiliyormuş gibi gözüken durumları kapsar.",
+			"Yalnızca maddi menfaat sağlanan durumları kapsar.",
+			"Yalnızca görevlinin kendisine menfaat sağladığı durumları kapsar."
+		],
+		"correctIndex": 1,
+		"explanation": "Çıkar çatışması, kamu görevlilerinin görevlerini tarafsız ve objektif şekilde icra etmelerini etkileyen ya da etkiliyormuş gibi gözüken durumları kapsar. Ayrıca yalnızca görevlinin kendisi değil; yakınları, arkadaşları ve ilişkide bulunduğu kişi veya kuruluşlar da tanıma dâhildir. Görünüşteki tarafsızlık ihlali de çıkar çatışması doğurur.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["cikar-catismasi", "tanim"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "etik-cikar-005",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre bir menfaatin 'hediye' sayılmasında temel ölçüt nedir?",
+		"options": [
+			"Parasal değerinin belirli bir tutarı aşması",
+			"Görevlinin tarafsızlığını, kararını veya görevini etkilemesi ya da etkileme ihtimali bulunması",
+			"Doğrudan verilmiş olması",
+			"Mesai saatleri içinde verilmiş olması"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğe göre kamu görevlisinin tarafsızlığını, performansını, kararını veya görevini yapmasını etkileyen ya da etkileme ihtimali bulunan, ekonomik değeri olan ya da olmayan, doğrudan ya da dolaylı olarak kabul edilen her türlü eşya ve menfaat hediye kapsamındadır. Ölçüt parasal değer değil, etkileme ihtimalidir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["hediye", "olcut"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "etik-cikar-006",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "orta",
+		"stem": "Kamu Görevlileri Etik Kurulu, alınan hediyelerin listesini hangi görevlilerden ve ne zaman isteyebilir?",
+		"options": [
+			"Tüm kamu görevlilerinden her ay",
+			"En az genel müdür veya eşiti seviyedeki görevlilerden her takvim yılı sonunda",
+			"Şube müdürü ve üstünden her altı ayda bir",
+			"Yalnızca bakanlıklardan yılda iki kez"
+		],
+		"correctIndex": 1,
+		"explanation": "Kurul, hediye alma yasağının kapsamını belirlemeye ve en az genel müdür veya eşiti seviyedeki üst düzey kamu görevlilerince alınan hediyelerin listesini gerektiğinde her takvim yılı sonunda bu görevlilerden istemeye yetkilidir.",
+		"legalRef": {
+			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
+			"lawId": "5176"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["kurul", "hediye"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "etik-cikar-007",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi hediye alma yasağı kapsamına giren bir durumdur?",
+		"options": [
+			"Bir bankadan piyasa koşullarına göre konut kredisi kullanmak",
+			"Halka açık bir yarışmada kazanılan ödülü almak",
+			"Kurumun ihalesine katılan bir firmadan ücretsiz seyahat imkânı kabul etmek",
+			"Herkese dağıtılan sembolik değerli bir tanıtım kalemi almak"
+		],
+		"correctIndex": 2,
+		"explanation": "Görev yapılan kurumla iş, hizmet veya çıkar ilişkisi içinde bulunanlardan alınan seyahat, ücretsiz konaklama, karşılama, veda ve kutlama hediyeleri açıkça yasaktır. Diğer üç seçenek yönetmelikte yasak kapsamı dışında sayılmıştır: piyasa koşullarıyla alınan banka kredisi, halka açık yarışma ödülü ve herkese dağıtılan sembolik tanıtım ürünleri.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["hediye", "uygulama"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "etik-cikar-008",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "zor",
+		"stem": "Kredi ve borç alma bakımından yönetmeliğin getirdiği ayrım aşağıdakilerden hangisidir?",
+		"options": [
+			"Her türlü kredi ve borç almak yasaktır.",
+			"Kurumla iş veya hizmet ilişkisi içinde olanlardan borç ve kredi almak yasaktır; finans kurumlarından piyasa koşullarıyla kredi almak serbesttir.",
+			"Finans kurumlarından kredi almak yasak, kişilerden borç almak serbesttir.",
+			"Kredi almak yalnızca üst düzey görevliler için yasaktır."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik iki hükmü ayrı ayrı düzenler: görev yapılan kurumla iş veya hizmet ilişkisi içinde olanlardan alınan borç ve krediler yasak kapsamındadır; buna karşılık finans kurumlarından piyasa koşullarına göre alınan krediler yasak kapsamı dışındadır. Ayrım, kredinin kimden ve hangi koşulla alındığındadır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["hediye", "kredi", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "etik-cikar-009",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "zor",
+		"stem": "Çıkar çatışmasıyla karşılaşan bir kamu görevlisinin yönetmeliğe göre yapması gereken nedir?",
+		"options": [
+			"Durumu kimseye bildirmeden görevini tarafsız yürütmeye devam etmek",
+			"Çıkar çatışmasına taraf olmaktan kaçınmak ve durumu üstlerine bildirmek",
+			"Görevden çekilmek için istifa dilekçesi vermek",
+			"Konuyu doğrudan Kamu Görevlileri Etik Kuruluna şikâyet etmek"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğe göre kamu görevlileri çıkar çatışmasında şahsen sorumludur; çıkar çatışmasına taraf olmaktan kaçınır ve çıkar çatışmasının farkına varır varmaz durumu üstlerine bildirerek gerekli tedbirlerin alınmasını sağlar. Kendi başına tarafsız kalmaya çalışmak yeterli değildir; bildirim yükümlülüğü ayrıca vardır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["cikar-catismasi", "yukumluluk"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "etik-cikar-010",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "uzman",
+		"stem": "Bir ihale komisyonu üyesi, ihaleye katılan firmalardan birinin sahibinin kardeşidir. Üye, kararını tamamen objektif verdiğini belirtmektedir. Bu durum için ne söylenebilir?",
+		"options": [
+			"Karar objektif verildiği sürece çıkar çatışması doğmaz.",
+			"Çıkar çatışması doğmuştur; tarafsızlığın etkileniyormuş gibi gözükmesi yeterlidir.",
+			"Çıkar çatışması yalnızca maddi menfaat sağlanmışsa doğar.",
+			"Çıkar çatışması yalnızca görevlinin kendisi lehine menfaat varsa doğar."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelikteki tanım, tarafsızlığı etkileyen durumların yanında etkiliyormuş gibi gözüken durumları da kapsar ve görevlinin yakınlarına sağlanan menfaatleri de içerir. Üyenin fiilen objektif davranmış olması çıkar çatışmasını ortadan kaldırmaz; üyenin taraf olmaktan kaçınması ve durumu bildirmesi gerekir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["cikar-catismasi", "senaryo"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "etik-cikar-011",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "uzman",
+		"stem": "Bir memur, kurumundan hizmet alan bir vatandaştan işlem sonrasında kendisine getirilen düşük değerli bir kutu çikolatayı kabul etmiştir. Bu davranış için ne söylenebilir?",
+		"options": [
+			"Değeri düşük olduğundan yasak kapsamında değildir.",
+			"Hizmetten yararlananların vereceği gıda türü hediyeler yasak kapsamındadır; değerin düşük olması sonucu değiştirmez.",
+			"İşlem tamamlandıktan sonra verildiği için yasak kapsamında değildir.",
+			"Yalnızca üst düzey görevliler için yasak olduğundan serbesttir."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik, hizmetten yararlananların vereceği her türlü eşya, giysi, takı veya gıda türü hediyeleri açıkça yasak sayar. Hediyenin ölçütü parasal değer değil, görevi etkileme ihtimalidir; ayrıca hediyenin işlemden sonra verilmiş olması da yasağı kaldırmaz. 657 sayılı Kanun'un 29. maddesi de yasağın görev sırasında olmasa dahi geçerli olduğunu belirtir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik ve kanun metinlerinden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["hediye", "senaryo", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "etik-cikar-012",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "uzman",
+		"stem": "Hediye alma yasağına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Ekonomik değeri olmayan menfaatler de hediye kapsamına girebilir.",
+			"Hediyenin dolaylı olarak, aracı eliyle kabul edilmesi yasağı ortadan kaldırmaz.",
+			"Piyasa fiyatına göre makul olmayan bedelle yapılan mal alım satımı yasak kapsamındadır.",
+			"Herkese açık bir sempozyumda verilen hatıra niteliğindeki hediyeler yasak kapsamındadır."
+		],
+		"correctIndex": 3,
+		"explanation": "Herkese açık konferans, sempozyum, forum, panel, yemek veya resepsiyon gibi etkinliklerde verilen hatıra niteliğindeki hediyeler yönetmelikte yasak kapsamı dışında sayılmıştır. Diğer üç ifade doğrudur: hediye tanımı ekonomik değeri olmayan menfaatleri ve dolaylı kabulü de kapsar, makul olmayan bedelli işlemler ise açıkça yasaktır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["hediye", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	}
+]

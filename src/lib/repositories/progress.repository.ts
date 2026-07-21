@@ -6,6 +6,8 @@ import {
 	type AttemptContext,
 	type Bookmark,
 	type DailyStat,
+	type ExamResult,
+	type ExamSession,
 	LOCAL_USER_ID,
 	type QuestionAttempt,
 	type StudySettings,
@@ -34,6 +36,17 @@ export interface IProgressRepository {
 		score: number,
 	): Promise<void>;
 	getRecentTestSessions(limit: number): Promise<TestSession[]>;
+	createExamSession(session: ExamSession): Promise<void>;
+	/** Yarıda kalmış sınav varsa döner — çökme sonrası kurtarma için. */
+	getResumableExamSession(): Promise<ExamSession | null>;
+	/** Sınav sürerken durumu diske yazar; çökme sonrası kayıp bu aralıkla sınırlı kalır. */
+	saveExamProgress(
+		sessionId: string,
+		patch: Pick<ExamSession, "answers" | "flagged" | "remainingSeconds">,
+	): Promise<void>;
+	completeExamSession(sessionId: string, result: ExamResult): Promise<void>;
+	abandonExamSession(sessionId: string): Promise<void>;
+	getRecentExamSessions(limit: number): Promise<ExamSession[]>;
 	getSettings(): Promise<StudySettings>;
 	saveSettings(patch: Partial<StudySettings>): Promise<void>;
 	getDailyStats(days: number): Promise<DailyStat[]>;
@@ -223,6 +236,50 @@ class DexieProgressRepository implements IProgressRepository {
 			.reverse()
 			.sortBy("startedAt");
 		return sessions.slice(0, limit);
+	}
+
+	async createExamSession(session: ExamSession): Promise<void> {
+		await getDb().examSessions.add(session);
+	}
+
+	async getResumableExamSession(): Promise<ExamSession | null> {
+		const open = await getDb()
+			.examSessions.where("[userId+status]")
+			.equals([this.userId, "in-progress"])
+			.sortBy("startedAt");
+		return open.at(-1) ?? null;
+	}
+
+	async saveExamProgress(
+		sessionId: string,
+		patch: Pick<ExamSession, "answers" | "flagged" | "remainingSeconds">,
+	): Promise<void> {
+		await getDb().examSessions.update(sessionId, patch);
+	}
+
+	async completeExamSession(
+		sessionId: string,
+		result: ExamResult,
+	): Promise<void> {
+		await getDb().examSessions.update(sessionId, {
+			result,
+			status: "completed",
+			completedAt: new Date().toISOString(),
+			remainingSeconds: 0,
+		});
+	}
+
+	async abandonExamSession(sessionId: string): Promise<void> {
+		await getDb().examSessions.update(sessionId, { status: "abandoned" });
+	}
+
+	async getRecentExamSessions(limit: number): Promise<ExamSession[]> {
+		const sessions = await getDb()
+			.examSessions.where("userId")
+			.equals(this.userId)
+			.reverse()
+			.sortBy("startedAt");
+		return sessions.filter((s) => s.status === "completed").slice(0, limit);
 	}
 
 	async getSettings(): Promise<StudySettings> {

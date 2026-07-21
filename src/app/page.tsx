@@ -1,4 +1,4 @@
-import { BookOpen, ListChecks, ShieldCheck } from "lucide-react";
+import { BookOpen, ListChecks, ShieldCheck, Timer } from "lucide-react";
 import { Card, CardLink, SectionHeading } from "@/components/ui/card";
 import { ContinueCard } from "@/features/progress/continue-card";
 import { TodaySummary } from "@/features/progress/today-summary";
@@ -41,6 +41,14 @@ export default async function HomePage() {
 						<h3 className="mt-2 font-bold">Testler</h3>
 						<p className="mt-1 text-sm text-fg-muted">
 							{manifest.totals.publishedQuestions} soru, dört zorluk seviyesi.
+						</p>
+					</CardLink>
+					<CardLink href="/deneme" className="sm:col-span-2">
+						<Timer aria-hidden size={22} className="text-brand" />
+						<h3 className="mt-2 font-bold">Deneme Sınavları</h3>
+						<p className="mt-1 text-sm text-fg-muted">
+							Gerçek sınav formatında, süreli. Sonunda ders bazlı analiz ve
+							öncelikli çalışma önerisi.
 						</p>
 					</CardLink>
 				</div>

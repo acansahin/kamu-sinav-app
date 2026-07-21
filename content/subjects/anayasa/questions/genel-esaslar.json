@@ -1,0 +1,357 @@
+[
+	{
+		"id": "anayasa-genel-001",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "kolay",
+		"stem": "1982 Anayasası'na göre Türkiye Devleti'nin başkenti ve millî marşı aşağıdakilerden hangisinde birlikte doğru verilmiştir?",
+		"options": [
+			"İstanbul – İstiklal Marşı",
+			"Ankara – İstiklal Marşı",
+			"Ankara – Onuncu Yıl Marşı",
+			"İstanbul – Onuncu Yıl Marşı"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 3. maddesine göre Türkiye Devleti ülkesi ve milletiyle bölünmez bir bütündür; dili Türkçe, bayrağı beyaz ay yıldızlı al bayrak, millî marşı İstiklal Marşı ve başkenti Ankara'dır. Bu unsurların tamamı tek maddede sayılır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-3", "tanim"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-genel-002",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "kolay",
+		"stem": "Anayasa'ya göre egemenlik kime aittir?",
+		"options": [
+			"Türkiye Büyük Millet Meclisine",
+			"Cumhurbaşkanına",
+			"Kayıtsız şartsız Millete",
+			"Anayasa Mahkemesine"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 6. maddesi 'Egemenlik, kayıtsız şartsız Milletindir.' der. Millet egemenliğini Anayasa'nın koyduğu esaslara göre yetkili organları eliyle kullanır. TBMM egemenliğin sahibi değil, onu kullanan organlardan biridir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-6", "egemenlik"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-genel-003",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "kolay",
+		"stem": "Anayasa'ya göre yasama yetkisi kime aittir ve devredilebilir mi?",
+		"options": [
+			"Türkiye Büyük Millet Meclisine aittir ve devredilemez.",
+			"Türkiye Büyük Millet Meclisine aittir ve Cumhurbaşkanına devredilebilir.",
+			"Cumhurbaşkanına aittir ve devredilemez.",
+			"Bakanlıklara aittir ve devredilebilir."
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 7. maddesine göre yasama yetkisi Türk Milleti adına Türkiye Büyük Millet Meclisinindir ve bu yetki devredilemez. 'Devredilemez' ibaresi Anayasa'da yalnızca yasama yetkisi için kullanılır; yürütme ve yargı maddelerinde bu kelime geçmez.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-7", "yasama"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-genel-004",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 2. maddesinde sayılan Cumhuriyetin nitelikleri arasında aşağıdakilerden hangisi yer almaz?",
+		"options": [
+			"Demokratik",
+			"Laik",
+			"Federal",
+			"Sosyal"
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 2'ye göre Türkiye Cumhuriyeti, toplumun huzuru, millî dayanışma ve adalet anlayışı içinde, insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, başlangıçta belirtilen temel ilkelere dayanan, demokratik, laik ve sosyal bir hukuk Devletidir. 'Federal' maddede geçmez; Türkiye üniter bir devlettir ancak bu nitelik de madde 2'de sayılanlar arasında değildir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-2", "nitelikler"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-genel-005",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "Anayasa'ya göre yargı yetkisi kim adına ve hangi nitelikteki mahkemelerce kullanılır?",
+		"options": [
+			"Devlet adına, bağımsız mahkemelerce",
+			"Türk Milleti adına, bağımsız ve tarafsız mahkemelerce",
+			"Cumhurbaşkanı adına, yüksek mahkemelerce",
+			"Türkiye Büyük Millet Meclisi adına, bağımsız mahkemelerce"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 9. maddesine göre yargı yetkisi, Türk Milleti adına bağımsız ve tarafsız mahkemelerce kullanılır. 'Tarafsız' ibaresi 2017 Anayasa değişikliğiyle eklenmiştir; yalnızca 'bağımsız' diyen şık eksik kalır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-9", "yargi"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-genel-006",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 11. maddesine göre aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Anayasa hükümleri yalnızca yasama ve yürütme organlarını bağlar.",
+			"Kanunlar Anayasa'ya aykırı olamaz.",
+			"Anayasa hükümleri kişileri bağlamaz, yalnızca devlet organlarını bağlar.",
+			"Anayasa'ya aykırı kanunlar Cumhurbaşkanı kararnamesiyle yürürlükten kaldırılır."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 11, Anayasa'nın hem bağlayıcılığını hem üstünlüğünü düzenler: Anayasa hükümleri yasama, yürütme ve yargı organlarını, idare makamlarını ve diğer kuruluş ve kişileri bağlayan temel hukuk kurallarıdır; kanunlar Anayasa'ya aykırı olamaz. Bağlayıcılık kişileri de kapsar.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-11", "ustunluk"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-genel-007",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın kaç maddesi değiştirilemez ve değiştirilmesi teklif edilemez?",
+		"options": ["2", "3", "4", "5"],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 4. maddesi, 1. maddedeki devlet şeklinin Cumhuriyet olduğu hükmü ile 2. maddedeki Cumhuriyetin nitelikleri ve 3. madde hükümlerinin değiştirilemeyeceğini ve değiştirilmesinin teklif edilemeyeceğini düzenler. Yani değiştirilemeyen madde sayısı üçtür; 4. madde bu yasağı koyan maddedir, yasağın kapsamında değildir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-4", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-genel-008",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 6. maddesinde yer alan 'Hiçbir kimse veya organ kaynağını Anayasadan almayan bir Devlet yetkisi kullanamaz.' hükmü öncelikle hangi ilkenin sonucudur?",
+		"options": [
+			"Sosyal devlet ilkesi",
+			"Millî egemenlik ilkesi",
+			"Kanun önünde eşitlik ilkesi",
+			"Ölçülülük ilkesi"
+		],
+		"correctIndex": 1,
+		"explanation": "Bu hüküm, egemenliğin kayıtsız şartsız Millete ait olmasının doğrudan sonucudur. Egemenlik Milletin olduğuna göre, hiçbir organ yetkisini Milletin iradesini yansıtan Anayasa dışında bir kaynaktan alamaz. Aynı zamanda hukuk devleti ilkesini de destekler, ancak maddenin doğrudan konusu millî egemenliktir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-6", "yorum"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-genel-009",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 10. maddesindeki kanun önünde eşitlik ilkesine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Kadınlar ve erkekler eşit haklara sahiptir ve Devlet bu eşitliğin yaşama geçmesini sağlamakla yükümlüdür.",
+			"Hiçbir kişiye, aileye, zümreye veya sınıfa imtiyaz tanınamaz.",
+			"Devlet organları ve idare makamları bütün işlemlerinde kanun önünde eşitlik ilkesine uygun hareket etmek zorundadır.",
+			"Çocuklar, yaşlılar ve engelliler için alınacak koruyucu tedbirler eşitlik ilkesine aykırı sayılır."
+		],
+		"correctIndex": 3,
+		"explanation": "Madde 10, çocuklar, yaşlılar, engelliler, harp ve vazife şehitlerinin dul ve yetimleri ile malul ve gaziler için alınacak tedbirlerin eşitlik ilkesine aykırı sayılmayacağını açıkça belirtir. Bu, biçimsel eşitliğin yanında fiilî eşitliği sağlamaya yönelik pozitif ayrımcılığa izin veren bir hükümdür; dolayısıyla IV. ifade yanlıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-10", "esitlik"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-genel-010",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "uzman",
+		"stem": "Türkiye Büyük Millet Meclisine, Anayasa'nın 2. maddesindeki 'laik' ibaresinin metinden çıkarılmasına ilişkin bir Anayasa değişikliği teklifi sunulmuştur. Bu teklif hakkında ne söylenebilir?",
+		"options": [
+			"Teklif, Meclisin üye tamsayısının beşte üçü ile kabul edilebilir.",
+			"Teklif, zorunlu halkoyuna sunulmak şartıyla kabul edilebilir.",
+			"Madde 2 değiştirilemeyecek hükümler arasında olduğundan, değişiklik teklif dahi edilemez.",
+			"Teklif ancak Cumhurbaşkanının onayıyla görüşülebilir."
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 4. maddesi, 2. maddedeki Cumhuriyetin niteliklerinin değiştirilemeyeceğini ve değiştirilmesinin teklif edilemeyeceğini düzenler. Yasak yalnızca değiştirmeyi değil teklif etmeyi de kapsadığından, oy oranı veya halkoyu gibi usuller hiç gündeme gelmez; teklif en baştan Anayasa'ya aykırıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-4", "senaryo"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-genel-011",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "uzman",
+		"stem": "Anayasa'nın 7, 8 ve 9. maddelerinde düzenlenen erkler ve bunların sahipleri aşağıdakilerden hangisinde doğru eşleştirilmiştir?",
+		"options": [
+			"Yasama: TBMM — Yürütme: Cumhurbaşkanı — Yargı: Bağımsız ve tarafsız mahkemeler",
+			"Yasama: TBMM — Yürütme: Bakanlar Kurulu — Yargı: Yüksek mahkemeler",
+			"Yasama: Cumhurbaşkanı — Yürütme: TBMM — Yargı: Bağımsız mahkemeler",
+			"Yasama: TBMM — Yürütme: Cumhurbaşkanı ve Bakanlar Kurulu — Yargı: Anayasa Mahkemesi"
+		],
+		"correctIndex": 0,
+		"explanation": "2017 Anayasa değişikliğiyle Bakanlar Kurulu kaldırılmış, yürütme yetkisi ve görevi tek başına Cumhurbaşkanına verilmiştir (m. 8). Yasama TBMM'nin (m. 7), yargı ise Türk Milleti adına bağımsız ve tarafsız mahkemelerindir (m. 9). 'Bakanlar Kurulu' geçen şıklar yürürlükten kalkmış düzeni yansıtır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "7-9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["kuvvetler-ayriligi", "guncellik"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-genel-012",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "uzman",
+		"stem": "Anayasa'nın 'Genel Esaslar' bölümüne ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Yasama yetkisinin devredilemeyeceği açıkça belirtilmiştir.",
+			"Yürütme yetkisinin devredilemeyeceği açıkça belirtilmiştir.",
+			"Egemenliğin kullanılması hiçbir surette hiçbir kişiye, zümreye veya sınıfa bırakılamaz.",
+			"Anayasa hükümleri idare makamlarını da bağlar."
+		],
+		"correctIndex": 1,
+		"explanation": "'Devredilemez' ibaresi Anayasa'da yalnızca yasama yetkisi bakımından kullanılmıştır (m. 7). Madde 8'de yürütme için böyle bir ifade yer almaz; yürütme yetkisi ve görevinin Anayasa'ya ve kanunlara uygun olarak kullanılacağı belirtilir. Diğer üç ifade sırasıyla m. 7, m. 6 ve m. 11 hükümleriyle uyumludur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "6-11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["tuzak", "karsilastirma"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	}
+]

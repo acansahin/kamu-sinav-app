@@ -2,6 +2,7 @@ import Dexie, { type EntityTable, type Table } from "dexie";
 import type {
 	Bookmark,
 	DailyStat,
+	ExamSession,
 	QuestionAttempt,
 	QuestionReport,
 	StudySettings,
@@ -30,6 +31,7 @@ export class AppDatabase extends Dexie {
 	attempts!: EntityTable<QuestionAttempt, "id">;
 	topicProgress!: Table<TopicProgress, [string, string]>;
 	testSessions!: EntityTable<TestSession, "id">;
+	examSessions!: EntityTable<ExamSession, "id">;
 	dailyStats!: Table<DailyStat, [string, string]>;
 	settings!: EntityTable<StudySettings, "userId">;
 	bookmarks!: Table<Bookmark, [string, string, string]>;
@@ -47,6 +49,13 @@ export class AppDatabase extends Dexie {
 			settings: "&userId",
 			bookmarks: "[userId+refType+refId], userId, refType, createdAt",
 			reports: "&id, userId, questionId, status",
+		});
+
+		// v2: deneme sınavı oturumları. Yeni tablo eklemek mevcut veriyi
+		// etkilemez; Dexie eski sürümden gelen kullanıcılar için tabloyu
+		// boş olarak oluşturur.
+		this.version(2).stores({
+			examSessions: "&id, userId, status, startedAt, [userId+status]",
 		});
 	}
 }

@@ -65,6 +65,48 @@ export interface TestSession {
 	score?: number;
 }
 
+export type ExamSessionStatus = "in-progress" | "completed" | "abandoned";
+
+/**
+ * Deneme sınavı oturumu.
+ *
+ * `remainingSeconds` düzenli aralıklarla yazılır: sekme kapanır veya uygulama
+ * çökerse kullanıcı sınavı kaldığı yerden sürdürebilsin diye. Bu, konu
+ * testinden farklı olarak sınavın uzun sürmesinden kaynaklanan bir gerekliliktir.
+ */
+export interface ExamSession {
+	id: string;
+	userId: string;
+	templateId: string;
+	templateName: string;
+	questionIds: string[];
+	answers: Record<string, AnswerIndex | null>;
+	/** Kullanıcının "sonra dönerim" diye işaretlediği sorular */
+	flagged: string[];
+	status: ExamSessionStatus;
+	startedAt: string;
+	durationSeconds: number;
+	remainingSeconds: number;
+	passingScore: number;
+	completedAt?: string;
+	result?: ExamResult;
+}
+
+export interface ExamResult {
+	total: number;
+	correct: number;
+	wrong: number;
+	empty: number;
+	/** 100 üzerinden */
+	score: number;
+	passed: boolean;
+	durationMs: number;
+	bySubject: SubjectBreakdown[];
+	/** En düşük doğruluk oranına sahip konular, zayıftan güçlüye */
+	weakTopicIds: string[];
+	wrongQuestionIds: string[];
+}
+
 export interface DailyStat {
 	userId: string;
 	/** "2026-07-21" */
@@ -124,7 +166,10 @@ export interface QuestionReport {
 
 export interface SubjectBreakdown {
 	subjectId: string;
+	subjectName: string;
 	correct: number;
+	wrong: number;
+	empty: number;
 	total: number;
 	accuracy: number;
 }

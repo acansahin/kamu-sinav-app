@@ -29,6 +29,8 @@ export interface IContentRepository {
 	getTopic(subjectId: string, topicSlug: string): Promise<CompiledTopic | null>;
 	getSummary(subjectId: string, topicSlug: string): Promise<SummaryDoc | null>;
 	getQuestions(subjectId: string, topicSlug: string): Promise<Question[]>;
+	/** Tüm derslerin yayımlanmış soru havuzu — deneme sınavı için. */
+	getAllQuestions(): Promise<Question[]>;
 }
 
 const CONTENT_ROOT = path.join(process.cwd(), "public", "content");
@@ -121,6 +123,19 @@ class StaticFileContentRepository implements IContentRepository {
 			);
 		}
 		return parsed.data;
+	}
+
+	async getAllQuestions(): Promise<Question[]> {
+		const subjects = await this.getSubjects();
+
+		const perTopic = await Promise.all(
+			subjects.flatMap((subject) =>
+				subject.topics
+					.filter((topic) => topic.questionCount > 0)
+					.map((topic) => this.getQuestions(subject.id, topic.slug)),
+			),
+		);
+		return perTopic.flat();
 	}
 }
 

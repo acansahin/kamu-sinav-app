@@ -1,6 +1,13 @@
 "use client";
 
-import { BookOpen, House, ListChecks, Settings, TrendingUp } from "lucide-react";
+import {
+	BookOpen,
+	House,
+	ListChecks,
+	Settings,
+	Timer,
+	TrendingUp,
+} from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { Route } from "next";
@@ -18,6 +25,7 @@ const NAV_ITEMS: NavItem[] = [
 	{ href: "/", label: "Ana Sayfa", icon: House },
 	{ href: "/konular", label: "Konular", icon: BookOpen },
 	{ href: "/testler", label: "Testler", icon: ListChecks },
+	{ href: "/deneme", label: "Deneme", icon: Timer },
 	{ href: "/ilerleme", label: "İlerleme", icon: TrendingUp },
 ];
 
