@@ -1,0 +1,332 @@
+[
+	{
+		"id": "657-hak-001",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "Hizmeti 15 yıl olan bir Devlet memurunun yıllık izin süresi kaç gündür?",
+		"options": ["20 gün", "25 gün", "30 gün", "45 gün"],
+		"correctIndex": 2,
+		"explanation": "Madde 102'ye göre yıllık izin süresi, hizmeti 1 yıldan 10 yıla kadar (10 yıl dâhil) olanlar için 20 gün, hizmeti 10 yıldan fazla olanlar için 30 gündür. 15 yıl hizmeti olan memur ikinci gruptadır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "102"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["yillik-izin"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-hak-002",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "Eşi doğum yapan memura verilen babalık izni kaç gündür?",
+		"options": ["3 gün", "5 gün", "10 gün", "15 gün"],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 104. maddesine göre eşi doğum yapan memura 10 gün babalık izni verilir. İş Kanunu kapsamındaki işçiler için bu süre 2026'da 5 günden 10 güne çıkarılarak memurlarla eşitlenmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["babalik-izni"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-hak-003",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "Memurun kendisinin veya çocuğunun evlenmesi hâlinde verilen izin kaç gündür?",
+		"options": ["3 gün", "5 gün", "7 gün", "10 gün"],
+		"correctIndex": 2,
+		"explanation": "Madde 104'e göre memura, kendisinin veya çocuğunun evlenmesi; eşinin, çocuğunun, kendisinin veya eşinin ana, baba ve kardeşinin ölümü hâllerinde 7 gün izin verilir. Evlenme ve ölüm izni aynı süredir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["evlenme-olum-izni"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-hak-004",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 2026'da değiştirilen hâline göre memura verilen toplam analık izni kaç haftadır?",
+		"options": ["16 hafta", "18 hafta", "20 hafta", "24 hafta"],
+		"correctIndex": 3,
+		"explanation": "1 Mayıs 2026'da yürürlüğe giren 7578 sayılı Kanun ile 657 sayılı Kanun'un 104. maddesi değiştirilmiş; doğum sonrası analık izni 8 haftadan 16 haftaya, doğum öncesi 8 hafta ile birlikte toplam analık izni 16 haftadan 24 haftaya çıkarılmıştır. Doğum öncesi 8 haftalık sürede değişiklik yapılmamıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "7578 sayılı Kanun değişikliği işlenerek özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["analik-izni", "guncellik"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-hak-005",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'a göre Devlet memurlarının aşağıdakilerden hangisi hakkı değildir?",
+		"options": [
+			"Sendika kurma ve üye olma",
+			"Müracaat, şikâyet ve dava açma",
+			"Grev yapma",
+			"Emeklilik"
+		],
+		"correctIndex": 2,
+		"explanation": "Memurlar madde 22 uyarınca sendika ve üst kuruluşlar kurabilir ve bunlara üye olabilirler; ancak madde 27 grev yasağını düzenler ve memurların grev kararı vermesi, greve katılması veya grevi desteklemesi yasaktır. Sendika üyeliği ile grev hakkı karıştırılmamalıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "22"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["sendika", "grev", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-hak-006",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 18. maddesindeki güvenlik hakkı neyi ifade eder?",
+		"options": [
+			"Memurun görev yerinde can güvenliğinin sağlanmasını",
+			"Kanunlarda yazılı hâller dışında memurluğuna son verilemeyeceğini ve aylık ile başka haklarının elinden alınamayacağını",
+			"Memurun sosyal güvenlik primlerinin devletçe ödenmesini",
+			"Memurun görev yerinin değiştirilemeyeceğini"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 18 memurluk güvencesini düzenler: kanunlarda yazılı hâller dışında Devlet memurunun memurluğuna son verilmez, aylık ve başka hakları elinden alınamaz. Bu, liyakat ilkesinin memura sağladığı güvencenin somut karşılığıdır; görev yerinin hiç değiştirilemeyeceği anlamına gelmez.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "18"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["guvence", "madde-18"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-hak-007",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "zor",
+		"stem": "Hizmet süresi tam 10 yıl olan bir memurun yıllık izin süresi kaç gündür?",
+		"options": ["20 gün", "25 gün", "30 gün", "20 gün + 2 gün yol"],
+		"correctIndex": 0,
+		"explanation": "Madde 102'de eşik 'hizmeti 1 yıldan 10 yıla kadar (10 yıl dâhil) olanlar için 20 gün' biçiminde yazılmıştır. Tam 10 yıl bu gruba dâhildir, dolayısıyla izin 20 gündür. 30 güne hak kazanmak için hizmetin 10 yılı aşması gerekir. Yol izni ancak zorunlu hâllerde ve ayrıca eklenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "102"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["yillik-izin", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-hak-008",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "zor",
+		"stem": "Öğretmenlerin yıllık izin durumu aşağıdakilerden hangisidir?",
+		"options": [
+			"Diğer memurlar gibi 20 veya 30 gün yıllık izin kullanırlar.",
+			"Yaz tatili ile dinlenme tatillerinde izinli sayılırlar; ayrıca yıllık izin verilmez.",
+			"Yılda 45 gün yıllık izin kullanırlar.",
+			"Yalnızca hizmeti 10 yılı aşanlara yıllık izin verilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 103'e göre öğretmenler yaz tatili ile dinlenme tatillerinde izinli sayılırlar ve bunlara ayrıca yıllık izin verilmez. Bu, öğretmenlerin çalışma takviminin yapısından kaynaklanan özel bir düzenlemedir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "103"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["yillik-izin", "ogretmen"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-hak-009",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "zor",
+		"stem": "Çoğul gebelik hâlinde doğum öncesi analık izni süresine kaç hafta eklenir?",
+		"options": ["1 hafta", "2 hafta", "4 hafta", "8 hafta"],
+		"correctIndex": 1,
+		"explanation": "Madde 104'e göre çoğul gebelik hâlinde doğum öncesi sekiz haftalık analık izni süresine iki hafta eklenir; yani doğum öncesi izin 10 hafta olur. Doğum sonrası süre bu durumdan etkilenmez.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["analik-izni", "cogul-gebelik"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-hak-010",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "uzman",
+		"stem": "Sağlık durumu uygun olan bir memur, tabip raporuyla doğumdan önceki hangi süreye kadar görevine devam edebilir ve çalışılan süre ne olur?",
+		"options": [
+			"3 haftaya kadar; çalışılan süre doğum sonrası izne eklenir.",
+			"2 haftaya kadar; çalışılan süre doğum sonrası izne eklenir.",
+			"2 haftaya kadar; çalışılan süre izinden düşülür.",
+			"4 haftaya kadar; çalışılan süre yıllık izne eklenir."
+		],
+		"correctIndex": 1,
+		"explanation": "7578 sayılı Kanun'la yapılan değişiklikten sonra bu sınır 3 haftadan 2 haftaya indirilmiştir: sağlık durumu uygun olan memur, tabip raporuyla doğumdan önceki 2 haftaya kadar çalışabilir ve bu şekilde çalışılan süre doğum sonrası analık iznine eklenir. Süre izinden düşülmez, aksine eklenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "7578 sayılı Kanun değişikliği işlenerek özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["analik-izni", "guncellik", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-hak-011",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "uzman",
+		"stem": "Bir memura yıl içinde 10 günlük mazeret izni kullandırılmış, zaruret hâli nedeniyle 10 gün daha verilmiştir. İkinci 10 günlük süre için ne söylenebilir?",
+		"options": [
+			"Ek izin olarak verilir, herhangi bir izinden düşülmez.",
+			"Memurun yıllık izninden düşülür.",
+			"Ücretsiz izin olarak sayılır.",
+			"Hastalık izninden düşülür."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 104'e göre mazeret izni yılda 10 gündür; zaruret hâlinde öğretmenler hariç aynı usulle 10 gün daha verilebilir. Ancak bu ikinci 10 günlük süre, memurun yıllık izninden düşülür. Öğretmenlere bu ikinci süre verilmez.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["mazeret-izni", "senaryo"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-hak-012",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "uzman",
+		"stem": "Memurların hak ve izinlerine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Memurlar sendika kurabilir ve sendikalara üye olabilirler.",
+			"Üç yaşını doldurmamış bir çocuğu evlat edinen memura 8 hafta izin verilir.",
+			"Memurun toplam analık izni 16 haftadır.",
+			"Kanunlarda yazılı hâller dışında memurun memurluğuna son verilemez."
+		],
+		"correctIndex": 2,
+		"explanation": "Toplam analık izni 2026'da yürürlüğe giren 7578 sayılı Kanun'la 16 haftadan 24 haftaya çıkarılmıştır (doğum öncesi 8 hafta + doğum sonrası 16 hafta). '16 hafta' rakamı değişiklik öncesine aittir ve güncel değildir. Diğer üç ifade doğrudur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "7578 sayılı Kanun değişikliği işlenerek özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["guncellik", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	}
+]

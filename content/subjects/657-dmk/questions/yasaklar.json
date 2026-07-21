@@ -1,0 +1,352 @@
+[
+	{
+		"id": "657-yasak-001",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'a göre aşağıdakilerden hangisi Devlet memurları için yasak değildir?",
+		"options": [
+			"Greve katılmak",
+			"Sendikaya üye olmak",
+			"Ticari mümessil olmak",
+			"Gizli bilgileri izinsiz açıklamak"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 22 memurlara sendika ve üst kuruluşlar kurma ve bunlara üye olma hakkı tanır. Buna karşılık greve katılmak (m.27), ticari mümessil olmak (m.28) ve gizli bilgileri izinsiz açıklamak (m.31) yasaktır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "22"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["sendika", "grev"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-yasak-002",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "kolay",
+		"stem": "Eşi veya reşit olmayan çocuğu, memurlar için yasaklanan faaliyetlerde bulunan bir memur bu durumu kaç gün içinde kurumuna bildirmelidir?",
+		"options": ["7 gün", "15 gün", "30 gün", "60 gün"],
+		"correctIndex": 1,
+		"explanation": "Madde 28'e göre eşleri, reşit olmayan veya mahcur olan çocukları yasaklanan faaliyetlerde bulunan memurlar bu durumu 15 gün içinde bağlı oldukları kuruma bildirmekle yükümlüdürler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["ticaret-yasagi", "sure"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-yasak-003",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'da düzenlenen yasaklar kaç tanedir?",
+		"options": ["4", "5", "6", "8"],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 26 ile 31. maddeleri arasında altı yasak düzenlenir: toplu eylem ve hareketlerde bulunma, grev, ticaret ve diğer kazanç getirici faaliyetlerde bulunma, hediye alma ve menfaat sağlama, denetimindeki teşebbüsten menfaat sağlama, gizli bilgileri açıklama.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "26-31"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["sayi"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-yasak-004",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "orta",
+		"stem": "Gizli bilgileri açıklama yasağı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Memur görevinden ayrıldıktan sonra bu yasak sona erer.",
+			"Yasak görevden ayrıldıktan sonra da devam eder; açıklama ancak yetkili bakanın yazılı izniyle mümkündür.",
+			"Amirin sözlü izniyle gizli bilgi açıklanabilir.",
+			"Yasak yalnızca yazılı belgeler için geçerlidir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 31'e göre memurların kamu hizmetleri ile ilgili gizli bilgileri, görevlerinden ayrılmış bile olsalar, yetkili bakanın yazılı izni olmadıkça açıklamaları yasaktır. İki ayrıntı belirleyicidir: yasak görevden sonra da sürer ve izin yetkili bakandan, yazılı olarak alınır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "31"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-31", "gizlilik"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-yasak-005",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "orta",
+		"stem": "Ticaret yasağı bakımından aşağıdakilerden hangisi memur için serbesttir?",
+		"options": [
+			"Kollektif şirkette ortak olmak",
+			"Komandit şirkette komandite ortak olmak",
+			"Üyesi olduğu yapı kooperatifinin yönetim kurulunda görev almak",
+			"Ticari vekil olmak"
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 28, memurların üyesi oldukları yapı, kalkınma ve tüketim kooperatifleri, kamu kurumu niteliğindeki meslek kuruluşları ve kanunla kurulmuş yardım sandıklarının yönetim, denetim ve disiplin kurulu üyeliklerini yasağın dışında tutar. Kollektif şirkette ortaklık, komandite ortaklık ve ticari vekillik ise açıkça yasaktır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["ticaret-yasagi", "istisna"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-yasak-006",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 30. maddesindeki 'denetimindeki teşebbüsten menfaat sağlama yasağı' neyi kapsar?",
+		"options": [
+			"Yalnızca nakit para alınmasını",
+			"Denetimi altında bulunan veya görevi ya da kurumuyla ilgisi olan bir teşebbüsten her ne ad altında olursa olsun menfaat sağlanmasını",
+			"Yalnızca görev sırasında sağlanan menfaatleri",
+			"Yalnızca doğrudan sağlanan menfaatleri"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 30, memurun denetimi altında bulunan veya kendi görevi veya mensup olduğu kurum ile ilgisi olan bir teşebbüsten, doğrudan doğruya veya aracı eliyle, her ne ad altında olursa olsun bir menfaat sağlamasını yasaklar. Yasak menfaatin türüyle, zamanıyla veya doğrudan olup olmadığıyla sınırlı değildir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "30"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-30", "menfaat"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-yasak-007",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "zor",
+		"stem": "Bir memur, kurulacak bir komandit şirkete ortak olmak istemektedir. Hangi ortaklık türü mümkündür?",
+		"options": [
+			"Komandite ortak olabilir.",
+			"Komanditer ortak olabilir.",
+			"Her iki ortaklık türü de yasaktır.",
+			"Ancak kurumunun izniyle komandite ortak olabilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 28, memurların komandit şirkette komandite ortak olmasını yasaklar. Komandite ortak şirketi yönetip sınırsız sorumluluk taşıdığı için tacir sayılır; komanditer ortak ise yalnızca koyduğu sermaye ile sorumlu olup yönetimde yer almadığından bu yasağın dışındadır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["ticaret-yasagi", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-yasak-008",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "zor",
+		"stem": "Grev yasağının kapsamına ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca greve fiilen katılmak yasaktır.",
+			"Greve karar vermek, tertiplemek, ilan etmek, propaganda yapmak, katılmak, desteklemek ve teşvik etmek yasaktır.",
+			"Grev yalnızca kamu hizmeti aksarsa yasaktır.",
+			"Sendika kararıyla yapılan grev yasak kapsamı dışındadır."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 27 yasağı geniş tutar: memurların greve karar vermeleri, grev tertiplemeleri, ilan etmeleri, bu yolda propaganda yapmaları yasaktır; ayrıca herhangi bir greve veya grev teşebbüsüne katılamaz, grevi destekleyemez veya teşvik edemezler. Sendika üyeliği bu yasağı ortadan kaldırmaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "27"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["grev", "kapsam"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-yasak-009",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "zor",
+		"stem": "Memurların kamu hizmetlerini aksatacak şekilde kasıtlı olarak birlikte göreve gelmemeleri hangi yasağın kapsamındadır?",
+		"options": [
+			"Grev yasağı",
+			"Toplu eylem ve hareketlerde bulunma yasağı",
+			"Ticaret yasağı",
+			"Gizli bilgileri açıklama yasağı"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 26, memurların kamu hizmetlerini aksatacak şekilde memurluktan kasıtlı olarak birlikte çekilmelerini, göreve gelmemelerini veya işleri yavaşlatma ya da aksatma sonucu doğuracak eylem ve hareketlerde bulunmalarını yasaklar. Grev yasağı ise ayrı bir madde olan 27'de düzenlenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "26"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-26", "ayirim"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-yasak-010",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "uzman",
+		"stem": "Emekli olan bir memur, görevi sırasında öğrendiği gizli bir bilgiyi bir gazeteciye aktarmıştır. Bu davranış için ne söylenebilir?",
+		"options": [
+			"Memurluğu sona erdiği için yasak kapsamında değildir.",
+			"Yasak görevden ayrılmış olsa dahi devam eder; yetkili bakanın yazılı izni olmadan açıklama yapılamaz.",
+			"Emeklilerin açıklama yapması kurum izniyle mümkündür.",
+			"Yalnızca aktif memurlar için geçerli olduğundan hukuka aykırılık yoktur."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 31 bu noktayı açıkça düzenler: memurların kamu hizmetleri ile ilgili gizli bilgileri, görevlerinden ayrılmış bile olsalar, yetkili bakanın yazılı izni olmadıkça açıklamaları yasaktır. Emeklilik veya istifa yasağı sona erdirmez.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "31"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-31", "senaryo"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-yasak-011",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "uzman",
+		"stem": "Bir memurun eşi, memurlar için yasaklanan bir ticari faaliyete başlamıştır. Memurun yükümlülüğü nedir?",
+		"options": [
+			"Herhangi bir yükümlülüğü yoktur; yasak yalnızca memurun kendisini bağlar.",
+			"Durumu 15 gün içinde bağlı olduğu kuruma bildirmekle yükümlüdür.",
+			"Eşinin faaliyeti sona erdirmesini sağlamakla yükümlüdür.",
+			"Durumu bir ay içinde disiplin amirine bildirmekle yükümlüdür."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 28'e göre eşleri, reşit olmayan veya mahcur olan çocukları yasaklanan faaliyetlerde bulunan memurlar bu durumu 15 gün içinde bağlı oldukları kuruma bildirmekle yükümlüdürler. Yükümlülük faaliyeti engellemek değil, bildirmektir; süre 15 gündür ve bildirim kuruma yapılır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["ticaret-yasagi", "senaryo"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-yasak-012",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "uzman",
+		"stem": "657 sayılı Kanun'daki yasaklara ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Memurlar grevi desteklemek veya teşvik etmek fiilini de işleyemez.",
+			"Memurlar kamu kurumu niteliğindeki meslek kuruluşlarının yönetim kurullarında görev alabilir.",
+			"Gizli bilgi açıklama izni, memurun bağlı olduğu amir tarafından verilebilir.",
+			"Memurun denetimi altındaki bir teşebbüsten aracı eliyle menfaat sağlaması yasaktır."
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 31'e göre gizli bilgilerin açıklanabilmesi için yetkili bakanın yazılı izni gerekir; amirin izni yeterli değildir. Diğer üç ifade sırasıyla madde 27, madde 28 ve madde 30 hükümleriyle uyumludur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "31"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	}
+]

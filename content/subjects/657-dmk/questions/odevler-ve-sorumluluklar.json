@@ -1,0 +1,357 @@
+[
+	{
+		"id": "657-odev-001",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "kolay",
+		"stem": "Memur, amirinden aldığı emri Anayasa, kanun, tüzük ve yönetmelik hükümlerine aykırı görürse ne yapar?",
+		"options": [
+			"Emri yerine getirir, sonra şikâyet eder.",
+			"Emri yerine getirmez ve bu aykırılığı emri verene bildirir.",
+			"Emri yerine getirmez ve doğrudan savcılığa başvurur.",
+			"Emri yerine getirip yazılı itirazda bulunur."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 11'e göre Devlet memuru amirinden aldığı emri Anayasa, kanun, tüzük ve yönetmelik hükümlerine aykırı görürse yerine getirmez ve bu aykırılığı o emri verene bildirir. Bildirim doğrudan emri verene yapılır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-11", "emir"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-odev-002",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "kolay",
+		"stem": "Konusu suç teşkil eden bir emir karşısında memurun durumu nedir?",
+		"options": [
+			"Emir yazılı olarak yenilenirse yerine getirir.",
+			"Hiçbir surette yerine getirmez; yerine getiren sorumluluktan kurtulamaz.",
+			"Amirin sorumluluğu üstlenmesi hâlinde yerine getirir.",
+			"Disiplin amirinin onayıyla yerine getirir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 11'in son cümlesi mutlaktır: konusu suç teşkil eden emir hiçbir suretle yerine getirilmez, yerine getiren kimse sorumluluktan kurtulamaz. Yazılı yenileme kuralı yalnızca hukuka aykırı ama suç teşkil etmeyen emirler için işler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-11", "suc-emri"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-odev-003",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "kolay",
+		"stem": "Asli Devlet memurluğuna atanan memur en geç ne kadar süre içinde yemin eder?",
+		"options": ["15 gün", "1 ay", "3 ay", "6 ay"],
+		"correctIndex": 1,
+		"explanation": "Madde 6'ya göre memurlar, asli Devlet memurluğuna atandıktan sonra en geç bir ay içinde kurumlarınca düzenlenecek merasimle yetkili amirlerin huzurunda yemin eder ve Yemin Belgesini imzalar. Belge özlük dosyasına konur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["yemin", "sure"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-odev-004",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "Memurun hukuka aykırı gördüğü emri yerine getirme yükümlülüğü hangi durumda doğar?",
+		"options": [
+			"Amir emrinde sözlü olarak ısrar ederse",
+			"Amir emrinde ısrar eder ve emri yazı ile yenilerse",
+			"Amir emri bir üst amire onaylatırsa",
+			"Emir mesai saatleri içinde verilirse"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 11'e göre amir emrinde ısrar eder ve bu emrini yazı ile yenilerse memur bu emri yapmaya mecburdur; ancak emrin yerine getirilmesinden doğacak sorumluluk emri verene aittir. Sözlü ısrar bu yükümlülüğü doğurmaz; yazılı olma şartı esaslıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-11", "yazili-emir"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-odev-005",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "Memurların kamu görevleri hakkında basına bilgi veya demeç vermesi konusunda 657 sayılı Kanun ne öngörür?",
+		"options": [
+			"Her memur kendi görev alanıyla ilgili demeç verebilir.",
+			"Memurlar bilgi veya demeç veremez; bu yetki bakanın yetkili kılacağı görevlide, illerde validedir.",
+			"Yalnızca yazılı basına demeç verilebilir.",
+			"Amirin sözlü izniyle her memur demeç verebilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 15'e göre Devlet memurları kamu görevleri hakkında basına, haber ajanslarına veya radyo ve televizyon kurumlarına bilgi veya demeç veremezler. Bu konuda gerekli bilgi ancak bakanın yetkili kılacağı görevli, illerde ise valiler veya yetkili kılacağı görevli tarafından verilebilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-15", "basin"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-odev-006",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "Memurların yetkilerini kullanırken kusurlarından doğan ve kişilerin uğradığı zararlarda dava kime karşı açılır?",
+		"options": [
+			"Zarara sebep olan memura karşı",
+			"İlgili kuruma karşı",
+			"Disiplin kuruluna karşı",
+			"Hem memura hem kuruma karşı birlikte"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 13'e göre kişiler, kamu hukukuna tabi görevlerle ilgili olarak uğradıkları zararlardan dolayı bu görevleri yerine getiren personel aleyhine değil, ilgili kurum aleyhine dava açarlar. Kurum, kusurlu personele sonradan rücu eder.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-13", "sorumluluk"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-odev-007",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "zor",
+		"stem": "Amiri, memura hukuka aykırı bir emri yazılı olarak yenilemiştir ve memur emri yerine getirmiştir. Doğacak sorumluluk kime aittir?",
+		"options": [
+			"Emri yerine getiren memura",
+			"Emri verene",
+			"Memur ve amire eşit olarak",
+			"Kuruma"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 11'e göre amir emrinde ısrar eder ve emrini yazı ile yenilerse memur emri yapmaya mecburdur; ancak emrin yerine getirilmesinden doğacak sorumluluk emri verene aittir. Bu kural, memuru yazılı emir zincirine uymanın sonuçlarından korur — emrin konusu suç teşkil etmiyorsa.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-11", "sorumluluk"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-odev-008",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 7. maddesindeki tarafsızlık ve Devlete bağlılık ödevi kapsamında aşağıdakilerden hangisi yasaktır?",
+		"options": [
+			"Sendikaya üye olmak",
+			"Siyasi partiye üye olmak",
+			"Mesleki dernek kurmak",
+			"Kamuya açık bir konferansa dinleyici olarak katılmak"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 7'ye göre Devlet memurları siyasi partiye üye olamazlar ve herhangi bir siyasi parti, kişi veya zümrenin yararını veya zararını hedef tutan davranışta bulunamazlar. Buna karşılık sendika kurma ve üye olma hakkı madde 22 ile tanınmıştır; siyasi parti üyeliği ile sendika üyeliği karıştırılmamalıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-7", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-odev-009",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "zor",
+		"stem": "Kendisine teslim edilen Devlet malını kusuru nedeniyle kaybeden memur zararı nasıl öder?",
+		"options": [
+			"Malın alış bedeli üzerinden",
+			"Rayiç bedel üzerinden",
+			"Zarar tutarının yarısı kadar",
+			"Ödemez; zarar kurum bütçesinden karşılanır"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 12'ye göre Devlet memuru, görevini dikkat ve itina ile yerine getirmek ve kendisine teslim edilen Devlet malını korumak ve her an hizmete hazır hâlde bulundurmak zorundadır. Kusuru sonucu doğan zararlar rayiç bedel üzerinden ödettirilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-12", "zarar"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-odev-010",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "uzman",
+		"stem": "Bir amir, memurundan resmî evrakta sahtecilik yapmasını istemiş, memur itiraz edince emri yazılı olarak yenilemiştir. Memur ne yapmalıdır?",
+		"options": [
+			"Emir yazılı olarak yenilendiği için yerine getirmeli; sorumluluk amire aittir.",
+			"Emri hiçbir surette yerine getirmemelidir; konusu suç teşkil eden emirde yazılı yenileme kuralı işlemez.",
+			"Emri yerine getirip durumu sonradan bildirmelidir.",
+			"Bir üst amirin onayını alarak yerine getirmelidir."
+		],
+		"correctIndex": 1,
+		"explanation": "Resmî evrakta sahtecilik suç teşkil eder. Madde 11'in son cümlesine göre konusu suç teşkil eden emir hiçbir suretle yerine getirilmez ve yerine getiren kimse sorumluluktan kurtulamaz. Emrin yazılı olarak yenilenmiş olması bu mutlak kuralı değiştirmez; yazılı yenileme yalnızca suç teşkil etmeyen hukuka aykırı emirler için sorumluluğu amire geçirir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-11", "senaryo", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-odev-011",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "uzman",
+		"stem": "Bir memur, kurumunun yürüttüğü bir proje hakkında yerel bir televizyon kanalına kendi inisiyatifiyle demeç vermiştir. Bu davranış için ne söylenebilir?",
+		"options": [
+			"Serbesttir; memur görev alanıyla ilgili konularda bilgi verebilir.",
+			"657 sayılı Kanun'un 15. maddesine aykırıdır; bu yetki bakanın yetkili kıldığı görevliye, illerde valiye aittir.",
+			"Yalnızca yazılı basına demeç verilmesi hâlinde aykırılık doğar.",
+			"Amirinin sözlü izni varsa hukuka uygundur."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 15, memurların kamu görevleri hakkında basına, haber ajanslarına, radyo ve televizyon kurumlarına bilgi veya demeç vermesini yasaklar; yayın türü arasında ayrım yapmaz. Bilgi verme yetkisi bakanın yetkili kılacağı görevliye, illerde valiler veya onların yetkili kılacağı görevliye aittir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-15", "senaryo"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-odev-012",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "uzman",
+		"stem": "Memurların ödev ve sorumluluklarına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Memur, hukuka aykırı gördüğü emri yerine getirmez ve aykırılığı emri verene bildirir.",
+			"Resmî belge, araç ve gereçler yetki verilen mahaller dışına çıkarılamaz.",
+			"Konusu suç teşkil eden emri yerine getiren memur, emri verenin yazılı talimatı varsa sorumluluktan kurtulur.",
+			"Memurlar görevlerini yerine getirirken dil, ırk, cinsiyet, din ve mezhep gibi ayırım yapamazlar."
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 11'e göre konusu suç teşkil eden emri yerine getiren kimse sorumluluktan kurtulamaz; emrin yazılı olması bu sonucu değiştirmez. Diğer üç ifade sırasıyla madde 11, madde 16 ve madde 7 hükümleriyle uyumludur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["tuzak", "madde-11"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	}
+]

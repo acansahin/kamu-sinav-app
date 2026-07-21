@@ -1,0 +1,353 @@
+[
+	{
+		"id": "657-atama-001",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'a göre Devlet memuru olabilmek için genel olarak kaç yaşın tamamlanmış olması gerekir?",
+		"options": ["15", "16", "18", "21"],
+		"correctIndex": 2,
+		"explanation": "Madde 40'a göre genel olarak 18 yaşını tamamlayanlar Devlet memuru olabilirler. Bir meslek veya sanat okulunu bitirenler ise en az 15 yaşını doldurmuş olmak ve kazai rüşt kararı almak şartıyla atanabilirler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "40"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["yas", "madde-40"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-atama-002",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "kolay",
+		"stem": "Devlet memurluğunda adaylık süresi için doğru olan aşağıdakilerden hangisidir?",
+		"options": [
+			"Bir yıldan az, iki yıldan çok olamaz",
+			"En az iki yıl olmalıdır",
+			"Altı ay ile bir yıl arasındadır",
+			"Kurumun takdirine bırakılmıştır"
+		],
+		"correctIndex": 0,
+		"explanation": "Madde 54'e göre adaylık süresi bir yıldan az, iki yıldan çok olamaz ve bu süre içinde aday memurun başka kurumlara nakli yapılamaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "54"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["adaylik", "sure"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-atama-003",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'a göre Devlet memurluğuna alınmada genel olarak aranan öğrenim şartı nedir?",
+		"options": [
+			"En az ilkokul mezunu olmak",
+			"En az ortaokul mezunu olmak",
+			"En az lise mezunu olmak",
+			"En az önlisans mezunu olmak"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 41'e göre genel olarak en az ortaokul mezunu olmak gerekir. Ortaokul mezunu bulunmaması hâlinde ilkokul mezunları da alınabilir; bu bir istisnadır, genel kural değildir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "41"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["ogrenim", "madde-41"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-atama-004",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "Başka yerdeki bir göreve atanan memur, atama emrinin tebliğinden itibaren kaç gün içinde işe başlamak zorundadır?",
+		"options": ["5 gün", "10 gün", "15 gün", "30 gün"],
+		"correctIndex": 2,
+		"explanation": "Madde 62'ye göre aynı yerdeki görevlere atananlar atama emirlerinin kendilerine tebliğ gününü izleyen iş günü, başka yerdeki görevlere atananlar ise tebliğ tarihinden itibaren 15 gün içerisinde işe başlamak zorundadır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "62"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["ise-baslama", "sure"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-atama-005",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi 657 sayılı Kanun'un 48. maddesindeki genel şartlardan biri değildir?",
+		"options": [
+			"Türk vatandaşı olmak",
+			"Kamu haklarından mahrum bulunmamak",
+			"Askerlik durumu itibarıyla engeli bulunmamak",
+			"Kamu Personel Seçme Sınavı'ndan en az 70 puan almak"
+		],
+		"correctIndex": 3,
+		"explanation": "Madde 48/A'daki genel şartlar arasında belirli bir sınav puanı yer almaz. Puan barajı gibi ölçütler kurumların özel mevzuatında veya sınav kılavuzlarında düzenlenir ve özel şart niteliğindedir. Genel şartlar vatandaşlık, yaş, öğrenim, kamu haklarından mahrum olmama, belirli suçlardan mahkûm olmama, askerlik, sağlık ve güvenlik soruşturmasıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "48"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-48", "sartlar"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-atama-006",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 45. maddesine göre memurun görevlendirilmesinde hangi sınır vardır?",
+		"options": [
+			"Memur yalnızca kendi kurumunda görevlendirilebilir.",
+			"Hiçbir memur sınıfının dışında ve sınıfı içindeki derecesinin altında bir derecedeki görevde çalıştırılamaz.",
+			"Memur yalnızca kendi ilinde görevlendirilebilir.",
+			"Memur hiçbir şekilde geçici olarak görevlendirilemez."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 45, hiçbir memurun sınıfının dışında ve sınıfı içindeki derecesinin altında bir derecedeki görevde çalıştırılamayacağını düzenler. Bu hüküm kariyer ilkesinin somut güvencesidir; memurun fiilen cezalandırma amacıyla alt bir işe verilmesini engeller.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "45"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-45", "guvence"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-atama-007",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "zor",
+		"stem": "Bir meslek okulunu bitiren 16 yaşındaki bir kişinin Devlet memurluğuna atanabilmesi için ne gereklidir?",
+		"options": [
+			"Yalnızca meslek okulu mezunu olması yeterlidir.",
+			"En az 15 yaşını doldurmuş olması ve kazai rüşt kararı alması gerekir.",
+			"18 yaşını doldurmasını beklemek zorundadır.",
+			"Veli izniyle atanabilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 40'a göre bir meslek veya sanat okulunu bitirenler, en az 15 yaşını doldurmuş olmak ve Türk Medeni Kanunu'nun 12. maddesine göre kazai rüşt kararı almak şartıyla Devlet memurluklarına atanabilirler. İki şart birlikte aranır; okul mezuniyeti tek başına yeterli değildir, veli izni de kazai rüşt kararının yerine geçmez.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "40"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["yas", "senaryo", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-atama-008",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "zor",
+		"stem": "Adaylık süresi içinde aday memur hakkında aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Başka kurumlara nakli yapılabilir.",
+			"Başka kurumlara nakli yapılamaz.",
+			"Yalnızca aynı il içinde nakli yapılabilir.",
+			"Kurumun onayıyla her yere nakledilebilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 54'e göre adaylık süresi bir yıldan az, iki yıldan çok olamaz ve bu süre içinde aday memurun başka kurumlara nakli yapılamaz. Bu kural, adaylık eğitim ve staj sürecinin bütünlüğünü korur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "54"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["adaylik", "nakil"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-atama-009",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "zor",
+		"stem": "Aynı yerdeki bir göreve atanan memur ne zaman işe başlamak zorundadır?",
+		"options": [
+			"Atama emrinin tebliğ gününü izleyen iş günü",
+			"Tebliğden itibaren 15 gün içinde",
+			"Tebliğden itibaren 30 gün içinde",
+			"Bir sonraki ayın ilk iş günü"
+		],
+		"correctIndex": 0,
+		"explanation": "Madde 62'ye göre aynı yerdeki görevlere atananlar, atama emirlerinin kendilerine tebliğ gününü izleyen iş günü işe başlamak zorundadır. 15 günlük süre yalnızca başka yerdeki görevlere atananlar için geçerlidir; iki süre karıştırılmamalıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "62"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["ise-baslama", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-atama-010",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "uzman",
+		"stem": "Bir aday, 48. maddedeki genel şartların tamamını taşımaktadır ancak atanmak istediği teknik kadronun gerektirdiği mühendislik diplomasına sahip değildir. Bu adayın durumu nedir?",
+		"options": [
+			"Genel şartları taşıdığı için atanabilir.",
+			"Özel şartı taşımadığından bu kadroya atanamaz; genel ve özel şartlar birlikte aranır.",
+			"Adaylık süresinde diplomayı tamamlamak kaydıyla atanabilir.",
+			"Kurumun takdiriyle atanabilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 48 şartları genel (A fıkrası) ve özel (B fıkrası) olarak ikiye ayırır. Özel şartlar arasında hizmet göreceği sınıf için öğrenim şartını taşımak ve kurumların özel mevzuatında aranan nitelikleri karşılamak yer alır. İki grup şart birlikte aranır; birinin eksikliği atamaya engeldir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "48"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-48", "senaryo"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-atama-011",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "uzman",
+		"stem": "Kasten işlenen bir suçtan dolayı bir yıl hapis cezası alan ve cezası infaz edilen bir kişinin Devlet memurluğuna alınması bakımından ne söylenebilir?",
+		"options": [
+			"Ceza infaz edildiği için memur olabilir.",
+			"Kasten işlenen bir suçtan bir yıl veya daha fazla hapis cezasına mahkûm olmak memurluğa engeldir.",
+			"Yalnızca ceza ertelenmişse engel oluşur.",
+			"Adli sicil kaydı silinmişse engel kalkar."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 48/A-5'e göre Türk Ceza Kanunu'nun 53. maddesinde belirtilen süreler geçmiş olsa bile, kasten işlenen bir suçtan dolayı bir yıl veya daha fazla süreyle hapis cezasına mahkûm olmak memurluğa engeldir. Cezanın infaz edilmiş olması bu engeli kaldırmaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "48",
+			"clause": "A/5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-48", "senaryo"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-atama-012",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "uzman",
+		"stem": "Atama ve adaylığa ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Adaylık süresi içinde aday memurun başka kuruma nakli yapılamaz.",
+			"Memur, sınıfı içindeki derecesinin altında bir görevde çalıştırılamaz.",
+			"Adaylık süresi kurumun takdirine göre üç yıla kadar uzatılabilir.",
+			"Memurluğa girişte hem genel hem özel şartlar aranır."
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 54 adaylık süresini bir yıldan az, iki yıldan çok olamaz biçiminde sınırlar; üç yıla uzatılması mümkün değildir. Diğer üç ifade sırasıyla madde 54, madde 45 ve madde 48 hükümleriyle uyumludur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "54"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["tuzak", "adaylik"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	}
+]

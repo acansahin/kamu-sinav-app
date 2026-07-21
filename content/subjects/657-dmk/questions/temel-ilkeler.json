@@ -1,0 +1,342 @@
+[
+	{
+		"id": "657-ilke-001",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 3. maddesinde sayılan temel ilkeler aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"Sınıflandırma, kariyer, liyakat",
+			"Eşitlik, tarafsızlık, süreklilik",
+			"Sınıflandırma, tarafsızlık, güvence",
+			"Kariyer, liyakat, hesap verebilirlik"
+		],
+		"correctIndex": 0,
+		"explanation": "Madde 3, Kanun'un temel ilkelerini sınıflandırma, kariyer ve liyakat olarak sayar. Tarafsızlık ve hesap verebilirlik önemli kamu yönetimi kavramları olmakla birlikte bu maddedeki temel ilkeler arasında yer almaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-3", "ilkeler"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-ilke-002",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'a göre kaç hizmet sınıfı vardır?",
+		"options": ["8", "10", "12", "14"],
+		"correctIndex": 2,
+		"explanation": "Madde 36'da on iki hizmet sınıfı sayılır: Genel İdare, Teknik, Sağlık ve Yardımcı Sağlık, Eğitim ve Öğretim, Avukatlık, Din, Emniyet, Yardımcı Hizmetler, Mülki İdare Amirliği, Milli İstihbarat, Jandarma ve Sahil Güvenlik Hizmetleri sınıfları.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-36", "sayi"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-ilke-003",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "kolay",
+		"stem": "Memurlara, sınıfları içinde en yüksek derecelere kadar ilerleme imkânı sağlanmasını ifade eden ilke hangisidir?",
+		"options": ["Sınıflandırma", "Kariyer", "Liyakat", "Güvence"],
+		"correctIndex": 1,
+		"explanation": "Kariyer ilkesi, Devlet memurlarına yaptıkları hizmetler için gerekli bilgilere ve yetişme şartlarına uygun şekilde, sınıfları içinde en yüksek derecelere kadar ilerleme imkânı sağlamayı ifade eder. İlerlemenin sınıf içinde olması tanımın ayırt edici unsurudur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["kariyer"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-ilke-004",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "orta",
+		"stem": "Liyakat ilkesi aşağıdakilerden hangisini kapsamaz?",
+		"options": [
+			"Devlet kamu hizmetleri görevlerine girmeyi",
+			"Sınıflar içinde ilerleme ve yükselmeyi",
+			"Görevin sona erdirilmesini",
+			"Memurun hangi ilde görev yapacağının belirlenmesini"
+		],
+		"correctIndex": 3,
+		"explanation": "Madde 3'e göre liyakat ilkesi; göreve girmeyi, sınıflar içinde ilerleme ve yükselmeyi ve görevin sona erdirilmesini liyakat sistemine dayandırmayı ve bu sistemin eşit imkânlarla uygulanmasında memurları güvenliğe sahip kılmayı ifade eder. Memurun görev yeri belirlenmesi ise yer değiştirme hükümlerinin konusudur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["liyakat", "kapsam"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-ilke-005",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "orta",
+		"stem": "Bu Kanunla tespit edilen diğer sınıflara girmeyen memurlar hangi hizmet sınıfını teşkil eder?",
+		"options": [
+			"Yardımcı Hizmetler Sınıfı",
+			"Genel İdare Hizmetleri Sınıfı",
+			"Teknik Hizmetler Sınıfı",
+			"Mülki İdare Amirliği Hizmetleri Sınıfı"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 36'ya göre Kanun kapsamındaki kurumlarda yönetim, icra, büro ve benzeri hizmetleri gören ve bu Kanunla tespit edilen diğer sınıflara girmeyen memurlar Genel İdare Hizmetleri sınıfını teşkil eder. Şeflik, VHKİ ve memur kadroları bu sınıftadır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-36", "gih"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-ilke-006",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "orta",
+		"stem": "Devlet kamu hizmetleri görevlerini ve bu görevlerde çalışan memurları, görevlerin gerektirdiği niteliklere ve mesleklere göre ayırmayı ifade eden ilke hangisidir?",
+		"options": ["Kariyer", "Liyakat", "Sınıflandırma", "Kadrolaşma"],
+		"correctIndex": 2,
+		"explanation": "Sınıflandırma ilkesi, Devlet kamu hizmetleri görevlerini ve bu görevlerde çalışan Devlet memurlarını görevlerin gerektirdiği niteliklere ve mesleklere göre sınıflara ayırmayı ifade eder. Bu ilkenin somut uygulaması madde 36'daki on iki hizmet sınıfıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["siniflandirma"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-ilke-007",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "zor",
+		"stem": "Liyakat ilkesinin memura sağladığı güvence boyutu aşağıdakilerden hangisiyle ifade edilir?",
+		"options": [
+			"Memurun istediği kuruma atanabilmesi",
+			"Liyakat sisteminin eşit imkânlarla uygulanmasında memurların güvenliğe sahip kılınması",
+			"Memurun hiçbir şekilde görevden alınamaması",
+			"Memurun sınıf değiştirebilmesi"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 3'ün liyakat tanımı, sistemin eşit imkânlarla uygulanmasında Devlet memurlarını güvenliğe sahip kılmayı da içerir. Bu, memurun hiçbir şekilde görevden alınamayacağı anlamına gelmez; nitekim liyakat ilkesi görevin sona erdirilmesini de kapsar. Güvence, keyfîliğe karşı korumadır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["liyakat", "yorum"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-ilke-008",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi 657 sayılı Kanun'daki hizmet sınıflarından biri değildir?",
+		"options": [
+			"Sahil Güvenlik Hizmetleri Sınıfı",
+			"Jandarma Hizmetleri Sınıfı",
+			"Basın ve Halkla İlişkiler Hizmetleri Sınıfı",
+			"Milli İstihbarat Hizmetleri Sınıfı"
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 36'daki on iki sınıf arasında Basın ve Halkla İlişkiler Hizmetleri Sınıfı yoktur. Jandarma ve Sahil Güvenlik Hizmetleri sınıfları sonradan eklenmiş gerçek sınıflardır; halkla ilişkiler görevini yürüten personel Genel İdare Hizmetleri sınıfındadır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-36", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-ilke-009",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "zor",
+		"stem": "Kariyer ilkesine göre memurun ilerlemesi hangi sınır içindedir?",
+		"options": [
+			"Tüm hizmet sınıfları arasında serbestçe",
+			"Kendi sınıfı içinde en yüksek derecelere kadar",
+			"Yalnızca bir üst dereceye kadar",
+			"Yalnızca aynı kurum içinde"
+		],
+		"correctIndex": 1,
+		"explanation": "Kariyer ilkesi, memura sınıfı içinde en yüksek derecelere kadar ilerleme imkânı sağlamayı ifade eder. İlerlemenin sınıf içinde olması tanımın merkezindedir; sınıflar arası geçiş kariyer ilkesinin değil, ayrı hükümlerin konusudur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["kariyer", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-ilke-010",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "uzman",
+		"stem": "Bir kurumda üst göreve atama yapılırken, adayların bilgi ve yeterliliği yerine kişisel yakınlık esas alınmıştır. Bu uygulama öncelikle hangi temel ilkeye aykırıdır?",
+		"options": ["Sınıflandırma", "Kariyer", "Liyakat", "Kanunilik"],
+		"correctIndex": 2,
+		"explanation": "Liyakat ilkesi, sınıflar içinde ilerleme ve yükselmenin liyakat sistemine dayandırılmasını ve bu sistemin eşit imkânlarla uygulanmasını gerektirir. Yükselmede objektif ölçütler yerine kişisel yakınlığın esas alınması doğrudan liyakat ilkesinin ihlalidir. Kariyer ilkesi ilerleme imkânının varlığıyla, sınıflandırma ise görevlerin niteliğe göre ayrılmasıyla ilgilidir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["liyakat", "senaryo"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-ilke-011",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "uzman",
+		"stem": "Görevde yükselme sınavına giren bir şeflik adayı, halen büro hizmetlerinde çalışmaktadır ve diğer sınıflardan hiçbirine girmemektedir. Bu memur hangi hizmet sınıfındadır?",
+		"options": [
+			"Yardımcı Hizmetler Sınıfı",
+			"Genel İdare Hizmetleri Sınıfı",
+			"Teknik Hizmetler Sınıfı",
+			"Avukatlık Hizmetleri Sınıfı"
+		],
+		"correctIndex": 1,
+		"explanation": "Genel İdare Hizmetleri sınıfı, yönetim, icra, büro ve benzeri hizmetleri gören ve Kanun'la tespit edilen diğer sınıflara girmeyen memurlardan oluşur; bu yönüyle bakiye bir sınıftır. Görevde yükselme sınavına giren memur ve şef kadrolarının çoğu bu sınıftadır. Yardımcı Hizmetler sınıfı ise temizlik, bakım gibi yardımcı işleri kapsar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-36", "senaryo"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "657-ilke-012",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "uzman",
+		"stem": "657 sayılı Kanun'un temel ilkelerine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Sınıflandırma, görevleri ve memurları niteliklere ve mesleklere göre ayırır.",
+			"Kariyer, memura sınıfı içinde en yüksek derecelere kadar ilerleme imkânı sağlar.",
+			"Liyakat ilkesi yalnızca memurluğa girişi kapsar.",
+			"Liyakat sisteminin eşit imkânlarla uygulanmasında memurlar güvenliğe sahip kılınır."
+		],
+		"correctIndex": 2,
+		"explanation": "Liyakat ilkesi yalnızca girişi değil; sınıflar içinde ilerleme ve yükselmeyi ve görevin sona erdirilmesini de kapsar. Bu üç aşamanın tamamını liyakat sistemine bağlamak maddenin açık ifadesidir; dolayısıyla III. ifade eksik ve yanlıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["tuzak", "ilkeler"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	}
+]
