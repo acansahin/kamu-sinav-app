@@ -3,8 +3,8 @@
 Türkiye'deki kamu kurumlarında yapılan **Görevde Yükselme** ve **Unvan Değişikliği**
 sınavlarına hazırlık uygulaması. Web tabanlı, çevrimdışı çalışır, reklamsız.
 
-> **Durum:** Faz 1 / dikey dilim. Mimarinin tüm katmanları tek bir konu üzerinden uçtan
-> uca çalışıyor. İçerik doldurma devam ediyor.
+> **Durum:** Faz 1 tamamlandı. 3 ders, **17 konu özeti**, **208 soru**; konu testleri ve
+> 20/50/80 soruluk deneme sınavları çalışıyor. Android paketleme CI'da hazır.
 
 ## Ne farklı?
 

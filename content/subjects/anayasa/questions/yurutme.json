@@ -1,0 +1,357 @@
+[
+	{
+		"id": "anayasa-yurutme-001",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "kolay",
+		"stem": "Cumhurbaşkanı seçilebilmek için gereken en az yaş ve öğrenim şartı nedir?",
+		"options": [
+			"18 yaş – ilkokul mezunu",
+			"25 yaş – lise mezunu",
+			"40 yaş – yükseköğrenim",
+			"45 yaş – yükseköğrenim"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 101. maddesine göre Cumhurbaşkanı; kırk yaşını doldurmuş, yükseköğrenim yapmış, milletvekili seçilme yeterliliğine sahip Türk vatandaşları arasından doğrudan halk tarafından seçilir. Milletvekilliği için ise 18 yaş ve en az ilkokul mezuniyeti yeterlidir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "101"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-101", "sartlar"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-yurutme-002",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "kolay",
+		"stem": "Cumhurbaşkanının görev süresi ve dönem sınırı aşağıdakilerden hangisidir?",
+		"options": [
+			"4 yıl – en fazla iki dönem",
+			"5 yıl – en fazla iki dönem",
+			"5 yıl – sınırsız",
+			"7 yıl – tek dönem"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 101'e göre Cumhurbaşkanının görev süresi beş yıldır ve bir kimse en fazla iki defa Cumhurbaşkanı seçilebilir. Ayrıca TBMM ve Cumhurbaşkanlığı seçimleri beş yılda bir aynı günde yapılır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "101"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-101", "sure"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-yurutme-003",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "kolay",
+		"stem": "Cumhurbaşkanı yardımcıları ve bakanlar nasıl göreve gelir?",
+		"options": [
+			"TBMM tarafından seçilir.",
+			"Cumhurbaşkanı tarafından atanır ve görevden alınır.",
+			"Cumhurbaşkanınca atanır, TBMM güvenoyu verir.",
+			"Siyasi parti grupları tarafından belirlenir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 106'ya göre Cumhurbaşkanı yardımcıları ve bakanlar, milletvekili seçilme yeterliliğine sahip olanlar arasından Cumhurbaşkanı tarafından atanır ve görevden alınır. Güvenoyu kurumu 2017 değişikliğiyle kaldırılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "106"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-106", "bakan"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-yurutme-004",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Cumhurbaşkanlığı kararnamesi ile kanunda farklı hükümler bulunması hâlinde ne uygulanır?",
+		"options": [
+			"Cumhurbaşkanlığı kararnamesi",
+			"Kanun hükümleri",
+			"Tarihi sonraki olan metin",
+			"Anayasa Mahkemesi karar verene kadar ikisi birlikte"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 104'e göre Cumhurbaşkanlığı kararnamesi ile kanunlarda farklı hükümler bulunması hâlinde kanun hükümleri uygulanır. Ayrıca TBMM'nin aynı konuda kanun çıkarması durumunda kararname hükümsüz hâle gelir. Kanun her durumda üstündür.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "104"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["kararname", "hiyerarsi"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-yurutme-005",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Cumhurbaşkanı adayı gösterebilmek için en az kaç seçmenin imzası gereklidir?",
+		"options": ["20.000", "50.000", "100.000", "500.000"],
+		"correctIndex": 2,
+		"explanation": "Madde 101'e göre siyasi parti grupları, son seçimlerde toplam geçerli oyların tek başına veya birlikte en az yüzde beşini almış olan siyasi partiler ile en az yüz bin seçmen Cumhurbaşkanı adayı gösterebilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "101"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-101", "adaylik"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-yurutme-006",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Olağanüstü hâl en çok ne kadar süre için ilan edilebilir ve TBMM her defasında en çok ne kadar uzatabilir?",
+		"options": [
+			"6 ay – 4 ay",
+			"4 ay – 6 ay",
+			"3 ay – 3 ay",
+			"1 yıl – 6 ay"
+		],
+		"correctIndex": 0,
+		"explanation": "Madde 119'a göre Cumhurbaşkanı, yurdun tamamında veya bir bölgesinde süresi altı ayı geçmemek üzere olağanüstü hâl ilan edebilir; karar TBMM'nin onayına sunulur ve TBMM süreyi her defasında dört ayı geçmemek üzere uzatabilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "119"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["ohal", "sure"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-yurutme-007",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Cumhurbaşkanlığı kararnamesi çıkarılamayacak konular bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Anayasada münhasıran kanunla düzenlenmesi öngörülen konularda çıkarılamaz.",
+			"Kanunda açıkça düzenlenen konularda çıkarılamaz.",
+			"Yürütme yetkisine ilişkin konularda çıkarılamaz.",
+			"Temel haklar kararnameyle sınırlanamaz."
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 104'e göre Cumhurbaşkanı, yürütme yetkisine ilişkin konularda Cumhurbaşkanlığı kararnamesi çıkarabilir; yani yürütme alanı kararnamenin yasak alanı değil, tam olarak kendi alanıdır. Diğer üç ifade doğru sınırlardır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "104"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["kararname", "tuzak"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-yurutme-008",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Bir TBMM üyesi bakan olarak atanırsa milletvekilliği ne olur?",
+		"options": [
+			"Devam eder; hem bakan hem milletvekili olabilir.",
+			"Milletvekilliği sona erer.",
+			"Bakanlık süresince askıya alınır, sonra devam eder.",
+			"TBMM Genel Kurulu kararıyla belirlenir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 106'ya göre Türkiye Büyük Millet Meclisi üyeleri Cumhurbaşkanı yardımcısı veya bakan olarak atanırlarsa üyelikleri sona erer. Bu, kuvvetler ayrılığının 2017 sistemindeki katı uygulamalarından biridir; parlamenter sistemde bakanlar aynı zamanda milletvekili olabiliyordu.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "106"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-106", "guncellik"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-yurutme-009",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Cumhurbaşkanı hakkında soruşturma açılmasına karar verilebilmesi için TBMM'de hangi çoğunluk gerekir?",
+		"options": [
+			"Üye tamsayısının salt çoğunluğu",
+			"Üye tamsayısının beşte üçü",
+			"Üye tamsayısının üçte ikisi",
+			"Toplantıya katılanların salt çoğunluğu"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 105'e göre soruşturma açılması istemi üye tamsayısının salt çoğunluğunun vereceği önergeyle olur; Meclis üye tamsayısının beşte üçünün gizli oyuyla soruşturma açılmasına karar verir. Yüce Divana sevk ise üye tamsayısının üçte ikisinin gizli oyunu gerektirir. Üç aşamada çoğunluk giderek ağırlaşır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "105"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-105", "cogunluk"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-yurutme-010",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "uzman",
+		"stem": "Bir Cumhurbaşkanlığı kararnamesiyle düzenlenen bir konuda, TBMM daha sonra aynı konuyu düzenleyen bir kanun çıkarmıştır. Kararnamenin durumu ne olur?",
+		"options": [
+			"Kararname yürürlükte kalır; kanunla birlikte uygulanır.",
+			"Kararname hükümsüz hâle gelir.",
+			"Anayasa Mahkemesi karar verene kadar kararname uygulanır.",
+			"Cumhurbaşkanı kararnameyi yeniden yayımlarsa geçerli olur."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 104 açıktır: Türkiye Büyük Millet Meclisinin aynı konuda kanun çıkarması durumunda Cumhurbaşkanlığı kararnamesi hükümsüz hâle gelir. Bu, yasama yetkisinin üstünlüğünü koruyan bir hükümdür ve ayrıca bir yargı kararına ihtiyaç duyulmaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "104"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["kararname", "senaryo"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-yurutme-011",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "uzman",
+		"stem": "Cumhurbaşkanlığı seçiminin birinci oylamasında hiçbir aday geçerli oyların salt çoğunluğunu alamamıştır. Ne olur?",
+		"options": [
+			"Seçim yenilenir ve tüm adaylar yeniden yarışır.",
+			"En çok oy alan iki aday arasında ikinci oylama yapılır.",
+			"TBMM Cumhurbaşkanını seçer.",
+			"En çok oy alan aday seçilmiş sayılır."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 102'ye göre genel oyla yapılacak seçimde geçerli oyların salt çoğunluğunu alan aday Cumhurbaşkanı seçilir. Birinci oylamada bu çoğunluk sağlanamazsa, en çok oy almış iki aday arasında ikinci oylama yapılır ve bu oylamada en çok oy alan aday Cumhurbaşkanı seçilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "102"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["madde-102", "secim"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "anayasa-yurutme-012",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "uzman",
+		"stem": "Yürütmeye ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Cumhurbaşkanı bir kimse en fazla iki defa seçilebilir.",
+			"Bakanlar göreve başlarken TBMM'den güvenoyu alır.",
+			"Olağanüstü hâl kararı TBMM'nin onayına sunulur.",
+			"Kararname ile kanun çatışırsa kanun uygulanır."
+		],
+		"correctIndex": 1,
+		"explanation": "Güvenoyu kurumu 2017 Anayasa değişikliğiyle kaldırılmıştır. Madde 106'ya göre bakanlar Cumhurbaşkanı tarafından atanır ve görevden alınır; TBMM'nin güvenoyuna sunulmazlar. Diğer üç ifade sırasıyla madde 101, madde 119 ve madde 104 hükümleriyle uyumludur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "106"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": ["tuzak", "guncellik"],
+		"version": 1,
+		"updatedAt": "2026-07-21"
+	}
+]

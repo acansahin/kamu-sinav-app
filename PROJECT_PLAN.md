@@ -1043,9 +1043,9 @@ hesabı ürünü bitiren hatadır; bu modüller saf fonksiyon olarak yazılıp y
 
 ### Faz 1 — MVP (~5 hafta)
 
-> **Durum (21 Temmuz 2026):** 1.1–1.10 ve 1.12 tamam. Kalan tek kalem **1.11 içerik
-> doldurma**: 17 konudan 5'i hazır (64 soru). Deneme motoru çalışıyor ancak yalnızca
-> 20 soruluk şablon çözülebiliyor; 50 ve 80 soruluk şablonlar havuz büyüyünce açılacak.
+> **Durum (21 Temmuz 2026): Faz 1 tamamlandı.** 17/17 konu özeti ve **208 yayımlanmış
+> soru** hazır; içerik doğrulayıcısı sıfır uyarı veriyor. Üç deneme şablonunun (20/50/80
+> soru) üçü de çözülebilir durumda. Sıradaki iş Faz 2'dir.
 
 | Adım | İş | Kabul kriteri |
 |---|---|---|
