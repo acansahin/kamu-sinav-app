@@ -23,6 +23,9 @@
 # üretilmiş içerik — kaynak content/ altındadır, `npm run content:build` üretir
 /public/content/
 
+# dış inceleme için üretilen Markdown — `npm run review:export` üretir
+/review/
+
 # Not: Android tarafının yok sayılanları android/.gitignore içinde tanımlıdır
 # (kopyalanan web varlıkları, gradle çıktıları, local.properties). Burada
 # tekrarlanmaz.
