@@ -331,8 +331,8 @@
 		"difficulty": "uzman",
 		"stem": "Memurların ödev ve sorumluluklarına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
-			"Memur, hukuka aykırı gördüğü emri yerine getirmez ve aykırılığı emri verene bildirir.",
-			"Resmî belge, araç ve gereçler yetki verilen mahaller dışına çıkarılamaz.",
+			"Memur, hukuka aykırı gördüğü bir emri ilk aşamada yerine getirmez ve aykırılığı emri verene bildirir.",
+			"Memurlar görevleriyle ilgili resmî belge, araç ve gereçleri yetki verilen mahaller dışına çıkaramaz.",
 			"Konusu suç teşkil eden emri yerine getiren memur, emri verenin yazılı talimatı varsa sorumluluktan kurtulur.",
 			"Memurlar görevlerini yerine getirirken dil, ırk, cinsiyet, din ve mezhep gibi ayırım yapamazlar."
 		],
@@ -351,7 +351,7 @@
 		},
 		"status": "published",
 		"tags": ["tuzak", "madde-11"],
-		"version": 1,
-		"updatedAt": "2026-07-21"
+		"version": 2,
+		"updatedAt": "2026-07-22"
 	}
 ]

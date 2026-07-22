@@ -4,10 +4,10 @@
 		"subjectId": "657-dmk",
 		"topicId": "657-dmk/genel-hukumler",
 		"difficulty": "kolay",
-		"stem": "657 sayılı Kanun'un 4. maddesinde sayılan istihdam şekilleri kaç tanedir?",
+		"stem": "657 sayılı Kanun'un 4. maddesinde hâlen yürürlükte olan istihdam şekli kaç tanedir?",
 		"options": ["2", "3", "4", "5"],
-		"correctIndex": 2,
-		"explanation": "Madde 4'te memurlar, sözleşmeli personel, geçici personel ve işçiler olmak üzere dört istihdam şekli sayılır. Geçici personel fıkrası 2018'de yürürlükten kaldırılmış olsa da kanun metnindeki sayı dörttür; fiilen üç statü işler.",
+		"correctIndex": 1,
+		"explanation": "Madde 4 başlangıçta dört fıkra içeriyordu; geçici personeli düzenleyen (C) fıkrası KHK-696 ile yürürlükten kaldırılmış ve bu düzenleme 7079 sayılı Kanun'la aynen kabul edilmiştir. Hâlen yürürlükte olan üç statü vardır: 4/A memur, 4/B sözleşmeli personel, 4/D işçi. Dikkat: madde 5'in lafzı güncellenmediği için hâlâ 'dört istihdam şekli' ifadesini taşır; o sayı yürürlükteki statü sayısını değil, güncellenmemiş bir atfı gösterir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
 			"lawId": "657",
@@ -20,9 +20,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["istihdam", "madde-4"],
-		"version": 1,
-		"updatedAt": "2026-07-21"
+		"tags": ["istihdam", "madde-4", "guncellik"],
+		"version": 2,
+		"updatedAt": "2026-07-22"
 	},
 	{
 		"id": "657-genel-002",
@@ -68,7 +68,7 @@
 			"Cumhurbaşkanı kararıyla yeni istihdam şekli oluşturabilirler."
 		],
 		"correctIndex": 0,
-		"explanation": "Madde 5 açıktır: 'Bu Kanuna tabi kurumlar, dördüncü maddede yazılı dört istihdam şekli dışında personel çalıştıramazlar.' Bu, kamuda istihdamın kanunla sınırlı olması ilkesinin ifadesidir.",
+		"explanation": "Madde 5'in lafzı şöyledir: 'Bu Kanuna tabi kurumlar, dördüncü maddede yazılı dört istihdam şekli dışında personel çalıştıramazlar.' Bu, kamuda istihdamın kanunla sınırlı olması ilkesinin ifadesidir. Not: maddedeki 'dört' ifadesi güncellenmemiştir; geçici personeli düzenleyen 4/C fıkrası yürürlükten kaldırıldığından hâlen yürürlükte olan statü sayısı üçtür.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
 			"lawId": "657",
@@ -82,8 +82,8 @@
 		},
 		"status": "published",
 		"tags": ["madde-5"],
-		"version": 1,
-		"updatedAt": "2026-07-21"
+		"version": 2,
+		"updatedAt": "2026-07-22"
 	},
 	{
 		"id": "657-genel-004",
@@ -121,7 +121,7 @@
 		"subjectId": "657-dmk",
 		"topicId": "657-dmk/genel-hukumler",
 		"difficulty": "orta",
-		"stem": "657 sayılı Kanun'un 4. maddesindeki hangi istihdam şekli 2018 yılında yürürlükten kaldırılmıştır?",
+		"stem": "657 sayılı Kanun'un 4. maddesindeki hangi istihdam şekli yürürlükten kaldırılmıştır?",
 		"options": [
 			"Memurlar (4/A)",
 			"Sözleşmeli personel (4/B)",
@@ -129,7 +129,7 @@
 			"İşçiler (4/D)"
 		],
 		"correctIndex": 2,
-		"explanation": "Geçici personeli düzenleyen 4/C fıkrası 2018'de yürürlükten kaldırılmış, bu statüdeki personelin önemli bölümü sözleşmeli personel statüsüne geçirilmiştir. Kalan üç statü 4/A memur, 4/B sözleşmeli personel ve 4/D işçidir.",
+		"explanation": "Geçici personeli düzenleyen 4/C fıkrası, 20/11/2017 tarihli KHK-696 ile yürürlükten kaldırılmış ve bu düzenleme 1/2/2018 tarihli 7079 sayılı Kanun'la aynen kabul edilmiştir. Bu statüdeki personelin önemli bölümü sözleşmeli personel statüsüne geçirilmiştir. Yürürlükte kalan üç statü 4/A memur, 4/B sözleşmeli personel ve 4/D işçidir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
 			"lawId": "657",
@@ -144,8 +144,8 @@
 		},
 		"status": "published",
 		"tags": ["guncellik", "istihdam"],
-		"version": 1,
-		"updatedAt": "2026-07-21"
+		"version": 2,
+		"updatedAt": "2026-07-22"
 	},
 	{
 		"id": "657-genel-006",
@@ -336,13 +336,13 @@
 		"difficulty": "uzman",
 		"stem": "657 sayılı Kanun'un genel hükümlerine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
-			"Kanun metninde dört istihdam şekli sayılmıştır.",
-			"Geçici personel fıkrası yürürlükten kaldırılmıştır.",
+			"Madde 5, dördüncü maddede yazılı dört istihdam şekline atıf yapar.",
+			"Geçici personeli düzenleyen fıkra yürürlükten kaldırılmıştır.",
 			"Sözleşmeli personel, asli ve sürekli kamu hizmeti ifa ettiği için memur sayılır.",
 			"Kurumlar kanunda sayılanlar dışında personel çalıştıramaz."
 		],
 		"correctIndex": 2,
-		"explanation": "Sözleşmeli personel memur değildir. Madde 4/B'ye göre sözleşmeli personel, geçici olarak özel meslek bilgisine ve ihtisasa ihtiyaç gösteren işlerde çalıştırılır; bu, memur tanımındaki 'asli ve sürekli' ölçütünün tam karşıtıdır. Diğer üç ifade doğrudur.",
+		"explanation": "Sözleşmeli personel memur değildir. Madde 4/B'ye göre sözleşmeli personel, geçici olarak özel meslek bilgisine ve ihtisasa ihtiyaç gösteren işlerde çalıştırılır; bu, memur tanımındaki 'asli ve sürekli' ölçütünün tam karşıtıdır. Diğer üç ifade doğrudur: madde 5'in güncellenmemiş lafzı gerçekten dört istihdam şekline atıf yapar, 4/C fıkrası KHK-696 ile kaldırılmıştır ve madde 5 kurumları kanunda sayılanlarla sınırlar.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
 			"lawId": "657",
@@ -356,7 +356,7 @@
 		},
 		"status": "published",
 		"tags": ["tuzak", "istihdam"],
-		"version": 1,
-		"updatedAt": "2026-07-21"
+		"version": 2,
+		"updatedAt": "2026-07-22"
 	}
 ]
