@@ -26,6 +26,12 @@
 # dış inceleme için üretilen Markdown — `npm run review:export` üretir
 /review/
 
+# Playwright çıktıları
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
 # Not: Android tarafının yok sayılanları android/.gitignore içinde tanımlıdır
 # (kopyalanan web varlıkları, gradle çıktıları, local.properties). Burada
 # tekrarlanmaz.

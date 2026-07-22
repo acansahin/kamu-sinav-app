@@ -17,6 +17,7 @@
     "typecheck": "tsc --noEmit",
     "pretest": "npm run content:build",
     "test": "vitest run",
+    "e2e": "playwright test",
     "test:watch": "vitest",
     "android:sync": "npm run build && cap sync android",
     "android:open": "cap open android"
@@ -41,7 +42,9 @@
     "zustand": "^5.0.14"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.12.1",
     "@capacitor/cli": "^8.4.2",
+    "@playwright/test": "^1.61.1",
     "@tailwindcss/postcss": "^4",
     "@testing-library/jest-dom": "^7.0.0",
     "@testing-library/react": "^16.3.2",
@@ -52,6 +55,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
     "jsdom": "^29.1.1",
+    "serve": "^14.2.6",
     "tailwindcss": "^4",
     "tsx": "^4.23.1",
     "typescript": "^5",

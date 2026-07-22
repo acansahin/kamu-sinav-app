@@ -267,7 +267,7 @@ export function QuizRunner({
 								<label
 									key={choice}
 									className={cn(
-										"flex min-h-11 cursor-pointer items-center gap-2 rounded-xl border-2 px-4",
+										"secim-etiketi flex min-h-11 cursor-pointer items-center gap-2 rounded-xl border-2 px-4",
 										requestedCount === choice
 											? "border-brand bg-brand-soft font-semibold"
 											: "border-line bg-surface-raised",

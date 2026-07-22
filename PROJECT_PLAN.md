@@ -1026,14 +1026,15 @@ sayısı, zorluk dağılımı, eksik `legalRef`, hedefin altındaki konular. Bu 
 | Tip güvenliği | TypeScript `strict` | `any` yasak; şemalar Zod'dan türetilir |
 | Birim test | **Vitest** | `lib/scoring` (puan, net, geçme), `lib/scheduler` (SM-2), `lib/selector` (soru seçimi), Zod şemaları |
 | Bileşen test | Vitest + Testing Library | Sınav navigatörü, süre sayacı, soru kartı |
-| Uçtan uca | **Playwright** — ⬜ *henüz kurulmadı* | 5 kritik akış (§12); süre bitiminde otomatik teslim; sekme kapanıp açılınca kurtarma |
-| Erişilebilirlik | **axe-core** (Playwright içinde) — ⬜ *henüz kurulmadı* | Her ana ekranda ihlal = CI hatası |
+| Uçtan uca | **Playwright** ✅ | Öğrenme döngüsü ve deneme sınavı; süre bitiminde otomatik teslim (saat ileri sarılarak), yarıda kalan sınavın kurtarılması. Masaüstü ve mobil profilde çalışır |
+| Erişilebilirlik | **axe-core** (Playwright içinde) ✅ | 11 ekran + test çözme arayüzü + büyük yazı/yüksek kontrast modu. WCAG 2.2 AA ihlali = CI hatası |
 | İçerik | `build-content.ts` | Zod doğrulama + telif kuralı + 4 şık kuralı = CI kapısı |
 | Lint/format | ESLint + Prettier | |
 
-**CI (`ci.yml`) — hâlen çalışan:** içerik doğrulama → tip kontrolü → lint → birim test →
-statik export. **Eksik:** Playwright akış testleri ve axe-core erişilebilirlik kapısı;
-ikisi de henüz kurulmadı ve CI bu yönden bir güvence vermiyor.
+**CI (`ci.yml`):** içerik doğrulama → tip kontrolü → lint → birim test → statik export →
+Playwright akış testleri + axe-core erişilebilirlik kapısı. Testler dev sunucusunda değil,
+**gerçekte dağıtılan `out/` çıktısı** üzerinde çalışır; dev sunucusunda geçip statik
+export'ta kırılan hatalar aksi hâlde kaçardı.
 **Dağıtım (`deploy.yml`):** `main`'e push → statik export → GitHub Pages / Vercel.
 
 **Öncelikli test alanı:** puanlama ve süre mantığı. Bir sınav uygulamasında yanlış puan

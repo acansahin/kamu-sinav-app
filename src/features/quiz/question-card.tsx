@@ -64,7 +64,7 @@ export function QuestionCard({
 							<label
 								key={option}
 								className={cn(
-									"flex min-h-14 cursor-pointer items-start gap-3 rounded-xl border-2 p-3.5 transition-colors",
+									"secim-etiketi flex min-h-14 cursor-pointer items-start gap-3 rounded-xl border-2 p-3.5 transition-colors",
 									state === "idle" &&
 										"border-line bg-surface-raised hover:border-line-strong",
 									state === "selected" && "border-brand bg-brand-soft",

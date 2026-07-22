@@ -20,7 +20,13 @@
 	/* Metin */
 	--fg: #16202c;
 	--fg-muted: #4a5768;
-	--fg-subtle: #6b7889;
+	/*
+	 * En açık metin tonu. Önceki değer (#6b7889) beyaz üzerinde 4.49:1
+	 * veriyordu — WCAG AA eşiğinin kıl payı altında — ve marka zemininde
+	 * 3.76'ya düşüyordu. Bu değer beyazda 5.8:1, brand-soft üzerinde 4.9:1
+	 * verir. axe taraması bu ihlali CI'da yakalar.
+	 */
+	--fg-subtle: #5a6675;
 
 	/* Marka — sakin lacivert, tek vurgu rengi */
 	--brand: #17395e;
@@ -157,6 +163,18 @@ body {
 	outline: 3px solid var(--focus);
 	outline-offset: 2px;
 	border-radius: 4px;
+}
+
+/*
+ * Görsel olarak gizlenmiş radio/checkbox içeren etiketler.
+ *
+ * Girdi `sr-only` olduğunda odak halkası 1 piksellik gizli öğenin üzerine
+ * çizilir ve klavye kullanıcısı nerede olduğunu göremez. Halkayı etiketin
+ * kendisine taşıyoruz.
+ */
+.secim-etiketi:has(:focus-visible) {
+	outline: 3px solid var(--focus);
+	outline-offset: 2px;
 }
 
 /* Hareket azaltma tercihi mutlak saygı görür */

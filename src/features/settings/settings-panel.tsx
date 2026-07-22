@@ -49,7 +49,7 @@ function ChoiceGroup<T extends string>({
 					<label
 						key={option.value}
 						className={cn(
-							"flex min-h-11 cursor-pointer items-center rounded-xl border-2 px-4",
+							"secim-etiketi flex min-h-11 cursor-pointer items-center rounded-xl border-2 px-4",
 							value === option.value
 								? "border-brand bg-brand-soft font-semibold"
 								: "border-line bg-surface-raised",
@@ -247,6 +247,9 @@ export function SettingsPanel() {
 						ref={fileInput}
 						type="file"
 						accept="application/json"
+						// Görsel olarak gizli olsa da erişilebilirlik ağacındadır;
+						// etiketsiz bırakmak ekran okuyucuda adsız bir alan üretir.
+						aria-label="Geri yüklenecek yedek dosyasını seç"
 						className="sr-only"
 						onChange={(e) => {
 							const file = e.target.files?.[0];
