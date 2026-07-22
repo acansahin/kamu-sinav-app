@@ -44,7 +44,10 @@ export function TopicReadActions({
 	}
 
 	return (
-		<div className="mt-10 flex flex-col gap-3 rounded-xl border border-line bg-surface-raised p-4 sm:flex-row sm:items-center">
+		<div
+			data-print="hide"
+			className="mt-10 flex flex-col gap-3 rounded-xl border border-line bg-surface-raised p-4 sm:flex-row sm:items-center"
+		>
 			{isRead ? (
 				<p className="flex min-h-11 flex-1 items-center gap-2 font-medium text-correct">
 					<Check aria-hidden size={20} />

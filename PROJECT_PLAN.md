@@ -1068,8 +1068,8 @@ ders bazlı analiz raporu alabiliyor ve ilerlemesini görebiliyor.
 
 ### Faz 2 — Öğrenme derinliği (~3 hafta)
 
-> **Durum (22 Temmuz 2026):** aralıklı tekrar, yanlış bankası, hata bildirimi,
-> istatistikler ve global arama tamam. Kalan tek kalem: **özetten PDF üretimi**.
+> **Durum (22 Temmuz 2026): Faz 2 tamamlandı.** Sıradaki iş Faz 3'tür (üyelik ve
+> çoklu cihaz senkronu).
 
 - ✅ **Aralıklı tekrar (SM-2)** — `IScheduler` arkasında; not, cevaptan ve süreden
   otomatik türetilir, kullanıcıya "ne kadar hatırladın" sorulmaz.
@@ -1081,7 +1081,13 @@ ders bazlı analiz raporu alabiliyor ve ilerlemesini görebiliyor.
 - ✅ **Global arama** — Türkçe duyarlı: "IZIN" yazmak "izin"i, "cezalari" yazmak
   "cezaları"nı bulur. İndeks sayfaya gömülür; alt dizinli yayında da WebView'de de
   aynı çalışsın ve çevrimdışı kalsın diye çalışma anında indirilmez.
-- ⬜ Özetten PDF üretimi
+- ✅ **Özetten PDF üretimi** — ayrı bir PDF kütüphanesi yerine yazdırma stil sayfası.
+  jsPDF'in standart fontları `ğ ı İ ş` harflerini basmaz ve düzeltmek için ~300 KB font
+  gömmek gerekirdi; tablolar da elle dizilseydi tarayıcının kendi render'ından kötü
+  görünürdü. Kullanıcı "PDF olarak kaydet" seçer. Ders bazlı paket sayfası her konuyu
+  yeni sayfada başlatır; koyu tema ve arayüz öğeleri çıktıya taşınmaz.
+  *Bilinen sınır:* Android WebView'de `window.print()` yerel eklenti olmadan
+  çalışmayabilir — mobil PDF gerekirse Capacitor print eklentisi eklenmelidir.
 
 ### Faz 3 — Hesap ve senkron (~3 hafta)
 Supabase Auth (e-posta/OTP), RLS politikaları, yerel veriyi hesaba yükseltme, çoklu cihaz

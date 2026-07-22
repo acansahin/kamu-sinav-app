@@ -171,6 +171,90 @@ body {
 	}
 }
 
+/*
+ * Yazdırma / PDF çıktısı.
+ *
+ * PDF üretimi için ayrı bir kütüphane kullanılmaz: tarayıcının kendi yazdırma
+ * motoru Türkçe karakterleri ve tabloları kusursuz basar, font gömmeyi
+ * gerektirmez ve çevrimdışı çalışır. Kullanıcı "PDF olarak kaydet" seçer.
+ */
+@media print {
+	/*
+	 * Baskı her zaman siyah-beyazdır. Koyu tema kâğıtta hem okunmaz hem
+	 * kartuş tüketir; kullanıcının ekran tercihi çıktıya taşınmamalı.
+	 */
+	:root,
+	:root[data-theme="koyu"],
+	:root[data-contrast="yuksek"] {
+		--surface: #ffffff;
+		--surface-raised: #ffffff;
+		--surface-sunken: #ffffff;
+		--border: #999999;
+		--border-strong: #333333;
+		--fg: #000000;
+		--fg-muted: #333333;
+		--fg-subtle: #444444;
+		--brand: #000000;
+		--brand-soft: #ffffff;
+		--correct: #000000;
+		--correct-soft: #ffffff;
+		--wrong: #000000;
+		--wrong-soft: #ffffff;
+		--flag: #000000;
+		--flag-soft: #ffffff;
+	}
+
+	@page {
+		margin: 18mm 16mm;
+	}
+
+	body {
+		font-size: 11pt;
+		line-height: 1.5;
+	}
+
+	/* Gezinme, aksiyonlar ve etkileşimli her şey kâğıda basılmaz */
+	[data-print="hide"] {
+		display: none !important;
+	}
+
+	.prose-okuma {
+		max-width: none;
+	}
+
+	/* Başlık sayfanın en altında yalnız kalmasın */
+	h1,
+	h2,
+	h3 {
+		break-after: avoid;
+		page-break-after: avoid;
+	}
+
+	/* Tablolar ve vurgu kutuları ortadan bölünmesin */
+	table,
+	aside,
+	figure {
+		break-inside: avoid;
+		page-break-inside: avoid;
+	}
+
+	/* Ekranda dekoratif olan çerçeveler kâğıtta gürültü yapar */
+	aside {
+		border-width: 1px;
+	}
+
+	/* Her konu yeni sayfada başlasın — ders paketi yazdırılırken önemli */
+	[data-print="page-break"] {
+		break-before: page;
+		page-break-before: always;
+	}
+
+	[data-print="page-break"]:first-of-type {
+		break-before: auto;
+		page-break-before: auto;
+	}
+}
+
 /* Okuma sütunu — satır uzunluğu 75 karakteri aşmaz */
 .prose-okuma {
 	max-width: 68ch;

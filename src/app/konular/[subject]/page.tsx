@@ -1,5 +1,6 @@
-import { ArrowRight, FileText, Lock } from "lucide-react";
+import { ArrowRight, FileText, Lock, Printer } from "lucide-react";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Card, CardLink } from "@/components/ui/card";
 import { contentRepository } from "@/lib/repositories/content.repository";
@@ -29,7 +30,19 @@ export default async function SubjectPage({ params }: Props) {
 	return (
 		<div>
 			<h1 className="mb-1 text-2xl font-bold">{subject.name}</h1>
-			<p className="mb-6 text-fg-muted">{subject.description}</p>
+			<p className="mb-4 text-fg-muted">{subject.description}</p>
+
+			{subject.topics.some((topic) => topic.hasSummary) && (
+				<p className="mb-6">
+					<Link
+						href={routes.subjectPrint(subject.id)}
+						className="inline-flex min-h-11 items-center gap-2 font-medium text-brand underline"
+					>
+						<Printer aria-hidden size={16} />
+						Dersin tamamını yazdır veya PDF kaydet
+					</Link>
+				</p>
+			)}
 
 			<ul className="space-y-3">
 				{subject.topics.map((topic) => {

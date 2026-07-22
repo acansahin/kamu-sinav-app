@@ -46,12 +46,16 @@ export function AppShell({ children }: { children: ReactNode }) {
 			{/* Klavye kullanıcıları her sayfada gezinmeyi atlayabilmeli */}
 			<a
 				href="#icerik"
+				data-print="hide"
 				className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-brand focus:px-4 focus:py-2 focus:text-brand-fg"
 			>
 				İçeriğe geç
 			</a>
 
-			<header className="sticky top-0 z-30 border-b border-line bg-surface-raised/95 backdrop-blur">
+			<header
+				data-print="hide"
+				className="sticky top-0 z-30 border-b border-line bg-surface-raised/95 backdrop-blur"
+			>
 				<div className="mx-auto flex w-full max-w-5xl items-center gap-4 px-4 py-3">
 					<Link
 						href="/"
@@ -115,7 +119,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 
 			<main
 				id="icerik"
-				className="mx-auto w-full max-w-5xl flex-1 px-4 py-6 pb-24 md:pb-10"
+				className="mx-auto w-full max-w-5xl flex-1 px-4 py-6 pb-24 print:max-w-none print:px-0 print:py-0 md:pb-10"
 			>
 				{children}
 			</main>
@@ -123,6 +127,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 			{/* Mobilde alt gezinme: birincil aksiyonlar başparmak erişiminde */}
 			<nav
 				aria-label="Ana menü"
+				data-print="hide"
 				className="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface-raised md:hidden"
 			>
 				<ul className="mx-auto flex max-w-5xl">

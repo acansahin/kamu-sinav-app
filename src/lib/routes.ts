@@ -10,6 +10,7 @@ import type { Route } from "next";
  */
 export const routes = {
 	subject: (subjectId: string) => `/konular/${subjectId}` as Route,
+	subjectPrint: (subjectId: string) => `/konular/${subjectId}/yazdir` as Route,
 	topic: (subjectId: string, topicSlug: string) =>
 		`/konular/${subjectId}/${topicSlug}` as Route,
 	topicTest: (subjectId: string, topicSlug: string) =>
