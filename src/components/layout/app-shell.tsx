@@ -4,6 +4,7 @@ import {
 	BookOpen,
 	House,
 	ListChecks,
+	RefreshCw,
 	Settings,
 	Timer,
 	TrendingUp,
@@ -26,6 +27,7 @@ const NAV_ITEMS: NavItem[] = [
 	{ href: "/konular", label: "Konular", icon: BookOpen },
 	{ href: "/testler", label: "Testler", icon: ListChecks },
 	{ href: "/deneme", label: "Deneme", icon: Timer },
+	{ href: "/yanlislarim", label: "Tekrar", icon: RefreshCw },
 	{ href: "/ilerleme", label: "İlerleme", icon: TrendingUp },
 ];
 

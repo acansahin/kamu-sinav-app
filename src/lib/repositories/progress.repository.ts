@@ -1,5 +1,11 @@
 import { getDb } from "@/lib/db/database";
 import { computeMastery } from "@/lib/scoring/mastery";
+import { computeStreak, dayKey } from "@/lib/scoring/streak";
+import {
+	dueDateFrom,
+	gradeFromAttempt,
+	scheduler,
+} from "@/lib/scheduler/sm2";
 import type { Difficulty } from "@/types/content";
 import {
 	type AnswerIndex,
@@ -10,6 +16,8 @@ import {
 	type ExamSession,
 	LOCAL_USER_ID,
 	type QuestionAttempt,
+	type QuestionReport,
+	type ReviewSchedule,
 	type StudySettings,
 	type TestSession,
 	type TopicProgress,
@@ -47,6 +55,22 @@ export interface IProgressRepository {
 	completeExamSession(sessionId: string, result: ExamResult): Promise<void>;
 	abandonExamSession(sessionId: string): Promise<void>;
 	getRecentExamSessions(limit: number): Promise<ExamSession[]>;
+	/** Vadesi gelmiş tekrarlar, en gecikmişten başlayarak. */
+	getDueReviews(limit: number): Promise<ReviewSchedule[]>;
+	getReviewSummary(): Promise<ReviewSummary>;
+	/**
+	 * Son denemesi yanlış olan sorular, en yeniden eskiye.
+	 *
+	 * Zamanlayıcıdan bağımsızdır: SM-2'nin en kısa aralığı bir gün olduğu için
+	 * az önce yanlış yapılan soru "bugün vadesi gelenler" listesinde çıkmaz.
+	 * Kullanıcı ise hatalarını hemen çözmek ister; bu iki ihtiyaç ayrı.
+	 */
+	getRecentMistakes(limit: number): Promise<QuestionAttempt[]>;
+	/** En çok unutulan sorular — "zorlandıkların" listesi için. */
+	getStrugglingReviews(limit: number): Promise<ReviewSchedule[]>;
+	saveReport(report: Omit<QuestionReport, "id" | "userId" | "createdAt">): Promise<void>;
+	getReports(): Promise<QuestionReport[]>;
+	getStatistics(activityDays: number): Promise<StatisticsSnapshot>;
 	getSettings(): Promise<StudySettings>;
 	saveSettings(patch: Partial<StudySettings>): Promise<void>;
 	getDailyStats(days: number): Promise<DailyStat[]>;
@@ -69,6 +93,33 @@ export interface RecordAttemptInput {
 	sessionId: string;
 }
 
+export interface ReviewSummary {
+	/** Bugün vadesi gelen tekrar sayısı. */
+	due: number;
+	/** Takip edilen toplam soru sayısı. */
+	tracked: number;
+	/** En az bir kez unutulmuş soru sayısı. */
+	struggling: number;
+	/** Bir sonraki tekrarın tarihi; kuyruk boşsa null. */
+	nextDueAt: string | null;
+}
+
+export interface CountPair {
+	correct: number;
+	total: number;
+}
+
+export interface StatisticsSnapshot {
+	totalAttempts: number;
+	totalCorrect: number;
+	streakDays: number;
+	bySubject: (CountPair & { subjectId: string })[];
+	byDifficulty: (CountPair & { difficulty: Difficulty })[];
+	byContext: (CountPair & { context: AttemptContext })[];
+	/** Son N günün aktivitesi, eskiden yeniye; boş günler de dâhil. */
+	activity: { date: string; answered: number; correct: number }[];
+}
+
 export interface ExportBundle {
 	version: 1;
 	exportedAt: string;
@@ -78,6 +129,9 @@ export interface ExportBundle {
 	dailyStats: DailyStat[];
 	settings: StudySettings | null;
 	bookmarks: Bookmark[];
+	examSessions: ExamSession[];
+	reviewSchedule: ReviewSchedule[];
+	reports: QuestionReport[];
 }
 
 const DEFAULT_SETTINGS: Omit<StudySettings, "updatedAt"> = {
@@ -85,14 +139,6 @@ const DEFAULT_SETTINGS: Omit<StudySettings, "updatedAt"> = {
 	dailyGoalQuestions: 20,
 	instantFeedback: true,
 };
-
-/** "2026-07-21" — yerel saat dilimine göre gün anahtarı. */
-function todayKey(now = new Date()): string {
-	const year = now.getFullYear();
-	const month = String(now.getMonth() + 1).padStart(2, "0");
-	const day = String(now.getDate()).padStart(2, "0");
-	return `${year}-${month}-${day}`;
-}
 
 function newId(): string {
 	return globalThis.crypto.randomUUID();
@@ -117,11 +163,11 @@ class DexieProgressRepository implements IProgressRepository {
 		const db = getDb();
 		const now = new Date();
 		const nowIso = now.toISOString();
-		const date = todayKey(now);
+		const date = dayKey(now);
 
 		await db.transaction(
 			"rw",
-			[db.attempts, db.topicProgress, db.dailyStats],
+			[db.attempts, db.topicProgress, db.dailyStats, db.reviewSchedule],
 			async () => {
 				// 1. Append-only günlük
 				await db.attempts.bulkAdd(
@@ -162,7 +208,32 @@ class DexieProgressRepository implements IProgressRepository {
 					});
 				}
 
-				// 3. Günlük istatistik
+				// 3. Aralıklı tekrar planı — her cevap kuyruğu besler.
+				//    Doğru bilinenler uzun aralığa itilir, yanlışlar yarına döner.
+				for (const input of inputs) {
+					const key: [string, string] = [this.userId, input.questionId];
+					const existing = await db.reviewSchedule.get(key);
+					const state = existing ?? scheduler.initial();
+					const grade = gradeFromAttempt(
+						input.isCorrect,
+						input.selectedIndex,
+						input.durationMs,
+					);
+					const nextState = scheduler.next(state, grade);
+
+					await db.reviewSchedule.put({
+						userId: this.userId,
+						questionId: input.questionId,
+						subjectId: input.subjectId,
+						topicId: input.topicId,
+						...nextState,
+						dueAt: dueDateFrom(nextState.intervalDays, now),
+						lastGrade: grade,
+						updatedAt: nowIso,
+					});
+				}
+
+				// 4. Günlük istatistik
 				const stat = (await db.dailyStats.get([this.userId, date])) ?? {
 					userId: this.userId,
 					date,
@@ -282,6 +353,148 @@ class DexieProgressRepository implements IProgressRepository {
 		return sessions.filter((s) => s.status === "completed").slice(0, limit);
 	}
 
+	async getDueReviews(limit: number): Promise<ReviewSchedule[]> {
+		const nowIso = new Date().toISOString();
+		const due = await getDb()
+			.reviewSchedule.where("[userId+dueAt]")
+			.between([this.userId, ""], [this.userId, nowIso])
+			.toArray();
+
+		// En gecikmiş olan en önce: unutma riski en yüksek soru başa gelir.
+		return due.sort((a, b) => a.dueAt.localeCompare(b.dueAt)).slice(0, limit);
+	}
+
+	async getReviewSummary(): Promise<ReviewSummary> {
+		const all = await getDb()
+			.reviewSchedule.where("userId")
+			.equals(this.userId)
+			.toArray();
+
+		const nowIso = new Date().toISOString();
+		const upcoming = all
+			.filter((r) => r.dueAt > nowIso)
+			.sort((a, b) => a.dueAt.localeCompare(b.dueAt));
+
+		return {
+			due: all.filter((r) => r.dueAt <= nowIso).length,
+			tracked: all.length,
+			struggling: all.filter((r) => r.lapses > 0).length,
+			nextDueAt: upcoming[0]?.dueAt ?? null,
+		};
+	}
+
+	async getRecentMistakes(limit: number): Promise<QuestionAttempt[]> {
+		const attempts = await getDb()
+			.attempts.where("userId")
+			.equals(this.userId)
+			.sortBy("createdAt");
+
+		// Soru başına yalnızca EN SON deneme sayılır: sonradan doğru bilinen bir
+		// soru "yanlışlarım" listesinde kalmamalıdır.
+		const latest = new Map<string, QuestionAttempt>();
+		for (const attempt of attempts) latest.set(attempt.questionId, attempt);
+
+		return [...latest.values()]
+			.filter((a) => !a.isCorrect)
+			.sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+			.slice(0, limit);
+	}
+
+	async getStrugglingReviews(limit: number): Promise<ReviewSchedule[]> {
+		const all = await getDb()
+			.reviewSchedule.where("userId")
+			.equals(this.userId)
+			.toArray();
+
+		return all
+			.filter((r) => r.lapses > 0)
+			.sort((a, b) => b.lapses - a.lapses || a.easeFactor - b.easeFactor)
+			.slice(0, limit);
+	}
+
+	async saveReport(
+		report: Omit<QuestionReport, "id" | "userId" | "createdAt">,
+	): Promise<void> {
+		await getDb().reports.add({
+			id: newId(),
+			userId: this.userId,
+			createdAt: new Date().toISOString(),
+			...report,
+		});
+	}
+
+	async getReports(): Promise<QuestionReport[]> {
+		const all = await getDb()
+			.reports.where("userId")
+			.equals(this.userId)
+			.toArray();
+		return all.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+	}
+
+	/**
+	 * İstatistikler doğrudan append-only `attempts` günlüğünden hesaplanır.
+	 * `dailyStats` yalnızca önbellek olduğu için burada kaynak olarak
+	 * kullanılmaz; tek istisna, aktivite takvimi ve seri hesabıdır.
+	 */
+	async getStatistics(activityDays: number): Promise<StatisticsSnapshot> {
+		const db = getDb();
+		const [attempts, daily] = await Promise.all([
+			db.attempts.where("userId").equals(this.userId).toArray(),
+			db.dailyStats.where("userId").equals(this.userId).toArray(),
+		]);
+
+		function tally<K extends string>(
+			key: (a: QuestionAttempt) => K,
+		): Map<K, CountPair> {
+			const map = new Map<K, CountPair>();
+			for (const attempt of attempts) {
+				const bucket = map.get(key(attempt)) ?? { correct: 0, total: 0 };
+				bucket.total += 1;
+				if (attempt.isCorrect) bucket.correct += 1;
+				map.set(key(attempt), bucket);
+			}
+			return map;
+		}
+
+		// Aktivite takvimi boş günleri de içerir; grafikte boşluk görünsün.
+		const byDate = new Map(daily.map((d) => [d.date, d]));
+		const activity: StatisticsSnapshot["activity"] = [];
+		const today = new Date();
+
+		for (let i = activityDays - 1; i >= 0; i -= 1) {
+			const date = new Date(today);
+			date.setDate(date.getDate() - i);
+			const key = dayKey(date);
+			const stat = byDate.get(key);
+			activity.push({
+				date: key,
+				answered: stat?.questionsAnswered ?? 0,
+				correct: stat?.correctAnswers ?? 0,
+			});
+		}
+
+		return {
+			totalAttempts: attempts.length,
+			totalCorrect: attempts.filter((a) => a.isCorrect).length,
+			streakDays: computeStreak(
+				daily.filter((d) => d.questionsAnswered > 0).map((d) => d.date),
+				dayKey(today),
+			),
+			bySubject: [...tally((a) => a.subjectId)].map(([subjectId, counts]) => ({
+				subjectId,
+				...counts,
+			})),
+			byDifficulty: [...tally((a) => a.difficulty)].map(
+				([difficulty, counts]) => ({ difficulty, ...counts }),
+			),
+			byContext: [...tally((a) => a.context)].map(([context, counts]) => ({
+				context,
+				...counts,
+			})),
+			activity,
+		};
+	}
+
 	async getSettings(): Promise<StudySettings> {
 		const stored = await getDb().settings.get(this.userId);
 		return stored ?? { ...DEFAULT_SETTINGS, updatedAt: new Date().toISOString() };
@@ -338,19 +551,34 @@ class DexieProgressRepository implements IProgressRepository {
 	/** Veri taşınabilirliği sözü — bkz. PROJECT_PLAN.md §4, taahhüt 6. */
 	async exportAll(): Promise<ExportBundle> {
 		const db = getDb();
-		const [attempts, topicProgress, testSessions, dailyStats, settings, bookmarks] =
-			await Promise.all([
-				db.attempts.where("userId").equals(this.userId).toArray(),
-				db.topicProgress.where("userId").equals(this.userId).toArray(),
-				db.testSessions.where("userId").equals(this.userId).toArray(),
-				db.dailyStats.where("userId").equals(this.userId).toArray(),
-				db.settings.get(this.userId),
-				db.bookmarks.where("userId").equals(this.userId).toArray(),
-			]);
+		const [
+			attempts,
+			topicProgress,
+			testSessions,
+			dailyStats,
+			settings,
+			bookmarks,
+			examSessions,
+			reviewSchedule,
+			reports,
+		] = await Promise.all([
+			db.attempts.where("userId").equals(this.userId).toArray(),
+			db.topicProgress.where("userId").equals(this.userId).toArray(),
+			db.testSessions.where("userId").equals(this.userId).toArray(),
+			db.dailyStats.where("userId").equals(this.userId).toArray(),
+			db.settings.get(this.userId),
+			db.bookmarks.where("userId").equals(this.userId).toArray(),
+			db.examSessions.where("userId").equals(this.userId).toArray(),
+			db.reviewSchedule.where("userId").equals(this.userId).toArray(),
+			db.reports.where("userId").equals(this.userId).toArray(),
+		]);
 
 		return {
 			version: 1,
 			exportedAt: new Date().toISOString(),
+			examSessions,
+			reviewSchedule,
+			reports,
 			attempts,
 			topicProgress,
 			testSessions,
@@ -360,54 +588,49 @@ class DexieProgressRepository implements IProgressRepository {
 		};
 	}
 
+	/**
+	 * Dışa/içe aktarma ve silme, TÜM tabloları kapsamak zorundadır.
+	 *
+	 * Yeni bir tablo eklendiğinde buraya da eklenmelidir; aksi hâlde kullanıcı
+	 * "tüm verilerimi sildim" sanırken veri diskte kalır ve yedeği eksik olur.
+	 * Bu üç metot bilinçli olarak aynı tablo listesini kullanır.
+	 */
+	private allTables() {
+		const db = getDb();
+		return [
+			db.attempts,
+			db.topicProgress,
+			db.testSessions,
+			db.examSessions,
+			db.dailyStats,
+			db.settings,
+			db.bookmarks,
+			db.reports,
+			db.reviewSchedule,
+		];
+	}
+
 	async importAll(bundle: ExportBundle): Promise<void> {
 		const db = getDb();
-		await db.transaction(
-			"rw",
-			[
-				db.attempts,
-				db.topicProgress,
-				db.testSessions,
-				db.dailyStats,
-				db.settings,
-				db.bookmarks,
-			],
-			async () => {
-				await db.attempts.bulkPut(bundle.attempts);
-				await db.topicProgress.bulkPut(bundle.topicProgress);
-				await db.testSessions.bulkPut(bundle.testSessions);
-				await db.dailyStats.bulkPut(bundle.dailyStats);
-				await db.bookmarks.bulkPut(bundle.bookmarks);
-				if (bundle.settings) await db.settings.put(bundle.settings);
-			},
-		);
+		await db.transaction("rw", this.allTables(), async () => {
+			await db.attempts.bulkPut(bundle.attempts);
+			await db.topicProgress.bulkPut(bundle.topicProgress);
+			await db.testSessions.bulkPut(bundle.testSessions);
+			await db.dailyStats.bulkPut(bundle.dailyStats);
+			await db.bookmarks.bulkPut(bundle.bookmarks);
+			// Eski sürümde alınmış yedeklerde bu alanlar bulunmayabilir.
+			await db.examSessions.bulkPut(bundle.examSessions ?? []);
+			await db.reviewSchedule.bulkPut(bundle.reviewSchedule ?? []);
+			await db.reports.bulkPut(bundle.reports ?? []);
+			if (bundle.settings) await db.settings.put(bundle.settings);
+		});
 	}
 
 	async clearAll(): Promise<void> {
-		const db = getDb();
-		await db.transaction(
-			"rw",
-			[
-				db.attempts,
-				db.topicProgress,
-				db.testSessions,
-				db.dailyStats,
-				db.settings,
-				db.bookmarks,
-				db.reports,
-			],
-			async () => {
-				await Promise.all([
-					db.attempts.clear(),
-					db.topicProgress.clear(),
-					db.testSessions.clear(),
-					db.dailyStats.clear(),
-					db.settings.clear(),
-					db.bookmarks.clear(),
-					db.reports.clear(),
-				]);
-			},
-		);
+		const tables = this.allTables();
+		await getDb().transaction("rw", tables, async () => {
+			await Promise.all(tables.map((table) => table.clear()));
+		});
 	}
 }
 

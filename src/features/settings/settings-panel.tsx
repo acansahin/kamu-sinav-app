@@ -14,8 +14,16 @@ import {
 	THEME_LABELS,
 	usePreferences,
 } from "@/lib/stores/preferences";
-import type { FontScale, ThemeChoice } from "@/types/progress";
+import type { FontScale, ReportReason, ThemeChoice } from "@/types/progress";
 import { cn } from "@/lib/utils/cn";
+
+const REPORT_REASON_LABELS: Record<ReportReason, string> = {
+	"yanlis-cevap": "Doğru cevap yanlış görünüyor",
+	"guncel-degil": "Bilgi güncel değil",
+	"belirsiz-ifade": "Soru veya şık belirsiz",
+	"yazim-hatasi": "Yazım hatası",
+	diger: "Diğer",
+};
 
 function ChoiceGroup<T extends string>({
 	legend,
@@ -73,6 +81,11 @@ export function SettingsPanel() {
 
 	const settings = useLiveQuery(
 		() => progressRepository.getSettings(),
+		[],
+		undefined,
+	);
+	const reports = useLiveQuery(
+		() => progressRepository.getReports(),
 		[],
 		undefined,
 	);
@@ -168,6 +181,43 @@ export function SettingsPanel() {
 						className="mt-2 block min-h-11 w-32 rounded-lg border-2 border-line bg-surface-raised px-3 text-base"
 					/>
 				</label>
+			</Card>
+
+			<Card>
+				<h2 className="mb-1 text-lg font-bold">Hata bildirimlerin</h2>
+				<p className="mb-4 text-sm text-fg-muted">
+					Sorularda bildirdiğin sorunlar. Şimdilik yalnızca bu cihazda tutulur;
+					yedeğe dâhil edilir ve üyelik sistemi geldiğinde bize iletilebilecek.
+				</p>
+
+				{reports === undefined ? (
+					<div className="h-12 animate-pulse rounded-lg bg-surface-sunken" />
+				) : reports.length === 0 ? (
+					<p className="text-sm text-fg-subtle">
+						Henüz bildirim yok. Bir soruda hata gördüğünde açıklamanın altındaki
+						&ldquo;Bu soruda sorun var&rdquo; bağlantısını kullanabilirsin.
+					</p>
+				) : (
+					<ul className="space-y-2">
+						{reports.map((report) => (
+							<li
+								key={report.id}
+								className="rounded-lg border border-line bg-surface-sunken p-3"
+							>
+								<p className="font-medium">
+									{REPORT_REASON_LABELS[report.reason]}
+								</p>
+								<p className="mt-0.5 text-sm text-fg-muted">
+									{report.questionId} ·{" "}
+									{new Date(report.createdAt).toLocaleDateString("tr-TR")}
+								</p>
+								{report.note && (
+									<p className="mt-1.5 text-sm text-fg">{report.note}</p>
+								)}
+							</li>
+						))}
+					</ul>
+				)}
 			</Card>
 
 			<Card>

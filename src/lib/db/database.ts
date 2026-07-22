@@ -5,6 +5,7 @@ import type {
 	ExamSession,
 	QuestionAttempt,
 	QuestionReport,
+	ReviewSchedule,
 	StudySettings,
 	TestSession,
 	TopicProgress,
@@ -36,6 +37,7 @@ export class AppDatabase extends Dexie {
 	settings!: EntityTable<StudySettings, "userId">;
 	bookmarks!: Table<Bookmark, [string, string, string]>;
 	reports!: EntityTable<QuestionReport, "id">;
+	reviewSchedule!: Table<ReviewSchedule, [string, string]>;
 
 	constructor() {
 		super("kamu-sinav-akademi");
@@ -56,6 +58,13 @@ export class AppDatabase extends Dexie {
 		// boş olarak oluşturur.
 		this.version(2).stores({
 			examSessions: "&id, userId, status, startedAt, [userId+status]",
+		});
+
+		// v3: aralıklı tekrar. `dueAt` indeksi "bugün vadesi gelenler"
+		// sorgusunun tamamını karşılar.
+		this.version(3).stores({
+			reviewSchedule:
+				"[userId+questionId], userId, dueAt, topicId, [userId+dueAt]",
 		});
 	}
 }

@@ -107,6 +107,29 @@ export interface ExamResult {
 	wrongQuestionIds: string[];
 }
 
+/**
+ * Bir sorunun aralıklı tekrar durumu.
+ *
+ * Her cevaplanan soru için bir kayıt tutulur: doğru bilinenler uzun aralıklara
+ * itilir ve nadiren geri gelir, yanlışlar ertesi gün geri döner. Böylece
+ * "yanlışlarım" listesi elle yönetilen bir kuyruk değil, unutma eğrisine göre
+ * sıralanan bir çalışma planı hâline gelir.
+ */
+export interface ReviewSchedule {
+	userId: string;
+	questionId: string;
+	subjectId: string;
+	topicId: string;
+	easeFactor: number;
+	intervalDays: number;
+	repetitions: number;
+	lapses: number;
+	/** ISO tarih — bu tarihten itibaren soru tekrar kuyruğuna girer. */
+	dueAt: string;
+	lastGrade: number;
+	updatedAt: string;
+}
+
 export interface DailyStat {
 	userId: string;
 	/** "2026-07-21" */

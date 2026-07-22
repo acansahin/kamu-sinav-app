@@ -2,6 +2,7 @@ import { BookOpen, ListChecks, ShieldCheck, Timer } from "lucide-react";
 import { Card, CardLink, SectionHeading } from "@/components/ui/card";
 import { ContinueCard } from "@/features/progress/continue-card";
 import { TodaySummary } from "@/features/progress/today-summary";
+import { ReviewReminder } from "@/features/review/review-reminder";
 import { getAllTopicRefs } from "@/lib/content/topic-refs";
 import { contentRepository } from "@/lib/repositories/content.repository";
 
@@ -20,6 +21,9 @@ export default async function HomePage() {
 				</p>
 				<ContinueCard topics={topics} />
 			</section>
+
+			{/* Vadesi gelen tekrar yoksa hiç render edilmez */}
+			<ReviewReminder />
 
 			<section>
 				<SectionHeading>Bugün</SectionHeading>

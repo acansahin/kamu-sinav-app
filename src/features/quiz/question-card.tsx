@@ -1,6 +1,7 @@
 "use client";
 
 import { Check, Scale, X } from "lucide-react";
+import { QuestionReportButton } from "@/features/report/question-report-button";
 import type { Question } from "@/types/content";
 import type { AnswerIndex } from "@/types/progress";
 import { cn } from "@/lib/utils/cn";
@@ -139,6 +140,8 @@ export function QuestionCard({
 						{question.legalRef.article && `, m. ${question.legalRef.article}`}
 						{question.legalRef.clause && `/${question.legalRef.clause}`}
 					</p>
+
+					<QuestionReportButton questionId={question.id} />
 				</div>
 			)}
 		</div>

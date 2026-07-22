@@ -1067,8 +1067,18 @@ ortak konuların tamamını okuyabiliyor, test çözebiliyor, 80 soruluk deneme 
 ders bazlı analiz raporu alabiliyor ve ilerlemesini görebiliyor.
 
 ### Faz 2 — Öğrenme derinliği (~3 hafta)
-Aralıklı tekrar (SM-2, `IScheduler` arkasında), gelişmiş analiz, hata bildirimi akışı,
-global arama, özetten PDF üretimi.
+
+> **Durum (22 Temmuz 2026):** aralıklı tekrar, yanlış bankası, hata bildirimi ve
+> istatistikler tamam. Kalan: **global arama** ve **özetten PDF üretimi**.
+
+- ✅ **Aralıklı tekrar (SM-2)** — `IScheduler` arkasında; not, cevaptan ve süreden
+  otomatik türetilir, kullanıcıya "ne kadar hatırladın" sorulmaz.
+- ✅ **Yanlış bankası** — planlı tekrardan ayrı bir yol. SM-2'nin en kısa aralığı bir gün
+  olduğu için az önce yanlış yapılan soru "bugün vadesi gelenler"e girmez; kullanıcı
+  yine de hatalarını beklemeden çözebilir.
+- ✅ **Hata bildirimi akışı** — soru kartından bildirim, Ayarlar'da liste, yedeğe dâhil.
+- ✅ **İstatistikler ekranı** — 28 günlük aktivite, seri, ders/zorluk/bağlam kırılımı.
+- ⬜ Global arama · ⬜ Özetten PDF üretimi
 
 ### Faz 3 — Hesap ve senkron (~3 hafta)
 Supabase Auth (e-posta/OTP), RLS politikaları, yerel veriyi hesaba yükseltme, çoklu cihaz
