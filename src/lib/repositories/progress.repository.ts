@@ -1,3 +1,5 @@
+import { restampBundle } from "@/lib/auth/claim";
+import { currentUserId } from "@/lib/auth/identity";
 import { getDb } from "@/lib/db/database";
 import { computeMastery } from "@/lib/scoring/mastery";
 import { computeStreak, dayKey } from "@/lib/scoring/streak";
@@ -7,20 +9,20 @@ import {
 	scheduler,
 } from "@/lib/scheduler/sm2";
 import type { Difficulty } from "@/types/content";
-import {
-	type AnswerIndex,
-	type AttemptContext,
-	type Bookmark,
-	type DailyStat,
-	type ExamResult,
-	type ExamSession,
-	LOCAL_USER_ID,
-	type QuestionAttempt,
-	type QuestionReport,
-	type ReviewSchedule,
-	type StudySettings,
-	type TestSession,
-	type TopicProgress,
+import type {
+	AnswerIndex,
+	AttemptContext,
+	Bookmark,
+	DailyStat,
+	ExamResult,
+	ExamSession,
+	ExportBundle,
+	QuestionAttempt,
+	QuestionReport,
+	ReviewSchedule,
+	StudySettings,
+	TestSession,
+	TopicProgress,
 } from "@/types/progress";
 
 /**
@@ -29,6 +31,10 @@ import {
  * UI ve özellik katmanı Dexie'yi asla doğrudan görmez; her şey buradan geçer.
  * Faz 3'te sunucu geldiğinde yalnızca bu arayüzün ikinci bir implementasyonu
  * yazılır — çağıran hiçbir bileşen değişmez (bkz. PROJECT_PLAN.md §7.2).
+ *
+ * Kimlik de bu sınırın içindedir: çağıran hiçbir yer `userId` vermez, satırları
+ * repository damgalar. Oturum oluşturma metotlarının `Omit<…, "userId">`
+ * almasının sebebi budur.
  */
 export interface IProgressRepository {
 	recordAttempt(input: RecordAttemptInput): Promise<void>;
@@ -36,7 +42,7 @@ export interface IProgressRepository {
 	getTopicProgress(topicId: string): Promise<TopicProgress | null>;
 	getAllTopicProgress(): Promise<TopicProgress[]>;
 	markSummaryRead(subjectId: string, topicId: string): Promise<void>;
-	createTestSession(session: TestSession): Promise<void>;
+	createTestSession(session: NewTestSession): Promise<void>;
 	getTestSession(sessionId: string): Promise<TestSession | null>;
 	completeTestSession(
 		sessionId: string,
@@ -44,7 +50,7 @@ export interface IProgressRepository {
 		score: number,
 	): Promise<void>;
 	getRecentTestSessions(limit: number): Promise<TestSession[]>;
-	createExamSession(session: ExamSession): Promise<void>;
+	createExamSession(session: NewExamSession): Promise<void>;
 	/** Yarıda kalmış sınav varsa döner — çökme sonrası kurtarma için. */
 	getResumableExamSession(): Promise<ExamSession | null>;
 	/** Sınav sürerken durumu diske yazar; çökme sonrası kayıp bu aralıkla sınırlı kalır. */
@@ -68,7 +74,9 @@ export interface IProgressRepository {
 	getRecentMistakes(limit: number): Promise<QuestionAttempt[]>;
 	/** En çok unutulan sorular — "zorlandıkların" listesi için. */
 	getStrugglingReviews(limit: number): Promise<ReviewSchedule[]>;
-	saveReport(report: Omit<QuestionReport, "id" | "userId" | "createdAt">): Promise<void>;
+	saveReport(
+		report: Omit<QuestionReport, "id" | "userId" | "createdAt" | "updatedAt">,
+	): Promise<void>;
 	getReports(): Promise<QuestionReport[]>;
 	getStatistics(activityDays: number): Promise<StatisticsSnapshot>;
 	getSettings(): Promise<StudySettings>;
@@ -79,7 +87,18 @@ export interface IProgressRepository {
 	exportAll(): Promise<ExportBundle>;
 	importAll(bundle: ExportBundle): Promise<void>;
 	clearAll(): Promise<void>;
+	/**
+	 * Cihazdaki tüm veriyi yeni bir kimliğe damgalar.
+	 *
+	 * Kullanıcı hesap açtığında anonim ilerlemesi silinmez, hesabın parçası
+	 * olur — PROJECT_PLAN.md §8'deki "veri kaybı olmadan yükseltme" sözü.
+	 */
+	reassignOwner(newUserId: string): Promise<void>;
 }
+
+/** Oturumu açan kod kimliği bilmez; `userId` damgasını repository atar. */
+export type NewTestSession = Omit<TestSession, "userId" | "updatedAt">;
+export type NewExamSession = Omit<ExamSession, "userId" | "updatedAt">;
 
 export interface RecordAttemptInput {
 	questionId: string;
@@ -120,22 +139,7 @@ export interface StatisticsSnapshot {
 	activity: { date: string; answered: number; correct: number }[];
 }
 
-export interface ExportBundle {
-	version: 1;
-	exportedAt: string;
-	attempts: QuestionAttempt[];
-	topicProgress: TopicProgress[];
-	testSessions: TestSession[];
-	dailyStats: DailyStat[];
-	settings: StudySettings | null;
-	bookmarks: Bookmark[];
-	examSessions: ExamSession[];
-	reviewSchedule: ReviewSchedule[];
-	reports: QuestionReport[];
-}
-
-const DEFAULT_SETTINGS: Omit<StudySettings, "updatedAt"> = {
-	userId: LOCAL_USER_ID,
+const DEFAULT_SETTINGS: Omit<StudySettings, "userId" | "updatedAt"> = {
 	dailyGoalQuestions: 20,
 	instantFeedback: true,
 };
@@ -145,7 +149,16 @@ function newId(): string {
 }
 
 class DexieProgressRepository implements IProgressRepository {
-	private readonly userId = LOCAL_USER_ID;
+	/**
+	 * Aktif kimlik her çağrıda okunur — sabit değildir.
+	 *
+	 * Yerel veritabanı tek kullanıcılıktır: satırlar her zaman o an aktif olan
+	 * kimliğe aittir (bkz. `lib/auth/identity.ts`). Kimlik değiştiğinde veri
+	 * `reassignOwner` ile taşınır, bu yüzden burada filtreleme yeterlidir.
+	 */
+	private get userId(): string {
+		return currentUserId();
+	}
 
 	async recordAttempt(input: RecordAttemptInput): Promise<void> {
 		await this.recordAttempts([input]);
@@ -279,8 +292,12 @@ class DexieProgressRepository implements IProgressRepository {
 		});
 	}
 
-	async createTestSession(session: TestSession): Promise<void> {
-		await getDb().testSessions.add(session);
+	async createTestSession(session: NewTestSession): Promise<void> {
+		await getDb().testSessions.add({
+			...session,
+			userId: this.userId,
+			updatedAt: new Date().toISOString(),
+		});
 	}
 
 	async getTestSession(sessionId: string): Promise<TestSession | null> {
@@ -292,11 +309,13 @@ class DexieProgressRepository implements IProgressRepository {
 		answers: Record<string, AnswerIndex | null>,
 		score: number,
 	): Promise<void> {
+		const nowIso = new Date().toISOString();
 		await getDb().testSessions.update(sessionId, {
 			answers,
 			score,
 			status: "completed",
-			completedAt: new Date().toISOString(),
+			completedAt: nowIso,
+			updatedAt: nowIso,
 		});
 	}
 
@@ -309,8 +328,12 @@ class DexieProgressRepository implements IProgressRepository {
 		return sessions.slice(0, limit);
 	}
 
-	async createExamSession(session: ExamSession): Promise<void> {
-		await getDb().examSessions.add(session);
+	async createExamSession(session: NewExamSession): Promise<void> {
+		await getDb().examSessions.add({
+			...session,
+			userId: this.userId,
+			updatedAt: new Date().toISOString(),
+		});
 	}
 
 	async getResumableExamSession(): Promise<ExamSession | null> {
@@ -325,23 +348,31 @@ class DexieProgressRepository implements IProgressRepository {
 		sessionId: string,
 		patch: Pick<ExamSession, "answers" | "flagged" | "remainingSeconds">,
 	): Promise<void> {
-		await getDb().examSessions.update(sessionId, patch);
+		await getDb().examSessions.update(sessionId, {
+			...patch,
+			updatedAt: new Date().toISOString(),
+		});
 	}
 
 	async completeExamSession(
 		sessionId: string,
 		result: ExamResult,
 	): Promise<void> {
+		const nowIso = new Date().toISOString();
 		await getDb().examSessions.update(sessionId, {
 			result,
 			status: "completed",
-			completedAt: new Date().toISOString(),
+			completedAt: nowIso,
 			remainingSeconds: 0,
+			updatedAt: nowIso,
 		});
 	}
 
 	async abandonExamSession(sessionId: string): Promise<void> {
-		await getDb().examSessions.update(sessionId, { status: "abandoned" });
+		await getDb().examSessions.update(sessionId, {
+			status: "abandoned",
+			updatedAt: new Date().toISOString(),
+		});
 	}
 
 	async getRecentExamSessions(limit: number): Promise<ExamSession[]> {
@@ -413,12 +444,14 @@ class DexieProgressRepository implements IProgressRepository {
 	}
 
 	async saveReport(
-		report: Omit<QuestionReport, "id" | "userId" | "createdAt">,
+		report: Omit<QuestionReport, "id" | "userId" | "createdAt" | "updatedAt">,
 	): Promise<void> {
+		const nowIso = new Date().toISOString();
 		await getDb().reports.add({
 			id: newId(),
 			userId: this.userId,
-			createdAt: new Date().toISOString(),
+			createdAt: nowIso,
+			updatedAt: nowIso,
 			...report,
 		});
 	}
@@ -497,7 +530,13 @@ class DexieProgressRepository implements IProgressRepository {
 
 	async getSettings(): Promise<StudySettings> {
 		const stored = await getDb().settings.get(this.userId);
-		return stored ?? { ...DEFAULT_SETTINGS, updatedAt: new Date().toISOString() };
+		return (
+			stored ?? {
+				...DEFAULT_SETTINGS,
+				userId: this.userId,
+				updatedAt: new Date().toISOString(),
+			}
+		);
 	}
 
 	async saveSettings(patch: Partial<StudySettings>): Promise<void> {
@@ -548,52 +587,64 @@ class DexieProgressRepository implements IProgressRepository {
 		);
 	}
 
-	/** Veri taşınabilirliği sözü — bkz. PROJECT_PLAN.md §4, taahhüt 6. */
-	async exportAll(): Promise<ExportBundle> {
+	/**
+	 * Aktif kullanıcının tüm satırlarını tek pakette toplar.
+	 *
+	 * Okumalar bilinçli olarak SIRALIDIR (`Promise.all` değil): bu metot
+	 * `reassignOwner` içinden, açık bir yazma transaction'ının içinde de
+	 * çağrılıyor ve orada işlem sırası öngörülebilir olmalı.
+	 */
+	private async readBundle(): Promise<ExportBundle> {
 		const db = getDb();
-		const [
-			attempts,
-			topicProgress,
-			testSessions,
-			dailyStats,
-			settings,
-			bookmarks,
-			examSessions,
-			reviewSchedule,
-			reports,
-		] = await Promise.all([
-			db.attempts.where("userId").equals(this.userId).toArray(),
-			db.topicProgress.where("userId").equals(this.userId).toArray(),
-			db.testSessions.where("userId").equals(this.userId).toArray(),
-			db.dailyStats.where("userId").equals(this.userId).toArray(),
-			db.settings.get(this.userId),
-			db.bookmarks.where("userId").equals(this.userId).toArray(),
-			db.examSessions.where("userId").equals(this.userId).toArray(),
-			db.reviewSchedule.where("userId").equals(this.userId).toArray(),
-			db.reports.where("userId").equals(this.userId).toArray(),
-		]);
 
 		return {
 			version: 1,
 			exportedAt: new Date().toISOString(),
-			examSessions,
-			reviewSchedule,
-			reports,
-			attempts,
-			topicProgress,
-			testSessions,
-			dailyStats,
-			settings: settings ?? null,
-			bookmarks,
+			attempts: await db.attempts
+				.where("userId")
+				.equals(this.userId)
+				.toArray(),
+			topicProgress: await db.topicProgress
+				.where("userId")
+				.equals(this.userId)
+				.toArray(),
+			testSessions: await db.testSessions
+				.where("userId")
+				.equals(this.userId)
+				.toArray(),
+			examSessions: await db.examSessions
+				.where("userId")
+				.equals(this.userId)
+				.toArray(),
+			dailyStats: await db.dailyStats
+				.where("userId")
+				.equals(this.userId)
+				.toArray(),
+			bookmarks: await db.bookmarks
+				.where("userId")
+				.equals(this.userId)
+				.toArray(),
+			reviewSchedule: await db.reviewSchedule
+				.where("userId")
+				.equals(this.userId)
+				.toArray(),
+			reports: await db.reports.where("userId").equals(this.userId).toArray(),
+			settings: (await db.settings.get(this.userId)) ?? null,
 		};
 	}
 
+	/** Veri taşınabilirliği sözü — bkz. PROJECT_PLAN.md §4, taahhüt 6. */
+	async exportAll(): Promise<ExportBundle> {
+		return this.readBundle();
+	}
+
 	/**
-	 * Dışa/içe aktarma ve silme, TÜM tabloları kapsamak zorundadır.
+	 * Dışa/içe aktarma, silme ve kimlik taşıma TÜM tabloları kapsamak zorundadır.
 	 *
-	 * Yeni bir tablo eklendiğinde buraya da eklenmelidir; aksi hâlde kullanıcı
-	 * "tüm verilerimi sildim" sanırken veri diskte kalır ve yedeği eksik olur.
-	 * Bu üç metot bilinçli olarak aynı tablo listesini kullanır.
+	 * Yeni bir tablo eklendiğinde buraya, `readBundle`'a ve `writeBundle`'a
+	 * eklenmelidir; aksi hâlde kullanıcı "tüm verilerimi sildim" sanırken veri
+	 * diskte kalır, yedeği eksik olur ve hesaba geçerken o tablo geride kalır.
+	 * Bu metotlar bilinçli olarak aynı tablo listesini kullanır.
 	 */
 	private allTables() {
 		const db = getDb();
@@ -610,19 +661,25 @@ class DexieProgressRepository implements IProgressRepository {
 		];
 	}
 
+	/** Çağıran taraf transaction'ı açmış olmalıdır. */
+	private async writeBundle(bundle: ExportBundle): Promise<void> {
+		const db = getDb();
+		await db.attempts.bulkPut(bundle.attempts);
+		await db.topicProgress.bulkPut(bundle.topicProgress);
+		await db.testSessions.bulkPut(bundle.testSessions);
+		await db.dailyStats.bulkPut(bundle.dailyStats);
+		await db.bookmarks.bulkPut(bundle.bookmarks);
+		// Eski sürümde alınmış yedeklerde bu tablolar bulunmayabilir.
+		await db.examSessions.bulkPut(bundle.examSessions ?? []);
+		await db.reviewSchedule.bulkPut(bundle.reviewSchedule ?? []);
+		await db.reports.bulkPut(bundle.reports ?? []);
+		if (bundle.settings) await db.settings.put(bundle.settings);
+	}
+
 	async importAll(bundle: ExportBundle): Promise<void> {
 		const db = getDb();
 		await db.transaction("rw", this.allTables(), async () => {
-			await db.attempts.bulkPut(bundle.attempts);
-			await db.topicProgress.bulkPut(bundle.topicProgress);
-			await db.testSessions.bulkPut(bundle.testSessions);
-			await db.dailyStats.bulkPut(bundle.dailyStats);
-			await db.bookmarks.bulkPut(bundle.bookmarks);
-			// Eski sürümde alınmış yedeklerde bu alanlar bulunmayabilir.
-			await db.examSessions.bulkPut(bundle.examSessions ?? []);
-			await db.reviewSchedule.bulkPut(bundle.reviewSchedule ?? []);
-			await db.reports.bulkPut(bundle.reports ?? []);
-			if (bundle.settings) await db.settings.put(bundle.settings);
+			await this.writeBundle(backfillTimestamps(bundle));
 		});
 	}
 
@@ -632,6 +689,57 @@ class DexieProgressRepository implements IProgressRepository {
 			await Promise.all(tables.map((table) => table.clear()));
 		});
 	}
+
+	/**
+	 * Cihazdaki tüm veriyi yeni bir kimliğe damgalar.
+	 *
+	 * Neden tek transaction: `topicProgress`, `dailyStats`, `bookmarks` ve
+	 * `reviewSchedule` tablolarının BİRİNCİL ANAHTARI `userId` içerir. Bu
+	 * satırlar `update` ile damgalanamaz — silinip yeniden eklenmeleri gerekir.
+	 * Sil ile yaz arasında bir çökme olursa kullanıcı ilerlemesini kaybederdi.
+	 *
+	 * Çağrı sırası bağlayıcıdır: bu metot ESKİ kimlik hâlâ aktifken çağrılır,
+	 * `setIdentity` ondan SONRA gelir. Tersi sırada okuma boş küme döner ve
+	 * veri sahipsiz kalır.
+	 */
+	async reassignOwner(newUserId: string): Promise<void> {
+		if (newUserId === this.userId) return;
+
+		const db = getDb();
+		const tables = this.allTables();
+
+		await db.transaction("rw", tables, async () => {
+			const restamped = restampBundle(await this.readBundle(), newUserId);
+			// Yerel veritabanı tek kullanıcılıktır; tabloları tamamen boşaltmak
+			// güvenlidir ve eski kimlikten artık satır kalmamasını garanti eder.
+			await Promise.all(tables.map((table) => table.clear()));
+			await this.writeBundle(restamped);
+		});
+	}
+}
+
+/**
+ * Şema v4 öncesinde alınmış yedeklerde `updatedAt` yoktur.
+ *
+ * Eksik damgayı elde olan en yakın tarihten üretiriz; yedek sürümü 1'de kalır
+ * çünkü alanlar toplamsaldır ve kullanıcının eski dosyası hâlâ geçerlidir.
+ */
+function backfillTimestamps(bundle: ExportBundle): ExportBundle {
+	return {
+		...bundle,
+		testSessions: (bundle.testSessions ?? []).map((row) => ({
+			...row,
+			updatedAt: row.updatedAt ?? row.completedAt ?? row.startedAt,
+		})),
+		examSessions: (bundle.examSessions ?? []).map((row) => ({
+			...row,
+			updatedAt: row.updatedAt ?? row.completedAt ?? row.startedAt,
+		})),
+		reports: (bundle.reports ?? []).map((row) => ({
+			...row,
+			updatedAt: row.updatedAt ?? row.createdAt,
+		})),
+	};
 }
 
 export const progressRepository: IProgressRepository =

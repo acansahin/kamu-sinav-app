@@ -16,16 +16,18 @@ import { Card, SectionHeading } from "@/components/ui/card";
 import { ProgressBar } from "@/components/ui/progress-bar";
 import { ExamNavigator } from "@/features/exam/exam-navigator";
 import { QuestionCard } from "@/features/quiz/question-card";
-import { progressRepository } from "@/lib/repositories/progress.repository";
+import {
+	type NewExamSession,
+	progressRepository,
+} from "@/lib/repositories/progress.repository";
 import { routes } from "@/lib/routes";
 import { computeExamResult, formatDuration } from "@/lib/scoring/exam-result";
 import { buildExam } from "@/lib/selector/exam-selector";
 import type { MockExamTemplate, Question } from "@/types/content";
-import {
-	type AnswerIndex,
-	type ExamResult,
-	type ExamSession,
-	LOCAL_USER_ID,
+import type {
+	AnswerIndex,
+	ExamResult,
+	ExamSession,
 } from "@/types/progress";
 import type { TopicRef } from "@/types/ui";
 import { cn } from "@/lib/utils/cn";
@@ -47,7 +49,7 @@ const WARN_AT = [600, 60];
 
 export function ExamRunner({ templates, pool, subjectNames, topics }: Props) {
 	const [phase, setPhase] = useState<Phase>("setup");
-	const [session, setSession] = useState<ExamSession | null>(null);
+	const [session, setSession] = useState<NewExamSession | null>(null);
 	const [questions, setQuestions] = useState<Question[]>([]);
 	const [answers, setAnswers] = useState<Record<string, AnswerIndex | null>>({});
 	const [flagged, setFlagged] = useState<string[]>([]);
@@ -82,7 +84,7 @@ export function ExamRunner({ templates, pool, subjectNames, topics }: Props) {
 	}, []);
 
 	const startSession = useCallback(
-		(newSession: ExamSession, orderedQuestions: Question[]) => {
+		(newSession: NewExamSession, orderedQuestions: Question[]) => {
 			setSession(newSession);
 			setQuestions(orderedQuestions);
 			setAnswers(newSession.answers);
@@ -100,9 +102,8 @@ export function ExamRunner({ templates, pool, subjectNames, topics }: Props) {
 			const { questions: picked } = buildExam(template, pool, id);
 			if (picked.length === 0) return;
 
-			const newSession: ExamSession = {
+			const newSession: NewExamSession = {
 				id,
-				userId: LOCAL_USER_ID,
 				templateId: template.id,
 				templateName: template.name,
 				questionIds: picked.map((q) => q.id),
@@ -187,14 +188,26 @@ export function ExamRunner({ templates, pool, subjectNames, topics }: Props) {
 	const answersRef = useRef(answers);
 	const flaggedRef = useRef(flagged);
 	const remainingRef = useRef(remaining);
+	const finishRef = useRef(finish);
 
 	// Senkronizasyon render sırasında değil, commit sonrasında yapılır.
 	useEffect(() => {
 		answersRef.current = answers;
 		flaggedRef.current = flagged;
 		remainingRef.current = remaining;
-	}, [answers, flagged, remaining]);
+		finishRef.current = finish;
+	}, [answers, flagged, remaining, finish]);
 
+	/*
+	 * Geri sayım tek bir interval'dır ve `finish` de ref üzerinden okunur.
+	 *
+	 * `finish` bağımlılık dizisine konursa (ki kendisi `remaining`'e bağlıdır)
+	 * interval her saniye yıkılıp yeniden kurulur. Yeniden kurulum React'in
+	 * commit'inden sonra olduğu için her turda birkaç milisaniye kayar; 30
+	 * dakikalık bir sınavda bu birikerek ONLARCA SANİYE kaybettirir. Sayaç
+	 * geride kalınca süre dolduğunda otomatik teslim de geç tetiklenir —
+	 * yani kullanıcıya hakkı olmayan ek süre verilir.
+	 */
 	useEffect(() => {
 		if (phase !== "running") return;
 
@@ -202,7 +215,7 @@ export function ExamRunner({ templates, pool, subjectNames, topics }: Props) {
 			setRemaining((prev) => {
 				if (prev <= 1) {
 					clearInterval(timer);
-					void finish(answersRef.current);
+					void finishRef.current(answersRef.current);
 					return 0;
 				}
 				return prev - 1;
@@ -210,7 +223,7 @@ export function ExamRunner({ templates, pool, subjectNames, topics }: Props) {
 		}, 1000);
 
 		return () => clearInterval(timer);
-	}, [phase, finish]);
+	}, [phase]);
 
 	// Otomatik kaydetme — sekme kapanırsa kaldığı yerden devam edilebilsin.
 	useEffect(() => {

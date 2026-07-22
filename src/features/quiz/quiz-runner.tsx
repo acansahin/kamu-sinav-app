@@ -31,7 +31,7 @@ import {
 	type Difficulty,
 	type Question,
 } from "@/types/content";
-import { type AnswerIndex, LOCAL_USER_ID, type TestResult } from "@/types/progress";
+import type { AnswerIndex, TestResult } from "@/types/progress";
 import { cn } from "@/lib/utils/cn";
 
 type Phase = "setup" | "running" | "result";
@@ -109,7 +109,6 @@ export function QuizRunner({
 
 		await progressRepository.createTestSession({
 			id,
-			userId: LOCAL_USER_ID,
 			kind: "topic-test",
 			subjectId,
 			topicId,
