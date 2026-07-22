@@ -17,12 +17,21 @@ import type { NextConfig } from "next";
  * Sunucu gerektiren işler (Faz 3 kimlik doğrulama, Faz 5 içerik üretimi) uygulama
  * içinde değil; istemci SDK'sı ya da repo içindeki ayrı araçlar üzerinden çözülür.
  */
+/**
+ * GitHub Pages alt dizinde yayınlar (ör. /kamu-sinav-app), Capacitor ise kökten
+ * servis eder. Bu yüzden basePath sabit DEĞİLDİR: yalnızca Pages iş akışı
+ * PAGES_BASE_PATH ortam değişkenini geçer. Değişken yoksa çıktı kök tabanlıdır
+ * ve Android paketi bozulmaz.
+ */
+const basePath = process.env.PAGES_BASE_PATH ?? "";
+
 const nextConfig: NextConfig = {
 	output: "export",
 	// Statik sunucularda ve WebView'de klasör bazlı yönlendirme daha güvenilir
 	trailingSlash: true,
 	images: { unoptimized: true },
 	typedRoutes: true,
+	basePath,
 };
 
 export default nextConfig;

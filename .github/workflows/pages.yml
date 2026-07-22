@@ -1,0 +1,65 @@
+name: GitHub Pages
+
+# ⚠️ Bilinçli olarak YALNIZCA elle tetiklenir.
+#
+# Yayınlamak, soru havuzunun tamamını (kökler, şıklar, doğru cevaplar,
+# açıklamalar) herkese açık hâle getirir; statik export'ta bu veri tarayıcıya
+# iner. Bu yüzden `push` tetikleyicisi eklenmemiştir: dağıtım kararı her
+# seferinde bilinçli olarak verilir.
+#
+# Çalıştırmadan önce depo ayarlarında Pages kaynağı "GitHub Actions" olmalıdır.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Eş zamanlı dağıtımlar birbirini ezmesin; devam edeni iptal etme.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      # base_path çıktısını üretir; depo adı koda gömülmez.
+      - name: Pages yapılandırması
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Statik export üret
+        env:
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: npm run build
+
+      # Branch tabanlı dağıtıma dönülürse Jekyll'in _next klasörünü
+      # yok saymasını engeller; Actions dağıtımında zararsızdır.
+      - name: .nojekyll ekle
+        run: touch out/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Pages'e dağıt
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -35,6 +35,21 @@ edilirse `npm run build` değil, Android paketi bozulur — yani hata geç fark 
 | `npm run typecheck` | `tsc --noEmit` |
 | `npm run android:sync` | Build alır ve `out/`u Android projesine kopyalar |
 
+## Web yayını (GitHub Pages)
+
+`.github/workflows/pages.yml` hazırdır ancak **yalnızca elle tetiklenir**
+(`workflow_dispatch`). `push` tetikleyicisi bilinçli olarak yoktur: yayınlamak, soru
+havuzunun tamamını herkese açık hâle getirir — statik export'ta sorular, doğru cevaplar ve
+açıklamalar tarayıcıya iner. Dağıtım kararı her seferinde bilinçli verilmelidir.
+
+Tetiklemeden önce depo ayarlarında **Settings → Pages → Source = GitHub Actions** seçili
+olmalıdır.
+
+**`basePath` sabit değildir.** Pages alt dizinde (`/kamu-sinav-app`), Capacitor ise kökten
+servis eder. `next.config.ts` bunu `PAGES_BASE_PATH` ortam değişkeninden okur; değişkeni
+yalnızca Pages iş akışı geçer (`actions/configure-pages` çıktısından). Değişken yoksa çıktı
+kök tabanlıdır ve Android paketi bozulmaz. Bu değeri elle sabitlemeyin.
+
 ## Android paketleme
 
 `android/` klasörü Capacitor tarafından üretilir ve **git'te tutulur** (Capacitor'ın
