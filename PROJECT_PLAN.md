@@ -1068,8 +1068,8 @@ ders bazlı analiz raporu alabiliyor ve ilerlemesini görebiliyor.
 
 ### Faz 2 — Öğrenme derinliği (~3 hafta)
 
-> **Durum (22 Temmuz 2026):** aralıklı tekrar, yanlış bankası, hata bildirimi ve
-> istatistikler tamam. Kalan: **global arama** ve **özetten PDF üretimi**.
+> **Durum (22 Temmuz 2026):** aralıklı tekrar, yanlış bankası, hata bildirimi,
+> istatistikler ve global arama tamam. Kalan tek kalem: **özetten PDF üretimi**.
 
 - ✅ **Aralıklı tekrar (SM-2)** — `IScheduler` arkasında; not, cevaptan ve süreden
   otomatik türetilir, kullanıcıya "ne kadar hatırladın" sorulmaz.
@@ -1078,7 +1078,10 @@ ders bazlı analiz raporu alabiliyor ve ilerlemesini görebiliyor.
   yine de hatalarını beklemeden çözebilir.
 - ✅ **Hata bildirimi akışı** — soru kartından bildirim, Ayarlar'da liste, yedeğe dâhil.
 - ✅ **İstatistikler ekranı** — 28 günlük aktivite, seri, ders/zorluk/bağlam kırılımı.
-- ⬜ Global arama · ⬜ Özetten PDF üretimi
+- ✅ **Global arama** — Türkçe duyarlı: "IZIN" yazmak "izin"i, "cezalari" yazmak
+  "cezaları"nı bulur. İndeks sayfaya gömülür; alt dizinli yayında da WebView'de de
+  aynı çalışsın ve çevrimdışı kalsın diye çalışma anında indirilmez.
+- ⬜ Özetten PDF üretimi
 
 ### Faz 3 — Hesap ve senkron (~3 hafta)
 Supabase Auth (e-posta/OTP), RLS politikaları, yerel veriyi hesaba yükseltme, çoklu cihaz

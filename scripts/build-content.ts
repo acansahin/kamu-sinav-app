@@ -27,6 +27,7 @@ import {
 	subjectSchema,
 	summaryFrontmatterSchema,
 } from "../src/types/content";
+import type { SearchEntry } from "../src/types/search";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const CONTENT_DIR = path.join(ROOT, "content");
@@ -398,6 +399,58 @@ async function main(): Promise<void> {
 			}
 		}
 	}
+
+	// --- Arama indeksi -------------------------------------------------------
+	//
+	// Özetlerin TAM gövdesi indekslenmez: 17 konu × ~8 KB, aramanın değerinden
+	// çok sayfa yükünü büyütür. Başlık, "bir bakışta" maddeleri ve bölüm
+	// başlıkları arama niyetinin çoğunu karşılar.
+	const searchIndex: SearchEntry[] = [];
+
+	for (const { subject, questionsByTopic, summariesByTopic } of bundles) {
+		for (const topic of subject.topics) {
+			const summary = summariesByTopic.get(topic.id);
+			if (summary) {
+				const frontmatter = summary.frontmatter as {
+					title: string;
+					keyPoints: string[];
+				};
+				const headings = summary.body
+					.split("\n")
+					.filter((line) => line.startsWith("##"))
+					.map((line) => line.replace(/^#+\s*/, ""));
+
+				searchIndex.push({
+					kind: "topic",
+					id: topic.id,
+					title: frontmatter.title,
+					context: subject.shortName,
+					body: [...frontmatter.keyPoints, ...headings].join(" · "),
+					subjectId: subject.id,
+					topicSlug: topic.slug,
+				});
+			}
+
+			for (const question of questionsByTopic.get(topic.id) ?? []) {
+				if (question.status !== "published") continue;
+				searchIndex.push({
+					kind: "question",
+					id: question.id,
+					title: question.stem,
+					context: `${subject.shortName} · ${topic.name}`,
+					body: [...question.options, question.explanation].join(" "),
+					subjectId: subject.id,
+					topicSlug: topic.slug,
+				});
+			}
+		}
+	}
+
+	await writeFile(
+		path.join(OUT_DIR, "search-index.json"),
+		JSON.stringify(searchIndex),
+		"utf8",
+	);
 
 	const subjects = bundles.map((b) => b.subject);
 	const manifest = {

@@ -134,6 +134,15 @@ Anahtar veya şekil değişirse o betiği de güncelleyin.
 
 ## Bilinen tuzaklar
 
+- **Türkçe metinde `toLowerCase()` kullanmayın.** Varsayılan yerel ayar "I" harfini
+  "i" yapar; Türkçede "ı" olmalıdır. Arama ve karşılaştırmalarda
+  `lib/search/normalize.ts` içindeki `foldForSearch` kullanılır — hem `tr` yerel
+  ayarını hem aksan sadeleştirmesini uygular. İndeks ve sorgu **aynı** fonksiyondan
+  geçmezse eşleşme sessizce bozulur.
+- **Commit mesajlarında çift tırnak kullanmayın.** PowerShell here-string içindeki `"`
+  karakterleri git'e giderken argüman ayrıştırmasını bozar ve mesaj pathspec olarak
+  yorumlanır. Uzun mesajları dosyaya yazıp `git commit -F <dosya>` ile verin.
+
 - **`compileMDX` GFM içermez.** `remark-gfm` eklenmezse markdown tabloları ham
   `| a | b |` metni olarak kalır. Konu özetleri tablo ağırlıklıdır.
 - **Dexie'de bileşik anahtarlı tablolar `Table<T, [string, string]>` ile tiplenir.**

@@ -5,6 +5,7 @@ import {
 	House,
 	ListChecks,
 	RefreshCw,
+	Search,
 	Settings,
 	Timer,
 	TrendingUp,
@@ -85,13 +86,26 @@ export function AppShell({ children }: { children: ReactNode }) {
 					</nav>
 
 					<Link
+						href="/arama"
+						aria-label="Arama"
+						className={cn(
+							"ml-auto flex size-11 items-center justify-center rounded-lg transition-colors md:ml-0",
+							pathname.startsWith("/arama")
+								? "bg-brand-soft text-brand"
+								: "text-fg-muted hover:bg-surface-sunken hover:text-fg",
+						)}
+					>
+						<Search aria-hidden size={20} />
+					</Link>
+
+					<Link
 						href="/ayarlar"
 						aria-label="Ayarlar"
 						className={cn(
-							"flex size-11 items-center justify-center rounded-lg transition-colors md:ml-0",
+							"flex size-11 items-center justify-center rounded-lg transition-colors",
 							pathname.startsWith("/ayarlar")
 								? "bg-brand-soft text-brand"
-								: "ml-auto text-fg-muted hover:bg-surface-sunken hover:text-fg md:ml-0",
+								: "text-fg-muted hover:bg-surface-sunken hover:text-fg",
 						)}
 					>
 						<Settings aria-hidden size={20} />
