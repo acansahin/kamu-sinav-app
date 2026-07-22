@@ -69,7 +69,8 @@ export default async function HomePage() {
 					<p className="mt-1 text-sm text-fg-muted">
 						Her soruda hangi kanunun hangi maddesine dayandığı yazar; her konu
 						özetinde hangi mevzuat sürümüne göre hazırlandığı ve en son ne zaman
-						doğrulandığı belirtilir. Reklam yok, çevrimdışı çalışır.
+						doğrulandığı belirtilir. Reklam yok. Açtığın sayfalar internet
+						olmadan da çalışır; istersen tümünü Ayarlar&apos;dan indirebilirsin.
 					</p>
 				</div>
 			</Card>

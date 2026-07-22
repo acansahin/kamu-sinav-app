@@ -1026,12 +1026,14 @@ sayısı, zorluk dağılımı, eksik `legalRef`, hedefin altındaki konular. Bu 
 | Tip güvenliği | TypeScript `strict` | `any` yasak; şemalar Zod'dan türetilir |
 | Birim test | **Vitest** | `lib/scoring` (puan, net, geçme), `lib/scheduler` (SM-2), `lib/selector` (soru seçimi), Zod şemaları |
 | Bileşen test | Vitest + Testing Library | Sınav navigatörü, süre sayacı, soru kartı |
-| Uçtan uca | **Playwright** | 5 kritik akış (§12); süre bitiminde otomatik teslim; sekme kapanıp açılınca kurtarma |
-| Erişilebilirlik | **axe-core** (Playwright içinde) | Her ana ekranda ihlal = CI hatası |
+| Uçtan uca | **Playwright** — ⬜ *henüz kurulmadı* | 5 kritik akış (§12); süre bitiminde otomatik teslim; sekme kapanıp açılınca kurtarma |
+| Erişilebilirlik | **axe-core** (Playwright içinde) — ⬜ *henüz kurulmadı* | Her ana ekranda ihlal = CI hatası |
 | İçerik | `build-content.ts` | Zod doğrulama + telif kuralı + 4 şık kuralı = CI kapısı |
 | Lint/format | ESLint + Prettier | |
 
-**CI (`ci.yml`):** tip kontrolü → lint → içerik doğrulama → birim test → build → Playwright + axe.
+**CI (`ci.yml`) — hâlen çalışan:** içerik doğrulama → tip kontrolü → lint → birim test →
+statik export. **Eksik:** Playwright akış testleri ve axe-core erişilebilirlik kapısı;
+ikisi de henüz kurulmadı ve CI bu yönden bir güvence vermiyor.
 **Dağıtım (`deploy.yml`):** `main`'e push → statik export → GitHub Pages / Vercel.
 
 **Öncelikli test alanı:** puanlama ve süre mantığı. Bir sınav uygulamasında yanlış puan
@@ -1058,7 +1060,7 @@ hesabı ürünü bitiren hatadır; bu modüller saf fonksiyon olarak yazılıp y
 | 1.7 | Test motoru: 4 zorluk, anında/sonda geri bildirim, sonuç ekranı | |
 | 1.8 | Deneme motoru: şablonlar, süre, navigatör, işaretleme, kurtarma, analiz raporu | Playwright akışı geçiyor |
 | 1.9 | İlerleme + istatistik ekranları | |
-| 1.10 | Ayarlar + veri dışa/içe aktarma + PWA çevrimdışı | Uçak modunda tam çalışıyor |
+| 1.10 | Ayarlar + veri dışa/içe aktarma + PWA çevrimdışı | ✅ Sunucu kapatılıp sayfa yeniden yüklendiğinde uygulama çalışıyor |
 | 1.11 | İçerik doldurma: **3 ders (657 DMK, Anayasa, Etik)**, 17 konu, konu başına ≥ 16 soru | Kapsam raporu boş konu bırakmıyor |
 | 1.12 | Capacitor kurulumu + Android APK üreten CI iş akışı | Gerçek cihazda çevrimdışı açılıyor |
 

@@ -10,6 +10,8 @@
     "dev": "next dev",
     "prebuild": "npm run content:build",
     "build": "next build",
+    "postbuild": "tsx scripts/build-precache-manifest.ts",
+    "icons:build": "tsx scripts/generate-icons.ts",
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",

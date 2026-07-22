@@ -5,6 +5,7 @@ import { Download, Trash2, Upload } from "lucide-react";
 import { useId, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { OfflineDownload } from "@/features/offline/offline-download";
 import {
 	type ExportBundle,
 	progressRepository,
@@ -182,6 +183,8 @@ export function SettingsPanel() {
 					/>
 				</label>
 			</Card>
+
+			<OfflineDownload />
 
 			<Card>
 				<h2 className="mb-1 text-lg font-bold">Hata bildirimlerin</h2>

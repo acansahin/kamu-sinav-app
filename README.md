@@ -14,7 +14,9 @@ Rakiplerin çözemediği sorun soru sayısı değil, **güven**:
 - **Her sorunun kaynağı izlenebilir** — kaynağı doğrulanmamış soru yayımlanamaz, build kırılır.
 - **İçerik mevzuat sürümüyle damgalı** — hangi tarihli hâle göre hazırlandığı ve en son ne zaman doğrulandığı yazar.
 - **Gerçek erişilebilirlik** — hedef kitlenin yaş profiline uygun; 44px dokunma hedefi, üç kademeli yazı boyutu, yüksek kontrast modu.
-- **Reklamsız ve çevrimdışı** — hesap gerekmez, veri cihazda kalır, JSON olarak dışa aktarılabilir.
+- **Reklamsız ve çevrimdışı** — hesap gerekmez, veri cihazda kalır, JSON olarak dışa
+  aktarılabilir. Açılan sayfalar kendiliğinden önbelleğe alınır; tümünü indirmek
+  isteğe bağlıdır çünkü çıktı ~10 MB ve hedef kitlede kısıtlı veriyle çalışanlar var.
 
 ## Hızlı başlangıç
 
