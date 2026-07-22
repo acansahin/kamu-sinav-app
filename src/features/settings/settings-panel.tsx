@@ -6,16 +6,19 @@ import { useId, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { OfflineDownload } from "@/features/offline/offline-download";
-import {
-	type ExportBundle,
-	progressRepository,
-} from "@/lib/repositories/progress.repository";
+import { AccountCard } from "@/features/settings/account-card";
+import { progressRepository } from "@/lib/repositories/progress.repository";
 import {
 	FONT_SCALE_LABELS,
 	THEME_LABELS,
 	usePreferences,
 } from "@/lib/stores/preferences";
-import type { FontScale, ReportReason, ThemeChoice } from "@/types/progress";
+import type {
+	ExportBundle,
+	FontScale,
+	ReportReason,
+	ThemeChoice,
+} from "@/types/progress";
 import { cn } from "@/lib/utils/cn";
 
 const REPORT_REASON_LABELS: Record<ReportReason, string> = {
@@ -186,11 +189,14 @@ export function SettingsPanel() {
 
 			<OfflineDownload />
 
+			<AccountCard />
+
 			<Card>
 				<h2 className="mb-1 text-lg font-bold">Hata bildirimlerin</h2>
 				<p className="mb-4 text-sm text-fg-muted">
-					Sorularda bildirdiğin sorunlar. Şimdilik yalnızca bu cihazda tutulur;
-					yedeğe dâhil edilir ve üyelik sistemi geldiğinde bize iletilebilecek.
+					Sorularda bildirdiğin sorunlar. Şimdilik yalnızca bu cihazda tutulur ve
+					yedeğe dâhil edilir; üyelik geldiğinde bize iletilebilecek (bkz.
+					yukarıdaki Hesap bölümü).
 				</p>
 
 				{reports === undefined ? (

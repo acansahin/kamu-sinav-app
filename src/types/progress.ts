@@ -3,14 +3,17 @@ import type { Difficulty } from "./content";
 /**
  * Kullanıcı verisi tipleri (IndexedDB).
  *
- * İki kural her kayıt için geçerlidir ve Faz 3'teki sunucu senkronunu
- * bugünden mümkün kılar (bkz. PROJECT_PLAN.md §7.2):
- *   1. Her kayıtta `userId` vardır. MVP'de sabit LOCAL_USER_ID.
+ * Üç kural her kayıt için geçerlidir ve sunucu senkronunu mümkün kılar
+ * (bkz. PROJECT_PLAN.md §7.2):
+ *   1. Her kayıtta `userId` vardır. Değeri `lib/auth/identity.ts` içindeki
+ *      aktif kimlikten gelir; giriş yapılmamışsa LOCAL_USER_ID'dir.
  *   2. `QuestionAttempt` yalnızca eklenir, asla güncellenmez (append-only).
  *      Tüm istatistikler bu günlükten türetilir; diğer tablolar önbellektir.
+ *   3. Append-only OLMAYAN her kayıtta `updatedAt` vardır; senkronda çakışma
+ *      "son yazan kazanır" kuralıyla bu damgadan çözülür.
  */
 
-/** MVP'de tek, anonim kullanıcı. Faz 3'te gerçek kullanıcı kimliğiyle değişir. */
+/** Giriş yapılmamış cihazın kimliği. Gerçek kimlik için `currentUserId()`. */
 export const LOCAL_USER_ID = "local";
 
 export type AnswerIndex = 0 | 1 | 2 | 3;
@@ -34,6 +37,16 @@ export interface QuestionAttempt {
 	createdAt: string;
 }
 
+/**
+ * DİKKAT — bu tablo saf önbellek DEĞİLDİR.
+ *
+ * `questionsAttempted`, `questionsCorrect` ve `masteryScore` `attempts`
+ * günlüğünden yeniden üretilebilir; `summaryRead` / `summaryReadAt` ise
+ * ÜRETİLEMEZ — konu özetini okumak bir deneme kaydı doğurmuyor. Bu tabloyu
+ * günlükten yeniden inşa eden herhangi bir kod (senkron çekme adımı dâhil) bu
+ * iki alanı korumak zorundadır, aksi hâlde kullanıcının okuma işaretleri
+ * sessizce silinir.
+ */
 export interface TopicProgress {
 	userId: string;
 	topicId: string;
@@ -63,6 +76,8 @@ export interface TestSession {
 	completedAt?: string;
 	/** 100 üzerinden; yalnızca tamamlanmış oturumlarda dolu */
 	score?: number;
+	/** Senkronda "son yazan kazanır" damgası. */
+	updatedAt: string;
 }
 
 export type ExamSessionStatus = "in-progress" | "completed" | "abandoned";
@@ -90,6 +105,8 @@ export interface ExamSession {
 	passingScore: number;
 	completedAt?: string;
 	result?: ExamResult;
+	/** Senkronda "son yazan kazanır" damgası. */
+	updatedAt: string;
 }
 
 export interface ExamResult {
@@ -183,6 +200,33 @@ export interface QuestionReport {
 	note?: string;
 	status: "yerel" | "gonderildi" | "cozuldu";
 	createdAt: string;
+	/** `status` sunucu tarafında da değişebilir; çakışma bu damgadan çözülür. */
+	updatedAt: string;
+}
+
+/**
+ * Taşınabilir yedek — dışa/içe aktarmanın ve hesaba bağlamanın veri birimi.
+ *
+ * Repository'de değil burada durur: hem `exportAll`/`importAll` hem de
+ * `lib/auth/claim.ts` bu şekli kullanıyor ve ikincisi veri katmanına bağımlı
+ * olmamalı.
+ *
+ * YENİ TABLO EKLERKEN: buraya da eklenmelidir. `restampBundle` ve
+ * `progressRepository.allTables()` bu listeyle aynı kümeyi kapsamak zorundadır;
+ * aksi hâlde kullanıcı "tüm verimi yedekledim" sanırken bir tablo dışarıda kalır.
+ */
+export interface ExportBundle {
+	version: 1;
+	exportedAt: string;
+	attempts: QuestionAttempt[];
+	topicProgress: TopicProgress[];
+	testSessions: TestSession[];
+	dailyStats: DailyStat[];
+	settings: StudySettings | null;
+	bookmarks: Bookmark[];
+	examSessions: ExamSession[];
+	reviewSchedule: ReviewSchedule[];
+	reports: QuestionReport[];
 }
 
 // --- Türetilmiş görünümler --------------------------------------------------

@@ -17,10 +17,14 @@ import type {
  * Şema kuralları — bkz. PROJECT_PLAN.md §9.3:
  *   - `attempts` append-only'dur. Buraya yazılan kayıt asla güncellenmez;
  *     istatistikler ve ilerleme bu günlükten türetilir.
- *   - `topicProgress` ve `dailyStats` yalnızca performans önbelleğidir;
- *     bozulurlarsa `attempts` günlüğünden yeniden inşa edilebilirler.
- *   - Her tabloda `userId` vardır (MVP'de LOCAL_USER_ID) — Faz 3'teki
- *     çoklu kullanıcı senkronu şema göçü gerektirmesin diye.
+ *   - `dailyStats` yalnızca performans önbelleğidir; bozulursa `attempts`
+ *     günlüğünden yeniden inşa edilebilir. `topicProgress` için bu YALNIZCA
+ *     sayaç alanlarında geçerlidir — `summaryRead`/`summaryReadAt` günlükten
+ *     türetilemez, ayrıntı için bkz. `types/progress.ts`.
+ *   - Her tabloda `userId` vardır — çoklu kullanıcı senkronu şema göçü
+ *     gerektirmesin diye. Değer `lib/auth/identity.ts` tarafından belirlenir.
+ *   - Append-only olmayan tablolarda `updatedAt` vardır; senkron çakışması
+ *     "son yazan kazanır" ile bu damgadan çözülür (PROJECT_PLAN.md §7.2).
  *
  * Şema değişince `version()` numarası artırılır ve göç yazılır; mevcut
  * kullanıcıların verisi silinmez.
@@ -65,6 +69,41 @@ export class AppDatabase extends Dexie {
 		this.version(3).stores({
 			reviewSchedule:
 				"[userId+questionId], userId, dueAt, topicId, [userId+dueAt]",
+		});
+
+		/*
+		 * v4: senkron damgası. Oturumlar ve hata bildirimleri güncellenebilen
+		 * kayıtlardır, ama `updatedAt` taşımıyorlardı — sunucu senkronu
+		 * çakışmayı çözemezdi. Mevcut satırlar silinmez; damga elde olan en
+		 * yakın tarihten üretilir.
+		 *
+		 * `updatedAt` bilinçli olarak İNDEKSLENMEDİ. "Şu tarihten sonra
+		 * değişenler" sorgusunu (senkron gönderim imleci) hızlandırırdı, ama
+		 * bugün onu soran kimse yok ve indeksin bedeli her yazmada ödenir —
+		 * sınav ekranı 5 saniyede bir `examSessions` satırını güncelliyor.
+		 * İmleç sorgusu yazıldığında indeks de onunla birlikte eklenir.
+		 */
+		this.version(4).upgrade(async (tx) => {
+			await tx
+				.table<Partial<TestSession>>("testSessions")
+				.toCollection()
+				.modify((row) => {
+					row.updatedAt ??= row.completedAt ?? row.startedAt;
+				});
+
+			await tx
+				.table<Partial<ExamSession>>("examSessions")
+				.toCollection()
+				.modify((row) => {
+					row.updatedAt ??= row.completedAt ?? row.startedAt;
+				});
+
+			await tx
+				.table<Partial<QuestionReport>>("reports")
+				.toCollection()
+				.modify((row) => {
+					row.updatedAt ??= row.createdAt;
+				});
 		});
 	}
 }

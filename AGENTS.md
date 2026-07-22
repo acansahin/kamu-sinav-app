@@ -107,10 +107,20 @@ Bunlar ürünün farklılaşma tezidir (PROJECT_PLAN.md §4); şema düzeyinde z
 - **Dexie'ye doğrudan dokunulmaz.** Tüm ilerleme verisi
   `lib/repositories/progress.repository.ts` arayüzünden geçer. Faz 3'te sunucu geldiğinde
   yalnızca ikinci bir implementasyon yazılacak; çağıran bileşenler değişmeyecek.
-- **`attempts` tablosu append-only.** Güncellenmez, silinmez. `topicProgress` ve
-  `dailyStats` yalnızca önbellektir ve bu günlükten yeniden üretilebilir.
-- **Her kayıtta `userId` var** (şu an `LOCAL_USER_ID = "local"`). Kaldırmayın — Faz 3'teki
-  senkronun şema göçü gerektirmemesi buna bağlı.
+- **`attempts` tablosu append-only.** Güncellenmez, silinmez. `dailyStats` yalnızca
+  önbellektir ve bu günlükten yeniden üretilebilir. `topicProgress` için bu **yalnızca
+  sayaç alanlarında** geçerlidir: `summaryRead`/`summaryReadAt` günlükten türetilemez ve
+  yeniden inşa eden kod onları korumak zorundadır.
+- **Kimlik tek yerden okunur.** Satırların `userId` damgası `lib/auth/identity.ts`
+  içindeki `currentUserId()` üzerinden gelir; giriş yapılmamışsa `"local"`dir. Çağıran
+  kod `userId` vermez — repository damgalar. Alanı kaldırmayın, senkronun şema göçü
+  gerektirmemesi buna bağlı.
+- **Yerel veritabanı tek kullanıcılıktır.** IndexedDB satırları her zaman o an aktif olan
+  TEK kimliğe aittir; kullanıcı ayrımı sunucuda (RLS) yapılır. Kimlik değişimi her zaman
+  bir Dexie yazmasıyla birlikte olur (`reassignOwner`), böylece `useLiveQuery`
+  abonelikleri kendiliğinden tazelenir.
+- **Append-only olmayan her kayıtta `updatedAt` var.** Senkron çakışması "son yazan
+  kazanır" ile buradan çözülür. Yeni bir güncellenebilir tablo eklerseniz alanı da ekleyin.
 - **`lib/` React import etmez.** Puanlama, seçici ve hakimiyet saf fonksiyondur; bu yüzden
   hızlı ve kolay test edilir. Yeni iş mantığı `features/` değil `lib/` altına yazılır.
 - **Rota bağlantıları `lib/routes.ts` üzerinden.** `typedRoutes` açık olduğu için şablon

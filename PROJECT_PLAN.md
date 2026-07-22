@@ -641,6 +641,7 @@ interface TestSession {
   answers: Record<string, number | null>;
   startedAt: string; completedAt?: string;
   score?: number;
+  updatedAt: string;                    // senkron: son yazan kazanır
 }
 
 interface ExamSession {
@@ -654,6 +655,7 @@ interface ExamSession {
   status: 'in-progress' | 'completed' | 'abandoned';
   completedAt?: string;
   result?: ExamResult;
+  updatedAt: string;                    // senkron: son yazan kazanır
 }
 
 interface ExamResult {
@@ -704,6 +706,7 @@ interface QuestionReport {
   note?: string;
   status: 'yerel' | 'gonderildi' | 'cozuldu';   // MVP'de yerel + dışa aktarılabilir
   createdAt: string;
+  updatedAt: string;                            // `status` sunucuda da değişebilir
 }
 ```
 
@@ -731,6 +734,12 @@ Kritik indeksler: `[userId+topicId]` (konu bazlı istatistik), `dueAt` (bugünü
 İstatistikler ayrı bir "gerçek kaynak" olarak tutulmaz — `attempts` günlüğünden hesaplanır ve
 `dailyStats` / `topicProgress` yalnızca **performans önbelleği**dir. Bozulurlarsa günlükten
 yeniden inşa edilebilirler. Bu, senkron çakışmalarını da önemsizleştirir.
+
+> ⚠️ **Tek istisna — `topicProgress.summaryRead`.** Sayaçlar ve hakimiyet puanı günlükten
+> üretilebilir, ama `summaryRead` / `summaryReadAt` ÜRETİLEMEZ: konu özetini okumak bir
+> deneme kaydı doğurmuyor. Bu tabloyu yeniden inşa eden herhangi bir kod (senkron çekme
+> adımı dâhil) bu iki alanı korumak zorundadır, aksi hâlde kullanıcının okuma işaretleri
+> sessizce silinir. Faz 3 Dilim 1'de fark edildi.
 
 ---
 
@@ -1071,8 +1080,7 @@ ders bazlı analiz raporu alabiliyor ve ilerlemesini görebiliyor.
 
 ### Faz 2 — Öğrenme derinliği (~3 hafta)
 
-> **Durum (22 Temmuz 2026): Faz 2 tamamlandı.** Sıradaki iş Faz 3'tür (üyelik ve
-> çoklu cihaz senkronu).
+> **Durum (22 Temmuz 2026): Faz 2 tamamlandı.**
 
 - ✅ **Aralıklı tekrar (SM-2)** — `IScheduler` arkasında; not, cevaptan ve süreden
   otomatik türetilir, kullanıcıya "ne kadar hatırladın" sorulmaz.
@@ -1093,8 +1101,50 @@ ders bazlı analiz raporu alabiliyor ve ilerlemesini görebiliyor.
   çalışmayabilir — mobil PDF gerekirse Capacitor print eklentisi eklenmelidir.
 
 ### Faz 3 — Hesap ve senkron (~3 hafta)
+
 Supabase Auth (e-posta/OTP), RLS politikaları, yerel veriyi hesaba yükseltme, çoklu cihaz
-senkronu, bulut yedek.
+senkronu, bulut yedek. Üç dilime bölündü; ilki bitti.
+
+> **Durum (22 Temmuz 2026): Dilim 1 (kimlik altyapısı) tamamlandı.**
+> Sıradaki iş Dilim 2'dir (Supabase adaptörü ve giriş akışı).
+
+**Dilim 1 — kimlik altyapısı (bitti, ağ yok).** Kullanıcı için hiçbir şey değişmedi;
+uygulama hâlâ anonim ve çevrimdışı. Değişen, altyapının kimliğe hazır olması:
+
+- ✅ **Tek kimlik noktası** — `lib/auth/identity.ts`. `userId` artık derleme zamanı
+  sabiti değil; repository her satırı aktif kimlikle damgalar. Özellik katmanı
+  `userId` alanını hiç görmez (oturum oluşturma metotları `Omit<…, "userId">` alır).
+- ✅ **`IAuthProvider` dikişi** — `lib/auth/auth.provider.ts`. Bugün `LocalAuthProvider`
+  bağlı; sözleşme e-posta + altı haneli KOD akışına göre biçimlendi. Sihirli bağlantı
+  ve şifre sıfırlama bilinçli olarak elendi: ikisi de dönüş URL'si ister, uygulama ise
+  hem Capacitor WebView'de hem Pages'te alt dizinde çalışıyor.
+- ✅ **Yerel veriyi hesaba bağlama** — `restampBundle` (saf) + `reassignOwner` (tek
+  transaction). Bileşik anahtarlı tablolarda satırlar `update` ile damgalanamadığı
+  için sil/yeniden ekle gerekiyor; gerçek Dexie üzerinde test edildi.
+- ✅ **Senkron sözleşmesinin tamamlanması** — `TestSession`, `ExamSession` ve
+  `QuestionReport` `updatedAt` taşımıyordu (§7.2 kural 4 ihlali). Şema v4 alanı ekledi
+  ve mevcut satırları geriye dönük doldurdu.
+- ✅ **Yerel veritabanı tek kullanıcılıdır** kararı — kullanıcı ayrımı sunucuda RLS ile
+  yapılır, IndexedDB'de değil. Kimlik her değiştiğinde beraberinde bir Dexie yazması
+  olduğu için `useLiveQuery` abonelikleri kendiliğinden tazelenir.
+- ✅ **Ayarlar'da Hesap kartı** — çalışmayan bir giriş formu değil, bugün doğru olanı
+  söyleyen bir durum kartı (§3.2, rakiplerin 4 numaralı zayıf yönü).
+
+*Yol boyunca çıkan iki bulgu:*
+
+1. **`topicProgress` saf önbellek değil** — §9.4 onu "günlükten yeniden inşa edilebilir"
+   sayıyordu, ama `summaryRead`/`summaryReadAt` `attempts`'ten türetilemez. Senkron
+   çekme adımı bu iki alanı korumak zorunda; tipe uyarı notu düşüldü.
+2. **Sınav geri sayımı tick kaybediyordu** — interval her saniye yıkılıp yeniden
+   kuruluyordu (`finish` bağımlılıkta olduğu için) ve her turdaki kayma birikiyordu.
+   30 dakikalık sınavda onlarca saniye kaybediyor, dolayısıyla otomatik teslim geç
+   tetikleniyordu: kullanıcıya hakkı olmayan ek süre. `finish` de ref'e alındı.
+
+**Dilim 2 — giriş akışı (sıradaki).** `SupabaseAuthProvider`, `/hesap` rotası ve OTP
+formu, KVKK aydınlatma metni, `/hakkinda` sayfası (§11'de var, henüz yok).
+
+**Dilim 3 — senkron.** Gönderim kuyruğu, çekme/birleştirme, bulut yedek,
+`dailyStats`/`reviewSchedule` yeniden üretimi, `bookmarks` silme mezar taşı.
 
 ### Faz 4 — Kurum ve alan bilgisi (~4 hafta)
 Kurum/kadro seçimi, alan bilgisi içerik ağacı, kuruma özgü sınav şablonları, kişiselleştirilmiş
