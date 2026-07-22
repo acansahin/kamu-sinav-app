@@ -182,7 +182,7 @@
 		"subjectId": "657-dmk",
 		"topicId": "657-dmk/genel-hukumler",
 		"difficulty": "zor",
-		"stem": "Bir kurumda, kalkınma planında yer alan bir projenin yürütülmesi için özel ihtisas gerektiren geçici bir işte personel çalıştırılacaktır. Bu kişi hangi statüde istihdam edilir?",
+		"stem": "657 sayılı Kanun'un 4. maddesindeki tanımlara göre, kalkınma planında yer alan bir projenin yürütülmesi için özel ihtisas gerektiren ve geçici olan bir işte çalıştırılacak kişi hangi statüde istihdam edilir?",
 		"options": [
 			"Memur (4/A)",
 			"Sözleşmeli personel (4/B)",
@@ -190,7 +190,7 @@
 			"Hiçbiri; bu iş için personel çalıştırılamaz"
 		],
 		"correctIndex": 1,
-		"explanation": "Madde 4/B'ye göre kalkınma planı, yıllık program ve iş programlarında yer alan önemli projelerin hazırlanması ve gerçekleştirilmesi gibi, geçici olarak özel meslek bilgisine ve ihtisasa ihtiyaç gösteren işlerde sözleşmeli personel çalıştırılır. Hizmetin geçici ve ihtisasa dayalı olması memur tanımındaki 'asli ve sürekli' ölçütünü karşılamaz.",
+		"explanation": "Madde 4/B'ye göre kalkınma planı, yıllık program ve iş programlarında yer alan önemli projelerin hazırlanması ve gerçekleştirilmesi gibi, geçici olarak özel meslek bilgisine ve ihtisasa ihtiyaç gösteren işlerde sözleşmeli personel çalıştırılır. Hizmetin geçici ve ihtisasa dayalı olması, memur tanımındaki 'asli ve sürekli' ölçütünü karşılamaz. Not: soru, 4/B'nin kanundaki tanımını ölçmektedir; uygulamada sözleşmeli personel istihdamı özel kanunlarla bu tanımın ötesine genişlemiştir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
 			"lawId": "657",
@@ -205,8 +205,8 @@
 		},
 		"status": "published",
 		"tags": ["sozlesmeli", "senaryo"],
-		"version": 1,
-		"updatedAt": "2026-07-21"
+		"version": 2,
+		"updatedAt": "2026-07-22"
 	},
 	{
 		"id": "657-genel-008",
