@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowLeft, Cloud, LogOut, Mail, ShieldCheck } from "lucide-react";
+import Link from "next/link";
 import { type FormEvent, useId, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -181,6 +182,19 @@ export function AccountPanel() {
 							<Mail aria-hidden size={18} />
 							{busy ? "Gönderiliyor…" : "Kod gönder"}
 						</Button>
+
+						{/*
+						 * Aydınlatma, verinin alındığı YERDE ve işleme başlamadan ÖNCE
+						 * görünmek zorunda (KVKK m.10; Aydınlatma Tebliği m.5). Bu bir
+						 * onay kutusu değildir — aydınlatma açık rıza ile karıştırılmaz.
+						 */}
+						<p className="text-sm text-fg-muted">
+							E-posta adresin yalnızca giriş için kullanılır. Ayrıntı:{" "}
+							<Link href="/gizlilik" className="font-medium text-brand">
+								Kişisel Verilerin Korunması
+							</Link>
+							.
+						</p>
 					</form>
 				) : (
 					<form onSubmit={(e) => void submitCode(e)} className="space-y-4">
@@ -270,6 +284,11 @@ export function AccountPanel() {
 						çalışmaya devam eder.
 					</li>
 				</ul>
+				<p className="mt-3 text-sm">
+					<Link href="/gizlilik" className="font-medium text-brand">
+						Kişisel Verilerin Korunması aydınlatma metni
+					</Link>
+				</p>
 			</Card>
 		</div>
 	);

@@ -851,6 +851,8 @@ kolay test edilir.
 | 14 | **Arama** | `/arama` | Global arama | Konu + soru metninde; Faz 2 |
 | 15 | **Ayarlar** | `/ayarlar` | Kişiselleştirme | Yazı boyutu (3 kademe), tema, yüksek kontrast, günlük hedef, sınav tarihi, veri dışa/içe aktarma, tüm veriyi sil |
 | 16 | **Hakkında** | `/hakkinda` | Şeffaflık | İçerik sürümü, mevzuat güncellik tarihi, yol haritası, kaynak/telif bildirimi |
+| 17 | **Hesap** | `/hesap` | Giriş ve çıkış | E-posta + altı haneli kod; hesap **isteğe bağlıdır**, yapılandırılmamışsa ekran bunu dürüstçe söyler (Faz 3) |
+| 18 | **Kişisel Verilerin Korunması** | `/gizlilik` | KVKK aydınlatma metni | Kanunun m.10'da saydığı unsurlar + m.11 hakları + başvuru usulü. Giriş formundan bağlantılı; onay kutusu **yoktur** — aydınlatma açık rıza değildir (Faz 3) |
 
 **Her ekran için tanımlanacak durumlar:** yükleniyor (iskelet), boş (ilk kullanım yönlendirmesi),
 hata (yeniden dene), çevrimdışı (rozet). Bunlar tasarım fazında ayrı ayrı çizilir.
@@ -1174,10 +1176,26 @@ kök düzendeki oturum uzlaştırıcısı üzerinden ortak pakete giriyor ve 53 
 hepsine 227 KB ekliyordu — hiç giriş yapmayacak ve veri kotası kısıtlı kullanıcıya
 (§2, Persona 2) ödetilecek bir bedel değil.
 
-*Devredilen borç:* **KVKK aydınlatma metni ve `/hakkinda` sayfası bu dilimde
-yazılmadı.** `/hesap` ekranı hangi verinin alındığını (yalnızca e-posta) söylüyor ama
-bu, aydınlatma yükümlülüğünü karşılamaz. Hesap açma gerçek kullanıcılara açılmadan
-önce yazılmalıdır (§17, risk 6).
+- ✅ **KVKK aydınlatma metni** — `/gizlilik` rotası (§11'deki ekran listesine eklendi).
+  Kanunun m.10'da saydığı unsurlar sırayla karşılanıyor; m.11'deki dokuz hak tek tek
+  yazılı; başvuru usulü ve 30 günlük süre belirtiliyor. Metin, verinin alındığı yerde
+  — giriş formunun altında — bağlantılı.
+  *Ayrım korunuyor:* aydınlatma açık rıza DEĞİLDİR; sayfada onay kutusu yok ve bir
+  test bunu koruyor.
+  *Yayına çıkma kapısı:* veri sorumlusunun kimlik bilgileri
+  `lib/legal/data-controller.ts` içinde boş; doldurulmadığı sürece sayfa görünür bir
+  uyarı gösteriyor, böylece eksik metin sessizce yayına çıkamıyor.
+
+*Devredilen borç:*
+
+1. **Yurt dışına aktarım hukuken çözülmeli.** Supabase sunucuları Frankfurt'ta, yani
+   KVKK m.9 kapsamında yurt dışına aktarım var. 2024 değişikliğinden sonra yol ya
+   yeterlilik kararı ya uygun güvencedir (pratikte standart sözleşme + Kurul'a beş iş
+   günü içinde bildirim). Rutin ve sürekli aktarım "arızi" sayılmadığı için yalnızca
+   açık rızaya dayanmak güvenli değil. Metin aktarımı açıkça söylüyor, ama güvenceyi
+   kurmak hukuki bir iştir — avukat görüşü alınmadan canlıya çıkılmamalı.
+2. **`/hakkinda` sayfası** hâlâ yok (§11'de listeli): içerik sürümü, mevzuat güncellik
+   tarihi, yol haritası, kaynak/telif bildirimi.
 
 **Dilim 3 — senkron (sıradaki).** Gönderim kuyruğu, çekme/birleştirme, RLS politikaları,
 bulut yedek, `dailyStats`/`reviewSchedule` yeniden üretimi, `bookmarks` silme mezar taşı.

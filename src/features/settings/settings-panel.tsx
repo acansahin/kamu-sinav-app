@@ -2,6 +2,7 @@
 
 import { useLiveQuery } from "dexie-react-hooks";
 import { Download, Trash2, Upload } from "lucide-react";
+import Link from "next/link";
 import { useId, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -306,6 +307,14 @@ export function SettingsPanel() {
 						{message}
 					</p>
 				)}
+
+				<p className="mt-5 text-sm text-fg-muted">
+					Hangi verinin nasıl işlendiğini{" "}
+					<Link href="/gizlilik" className="font-medium text-brand">
+						Kişisel Verilerin Korunması
+					</Link>{" "}
+					sayfasında bulabilirsin.
+				</p>
 			</Card>
 		</div>
 	);

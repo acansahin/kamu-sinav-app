@@ -80,10 +80,26 @@ Açmak için:
 gelecek). `service_role` anahtarı ise **hiçbir zaman** bu depoya veya `.env.local`e
 yazılmaz — RLS'i tamamen atlar ve statik export'ta herkese açık hâle gelirdi.
 
-**Yayına almadan önce:** hesap açma gerçek kullanıcılara açıldığında e-posta adresi
-kişisel veridir; KVKK aydınlatma metni yayımlanmadan canlıya çıkılmamalıdır
-(PROJECT_PLAN.md §17, risk 6). `/hesap` ekranında hangi verinin alındığı bugün de
-yazıyor, ama bu metin aydınlatma yükümlülüğünü karşılamaz.
+### Yayına almadan önce: KVKK
+
+Hesap açma gerçek kullanıcılara açıldığında e-posta adresi kişisel veridir ve 6698
+sayılı Kanun devreye girer. Aydınlatma metni `/gizlilik` sayfasındadır, ama **iki iş
+sizde**:
+
+1. **`src/lib/legal/data-controller.ts` doldurulmalı** — veri sorumlusunun adı,
+   e-posta adresi ve tebligata esas adresi. Boş kaldığı sürece sayfa görünür bir
+   uyarı gösterir; kanun bu bilgilerin açıkça yazılmasını zorunlu kılar (m.10/1-a).
+
+2. **Yurt dışına aktarım çözülmeli.** Supabase sunucuları Türkiye dışındadır
+   (Frankfurt), yani KVKK m.9 kapsamında yurt dışına aktarım yapılıyor. 2024
+   değişikliğinden sonra bunun yolu ya yeterlilik kararı ya da uygun güvencedir —
+   pratikte **standart sözleşme** imzalanıp Kurul&rsquo;a beş iş günü içinde
+   bildirilmesi. Rutin ve sürekli bir aktarım "arızi" sayılmadığı için yalnızca açık
+   rızaya dayanmak güvenli değildir.
+
+> ⚠️ Metin, kanunun saydığı unsurlar esas alınarak hazırlanmış bir **taslaktır**;
+> hukuki görüş değildir. Canlıya çıkmadan önce bir avukata okutun — özellikle yurt
+> dışına aktarım bölümünü.
 
 ## Teknoloji
 
