@@ -115,6 +115,18 @@ Bunlar ürünün farklılaşma tezidir (PROJECT_PLAN.md §4); şema düzeyinde z
   içindeki `currentUserId()` üzerinden gelir; giriş yapılmamışsa `"local"`dir. Çağıran
   kod `userId` vermez — repository damgalar. Alanı kaldırmayın, senkronun şema göçü
   gerektirmemesi buna bağlı.
+- **Kimlik değişimi ile veri taşıma ayrılmaz.** İkisi `lib/auth/session.ts` içinde
+  birlikte yürür ve sıra bağlayıcıdır: **önce `reassignOwner`** (eski kimlik hâlâ
+  aktifken), **sonra `setIdentity`**. Ters sırada repository satırları filtreleyip
+  dışarıda bırakır; kullanıcı ilerlemesini kaybetmiş görünür. `setIdentity`'yi
+  doğrudan çağırmayın.
+- **Hesap özelliği isteğe bağlıdır.** Supabase anahtarı yoksa `authProvider`
+  kendiliğinden `LocalAuthProvider`a düşer ve uygulama eksiksiz çalışır — CI da
+  anahtarsız derler. Kimlik doğrulamaya bağlı hiçbir kod, anahtar varmış gibi
+  yazılmamalıdır.
+- **Supabase SDK'sı dinamik yüklenir** (`lib/auth/supabase-client.ts`). Statik içe
+  aktarım, kök düzendeki oturum uzlaştırıcısı üzerinden SDK'yı ortak pakete sokuyor ve
+  ölçüldüğünde her sayfaya 227 KB ekliyordu. Buraya `import { createClient }` yazmayın.
 - **Yerel veritabanı tek kullanıcılıktır.** IndexedDB satırları her zaman o an aktif olan
   TEK kimliğe aittir; kullanıcı ayrımı sunucuda (RLS) yapılır. Kimlik değişimi her zaman
   bir Dexie yazmasıyla birlikte olur (`reassignOwner`), böylece `useLiveQuery`

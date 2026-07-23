@@ -3,8 +3,10 @@
 Türkiye'deki kamu kurumlarında yapılan **Görevde Yükselme** ve **Unvan Değişikliği**
 sınavlarına hazırlık uygulaması. Web tabanlı, çevrimdışı çalışır, reklamsız.
 
-> **Durum:** Faz 1 tamamlandı. 3 ders, **17 konu özeti**, **208 soru**; konu testleri ve
-> 20/50/80 soruluk deneme sınavları çalışıyor. Android paketleme CI'da hazır.
+> **Durum:** Faz 2 tamamlandı; Faz 3 sürüyor. 3 ders, **17 konu özeti**, **208 soru**;
+> konu testleri, 20/50/80 soruluk deneme sınavları, aralıklı tekrar ve arama çalışıyor.
+> Hesap özelliği isteğe bağlı olarak açılabilir (aşağıda); çoklu cihaz senkronu henüz yok.
+> Android paketleme CI'da hazır.
 
 ## Ne farklı?
 
@@ -27,7 +29,8 @@ npm run dev      # içeriği derler, sonra http://localhost:3000
 
 ```bash
 npm run build        # statik export → out/
-npm test             # birim testler (54)
+npm test             # birim testler
+npm run e2e          # uçtan uca + erişilebilirlik (önce npm run build)
 npm run typecheck
 npm run content:build   # yalnızca içerik doğrulama + kapsam raporu
 npm run android:sync    # build + web varlıklarını Android projesine kopyala
@@ -35,6 +38,52 @@ npm run android:sync    # build + web varlıklarını Android projesine kopyala
 
 APK yerel makinede derlenmez; `.github/workflows/android.yml` üretir ve **Artifacts**
 altına koyar.
+
+## Hesap özelliği (Supabase)
+
+**İsteğe bağlıdır.** Anahtar verilmezse uygulama eksiksiz çalışır; yalnızca giriş
+kapalı kalır ve `/hesap` ekranı bunu dürüstçe söyler. CI bilinçli olarak anahtarsız
+derler — "hesap gerekmez" bir ürün sözü, derleme koşulu değil.
+
+Açmak için:
+
+1. [supabase.com](https://supabase.com) → yeni proje. Bölge olarak Frankfurt
+   (`eu-central-1`) seçin; kullanıcılar Türkiye'de.
+2. **Project Settings → API**'den `Project URL` ve `anon public` anahtarını kopyalayın.
+3. `.env.example` dosyasını `.env.local` olarak kopyalayıp ikisini yapıştırın.
+4. ⚠️ **Authentication → Emails → Magic Link** şablonunu düzenleyin ve gövdeye
+   `{{ .Token }}` ekleyin.
+
+   Bu adım atlanırsa özellik **sessizce çalışmaz**: Supabase'in varsayılan şablonu
+   altı haneli kod değil, sihirli bağlantı gönderir. Kullanıcı e-postayı alır ama
+   içinde girebileceği bir kod bulamaz. Uygulama bağlantı akışını bilinçli olarak
+   kullanmıyor — sabit bir dönüş adresi yok (Capacitor kökten, Pages alt dizinden
+   servis ediyor).
+
+   Örnek gövde:
+
+   ```html
+   <h2>Giriş kodun</h2>
+   <p>Kamu Sınav Akademi'ye girmek için bu kodu kullan:</p>
+   <p style="font-size:28px;letter-spacing:4px"><strong>{{ .Token }}</strong></p>
+   <p>Kod bir saat geçerlidir. Bu isteği sen yapmadıysan yok sayabilirsin.</p>
+   ```
+
+5. **Authentication → Providers → Email**: `Confirm email` açık kalsın, şifre
+   girişine gerek yok.
+
+> Ücretsiz katmanda Supabase'in kendi SMTP'si saatte ~3-4 e-posta ile sınırlıdır ve
+> yalnızca test içindir. Gerçek kullanıma açarken kendi SMTP sağlayıcınızı tanımlayın.
+
+`anon` anahtarı gizli değildir; tarayıcıya inmesi tasarım gereğidir. Veriyi koruyan
+şey anahtarın gizliliği değil, Postgres tarafındaki RLS politikalarıdır (Dilim 3'te
+gelecek). `service_role` anahtarı ise **hiçbir zaman** bu depoya veya `.env.local`e
+yazılmaz — RLS'i tamamen atlar ve statik export'ta herkese açık hâle gelirdi.
+
+**Yayına almadan önce:** hesap açma gerçek kullanıcılara açıldığında e-posta adresi
+kişisel veridir; KVKK aydınlatma metni yayımlanmadan canlıya çıkılmamalıdır
+(PROJECT_PLAN.md §17, risk 6). `/hesap` ekranında hangi verinin alındığı bugün de
+yazıyor, ama bu metin aydınlatma yükümlülüğünü karşılamaz.
 
 ## Teknoloji
 

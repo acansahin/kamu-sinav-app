@@ -1105,8 +1105,8 @@ ders bazlı analiz raporu alabiliyor ve ilerlemesini görebiliyor.
 Supabase Auth (e-posta/OTP), RLS politikaları, yerel veriyi hesaba yükseltme, çoklu cihaz
 senkronu, bulut yedek. Üç dilime bölündü; ilki bitti.
 
-> **Durum (22 Temmuz 2026): Dilim 1 (kimlik altyapısı) tamamlandı.**
-> Sıradaki iş Dilim 2'dir (Supabase adaptörü ve giriş akışı).
+> **Durum (23 Temmuz 2026): Dilim 1 ve Dilim 2 tamamlandı.**
+> Sıradaki iş Dilim 3'tür (senkron motoru ve bulut yedek).
 
 **Dilim 1 — kimlik altyapısı (bitti, ağ yok).** Kullanıcı için hiçbir şey değişmedi;
 uygulama hâlâ anonim ve çevrimdışı. Değişen, altyapının kimliğe hazır olması:
@@ -1140,11 +1140,47 @@ uygulama hâlâ anonim ve çevrimdışı. Değişen, altyapının kimliğe hazı
    30 dakikalık sınavda onlarca saniye kaybediyor, dolayısıyla otomatik teslim geç
    tetikleniyordu: kullanıcıya hakkı olmayan ek süre. `finish` de ref'e alındı.
 
-**Dilim 2 — giriş akışı (sıradaki).** `SupabaseAuthProvider`, `/hesap` rotası ve OTP
-formu, KVKK aydınlatma metni, `/hakkinda` sayfası (§11'de var, henüz yok).
+**Dilim 2 — giriş akışı (bitti).** Hesap artık gerçekten açılabiliyor; ama
+**isteğe bağlı**: Supabase anahtarı verilmemişse sağlayıcı kendiliğinden yerele düşer,
+uygulama eksiksiz çalışır ve `/hesap` ekranı durumu dürüstçe söyler. CI anahtarsız
+derlemeye devam ediyor — "hesap gerekmez" bir ürün sözü (§4, taahhüt 6), derleme
+koşulu değil.
 
-**Dilim 3 — senkron.** Gönderim kuyruğu, çekme/birleştirme, bulut yedek,
-`dailyStats`/`reviewSchedule` yeniden üretimi, `bookmarks` silme mezar taşı.
+- ✅ **`SupabaseAuthProvider`** — e-posta + altı haneli kod (`signInWithOtp` /
+  `verifyOtp`). Yönlendirme yok, dolayısıyla Capacitor WebView'de ve alt dizinli
+  Pages yayınında aynı çalışıyor.
+  *Kurulum tuzağı:* Supabase'in varsayılan e-posta şablonu kod değil sihirli bağlantı
+  gönderir; şablona `{{ .Token }}` eklenmezse özellik SESSİZCE çalışmaz. README'de
+  adım olarak yazıldı.
+- ✅ **`/hesap` ekranı** — iki adımlı form (e-posta → kod), gerçek `input`/`label`
+  öğeleriyle; `autocomplete="one-time-code"` mobil klavyede kodu doldurur.
+  Erişilebilirlik kapısına eklendi.
+- ✅ **Hata mesajları kullanıcı dilinde** — Supabase'in İngilizce ve teknik metinleri
+  (`over_email_send_rate_limit`, "invalid token") ne olduğunu ve ne yapılacağını
+  söyleyen Türkçe cümlelere çevriliyor; eşleme saf fonksiyon ve testli.
+- ✅ **Oturum uzlaştırması** — açılışta sunucudaki oturum kontrol edilir. Çevrimdışıyken
+  hiçbir şey yapılmaz: "oturum yok" ile "şu an bilemiyorum" ayrı şeylerdir, ağı olmayan
+  kullanıcı oturumundan atılmaz.
+- ✅ **Çıkış veriyi geri taşır** — senkron henüz olmadığı için sunucuda kopya yok;
+  satırlar hesap kimliğiyle damgalı bırakılsaydı kullanıcı ilerlemesinin silindiğini
+  görürdü (oysa yalnızca görünmez olurdu).
+
+*Ürün kararı:* giriş yapıldığında cihazdaki anonim ilerleme **sormadan** hesaba taşınır,
+çıkışta yine sormadan yerele döner. Bilinen bedeli: ortak kullanılan bir cihazda önceki
+kişinin anonim ilerlemesi, giriş yapanın hesabına karışır.
+
+*Ölçüm sonucu bir karar:* Supabase SDK'sı **dinamik** yükleniyor. Statik içe aktarımda
+kök düzendeki oturum uzlaştırıcısı üzerinden ortak pakete giriyor ve 53 sayfanın
+hepsine 227 KB ekliyordu — hiç giriş yapmayacak ve veri kotası kısıtlı kullanıcıya
+(§2, Persona 2) ödetilecek bir bedel değil.
+
+*Devredilen borç:* **KVKK aydınlatma metni ve `/hakkinda` sayfası bu dilimde
+yazılmadı.** `/hesap` ekranı hangi verinin alındığını (yalnızca e-posta) söylüyor ama
+bu, aydınlatma yükümlülüğünü karşılamaz. Hesap açma gerçek kullanıcılara açılmadan
+önce yazılmalıdır (§17, risk 6).
+
+**Dilim 3 — senkron (sıradaki).** Gönderim kuyruğu, çekme/birleştirme, RLS politikaları,
+bulut yedek, `dailyStats`/`reviewSchedule` yeniden üretimi, `bookmarks` silme mezar taşı.
 
 ### Faz 4 — Kurum ve alan bilgisi (~4 hafta)
 Kurum/kadro seçimi, alan bilgisi içerik ağacı, kuruma özgü sınav şablonları, kişiselleştirilmiş

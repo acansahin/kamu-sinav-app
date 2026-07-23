@@ -1,16 +1,21 @@
+import { AuthUnavailableError } from "./auth-errors";
 import {
 	type Identity,
 	LOCAL_IDENTITY,
 	currentIdentity,
 	setIdentity,
 } from "./identity";
+import { isAccountConfigured } from "./supabase-client";
+import { SupabaseAuthProvider } from "./supabase.provider";
 
 /**
  * Kimlik doğrulama sözleşmesi.
  *
- * MVP'de `LocalAuthProvider` (tek anonim cihaz kullanıcısı) bağlıdır; Faz 3'ün
- * ikinci diliminde yerine `SupabaseAuthProvider` geçecek ve çağıran hiçbir kod
- * değişmeyecek (PROJECT_PLAN.md §8, "Kimlik doğrulama tasarımı").
+ * İki uygulaması var ve hangisinin bağlanacağı DERLEME anında belli olur:
+ * Supabase anahtarları verilmişse `SupabaseAuthProvider`, verilmemişse
+ * `LocalAuthProvider`. Uygulamanın anahtarsız da eksiksiz çalışması bir ürün
+ * sözüdür (PROJECT_PLAN.md §4, taahhüt 6: "hesap gerekmez") ve CI'da anahtar
+ * bulunmaz.
  *
  * Sözleşme neden e-posta + KOD üzerine kurulu (sihirli bağlantı değil):
  * kod akışı hiçbir yönlendirme URL'si istemez. Uygulama hem Capacitor
@@ -28,30 +33,22 @@ export interface IAuthProvider {
 	/** Kodu doğrular ve hesabı açar. */
 	verifyCode(email: string, code: string): Promise<Identity>;
 	signOut(): Promise<void>;
+	/**
+	 * Sunucudaki oturumun durumu: kimlik varsa o, oturum kapalıysa `null`.
+	 *
+	 * Ağ yoksa HATA FIRLATIR — "oturum yok" ile "bilmiyorum" ayrı şeylerdir.
+	 * Çevrimdışı açılışta kullanıcı oturumundan atılmamalı.
+	 */
+	currentServerIdentity(): Promise<Identity | null>;
 }
 
-/**
- * Hesap özelliği bu yapıda mevcut değil.
- *
- * Ayrı bir tip olmasının sebebi, arayüzün "bir şeyler ters gitti" ile
- * "bu özellik henüz yok" durumlarını ayırt edebilmesi: ilki yeniden denemeyi,
- * ikincisi açıklamayı gerektirir.
- */
-export class AuthUnavailableError extends Error {
-	constructor(
-		message = "Hesap özelliği henüz kullanıma açık değil. İlerlemen bu cihazda güvende.",
-	) {
-		super(message);
-		this.name = "AuthUnavailableError";
-	}
-}
+export { AuthUnavailableError, AuthRequestError } from "./auth-errors";
 
 /**
  * Sunucusuz cihaz kimliği.
  *
  * `current()` gerçek kimliği döndürür — sabit `LOCAL_IDENTITY` değil: kullanıcı
- * daha önce bir hesaba bağlanmışsa (Dilim 2) ve sağlayıcı geçici olarak yereli
- * gösteriyorsa, damgalanmış veriyi görmez hâle gelmemeliyiz.
+ * daha önce bir hesaba bağlanmışsa damgalanmış veriyi görmez hâle gelmemeliyiz.
  */
 class LocalAuthProvider implements IAuthProvider {
 	current(): Identity {
@@ -69,6 +66,13 @@ class LocalAuthProvider implements IAuthProvider {
 	async signOut(): Promise<void> {
 		setIdentity(LOCAL_IDENTITY);
 	}
+
+	/** Sunucu yok; doğru cevap "oturum kapalı" değil, "her zaman yerel". */
+	async currentServerIdentity(): Promise<Identity> {
+		return LOCAL_IDENTITY;
+	}
 }
 
-export const authProvider: IAuthProvider = new LocalAuthProvider();
+export const authProvider: IAuthProvider = isAccountConfigured()
+	? new SupabaseAuthProvider()
+	: new LocalAuthProvider();
