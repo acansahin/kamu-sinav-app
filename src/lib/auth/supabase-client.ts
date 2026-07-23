@@ -75,7 +75,7 @@ export function getSupabaseClient(): Promise<SupabaseClient> | null {
 				 *
 				 * Varsayılan davranış, adres çubuğundaki `#access_token=…` parçasını
 				 * okuyup oturum açmaktır — sihirli bağlantı akışının çalışma şekli.
-				 * Bu uygulama altı haneli kod kullanıyor ve yönlendirme yok; ayrıca
+				 * Bu uygulama tek kullanımlık kod kullanıyor ve yönlendirme yok; ayrıca
 				 * Capacitor WebView'de ve alt dizinli Pages yayınında dönüş adresi
 				 * farklı olduğu için o akış zaten kurulamaz.
 				 */

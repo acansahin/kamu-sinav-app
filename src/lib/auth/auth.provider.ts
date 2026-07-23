@@ -21,14 +21,14 @@ import { SupabaseAuthProvider } from "./supabase.provider";
  * kod akışı hiçbir yönlendirme URL'si istemez. Uygulama hem Capacitor
  * WebView'de hem GitHub Pages'te alt dizinde (`PAGES_BASE_PATH`) çalışıyor;
  * dönüş adresi bu iki hedefte farklı ve WebView'de derin bağlantı kurulumu
- * gerektirirdi. Altı haneli kod her iki hedefte de aynı şekilde çalışır ve
+ * gerektirirdi. Tek kullanımlık kod her iki hedefte de aynı şekilde çalışır ve
  * şifre sıfırlama akışını tamamen ortadan kaldırır — hedef kitlenin yaş
  * profili düşünüldüğünde en az sürtünmeli yol (PROJECT_PLAN.md §2, Persona 1).
  */
 export interface IAuthProvider {
 	/** Cihazdaki mevcut kimlik. Senkron; ağ istemez. */
 	current(): Identity;
-	/** E-posta adresine altı haneli tek kullanımlık kod gönderir. */
+	/** E-posta adresine tek kullanımlık giriş kodu gönderir. */
 	requestCode(email: string): Promise<void>;
 	/** Kodu doğrular ve hesabı açar. */
 	verifyCode(email: string, code: string): Promise<Identity>;

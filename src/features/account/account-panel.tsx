@@ -12,7 +12,20 @@ import { useIdentity } from "@/lib/stores/identity";
 
 type Step = "email" | "code";
 
-const CODE_LENGTH = 6;
+/**
+ * Kod uzunluğu SUNUCU AYARIDIR, sabit değildir.
+ *
+ * Supabase'de 6–10 arası yapılandırılabilir (Authentication → Providers →
+ * Email → Email OTP Length) ve projeden projeye farklı olabilir. Arayüz tek bir
+ * uzunluğa kilitlenirse ayar değiştiğinde giriş imkânsız hâle gelir: kutu
+ * fazla haneleri kırpar, düğme de hiç etkinleşmez. Gerçek bir kurulumda
+ * yaşandı — 8 haneli kod üreten bir projede kimse giriş yapamıyordu.
+ *
+ * Bu yüzden arayüz bir aralık kabul eder ve doğrulamayı sunucuya bırakır;
+ * yanlış uzunluktaki kodu zaten Supabase reddediyor.
+ */
+const MIN_CODE_LENGTH = 6;
+const MAX_CODE_LENGTH = 10;
 
 /** Alan etiketi + girdi; ekran okuyucu ve klavye desteği tarayıcıdan gelir. */
 function Field({
@@ -161,7 +174,7 @@ export function AccountPanel() {
 						<div>
 							<h2 className="mb-1 text-lg font-bold">Giriş yap</h2>
 							<p className="text-fg-muted">
-								E-posta adresini yaz, sana altı haneli bir kod gönderelim.
+								E-posta adresini yaz, sana bir giriş kodu gönderelim.
 								Şifre yok, hatırlaman gereken bir şey yok.
 							</p>
 						</div>
@@ -202,18 +215,20 @@ export function AccountPanel() {
 							<h2 className="mb-1 text-lg font-bold">Kodu gir</h2>
 							<p className="text-fg-muted">
 								<span className="font-medium text-fg">{email}</span> adresine
-								gönderdiğimiz altı haneli kodu yaz. E-posta birkaç dakika
-								gecikebilir; gelmediyse istenmeyen klasörüne de bak.
+								gönderdiğimiz kodu yaz. E-posta birkaç dakika gecikebilir;
+								gelmediyse istenmeyen klasörüne de bak.
 							</p>
 						</div>
 
 						<Field
-							label="Altı haneli kod"
+							label="Giriş kodu"
 							type="text"
 							name="code"
 							value={code}
 							onChange={(e) =>
-								setCode(e.target.value.replace(/\D/g, "").slice(0, CODE_LENGTH))
+								setCode(
+									e.target.value.replace(/\D/g, "").slice(0, MAX_CODE_LENGTH),
+								)
 							}
 							// `one-time-code` mobil klavyelerde kodu otomatik doldurur.
 							autoComplete="one-time-code"
@@ -226,7 +241,7 @@ export function AccountPanel() {
 						<div className="flex flex-wrap gap-3">
 							<Button
 								type="submit"
-								disabled={busy || code.length !== CODE_LENGTH}
+								disabled={busy || code.length < MIN_CODE_LENGTH}
 							>
 								<ShieldCheck aria-hidden size={18} />
 								{busy ? "Doğrulanıyor…" : "Giriş yap"}

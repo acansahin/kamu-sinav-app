@@ -49,18 +49,53 @@ Açmak için:
 
 1. [supabase.com](https://supabase.com) → yeni proje. Bölge olarak Frankfurt
    (`eu-central-1`) seçin; kullanıcılar Türkiye'de.
-2. **Project Settings → API**'den `Project URL` ve `anon public` anahtarını kopyalayın.
+2. **Project Settings → Data API**'den `Project URL`'i, **Project Settings → API Keys**
+   sayfasından da **Publishable key**'i (`sb_publishable_…`) kopyalayın.
+
+   Eski panellerde bu anahtarın adı `anon` `public`ti ve `eyJ…` ile başlayan bir
+   JWT'ydi; aynı sayfadaki **Legacy API keys** sekmesinde hâlâ bulunabilir. İkisi de
+   çalışır — ortam değişkeninin adı (`…_ANON_KEY`) eski adlandırmadan kalmadır,
+   değeri her iki biçimde olabilir.
+
+   ⚠️ **Secret key** (`sb_secret_…`) ya da `service_role` **alınmaz.**
 3. `.env.example` dosyasını `.env.local` olarak kopyalayıp ikisini yapıştırın.
-4. ⚠️ **Authentication → Emails → Magic Link** şablonunu düzenleyin ve gövdeye
-   `{{ .Token }}` ekleyin.
+4. **Authentication → Emails → SMTP Settings**'ten kendi SMTP sağlayıcınızı tanımlayın.
 
-   Bu adım atlanırsa özellik **sessizce çalışmaz**: Supabase'in varsayılan şablonu
-   altı haneli kod değil, sihirli bağlantı gönderir. Kullanıcı e-postayı alır ama
-   içinde girebileceği bir kod bulamaz. Uygulama bağlantı akışını bilinçli olarak
-   kullanmıyor — sabit bir dönüş adresi yok (Capacitor kökten, Pages alt dizinden
-   servis ediyor).
+   Bu adım isteğe bağlı değildir: Supabase, yerleşik e-posta servisi kullanılırken
+   şablon düzenlemeye izin vermez (*"set up custom SMTP to edit body"*). Zaten
+   yerleşik servis saatte 3-4 e-posta ile sınırlı ve Supabase'in kendi belgelerinde
+   "yalnızca test için" deniyor — gerçek kullanıma açarken gerekecekti.
 
-   Örnek gövde:
+   Alan adı yoksa **Resend** en kısa yol (ücretsiz, `onboarding@resend.dev`
+   göndericisiyle yalnızca kendi hesap adresinize gönderir — test için yeterli):
+
+   | Alan | Değer |
+   |---|---|
+   | Host | `smtp.resend.com` |
+   | Port | `465` |
+   | Username | `resend` |
+   | Password | Resend API anahtarı (`re_…`) |
+   | Sender email | `onboarding@resend.dev` |
+
+   Yayına çıkarken kendi alan adınızı doğrulayın; aksi hâlde yalnızca kendinize
+   e-posta gönderebilirsiniz ve teslimat oranı düşük olur.
+
+5. ⚠️ **Authentication → Emails** altında **İKİ şablona da** `{{ .Token }}` ekleyin:
+   **Confirm signup** ve **Magic Link**.
+
+   İkisi birden gerekir çünkü Supabase hangi şablonu göndereceğine kullanıcının
+   durumuna göre karar verir: adresi ilk kez görüyorsa *Confirm signup*, daha önce
+   giriş yapmışsa *Magic Link*. Yalnızca birini düzenlemek en sinsi hataya yol
+   açar — biri çalışır, diğeri çalışmaz. Sadece Magic Link düzenlenirse **ilk
+   kaydolan herkes** kodsuz bir e-posta alır.
+
+   Bu adım tamamen atlanırsa özellik **sessizce çalışmaz**: varsayılan şablonlar
+   giriş kodu değil, sihirli bağlantı gönderir. Kullanıcı e-postayı alır ama
+   içinde girebileceği bir kod bulamaz; uygulamada hata da görünmez. Uygulama
+   bağlantı akışını bilinçli olarak kullanmıyor — sabit bir dönüş adresi yok
+   (Capacitor kökten, Pages alt dizinden servis ediyor).
+
+   Her iki şablona da yapıştırılabilecek gövde:
 
    ```html
    <h2>Giriş kodun</h2>
@@ -69,11 +104,12 @@ Açmak için:
    <p>Kod bir saat geçerlidir. Bu isteği sen yapmadıysan yok sayabilirsin.</p>
    ```
 
-5. **Authentication → Providers → Email**: `Confirm email` açık kalsın, şifre
-   girişine gerek yok.
+   > Şablonda `{{ .ConfirmationURL }}` bırakmanız sorun değildir, ama bu uygulama
+   > o bağlantıyı kullanmaz; kaldırmak kullanıcının kafasını karıştırmamak için
+   > daha iyidir.
 
-> Ücretsiz katmanda Supabase'in kendi SMTP'si saatte ~3-4 e-posta ile sınırlıdır ve
-> yalnızca test içindir. Gerçek kullanıma açarken kendi SMTP sağlayıcınızı tanımlayın.
+6. **Authentication → Providers → Email**: `Confirm email` açık kalsın, şifre
+   girişine gerek yok.
 
 `anon` anahtarı gizli değildir; tarayıcıya inmesi tasarım gereğidir. Veriyi koruyan
 şey anahtarın gizliliği değil, Postgres tarafındaki RLS politikalarıdır (Dilim 3'te
