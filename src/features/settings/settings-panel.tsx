@@ -7,7 +7,6 @@ import { useId, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { OfflineDownload } from "@/features/offline/offline-download";
-import { AccountCard } from "@/features/settings/account-card";
 import { progressRepository } from "@/lib/repositories/progress.repository";
 import {
 	FONT_SCALE_LABELS,
@@ -190,14 +189,11 @@ export function SettingsPanel() {
 
 			<OfflineDownload />
 
-			<AccountCard />
-
 			<Card>
 				<h2 className="mb-1 text-lg font-bold">Hata bildirimlerin</h2>
 				<p className="mb-4 text-sm text-fg-muted">
 					Sorularda bildirdiğin sorunlar. Şimdilik yalnızca bu cihazda tutulur ve
-					yedeğe dâhil edilir; üyelik geldiğinde bize iletilebilecek (bkz.
-					yukarıdaki Hesap bölümü).
+					yedeğe dâhil edilir; üyelik geldiğinde bize iletilebilecek.
 				</p>
 
 				{reports === undefined ? (

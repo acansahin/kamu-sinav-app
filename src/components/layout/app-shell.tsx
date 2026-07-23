@@ -2,6 +2,7 @@
 
 import {
 	BookOpen,
+	CircleUserRound,
 	House,
 	ListChecks,
 	RefreshCw,
@@ -9,11 +10,14 @@ import {
 	Settings,
 	Timer,
 	TrendingUp,
+	UserRound,
 } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { Route } from "next";
 import type { ReactNode } from "react";
+import { isAccountConfigured } from "@/lib/auth/supabase-client";
+import { useIdentity } from "@/lib/stores/identity";
 import { useApplyPreferences } from "@/lib/stores/preferences";
 import { cn } from "@/lib/utils/cn";
 
@@ -40,6 +44,13 @@ function isActive(pathname: string, href: string): boolean {
 export function AppShell({ children }: { children: ReactNode }) {
 	useApplyPreferences();
 	const pathname = usePathname();
+	const identity = useIdentity();
+
+	// Hesap yapılandırılmamışsa (Supabase anahtarı yok) çalışmayan bir ikon
+	// gösterilmez — olmayan özelliği varmış gibi göstermeme ilkesi
+	// (PROJECT_PLAN.md §3.2). Bu durumda ikon başlıkta hiç yer almaz.
+	const accountConfigured = isAccountConfigured();
+	const signedIn = identity.kind === "account";
 
 	return (
 		<div className="flex min-h-dvh flex-col">
@@ -114,6 +125,27 @@ export function AppShell({ children }: { children: ReactNode }) {
 					>
 						<Settings aria-hidden size={20} />
 					</Link>
+
+					{accountConfigured && (
+						<Link
+							href="/hesap"
+							// Giriş yapılmışsa dolu, yapılmamışsa boş kullanıcı ikonu;
+							// etiket de durumu söyler, ikon tek başına anlam taşımasın.
+							aria-label={signedIn ? "Hesabım" : "Giriş yap"}
+							className={cn(
+								"flex size-11 items-center justify-center rounded-lg transition-colors",
+								pathname.startsWith("/hesap")
+									? "bg-brand-soft text-brand"
+									: "text-fg-muted hover:bg-surface-sunken hover:text-fg",
+							)}
+						>
+							{signedIn ? (
+								<CircleUserRound aria-hidden size={20} />
+							) : (
+								<UserRound aria-hidden size={20} />
+							)}
+						</Link>
+					)}
 				</div>
 			</header>
 
