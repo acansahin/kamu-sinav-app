@@ -10,13 +10,18 @@ import { type Identity, LOCAL_IDENTITY, currentIdentity } from "./identity";
 import { getSupabaseClient } from "./supabase-client";
 
 /**
- * Supabase ile e-posta + altı haneli kod kimlik doğrulaması.
+ * Supabase ile e-posta + tek kullanımlık kod kimlik doğrulaması.
  *
- * ⚠️ Supabase'in VARSAYILAN e-posta şablonu kod değil, sihirli BAĞLANTI
- * gönderir. Altı haneli kodun gelmesi için panelde
- * Authentication → Emails → Magic Link şablonuna `{{ .Token }}` eklenmelidir;
- * yoksa bu akış sessizce çalışmaz — kullanıcı e-postada kod göremez.
- * Kurulum adımları README.md içindedir.
+ * Kodun uzunluğu SUNUCU AYARIDIR (Supabase'de 6-10 arası); arayüz bir aralık
+ * kabul eder ve doğrulamayı sunucuya bırakır. Bkz. `features/account`.
+ *
+ * ⚠️ Supabase'in VARSAYILAN e-posta şablonları kod değil, sihirli BAĞLANTI
+ * gönderir. Kodun gelmesi için panelde Authentication → Emails
+ * altındaki İKİ şablona da `{{ .Token }}` eklenmelidir: **Confirm signup**
+ * (adresi ilk kez gören kullanıcı) ve **Magic Link** (daha önce giriş yapmış
+ * kullanıcı). Supabase hangisini göndereceğine kullanıcının durumuna göre
+ * karar verir; yalnızca birini düzenlemek "bende çalışıyor ama yeni
+ * kaydolanlarda çalışmıyor" hatasını üretir. Kurulum README.md içindedir.
  *
  * `emailRedirectTo` bilinçli olarak GEÇİLMEZ: dönüş adresi vermek Supabase'i
  * bağlantı üretmeye teşvik eder ve bu uygulamanın sabit bir dönüş adresi
