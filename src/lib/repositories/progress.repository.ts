@@ -94,6 +94,14 @@ export interface IProgressRepository {
 	 * olur — PROJECT_PLAN.md §8'deki "veri kaybı olmadan yükseltme" sözü.
 	 */
 	reassignOwner(newUserId: string): Promise<void>;
+	/**
+	 * Birleştirilmiş yedeği yerele yazar ve türetilmiş tabloları yeniden üretir.
+	 *
+	 * Senkron çekme adımının yerel yarısı: `mergeBundles` çıktısı buraya gelir.
+	 * `dailyStats` ve `reviewSchedule` sunucudan gelmez, `attempts`'ten yeniden
+	 * kurulur; `topicProgress` sayaçları da öyle — ama `summaryRead` korunur.
+	 */
+	applyMerged(merged: ExportBundle): Promise<void>;
 }
 
 /** Oturumu açan kod kimliği bilmez; `userId` damgasını repository atar. */
@@ -715,6 +723,113 @@ class DexieProgressRepository implements IProgressRepository {
 			await Promise.all(tables.map((table) => table.clear()));
 			await this.writeBundle(restamped);
 		});
+	}
+
+	async applyMerged(merged: ExportBundle): Promise<void> {
+		const db = getDb();
+		const userId = this.userId;
+		// Aktif kimlikle damgala: birleştirme çıktısı zaten bu kimlikle gelmeli,
+		// ama garantiyi tek yerde ver.
+		const stamped = restampBundle(merged, userId);
+
+		await db.transaction("rw", this.allTables(), async () => {
+			// Senkronlanan tabloları yaz. Silme yok (tombstone henüz yok), bu
+			// yüzden bulkPut yeterli: yalnızca ekler ve günceller.
+			await db.attempts.bulkPut(stamped.attempts);
+			await db.testSessions.bulkPut(stamped.testSessions);
+			await db.examSessions.bulkPut(stamped.examSessions);
+			await db.reports.bulkPut(stamped.reports);
+			await db.topicProgress.bulkPut(stamped.topicProgress);
+			if (stamped.settings) await db.settings.put(stamped.settings);
+
+			await this.rebuildDerived(userId);
+		});
+	}
+
+	/**
+	 * Türetilmiş tabloları `attempts` günlüğünden yeniden kurar.
+	 *
+	 * Çağıran taraf transaction açmış olmalıdır. Bu, `recordAttempts`'in
+	 * artımlı güncellemesinin toplu karşılığıdır: birleştirme sonrası günlük
+	 * değiştiği için sayaçlar, tekrar planı ve günlük istatistik yeniden
+	 * hesaplanır.
+	 *
+	 * KRİTİK: `summaryRead`/`summaryReadAt` günlükten türetilemez. Sayaçları
+	 * güncellerken bu iki alan ve `updatedAt` (senkron damgası) korunur; hiç
+	 * denemesi olmayan ama özeti okunmuş bir konu bu yüzden bozulmadan kalır.
+	 */
+	private async rebuildDerived(userId: string): Promise<void> {
+		const db = getDb();
+		const attempts = await db.attempts
+			.where("userId")
+			.equals(userId)
+			.sortBy("createdAt");
+
+		// 1. topicProgress sayaçları — summaryRead ve updatedAt korunur.
+		for (const topicId of new Set(attempts.map((a) => a.topicId))) {
+			const rows = attempts.filter((a) => a.topicId === topicId);
+			const existing = await db.topicProgress.get([userId, topicId]);
+			await db.topicProgress.put({
+				userId,
+				topicId,
+				subjectId: rows[0]?.subjectId ?? existing?.subjectId ?? "",
+				summaryRead: existing?.summaryRead ?? false,
+				summaryReadAt: existing?.summaryReadAt,
+				questionsAttempted: rows.length,
+				questionsCorrect: rows.filter((a) => a.isCorrect).length,
+				masteryScore: computeMastery(rows.map((a) => a.isCorrect)),
+				updatedAt: existing?.updatedAt ?? new Date().toISOString(),
+			});
+		}
+
+		// 2. reviewSchedule — sil ve her soruyu sırayla oynatarak yeniden kur.
+		//    Tekrar planı son cevaplama anına göredir; dueAt son denemenin
+		//    tarihinden hesaplanır (kayıt anındaki "şimdi"den değil).
+		await db.reviewSchedule.where("userId").equals(userId).delete();
+		for (const questionId of new Set(attempts.map((a) => a.questionId))) {
+			const rows = attempts.filter((a) => a.questionId === questionId);
+			let state = scheduler.initial();
+			let lastGrade = 0;
+			for (const a of rows) {
+				const grade = gradeFromAttempt(
+					a.isCorrect,
+					a.selectedIndex,
+					a.durationMs,
+				);
+				state = scheduler.next(state, grade);
+				lastGrade = grade;
+			}
+			const last = rows[rows.length - 1];
+			if (!last) continue;
+			await db.reviewSchedule.put({
+				userId,
+				questionId,
+				subjectId: last.subjectId,
+				topicId: last.topicId,
+				...state,
+				dueAt: dueDateFrom(state.intervalDays, new Date(last.createdAt)),
+				lastGrade,
+				updatedAt: last.createdAt,
+			});
+		}
+
+		// 3. dailyStats — sil ve güne göre yeniden topla.
+		await db.dailyStats.where("userId").equals(userId).delete();
+		for (const date of new Set(attempts.map((a) => dayKey(new Date(a.createdAt))))) {
+			const rows = attempts.filter(
+				(a) => dayKey(new Date(a.createdAt)) === date,
+			);
+			await db.dailyStats.put({
+				userId,
+				date,
+				questionsAnswered: rows.length,
+				correctAnswers: rows.filter((a) => a.isCorrect).length,
+				studySeconds: Math.round(
+					rows.reduce((sum, a) => sum + a.durationMs, 0) / 1000,
+				),
+				topicsCompleted: 0,
+			});
+		}
 	}
 }
 

@@ -28,6 +28,10 @@ function recordingTransport(): { transport: SyncTransport; calls: Call[] } {
 			async upsert(table, onConflict, rows) {
 				calls.push({ table, onConflict, rows });
 			},
+			// Gönderim testi çekmeye dokunmaz; sözleşmeyi karşılamak için boş.
+			async fetchAll() {
+				return [];
+			},
 		},
 	};
 }

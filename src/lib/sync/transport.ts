@@ -15,6 +15,8 @@ export interface SyncTransport {
 		onConflict: string,
 		rows: readonly ServerRow[],
 	): Promise<void>;
+	/** Kullanıcının bir tablodaki tüm satırlarını çeker. */
+	fetchAll(table: string, userId: string): Promise<ServerRow[]>;
 }
 
 /** Senkron sırasında sunucudan dönen hata. */
@@ -42,5 +44,19 @@ export class SupabaseSyncTransport implements SyncTransport {
 		if (error) {
 			throw new SyncError(`"${table}" tablosuna yazılamadı: ${error.message}`);
 		}
+	}
+
+	async fetchAll(table: string, userId: string): Promise<ServerRow[]> {
+		// RLS zaten kullanıcının satırlarıyla sınırlar; açık `eq` hem savunmacı
+		// hem de sorguyu indeksli sütuna oturtur.
+		const { data, error } = await this.client
+			.from(table)
+			.select("*")
+			.eq("user_id", userId);
+
+		if (error) {
+			throw new SyncError(`"${table}" tablosu okunamadı: ${error.message}`);
+		}
+		return (data ?? []) as ServerRow[];
 	}
 }
