@@ -4,6 +4,7 @@ import { progressRepository } from "@/lib/repositories/progress.repository";
 import { mergeBundles } from "./merge";
 import { pullServerBundle } from "./pull";
 import { pushBundle } from "./push";
+import { markSyncError, markSynced, markSyncing } from "./sync-status";
 import { SupabaseSyncTransport, type SyncTransport } from "./transport";
 
 /**
@@ -46,5 +47,14 @@ export async function fullSync(): Promise<void> {
 	const client = await getSupabaseClient();
 	if (!client) return;
 
-	await runSync(identity.userId, new SupabaseSyncTransport(client));
+	// Durum yalnızca gerçekten eşitleme yapılan yolda güncellenir; yukarıdaki
+	// erken çıkışlar (anonim / Supabase yok) göstergeye hiç dokunmaz.
+	markSyncing();
+	try {
+		await runSync(identity.userId, new SupabaseSyncTransport(client));
+		markSynced();
+	} catch (error) {
+		markSyncError();
+		throw error;
+	}
 }

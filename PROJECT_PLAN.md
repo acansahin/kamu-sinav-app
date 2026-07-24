@@ -1107,8 +1107,9 @@ ders bazlı analiz raporu alabiliyor ve ilerlemesini görebiliyor.
 Supabase Auth (e-posta/OTP), RLS politikaları, yerel veriyi hesaba yükseltme, çoklu cihaz
 senkronu, bulut yedek. Üç dilime bölündü; ilki bitti.
 
-> **Durum (23 Temmuz 2026): Dilim 1 ve Dilim 2 tamamlandı.**
-> Sıradaki iş Dilim 3'tür (senkron motoru ve bulut yedek).
+> **Durum (24 Temmuz 2026): Dilim 1, 2 ve Dilim 3'ün senkronu tamamlandı.**
+> Motor yaşam döngüsüne bağlı (giriş, çıkış, açılış uzlaştırması), elle "şimdi
+> eşitle" ve durum göstergesi eklendi. Kalan tek iş: `bookmarks` silme mezar taşı.
 
 **Dilim 1 — kimlik altyapısı (bitti, ağ yok).** Kullanıcı için hiçbir şey değişmedi;
 uygulama hâlâ anonim ve çevrimdışı. Değişen, altyapının kimliğe hazır olması:
@@ -1197,8 +1198,44 @@ hepsine 227 KB ekliyordu — hiç giriş yapmayacak ve veri kotası kısıtlı k
 2. **`/hakkinda` sayfası** hâlâ yok (§11'de listeli): içerik sürümü, mevzuat güncellik
    tarihi, yol haritası, kaynak/telif bildirimi.
 
-**Dilim 3 — senkron (sıradaki).** Gönderim kuyruğu, çekme/birleştirme, RLS politikaları,
-bulut yedek, `dailyStats`/`reviewSchedule` yeniden üretimi, `bookmarks` silme mezar taşı.
+**Dilim 3 — senkron (motor bitti, bağlandı).** Tam senkron döngüsü ve yaşam
+döngüsü bağlantısı hazır; uygulama artık gerçekten çoklu cihaz eşitliyor.
+
+- ✅ **Tam senkron döngüsü** — `lib/sync/sync.ts` (`runSync`): çek → birleştir →
+  yerele uygula → gönder. Sıra bağlayıcı; yalnızca gönderseydik daha yeni bir
+  sunucu satırının üzerine yazardık, yalnızca çekseydik yerel değişiklik
+  ulaşmazdı. Sahte transport'la ağsız test edildi (`tests/unit/sync-cycle`).
+- ✅ **"Son yazan kazanır" birleştirme** — `lib/sync/merge.ts`, saf ve Dexie'siz.
+  `attempts` append-only olduğu için birleşim + `id` tekilleştirme; `updatedAt`
+  taşıyan tablolarda damga büyük olan kazanır. Dilimin veri kaybı riski en
+  yüksek adımı; bu yüzden ağ ve veritabanı olmadan tam sınanabilir.
+- ✅ **İki katmanlı sunucu şeması + RLS** — `supabase/schema.sql`. Her tablo
+  kimlik/senkron sütunları + `data` (istemci nesnesinin tamamı) taşır; istemci
+  tipi büyüdüğünde sunucu göç gerektirmez. Her satır `auth.uid() = user_id`
+  politikasıyla korunur.
+- ✅ **Türetilmiş tabloların yeniden üretimi** — birleştirme sonrası
+  `topicProgress` sayaçları, `reviewSchedule` ve `dailyStats` `attempts`
+  günlüğünden yeniden kurulur (`rebuildDerived`). KRİTİK: `summaryRead`/
+  `summaryReadAt` günlükten türetilemez, korunur.
+- ✅ **Yaşam döngüsü bağlantısı** — `lib/auth/session.ts`. Senkron üç noktada
+  tetiklenir: girişte (kimlik damgalandıktan SONRA), çıkışta (kimlik hâlâ
+  hesapken, son gönderim), açılış uzlaştırmasında (başka cihazların verisini
+  çek). Hepsi **en iyi çaba**: çevrimdışıyken oturum işlemi yine tamamlanır,
+  yerel veri güvende kalır ve bir sonraki tur eşitlemeyi tekrar dener. Arayüz
+  bunu dürüstçe söyler ("çevrimiçi olduğunda eşitlenecek").
+- ✅ **Elle eşitle + durum göstergesi** — `lib/sync/sync-status.ts`
+  (gözlemlenebilir depo, `identity` ile aynı desen) + `SyncStatusCard`. Girişli
+  ekranda "en son ne zaman eşitlendi" göreli Türkçe metinle gösterilir ("5
+  dakika önce eşitlendi") ve "Şimdi eşitle" düğmesi `fullSync`'i tetikler. Durum
+  tek yerden okunur; hem yaşam döngüsü hem düğme aynı depoyu günceller. Renk tek
+  başına anlam taşımaz — hata durumu ikon + metinle anlatılır. `lastSyncedAt`
+  kalıcı (localStorage), `phase` geçici.
+
+*Devredilen borç:*
+
+1. **`bookmarks` silme mezar taşı** — `bookmarks` bilinçli olarak senkron
+   dışında (arayüzü yok). Sunucuya girdiğinde silmeyi taşımak için tombstone
+   gerekecek; şimdilik ertelendi.
 
 ### Faz 4 — Kurum ve alan bilgisi (~4 hafta)
 Kurum/kadro seçimi, alan bilgisi içerik ağacı, kuruma özgü sınav şablonları, kişiselleştirilmiş

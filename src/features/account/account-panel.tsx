@@ -9,6 +9,7 @@ import { AuthUnavailableError, authProvider } from "@/lib/auth/auth.provider";
 import { signInWithCode, signOut } from "@/lib/auth/session";
 import { isAccountConfigured } from "@/lib/auth/supabase-client";
 import { useIdentity } from "@/lib/stores/identity";
+import { SyncStatusCard } from "./sync-status-card";
 
 type Step = "email" | "code";
 
@@ -93,10 +94,15 @@ export function AccountPanel() {
 			const result = await signInWithCode(email.trim(), code.trim());
 			setCode("");
 			setStep("email");
+			// Senkron en iyi çabadır; tamamlanmadıysa dürüstçe söyle — veri
+			// kaybolmadı, yalnızca çevrimiçi olunca eşitlenecek.
+			const base = result.claimedLocalData
+				? "Giriş yapıldı. Bu cihazdaki ilerlemen hesabına taşındı."
+				: "Giriş yapıldı.";
 			setNotice(
-				result.claimedLocalData
-					? "Giriş yapıldı. Bu cihazdaki ilerlemen hesabına taşındı."
-					: "Giriş yapıldı.",
+				result.synced
+					? base
+					: `${base} Değişikliklerin çevrimiçi olduğunda eşitlenecek.`,
 			);
 		} catch (caught) {
 			setError(messageFor(caught));
@@ -141,27 +147,31 @@ export function AccountPanel() {
 	// --- Girişli -------------------------------------------------------------
 	if (identity.kind === "account") {
 		return (
-			<Card>
-				<h2 className="mb-1 text-lg font-bold">Giriş yapıldı</h2>
-				<p className="mb-5 text-fg-muted">
-					<span className="font-medium text-fg">{identity.email}</span>
-				</p>
-
-				<Button variant="secondary" onClick={() => void leave()} disabled={busy}>
-					<LogOut aria-hidden size={18} />
-					Çıkış yap
-				</Button>
-
-				<p className="mt-3 text-sm text-fg-muted">
-					Çıkış yaptığında ilerlemen silinmez; bu cihazda kalmaya devam eder.
-				</p>
-
-				{notice && (
-					<p role="status" className="mt-4 text-sm font-medium text-fg">
-						{notice}
+			<div className="space-y-4">
+				<Card>
+					<h2 className="mb-1 text-lg font-bold">Giriş yapıldı</h2>
+					<p className="mb-5 text-fg-muted">
+						<span className="font-medium text-fg">{identity.email}</span>
 					</p>
-				)}
-			</Card>
+
+					<Button variant="secondary" onClick={() => void leave()} disabled={busy}>
+						<LogOut aria-hidden size={18} />
+						Çıkış yap
+					</Button>
+
+					<p className="mt-3 text-sm text-fg-muted">
+						Çıkış yaptığında ilerlemen silinmez; bu cihazda kalmaya devam eder.
+					</p>
+
+					{notice && (
+						<p role="status" className="mt-4 text-sm font-medium text-fg">
+							{notice}
+						</p>
+					)}
+				</Card>
+
+				<SyncStatusCard />
+			</div>
 		);
 	}
 
