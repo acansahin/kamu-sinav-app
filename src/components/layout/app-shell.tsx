@@ -151,10 +151,44 @@ export function AppShell({ children }: { children: ReactNode }) {
 
 			<main
 				id="icerik"
-				className="mx-auto w-full max-w-5xl flex-1 px-4 py-6 pb-24 print:max-w-none print:px-0 print:py-0 md:pb-10"
+				className="mx-auto w-full max-w-5xl flex-1 px-4 py-6 print:max-w-none print:px-0 print:py-0"
 			>
 				{children}
 			</main>
+
+			{/*
+			 * Şeffaflık sayfaları her yerden erişilebilir olmalı: içeriğin nereden
+			 * geldiğini ve verinin nasıl işlendiğini söylemek ürünün tezi
+			 * (PROJECT_PLAN.md §4), Ayarlar'a gömülü kalmamalı.
+			 *
+			 * Alt boşluk burada: sabit mobil gezinme çubuğunun altında kalmamak için
+			 * gereken pay, sayfanın SON öğesi olan bu bloğa verilir.
+			 */}
+			<footer
+				data-print="hide"
+				className="mx-auto w-full max-w-5xl px-4 pb-24 text-sm md:pb-8"
+			>
+				<nav aria-label="Alt bilgi">
+					<ul className="flex flex-wrap items-center gap-x-5 border-t border-line pt-2">
+						<li>
+							<Link
+								href="/hakkinda"
+								className="inline-flex min-h-11 items-center font-medium text-fg-muted hover:text-fg"
+							>
+								Hakkında
+							</Link>
+						</li>
+						<li>
+							<Link
+								href="/gizlilik"
+								className="inline-flex min-h-11 items-center font-medium text-fg-muted hover:text-fg"
+							>
+								Kişisel Verilerin Korunması
+							</Link>
+						</li>
+					</ul>
+				</nav>
+			</footer>
 
 			{/* Mobilde alt gezinme: birincil aksiyonlar başparmak erişiminde */}
 			<nav
