@@ -120,7 +120,7 @@ describe("signOut", () => {
 
 		await signOut(stubProvider());
 
-		// Senkron henüz yok; veri hesapta damgalı bırakılsaydı görünmez olurdu.
+		// Veri hesapta damgalı bırakılsaydı çıkışta görünmez olurdu.
 		expect(currentUserId()).toBe("local");
 		expect((await progressRepository.getStatistics(1)).totalAttempts).toBe(1);
 	});
@@ -180,6 +180,93 @@ describe("reconcileSession", () => {
 
 		expect(asked).toBe(false);
 		expect(currentUserId()).toBe("local");
+	});
+});
+
+describe("senkron bağlantısı", () => {
+	it("giriş, KİMLİK damgalandıktan sonra eşitler", async () => {
+		let userIdAtSync: string | null = null;
+		const sync = async () => {
+			userIdAtSync = currentUserId();
+		};
+
+		const result = await signInWithCode(
+			"memur@ornek.gov.tr",
+			"123456",
+			stubProvider(),
+			sync,
+		);
+
+		// Sıra bağlayıcı: sync çalıştığında yerel veri artık HESAP kimliğiyle
+		// damgalı olmalı, yoksa gönderilecek satırlar eski kimlikte kalırdı.
+		expect(userIdAtSync).toBe("u-42");
+		expect(result.synced).toBe(true);
+	});
+
+	it("çevrimdışı eşitleme girişi bozmaz, dürüstçe bildirir", async () => {
+		const failing = async () => {
+			throw new Error("network");
+		};
+
+		const result = await signInWithCode(
+			"memur@ornek.gov.tr",
+			"123456",
+			stubProvider(),
+			failing,
+		);
+
+		// Kullanıcı girişli ve yerel verisi güvende; yalnızca eşitleme ertelendi.
+		expect(currentUserId()).toBe("u-42");
+		expect(result.synced).toBe(false);
+	});
+
+	it("çıkış, kimlik HÂLÂ hesapken eşitler (son gönderim)", async () => {
+		await signInWithCode("memur@ornek.gov.tr", "123456", stubProvider());
+
+		let userIdAtSync: string | null = null;
+		const sync = async () => {
+			userIdAtSync = currentUserId();
+		};
+
+		await signOut(stubProvider(), sync);
+
+		// Gönderim, veriyi anonim kimliğe geri taşımadan ÖNCE olmalı; sonra
+		// olsaydı hesabın satırları sunucuya hiç ulaşmazdı.
+		expect(userIdAtSync).toBe("u-42");
+		expect(currentUserId()).toBe("local");
+	});
+
+	it("çevrimdışı eşitleme çıkışı engellemez", async () => {
+		await signInWithCode("memur@ornek.gov.tr", "123456", stubProvider());
+
+		const failing = async () => {
+			throw new Error("network");
+		};
+
+		await signOut(stubProvider(), failing);
+		expect(currentUserId()).toBe("local");
+	});
+
+	it("oturum geçerliyken uzlaştırma başka cihazların verisini çeker", async () => {
+		await signInWithCode("memur@ornek.gov.tr", "123456", stubProvider());
+
+		let pulled = false;
+		const sync = async () => {
+			pulled = true;
+		};
+
+		await reconcileSession(stubProvider(), sync);
+		expect(pulled).toBe(true);
+	});
+
+	it("anonim kullanıcı için uzlaştırma eşitlemeye kalkışmaz", async () => {
+		let pulled = false;
+		const sync = async () => {
+			pulled = true;
+		};
+
+		await reconcileSession(stubProvider(), sync);
+		expect(pulled).toBe(false);
 	});
 });
 
