@@ -17,9 +17,7 @@
 -- HANGİ TABLOLAR BURADA YOK, NEDEN:
 --   • daily_stats     → istemcide `attempts` günlüğünden yeniden üretilir.
 --   • review_schedule → aynı şekilde `attempts` sırayla oynatılarak üretilir.
---   • bookmarks       → yer imi özelliğinin henüz arayüzü yok; silme senkronu
---                       (tombstone) arayüzle birlikte gelecek.
--- Bu üçü bilinçli olarak senkronlanmaz; ayrıntı PROJECT_PLAN.md §16, Dilim 3.
+-- Bu ikisi bilinçli olarak senkronlanmaz; ayrıntı PROJECT_PLAN.md §16, Dilim 3.
 --
 -- GÜVENLİK: Tek koruma RLS'tir. Anon anahtarı tarayıcıya iner (tasarım gereği);
 -- veriyi anahtarın gizliliği değil, aşağıdaki "yalnızca kendi satırın"
@@ -78,6 +76,18 @@ create table if not exists public.settings (
 	data       jsonb       not null
 );
 
+-- Yer imleri. Doğal anahtarı (kullanıcı, tür, referans) bileşiktir. Silme
+-- MEZAR TAŞIYLA taşınır: `data.deletedAt` doluysa yer imi kaldırılmıştır, ama
+-- satır yine durur ki silme başka cihazlara da inebilsin. Son yazan kazanır.
+create table if not exists public.bookmarks (
+	user_id    uuid        not null references auth.users (id) on delete cascade,
+	ref_type   text        not null,
+	ref_id     text        not null,
+	updated_at timestamptz not null,
+	data       jsonb       not null,
+	primary key (user_id, ref_type, ref_id)
+);
+
 -- ── İmleç indeksleri ──────────────────────────────────────────────────────
 -- "Şu damgadan sonra değişenler" sorgusu (gönderim/çekme imleci) bu
 -- indekslerle çalışır. attempts append-only olduğu için created_at yeter.
@@ -91,6 +101,8 @@ create index if not exists exam_sessions_user_updated
 	on public.exam_sessions (user_id, updated_at);
 create index if not exists reports_user_updated
 	on public.reports (user_id, updated_at);
+create index if not exists bookmarks_user_updated
+	on public.bookmarks (user_id, updated_at);
 
 -- ── Satır düzeyi güvenlik ──────────────────────────────────────────────────
 -- Her tabloda tek kural: kullanıcı YALNIZCA kendi satırlarını görür ve yazar.
@@ -102,7 +114,7 @@ declare
 begin
 	foreach t in array array[
 		'attempts', 'topic_progress', 'test_sessions',
-		'exam_sessions', 'reports', 'settings'
+		'exam_sessions', 'reports', 'settings', 'bookmarks'
 	]
 	loop
 		execute format('alter table public.%I enable row level security;', t);

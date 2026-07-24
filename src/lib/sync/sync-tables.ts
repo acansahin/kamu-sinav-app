@@ -18,6 +18,8 @@ export interface ServerRow {
 	user_id: string;
 	id?: string;
 	topic_id?: string;
+	ref_type?: string;
+	ref_id?: string;
 	created_at?: string;
 	updated_at?: string;
 	data: unknown;
@@ -36,10 +38,10 @@ export interface SyncTableSpec {
  * BİLİNÇLİ OLARAK EKSİK olanlar — bundle'da vardır ama sunucuya GİTMEZ:
  *   • dailyStats     → çekmede `attempts`'ten yeniden üretilir.
  *   • reviewSchedule → çekmede `attempts` oynatılarak yeniden üretilir.
- *   • bookmarks      → arayüzü yok; silme senkronu (tombstone) sonraya kaldı.
- * Bu liste yalnızca gerçekten senkronlanan altı tabloyu içerir; bir testin
- * doğruladığı gibi (bkz. tests/unit/sync-push.test.ts) yukarıdaki üçü asla
- * transport'a ulaşmaz.
+ * Bu liste yalnızca gerçekten senkronlanan yedi tabloyu içerir; bir testin
+ * doğruladığı gibi (bkz. tests/unit/sync-push.test.ts) yukarıdaki ikisi asla
+ * transport'a ulaşmaz. `bookmarks` artık senkronlanır: silme mezar taşıyla
+ * taşındığı için `data.deletedAt` dolu satırlar da gönderilir.
  */
 export const SYNC_TABLES: readonly SyncTableSpec[] = [
 	{
@@ -93,6 +95,20 @@ export const SYNC_TABLES: readonly SyncTableSpec[] = [
 			bundle.reports.map((row) => ({
 				id: row.id,
 				user_id: userId,
+				updated_at: row.updatedAt,
+				data: row,
+			})),
+	},
+	{
+		table: "bookmarks",
+		onConflict: "user_id,ref_type,ref_id",
+		rowsFrom: (bundle, userId) =>
+			// Mezar taşları (deletedAt dolu) dâhil hepsi gönderilir; silmenin
+			// başka cihazlara inmesi buna bağlı.
+			bundle.bookmarks.map((row) => ({
+				user_id: userId,
+				ref_type: row.refType,
+				ref_id: row.refId,
 				updated_at: row.updatedAt,
 				data: row,
 			})),

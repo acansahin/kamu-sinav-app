@@ -565,6 +565,14 @@ class DexieProgressRepository implements IProgressRepository {
 		return all.slice(-days);
 	}
 
+	/**
+	 * Yer imini açar/kapatır.
+	 *
+	 * Kaldırma satırı SİLMEZ, mezar taşına çevirir (`deletedAt`). Hard-delete
+	 * olsaydı union tabanlı senkron silmeyi taşıyamaz, başka bir cihaz yer imini
+	 * geri diriltirdi. Yeniden ekleme mevcut mezar taşını canlandırır; özgün
+	 * `createdAt` ve not korunur.
+	 */
 	async toggleBookmark(
 		refType: Bookmark["refType"],
 		refId: string,
@@ -572,17 +580,22 @@ class DexieProgressRepository implements IProgressRepository {
 		const db = getDb();
 		const key: [string, string, string] = [this.userId, refType, refId];
 		const existing = await db.bookmarks.get(key);
+		const now = new Date().toISOString();
 
-		if (existing) {
-			await db.bookmarks.delete(key);
+		if (existing && !existing.deletedAt) {
+			await db.bookmarks.put({ ...existing, deletedAt: now, updatedAt: now });
 			return false;
 		}
-		await db.bookmarks.add({
+
+		const revived: Bookmark = {
 			userId: this.userId,
 			refType,
 			refId,
-			createdAt: new Date().toISOString(),
-		});
+			createdAt: existing?.createdAt ?? now,
+			updatedAt: now,
+		};
+		if (existing?.note !== undefined) revived.note = existing.note;
+		await db.bookmarks.put(revived);
 		return true;
 	}
 
@@ -590,9 +603,9 @@ class DexieProgressRepository implements IProgressRepository {
 		refType: Bookmark["refType"],
 		refId: string,
 	): Promise<boolean> {
-		return (
-			(await getDb().bookmarks.get([this.userId, refType, refId])) !== undefined
-		);
+		const row = await getDb().bookmarks.get([this.userId, refType, refId]);
+		// Mezar taşı "kaldırılmış" demektir; kullanıcıya işaretli görünmez.
+		return row !== undefined && !row.deletedAt;
 	}
 
 	/**
@@ -740,6 +753,8 @@ class DexieProgressRepository implements IProgressRepository {
 			await db.examSessions.bulkPut(stamped.examSessions);
 			await db.reports.bulkPut(stamped.reports);
 			await db.topicProgress.bulkPut(stamped.topicProgress);
+			// Yer imleri (mezar taşları dâhil) yazılır: silme bu satırlarla taşınır.
+			await db.bookmarks.bulkPut(stamped.bookmarks);
 			if (stamped.settings) await db.settings.put(stamped.settings);
 
 			await this.rebuildDerived(userId);
@@ -851,6 +866,10 @@ function backfillTimestamps(bundle: ExportBundle): ExportBundle {
 			updatedAt: row.updatedAt ?? row.completedAt ?? row.startedAt,
 		})),
 		reports: (bundle.reports ?? []).map((row) => ({
+			...row,
+			updatedAt: row.updatedAt ?? row.createdAt,
+		})),
+		bookmarks: (bundle.bookmarks ?? []).map((row) => ({
 			...row,
 			updatedAt: row.updatedAt ?? row.createdAt,
 		})),

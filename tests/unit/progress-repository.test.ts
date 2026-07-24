@@ -244,3 +244,42 @@ describe("eski yedekler", () => {
 		);
 	});
 });
+
+describe("yer imi mezar taşı", () => {
+	it("kaldırma satırı silmez, mezar taşına çevirir", async () => {
+		await progressRepository.toggleBookmark("question", "q1");
+		expect(await progressRepository.isBookmarked("question", "q1")).toBe(true);
+
+		const removed = await progressRepository.toggleBookmark("question", "q1");
+		expect(removed).toBe(false);
+		// Kullanıcıya kaldırılmış görünür...
+		expect(await progressRepository.isBookmarked("question", "q1")).toBe(false);
+		// ...ama satır durur (mezar taşı), yoksa silme senkronla taşınamazdı.
+		const row = await getDb().bookmarks.get(["local", "question", "q1"]);
+		expect(row).toBeDefined();
+		expect(row?.deletedAt).toBeTruthy();
+	});
+
+	it("yeniden ekleme mezar taşını canlandırır, özgün createdAt'i korur", async () => {
+		await progressRepository.toggleBookmark("question", "q1");
+		const first = await getDb().bookmarks.get(["local", "question", "q1"]);
+
+		await progressRepository.toggleBookmark("question", "q1"); // kaldır
+		const readded = await progressRepository.toggleBookmark("question", "q1");
+
+		expect(readded).toBe(true);
+		expect(await progressRepository.isBookmarked("question", "q1")).toBe(true);
+		const row = await getDb().bookmarks.get(["local", "question", "q1"]);
+		expect(row?.deletedAt).toBeUndefined();
+		expect(row?.createdAt).toBe(first?.createdAt);
+	});
+
+	it("mezar taşları yedekte taşınır (senkron için)", async () => {
+		await progressRepository.toggleBookmark("question", "q1");
+		await progressRepository.toggleBookmark("question", "q1"); // mezar taşı
+
+		const bundle = await progressRepository.exportAll();
+		expect(bundle.bookmarks).toHaveLength(1);
+		expect(bundle.bookmarks[0]?.deletedAt).toBeTruthy();
+	});
+});

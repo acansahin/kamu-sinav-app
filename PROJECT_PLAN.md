@@ -1107,9 +1107,10 @@ ders bazlı analiz raporu alabiliyor ve ilerlemesini görebiliyor.
 Supabase Auth (e-posta/OTP), RLS politikaları, yerel veriyi hesaba yükseltme, çoklu cihaz
 senkronu, bulut yedek. Üç dilime bölündü; ilki bitti.
 
-> **Durum (24 Temmuz 2026): Dilim 1, 2 ve Dilim 3'ün senkronu tamamlandı.**
+> **Durum (24 Temmuz 2026): Faz 3 tamamlandı.**
 > Motor yaşam döngüsüne bağlı (giriş, çıkış, açılış uzlaştırması), elle "şimdi
-> eşitle" ve durum göstergesi eklendi. Kalan tek iş: `bookmarks` silme mezar taşı.
+> eşitle" ve durum göstergesi eklendi, `bookmarks` silme mezar taşı ile
+> senkronlanıyor. Dilim 3'ün üç dilimi de bitti.
 
 **Dilim 1 — kimlik altyapısı (bitti, ağ yok).** Kullanıcı için hiçbir şey değişmedi;
 uygulama hâlâ anonim ve çevrimdışı. Değişen, altyapının kimliğe hazır olması:
@@ -1230,12 +1231,13 @@ döngüsü bağlantısı hazır; uygulama artık gerçekten çoklu cihaz eşitli
   tek yerden okunur; hem yaşam döngüsü hem düğme aynı depoyu günceller. Renk tek
   başına anlam taşımaz — hata durumu ikon + metinle anlatılır. `lastSyncedAt`
   kalıcı (localStorage), `phase` geçici.
-
-*Devredilen borç:*
-
-1. **`bookmarks` silme mezar taşı** — `bookmarks` bilinçli olarak senkron
-   dışında (arayüzü yok). Sunucuya girdiğinde silmeyi taşımak için tombstone
-   gerekecek; şimdilik ertelendi.
+- ✅ **`bookmarks` silme mezar taşı** — yer imleri artık senkronlanıyor. Union
+  tabanlı senkron silmeyi temsil edemediği için `toggleBookmark` hard-delete
+  yerine MEZAR TAŞI (`deletedAt`) yazıyor: satır durur, okuma tarafı
+  (`isBookmarked`) gizler, silme "son yazan kazanır" ile başka cihazlara iner.
+  Yer imi güncellenebilir kayıt olduğu için `updatedAt` kazandı (şema v5 göçü
+  mevcut satırları geriye dönük doldurdu); sunucu şemasına `bookmarks` tablosu +
+  RLS eklendi. Mezar taşları gönderim/çekmede taşınır; uçtan uca test edildi.
 
 ### Faz 4 — Kurum ve alan bilgisi (~4 hafta)
 Kurum/kadro seçimi, alan bilgisi içerik ağacı, kuruma özgü sınav şablonları, kişiselleştirilmiş

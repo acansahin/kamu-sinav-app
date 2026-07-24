@@ -122,7 +122,16 @@ function fullBundle(): ExportBundle {
 			instantFeedback: true,
 			updatedAt: "2026-07-23T08:00:00.000Z",
 		},
-		// Aşağıdaki üçü dolu — ama yine de GÖNDERİLMEMELİ.
+		bookmarks: [
+			{
+				userId: UID,
+				refType: "topic",
+				refId: "657-dmk/yasaklar",
+				createdAt: "2026-07-23T08:00:00.000Z",
+				updatedAt: "2026-07-23T08:00:00.000Z",
+			},
+		],
+		// Aşağıdaki ikisi dolu — ama yine de GÖNDERİLMEMELİ (türetilir).
 		dailyStats: [
 			{
 				userId: UID,
@@ -131,14 +140,6 @@ function fullBundle(): ExportBundle {
 				correctAnswers: 1,
 				studySeconds: 12,
 				topicsCompleted: 0,
-			},
-		],
-		bookmarks: [
-			{
-				userId: UID,
-				refType: "topic",
-				refId: "657-dmk/yasaklar",
-				createdAt: "2026-07-23T08:00:00.000Z",
 			},
 		],
 		reviewSchedule: [
@@ -160,12 +161,13 @@ function fullBundle(): ExportBundle {
 }
 
 describe("pushBundle", () => {
-	it("yalnızca senkronlanan altı tabloya yazar", async () => {
+	it("yalnızca senkronlanan yedi tabloya yazar", async () => {
 		const { transport, calls } = recordingTransport();
 		await pushBundle(fullBundle(), UID, transport);
 
 		expect(calls.map((c) => c.table).sort()).toEqual([
 			"attempts",
+			"bookmarks",
 			"exam_sessions",
 			"reports",
 			"settings",
@@ -174,7 +176,7 @@ describe("pushBundle", () => {
 		]);
 	});
 
-	it("dailyStats, reviewSchedule ve bookmarks'ı ASLA göndermez", async () => {
+	it("dailyStats ve reviewSchedule'ı ASLA göndermez (türetilir)", async () => {
 		const { transport, calls } = recordingTransport();
 		await pushBundle(fullBundle(), UID, transport);
 
@@ -183,7 +185,6 @@ describe("pushBundle", () => {
 		expect(tables).not.toContain("dailyStats");
 		expect(tables).not.toContain("review_schedule");
 		expect(tables).not.toContain("reviewSchedule");
-		expect(tables).not.toContain("bookmarks");
 	});
 
 	it("her satırı oturum sahibinin user_id'siyle damgalar", async () => {
@@ -232,6 +233,47 @@ describe("pushBundle", () => {
 		expect(settings?.rows).toHaveLength(1);
 	});
 
+	it("bileşik anahtarlı bookmarks'ı ref sütunlarıyla ve mezar taşları dâhil gönderir", async () => {
+		const bundle: ExportBundle = {
+			...fullBundle(),
+			bookmarks: [
+				{
+					userId: UID,
+					refType: "topic",
+					refId: "657-dmk/yasaklar",
+					createdAt: "2026-07-23T08:00:00.000Z",
+					updatedAt: "2026-07-23T08:00:00.000Z",
+				},
+				{
+					userId: UID,
+					refType: "question",
+					refId: "q9",
+					createdAt: "2026-07-23T08:00:00.000Z",
+					updatedAt: "2026-07-23T10:00:00.000Z",
+					// Mezar taşı: kaldırılmış ama yine de GÖNDERİLMELİ.
+					deletedAt: "2026-07-23T10:00:00.000Z",
+				},
+			],
+		};
+
+		const { transport, calls } = recordingTransport();
+		await pushBundle(bundle, UID, transport);
+
+		const bm = calls.find((c) => c.table === "bookmarks");
+		expect(bm?.onConflict).toBe("user_id,ref_type,ref_id");
+		expect(bm?.rows).toHaveLength(2);
+		expect(bm?.rows[0]).toMatchObject({
+			user_id: UID,
+			ref_type: "topic",
+			ref_id: "657-dmk/yasaklar",
+			updated_at: "2026-07-23T08:00:00.000Z",
+		});
+		// Mezar taşı da transporta ulaşır; silmenin taşınması buna bağlı.
+		expect(
+			(bm?.rows[1]?.data as { deletedAt?: string })?.deletedAt,
+		).toBe("2026-07-23T10:00:00.000Z");
+	});
+
 	it("boş tablo için istek atmaz", async () => {
 		const empty: ExportBundle = {
 			...fullBundle(),
@@ -240,6 +282,7 @@ describe("pushBundle", () => {
 			testSessions: [],
 			examSessions: [],
 			reports: [],
+			bookmarks: [],
 			settings: null,
 		};
 

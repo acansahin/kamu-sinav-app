@@ -11,11 +11,12 @@ import type { ExportBundle, StudySettings } from "@/types/progress";
  *   • attempts        → append-only. İki tarafın BİRLEŞİMİ; `id` tekilleştirir.
  *                       Kayıt hiç güncellenmediği için çakışma da yoktur.
  *   • updatedAt'liler  → aynı anahtarda `updatedAt` büyük olan kazanır.
+ *   • bookmarks       → aynı kural; silme MEZAR TAŞIYLA (deletedAt) taşınır,
+ *                       yani daha yeni bir "kaldırıldı" satırı canlı satırı yener.
  *   • settings        → tek satır; yine `updatedAt` büyük olan.
  *
- * Türetilen ve yerelde kalan tablolar (dailyStats, reviewSchedule, bookmarks)
- * bu birleşimin DIŞINDADIR: ilk ikisi çağıran tarafında `attempts`'ten yeniden
- * üretilir, bookmarks ise sunucuya hiç gitmediği için olduğu gibi korunur.
+ * Türetilen ve yerelde kalan tablolar (dailyStats, reviewSchedule) bu birleşimin
+ * DIŞINDADIR: her ikisi de çağıran tarafında `attempts`'ten yeniden üretilir.
  */
 export function mergeBundles(
 	local: ExportBundle,
@@ -41,11 +42,15 @@ export function mergeBundles(
 			(row) => row.id,
 		),
 		reports: lastWriteWins(local.reports, server.reports, (row) => row.id),
+		bookmarks: lastWriteWins(
+			local.bookmarks,
+			server.bookmarks,
+			(row) => `${row.refType}:${row.refId}`,
+		),
 		settings: newerSettings(local.settings, server.settings),
-		// Birleşimin dışında — çağıran türetir ya da olduğu gibi korur.
+		// Birleşimin dışında — çağıran `attempts`'ten yeniden türetir.
 		dailyStats: local.dailyStats,
 		reviewSchedule: local.reviewSchedule,
-		bookmarks: local.bookmarks,
 	};
 }
 

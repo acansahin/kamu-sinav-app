@@ -182,6 +182,17 @@ export interface Bookmark {
 	refId: string;
 	note?: string;
 	createdAt: string;
+	/**
+	 * Son değişiklik damgası. Yer imi artık senkronlanabilen, güncellenebilen bir
+	 * kayıttır (§7.2 kuralı); çakışma "son yazan kazanır" ile buradan çözülür.
+	 */
+	updatedAt: string;
+	/**
+	 * Silme MEZAR TAŞI. Doluysa yer imi kaldırılmış demektir, ama satır silinmez —
+	 * yoksa union tabanlı senkron silmeyi temsil edemez ve başka bir cihaz yer
+	 * imini geri diriltir. Okuma tarafı (`isBookmarked`) mezar taşlarını gizler.
+	 */
+	deletedAt?: string;
 }
 
 export type ReportReason =

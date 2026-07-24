@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { mergeBundles } from "@/lib/sync/merge";
 import type {
+	Bookmark,
 	ExportBundle,
 	QuestionAttempt,
 	TopicProgress,
@@ -42,6 +43,21 @@ function progress(topicId: string, updatedAt: string, mastery: number): TopicPro
 		questionsCorrect: 1,
 		masteryScore: mastery,
 		updatedAt,
+	};
+}
+
+function bookmark(
+	refId: string,
+	updatedAt: string,
+	deletedAt?: string,
+): Bookmark {
+	return {
+		userId: "u1",
+		refType: "question",
+		refId,
+		createdAt: "2026-07-23T08:00:00Z",
+		updatedAt,
+		...(deletedAt ? { deletedAt } : {}),
 	};
 }
 
@@ -162,8 +178,50 @@ describe("mergeBundles — settings", () => {
 	});
 });
 
+describe("mergeBundles — bookmarks (mezar taşlı son yazan kazanır)", () => {
+	it("iki tarafın yer imlerini birleştirir, aynı referansta yeniyi seçer", () => {
+		const local = bundle({
+			bookmarks: [bookmark("q1", "2026-07-23T09:00:00Z"), bookmark("q2", "2026-07-23T09:00:00Z")],
+		});
+		const server = bundle({
+			bookmarks: [bookmark("q2", "2026-07-23T09:30:00Z"), bookmark("q3", "2026-07-23T09:00:00Z")],
+		});
+
+		const merged = mergeBundles(local, server);
+		expect(merged.bookmarks.map((b) => b.refId).sort()).toEqual(["q1", "q2", "q3"]);
+	});
+
+	it("daha yeni bir mezar taşı canlı yer imini yener (silme taşınır)", () => {
+		// Bir cihaz yer imini kaldırdı (mezar taşı, daha yeni damga); diğerinde
+		// hâlâ canlı. Birleşim silmeyi korumalı, yoksa yer imi geri dirilirdi.
+		const deleter = bundle({
+			bookmarks: [bookmark("q1", "2026-07-23T10:00:00Z", "2026-07-23T10:00:00Z")],
+		});
+		const stillLive = bundle({
+			bookmarks: [bookmark("q1", "2026-07-23T09:00:00Z")],
+		});
+
+		const merged = mergeBundles(stillLive, deleter);
+		expect(merged.bookmarks).toHaveLength(1);
+		expect(merged.bookmarks[0]?.deletedAt).toBe("2026-07-23T10:00:00Z");
+	});
+
+	it("daha yeni bir yeniden ekleme mezar taşını yener (geri diriltme)", () => {
+		const readd = bundle({
+			bookmarks: [bookmark("q1", "2026-07-23T11:00:00Z")],
+		});
+		const tombstone = bundle({
+			bookmarks: [bookmark("q1", "2026-07-23T10:00:00Z", "2026-07-23T10:00:00Z")],
+		});
+
+		const merged = mergeBundles(readd, tombstone);
+		expect(merged.bookmarks).toHaveLength(1);
+		expect(merged.bookmarks[0]?.deletedAt).toBeUndefined();
+	});
+});
+
 describe("mergeBundles — birleşim dışı tablolar", () => {
-	it("dailyStats, reviewSchedule ve bookmarks yereli olduğu gibi korur", () => {
+	it("dailyStats ve reviewSchedule'ı yereli olduğu gibi korur", () => {
 		// Bunlar sunucudan gelmez; sunucu tarafı boş olsa bile yerel kalmalı.
 		const local = bundle({
 			dailyStats: [
@@ -175,9 +233,6 @@ describe("mergeBundles — birleşim dışı tablolar", () => {
 					studySeconds: 60,
 					topicsCompleted: 0,
 				},
-			],
-			bookmarks: [
-				{ userId: "u1", refType: "topic", refId: "t1", createdAt: "2026-07-23T08:00:00Z" },
 			],
 			reviewSchedule: [
 				{
@@ -198,7 +253,6 @@ describe("mergeBundles — birleşim dışı tablolar", () => {
 
 		const merged = mergeBundles(local, bundle());
 		expect(merged.dailyStats).toHaveLength(1);
-		expect(merged.bookmarks).toHaveLength(1);
 		expect(merged.reviewSchedule).toHaveLength(1);
 	});
 });

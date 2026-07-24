@@ -188,6 +188,56 @@ describe("runSync", () => {
 		expect(settings.dailyGoalQuestions).toBe(50);
 	});
 
+	it("sunucudan gelen daha yeni mezar taşı yerel yer imini kaldırır", async () => {
+		// Yerelde canlı bir yer imi; sunucuda aynı yer imi daha yeni bir tarihle
+		// KALDIRILMIŞ. Döngü silmeyi yerele taşımalı.
+		await progressRepository.toggleBookmark("question", "q1");
+		expect(await progressRepository.isBookmarked("question", "q1")).toBe(true);
+
+		const { transport, pushed } = fakeServer({
+			bookmarks: [
+				{
+					user_id: USER,
+					ref_type: "question",
+					ref_id: "q1",
+					updated_at: "2030-01-01T00:00:00.000Z",
+					data: {
+						userId: USER,
+						refType: "question",
+						refId: "q1",
+						createdAt: "2026-07-23T08:00:00.000Z",
+						updatedAt: "2030-01-01T00:00:00.000Z",
+						deletedAt: "2030-01-01T00:00:00.000Z",
+					},
+				},
+			],
+		});
+
+		await runSync(USER, transport);
+
+		// Kullanıcıya kaldırılmış görünür ve silme sunucuya da geri gönderilir.
+		expect(await progressRepository.isBookmarked("question", "q1")).toBe(false);
+		expect(pushed.bookmarks).toHaveLength(1);
+		expect((pushed.bookmarks?.[0]?.data as { deletedAt?: string })?.deletedAt).toBe(
+			"2030-01-01T00:00:00.000Z",
+		);
+	});
+
+	it("yerel silmeyi mezar taşı olarak yukarı gönderir", async () => {
+		await progressRepository.toggleBookmark("question", "q1"); // ekle
+		await progressRepository.toggleBookmark("question", "q1"); // kaldır (mezar taşı)
+
+		const { transport, pushed } = fakeServer({});
+		await runSync(USER, transport);
+
+		expect(pushed.bookmarks).toHaveLength(1);
+		expect(
+			(pushed.bookmarks?.[0]?.data as { deletedAt?: string })?.deletedAt,
+		).toBeTruthy();
+		// Yerelde de kaldırılmış kalır.
+		expect(await progressRepository.isBookmarked("question", "q1")).toBe(false);
+	});
+
 	it("boş sunucuda yerel veriyi olduğu gibi yukarı gönderir", async () => {
 		await progressRepository.recordAttempt({
 			questionId: "q1",

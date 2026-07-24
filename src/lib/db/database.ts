@@ -105,6 +105,25 @@ export class AppDatabase extends Dexie {
 					row.updatedAt ??= row.createdAt;
 				});
 		});
+
+		/*
+		 * v5: yer imleri artık senkronlanıyor. Silmenin başka cihazlara da
+		 * inebilmesi için hard-delete yerine mezar taşı (`data.deletedAt`)
+		 * kullanılıyor; bunun için yer imi güncellenebilir bir kayıt oldu ve
+		 * `updatedAt` kazandı. Mevcut yer imlerinin tamamı canlıdır (mezar taşı
+		 * yok); damga oluşturuldukları tarihe eşitlenir.
+		 *
+		 * İndeksler DEĞİŞMEZ: `updatedAt`/`deletedAt` bilinçli olarak indekssiz —
+		 * v4 notundaki gerekçeyle aynı, imleç sorgusu yazıldığında indeks de gelir.
+		 */
+		this.version(5).upgrade(async (tx) => {
+			await tx
+				.table<Partial<Bookmark>>("bookmarks")
+				.toCollection()
+				.modify((row) => {
+					row.updatedAt ??= row.createdAt;
+				});
+		});
 	}
 }
 
