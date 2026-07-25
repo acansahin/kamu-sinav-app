@@ -25,7 +25,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-11", "emir"],
+		"tags": [
+			"madde-11",
+			"emir"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -55,7 +58,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-11", "suc-emri"],
+		"tags": [
+			"madde-11",
+			"suc-emri"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -65,7 +71,12 @@
 		"topicId": "657-dmk/odevler-ve-sorumluluklar",
 		"difficulty": "kolay",
 		"stem": "Asli Devlet memurluğuna atanan memur en geç ne kadar süre içinde yemin eder?",
-		"options": ["15 gün", "1 ay", "3 ay", "6 ay"],
+		"options": [
+			"15 gün",
+			"1 ay",
+			"3 ay",
+			"6 ay"
+		],
 		"correctIndex": 1,
 		"explanation": "Madde 6'ya göre memurlar, asli Devlet memurluğuna atandıktan sonra en geç bir ay içinde kurumlarınca düzenlenecek merasimle yetkili amirlerin huzurunda yemin eder ve Yemin Belgesini imzalar. Belge özlük dosyasına konur.",
 		"legalRef": {
@@ -80,7 +91,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["yemin", "sure"],
+		"tags": [
+			"yemin",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -110,7 +124,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-11", "yazili-emir"],
+		"tags": [
+			"madde-11",
+			"yazili-emir"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -140,7 +157,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-15", "basin"],
+		"tags": [
+			"madde-15",
+			"basin"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -170,7 +190,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-13", "sorumluluk"],
+		"tags": [
+			"madde-13",
+			"sorumluluk"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -200,7 +223,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-11", "sorumluluk"],
+		"tags": [
+			"madde-11",
+			"sorumluluk"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -230,7 +256,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-7", "tuzak"],
+		"tags": [
+			"madde-7",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -260,7 +289,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-12", "zarar"],
+		"tags": [
+			"madde-12",
+			"zarar"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -290,7 +322,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-11", "senaryo", "tuzak"],
+		"tags": [
+			"madde-11",
+			"senaryo",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -320,7 +356,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-15", "senaryo"],
+		"tags": [
+			"madde-15",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -350,8 +389,44 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["tuzak", "madde-11"],
+		"tags": [
+			"tuzak",
+			"madde-11"
+		],
 		"version": 2,
 		"updatedAt": "2026-07-22"
+	},
+	{
+		"id": "sytay-gys23-q067",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "“Devlet memurları, resmi sıfatlarının gerektirdiği itibar ve güvene layık olduklarını hizmet içindeki ve dışındaki davranışlarıyla göstermek zorundadırlar.” 657 sayılı Devlet Memurları Kanununda yer alan yukarıdaki ifade, Devlet memurlarının ödev ve sorumluluklarından hangisinin tanımı kapsamındadır?",
+		"options": [
+			"Sadakat",
+			"Tarafsızlık ve Devlete bağlılık",
+			"Liyakat",
+			"Davranış ve işbirliği"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 8. maddesi 'Davranış ve işbirliği' başlığını taşır ve memurların resmi sıfatlarının gerektirdiği itibar ve güvene layık olduklarını hizmet içi ve dışı davranışlarıyla göstermek zorunda olduklarını düzenler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "8"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"davranis-ve-isbirligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
 	}
 ]

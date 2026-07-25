@@ -5,7 +5,12 @@
 		"topicId": "657-dmk/atama-ve-yer-degistirme",
 		"difficulty": "kolay",
 		"stem": "657 sayılı Kanun'a göre Devlet memuru olabilmek için genel olarak kaç yaşın tamamlanmış olması gerekir?",
-		"options": ["15", "16", "18", "21"],
+		"options": [
+			"15",
+			"16",
+			"18",
+			"21"
+		],
 		"correctIndex": 2,
 		"explanation": "Madde 40'a göre genel olarak 18 yaşını tamamlayanlar Devlet memuru olabilirler. Bir meslek veya sanat okulunu bitirenler ise en az 15 yaşını doldurmuş olmak ve kazai rüşt kararı almak şartıyla atanabilirler.",
 		"legalRef": {
@@ -20,7 +25,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["yas", "madde-40"],
+		"tags": [
+			"yas",
+			"madde-40"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -50,7 +58,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["adaylik", "sure"],
+		"tags": [
+			"adaylik",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -80,7 +91,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["ogrenim", "madde-41"],
+		"tags": [
+			"ogrenim",
+			"madde-41"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -90,7 +104,12 @@
 		"topicId": "657-dmk/atama-ve-yer-degistirme",
 		"difficulty": "orta",
 		"stem": "Başka yerdeki bir göreve atanan memur, atama emrinin tebliğinden itibaren kaç gün içinde işe başlamak zorundadır?",
-		"options": ["5 gün", "10 gün", "15 gün", "30 gün"],
+		"options": [
+			"5 gün",
+			"10 gün",
+			"15 gün",
+			"30 gün"
+		],
 		"correctIndex": 2,
 		"explanation": "Madde 62'ye göre aynı yerdeki görevlere atananlar atama emirlerinin kendilerine tebliğ gününü izleyen iş günü, başka yerdeki görevlere atananlar ise tebliğ tarihinden itibaren 15 gün içerisinde işe başlamak zorundadır.",
 		"legalRef": {
@@ -105,7 +124,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["ise-baslama", "sure"],
+		"tags": [
+			"ise-baslama",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -135,7 +157,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-48", "sartlar"],
+		"tags": [
+			"madde-48",
+			"sartlar"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -165,7 +190,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-45", "guvence"],
+		"tags": [
+			"madde-45",
+			"guvence"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -195,7 +223,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["yas", "senaryo", "tuzak"],
+		"tags": [
+			"yas",
+			"senaryo",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -225,7 +257,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["adaylik", "nakil"],
+		"tags": [
+			"adaylik",
+			"nakil"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -255,7 +290,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["ise-baslama", "tuzak"],
+		"tags": [
+			"ise-baslama",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -285,7 +323,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-48", "senaryo"],
+		"tags": [
+			"madde-48",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -316,7 +357,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-48", "senaryo"],
+		"tags": [
+			"madde-48",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -346,8 +390,44 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["tuzak", "adaylik"],
+		"tags": [
+			"tuzak",
+			"adaylik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "sytay-gys23-q075",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanununa göre bir göreve ilk defa veya yeniden atananlardan, belge ile ispatı mümkün zorlayıcı sebepler olmaksızın süresinde işe başlamayarak atamaları iptal edilenler kaç yıl süre ile Devlet memuru olarak istihdam edilemezler?",
+		"options": [
+			"1 yıl",
+			"2 yıl",
+			"3 yıl",
+			"5 yıl"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 63. maddesine göre süresinde göreve başlamayanların atamaları iptal edilir ve bu kişiler bir yıl süreyle Devlet memuru olarak istihdam edilemezler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "63"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"ise-baslama"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
 	}
 ]

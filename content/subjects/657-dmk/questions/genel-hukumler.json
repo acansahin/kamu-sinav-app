@@ -5,7 +5,12 @@
 		"topicId": "657-dmk/genel-hukumler",
 		"difficulty": "kolay",
 		"stem": "657 sayılı Kanun'un 4. maddesinde hâlen yürürlükte olan istihdam şekli kaç tanedir?",
-		"options": ["2", "3", "4", "5"],
+		"options": [
+			"2",
+			"3",
+			"4",
+			"5"
+		],
 		"correctIndex": 1,
 		"explanation": "Madde 4 başlangıçta dört fıkra içeriyordu; geçici personeli düzenleyen (C) fıkrası KHK-696 ile yürürlükten kaldırılmış ve bu düzenleme 7079 sayılı Kanun'la aynen kabul edilmiştir. Hâlen yürürlükte olan üç statü vardır: 4/A memur, 4/B sözleşmeli personel, 4/D işçi. Dikkat: madde 5'in lafzı güncellenmediği için hâlâ 'dört istihdam şekli' ifadesini taşır; o sayı yürürlükteki statü sayısını değil, güncellenmemiş bir atfı gösterir.",
 		"legalRef": {
@@ -20,7 +25,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["istihdam", "madde-4", "guncellik"],
+		"tags": [
+			"istihdam",
+			"madde-4",
+			"guncellik"
+		],
 		"version": 2,
 		"updatedAt": "2026-07-22"
 	},
@@ -51,7 +60,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["memur-tanimi"],
+		"tags": [
+			"memur-tanimi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -81,7 +92,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-5"],
+		"tags": [
+			"madde-5"
+		],
 		"version": 2,
 		"updatedAt": "2026-07-22"
 	},
@@ -112,7 +125,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["isci", "kapsam"],
+		"tags": [
+			"isci",
+			"kapsam"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -143,7 +159,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["guncellik", "istihdam"],
+		"tags": [
+			"guncellik",
+			"istihdam"
+		],
 		"version": 2,
 		"updatedAt": "2026-07-22"
 	},
@@ -173,7 +192,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["amac", "madde-2"],
+		"tags": [
+			"amac",
+			"madde-2"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -204,7 +226,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["sozlesmeli", "senaryo"],
+		"tags": [
+			"sozlesmeli",
+			"senaryo"
+		],
 		"version": 2,
 		"updatedAt": "2026-07-22"
 	},
@@ -234,7 +259,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kapsam", "istisna"],
+		"tags": [
+			"kapsam",
+			"istisna"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -265,7 +293,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["memur-tanimi", "yorum"],
+		"tags": [
+			"memur-tanimi",
+			"yorum"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -295,7 +326,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-5", "senaryo"],
+		"tags": [
+			"madde-5",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -325,7 +359,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kapsam", "senaryo"],
+		"tags": [
+			"kapsam",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -355,8 +392,176 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["tuzak", "istihdam"],
+		"tags": [
+			"tuzak",
+			"istihdam"
+		],
 		"version": 2,
 		"updatedAt": "2026-07-22"
+	},
+	{
+		"id": "sytay-gys23-q069",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanununda aşağıdaki hizmet sınıflarından hangisi yer almamaktadır?",
+		"options": [
+			"Din Hizmetleri Sınıfı",
+			"Adalet Hizmetleri Sınıfı",
+			"Jandarma Hizmetleri Sınıfı",
+			"Sahil Güvenlik Hizmetleri Sınıfı"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 36. maddesinde sayılan hizmet sınıfları arasında Din, Jandarma ve Sahil Güvenlik hizmetleri sınıfları bulunur. 'Adalet Hizmetleri Sınıfı' adıyla bir hizmet sınıfı bu maddede yer almaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"hizmet-siniflari"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q070",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu uyarınca 4 yıl süreli yüksek öğrenimi bitirenlerin yükselebilecekleri en yüksek derece aşağıdakilerden hangisidir?",
+		"options": [
+			"1. derece",
+			"2. derece",
+			"3. derece",
+			"4. derece"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 36. maddesindeki ortak hükümlere göre 4 yıl süreli yüksek öğrenimi bitirenler (giriş derecesi 9/1 olanlar) 1. dereceye kadar yükselebilirler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"derece-yukselmesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q072",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanununa göre Devlet memurluğuna alınacaklarda aranan genel şartlar ile ilgili olarak aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Türk vatandaşı olmak",
+			"Öğrenim durumu itibariyle en az lise mezunu olmak",
+			"Askerlik durumu itibariyle; terhis, tecilli veya muaf olmak",
+			"Kamu haklarından mahrum bulunmamak"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 48. maddesinde sayılan genel şartlar arasında 'en az lise mezunu olmak' yer almaz; öğrenim şartı göreve/kadroya göre belirlenen özel bir şarttır. Vatandaşlık, askerlik ve kamu haklarından mahrum olmama ise genel şartlardandır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "48"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"genel-sartlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q073",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanununa göre 6 yıl süreli yüksek öğrenimi bitirenlerin giriş derece ve kademeleri aşağıdakilerden hangisidir?",
+		"options": [
+			"9. derece 1. kademe",
+			"9. derece 2. kademe",
+			"9. derece 3. kademe",
+			"8. derece 1. kademe"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 36. maddesindeki giriş derece-kademe cetveline göre 6 yıl süreli yüksek öğrenimi bitirenler 9. derecenin 3. kademesinden göreve başlarlar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"giris-derecesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q074",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanununa göre aşağıdaki kadrolardan hangisi istisnai memuriyet kapsamında değerlendirilemez?",
+		"options": [
+			"Valilik",
+			"Büyükelçilik",
+			"Bakan Yardımcılığı",
+			"Genel Müdürlük"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 59. maddesinde istisnai memurluklar tek tek sayılır; valilik, büyükelçilik ve bakan yardımcılığı bu kapsamdadır. 'Genel Müdürlük' ise genel olarak istisnai memuriyet kapsamında değildir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "59"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"istisnai-memuriyet"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
 	}
 ]

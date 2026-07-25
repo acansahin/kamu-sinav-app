@@ -25,7 +25,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-3", "ilkeler"],
+		"tags": [
+			"madde-3",
+			"ilkeler"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -35,7 +38,12 @@
 		"topicId": "657-dmk/temel-ilkeler",
 		"difficulty": "kolay",
 		"stem": "657 sayılı Kanun'a göre kaç hizmet sınıfı vardır?",
-		"options": ["8", "10", "12", "14"],
+		"options": [
+			"8",
+			"10",
+			"12",
+			"14"
+		],
 		"correctIndex": 2,
 		"explanation": "Madde 36'da on iki hizmet sınıfı sayılır: Genel İdare, Teknik, Sağlık ve Yardımcı Sağlık, Eğitim ve Öğretim, Avukatlık, Din, Emniyet, Yardımcı Hizmetler, Mülki İdare Amirliği, Milli İstihbarat, Jandarma ve Sahil Güvenlik Hizmetleri sınıfları.",
 		"legalRef": {
@@ -50,7 +58,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-36", "sayi"],
+		"tags": [
+			"madde-36",
+			"sayi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -60,7 +71,12 @@
 		"topicId": "657-dmk/temel-ilkeler",
 		"difficulty": "kolay",
 		"stem": "Memurlara, sınıfları içinde en yüksek derecelere kadar ilerleme imkânı sağlanmasını ifade eden ilke hangisidir?",
-		"options": ["Sınıflandırma", "Kariyer", "Liyakat", "Güvence"],
+		"options": [
+			"Sınıflandırma",
+			"Kariyer",
+			"Liyakat",
+			"Güvence"
+		],
 		"correctIndex": 1,
 		"explanation": "Kariyer ilkesi, Devlet memurlarına yaptıkları hizmetler için gerekli bilgilere ve yetişme şartlarına uygun şekilde, sınıfları içinde en yüksek derecelere kadar ilerleme imkânı sağlamayı ifade eder. İlerlemenin sınıf içinde olması tanımın ayırt edici unsurudur.",
 		"legalRef": {
@@ -75,7 +91,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kariyer"],
+		"tags": [
+			"kariyer"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -105,7 +123,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["liyakat", "kapsam"],
+		"tags": [
+			"liyakat",
+			"kapsam"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -135,7 +156,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-36", "gih"],
+		"tags": [
+			"madde-36",
+			"gih"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -145,7 +169,12 @@
 		"topicId": "657-dmk/temel-ilkeler",
 		"difficulty": "orta",
 		"stem": "Devlet kamu hizmetleri görevlerini ve bu görevlerde çalışan memurları, görevlerin gerektirdiği niteliklere ve mesleklere göre ayırmayı ifade eden ilke hangisidir?",
-		"options": ["Kariyer", "Liyakat", "Sınıflandırma", "Kadrolaşma"],
+		"options": [
+			"Kariyer",
+			"Liyakat",
+			"Sınıflandırma",
+			"Kadrolaşma"
+		],
 		"correctIndex": 2,
 		"explanation": "Sınıflandırma ilkesi, Devlet kamu hizmetleri görevlerini ve bu görevlerde çalışan Devlet memurlarını görevlerin gerektirdiği niteliklere ve mesleklere göre sınıflara ayırmayı ifade eder. Bu ilkenin somut uygulaması madde 36'daki on iki hizmet sınıfıdır.",
 		"legalRef": {
@@ -160,7 +189,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["siniflandirma"],
+		"tags": [
+			"siniflandirma"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -190,7 +221,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["liyakat", "yorum"],
+		"tags": [
+			"liyakat",
+			"yorum"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -220,7 +254,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-36", "tuzak"],
+		"tags": [
+			"madde-36",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -250,7 +287,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kariyer", "tuzak"],
+		"tags": [
+			"kariyer",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -260,7 +300,12 @@
 		"topicId": "657-dmk/temel-ilkeler",
 		"difficulty": "uzman",
 		"stem": "Bir kurumda üst göreve atama yapılırken, adayların bilgi ve yeterliliği yerine kişisel yakınlık esas alınmıştır. Bu uygulama öncelikle hangi temel ilkeye aykırıdır?",
-		"options": ["Sınıflandırma", "Kariyer", "Liyakat", "Kanunilik"],
+		"options": [
+			"Sınıflandırma",
+			"Kariyer",
+			"Liyakat",
+			"Kanunilik"
+		],
 		"correctIndex": 2,
 		"explanation": "Liyakat ilkesi, sınıflar içinde ilerleme ve yükselmenin liyakat sistemine dayandırılmasını ve bu sistemin eşit imkânlarla uygulanmasını gerektirir. Yükselmede objektif ölçütler yerine kişisel yakınlığın esas alınması doğrudan liyakat ilkesinin ihlalidir. Kariyer ilkesi ilerleme imkânının varlığıyla, sınıflandırma ise görevlerin niteliğe göre ayrılmasıyla ilgilidir.",
 		"legalRef": {
@@ -275,7 +320,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["liyakat", "senaryo"],
+		"tags": [
+			"liyakat",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -305,7 +353,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-36", "senaryo"],
+		"tags": [
+			"madde-36",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -335,8 +386,44 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["tuzak", "ilkeler"],
+		"tags": [
+			"tuzak",
+			"ilkeler"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "sytay-gys23-q066",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "kolay",
+		"stem": "Aşağıdakilerden hangisi 657 sayılı Devlet Memurları Kanununun temel ilkelerinden değildir?",
+		"options": [
+			"Ehliyet",
+			"Liyakat",
+			"Kariyer",
+			"Sınıflandırma"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 3. maddesi üç temel ilke belirler: sınıflandırma, kariyer ve liyakat. 'Ehliyet' bu temel ilkelerden biri değildir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "3"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"temel-ilkeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
 	}
 ]

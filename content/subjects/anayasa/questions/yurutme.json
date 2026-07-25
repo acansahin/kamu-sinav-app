@@ -25,7 +25,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-101", "sartlar"],
+		"tags": [
+			"madde-101",
+			"sartlar"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -55,7 +58,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-101", "sure"],
+		"tags": [
+			"madde-101",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -85,7 +91,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-106", "bakan"],
+		"tags": [
+			"madde-106",
+			"bakan"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -115,7 +124,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kararname", "hiyerarsi"],
+		"tags": [
+			"kararname",
+			"hiyerarsi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -125,7 +137,12 @@
 		"topicId": "anayasa/yurutme",
 		"difficulty": "orta",
 		"stem": "Cumhurbaşkanı adayı gösterebilmek için en az kaç seçmenin imzası gereklidir?",
-		"options": ["20.000", "50.000", "100.000", "500.000"],
+		"options": [
+			"20.000",
+			"50.000",
+			"100.000",
+			"500.000"
+		],
 		"correctIndex": 2,
 		"explanation": "Madde 101'e göre siyasi parti grupları, son seçimlerde toplam geçerli oyların tek başına veya birlikte en az yüzde beşini almış olan siyasi partiler ile en az yüz bin seçmen Cumhurbaşkanı adayı gösterebilir.",
 		"legalRef": {
@@ -140,7 +157,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-101", "adaylik"],
+		"tags": [
+			"madde-101",
+			"adaylik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -170,7 +190,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["ohal", "sure"],
+		"tags": [
+			"ohal",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -200,7 +223,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kararname", "tuzak"],
+		"tags": [
+			"kararname",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -230,7 +256,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-106", "guncellik"],
+		"tags": [
+			"madde-106",
+			"guncellik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -260,7 +289,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-105", "cogunluk"],
+		"tags": [
+			"madde-105",
+			"cogunluk"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -290,7 +322,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kararname", "senaryo"],
+		"tags": [
+			"kararname",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -320,7 +355,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-102", "secim"],
+		"tags": [
+			"madde-102",
+			"secim"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -350,8 +388,44 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["tuzak", "guncellik"],
+		"tags": [
+			"tuzak",
+			"guncellik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "sytay-gys23-q010",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasında kanunsuz emir hakkında aşağıda verilenlerden hangisi doğru değildir?",
+		"options": [
+			"Kamu hizmetlerinde çalışan kimse, üstünden aldığı emri yönetmelik, Cumhurbaşkanlığı kararnamesi, kanun veya Anayasa hükümlerine aykırı görürse yerine getirmez ve bu aykırılığı emri verene bildirir",
+			"Üstü emrinde ısrar eder ve bu emrini yazı ile yenilerse emir yerine getirilir; bu hâlde emri yerine getiren sorumlu olmaz",
+			"Konusu suç teşkil eden emir hiçbir suretle yerine getirilmez",
+			"Konusu suç teşkil etse dahi üstün emrini yerine getiren kimse sorumluluktan kurtulur"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 137. maddesine göre konusu suç teşkil eden emir hiçbir suretle yerine getirilmez; yerine getiren kimse sorumluluktan kurtulamaz. Dolayısıyla 'suç teşkil etse dahi sorumluluktan kurtulur' ifadesi yanlıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "137"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"kanunsuz-emir"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
 	}
 ]

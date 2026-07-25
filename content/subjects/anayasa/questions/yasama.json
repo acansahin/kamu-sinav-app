@@ -5,7 +5,12 @@
 		"topicId": "anayasa/yasama",
 		"difficulty": "kolay",
 		"stem": "Türkiye Büyük Millet Meclisi kaç milletvekilinden oluşur?",
-		"options": ["450", "550", "600", "650"],
+		"options": [
+			"450",
+			"550",
+			"600",
+			"650"
+		],
 		"correctIndex": 2,
 		"explanation": "Anayasa'nın 75. maddesine göre Türkiye Büyük Millet Meclisi, genel oyla seçilen altı yüz milletvekilinden oluşur. Bu sayı 2017 Anayasa değişikliğiyle 550'den 600'e çıkarılmıştır.",
 		"legalRef": {
@@ -20,7 +25,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-75", "sayi"],
+		"tags": [
+			"madde-75",
+			"sayi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -30,7 +38,12 @@
 		"topicId": "anayasa/yasama",
 		"difficulty": "kolay",
 		"stem": "Milletvekili seçilebilmek için gereken en az yaş kaçtır?",
-		"options": ["18", "25", "30", "40"],
+		"options": [
+			"18",
+			"25",
+			"30",
+			"40"
+		],
 		"correctIndex": 0,
 		"explanation": "Anayasa'nın 76. maddesine göre on sekiz yaşını dolduran her Türk milletvekili seçilebilir. Bu yaş 2017 değişikliğiyle 25'ten 18'e indirilmiştir. 40 yaş ise Cumhurbaşkanı seçilme şartıdır.",
 		"legalRef": {
@@ -45,7 +58,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-76", "yas"],
+		"tags": [
+			"madde-76",
+			"yas"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -75,7 +91,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-96", "yeter-sayi"],
+		"tags": [
+			"madde-96",
+			"yeter-sayi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -85,7 +104,12 @@
 		"topicId": "anayasa/yasama",
 		"difficulty": "orta",
 		"stem": "600 üyeli TBMM'de karar yeter sayısı hiçbir şekilde kaçın altına düşemez?",
-		"options": ["151", "200", "301", "360"],
+		"options": [
+			"151",
+			"200",
+			"301",
+			"360"
+		],
 		"correctIndex": 0,
 		"explanation": "Madde 96'ya göre TBMM toplantıya katılanların salt çoğunluğu ile karar verir; ancak karar yeter sayısı hiçbir şekilde üye tamsayısının dörtte birinin bir fazlasından az olamaz. 600 üyede bu sayı 600 / 4 + 1 = 151'dir.",
 		"legalRef": {
@@ -100,7 +124,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-96", "hesap"],
+		"tags": [
+			"madde-96",
+			"hesap"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -130,7 +157,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-88", "guncellik"],
+		"tags": [
+			"madde-88",
+			"guncellik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -160,7 +190,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-87", "af"],
+		"tags": [
+			"madde-87",
+			"af"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -190,7 +223,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-98", "guncellik", "tuzak"],
+		"tags": [
+			"madde-98",
+			"guncellik",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -220,7 +257,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-89", "veto"],
+		"tags": [
+			"madde-89",
+			"veto"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -250,7 +290,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-89", "cogunluk"],
+		"tags": [
+			"madde-89",
+			"cogunluk"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -260,7 +303,12 @@
 		"topicId": "anayasa/yasama",
 		"difficulty": "uzman",
 		"stem": "TBMM Genel Kurulu 210 milletvekilinin katılımıyla toplanmıştır. Bu oturumda bir kanun teklifinin kabul edilmesi için en az kaç kabul oyu gerekir?",
-		"options": ["106", "151", "200", "301"],
+		"options": [
+			"106",
+			"151",
+			"200",
+			"301"
+		],
 		"correctIndex": 1,
 		"explanation": "Madde 96 iki kuralı birlikte uygular: karar, toplantıya katılanların salt çoğunluğuyla alınır (210'un salt çoğunluğu 106), ancak karar yeter sayısı hiçbir şekilde üye tamsayısının dörtte birinin bir fazlasından, yani 151'den az olamaz. Bu nedenle 106 yeterli değildir; en az 151 kabul oyu gerekir.",
 		"legalRef": {
@@ -275,7 +323,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-96", "hesap", "senaryo"],
+		"tags": [
+			"madde-96",
+			"hesap",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -305,7 +357,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-77", "secim"],
+		"tags": [
+			"madde-77",
+			"secim"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -335,8 +390,77 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["tuzak", "sure"],
+		"tags": [
+			"tuzak",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "sytay-gys23-q007",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıdakilerden hangisi TBMM'nin görev ve yetkilerinden biridir?",
+		"options": [
+			"Para basılmasına karar vermek",
+			"Milletlerarası andlaşmaları onaylamak",
+			"Cumhurbaşkanını seçmek",
+			"Kanunları yayımlamak"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 87. maddesine göre para basılmasına karar vermek TBMM'nin görev ve yetkilerindendir. Milletlerarası andlaşmaları onaylama ve kanunları yayımlama Cumhurbaşkanına aittir; Cumhurbaşkanı ise 2017 sonrası halk tarafından seçilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "87"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"tbmm-gorevleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q008",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre Türkiye Büyük Millet Meclisinin Başkanlık Divanında aşağıdakilerden hangisi yer almaz?",
+		"options": [
+			"Meclis Başkanı",
+			"Başkanvekilleri",
+			"Siyasi parti grupları",
+			"Kâtip üyeler ve İdare Amirleri"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 94. maddesine göre TBMM Başkanlık Divanı; Meclis Başkanı, başkanvekilleri, kâtip üyeler ve idare amirlerinden oluşur. Siyasi parti grupları Divanın üyesi değildir; Divan yalnızca bu grupların üye sayısı oranında oluşturulur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "94"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"baskanlik-divani"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
 	}
 ]

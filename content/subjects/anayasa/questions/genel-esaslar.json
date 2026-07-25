@@ -25,7 +25,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-3", "tanim"],
+		"tags": [
+			"madde-3",
+			"tanim"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -55,7 +58,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-6", "egemenlik"],
+		"tags": [
+			"madde-6",
+			"egemenlik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -85,7 +91,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-7", "yasama"],
+		"tags": [
+			"madde-7",
+			"yasama"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -115,7 +124,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-2", "nitelikler"],
+		"tags": [
+			"madde-2",
+			"nitelikler"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -145,7 +157,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-9", "yargi"],
+		"tags": [
+			"madde-9",
+			"yargi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -175,7 +190,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-11", "ustunluk"],
+		"tags": [
+			"madde-11",
+			"ustunluk"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -185,7 +203,12 @@
 		"topicId": "anayasa/genel-esaslar",
 		"difficulty": "zor",
 		"stem": "Anayasa'nın kaç maddesi değiştirilemez ve değiştirilmesi teklif edilemez?",
-		"options": ["2", "3", "4", "5"],
+		"options": [
+			"2",
+			"3",
+			"4",
+			"5"
+		],
 		"correctIndex": 1,
 		"explanation": "Anayasa'nın 4. maddesi, 1. maddedeki devlet şeklinin Cumhuriyet olduğu hükmü ile 2. maddedeki Cumhuriyetin nitelikleri ve 3. madde hükümlerinin değiştirilemeyeceğini ve değiştirilmesinin teklif edilemeyeceğini düzenler. Yani değiştirilemeyen madde sayısı üçtür; 4. madde bu yasağı koyan maddedir, yasağın kapsamında değildir.",
 		"legalRef": {
@@ -200,7 +223,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-4", "tuzak"],
+		"tags": [
+			"madde-4",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -230,7 +256,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-6", "yorum"],
+		"tags": [
+			"madde-6",
+			"yorum"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -260,7 +289,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-10", "esitlik"],
+		"tags": [
+			"madde-10",
+			"esitlik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -290,7 +322,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-4", "senaryo"],
+		"tags": [
+			"madde-4",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -320,7 +355,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kuvvetler-ayriligi", "guncellik"],
+		"tags": [
+			"kuvvetler-ayriligi",
+			"guncellik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -350,8 +388,77 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["tuzak", "karsilastirma"],
+		"tags": [
+			"tuzak",
+			"karsilastirma"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "sytay-gys23-q001",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "kolay",
+		"stem": "Aşağıdakilerden hangisi 2709 sayılı Türkiye Cumhuriyeti Anayasasının 2'nci maddesinde açıklanan Cumhuriyetin niteliklerinden biri değildir?",
+		"options": [
+			"İnsan haklarına saygılı olması",
+			"Demokratik olması",
+			"Sosyal bir hukuk devleti olması",
+			"Parlamenter bir sisteme sahip olması"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 2. maddesi Cumhuriyetin niteliklerini sayar: toplumun huzuru, milli dayanışma ve adalet anlayışı içinde, insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, demokratik, laik ve sosyal bir hukuk devleti. 'Parlamenter sisteme sahip olma' bu maddede yer almaz; 2017 değişikliğiyle Cumhurbaşkanlığı hükümet sistemine geçilmiştir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "2"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"cumhuriyetin-nitelikleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q003",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasının genel esaslar kısmında düzenlenen hükümlerle ilgili aşağıda verilenlerden hangisi doğru değildir?",
+		"options": [
+			"Egemenlik, kayıtsız şartsız Milletindir",
+			"Yürütme yetkisi ve görevi, Cumhurbaşkanı tarafından, Cumhurbaşkanlığı kararnamelerine uygun olarak kullanılır ve yerine getirilir",
+			"Türkiye Devleti bir Cumhuriyettir",
+			"Yasama yetkisi Türk Milleti adına Türkiye Büyük Millet Meclisinindir"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 8. maddesine göre yürütme yetkisi ve görevi, Cumhurbaşkanı tarafından 'Anayasaya ve kanunlara uygun olarak' kullanılır ve yerine getirilir — 'Cumhurbaşkanlığı kararnamelerine uygun olarak' değil. Diğer seçenekler sırasıyla m.6, m.1 ve m.7 hükümlerinin doğru ifadeleridir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "8"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"yurutme-yetkisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
 	}
 ]

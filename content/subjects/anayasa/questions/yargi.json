@@ -5,7 +5,12 @@
 		"topicId": "anayasa/yargi",
 		"difficulty": "kolay",
 		"stem": "Anayasa Mahkemesi kaç üyeden oluşur?",
-		"options": ["11", "13", "15", "17"],
+		"options": [
+			"11",
+			"13",
+			"15",
+			"17"
+		],
 		"correctIndex": 2,
 		"explanation": "Anayasa'nın 146. maddesine göre Anayasa Mahkemesi on beş üyeden kurulur. Üyelerin on ikisini Cumhurbaşkanı, üçünü Türkiye Büyük Millet Meclisi seçer.",
 		"legalRef": {
@@ -20,7 +25,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["aym", "sayi"],
+		"tags": [
+			"aym",
+			"sayi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -50,7 +58,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["hsk", "baskan"],
+		"tags": [
+			"hsk",
+			"baskan"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -80,7 +91,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-138", "bagimsizlik"],
+		"tags": [
+			"madde-138",
+			"bagimsizlik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -110,7 +124,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["aym", "sure"],
+		"tags": [
+			"aym",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -140,7 +157,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["bireysel-basvuru"],
+		"tags": [
+			"bireysel-basvuru"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -170,7 +189,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["uyusmazlik-mahkemesi"],
+		"tags": [
+			"uyusmazlik-mahkemesi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -180,7 +201,12 @@
 		"topicId": "anayasa/yargi",
 		"difficulty": "zor",
 		"stem": "Aşağıdakilerden hangisi yüksek mahkemelerden biri değildir?",
-		"options": ["Yargıtay", "Danıştay", "Sayıştay", "Uyuşmazlık Mahkemesi"],
+		"options": [
+			"Yargıtay",
+			"Danıştay",
+			"Sayıştay",
+			"Uyuşmazlık Mahkemesi"
+		],
 		"correctIndex": 2,
 		"explanation": "Sayıştay bir yüksek mahkeme değil, kamu idarelerinin gelir, gider ve mallarını Türkiye Büyük Millet Meclisi adına denetlemekle görevli bir kurumdur. Yüksek mahkemeler Anayasa Mahkemesi, Yargıtay, Danıştay ve Uyuşmazlık Mahkemesidir; Askerî Yargıtay ile Askerî Yüksek İdare Mahkemesi 2017 değişikliğiyle kaldırılmıştır.",
 		"legalRef": {
@@ -195,7 +221,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["yuksek-mahkemeler", "tuzak"],
+		"tags": [
+			"yuksek-mahkemeler",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -225,7 +254,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["hsk", "sure", "tuzak"],
+		"tags": [
+			"hsk",
+			"sure",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -255,7 +288,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-138", "karar-uyma"],
+		"tags": [
+			"madde-138",
+			"karar-uyma"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -285,7 +321,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["aym", "secim"],
+		"tags": [
+			"aym",
+			"secim"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -315,7 +354,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["bireysel-basvuru", "senaryo"],
+		"tags": [
+			"bireysel-basvuru",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -345,8 +387,45 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["tuzak", "guncellik"],
+		"tags": [
+			"tuzak",
+			"guncellik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "sytay-gys23-q009",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "Vergi, benzeri mali yükümlülükler ve ödevler hakkında Danıştay ile Sayıştay kararları arasındaki uyuşmazlıklarda (…) esas alınır. 2709 sayılı Türkiye Cumhuriyeti Anayasasına göre yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+		"options": [
+			"Yargıtay kararları",
+			"Anayasa Mahkemesi kararları",
+			"Sayıştay kararları",
+			"Danıştay kararları"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 160. maddesinin son fıkrasına göre vergi, benzeri mali yükümlülükler ve ödevler hakkında Danıştay ile Sayıştay kararları arasındaki uyuşmazlıklarda Danıştay kararları esas alınır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "160"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"sayistay",
+			"danistay"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
 	}
 ]

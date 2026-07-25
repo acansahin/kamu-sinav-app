@@ -5,7 +5,12 @@
 		"topicId": "etik/etik-davranis-ilkeleri",
 		"difficulty": "kolay",
 		"stem": "Kamu Görevlileri Etik Kurulu kaç üyeden oluşur?",
-		"options": ["7", "9", "11", "15"],
+		"options": [
+			"7",
+			"9",
+			"11",
+			"15"
+		],
 		"correctIndex": 2,
 		"explanation": "5176 sayılı Kanun'a göre Kamu Görevlileri Etik Kurulu, biri Başkan olmak üzere toplam 11 üyeden oluşur. Üyeler Cumhurbaşkanınca atanır ve görev süreleri dört yıldır.",
 		"legalRef": {
@@ -20,7 +25,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kurul", "sayi"],
+		"tags": [
+			"kurul",
+			"sayi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -30,7 +38,12 @@
 		"topicId": "etik/etik-davranis-ilkeleri",
 		"difficulty": "kolay",
 		"stem": "Kamu Görevlileri Etik Kurulu üyelerinin görev süresi kaç yıldır?",
-		"options": ["2 yıl", "3 yıl", "4 yıl", "5 yıl"],
+		"options": [
+			"2 yıl",
+			"3 yıl",
+			"4 yıl",
+			"5 yıl"
+		],
 		"correctIndex": 2,
 		"explanation": "Kurul üyelerinin görev süresi dört yıldır. Süresi dolan üyeler Cumhurbaşkanınca yeniden seçilebilir.",
 		"legalRef": {
@@ -45,7 +58,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kurul", "sure"],
+		"tags": [
+			"kurul",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -73,7 +89,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["etik-sozlesme"],
+		"tags": [
+			"etik-sozlesme"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -103,7 +121,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kapsam"],
+		"tags": [
+			"kapsam"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -133,7 +153,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["basvuru", "esik"],
+		"tags": [
+			"basvuru",
+			"esik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -163,7 +186,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kurul", "guncellik"],
+		"tags": [
+			"kurul",
+			"guncellik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -191,7 +217,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["ilkeler", "tuzak"],
+		"tags": [
+			"ilkeler",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -219,7 +248,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["etik-komisyonu", "tuzak"],
+		"tags": [
+			"etik-komisyonu",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -249,7 +281,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["amac"],
+		"tags": [
+			"amac"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -279,7 +313,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["basvuru", "senaryo"],
+		"tags": [
+			"basvuru",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -309,7 +346,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["etik-komisyonu", "senaryo", "yetki"],
+		"tags": [
+			"etik-komisyonu",
+			"senaryo",
+			"yetki"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -339,8 +380,43 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kapsam", "tuzak"],
+		"tags": [
+			"kapsam",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "sytay-gys23-q029",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "kolay",
+		"stem": "I. Görevin yerine getirilmesinde kamu hizmeti bilinci\nII. Halka hizmet bilinci\nIII. Hizmet standartlarına uyma\nIV. Amaç ve misyona bağlılık\nYukarıda yer verilen ifadelerden hangi/hangileri Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelikte düzenlenen etik davranış ilkelerindendir?",
+		"options": [
+			"I-II-IV",
+			"II-III",
+			"I-III-IV",
+			"Hepsi"
+		],
+		"correctIndex": 3,
+		"explanation": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik'te sayılan etik davranış ilkeleri arasında kamu hizmeti bilinci, halka hizmet bilinci, hizmet standartlarına uyma ile amaç ve misyona bağlılık birlikte yer alır. Bu nedenle dördü de doğrudur.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "5"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"etik-ilkeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
 	}
 ]
