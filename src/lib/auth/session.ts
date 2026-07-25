@@ -1,4 +1,5 @@
 import { progressRepository } from "@/lib/repositories/progress.repository";
+import { fullSync } from "@/lib/sync/sync";
 import { LOCAL_USER_ID } from "@/types/progress";
 import { type IAuthProvider, authProvider } from "./auth.provider";
 import { type Identity, LOCAL_IDENTITY, currentIdentity, setIdentity } from "./identity";
@@ -21,11 +22,38 @@ import { type Identity, LOCAL_IDENTITY, currentIdentity, setIdentity } from "./i
  * kişinin anonim ilerlemesi, giriş yapan kişinin hesabına karışır.
  */
 
+/**
+ * Senkronu enjekte edilebilir kılan tip.
+ *
+ * Üretimde `fullSync` geçilir; test bir casus geçerek senkronun DOĞRU sırada
+ * (kimlik damgalandıktan sonra, çıkışta kimlik hâlâ hesapken) çağrıldığını ağa
+ * çıkmadan doğrular.
+ */
+type SyncFn = () => Promise<void>;
+
+/**
+ * Senkron her zaman EN İYİ ÇABADIR: başarısızlığı oturum işlemini bozmaz.
+ *
+ * Çevrimdışıyken giriş ve çıkış yine de tamamlanmalı — yerel veri güvende ve
+ * bir sonraki açılış/uzlaştırma eşitlemeyi tekrar dener. Bu yüzden hata yutulur;
+ * yalnızca "denendi ve tamamlandı mı" bilgisi döner, arayüz bunu dürüstçe söyler.
+ */
+async function syncQuietly(sync: SyncFn): Promise<boolean> {
+	try {
+		await sync();
+		return true;
+	} catch {
+		return false;
+	}
+}
+
 /** `features/` katmanının göreceği oturum sonucu. */
 export interface SignInResult {
 	identity: Identity;
 	/** Hesaba taşınan yerel satır var mıydı? Arayüz bunu kullanıcıya bildirir. */
 	claimedLocalData: boolean;
+	/** Senkron bu turda tamamlandı mı? Çevrimdışıyken false; veri yine güvende. */
+	synced: boolean;
 }
 
 /**
@@ -38,6 +66,7 @@ export async function signInWithCode(
 	email: string,
 	code: string,
 	provider: IAuthProvider = authProvider,
+	sync: SyncFn = fullSync,
 ): Promise<SignInResult> {
 	const identity = await provider.verifyCode(email, code);
 
@@ -51,21 +80,36 @@ export async function signInWithCode(
 	}
 	setIdentity(identity);
 
-	return { identity, claimedLocalData };
+	// Kimlik damgalandıktan SONRA eşitle: bu cihazdan hesaba taşınan ilerleme
+	// sunucuya çıkar, başka cihazlardaki ilerleme birleşerek geri iner. Sıra
+	// önemli — sync aktif kimliği (artık hesap) okur ve o kimlikle damgalı
+	// yereli gönderir.
+	const synced = await syncQuietly(sync);
+
+	return { identity, claimedLocalData, synced };
 }
 
 /**
  * Oturumu kapatır ve veriyi cihazın anonim kimliğine geri taşır.
  *
- * Veri neden geri taşınıyor: senkron henüz yok (Dilim 3), yani sunucuda bir
- * kopya bulunmuyor. Satırlar hesap kimliğiyle damgalı bırakılsaydı çıkış
- * yapan kullanıcı bütün ilerlemesinin silindiğini görürdü — oysa veri diskte
- * duruyor olurdu, sadece görünmez.
+ * İki iş sırayla yapılır:
+ *   1. Son bir eşitleme — hesabın bu cihazdaki en yeni hâli sunucuya çıksın ki
+ *      başka bir cihaz açıldığında değişiklikler orada olsun. En iyi çaba:
+ *      çevrimdışıysa çıkış yine de tamamlanır.
+ *   2. Veri anonim kimliğe geri damgalanır. Satırlar hesap kimliğiyle damgalı
+ *      bırakılsaydı çıkış yapan kullanıcı ilerlemesinin silindiğini görürdü —
+ *      oysa veri diskte durur, yalnızca görünmez olurdu.
+ *
+ * Sıra bağlayıcı: eşitleme kimlik HÂLÂ hesapken yapılır; `reassignOwner`'dan
+ * sonraya kalsaydı gönderilecek satır aktif kimlikle (artık `local`) damgalı
+ * olur ve hesabın satırları sunucuya hiç ulaşmazdı.
  */
 export async function signOut(
 	provider: IAuthProvider = authProvider,
+	sync: SyncFn = fullSync,
 ): Promise<void> {
 	if (currentIdentity().userId !== LOCAL_USER_ID) {
+		await syncQuietly(sync);
 		await progressRepository.reassignOwner(LOCAL_USER_ID);
 	}
 	setIdentity(LOCAL_IDENTITY);
@@ -86,6 +130,7 @@ export async function signOut(
  */
 export async function reconcileSession(
 	provider: IAuthProvider = authProvider,
+	sync: SyncFn = fullSync,
 ): Promise<void> {
 	const local = currentIdentity();
 	if (local.kind !== "account") return;
@@ -98,7 +143,7 @@ export async function reconcileSession(
 	}
 
 	if (server === null) {
-		await signOut(provider);
+		await signOut(provider, sync);
 		return;
 	}
 
@@ -107,6 +152,10 @@ export async function reconcileSession(
 		await progressRepository.reassignOwner(server.userId);
 		setIdentity(server);
 	}
+
+	// Oturum sunucuda geçerli — başka cihazlarda biriken ilerlemeyi indir. En iyi
+	// çaba: sunucu kimliği doğrulandı ama ağ sonradan kesilse bile açılış bozulmaz.
+	await syncQuietly(sync);
 }
 
 /** Taşınacak yerel veri var mı? Yalnızca kullanıcıya bilgi vermek için. */

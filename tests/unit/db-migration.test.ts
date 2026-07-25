@@ -4,12 +4,14 @@ import Dexie from "dexie";
 import { beforeAll, describe, expect, it } from "vitest";
 
 /**
- * Şema v3 → v4 göçü.
+ * Şema göçleri (v3 → v4 → v5).
  *
- * Diğer testler veritabanını sıfırdan v4 olarak açar, dolayısıyla `upgrade`
- * gövdesine hiç uğramaz. Oysa o kod mevcut HER kullanıcının cihazında bir kez
- * çalışacak ve tek şansı var: yanlış doldurursa oturumların senkron damgası
- * kalıcı olarak bozuk kalır. Bu dosya eski şemayı elle kurup göçü tetikler.
+ * Diğer testler veritabanını sıfırdan güncel sürümle açar, dolayısıyla
+ * `upgrade` gövdelerine hiç uğramaz. Oysa o kod mevcut HER kullanıcının
+ * cihazında bir kez çalışacak ve tek şansı var: yanlış doldurursa senkron
+ * damgası kalıcı olarak bozuk kalır. Bu dosya eski şemayı elle kurup göçü
+ * tetikler. v4 oturumların/bildirimlerin `updatedAt`'ini, v5 yer imlerininkini
+ * doldurur.
  */
 
 const DB_NAME = "kamu-sinav-akademi";
@@ -92,18 +94,25 @@ beforeAll(async () => {
 		status: "yerel",
 		createdAt: "2026-05-04T09:00:00.000Z",
 	});
+	// v5 öncesi yer imi: `updatedAt` yok, damga `createdAt`'ten gelmeli.
+	await legacy.table("bookmarks").add({
+		userId: "local",
+		refType: "topic",
+		refId: "657-dmk/yasaklar",
+		createdAt: "2026-05-05T09:00:00.000Z",
+	});
 
 	legacy.close();
 });
 
-describe("v3 → v4 göçü", () => {
+describe("v3 → v4 → v5 göçü", () => {
 	it("eski satırları silmeden updatedAt damgasını doldurur", async () => {
 		// Göç, uygulama veritabanı ilk açıldığında çalışır.
 		const { getDb } = await import("@/lib/db/database");
 		const db = getDb();
 		await db.open();
 
-		expect(db.verno).toBe(4);
+		expect(db.verno).toBe(5);
 
 		// Tamamlanmış oturumda damga bitiş anıdır.
 		expect((await db.testSessions.get("t1"))?.updatedAt).toBe(
@@ -119,6 +128,14 @@ describe("v3 → v4 göçü", () => {
 		expect((await db.reports.get("r1"))?.updatedAt).toBe(
 			"2026-05-04T09:00:00.000Z",
 		);
+		// v5: yer iminin damgası oluşturulma tarihinden gelir, canlı kalır.
+		const bookmark = await db.bookmarks.get([
+			"local",
+			"topic",
+			"657-dmk/yasaklar",
+		]);
+		expect(bookmark?.updatedAt).toBe("2026-05-05T09:00:00.000Z");
+		expect(bookmark?.deletedAt).toBeUndefined();
 
 		// Göç veri kaybettirmemeli.
 		expect(await db.testSessions.count()).toBe(2);

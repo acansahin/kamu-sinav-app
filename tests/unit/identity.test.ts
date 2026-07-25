@@ -103,6 +103,7 @@ function sampleBundle(userId = "local"): ExportBundle {
 				refType: "topic",
 				refId: "657-dmk/disiplin-cezalari",
 				createdAt: "2026-07-22T08:00:00.000Z",
+				updatedAt: "2026-07-22T08:00:00.000Z",
 			},
 		],
 		reviewSchedule: [
