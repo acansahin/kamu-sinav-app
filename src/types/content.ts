@@ -51,12 +51,20 @@ export const questionSchema = z.object({
 	scope: scopeSchema.default("ortak"),
 	difficulty: difficultySchema,
 	stem: z.string().min(10),
-	options: z.tuple([z.string(), z.string(), z.string(), z.string()]),
+	/**
+	 * 4 VEYA 5 şık. Resmî çıkmış sınavlar karışık gelir: Sayıştay 4 şıklı,
+	 * MEB/ÖSYM 5 şıklıdır. İkisini de tahrif etmeden içeri alabilmek için şık
+	 * sayısı sabit değildir.
+	 */
+	options: z.array(z.string().min(1)).min(4).max(5),
+	// Union literal (0–4), z.number() değil: çıkarımı `0|1|2|3|4` olarak tutar ve
+	// `AnswerIndex` ile birebir uyumludur (aksi hâlde `number` çıkar, atanamaz).
 	correctIndex: z.union([
 		z.literal(0),
 		z.literal(1),
 		z.literal(2),
 		z.literal(3),
+		z.literal(4),
 	]),
 	/** Neden doğru olduğunu anlatan açıklama — ZORUNLU */
 	explanation: z.string().min(20),
@@ -66,6 +74,11 @@ export const questionSchema = z.object({
 	tags: z.array(z.string()).default([]),
 	version: z.number().int().min(1).default(1),
 	updatedAt: isoDate,
+}).refine((q) => q.correctIndex < q.options.length, {
+	// Doğru cevap indeksi şık sayısını aşamaz: 4 şıklı bir soruda correctIndex 4
+	// (5. şık) sessiz bir hatadır; şema düzeyinde yakalanır.
+	message: "correctIndex şık sayısından küçük olmalıdır",
+	path: ["correctIndex"],
 });
 
 export const topicSchema = z.object({

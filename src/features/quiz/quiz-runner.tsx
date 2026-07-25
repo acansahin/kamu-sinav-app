@@ -177,14 +177,18 @@ export function QuizRunner({
 		else void finish();
 	}, [current, questions.length, finish]);
 
-	// Klavye kısayolları: 1-4 şık seçer, ok tuşları soru değiştirir.
+	// Klavye kısayolları: 1-5 şık seçer, ok tuşları soru değiştirir.
 	useEffect(() => {
 		if (phase !== "running") return;
 
 		function onKeyDown(event: KeyboardEvent) {
 			if (event.target instanceof HTMLInputElement) return;
-			if (["1", "2", "3", "4"].includes(event.key)) {
-				select((Number(event.key) - 1) as AnswerIndex);
+			if (["1", "2", "3", "4", "5"].includes(event.key)) {
+				// Sınır kontrolü: 4 şıklı soruda "5" basınca olmayan şık seçilmemeli.
+				const optionIndex = Number(event.key) - 1;
+				if (optionIndex < (questions[current]?.options.length ?? 0)) {
+					select(optionIndex as AnswerIndex);
+				}
 			} else if (event.key === "ArrowRight") {
 				goNext();
 			} else if (event.key === "ArrowLeft" && current > 0) {
@@ -194,7 +198,7 @@ export function QuizRunner({
 
 		window.addEventListener("keydown", onKeyDown);
 		return () => window.removeEventListener("keydown", onKeyDown);
-	}, [phase, select, goNext, current]);
+	}, [phase, select, goNext, current, questions]);
 
 	// --- Kurulum -------------------------------------------------------------
 	if (phase === "setup") {
@@ -366,7 +370,7 @@ export function QuizRunner({
 				</div>
 
 				<p className="mt-3 text-center text-sm text-fg-subtle">
-					Klavye: <kbd>1</kbd>–<kbd>4</kbd> şık seçer, <kbd>←</kbd> <kbd>→</kbd>{" "}
+					Klavye: <kbd>1</kbd>–<kbd>5</kbd> şık seçer, <kbd>←</kbd> <kbd>→</kbd>{" "}
 					soru değiştirir.
 				</p>
 			</div>

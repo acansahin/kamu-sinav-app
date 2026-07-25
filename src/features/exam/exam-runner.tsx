@@ -268,14 +268,18 @@ export function ExamRunner({ templates, pool, subjectNames, topics }: Props) {
 		);
 	}, [question]);
 
-	// Klavye: 1-4 şık, ok tuşları soru, F işaretle.
+	// Klavye: 1-5 şık, ok tuşları soru, F işaretle.
 	useEffect(() => {
 		if (phase !== "running") return;
 
 		function onKeyDown(event: KeyboardEvent) {
 			if (event.target instanceof HTMLInputElement) return;
-			if (["1", "2", "3", "4"].includes(event.key)) {
-				select((Number(event.key) - 1) as AnswerIndex);
+			if (["1", "2", "3", "4", "5"].includes(event.key)) {
+				// Sınır kontrolü: 4 şıklı soruda "5" olmayan şıkkı seçmemeli.
+				const optionIndex = Number(event.key) - 1;
+				if (optionIndex < (question?.options.length ?? 0)) {
+					select(optionIndex as AnswerIndex);
+				}
 			} else if (event.key === "ArrowRight") {
 				setCurrent((c) => Math.min(questions.length - 1, c + 1));
 			} else if (event.key === "ArrowLeft") {
@@ -287,7 +291,7 @@ export function ExamRunner({ templates, pool, subjectNames, topics }: Props) {
 
 		window.addEventListener("keydown", onKeyDown);
 		return () => window.removeEventListener("keydown", onKeyDown);
-	}, [phase, select, toggleFlag, questions.length]);
+	}, [phase, select, toggleFlag, questions.length, question]);
 
 	// --- Kurulum -------------------------------------------------------------
 	if (phase === "setup") {

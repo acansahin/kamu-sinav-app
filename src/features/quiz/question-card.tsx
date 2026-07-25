@@ -6,7 +6,7 @@ import type { Question } from "@/types/content";
 import type { AnswerIndex } from "@/types/progress";
 import { cn } from "@/lib/utils/cn";
 
-const OPTION_LABELS = ["A", "B", "C", "D"] as const;
+const OPTION_LABELS = ["A", "B", "C", "D", "E"] as const;
 
 /**
  * Tek soru kartı.

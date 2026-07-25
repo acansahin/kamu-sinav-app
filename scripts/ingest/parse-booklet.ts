@@ -17,7 +17,8 @@ import type { ParsedQuestion } from "./types";
  */
 
 const QUESTION_START = /^(\d{1,3})\)\s*(.*)$/;
-const OPTION_START = /^([A-D])\)\s*(.*)$/;
+// Şıklar A–E: 4 şıklı (Sayıştay) ve 5 şıklı (MEB/ÖSYM) kitapçıkları birlikte kapsar.
+const OPTION_START = /^([A-E])\)\s*(.*)$/;
 const PAGE_MARKER = /^=+\s*SAYFA/i;
 
 interface Draft {
@@ -53,8 +54,9 @@ export function parseBooklet(text: string, boilerplateMinCount = 5): ParsedQuest
 		questions.push({
 			number: draft.number,
 			stem,
+			// 4 veya 5 şık geçerli; ikisi de içerik şemasına uyar.
+			parseOk: options.length >= 4 && options.length <= 5 && stem.length > 0,
 			options,
-			parseOk: options.length === 4 && stem.length > 0,
 		});
 		draft = null;
 	};

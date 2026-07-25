@@ -144,7 +144,7 @@ export function ReviewCenter({
 
 	/*
 	 * Klavye kısayolları test ve deneme motorlarıyla aynı olmak zorunda:
-	 * kullanıcı 1-4 tuşunu testte öğrenip tekrarda ölü bulmamalı.
+	 * kullanıcı 1-5 tuşunu testte öğrenip tekrarda ölü bulmamalı.
 	 * Şık seçiliyken ok tuşu sonraki soruya geçer.
 	 */
 	useEffect(() => {
@@ -152,8 +152,12 @@ export function ReviewCenter({
 
 		function onKeyDown(event: KeyboardEvent) {
 			if (event.target instanceof HTMLInputElement) return;
-			if (["1", "2", "3", "4"].includes(event.key)) {
-				void answer((Number(event.key) - 1) as AnswerIndex);
+			if (["1", "2", "3", "4", "5"].includes(event.key)) {
+				// Sınır kontrolü: 4 şıklı soruda "5" olmayan şıkkı seçmemeli.
+				const optionIndex = Number(event.key) - 1;
+				if (optionIndex < (question?.options.length ?? 0)) {
+					void answer(optionIndex as AnswerIndex);
+				}
 			} else if (event.key === "ArrowRight" && revealed) {
 				advance();
 			}
@@ -161,7 +165,7 @@ export function ReviewCenter({
 
 		window.addEventListener("keydown", onKeyDown);
 		return () => window.removeEventListener("keydown", onKeyDown);
-	}, [phase, answer, advance, revealed]);
+	}, [phase, answer, advance, revealed, question]);
 
 	// --- Oturum ---------------------------------------------------------------
 	if (phase === "session" && question) {
