@@ -23,7 +23,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["mevzuat"],
+		"tags": [
+			"mevzuat"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -51,7 +53,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["basvuru", "usul"],
+		"tags": [
+			"basvuru",
+			"usul"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -81,7 +86,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["gorevler", "tuzak"],
+		"tags": [
+			"gorevler",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -110,7 +118,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["mevzuat", "mal-bildirimi"],
+		"tags": [
+			"mevzuat",
+			"mal-bildirimi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -138,7 +149,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["etik-komisyonu"],
+		"tags": [
+			"etik-komisyonu"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -168,7 +181,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["inceleme", "kapsam"],
+		"tags": [
+			"inceleme",
+			"kapsam"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -198,7 +214,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["mevzuat", "hediye"],
+		"tags": [
+			"mevzuat",
+			"hediye"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -226,7 +245,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["basvuru", "usul"],
+		"tags": [
+			"basvuru",
+			"usul"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -256,7 +278,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kurul", "uyelik"],
+		"tags": [
+			"kurul",
+			"uyelik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -286,7 +311,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["yetki", "senaryo"],
+		"tags": [
+			"yetki",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -316,7 +344,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["yaptirim", "senaryo"],
+		"tags": [
+			"yaptirim",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -346,8 +377,77 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kapsam", "tuzak"],
+		"tags": [
+			"kapsam",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "sytay-gys23-q028",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi hakkında 5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun hükümleri uygulanır?",
+		"options": [
+			"Türk Silahlı Kuvvetleri mensupları",
+			"Bakanlar",
+			"Türk Tarih Kurumu personeli",
+			"Yargı mensupları"
+		],
+		"correctIndex": 2,
+		"explanation": "5176 sayılı Kanun kamu görevlilerini kapsar; ancak Cumhurbaşkanı, TBMM üyeleri, Bakanlar Kurulu üyeleri, Türk Silahlı Kuvvetleri, yargı mensupları ve üniversiteler kapsam dışında bırakılmıştır. Bu istisnalara girmeyen Türk Tarih Kurumu personeli hakkında Kanun hükümleri uygulanır.",
+		"legalRef": {
+			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kanunu",
+			"lawId": "5176",
+			"article": "1"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"kapsam"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q030",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "kolay",
+		"stem": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanuna göre Kamu Görevlileri Etik Kurulu toplam kaç üyeden oluşur?",
+		"options": [
+			"9",
+			"7",
+			"11",
+			"5"
+		],
+		"correctIndex": 2,
+		"explanation": "5176 sayılı Kanun'un 3. maddesine göre Kamu Görevlileri Etik Kurulu on bir (11) üyeden oluşur. Üyeler Cumhurbaşkanı tarafından atanır ve görev süreleri dört yıldır.",
+		"legalRef": {
+			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kanunu",
+			"lawId": "5176",
+			"article": "3"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"kurul-yapisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
 	}
 ]

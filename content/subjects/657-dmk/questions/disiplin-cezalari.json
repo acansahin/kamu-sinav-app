@@ -25,7 +25,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["ceza-turleri", "tanim"],
+		"tags": [
+			"ceza-turleri",
+			"tanim"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -35,7 +38,12 @@
 		"topicId": "657-dmk/disiplin-cezalari",
 		"difficulty": "kolay",
 		"stem": "Aylıktan kesme cezası, memurun brüt aylığından hangi oranlar arasında kesinti yapılmasıdır?",
-		"options": ["1/30 – 1/8", "1/20 – 1/4", "1/40 – 1/10", "1/8 – 1/2"],
+		"options": [
+			"1/30 – 1/8",
+			"1/20 – 1/4",
+			"1/40 – 1/10",
+			"1/8 – 1/2"
+		],
 		"correctIndex": 0,
 		"explanation": "Aylıktan kesme cezası, memurun brüt aylığından 1/30 ile 1/8 arasında kesinti yapılmasıdır. Oranın brüt aylık üzerinden hesaplandığı, soru köklerinde sıkça atlanan ayrıntıdır; net aylık diyen şıklar çeldiricidir.",
 		"legalRef": {
@@ -51,7 +59,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["aylıktan-kesme", "oran"],
+		"tags": [
+			"aylıktan-kesme",
+			"oran"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -82,7 +93,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kademe-durdurma", "sure"],
+		"tags": [
+			"kademe-durdurma",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -92,7 +106,12 @@
 		"topicId": "657-dmk/disiplin-cezalari",
 		"difficulty": "kolay",
 		"stem": "Hakkında disiplin soruşturması yürütülen memura savunma için verilecek süre en az ne kadar olmalıdır?",
-		"options": ["3 gün", "7 gün", "15 gün", "30 gün"],
+		"options": [
+			"3 gün",
+			"7 gün",
+			"15 gün",
+			"30 gün"
+		],
 		"correctIndex": 1,
 		"explanation": "Savunması alınmayan memura disiplin cezası verilemez. Soruşturmayı yapanın veya disiplin kurulunun 7 günden az olmamak üzere verdiği süre içinde savunmasını yapmayan memur, savunma hakkından vazgeçmiş sayılır.",
 		"legalRef": {
@@ -107,7 +126,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["savunma", "sure"],
+		"tags": [
+			"savunma",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -137,7 +159,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["yetki", "disiplin-amiri"],
+		"tags": [
+			"yetki",
+			"disiplin-amiri"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -167,7 +192,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["yetki", "yuksek-disiplin-kurulu"],
+		"tags": [
+			"yetki",
+			"yuksek-disiplin-kurulu"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -177,7 +205,12 @@
 		"topicId": "657-dmk/disiplin-cezalari",
 		"difficulty": "orta",
 		"stem": "Disiplin amirleri uyarma, kınama ve aylıktan kesme cezalarını, soruşturmanın tamamlandığı günden itibaren kaç gün içinde vermek zorundadır?",
-		"options": ["7 gün", "15 gün", "30 gün", "60 gün"],
+		"options": [
+			"7 gün",
+			"15 gün",
+			"30 gün",
+			"60 gün"
+		],
 		"correctIndex": 1,
 		"explanation": "128. maddeye göre disiplin amirleri bu üç cezayı soruşturmanın tamamlandığı günden itibaren 15 gün içinde vermek zorundadır. Karşılaştırma için: disiplin kurulu dosyayı aldığı tarihten itibaren 30 gün, yüksek disiplin kurulu ise azami 6 ay içinde karar verir.",
 		"legalRef": {
@@ -192,7 +225,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["karar-suresi"],
+		"tags": [
+			"karar-suresi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -202,7 +237,12 @@
 		"topicId": "657-dmk/disiplin-cezalari",
 		"difficulty": "orta",
 		"stem": "Uyarma ve kınama cezası alan bir memur, cezasının özlük dosyasından silinmesini isteyebilmek için cezanın uygulanmasından itibaren en az ne kadar süre beklemelidir?",
-		"options": ["3 yıl", "5 yıl", "10 yıl", "15 yıl"],
+		"options": [
+			"3 yıl",
+			"5 yıl",
+			"10 yıl",
+			"15 yıl"
+		],
 		"correctIndex": 1,
 		"explanation": "133. maddeye göre uyarma ve kınama cezalarının uygulanmasından 5 yıl, diğer cezaların uygulanmasından 10 yıl sonra memur atamaya yetkili amire başvurarak cezasının özlük dosyasından silinmesini isteyebilir. Devlet memurluğundan çıkarma cezası hiçbir şekilde silinmez.",
 		"legalRef": {
@@ -217,7 +257,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["silinme", "sure"],
+		"tags": [
+			"silinme",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -227,7 +270,12 @@
 		"topicId": "657-dmk/disiplin-cezalari",
 		"difficulty": "zor",
 		"stem": "Disiplin cezasını gerektiren fiil ve hallerin işlendiği tarihten itibaren ne kadar süre içinde disiplin cezası verilmezse ceza verme yetkisi zamanaşımına uğrar?",
-		"options": ["1 yıl", "2 yıl", "3 yıl", "5 yıl"],
+		"options": [
+			"1 yıl",
+			"2 yıl",
+			"3 yıl",
+			"5 yıl"
+		],
 		"correctIndex": 1,
 		"explanation": "127. maddede iki ayrı süre vardır. Fiilin işlendiğinin öğrenildiği tarihten itibaren soruşturmaya başlama süresi uyarma, kınama, aylıktan kesme ve kademe ilerlemesinin durdurulmasında 1 ay, Devlet memurluğundan çıkarmada 6 aydır. Bunlardan bağımsız olarak, fiilin işlendiği tarihten itibaren nihayet 2 yıl içinde ceza verilmezse yetki zamanaşımına uğrar. Sorunun ayırt edici noktası, sürenin hangi tarihten başladığıdır.",
 		"legalRef": {
@@ -242,7 +290,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["zamanasimi"],
+		"tags": [
+			"zamanasimi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -273,7 +323,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["devamsizlik", "uygulama"],
+		"tags": [
+			"devamsizlik",
+			"uygulama"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -303,7 +356,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["itiraz", "sure", "tuzak"],
+		"tags": [
+			"itiraz",
+			"sure",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -333,7 +390,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["tekerrur"],
+		"tags": [
+			"tekerrur"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -363,7 +422,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["yetki", "tuzak", "senaryo"],
+		"tags": [
+			"yetki",
+			"tuzak",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -373,7 +436,12 @@
 		"topicId": "657-dmk/disiplin-cezalari",
 		"difficulty": "uzman",
 		"stem": "Devlet memurluğundan çıkarma cezasını gerektiren bir fiilin işlendiği öğrenildiğinde, disiplin soruşturmasına en geç ne kadar süre içinde başlanmalıdır?",
-		"options": ["1 ay", "3 ay", "6 ay", "1 yıl"],
+		"options": [
+			"1 ay",
+			"3 ay",
+			"6 ay",
+			"1 yıl"
+		],
 		"correctIndex": 2,
 		"explanation": "127. maddede soruşturmaya başlama süresi cezanın ağırlığına göre ikiye ayrılır: uyarma, kınama, aylıktan kesme ve kademe ilerlemesinin durdurulmasında 1 ay; Devlet memurluğundan çıkarmada 6 aydır. Bu süre içinde soruşturmaya başlanmazsa ceza verme yetkisi zamanaşımına uğrar. Ayrıca fiilin işlendiği tarihten itibaren 2 yıllık üst sınır her hâlükârda işler.",
 		"legalRef": {
@@ -388,7 +456,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["zamanasimi", "tuzak"],
+		"tags": [
+			"zamanasimi",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -418,7 +489,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["tekerrur", "indirim", "kip"],
+		"tags": [
+			"tekerrur",
+			"indirim",
+			"kip"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -448,8 +523,172 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["itiraz", "senaryo"],
+		"tags": [
+			"itiraz",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "sytay-gys23-q086",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği uyarınca belediyeler ve bağlı kuruluşlarında görevli memurlar hakkında aşağıdakilerden hangisi disiplin amirliği yetkisini haizdir?",
+		"options": [
+			"Belediye Başkanı",
+			"Personel Daire Başkanı veya Personel Müdürü",
+			"Kaymakam",
+			"Vali"
+		],
+		"correctIndex": 0,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'ne göre belediyeler ve bağlı kuruluşlarında görevli memurlar bakımından en üst disiplin amiri belediye başkanıdır.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"disiplin-amiri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q087",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu uyarınca disiplin cezasını gerektiren fiil ve hâllerin işlendiği tarihten itibaren ne kadar süre içinde disiplin cezası verilmediği takdirde ceza verme yetkisi zamanaşımına uğrar?",
+		"options": [
+			"1 ay",
+			"6 ay",
+			"1 yıl",
+			"2 yıl"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 127. maddesine göre disiplin cezasını gerektiren fiil ve hâllerin işlendiği tarihten itibaren nihayet iki yıl içinde disiplin cezası verilmediği takdirde ceza verme yetkisi zamanaşımına uğrar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "127"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"disiplin-zamanasimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q088",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "Devlet Memurluğundan çıkarma cezası, kararın verildiği tarihten itibaren kaç gün içinde ilgilisine tebliğ edilir?",
+		"options": [
+			"7 gün",
+			"15 gün",
+			"30 gün",
+			"60 gün"
+		],
+		"correctIndex": 0,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği uyarınca memurluktan çıkarma cezasına ilişkin karar, verildiği tarihten itibaren 7 gün içinde ilgilisine tebliğ edilir.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"memurluktan-cikarma",
+			"teblig"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q089",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği uyarınca taşra teşkilatı il kuruluşlarında görevli memurlar hakkında aşağıdakilerden hangisi disiplin amirliği yetkisini haizdir?",
+		"options": [
+			"İçişleri Bakanı",
+			"Vali",
+			"Kaymakam",
+			"Mahalli İdareler Genel Müdürü"
+		],
+		"correctIndex": 1,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'ne göre taşra teşkilatı il kuruluşlarında görevli memurların en üst disiplin amiri validir.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"disiplin-amiri",
+			"tasra"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q090",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "Devlet Memurluğundan çıkarma cezası için memurun bağlı bulunduğu kamu idaresinin yüksek disiplin kurulu, soruşturma dosyasının kendisine tevdiinden itibaren azami ne kadar süre içinde karar verir?",
+		"options": [
+			"1 ay",
+			"3 ay",
+			"6 ay",
+			"1 yıl"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun ve Devlet Memurları Disiplin Yönetmeliği uyarınca memurluktan çıkarma cezasında yetkili yüksek disiplin kurulu, soruşturma dosyasını aldığı tarihten itibaren en geç altı ay içinde kararını verir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "126"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"yuksek-disiplin-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
 	}
 ]

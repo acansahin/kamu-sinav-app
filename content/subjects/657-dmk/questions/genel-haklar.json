@@ -5,7 +5,12 @@
 		"topicId": "657-dmk/genel-haklar",
 		"difficulty": "kolay",
 		"stem": "Hizmeti 15 yıl olan bir Devlet memurunun yıllık izin süresi kaç gündür?",
-		"options": ["20 gün", "25 gün", "30 gün", "45 gün"],
+		"options": [
+			"20 gün",
+			"25 gün",
+			"30 gün",
+			"45 gün"
+		],
 		"correctIndex": 2,
 		"explanation": "Madde 102'ye göre yıllık izin süresi, hizmeti 1 yıldan 10 yıla kadar (10 yıl dâhil) olanlar için 20 gün, hizmeti 10 yıldan fazla olanlar için 30 gündür. 15 yıl hizmeti olan memur ikinci gruptadır.",
 		"legalRef": {
@@ -20,7 +25,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["yillik-izin"],
+		"tags": [
+			"yillik-izin"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -30,7 +37,12 @@
 		"topicId": "657-dmk/genel-haklar",
 		"difficulty": "kolay",
 		"stem": "Eşi doğum yapan memura verilen babalık izni kaç gündür?",
-		"options": ["3 gün", "5 gün", "10 gün", "15 gün"],
+		"options": [
+			"3 gün",
+			"5 gün",
+			"10 gün",
+			"15 gün"
+		],
 		"correctIndex": 2,
 		"explanation": "657 sayılı Kanun'un 104. maddesine göre eşi doğum yapan memura 10 gün babalık izni verilir. İş Kanunu kapsamındaki işçiler için bu süre 2026'da 5 günden 10 güne çıkarılarak memurlarla eşitlenmiştir.",
 		"legalRef": {
@@ -45,7 +57,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["babalik-izni"],
+		"tags": [
+			"babalik-izni"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -55,7 +69,12 @@
 		"topicId": "657-dmk/genel-haklar",
 		"difficulty": "kolay",
 		"stem": "Memurun kendisinin veya çocuğunun evlenmesi hâlinde verilen izin kaç gündür?",
-		"options": ["3 gün", "5 gün", "7 gün", "10 gün"],
+		"options": [
+			"3 gün",
+			"5 gün",
+			"7 gün",
+			"10 gün"
+		],
 		"correctIndex": 2,
 		"explanation": "Madde 104'e göre memura, kendisinin veya çocuğunun evlenmesi; eşinin, çocuğunun, kendisinin veya eşinin ana, baba ve kardeşinin ölümü hâllerinde 7 gün izin verilir. Evlenme ve ölüm izni aynı süredir.",
 		"legalRef": {
@@ -70,7 +89,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["evlenme-olum-izni"],
+		"tags": [
+			"evlenme-olum-izni"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -80,7 +101,12 @@
 		"topicId": "657-dmk/genel-haklar",
 		"difficulty": "orta",
 		"stem": "657 sayılı Kanun'un 2026'da değiştirilen hâline göre memura verilen toplam analık izni kaç haftadır?",
-		"options": ["16 hafta", "18 hafta", "20 hafta", "24 hafta"],
+		"options": [
+			"16 hafta",
+			"18 hafta",
+			"20 hafta",
+			"24 hafta"
+		],
 		"correctIndex": 3,
 		"explanation": "1 Mayıs 2026'da yürürlüğe giren 7578 sayılı Kanun ile 657 sayılı Kanun'un 104. maddesi değiştirilmiş; doğum sonrası analık izni 8 haftadan 16 haftaya, doğum öncesi 8 hafta ile birlikte toplam analık izni 16 haftadan 24 haftaya çıkarılmıştır. Doğum öncesi 8 haftalık sürede değişiklik yapılmamıştır.",
 		"legalRef": {
@@ -95,7 +121,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["analik-izni", "guncellik"],
+		"tags": [
+			"analik-izni",
+			"guncellik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -125,7 +154,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["sendika", "grev", "tuzak"],
+		"tags": [
+			"sendika",
+			"grev",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -155,7 +188,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["guvence", "madde-18"],
+		"tags": [
+			"guvence",
+			"madde-18"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -165,7 +201,12 @@
 		"topicId": "657-dmk/genel-haklar",
 		"difficulty": "zor",
 		"stem": "Hizmet süresi tam 10 yıl olan bir memurun yıllık izin süresi kaç gündür?",
-		"options": ["20 gün", "25 gün", "30 gün", "20 gün + 2 gün yol"],
+		"options": [
+			"20 gün",
+			"25 gün",
+			"30 gün",
+			"20 gün + 2 gün yol"
+		],
 		"correctIndex": 0,
 		"explanation": "Madde 102'de eşik 'hizmeti 1 yıldan 10 yıla kadar (10 yıl dâhil) olanlar için 20 gün' biçiminde yazılmıştır. Tam 10 yıl bu gruba dâhildir, dolayısıyla izin 20 gündür. 30 güne hak kazanmak için hizmetin 10 yılı aşması gerekir. Yol izni ancak zorunlu hâllerde ve ayrıca eklenir.",
 		"legalRef": {
@@ -180,7 +221,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["yillik-izin", "tuzak"],
+		"tags": [
+			"yillik-izin",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -210,7 +254,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["yillik-izin", "ogretmen"],
+		"tags": [
+			"yillik-izin",
+			"ogretmen"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -220,7 +267,12 @@
 		"topicId": "657-dmk/genel-haklar",
 		"difficulty": "zor",
 		"stem": "Çoğul gebelik hâlinde doğum öncesi analık izni süresine kaç hafta eklenir?",
-		"options": ["1 hafta", "2 hafta", "4 hafta", "8 hafta"],
+		"options": [
+			"1 hafta",
+			"2 hafta",
+			"4 hafta",
+			"8 hafta"
+		],
 		"correctIndex": 1,
 		"explanation": "Madde 104'e göre çoğul gebelik hâlinde doğum öncesi sekiz haftalık analık izni süresine iki hafta eklenir; yani doğum öncesi izin 10 hafta olur. Doğum sonrası süre bu durumdan etkilenmez.",
 		"legalRef": {
@@ -235,7 +287,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["analik-izni", "cogul-gebelik"],
+		"tags": [
+			"analik-izni",
+			"cogul-gebelik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -265,7 +320,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["analik-izni", "guncellik", "tuzak"],
+		"tags": [
+			"analik-izni",
+			"guncellik",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -295,7 +354,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["mazeret-izni", "senaryo"],
+		"tags": [
+			"mazeret-izni",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -325,8 +387,78 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["guncellik", "tuzak"],
+		"tags": [
+			"guncellik",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "sytay-gys23-q068",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Devlet Memurları Kanununda aşağıdakilerden hangisi Devlet memurlarının genel hakları arasında sayılmamıştır?",
+		"options": [
+			"Güvenlik",
+			"Çekilme",
+			"Grev",
+			"Sendika kurma"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 'genel haklar' kısmında güvenlik (m.18), çekilme (m.20) ve sendika kurma (m.22) sayılır. Grev ise bir hak değil, 27. maddede düzenlenen bir yasaktır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "27"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"genel-haklar",
+			"grev-yasagi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q071",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Devlet Memurları Kanununa göre bir yıldan on yıla kadar (on yıl dâhil) hizmeti olan memurun yıllık izin süresi aşağıdakilerden hangisidir?",
+		"options": [
+			"10 gün",
+			"20 gün",
+			"30 gün",
+			"60 gün"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 102. maddesine göre hizmeti bir yıldan on yıla kadar (on yıl dâhil) olan memurlara yılda 20 gün, on yıldan fazla olanlara ise 30 gün yıllık izin verilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "102"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"yillik-izin"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
 	}
 ]

@@ -25,7 +25,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-13", "sinirlama"],
+		"tags": [
+			"madde-13",
+			"sinirlama"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -55,7 +58,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-12", "nitelik"],
+		"tags": [
+			"madde-12",
+			"nitelik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -65,7 +71,12 @@
 		"topicId": "anayasa/temel-hak-ve-odevler",
 		"difficulty": "kolay",
 		"stem": "Yakalanan bir kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç, en geç ne kadar sürede hâkim önüne çıkarılır?",
-		"options": ["24 saat", "48 saat", "72 saat", "4 gün"],
+		"options": [
+			"24 saat",
+			"48 saat",
+			"72 saat",
+			"4 gün"
+		],
 		"correctIndex": 1,
 		"explanation": "Anayasa'nın 19. maddesine göre yakalanan veya tutuklanan kişi en geç 48 saat içinde hâkim önüne çıkarılır. Toplu olarak işlenen suçlarda bu süre en çok 4 gündür. Şıktaki '4 gün' bu istisnaya ait olup, sorunun sorduğu genel kurala değil.",
 		"legalRef": {
@@ -80,7 +91,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-19", "sure"],
+		"tags": [
+			"madde-19",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -110,7 +124,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-13", "olcululuk"],
+		"tags": [
+			"madde-13",
+			"olcululuk"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -140,7 +157,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-15", "guncellik"],
+		"tags": [
+			"madde-15",
+			"guncellik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -170,7 +190,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["siniflandirma"],
+		"tags": [
+			"siniflandirma"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -200,7 +222,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-15", "cekirdek"],
+		"tags": [
+			"madde-15",
+			"cekirdek"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -230,7 +255,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-16", "yabanci"],
+		"tags": [
+			"madde-16",
+			"yabanci"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -240,7 +268,12 @@
 		"topicId": "anayasa/temel-hak-ve-odevler",
 		"difficulty": "zor",
 		"stem": "Toplu olarak işlenen bir suç nedeniyle yakalanan kişi, en çok ne kadar süre içinde hâkim önüne çıkarılmalıdır?",
-		"options": ["48 saat", "3 gün", "4 gün", "7 gün"],
+		"options": [
+			"48 saat",
+			"3 gün",
+			"4 gün",
+			"7 gün"
+		],
 		"correctIndex": 2,
 		"explanation": "Madde 19'da iki ayrı süre vardır: genel kural 48 saat, toplu olarak işlenen suçlarda ise en çok 4 gündür. Her iki sürede de tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hesaba katılmaz. Soruların ayırt edici noktası suçun toplu işlenip işlenmediğidir.",
 		"legalRef": {
@@ -255,7 +288,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-19", "tuzak"],
+		"tags": [
+			"madde-19",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -285,7 +321,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-13", "senaryo"],
+		"tags": [
+			"madde-13",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -315,7 +354,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-15", "senaryo"],
+		"tags": [
+			"madde-15",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -345,8 +387,143 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-13", "tuzak"],
+		"tags": [
+			"madde-13",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "sytay-gys23-q002",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıdakilerden hangisi temel hak ve hürriyetlerin kullanılmasının durdurulması hallerinden biri değildir?",
+		"options": [
+			"Seferberlik",
+			"Olağanüstü hâl",
+			"Sıkıyönetim",
+			"Savaş"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 15. maddesi temel hak ve hürriyetlerin kullanılmasının kısmen veya tamamen durdurulabileceği halleri savaş, seferberlik ve olağanüstü hal olarak sayar. Sıkıyönetim, 2017 Anayasa değişikliğiyle metinden çıkarılmıştır; bu nedenle geçerli bir durdurma hali değildir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "15"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"olaganustu-yonetim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q004",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "“Temel hak ve hürriyetler, yabancılar için, milletlerarası hukuka uygun olarak (…) sınırlanabilir.” 2709 sayılı Türkiye Cumhuriyeti Anayasasına göre yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+		"options": [
+			"Anayasayla",
+			"Cumhurbaşkanlığı Kararnamesiyle",
+			"Kanunla",
+			"Yönetmelikle"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 16. maddesi uyarınca temel hak ve hürriyetler, yabancılar için, milletlerarası hukuka uygun olarak ancak KANUNLA sınırlanabilir. Temel hakların sınırlanması genel olarak da (m.13) kanunla yapılır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "16"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"yabancilarin-durumu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q005",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi 2709 sayılı Türkiye Cumhuriyeti Anayasasının “Kişinin Hakları ve Ödevleri” bölümünde düzenlenen haklardan biri değildir?",
+		"options": [
+			"Kişinin dokunulmazlığı, maddi ve manevi varlığı",
+			"Kişi hürriyeti ve güvenliği",
+			"Konut dokunulmazlığı",
+			"Eğitim ve öğrenim hakkı ve ödevi"
+		],
+		"correctIndex": 3,
+		"explanation": "Eğitim ve öğrenim hakkı ve ödevi (m.42), Anayasa'nın 'Sosyal ve Ekonomik Haklar ve Ödevler' bölümünde düzenlenir. Diğer üç seçenek 'Kişinin Hakları ve Ödevleri' bölümündeki klasik (birinci kuşak) haklardandır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "42"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"hak-siniflandirmasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "sytay-gys23-q006",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi 2709 sayılı Türkiye Cumhuriyeti Anayasasının “Siyasi Haklar ve Ödevler” bölümünde düzenlenen hak veya ödevlerden biridir?",
+		"options": [
+			"Sendika kurma hakkı",
+			"Grev hakkı ve lokavt",
+			"Vergi ödevi",
+			"Sosyal güvenlik hakkı"
+		],
+		"correctIndex": 2,
+		"explanation": "Vergi ödevi (m.73) Anayasa'nın 'Siyasi Haklar ve Ödevler' bölümünde yer alır. Sendika kurma (m.51), grev ve lokavt (m.54) ve sosyal güvenlik (m.60) ise 'Sosyal ve Ekonomik Haklar ve Ödevler' bölümündedir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "73"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "published",
+		"tags": [
+			"vergi-odevi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-25"
 	}
 ]
