@@ -23,7 +23,7 @@ export interface ParsedQuestion {
 	number: number;
 	stem: string;
 	options: string[];
-	/** Tam 4 şık ve boş olmayan gövde varsa `true`; yoksa insan bakmalı. */
+	/** 4 veya 5 şık ve boş olmayan gövde varsa `true`; yoksa insan bakmalı. */
 	parseOk: boolean;
 }
 

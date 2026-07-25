@@ -9,9 +9,13 @@
  *
  * Çalıştırma:
  *   npm run ingest:past-exam -- \
- *     --booklet <soru.pdf> --key <cevap.pdf> \
+ *     --booklet <soru.pdf> [--key <cevap.pdf>] \
  *     --origin "T.C. Sayıştay Başkanlığı GYS (Memur) A Kitapçığı" \
  *     --year 2023 --url "https://..." [--out <yol.json>] [--all]
+ *
+ * `--key` VERİLMEZSE `--booklet` tek dosyalık birleşik kitapçık kabul edilir:
+ * sorular ve cevap anahtarı aynı PDF'te (MEB/ÖDSGM kalıbı), "CEVAP ANAHTARI"
+ * başlığından bölünür. Ayrı anahtar PDF'i varsa `--key` ile geçin.
  *
  * `--all` verilmezse çıktı yalnızca üç dersimize eşleşen adayları içerir;
  * eşleşmeyenler (kuruma özgü mevzuat vb.) raporda sayılır ama yazılmaz.
@@ -23,6 +27,7 @@ import { extractText, getDocumentProxy } from "unpdf";
 import { assemble } from "./ingest/assemble";
 import { parseBooklet } from "./ingest/parse-booklet";
 import { parseKey } from "./ingest/parse-key";
+import { splitBookletAndKey } from "./ingest/split-booklet";
 import type { CandidateQuestion } from "./ingest/types";
 
 function parseArgs(argv: string[]): Record<string, string | boolean> {
@@ -61,7 +66,6 @@ async function main(): Promise<void> {
 	const key = args.key;
 	const origin = args.origin;
 	if (typeof booklet !== "string") fail("--booklet <soru.pdf> zorunlu.");
-	if (typeof key !== "string") fail("--key <cevap.pdf> zorunlu.");
 	if (typeof origin !== "string") fail("--origin \"kaynak adı\" zorunlu.");
 
 	const source = {
@@ -70,10 +74,24 @@ async function main(): Promise<void> {
 		url: typeof args.url === "string" ? args.url : undefined,
 	};
 
-	const [bookletText, keyText] = await Promise.all([
-		extractPdfText(booklet as string),
-		extractPdfText(key as string),
-	]);
+	// İki mod: ayrı anahtar PDF'i (--key) ya da tek dosyalık birleşik kitapçık.
+	let bookletText: string;
+	let keyText: string;
+	if (typeof key === "string") {
+		[bookletText, keyText] = await Promise.all([
+			extractPdfText(booklet),
+			extractPdfText(key),
+		]);
+	} else {
+		const combined = await extractPdfText(booklet);
+		({ bookletText, keyText } = splitBookletAndKey(combined));
+		if (keyText === "") {
+			console.warn(
+				"⚠ Tek dosyada 'CEVAP ANAHTARI' başlığı bulunamadı; anahtar boş kalacak.\n" +
+					"  Cevap anahtarını ayrı bir PDF olarak --key ile geçin.",
+			);
+		}
+	}
 
 	const parsed = parseBooklet(bookletText);
 	const answers = parseKey(keyText);

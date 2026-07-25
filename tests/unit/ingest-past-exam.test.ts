@@ -3,6 +3,7 @@ import { assemble } from "../../scripts/ingest/assemble";
 import { classify } from "../../scripts/ingest/classify";
 import { parseBooklet } from "../../scripts/ingest/parse-booklet";
 import { parseKey } from "../../scripts/ingest/parse-key";
+import { splitBookletAndKey } from "../../scripts/ingest/split-booklet";
 
 /**
  * Çıkmış sınav ithal hattının saf mantığı.
@@ -96,6 +97,132 @@ describe("parseBooklet", () => {
 		expect(q?.parseOk).toBe(false);
 		expect(q?.options).toHaveLength(2);
 	});
+
+	it("MEB biçimini (N. markörü) ayrıştırır ve numaralı yönerge önsözünü atlar", () => {
+		// MEB/ÖDSGM kitapçığı: sorulardan önce numaralı bir GENEL AÇIKLAMA önsözü var
+		// ve sorular "N." (parantez değil) ile başlıyor. Önsöz soru sanılmamalı.
+		const text = [
+			"1. Bu soru kitapçığında 100 soru vardır.",
+			"2. Sınav süresi 110 dakikadır.",
+			"3. İşaretlemelerinizi kurşun kalemle yapınız.",
+			// Numara yeniden 1'e döner → sorular başlar.
+			"1. 2709 sayılı Anayasa'ya göre egemenlik kime aittir?",
+			"A) Millete",
+			"B) Cumhurbaşkanına",
+			"C) TBMM'ye",
+			"D) Hükûmete",
+			"E) Yargıya",
+			"2. 657 sayılı Kanuna göre aşağıdakilerden hangisi temel ilkedir?",
+			"A) Sınıflandırma",
+			"B) Eşitlik",
+			"C) Tarafsızlık",
+			"D) Süreklilik",
+			"E) Güvence",
+		].join("\n");
+
+		const questions = parseBooklet(text);
+		expect(questions).toHaveLength(2); // önsözün 3 maddesi soru sayılmadı
+		expect(questions[0]?.number).toBe(1);
+		expect(questions[0]?.stem).toContain("egemenlik kime aittir");
+		expect(questions[0]?.stem).not.toContain("kitapçığında"); // önsöz sızmadı
+		expect(questions[0]?.options).toEqual([
+			"Millete",
+			"Cumhurbaşkanına",
+			"TBMM'ye",
+			"Hükûmete",
+			"Yargıya",
+		]);
+		expect(questions[0]?.parseOk).toBe(true);
+		expect(questions[1]?.number).toBe(2);
+		expect(questions[1]?.options).toHaveLength(5);
+	});
+
+	it("gövdedeki numaralı alt-maddeleri yeni soru sanmaz", () => {
+		// "Aşağıdakilerden hangileri?" tipi soruda gövde 1./2./3. ile numaralı
+		// ifadeler taşır; bunlar şıktan ÖNCE geldiği için gövdenin parçasıdır.
+		// Soru bölgesi ilk şıkla açılır (yönerge bölgesi değil), bu yüzden alt-madde
+		// içeren soruyu Q2 olarak (ilk sorudan sonra) kurgularız.
+		const text = [
+			"1. Bu kitapçıkta 50 soru vardır.", // önsöz
+			"2. Süre 60 dakikadır.",
+			"1. Basit ilk soru?", // Q1 — şıklarıyla soru bölgesini açar
+			"A) w",
+			"B) x",
+			"C) y",
+			"D) z",
+			"2. Aşağıdaki ifadelerden hangileri doğrudur?", // Q2 — alt-maddeli
+			"1. Birinci ifade",
+			"2. İkinci ifade",
+			"3. Üçüncü ifade",
+			"A) Yalnız 1",
+			"B) 1 ve 2",
+			"C) 2 ve 3",
+			"D) 1, 2 ve 3",
+			"E) Hiçbiri",
+		].join("\n");
+
+		const questions = parseBooklet(text);
+		expect(questions).toHaveLength(2);
+		expect(questions[1]?.stem).toContain("hangileri doğrudur");
+		expect(questions[1]?.stem).toContain("Birinci ifade");
+		expect(questions[1]?.stem).toContain("Üçüncü ifade");
+		expect(questions[1]?.options).toHaveLength(5);
+		expect(questions[1]?.options[0]).toBe("Yalnız 1");
+	});
+
+	it("birden çok numaralı yönerge kutusunu atlar, gerçek ilk soruyu korur", () => {
+		// Gerçek MEB kalıbı: sorulardan önce İKİ numaralı yönerge kutusu (numara
+		// yeniden 1'e döner). Restart değil, İLK ŞIK gerçek soruyu belirler.
+		const text = [
+			"1. Sınav saat 10.00'da başlayacaktır.", // 1. kutu
+			"2. Cep telefonu bulundurmayınız.",
+			"1. Cevap kâğıdınızı imzalayınız.", // 2. kutu (numara yeniden 1)
+			"2. Kitapçık türünüzü kodlayınız.",
+			"3. Kurşun kalem kullanınız.",
+			"1. Gerçek ilk soru gövdesi?", // Q1
+			"A) a",
+			"B) b",
+			"C) c",
+			"D) d",
+		].join("\n");
+
+		const questions = parseBooklet(text);
+		expect(questions).toHaveLength(1);
+		expect(questions[0]?.stem).toBe("Gerçek ilk soru gövdesi?");
+		expect(questions[0]?.options).toEqual(["a", "b", "c", "d"]);
+		expect(questions[0]?.parseOk).toBe(true);
+	});
+
+	it("tek satıra yatay dizili kısa şıkları ayrı ayrı okur", () => {
+		// MEB kısa şıkları yatay dizer: "A) 9/1 B) 10/1 C) 10/2 D) 10/3".
+		const text = [
+			"1. Giriş derece ve kademesi aşağıdakilerden hangisidir?",
+			"A) 9/1 B) 10/1 C) 10/2 D) 10/3",
+		].join("\n");
+
+		const [q] = parseBooklet(text);
+		expect(q?.options).toEqual(["9/1", "10/1", "10/2", "10/3"]);
+		expect(q?.parseOk).toBe(true);
+	});
+
+	it("tek maddelik önsözden sonra ilk soruyu (restart olmadan, şıkla) yakalar", () => {
+		// Önsöz tek maddeyse numara küçülmez; soru bölgesi ilk şıkla açılmalı.
+		const text = [
+			"1. Bu kitapçıkta 20 soru vardır.", // tek maddelik önsöz
+			"1. 5176 sayılı Kanun neyi düzenler?", // gerçek soru
+			"A) a",
+			"B) b",
+			"C) c",
+			"D) d",
+			"E) e",
+		].join("\n");
+
+		const questions = parseBooklet(text);
+		expect(questions).toHaveLength(1);
+		expect(questions[0]?.stem).toContain("5176 sayılı Kanun");
+		expect(questions[0]?.stem).not.toContain("kitapçıkta");
+		expect(questions[0]?.options).toHaveLength(5);
+	});
 });
 
 describe("parseKey", () => {
@@ -113,6 +240,100 @@ describe("parseKey", () => {
 		const key = parseKey("TOPLAM 100 SORU 120 DAKİKA");
 		expect(key.has(120)).toBe(false);
 		expect(key.size).toBe(0);
+	});
+
+	it("beş şıklı sınavda E cevabını da tanır", () => {
+		// MEB/ÖSYM kitapçıkları 5 şıklıdır; anahtar E'yi de içerebilir.
+		const key = parseKey("1 E 2 A 3 D 4 C 5 B");
+		expect(key.get(1)).toBe(4); // E
+		expect(key.get(2)).toBe(0); // A
+		expect(key.get(5)).toBe(1); // B
+		expect(key.size).toBe(5);
+	});
+
+	it("numarası noktalı (1. E) anahtar biçimini de okur", () => {
+		// MEB anahtarları numarayı noktayla yazar; nokta yutulmalı.
+		const key = parseKey("1. E  2. A  3. D");
+		expect(key.get(1)).toBe(4);
+		expect(key.get(2)).toBe(0);
+		expect(key.get(3)).toBe(3);
+		expect(key.size).toBe(3);
+	});
+});
+
+describe("splitBookletAndKey", () => {
+	it("birleşik metni CEVAP ANAHTARI başlığından ikiye böler", () => {
+		const text = [
+			"1. Soru gövdesi?",
+			"A) a",
+			"B) b",
+			"C) c",
+			"D) d",
+			"E) e",
+			"CEVAP ANAHTARI",
+			"1. E  2. A",
+		].join("\n");
+
+		const { bookletText, keyText } = splitBookletAndKey(text);
+		expect(bookletText).toContain("Soru gövdesi");
+		expect(bookletText).not.toContain("CEVAP ANAHTARI");
+		expect(keyText).toContain("CEVAP ANAHTARI");
+		expect(keyText).toContain("1. E");
+		// Anahtar ızgarası soru bölümüne sızmamalı.
+		expect(bookletText).not.toContain("1. E");
+	});
+
+	it("başlık yoksa anahtarı boş bırakır, soruyu olduğu gibi verir", () => {
+		const text = "1. Soru?\nA) a\nB) b\nC) c\nD) d";
+		const { bookletText, keyText } = splitBookletAndKey(text);
+		expect(keyText).toBe("");
+		expect(bookletText).toBe(text);
+	});
+
+	it("başlığı büyük/küçük harf ve Türkçe I tuzağına düşmeden bulur", () => {
+		// "Cevap Anahtarı" karışık yazılışta da, "ANAHTARLARI" çoğulunda da eşleşmeli.
+		const a = splitBookletAndKey("soru\nCevap Anahtarı\n1 E");
+		expect(a.keyText).toContain("Cevap Anahtarı");
+		const b = splitBookletAndKey("soru\nCEVAP ANAHTARLARI\n1 E");
+		expect(b.keyText).toContain("CEVAP ANAHTARLARI");
+	});
+
+	it("tek dosyalık birleşik akış: böl → ayrıştır → anahtarla eşleş", () => {
+		// Uçtan uca: birleşik metinden hem sorular hem doğru cevaplar çıkmalı,
+		// anahtar ızgarası son sorunun şıkkına bulaşmamalı.
+		const combined = [
+			"1. Bu kitapçıkta 2 soru vardır.", // önsöz
+			"1. 2709 sayılı Anayasa niteliği?",
+			"A) a1",
+			"B) b1",
+			"C) c1",
+			"D) d1",
+			"E) e1",
+			"2. 657 temel ilke değildir?",
+			"A) a2",
+			"B) b2",
+			"C) c2",
+			"D) d2",
+			"E) e2",
+			"CEVAP ANAHTARI",
+			"1. E  2. C",
+		].join("\n");
+
+		const { bookletText, keyText } = splitBookletAndKey(combined);
+		const parsed = parseBooklet(bookletText);
+		const answers = parseKey(keyText);
+
+		expect(parsed).toHaveLength(2);
+		// Son sorunun son şıkkı temiz ("e2"), anahtar bulaşmamış.
+		expect(parsed[1]?.options).toEqual(["a2", "b2", "c2", "d2", "e2"]);
+		expect(answers.get(1)).toBe(4); // E
+		expect(answers.get(2)).toBe(2); // C
+
+		const { candidates } = assemble(parsed, answers, { origin: "MEB test" });
+		expect(candidates[0]?.correctIndex).toBe(4);
+		expect(candidates[0]?.subjectId).toBe("anayasa");
+		expect(candidates[1]?.correctIndex).toBe(2);
+		expect(candidates[1]?.subjectId).toBe("657-dmk");
 	});
 });
 
