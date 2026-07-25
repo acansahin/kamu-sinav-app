@@ -175,9 +175,11 @@ async function buildSubject(subjectDir: string): Promise<SubjectBundle | null> {
 				fail(where, `bilinmeyen topicId: ${question.topicId}`);
 				return;
 			}
+			// Şık sayısı 4 veya 5 olabilir (Sayıştay 4, MEB/ÖSYM 5); hepsi
+			// birbirinden farklı olmalı — sabit "4" değil, sorunun kendi sayısı.
 			const distinctOptions = new Set(question.options.map((o) => o.trim()));
-			if (distinctOptions.size !== 4) {
-				fail(where, "dört şık birbirinden farklı olmalıdır");
+			if (distinctOptions.size !== question.options.length) {
+				fail(where, "şıklar birbirinden farklı olmalıdır");
 				return;
 			}
 

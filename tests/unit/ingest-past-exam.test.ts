@@ -74,6 +74,22 @@ describe("parseBooklet", () => {
 		expect(questions[0]?.stem).toBe("Birinci soru?");
 	});
 
+	it("beş şıklı soruyu (A–E) ayrıştırır ve geçerli sayar", () => {
+		// MEB/ÖSYM kitapçıkları 5 şıklıdır; parser E'yi de yakalamalı.
+		const text = [
+			"1) 5 şıklı bir soru gövdesi?",
+			"A) birinci",
+			"B) ikinci",
+			"C) üçüncü",
+			"D) dördüncü",
+			"E) beşinci",
+		].join("\n");
+		const [q] = parseBooklet(text);
+		expect(q?.options).toHaveLength(5);
+		expect(q?.options[4]).toBe("beşinci");
+		expect(q?.parseOk).toBe(true);
+	});
+
 	it("dört şık çıkmayan soruyu bozuk işaretler", () => {
 		const text = ["5) Eksik şıklı soru?", "A) a", "B) b"].join("\n");
 		const [q] = parseBooklet(text);

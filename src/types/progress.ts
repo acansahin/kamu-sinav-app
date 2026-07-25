@@ -16,7 +16,12 @@ import type { Difficulty } from "./content";
 /** Giriş yapılmamış cihazın kimliği. Gerçek kimlik için `currentUserId()`. */
 export const LOCAL_USER_ID = "local";
 
-export type AnswerIndex = 0 | 1 | 2 | 3;
+/**
+ * Seçilen şıkkın indeksi. 5 şıklı sorular için 4 de geçerlidir (bkz. içerik
+ * şemasında `options` 4–5 arası). Birleşime değer eklemek geriye dönük
+ * uyumludur: Dexie'de saklanan eski 0–3 değerleri geçerli kalır, göç gerekmez.
+ */
+export type AnswerIndex = 0 | 1 | 2 | 3 | 4;
 
 export type AttemptContext = "practice" | "exam" | "review";
 

@@ -108,10 +108,14 @@ describe("yayımlanmış sorular", () => {
 		expect(questions.some((q) => q.source.kind === "ai-draft")).toBe(false);
 	});
 
-	it("dört şık birbirinden farklıdır ve doğru cevap geçerlidir", async () => {
+	it("şıklar birbirinden farklıdır ve doğru cevap geçerlidir", async () => {
 		const questions = await loadAllQuestions();
 		for (const question of questions) {
-			expect(new Set(question.options.map((o) => o.trim())).size).toBe(4);
+			// Şık sayısı 4 veya 5 olabilir; hepsi birbirinden farklı olmalı.
+			expect(new Set(question.options.map((o) => o.trim())).size).toBe(
+				question.options.length,
+			);
+			expect(question.correctIndex).toBeLessThan(question.options.length);
 			expect(question.options[question.correctIndex]).toBeTruthy();
 		}
 	});
@@ -121,5 +125,66 @@ describe("yayımlanmış sorular", () => {
 		for (const question of questions) {
 			expect(question.explanation.length).toBeGreaterThanOrEqual(20);
 		}
+	});
+});
+
+describe("questionSchema — şık sayısı kuralları", () => {
+	const base = {
+		id: "test-soru",
+		subjectId: "657-dmk",
+		topicId: "657-dmk/temel-ilkeler",
+		difficulty: "kolay",
+		stem: "Yeterince uzun bir soru gövdesi metni buraya gelir?",
+		explanation: "Yeterince uzun bir açıklama metni buraya yazılır.",
+		legalRef: { law: "657 sayılı Devlet Memurları Kanunu" },
+		source: { kind: "original", origin: "Deneme kaynağı", license: "own-work" },
+		status: "published",
+		updatedAt: "2026-07-25",
+	};
+
+	it("5 şıklı ve correctIndex 4 olan soruyu kabul eder", () => {
+		const result = questionSchema.safeParse({
+			...base,
+			options: ["A", "B", "C", "D", "E"],
+			correctIndex: 4,
+		});
+		expect(result.success).toBe(true);
+	});
+
+	it("4 şıklı soruyu (mevcut içerik) kabul eder", () => {
+		const result = questionSchema.safeParse({
+			...base,
+			options: ["A", "B", "C", "D"],
+			correctIndex: 3,
+		});
+		expect(result.success).toBe(true);
+	});
+
+	it("correctIndex şık sayısını aşarsa reddeder", () => {
+		// 4 şıklı soruda correctIndex 4 (5. şık) sessiz bir hatadır.
+		const result = questionSchema.safeParse({
+			...base,
+			options: ["A", "B", "C", "D"],
+			correctIndex: 4,
+		});
+		expect(result.success).toBe(false);
+	});
+
+	it("3 şıktan az soruyu reddeder", () => {
+		const result = questionSchema.safeParse({
+			...base,
+			options: ["A", "B", "C"],
+			correctIndex: 0,
+		});
+		expect(result.success).toBe(false);
+	});
+
+	it("6 şıktan fazla soruyu reddeder", () => {
+		const result = questionSchema.safeParse({
+			...base,
+			options: ["A", "B", "C", "D", "E", "F"],
+			correctIndex: 0,
+		});
+		expect(result.success).toBe(false);
 	});
 });
