@@ -309,7 +309,12 @@ export function SettingsPanel() {
 					<Link href="/gizlilik" className="font-medium text-brand">
 						Kişisel Verilerin Korunması
 					</Link>{" "}
-					sayfasında bulabilirsin.
+					sayfasında bulabilirsin. İçeriğin sürümü, mevzuat güncellik tarihleri
+					ve soruların kaynağı için{" "}
+					<Link href="/hakkinda" className="font-medium text-brand">
+						Hakkında
+					</Link>{" "}
+					sayfasına bakabilirsin.
 				</p>
 			</Card>
 		</div>

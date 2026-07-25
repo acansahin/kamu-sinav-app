@@ -87,6 +87,28 @@ describe("aydınlatma metni", () => {
 		expect(PAGE).toContain("Hesap açmadığınızda hiçbir kişisel veriniz işlenmez");
 	});
 
+	/*
+	 * JSX metni satırlara bölündüğü için cümleler kaynakta boşluk ve girinti
+	 * içerir. Çok kelimeli ifadeleri ararken normalleştirilmiş metin kullanılır;
+	 * aksi hâlde yalnızca biçimlendirme değişince test kırılır (ya da daha
+	 * kötüsü, olumsuz bir iddia sessizce geçer).
+	 */
+	const METIN = PAGE.replace(/\s+/g, " ");
+
+	it("çalışma verilerinin hesapla birlikte sunucuya gittiğini söyler", () => {
+		// Senkron Faz 3'te yayına girdi. Metin bir dönem "çalışma verileriniz
+		// sunucuya gönderilmez" diyordu; bu artık YANLIŞ olurdu ve aydınlatma
+		// yükümlülüğünü ihlal ederdi. Bu test o cümlenin geri gelmesini engeller.
+		expect(METIN).not.toContain("Çalışma verileriniz sunucuya gönderilmez");
+		expect(METIN).not.toContain("Çoklu cihaz senkronu henüz kullanıma açılmamıştır");
+		expect(METIN).toContain("sunucuda da saklanır");
+	});
+
+	it("eşitlemenin hesaba bağlı ve isteğe bağlı olduğunu söyler", () => {
+		// Hesapsız kullanıcı için hiçbir şeyin değişmediği açıkça yazmalı.
+		expect(METIN).toContain("hesap açmadığınız sürece");
+	});
+
 	it("onay kutusu içermez", () => {
 		// Aydınlatma, açık rıza DEĞİLDİR ve onunla birleştirilemez. Sayfaya bir
 		// onay kutusu eklenmesi bu ayrımı bozar.

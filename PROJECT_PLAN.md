@@ -1196,8 +1196,31 @@ hepsine 227 KB ekliyordu — hiç giriş yapmayacak ve veri kotası kısıtlı k
    günü içinde bildirim). Rutin ve sürekli aktarım "arızi" sayılmadığı için yalnızca
    açık rızaya dayanmak güvenli değil. Metin aktarımı açıkça söylüyor, ama güvenceyi
    kurmak hukuki bir iştir — avukat görüşü alınmadan canlıya çıkılmamalı.
-2. **`/hakkinda` sayfası** hâlâ yok (§11'de listeli): içerik sürümü, mevzuat güncellik
-   tarihi, yol haritası, kaynak/telif bildirimi.
+2. ~~**`/hakkinda` sayfası** hâlâ yok~~ — **kapatıldı (24 Temmuz 2026).** Sayfa yazıldı;
+   sayıların tamamı derleme zamanında içerikten TÜRETİLİR (elle yazılmaz), böylece
+   içerik büyüdükçe kendiliğinden doğru kalır: ders/konu/soru sayıları ve derleme
+   tarihi manifest'ten, ders başına en eski doğrulama tarihi ve mevzuat sürümleri
+   özetlerden, köken/lisans dağılımı soruların `source` kaydından. Doğrulama tarihi
+   bilinçli olarak dersin EN ESKİ konusudur — güven en zayıf halkadan okunur. Toplama
+   mantığı `lib/content/about-stats.ts` içinde saf ve testlidir. Şeffaflık sayfaları
+   artık Ayarlar'a gömülü değil: `AppShell`'e alt bilgi eklendi, Hakkında ve Gizlilik
+   her sayfadan erişilebilir.
+
+   *Yol boyunca çıkan bulgu:* dar ekranda tabloyu saran yatay kaydırma kutusu
+   klavyeyle odaklanamıyordu — fare/dokunma kullanamayan biri tablonun sağ tarafını
+   hiç göremezdi (WCAG 2.1.1). Erişilebilirlik kapısı yakaladı; kutuya `tabIndex` ve
+   adlandırılmış `role="region"` eklendi. Yeni bir kaydırılabilir alan eklerken aynı
+   şey gerekir.
+
+   *KVKK metni birlikte düzeltildi.* Senkron (Dilim 3) yayına girdiğinde `/gizlilik`
+   fiilen YANLIŞ hâle geliyordu: "Çalışma verileriniz sunucuya gönderilmez" ve "çoklu
+   cihaz senkronu henüz kullanıma açılmamıştır" diyordu; üstelik metnin kendisi
+   "senkron açıldığında bu metin güncellenecek" taahhüdünü veriyordu. Artık hangi
+   çalışma verilerinin hesapla birlikte sunucuya gittiği, eşitlemenin ne zaman
+   çalıştığı, RLS ile korunduğu ve hesap silinince sunucudaki satırların da silindiği
+   yazılı; eşitlemenin hesaba bağlı ve isteğe bağlı olduğu açıkça belirtiliyor. Bir
+   test eski cümlelerin geri gelmesini engelliyor.
+   **Ders:** veri akışını değiştiren her iş, aydınlatma metnini de değiştirir.
 
 **Dilim 3 — senkron (motor bitti, bağlandı).** Tam senkron döngüsü ve yaşam
 döngüsü bağlantısı hazır; uygulama artık gerçekten çoklu cihaz eşitliyor.

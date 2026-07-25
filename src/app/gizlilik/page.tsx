@@ -74,8 +74,13 @@ export default function PrivacyPage() {
 						istemiyoruz.
 					</li>
 					<li>
-						Çalışma verileriniz (çözdüğünüz sorular, ilerlemeniz){" "}
-						<strong>cihazınızda kalır</strong>, sunucuya gönderilmez.
+						Hesap açmazsanız çalışma verileriniz (çözdüğünüz sorular,
+						ilerlemeniz) <strong>yalnızca cihazınızda kalır</strong>.
+					</li>
+					<li>
+						Hesap açarsanız bu veriler, cihazlarınız arasında eşitlenebilmesi
+						için <strong>hesabınıza bağlı olarak sunucuda da tutulur</strong>.
+						Eşitlemeyi istemiyorsanız hesap açmamanız yeterlidir.
 					</li>
 					<li>
 						Reklam göstermiyoruz, veri satmıyoruz, izleme ve analiz aracı
@@ -167,12 +172,38 @@ export default function PrivacyPage() {
 					telefon numarası, çalıştığınız kurum, unvanınız, konum bilginiz.
 					Uygulama bu bilgileri hiçbir aşamada sormaz.
 				</p>
+
+				<h3>Çalışma verileriniz</h3>
 				<p>
-					<strong>Çalışma verileriniz sunucuya gönderilmez.</strong> Çözdüğünüz
-					sorular, doğru/yanlış sayılarınız, deneme sınavı sonuçlarınız ve
-					istatistikleriniz yalnızca cihazınızda saklanır. Çoklu cihaz senkronu
-					henüz kullanıma açılmamıştır; açıldığında bu metin güncellenecek ve
-					değişiklik size bildirilecektir.
+					Çözdüğünüz sorular, doğru/yanlış sayılarınız, konu ilerlemeniz, deneme
+					sınavı sonuçlarınız, tekrar planınız, yer imleriniz, çalışma
+					ayarlarınız ve gönderdiğiniz hata bildirimleri &ldquo;çalışma
+					verisi&rdquo;dir.
+				</p>
+				<ul>
+					<li>
+						<strong>Hesap açmadığınızda</strong> bu veriler yalnızca cihazınızın
+						tarayıcı deposunda tutulur, sunucuya hiç gönderilmez.
+					</li>
+					<li>
+						<strong>Hesap açtığınızda</strong> aynı veriler, cihazlarınız
+						arasında eşitlenebilmesi ve cihazınızı kaybettiğinizde
+						kaybolmaması için hesabınıza bağlı olarak sunucuda da saklanır.
+						Eşitleme; giriş yaptığınızda, çıkış yaptığınızda, uygulamayı
+						açtığınızda ve &ldquo;Şimdi eşitle&rdquo; düğmesine bastığınızda
+						çalışır.
+					</li>
+				</ul>
+				<p>
+					Sunucudaki satırlar yalnızca sizin hesabınızla okunabilir; veri
+					tabanında her satır kullanıcı kimliğine bağlı erişim kurallarıyla
+					korunur. Bu veriler <strong>reklam veya profilleme amacıyla
+					kullanılmaz</strong> ve üçüncü kişilerle paylaşılmaz.
+				</p>
+				<p>
+					Eşitleme <strong>hesaba bağlıdır ve isteğe bağlıdır</strong>: hesap
+					açmadığınız sürece çalışma verileriniz cihazınızdan çıkmaz. Çıkış
+					yaptığınızda veriler cihazınızda kalmaya devam eder.
 				</p>
 
 				<h2>3. Verileriniz hangi amaçla işleniyor?</h2>
@@ -185,6 +216,10 @@ export default function PrivacyPage() {
 					<li>
 						Hesap güvenliğini sağlamak; yetkisiz erişim denemelerini tespit
 						etmek.
+					</li>
+					<li>
+						Hesap açtıysanız çalışma verilerinizi cihazlarınız arasında
+						eşitlemek ve cihaz kaybına karşı yedeklemek.
 					</li>
 					<li>
 						KVKK kapsamındaki başvurularınıza cevap vermek ve yasal
@@ -266,6 +301,10 @@ export default function PrivacyPage() {
 					<li>
 						<strong>Giriş kayıtları:</strong> güvenlik amacıyla sınırlı bir süre
 						tutulur ve süre sonunda otomatik olarak silinir.
+					</li>
+					<li>
+						<strong>Sunucudaki çalışma verileriniz:</strong> hesabınız açık
+						kaldığı sürece. Hesabınızı sildirdiğinizde bu satırlar da silinir.
 					</li>
 					<li>
 						Mevzuatın daha uzun bir saklama süresi öngördüğü hâllerde, o süre
@@ -356,9 +395,14 @@ export default function PrivacyPage() {
 				<p>
 					Uygulamanın işleyişi veya mevzuat değiştiğinde bu metin güncellenir.
 					Güncelleme tarihi sayfanın başında yazar. Yeni bir veri işleme
-					faaliyeti başlamadan <em>önce</em> bilgilendirme yapılır — özellikle
-					çoklu cihaz senkronu açıldığında, çalışma verilerinizin sunucuya
-					gönderilmeye başlanması bu kapsamdadır.
+					faaliyeti başlamadan <em>önce</em> bilgilendirme yapılır.
+				</p>
+				<p>
+					<strong>Son değişiklik:</strong> çoklu cihaz eşitlemesi kullanıma
+					açıldı. Hesap açan kullanıcıların çalışma verileri, artık cihazlar
+					arasında eşitlenmek üzere hesaba bağlı olarak sunucuda da saklanıyor
+					(bkz. 2. bölüm). Hesap açmayan kullanıcılar için değişen bir şey yok:
+					verileri cihazlarından çıkmıyor.
 				</p>
 			</div>
 		</div>

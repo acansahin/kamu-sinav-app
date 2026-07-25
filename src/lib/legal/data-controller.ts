@@ -50,4 +50,4 @@ export function isDataControllerComplete(
  * okuduğu metnin ne kadar güncel olduğunu görebilmeli. Metin her
  * değiştiğinde burası da güncellenir.
  */
-export const PRIVACY_NOTICE_UPDATED_AT = "2026-07-23";
+export const PRIVACY_NOTICE_UPDATED_AT = "2026-07-24";

@@ -29,6 +29,7 @@ const SAYFALAR = [
 	{ ad: "Ayarlar", yol: "/ayarlar/" },
 	{ ad: "Hesap", yol: "/hesap/" },
 	{ ad: "Kişisel verilerin korunması", yol: "/gizlilik/" },
+	{ ad: "Hakkında", yol: "/hakkinda/" },
 ];
 
 for (const { ad, yol } of SAYFALAR) {
