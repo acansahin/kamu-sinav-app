@@ -6,6 +6,7 @@
     "content:build": "tsx scripts/build-content.ts",
     "review:export": "npm run content:build && tsx scripts/export-review.ts",
     "verify:plan": "npm run content:build && tsx scripts/verify-plan.ts",
+    "ingest:past-exam": "tsx scripts/ingest-past-exam.ts",
     "predev": "npm run content:build",
     "dev": "next dev",
     "prebuild": "npm run content:build",
@@ -61,6 +62,7 @@
     "tailwindcss": "^4",
     "tsx": "^4.23.1",
     "typescript": "^5",
+    "unpdf": "^1.8.0",
     "vitest": "^4.1.10"
   }
 }
