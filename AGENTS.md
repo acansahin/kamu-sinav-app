@@ -102,6 +102,24 @@ Bunlar ürünün farklılaşma tezidir (PROJECT_PLAN.md §4); şema düzeyinde z
 - ❌ Özel yayınevlerinin ve ücretli platformların soru bankaları — **kopyalanamaz, kazınamaz.**
 - ❌ Kaynağı doğrulanamayan derlemeler — `license: "unknown"` kalır, yayımlanamaz.
 
+### Çıkmış sınav ithal hattı
+
+`npm run ingest:past-exam` **yalnızca** yukarıdaki ilk maddeyi otomatikleştirir:
+kamu kurumunun kendi sitesinde yayımladığı bir soru kitapçığı + cevap anahtarı
+(PDF) → aday soru JSON. Betik PDF'i çıkarır, soruları anahtarla eşler ve üç
+dersimize (`657-dmk`, `anayasa`, `etik`) göre sınıflandırır; saf mantık
+`scripts/ingest/` altında ve testlidir (`tests/unit/ingest-past-exam.test.ts`).
+
+Çıktı **yayımlanabilir içerik DEĞİLDİR, inceleme kuyruğudur**: her adayın
+`difficulty`, `legalRef` ve `explanation`'ı boştur. Bunlar resmî kaynakta
+bulunmaz; bir editör (Faz 5'te AI-destekli, yine onaylı) doldurup adayı
+`content/subjects/**` altına taşımadan `content:build`'den geçmez. Yani hat
+mekanik işi (çıkarım, eşleştirme, sınıflandırma) otomatikleştirir; telif ve
+kalite güvencesi olan editoryal adım insanda kalır.
+
+Kullanım ve emsal kaynaklar (MEB ÖDSGM, Sayıştay vb.) için `scripts/ingest-past-exam.ts`
+başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmayın.
+
 ## Mimari kuralları
 
 - **Dexie'ye doğrudan dokunulmaz.** Tüm ilerleme verisi
