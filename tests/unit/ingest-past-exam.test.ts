@@ -400,6 +400,27 @@ describe("classify", () => {
 		).toEqual({ subjectId: "etik", topicId: "etik/etik-kurul-ve-mevzuat" });
 	});
 
+	it("mevzuat atfı olmayan 'etik kavramları' sorusunu etik'e koyar", () => {
+		// Gerçek MEB Şube Müdürü sorusu: 5176/etik kurul demeden "etik kavramları".
+		expect(
+			classify(
+				"“…standartlardır.” ifadesi aşağıdaki etik kavramlarından hangisi ile ilişkilidir?",
+			).subjectId,
+		).toBe("etik");
+	});
+
+	it("çekimli 'etiği' biçimini de (foldlanınca 'etigi') etik sayar", () => {
+		expect(classify("Kamu görevlileri etiği ile ilgili aşağıdakilerden hangisi?").subjectId).toBe(
+			"etik",
+		);
+	});
+
+	it("'etiket' ve '-etik' ekli sözcükleri etik SANMAZ", () => {
+		// "etiket" (?!et) ile, "estetik/sentetik" \b sözcük sınırıyla elenmeli.
+		expect(classify("Ürün üzerindeki fiyat etiketi nasıl okunur?").subjectId).toBeNull();
+		expect(classify("Estetik ve sentetik malzemelerin farkı nedir?").subjectId).toBeNull();
+	});
+
 	it("Disiplin Yönetmeliği sorusunu 657 disiplin konusuna bağlar", () => {
 		expect(
 			classify("Devlet Memurları Disiplin Yönetmeliği uyarınca belediyeler..."),
