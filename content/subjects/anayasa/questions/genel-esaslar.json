@@ -529,38 +529,6 @@
 		"updatedAt": "2026-07-26"
 	},
 	{
-		"id": "meb-ic21-q008",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "orta",
-		"stem": "Türkiye'nin ilk anayasası olan Teşkilat-ı Esasiye Kanunu aşağıdaki savaşların hangisinin sonunda kabul edilmiştir?",
-		"options": [
-			"I. İnönü Muharebesi",
-			"II. İnönü Muharebesi",
-			"Kütahya - Eskişehir Muharebesi",
-			"Sakarya Meydan Muharebesi"
-		],
-		"correctIndex": 0,
-		"explanation": "Türkiye'nin ilk anayasası olan 1921 Teşkilât-ı Esasiye Kanunu, I. İnönü Muharebesi'nin kazanılmasının ardından 20 Ocak 1921'de kabul edilmiştir. Askerî başarının sağladığı siyasi güç, Büyük Millet Meclisinin anayasal düzeni kurumsallaştırmasına imkân vermiştir.",
-		"legalRef": {
-			"law": "1921 Teşkilât-ı Esasiye Kanunu (Türkiye'nin ilk Anayasası)"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2021",
-			"year": 2021,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171238_7_YEF_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"anayasa-tarihi",
-			"1921"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
 		"id": "meb-sef23-q024",
 		"subjectId": "anayasa",
 		"topicId": "anayasa/genel-esaslar",

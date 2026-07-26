@@ -560,40 +560,6 @@
 		"updatedAt": "2026-07-26"
 	},
 	{
-		"id": "meb-sm26-q011",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "İnsan hakları düşüncesinin tarihsel gelişim sürecine bakıldığında önemli dönüm noktalarının olduğu görülür. 1215'lerde İngiltere'de hüküm süren krallık döneminde kralın bazı yetkilerinden feragat ederek kanunlara uygun davranması ve hukukun, kralın arzu ve isteklerinden daha üstün olduğunu kabul etmesi bu dönüm noktalarından biridir. Bir diğer dönüm noktası olarak insanın doğuştan gelen doğal haklarını beyan etmek üzere kongre delegelerinin oy birliği ile 1776'da kabul edilen ve Amerikan Anayasası'nın temellerini oluşturan belge örnek gösterilebilir. 1789'da Fransa Ulusal Meclisinde kabul edildikten sonra 1791'de Fransız Anayasası'na ön söz olarak eklenen, tüm insanların hak ve özgürlüklerine vurgu yaparak insan hakları düşüncesinin artık doğal hukukun vazgeçilmez bir parçası olduğunu savunan belgenin Avrupa'nın sosyal ve siyasal yapısında köklü değişimlerin yaşanmasına yol açması da bir diğer önemli dönüm noktası olmuştur. İkinci Dünya Savaşı boyunca yaşanan katliamlara karşı insanlık vicdanının ve birikiminin bir sonucu olarak 1948'de Birleşmiş Milletler Örgütü tarafından hazırlanan evrensel nitelikli belge de yine aynı şekilde insan hakları düşüncesinin gelişiminde büyük bir öneme sahip olmuştur. Bu metinde, insan hakları düşüncesinin gelişimine katkı sunan aşağıdaki belgelerden hangisine yer verilmemiştir?",
-		"options": [
-			"İnsan Hakları Evrensel Bildirgesi",
-			"Büyük Özgürlük Fermanı",
-			"Virginia İnsan Hakları Bildirgesi",
-			"İngiliz Haklar Beyannamesi",
-			"İnsan ve Yurttaş Hakları Beyannamesi"
-		],
-		"correctIndex": 3,
-		"explanation": "Metinde 1215 Magna Carta (Büyük Özgürlük Fermanı), 1776 Virginia İnsan Hakları Bildirgesi, 1789 İnsan ve Yurttaş Hakları Beyannamesi ve 1948 İnsan Hakları Evrensel Bildirgesi anlatılmaktadır. 1689 tarihli İngiliz Haklar Beyannamesi (Bill of Rights) ise metinde anılan dönüm noktaları arasında yer almamaktadır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Şube Müdürü Görevde Yükselme Sınavı A Kitapçığı, 2026",
-			"year": 2026,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2026_02/69899a10ca3ec941629998_SUBE_MUDURU_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"insan-haklari-tarihi",
-			"kavram"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
 		"id": "meb-sm26-q023",
 		"subjectId": "anayasa",
 		"topicId": "anayasa/temel-hak-ve-odevler",
