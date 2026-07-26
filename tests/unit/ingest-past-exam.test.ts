@@ -274,6 +274,49 @@ describe("parseBooklet", () => {
 		expect(qs[2]?.options).toEqual(["i", "j", "k", "l"]);
 	});
 
+	it("sık tekrarlanan GÖVDE satırını üstbilgi sanıp elemez", () => {
+		// Gerçek kaçak: "yanlıştır?" bir kitapçıkta onlarca soruda kendi satırına
+		// sarar ve sıklık eşiğini rahat aşar. Elenirse soru ANLAM OLARAK TERSİNE
+		// döner ("hangisi yanlıştır?" → "hangisi?"), üstelik sessizce: gövde
+		// dilbilgisel görünmeye devam eder. Üstbilgiden ayıran şey mixed-case
+		// olmasıdır; sıklık tek başına ölçüt olamaz.
+		const tail = "yanlıştır?";
+		const lines: string[] = [];
+		for (let i = 1; i <= 6; i += 1) {
+			lines.push(`${i}. Devlet memurları ile ilgili aşağıdakilerden hangisi`);
+			lines.push(tail);
+			lines.push("A) a B) b C) c D) d");
+		}
+		const qs = parseBooklet(lines.join("\n"));
+
+		expect(qs).toHaveLength(6);
+		for (const q of qs) {
+			expect(q.stem).toContain("yanlıştır?");
+			expect(q.parseOk).toBe(true);
+		}
+	});
+
+	it("gövde ortasındaki sık tekrarlı sarma satırını düşürmez", () => {
+		// TMO 2015 kalıbı: uzun kanun adı hecelenerek sarar ("...Kanun Hük-") ve
+		// aynı kanuna atıf yapan 10 soruda birebir tekrarlar. Bu satır gövdenin
+		// ORTASINDADIR — sonu "?" ile bitme sezgisiyle yakalanamaz, sessizce düşer.
+		const wrap = "Rejiminin Düzenlenmesine Dair Kanun Hük-";
+		const lines: string[] = [];
+		for (let i = 1; i <= 6; i += 1) {
+			lines.push(`${i}. 399 sayılı Kamu İktisadi Teşebbüsleri Personel`);
+			lines.push(wrap);
+			lines.push("münde Kararname’ye göre aşağıdakilerden hangisidir?");
+			lines.push("A) a B) b C) c D) d");
+		}
+		const qs = parseBooklet(lines.join("\n"));
+
+		expect(qs).toHaveLength(6);
+		expect(qs[0]?.stem).toBe(
+			"399 sayılı Kamu İktisadi Teşebbüsleri Personel Rejiminin Düzenlenmesine " +
+				"Dair Kanun Hük- münde Kararname’ye göre aşağıdakilerden hangisidir?",
+		);
+	});
+
 	it("tek maddelik önsözden sonra ilk soruyu (restart olmadan, şıkla) yakalar", () => {
 		// Önsöz tek maddeyse numara küçülmez; soru bölgesi ilk şıkla açılmalı.
 		const text = [

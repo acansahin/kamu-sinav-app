@@ -23,7 +23,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["hediye", "istisna"],
+		"tags": [
+			"hediye",
+			"istisna"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -52,7 +55,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["mal-bildirimi", "sure"],
+		"tags": [
+			"mal-bildirimi",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -82,7 +88,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-29", "kapsam"],
+		"tags": [
+			"madde-29",
+			"kapsam"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -110,7 +119,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["cikar-catismasi", "tanim"],
+		"tags": [
+			"cikar-catismasi",
+			"tanim"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -138,7 +150,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["hediye", "olcut"],
+		"tags": [
+			"hediye",
+			"olcut"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -167,7 +182,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kurul", "hediye"],
+		"tags": [
+			"kurul",
+			"hediye"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -195,7 +213,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["hediye", "uygulama"],
+		"tags": [
+			"hediye",
+			"uygulama"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -223,7 +244,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["hediye", "kredi", "tuzak"],
+		"tags": [
+			"hediye",
+			"kredi",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -251,7 +276,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["cikar-catismasi", "yukumluluk"],
+		"tags": [
+			"cikar-catismasi",
+			"yukumluluk"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -279,7 +307,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["cikar-catismasi", "senaryo"],
+		"tags": [
+			"cikar-catismasi",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -307,7 +338,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["hediye", "senaryo", "tuzak"],
+		"tags": [
+			"hediye",
+			"senaryo",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -335,8 +370,43 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["hediye", "tuzak"],
+		"tags": [
+			"hediye",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "meb-adl23-q034",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik'e göre; \"Kamu görevlilerinin; yetkilerini kullanarak, kendilerine, yakınlarına, arkadaşlarına ya da ilişkide bulunduğu kişi ya da kuruluşlara çıkar sağlamaması, resmî veya gizli nitelikteki bilgileri, kendilerine, yakınlarına veya üçüncü kişilere doğrudan veya dolaylı olarak ekonomik, siyasal veya sosyal nitelikte bir çıkar sağlamak için kullanmaması\" ifadesi aşağıdaki maddelerin daha çok hangisiyle ilgilidir?",
+		"options": [
+			"Saygınlık ve güven",
+			"Görev ve yetkilerin menfaat sağlamak amacıyla kullanılmaması",
+			"Bilgi verme, saydamlık ve katılımcılık",
+			"Hediye alma ve menfaat sağlama yasağı",
+			"Dürüstlük ve tarafsızlık"
+		],
+		"correctIndex": 1,
+		"explanation": "Alıntılanan hüküm, kamu görevlisinin elindeki yetkiyi ve sahip olduğu resmî ya da gizli bilgiyi kendisine veya yakınlarına çıkar sağlamak için kullanmasını yasaklar; bu, görev ve yetkilerin menfaat sağlamak amacıyla kullanılmaması ilkesidir. Hediye alma ve menfaat sağlama yasağı dışarıdan sunulan hediye ve menfaatleri, bilgi verme ve saydamlık ise bilgiye erişimi düzenler.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yetki-istismari"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

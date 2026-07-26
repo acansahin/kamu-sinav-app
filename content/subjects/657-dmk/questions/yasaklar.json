@@ -25,7 +25,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["sendika", "grev"],
+		"tags": [
+			"sendika",
+			"grev"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -35,7 +38,12 @@
 		"topicId": "657-dmk/yasaklar",
 		"difficulty": "kolay",
 		"stem": "Eşi veya reşit olmayan çocuğu, memurlar için yasaklanan faaliyetlerde bulunan bir memur bu durumu kaç gün içinde kurumuna bildirmelidir?",
-		"options": ["7 gün", "15 gün", "30 gün", "60 gün"],
+		"options": [
+			"7 gün",
+			"15 gün",
+			"30 gün",
+			"60 gün"
+		],
 		"correctIndex": 1,
 		"explanation": "Madde 28'e göre eşleri, reşit olmayan veya mahcur olan çocukları yasaklanan faaliyetlerde bulunan memurlar bu durumu 15 gün içinde bağlı oldukları kuruma bildirmekle yükümlüdürler.",
 		"legalRef": {
@@ -50,7 +58,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["ticaret-yasagi", "sure"],
+		"tags": [
+			"ticaret-yasagi",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -60,7 +71,12 @@
 		"topicId": "657-dmk/yasaklar",
 		"difficulty": "kolay",
 		"stem": "657 sayılı Kanun'da düzenlenen yasaklar kaç tanedir?",
-		"options": ["4", "5", "6", "8"],
+		"options": [
+			"4",
+			"5",
+			"6",
+			"8"
+		],
 		"correctIndex": 2,
 		"explanation": "Kanun'un 26 ile 31. maddeleri arasında altı yasak düzenlenir: toplu eylem ve hareketlerde bulunma, grev, ticaret ve diğer kazanç getirici faaliyetlerde bulunma, hediye alma ve menfaat sağlama, denetimindeki teşebbüsten menfaat sağlama, gizli bilgileri açıklama.",
 		"legalRef": {
@@ -75,7 +91,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["sayi"],
+		"tags": [
+			"sayi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -105,7 +123,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-31", "gizlilik"],
+		"tags": [
+			"madde-31",
+			"gizlilik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -135,7 +156,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["ticaret-yasagi", "istisna"],
+		"tags": [
+			"ticaret-yasagi",
+			"istisna"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -165,7 +189,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-30", "menfaat"],
+		"tags": [
+			"madde-30",
+			"menfaat"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -195,7 +222,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["ticaret-yasagi", "tuzak"],
+		"tags": [
+			"ticaret-yasagi",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -225,7 +255,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["grev", "kapsam"],
+		"tags": [
+			"grev",
+			"kapsam"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -255,7 +288,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-26", "ayirim"],
+		"tags": [
+			"madde-26",
+			"ayirim"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -285,7 +321,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["madde-31", "senaryo"],
+		"tags": [
+			"madde-31",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -315,7 +354,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["ticaret-yasagi", "senaryo"],
+		"tags": [
+			"ticaret-yasagi",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -345,8 +387,43 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["tuzak"],
+		"tags": [
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "meb-tmo15-q003",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre devlet memurları ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Greve katılabilirler.",
+			"Sendikaya üye olabilirler.",
+			"Mal bildiriminde bulunmalıdırlar.",
+			"Müracaat, şikâyet ve dava açma haklarına sahiptirler."
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 27. maddesine göre Devlet memurlarının greve karar vermeleri, grev tertiplemeleri, ilan etmeleri, bu yolda propaganda yapmaları ve greve katılmaları yasaktır. Sendikaya üye olma, mal bildiriminde bulunma ile müracaat, şikâyet ve dava açma ise Kanun'un tanıdığı hak ve ödevlerdir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "27"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Toprak Mahsulleri Ofisi Görevde Yükselme Sınavı (Şef/Personel) A Kitapçığı, 2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2015_06/04014638_10_sefpersonel.a.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"grev-yasagi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

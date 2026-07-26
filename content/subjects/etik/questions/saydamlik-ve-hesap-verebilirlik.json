@@ -5,7 +5,12 @@
 		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
 		"difficulty": "kolay",
 		"stem": "4982 sayılı Kanun'a göre kurum ve kuruluşlar, bilgi edinme başvurusu üzerine istenen bilgi veya belgeye erişimi kural olarak kaç iş günü içinde sağlar?",
-		"options": ["7 iş günü", "15 iş günü", "30 iş günü", "60 iş günü"],
+		"options": [
+			"7 iş günü",
+			"15 iş günü",
+			"30 iş günü",
+			"60 iş günü"
+		],
 		"correctIndex": 1,
 		"explanation": "4982 sayılı Bilgi Edinme Hakkı Kanunu'na göre kurum ve kuruluşlar, başvuru üzerine istenen bilgi veya belgeye erişimi on beş iş günü içinde sağlarlar. Otuz iş günlük süre yalnızca bilginin başka birimden sağlanması, başka kurumun görüşünün gerekmesi veya başvurunun birden fazla kurumu ilgilendirmesi hâlinde uygulanan istisnadır.",
 		"legalRef": {
@@ -19,7 +24,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["bilgi-edinme", "sure"],
+		"tags": [
+			"bilgi-edinme",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -29,7 +37,12 @@
 		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
 		"difficulty": "kolay",
 		"stem": "Bilgi edinme istemi reddedilen başvuru sahibi, kararın tebliğinden itibaren kaç gün içinde Bilgi Edinme Değerlendirme Kuruluna itiraz edebilir?",
-		"options": ["7 gün", "15 gün", "30 gün", "60 gün"],
+		"options": [
+			"7 gün",
+			"15 gün",
+			"30 gün",
+			"60 gün"
+		],
 		"correctIndex": 1,
 		"explanation": "4982 sayılı Kanun'a göre bilgi edinme istemi reddedilen başvuru sahibi, yargı yoluna başvurmadan önce kararın tebliğinden itibaren on beş gün içinde Bilgi Edinme Değerlendirme Kuruluna itiraz edebilir. Bu itiraz, idari yargıya başvurma süresini durdurur.",
 		"legalRef": {
@@ -43,7 +56,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["itiraz", "sure"],
+		"tags": [
+			"itiraz",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -73,7 +89,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kamu-denetciligi"],
+		"tags": [
+			"kamu-denetciligi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -83,7 +101,12 @@
 		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
 		"difficulty": "orta",
 		"stem": "Bilgi edinme başvurusunda istenen bilginin başka bir kurumun görüşünün alınmasını gerektirmesi hâlinde erişim süresi kaç iş günüdür?",
-		"options": ["15 iş günü", "20 iş günü", "30 iş günü", "60 iş günü"],
+		"options": [
+			"15 iş günü",
+			"20 iş günü",
+			"30 iş günü",
+			"60 iş günü"
+		],
 		"correctIndex": 2,
 		"explanation": "İstenen bilgi veya belgenin başvurulan kurum içindeki başka bir birimden sağlanması, başka bir kurumun görüşünün alınmasının gerekmesi veya başvuru içeriğinin birden fazla kurumu ilgilendirmesi durumlarında bilgi veya belgeye erişim otuz iş günü içinde sağlanır. Bu, on beş iş günlük genel kuralın istisnasıdır.",
 		"legalRef": {
@@ -97,7 +120,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["bilgi-edinme", "istisna"],
+		"tags": [
+			"bilgi-edinme",
+			"istisna"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -126,7 +152,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["itiraz", "yargi"],
+		"tags": [
+			"itiraz",
+			"yargi"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -154,7 +183,9 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["hesap-verebilirlik"],
+		"tags": [
+			"hesap-verebilirlik"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -164,7 +195,12 @@
 		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
 		"difficulty": "zor",
 		"stem": "Bilgi Edinme Değerlendirme Kurulu, önüne gelen itiraz hakkında kararını kaç iş günü içinde verir?",
-		"options": ["15 iş günü", "30 iş günü", "45 iş günü", "60 iş günü"],
+		"options": [
+			"15 iş günü",
+			"30 iş günü",
+			"45 iş günü",
+			"60 iş günü"
+		],
 		"correctIndex": 1,
 		"explanation": "4982 sayılı Kanun'a göre Kurul, itiraz konusundaki kararını otuz iş günü içinde verir. Ayrıca kurum ve kuruluşlar, Kurulun istediği her türlü bilgi veya belgeyi on beş iş günü içinde vermekle yükümlüdürler.",
 		"legalRef": {
@@ -178,7 +214,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["kurul", "sure"],
+		"tags": [
+			"kurul",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -207,7 +246,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["bilgi-edinme", "yabanci"],
+		"tags": [
+			"bilgi-edinme",
+			"yabanci"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -236,7 +278,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["zimni-ret", "sure"],
+		"tags": [
+			"zimni-ret",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -265,7 +310,11 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["itiraz", "senaryo", "tuzak"],
+		"tags": [
+			"itiraz",
+			"senaryo",
+			"tuzak"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -294,7 +343,10 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["bilgi-edinme", "senaryo"],
+		"tags": [
+			"bilgi-edinme",
+			"senaryo"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
 	},
@@ -323,8 +375,45 @@
 			"license": "own-work"
 		},
 		"status": "published",
-		"tags": ["tuzak", "sure"],
+		"tags": [
+			"tuzak",
+			"sure"
+		],
 		"version": 1,
 		"updatedAt": "2026-07-21"
+	},
+	{
+		"id": "meb-adl23-q033",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "orta",
+		"stem": "Tüm kamu görevlileri, kamu hizmetlerinin yerine getirilmesi sırasında sorumluluk alanlarıyla ilgili konuları cevaplayabilmeli, rapor edebilmeli ve açıklayabilmelidir. Yükümlülüklerini üstlenip kamusal değerlendirme ve muhakemeye her zaman açık ve hazır olmalıdırlar. Bu ifade, aşağıdaki etik davranış ilkelerinden daha çok hangisiyle ilgilidir?",
+		"options": [
+			"Tarafsızlık",
+			"Hukukilik",
+			"Dürüstlük",
+			"Nesnellik",
+			"Hesap verebilirlik"
+		],
+		"correctIndex": 4,
+		"explanation": "Sorumluluk alanıyla ilgili konularda cevap verebilme, rapor edebilme ve kamusal değerlendirmeye açık olma, hesap verebilirlik ilkesinin tanımıdır. Tarafsızlık ayrım gözetmemeyi, dürüstlük gerçeğe uygun davranmayı, nesnellik ise kişisel yargılardan arınmayı ifade eder; hesap verebilirlik bunlardan farklı olarak yapılan iş ve işlemlerin gerekçesini açıklayabilmeyi gerektirir.",
+		"legalRef": {
+			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
+			"lawId": "5176",
+			"article": "1"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"hesap-verebilirlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]
