@@ -4,6 +4,7 @@ import { classify } from "../../scripts/ingest/classify";
 import { dedupeCandidates } from "../../scripts/ingest/dedupe";
 import { parseBooklet } from "../../scripts/ingest/parse-booklet";
 import { parseKey } from "../../scripts/ingest/parse-key";
+import { type PoolQuestion, splitByPool } from "../../scripts/ingest/pool";
 import { splitBookletAndKey } from "../../scripts/ingest/split-booklet";
 import type { CandidateQuestion } from "../../scripts/ingest/types";
 
@@ -624,5 +625,65 @@ describe("dedupeCandidates", () => {
 		expect(unique).toHaveLength(2);
 		expect(duplicatesRemoved).toBe(0);
 		expect(unique.map((c) => c.number)).toEqual([1, 2]);
+	});
+});
+
+describe("splitByPool", () => {
+	const candidate = (number: number, stem: string, options: string[]): CandidateQuestion => ({
+		number,
+		subjectId: "657-dmk",
+		topicId: null,
+		difficulty: null,
+		stem,
+		options,
+		correctIndex: 0,
+		legalRef: null,
+		explanation: null,
+		source: { kind: "official-past-exam", origin: "kaynak", license: "public-official" },
+		status: "draft",
+	});
+
+	const pooled = (id: string, stem: string, options: string[]): PoolQuestion => ({
+		id,
+		stem,
+		options,
+		correctIndex: 0,
+		status: "review",
+	});
+
+	it("havuzda birebir karşılığı olan adayı düşer ve eşleştiği soruyu bildirir", () => {
+		const { fresh, alreadyInPool } = splitByPool(
+			[candidate(82, "Eşinin kardeşi ölen memura kaç gün izin verilir?", ["Beş", "Yedi"])],
+			[pooled("meb-dan19m-q013", "Eşinin kardeşi ölen memura kaç gün izin verilir?", ["Beş", "Yedi"])],
+		);
+
+		expect(fresh).toEqual([]);
+		expect(alreadyInPool).toHaveLength(1);
+		expect(alreadyInPool[0].poolId).toBe("meb-dan19m-q013");
+	});
+
+	it("şıkları karıştırılmış aynı soruyu da havuzda bulur", () => {
+		// Kitapçıklar arası şık karıştırması dedupeKey'de sıralanarak yutulur.
+		const { fresh } = splitByPool(
+			[candidate(82, "Aynı gövde?", ["Yedi", "Beş"])],
+			[pooled("havuzdaki", "Aynı gövde?", ["Beş", "Yedi"])],
+		);
+
+		expect(fresh).toEqual([]);
+	});
+
+	it("gövdesi aynı ama şık kümesi farklı adayı yeni sayar — karar editörün", () => {
+		const { fresh, alreadyInPool } = splitByPool(
+			[candidate(82, "Aynı gövde?", ["Beş", "Altı"])],
+			[pooled("havuzdaki", "Aynı gövde?", ["Beş", "Yedi"])],
+		);
+
+		expect(fresh).toHaveLength(1);
+		expect(alreadyInPool).toEqual([]);
+	});
+
+	it("boş havuzda her adayı yeni sayar — depo okunamazsa ithal durmamalı", () => {
+		const { fresh } = splitByPool([candidate(1, "Herhangi bir soru?", ["a", "b"])], []);
+		expect(fresh).toHaveLength(1);
 	});
 });

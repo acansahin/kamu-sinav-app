@@ -83,6 +83,14 @@ content/subjects/<dersId>/
 Betik ayrıca kapsam raporu basar: konu başına soru sayısı, zorluk dağılımı, eksik özetler.
 Uyarılar build'i kırmaz ama içerik yol haritanızdır.
 
+Raporun sonunda **yakın-tekrar listesi** vardır (`scripts/near-duplicates.ts`): gövdeleri
+birbirine benzeyen soru çiftleri, doğru cevaplarıyla birlikte. Aynı resmî soru farklı
+kitapçıklarda birkaç kelimesi ve şık sayısı değişerek yayımlandığı için ithal hattının
+birebir tekilleştirmesi bunları kaçırır. Liste bilinçli olarak uyarıdır, hata değil:
+gövdesi neredeyse aynı iki soru farklı hükmü ölçüyor olabilir (657 md.77'de "on yıl" ve
+"yirmi bir yıl" gibi). Ölçüt gövde değil, **test edilen hükümdür**; aynı hükmü ölçen
+çiftlerden biri havuzdan çıkarılır, şık sayısı farklıysa 5 şıklı olan tutulur.
+
 ### Değiştirilemez içerik kuralları
 
 Bunlar ürünün farklılaşma tezidir (PROJECT_PLAN.md §4); şema düzeyinde zorunludur:
@@ -109,6 +117,12 @@ kamu kurumunun kendi sitesinde yayımladığı bir soru kitapçığı + cevap an
 (PDF) → aday soru JSON. Betik PDF'i çıkarır, soruları anahtarla eşler ve üç
 dersimize (`657-dmk`, `anayasa`, `etik`) göre sınıflandırır; saf mantık
 `scripts/ingest/` altında ve testlidir (`tests/unit/ingest-past-exam.test.ts`).
+
+Hat, yazmadan önce adayları **mevcut havuza karşı eler** (`scripts/ingest/pool.ts`):
+`content/subjects/**` altında birebir karşılığı olan aday (aynı gövde + aynı şık
+kümesi, şıklar karışık olsa da) sessizce düşülür; yakın olanlar tutulup uyarı
+listesine girer. Bu olmadan ikinci bir kitapçık partisi ilk partide alınmış soruları
+yeniden inceleme kuyruğuna sokuyordu.
 
 Çıktı **yayımlanabilir içerik DEĞİLDİR, inceleme kuyruğudur**: her adayın
 `difficulty`, `legalRef` ve `explanation`'ı boştur. Bunlar resmî kaynakta

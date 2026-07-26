@@ -28,6 +28,7 @@ import {
 	summaryFrontmatterSchema,
 } from "../src/types/content";
 import type { SearchEntry } from "../src/types/search";
+import { type ComparableQuestion, findNearDuplicates, formatPair } from "./near-duplicates";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const CONTENT_DIR = path.join(ROOT, "content");
@@ -493,6 +494,29 @@ async function main(): Promise<void> {
 		`\n  Toplam: ${manifest.totals.subjects} ders · ${manifest.totals.topics} konu · ` +
 			`${manifest.totals.publishedQuestions} yayımlanmış soru\n`,
 	);
+
+	// --- Yakın-tekrar raporu -------------------------------------------------
+	//
+	// Havuzun TAMAMI taranır (draft/review dâhil): tekrar, soru yayına alınmadan
+	// önce yakalanmalı. Ayıklama makineye bırakılmaz — bkz. near-duplicates.ts.
+	const allQuestions: ComparableQuestion[] = bundles.flatMap((bundle) =>
+		[...bundle.questionsByTopic.values()].flat(),
+	);
+	const nearDuplicates = findNearDuplicates(allQuestions);
+
+	if (nearDuplicates.length > 0) {
+		console.log(
+			`  ${nearDuplicates.length} yakın-tekrar çifti — aynı hükmü ölçüyorlarsa biri havuzdan çıkarılmalı:`,
+		);
+		for (const pair of nearDuplicates) {
+			for (const line of formatPair(pair)) console.log(`    ${line}`);
+		}
+		console.log("");
+		warn(
+			"havuz",
+			`${nearDuplicates.length} yakın-tekrar çifti var (ayrıntı yukarıda) — farklı hükmü ölçüyorlarsa yok sayın`,
+		);
+	}
 
 	if (warnings.length > 0) {
 		console.log(`  ${warnings.length} uyarı:`);

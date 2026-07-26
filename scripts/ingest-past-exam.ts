@@ -40,8 +40,10 @@ import { assemble } from "./ingest/assemble";
 import { dedupeCandidates } from "./ingest/dedupe";
 import { parseBooklet } from "./ingest/parse-booklet";
 import { parseKey } from "./ingest/parse-key";
+import { type PoolQuestion, loadPoolQuestions, splitByPool } from "./ingest/pool";
 import { splitBookletAndKey } from "./ingest/split-booklet";
 import type { CandidateQuestion, CoverageReport } from "./ingest/types";
+import { findNearDuplicatesAgainst, formatPair } from "./near-duplicates";
 
 /** Manifest kaydı — tek bir kaynak kitapçığın kimliği ve dosyaları. */
 interface SourceEntry {
@@ -123,6 +125,76 @@ async function ingestSource(
 	});
 }
 
+/**
+ * Rapor için okunur kimlik: soru numarası + hangi kitapçıktan geldiği.
+ *
+ * Çoklu ithalde numara tek başına belirsizdir. Kökenin AYIRT EDİCİ parçası
+ * genelde parantez içindeki unvandır ("… Görevde Yükselme Sınavı (Şef) A
+ * Kitapçığı"); köken dizesini baştan kırpmak hepsini aynı gösterirdi.
+ */
+function candidateLabel(candidate: CandidateQuestion): string {
+	const { origin, year } = candidate.source;
+	const title = /\(([^)]+)\)/.exec(origin)?.[1] ?? origin.slice(0, 24);
+	return `#${candidate.number} ${title}${year === undefined ? "" : ` ${year}`}`;
+}
+
+/**
+ * Adayları MEVCUT havuza karşı eler.
+ *
+ * Birebir eşleşenler düşülür (kesin tekrar), yakın olanlar tutulup uyarı olarak
+ * basılır (karar hüküm düzeyinde, insanda). `content/subjects` okunamazsa adım
+ * atlanır: ithal, deponun durumuna bağımlı hâle getirilmemeli.
+ */
+async function screenAgainstPool(
+	candidates: readonly CandidateQuestion[],
+): Promise<CandidateQuestion[]> {
+	const subjectsDir = path.join(import.meta.dirname, "..", "content", "subjects");
+	let pool: PoolQuestion[];
+	try {
+		pool = await loadPoolQuestions(subjectsDir);
+	} catch (error) {
+		console.warn(
+			`⚠ Havuz okunamadı, karşılaştırma atlandı: ${error instanceof Error ? error.message : String(error)}`,
+		);
+		return [...candidates];
+	}
+	if (pool.length === 0) {
+		console.warn("⚠ content/subjects altında soru bulunamadı; havuz karşılaştırması atlandı.");
+		return [...candidates];
+	}
+
+	const { fresh, alreadyInPool } = splitByPool(candidates, pool);
+
+	console.log(`\nMevcut havuz            : ${pool.length} soru`);
+	console.log(`Havuzda zaten var       : ${alreadyInPool.length} (düşüldü)`);
+	for (const { candidate, poolId } of alreadyInPool.slice(0, 10)) {
+		console.log(`  ${candidateLabel(candidate)}  =  ${poolId}`);
+	}
+	if (alreadyInPool.length > 10) {
+		console.log(`  … ve ${alreadyInPool.length - 10} tane daha`);
+	}
+
+	const pairs = findNearDuplicatesAgainst(
+		fresh.map((candidate) => ({
+			id: candidateLabel(candidate),
+			stem: candidate.stem,
+			options: candidate.options,
+			correctIndex: candidate.correctIndex,
+		})),
+		pool,
+	);
+	if (pairs.length > 0) {
+		console.log(
+			`\n⚠ ${pairs.length} yakın-tekrar — aynı hükmü ölçüyorlarsa adayı almayın (soldaki yeni, sağdaki havuzda):`,
+		);
+		for (const pair of pairs) {
+			for (const line of formatPair(pair)) console.log(`  ${line}`);
+		}
+	}
+
+	return fresh;
+}
+
 function countBySubject(candidates: readonly CandidateQuestion[]): Record<string, number> {
 	const counts: Record<string, number> = {};
 	for (const c of candidates) {
@@ -145,12 +217,15 @@ async function runSingle(args: Record<string, string | boolean>): Promise<void> 
 		url: typeof args.url === "string" ? args.url : undefined,
 	});
 
-	const toWrite = args.all === true ? candidates : candidates.filter((c) => c.subjectId !== null);
+	const scoped = args.all === true ? candidates : candidates.filter((c) => c.subjectId !== null);
+	printReport(report);
+
+	const toWrite = await screenAgainstPool(scoped);
 	const out =
 		typeof args.out === "string" ? args.out : `${booklet.replace(/\.pdf$/i, "")}.candidates.json`;
 	await writeFile(out, `${JSON.stringify(toWrite, null, "\t")}\n`, "utf8");
 
-	printReport(report, out, toWrite.length);
+	printNextStep(out, toWrite.length);
 }
 
 async function runManifest(args: Record<string, string | boolean>): Promise<void> {
@@ -198,23 +273,25 @@ async function runManifest(args: Record<string, string | boolean>): Promise<void
 	const scoped = args.all === true ? all : all.filter((c) => c.subjectId !== null);
 	const { unique, duplicatesRemoved } = dedupeCandidates(scoped);
 
+	console.log(`\nToplam ayrıştırılan     : ${totalParsed}`);
+	console.log(`Cevap anahtarı eşleşen  : ${totalMatchedAnswer}`);
+	console.log(`Aday (kapsanan)         : ${scoped.length}`);
+	console.log(`Parti içi tekrar düşüldü: ${duplicatesRemoved}`);
+
+	const toWrite = await screenAgainstPool(unique);
+
+	console.log("\nYeni — derse göre       :");
+	for (const [subject, count] of Object.entries(countBySubject(toWrite)).sort()) {
+		console.log(`  ${subject.padEnd(12)} ${count}`);
+	}
+
 	const out =
 		typeof args.out === "string"
 			? args.out
 			: `${manifestPath.replace(/\.json$/i, "")}.candidates.json`;
-	await writeFile(out, `${JSON.stringify(unique, null, "\t")}\n`, "utf8");
+	await writeFile(out, `${JSON.stringify(toWrite, null, "\t")}\n`, "utf8");
 
-	console.log(`\nToplam ayrıştırılan     : ${totalParsed}`);
-	console.log(`Cevap anahtarı eşleşen  : ${totalMatchedAnswer}`);
-	console.log(`Aday (kapsanan)         : ${scoped.length}`);
-	console.log(`Tekrar düşüldü          : ${duplicatesRemoved}`);
-	console.log("Benzersiz — derse göre  :");
-	for (const [subject, count] of Object.entries(countBySubject(unique)).sort()) {
-		console.log(`  ${subject.padEnd(12)} ${count}`);
-	}
-	console.log(`\n✔ ${unique.length} benzersiz aday yazıldı → ${path.relative(process.cwd(), out)}`);
-	console.log("  Sonraki adım: her adaya difficulty + topicId + legalRef + explanation ekleyip");
-	console.log("  content/subjects/** altına taşıyın, sonra `npm run content:build`.\n");
+	printNextStep(out, toWrite.length);
 }
 
 function validateEntry(entry: unknown, index: number): SourceEntry {
@@ -245,7 +322,7 @@ async function main(): Promise<void> {
 	}
 }
 
-function printReport(report: CoverageReport, out: string, written: number): void {
+function printReport(report: CoverageReport): void {
 	console.log("\n─── İthal kapsam raporu ───");
 	console.log(`Ayrıştırılan soru      : ${report.totalParsed}`);
 	console.log(`Cevap anahtarı eşleşen : ${report.totalParsed - report.missingAnswer.length}`);
@@ -260,7 +337,10 @@ function printReport(report: CoverageReport, out: string, written: number): void
 	if (report.missingAnswer.length > 0) {
 		console.log(`⚠ Anahtarı bulunamayan  : ${report.missingAnswer.join(", ")}`);
 	}
-	console.log(`\n✔ ${written} aday yazıldı → ${path.relative(process.cwd(), out)}`);
+}
+
+function printNextStep(out: string, written: number): void {
+	console.log(`\n✔ ${written} yeni aday yazıldı → ${path.relative(process.cwd(), out)}`);
 	console.log(
 		"  Sonraki adım: her adaya difficulty + topicId + legalRef + explanation ekleyip",
 	);

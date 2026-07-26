@@ -31,9 +31,17 @@ function normalizeText(value: string): string {
 		.trim();
 }
 
-function dedupeKey(candidate: CandidateQuestion): string {
-	const stem = normalizeText(candidate.stem);
-	const options = candidate.options.map(normalizeText).sort();
+/**
+ * Birebir tekrar anahtarı.
+ *
+ * `CandidateQuestion`'a değil, yalnızca gövde+şıklara bakar: aynı anahtar
+ * `content/subjects/**` altındaki YAYIMLANMIŞ sorular için de üretilebilsin
+ * diye (bkz. `pool.ts`). İki taraf farklı anahtar kullanırsa eleme sessizce
+ * kaçırır.
+ */
+export function dedupeKey(question: { stem: string; options: readonly string[] }): string {
+	const stem = normalizeText(question.stem);
+	const options = question.options.map(normalizeText).sort();
 	return `${stem}||${options.join("|")}`;
 }
 
