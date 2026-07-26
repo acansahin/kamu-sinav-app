@@ -37,8 +37,10 @@ import type { ParsedQuestion } from "./types";
  *
  * SAYFA ÜSTBİLGİSİ GÜRÜLTÜSÜ: her sayfada tekrarlanan başlık/altbilgi
  * ("T.C. ... BAŞKANLIĞI", kitapçık türü, sayfa no) soru metnine karışmasın diye
- * elenir. Kaynağa özel kelime listesi gömmek yerine genel bir sezgi: aynı kısa
- * satır belge boyunca çok kez geçiyorsa üstbilgidir (soru metni tekrarlamaz).
+ * elenir. Kaynağa özel kelime listesi gömmek yerine genel bir sezgi: BÜYÜK HARF
+ * bir satır belge boyunca çok kez geçiyorsa üstbilgidir. Sıklık tek başına ölçüt
+ * DEĞİLDİR — soru metni de tekrar eder ("yanlıştır?" her kitapçıkta onlarca kez)
+ * ve elenirse soru sessizce bozulur; ayrımı taşıyan şey mixed-case olmasıdır.
  */
 
 // "N)" (Sayıştay) veya "N." (MEB/ÖDSGM) ile başlayan soru/madde markörü.
@@ -89,7 +91,14 @@ export function parseBooklet(text: string, boilerplateMinCount = 5): ParsedQuest
 		// düşülünce yatay sayısal şıklar ("A) 9/1 B) 10/1...") çakışıp elenmesin.
 		if (QUESTION_START.test(line) || OPTION_LINE.test(line)) return false;
 		const frequencyCount = frequency.get(noiseKey(line)) ?? 0;
-		if (frequencyCount >= boilerplateMinCount) return true;
+		// Sıklık TEK BAŞINA yetmez: soru metni de tekrar eder. Bir kitapçıkta
+		// "yanlıştır?" onlarca sorunun gövdesinde kendi satırına sarar (eşiği rahat
+		// aşar) ve elenirse soru ANLAM OLARAK TERSİNE döner — "hangisi yanlıştır?"
+		// "hangisi?" olur. Aynı şekilde uzun bir kanun adının hecelenmiş devamı
+		// ("Rejiminin Düzenlenmesine Dair Kanun Hük-") gövde ortasından sessizce
+		// düşer. Bu yüzden yukarıdaki mixed-case ayrımı burada da uygulanır:
+		// kurumsal üstbilgi BÜYÜK HARFtir, soru gövdesi değildir.
+		if (frequencyCount >= boilerplateMinCount && isAllCaps(line)) return true;
 		// Kısa kitapçıklarda (ör. 9 sayfa) üstbilgi eşiği aşamaz ve birden çok
 		// yapışık biçime bölünür ("4BAŞLIK A", "BAŞLIK A3ALTBİLGİ", "ALTBİLGİ").
 		// Bu satırlar TAMAMEN BÜYÜK HARF ve uzundur; 2+ tekrarla elenir. Yoksa
