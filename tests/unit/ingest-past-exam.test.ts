@@ -247,6 +247,33 @@ describe("parseBooklet", () => {
 		expect(qs[1]?.options).toEqual(["a", "b", "c", "d"]);
 	});
 
+	it("kısa kitapçıkta düşük tekrarlı BÜYÜK HARF üstbilgiyi son şıkka bulaştırmaz", () => {
+		// Danıştay 2019 kalıbı: 9 sayfa, üstbilgi 3 yapışık biçime bölünür ve
+		// eşiği (5) aşamaz; ama tamamen BÜYÜK HARF olduğundan 2+ tekrarla elenmeli.
+		// Aksi hâlde ayrı satırdaki başlık, açık son şıkka ("Otuz") eklenirdi.
+		const footer = "ÖLÇME, DEĞERLENDİRME VE SINAV HİZMETLERİ GENEL MÜDÜRLÜĞÜ";
+		const text = [
+			"1. Birinci soru?",
+			"A) a B) b C) c D) Otuz",
+			"4VERİ HAZIRLAMA VE KONTROL İŞLETMENİ A",
+			footer,
+			"2. İkinci soru?",
+			"A) e B) f C) g D) h",
+			"6VERİ HAZIRLAMA VE KONTROL İŞLETMENİ A",
+			footer,
+			"3. Üçüncü soru?",
+			"A) i B) j C) k D) l",
+			"8VERİ HAZIRLAMA VE KONTROL İŞLETMENİ A",
+			footer,
+		].join("\n");
+
+		// Varsayılan eşik 5; başlık/altbilgi biçimleri yalnızca 3 kez geçiyor.
+		const qs = parseBooklet(text);
+		expect(qs).toHaveLength(3);
+		expect(qs[0]?.options).toEqual(["a", "b", "c", "Otuz"]); // üstbilgi bulaşmadı
+		expect(qs[2]?.options).toEqual(["i", "j", "k", "l"]);
+	});
+
 	it("tek maddelik önsözden sonra ilk soruyu (restart olmadan, şıkla) yakalar", () => {
 		// Önsöz tek maddeyse numara küçülmez; soru bölgesi ilk şıkla açılmalı.
 		const text = [

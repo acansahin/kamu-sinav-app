@@ -77,13 +77,25 @@ export function parseBooklet(text: string, boilerplateMinCount = 5): ParsedQuest
 		if (line) frequency.set(noiseKey(line), (frequency.get(noiseKey(line)) ?? 0) + 1);
 	}
 
+	// Tamamen büyük harf kurumsal başlık/altbilgi mi? Soru gövdesi ve şıklar
+	// mixed-case olduğundan bu ayrım güvenlidir; Türkçe I/İ için tr yerel ayarı.
+	const isAllCaps = (line: string): boolean => line === line.toLocaleUpperCase("tr");
+	const letterCount = (line: string): number => (line.match(/\p{L}/gu) ?? []).length;
+
 	const isNoise = (line: string): boolean => {
 		if (line.length === 0 || PAGE_MARKER.test(line)) return true;
 		if (/^\d{1,3}$/.test(line)) return true; // yalın sayfa numarası
 		// Soru/şık markörü taşıyan satır asla sıklık-gürültüsü sayılmaz: rakam
 		// düşülünce yatay sayısal şıklar ("A) 9/1 B) 10/1...") çakışıp elenmesin.
 		if (QUESTION_START.test(line) || OPTION_LINE.test(line)) return false;
-		return (frequency.get(noiseKey(line)) ?? 0) >= boilerplateMinCount;
+		const frequencyCount = frequency.get(noiseKey(line)) ?? 0;
+		if (frequencyCount >= boilerplateMinCount) return true;
+		// Kısa kitapçıklarda (ör. 9 sayfa) üstbilgi eşiği aşamaz ve birden çok
+		// yapışık biçime bölünür ("4BAŞLIK A", "BAŞLIK A3ALTBİLGİ", "ALTBİLGİ").
+		// Bu satırlar TAMAMEN BÜYÜK HARF ve uzundur; 2+ tekrarla elenir. Yoksa
+		// son şıkka bulaşırlar (bkz. Danıştay 2019 sızıntısı).
+		if (frequencyCount >= 2 && letterCount(line) >= 15 && isAllCaps(line)) return true;
+		return false;
 	};
 
 	const questions: ParsedQuestion[] = [];
