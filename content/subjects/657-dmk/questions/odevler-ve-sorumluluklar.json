@@ -563,5 +563,71 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-cte19idm-q080",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre “Devlet memurları siyasi partiye üye olamazlar, herhangi bir siyasi parti, kişi veya zümrenin yararını veya zararını hedef tutan bir davranışta bulunamazlar.” ifadesi aşağıdaki ödev ve sorumluluklardan hangisiyle ilgilidir?",
+		"options": [
+			"Tarafsızlık ve devlete bağlılık",
+			"Kişisel sorumluluk ve zarar",
+			"Davranış ve iş birliği",
+			"Sadakat"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 7. maddesi 'Tarafsızlık ve devlete bağlılık' başlığını taşır ve Devlet memurlarının siyasi partiye üye olamayacağını, herhangi bir siyasi parti, kişi veya zümrenin yararını veya zararını hedef tutan bir davranışta bulunamayacaklarını düzenler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "7"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İdare Memuru) A Kitapçığı, 26.03.2019",
+			"year": 2019,
+			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171802_3_GRUP_IDARE_MEMURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"tarafsızlık"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-cte19ikb-q087",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "I. Devlet memurları amiri oldukları kuruluş ve hizmet birimlerinde kanun ve diğer mevzuatla belirlenen görevleri zamanında ve eksiksiz olarak yapmaktan ve yaptırmaktan, maiyetindeki memurlarını yetiştirmekten, hâl ve hareketlerini takip ve kontrol etmekten görevli sorumludurlar. II. Amir, maiyetindeki memurlara kanunlara ve Cumhurbaşkanlığı kararnamelerine aykırı emir veremez ve maiyetindeki memurdan hususi bir menfaat temin edecek bir talepte bulunamaz, hediyesini kabul edemez ve borç alamaz. III. Amir, maiyetindeki memurlara hakkaniyet ve eşitlik içinde davranır. Amirlik yetkisini kanun ve diğer mevzuatta belirtilen esaslar içinde kullanır. 657 sayılı Devlet Memurları Kanunu’na göre amir durumda olan devlet memurlarının görev ve sorumlulukları ile ilgili yukarıdakilerden hangileri doğrudur?",
+		"options": [
+			"Yalnız I ve II.",
+			"Yalnız I ve III.",
+			"Yalnız II ve III.",
+			"I, II ve III."
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 10. maddesi amir durumunda olan Devlet memurlarının görev ve sorumluluklarını düzenler ve üç ifadenin tamamını içerir: amirler görevleri zamanında ve eksiksiz yapmak ve yaptırmaktan, maiyetindeki memurları yetiştirmekten sorumludur; amir kanunlara ve Cumhurbaşkanlığı kararnamelerine aykırı emir veremez, maiyetindekinden menfaat temin edecek talepte bulunamaz, hediyesini kabul edemez ve borç alamaz; amir maiyetindekilere hakkaniyet ve eşitlik içinde davranır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "10"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İnfaz ve Koruma Başmemuru) A Kitapçığı, 26.03.2019",
+			"year": 2019,
+			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26173331_6_GRUP_INFAZ_KORUMA_BAS_MEMURLUGU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"amir-sorumluluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

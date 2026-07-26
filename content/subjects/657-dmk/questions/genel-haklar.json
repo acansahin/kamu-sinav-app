@@ -1235,5 +1235,177 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-cte19im-q076",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre eşi doğum yapan memura doğum tarihinden itibaren istekleri üzerine en fazla kaç aya kadar aylıksız izin verilir?",
+		"options": [
+			"Yirmi dört ay",
+			"On iki ay",
+			"Altı ay",
+			"Üç ay"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 108. maddesinin (B) fıkrasına göre doğum yapan memura doğum sonrası analık izninin bitiminden, eşi doğum yapan memura ise doğum tarihinden itibaren istekleri üzerine yirmi dört aya kadar aylıksız izin verilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "108",
+			"clause": "B"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İkinci Müdür) A Kitapçığı, 26.03.2019",
+			"year": 2019,
+			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171626_1_grup_ikinci_mudur_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"aylıksız-izin",
+			"doğum"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q061",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanununun “Hastalık ve Refakat İzni” ile ilgili hükümlerine göre aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Memura, aylık ve özlük hakları korunarak, verilecek raporda gösterilecek lüzum üzerine, kanser, verem ve akıl hastalığı gibi uzun süreli bir tedaviye ihtiyaç gösteren hastalığı hâlinde onsekiz aya kadar, diğer hastalık hâllerinde ise oniki aya kadar izin verilir",
+			"Görevi sırasında veya görevinden dolayı bir kazaya veya saldırıya uğrayan veya bir meslek hastalığına tutulan memur, iyileşinceye kadar izinli sayılır",
+			"Memurun, hastalığı sebebiyle yataklı tedavi kurumunda yatarak gördüğü tedavi süreleri, hastalık iznine ait sürenin hesabında dikkate alınmaz",
+			"Memurun bakmakla yükümlü olduğu veya memur refakat etmediği takdirde hayatı tehlikeye girecek ana, baba, eş ve çocukları ile kardeşlerinden birinin ağır bir kaza geçirmesi veya tedavisi uzun süren bir hastalığının bulunması hâllerinde, bu hâllerin sağlık kurulu raporuyla belgelendirilmesi şartıyla, aylık ve özlük hakları korunarak, üç aya kadar izin verilir"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 105. maddesine göre memurun hastalığı sebebiyle yataklı tedavi kurumunda yatarak gördüğü tedavi süreleri, hastalık iznine ait sürenin hesabında DİKKATE ALINIR. Aynı madde uzun süreli tedavi gerektiren hastalıklarda on sekiz aya, diğer hastalık hâllerinde on iki aya kadar izin verileceğini, görev sebebiyle kazaya veya saldırıya uğrayan memurun iyileşinceye kadar izinli sayılacağını ve refakat izninin üç aya kadar olduğunu düzenler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "105"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"hastalık-izni",
+			"refakat-izni"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q057",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu uyarınca yabancı memleketlerin resmi kurumlarında kurumlarının muvafakati ile görev alacak memurlara, memuriyeti süresince kaç yıla kadar aylıksız izin verilebilir?",
+		"options": [
+			"8",
+			"10",
+			"12",
+			"21"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 77. maddesine göre kurumlarının muvafakati ile görev alacak memurlara, ilgili Bakanın onayı ile (her üç yılda bir yenilenmek kaydıyla) yabancı memleketlerin resmî kurumlarında on yıla, uluslararası kuruluşlarda ise yirmi bir yıla kadar aylıksız izin verilebilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "77"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"aylıksız-izin",
+			"yurt-dışı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q058",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanununun “Mazeret İzni” ile ilgili hükümlerine göre aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Çoğul gebelik halinde, doğum öncesi sekiz haftalık analık izni süresine dört hafta eklenir",
+			"Üç yaşını doldurmamış bir çocuğu eşiyle birlikte veya münferit olarak evlat edinen memurlar ile memur olmayan eşin münferit olarak evlat edinmesi halinde memur olan eşlerine, çocuğun teslim edildiği tarihten itibaren sekiz hafta süre ile izin verilir",
+			"Memura, eşinin doğum yapması halinde, isteği üzerine on gün babalık izni verilir",
+			"Memurun çocuğunun evlenmesi halinde yedi gün izin verilir"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 104. maddesinin (A) fıkrasına göre çoğul gebelik durumunda doğum öncesi sekiz haftalık analık izni süresine İKİ hafta eklenir; dört hafta değil. Maddenin diğer hükümleri uyarınca evlat edinmede sekiz hafta izin verilir, babalık izni on gün, çocuğun evlenmesi hâlinde verilen izin ise yedi gündür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104",
+			"clause": "A"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"analık-izni",
+			"çoğul-gebelik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q057",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu uyarınca uluslararası kuruluşlarda, kurumlarının muvafakati ile görev alacak memurlara, memuriyeti süresince kaç yıla kadar aylıksız izin verilebilir?",
+		"options": [
+			"8",
+			"10",
+			"15",
+			"21"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 77. maddesine göre uluslararası kuruluşlarda kurumlarının muvafakati ile görev alacak memurlara memuriyeti süresince yirmi bir yıla kadar aylıksız izin verilebilir. Aynı maddede yabancı memleketlerin resmî kurumları için bu süre on yıldır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "77"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"aylıksız-izin",
+			"uluslararası-kuruluş"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

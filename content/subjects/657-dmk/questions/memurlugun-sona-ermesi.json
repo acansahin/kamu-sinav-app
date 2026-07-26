@@ -463,5 +463,40 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-cte19m-q087",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre aylıksız izin süresinin bitiminde veya mazeret sebebinin kalkmasını izleyen kaç gün içinde görevine dönmeyenler, memuriyetten çekilmiş sayılır?",
+		"options": [
+			"Üç",
+			"Beş",
+			"Yedi",
+			"On"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 108. maddesinin (F) fıkrasına göre aylıksız izin süresinin bitiminde veya mazeret sebebinin kalkmasını izleyen on gün içinde görevine dönmeyenler, memuriyetten çekilmiş sayılır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "108",
+			"clause": "F"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (Memur) A Kitapçığı, 26.03.2019",
+			"year": 2019,
+			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26173359_7_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"çekilmiş-sayılma",
+			"aylıksız-izin"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

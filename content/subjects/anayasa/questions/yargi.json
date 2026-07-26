@@ -667,5 +667,71 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q003",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre Uyuşmazlık Mahkemesi ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Uyuşmazlık Mahkemesi adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözümlemeye yetkilidir",
+			"Bu mahkemenin Başkanlığını, Yargıtay tarafından kendi üyeleri arasından görevlendirilen üye yapar",
+			"Diğer mahkemelerle, Anayasa Mahkemesi arasındaki görev uyuşmazlıklarında, Anayasa Mahkemesinin kararı esas alınır",
+			"Uyuşmazlık Mahkemesinin kuruluşu, üyelerinin nitelikleri ve seçimleri ile işleyişi kanunla düzenlenir"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 158. maddesine göre Uyuşmazlık Mahkemesinin Başkanlığını, ANAYASA MAHKEMESİNCE kendi üyeleri arasından görevlendirilen üye yapar; Yargıtay değil. Mahkeme adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözer ve diğer mahkemelerle Anayasa Mahkemesi arasındaki görev uyuşmazlıklarında Anayasa Mahkemesinin kararı esas alınır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "158"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"uyuşmazlık-mahkemesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q008",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "kolay",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre Anayasa Mahkemesi kaç üyeden oluşur ve üyelerin görev süresi kaç yıldır?",
+		"options": [
+			"12 üye-12 yıl",
+			"15 üye-12 yıl",
+			"10 üye-10 yıl",
+			"20 üye-10 yıl"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 146. maddesine göre Anayasa Mahkemesi on beş üyeden kurulur. 147. maddeye göre üyeler on iki yıl için seçilir; bir kimse iki defa Anayasa Mahkemesi üyesi seçilemez.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "146"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"anayasa-mahkemesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

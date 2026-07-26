@@ -868,5 +868,239 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-cte19im-q005",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "T.C. Anayasası’na göre bütçe ve kesin hesap ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Cumhurbaşkanı bütçe kanun teklifini, malî yılbaşından en az yetmişbeş gün önce, Türkiye Büyük Millet Meclisine sunar.",
+			"Merkezî yönetim kesin hesap kanunu teklifi, ilgili olduğu malî yılın sonundan başlayarak en geç altı ay sonra Cumhurbaşkanı tarafından Türkiye Büyük Millet Meclisine sunulur.",
+			"Merkezî yönetim bütçesiyle verilen ödenek, harcanabilecek tutarın sınırını gösterir. Harcanabilecek tutarın Cumhurbaşkanlığı kararnamesiyle aşılabileceğine dair bütçe kanununa hüküm konulabilir.",
+			"Türkiye Büyük Millet Meclisi üyeleri, Genel Kurulda kamu idare bütçeleri hakkında düşüncelerini her bütçenin görüşülmesi sırasında açıklarlar, gider artırıcı veya gelirleri azaltıcı önerilerde bulunamazlar."
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 161. maddesine göre merkezî yönetim bütçesiyle verilen ödenek, harcanabilecek tutarın sınırını gösterir ve harcanabilecek tutarın Cumhurbaşkanlığı kararnamesiyle aşılabileceğine dair bütçe kanununa hüküm KONULAMAZ. Diğer seçenekler; bütçe teklifinin malî yılbaşından en az yetmiş beş gün önce sunulması (m. 161), kesin hesap kanunu teklifinin en geç altı ay sonra sunulması (m. 164) ve milletvekillerinin gider artırıcı öneride bulunamaması (m. 162) hükümlerine uygundur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "161"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İkinci Müdür) A Kitapçığı, 26.03.2019",
+			"year": 2019,
+			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171626_1_grup_ikinci_mudur_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"bütçe",
+			"kesin-hesap"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-cte19im-q004",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Bir ilin veya seçim çevresinin, Türkiye Büyük Millet Meclisinde üyesinin kalmaması hâlinde, boşalmayı takip eden - - - - günden sonraki ilk pazar günü ara seçim yapılır. T.C. Anayasası’na göre yukarıdaki hükümde boş bırakılan yere hangisi getirilmelidir?",
+		"options": [
+			"otuz",
+			"kırk beş",
+			"altmış",
+			"doksan"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 78. maddesine göre bir ilin veya seçim çevresinin Türkiye Büyük Millet Meclisinde üyesinin kalmaması hâlinde, boşalmayı takip eden doksan günden sonraki ilk pazar günü ara seçim yapılır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "78"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İkinci Müdür) A Kitapçığı, 26.03.2019",
+			"year": 2019,
+			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171626_1_grup_ikinci_mudur_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"ara-seçim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q004",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıdakilerden hangisi TBMM’nin görevlerinden değildir?",
+		"options": [
+			"Kanun koymak, değiştirmek ve kaldırmak",
+			"Para basılmasına karar vermek",
+			"Savaş ilânına karar vermek",
+			"Milletlerarası andlaşmaları onaylamak"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 87. maddesine göre TBMM milletlerarası andlaşmaların ONAYLANMASINI UYGUN BULUR; andlaşmaları onaylamak ve yayımlamak ise Cumhurbaşkanının görevidir (m. 104). Kanun koymak, değiştirmek ve kaldırmak, para basılmasına ve savaş ilânına karar vermek 87. maddede sayılan Meclis görevlerindendir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "87"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"tbmm-görevleri",
+			"milletlerarası-andlaşma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q005",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "kolay",
+		"stem": "Aşağıdakilerden hangisi 2709 sayılı Türkiye Cumhuriyeti Anayasasına göre TBMM’nin kullandığı bilgi edinme ve denetleme yetkilerinden birisi değildir?",
+		"options": [
+			"Gensoru",
+			"Genel görüşme",
+			"Meclis soruşturması",
+			"Meclis araştırması"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 98. maddesine göre TBMM bilgi edinme ve denetleme yetkisini Meclis araştırması, genel görüşme, Meclis soruşturması ve yazılı soru yollarıyla kullanır. Gensoru, 2017 Anayasa değişikliğiyle denetim yolları arasından çıkarılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "98"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"denetim-yolları",
+			"2017-değişikliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q006",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıda yasama ile ilgili olarak verilenler ifadelerden hangisi doğru değildir?",
+		"options": [
+			"Türkiye Büyük Millet Meclisi genel oyla seçilen altıyüz milletvekilinden oluşur",
+			"Türkiye Büyük Millet Meclisi ve Cumhurbaşkanlığı seçimleri beş yılda bir aynı günde yapılır",
+			"18 yaşından gün almış her Türk milletvekili seçilebilir",
+			"Süresi biten milletvekili yeniden seçilebilir"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 76. maddesine göre milletvekili seçilebilmek için on sekiz yaşını DOLDURMUŞ olmak gerekir; '18 yaşından gün almış olmak' ölçütü Anayasa'da yer almaz. Diğer seçenekler TBMM'nin altı yüz milletvekilinden oluşması (m. 75), seçimlerin beş yılda bir aynı gün yapılması ve süresi biten milletvekilinin yeniden seçilebilmesi (m. 77) hükümlerine uygundur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "76"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"milletvekili-seçilme-yeterliliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q007",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "kolay",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre Türkiye Büyük Millet Meclisinin Başkanlık Divanı kimlerden oluşur?",
+		"options": [
+			"Meclis Başkanı ve Kâtip üyeler",
+			"Meclis Başkanı ve Başkanvekilleri",
+			"Meclis Başkanı, Başkanvekilleri ve Kâtip üyeler",
+			"Meclis Başkanı, Başkanvekilleri, Katip üyeler ve İdare Amirleri"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 94. maddesine göre Türkiye Büyük Millet Meclisinin Başkanlık Divanı; Meclis üyeleri arasından seçilen Meclis Başkanı, Başkanvekilleri, Kâtip üyeler ve İdare Amirlerinden oluşur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "94"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"başkanlık-divanı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q007",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre “Kamu Başdenetçisi Türkiye Büyük Millet Meclisi tarafından … oyla … yıl için seçilir.” ibaresinde noktalı yerlere sırasıyla aşağıdakilerden hangisi gelmelidir?",
+		"options": [
+			"gizli-beş",
+			"gizli-dört",
+			"açık-dört",
+			"açık-beş"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 74. maddesine göre Kamu Başdenetçisi, Türkiye Büyük Millet Meclisi tarafından gizli oyla dört yıl için seçilir. İlk iki oylamada üye tam sayısının üçte iki, üçüncü oylamada salt çoğunluk aranır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "74"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"kamu-denetçiliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

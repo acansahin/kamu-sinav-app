@@ -731,5 +731,135 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-cte19im-q001",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası’nın genel esasları ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Yasama yetkisi Türk Milleti adına Türkiye Büyük Millet Meclisinindir. Bu yetki devredilemez.",
+			"Yürütme yetkisi ve görevi, Bakanlar Kurulu tarafından, Anayasa’ya ve kanunlara uygun olarak kullanılır ve yerine getirilir.",
+			"Anayasa hükümleri, yasama, yürütme ve yargı organlarını, idare makamlarını ve diğer kuruluş ve kişileri bağlayan temel hukuk kurallarıdır.",
+			"Herkes, dil, ırk, renk, cinsiyet, siyasi düşünce, felsefi inanç, din, mezhep ve benzeri sebeplerle ayırım gözetilmeksizin kanun önünde eşittir."
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 8. maddesine göre yürütme yetkisi ve görevi, CUMHURBAŞKANI tarafından Anayasa'ya ve kanunlara uygun olarak kullanılır ve yerine getirilir. Bakanlar Kurulu ibaresi 2017 Anayasa değişikliğiyle metinden çıkarılmıştır. Diğer seçenekler yasama yetkisinin devredilemezliği (m. 7), Anayasa'nın bağlayıcılığı (m. 11) ve kanun önünde eşitlik (m. 10) hükümlerine uygundur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "8"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İkinci Müdür) A Kitapçığı, 26.03.2019",
+			"year": 2019,
+			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171626_1_grup_ikinci_mudur_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yürütme-yetkisi",
+			"2017-değişikliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-cte19im-q029",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "kolay",
+		"stem": "Osmanlı Devleti’nin ilk anayasası aşağıdakilerden hangisidir?",
+		"options": [
+			"Kanun-i Esasi",
+			"Sened-i İttifak",
+			"Islahat Fermanı",
+			"Tanzimat Fermanı"
+		],
+		"correctIndex": 0,
+		"explanation": "Osmanlı Devleti'nin ilk anayasası, 1876'da ilan edilen Kanun-i Esasî'dir. Sened-i İttifak (1808), Tanzimat Fermanı (1839) ve Islahat Fermanı (1856) anayasal nitelikte belgeler olmakla birlikte anayasa değildir.",
+		"legalRef": {
+			"law": "1876 Kanun-i Esasî (Osmanlı Devleti'nin ilk anayasası)"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İkinci Müdür) A Kitapçığı, 26.03.2019",
+			"year": 2019,
+			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171626_1_grup_ikinci_mudur_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"anayasa-tarihi",
+			"kanun-i-esasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q014",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "kolay",
+		"stem": "Türkiye Büyük Millet Meclisinin yaptığı ilk Anayasa hangisidir?",
+		"options": [
+			"Kanun-i Esasi",
+			"Sened-i İttifak",
+			"Teşkilat-ı Esasiye Kanunu",
+			"Misak-ı İktisadi"
+		],
+		"correctIndex": 2,
+		"explanation": "Türkiye Büyük Millet Meclisinin yaptığı ilk anayasa, 1921 tarihli Teşkilat-ı Esasiye Kanunu'dur. Kanun-i Esasi Osmanlı Devleti'nin anayasasıdır; Sened-i İttifak 1808 tarihli bir belge, Misak-ı İktisadi ise 1923 İzmir İktisat Kongresi'nde kabul edilen ekonomik ilkeler bütünüdür.",
+		"legalRef": {
+			"law": "1921 Teşkilât-ı Esasiye Kanunu (Türkiye'nin ilk Anayasası)"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"anayasa-tarihi",
+			"1921"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q012",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "1928'de, anayasadaki, “Devletin resmî dîni İslâmdır” maddesinin çıkartılmasının en önemli sonucu aşağıdakilerden hangisidir?",
+		"options": [
+			"Hukukî alanda din ayrımının sona ermesi",
+			"Anayasanın lâiklik ilkesi konusunda önemli adım atılması",
+			"Toplumdaki dînî çatışmaların sona ermesi",
+			"Atatürk ilkelerinin anayasada yer alması"
+		],
+		"correctIndex": 1,
+		"explanation": "1924 Anayasası'nda yer alan 'Devletin resmî dini İslâmdır' hükmü 1928 yılında yapılan değişiklikle metinden çıkarılmıştır. Bu değişiklik, laiklik ilkesinin 1937'de anayasaya girmesine giden süreçte atılan en önemli adım olarak kabul edilir.",
+		"legalRef": {
+			"law": "1924 Teşkilât-ı Esasiye Kanunu"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"anayasa-tarihi",
+			"laiklik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

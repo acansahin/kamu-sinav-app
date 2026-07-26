@@ -664,5 +664,108 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q002",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre idare ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"İdare, kuruluş ve görevleriyle bir bütündür ve kanunla düzenlenir",
+			"İdari işlemlere karşı açılacak davalarda süre, yazılı bildirim tarihinden başlar",
+			"Hangi yönetmeliklerin Resmî Gazete’de yayımlanacağı kanunda belirtilir",
+			"Kamu tüzelkişiliği sadece kanunla kurulabilir"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 123. maddesine göre kamu tüzelkişiliği KANUNLA VEYA CUMHURBAŞKANLIĞI KARARNAMESİYLE kurulur; sadece kanunla kurulabileceği ifadesi 2017 değişikliğinden sonra yanlıştır. Diğer seçenekler idarenin bütünlüğü (m. 123), idari işlemlere karşı dava süresinin yazılı bildirimden başlaması (m. 125) ve yönetmeliklerin yayımı (m. 124) hükümlerine uygundur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "123"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"idare",
+			"kamu-tüzelkişiliği",
+			"2017-değişikliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q008",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "kolay",
+		"stem": "“İllerin idaresi (…) esasına dayanır.” 2709 sayılı Türkiye Cumhuriyeti Anayasasına göre yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+		"options": [
+			"İdari vesayet",
+			"Yerinden yönetim",
+			"Yetki genişliği",
+			"Hizmet yerinden yönetim"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 126. maddesine göre illerin idaresi yetki genişliği esasına dayanır. Yetki genişliği, merkezî idarenin taşra temsilcisine merkeze danışmadan karar alma yetkisi tanınmasıdır ve yerinden yönetimden farklıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "126"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"idare",
+			"yetki-genişliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q006",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "kolay",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre Cumhurbaşkanı yardımcıları ve bakanlar yürütmeye ilişkin yetkilerini kullanmalarından dolayı aşağıdakilerden hangisine karşı sorumludur?",
+		"options": [
+			"TBMM",
+			"Anayasa Mahkemesi",
+			"Cumhurbaşkanı",
+			"Yargıtay"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 106. maddesine göre Cumhurbaşkanı yardımcıları ve bakanlar, yürütme yetkisine ilişkin görevleri kullanmalarından dolayı Cumhurbaşkanına karşı sorumludur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "106"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"cumhurbaşkanı-yardımcısı",
+			"bakanlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

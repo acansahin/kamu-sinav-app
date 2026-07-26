@@ -459,38 +459,5 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-dan19m-q010",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/temel-ilkeler",
-		"difficulty": "kolay",
-		"stem": "657 sayılı Devlet Memurları Kanunu'na göre \"Devlet memurlarına, yaptıkları hizmetler için lüzumlu bilgilere ve yetişme şartlarına uygun şekilde, sınıfları içinde en yüksek derecelere kadar ilerleme imkânını sağlamaktır.\" şeklinde ifade edilen temel ilke aşağıdakilerden hangisidir?",
-		"options": [
-			"Kariyer",
-			"Liyakat",
-			"Sadakat",
-			"Sınıflandırma"
-		],
-		"correctIndex": 0,
-		"explanation": "657 sayılı Kanun'un 3. maddesinde sayılan temel ilkelerden kariyer; Devlet memurlarına yaptıkları hizmetler için lüzumlu bilgilere ve yetişme şartlarına uygun şekilde, sınıfları içinde en yüksek derecelere kadar ilerleme imkânı sağlamayı ifade eder.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "3"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Müdür) A Kitapçığı, 2019",
-			"year": 2019,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2019_07/02173605_1._GRUP_MUDUR_GYS_A_C.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"kariyer"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
 	}
 ]

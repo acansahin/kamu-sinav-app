@@ -692,40 +692,6 @@
 		"updatedAt": "2026-07-25"
 	},
 	{
-		"id": "meb-ic21ud-q016",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/disiplin-cezalari",
-		"difficulty": "orta",
-		"stem": "657 sayılı Devlet Memurları Kanunu'na göre \"eşlerinin, reşit olmayan veya mahcur olan çocuklarının kazanç getiren sürekli faaliyetlerini belirlenen sürede kurumuna bildirmemek\" fiili aşağıdaki disiplin cezalarından hangisini gerektirir?",
-		"options": [
-			"Uyarma",
-			"Kınama",
-			"Aylıktan kesme",
-			"Kademe ilerlemesinin durdurulması"
-		],
-		"correctIndex": 1,
-		"explanation": "657 sayılı Kanun'un 125. maddesinin (B) bendine göre eşlerinin, reşit olmayan veya mahcur olan çocuklarının kazanç getiren sürekli faaliyetlerini belirlenen sürede kurumuna bildirmemek fiili kınama cezasını gerektirir. Kınama, memura görevinde ve davranışlarında kusurlu olduğunun yazı ile bildirilmesidir.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "125",
-			"clause": "B"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Unvan Değişikliği Sınavı (İnşaat Mühendisi) A Kitapçığı, 2021",
-			"year": 2021,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171334_4_YNYAAT_MUHENDYSY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"kinama"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
 		"id": "meb-sm26-q030",
 		"subjectId": "657-dmk",
 		"topicId": "657-dmk/disiplin-cezalari",
@@ -1194,39 +1160,6 @@
 		"updatedAt": "2026-07-26"
 	},
 	{
-		"id": "meb-dan19m-q014",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/disiplin-cezalari",
-		"difficulty": "orta",
-		"stem": "657 sayılı Devlet Memurları Kanunu'na göre memurluktan çıkarma cezası için disiplin amirleri tarafından yaptırılan soruşturmaya ait dosya, memurun bağlı bulunduğu kurumun yüksek disiplin kuruluna tevdiinden itibaren azami kaç ay içinde karara bağlanır?",
-		"options": [
-			"Üç",
-			"Altı",
-			"Dokuz",
-			"On iki"
-		],
-		"correctIndex": 1,
-		"explanation": "657 sayılı Kanun'un 126. maddesine göre memurluktan çıkarma cezası için disiplin amirlerince yaptırılan soruşturmaya ait dosya, yüksek disiplin kuruluna tevdiinden itibaren azami altı ay içinde karara bağlanır.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "126"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Müdür) A Kitapçığı, 2019",
-			"year": 2019,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2019_07/02173605_1._GRUP_MUDUR_GYS_A_C.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"yuksek-disiplin-kurulu"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
 		"id": "meb-dan19m-q016",
 		"subjectId": "657-dmk",
 		"topicId": "657-dmk/disiplin-cezalari",
@@ -1288,6 +1221,465 @@
 		"status": "review",
 		"tags": [
 			"itiraz"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-cte19idm-q083",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre “Kasıtlı olarak; verilen emir ve görevleri tam ve zamanında yapmamak, görev mahallinde kurumlarca belirlenen usul ve esasları yerine getirmemek, görevle ilgili resmî belge, araç ve gereçleri korumamak, bakımını yapmamak, hor kullanmak” fiil ve hâlleri aşağıdaki disiplin cezalarından hangisini gerektirir?",
+		"options": [
+			"Kınama",
+			"Uyarma",
+			"Aylıktan kesme",
+			"Kademe ilerlemesinin durdurulması"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 125. maddesinin (C) bendinin (a) alt bendine göre kasıtlı olarak verilen emir ve görevleri tam ve zamanında yapmamak, görev mahallinde kurumlarca belirlenen usul ve esasları yerine getirmemek, görevle ilgili resmî belge, araç ve gereçleri korumamak, bakımını yapmamak ve hor kullanmak fiilleri aylıktan kesme cezasını gerektirir. Aylıktan kesme, memurun brüt aylığından 1/30-1/8 arasında kesinti yapılmasıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125",
+			"clause": "C/a"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İdare Memuru) A Kitapçığı, 26.03.2019",
+			"year": 2019,
+			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171802_3_GRUP_IDARE_MEMURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"aylıktan-kesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-ic21v-q060",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği’ne göre karar, oylama tarihini izleyen en geç kaç gün içinde gerekçeli olarak raportör tarafından yazılır?",
+		"options": [
+			"İki",
+			"Üç",
+			"Beş",
+			"Yedi"
+		],
+		"correctIndex": 3,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 23. maddesine göre karar, oylama tarihini izleyen yedi gün içinde gerekçeli olarak, karara karşı başvuru yolları ve süreleri ile oy birliği veya oy çokluğu ile alındığı da belirtilmek suretiyle raportör tarafından yazılır ve başkan ile üyeler tarafından imzalanır.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "23"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Görevde Yükselme Sınavı (Veri Hazırlama ve Kontrol İşletmeni) A Kitapçığı, 2021",
+			"year": 2021,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171238_8_VERY_HAZIRLAMA_ve_KONTROL_YYLETMENY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"disiplin-kurulu",
+			"raportör"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-ic21v-q061",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği’ne göre özlük dosyasına uyarma cezası işlenen devlet memuru, cezanın uygulanma tarihinden itibaren kaç yıl geçtikten sonra, atamaya yetkili amire başvurarak, verilmiş olan cezanın özlük dosyasından silinmesini talep edebilir?",
+		"options": [
+			"İki",
+			"Üç",
+			"Dört",
+			"Beş"
+		],
+		"correctIndex": 3,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 40. maddesine göre özlük dosyasına işlenen cezalarda silinme talebi için beklenecek süre, uyarma ve kınama cezalarında beş yıl, aylıktan kesme ve kademe ilerlemesinin durdurulması cezalarında on yıldır. Süre dolduktan sonra memur atamaya yetkili amire başvurarak cezanın özlük dosyasından silinmesini talep edebilir.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "40"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Görevde Yükselme Sınavı (Veri Hazırlama ve Kontrol İşletmeni) A Kitapçığı, 2021",
+			"year": 2021,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171238_8_VERY_HAZIRLAMA_ve_KONTROL_YYLETMENY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"cezanın-silinmesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-cte19m-q089",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre disiplin cezası gerektiren fiil ve hâllerin işlendiğinin öğrenildiği tarihten itibaren; memurluktan çıkarma cezasında en geç kaç ay içinde disiplin kovuşturmasına başlanmadığı takdirde disiplin cezası verme yetkisi zaman aşımına uğrar?",
+		"options": [
+			"Dokuz",
+			"Altı",
+			"Üç",
+			"İki"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 127. maddesine göre disiplin cezası verme yetkisi; uyarma, kınama, aylıktan kesme ve kademe ilerlemesinin durdurulması cezalarında bir ay içinde disiplin soruşturmasına, Devlet memurluğundan çıkarma cezasında altı ay içinde disiplin kovuşturmasına başlanmadığı takdirde zaman aşımına uğrar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "127"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (Memur) A Kitapçığı, 26.03.2019",
+			"year": 2019,
+			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26173359_7_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"zamanaşımı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-cte19m-q090",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre disiplin cezalarına itiraz ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"İtiraz mercileri, itiraz dilekçesi ile karar ve eklerinin kendilerine intikalinden itibaren otuz gün içinde kararlarını vermek zorundadır.",
+			"Disiplin amirleri tarafından verilen uyarma cezalarına karşı disiplin kuruluna, kademe ilerlemesinin durdurulması cezasına karşı yüksek disiplin kuruluna itiraz edilebilir.",
+			"İtirazda süre, kararın ilgiliye tebliği tarihinden itibaren on gündür.",
+			"Disiplin cezalarına karşı idari yargı yoluna başvurulabilir."
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 135. maddesine göre disiplin cezalarına itirazda süre, kararın ilgiliye tebliği tarihinden itibaren yedi gündür; on gün değildir. Maddeye göre uyarma, kınama ve aylıktan kesme cezalarına karşı disiplin kuruluna, kademe ilerlemesinin durdurulması cezasına karşı yüksek disiplin kuruluna itiraz edilebilir; itiraz mercileri otuz gün içinde karar vermek zorundadır ve tüm disiplin cezalarına karşı idari yargı yolu açıktır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "135"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (Memur) A Kitapçığı, 26.03.2019",
+			"year": 2019,
+			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26173359_7_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"itiraz"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q060",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanununa göre aşağıdakilerden hangisi Devlet Memurluğundan çıkarma cezasının verilebileceği hallerden biri olarak sayılmamıştır?",
+		"options": [
+			"Özürsüz olarak bir yılda toplam on gün göreve gelmemek",
+			"Siyasi Partiye girmek",
+			"Yetki almadan gizli bilgileri açıklamak",
+			"Yurt dışında Devletin itibarını düşürecek veya görev haysiyetini zedeleyecek tutum ve davranışlarda bulunmak"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 125. maddesinin (E) bendinde Devlet memurluğundan çıkarma cezasını gerektiren fiiller sayılmıştır; devamsızlık bakımından ölçüt özürsüz olarak bir yılda toplam yirmi gün göreve gelmemektir. On gün devamsızlık bu bent kapsamında değildir. Siyasi partiye girmek (E/c), yetki almadan gizli bilgileri açıklamak (E/h) ve yurt dışında Devletin itibarını düşürecek tutum ve davranışlarda bulunmak (E/j) ise çıkarma cezasını gerektirir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125",
+			"clause": "E"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"memurluktan-çıkarma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q072",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği uyarınca yurt dışı teşkilatlarında görevli memurlar hakkında aşağıdakilerden hangisi disiplin amirliği yetkisini haizdir?",
+		"options": [
+			"Dışişleri Bakanı",
+			"Dışişleri Bakan Yardımcısı",
+			"Konsolosluk İşleri Genel Müdürü",
+			"Misyon Şefleri"
+		],
+		"correctIndex": 3,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 5. maddesinin birinci fıkrasının (g) bendine göre misyon şefleri, yurt dışı teşkilatında görevli bütün memurlar hakkında disiplin amirliği yetkisini haizdir.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "5"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"disiplin-amiri",
+			"yurt-dışı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q072",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği uyarınca Disiplin Amirlerinin görev ve yetkileri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Disiplin amirleri yalnızca uyarma ve kınama cezalarını vermeye yetkilidir",
+			"Disiplin amirliği yetkisi devredilemez",
+			"Disiplin amirleri tarafından verilen disiplin cezasına karşı yapılan itirazın kabulü hâlinde disiplin amirleri, kararı gözden geçirerek verilen cezayı hafifletebilir veya tamamen kaldırabilir",
+			"Disiplin amirleri yetkilerini, ilgili mevzuatın memurlara tanıdığı hakları göz önünde tutarak, hakkaniyet ve eşitliği esas alan bir tutum ve davranış içinde kullanmakla yükümlüdür"
+		],
+		"correctIndex": 0,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 7. maddesine göre disiplin amirleri uyarma, kınama VE aylıktan kesme cezalarını vermeye yetkilidir; yetki yalnızca uyarma ve kınama ile sınırlı değildir. Aynı maddeye göre disiplin amirliği yetkisi devredilemez, itirazın kabulü hâlinde amir cezayı hafifletebilir veya kaldırabilir ve amirler yetkilerini hakkaniyet ve eşitliği esas alarak kullanır.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "7"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"disiplin-amiri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q073",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "Devlet Memurları Disiplin Yönetmeliğine göre mahalli idarelerin yüksek disiplin kurulu aşağıdakilerden hangisidir?",
+		"options": [
+			"İl Yüksek Disiplin Kurulu",
+			"Mülkiye Teftiş Kurulu",
+			"İçişleri Bakanlığı Yüksek Disiplin Kurulu",
+			"İlçe Yüksek Disiplin Kurulu"
+		],
+		"correctIndex": 2,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 17. maddesine göre mahallî idarelerin yüksek disiplin kurulu, İçişleri Bakanlığı yüksek disiplin kuruludur. Buna bağlı olarak mahallî idare memurları hakkında Devlet memurluğundan çıkarma cezası vermeye ve kademe ilerlemesinin durdurulması cezasına yapılan itirazları değerlendirmeye de bu kurul yetkilidir (m. 26/2).",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "17"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yüksek-disiplin-kurulu",
+			"mahalli-idare"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q074",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "Devlet Memurları Disiplin Yönetmeliğine göre İl disiplin kurulunda aşağıdakilerden hangisi yer almaz?",
+		"options": [
+			"Vali",
+			"Vali tarafından görevlendirilen Vali Yardımcısı",
+			"Varsa memurun üyesi olduğu sendika temsilcisi",
+			"Vali tarafından görevlendirilen İl Hukuk İşleri Müdürü"
+		],
+		"correctIndex": 0,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 10. maddesine göre il disiplin kurulu; valinin görevlendireceği vali yardımcısının başkanlığında, vali tarafından görevlendirilen il hukuk işleri müdürü veya il idare kurulu müdürü ile üç il idare şube başkanı ve varsa memurun üyesi olduğu sendikanın temsilcisinden oluşur. Valinin kendisi kurulda yer almaz; kurulu oluşturan üyeleri görevlendirir.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "10"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"il-disiplin-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q074",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği uyarınca devlet memurluğundan çıkarma cezasında bu cezayı gerektiren fiil veya hallerin işlendiğinin öğrenildiği tarihten itibaren ne kadar süre içinde disiplin kovuşturmasına başlanılmazsa, disiplin cezası verme yetkisi zamanaşımına uğrar?",
+		"options": [
+			"1 ay",
+			"3 ay",
+			"6 ay",
+			"1 yıl"
+		],
+		"correctIndex": 2,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 32. maddesinin birinci fıkrasının (b) bendine göre Devlet memurluğundan çıkarma cezasında, fiil veya hâllerin işlendiğinin öğrenildiği tarihten itibaren altı ay içinde disiplin kovuşturmasına başlanmazsa disiplin cezası verme yetkisi zamanaşımına uğrar.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "32"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"zamanaşımı",
+			"memurluktan-çıkarma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q075",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği uyarınca uyarma, kınama, aylıktan kesme ve kademe ilerlemesinin durdurulması cezalarında, bu cezaları gerektiren fiil veya hallerin işlendiğinin öğrenildiği tarihten itibaren ne kadar süre içinde disiplin soruşturmasına başlanılmazsa, disiplin cezası verme yetkisi zamanaşımına uğrar?",
+		"options": [
+			"15 gün",
+			"1 ay",
+			"3 ay",
+			"6 ay"
+		],
+		"correctIndex": 1,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 32. maddesinin birinci fıkrasının (a) bendine göre uyarma, kınama, aylıktan kesme ve kademe ilerlemesinin durdurulması cezalarında, fiil veya hâllerin işlendiğinin öğrenildiği tarihten itibaren bir ay içinde disiplin soruşturmasına başlanmazsa disiplin cezası verme yetkisi zamanaşımına uğrar.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "32"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"zamanaşımı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q075",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "zor",
+		"stem": "I. Aylıktan kesme, kademe ilerlemesinin durdurulması ve memurluktan çıkarma cezalarını vermek II. Uyarma ve kınama cezalarına karşı yapılan itirazları değerlendirmek III. Kademe ilerlemesinin durdurulması cezası teklifini değerlendirmek Devlet Memurları Disiplin Yönetmeliğine göre, Disiplin Kurulları ile ilgili olarak yukarıda yer verilen ifadelerden hangisi veya hangileri doğrudur?",
+		"options": [
+			"Yalnız I",
+			"I ve II",
+			"I ve III",
+			"II ve III"
+		],
+		"correctIndex": 3,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 14. maddesine göre disiplin kurulları; kademe ilerlemesinin durdurulması cezası teklifini değerlendirmeye (III), uyarma, kınama ve aylıktan kesme cezalarına karşı yapılan itirazları değerlendirmeye (II) ve kademe ilerlemesinin durdurulması cezasının özlük dosyasından çıkarılması taleplerinde mütalaa vermeye yetkilidir. Kurulların ayrı bir ceza tayinine yetkisi yoktur; cezayı kabul veya reddeder. Bu nedenle I. ifade yanlıştır.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "14"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"disiplin-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q061",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanununa göre kademe ilerlemesi cezası ile cezalandırılan memur, cezayı aldığı tarihten sonraki yıl aşağıdaki kadrolardan hangisine atanabilir?",
+		"options": [
+			"Şef",
+			"Daire Başkanı",
+			"Vali",
+			"Hiçbirine atanamazlar"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 132. maddesine göre aylıktan kesme cezası alanlar beş yıl, kademe ilerlemesinin durdurulması cezası alanlar on yıl boyunca daire başkanı kadrolarına, bunun dengi ve daha üstü kadrolara, bölge ve il teşkilatlarının en üst yönetici kadrolarına, düzenleyici ve denetleyici kurumların başkanlık ve üyeliklerine, vali ve büyükelçi kadrolarına atanamaz. Şef kadrosu bu yasak kapsamında olmadığından memur şefliğe atanabilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "132"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"atanma-yasağı"
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"

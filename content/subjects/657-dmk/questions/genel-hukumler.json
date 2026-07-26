@@ -1065,5 +1065,105 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q058",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanununa göre engelli personel çalıştırılmasına ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
+		"options": [
+			"Kurumlar toplam dolu kadro sayısının (yurtdışı teşkilat dahil) %2’sini geçmemek kaydıyla engelli çalıştırmak zorundadır",
+			"Kurumlar toplam dolu kadro sayısının (yurtdışı teşkilat hariç) %2’sini geçmemek kaydıyla engelli çalıştırmak zorundadır",
+			"Kurumlar toplam dolu kadro sayısının (yurtdışı teşkilat dahil) %3’ü oranında engelli çalıştırmak zorundadır",
+			"Kurumlar toplam dolu kadro sayısının (yurtdışı teşkilat hariç) %3’ü oranında engelli çalıştırmak zorundadır"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 53. maddesine göre kurum ve kuruluşlar bu Kanuna göre çalıştırdıkları personele ait kadrolarda %3 oranında engelli çalıştırmak zorundadır. Bu oranın hesabında ilgili kurumun yurt dışı teşkilatı hariç toplam dolu kadro sayısı dikkate alınır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "53"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"engelli-istihdamı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q060",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu uyarınca adaylık süresi içinde temel ve hazırlayıcı eğitim ve staj devrelerinin her birinde başarısız olanlarla, adaylık süresi içinde hal ve hareketlerinde memuriyetle bağdaşmayacak durumları ve göreve devamsızlıkları tespit edilerek yetkililerce ilişikleri kesilenler ( sağlık nedenleri hariç ) kaç yıl süre ile Devlet Memurluğuna alınmazlar?",
+		"options": [
+			"Bir yıl süre ile Devlet Memurluğuna alınmazlar",
+			"İki yıl süre ile Devlet Memurluğuna alınmazlar",
+			"Üç yıl süre ile Devlet Memurluğuna alınmazlar",
+			"Hiçbir surette Devlet Memurluğuna alınmazlar"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 56. maddesine göre adaylık süresi içinde ilişikleri kesilenler (sağlık nedenleri hariç) üç yıl süre ile Devlet memurluğuna alınmazlar. Not: Madde 23/1/2026 tarihli ve 7573 sayılı Kanun'la yeniden düzenlenmiş, ilişik kesme sebepleri yeniden yazılmakla birlikte üç yıllık süre korunmuştur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "56"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"adaylık"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q056",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanunu uyarınca lise veya dengi okullar üstü 2 yıl veya ortaokul üstü en az 5 yıllık mesleki veya teknik öğrenimi bitirenlerin yükselebilecekleri en yüksek derece aşağıdakilerden hangisidir?",
+		"options": [
+			"1",
+			"2",
+			"3",
+			"4"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler bölümünde yer alan öğrenim durumu cetveline göre lise veya dengi okullar üstü 2 yıl ya da ortaokul üstü en az 5 yıllık mesleki veya teknik öğrenimi bitirenler 10. derecenin 1. kademesinden göreve başlar ve yükselebilecekleri en yüksek derece 2'dir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"öğrenim-durumu",
+			"derece"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

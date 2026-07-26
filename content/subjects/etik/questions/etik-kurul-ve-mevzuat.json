@@ -550,5 +550,73 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q025",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "kolay",
+		"stem": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun hükümlerine göre Kamu Görevlileri Etik Kurulu üyeleri kim ya da hangi kurum tarafından atanır?",
+		"options": [
+			"TBMM",
+			"Adalet Bakanı",
+			"Cumhurbaşkanı",
+			"Milli Eğitim Bakanı"
+		],
+		"correctIndex": 2,
+		"explanation": "5176 sayılı Kanun'un 2. maddesine göre Kamu Görevlileri Etik Kurulunun biri Başkan olmak üzere on bir üyesi Cumhurbaşkanı tarafından seçilir ve atanır. Üyelerin görev süresi dört yıldır.",
+		"legalRef": {
+			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
+			"lawId": "5176",
+			"article": "2"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"etik-kurul",
+			"üyelik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-cte19im-q025",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "orta",
+		"stem": "Mal bildirimlerindeki bilgilerin doğruluğunun kontrolü amacıyla ilgili kişi ve kuruluşlar (bankalar ve özel finans kurumları dâhil) talep edilen bilgileri, en geç kaç gün içinde Kamu Görevlileri Etik Kuruluna vermekle yükümlüdürler?",
+		"options": [
+			"Yedi",
+			"On beş",
+			"Otuz",
+			"Kırk beş"
+		],
+		"correctIndex": 2,
+		"explanation": "3628 sayılı Kanun'un 9. maddesine 5176 sayılı Kanun'la eklenen fıkraya göre Kamu Görevlileri Etik Kurulu mal bildirimlerini gerektiğinde inceleyebilir; mal bildirimlerindeki bilgilerin doğruluğunun kontrolü amacıyla ilgili kişi ve kuruluşlar (bankalar ve özel finans kurumları dâhil) talep edilen bilgileri en geç otuz gün içinde Kurula vermekle yükümlüdür.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "9"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İkinci Müdür) A Kitapçığı, 26.03.2019",
+			"year": 2019,
+			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171626_1_grup_ikinci_mudur_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"mal-bildirimi",
+			"etik-kurul"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

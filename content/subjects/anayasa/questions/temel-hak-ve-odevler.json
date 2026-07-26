@@ -527,39 +527,6 @@
 		"updatedAt": "2026-07-25"
 	},
 	{
-		"id": "meb-ic21ud-q007",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "kolay",
-		"stem": "T.C. Anayasası'na göre kişisel verilerin korunmasına ilişkin esas ve usuller aşağıdakilerden hangisi ile düzenlenir?",
-		"options": [
-			"Kanun",
-			"Tüzük",
-			"Genelge",
-			"Yönetmelik"
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 20. maddesine göre herkes kendisiyle ilgili kişisel verilerin korunmasını isteme hakkına sahiptir ve kişisel verilerin korunmasına ilişkin esas ve usuller ancak kanunla düzenlenir. Tüzük, yönetmelik veya genelge gibi idari düzenleyici işlemlerle bu alan düzenlenemez.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "20"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Unvan Değişikliği Sınavı (İnşaat Mühendisi) A Kitapçığı, 2021",
-			"year": 2021,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171334_4_YNYAAT_MUHENDYSY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"kisisel-veriler"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
 		"id": "meb-sm26-q023",
 		"subjectId": "anayasa",
 		"topicId": "anayasa/temel-hak-ve-odevler",
@@ -929,6 +896,208 @@
 		"tags": [
 			"sosyal-haklar",
 			"sendika"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-cte19im-q002",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası’na göre yerleşme ve seyahat hürriyeti ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Vatandaş sınır dışı edilemez ve yurda girme hakkından yoksun bırakılamaz.",
+			"Yerleşme hürriyeti suç işlenmesini önlemek amacıyla kanunla sınırlanabilir.",
+			"Seyahat hürriyeti suç soruşturma ve kovuşturması sebebiyle kanunla sınırlanabilir.",
+			"Vatandaşın yurt dışına çıkma hürriyeti ancak suç işlenmesini önlemek amacıyla kanunla sınırlanabilir."
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 23. maddesine göre vatandaşın yurt dışına çıkma hürriyeti, ancak SUÇ SORUŞTURMASI VEYA KOVUŞTURMASI SEBEBİYLE HÂKİM KARARINA BAĞLI OLARAK sınırlanabilir; 'suç işlenmesini önlemek amacıyla kanunla' sınırlama ölçütü yurt dışına çıkma hürriyeti için geçerli değildir. Yerleşme hürriyeti suç işlenmesini önlemek dâhil sayılan amaçlarla, seyahat hürriyeti ise suç soruşturma ve kovuşturması sebebiyle kanunla sınırlanabilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "23"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İkinci Müdür) A Kitapçığı, 26.03.2019",
+			"year": 2019,
+			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171626_1_grup_ikinci_mudur_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yerleşme-ve-seyahat"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q002",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi 2709 sayılı Türkiye Cumhuriyeti Anayasasının Siyasi Haklar ve Ödevler başlığı altında düzenlenmemiştir?",
+		"options": [
+			"Vergi Ödevi",
+			"Vatan Hizmeti",
+			"Mal Bildirimi",
+			"Sendika Kurma Hakkı"
+		],
+		"correctIndex": 3,
+		"explanation": "Sendika kurma hakkı Anayasa'nın 51. maddesinde, 'Sosyal ve Ekonomik Haklar ve Ödevler' bölümünde düzenlenmiştir. Vergi ödevi (m. 73), vatan hizmeti (m. 72) ve mal bildirimi (m. 71) ise 'Siyasi Haklar ve Ödevler' bölümünde yer alır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "51"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"hak-sınıflandırması",
+			"sendika"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q004",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıdakilerden hangisi “Suç ve cezalara ilişkin esaslar”la ilgili doğru bir ifadedir?",
+		"options": [
+			"Kanuna aykırı olarak elde edilmiş bulgular, delil olarak kabul edilemez",
+			"Ceza ve ceza yerine geçen güvenlik tedbirleri Cumhurbaşkanı kararıyla konulabilir",
+			"Ölüm cezası ve genel müsadere cezası verilebilir",
+			"Bir kimse, sözleşmeden doğan bir yükümlülüğü yerine getirememesi nedeniyle özgürlüğünden alıkonulabilir"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 38. maddesine göre kanuna aykırı olarak elde edilmiş bulgular delil olarak kabul edilemez. Aynı madde uyarınca ceza ve ceza yerine geçen güvenlik tedbirleri ancak kanunla konulur, ölüm cezası ve genel müsadere cezası verilemez, hiç kimse yalnızca sözleşmeden doğan bir yükümlülüğü yerine getirememesinden dolayı özgürlüğünden alıkonulamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "38"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"suç-ve-ceza"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q005",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıdakilerden hangisi “Sosyal ve Ekonomik Haklar ve Ödevler” bölümünde düzenlenmiştir?",
+		"options": [
+			"Toplantı ve gösteri yürüyüşü düzenleme hakkı",
+			"Mülkiyet hakkı",
+			"Eğitim ve öğrenim hakkı ve ödevi",
+			"Vatan hizmeti"
+		],
+		"correctIndex": 2,
+		"explanation": "Eğitim ve öğrenim hakkı ve ödevi Anayasa'nın 42. maddesinde, 'Sosyal ve Ekonomik Haklar ve Ödevler' bölümünde düzenlenmiştir. Toplantı ve gösteri yürüyüşü düzenleme hakkı (m. 34) ile mülkiyet hakkı (m. 35) kişinin hakları ve ödevleri, vatan hizmeti (m. 72) ise siyasi haklar ve ödevler bölümündedir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "42"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"hak-sınıflandırması",
+			"eğitim-hakkı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-yim23-q001",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıdakilerden hangisi milletlerarası hukuktan doğan yükümlülükler ihlal edilmemek kaydıyla, durumun gerektirdiği ölçüde temel hak ve hürriyetlerin kullanılmasının kısmen veya tamamen durdurulması hallerinden biri değildir?",
+		"options": [
+			"Savaş",
+			"Olağanüstü hâl",
+			"Sıkıyönetim",
+			"Seferberlik"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 15. maddesine göre temel hak ve hürriyetlerin kullanılması savaş, seferberlik veya olağanüstü hâllerde kısmen ya da tamamen durdurulabilir. Sıkıyönetim ibaresi 2017 Anayasa değişikliğiyle madde metninden çıkarılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "15"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"olağanüstü-yönetim",
+			"2017-değişikliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "sytay-sef23-q003",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıdakilerden hangisi “Yerleşme ve Seyahat Hürriyeti”nin kanunla sınırlanabileceği hallerden biri değildir?",
+		"options": [
+			"Yerleşme hürriyeti, suç işlenmesini önlemek, sosyal ve ekonomik gelişmeyi sağlamak, sağlıklı ve düzenli kentleşmeyi gerçekleştirmek amaçlarıyla kanunla sınırlanabilir",
+			"Yerleşme Hürriyeti kamu yararı amacıyla sınırlanabilir",
+			"Yerleşme hürriyeti, kamu mallarını korumak amacıyla kanunla sınırlanabilir",
+			"Seyahat hürriyeti, suç soruşturma ve kovuşturması sebebiyle ve suç işlenmesini önlemek amaçlarıyla kanunla sınırlanabilir"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 23. maddesinde yerleşme hürriyetinin sınırlanma sebepleri sayma yoluyla belirtilmiştir: suç işlenmesini önlemek, sosyal ve ekonomik gelişmeyi sağlamak, sağlıklı ve düzenli kentleşmeyi gerçekleştirmek ve kamu mallarını korumak. Genel nitelikli bir 'kamu yararı' sebebi maddede yer almaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "23"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
+			"year": 2023,
+			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yerleşme-ve-seyahat",
+			"sınırlama-sebepleri"
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"

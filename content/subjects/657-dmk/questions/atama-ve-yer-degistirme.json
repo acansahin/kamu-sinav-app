@@ -793,5 +793,38 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-cte19idm-q081",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre işe başlamama hâlinde yapılacak işlem ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Belirlenen süre içerisinde işe başlamayanların, belge ile ispatı mümkün zorlayıcı sebepler nedeniyle göreve başlamama hâli iki ayı aştığı takdirde atama işlemi atamaya yetkili makamlarca iptal edilir.",
+			"Başka yerdeki bir göreve atananlardan belirlenen süre içinde hareket ederek belli yol süresi sonunda yeni görevlerine başlamayanlara, eski görevlerinden ayrılış ve yeni görevlerine başlayış tarihleri arasında aylık verilmemek şartı ile 15 günlük bir süre daha verilebilir.",
+			"Bir göreve ilk defa veya yeniden atananlardan belge ile ispatı mümkün zorlayıcı sebepler olmaksızın belirlenen süre içinde işe başlamayanların atanmaları iptal edilir.",
+			"Belge ile ispatı mümkün zorlayıcı sebepler olmaksızın belirlenen süre içinde işe başlamayanlar 1 yıl süreyle Devlet memuru olarak istihdam edilemezler."
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 63. maddesine göre başka yerdeki bir göreve atananlardan süresi içinde hareket ederek yol süresi sonunda yeni görevine başlamayanlara, aylık verilmemek şartıyla ON günlük bir süre daha verilebilir; on beş gün değil. Maddenin diğer hükümleri uyarınca zorlayıcı sebeple göreve başlamama hâli iki ayı aşarsa atama iptal edilir, zorlayıcı sebep olmaksızın süresinde işe başlamayanların atanmaları iptal edilir ve bunlar bir yıl süreyle Devlet memuru olarak istihdam edilemez.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "63"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İdare Memuru) A Kitapçığı, 26.03.2019",
+			"year": 2019,
+			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171802_3_GRUP_IDARE_MEMURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"göreve-başlama"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]
