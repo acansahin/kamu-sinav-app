@@ -24,14 +24,13 @@ export function classify(stem: string): Classification {
 		return { subjectId: "anayasa", topicId: anayasaTopic(s) };
 	}
 
-	// Etik — 5176 ve etik davranış mevzuatı. 657'den ÖNCE bakılır: etik davranış
-	// yönetmeliği de "memur"dan söz eder, 657 kuralı onu kapmasın.
-	if (
-		hasWord("5176") ||
-		has("etik kurul") ||
-		has("etik davranis") ||
-		has("etik ilke")
-	) {
+	// Etik — 5176, etik kurulu ve etik davranış/kavram mevzuatı. 657'den ÖNCE
+	// bakılır: etik metinleri de "memur"dan söz eder, 657 kuralı onları kapmasın.
+	// "etik" kökü KELİME-SINIRIYLA yakalanır: yalın "etik" (etik kavramları/ilkeleri)
+	// ve çekimli "etiği"/"etiğe" (foldlanınca "etigi"/"etige") dâhil; ama "etiket"
+	// ve "-etik" ekli sözcükler (estetik, sentetik, genetik) HARİÇ — ilki `(?!et)`
+	// negatif ileri-bakışıyla, ikincisi `\b` sözcük sınırıyla elenir.
+	if (hasWord("5176") || /\beti[kg](?!et)/.test(s)) {
 		return { subjectId: "etik", topicId: etikTopic(s) };
 	}
 
