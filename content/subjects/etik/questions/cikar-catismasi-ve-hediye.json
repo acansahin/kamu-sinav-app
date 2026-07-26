@@ -408,38 +408,5 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sef23-q013",
-		"subjectId": "etik",
-		"topicId": "etik/cikar-catismasi-ve-hediye",
-		"difficulty": "zor",
-		"stem": "Millî Eğitim Bakanlığının Eğitimciler İçin Mesleki Etik İlkeler Genelgesi'ne göre, aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Eğitimci, kanuni istisnalar hariç olmak üzere öğrencilere ücret ve başka bir menfaat karşılığı özel ders vermez.",
-			"Eğitimci; ailevi ve çevresel nedenlerle üzüntü, sıkıntı, mutsuzluk gibi kişisel durumlarını öğrencilere yansıtmaz ve onlara açıklamaz.",
-			"Eğitimci, öğrencinin beden ve ruh sağlığını, fiziksel, sosyal gelişimini ve eğitimini olumsuz yönde etkileyecek şekilde davranmaz.",
-			"Eğitimci, öğretmenler günü de dâhil olmak üzere hiçbir özel gün ve haftada; maddi değeri olmayan hediyeler dâhil hiçbir hediye kabul edemez.",
-			"Eğitimci, mesleki nüfuzunu kullanarak kişisel menfaat sağlamaz; kurum kaynaklarını, araç ve gereçlerini kişisel amaçlar için kullanmaz."
-		],
-		"correctIndex": 3,
-		"explanation": "Genelge, eğitimcinin mesleki nüfuzunu kullanarak menfaat sağlamasını ve maddi değeri olan hediye kabul etmesini yasaklar; ancak yasağı, özel günlerde verilen maddi değeri olmayan sembolik hediyeleri de kapsayacak biçimde mutlaklaştırmaz. Bu nedenle \"maddi değeri olmayan hediyeler dâhil hiçbir hediye kabul edemez\" biçimindeki mutlak ifade yanlıştır.",
-		"legalRef": {
-			"law": "Millî Eğitim Bakanlığı Eğitimciler İçin Mesleki Etik İlkeler Genelgesi"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_2_SEF_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"hediye",
-			"mebe-ozgu"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
 	}
 ]
