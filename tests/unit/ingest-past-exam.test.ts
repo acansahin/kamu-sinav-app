@@ -1,9 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { assemble } from "../../scripts/ingest/assemble";
 import { classify } from "../../scripts/ingest/classify";
+import { dedupeCandidates } from "../../scripts/ingest/dedupe";
 import { parseBooklet } from "../../scripts/ingest/parse-booklet";
 import { parseKey } from "../../scripts/ingest/parse-key";
 import { splitBookletAndKey } from "../../scripts/ingest/split-booklet";
+import type { CandidateQuestion } from "../../scripts/ingest/types";
 
 /**
  * Çıkmış sınav ithal hattının saf mantığı.
@@ -203,6 +205,46 @@ describe("parseBooklet", () => {
 		const [q] = parseBooklet(text);
 		expect(q?.options).toEqual(["9/1", "10/1", "10/2", "10/3"]);
 		expect(q?.parseOk).toBe(true);
+	});
+
+	it("değişken sayfa numaralı üstbilgiyi eler, son şıkka bulaştırmaz", () => {
+		// Gerçek MEB kaçağı: her sayfada dönen "NİNŞAAT MÜHENDİSİ A" başlığı sayfa
+		// numarası taşıdığından düz eşleşmeyle yakalanmaz; rakam-düşülmüş sıklıkla
+		// yakalanıp son şıkka ("10/3") yapışması önlenmeli.
+		const text = [
+			"1. Giriş derecesi?",
+			"A) 9/1 B) 10/1 C) 10/2 D) 10/3",
+			"2İNŞAAT MÜHENDİSİ A",
+			"2. İkinci?",
+			"A) a",
+			"B) b",
+			"C) c",
+			"D) d",
+			"4İNŞAAT MÜHENDİSİ A",
+			"3. Üçüncü?",
+			"A) e",
+			"B) f",
+			"C) g",
+			"D) h",
+			"6İNŞAAT MÜHENDİSİ A",
+			"4. Dördüncü?",
+			"A) i",
+			"B) j",
+			"C) k",
+			"D) l",
+			"8İNŞAAT MÜHENDİSİ A",
+			"5. Beşinci?",
+			"A) m",
+			"B) n",
+			"C) o",
+			"D) p",
+			"10İNŞAAT MÜHENDİSİ A",
+		].join("\n");
+
+		const qs = parseBooklet(text, 5); // başlık 5 kez döndü → eşik 5
+		expect(qs).toHaveLength(5);
+		expect(qs[0]?.options).toEqual(["9/1", "10/1", "10/2", "10/3"]); // temiz
+		expect(qs[1]?.options).toEqual(["a", "b", "c", "d"]);
 	});
 
 	it("tek maddelik önsözden sonra ilk soruyu (restart olmadan, şıkla) yakalar", () => {
@@ -429,5 +471,67 @@ describe("assemble", () => {
 		expect(report.bySubject).toEqual({ anayasa: 1, "657-dmk": 1 });
 		expect(report.unmatched).toBe(1); // 6085 sorusu
 		expect(report.missingAnswer).toEqual([3]);
+	});
+});
+
+describe("dedupeCandidates", () => {
+	const candidate = (
+		number: number,
+		stem: string,
+		options: string[],
+		correctIndex: number,
+		origin = "kaynak",
+	): CandidateQuestion => ({
+		number,
+		subjectId: "657-dmk",
+		topicId: null,
+		difficulty: null,
+		stem,
+		options,
+		correctIndex,
+		legalRef: null,
+		explanation: null,
+		source: { kind: "official-past-exam", origin, license: "public-official" },
+		status: "draft",
+	});
+
+	it("şıkları karıştırılmış aynı soruyu tek sayar", () => {
+		// Aynı gövde + aynı şık KÜMESİ (farklı sıra, farklı doğru harf) → tek.
+		const a = candidate(15, "Vekâlet görevi ile ilgili yanlış olan?", ["p", "q", "r", "s"], 3, "avukat");
+		const b = candidate(22, "Vekâlet görevi ile ilgili yanlış olan?", ["q", "s", "r", "p"], 1, "sosyolog");
+		const { unique, duplicatesRemoved } = dedupeCandidates([a, b]);
+		expect(unique).toHaveLength(1);
+		expect(duplicatesRemoved).toBe(1);
+		// İlk görülen (kendi şık sırası + cevabıyla) korunur.
+		expect(unique[0]?.source.origin).toBe("avukat");
+		expect(unique[0]?.correctIndex).toBe(3);
+	});
+
+	it("PDF tire kırpması ve Türkçe küçültme farkını yutup tek sayar", () => {
+		const a = candidate(1, "Kişisel verilerin korun- masına ilişkin?", ["a", "b", "c", "d"], 0);
+		const b = candidate(1, "Kişisel verilerin korunmasına İLİŞKİN?", ["a", "b", "c", "d"], 0);
+		expect(dedupeCandidates([a, b]).unique).toHaveLength(1);
+	});
+
+	it("kaynaklar arası kesme işareti/noktalama farkını yutup tek sayar", () => {
+		// Aynı soru, gövdede "Meclisinde" vs "Meclisi'nde" (kesme işareti) farkı.
+		const a = candidate(9, "TBMM Meclisinde görüşülme usulü?", ["a", "b", "c", "d"], 2);
+		const b = candidate(9, "TBMM Meclisi'nde görüşülme usulü?", ["a", "b", "c", "d"], 2);
+		expect(dedupeCandidates([a, b]).unique).toHaveLength(1);
+	});
+
+	it("gövdesi aynı ama şık kümesi farklı gerçek soruları ayrı tutar", () => {
+		const a = candidate(1, "Aynı gövde?", ["a", "b", "c", "d"], 0);
+		const b = candidate(1, "Aynı gövde?", ["a", "b", "c", "x"], 0);
+		expect(dedupeCandidates([a, b]).unique).toHaveLength(2);
+	});
+
+	it("farklı soruları korur ve sırayı bozmaz", () => {
+		const a = candidate(1, "Birinci soru?", ["a", "b", "c", "d"], 0);
+		const b = candidate(2, "İkinci soru?", ["a", "b", "c", "d"], 1);
+		const { unique, duplicatesRemoved } = dedupeCandidates([a, b]);
+		expect(unique).toHaveLength(2);
+		expect(duplicatesRemoved).toBe(0);
+		expect(unique.map((c) => c.number)).toEqual([1, 2]);
 	});
 });
