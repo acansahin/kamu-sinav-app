@@ -575,10 +575,11 @@
 			"Dört"
 		],
 		"correctIndex": 0,
-		"explanation": "657 sayılı Kanun'a göre kamu görevlisi iken bakan müşavirliğine atananlar görevden alındıklarında, yönetici kadro, pozisyon ve görevleri hariç olmak üzere önceki kadro veya pozisyonlarına en geç bir ay içinde atanırlar.",
+		"explanation": "657 sayılı Kanun'un 61/A maddesine göre kamu görevlisi iken bakan müşavirliğine atananlar, görevleri sona erdiğinde veya görevden alındıklarında, yönetici kadro, pozisyon ve görevleri hariç olmak üzere önceki kadro veya pozisyonlarına en geç bir ay içinde atanırlar. Bakan müşaviri kadrolarına açıktan atananlardan görevi sona erenlerin ise memuriyetle ilişiği kesilir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657"
+			"lawId": "657",
+			"article": "61/A"
 		},
 		"source": {
 			"kind": "official-past-exam",
@@ -641,10 +642,11 @@
 			"Üç ay"
 		],
 		"correctIndex": 3,
-		"explanation": "657 sayılı Kanun'a göre mecburi hizmetle yükümlü bulunanlar, yetiştirme, eğitim veya staj sürelerinin bitiminden itibaren en çok iki ay içinde kurumlarına başvurmak zorundadır. Süresinde başvurmayanlar hakkında yükümlülüklerine ilişkin hükümler uygulanır.",
+		"explanation": "657 sayılı Kanun'un 225. maddesine göre mecburi hizmetle yükümlü bulunanlar, yetiştirme, eğitim veya staj sürelerinin bitiminden itibaren en çok iki ay içinde kurumlarına başvurmak zorundadır. Başvurmayanlar veya atanma için gerekli belgelerini tamamlamayanlar, yol giderleri dâhil kendilerine kurumlarınca yapılmış bütün giderleri yüzde elli fazlasıyla ödemek zorundadır.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657"
+			"lawId": "657",
+			"article": "225"
 		},
 		"source": {
 			"kind": "official-past-exam",

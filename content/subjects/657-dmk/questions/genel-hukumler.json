@@ -712,10 +712,11 @@
 			"II, III ve IV"
 		],
 		"correctIndex": 3,
-		"explanation": "657 sayılı Kanun'a göre kurumlar; kendi bünyeleri içinde mesleki öğretim ve eğitim yapabilir, yurt içindeki öğrenim kurumlarında öğrenci okutup ihtisas yaptırabilir ve aynı imkânı dış memleketlerde de kullanabilirler. Diğer kamu kurumlarında mesleki öğretim, eğitim ve staj yaptırmak ise bu yöntemler arasında sayılmamıştır.",
+		"explanation": "657 sayılı Kanun'un 221. maddesine göre kurumlar, belirli sınıflardaki memurluklara eleman yetiştirmek amacıyla; kendi bünyeleri içerisinde mesleki öğretim ve eğitim yapabilir, yurt içindeki öğrenim kurumlarında öğrenci okutabilir ve ihtisas yaptırabilir, dış memleketlerde öğrenci okutabilir ve ihtisas yaptırabilirler. Diğer kamu kurumlarında mesleki öğretim, eğitim ve staj yaptırmak ise maddede sayılan yöntemler arasında yer almaz.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657"
+			"lawId": "657",
+			"article": "221"
 		},
 		"source": {
 			"kind": "official-past-exam",
@@ -778,10 +779,11 @@
 			"Devlet memurlarının yetişmelerini sağlamak ve verimliliklerini artırmak amacıyla hazırlanan hizmet içi eğitim yönetmeliklerinde Danıştayın görüşünün alınması esastır."
 		],
 		"correctIndex": 4,
-		"explanation": "657 sayılı Kanun'a göre hizmet içi eğitim yönetmeliklerinin hazırlanmasında Danıştayın görüşünün alınması öngörülmemiştir; bu yönetmelikler kurumlarca hazırlanır. Kurumların eğitim merkezi açabilmesi, kurumlararası eğitim merkezlerinin ve genel eğitim planının Cumhurbaşkanı kararıyla yürürlüğe konulması ile memurların yabancı memleketlerde yetiştirilebilmesi ise Kanun'un hükümleridir.",
+		"explanation": "657 sayılı Kanun'un 214. maddesine göre hizmet içi eğitim, merkezî personel birimi tarafından ilgili kurumlarla birlikte hazırlanacak yönetmelikler dâhilinde yürütülür; Danıştayın görüşünün alınması öngörülmemiştir. Diğer seçenekler Kanun'un hükümleridir: eğitim merkezleri ile Cumhurbaşkanı kararıyla açılan kurumlararası eğitim merkezleri 216, eğitim genel planı 217, yurt dışında yetiştirme ise 218. maddede düzenlenmiştir. Maddede anılan Devlet Personel Başkanlığı 2018'de kaldırılmış, görevleri Cumhurbaşkanlığı İnsan Kaynakları Ofisine devredilmiştir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657"
+			"lawId": "657",
+			"article": "214-218"
 		},
 		"source": {
 			"kind": "official-past-exam",
