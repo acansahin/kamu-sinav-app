@@ -66,17 +66,25 @@ function splitOptionSegments(line: string): string[] {
 export function parseBooklet(text: string, boilerplateMinCount = 5): ParsedQuestion[] {
 	const lines = text.split(/\r?\n/).map((line) => line.trim());
 
-	// Tekrar eden satırların sıklığı — üstbilgi/altbilgi elemesi için.
+	// Tekrar eden satırların sıklığı — üstbilgi/altbilgi elemesi için. Sayfa
+	// başlığı sayfa numarası taşır ve numara her sayfada değiştiğinden ("2İNŞAAT
+	// MÜHENDİSİ A", "4İNŞAAT... A" ya da tek satıra yapışmış "AVUKAT A5ÖLÇME...")
+	// düz satır eşleşmesi bunları YAKALAYAMAZ ve son şıkka bulaşır. Bu yüzden
+	// RAKAMLAR düşülerek anahtarlanır: dönen başlık tek anahtara toplanıp eşiği aşar.
+	const noiseKey = (line: string): string => line.replace(/\d+/g, "#");
 	const frequency = new Map<string, number>();
 	for (const line of lines) {
-		if (line) frequency.set(line, (frequency.get(line) ?? 0) + 1);
+		if (line) frequency.set(noiseKey(line), (frequency.get(noiseKey(line)) ?? 0) + 1);
 	}
 
-	const isNoise = (line: string): boolean =>
-		line.length === 0 ||
-		PAGE_MARKER.test(line) ||
-		/^\d{1,3}$/.test(line) || // yalın sayfa numarası
-		(frequency.get(line) ?? 0) >= boilerplateMinCount;
+	const isNoise = (line: string): boolean => {
+		if (line.length === 0 || PAGE_MARKER.test(line)) return true;
+		if (/^\d{1,3}$/.test(line)) return true; // yalın sayfa numarası
+		// Soru/şık markörü taşıyan satır asla sıklık-gürültüsü sayılmaz: rakam
+		// düşülünce yatay sayısal şıklar ("A) 9/1 B) 10/1...") çakışıp elenmesin.
+		if (QUESTION_START.test(line) || OPTION_LINE.test(line)) return false;
+		return (frequency.get(noiseKey(line)) ?? 0) >= boilerplateMinCount;
+	};
 
 	const questions: ParsedQuestion[] = [];
 	let draft: Draft | null = null;
