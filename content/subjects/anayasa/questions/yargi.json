@@ -427,5 +427,245 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "meb-adl23-q010",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası'na göre, \"hâkimlik ve savcılık mesleği\" ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Hâkimler ve savcılar idari görevleri yönünden Hâkimler ve Savcılar Kuruluna bağlıdırlar.",
+			"Hâkimler ve savcılar altmış beş yaşını bitirinceye kadar hizmet görürler; askerî hâkimlerin yaş haddi, yükselme ve emeklilikleri kanunda gösterilir.",
+			"Hâkimler ve savcılar, kanunda belirtilenlerden başka, resmî ve özel hiçbir görev alamazlar.",
+			"Hâkimler, mahkemelerin bağımsızlığı ve hâkimlik teminatı esaslarına göre görev ifa ederler.",
+			"Hâkimler ve savcılar adli ve idari yargı hâkim ve savcıları olarak görev yaparlar."
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 140. maddesine göre hâkimler ve savcılar idari görevleri yönünden Adalet Bakanlığına bağlıdırlar; Hâkimler ve Savcılar Kuruluna bağlı oldukları ifadesi yanlıştır. Hâkimlerin mahkemelerin bağımsızlığı ve hâkimlik teminatı esaslarına göre görev yapması ise aynı maddenin güvencesidir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "140"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"hakimlik-savcilik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl23-q055",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "zor",
+		"stem": "T.C. Anayasası'na göre, Anayasa Mahkemesinin \"çalışma ve yargılama usulü\" ile ilgili aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Genel Kurul, Mahkeme Başkanının veya Başkanın belirleyeceği başkanvekilinin başkanlığında en az on iki üye ile toplanır.",
+			"Anayasa değişikliğinde iptale karar verilebilmesi için üye tam sayısının salt çoğunluğunun oyu şarttır.",
+			"Mahkemenin çalışma esasları, bölüm ve komisyonların oluşumu ve iş bölümü yönetmelikle düzenlenir.",
+			"Mahkeme, gerekli gördüğü hâllerde sözlü açıklamalarını dinlemek üzere ilgilileri ve konu üzerinde bilgisi olanları çağırabilir.",
+			"Yüce Divan sıfatıyla yürütülecek yargılamalara bölümlerce bakılır, bireysel başvurular ise Genel Kurulca karara bağlanır."
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 149. maddesine göre Anayasa Mahkemesi, gerekli gördüğü hâllerde sözlü açıklamalarını dinlemek üzere ilgilileri ve konu üzerinde bilgisi olanları çağırabilir. Genel Kurul en az on üye ile toplanır, Anayasa değişikliğinde iptale üçte iki çoğunlukla karar verilir, çalışma esasları İçtüzükle düzenlenir ve Yüce Divan yargılaması Genel Kurulca yapılır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "149"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"aym",
+			"yargilama-usulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl23-q056",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "zor",
+		"stem": "T.C. Anayasası'na göre, \"Hâkimler ve Savcılar Kurulu\" ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Kurul, mahkemelerin bağımsızlığı ve hâkimlik teminatı esaslarına göre kurulur ve görev yapar.",
+			"Kurulun meslekten çıkarma cezasına ilişkin olanlar dışındaki kararlarına karşı yargı mercilerine başvurulamaz.",
+			"Kurul müfettişleri ile Kurulda geçici veya sürekli olarak çalıştırılacak hâkim ve savcıları, muvafakatlerini alarak atama yetkisi Adalet Bakanı'na aittir.",
+			"Kurul, kendi üyeleri arasından daire başkanlarını ve daire başkanlarından birini de başkanvekili olarak seçer.",
+			"Kurul üyelerinin seçimi, dairelerin oluşumu ve iş bölümü, Kurulun ve dairelerin görevleri, toplantı ve karar yeter sayıları, çalışma usul ve esasları kanunla düzenlenir."
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 159. maddesine göre Kurul müfettişleri ile Kurulda geçici veya sürekli olarak çalıştırılacak hâkim ve savcıları, muvafakatlerini alarak atama yetkisi Hâkimler ve Savcılar Kuruluna aittir; bu yetkinin Adalet Bakanına ait olduğu ifadesi yanlıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "159"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"hsk"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl23-q057",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "Sayıştayın kesin hükümleri hakkında ilgililer yazılı bildirim tarihinden itibaren - - - - gün içinde bir kereye mahsus olmak üzere karar düzeltilmesi isteminde bulunabilirler. T.C. Anayasası'na göre, bu hükümde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+		"options": [
+			"on beş",
+			"yirmi",
+			"otuz",
+			"kırk beş",
+			"altmış"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 160. maddesine göre Sayıştayın kesin hükümleri hakkında ilgililer, yazılı bildirim tarihinden itibaren on beş gün içinde bir kereye mahsus olmak üzere karar düzeltilmesi isteminde bulunabilirler. Bu kararlar dolayısıyla idari yargı yoluna başvurulamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "160"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"sayistay"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-ic21-q015",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası'na göre Anayasa Mahkemesinde doğrudan doğruya iptal davası açma hakkı, iptali istenen kanun, Cumhurbaşkanlığı kararnamesi veya içtüzüğün Resmî Gazete'de yayımlanmasından başlayarak kaç gün sonra düşer?",
+		"options": [
+			"On beş",
+			"Otuz",
+			"Kırk beş",
+			"Altmış"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 151. maddesine göre Anayasa Mahkemesinde doğrudan doğruya iptal davası açma hakkı, iptali istenen kanun, Cumhurbaşkanlığı kararnamesi veya İçtüzüğün Resmî Gazete'de yayımlanmasından başlayarak altmış gün sonra düşer. Süre hak düşürücüdür.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "151"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2021",
+			"year": 2021,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171238_7_YEF_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"aym",
+			"iptal-davasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sef23-q028",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi T.C. Anayasası'nda Yüksek Mahkemeler başlığı altında düzenlenmemiştir?",
+		"options": [
+			"Yargıtay",
+			"Danıştay",
+			"Sayıştay",
+			"Anayasa Mahkemesi",
+			"Uyuşmazlık Mahkemesi"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'da Yüksek Mahkemeler başlığı altında Anayasa Mahkemesi, Yargıtay, Danıştay ve Uyuşmazlık Mahkemesi düzenlenmiştir. Sayıştay ise yüksek mahkemeler arasında değil, yargı bölümünün ayrı bir başlığı altında 160. maddede düzenlenen bir denetim kurumudur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "146-160"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_2_SEF_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yuksek-mahkemeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sef23-q029",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası'na göre, Anayasa Mahkemesinin görev ve yetkileri arasında aşağıdakilerden hangisi sayılmamıştır?",
+		"options": [
+			"Kanunların, Cumhurbaşkanlığı kararnamelerinin ve Türkiye Büyük Millet Meclisi İçtüzüğünün Anayasaya şekil ve esas bakımlarından uygunluğunu denetlemek",
+			"İdari mahkemelerce verilen ve kanunun başka bir idari yargı merciine bırakmadığı karar ve hükümlerin son inceleme mercii olarak görev yapmak",
+			"Bireysel başvuruları karara bağlamak",
+			"Yüce Divan sıfatıyla yargılama yapmak",
+			"Anayasa değişikliklerini sadece şekil bakımından incelemek ve denetlemek"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 148. maddesine göre Anayasa Mahkemesi; kanunların, Cumhurbaşkanlığı kararnamelerinin ve Meclis İçtüzüğünün Anayasaya uygunluğunu denetler, bireysel başvuruları karara bağlar, Yüce Divan sıfatıyla yargılama yapar ve Anayasa değişikliklerini yalnızca şekil bakımından inceler. İdari mahkeme kararlarının son inceleme mercii olmak ise Danıştayın görevidir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "148"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_2_SEF_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"aym",
+			"gorevler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

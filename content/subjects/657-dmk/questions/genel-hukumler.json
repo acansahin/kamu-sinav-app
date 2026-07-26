@@ -563,5 +563,505 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "meb-ic21ud-q011",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre 3 yıl süreli yükseköğrenimi bitirenlerin (istisnai durumlar hariç) memuriyete giriş derece ve kademeleri aşağıdakilerden hangisidir?",
+		"options": [
+			"9/1",
+			"10/1",
+			"10/2",
+			"10/3"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 36. maddesindeki ortak hükümlere göre 3 yıl süreli yükseköğrenimi bitirenler 10. derecenin 3. kademesinden hizmete alınır. Karşılaştırma için: 2 yıl süreli yükseköğrenim 10/2, 4 yıl süreli yükseköğrenim ise 9/1 ile başlar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Unvan Değişikliği Sınavı (İnşaat Mühendisi) A Kitapçığı, 2021",
+			"year": 2021,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171334_4_YNYAAT_MUHENDYSY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"giris-derecesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-av21ud-q011",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre sosyal hizmetler mütehassısı aşağıdaki sınıflardan hangisinin kapsamındadır?",
+		"options": [
+			"Teknik Hizmetler Sınıfı",
+			"Genel İdare Hizmetleri Sınıfı",
+			"Sağlık Hizmetleri ve Yardımcı Sağlık Hizmetleri Sınıfı",
+			"Eğitim ve Öğretim Hizmetleri Sınıfı"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 36. maddesine göre sosyal hizmetler mütehassısı, Sağlık Hizmetleri ve Yardımcı Sağlık Hizmetleri Sınıfı içinde sayılmıştır. Bu sınıf, sağlık hizmetlerinde çalışan ve mesleki eğitim görmüş personeli kapsar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Unvan Değişikliği Sınavı (Avukat) A Kitapçığı, 2021",
+			"year": 2021,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171334_1_AVUKAT_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"hizmet-siniflari"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sm26-q028",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre, aşağıdakilerden hangisi teknik hizmetler sınıfı personelidir?",
+		"options": [
+			"Biyolog",
+			"Hidrolog",
+			"Fizikoterapist",
+			"Tıp teknoloğu",
+			"Sosyal hizmetler mütehassısı"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 36. maddesine göre hidrolog, Teknik Hizmetler Sınıfı içinde sayılmıştır. Biyolog, fizikoterapist, tıp teknoloğu ve sosyal hizmetler mütehassısı ise Sağlık Hizmetleri ve Yardımcı Sağlık Hizmetleri Sınıfında yer alır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Şube Müdürü Görevde Yükselme Sınavı A Kitapçığı, 2026",
+			"year": 2026,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2026_02/69899a10ca3ec941629998_SUBE_MUDURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"hizmet-siniflari"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sm26-q029",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre, lise dengi mesleki veya teknik öğrenimi bitirenler için memuriyete giriş derece ve kademesi aşağıdakilerden hangisidir?",
+		"options": [
+			"15/1",
+			"13/3",
+			"12/2",
+			"10/2",
+			"9/1"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 36. maddesine göre lise dengi mesleki veya teknik öğrenimi bitirenler 12. derecenin 2. kademesinden hizmete alınır. Normal lise mezunları 13/3, iki yıllık yükseköğrenim mezunları 10/2, dört yıllık yükseköğrenim mezunları ise 9/1 ile başlar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Şube Müdürü Görevde Yükselme Sınavı A Kitapçığı, 2026",
+			"year": 2026,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2026_02/69899a10ca3ec941629998_SUBE_MUDURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"giris-derecesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl23-q019",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "zor",
+		"stem": "I. Kendi bünyeleri içerisinde mesleki öğretim ve eğitim yapabilirler. II. Diğer kamu kurumlarında mesleki öğretim, eğitim ve staj yaptırabilirler. III. Yurt içindeki öğrenim kurumlarında öğrenci okutabilir ve ihtisas yaptırabilirler. IV. Dış memleketlerde öğrenci okutabilir ve ihtisas yaptırabilirler. 657 sayılı Devlet Memurları Kanunu'na göre, Devlet memurluğuna eleman yetiştirilmesi ile ilgili verilenlerden hangileri kamu kurumlarının başvurabileceği yöntemler arasında sayılmıştır?",
+		"options": [
+			"I ve II",
+			"II ve III",
+			"II ve IV",
+			"I, III ve IV",
+			"II, III ve IV"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'a göre kurumlar; kendi bünyeleri içinde mesleki öğretim ve eğitim yapabilir, yurt içindeki öğrenim kurumlarında öğrenci okutup ihtisas yaptırabilir ve aynı imkânı dış memleketlerde de kullanabilirler. Diğer kamu kurumlarında mesleki öğretim, eğitim ve staj yaptırmak ise bu yöntemler arasında sayılmamıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"eleman-yetistirme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-ic21-q020",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre engelli açığı bulunan kamu kurum ve kuruluşları bir sonraki yıl için alım yapacakları engellilere ilişkin taleplerini her yılın hangi ayının sonuna kadar Devlet Personel Başkanlığına bildirmek zorundadır?",
+		"options": [
+			"Eylül",
+			"Ekim",
+			"Kasım",
+			"Aralık"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 53. maddesine göre engelli açığı bulunan kamu kurum ve kuruluşları, bir sonraki yıl için alım yapacakları engellilere ilişkin taleplerini her yılın Ekim ayının sonuna kadar bildirmek zorundadır. Maddede anılan Devlet Personel Başkanlığı 2018'de kaldırılmış olup görevleri Cumhurbaşkanlığı İnsan Kaynakları Ofisine devredilmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "53"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2021",
+			"year": 2021,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171238_7_YEF_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"engelli-istihdami"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sef23-q031",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre, \"Devlet memurlarının yetiştirilmesi\" ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Kurumlar kendi eğitim ihtiyaçlarını karşılamak üzere eğitim merkezleri açabilirler.",
+			"Kurumlararası eğitim ihtiyaçlarını karşılamak üzere, Cumhurbaşkanı kararıyla, kurumlararası eğitim merkezleri açılabilir.",
+			"Devlet memurları eğitimi genel planı, Cumhurbaşkanı kararıyla yürürlüğe konulur.",
+			"Devlet memurları, yabancı memleketlerin hizmetle ilgili kurumlarında veya yetiştirme-eğitim merkezlerinde yetiştirilebilirler.",
+			"Devlet memurlarının yetişmelerini sağlamak ve verimliliklerini artırmak amacıyla hazırlanan hizmet içi eğitim yönetmeliklerinde Danıştayın görüşünün alınması esastır."
+		],
+		"correctIndex": 4,
+		"explanation": "657 sayılı Kanun'a göre hizmet içi eğitim yönetmeliklerinin hazırlanmasında Danıştayın görüşünün alınması öngörülmemiştir; bu yönetmelikler kurumlarca hazırlanır. Kurumların eğitim merkezi açabilmesi, kurumlararası eğitim merkezlerinin ve genel eğitim planının Cumhurbaşkanı kararıyla yürürlüğe konulması ile memurların yabancı memleketlerde yetiştirilebilmesi ise Kanun'un hükümleridir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_2_SEF_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"hizmet-ici-egitim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl25-q019",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "zor",
+		"stem": "Avukatlık hizmetleri sınıfına girenlerin memuriyete girmeden önce veya memurluktan ayrılarak avukatlıkla geçirdikleri sürelerin - - - - memuriyette geçmiş sayılarak, bu sürelerin her yılı bir kademe ilerlemesine ve her üç yılı bir derece yükselmesine esas olacak şekilde değerlendirilir. 657 sayılı Devlet Memurları Kanunu'na göre, bu hükümde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+		"options": [
+			"1/4'ü",
+			"1/3'ü",
+			"1/2'si",
+			"2/3'ü",
+			"3/4'ü"
+		],
+		"correctIndex": 4,
+		"explanation": "657 sayılı Kanun'un 36. maddesindeki ortak hükümlere göre avukatlık hizmetleri sınıfına girenlerin memuriyete girmeden önce veya memurluktan ayrılarak avukatlıkla geçirdikleri sürelerin 3/4'ü memuriyette geçmiş sayılır; bu sürelerin her yılı bir kademe ilerlemesine, her üç yılı bir derece yükselmesine esas alınır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2025",
+			"year": 2025,
+			"url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2025/11/adalet/gorev/10_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"avukatlik-hizmetleri",
+			"intibak"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-tmo15-q001",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre aşağıdakilerden hangisi istihdam şekillerinden birisi değildir?",
+		"options": [
+			"Özel güvenlik görevlisi",
+			"Sözleşmeli personel",
+			"Geçici personel",
+			"İşçiler"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 4. maddesine göre kamu hizmetleri memurlar, sözleşmeli personel ve işçiler eliyle gördürülür. Özel güvenlik görevlisi Kanun'da sayılan bir istihdam şekli değildir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "4"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Toprak Mahsulleri Ofisi Görevde Yükselme Sınavı (Şef/Personel) A Kitapçığı, 2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2015_06/04014638_10_sefpersonel.a.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"istihdam-sekilleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-tmo15-q004",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre iki yıl süreli yükseköğrenimi bitiren bir memurun işe girişteki derecesi ile yükselebilecekleri en son derecesi sırası ile aşağıdakilerden hangisidir?",
+		"options": [
+			"9 - 2",
+			"9 - 1",
+			"10 - 2",
+			"10 - 1"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 36. maddesine göre iki yıl süreli yükseköğrenimi bitirenler 10. dereceden hizmete alınır ve yükselebilecekleri en son derece 1. derecedir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Toprak Mahsulleri Ofisi Görevde Yükselme Sınavı (Şef/Personel) A Kitapçığı, 2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2015_06/04014638_10_sefpersonel.a.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"giris-derecesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-tmo15-q005",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre kurum ve kuruluşlarda çalıştırdıkları personele ait kadrolarda % kaç oranında engelli personel çalıştırma yükümlülüğü vardır?",
+		"options": [
+			"2",
+			"3",
+			"4",
+			"5"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 53. maddesine göre kurum ve kuruluşlar, çalıştırdıkları personele ait kadrolarda %3 oranında engelli personel çalıştırmak zorundadır. Bu oranın hesabında kurumun toplam dolu kadro sayısı esas alınır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "53"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Toprak Mahsulleri Ofisi Görevde Yükselme Sınavı (Şef/Personel) A Kitapçığı, 2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2015_06/04014638_10_sefpersonel.a.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"engelli-istihdami"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dan19m-q011",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi 657 sayılı Devlet Memurları Kanunu'na tabi kurumlarda çalıştırılan memurların sınıflarından değildir?",
+		"options": [
+			"Mülki İdare Amirliği Hizmetleri",
+			"Basın ve Yayın Hizmetleri",
+			"Avukatlık Hizmetleri",
+			"Din Hizmetleri"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 36. maddesinde sayılan hizmet sınıfları arasında Basın ve Yayın Hizmetleri Sınıfı yoktur. Mülki İdare Amirliği, Avukatlık ve Din Hizmetleri ise Kanun'da sayılan sınıflardandır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Müdür) A Kitapçığı, 2019",
+			"year": 2019,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2019_07/02173605_1._GRUP_MUDUR_GYS_A_C.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"hizmet-siniflari"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dan19m-q017",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre engelli personel çalıştırma yükümlülüğü ile ilgili aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Engelli personel çalıştırma yükümlüğünün yerine getirilmesinin takip ve denetimi ile engellilerin Devlet memurluğuna yerleştirilmesinden Devlet Personel Başkanlığı sorumludur.",
+			"Engelli açığı bulunan kamu kurum ve kuruluşları bir sonraki yıl için alım yapacakları engellilere ilişkin taleplerini her yılın Eylül ayının sonuna kadar ilgili kuruma bildirmek zorundadır.",
+			"Kurum ve kuruluşlar bu Kanun'a göre çalıştırdıkları personele ait kadrolarda %5 oranında engelli çalıştırmak zorundadır. %5'in hesaplanmasında ilgili kurum veya kuruluşun (yurtdışı teşkilat dâhil) toplam dolu kadro sayısı dikkate alınır.",
+			"Engelliler için sınavlar, ilk defa Devlet memuru olarak atanacaklar için açılan sınavlar ile eş zamanlı olarak yapılır veya yaptırılır."
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 53. maddesine göre engelli personel çalıştırma yükümlülüğünün takip ve denetimi ile engellilerin Devlet memurluğuna yerleştirilmesinden sorumluluk merkezî personel biriminindir. Zorunlu oran %5 değil %3'tür, talepler Ekim ayı sonuna kadar bildirilir ve engelliler için sınavlar ayrı olarak yapılır. Maddede anılan Devlet Personel Başkanlığı 2018'de kaldırılmış, görevleri Cumhurbaşkanlığı İnsan Kaynakları Ofisine devredilmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "53"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Müdür) A Kitapçığı, 2019",
+			"year": 2019,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2019_07/02173605_1._GRUP_MUDUR_GYS_A_C.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"engelli-istihdami"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dan19v-q009",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre memurluğa girmeden önce veya memuriyetleri sırasında yükseköğrenim üstü master derecesi almış olanlarla yükseköğrenim kurumlarında en az bir yıl ilave öğrenim yaparak lisansüstü ihtisas sertifikası alanlara aşağıdakilerden hangisi uygulanır?",
+		"options": [
+			"Bir kademe ilerlemesi",
+			"Bir derece ilerlemesi",
+			"İki kademe ilerlemesi",
+			"İki derece ilerlemesi"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 36. maddesindeki ortak hükümlere göre memurluğa girmeden önce veya memuriyetleri sırasında yükseköğrenim üstü master derecesi almış olanlarla, yükseköğrenim kurumlarında en az bir yıl ilave öğrenim yaparak lisansüstü ihtisas sertifikası alanlara bir kademe ilerlemesi uygulanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Veri Hazırlama ve Kontrol İşletmeni) A Kitapçığı, 2019",
+			"year": 2019,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2020_01/03172311_1._GRUP_VERY_HAZIRLAMA_VE_KONTROL_YYLETMENY_GYS_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"intibak",
+			"lisansustu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dan19v-q017",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre memur bilgi sistemi, özlük dosyası ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Memurlar, Türkiye Cumhuriyeti kimlik numarası esas alınarak kurumlarınca tutulacak personel bilgi sistemine kaydolunurlar.",
+			"Özlük dosyalarının tutulma esasları ile özlük dosyalarında yer alacak belgelere ilişkin usul ve esaslar Hazine ve Maliye Bakanlığınca belirlenir.",
+			"Özlük dosyasına, memurun mesleki bilgileri, mal bildirimleri; varsa inceleme, soruşturma, denetim raporları, disiplin cezaları ile ödül ve başarı belgesi verilmesine ilişkin bilgi ve belgeler konulur.",
+			"Memurların başarı, yeterlik ve ehliyetlerinin tespitinde, kademe ilerlemelerinde, derece yükselmelerinde, emekliye ayrılmalarında veya hizmetle ilişkilerinin kesilmesinde, hizmet gerekleri yanında özlük dosyaları göz önünde bulundurulur."
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 109. maddesine göre özlük dosyalarının tutulma esasları ile özlük dosyalarında yer alacak belgelere ilişkin usul ve esaslar merkezî personel birimince belirlenir; Hazine ve Maliye Bakanlığınca belirlendiği ifadesi yanlıştır. Memurların T.C. kimlik numarası esas alınarak personel bilgi sistemine kaydolunması ise maddenin hükmüdür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "109"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Veri Hazırlama ve Kontrol İşletmeni) A Kitapçığı, 2019",
+			"year": 2019,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2020_01/03172311_1._GRUP_VERY_HAZIRLAMA_VE_KONTROL_YYLETMENY_GYS_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"ozluk-dosyasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

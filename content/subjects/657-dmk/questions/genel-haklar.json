@@ -460,5 +460,780 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "meb-ic21ud-q015",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre hastalık raporlarının hangi hâllerde, hangi hekimler veya sağlık kurulları tarafından verileceği ve süreleri ile bu konuya ilişkin diğer hususlar belirlenirken aşağıdakilerden hangisinin görüşü alınmaz?",
+		"options": [
+			"Sağlık Bakanlığı",
+			"Dışişleri Bakanlığı",
+			"İçişleri Bakanlığı",
+			"Hazine ve Maliye Bakanlığı"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 105. maddesine göre hastalık raporlarının hangi hâllerde, hangi hekimler veya sağlık kurulları tarafından verileceği ve süreleri, Sağlık Bakanlığı, Hazine ve Maliye Bakanlığı ile Dışişleri Bakanlığının görüşleri alınarak hazırlanacak yönetmelikle belirlenir. İçişleri Bakanlığının görüşünün alınması öngörülmemiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "105"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Unvan Değişikliği Sınavı (İnşaat Mühendisi) A Kitapçığı, 2021",
+			"year": 2021,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171334_4_YNYAAT_MUHENDYSY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"hastalik-izni",
+			"rapor"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sm26-q031",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre, aşağıdakilerden hangisi zam çeşitlerinden biri değildir?",
+		"options": [
+			"Özel hizmet",
+			"İş güçlüğü",
+			"İş riski",
+			"Mali sorumluluk",
+			"Temininde güçlük"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 152. maddesine göre zamlar; iş güçlüğü zammı, iş riski zammı, temininde güçlük zammı ve mali sorumluluk zammı olmak üzere dört türdür. Özel hizmet ise bir zam değil, aynı maddede düzenlenen tazminat çeşididir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "152"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Şube Müdürü Görevde Yükselme Sınavı A Kitapçığı, 2026",
+			"year": 2026,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2026_02/69899a10ca3ec941629998_SUBE_MUDURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"zamlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-ic21-q017",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre müracaat ve şikâyetler ile ilgili esas ve usuller aşağıdakilerden hangisi ile düzenlenir?",
+		"options": [
+			"Kanun",
+			"Tüzük",
+			"Genelge",
+			"Yönetmelik"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 21. maddesine göre Devlet memurları kurumlarıyla ilgili resmî ve şahsi işlerinden dolayı müracaat, amirleri veya kurumları tarafından kendilerine uygulanan idari eylem ve işlemlerden dolayı şikâyet ve dava açma hakkına sahiptir; müracaat ve şikâyetlerle ilgili esas ve usuller yönetmelikle düzenlenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "21"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2021",
+			"year": 2021,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171238_7_YEF_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"muracaat-sikayet"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-ic21-q023",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre yabancı memleketlerin resmî kurumları veya uluslararası kuruluşlarda kurumlarının muvafakati ile görev alacak memurlara, ilgili Bakanın onayı ile (her üç yılda bir Bakan onayı yenilenmek kaydıyla) memuriyeti süresince yabancı memleketlerin resmî kurumlarında kaç yıla kadar aylıksız izin verilebilir?",
+		"options": [
+			"On",
+			"On beş",
+			"On sekiz",
+			"Yirmi bir"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 77. maddesine göre yabancı memleketlerin resmî kurumları veya uluslararası kuruluşlarda kurumlarının muvafakati ile görev alacak memurlara, ilgili Bakanın onayıyla ve her üç yılda bir onay yenilenmek kaydıyla memuriyetleri süresince on yıla kadar aylıksız izin verilebilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "77"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2021",
+			"year": 2021,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171238_7_YEF_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"aylıksiz-izin",
+			"yurt-disi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-ic21-q028",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre memura, aylık ve özlük hakları korunarak, verilecek raporda gösterilecek lüzum üzerine, kanser, verem ve akıl hastalığı gibi uzun süreli bir tedaviye ihtiyaç gösteren hastalığı hâlinde en fazla kaç aya kadar izin verilir?",
+		"options": [
+			"On iki",
+			"On sekiz",
+			"Yirmi dört",
+			"Otuz altı"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 105. maddesine göre kanser, verem ve akıl hastalığı gibi uzun süreli bir tedaviye ihtiyaç gösteren hastalıklarda on sekiz aya kadar izin verilir; izin süresi sonunda hastalığın devam ettiği resmî sağlık kurulu raporuyla tespit edilenlerin izinleri bir katına kadar uzatılabildiğinden toplam süre otuz altı ayı bulabilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "105"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2021",
+			"year": 2021,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171238_7_YEF_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"hastalik-izni"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sef23-q032",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanunu'nda, Devlet memurlarına çocuk için aile yardımı ödeneği verilmeyecek hâller arasında aşağıdakilerden hangisi sayılmamıştır?",
+		"options": [
+			"Çocuğun evlenmesi",
+			"Çocuğun 18 yaşını doldurması",
+			"Çocuğun kendi hesabına ticaret yapıyor olması",
+			"Çocuğun burs alması",
+			"Çocuğun Devletçe okutuluyor olması"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 206. maddesine göre evlenen, kendi hesabına ticaret yapan, gerçek veya tüzel kişiler yanında ücretle çalışan, burs alan ya da Devletçe okutulan çocuklar için aile yardımı ödeneği verilmez. Ödeneğin kesilmesinde ölçüt 18 yaşın doldurulması değildir; yaş sınırı öğrenim durumuna göre 25 yaşa kadar uzayabilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "206"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_2_SEF_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"aile-yardimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sef23-q033",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre, bir göreve açıktan aday veya asıl memur olarak atananlar hangi andan itibaren aylığa hak kazanırlar?",
+		"options": [
+			"Göreve başladıkları günden itibaren",
+			"Göreve başladıkları günün ertesi gününden itibaren",
+			"Göreve başladıkları ayın 15'inden itibaren",
+			"Göreve başladıkları ayın son gününden itibaren",
+			"Göreve başladıkları aydan sonraki ayın ilk gününden itibaren"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 165. maddesine göre bir göreve açıktan aday veya asıl memur olarak atananlar, göreve başladıkları günden itibaren aylığa hak kazanırlar. Aylık, göreve fiilen başlama tarihine bağlanmıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "165"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_2_SEF_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"aylik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sef23-q034",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre, \"hayat ve sağlık için tehlike arz eden hizmetlerde çalışanlara ödenen parayı\" ifade eden kavram aşağıdakilerden hangisidir?",
+		"options": [
+			"İş güçlüğü zammı",
+			"Fazla çalışma ücreti",
+			"Eleman teminindeki güçlük zammı",
+			"Mali sorumluluk tazminatı",
+			"İş riski zammı"
+		],
+		"correctIndex": 4,
+		"explanation": "657 sayılı Kanun'un 152. maddesine göre iş riski zammı, hayat ve sağlık için tehlike arz eden hizmetlerde çalışanlara ödenen paradır. İş güçlüğü zammı niteliği ağır ve güç hizmetler için, mali sorumluluk tazminatı ise sayman ve benzeri görevliler için öngörülmüştür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "152"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_2_SEF_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"zamlar",
+			"is-riski"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl25-q020",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre; Devlet memurlarına verilen yıllık izinlere, zorunlu hâllerde gidiş ve dönüş için en çok kaçar gün eklenebilir?",
+		"options": [
+			"Birer",
+			"İkişer",
+			"Üçer",
+			"Dörder",
+			"Beşer"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 103. maddesine göre yıllık izinler amirin uygun bulacağı zamanlarda toptan veya kısım kısım kullanılabilir ve zorunlu hâllerde bu sürelere gidiş ve dönüş için en çok ikişer gün eklenebilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "103"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2025",
+			"year": 2025,
+			"url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2025/11/adalet/gorev/10_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yillik-izin"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl25-q021",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre; hizmetleri sırasında radyoaktif ışınlarla çalışan personele, her yıl yıllık izinlerine ilaveten ne kadar sağlık izni verilir?",
+		"options": [
+			"On beş gün",
+			"Bir ay",
+			"Kırk beş gün",
+			"İki ay",
+			"Üç ay"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 103. maddesine göre hizmetleri sırasında radyoaktif ışınlarla çalışan personele, her yıl yıllık izinlerine ilaveten bir aylık sağlık izni verilir. Bu izin, mesleki risklere karşı öngörülmüş koruyucu bir haktır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "103"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2025",
+			"year": 2025,
+			"url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2025/11/adalet/gorev/10_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"saglik-izni",
+			"radyoaktif"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-tmo15-q007",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre devlet memurlarının yıllık izin süresi ile ilgili aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Memurluğa başladıktan itibaren yıllık izin her yıl için 30 gündür.",
+			"Hizmeti 1 yıldan on yıla kadar (on yıl dâhil) olanlar için otuz gün, hizmeti on yıldan fazla olanlar için 40 gündür.",
+			"Hizmeti 1 yıldan on yıla kadar (on yıl dâhil) olanlar için yirmi gün, hizmeti on yıldan fazla olanlar için 30 gündür.",
+			"Hizmeti 1 yıldan on yıla kadar (on yıl dâhil) olanlar için on beş gün, hizmeti on yıldan fazla olanlar için 20 gündür."
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 102. maddesine göre yıllık izin süresi, hizmeti 1 yıldan on yıla kadar (on yıl dâhil) olanlar için yirmi gün, hizmeti on yıldan fazla olanlar için otuz gündür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "102"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Toprak Mahsulleri Ofisi Görevde Yükselme Sınavı (Şef/Personel) A Kitapçığı, 2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2015_06/04014638_10_sefpersonel.a.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yillik-izin"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-tmo15-q008",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre beş hizmet yılını tamamlamış memura, isteği hâlinde memuriyeti boyunca toplam kaç yıla kadar aylıksız izin verilebilir?",
+		"options": [
+			"Bir",
+			"İki",
+			"Üç",
+			"Dört"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 108. maddesine göre beş hizmet yılını tamamlamış olan memura, isteği hâlinde memuriyeti boyunca ve en fazla iki defada kullanılmak üzere toplam bir yıla kadar aylıksız izin verilebilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "108"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Toprak Mahsulleri Ofisi Görevde Yükselme Sınavı (Şef/Personel) A Kitapçığı, 2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2015_06/04014638_10_sefpersonel.a.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"aylıksiz-izin"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-tmo15-q009",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre bir mali yıl içinde aşağıdaki kurumlardan hangisinde ödüllendirileceklerin sayısı, kurumun yılbaşındaki dolu kadro mevcudunun binde onundan fazla olamaz?",
+		"options": [
+			"Gümrük Müsteşarlığı",
+			"Merkez Bankası",
+			"Millî Eğitim Bakanlığı",
+			"Emniyet Genel Müdürlüğü"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 122. maddesine göre bir mali yıl içinde ödüllendirileceklerin sayısı, kurumun yılbaşındaki dolu kadro mevcudunun binde onundan fazla olamaz. Maliye Bakanlığı, Gümrük Müsteşarlığı, Millî Eğitim Bakanlığı ve Emniyet Genel Müdürlüğü için bu oran binde yirmi olarak uygulanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "122"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Toprak Mahsulleri Ofisi Görevde Yükselme Sınavı (Şef/Personel) A Kitapçığı, 2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2015_06/04014638_10_sefpersonel.a.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"odul"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-tmo15-q073",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na tabi memur personelin bakmakla yükümlü olduğu iki çocuğunun doğum tarihleri sırası ile 17.07.2002 ve 01.02.2012 olup bu personele 15.04.2015 Nisan ayı maaşında ödenecek çocuk yardımı puanı kaçtır?",
+		"options": [
+			"250",
+			"500",
+			"750",
+			"1000"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 202. maddesine göre çocuk için aile yardımı ödeneği her çocuk için 250 gösterge rakamı üzerinden hesaplanır ve 0-6 yaş grubundaki çocuklar için bir kat artırımlı uygulanır. 2002 doğumlu çocuk için 250, 2012 doğumlu (0-6 yaş grubundaki) çocuk için 500 puan olmak üzere toplam 750 puan ödenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "202"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Toprak Mahsulleri Ofisi Görevde Yükselme Sınavı (Şef/Personel) A Kitapçığı, 2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2015_06/04014638_10_sefpersonel.a.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"aile-yardimi",
+			"cocuk"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-tmo15-q074",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na tabi memur personelin ölüm yardım ödeneğinin ödenmesinde esas alınan aylık kavramı aşağıdakilerden hangisidir?",
+		"options": [
+			"En yüksek Devlet memuru aylığı",
+			"Aylık ve ek gösterge tutarı",
+			"Memurun kazanılmış hak aylığı",
+			"1000 gösterge rakamının memur maaş kat sayısı ile çarpımı sonucunda bulunan tutar"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 208. maddesine göre ölüm yardımı ödeneğinin hesabında en yüksek Devlet memuru aylığı (ek gösterge dâhil) esas alınır. Memurun kendisinin ölümü hâlinde bu tutarın iki katı, eşi veya bakmakla yükümlü olduğu kişilerin ölümü hâlinde ise bir katı ödenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "208"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Toprak Mahsulleri Ofisi Görevde Yükselme Sınavı (Şef/Personel) A Kitapçığı, 2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2015_06/04014638_10_sefpersonel.a.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"olum-yardimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dan19m-q009",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre mazeret izni ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Memura, eşinin doğum yapması hâlinde, isteği üzerine on gün babalık izni verilir.",
+			"Kadın memura; doğumdan önce sekiz, doğumdan sonra sekiz hafta olmak üzere toplam on altı hafta süreyle analık izni verilir.",
+			"Kadın memura, çocuğunu emzirmesi için doğum sonrası analık izni süresinin bitim tarihinden itibaren ilk altı ayda günde bir buçuk saat süt izni verilir.",
+			"Doğum öncesi analık izninin başlaması gereken tarihten önce gerçekleşen doğumlarda doğum tarihi ile analık izninin başlaması gereken tarih arasındaki süre doğum sonrası analık iznine ilave edilir."
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 104. maddesine göre kadın memura, çocuğunu emzirmesi için doğum sonrası analık izni süresinin bitim tarihinden itibaren ilk altı ayda günde üç saat, ikinci altı ayda günde bir buçuk saat süt izni verilir; ilk altı ay için bir buçuk saat denilmesi yanlıştır. On günlük babalık izni ve on altı haftalık analık izni ise maddenin hükümleridir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Müdür) A Kitapçığı, 2019",
+			"year": 2019,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2019_07/02173605_1._GRUP_MUDUR_GYS_A_C.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"mazeret-izni",
+			"sut-izni"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dan19m-q012",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre yıllık izinlerle ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Cari yıl ile bir önceki yıl hariç, önceki yıllara ait kullanılmayan izin hakları düşer.",
+			"Yıllık izinler, amirin uygun bulacağı zamanlarda, toptan veya ihtiyaca göre kısım kısım kullanılabilir.",
+			"Hizmetleri sırasında radyoaktif ışınlarla çalışan personele, her yıl yıllık izinlerine ilaveten yirmi gün sağlık izni verilir.",
+			"Yıllık izin süresi, hizmeti bir yıldan on yıla kadar (on yıl dâhil) olanlar için yirmi gün, hizmeti on yıldan fazla olanlar için 30 gündür."
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 103. maddesine göre radyoaktif ışınlarla çalışan personele her yıl yıllık izinlerine ilaveten bir aylık sağlık izni verilir; yirmi gün ifadesi yanlıştır. İzinlerin toptan veya kısım kısım kullanılabilmesi ve cari yıl ile bir önceki yıl dışındaki izin haklarının düşmesi ise Kanun'un hükümleridir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "103"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Müdür) A Kitapçığı, 2019",
+			"year": 2019,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2019_07/02173605_1._GRUP_MUDUR_GYS_A_C.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yillik-izin",
+			"radyoaktif"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dan19m-q013",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre eşinin kardeşi ölen bir devlet memuruna isteği üzerine en fazla kaç gün mazeret izni verilebilir?",
+		"options": [
+			"Üç",
+			"Beş",
+			"Yedi",
+			"On"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 104. maddesine göre memura; eşinin, çocuğunun, kendisinin veya eşinin ana, baba ve kardeşinin ölümü hâllerinde isteği üzerine yedi gün mazeret izni verilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Müdür) A Kitapçığı, 2019",
+			"year": 2019,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2019_07/02173605_1._GRUP_MUDUR_GYS_A_C.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"mazeret-izni",
+			"olum"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dan19m-q015",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre günün yirmi dört saatinde devamlılık gösteren hizmetlerde çalışan kadın memurlara doğumdan sonra en fazla ne kadar süre gece nöbeti ve gece vardiyası görevi verilemez?",
+		"options": [
+			"Bir yıl",
+			"On sekiz ay",
+			"İki yıl",
+			"Otuz altı ay"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 101. maddesine göre günün yirmi dört saatinde devamlılık gösteren hizmetlerde çalışan kadın memurlara, doğumdan sonraki iki yıl süreyle gece nöbeti ve gece vardiyası görevi verilemez. Aynı koruma hamileliğin yirmi dördüncü haftasından itibaren de uygulanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "101"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Müdür) A Kitapçığı, 2019",
+			"year": 2019,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2019_07/02173605_1._GRUP_MUDUR_GYS_A_C.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"gece-nobeti",
+			"kadin-memur"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dan19m-q018",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre aşağıdakilerden hangisi genel haklardan değildir?",
+		"options": [
+			"Sendika kurma",
+			"Greve katılma",
+			"Kovuşturma ve yargılama",
+			"İsnat ve iftiralara karşı koruma"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 27. maddesine göre greve katılmak yasaktır; dolayısıyla genel haklardan değildir. Sendika kurma, kovuşturma ve yargılama ile isnat ve iftiralara karşı korunma ise Kanun'un genel haklar bölümünde memurlara tanınan haklardandır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "27"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Müdür) A Kitapçığı, 2019",
+			"year": 2019,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2019_07/02173605_1._GRUP_MUDUR_GYS_A_C.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"genel-haklar",
+			"grev-yasagi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dan19v-q014",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre günlük çalışmanın başlama ve bitme saatleri ile öğle dinlenme süresi, bölgelerin ve hizmetin özelliklerine göre merkezde aşağıdakilerden hangisi tarafından tespit olunur?",
+		"options": [
+			"Vali",
+			"İçişleri Bakanı",
+			"Cumhurbaşkanı",
+			"Aile, Çalışma ve Sosyal Hizmetler Bakanı"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 100. maddesine göre günlük çalışmanın başlama ve bitme saatleri ile öğle dinlenme süresi, bölgelerin ve hizmetin özelliklerine göre merkezde Cumhurbaşkanı, illerde valiler tarafından tespit olunur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "100"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Veri Hazırlama ve Kontrol İşletmeni) A Kitapçığı, 2019",
+			"year": 2019,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2020_01/03172311_1._GRUP_VERY_HAZIRLAMA_VE_KONTROL_YYLETMENY_GYS_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"calisma-saatleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dan19v-q015",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre yıllık izin ve yıllık izinlerin kullanılışı ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Devlet memurlarının yıllık izin süresi, hizmeti 1 yıldan beş yıla kadar (beş yıl dâhil) olanlar için yirmi gün, hizmeti beş yıldan fazla olanlar için 30 gündür.",
+			"Cari yıl ile bir önceki yıl hariç, önceki yıllara ait kullanılmayan izin hakları düşer.",
+			"Hizmetleri sırasında radyoaktif ışınlarla çalışan personele, her yıl yıllık izinlerine ilaveten bir aylık sağlık izni verilir.",
+			"Birbirini izleyen iki yılın izni bir arada verilebilir."
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 102. maddesine göre yıllık izin süresi, hizmeti 1 yıldan on yıla kadar (on yıl dâhil) olanlar için yirmi gün, on yıldan fazla olanlar için otuz gündür; beş yıllık eşiğe göre yapılan ayrım yanlıştır. Radyoaktif ışınlarla çalışanlara bir aylık sağlık izni verilmesi ve birbirini izleyen iki yılın izninin bir arada kullanılabilmesi ise Kanun'un hükümleridir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "102"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Veri Hazırlama ve Kontrol İşletmeni) A Kitapçığı, 2019",
+			"year": 2019,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2020_01/03172311_1._GRUP_VERY_HAZIRLAMA_VE_KONTROL_YYLETMENY_GYS_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yillik-izin"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dan19v-q016",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Devlet Memurları Kanunu'na göre memura, eşinin doğum yapması hâlinde, isteği üzerine en fazla kaç gün babalık izni verilir?",
+		"options": [
+			"3",
+			"5",
+			"7",
+			"10"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 104. maddesine göre memura, eşinin doğum yapması hâlinde isteği üzerine on gün babalık izni verilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Veri Hazırlama ve Kontrol İşletmeni) A Kitapçığı, 2019",
+			"year": 2019,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2020_01/03172311_1._GRUP_VERY_HAZIRLAMA_VE_KONTROL_YYLETMENY_GYS_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"babalik-izni"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

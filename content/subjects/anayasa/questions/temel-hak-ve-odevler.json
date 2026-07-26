@@ -525,5 +525,446 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-25"
+	},
+	{
+		"id": "meb-ic21ud-q007",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "T.C. Anayasası'na göre kişisel verilerin korunmasına ilişkin esas ve usuller aşağıdakilerden hangisi ile düzenlenir?",
+		"options": [
+			"Kanun",
+			"Tüzük",
+			"Genelge",
+			"Yönetmelik"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 20. maddesine göre herkes kendisiyle ilgili kişisel verilerin korunmasını isteme hakkına sahiptir ve kişisel verilerin korunmasına ilişkin esas ve usuller ancak kanunla düzenlenir. Tüzük, yönetmelik veya genelge gibi idari düzenleyici işlemlerle bu alan düzenlenemez.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "20"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Unvan Değişikliği Sınavı (İnşaat Mühendisi) A Kitapçığı, 2021",
+			"year": 2021,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171334_4_YNYAAT_MUHENDYSY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"kisisel-veriler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sm26-q011",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "İnsan hakları düşüncesinin tarihsel gelişim sürecine bakıldığında önemli dönüm noktalarının olduğu görülür. 1215'lerde İngiltere'de hüküm süren krallık döneminde kralın bazı yetkilerinden feragat ederek kanunlara uygun davranması ve hukukun, kralın arzu ve isteklerinden daha üstün olduğunu kabul etmesi bu dönüm noktalarından biridir. Bir diğer dönüm noktası olarak insanın doğuştan gelen doğal haklarını beyan etmek üzere kongre delegelerinin oy birliği ile 1776'da kabul edilen ve Amerikan Anayasası'nın temellerini oluşturan belge örnek gösterilebilir. 1789'da Fransa Ulusal Meclisinde kabul edildikten sonra 1791'de Fransız Anayasası'na ön söz olarak eklenen, tüm insanların hak ve özgürlüklerine vurgu yaparak insan hakları düşüncesinin artık doğal hukukun vazgeçilmez bir parçası olduğunu savunan belgenin Avrupa'nın sosyal ve siyasal yapısında köklü değişimlerin yaşanmasına yol açması da bir diğer önemli dönüm noktası olmuştur. İkinci Dünya Savaşı boyunca yaşanan katliamlara karşı insanlık vicdanının ve birikiminin bir sonucu olarak 1948'de Birleşmiş Milletler Örgütü tarafından hazırlanan evrensel nitelikli belge de yine aynı şekilde insan hakları düşüncesinin gelişiminde büyük bir öneme sahip olmuştur. Bu metinde, insan hakları düşüncesinin gelişimine katkı sunan aşağıdaki belgelerden hangisine yer verilmemiştir?",
+		"options": [
+			"İnsan Hakları Evrensel Bildirgesi",
+			"Büyük Özgürlük Fermanı",
+			"Virginia İnsan Hakları Bildirgesi",
+			"İngiliz Haklar Beyannamesi",
+			"İnsan ve Yurttaş Hakları Beyannamesi"
+		],
+		"correctIndex": 3,
+		"explanation": "Metinde 1215 Magna Carta (Büyük Özgürlük Fermanı), 1776 Virginia İnsan Hakları Bildirgesi, 1789 İnsan ve Yurttaş Hakları Beyannamesi ve 1948 İnsan Hakları Evrensel Bildirgesi anlatılmaktadır. 1689 tarihli İngiliz Haklar Beyannamesi (Bill of Rights) ise metinde anılan dönüm noktaları arasında yer almamaktadır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Şube Müdürü Görevde Yükselme Sınavı A Kitapçığı, 2026",
+			"year": 2026,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2026_02/69899a10ca3ec941629998_SUBE_MUDURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"insan-haklari-tarihi",
+			"kavram"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sm26-q023",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Yakalanan veya tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç en geç - - - - saat ve toplu olarak işlenen suçlarda en çok - - - - gün içinde hâkim önüne çıkarılır. T.C. Anayasası'na göre, verilen hükümde boş bırakılan yerlere aşağıdakilerden hangisi sırasıyla getirilmelidir?",
+		"options": [
+			"on iki - üç",
+			"on iki - yedi",
+			"yirmi dört - dört",
+			"kırk sekiz - üç",
+			"kırk sekiz - dört"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa'nın 19. maddesine göre yakalanan veya tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç en geç kırk sekiz saat, toplu olarak işlenen suçlarda ise en çok dört gün içinde hâkim önüne çıkarılır. Bu süreler kişi hürriyetinin güvencesidir ve aşılamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "19"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Şube Müdürü Görevde Yükselme Sınavı A Kitapçığı, 2026",
+			"year": 2026,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2026_02/69899a10ca3ec941629998_SUBE_MUDURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"kisi-hurriyeti",
+			"gozalti"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sm26-q024",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "T.C. Anayasası'na göre; düşünceyi açıklama ve yayma hürriyetinin kullanılmasında uygulanacak şekil, şart ve usuller aşağıdakilerden hangisiyle düzenlenir?",
+		"options": [
+			"Kanun",
+			"Yönetmelik",
+			"Cumhurbaşkanlığı kararnamesi",
+			"Genelge",
+			"Tüzük"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 26. maddesine göre düşünceyi açıklama ve yayma hürriyetinin kullanılmasında uygulanacak şekil, şart ve usuller kanunla düzenlenir. Temel hak ve hürriyetlerin sınırlanması ve kullanım usulünün belirlenmesi kanun koyucuya ait olduğundan yönetmelik veya genelgeyle düzenleme yapılamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "26"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Şube Müdürü Görevde Yükselme Sınavı A Kitapçığı, 2026",
+			"year": 2026,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2026_02/69899a10ca3ec941629998_SUBE_MUDURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"dusunce-hurriyeti"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sm26-q025",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası'na göre; siyasi partilerin kapatılması, aşağıdakilerden hangisinin açacağı dava üzerine kesin olarak karara bağlanır?",
+		"options": [
+			"Yüksek Hakem Kurulu",
+			"Hâkimler ve Savcılar Kurulu",
+			"Anayasa Mahkemesi Raportörü",
+			"Yargıtay Cumhuriyet Başsavcısı",
+			"Türkiye Büyük Millet Meclisi Başkanı"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 69. maddesine göre siyasi partilerin kapatılması, Yargıtay Cumhuriyet Başsavcısının açacağı dava üzerine Anayasa Mahkemesince kesin olarak karara bağlanır. Davayı açan makam ile kararı veren makamın ayrı olması, siyasi partilere sağlanan anayasal güvencenin bir parçasıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "69"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Şube Müdürü Görevde Yükselme Sınavı A Kitapçığı, 2026",
+			"year": 2026,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2026_02/69899a10ca3ec941629998_SUBE_MUDURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"siyasi-partiler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl23-q002",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası'na göre, aşağıdakilerden hangisi sosyal ve ekonomik haklar ve ödevlerdendir?",
+		"options": [
+			"Konut hakkı",
+			"Mülkiyet hakkı",
+			"Zorla çalıştırma yasağı",
+			"Konut dokunulmazlığı",
+			"Vergi ödevi"
+		],
+		"correctIndex": 0,
+		"explanation": "Konut hakkı, Anayasa'nın 57. maddesinde sosyal ve ekonomik haklar ve ödevler bölümünde düzenlenmiştir. Diğer seçenekler farklı bölümlere aittir: mülkiyet hakkı, zorla çalıştırma yasağı ve konut dokunulmazlığı kişinin hakları ve ödevleri, vergi ödevi ise siyasi haklar ve ödevler bölümünde yer alır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "57"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"sosyal-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl23-q003",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası'nda \"Hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz.\" hükmü hangi başlık altında düzenlenmiştir?",
+		"options": [
+			"Hak arama hürriyeti",
+			"Suç ve cezalara ilişkin esaslar",
+			"Yargı yetkisi",
+			"Kanuni hâkim güvencesi",
+			"Duruşmaların açık ve kararların gerekçeli olması"
+		],
+		"correctIndex": 3,
+		"explanation": "Hiç kimsenin kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamayacağı kuralı, Anayasa'nın 37. maddesinde 'kanuni hâkim güvencesi' başlığı altında düzenlenmiştir. Bu güvence, kişiye özel veya olaya özel mahkeme kurulmasını engelleyerek yargılamanın önceden belirlenmiş kurallara göre yapılmasını sağlar.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "37"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"kanuni-hakim-guvencesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl23-q004",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası'na göre, \"temel haklar ve ödevler\" ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Herkes, kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez temel hak ve hürriyetlere sahiptir.",
+			"Türkiye Cumhuriyeti'nde temel hak ve ödevler yalnızca Türk vatandaşları için tanınır.",
+			"Temel hak ve hürriyetler, kişinin topluma, ailesine ve diğer kişilere karşı ödev ve sorumluluklarını da ihtiva eder.",
+			"Anayasa hükümlerinden hiçbiri, Devlet'e veya kişilere, Anayasa'yla tanınan temel hak ve hürriyetlerin yok edilmesini veya Anayasa'da belirtilenden daha geniş şekilde sınırlandırılmasını amaçlayan bir faaliyette bulunmayı mümkün kılacak şekilde yorumlanamaz.",
+			"Anayasa'da yer alan hak ve hürriyetlerden hiçbiri, Devlet'in ülkesi ve milletiyle bölünmez bütünlüğünü bozmayı ve insan haklarına dayanan demokratik ve laik Cumhuriyet'i ortadan kaldırmayı amaçlayan faaliyetler biçiminde kullanılamaz."
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 12. maddesine göre herkes kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez temel hak ve hürriyetlere sahiptir; bu haklar vatandaşlıkla sınırlı değildir. Bu nedenle temel hak ve ödevlerin yalnızca Türk vatandaşları için tanındığı ifadesi yanlıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "12"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"temel-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-ic21-q012",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası'na göre aşağıdaki hükümlerden hangisi siyasi haklar ve ödevler ile ilgilidir?",
+		"options": [
+			"Devlet, başarılı sporcuyu korur.",
+			"Çalışma, herkesin hakkı ve ödevidir.",
+			"Vatan hizmeti, her Türk'ün hakkı ve ödevidir.",
+			"Özel teşebbüsler kurmak serbesttir."
+		],
+		"correctIndex": 2,
+		"explanation": "Vatan hizmetinin her Türk'ün hakkı ve ödevi olduğu kuralı Anayasa'nın 72. maddesinde siyasi haklar ve ödevler bölümünde düzenlenmiştir. Diğer seçeneklerdeki sporcunun korunması, çalışma hakkı ve özel teşebbüs hürriyeti sosyal ve ekonomik haklar ve ödevler bölümünde yer alır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "72"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2021",
+			"year": 2021,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171238_7_YEF_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"siyasi-haklar",
+			"vatan-hizmeti"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl25-q003",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "T.C. Anayasası'na göre, kişisel verilerin korunmasına ilişkin esas ve usuller aşağıdakilerden hangisiyle düzenlenir?",
+		"options": [
+			"Tüzük",
+			"Kanun",
+			"Genelge",
+			"Yönetmelik",
+			"Cumhurbaşkanlığı kararnamesi"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 20. maddesine göre kişisel verilerin korunmasına ilişkin esas ve usuller kanunla düzenlenir. Herkes kendisiyle ilgili kişisel verilerin korunmasını isteme hakkına sahiptir; bu hak özel hayatın gizliliğinin bir uzantısıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "20"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2025",
+			"year": 2025,
+			"url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2025/11/adalet/gorev/10_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"kisisel-veriler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl25-q004",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "T.C. Anayasası'na göre, aşağıdakilerden hangisi yerleşme hürriyetinin kanunla sınırlandırılabileceği amaçlardan değildir?",
+		"options": [
+			"Suç işlenmesini önlemek",
+			"Kamu mallarını korumak",
+			"Sosyal ve ekonomik gelişmeyi sağlamak",
+			"Vergi yükünü adaletli ve dengeli dağıtmak",
+			"Sağlıklı ve düzenli kentleşmeyi gerçekleştirmek"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 23. maddesine göre yerleşme hürriyeti; suç işlenmesini önlemek, sosyal ve ekonomik gelişmeyi sağlamak, sağlıklı ve düzenli kentleşmeyi gerçekleştirmek ve kamu mallarını korumak amaçlarıyla kanunla sınırlanabilir. Vergi yükünün adaletli ve dengeli dağıtılması ise 73. maddede yer alan bir vergi ödevi ilkesidir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "23"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2025",
+			"year": 2025,
+			"url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2025/11/adalet/gorev/10_GRUP_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yerlesme-hurriyeti"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dan19m-q002",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası'na göre aşağıdakilerden hangisi sosyal ve ekonomik haklar ve ödevlerden değildir?",
+		"options": [
+			"Kamu hizmetlerine girme hakkı",
+			"Eğitim ve öğrenim hakkı ve ödevi",
+			"Ailenin korunması ve çocuk hakları",
+			"Toplu iş sözleşmesi ve toplu sözleşme hakkı"
+		],
+		"correctIndex": 0,
+		"explanation": "Kamu hizmetlerine girme hakkı, Anayasa'nın 70. maddesinde siyasi haklar ve ödevler bölümünde düzenlenmiştir; sosyal ve ekonomik haklardan değildir. Eğitim ve öğrenim hakkı, ailenin korunması ve çocuk hakları ile toplu iş sözleşmesi hakkı ise sosyal ve ekonomik haklar bölümünde yer alır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "70"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Müdür) A Kitapçığı, 2019",
+			"year": 2019,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2019_07/02173605_1._GRUP_MUDUR_GYS_A_C.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"sosyal-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dan19v-q002",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası'na göre aşağıdakilerden hangisi sosyal ve ekonomik haklar ve ödevlerdendir?",
+		"options": [
+			"Seçme, seçilme ve siyasi faaliyette bulunma hakları",
+			"Toplu iş sözleşmesi, grev hakkı ve lokavt",
+			"Zorla çalıştırma yasağı",
+			"Konut dokunulmazlığı"
+		],
+		"correctIndex": 1,
+		"explanation": "Toplu iş sözleşmesi, grev hakkı ve lokavt Anayasa'nın 53 ve 54. maddelerinde sosyal ve ekonomik haklar ve ödevler bölümünde düzenlenmiştir. Seçme ve seçilme hakkı siyasi haklar, zorla çalıştırma yasağı ve konut dokunulmazlığı ise kişinin hakları ve ödevleri bölümünde yer alır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "53"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Veri Hazırlama ve Kontrol İşletmeni) A Kitapçığı, 2019",
+			"year": 2019,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2020_01/03172311_1._GRUP_VERY_HAZIRLAMA_VE_KONTROL_YYLETMENY_GYS_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"sosyal-haklar",
+			"sendika"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]
