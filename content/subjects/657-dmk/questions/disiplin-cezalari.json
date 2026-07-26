@@ -1683,5 +1683,110 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sag15m-q040",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre “göreve sarhoş gelmek, görev yerinde alkollü içki içmek ” eylemi aşağıdaki disiplin cezalarından hangisini gerektirir?",
+		"options": [
+			"Kınama",
+			"Uyarma",
+			"Aylıktan kesme",
+			"Devlet memurluğundan çıkarma",
+			"Kademe ilerlemesinin durdurulması"
+		],
+		"correctIndex": 4,
+		"explanation": "657 sayılı Kanun'un 125. maddesinin (D) bendinin (a) alt bendine göre göreve sarhoş gelmek ve görev yerinde alkollü içki içmek, kademe ilerlemesinin durdurulması cezasını gerektirir. Bu ceza, fiilin ağırlık derecesine göre memurun bulunduğu kademede ilerlemesinin 1-3 yıl durdurulmasıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125",
+			"clause": "D/a"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Memur) A Kitapçığı, 28.06.2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"kademe-ilerlemesinin-durdurulması"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sag15sm-q040",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre aşağıdakilerden hangisi, Devlet memuruna “aylıktan kesme” disiplin cezasının verilmesini gerektiren fiil ve hâllerdendir?",
+		"options": [
+			"İş arkadaşlarına ve iş sahiplerine söz veya hareketle sataşmak",
+			"Özürsüz ve kesintisiz 3 - 9 gün göreve gelmemek",
+			"Görev sırasında amirine sözle saygısızlık etmek",
+			"Devlete ait resmi belge, araç, gereç ve benzeri eşyayı kaybetmek",
+			"Devlete ait resmi araç, gereç ve benzeri eşyayı özel işlerinde kullanmak"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 125. maddesinin (C) bendinin (e) alt bendine göre görev sırasında amirine sözle saygısızlık etmek aylıktan kesme cezasını gerektirir. Özürsüz ve kesintisiz 3-9 gün göreve gelmemek ise aynı maddenin (D) bendinde kademe ilerlemesinin durdurulması cezası kapsamındadır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125",
+			"clause": "C/e"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Şube Müdürü) A Kitapçığı, 28.06.2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"aylıktan-kesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sag15s-q041",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre “gerçeğe aykırı rapor ve belge düzenlemek” fiilini işleyen memurlar hakkında aşağıdaki disiplin cezalarından hangisi uygulanır?",
+		"options": [
+			"Uyarma",
+			"Kınama",
+			"Aylıktan kesme",
+			"Devlet memurluğundan çıkarma",
+			"Kademe ilerlemesinin durdurulması"
+		],
+		"correctIndex": 4,
+		"explanation": "657 sayılı Kanun'un 125. maddesinin (D) bendinin (f) alt bendine göre gerçeğe aykırı rapor ve belge düzenlemek, kademe ilerlemesinin durdurulması cezasını gerektirir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125",
+			"clause": "D/f"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Şef) A Kitapçığı, 28.06.2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"kademe-ilerlemesinin-durdurulması"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

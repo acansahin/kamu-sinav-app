@@ -498,5 +498,40 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dmo16sm-q007",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre çekilmek isteyen memurun, yerine atanan kimsenin bir aya kadar gelmemesi durumunda üstüne haber vererek görevini bırakması hâlinde tekrar Devlet memurluğuna alınabilmesi için en az ne kadar zaman geçmesi gerekir?",
+		"options": [
+			"Üç ay",
+			"Altı ay",
+			"Bir yıl",
+			"Üç yıl"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 94. maddesine göre çekilmek isteyen memur, yerine atanan kimse bir aya kadar gelmezse üstüne haber vererek görevini bırakabilir. 97. maddenin (A) bendine göre 94. maddenin 2. ve 3. fıkralarına uygun olarak çekilenler altı ay geçmeden yeniden Devlet memurluğuna alınamaz. Yazılı müracaat şartına uymadan görevden ayrılanlarda bu süre bir yıldır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "97",
+			"clause": "A"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Devlet Malzeme Ofisi Görevde Yükselme Sınavı (Şube Müdürü/Müdür) A Kitapçığı, 2016",
+			"year": 2016,
+			"url": "https://odsgm.meb.gov.tr/www/dmo-gorevde-yukselme-ve-unvan-degisikligi-sinav-sorulari-ve-cevap-anahtari/icerik/151",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"çekilme",
+			"yeniden-atanma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

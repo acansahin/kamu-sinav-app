@@ -1101,5 +1101,212 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sag15sm-q032",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası’na göre süreli ve süresiz yayın hakkı ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Süreli veya süresiz yayın önceden izin alma ve mali teminat yatırma şartına bağlıdır.",
+			"Süreli yayınların çıkarılması, yayım şartları, mali kaynakları ve gazetecilik mesleği ile ilgili esaslar kanunla düzenlenir.",
+			"Süreli yayın çıkarabilmek için kanunun gösterdiği bilgi ve belgelerin, kanunda belirtilen yetkili merciye verilmesi yeterlidir.",
+			"Süreli yayınlar, Devletin ve diğer kamu tüzelkişilerinin veya bunlara bağlı kurumların araç ve imkânlarından eşitlik esasına göre yararlanır.",
+			"Kanun, haber, düşünce ve kanaatlerin serbestçe yayımlanmasını engelleyici veya zorlaştırıcı siyasal, ekonomik, mali ve teknik şartlar koyamaz."
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 29. maddesine göre süreli veya süresiz yayın önceden izin alma ve mali teminat yatırma şartına BAĞLANAMAZ; soru kökündeki 'bağlıdır' ifadesi bu hükmün tersidir. Maddenin diğer hükümleri uyarınca süreli yayın çıkarmak için kanunun gösterdiği bilgi ve belgelerin yetkili mercie verilmesi yeterlidir ve süreli yayınlar kamu kurumlarının imkânlarından eşitlik esasına göre yararlanır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "29"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Şube Müdürü) A Kitapçığı, 28.06.2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"basın-hürriyeti",
+			"süreli-yayın"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl24icra-q032",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Türkiye Cumhuriyeti 1982 Anayasası’na göre, aşağıdakilerden hangisi “Kişinin Hakları ve Ödevleri” başlığı altında sayılmıştır?",
+		"options": [
+			"Süreli ve süresiz yayın hakkı",
+			"Kamu hizmetlerine girme hakkı",
+			"Çalışma şartları ve dinlenme hakkı",
+			"Ailenin korunması ve çocuk hakları",
+			"Seçme, seçilme ve siyasi faaliyette bulunma hakları"
+		],
+		"correctIndex": 0,
+		"explanation": "Süreli ve süresiz yayın hakkı Anayasa'nın 29. maddesinde, İkinci Bölüm olan 'Kişinin Hakları ve Ödevleri' başlığı altında düzenlenmiştir. Çalışma şartları ve dinlenme hakkı (m. 50) ile ailenin korunması ve çocuk hakları (m. 41) sosyal ve ekonomik haklar; kamu hizmetlerine girme hakkı (m. 70) ile seçme, seçilme ve siyasi faaliyette bulunma hakları (m. 67) ise siyasi haklar ve ödevler bölümündedir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "29"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı İcra Müdür ve Müdür Yardımcılarını Seçme Sınavı A Kitapçığı, 08.12.2024",
+			"year": 2024,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2024_12/09160643_sifreli_iicramudurvemuduryardimcilarinisecmesinavi_a.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"hak-sınıflandırması"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sag15s-q031",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası’na göre kişi hürriyeti ve güvenliği kapsamında tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç toplu olarak işlenen suçlarda en çok ne kadar zaman içinde hâkim önüne çıkarılır?",
+		"options": [
+			"Yirmi dört saat",
+			"Kırk sekiz saat",
+			"Üç gün",
+			"Dört gün",
+			"Beş gün"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 19. maddesine göre yakalanan veya tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç en geç kırk sekiz saat, toplu olarak işlenen suçlarda ise en çok dört gün içinde hâkim önüne çıkarılır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "19"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Şef) A Kitapçığı, 28.06.2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"kişi-hürriyeti",
+			"gözaltı-süresi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sag15s-q032",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası’na göre seyahat hürriyeti, aşağıdaki hangi amaçla kanunla sınırlanabilir?",
+		"options": [
+			"Sağlıklı ve düzenli kentleşmeyi gerçekleştirme amacıyla",
+			"Suç soruşturma ve kovuşturması amacıyla",
+			"Ekonomik gelişmeyi sağlama amacıyla",
+			"Sosyal gelişmeyi sağlama amacıyla",
+			"Kamu mallarını koruma amacıyla"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 23. maddesinde seyahat hürriyetinin sınırlanma sebepleri yalnızca suç soruşturma ve kovuşturması sebebiyle ve suç işlenmesini önlemek amacıyla olarak belirlenmiştir. Sağlıklı ve düzenli kentleşme, sosyal ve ekonomik gelişme ile kamu mallarını koruma amaçları YERLEŞME hürriyetine ilişkindir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "23"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Şef) A Kitapçığı, 28.06.2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yerleşme-ve-seyahat",
+			"sınırlama-sebepleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dmo16s-q002",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "I. Kamu düzeni II. Millî güvenlik III. Suç işlenmesinin önlenmesi IV. Genel sağlık ve genel ahlakın korunması T.C. Anayasası’na göre usulüne göre verilmiş hâkim kararının bulunması veya gecikmesinde sakınca bulunan hâllerde de kanunla yetkili kılınmış mercinin yazılı emri dâhilinde, yukarıdaki sebeplerden hangilerine bağlı olarak kişilerin üstü, özel kâğıtları ve eşyası aranabilir ve bunlara el konulabilir?",
+		"options": [
+			"I ve II",
+			"III ve IV",
+			"I, II ve III",
+			"I, II, III ve IV"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 20. maddesine göre millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlık ve genel ahlakın korunması veya başkalarının hak ve özgürlüklerinin korunması sebeplerinden biri veya birkaçına bağlı olarak, usulüne göre verilmiş hâkim kararı ya da gecikmesinde sakınca bulunan hâllerde kanunla yetkili kılınmış merciin yazılı emriyle kişilerin üstü, özel kâğıtları ve eşyası aranabilir. Soruda sayılan dört sebebin tamamı maddede yer alır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "20"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Devlet Malzeme Ofisi Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2016",
+			"year": 2016,
+			"url": "https://odsgm.meb.gov.tr/www/dmo-gorevde-yukselme-ve-unvan-degisikligi-sinav-sorulari-ve-cevap-anahtari/icerik/151",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"özel-hayatın-gizliliği",
+			"arama"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sag15m-q031",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "“Hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz. Bir kimseyi kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarma sonucunu doğuran yargı yetkisine sahip olağanüstü merciler kurulamaz.” T.C. Anayasası’na göre yukarıda, kişinin hakları ve ödevleri ile ilgili hükümlerden hangisi açıklanmıştır?",
+		"options": [
+			"İspat hakkı",
+			"Hak arama hürriyeti",
+			"Temel hak ve hürriyetlerin korunması",
+			"Suç ve cezalara ilişkin esaslar",
+			"Kanuni hâkim güvencesi"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa'nın 37. maddesi kanunî hâkim güvencesini düzenler: hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz ve bu sonucu doğuran olağanüstü merciler kurulamaz. Hak arama hürriyeti 36., suç ve cezalara ilişkin esaslar 38., temel hak ve hürriyetlerin korunması 40. maddededir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "37"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Memur) A Kitapçığı, 28.06.2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"kanuni-hakim-güvencesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

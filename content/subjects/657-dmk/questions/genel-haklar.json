@@ -1407,5 +1407,40 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sag15m-q038",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre, “Kanunlarda yazılı hâller dışında Devlet memurunun memurluğuna son verilemez, aylık ve başka hakları elinden alınamaz.” şeklinde ifade edilen husus aşağıdaki genel haklardan hangisidir?",
+		"options": [
+			"İsnat ve iftiralara karşı koruma",
+			"Kovuşturma ve yargılama",
+			"Uygulamayı isteme hakkı",
+			"Güvenlik",
+			"Çekilme"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 18. maddesi 'Güvenlik' başlığını taşır: kanunlarda yazılı hâller dışında Devlet memurunun memurluğuna son verilmez, aylık ve başka hakları elinden alınamaz. Uygulamayı isteme hakkı (m. 17), çekilme (m. 20) ve isnat ve iftiralara karşı koruma (m. 25) ayrı genel haklardır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "18"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Memur) A Kitapçığı, 28.06.2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"genel-haklar",
+			"güvenlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

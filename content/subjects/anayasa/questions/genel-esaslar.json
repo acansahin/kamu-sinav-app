@@ -861,5 +861,38 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-dmo16s-q001",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası’na göre aşağıdakilerden hangisi Devletin temel amaç ve görevlerinden biri değildir?",
+		"options": [
+			"Kişilerin ve toplumun refah, huzur ve mutluluğunu sağlamak",
+			"Durumları sebebiyle özel eğitime ihtiyacı olanları topluma yararlı kılacak tedbirler almak",
+			"İnsanın maddi ve manevi varlığının gelişmesi için gerekli şartları hazırlamaya çalışmak",
+			"Türk Milletinin bağımsızlığını ve bütünlüğünü, ülkenin bölünmezliğini, Cumhuriyeti ve demokrasiyi korumak"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 5. maddesinde Devletin temel amaç ve görevleri sayılır: Türk milletinin bağımsızlığını ve bütünlüğünü, ülkenin bölünmezliğini, Cumhuriyeti ve demokrasiyi korumak; kişilerin ve toplumun refah, huzur ve mutluluğunu sağlamak; kişinin temel hak ve hürriyetlerini sınırlayan engelleri kaldırmaya ve insanın maddi ve manevi varlığının gelişmesi için gerekli şartları hazırlamaya çalışmak. Özel eğitime ihtiyacı olanları topluma yararlı kılacak tedbirleri alma görevi ise eğitim ve öğrenim hakkını düzenleyen 42. maddededir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "5"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Devlet Malzeme Ofisi Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2016",
+			"year": 2016,
+			"url": "https://odsgm.meb.gov.tr/www/dmo-gorevde-yukselme-ve-unvan-degisikligi-sinav-sorulari-ve-cevap-anahtari/icerik/151",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"devletin-temel-amaç-ve-görevleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

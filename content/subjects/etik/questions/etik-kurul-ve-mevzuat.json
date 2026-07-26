@@ -618,5 +618,40 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sag15s-q065",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "orta",
+		"stem": "I. Etik davranış ilkelerinin ihlâl edildiği iddiasıyla resen veya yapılacak başvurular üzerine gerekli inceleme ve araştırmayı yaparak sonucu ilgili makamlara bildirmek II. Kamuda etik kültürünü yerleştirmek üzere çalışmalar yapmak veya yaptırmak ve bu konuda yapılacak çalışmalara destek olmak III. Kamu görevlilerinin görevlerini yürütürken uymaları gereken etik davranış ilkelerini hazırlayacağı yönetmeliklerle belirlemek 5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun’a göre Kamu Görevlileri Etik Kurulu, yukarıdakilerden hangisi/hangilerini yapmakla görevli ve yetkilidir?",
+		"options": [
+			"Yalnız I",
+			"I ve II",
+			"I ve III",
+			"II ve III",
+			"I, II ve III"
+		],
+		"correctIndex": 4,
+		"explanation": "5176 sayılı Kanun'un 3. maddesine göre Kamu Görevlileri Etik Kurulu; kamu görevlilerinin uyması gereken etik davranış ilkelerini hazırlayacağı yönetmeliklerle belirlemek, ihlal iddiasıyla re'sen veya başvuru üzerine gerekli inceleme ve araştırmayı yaparak sonucu ilgili makamlara bildirmek ve kamuda etik kültürünü yerleştirmek üzere çalışmalar yapmakla görevli ve yetkilidir. Soruda sayılan üç görev de bu maddededir.",
+		"legalRef": {
+			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
+			"lawId": "5176",
+			"article": "3"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Şef) A Kitapçığı, 28.06.2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"etik-kurul",
+			"kurul-görevleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

@@ -459,5 +459,39 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-sag15m-q039",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "kolay",
+		"stem": "I. Sınıflandırma II. Kariyer III. Liyakat IV. Disiplin Yukarıdakilerden hangisi/hangileri 657 sayılı Devlet Memurları Kanunu’nun temel ilkeleri arasında yer almaz?",
+		"options": [
+			"Yalnız IV",
+			"I ve II",
+			"III ve IV",
+			"II ve IV",
+			"I, II ve III"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 3. maddesine göre Kanun'un temel ilkeleri sınıflandırma, kariyer ve liyakattir. Disiplin, Kanun'un ayrı bir bölümünde düzenlenen bir kurumdur; temel ilkeler arasında sayılmaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "3"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Memur) A Kitapçığı, 28.06.2015",
+			"year": 2015,
+			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"temel-ilkeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]
