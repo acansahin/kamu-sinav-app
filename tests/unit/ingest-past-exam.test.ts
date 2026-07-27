@@ -4,9 +4,15 @@ import { classify } from "../../scripts/ingest/classify";
 import { dedupeCandidates } from "../../scripts/ingest/dedupe";
 import { parseBooklet } from "../../scripts/ingest/parse-booklet";
 import { parseKey } from "../../scripts/ingest/parse-key";
+import {
+	type ColoredRun,
+	isNeutralColor,
+	markGroups,
+	matchMarkedAnswers,
+} from "../../scripts/ingest/parse-marked-key";
 import { type PoolQuestion, splitByPool } from "../../scripts/ingest/pool";
 import { splitBookletAndKey } from "../../scripts/ingest/split-booklet";
-import type { CandidateQuestion } from "../../scripts/ingest/types";
+import type { CandidateQuestion, ParsedQuestion } from "../../scripts/ingest/types";
 
 /**
  * Çıkmış sınav ithal hattının saf mantığı.
@@ -685,5 +691,128 @@ describe("splitByPool", () => {
 	it("boş havuzda her adayı yeni sayar — depo okunamazsa ithal durmamalı", () => {
 		const { fresh } = splitByPool([candidate(1, "Herhangi bir soru?", ["a", "b"])], []);
 		expect(fresh).toHaveLength(1);
+	});
+});
+
+describe("markGroups", () => {
+	const red = (text: string): ColoredRun => ({ color: "#ff0000", text });
+	const black = (text: string): ColoredRun => ({ color: "#000000", text });
+
+	it("ardışık renkli parçaları tek işaret sayar, harfi ayırır", () => {
+		expect(markGroups([black("1. Soru?"), red("B)"), red("1912"), black("2. Soru?")])).toEqual([
+			{ letter: "B", text: "1912" },
+		]);
+	});
+
+	it("harf ile parantez ayrı parçalara bölünmüşse de harfi okur", () => {
+		// DHMİ kitapçığında ölçüldü: bazı şıklarda "A" ve ")" ayrı çizim parçası.
+		expect(markGroups([red("A"), red(")"), red("1900")])).toEqual([{ letter: "A", text: "1900" }]);
+	});
+
+	it("araya giren siyah metin işareti kapatır — iki cevap birleşmez", () => {
+		expect(markGroups([red("B) Birinci"), black("araya giren gövde"), red("C) İkinci")])).toEqual([
+			{ letter: "B", text: "Birinci" },
+			{ letter: "C", text: "İkinci" },
+		]);
+	});
+
+	it("harfi boyanmamış işareti metniyle taşır", () => {
+		expect(markGroups([red("Yeşilköy Havaalanı")])).toEqual([
+			{ letter: null, text: "Yeşilköy Havaalanı" },
+		]);
+	});
+
+	it("gri ve siyah parçalardan işaret üretmez", () => {
+		expect(markGroups([black("B) Yanlış"), { color: "#333333", text: "C) Yanlış" }])).toEqual([]);
+	});
+});
+
+describe("matchMarkedAnswers", () => {
+	const question = (number: number, options: string[]): ParsedQuestion => ({
+		number,
+		stem: `${number}. soru?`,
+		options,
+		parseOk: true,
+	});
+
+	const q1 = question(1, ["1900", "1912", "1919", "1923"]);
+	const q2 = question(2, ["Çevre", "Ulaştırma ve Altyapı Bakanlığı", "Ticaret", "İçişleri"]);
+
+	it("harf ve metin uyuşuyorsa eşler", () => {
+		const { answers, problems } = matchMarkedAnswers(
+			[q1, q2],
+			[
+				{ letter: "B", text: "1912" },
+				{ letter: "B", text: "Ulaştırma ve Altyapı Bakanlığı" },
+			],
+		);
+		expect([...answers]).toEqual([
+			[1, 1],
+			[2, 1],
+		]);
+		expect(problems).toEqual([]);
+	});
+
+	it("harf okunamamışsa şıkkı içerikten bulur", () => {
+		const { answers } = matchMarkedAnswers([q2], [{ letter: null, text: "Ulaştırma ve Altyapı" }]);
+		expect([...answers]).toEqual([[2, 1]]);
+	});
+
+	it("harf metinle çelişiyorsa metne uyar — boyama harfi kaydırabilir", () => {
+		const { answers } = matchMarkedAnswers([q2], [{ letter: "A", text: "Ulaştırma ve Altyapı Bakanlığı" }]);
+		expect([...answers]).toEqual([[2, 1]]);
+	});
+
+	it("sahte işareti atlar ve sonraki soruları kaydırmaz", () => {
+		// Sayfa numarası gibi kırmızı bir artefakt araya girdiğinde.
+		const { answers } = matchMarkedAnswers(
+			[q1, q2],
+			[
+				{ letter: null, text: "5" },
+				{ letter: "B", text: "1912" },
+				{ letter: "B", text: "Ulaştırma ve Altyapı Bakanlığı" },
+			],
+		);
+		expect([...answers]).toEqual([
+			[1, 1],
+			[2, 1],
+		]);
+	});
+
+	it("hiçbir şıkla eşleşmeyen soruyu CEVAPSIZ bırakır, tahmin etmez", () => {
+		const { answers, problems } = matchMarkedAnswers([q1], [{ letter: null, text: "Bambaşka" }]);
+		expect(answers.size).toBe(0);
+		expect(problems[0]).toContain("#1");
+	});
+
+	it("kısa şıklarda tam eşitlik arar — 1912 ile 1919 karışmaz", () => {
+		const { answers } = matchMarkedAnswers([q1], [{ letter: null, text: "1919" }]);
+		expect([...answers]).toEqual([[1, 2]]);
+	});
+
+	it("satır sonu tirelemesi ve büyük/küçük harf farkını yutar", () => {
+		const q = question(7, ["Aşma sahası", "Hareket sahası", "Manevra sahası", "PAT sahası"]);
+		const { answers } = matchMarkedAnswers([q], [{ letter: null, text: "AŞMA SA- HASI" }]);
+		expect([...answers]).toEqual([[7, 0]]);
+	});
+
+	it("işaret ve soru sayısı farklıysa uyarır ama eşleşenleri korur", () => {
+		const { answers, problems } = matchMarkedAnswers([q1, q2], [{ letter: "B", text: "1912" }]);
+		expect([...answers]).toEqual([[1, 1]]);
+		expect(problems.some((p) => p.includes("farklı"))).toBe(true);
+	});
+});
+
+describe("isNeutralColor", () => {
+	it("siyah, beyaz ve grileri nötr sayar", () => {
+		for (const color of ["#000000", "#ffffff", "#7f7f7f"]) expect(isNeutralColor(color)).toBe(true);
+	});
+
+	it("renkli değerleri işaret sayar", () => {
+		for (const color of ["#ff0000", "#0000ff", "#008000"]) expect(isNeutralColor(color)).toBe(false);
+	});
+
+	it("tanımadığı biçimi nötr sayar — bilinmeyenden işaret üretmez", () => {
+		expect(isNeutralColor("rgb(255,0,0)")).toBe(true);
 	});
 });

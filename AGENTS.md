@@ -118,6 +118,13 @@ kamu kurumunun kendi sitesinde yayımladığı bir soru kitapçığı + cevap an
 dersimize (`657-dmk`, `anayasa`, `etik`) göre sınıflandırır; saf mantık
 `scripts/ingest/` altında ve testlidir (`tests/unit/ingest-past-exam.test.ts`).
 
+Bazı kurumlar ayrı cevap anahtarı yerine **cevaplı kitapçık** yayımlar: doğru şık
+kitapçığın içinde renkle işaretlidir ve düz metin çıkarımında kaybolur. `--marked-key`
+(manifestte `"markedKey": true`) bu biçimi okur; cevap PDF operatör listesindeki
+renkten çıkarılır. Şık, harften değil **içerikten** belirlenir ve her eşleşme şık
+metniyle doğrulanır — eşleşmeyen soru cevapsız bırakılır, tahmin edilmez
+(`scripts/ingest/parse-marked-key.ts`).
+
 Hat, yazmadan önce adayları **mevcut havuza karşı eler** (`scripts/ingest/pool.ts`):
 `content/subjects/**` altında birebir karşılığı olan aday (aynı gövde + aynı şık
 kümesi, şıklar karışık olsa da) sessizce düşülür; yakın olanlar tutulup uyarı

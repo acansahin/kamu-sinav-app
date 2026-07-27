@@ -17,6 +17,12 @@
  *   sorular ve cevap anahtarı aynı PDF'te (MEB/ÖDSGM kalıbı), "CEVAP ANAHTARI"
  *   başlığından bölünür. Ayrı anahtar PDF'i varsa `--key` ile geçin.
  *
+ * CEVAPLI KİTAPÇIK (`--marked-key`):
+ *   Bazı kurumlar (TKGM, DHMİ) ayrı anahtar yerine "cevaplı kitapçık" yayımlar:
+ *   doğru şık kitapçığın içinde RENKLİ yazılıdır ve düz metin çıkarımında kaybolur.
+ *   `--marked-key` verildiğinde cevaplar PDF operatör listesindeki renkten okunur
+ *   (bkz. ingest/parse-marked-key.ts). Manifestte karşılığı `"markedKey": true`.
+ *
  * ÇOKLU KİTAPÇIK + TEKİLLEŞTİRME:
  *   npm run ingest:past-exam -- --manifest <kaynaklar.json> [--out <yol.json>] [--all]
  *
@@ -35,20 +41,30 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
-import { extractText, getDocumentProxy } from "unpdf";
+import { extractText, getDocumentProxy, getResolvedPDFJS } from "unpdf";
 import { assemble } from "./ingest/assemble";
 import { dedupeCandidates } from "./ingest/dedupe";
 import { parseBooklet } from "./ingest/parse-booklet";
 import { parseKey } from "./ingest/parse-key";
+import {
+	type ColoredRun,
+	markGroups,
+	matchMarkedAnswers,
+} from "./ingest/parse-marked-key";
 import { type PoolQuestion, loadPoolQuestions, splitByPool } from "./ingest/pool";
 import { splitBookletAndKey } from "./ingest/split-booklet";
-import type { CandidateQuestion, CoverageReport } from "./ingest/types";
+import type { CandidateQuestion, CoverageReport, ParsedQuestion } from "./ingest/types";
 import { findNearDuplicatesAgainst, formatPair } from "./near-duplicates";
 
 /** Manifest kaydı — tek bir kaynak kitapçığın kimliği ve dosyaları. */
 interface SourceEntry {
 	booklet: string;
 	key?: string;
+	/**
+	 * Cevaplı kitapçık: doğru şık ayrı bir anahtarda değil, kitapçığın içinde
+	 * RENKLİ yazılmış (TKGM, DHMİ kalıbı). Bkz. `ingest/parse-marked-key.ts`.
+	 */
+	markedKey?: boolean;
 	origin: string;
 	year?: number;
 	url?: string;
@@ -78,6 +94,41 @@ async function extractPdfText(file: string): Promise<string> {
 	return text;
 }
 
+/**
+ * PDF'teki metni ÇİZİM RENGİYLE birlikte toplar — "cevaplı kitapçık" biçimi için.
+ *
+ * `extractText` rengi düşürür; doğru şıkkı renkle işaretleyen kitapçıklarda cevap
+ * bilgisi yalnızca operatör listesinde kalır. Burada sayfa sayfa dolaşılıp geçerli
+ * dolgu rengi izlenir ve her metin gösterimi o renkle eşleştirilir. Sayfa sırası
+ * ve sayfa içi çizim sırası, kitapçıktaki okuma sırasıyla aynıdır.
+ */
+async function extractColoredRuns(file: string): Promise<ColoredRun[]> {
+	const buffer = await readFile(file);
+	const pdf = await getDocumentProxy(new Uint8Array(buffer));
+	const { OPS } = await getResolvedPDFJS();
+
+	const runs: ColoredRun[] = [];
+	for (let pageNo = 1; pageNo <= pdf.numPages; pageNo += 1) {
+		const page = await pdf.getPage(pageNo);
+		const operators = await page.getOperatorList();
+		let color = "#000000";
+
+		operators.fnArray.forEach((fn: number, i: number) => {
+			const args: unknown[] = operators.argsArray[i];
+			if (fn === OPS.setFillRGBColor) {
+				color = String(args[0]);
+				return;
+			}
+			if (fn !== OPS.showText) return;
+			const glyphs = args[0] as ({ unicode?: string } | null)[] | undefined;
+			if (glyphs === undefined) return;
+			const text = glyphs.map((glyph) => glyph?.unicode ?? "").join("");
+			if (text.trim() !== "") runs.push({ color, text });
+		});
+	}
+	return runs;
+}
+
 function fail(message: string): never {
 	console.error(`HATA: ${message}`);
 	process.exit(1);
@@ -103,21 +154,55 @@ async function loadBookletAndKey(
 	return { bookletText, keyText, keyMissing: keyText === "" };
 }
 
+/**
+ * Cevaplı kitapçıktan cevapları çıkarır: doğru şık kitapçığın içinde renkli.
+ *
+ * Eşleme sırayla yapıldığı için tek bir kaçan/fazla işaret bütün sırayı kaydırır;
+ * `matchMarkedAnswers` bunu metin doğrulamasıyla yakalar ve şüpheli eşleşmeyi
+ * kabul etmez. Buradaki iş, çıkan sorunları görünür kılmaktır — sessiz kalırsa
+ * yanlış cevap havuza sızar.
+ */
+async function loadMarkedAnswers(
+	booklet: string,
+	parsed: readonly ParsedQuestion[],
+): Promise<Map<number, number>> {
+	const runs = await extractColoredRuns(booklet);
+	const marks = markGroups(runs);
+	const { answers, problems } = matchMarkedAnswers(parsed, marks);
+
+	const name = path.basename(booklet);
+	console.log(`  ${name}: ${marks.length} renkli işaret, ${answers.size} cevap doğrulandı`);
+	for (const problem of problems.slice(0, 10)) console.warn(`  ⚠ ${name}: ${problem}`);
+	if (problems.length > 10) console.warn(`  ⚠ ${name}: … ve ${problems.length - 10} sorun daha`);
+
+	return answers;
+}
+
 /** Tek bir kaynağı ayrıştırıp adaylarını ve kapsam raporunu üretir. */
 async function ingestSource(
 	entry: SourceEntry,
 ): Promise<{ candidates: CandidateQuestion[]; report: CoverageReport }> {
-	const { bookletText, keyText, keyMissing } = await loadBookletAndKey(
-		entry.booklet,
-		entry.key,
-	);
-	if (keyMissing) {
-		console.warn(
-			`⚠ ${path.basename(entry.booklet)}: 'CEVAP ANAHTARI' başlığı bulunamadı; anahtar boş kalacak.`,
+	let parsed: ParsedQuestion[];
+	let answers: Map<number, number>;
+
+	if (entry.markedKey === true) {
+		parsed = parseBooklet(await extractPdfText(entry.booklet));
+		answers = await loadMarkedAnswers(entry.booklet, parsed);
+	} else {
+		const { bookletText, keyText, keyMissing } = await loadBookletAndKey(
+			entry.booklet,
+			entry.key,
 		);
+		if (keyMissing) {
+			console.warn(
+				`⚠ ${path.basename(entry.booklet)}: 'CEVAP ANAHTARI' başlığı bulunamadı; anahtar boş kalacak. ` +
+					"Kitapçık doğru şıkkı renkle işaretliyorsa --marked-key kullanın.",
+			);
+		}
+		parsed = parseBooklet(bookletText);
+		answers = parseKey(keyText);
 	}
-	const parsed = parseBooklet(bookletText);
-	const answers = parseKey(keyText);
+
 	return assemble(parsed, answers, {
 		origin: entry.origin,
 		year: entry.year,
@@ -212,6 +297,7 @@ async function runSingle(args: Record<string, string | boolean>): Promise<void> 
 	const { candidates, report } = await ingestSource({
 		booklet,
 		key: typeof args.key === "string" ? args.key : undefined,
+		markedKey: args["marked-key"] === true,
 		origin,
 		year: typeof args.year === "string" ? Number(args.year) : undefined,
 		url: typeof args.url === "string" ? args.url : undefined,
@@ -302,12 +388,16 @@ function validateEntry(entry: unknown, index: number): SourceEntry {
 	if (typeof e.booklet !== "string") throw new Error(`kayıt #${index + 1}: "booklet" (string) zorunlu`);
 	if (typeof e.origin !== "string") throw new Error(`kayıt #${index + 1}: "origin" (string) zorunlu`);
 	if (e.key !== undefined && typeof e.key !== "string") throw new Error(`kayıt #${index + 1}: "key" string olmalı`);
+	if (e.markedKey !== undefined && typeof e.markedKey !== "boolean") {
+		throw new Error(`kayıt #${index + 1}: "markedKey" boolean olmalı`);
+	}
 	if (e.year !== undefined && typeof e.year !== "number") throw new Error(`kayıt #${index + 1}: "year" sayı olmalı`);
 	if (e.url !== undefined && typeof e.url !== "string") throw new Error(`kayıt #${index + 1}: "url" string olmalı`);
 	return {
 		booklet: e.booklet,
 		origin: e.origin,
 		...(typeof e.key === "string" ? { key: e.key } : {}),
+		...(e.markedKey === true ? { markedKey: true } : {}),
 		...(typeof e.year === "number" ? { year: e.year } : {}),
 		...(typeof e.url === "string" ? { url: e.url } : {}),
 	};
