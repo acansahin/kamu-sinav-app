@@ -826,5 +826,39 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-pgm23sy-q022",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre, bir göreve ilk defa veya yeniden atananlarda belge ile ispatı mümkün zorlayıcı sebepler nedeniyle göreve başlamama hâli ne kadar süreyi aştığı takdirde atama işlemi atamaya yetkili makamlarca iptal edilir?",
+		"options": [
+			"Yedi gün",
+			"On gün",
+			"On beş gün",
+			"Bir ay",
+			"İki ay"
+		],
+		"correctIndex": 4,
+		"explanation": "657 sayılı Kanun'un 63. maddesine göre bir göreve ilk defa veya yeniden atananlardan, belge ile ispatı mümkün zorlayıcı sebepler nedeniyle göreve başlamama hâli İKİ AYI aştığı takdirde atama işlemi atamaya yetkili makamlarca iptal edilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "63"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Sayman) A Kitapçığı, 09.07.2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_3_SAYMAN_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"göreve-başlama"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

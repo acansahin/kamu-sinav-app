@@ -733,5 +733,110 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-pgm23sy-q020",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "kolay",
+		"stem": "T.C. Anayasası’na göre, Sayıştay, merkezî yönetim bütçesi kapsamındaki kamu idareleri ile sosyal güvenlik kurumlarının bütün gelir ve giderleri ile mallarını aşağıdakilerden hangisi adına denetlemekle görevlidir?",
+		"options": [
+			"Cumhurbaşkanı",
+			"Türkiye Büyük Millet Meclisi",
+			"Anayasa Mahkemesi",
+			"Devlet Denetleme Kurulu",
+			"Yargıtay"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 160. maddesine göre Sayıştay, merkezî yönetim bütçesi kapsamındaki kamu idareleri ile sosyal güvenlik kurumlarının bütün gelir ve giderleri ile mallarını TÜRKİYE BÜYÜK MİLLET MECLİSİ ADINA denetler ve sorumluların hesap ve işlemlerini kesin hükme bağlar.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "160"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Sayman) A Kitapçığı, 09.07.2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_3_SAYMAN_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"sayıştay",
+			"denetim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-pgm23sm-q025",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "zor",
+		"stem": "T.C. Anayasası’na göre, “bireysel başvuru” ile ilgili aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Herkes, Anayasada güvence altına alınmış temel hak ve özgürlüklerinden, Avrupa İnsan Hakları Sözleşmesi kapsamındaki herhangi birinin kamu gücü tarafından, ihlal edildiği iddiasıyla Anayasa Mahkemesine başvurabilir.",
+			"Herkes, Cumhurbaşkanı yardımcıları ve bakanlar hakkında görevleriyle ilgili suç işledikleri iddiasıyla Anayasa Mahkemesine başvurabilir.",
+			"Herkes, kanunların, Cumhurbaşkanlığı kararnamelerinin, Türkiye Büyük Millet Meclisi İçtüzüğü’nün veya bunların belirli madde ve hükümlerinin şekil ve esas bakımından Anayasaya aykırılığı iddiasıyla iptali için Anayasa Mahkemesine başvurabilir.",
+			"Herkes, yasama dokunulmazlığının kaldırılmasına veya milletvekilliğinin düşmesine 84’üncü maddenin birinci, üçüncü veya dördüncü fıkralarına göre karar verilmiş olması hâllerinde, Meclis Genel Kurulu kararının alındığı tarihten başlayarak yedi gün içerisinde, kararın, Anayasaya, kanuna veya içtüzüğe aykırılığı iddiasıyla iptali için Anayasa Mahkemesine başvurabilir.",
+			"Bireysel başvuruya ilişkin usul ve esaslar Cumhurbaşkanı kararı ile düzenlenir."
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 148. maddesine göre herkes, Anayasa'da güvence altına alınmış temel hak ve özgürlüklerinden Avrupa İnsan Hakları Sözleşmesi kapsamındaki herhangi birinin kamu gücü tarafından ihlal edildiği iddiasıyla Anayasa Mahkemesine bireysel başvuruda bulunabilir. Başvuruda bulunabilmek için olağan kanun yollarının tüketilmiş olması şarttır ve usul ile esaslar KANUNLA düzenlenir. Diğer seçeneklerde tarif edilenler iptal davası (m. 150), Yüce Divan yargılaması (m. 148) ve yasama dokunulmazlığına ilişkin başvurudur (m. 85).",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "148"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şube Müdürü) A Kitapçığı, 09.07.2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_4_SUBE_MUDURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"bireysel-başvuru",
+			"anayasa-mahkemesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-pgm23sy-q019",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası’na göre, “Anayasa Mahkemesi kararları” ile ilgili aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Danıştay tarafından denetlenir.",
+			"Kanun, Cumhurbaşkanlığı kararnamesi veya Türkiye Büyük Millet Meclisi İçtüzüğü ya da bunların hükümleri, iptal kararlarının verildiği ve Anayasa Mahkemesinin çevrim içi sitesinde ilan edildiği gün yürürlükten kalkar.",
+			"İptal kararları geriye dönük etki doğurur.",
+			"Yasama, yürütme ve yargı organlarını, idare makamlarını, gerçek ve tüzel kişileri bağlar.",
+			"Diğer mahkemelerle, Anayasa Mahkemesi arasındaki görev uyuşmazlıklarında, Uyuşmazlık Mahkemesinin kararı esas alınır."
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 153. maddesine göre Anayasa Mahkemesi kararları kesindir ve yasama, yürütme ve yargı organlarını, idare makamlarını, gerçek ve tüzel kişileri bağlar. İptal kararları geriye yürümez; iptal edilen hüküm, kararın Resmî Gazete'de yayımlandığı tarihte veya Mahkemenin belirlediği ileri tarihte yürürlükten kalkar.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "153"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Sayman) A Kitapçığı, 09.07.2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_3_SAYMAN_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"anayasa-mahkemesi",
+			"kararların-bağlayıcılığı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

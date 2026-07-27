@@ -1788,5 +1788,39 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-pgm23m-q033",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre, görevinden uzaklaştırılan Devlet memurları hakkında görevden uzaklaştırmayı izleyen kaç gün içinde soruşturmaya başlanması şarttır?",
+		"options": [
+			"7 gün",
+			"10 iş günü",
+			"15 iş günü",
+			"30 gün",
+			"30 iş günü"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 139. maddesine göre görevinden uzaklaştırılan Devlet memurları hakkında, görevden uzaklaştırmayı izleyen 10 iş günü içinde soruşturmaya başlanması şarttır. Memuru görevden uzaklaştırdıktan sonra derhal soruşturmaya başlamayan amir hakkında da sorumluluk öngörülmüştür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "139"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Memur) A Kitapçığı, 09.07.2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192233_1_MEMUR_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"görevden-uzaklaştırma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

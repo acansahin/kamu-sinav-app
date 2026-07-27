@@ -767,5 +767,40 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-pgm23sm-q024",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası’na göre, aşağıdakilerden hangisi Cumhurbaşkanlığı için aday gösteremez?",
+		"options": [
+			"Siyasi parti grupları",
+			"Meclis üye tamsayısının dörtte biri tutarında milletvekili",
+			"En son yapılan genel seçimde toplam geçerli oyların yüzde beşini alan bir siyasi parti",
+			"En son yapılan genel seçimde toplam geçerli oyların birlikte yüzde beşini alan birden fazla siyasi parti",
+			"Yüz bin seçmen"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 101. maddesine göre Cumhurbaşkanlığına; siyasi parti grupları, en son yapılan genel seçimlerde toplam geçerli oyların tek başına veya birlikte en az yüzde beşini almış olan siyasi partiler ile en az yüz bin seçmen aday gösterebilir. Belirli sayıda milletvekilinin aday göstermesi maddede öngörülen bir yol değildir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "101"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şube Müdürü) A Kitapçığı, 09.07.2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_4_SUBE_MUDURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"cumhurbaşkanı-seçimi",
+			"adaylık"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

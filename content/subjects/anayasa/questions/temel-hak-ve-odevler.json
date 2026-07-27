@@ -1308,5 +1308,40 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-pgm23sm-q026",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası’na göre, temel hak ve hürriyetlerin kullanılmasının durdurulmasına ilişkin aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Savaş, seferberlik veya olağanüstü hâllerde temel hak ve hürriyetlerin kullanılması kısmen veya tamamen durdurulabilir.",
+			"Durdurma durumunda, milletlerarası hukuktan doğan yükümlülükler ihlal edilebilir.",
+			"Durdurma durumunda dahi savaş hukukuna uygun fiiller sonucu meydana gelen ölümler dışında, kişinin yaşama hakkına dokunulamaz.",
+			"Durdurma durumunda dahi kimse din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaz.",
+			"Durdurma durumunda dahi suç ve cezalar geçmişe yürütülemez."
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 15. maddesine göre savaş, seferberlik veya olağanüstü hâllerde temel hak ve hürriyetlerin kullanılması kısmen veya tamamen durdurulabilir; ancak bu MİLLETLERARASI HUKUKTAN DOĞAN YÜKÜMLÜLÜKLER İHLAL EDİLMEMEK kaydıyla mümkündür. Bu hâllerde dahi kişinin yaşama hakkına dokunulamaz, kimse din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaz ve suç ve cezalar geçmişe yürütülemez.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "15"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şube Müdürü) A Kitapçığı, 09.07.2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_4_SUBE_MUDURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"olağanüstü-yönetim",
+			"çekirdek-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

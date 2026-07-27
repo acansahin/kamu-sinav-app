@@ -1442,5 +1442,39 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-pgm23sm-q030",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre, aşağıdakilerden hangisi Devlet memurlarına tanınmış olan genel haklar arasında sayılmamıştır?",
+		"options": [
+			"Güvenlik",
+			"Çekilme",
+			"Uygulamayı isteme",
+			"Dernek kurma",
+			"Müracaat, şikâyet ve dava açma"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 17-25. maddelerinde sayılan genel haklar şunlardır: uygulamayı isteme (m. 17), güvenlik (m. 18), emeklilik (m. 19), çekilme (m. 20), müracaat, şikâyet ve dava açma (m. 21), sendika kurma (m. 22), izin (m. 23), kovuşturma ve yargılama (m. 24), isnat ve iftiralara karşı koruma (m. 25). Dernek kurma bu sayımda yer almaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "17-25"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şube Müdürü) A Kitapçığı, 09.07.2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_4_SUBE_MUDURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"genel-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

@@ -1165,5 +1165,109 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-pgm23sy-q021",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre, aşağıdakilerden hangisi kendi özel kanunlarına tabi kamu görevlileri arasında sayılmamıştır?",
+		"options": [
+			"Belediyelerin kurdukları birliklerde çalışan memurlar",
+			"Cumhurbaşkanlığı Senfoni Orkestrası üyeleri",
+			"Genelkurmay Mehteran Bölüğü Sanatkârları",
+			"Emniyet Teşkilatı mensupları",
+			"Belediye konservatuvar ve orkestralarının sanatkâr memurları"
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 1. maddesine göre il özel idareleri ve belediyelerin kurdukları birliklerde çalışan memurlar bu Kanun'un KAPSAMINDADIR. Aynı maddenin üçüncü fıkrasında kendi özel kanunlarına tabi olanlar sayılır: Cumhurbaşkanlığı Senfoni Orkestrası üyeleri, Genelkurmay Mehteran Bölüğü sanatkârları, Devlet Tiyatrosu ile Devlet Opera ve Balesi ve belediye konservatuvar ve orkestralarının sanatkâr memurları, Emniyet Teşkilatı mensupları ve diğerleri.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "1"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Sayman) A Kitapçığı, 09.07.2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_3_SAYMAN_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"kapsam"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-pgm23sm-q028",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Devlet Memurları Kanunu’nda öngörülen yönetmelikler aşağıdakilerden hangisi tarafından yürürlüğe konulur?",
+		"options": [
+			"Çalışma ve Sosyal Güvenlik Bakanı",
+			"İçişleri Bakanı",
+			"Cumhurbaşkanı",
+			"Cumhurbaşkanı Yardımcısı",
+			"Hazine ve Maliye Bakanı"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 2. maddesinin son cümlesine göre bu Kanun'da öngörülen yönetmelikler Cumhurbaşkanınca yürürlüğe konulur. Hüküm, 2018'deki Cumhurbaşkanlığı hükûmet sistemine geçişte 'Bakanlar Kurulu' ibaresinin değiştirilmesiyle bugünkü hâlini almıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "2"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şube Müdürü) A Kitapçığı, 09.07.2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_4_SUBE_MUDURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yönetmelik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-pgm23sm-q029",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre, aşağıdakilerden hangisi zorunlu hâllerde sözleşme ile istihdam edilebilecekler arasında açıkça sayılmamıştır?",
+		"options": [
+			"Öğretmenler",
+			"Adli Tıp Müessesesi uzmanları",
+			"Devlet Konservatuvarları sanatçı öğretim üyeleri",
+			"İstanbul Belediyesi Konservatuvarı sanatçıları",
+			"Polisler"
+		],
+		"correctIndex": 4,
+		"explanation": "657 sayılı Kanun'un 4. maddesinin (B) fıkrasında sözleşmeli olarak çalıştırılabilecekler sayma yoluyla belirtilmiştir: öğretmenler, Adli Tıp Müessesesi uzmanları, Devlet Konservatuvarları sanatçı öğretim üyeleri, İstanbul Belediyesi Konservatuvarı sanatçıları ve maddede yazılı diğerleri. Polisler bu sayımda yer almaz; Emniyet Teşkilatı mensupları kendi özel kanunlarına tabidir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "4",
+			"clause": "B"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şube Müdürü) A Kitapçığı, 09.07.2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_4_SUBE_MUDURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"istihdam-şekilleri",
+			"sözleşmeli-personel"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

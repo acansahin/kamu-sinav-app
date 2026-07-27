@@ -1102,5 +1102,74 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-pgm23sy-q018",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Yasama dokunulmazlığının kaldırılmasına veya milletvekilliğinin düşmesine 84’üncü maddenin birinci, üçüncü veya dördüncü fıkralarına göre karar verilmiş olması hâllerinde, Meclis Genel Kurulu kararının alındığı tarihten başlayarak - - - - içerisinde ilgili milletvekili veya bir diğer milletvekili, kararın, Anayasaya, kanuna veya iç tüzüğe aykırılığı iddiasıyla iptali için - - - - başvurabilir. T.C. Anayasası’na göre, bu hükümde boş bırakılan yerlere aşağıdakilerden hangisi sırasıyla getirilmelidir?",
+		"options": [
+			"yedi gün / Anayasa Mahkemesine",
+			"yedi gün / Türkiye Büyük Millet Meclisi Başkanlığına",
+			"otuz gün / Anayasa Mahkemesine",
+			"otuz gün / Türkiye Büyük Millet Meclisi Başkanlığına",
+			"otuz gün / Yüksek Seçim Kuruluna"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 85. maddesine göre yasama dokunulmazlığının kaldırılmasına veya milletvekilliğinin düşmesine karar verilmesi hâlinde, Meclis Genel Kurulu kararının alındığı tarihten başlayarak YEDİ GÜN içerisinde ilgili milletvekili veya bir diğer milletvekili, kararın iptali için ANAYASA MAHKEMESİNE başvurabilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "85"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Sayman) A Kitapçığı, 09.07.2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_3_SAYMAN_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yasama-dokunulmazlığı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-pgm23sm-q023",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "kolay",
+		"stem": "T.C. Anayasası’na göre, Türkiye Büyük Millet Meclisi üyeleri aşağıdakilerden hangisini temsil eder?",
+		"options": [
+			"Seçildikleri bölgeyi",
+			"Kendilerini seçenleri",
+			"Devleti",
+			"Bütün milleti",
+			"Siyasi partilerini"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 80. maddesine göre Türkiye Büyük Millet Meclisi üyeleri, seçildikleri bölgeyi veya kendilerini seçenleri değil, BÜTÜN MİLLETİ temsil ederler. Bu hüküm temsilî demokrasinin ve milletvekilinin bağımsızlığının dayanağıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "80"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şube Müdürü) A Kitapçığı, 09.07.2023",
+			"year": 2023,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_4_SUBE_MUDURU_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"milletvekilliği",
+			"temsil"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]
