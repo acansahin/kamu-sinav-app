@@ -838,5 +838,107 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl17yim-q010",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "zor",
+		"stem": "T.C. Anayasası’na göre Hâkimler ve Savcılar Kurulu ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Üyeler üç yıl için seçilir. Süresi biten üyeler bir kez daha seçilemez.",
+			"Hâkimler ve Savcılar Kurulu on üç üyeden oluşur; iki daire hâlinde çalışır.",
+			"Kurul üyeliği seçimi, üyelerin görev süresinin dolmasından önceki otuz gün içinde yapılır.",
+			"Kurulun meslekten çıkarma cezasına ilişkin olanlar dışındaki kararlarına karşı yargı mercilerine başvurulamaz.",
+			"Kurul, kendi üyeleri arasından daire başkanlarını ve daire başkanlarından birini de başkanvekili olarak seçer."
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 159. maddesine göre Hâkimler ve Savcılar Kurulu üyeleri DÖRT yıl için seçilir ve süresi biten üyeler yeniden seçilebilir; soru kökündeki 'üç yıl, bir kez daha seçilemez' ifadesi yanlıştır. Kurul on üç üyeden oluşur, iki daire hâlinde çalışır, Başkanı Adalet Bakanıdır ve meslekten çıkarma cezasına ilişkin olanlar dışındaki kararlarına karşı yargı yolu kapalıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "159"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
+			"year": 2017,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"hakimler-ve-savcilar-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl17yim-q049",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "kolay",
+		"stem": "T.C. Anayasası’na göre adliye mahkemelerince verilen ve kanunun başka bir adli yargı mercisine bırakmadığı karar ve hükümlerin son inceleme merci aşağıdakilerden hangisidir?",
+		"options": [
+			"Yargıtay",
+			"Anayasa Mahkemesi",
+			"Danıştay",
+			"Uyuşmazlık Mahkemesi",
+			"Bölge Adliye Mahkemesi"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 154. maddesine göre Yargıtay, adliye mahkemelerince verilen ve kanunun başka bir adli yargı merciine bırakmadığı karar ve hükümlerin son inceleme merciidir. Kanunla gösterilen belli davalara ilk ve son derece mahkemesi olarak da bakar.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "154"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
+			"year": 2017,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yargıtay"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl17iim-q048",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "I. Türkiye Büyük Millet Meclisi Başkanı II. Cumhuriyet Başsavcı Vekili III. Hava Kuvvetleri Komutanı IV. Genelkurmay Başkanı T.C. Anayasası’na göre yukarıdakilerden hangileri görevleriyle ilgili suçlardan dolayı Yüce Divanda yargılanırlar?",
+		"options": [
+			"I ve II",
+			"II ve III",
+			"III ve IV",
+			"I, II ve III",
+			"I, II, III ve IV"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa'nın 148. maddesine göre Anayasa Mahkemesi; Cumhurbaşkanını, TBMM Başkanını, Cumhurbaşkanı yardımcılarını, bakanları, yüksek mahkemelerin Başkan ve üyelerini, Başsavcılarını, Cumhuriyet Başsavcıvekilini, Hâkimler ve Savcılar Kurulu ile Sayıştay Başkan ve üyelerini görevleriyle ilgili suçlardan Yüce Divan sıfatıyla yargılar. Genelkurmay Başkanı ile Kara, Deniz ve Hava Kuvvetleri Komutanları da aynı madde uyarınca Yüce Divanda yargılanır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "148"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (İdari İşler Müdürü) A Kitapçığı, 07.10.2017",
+			"year": 2017,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/11154144_2._GRUP_YDARY_YYLER_MYDYRY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yüce-divan"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

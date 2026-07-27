@@ -1343,5 +1343,108 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl17yim-q003",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "T.C. Anayasası’nda yer alan “temel hak ve hürriyetler” ile ilgili “Herkes, kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez temel hak ve hürriyetlere sahiptir. Temel hak ve hürriyetler, kişinin topluma, ailesine ve diğer kişilere karşı ödev ve sorumluluklarını da ihtiva eder.” hükmü aşağıdakilerden hangisinin açıklamasıdır?",
+		"options": [
+			"Yabancıların durumu",
+			"Temel hak ve hürriyetlerin niteliği",
+			"Temel hak ve hürriyetlerin sınırlanması",
+			"Temel hak ve hürriyetlerin kötüye kullanılamaması",
+			"Temel hak ve hürriyetlerin kullanılmasının durdurulması"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 12. maddesi temel hak ve hürriyetlerin NİTELİĞİNİ düzenler: herkes kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez temel hak ve hürriyetlere sahiptir; bu hak ve hürriyetler kişinin topluma, ailesine ve diğer kişilere karşı ödev ve sorumluluklarını da ihtiva eder. Sınırlama 13., kötüye kullanılamama 14., durdurma 15., yabancıların durumu 16. maddededir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "12"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
+			"year": 2017,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"temel-hakların-niteliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl17yim-q006",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası’na göre düzeltme ve cevap yayımlanmazsa, yayımlanmasının gerekip gerekmediğine hâkim tarafından ilgilinin müracaat tarihinden itibaren en geç kaç gün içerisinde karar verilir?",
+		"options": [
+			"Üç",
+			"Beş",
+			"Yedi",
+			"On",
+			"On beş"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 32. maddesine göre düzeltme ve cevap yayımlanmazsa, yayımlanmasının gerekip gerekmediğine hâkim tarafından ilgilinin müracaat tarihinden itibaren en geç yedi gün içerisinde karar verilir. Düzeltme ve cevap hakkı ancak kişilerin haysiyet ve şereflerine dokunulması veya gerçeğe aykırı yayın yapılması hâllerinde tanınır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "32"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
+			"year": 2017,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"düzeltme-ve-cevap-hakkı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl17yim-q004",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "I. Meşru müdafaa hâli II. Bir ayaklanma veya isyanın bastırılması III. Bir tutuklu veya hükümlünün kaçmasının önlenmesi IV. Yakalama ve tutuklama kararlarının yerine getirilmesi Yukarıdakilerden hangileri T.C. Anayasası’nda yer alan “herkes, yaşama, maddi ve manevi varlığını koruma ve geliştirme hakkına sahiptir.” hükmü dışındadır?",
+		"options": [
+			"I ve II",
+			"I, II ve III",
+			"I, III ve IV",
+			"II, III ve IV",
+			"I, II, III ve IV"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa'nın 17. maddesine göre meşru müdafaa hâli, yakalama ve tutuklama kararlarının yerine getirilmesi, bir tutuklu veya hükümlünün kaçmasının önlenmesi, bir ayaklanma veya isyanın bastırılması ve olağanüstü hâllerde yetkili merciin verdiği emirlerin uygulanması sırasında silah kullanılmasına kanunun cevaz verdiği zorunlu durumlarda meydana gelen öldürme fiilleri, yaşama hakkını düzenleyen birinci fıkra hükmünün dışındadır. Soruda sayılan dördü de bu istisnalar arasındadır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "17"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
+			"year": 2017,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yaşama-hakkı",
+			"istisnalar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

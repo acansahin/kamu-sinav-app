@@ -1476,5 +1476,41 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl17yim-q020",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "Memura, eşinin doğum yapması hâlinde, isteği üzerine - - - - gün babalık izni; kendisinin veya çocuğunun evlenmesi ya da eşinin, çocuğunun, kendisinin veya eşinin ana, baba ve kardeşinin ölümü hâllerinde isteği üzerine - - - - gün izin verilir. 657 sayılı Devlet Memurları Kanunu’na göre yukarıdaki hükümde boş bırakılan yerlere sırası ile hangisi getirilmelidir?",
+		"options": [
+			"beş - beş",
+			"yedi - beş",
+			"yedi - on",
+			"on - yedi",
+			"on - on"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 104. maddesinin (B) fıkrasına göre memura, eşinin doğum yapması hâlinde isteği üzerine on gün babalık izni; kendisinin veya çocuğunun evlenmesi ya da eşinin, çocuğunun, kendisinin veya eşinin ana, baba ve kardeşinin ölümü hâllerinde ise yedi gün izin verilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104",
+			"clause": "B"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
+			"year": 2017,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"mazeret-izni",
+			"babalık-izni"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

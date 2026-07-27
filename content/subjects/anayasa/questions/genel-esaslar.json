@@ -894,5 +894,74 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl17yim-q002",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası’na göre “Kanun önünde eşitlik” ile ilgili aşağıdaki hükümlerden hangisi yanlıştır?",
+		"options": [
+			"Hiçbir kişiye, aileye, zümreye veya sınıfa imtiyaz tanınamaz.",
+			"Devlet organları ve idare makamları bütün işlemlerinde kanun önünde eşitlik ilkesine uygun olarak hareket etmek zorundadırlar.",
+			"Kadınlar ve erkekler eşit haklara sahiptir. Devlet, bu eşitliğin yaşama geçmesini sağlamakla yükümlüdür. Bu maksatla alınan tedbirler eşitlik ilkesine aykırı sayılır.",
+			"Herkes, dil, ırk, renk, cinsiyet, siyasi düşünce, felsefi inanç, din, mezhep ve benzeri sebeplerle ayırım gözetilmeksizin kanun önünde eşittir.",
+			"Çocuklar, yaşlılar, özürlüler, harp ve vazife şehitlerinin dul ve yetimleri ile malul ve gaziler için alınacak tedbirler eşitlik ilkesine aykırı sayılmaz."
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 10. maddesine göre kadın-erkek eşitliğinin yaşama geçmesi için alınacak tedbirler eşitlik ilkesine aykırı olarak YORUMLANAMAZ; soru kökündeki 'aykırı sayılır' ifadesi hükmün tersidir. Aynı madde çocuklar, yaşlılar, engelliler ile harp ve vazife şehitlerinin dul ve yetimleri için alınacak tedbirlerin de eşitliğe aykırı sayılmayacağını belirtir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "10"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
+			"year": 2017,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"kanun-önünde-eşitlik",
+			"pozitif-ayrımcılık"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl17yim-q001",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "I. Egemenlik, kayıtsız şartsız Türkiye Büyük Millet Meclisinindir. II. Türk Milleti, egemenliğini, Anayasa’nın koyduğu esaslara göre, milletin eliyle kullanır. III. Egemenliğin kullanılması, hiçbir surette hiçbir kişiye, zümreye veya sınıfa bırakılamaz. IV. Hiçbir kimse veya organ kaynağını Anayasa’dan almayan bir Devlet yetkisi kullanamaz. T.C. Anayasası’na göre egemenlik ile ilgili yukarıdaki hükümlerden hangileri doğrudur?",
+		"options": [
+			"I ve II",
+			"I ve III",
+			"I ve IV",
+			"II ve III",
+			"III ve IV"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa'nın 6. maddesine göre egemenlik kayıtsız şartsız MİLLETİNDİR (TBMM'nin değil) ve Türk Milleti egemenliğini Anayasa'nın koyduğu esaslara göre YETKİLİ ORGANLARI ELİYLE kullanır ('milletin eliyle' değil). Egemenliğin kullanılmasının hiçbir kişi, zümre veya sınıfa bırakılamayacağı ve kaynağını Anayasa'dan almayan bir Devlet yetkisinin kullanılamayacağı yolundaki ifadeler ise maddeye uygundur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "6"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
+			"year": 2017,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"egemenlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

@@ -533,5 +533,39 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl17yim-q019",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre “memurluktan çekilme” ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Olağanüstü mazeretle çekilenler, yasal süreye tabi olmadan üstüne haber vermeksizin çekilebilirler.",
+			"Devlet memuru bağlı olduğu kuruma yazılı olarak müracaat etmek suretiyle memurluktan çekilme isteğinde bulunabilir.",
+			"Çekilmek isteyen memur yerine atanan kimsenin gelmesine veya çekilme isteğinin kabulüne kadar görevine devam eder.",
+			"Yerine atanan kimse bir aya kadar gelmediği veya yerine bir vekil atanmadığı takdirde, üstüne haber vererek görevini bırakabilir.",
+			"Mezuniyetsiz veya kurumlarınca kabul edilen mazereti olmaksızın görevin terk edilmesi ve bu terkin kesintisiz 10 gün devam etmesi hâlinde, yazılı müracaat şartı aranmaksızın, çekilme isteğinde bulunulmuş sayılır."
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 94. maddesine göre olağanüstü mazeretle çekilenler ÜSTÜNE HABER VERMEK ŞARTIYLA bir ay kaydına tabi değildir; haber verme yükümlülüğü ortadan kalkmaz. Maddenin diğer hükümleri uyarınca çekilme yazılı müracaatla olur, memur yerine atanan gelene kadar görevine devam eder ve kesintisiz on gün süren izinsiz görev terki çekilme isteği sayılır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "94"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
+			"year": 2017,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"çekilme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

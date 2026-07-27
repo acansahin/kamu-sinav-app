@@ -1269,5 +1269,74 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl17yim-q018",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre mesleklerine ait öğrenimini bitirerek Devlet memurluğuna alınmış ve asli memur olarak atanmış olanlardan mesleklerine ait hizmetlerde yetiştirilmek, eğitilmek, bilgilerini artırmak veya staj yapmak üzere dış memleketlere gönderilenlere en fazla kaç yıla kadar ayrılma müsaadesi verilebilir?",
+		"options": [
+			"Üç",
+			"Dört",
+			"Beş",
+			"Yedi",
+			"On"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 78. maddesine göre mesleklerine ait hizmetlerde yetiştirilmek, eğitilmek, bilgilerini artırmak veya staj yapmak üzere dış memleketlere gönderilenlere iki yıla kadar ayrılma müsaadesi verilebilir; gerekirse bu süre en çok bir kat uzatılabilir. Toplam süre bu nedenle dört yılı geçemez.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "78"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
+			"year": 2017,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yurt-dışında-yetiştirme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl17yim-q016",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Devlet Memurları Kanunu’na göre kadroları Millî İstihbarat Hizmetleri Sınıfına dâhil olanlara aşağıdakilerden hangisi tarafından tespit edilecek ek gösterge rakamları uygulanır?",
+		"options": [
+			"MİT Müsteşarı",
+			"Maliye Bakanı",
+			"Başbakan",
+			"Bakanlar Kurulu",
+			"Cumhurbaşkanı"
+		],
+		"correctIndex": 4,
+		"explanation": "657 sayılı Kanun'un 43. maddesine göre kadroları Millî İstihbarat Hizmetleri Sınıfına dâhil olanlara, maddede gösterilen emsallerini geçmemek üzere Cumhurbaşkanı tarafından tespit edilecek ek gösterge rakamları uygulanır. Hükümdeki yetki, 2018'de 703 sayılı KHK ile Başbakandan Cumhurbaşkanına geçmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "43"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
+			"year": 2017,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"ek-gösterge",
+			"mit"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]

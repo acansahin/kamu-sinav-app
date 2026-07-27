@@ -1171,5 +1171,73 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl17yim-q007",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "T.C. Anayasası’na göre aşağıdakilerden hangisi kişinin milletvekili seçilmesine engel değildir?",
+		"options": [
+			"Askerlikle ilişiği olmak",
+			"En az ilkokul mezunu olmamak",
+			"Resmî ihale ve alım satımlara fesat karıştırma suçuyla hüküm giymiş olmak",
+			"Taksirli suçlardan toplam bir yıl veya daha fazla hapis cezasına hüküm giymiş olmak",
+			"İhtilas, irtikâp, dolandırıcılık, sahtecilik suçlarından biriyle hüküm giyerek affa uğramış olmak"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 76. maddesinde milletvekili seçilmeye engel hâller sayılırken hapis cezası bakımından ölçüt 'TAKSİRLİ SUÇLAR HARİÇ toplam bir yıl veya daha fazla hapis' cezasıdır. Taksirli bir suçtan alınan ceza bu nedenle engel değildir. En az ilkokul mezunu olmamak, askerlikle ilişiği olmak ve maddede sayılan yüz kızartıcı suçlardan affa uğramış olsa bile hüküm giymek engeldir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "76"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
+			"year": 2017,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"milletvekili-seçilme-yeterliliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "meb-adl17yim-q008",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "T.C. Anayasası’na göre “yasama dokunulmazlığı” ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Türkiye Büyük Millet Meclisi üyeleri, Meclis çalışmalarındaki oy ve sözlerinden o oturumdaki Başkanlık Divanının teklifi üzerine Meclisçe başka bir karar alınmadıkça bunları Meclis dışında tekrarlamak ve açığa vurmaktan sorumlu tutulamazlar.",
+			"Türkiye Büyük Millet Meclisi üyesi hakkında, seçiminden önce veya sonra verilmiş bir ceza hükmünün yerine getirilmesi, üyelik sıfatının sona ermesine bırakılır.",
+			"Tekrar seçilen milletvekili hakkında soruşturma ve kovuşturma, Meclisin yeniden dokunulmazlığını kaldırmasına bağlıdır.",
+			"Türkiye Büyük Millet Meclisindeki siyasi parti gruplarınca, yasama dokunulmazlığı ile ilgili görüşme yapılamaz ve karar alınamaz.",
+			"Seçimden önce veya sonra bir suç işlediği ileri sürülen bir milletvekili, Meclisin kararı aranmaksızın yargılanabilir."
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa'nın 83. maddesine göre seçimden önce veya sonra bir suç işlediği ileri sürülen milletvekili, MECLİSİN KARARI OLMADIKÇA tutulamaz, sorguya çekilemez, tutuklanamaz ve yargılanamaz; Meclis kararı aranmaksızın yargılanabileceği ifadesi yanlıştır. Ağır cezayı gerektiren suçüstü hâli ile Anayasa'nın 14. maddesindeki durumlar bu hükmün dışındadır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "83"
+		},
+		"source": {
+			"kind": "official-past-exam",
+			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
+			"year": 2017,
+			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
+			"license": "public-official"
+		},
+		"status": "review",
+		"tags": [
+			"yasama-dokunulmazlığı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-26"
 	}
 ]
