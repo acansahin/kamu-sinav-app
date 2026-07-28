@@ -1822,5 +1822,140 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "657-disiplin-017",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'a göre görevden uzaklaştırmanın hukuki niteliği aşağıdakilerden hangisidir?",
+		"options": [
+			"Kademe ilerlemesinin durdurulması ile birlikte uygulanan bir disiplin cezasıdır.",
+			"Görevi başında kalmasında sakınca görülen memurlar hakkında alınan ihtiyati bir tedbirdir.",
+			"Memurluğun sona ermesi sonucunu doğuran bir idari işlemdir.",
+			"Ceza mahkemesince verilen bir güvenlik tedbiridir.",
+			"Aylıktan kesme cezasının infaz şeklidir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 137, görevden uzaklaştırmayı Devlet kamu hizmetlerinin gerektirdiği hâllerde, görevi başında kalmasında sakınca görülecek Devlet memurları hakkında alınan ihtiyati bir tedbir olarak tanımlar. Bir disiplin cezası değildir; bu nedenle m.125'te sayılan cezalar arasında yer almaz ve memurluğu sona erdirmez. Aynı madde tedbirin soruşturmanın herhangi bir safhasında da alınabileceğini belirtir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "137"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorevden-uzaklastirma",
+			"ihtiyati-tedbir"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-disiplin-018",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "Aynı olaydan dolayı bir memur hakkında hem ceza mahkemesinde kovuşturmaya başlanmış hem de disiplin soruşturması açılmıştır. 657 sayılı Kanun'a göre bu durumda aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Disiplin kovuşturması, ceza kovuşturması sonuçlanıncaya kadar durdurulur.",
+			"Ceza mahkemesinde kovuşturmaya başlanmış olması disiplin kovuşturmasını geciktiremez.",
+			"Memur ceza kanununa göre beraat ederse disiplin cezası kendiliğinden kalkar.",
+			"Disiplin cezası ancak mahkûmiyet kararı kesinleştikten sonra verilebilir.",
+			"Aynı olay için hem ceza hem disiplin soruşturması yürütülmesi mümkün değildir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 131'e göre aynı olaydan dolayı memur hakkında ceza mahkemesinde kovuşturmaya başlanmış olması disiplin kovuşturmasını geciktiremez; ayrıca memurun ceza kanununa göre mahkûm olması veya olmaması hâlleri disiplin cezasının uygulanmasına engel olamaz. Ceza yargılaması ile disiplin rejimi birbirinden bağımsız yürüdüğünden beraat kararı disiplin cezasını kendiliğinden ortadan kaldırmaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "131"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cezai-kovusturma",
+			"disiplin-kovusturmasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-disiplin-019",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "Hakkında memurluktan çıkarma cezası istenen memura 657 sayılı Kanun'la tanınan haklar arasında aşağıdakilerden hangisi yer almaz?",
+		"options": [
+			"Soruşturma evrakını incelemek",
+			"Tanık dinletmek",
+			"Disiplin kurulunda sözlü veya yazılı olarak savunma yapmak",
+			"Savunmasını vekili vasıtasıyla yapmak",
+			"Hakkında karar verecek kurul üyelerini reddetmek"
+		],
+		"correctIndex": 4,
+		"explanation": "Madde 129'un ikinci fıkrasına göre hakkında memurluktan çıkarma cezası istenen memur, soruşturma evrakını incelemeye, tanık dinletmeye, disiplin kurulunda sözlü veya yazılı olarak kendisi ya da vekili vasıtasıyla savunma yapmaya hakkına sahiptir. Kurul üyelerini reddetme yetkisi maddede sayılmamıştır. Aynı maddenin birinci fıkrası ise yüksek disiplin kurullarına özlük dosyasını ve her nevi evrakı inceleme, bilgi alma, yeminli tanık ve bilirkişi dinleme veya niyabeten dinletme ve mahallen keşif yapma yetkileri tanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "129"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"savunma-hakki",
+			"yuksek-disiplin-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-disiplin-020",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un disiplin kurullarının kuruluşunu düzenleyen maddesine göre aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Kurum merkezinde bir Yüksek Disiplin Kurulu bulunur.",
+			"Her ilde birer disiplin kurulu bulunur.",
+			"Bölge esasına göre çalışan kuruluşlarda bölge merkezinde birer disiplin kurulu bulunur.",
+			"Millî Eğitim müdürlüklerinde ayrıca birer disiplin kurulu bulunur.",
+			"Kurulların görüşme ve karar usulü ile disiplin amirlerinin tespit esasları doğrudan bu Kanun'da sayılmıştır."
+		],
+		"correctIndex": 4,
+		"explanation": "Madde 134, disiplin ve soruşturma işlerinde kanunlarla verilen görevleri yapmak üzere kurum merkezinde bir Yüksek Disiplin Kurulu ile her ilde, bölge esasına göre çalışan kuruluşlarda bölge merkezinde ve kurum merkezinde, ayrıca Millî Eğitim müdürlüklerinde birer Disiplin Kurulu bulunmasını öngörür. Ancak bu kurulların kuruluşu, üyelerinin görev süresi, görüşme ve karar usulü, hangi memurlar hakkında karar verebilecekleri ve disiplin amirlerinin tayin ve tespitinde uygulanacak esaslar Kanun'da değil, Cumhurbaşkanınca çıkarılacak yönetmelikte düzenlenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "134"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"disiplin-kurullari"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
 	}
 ]

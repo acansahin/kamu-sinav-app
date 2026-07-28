@@ -1239,5 +1239,174 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "anayasa-yasama-013",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "kolay",
+		"stem": "Anayasa'ya göre Türkiye Büyük Millet Meclisinde bir siyasi parti grubu en az kaç üyeden meydana gelir?",
+		"options": [
+			"On",
+			"On beş",
+			"Yirmi",
+			"Otuz",
+			"Elli"
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 95'e göre Türkiye Büyük Millet Meclisi çalışmalarını kendi yaptığı İçtüzük hükümlerine göre yürütür; İçtüzük hükümleri siyasi parti gruplarının Meclisin bütün faaliyetlerine üye sayısı oranında katılmalarını sağlayacak yolda düzenlenir ve siyasi parti grupları en az yirmi üyeden meydana gelir. Aynı madde Meclisin bina, tesis, eklenti ve arazisindeki kolluk ve yönetim hizmetlerinin Meclis Başkanlığı eliyle yürütüleceğini de öngörür.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "95"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siyasi-parti-grubu",
+			"ictuzuk"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yasama-014",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Meclis çalışmalarına özürsüz veya izinsiz olarak katılmama sebebiyle milletvekilliğinin düşmesine karar verilebilmesi için Anayasa'da aranan devamsızlık ölçüsü ve karar çoğunluğu aşağıdakilerden hangisidir?",
+		"options": [
+			"Bir ay içinde toplam beş birleşim günü – Genel Kurulca üye tamsayısının salt çoğunluğu",
+			"Bir ay içinde toplam üç birleşim günü – Genel Kurulca üye tamsayısının üçte iki çoğunluğu",
+			"Bir yıl içinde toplam on birleşim günü – Genel Kurulca toplantıya katılanların salt çoğunluğu",
+			"Bir ay içinde toplam beş birleşim günü – Başkanlık Divanınca oybirliği",
+			"Bir yasama yılı içinde toplam yirmi birleşim günü – Genel Kurulca gizli oyla salt çoğunluk"
+		],
+		"correctIndex": 0,
+		"explanation": "Madde 84'e göre Meclis çalışmalarına özürsüz veya izinsiz olarak bir ay içerisinde toplam beş birleşim günü katılmayan milletvekilinin milletvekilliğinin düşmesine, durumun Meclis Başkanlık Divanınca tespit edilmesi üzerine Genel Kurulca üye tamsayısının salt çoğunluğunun oyuyla karar verilebilir. Başkanlık Divanına düşürme değil, yalnızca tespit yetkisi verilmiştir; kararı Genel Kurul alır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "84"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"milletvekilliginin-dusmesi",
+			"devamsizlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yasama-015",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın üyelikle bağdaşmayan işleri düzenleyen maddesine göre milletvekilleri bakımından aşağıdakilerden hangisi söylenemez?",
+		"options": [
+			"Devletin doğrudan doğruya veya dolaylı olarak katıldığı teşebbüs ve ortaklıkların yönetim ve denetim kurullarında görev alamazlar.",
+			"Herhangi bir taahhüt işini doğrudan veya dolaylı olarak kabul edemezler.",
+			"Temsilcilik ve hakemlik yapamazlar.",
+			"Yürütme organının teklif, inha, atama veya onamasına bağlı resmî veya özel herhangi bir işle görevlendirilemezler.",
+			"Üyelikle bağdaşmayan diğer görev ve işler Cumhurbaşkanlığı kararnamesiyle düzenlenir."
+		],
+		"correctIndex": 4,
+		"explanation": "Madde 82, milletvekillerinin Devlet ve diğer kamu tüzel kişilerine bağlı kuruluşlar ile Devletin katıldığı teşebbüs ve ortaklıkların, kamu yararına çalışan bazı dernek ve vakıfların, meslek kuruluşları ile sendikaların yönetim ve denetim kurullarında görev almasını, vekil olmasını, taahhüt işi kabul etmesini, temsilcilik ve hakemlik yapmasını ve yürütme organının teklif, inha, atama veya onamasına bağlı işlerle görevlendirilmesini yasaklar. Maddenin son fıkrasına göre üyelikle bağdaşmayan diğer görev ve işler Cumhurbaşkanlığı kararnamesiyle değil kanunla düzenlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "82"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bagdasmayan-isler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yasama-016",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Türkiye Büyük Millet Meclisi ara vermede iken ülke ani bir silahlı saldırıya uğramış ve silahlı kuvvet kullanılmasına derhal karar verilmesi kaçınılmaz hâle gelmiştir. Anayasa'ya göre bu durumda karar verme yetkisi kimdedir?",
+		"options": [
+			"Yalnızca Türkiye Büyük Millet Meclisi olağanüstü toplantıya çağrılarak karar verebilir.",
+			"Cumhurbaşkanı da Türk Silahlı Kuvvetlerinin kullanılmasına karar verebilir.",
+			"Millî Güvenlik Kurulu karar verir ve karar Meclisin onayına sunulur.",
+			"Genelkurmay Başkanı karar verir, Cumhurbaşkanı onaylar.",
+			"Türkiye Büyük Millet Meclisi Başkanlık Divanı karar verir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 92'ye göre savaş hâli ilanına ve Türk Silahlı Kuvvetlerinin yabancı ülkelere gönderilmesine veya yabancı silahlı kuvvetlerin Türkiye'de bulunmasına izin verme yetkisi kural olarak Türkiye Büyük Millet Meclisinindir. Ancak Meclis tatilde veya ara vermede iken ülkenin ani bir silahlı saldırıya uğraması ve bu sebeple silahlı kuvvet kullanılmasına derhal karar verilmesinin kaçınılmaz olması hâlinde Cumhurbaşkanı da Türk Silahlı Kuvvetlerinin kullanılmasına karar verebilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "92"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"savas-hali",
+			"silahli-kuvvet"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yasama-017",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "uzman",
+		"stem": "Anayasa'ya göre Türkiye Büyük Millet Meclisindeki görüşmelerin açıklığı ve yayımlanması bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Genel Kuruldaki görüşmeler açıktır ve tutanak dergisinde tam olarak yayımlanır.",
+			"Meclis, İçtüzük hükümlerine göre kapalı oturumlar yapabilir.",
+			"Kapalı oturumlardaki görüşmelerin yayımı Meclis kararına bağlıdır.",
+			"Açık görüşmelerin her türlü vasıta ile yayımı, Başkanlık Divanının teklifi üzerine Meclisçe başkaca bir karar alınmadıkça serbesttir.",
+			"Kapalı oturumlardaki görüşmeler hiçbir şekilde yayımlanamaz."
+		],
+		"correctIndex": 4,
+		"explanation": "Madde 97'ye göre Genel Kuruldaki görüşmeler açıktır ve tutanak dergisinde tam olarak yayımlanır; Meclis İçtüzük hükümlerine göre kapalı oturumlar yapabilir ve bu oturumlardaki görüşmelerin yayımı Meclis kararına bağlıdır. Yani kapalı oturum tutanakları için mutlak bir yayım yasağı değil, Meclis kararına bağlı bir yayım rejimi öngörülmüştür. Açık görüşmelerin yayımı ise o oturumdaki Başkanlık Divanının teklifi üzerine Meclisçe başkaca bir karar alınmadıkça serbesttir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "97"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorusmelerin-acikligi",
+			"kapali-oturum"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
 	}
 ]

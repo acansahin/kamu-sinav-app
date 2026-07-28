@@ -493,5 +493,141 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "657-ilke-013",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'a göre bir memurun Avukatlık Hizmetleri Sınıfında yer alabilmesi için aşağıdaki şartlardan hangisi aranmaz?",
+		"options": [
+			"Özel kanunlarına göre avukatlık ruhsatına sahip olmak",
+			"Baroya kayıtlı olmak",
+			"Kurumunu yargı mercilerinde temsil yetkisini haiz olmak",
+			"Hukuk fakültesi mezunu olmak",
+			"En az beş yıl serbest avukatlık yapmış olmak"
+		],
+		"correctIndex": 4,
+		"explanation": "Madde 36'nın (V) bendine göre Avukatlık Hizmetleri Sınıfı; özel kanunlarına göre avukatlık ruhsatına sahip, baroya kayıtlı ve kurumlarını yargı mercilerinde temsil yetkisini haiz olan memurları kapsar. Bu üç şart birlikte aranır. Avukatlık ruhsatı zaten hukuk öğrenimini gerektirdiğinden ayrıca bir öğrenim şartı sayılmamış, belirli süre serbest avukatlık yapmış olmak ise hiç aranmamıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"avukatlik-hizmetleri",
+			"hizmet-sinifi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-ilke-014",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'da Din Hizmetleri Sınıfı nasıl tanımlanmıştır?",
+		"options": [
+			"Diyanet İşleri Başkanlığı kadrolarında görev yapan bütün memurları kapsar.",
+			"Özel kanunlarına göre çeşitli derecelerde dini eğitim görmüş olan ve dini görev yapan memurları kapsar.",
+			"Yalnızca imam-hatip ve müezzin kadrolarında bulunan memurları kapsar.",
+			"Dini eğitim veren öğretim kurumlarında görevli öğretmenleri kapsar.",
+			"Din öğrenimi görmüş olup herhangi bir kurumda çalışan bütün memurları kapsar."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 36'nın (VI) bendine göre Din Hizmetleri Sınıfı, özel kanunlarına göre çeşitli derecelerde dini eğitim görmüş olan ve dini görev yapan memurları kapsar. Tanım iki şartı birlikte arar: dini eğitim görmüş olmak ve fiilen dini görev yapmak. Bu nedenle sınıf ne bir kurumun bütün kadrolarına ne de belirli unvanlara göre belirlenir; dini eğitim görmüş olmakla birlikte dini görev yapmayan memurlar bu sınıfa dahil değildir. Eğitim ve öğretim vazifesiyle görevlendirilen öğretmenler ise (IV) numaralı bent uyarınca Eğitim ve Öğretim Hizmetleri Sınıfındadır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"din-hizmetleri",
+			"hizmet-sinifi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-ilke-015",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'da Eğitim ve Öğretim Hizmetleri Sınıfı kimleri kapsayacak şekilde tanımlanmıştır?",
+		"options": [
+			"Millî Eğitim Bakanlığı merkez ve taşra teşkilatındaki bütün personeli",
+			"Kanun kapsamına giren kurumlarda eğitim ve öğretim vazifesiyle görevlendirilen öğretmenleri",
+			"Yükseköğretim kurumlarındaki öğretim üyelerini ve okutmanları",
+			"Okullarda görevli bütün memur ve hizmetlileri",
+			"Öğretmen yetiştiren fakültelerden mezun olan herkesi"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 36'nın (IV) bendine göre Eğitim ve Öğretim Hizmetleri Sınıfı, bu Kanun kapsamına giren kurumlarda eğitim ve öğretim vazifesiyle görevlendirilen öğretmenleri kapsar. Ölçüt kurum veya diploma değil, fiilen eğitim ve öğretim vazifesiyle görevlendirilmiş olmaktır; okullarda çalışan diğer memurlar görevlerinin niteliğine göre başka sınıflara girer.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"egitim-ogretim",
+			"hizmet-sinifi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-ilke-016",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'da tesis edilen hizmet sınıflarına 2016 yılında yapılan düzenlemeyle eklenen sınıflar aşağıdakilerden hangisinde birlikte verilmiştir?",
+		"options": [
+			"Emniyet Hizmetleri Sınıfı ve Millî İstihbarat Hizmetleri Sınıfı",
+			"Jandarma Hizmetleri Sınıfı ve Sahil Güvenlik Hizmetleri Sınıfı",
+			"Mülki İdare Amirliği Hizmetleri Sınıfı ve Emniyet Hizmetleri Sınıfı",
+			"Avukatlık Hizmetleri Sınıfı ve Din Hizmetleri Sınıfı",
+			"Yardımcı Hizmetler Sınıfı ve Teknik Hizmetler Sınıfı"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 36'ya 2016 yılında, Emniyet Hizmetleri Sınıfı başlıklı bentten sonra gelmek üzere Jandarma Hizmetleri Sınıfı ve ardından Sahil Güvenlik Hizmetleri Sınıfı eklenmiş, sonraki bentler buna göre teselsül ettirilmiştir. Diğer şıklarda sayılan sınıflar bu tarihten çok önce Kanun'da yer almaktaydı. Bu eklemelerle birlikte Kanun'da tesis edilen hizmet sınıfı sayısı on ikiye ulaşmıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"jandarma",
+			"sahil-guvenlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
 	}
 ]

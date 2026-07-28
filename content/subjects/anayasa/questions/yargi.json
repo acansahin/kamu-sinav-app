@@ -940,5 +940,208 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "anayasa-yargi-013",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın hâkimlik ve savcılık teminatını düzenleyen maddesine göre aşağıdakilerden hangisi bu teminatın kapsamında değildir?",
+		"options": [
+			"Hâkim ve savcıların azlolunamaması",
+			"Kendileri istemedikçe Anayasada gösterilen yaştan önce emekliye ayrılamamaları",
+			"Bir mahkemenin veya kadronun kaldırılması sebebiyle de olsa aylık, ödenek ve diğer özlük haklarından yoksun kılınamamaları",
+			"Görevleri sebebiyle işledikleri suçlardan dolayı hiçbir şekilde soruşturulamamaları",
+			"Meslekte kalmalarının uygun olmadığına karar verilenler bakımından kanundaki istisnaların saklı tutulması"
+		],
+		"correctIndex": 3,
+		"explanation": "Madde 139'a göre hâkimler ve savcılar azlolunamaz, kendileri istemedikçe Anayasada gösterilen yaştan önce emekliye ayrılamaz; bir mahkemenin veya kadronun kaldırılması sebebiyle de olsa aylık, ödenek ve diğer özlük haklarından yoksun kılınamazlar. Maddenin ikinci fıkrası meslekten çıkarılmayı gerektiren bir suçtan hüküm giyenler, görevini sağlık bakımından yerine getiremeyeceği kesin olarak anlaşılanlar ve meslekte kalmaları uygun görülmeyenler hakkında kanundaki istisnaları saklı tutar. Teminat mutlak bir yargılanmazlık sağlamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "139"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hakimlik-teminati"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yargi-014",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "kolay",
+		"stem": "Anayasa'ya göre mahkemelerde duruşmaların bir kısmının veya tamamının kapalı yapılmasına hangi hâllerde karar verilebilir?",
+		"options": [
+			"Tarafların birlikte talep etmesi hâlinde",
+			"Yalnızca genel ahlakın veya kamu güvenliğinin kesin olarak gerekli kıldığı hâllerde",
+			"Davanın niteliğine göre mahkemenin serbestçe takdir ettiği her hâlde",
+			"Millî güvenlik, kamu düzeni ve genel sağlığın gerektirdiği bütün hâllerde",
+			"Yalnızca küçüklerin yargılandığı davalarda"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 141'e göre mahkemelerde duruşmalar herkese açıktır; duruşmaların bir kısmının veya tamamının kapalı yapılmasına ancak genel ahlakın veya kamu güvenliğinin kesin olarak gerekli kıldığı hâllerde karar verilebilir. Küçüklerin yargılanması hakkında kanunla özel hükümler konulması ayrı bir hüküm olup kapalılık sebeplerini genişletmez. Aynı madde bütün mahkemelerin her türlü kararlarının gerekçeli yazılmasını ve davaların en az giderle ve mümkün olan süratle sonuçlandırılmasını da öngörür.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "141"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"durusmalarin-acikligi",
+			"gerekce"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yargi-015",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "Anayasa'ya göre Danıştay üyelerinin seçiminde görev dağılımı aşağıdakilerden hangisidir?",
+		"options": [
+			"Tamamını Hâkimler ve Savcılar Kurulu seçer.",
+			"Üyelerin dörtte üçünü Hâkimler ve Savcılar Kurulu, dörtte birini Cumhurbaşkanı seçer.",
+			"Üyelerin yarısını Hâkimler ve Savcılar Kurulu, yarısını Cumhurbaşkanı seçer.",
+			"Üyelerin dörtte üçünü Cumhurbaşkanı, dörtte birini Türkiye Büyük Millet Meclisi seçer.",
+			"Tamamını Cumhurbaşkanı seçer."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 155'e göre Danıştay üyelerinin dörtte üçü, birinci sınıf idari yargı hâkim ve savcıları ile bu meslekten sayılanlar arasından Hâkimler ve Savcılar Kurulu; dörtte biri ise nitelikleri kanunda belirtilen görevliler arasından Cumhurbaşkanı tarafından seçilir. Danıştay Başkanı, Başsavcı, başkanvekilleri ve daire başkanları ise kendi üyeleri arasından Danıştay Genel Kurulunca üye tamsayısının salt çoğunluğu ve gizli oyla dört yıl için seçilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "155"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"danistay",
+			"uye-secimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yargi-016",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "Anayasa Mahkemesinde doğrudan doğruya iptal davası açabilme hakkı Anayasa'ya göre kimlere aittir?",
+		"options": [
+			"Yalnızca Cumhurbaşkanına",
+			"Cumhurbaşkanına, Türkiye Büyük Millet Meclisinde en fazla üyeye sahip iki siyasi parti grubuna ve üye tamsayısının en az beşte biri tutarındaki üyelere",
+			"Cumhurbaşkanına, bütün siyasi parti gruplarına ve üye tamsayısının en az üçte biri tutarındaki üyelere",
+			"Yargıtay, Danıştay ve Sayıştay başkanlarına",
+			"Cumhurbaşkanına ve Türkiye Büyük Millet Meclisi Başkanına"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 150'ye göre kanunların, Cumhurbaşkanlığı kararnamelerinin, Türkiye Büyük Millet Meclisi İçtüzüğünün veya bunların belirli madde ve hükümlerinin şekil ve esas bakımından Anayasaya aykırılığı iddiasıyla Anayasa Mahkemesinde doğrudan doğruya iptal davası açabilme hakkı; Cumhurbaşkanına, Türkiye Büyük Millet Meclisinde en fazla üyeye sahip iki siyasi parti grubuna ve üye tamsayısının en az beşte biri tutarındaki üyelere aittir. 2017 değişikliğiyle iktidar ve anamuhalefet partisi grubu ölçütü, en fazla üyeye sahip iki siyasi parti grubu ölçütüyle değiştirilmiştir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "150"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iptal-davasi",
+			"soyut-norm-denetimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yargi-017",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "zor",
+		"stem": "Bir davaya bakmakta olan mahkeme, uygulanacak kanun hükmünü Anayasaya aykırı görerek konuyu Anayasa Mahkemesine götürmüştür. Anayasa'ya göre Anayasa Mahkemesi bu işte kaç ay içinde kararını verir ve bu süre içinde karar verilmezse ne olur?",
+		"options": [
+			"Üç ay; süre dolarsa mahkeme davayı düşürür.",
+			"Beş ay; süre dolarsa mahkeme davayı yürürlükteki kanun hükümlerine göre sonuçlandırır.",
+			"Altı ay; süre dolarsa hüküm kendiliğinden iptal edilmiş sayılır.",
+			"Beş ay; süre dolarsa dava temyiz merciine gönderilir.",
+			"Bir yıl; süre dolarsa mahkeme yeniden başvuruda bulunur."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 152'ye göre Anayasa Mahkemesi, işin kendisine gelişinden başlamak üzere beş ay içinde kararını verir ve açıklar. Bu süre içinde karar verilmezse mahkeme davayı yürürlükteki kanun hükümlerine göre sonuçlandırır; ancak Anayasa Mahkemesinin kararı esas hakkındaki karar kesinleşinceye kadar gelirse mahkeme buna uymak zorundadır. Ayrıca Mahkemenin işin esasına girerek verdiği red kararının Resmî Gazetede yayımlanmasından sonra on yıl geçmedikçe aynı kanun hükmünün Anayasaya aykırılığı iddiasıyla tekrar başvuruda bulunulamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "152"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"itiraz-yolu",
+			"somut-norm-denetimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yargi-018",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "uzman",
+		"stem": "2017 yılında yapılan Anayasa değişikliğinden sonra askerî mahkemelerin kurulması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Askerî mahkemeler hiçbir şart altında kurulamaz.",
+			"Disiplin mahkemeleri dışında askerî mahkeme kurulamaz; ancak savaş hâlinde asker kişilerin görevleriyle ilgili suçlarına bakmak üzere kurulabilir.",
+			"Askerî mahkemeler yalnızca olağanüstü hâl ilan edilen bölgelerde kurulabilir.",
+			"Askerî mahkemeler barış zamanında da asker kişilerin bütün suçlarına bakmak üzere kurulabilir.",
+			"Askerî mahkemelerin kurulması Cumhurbaşkanlığı kararnamesiyle serbestçe düzenlenir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 142'ye 2017 değişikliğiyle eklenen fıkraya göre disiplin mahkemeleri dışında askerî mahkemeler kurulamaz; ancak savaş hâlinde, asker kişilerin görevleriyle ilgili olarak işledikleri suçlara ait davalara bakmakla görevli askerî mahkemeler kurulabilir. Yasak mutlak olmadığı gibi olağanüstü hâlle de ilişkilendirilmemiştir. Maddenin birinci fıkrası uyarınca mahkemelerin kuruluşu, görev ve yetkileri, işleyişi ve yargılama usulleri kanunla düzenlenir; bu alan Cumhurbaşkanlığı kararnamesine bırakılmamıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "142"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"askeri-mahkeme",
+			"mahkemelerin-kurulusu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
 	}
 ]

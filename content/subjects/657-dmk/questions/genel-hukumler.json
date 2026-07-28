@@ -1338,5 +1338,110 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "657-genel-013",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'a ekli Aylık Gösterge Tablosunda yer alan derece sayısı ve bir derecedeki en fazla kademe sayısı aşağıdakilerden hangisidir?",
+		"options": [
+			"12 derece – 8 kademe",
+			"15 derece – 9 kademe",
+			"15 derece – 4 kademe",
+			"9 derece – 15 kademe",
+			"12 derece – 9 kademe"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 43'ün (A) bendine göre bütün sınıflar itibarıyla her derece ve kademenin aylıklarının hesaplanmasına esas teşkil eden Aylık Gösterge Tablosu Kanun'a ekli I Numaralı Cetvelde gösterilmiştir. Tablo 1'den 15'e kadar dereceleri ve her derece için en fazla 9 kademeyi içerir; üst derecelerde kademe sayısı daha azdır. Buradaki 12 sayısı derecelere değil, m.36'da tesis edilen hizmet sınıflarının sayısına aittir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "43",
+			"clause": "A"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"aylik-gosterge",
+			"derece-kademe"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-genel-014",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'a göre ek göstergelerin niteliği bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Ek göstergeler her hâlde terfi bakımından kazanılmış hak sayılır.",
+			"Ek göstergeler yalnızca ilgililer belirtilen sınıf ve görevlerde bulundukları sürece ödemelere esas alınır ve terfi bakımından kazanılmış hak sayılmaz.",
+			"Ek göstergeler memurun emekli aylığında dikkate alınmaz.",
+			"Ek göstergeler yalnızca Genel İdare Hizmetleri Sınıfı için uygulanır.",
+			"Ek göstergeler aylık gösterge rakamının yerine geçer."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 43'ün (B) bendine göre ek göstergeler, ilgililerin belirtilen sınıf ve görevlerde bulundukları sürece ödemelere esas alınır ve terfi bakımından kazanılmış hak sayılmaz. Ek gösterge, aylık gösterge rakamının yerine geçmez; aylıklar, hizmet sınıfları, görev türleri ve aylık alınan dereceler dikkate alınarak Kanun'a ekli I ve II sayılı cetvellerde gösterilen ek gösterge rakamlarının aylık göstergeye eklenmesi suretiyle hesaplanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "43",
+			"clause": "B"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ek-gosterge",
+			"kazanilmis-hak"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-genel-015",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "zor",
+		"stem": "Kurumların 1, 2, 3 ve 4 üncü dereceli kadrolarına atananlara uygulanacak ek göstergeler bakımından 657 sayılı Kanun'da öngörülen güvence aşağıdakilerden hangisidir?",
+		"options": [
+			"Bu kadrolara atananlara her hâlde en yüksek ek gösterge uygulanır.",
+			"Bu kadrolara atananların ek göstergesi, daha önce bulundukları kariyerleriyle ilgili sınıfta kazanılmış hak aylık derecelerine göre alabilecekleri ek göstergeden düşük olamaz.",
+			"Bu kadrolara atananların ek göstergesi atandıkları kadronun ek göstergesinin iki katı olarak uygulanır.",
+			"Bu kadrolara atananlara ek gösterge uygulanmaz, yalnızca makam tazminatı ödenir.",
+			"Bu kadrolara atananların ek göstergesi her yıl Cumhurbaşkanı Kararı ile yeniden belirlenir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 43'ün (B) bendine göre kurumların 1, 2, 3 ve 4 üncü dereceli kadrolarına atananlara uygulanacak ek göstergeler, ilgililerin daha önce bulunmuş oldukları kariyerleri ile ilgili sınıf veya Kanun'a ekli I sayılı Cetvelin Genel İdare Hizmetleri Sınıfı (g) bölümünde belirtilen görevlerde kazanılmış hak aylık derecelerine göre alabilecekleri ek göstergelerden düşük olamaz. Hüküm bir alt sınır güvencesi getirir; en yüksek ek göstergenin doğrudan uygulanmasını veya kadronun ek göstergesinin katlanmasını öngörmez.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "43",
+			"clause": "B"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ek-gosterge",
+			"ust-dereceli-kadro"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
 	}
 ]

@@ -1446,5 +1446,277 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "anayasa-thakl-013",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın zorla çalıştırma yasağını düzenleyen maddesine göre aşağıdakilerden hangisi zorla çalıştırma sayılır?",
+		"options": [
+			"Hükümlülük veya tutukluluk süreleri içindeki çalıştırmalar",
+			"Olağanüstü hâllerde vatandaşlardan istenecek hizmetler",
+			"Ülke ihtiyaçlarının zorunlu kıldığı alanlarda öngörülen vatandaşlık ödevi niteliğindeki beden ve fikir çalışmaları",
+			"Bir kişinin rızası dışında karşılıksız olarak çalıştırılması",
+			"Şekil ve şartları kanunla düzenlenen tutukluluk dönemi çalışmaları"
+		],
+		"correctIndex": 3,
+		"explanation": "Madde 18'e göre hiç kimse zorla çalıştırılamaz ve angarya yasaktır. Maddenin ikinci fıkrası üç hâli yasağın dışında bırakır: şekil ve şartları kanunla düzenlenmek üzere hükümlülük veya tutukluluk süreleri içindeki çalıştırmalar, olağanüstü hâllerde vatandaşlardan istenecek hizmetler ve ülke ihtiyaçlarının zorunlu kıldığı alanlarda öngörülen vatandaşlık ödevi niteliğindeki beden ve fikir çalışmaları. Kişinin rızası dışında karşılıksız çalıştırılması ise angarya olup yasağın tam kapsamındadır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "18"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"zorla-calistirma",
+			"angarya"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-thakl-014",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın hak arama hürriyetini düzenleyen maddesinde yer alan hükümlerden biri aşağıdakilerden hangisidir?",
+		"options": [
+			"Hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz.",
+			"Hiçbir mahkeme, görev ve yetkisi içindeki davaya bakmaktan kaçınamaz.",
+			"Suçluluğu hükmen sabit oluncaya kadar kimse suçlu sayılamaz.",
+			"Kanuna aykırı olarak elde edilmiş bulgular delil olarak kabul edilemez.",
+			"Ceza sorumluluğu şahsidir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 36'ya göre herkes, meşru vasıta ve yollardan faydalanmak suretiyle yargı mercileri önünde davacı veya davalı olarak iddia ve savunma ile adil yargılanma hakkına sahiptir; ayrıca hiçbir mahkeme görev ve yetkisi içindeki davaya bakmaktan kaçınamaz. Diğer şıklardaki hükümler ayrı maddelerde yer alır: kanuni hâkim güvencesi m.37'de, masumiyet karinesi, hukuka aykırı delil yasağı ve ceza sorumluluğunun şahsiliği ise m.38'de düzenlenmiştir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hak-arama-hurriyeti",
+			"adil-yargilanma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-thakl-015",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Gecikmesinde sakınca bulunan bir hâlde, kanunla yetkili kılınmış merciin yazılı emriyle haberleşmenin gizliliğine dokunulmuştur. Anayasa'ya göre bu karar bakımından işletilecek süreler aşağıdakilerden hangisidir?",
+		"options": [
+			"Karar 24 saat içinde görevli hâkimin onayına sunulur; hâkim kararını 48 saat içinde açıklar.",
+			"Karar 48 saat içinde görevli hâkimin onayına sunulur; hâkim kararını 24 saat içinde açıklar.",
+			"Karar 12 saat içinde görevli hâkimin onayına sunulur; hâkim kararını 36 saat içinde açıklar.",
+			"Karar 24 saat içinde Cumhuriyet savcısının onayına sunulur; savcı kararını 48 saat içinde açıklar.",
+			"Karar için herhangi bir onay süreci öngörülmemiştir."
+		],
+		"correctIndex": 0,
+		"explanation": "Madde 22'ye göre haberleşme hürriyeti esas olup gizliliğine ancak millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlık ve genel ahlâkın korunması veya başkalarının hak ve özgürlüklerinin korunması sebeplerine bağlı olarak usulüne göre verilmiş hâkim kararıyla dokunulabilir. Gecikmesinde sakınca bulunan hâllerde kanunla yetkili kılınmış merciin yazılı emri yeterlidir; ancak bu karar yirmi dört saat içinde görevli hâkimin onayına sunulur ve hâkim kararını kırk sekiz saat içinde açıklar, aksi hâlde karar kendiliğinden kalkar.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "22"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"haberlesme-hurriyeti",
+			"gizlilik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-thakl-016",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'ya göre din eğitim ve öğretimi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bütün din eğitim ve öğretimi kişilerin kendi isteğine bağlıdır.",
+			"Din kültürü ve ahlak öğretimi ilk ve ortaöğretim kurumlarında okutulan zorunlu dersler arasındadır.",
+			"Din ve ahlak eğitimi Devletin gözetim ve denetimi dışında serbestçe yapılır.",
+			"Din kültürü ve ahlak öğretimi yalnızca ortaöğretim kurumlarında zorunludur.",
+			"Küçüklerin din eğitimi için kanuni temsilcisinin talebi aranmaz."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 24'e göre din ve ahlak eğitim ve öğretimi Devletin gözetim ve denetimi altında yapılır; din kültürü ve ahlak öğretimi ilk ve ortaöğretim kurumlarında okutulan zorunlu dersler arasında yer alır. Bunun dışındaki din eğitim ve öğretimi ise ancak kişilerin kendi isteğine, küçüklerin de kanuni temsilcisinin talebine bağlıdır. Bu nedenle bütün din eğitiminin isteğe bağlı olduğu veya Devlet denetimi dışında yapıldığı yönündeki ifadeler yanlıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "24"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"din-vicdan-hurriyeti",
+			"din-egitimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-thakl-017",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'ya göre kendileriyle veya kamu ile ilgili dilek ve şikâyetleri hakkında yetkili makamlara ve Türkiye Büyük Millet Meclisine yazı ile başvurma hakkı kimlere tanınmıştır?",
+		"options": [
+			"Yalnızca Türk vatandaşlarına",
+			"Vatandaşlar ile karşılıklılık esası gözetilmek kaydıyla Türkiye'de ikamet eden yabancılara",
+			"Türkiye'de bulunan herkese, ikamet şartı aranmaksızın",
+			"Yalnızca seçme ve seçilme hakkına sahip vatandaşlara",
+			"Vatandaşlar ile Türkiye'de geçici olarak bulunan bütün yabancılara"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 74'e göre vatandaşlar ve karşılıklılık esası gözetilmek kaydıyla Türkiye'de ikamet eden yabancılar, kendileriyle veya kamu ile ilgili dilek ve şikâyetleri hakkında yetkili makamlara ve Türkiye Büyük Millet Meclisine yazı ile başvurma hakkına sahiptir. Kendileriyle ilgili başvurmaların sonucu gecikmeksizin dilekçe sahiplerine yazılı olarak bildirilir. Bilgi edinme ve kamu denetçisine başvurma hakkı ise aynı maddede 'herkes' için tanınmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "74"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dilekce-hakki",
+			"bilgi-edinme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-thakl-018",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın toplantı ve gösteri yürüyüşü düzenleme hakkını düzenleyen maddesine göre bu hakkın kullanılması bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Herkes önceden izin almadan bu hakkı kullanabilir.",
+			"Toplantı ve gösteri yürüyüşünün silahsız ve saldırısız olması gerekir.",
+			"Hak ancak millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlığın ve genel ahlâkın veya başkalarının hak ve özgürlüklerinin korunması amacıyla sınırlanabilir.",
+			"Hakkın kullanılmasında uygulanacak şekil, şart ve usuller kanunda gösterilir.",
+			"Hakkın kullanılabilmesi yetkili idari makamdan önceden izin alınmasına bağlıdır."
+		],
+		"correctIndex": 4,
+		"explanation": "Madde 34'e göre herkes önceden izin almadan, silahsız ve saldırısız toplantı ve gösteri yürüyüşü düzenleme hakkına sahiptir; hak izin değil bildirim esasına dayanır. Bu hak ancak millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlığın ve genel ahlâkın veya başkalarının hak ve özgürlüklerinin korunması amacıyla ve kanunla sınırlanabilir; kullanılmasında uygulanacak şekil, şart ve usuller ise kanunda gösterilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "34"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toplanti-gosteri",
+			"onceden-izin"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-thakl-019",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Grev ve lokavtın yasaklandığı hâllerde veya ertelendiği durumlarda ertelemenin sonunda uyuşmazlık Anayasa'ya göre nasıl çözülür?",
+		"options": [
+			"Uyuşmazlık iş mahkemesince çözülür ve karar temyize tabidir.",
+			"Uyuşmazlık Yüksek Hakem Kurulunca çözülür; Kurulun kararları kesindir ve toplu iş sözleşmesi hükmündedir.",
+			"Uyuşmazlık Çalışma ve Sosyal Güvenlik Bakanlığınca idari kararla çözülür.",
+			"Uyuşmazlık Yargıtayın ilgili dairesince ilk derece mahkemesi sıfatıyla çözülür.",
+			"Erteleme sonunda taraflar yeniden greve gidebilir; ayrı bir çözüm mercii öngörülmemiştir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 54'e göre grev ve lokavtın yasaklandığı hâllerde veya ertelendiği durumlarda ertelemenin sonunda uyuşmazlık Yüksek Hakem Kurulunca çözülür; uyuşmazlığın her safhasında taraflar da anlaşarak Yüksek Hakem Kuruluna başvurabilir. Kurulun kararları kesindir ve toplu iş sözleşmesi hükmündedir. Aynı madde grev hakkı ile lokavtın iyiniyet kurallarına aykırı tarzda, toplum zararına ve millî serveti tahrip edecek şekilde kullanılamayacağını ve greve katılmayanların işyerinde çalışmalarının greve katılanlarca hiçbir şekilde engellenemeyeceğini de belirtir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "54"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"grev",
+			"yuksek-hakem-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-thakl-020",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "uzman",
+		"stem": "Anayasa'nın temel hak ve hürriyetlerin kötüye kullanılamamasını düzenleyen maddesi bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Anayasada yer alan hak ve hürriyetlerden hiçbiri, Devletin ülkesi ve milletiyle bölünmez bütünlüğünü bozmayı amaçlayan faaliyetler biçiminde kullanılamaz.",
+			"Anayasada yer alan hak ve hürriyetlerden hiçbiri, insan haklarına dayanan demokratik ve lâik Cumhuriyeti ortadan kaldırmayı amaçlayan faaliyetler biçiminde kullanılamaz.",
+			"Anayasa hükümlerinden hiçbiri, temel hak ve hürriyetlerin yok edilmesini amaçlayan bir faaliyette bulunmayı mümkün kılacak şekilde yorumlanamaz.",
+			"Anayasa hükümlerinden hiçbiri, hakların Anayasada belirtilenden daha geniş şekilde sınırlandırılmasını amaçlayan bir faaliyeti mümkün kılacak şekilde yorumlanamaz.",
+			"Bu hükümlere aykırı faaliyette bulunanlar hakkında uygulanacak müeyyideler doğrudan Anayasada sayılmıştır."
+		],
+		"correctIndex": 4,
+		"explanation": "Madde 14, Anayasada yer alan hak ve hürriyetlerden hiçbirinin Devletin ülkesi ve milletiyle bölünmez bütünlüğünü bozmayı ve insan haklarına dayanan demokratik ve lâik Cumhuriyeti ortadan kaldırmayı amaçlayan faaliyetler biçiminde kullanılamayacağını; Anayasa hükümlerinden hiçbirinin de Devlete veya kişilere temel hak ve hürriyetlerin yok edilmesini veya Anayasada belirtilenden daha geniş şekilde sınırlandırılmasını amaçlayan bir faaliyeti mümkün kılacak şekilde yorumlanamayacağını düzenler. Maddenin son fıkrasına göre bu hükümlere aykırı faaliyette bulunanlar hakkında uygulanacak müeyyideler Anayasada değil kanunla düzenlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "14"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kotuye-kullanma",
+			"mueyyide"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
 	}
 ]

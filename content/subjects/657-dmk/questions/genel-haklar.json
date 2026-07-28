@@ -1512,5 +1512,141 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "657-hak-013",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'a göre Devlet memurlarının görevleri ile ilgili veya görevleri sırasında işledikleri suçlardan dolayı soruşturma ve kovuşturma yapılması ve haklarında dava açılması konusunda aşağıdakilerden hangisi geçerlidir?",
+		"options": [
+			"Genel hükümler uygulanır, memurlar için herhangi bir farklılık yoktur.",
+			"Özel hükümlere tabidir.",
+			"Ancak disiplin kurulunun izniyle mümkündür.",
+			"Yalnızca görevden uzaklaştırma kararı verildikten sonra mümkündür.",
+			"Yalnızca memurun kendi kurumunun açacağı davayla mümkündür."
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un genel haklar bölümünde yer alan m.24, memurların görevleri ile ilgili veya görevleri sırasında işledikleri suçlardan dolayı soruşturma ve kovuşturma yapılmasını ve haklarında dava açılmasını özel hükümlere tabi kılmıştır. Bu güvence memurun görev dışındaki suçlarını kapsamaz; disiplin soruşturması ve görevden uzaklaştırma ise ayrı bir rejim olup ceza soruşturmasının şartı değildir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "24"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kovusturma",
+			"yargilama"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-hak-014",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "İsnat ve iftiralara karşı koruma hükmünün uygulanabilmesi için 657 sayılı Kanun'da aranan şartlar arasında aşağıdakilerden hangisi yer almaz?",
+		"options": [
+			"İhbar veya şikâyetin garaz ya da mücerret hakaret için yapılmış olması",
+			"İhbar veya şikâyetin uydurma bir suç isnadı suretiyle yapılmış olması",
+			"Kanuni işlem sonucunda isnadın sabit olmamış bulunması",
+			"İsnatta bulunan kişinin de Devlet memuru olması",
+			"İsnadın Devlet memuru hakkında yapılmış olması"
+		],
+		"correctIndex": 3,
+		"explanation": "Madde 25 korumayı üç şarta bağlar: ihbar veya şikâyetin garaz ya da mücerret hakaret için, uydurma bir suç isnadı suretiyle yapılmış olması ve soruşturma veya yargılamanın tabi olduğu kanuni işlem sonucunda isnadın sabit olmaması. Hüküm Devlet memurları hakkındaki isnatları kapsar; isnatta bulunan kişinin sıfatı bakımından ise herhangi bir şart aranmaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "25"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"isnat",
+			"iftira"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-hak-015",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un genel haklar bölümünde yer alan emeklilik hakkı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Emekliliğe hak kazanma şartları bu Kanun'un genel haklar bölümünde ayrıntılı olarak sayılmıştır.",
+			"Emeklilik hakkı tanınmış olmakla birlikte şartları özel kanununda düzenlenmiştir.",
+			"Emeklilik hakkı yalnızca kadrolu memurlara tanınmış, sözleşmeli personel kapsam dışında bırakılmıştır.",
+			"Emeklilik hakkının şartları her kurum tarafından kendi yönetmeliğiyle belirlenir.",
+			"Emeklilik hakkı, memurun en az on beş yıl hizmet etmiş olması şartına bu Kanun'da bağlanmıştır."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 19, Devlet memurlarının özel kanununda yazılı belirli şartlar içinde emeklilik hakları bulunduğunu belirtir. Kanun hakkı tanımakla yetinmiş, hakkın şartlarını kendisi düzenlememiş ve özel kanuna atıf yapmıştır; bu nedenle şartların bu Kanun'da sayıldığı, kurum yönetmelikleriyle belirlendiği veya belirli bir hizmet yılına bu Kanun'da bağlandığı yönündeki ifadeler yanlıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "19"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"emeklilik",
+			"ozel-kanun"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-hak-016",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "zor",
+		"stem": "Bir ilde görev yapan memur hakkında uydurma bir suç isnadıyla şikâyette bulunulmuş, yürütülen kanuni işlem sonunda isnat sabit olmamıştır. 657 sayılı Kanun'a göre şikâyetçi hakkında kamu davası açılmasını kimden kim ister?",
+		"options": [
+			"Memurun kendisi, doğrudan idare mahkemesinden ister.",
+			"Memurun disiplin amiri, yüksek disiplin kurulundan ister.",
+			"Vali, Cumhuriyet Savcılığından ister.",
+			"Kurumun en büyük amiri, Danıştaydan ister.",
+			"Memurun bağlı olduğu sendika, Cumhuriyet Savcılığından ister."
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 25'e göre bu şartların gerçekleşmesi hâlinde kamu davası açılmasını isteme görevi memura değil idareye aittir: merkezde memurun en büyük amiri, illerde ise valiler isnatta bulunanlar hakkında kamu davası açılmasını Cumhuriyet Savcılığından isterler. Olayda görev yeri il olduğundan yetkili makam validir; talep mercii ise adli makam olan Cumhuriyet Savcılığıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "25"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"isnat",
+			"vali"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
 	}
 ]

@@ -567,5 +567,173 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "657-sona-013",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un çekilmede devir ve teslim süresini düzenleyen hükmüne göre aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Devir ve teslimle yükümlü olanlar bu işlemlerin sonuna kadar görevlerini bırakamaz; gerekli süreler yönetmelikte belirtilir.",
+			"Devir ve teslim süresi her hâlde on gündür ve uzatılamaz.",
+			"Devir ve teslimle yükümlü olanlar çekilme dilekçesini verdikleri anda görevlerini bırakabilirler.",
+			"Devir ve teslim süresi memurun kendi talebiyle belirlenir.",
+			"Devir ve teslim yükümlülüğü yalnızca olağanüstü hâl ilan edilen yerlerde uygulanır."
+		],
+		"correctIndex": 0,
+		"explanation": "Madde 95'e göre çekilen Devlet memurlarından devir ve teslim ile yükümlü olanlar, bu işlemlerin sonuna kadar görevlerini bırakamazlar; hizmet icaplarına göre devir ve teslim işlemleri için gerekli süreler yönetmelikte belirtilir. Kanun sabit bir gün sayısı öngörmediği gibi süreyi memurun takdirine de bırakmamıştır. Devir ve teslim yapmadan görevini bırakanlar bakımından uygulanacak yaptırım ise m.97'de düzenlenmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "95"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"devir-teslim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-sona-014",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "orta",
+		"stem": "Memurluktan kendi isteğiyle çekilen bir kişinin 657 sayılı Kanun'a göre yeniden memurluğa atanabilmesi bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Yeniden atanma en çok iki defa mümkündür.",
+			"Ayrıldığı sınıfta boş kadro bulunması gerekir.",
+			"Ayrıldığı sınıfın niteliklerini taşıması gerekir.",
+			"Ayrıldığı tarihte almakta olduğu aylık derecesine eşit bir derecenin aynı kademesine atanabilir.",
+			"Yalnızca ayrıldığı sınıfa dönebilir, başka bir sınıfa hiçbir şekilde atanamaz."
+		],
+		"correctIndex": 4,
+		"explanation": "Madde 92'ye göre iki defadan fazla olmamak üzere memurluktan kendi istekleriyle çekilenler veya çekilmiş sayılanlar, ayrıldıkları sınıfta boş kadro bulunmak ve bu sınıfın niteliklerini taşımak şartıyla ayrıldıkları tarihte almakta oldukları aylık derecesine eşit bir derecenin aynı kademesine atanabilirler. Madde ayrıca 71 inci madde hükümlerine uyulmak suretiyle diğer bir sınıfta eşit derecedeki kadrolara atanmaya da açıkça imkân tanıdığından, başka bir sınıfa hiçbir şekilde atanılamayacağı ifadesi yanlıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "92"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yeniden-atanma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-sona-015",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'a göre yasama görevinde veya bakan olarak geçirilen süreler, memuriyete dönüşte nasıl değerlendirilir?",
+		"options": [
+			"Her yıl için bir derece yükselmesine esas olacak şekilde değerlendirilir.",
+			"Her yıl bir kademe ilerlemesi ve her iki yıl bir derece yükselmesine esas olacak şekilde değerlendirilir.",
+			"Her iki yıl için bir kademe ilerlemesine esas olacak şekilde değerlendirilir.",
+			"Bu süreler memuriyette geçmiş sayılmaz ve değerlendirilmez.",
+			"Yalnızca kazanılmış hak aylığında değerlendirilir, kademe ve dereceye etki etmez."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 92'nin ilgili fıkrası, yasama görevinde veya bakan olarak geçirilen her yılın bir kademe ilerlemesi, her iki yılın ise bir derece yükselmesine esas olacak şekilde değerlendirileceğini düzenler. Bu süreler değerlendirme dışı bırakılmadığı gibi, etkisi de yalnızca kazanılmış hak aylığıyla sınırlı değildir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "92"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yasama-gorevi",
+			"kademe"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-sona-016",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "zor",
+		"stem": "Emekli olanların 657 sayılı Kanun'a göre yeniden memurluğa alınabilmesi için aşağıdakilerden hangisi aranmaz?",
+		"options": [
+			"Sınıfında yazılı nitelikleri taşımakta bulunmak",
+			"Kurumda boş kadro bulunması",
+			"Emeklilikle ilgili görevlere yeniden atanamayacaklar arasında bulunmamak",
+			"Memurluktan çekilenlerin yeniden atanmasına ilişkin hükümlere uygunluk",
+			"Emekli aylığından feragat edildiğine dair yazılı beyanda bulunmak"
+		],
+		"correctIndex": 4,
+		"explanation": "Madde 93, T.C. Emekli Sandığı Kanunu hükümlerine göre emekli olanlardan sınıfında yazılı nitelikleri taşıyanların, kurumlarda boş kadro bulunmak şartıyla ve memurluktan çekilenlerin yeniden atanmasını düzenleyen 92 nci madde hükümlerine göre yeniden memurluğa alınabileceğini öngörür. 5434 sayılı Kanun'un 104 üncü maddesine göre emeklilikle ilgili görevlere yeniden atanamayacak olanlar bu imkânın dışında tutulmuştur. Emekli aylığından feragat beyanı ise maddede aranan bir şart değildir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "93"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"emekli",
+			"yeniden-hizmet"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-sona-017",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "uzman",
+		"stem": "657 sayılı Kanun'a tabi olmayan bir kurumdaki görevinden kendi isteğiyle ayrılan bir personelin, bu Kanun'a tabi kurumlarda memuriyete atanması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu kişiler hiçbir şekilde bu Kanun'a tabi kurumlarda memuriyete atanamaz.",
+			"Boş kadro bulunmak ve gireceği sınıfın niteliklerini taşımak kaydıyla atanabilirler.",
+			"Atanabilmeleri için önce bu Kanun'a tabi bir kurumda aday memur olarak bir yıl çalışmaları gerekir.",
+			"Yalnızca ayrıldıkları kurumun muvafakati hâlinde atanabilirler.",
+			"Atanabilmeleri, ayrıldıkları tarihten itibaren en çok altı ay içinde başvurmalarına bağlıdır."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 92'nin ayrı bir fıkrası, 657 sayılı Kanun'a tabi olmayan personelden kendi istekleriyle görevinden çekilmiş olanların, boş kadro bulunmak ve gireceği sınıfın niteliklerini taşımak kaydıyla bu Kanun'a tabi kurumlardaki memuriyetlere atanabileceğini düzenler. Bu fıkra bağımsız bir hüküm olduğundan, maddenin birinci fıkrasındaki iki defa sınırı ile derece ve kademe eşitliği şartları burada aranmaz; muvafakat veya altı aylık başvuru süresi gibi ek şartlar da maddede yer almaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "92"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kapsam-disi-personel",
+			"atanma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
 	}
 ]

@@ -802,5 +802,206 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "anayasa-yurutme-013",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın yargı yolunu düzenleyen maddesine göre idarenin eylem ve işlemlerinden doğan zararlar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Zararı, işlemi tesis eden kamu görevlisi şahsen öder.",
+			"İdare, kendi eylem ve işlemlerinden doğan zararı ödemekle yükümlüdür.",
+			"Zarar yalnızca kusur ispat edilirse ve ancak ceza davası sonuçlandıktan sonra ödenir.",
+			"İdarenin zarardan sorumluluğu ancak kanunda açıkça öngörülen hâllerde doğar.",
+			"Zararın ödenmesi idarenin takdirindedir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 125, idarenin her türlü eylem ve işlemlerine karşı yargı yolunun açık olduğunu belirttikten sonra son fıkrasında idarenin kendi eylem ve işlemlerinden doğan zararı ödemekle yükümlü olduğunu hükme bağlar. Bu, takdire bırakılmış değil anayasal bir yükümlülüktür. Kamu görevlilerinin yetkilerini kullanırken işledikleri kusurlardan doğan tazminat davalarının kendilerine rücu edilmek kaydıyla ancak idare aleyhine açılabileceği ise m.129'da düzenlenmiştir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "125"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yargi-yolu",
+			"idarenin-sorumlulugu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yurutme-014",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "kolay",
+		"stem": "Anayasa'ya göre Devletin, kamu iktisadi teşebbüslerinin ve diğer kamu tüzelkişilerinin genel idare esaslarına göre yürütmekle yükümlü oldukları kamu hizmetlerinin gerektirdiği asli ve sürekli görevler kimler eliyle görülür?",
+		"options": [
+			"Yalnızca kadrolu Devlet memurları eliyle",
+			"Memurlar ve diğer kamu görevlileri eliyle",
+			"Memurlar, sözleşmeli personel ve sürekli işçiler eliyle",
+			"Kamu görevlileri ile hizmet satın alınan özel hukuk tüzel kişileri eliyle",
+			"Kanunla belirlenecek her türlü personel eliyle"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 128'in birinci fıkrasına göre Devletin, kamu iktisadi teşebbüsleri ve diğer kamu tüzelkişilerinin genel idare esaslarına göre yürütmekle yükümlü oldukları kamu hizmetlerinin gerektirdiği asli ve sürekli görevler, memurlar ve diğer kamu görevlileri eliyle görülür. Aynı madde memurların ve diğer kamu görevlilerinin nitelikleri, atanmaları, görev ve yetkileri, hakları ve yükümlülükleri ile aylık ve ödeneklerinin kanunla düzenleneceğini, malî ve sosyal haklara ilişkin toplu sözleşme hükümlerinin ise saklı olduğunu belirtir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "128"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kamu-gorevlileri",
+			"asli-surekli-gorev"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yurutme-015",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın memurların görev ve sorumlulukları ile disiplin kovuşturulmasında güvenceyi düzenleyen maddesine göre aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Savunma hakkı tanınmadıkça disiplin cezası verilemez.",
+			"Disiplin kararları yargı denetimi dışında bırakılamaz.",
+			"Memurların yetkilerini kullanırken işledikleri kusurlardan doğan tazminat davaları ancak idare aleyhine açılabilir.",
+			"Memurlar hakkında ceza kovuşturması açılması, kanunla belirlenen istisnalar dışında kanunun gösterdiği idari merciin iznine bağlıdır.",
+			"İdare, tazminat ödedikten sonra sorumlu memura hiçbir şekilde rücu edemez."
+		],
+		"correctIndex": 4,
+		"explanation": "Madde 129'a göre memurlar ve diğer kamu görevlilerine savunma hakkı tanınmadıkça disiplin cezası verilemez, disiplin kararları yargı denetimi dışında bırakılamaz ve memurların yetkilerini kullanırken işledikleri kusurlardan doğan tazminat davaları ancak idare aleyhine açılabilir. Ancak bu son hüküm açıkça 'kendilerine rücu edilmek kaydıyla' ifadesini taşır; yani rücu yasak değil, aksine öngörülmüş bir usuldür. Ceza kovuşturması açılmasının idari merciin iznine bağlı olması da aynı maddede yer alır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "129"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"savunma-hakki",
+			"rucu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yurutme-016",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Anayasa'ya göre yönetmelik çıkarma yetkisi kimlere aittir ve bu yetki hangi sınır içinde kullanılır?",
+		"options": [
+			"Yalnızca Cumhurbaşkanına aittir ve sınırsızdır.",
+			"Cumhurbaşkanı, bakanlıklar ve kamu tüzelkişilerine aittir; kendi görev alanlarını ilgilendiren kanunların ve Cumhurbaşkanlığı kararnamelerinin uygulanmasını sağlamak üzere ve bunlara aykırı olmamak şartıyla kullanılır.",
+			"Yalnızca bakanlıklara aittir ve ancak kanunun açık izniyle kullanılır.",
+			"Türkiye Büyük Millet Meclisine aittir ve İçtüzükle sınırlıdır.",
+			"Kamu tüzelkişilerine aittir ve Cumhurbaşkanının onayına bağlıdır."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 124'e göre Cumhurbaşkanı, bakanlıklar ve kamu tüzelkişileri, kendi görev alanlarını ilgilendiren kanunların ve Cumhurbaşkanlığı kararnamelerinin uygulanmasını sağlamak üzere ve bunlara aykırı olmamak şartıyla yönetmelikler çıkarabilirler. Yetki üç makama birden tanınmış olup çıkarılan yönetmelik dayanağı olan kanuna ve kararnameye aykırı olamaz. Hangi yönetmeliklerin Resmî Gazetede yayımlanacağı ise kanunda belirtilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "124"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yonetmelik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yurutme-017",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Anayasa'ya göre bir idari işlem hakkında yürütmenin durdurulmasına karar verilebilmesi için aşağıdakilerden hangisi gereklidir?",
+		"options": [
+			"Telafisi güç veya imkânsız zararların doğması şartının tek başına gerçekleşmesi",
+			"İdari işlemin açıkça hukuka aykırı olması şartının tek başına gerçekleşmesi",
+			"Telafisi güç veya imkânsız zararların doğması ile işlemin açıkça hukuka aykırı olması şartlarının birlikte gerçekleşmesi ve gerekçe gösterilmesi",
+			"Davacının teminat göstermesi ve idarenin savunmasının alınmış olması",
+			"İşlemin yerindelik denetimi sonucunda sakıncalı bulunması"
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 125'e göre idari işlemin uygulanması hâlinde telafisi güç veya imkânsız zararların doğması ve idari işlemin açıkça hukuka aykırı olması şartlarının birlikte gerçekleşmesi durumunda, gerekçe gösterilerek yürütmenin durdurulmasına karar verilebilir. İki şart birlikte aranır. Aynı madde yargı yetkisinin idari eylem ve işlemlerin hukuka uygunluğunun denetimi ile sınırlı olduğunu, hiçbir surette yerindelik denetimi şeklinde kullanılamayacağını da belirtir; kanun ayrıca olağanüstü hâl, seferberlik ve savaş hâlinde millî güvenlik, kamu düzeni ve genel sağlık nedenleriyle bu kararın verilmesini sınırlayabilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "125"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurutmenin-durdurulmasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yurutme-018",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "uzman",
+		"stem": "Anayasa'ya göre Radyo ve Televizyon Üst Kurulunun oluşumu bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Dokuz üyeden oluşur ve üyeleri Türkiye Büyük Millet Meclisi Genel Kurulunca seçilir.",
+			"Dokuz üyeden oluşur ve üyeleri Cumhurbaşkanı tarafından atanır.",
+			"On beş üyeden oluşur ve üyelerinin tamamını Cumhurbaşkanı seçer.",
+			"Yedi üyeden oluşur ve üyeleri Anayasa Mahkemesince seçilir.",
+			"On bir üyeden oluşur ve üyeleri Hâkimler ve Savcılar Kurulunca seçilir."
+		],
+		"correctIndex": 0,
+		"explanation": "Madde 133'e göre radyo ve televizyon faaliyetlerini düzenlemek ve denetlemek amacıyla kurulan Radyo ve Televizyon Üst Kurulu dokuz üyeden oluşur. Üyeler, siyasi parti gruplarının üye sayısı oranında belirlenecek üye sayısının ikişer katı olarak gösterecekleri adaylar arasından, her siyasi parti grubuna düşen üye sayısı esas alınmak suretiyle Türkiye Büyük Millet Meclisi Genel Kurulunca seçilir. Aynı madde radyo ve televizyon istasyonu kurmanın ve işletmenin kanunla düzenlenecek şartlar çerçevesinde serbest olduğunu da belirtir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "133"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"rtuk"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
 	}
 ]

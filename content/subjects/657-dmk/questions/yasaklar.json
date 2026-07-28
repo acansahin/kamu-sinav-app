@@ -425,5 +425,175 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "657-yasak-013",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un hediye alma ve menfaat sağlama yasağını düzenleyen hükmüne göre, Devlet memurları için aşağıdakilerden hangisi açıkça yasaklanmıştır?",
+		"options": [
+			"Üyesi olduğu yapı kooperatifinin yönetim kurulunda görev almak",
+			"İş sahiplerinden borç para istemek ve almak",
+			"Kanunla kurulmuş bir yardım sandığının denetim kurulu üyesi olmak",
+			"Kendisine, eşine ve velayeti altındaki çocuklarına ait mal bildiriminde bulunmak",
+			"Görevli olduğu kurumun iştirakinde kurumunu temsilen görev almak"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 29, memurların doğrudan doğruya veya aracı eliyle hediye istemelerini, görevleri sırasında olmasa dahi menfaat sağlama amacıyla hediye kabul etmelerini ve iş sahiplerinden borç para istemelerini ve almalarını yasaklar. Diğer şıklar yasağın dışındadır: yapı kooperatifi ve yardım sandığı kurul üyelikleri ile kurumu temsilen iştirakte görev alma m.28'de ticaret yasağının istisnaları arasında sayılmış, mal bildirimi ise m.14'te bir ödev olarak düzenlenmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "29"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hediye",
+			"menfaat"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-yasak-014",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "orta",
+		"stem": "Kamu Görevlileri Etik Kurulu'na, hediye alma yasağı bakımından 657 sayılı Kanun'la tanınan yetki aşağıdakilerden hangisidir?",
+		"options": [
+			"Hediye alan memur hakkında doğrudan disiplin cezası uygulamak ve cezayı kesinleştirmek",
+			"Bütün kamu görevlilerinden aldıkları hediyelerin listesini her ay düzenli olarak istemek",
+			"Yasağın kapsamını belirlemek ve en az genel müdür veya eşiti seviyedeki görevlilerce alınan hediyelerin listesini gerektiğinde her takvim yılı sonunda istemek",
+			"Kabul edilen hediyelerin rayiç bedeli üzerinden Hazineye devredilmesine karar vermek",
+			"Yasağa aykırı davranan memurun memurluktan çıkarılmasına doğrudan karar vermek"
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 29'a 5176 sayılı Kanun'la eklenen fıkra uyarınca Kamu Görevlileri Etik Kurulu, hediye alma yasağının kapsamını belirlemeye ve en az genel müdür veya eşiti seviyedeki üst düzey kamu görevlilerince alınan hediyelerin listesini gerektiğinde her takvim yılı sonunda bu görevlilerden istemeye yetkilidir. Liste isteme yetkisi her memuru değil üst düzey görevlileri kapsar ve süreklilik değil gereklilik şartına bağlıdır. Kurula ceza verme, göreve son verme veya hediyeye el koyma yetkisi tanınmamıştır; disiplin yaptırımı disiplin amirlerine aittir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "29"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"etik-kurul",
+			"hediye"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-yasak-015",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "zor",
+		"stem": "Ticaret ve diğer kazanç getirici faaliyetlerde bulunma yasağını düzenleyen maddeye 2014 yılında yapılan düzenlemeyle memurlar bakımından getirilen yasak aşağıdakilerden hangisidir?",
+		"options": [
+			"Üyesi olduğu tüketim kooperatifinin denetim kurulunda görev almak",
+			"Kanunla kurulmuş bir yardım sandığının disiplin kurulunda görev almak",
+			"Görevli olduğu kurumun iştirakinde kurumunu temsilen görev almak",
+			"Serbest meslek icrasında bulunmak üzere büro veya muayenehane açmak",
+			"Kamu kurumu niteliğindeki meslek kuruluşunun yönetim kurulunda görev almak"
+		],
+		"correctIndex": 3,
+		"explanation": "Madde 28'in 6514 sayılı Kanun'la yeniden düzenlenen son cümlesine göre memurlar, mesleki faaliyette veya serbest meslek icrasında bulunmak üzere ofis, büro, muayenehane ve benzeri yerler açamaz; gerçek kişilere, özel hukuk tüzel kişilerine veya kamu kurumu niteliğindeki meslek kuruluşlarına ait herhangi bir iş yerinde ya da vakıf yükseköğretim kurumlarında çalışamazlar. Diğer şıklardaki kooperatif, yardım sandığı ve meslek kuruluşu kurul üyelikleri ile kurumu temsilen iştirakte alınan görevler ise maddede açıkça yasağın dışında bırakılmıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ticaret-yasagi",
+			"serbest-meslek"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-yasak-016",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "orta",
+		"stem": "Bir kurumda görevli memurlar işe zamanında gelmekle birlikte, aralarında anlaşarak evrak işlemlerini kasıtlı biçimde yavaşlatmış ve hizmetin aksamasına yol açmıştır. Bu davranış 657 sayılı Kanun bakımından nasıl değerlendirilir?",
+		"options": [
+			"Göreve fiilen devam edildiğinden toplu eylem yasağı kapsamına girmez.",
+			"Yalnızca grev yasağının ihlali olarak değerlendirilir.",
+			"Hizmetin yavaşlatılması sonucunu doğurduğundan toplu eylem ve hareketlerde bulunma yasağını ihlal eder.",
+			"Sendikal faaliyet sayıldığından yasak kapsamı dışındadır.",
+			"Yalnızca amirin talimatına uyulmaması olarak değerlendirilir."
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 26 yalnızca memurluktan kasıtlı olarak birlikte çekilmeyi veya göreve gelmemeyi değil, görevlerine gelip de Devlet hizmetlerinin ve işlerinin yavaşlatılması ya da aksatılması sonucunu doğuracak eylem ve hareketlerde bulunmayı da yasaklar. Bu nedenle göreve fiilen devam ediliyor olması yasağı ortadan kaldırmaz. Greve karar verme, tertipleme, katılma ve destekleme ise m.27'de ayrı bir yasak olarak düzenlenmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "26"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toplu-eylem",
+			"is-yavaslatma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-yasak-017",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "uzman",
+		"stem": "Yıllık izinde bulunan bir memur, görev yaptığı birimde işi olan bir kişiden, ileride işini kolaylaştırma amacıyla değerli bir hediye kabul etmiştir. Bu durum 657 sayılı Kanun'a göre nasıl değerlendirilir?",
+		"options": [
+			"Memur izinli olduğu için yasak kapsamına girmez.",
+			"Hediye görev yerinde alınmadığından yasak ihlal edilmiş sayılmaz.",
+			"Yasak yalnızca doğrudan istenen hediyeleri kapsadığından ihlal yoktur.",
+			"Menfaat sağlama amacıyla hediye kabulü görev sırasında olmasa dahi yasak olduğundan hediye alma yasağı ihlal edilmiştir.",
+			"Yasak yalnızca en az genel müdür seviyesindeki görevliler için geçerli olduğundan ihlal yoktur."
+		],
+		"correctIndex": 3,
+		"explanation": "Madde 29, menfaat sağlama amacı taşıyan hediye kabulünü 'görevleri sırasında olmasa dahi' yasaklamıştır; yasağın uygulanması memurun izinli olup olmamasına veya hediyenin nerede alındığına bağlı değildir. Madde ayrıca hediye istemeyi ve aracı eliyle sağlanan menfaatleri de kapsadığından yasak doğrudan istenen hediyelerle sınırlı değildir. Maddede geçen genel müdür ve eşiti seviye ölçütü ise yasağın kapsamını değil, Kamu Görevlileri Etik Kurulu'nun hediye listesi isteme yetkisini sınırlar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "29"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hediye",
+			"gorev-disi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
 	}
 ]

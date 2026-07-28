@@ -860,5 +860,208 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "657-atama-013",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'a göre aday olarak atanan memurların yetiştirilmesinde izlenecek sıra aşağıdakilerden hangisidir?",
+		"options": [
+			"Hazırlayıcı eğitim, temel eğitim, staj",
+			"Temel eğitim, hazırlayıcı eğitim, staj",
+			"Staj, temel eğitim, hazırlayıcı eğitim",
+			"Temel eğitim, staj, hazırlayıcı eğitim",
+			"Hazırlayıcı eğitim, staj, temel eğitim"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 55'e göre aday olarak atanan memurlar önce bütün memurların ortak vasıfları ile ilgili temel eğitime, bilahara sınıfları ile ilgili hazırlayıcı eğitime ve staja tabi tutulur; Devlet memuru olarak atanabilmeleri için bu devrelerde başarılı olmaları şarttır. Madde ayrıca temel eğitim ile hazırlayıcı eğitimin aynı kurumda yapılmasını öngörür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "55"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"aday-memur",
+			"egitim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-atama-014",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "kolay",
+		"stem": "Adaylık devresi içinde eğitimde başarılı olan adayların asli memurluğa atanması 657 sayılı Kanun'a göre nasıl gerçekleşir?",
+		"options": [
+			"Adayın yazılı talebi üzerine kendiliğinden gerçekleşir.",
+			"Disiplin amirlerinin teklifi ve atamaya yetkili amirin onayı ile onay tarihinden geçerli olmak üzere gerçekleşir.",
+			"Yüksek disiplin kurulunun kararı ile adaylığa başlama tarihinden geçerli olmak üzere gerçekleşir.",
+			"Kurumun en üst amirinin teklifi ve disiplin kurulunun onayı ile gerçekleşir.",
+			"Adaylık süresinin dolmasıyla başka bir işleme gerek kalmaksızın gerçekleşir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 58'e göre adaylık devresi içinde eğitimde başarılı olan adaylar, disiplin amirlerinin teklifi ve atamaya yetkili amirin onayı ile onay tarihinden geçerli olmak üzere asli memurluğa atanırlar. Atama kendiliğinden doğmadığı gibi geçmişe de yürütülmez; aynı madde asli memurluğa geçme tarihinin adaylık süresinin sonunu geçemeyeceğini de hükme bağlamıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "58"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"asli-memurluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-atama-015",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'a göre atama yapılacak boş kadrolara ilişkin duyuru, başvurma süresinin bitiminden en az ne kadar önce yapılmalıdır?",
+		"options": [
+			"7 gün",
+			"10 gün",
+			"15 gün",
+			"30 gün",
+			"45 gün"
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 47, atama yapılacak boş kadroların sınıf ve dereceleri, bulundukları kurum ve yerler, alınacak personel sayısı, aranan genel ve özel şartlar, en son başvurma tarihi, başvurulacak merciler ile sınav yeri ve zamanı gibi bilgilerin başvurma süresinin bitiminden en az 15 gün önce duyurulmasını öngörür. Duyuru araçları arasına 2022 yılında yapılan değişiklikle internet haber sitesi ve Basın İlân Kurumu İlan Portalı da eklenmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "47"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"duyuru",
+			"bos-kadro"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-atama-016",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'a göre ilan edilen Devlet memurluğu sınav sonuçlarının geçerlilik süresi aşağıdakilerden hangisidir?",
+		"options": [
+			"İlan tarihinden itibaren altı ay",
+			"İlan tarihinden itibaren bir yıl",
+			"Müteakip sınav tarihine kadar",
+			"İlgilinin göreve başlamasına kadar süresiz",
+			"İçinde bulunulan bütçe yılı sonuna kadar"
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 51'e göre sınav sonuçları, ilgili kurumda teşkil edilen sınav komisyonlarının sorumluluğunda belirlenerek başarılı olanların isimleri başarı sıralarına göre ilan edilir ve ayrıca yazı ile ilgililere bildirilir. Aynı maddenin ikinci fıkrası, ilan edilen sınav sonuçlarının müteakip sınav tarihine kadar geçerli olduğunu hükme bağlamıştır; Kanun burada takvime bağlı sabit bir süre öngörmemiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "51"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sinav-sonuclari",
+			"gecerlilik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-atama-017",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "zor",
+		"stem": "İstisnai Devlet memurluklarına atanmada aranacak şartlar bakımından 657 sayılı Kanun'a göre aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Atanacak kimselerin Kanun'un 48 inci maddesinde yazılı genel şartları taşıması gerekir.",
+			"Kuruluş kanunlarındaki veya Cumhurbaşkanlığı kararnamelerindeki özel hükümler saklıdır.",
+			"Devlet sanatçılarında aranacak nitelikler bir yönetmelikle belirtilir.",
+			"Dışişleri Bakanlığı Hukuk Müşavirliğine atanabilmek için bir yabancı dili çok iyi bilmek şarttır.",
+			"Atanacak kimselerin ayrıca kadronun gerektirdiği özel şartların tamamını taşıması ve sınavı kazanmış olması gerekir."
+		],
+		"correctIndex": 4,
+		"explanation": "Madde 60, istisnai Devlet memurluklarına 48 inci maddede yazılı genel şartları taşıyan kimselerden atanma yapılabileceğini öngörür; istisnai memurluğu istisnai kılan da özel şart ve sınav kazanma zorunluluğunun aranmamasıdır. Maddede kuruluş kanunlarındaki ve Cumhurbaşkanlığı kararnamelerindeki özel hükümlerin saklı olduğu, Devlet sanatçılarının niteliklerinin yönetmelikle belirleneceği ve Dışişleri Bakanlığı Hukuk Müşavirliği için bir yabancı dili çok iyi bilme şartı arandığı ayrıca düzenlenmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "60"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"istisnai-memurluk",
+			"sartlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-atama-018",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "uzman",
+		"stem": "Adaylık devresi içinde göreve son vermeyi düzenleyen hüküm 23/1/2026 tarihli ve 7573 sayılı Kanun'la yeniden düzenlenmiştir. Bu düzenlemeye göre aşağıdakilerden hangisi aday memurun ilişiğinin kesilmesini gerektirmez?",
+		"options": [
+			"Temel eğitim devresinde başarısız olmak",
+			"Staj devresinde başarısız olmak",
+			"Birden fazla uyarma ve/veya kınama cezası almış olmak",
+			"Aylıktan kesme cezası almış olmak",
+			"Bir defa uyarma cezası almış olmak"
+		],
+		"correctIndex": 4,
+		"explanation": "Madde 56'nın 7573 sayılı Kanun'la değişik hâline göre adaylık süresi içinde temel ve hazırlayıcı eğitim ile staj devrelerinin herhangi birinde başarısız olanlar, birden fazla uyarma ve/veya kınama cezası almış olanlar ile aylıktan kesme ya da kademe ilerlemesinin durdurulması cezası almış olanların disiplin amirlerinin teklifi ve atamaya yetkili amirin onayı ile ilişikleri kesilir. Tek bir uyarma cezası bu eşiği karşılamaz. İlişikleri kesilenler ilgili kurumlarca derhal Kamu Personel Bilgi Sisteminin bulunduğu kuruma bildirilir ve bu kişiler (sağlık nedenleri hariç) üç yıl süre ile Devlet memurluğuna alınmazlar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "56"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "7573 sayılı Kanun değişikliği işlenerek özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"adaylik",
+			"iliski-kesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
 	}
 ]

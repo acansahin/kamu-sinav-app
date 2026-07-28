@@ -629,5 +629,174 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "657-odev-013",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "kolay",
+		"stem": "Görevi sona eren bir Devlet memuruna görevi icabı teslim edilmiş olan resmî belge, araç ve gereçlerin iadesi konusunda 657 sayılı Kanun aşağıdakilerden hangisini öngörür?",
+		"options": [
+			"İade yükümlülüğü yalnızca memurun kendisine aittir, mirasçılarına geçmez.",
+			"İade yükümlülüğü memurun mirasçılarına da şamildir.",
+			"İade yükümlülüğü emekliye ayrılan memurlar bakımından uygulanmaz.",
+			"İade yükümlülüğü yalnızca resmî araç ve gereçler için geçerlidir, belgeleri kapsamaz.",
+			"İade yükümlülüğü disiplin cezasıyla görevine son verilen memurlar bakımından ortadan kalkar."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 16'ya göre Devlet memurları görevleri icabı kendilerine teslim edilen resmî belge, araç ve gereçleri görevleri sona erdiği zaman iade etmek zorundadır ve bu zorunluluk memurun mirasçılarına da şamildir. Madde belge ile araç ve gereçler arasında ayrım yapmadığı gibi, emeklilik veya görevine son verilme yükümlülüğü kaldıran bir istisna olarak sayılmamıştır. Aynı madde bu belge, araç ve gereçlerin yetki verilen mahaller dışına çıkarılmasını ve hususi işlerde kullanılmasını da yasaklar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"resmi-belge",
+			"iade"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-odev-014",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un mal bildirimini düzenleyen maddesine göre memurun vereceği mal bildirimi aşağıdakilerden hangisini kapsamaz?",
+		"options": [
+			"Kendisine ait taşınmaz malları",
+			"Eşine ait taşınır malları",
+			"Velayeti altındaki çocuklarına ait taşınmaz malları",
+			"Kendisine ait alacak ve borçları",
+			"Reşit olduğu için velayeti altında bulunmayan çocuğuna ait taşınmaz malları"
+		],
+		"correctIndex": 4,
+		"explanation": "Madde 14, mal bildiriminin kapsamını memurun kendisi, eşi ve velayeti altındaki çocuklarına ait taşınır ve taşınmaz mallar ile alacak ve borçlar olarak belirler. Reşit olduğu için velayet altında bulunmayan çocuğun malvarlığı bu kapsama girmez. Maddenin atıf yaptığı özel kanun, bildirimin usul ve zamanını düzenleyen 3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu'dur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "14"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mal-bildirimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-odev-015",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un yurt dışında davranış ödevini düzenleyen hükmü, yabancı memleketlerde bulunan memurlardan hangileri bakımından uygulanır?",
+		"options": [
+			"Yalnızca sürekli görevle bulunanlar",
+			"Yalnızca sürekli veya geçici görevle bulunanlar",
+			"Sürekli veya geçici görevle ya da yetişme, inceleme ve araştırma için bulunanlar",
+			"Yalnızca yetişme, inceleme ve araştırma için bulunanlar",
+			"Yalnızca yurt dışı teşkilatı kadrolarına atanmış olanlar"
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 9, Devlet itibarını veya görev haysiyetini zedeleyici fiil ve davranışta bulunma yasağını görevle yurt dışında bulunanlarla sınırlamamış; yetişme, inceleme ve araştırma için yabancı memleketlerde bulunanları da kapsama almıştır. Bu nedenle ödev, sürekli görev veya yurt dışı teşkilatı kadrosuna atanmış olma şartına bağlı değildir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurt-disi",
+			"davranis"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-odev-016",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "zor",
+		"stem": "İdareyi zarara uğratan bir memurun bu zararı, genel hükümlere göre dava açılmaksızın disiplin amiri veya yetkili disiplin kurulu kararına göre ödeyebilmesi için 657 sayılı Kanun'da aranan üst sınır nedir?",
+		"options": [
+			"Zararın, en yüksek Devlet memuru aylığının brüt tutarını geçmemesi",
+			"Zararın, fiilin meydana geldiği tarihte en alt derecenin birinci kademesindeki memurun brüt aylığının yarısını geçmemesi",
+			"Zararın, zarara sebep olan memurun kendi brüt aylığının tamamını geçmemesi",
+			"Zararın, zarara sebep olan memurun net aylığının üçte birini geçmemesi",
+			"Zararın, ödeme tarihindeki asgari ücretin iki katını geçmemesi"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 12'nin son fıkrasına göre zararların ödettirilmesinde kural olarak genel hükümler uygulanır; ancak fiilin meydana geldiği tarihte en alt derecenin birinci kademesinde bulunan memurun brüt aylığının yarısını geçmeyen zararlar, memurun kabul etmesi hâlinde disiplin amiri veya yetkili disiplin kurulu kararına göre ilgili memurca ödenir. Ölçüt zarara sebep olan memurun kendi aylığı değil, en alt derecenin birinci kademesindeki memurun brüt aylığıdır; ayrıca memurun kabulü de şarttır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"zarar",
+			"odeme-siniri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-odev-017",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "uzman",
+		"stem": "Bir Devlet dairesince tahsil edilen paranın görevli personel tarafından zimmete geçirilmesi hâlinde 657 sayılı Kanun'a göre nasıl bir yol izlenir?",
+		"options": [
+			"Hak sahibi zararını ancak ceza davası kesinleştikten sonra kurumdan talep edebilir.",
+			"Hak sahibi tazminat davasını doğrudan zimmete geçiren personel aleyhine açar.",
+			"Zimmete geçirilen miktar cezai takibat sonucu beklenmeden Hazine tarafından hak sahibine ödenir; kurumun sorumlu personele rücu hakkı saklıdır.",
+			"Zarar, en alt derecenin birinci kademesindeki memurun brüt aylığının yarısını geçmiyorsa disiplin amiri kararıyla ödettirilir.",
+			"Ödeme yalnızca ilgili kurumun bütçesinden yapılır ve sorumlu personele rücu edilemez."
+		],
+		"correctIndex": 2,
+		"explanation": "Madde 13 kural olarak kişilerin kamu hukukuna tabi görevlerle ilgili uğradıkları zararlar için personel aleyhine değil ilgili kurum aleyhine dava açmasını öngörür. Aynı fıkradaki istisnaya göre, Devlet dairelerine tevdi edilen veya bu dairelerce tahsil ya da muhafaza edilen para ve para hükmündeki değerli kâğıtların zimmete geçirilmesi hâlinde bu miktar cezai takibat sonucu beklenmeden Hazine tarafından hak sahibine ödenir ve kurumun genel hükümlere göre sorumlu personele rücu hakkı saklı kalır. Disiplin amiri kararıyla ödeme usulü ise m.12'deki idare zararlarına ilişkindir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"zimmet",
+			"rucu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
 	}
 ]

@@ -963,5 +963,141 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-26"
+	},
+	{
+		"id": "anayasa-genel-013",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "kolay",
+		"stem": "1982 Anayasası'nın Genel Esaslar kısmında yer alan ilk dört maddenin konuları sırasıyla aşağıdakilerin hangisinde doğru verilmiştir?",
+		"options": [
+			"Cumhuriyetin nitelikleri – Devletin şekli – Egemenlik – Değiştirilemeyecek hükümler",
+			"Devletin şekli – Cumhuriyetin nitelikleri – Devletin bütünlüğü, resmî dili, bayrağı, millî marşı ve başkenti – Değiştirilemeyecek hükümler",
+			"Devletin şekli – Egemenlik – Cumhuriyetin nitelikleri – Yasama yetkisi",
+			"Değiştirilemeyecek hükümler – Devletin şekli – Cumhuriyetin nitelikleri – Egemenlik",
+			"Devletin şekli – Devletin temel amaç ve görevleri – Cumhuriyetin nitelikleri – Egemenlik"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 1 inci maddesi 'Devletin şekli' başlığını taşır ve Türkiye Devleti'nin bir Cumhuriyet olduğunu belirtir. 2 nci madde Cumhuriyetin niteliklerini, 3 üncü madde Devletin bütünlüğünü, resmî dilini, bayrağını, millî marşını ve başkentini, 4 üncü madde ise ilk üç maddenin değiştirilemeyeceğini ve değiştirilmesinin teklif edilemeyeceğini düzenler. Devletin temel amaç ve görevleri 5 inci, egemenlik 6 ncı maddededir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"devletin-sekli",
+			"genel-esaslar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-genel-014",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın değiştirilmesi bakımından teklif için aranan sayı ile kabul için aranan çoğunluk sırasıyla aşağıdakilerden hangisidir?",
+		"options": [
+			"Üye tamsayısının en az beşte biri – üye tamsayısının salt çoğunluğu",
+			"Üye tamsayısının en az üçte biri – üye tamsayısının beşte üç çoğunluğu",
+			"Üye tamsayısının en az üçte biri – üye tamsayısının üçte iki çoğunluğu",
+			"Üye tamsayısının salt çoğunluğu – üye tamsayısının beşte üç çoğunluğu",
+			"Üye tamsayısının en az beşte üçü – üye tamsayısının üçte iki çoğunluğu"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 175'e göre Anayasa'nın değiştirilmesi, Türkiye Büyük Millet Meclisi üye tamsayısının en az üçte biri tarafından yazıyla teklif edilebilir. Teklif Genel Kurulda iki defa görüşülür ve kabulü Meclisin üye tamsayısının beşte üç çoğunluğunun gizli oyuyla mümkündür. Üçte iki çoğunluk kabul için değil, Cumhurbaşkanınca geri gönderilen kanunun aynen kabulü ve halkoyuna sunmanın ihtiyari hâle gelmesi bakımından önem taşır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "175"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-degisikligi",
+			"cogunluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-genel-015",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın Devletin temel amaç ve görevlerini düzenleyen maddesine göre Devlet, kişinin temel hak ve hürriyetlerini sınırlayan siyasal, ekonomik ve sosyal engelleri hangi ölçüte göre kaldırmaya çalışır?",
+		"options": [
+			"Kamu düzeni ve millî güvenlik ilkeleriyle bağdaşmayacak surette sınırlayan engelleri",
+			"Sosyal hukuk devleti ve adalet ilkeleriyle bağdaşmayacak surette sınırlayan engelleri",
+			"Genel ahlak ve kamu sağlığı ilkeleriyle bağdaşmayacak surette sınırlayan engelleri",
+			"Demokratik toplum düzeninin gereklerine aykırı biçimde sınırlayan bütün engelleri",
+			"Milletlerarası antlaşmalarla bağdaşmayacak surette sınırlayan engelleri"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 5, Devletin temel amaç ve görevleri arasında kişinin temel hak ve hürriyetlerini sosyal hukuk devleti ve adalet ilkeleriyle bağdaşmayacak surette sınırlayan siyasal, ekonomik ve sosyal engelleri kaldırmaya ve insanın maddi ve manevi varlığının gelişmesi için gerekli şartları hazırlamaya çalışmayı sayar. Diğer şıklarda geçen kamu düzeni, genel ahlak ve demokratik toplum düzeni ölçütleri hakların sınırlanması rejimine (m.13) ilişkindir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"temel-amac",
+			"sosyal-hukuk-devleti"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-genel-016",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "zor",
+		"stem": "Türkiye Büyük Millet Meclisi bir Anayasa değişikliği kanununu üye tamsayısının üçte iki çoğunluğuyla kabul etmiştir. Anayasa'ya göre bu kanunun halkoyuna sunulması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kanun her hâlde halkoyuna sunulmak üzere Resmî Gazetede yayımlanır.",
+			"Kanunun halkoyuna sunulması Cumhurbaşkanının takdirindedir.",
+			"Kanun hiçbir şekilde halkoyuna sunulamaz.",
+			"Kanunun halkoyuna sunulmasına Anayasa Mahkemesi karar verir.",
+			"Kanunun halkoyuna sunulması için Meclisin ayrıca salt çoğunlukla karar alması gerekir."
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 175'e göre Meclisçe üye tamsayısının beşte üçü ile veya üçte ikisinden az oyla kabul edilen Anayasa değişikliği kanunu, Cumhurbaşkanınca Meclise iade edilmediği takdirde halkoyuna sunulmak üzere Resmî Gazetede yayımlanır; bu hâlde halkoylaması zorunludur. Buna karşılık doğrudan veya Cumhurbaşkanının iadesi üzerine üye tamsayısının üçte iki çoğunluğuyla kabul edilen kanun veya gerekli görülen maddeleri Cumhurbaşkanı tarafından halkoyuna sunulabilir; yani halkoylaması ihtiyari olup takdir Cumhurbaşkanına aittir. Halkoylamasına sunulmayan kanun Resmî Gazetede yayımlanır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "175"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"halkoylamasi",
+			"anayasa-degisikligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-28"
 	}
 ]
