@@ -735,5 +735,41 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-sona-018",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "zor",
+		"stem": "Çekilme isteğinde bulunan bir memur, yerine atanan kimse gelmeden ve çekilme isteği kabul edilmeden görevini bırakmıştır. 657 sayılı Kanun'a göre bu memur en az ne kadar süre geçmeden yeniden Devlet memurluğuna alınabilir?",
+		"options": [
+			"Altı ay",
+			"Bir yıl",
+			"İki yıl",
+			"Üç yıl",
+			"Hiçbir surette alınamaz"
+		],
+		"correctIndex": 1,
+		"explanation": "Madde 94'ün ikinci fıkrası, çekilmek isteyen memurun yerine atanan kimsenin gelmesine veya çekilme isteğinin kabulüne kadar görevine devam etmesini emreder. Bu fıkraya uymadan görevinden ayrılanlar, madde 97'nin (B) bendi uyarınca bir yıl geçmeden Devlet memurluğuna alınamazlar. Altı aylık süre, aynı maddenin (A) bendindeki usulüne uygun çekilme hâline aittir; devir ve teslim zorunluluğuna uymayanlar için (C) bendinde üç yıl, 96. maddeye aykırı hareket edenler için (D) bendinde hiçbir surette alınmama sonucu öngörülmüştür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "97",
+			"clause": "B"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Harici AI taslağından uyarlanmış, mevzuat metninden teyitli özgün soru",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"madde-97",
+			"cekilme",
+			"yeniden-atanma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
 	}
 ]

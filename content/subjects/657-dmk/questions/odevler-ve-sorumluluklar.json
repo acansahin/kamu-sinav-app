@@ -798,5 +798,41 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "657-odev-018",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "Mal bildiriminde bulunmuş olan bir Devlet memurunun mal varlığında önemli bir değişiklik meydana gelmiştir. İlgili mevzuata göre bu memur yeni mal bildirimini ne kadar süre içinde vermek zorundadır?",
+		"options": [
+			"On beş gün içinde",
+			"Bir ay içinde",
+			"İki ay içinde",
+			"Altı ay içinde",
+			"Sonu (0) ve (5) ile biten ilk yılın şubat ayı sonuna kadar"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 14. maddesi mal bildiriminin kapsamını belirler, süre ve usulü ise özel kanuna bırakır. Bu özel kanun olan 3628 sayılı Kanun'un 6. maddesinin (d) bendi, mal varlığında önemli bir değişiklik olduğunda bildirimin bir ay içinde verilmesini zorunlu tutar. Sonu (0) ve (5) ile biten yılların şubat ayı sonuna kadar yapılan işlem ise bundan ayrı bir yükümlülüktür: aynı Kanun'un 7. maddesindeki periyodik yenilemedir ve önemli değişiklik hâlindeki bir aylık süreyi ortadan kaldırmaz.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "6",
+			"clause": "d"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Harici AI taslağından uyarlanmış, mevzuat metninden teyitli özgün soru",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"madde-14",
+			"mal-bildirimi",
+			"3628"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
 	}
 ]
