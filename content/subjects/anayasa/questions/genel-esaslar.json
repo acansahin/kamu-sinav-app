@@ -6,12 +6,12 @@
 		"difficulty": "kolay",
 		"stem": "1982 Anayasası'na göre Türkiye Devleti'nin başkenti ve millî marşı aşağıdakilerden hangisinde birlikte doğru verilmiştir?",
 		"options": [
-			"İstanbul – İstiklal Marşı",
 			"Ankara – İstiklal Marşı",
-			"Ankara – Onuncu Yıl Marşı",
-			"İstanbul – Onuncu Yıl Marşı"
+			"İstanbul – İstiklal Marşı",
+			"İstanbul – Onuncu Yıl Marşı",
+			"Ankara – Onuncu Yıl Marşı"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Anayasa'nın 3. maddesine göre Türkiye Devleti ülkesi ve milletiyle bölünmez bir bütündür; dili Türkçe, bayrağı beyaz ay yıldızlı al bayrak, millî marşı İstiklal Marşı ve başkenti Ankara'dır. Bu unsurların tamamı tek maddede sayılır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -29,7 +29,7 @@
 			"madde-3",
 			"tanim"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -39,12 +39,12 @@
 		"difficulty": "kolay",
 		"stem": "Anayasa'ya göre egemenlik kime aittir?",
 		"options": [
-			"Türkiye Büyük Millet Meclisine",
-			"Cumhurbaşkanına",
 			"Kayıtsız şartsız Millete",
+			"Cumhurbaşkanına",
+			"Türkiye Büyük Millet Meclisine",
 			"Anayasa Mahkemesine"
 		],
-		"correctIndex": 2,
+		"correctIndex": 0,
 		"explanation": "Anayasa'nın 6. maddesi 'Egemenlik, kayıtsız şartsız Milletindir.' der. Millet egemenliğini Anayasa'nın koyduğu esaslara göre yetkili organları eliyle kullanır. TBMM egemenliğin sahibi değil, onu kullanan organlardan biridir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -62,7 +62,7 @@
 			"madde-6",
 			"egemenlik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -72,12 +72,12 @@
 		"difficulty": "kolay",
 		"stem": "Anayasa'ya göre yasama yetkisi kime aittir ve devredilebilir mi?",
 		"options": [
-			"Türkiye Büyük Millet Meclisine aittir ve devredilemez.",
-			"Türkiye Büyük Millet Meclisine aittir ve Cumhurbaşkanına devredilebilir.",
 			"Cumhurbaşkanına aittir ve devredilemez.",
-			"Bakanlıklara aittir ve devredilebilir."
+			"Bakanlıklara aittir ve devredilebilir.",
+			"Türkiye Büyük Millet Meclisine aittir ve devredilemez.",
+			"Türkiye Büyük Millet Meclisine aittir ve Cumhurbaşkanına devredilebilir."
 		],
-		"correctIndex": 0,
+		"correctIndex": 2,
 		"explanation": "Anayasa'nın 7. maddesine göre yasama yetkisi Türk Milleti adına Türkiye Büyük Millet Meclisinindir ve bu yetki devredilemez. 'Devredilemez' ibaresi Anayasa'da yalnızca yasama yetkisi için kullanılır; yürütme ve yargı maddelerinde bu kelime geçmez.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -95,7 +95,7 @@
 			"madde-7",
 			"yasama"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -105,12 +105,12 @@
 		"difficulty": "orta",
 		"stem": "Anayasa'nın 2. maddesinde sayılan Cumhuriyetin nitelikleri arasında aşağıdakilerden hangisi yer almaz?",
 		"options": [
-			"Demokratik",
 			"Laik",
-			"Federal",
-			"Sosyal"
+			"Sosyal",
+			"Demokratik",
+			"Federal"
 		],
-		"correctIndex": 2,
+		"correctIndex": 3,
 		"explanation": "Madde 2'ye göre Türkiye Cumhuriyeti, toplumun huzuru, millî dayanışma ve adalet anlayışı içinde, insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, başlangıçta belirtilen temel ilkelere dayanan, demokratik, laik ve sosyal bir hukuk Devletidir. 'Federal' maddede geçmez; Türkiye üniter bir devlettir ancak bu nitelik de madde 2'de sayılanlar arasında değildir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -128,7 +128,7 @@
 			"madde-2",
 			"nitelikler"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -138,12 +138,12 @@
 		"difficulty": "orta",
 		"stem": "Anayasa'ya göre yargı yetkisi kim adına ve hangi nitelikteki mahkemelerce kullanılır?",
 		"options": [
+			"Türkiye Büyük Millet Meclisi adına, bağımsız mahkemelerce",
 			"Devlet adına, bağımsız mahkemelerce",
-			"Türk Milleti adına, bağımsız ve tarafsız mahkemelerce",
 			"Cumhurbaşkanı adına, yüksek mahkemelerce",
-			"Türkiye Büyük Millet Meclisi adına, bağımsız mahkemelerce"
+			"Türk Milleti adına, bağımsız ve tarafsız mahkemelerce"
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Anayasa'nın 9. maddesine göre yargı yetkisi, Türk Milleti adına bağımsız ve tarafsız mahkemelerce kullanılır. 'Tarafsız' ibaresi 2017 Anayasa değişikliğiyle eklenmiştir; yalnızca 'bağımsız' diyen şık eksik kalır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -161,7 +161,7 @@
 			"madde-9",
 			"yargi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -172,11 +172,11 @@
 		"stem": "Anayasa'nın 11. maddesine göre aşağıdakilerden hangisi doğrudur?",
 		"options": [
 			"Anayasa hükümleri yalnızca yasama ve yürütme organlarını bağlar.",
-			"Kanunlar Anayasa'ya aykırı olamaz.",
 			"Anayasa hükümleri kişileri bağlamaz, yalnızca devlet organlarını bağlar.",
-			"Anayasa'ya aykırı kanunlar Cumhurbaşkanı kararnamesiyle yürürlükten kaldırılır."
+			"Anayasa'ya aykırı kanunlar Cumhurbaşkanı kararnamesiyle yürürlükten kaldırılır.",
+			"Kanunlar Anayasa'ya aykırı olamaz."
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Madde 11, Anayasa'nın hem bağlayıcılığını hem üstünlüğünü düzenler: Anayasa hükümleri yasama, yürütme ve yargı organlarını, idare makamlarını ve diğer kuruluş ve kişileri bağlayan temel hukuk kurallarıdır; kanunlar Anayasa'ya aykırı olamaz. Bağlayıcılık kişileri de kapsar.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -194,7 +194,7 @@
 			"madde-11",
 			"ustunluk"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -204,12 +204,12 @@
 		"difficulty": "zor",
 		"stem": "Anayasa'nın kaç maddesi değiştirilemez ve değiştirilmesi teklif edilemez?",
 		"options": [
-			"2",
-			"3",
+			"5",
 			"4",
-			"5"
+			"2",
+			"3"
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Anayasa'nın 4. maddesi, 1. maddedeki devlet şeklinin Cumhuriyet olduğu hükmü ile 2. maddedeki Cumhuriyetin nitelikleri ve 3. madde hükümlerinin değiştirilemeyeceğini ve değiştirilmesinin teklif edilemeyeceğini düzenler. Yani değiştirilemeyen madde sayısı üçtür; 4. madde bu yasağı koyan maddedir, yasağın kapsamında değildir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -227,7 +227,7 @@
 			"madde-4",
 			"tuzak"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -237,12 +237,12 @@
 		"difficulty": "zor",
 		"stem": "Anayasa'nın 6. maddesinde yer alan 'Hiçbir kimse veya organ kaynağını Anayasadan almayan bir Devlet yetkisi kullanamaz.' hükmü öncelikle hangi ilkenin sonucudur?",
 		"options": [
-			"Sosyal devlet ilkesi",
-			"Millî egemenlik ilkesi",
 			"Kanun önünde eşitlik ilkesi",
-			"Ölçülülük ilkesi"
+			"Sosyal devlet ilkesi",
+			"Ölçülülük ilkesi",
+			"Millî egemenlik ilkesi"
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Bu hüküm, egemenliğin kayıtsız şartsız Millete ait olmasının doğrudan sonucudur. Egemenlik Milletin olduğuna göre, hiçbir organ yetkisini Milletin iradesini yansıtan Anayasa dışında bir kaynaktan alamaz. Aynı zamanda hukuk devleti ilkesini de destekler, ancak maddenin doğrudan konusu millî egemenliktir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -260,7 +260,7 @@
 			"madde-6",
 			"yorum"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -270,12 +270,12 @@
 		"difficulty": "zor",
 		"stem": "Anayasa'nın 10. maddesindeki kanun önünde eşitlik ilkesine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
-			"Kadınlar ve erkekler eşit haklara sahiptir ve Devlet bu eşitliğin yaşama geçmesini sağlamakla yükümlüdür.",
-			"Hiçbir kişiye, aileye, zümreye veya sınıfa imtiyaz tanınamaz.",
+			"Çocuklar, yaşlılar ve engelliler için alınacak koruyucu tedbirler eşitlik ilkesine aykırı sayılır.",
 			"Devlet organları ve idare makamları bütün işlemlerinde kanun önünde eşitlik ilkesine uygun hareket etmek zorundadır.",
-			"Çocuklar, yaşlılar ve engelliler için alınacak koruyucu tedbirler eşitlik ilkesine aykırı sayılır."
+			"Kadınlar ve erkekler eşit haklara sahiptir ve Devlet bu eşitliğin yaşama geçmesini sağlamakla yükümlüdür.",
+			"Hiçbir kişiye, aileye, zümreye veya sınıfa imtiyaz tanınamaz."
 		],
-		"correctIndex": 3,
+		"correctIndex": 0,
 		"explanation": "Madde 10, çocuklar, yaşlılar, engelliler, harp ve vazife şehitlerinin dul ve yetimleri ile malul ve gaziler için alınacak tedbirlerin eşitlik ilkesine aykırı sayılmayacağını açıkça belirtir. Bu, biçimsel eşitliğin yanında fiilî eşitliği sağlamaya yönelik pozitif ayrımcılığa izin veren bir hükümdür; dolayısıyla IV. ifade yanlıştır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -293,7 +293,7 @@
 			"madde-10",
 			"esitlik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -303,12 +303,12 @@
 		"difficulty": "uzman",
 		"stem": "Türkiye Büyük Millet Meclisine, Anayasa'nın 2. maddesindeki 'laik' ibaresinin metinden çıkarılmasına ilişkin bir Anayasa değişikliği teklifi sunulmuştur. Bu teklif hakkında ne söylenebilir?",
 		"options": [
-			"Teklif, Meclisin üye tamsayısının beşte üçü ile kabul edilebilir.",
-			"Teklif, zorunlu halkoyuna sunulmak şartıyla kabul edilebilir.",
+			"Teklif ancak Cumhurbaşkanının onayıyla görüşülebilir.",
 			"Madde 2 değiştirilemeyecek hükümler arasında olduğundan, değişiklik teklif dahi edilemez.",
-			"Teklif ancak Cumhurbaşkanının onayıyla görüşülebilir."
+			"Teklif, zorunlu halkoyuna sunulmak şartıyla kabul edilebilir.",
+			"Teklif, Meclisin üye tamsayısının beşte üçü ile kabul edilebilir."
 		],
-		"correctIndex": 2,
+		"correctIndex": 1,
 		"explanation": "Anayasa'nın 4. maddesi, 2. maddedeki Cumhuriyetin niteliklerinin değiştirilemeyeceğini ve değiştirilmesinin teklif edilemeyeceğini düzenler. Yasak yalnızca değiştirmeyi değil teklif etmeyi de kapsadığından, oy oranı veya halkoyu gibi usuller hiç gündeme gelmez; teklif en baştan Anayasa'ya aykırıdır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -326,7 +326,7 @@
 			"madde-4",
 			"senaryo"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -336,12 +336,12 @@
 		"difficulty": "uzman",
 		"stem": "Anayasa'nın 7, 8 ve 9. maddelerinde düzenlenen erkler ve bunların sahipleri aşağıdakilerden hangisinde doğru eşleştirilmiştir?",
 		"options": [
-			"Yasama: TBMM — Yürütme: Cumhurbaşkanı — Yargı: Bağımsız ve tarafsız mahkemeler",
-			"Yasama: TBMM — Yürütme: Bakanlar Kurulu — Yargı: Yüksek mahkemeler",
+			"Yasama: TBMM — Yürütme: Cumhurbaşkanı ve Bakanlar Kurulu — Yargı: Anayasa Mahkemesi",
 			"Yasama: Cumhurbaşkanı — Yürütme: TBMM — Yargı: Bağımsız mahkemeler",
-			"Yasama: TBMM — Yürütme: Cumhurbaşkanı ve Bakanlar Kurulu — Yargı: Anayasa Mahkemesi"
+			"Yasama: TBMM — Yürütme: Cumhurbaşkanı — Yargı: Bağımsız ve tarafsız mahkemeler",
+			"Yasama: TBMM — Yürütme: Bakanlar Kurulu — Yargı: Yüksek mahkemeler"
 		],
-		"correctIndex": 0,
+		"correctIndex": 2,
 		"explanation": "2017 Anayasa değişikliğiyle Bakanlar Kurulu kaldırılmış, yürütme yetkisi ve görevi tek başına Cumhurbaşkanına verilmiştir (m. 8). Yasama TBMM'nin (m. 7), yargı ise Türk Milleti adına bağımsız ve tarafsız mahkemelerindir (m. 9). 'Bakanlar Kurulu' geçen şıklar yürürlükten kalkmış düzeni yansıtır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -359,7 +359,7 @@
 			"kuvvetler-ayriligi",
 			"guncellik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -369,10 +369,10 @@
 		"difficulty": "uzman",
 		"stem": "Anayasa'nın 'Genel Esaslar' bölümüne ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
-			"Yasama yetkisinin devredilemeyeceği açıkça belirtilmiştir.",
+			"Anayasa hükümleri idare makamlarını da bağlar.",
 			"Yürütme yetkisinin devredilemeyeceği açıkça belirtilmiştir.",
-			"Egemenliğin kullanılması hiçbir surette hiçbir kişiye, zümreye veya sınıfa bırakılamaz.",
-			"Anayasa hükümleri idare makamlarını da bağlar."
+			"Yasama yetkisinin devredilemeyeceği açıkça belirtilmiştir.",
+			"Egemenliğin kullanılması hiçbir surette hiçbir kişiye, zümreye veya sınıfa bırakılamaz."
 		],
 		"correctIndex": 1,
 		"explanation": "'Devredilemez' ibaresi Anayasa'da yalnızca yasama yetkisi bakımından kullanılmıştır (m. 7). Madde 8'de yürütme için böyle bir ifade yer almaz; yürütme yetkisi ve görevinin Anayasa'ya ve kanunlara uygun olarak kullanılacağı belirtilir. Diğer üç ifade sırasıyla m. 7, m. 6 ve m. 11 hükümleriyle uyumludur.",
@@ -392,577 +392,8 @@
 			"tuzak",
 			"karsilastirma"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
-	},
-	{
-		"id": "sytay-gys23-q001",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "kolay",
-		"stem": "Aşağıdakilerden hangisi 2709 sayılı Türkiye Cumhuriyeti Anayasasının 2'nci maddesinde açıklanan Cumhuriyetin niteliklerinden biri değildir?",
-		"options": [
-			"İnsan haklarına saygılı olması",
-			"Demokratik olması",
-			"Sosyal bir hukuk devleti olması",
-			"Parlamenter bir sisteme sahip olması"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 2. maddesi Cumhuriyetin niteliklerini sayar: toplumun huzuru, milli dayanışma ve adalet anlayışı içinde, insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, demokratik, laik ve sosyal bir hukuk devleti. 'Parlamenter sisteme sahip olma' bu maddede yer almaz; 2017 değişikliğiyle Cumhurbaşkanlığı hükümet sistemine geçilmiştir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "2"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "published",
-		"tags": [
-			"cumhuriyetin-nitelikleri"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-25"
-	},
-	{
-		"id": "sytay-gys23-q003",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "orta",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasının genel esaslar kısmında düzenlenen hükümlerle ilgili aşağıda verilenlerden hangisi doğru değildir?",
-		"options": [
-			"Egemenlik, kayıtsız şartsız Milletindir",
-			"Yürütme yetkisi ve görevi, Cumhurbaşkanı tarafından, Cumhurbaşkanlığı kararnamelerine uygun olarak kullanılır ve yerine getirilir",
-			"Türkiye Devleti bir Cumhuriyettir",
-			"Yasama yetkisi Türk Milleti adına Türkiye Büyük Millet Meclisinindir"
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 8. maddesine göre yürütme yetkisi ve görevi, Cumhurbaşkanı tarafından 'Anayasaya ve kanunlara uygun olarak' kullanılır ve yerine getirilir — 'Cumhurbaşkanlığı kararnamelerine uygun olarak' değil. Diğer seçenekler sırasıyla m.6, m.1 ve m.7 hükümlerinin doğru ifadeleridir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "8"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "published",
-		"tags": [
-			"yurutme-yetkisi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-25"
-	},
-	{
-		"id": "meb-adl23-q001",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "orta",
-		"stem": "Aşağıdakilerden hangisi T.C. Anayasası'nın \"kanun önünde eşitlik\" hükmü kapsamında değildir?",
-		"options": [
-			"Kadınlar ve erkekler eşit haklara sahiptir. Devlet, bu eşitliğin yaşama geçmesini sağlamakla yükümlüdür.",
-			"Egemenliğin kullanılması, hiçbir surette hiçbir kişiye, zümreye veya sınıfa bırakılamaz.",
-			"Çocuklar, yaşlılar, özürlüler, harp ve vazife şehitlerinin dul ve yetimleri ile malul ve gaziler için alınacak tedbirler eşitlik ilkesine aykırı sayılmaz.",
-			"Hiçbir kişiye, aileye, zümreye veya sınıfa imtiyaz tanınamaz.",
-			"Devlet organları ve idare makamları bütün işlemlerinde kanun önünde eşitlik ilkesine uygun olarak hareket etmek zorundadırlar."
-		],
-		"correctIndex": 1,
-		"explanation": "Kanun önünde eşitlik Anayasa'nın 10. maddesinde düzenlenmiştir; kadın-erkek eşitliği, pozitif ayrımcılık niteliğindeki tedbirlerin eşitliğe aykırı sayılmaması, imtiyaz yasağı ve idarenin eşitlik ilkesine uyma zorunluluğu bu maddenin hükümleridir. Egemenliğin hiçbir kişi, zümre veya sınıfa bırakılamayacağı kuralı ise 6. maddede yer alan egemenlik hükmüdür.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "10"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"esitlik"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl23-q011",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "zor",
-		"stem": "1921 Anayasası'nın bazı maddeleri şunlardır: • Yönetim usulü halkın kendi kaderini bizzat ve bilfiil idare etmesi esasına dayanır. • Yürütme gücü ve kanun yapma yetkisi milletin tek ve gerçek temsilcisi olan Büyük Millet Meclisinde toplanır. • Türkiye Devleti, Büyük Millet Meclisince yönetilir. Hükûmeti \"Büyük Millet Meclisi Hükûmeti\" adını alır. Buna göre, 1921 Anayasası ile ilgili aşağıdakilerden hangisi söylenemez?",
-		"options": [
-			"Millî egemenlik anlayışını güvence altına aldığı",
-			"Meclis hükûmeti sistemini esas aldığı",
-			"Yargı yetkisini kullanma hakkını BMM'ye verdiği",
-			"BMM'yi ülke yönetiminde tek güç olarak kabul ettiği",
-			"Ülke yönetimini Kuvvetler Birliği ilkesine dayandırdığı"
-		],
-		"correctIndex": 2,
-		"explanation": "1921 Teşkilât-ı Esasiye Kanunu, kuvvetler birliği ilkesine dayanan meclis hükûmeti sistemini benimsemiş; yasama ve yürütme yetkilerini Büyük Millet Meclisinde toplamıştır. Metinde yürütme ve yasama yetkisinden söz edilmekle birlikte yargı yetkisine ilişkin bir hüküm yer almadığından, yargı yetkisinin BMM'ye verildiği söylenemez.",
-		"legalRef": {
-			"law": "1921 Teşkilât-ı Esasiye Kanunu (Türkiye'nin ilk Anayasası)"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"anayasa-tarihi",
-			"1921"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sef23-q024",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "kolay",
-		"stem": "T.C. Anayasası'na göre, yargı yetkisi, bağımsız ve tarafsız mahkemelerce aşağıdakilerden hangisinin adına kullanılır?",
-		"options": [
-			"Türkiye Cumhuriyeti Devleti",
-			"Cumhurbaşkanı",
-			"Türkiye Büyük Millet Meclisi",
-			"Türk Milleti",
-			"Anayasa Mahkemesi"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 9. maddesine göre yargı yetkisi, Türk Milleti adına bağımsız ve tarafsız mahkemelerce kullanılır. Yargı yetkisinin millet adına kullanılması, egemenliğin kayıtsız şartsız millete ait olması ilkesinin yargı alanındaki yansımasıdır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "9"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_2_SEF_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"yargi-yetkisi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sef23-q025",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "orta",
-		"stem": "Aşağıdakilerden hangisi T.C. Anayasası'nın \"Genel Esaslar\" başlıklı kısmında düzenlenmiştir?",
-		"options": [
-			"Temel hak ve hürriyetlerin kötüye kullanılamaması",
-			"Ailenin korunması ve çocuk hakları",
-			"Kanun önünde eşitlik",
-			"Türkiye Büyük Millet Meclisi ve Cumhurbaşkanının seçim dönemi",
-			"Piyasaların denetimi ve dış ticaretin düzenlenmesi"
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 'Genel Esaslar' başlıklı birinci kısmı 1 ilâ 11. maddeleri kapsar; kanun önünde eşitlik 10. maddede bu kısımda düzenlenmiştir. Temel hak ve hürriyetlerin kötüye kullanılamaması, ailenin korunması, seçim dönemi ve piyasaların denetimi ise Anayasa'nın diğer kısımlarında yer alır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "10"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_2_SEF_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"genel-esaslar",
-			"esitlik"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sef23-q026",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "kolay",
-		"stem": "\"Türk Milleti, egemenliğini, - - - - koyduğu esaslara göre, - - - - eliyle kullanır.\" T.C. Anayasası'na göre, bu hükümde boş bırakılan yerlere aşağıdakilerden hangileri sırasıyla getirilmelidir?",
-		"options": [
-			"Anayasanın / yetkili organları",
-			"Anayasanın / Türkiye Büyük Millet Meclisi",
-			"Anayasanın / Cumhurbaşkanı",
-			"Kanunun / yetkili organları",
-			"Kanunun / Türkiye Büyük Millet Meclisi"
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 6. maddesine göre egemenlik kayıtsız şartsız Milletindir ve Türk Milleti, egemenliğini Anayasanın koyduğu esaslara göre yetkili organları eliyle kullanır. Egemenliğin kullanılması hiçbir surette hiçbir kişiye, zümreye veya sınıfa bırakılamaz.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "6"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_2_SEF_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"egemenlik"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl25-q001",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'nda, aşağıdakilerden hangisi değiştirilemeyecek hükümler arasında sayılmamıştır?",
-		"options": [
-			"Devletin şekli",
-			"Cumhuriyetin nitelikleri",
-			"Devletin bütünlüğü",
-			"Devletin başkenti",
-			"Devletin temel amaç ve görevleri"
-		],
-		"correctIndex": 4,
-		"explanation": "Anayasa'nın 4. maddesine göre 1. maddedeki devletin şekli, 2. maddedeki Cumhuriyetin nitelikleri ve 3. maddedeki devletin bütünlüğü, dili, bayrağı, millî marşı ve başkentine ilişkin hükümler değiştirilemez ve değiştirilmesi teklif edilemez. Devletin temel amaç ve görevleri 5. maddede düzenlenmiş olup bu koruma kapsamında değildir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "4"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2025",
-			"year": 2025,
-			"url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2025/11/adalet/gorev/10_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"degistirilemeyecek-hukumler"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl25-q002",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'nda, aşağıdakilerden hangisi \"egemenlik\" başlığı altında ele alınmıştır?",
-		"options": [
-			"Hiçbir kimse veya organ kaynağını Anayasa'dan almayan bir Devlet yetkisi kullanamaz.",
-			"Yasama yetkisi Türk Milleti adına Türkiye Büyük Millet Meclisinindir.",
-			"Herkes, dil, ırk, renk, cinsiyet, siyasi düşünce, felsefi inanç, din, mezhep ve benzeri sebeplerle ayırım gözetilmeksizin kanun önünde eşittir.",
-			"Devlet organları ve idare makamları bütün işlemlerinde kanun önünde eşitlik ilkesine uygun olarak hareket etmek zorundadırlar.",
-			"Anayasa hükümleri, yasama, yürütme ve yargı organlarını, idare makamlarını ve diğer kuruluş ve kişileri bağlayan temel hukuk kurallarıdır."
-		],
-		"correctIndex": 0,
-		"explanation": "Hiçbir kimse veya organın kaynağını Anayasadan almayan bir Devlet yetkisi kullanamayacağı kuralı, Anayasa'nın 6. maddesinde 'Egemenlik' başlığı altında yer alır. Yasama yetkisi 7., kanun önünde eşitlik 10., Anayasanın bağlayıcılığı ve üstünlüğü ise 11. maddede düzenlenmiştir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "6"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2025",
-			"year": 2025,
-			"url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2025/11/adalet/gorev/10_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"egemenlik"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-dan19v-q001",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "kolay",
-		"stem": "T.C. Anayasası'na göre genel esaslar ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Türkiye Devleti bir Cumhuriyettir.",
-			"Egemenlik, kayıtsız şartsız Milletindir.",
-			"Yasama yetkisi Türk Milleti adına Cumhurbaşkanında olup bu yetki devredilemez.",
-			"Herkes, dil, ırk, renk, cinsiyet, siyasi düşünce, felsefi inanç, din, mezhep ve benzeri sebeplerle ayırım gözetilmeksizin kanun önünde eşittir."
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 7. maddesine göre yasama yetkisi Türk Milleti adına Türkiye Büyük Millet Meclisinindir ve bu yetki devredilemez. Yasama yetkisinin Cumhurbaşkanında olduğu ifadesi yanlıştır; diğer seçenekler 1, 6 ve 10. maddelerin hükümleridir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "7"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Veri Hazırlama ve Kontrol İşletmeni) A Kitapçığı, 2019",
-			"year": 2019,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2020_01/03172311_1._GRUP_VERY_HAZIRLAMA_VE_KONTROL_YYLETMENY_GYS_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"yasama-yetkisi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-cte19im-q001",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası’nın genel esasları ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Yasama yetkisi Türk Milleti adına Türkiye Büyük Millet Meclisinindir. Bu yetki devredilemez.",
-			"Yürütme yetkisi ve görevi, Bakanlar Kurulu tarafından, Anayasa’ya ve kanunlara uygun olarak kullanılır ve yerine getirilir.",
-			"Anayasa hükümleri, yasama, yürütme ve yargı organlarını, idare makamlarını ve diğer kuruluş ve kişileri bağlayan temel hukuk kurallarıdır.",
-			"Herkes, dil, ırk, renk, cinsiyet, siyasi düşünce, felsefi inanç, din, mezhep ve benzeri sebeplerle ayırım gözetilmeksizin kanun önünde eşittir."
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 8. maddesine göre yürütme yetkisi ve görevi, CUMHURBAŞKANI tarafından Anayasa'ya ve kanunlara uygun olarak kullanılır ve yerine getirilir. Bakanlar Kurulu ibaresi 2017 Anayasa değişikliğiyle metinden çıkarılmıştır. Diğer seçenekler yasama yetkisinin devredilemezliği (m. 7), Anayasa'nın bağlayıcılığı (m. 11) ve kanun önünde eşitlik (m. 10) hükümlerine uygundur.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "8"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İkinci Müdür) A Kitapçığı, 26.03.2019",
-			"year": 2019,
-			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171626_1_grup_ikinci_mudur_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"yürütme-yetkisi",
-			"2017-değişikliği"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-cte19im-q029",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "kolay",
-		"stem": "Osmanlı Devleti’nin ilk anayasası aşağıdakilerden hangisidir?",
-		"options": [
-			"Kanun-i Esasi",
-			"Sened-i İttifak",
-			"Islahat Fermanı",
-			"Tanzimat Fermanı"
-		],
-		"correctIndex": 0,
-		"explanation": "Osmanlı Devleti'nin ilk anayasası, 1876'da ilan edilen Kanun-i Esasî'dir. Sened-i İttifak (1808), Tanzimat Fermanı (1839) ve Islahat Fermanı (1856) anayasal nitelikte belgeler olmakla birlikte anayasa değildir.",
-		"legalRef": {
-			"law": "1876 Kanun-i Esasî (Osmanlı Devleti'nin ilk anayasası)"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İkinci Müdür) A Kitapçığı, 26.03.2019",
-			"year": 2019,
-			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171626_1_grup_ikinci_mudur_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"anayasa-tarihi",
-			"kanun-i-esasi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-yim23-q014",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "kolay",
-		"stem": "Türkiye Büyük Millet Meclisinin yaptığı ilk Anayasa hangisidir?",
-		"options": [
-			"Kanun-i Esasi",
-			"Sened-i İttifak",
-			"Teşkilat-ı Esasiye Kanunu",
-			"Misak-ı İktisadi"
-		],
-		"correctIndex": 2,
-		"explanation": "Türkiye Büyük Millet Meclisinin yaptığı ilk anayasa, 1921 tarihli Teşkilat-ı Esasiye Kanunu'dur. Kanun-i Esasi Osmanlı Devleti'nin anayasasıdır; Sened-i İttifak 1808 tarihli bir belge, Misak-ı İktisadi ise 1923 İzmir İktisat Kongresi'nde kabul edilen ekonomik ilkeler bütünüdür.",
-		"legalRef": {
-			"law": "1921 Teşkilât-ı Esasiye Kanunu (Türkiye'nin ilk Anayasası)"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"anayasa-tarihi",
-			"1921"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-sef23-q012",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "orta",
-		"stem": "1928'de, anayasadaki, “Devletin resmî dîni İslâmdır” maddesinin çıkartılmasının en önemli sonucu aşağıdakilerden hangisidir?",
-		"options": [
-			"Hukukî alanda din ayrımının sona ermesi",
-			"Anayasanın lâiklik ilkesi konusunda önemli adım atılması",
-			"Toplumdaki dînî çatışmaların sona ermesi",
-			"Atatürk ilkelerinin anayasada yer alması"
-		],
-		"correctIndex": 1,
-		"explanation": "1924 Anayasası'nda yer alan 'Devletin resmî dini İslâmdır' hükmü 1928 yılında yapılan değişiklikle metinden çıkarılmıştır. Bu değişiklik, laiklik ilkesinin 1937'de anayasaya girmesine giden süreçte atılan en önemli adım olarak kabul edilir.",
-		"legalRef": {
-			"law": "1924 Teşkilât-ı Esasiye Kanunu"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"anayasa-tarihi",
-			"laiklik"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-dmo16s-q001",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası’na göre aşağıdakilerden hangisi Devletin temel amaç ve görevlerinden biri değildir?",
-		"options": [
-			"Kişilerin ve toplumun refah, huzur ve mutluluğunu sağlamak",
-			"Durumları sebebiyle özel eğitime ihtiyacı olanları topluma yararlı kılacak tedbirler almak",
-			"İnsanın maddi ve manevi varlığının gelişmesi için gerekli şartları hazırlamaya çalışmak",
-			"Türk Milletinin bağımsızlığını ve bütünlüğünü, ülkenin bölünmezliğini, Cumhuriyeti ve demokrasiyi korumak"
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 5. maddesinde Devletin temel amaç ve görevleri sayılır: Türk milletinin bağımsızlığını ve bütünlüğünü, ülkenin bölünmezliğini, Cumhuriyeti ve demokrasiyi korumak; kişilerin ve toplumun refah, huzur ve mutluluğunu sağlamak; kişinin temel hak ve hürriyetlerini sınırlayan engelleri kaldırmaya ve insanın maddi ve manevi varlığının gelişmesi için gerekli şartları hazırlamaya çalışmak. Özel eğitime ihtiyacı olanları topluma yararlı kılacak tedbirleri alma görevi ise eğitim ve öğrenim hakkını düzenleyen 42. maddededir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "5"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Devlet Malzeme Ofisi Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2016",
-			"year": 2016,
-			"url": "https://odsgm.meb.gov.tr/www/dmo-gorevde-yukselme-ve-unvan-degisikligi-sinav-sorulari-ve-cevap-anahtari/icerik/151",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"devletin-temel-amaç-ve-görevleri"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl17yim-q002",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası’na göre “Kanun önünde eşitlik” ile ilgili aşağıdaki hükümlerden hangisi yanlıştır?",
-		"options": [
-			"Hiçbir kişiye, aileye, zümreye veya sınıfa imtiyaz tanınamaz.",
-			"Devlet organları ve idare makamları bütün işlemlerinde kanun önünde eşitlik ilkesine uygun olarak hareket etmek zorundadırlar.",
-			"Kadınlar ve erkekler eşit haklara sahiptir. Devlet, bu eşitliğin yaşama geçmesini sağlamakla yükümlüdür. Bu maksatla alınan tedbirler eşitlik ilkesine aykırı sayılır.",
-			"Herkes, dil, ırk, renk, cinsiyet, siyasi düşünce, felsefi inanç, din, mezhep ve benzeri sebeplerle ayırım gözetilmeksizin kanun önünde eşittir.",
-			"Çocuklar, yaşlılar, özürlüler, harp ve vazife şehitlerinin dul ve yetimleri ile malul ve gaziler için alınacak tedbirler eşitlik ilkesine aykırı sayılmaz."
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 10. maddesine göre kadın-erkek eşitliğinin yaşama geçmesi için alınacak tedbirler eşitlik ilkesine aykırı olarak YORUMLANAMAZ; soru kökündeki 'aykırı sayılır' ifadesi hükmün tersidir. Aynı madde çocuklar, yaşlılar, engelliler ile harp ve vazife şehitlerinin dul ve yetimleri için alınacak tedbirlerin de eşitliğe aykırı sayılmayacağını belirtir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "10"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
-			"year": 2017,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"kanun-önünde-eşitlik",
-			"pozitif-ayrımcılık"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl17yim-q001",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/genel-esaslar",
-		"difficulty": "orta",
-		"stem": "I. Egemenlik, kayıtsız şartsız Türkiye Büyük Millet Meclisinindir. II. Türk Milleti, egemenliğini, Anayasa’nın koyduğu esaslara göre, milletin eliyle kullanır. III. Egemenliğin kullanılması, hiçbir surette hiçbir kişiye, zümreye veya sınıfa bırakılamaz. IV. Hiçbir kimse veya organ kaynağını Anayasa’dan almayan bir Devlet yetkisi kullanamaz. T.C. Anayasası’na göre egemenlik ile ilgili yukarıdaki hükümlerden hangileri doğrudur?",
-		"options": [
-			"I ve II",
-			"I ve III",
-			"I ve IV",
-			"II ve III",
-			"III ve IV"
-		],
-		"correctIndex": 4,
-		"explanation": "Anayasa'nın 6. maddesine göre egemenlik kayıtsız şartsız MİLLETİNDİR (TBMM'nin değil) ve Türk Milleti egemenliğini Anayasa'nın koyduğu esaslara göre YETKİLİ ORGANLARI ELİYLE kullanır ('milletin eliyle' değil). Egemenliğin kullanılmasının hiçbir kişi, zümre veya sınıfa bırakılamayacağı ve kaynağını Anayasa'dan almayan bir Devlet yetkisinin kullanılamayacağı yolundaki ifadeler ise maddeye uygundur.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "6"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
-			"year": 2017,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"egemenlik"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
 	},
 	{
 		"id": "anayasa-genel-013",
@@ -971,11 +402,11 @@
 		"difficulty": "kolay",
 		"stem": "1982 Anayasası'nın Genel Esaslar kısmında yer alan ilk dört maddenin konuları sırasıyla aşağıdakilerin hangisinde doğru verilmiştir?",
 		"options": [
-			"Cumhuriyetin nitelikleri – Devletin şekli – Egemenlik – Değiştirilemeyecek hükümler",
-			"Devletin şekli – Cumhuriyetin nitelikleri – Devletin bütünlüğü, resmî dili, bayrağı, millî marşı ve başkenti – Değiştirilemeyecek hükümler",
 			"Devletin şekli – Egemenlik – Cumhuriyetin nitelikleri – Yasama yetkisi",
+			"Devletin şekli – Cumhuriyetin nitelikleri – Devletin bütünlüğü, resmî dili, bayrağı, millî marşı ve başkenti – Değiştirilemeyecek hükümler",
 			"Değiştirilemeyecek hükümler – Devletin şekli – Cumhuriyetin nitelikleri – Egemenlik",
-			"Devletin şekli – Devletin temel amaç ve görevleri – Cumhuriyetin nitelikleri – Egemenlik"
+			"Devletin şekli – Devletin temel amaç ve görevleri – Cumhuriyetin nitelikleri – Egemenlik",
+			"Cumhuriyetin nitelikleri – Devletin şekli – Egemenlik – Değiştirilemeyecek hükümler"
 		],
 		"correctIndex": 1,
 		"explanation": "Anayasa'nın 1 inci maddesi 'Devletin şekli' başlığını taşır ve Türkiye Devleti'nin bir Cumhuriyet olduğunu belirtir. 2 nci madde Cumhuriyetin niteliklerini, 3 üncü madde Devletin bütünlüğünü, resmî dilini, bayrağını, millî marşını ve başkentini, 4 üncü madde ise ilk üç maddenin değiştirilemeyeceğini ve değiştirilmesinin teklif edilemeyeceğini düzenler. Devletin temel amaç ve görevleri 5 inci, egemenlik 6 ncı maddededir.",
@@ -995,7 +426,7 @@
 			"devletin-sekli",
 			"genel-esaslar"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1005,13 +436,13 @@
 		"difficulty": "orta",
 		"stem": "Anayasa'nın değiştirilmesi bakımından teklif için aranan sayı ile kabul için aranan çoğunluk sırasıyla aşağıdakilerden hangisidir?",
 		"options": [
-			"Üye tamsayısının en az beşte biri – üye tamsayısının salt çoğunluğu",
-			"Üye tamsayısının en az üçte biri – üye tamsayısının beşte üç çoğunluğu",
+			"Üye tamsayısının en az beşte üçü – üye tamsayısının üçte iki çoğunluğu",
 			"Üye tamsayısının en az üçte biri – üye tamsayısının üçte iki çoğunluğu",
+			"Üye tamsayısının en az beşte biri – üye tamsayısının salt çoğunluğu",
 			"Üye tamsayısının salt çoğunluğu – üye tamsayısının beşte üç çoğunluğu",
-			"Üye tamsayısının en az beşte üçü – üye tamsayısının üçte iki çoğunluğu"
+			"Üye tamsayısının en az üçte biri – üye tamsayısının beşte üç çoğunluğu"
 		],
-		"correctIndex": 1,
+		"correctIndex": 4,
 		"explanation": "Madde 175'e göre Anayasa'nın değiştirilmesi, Türkiye Büyük Millet Meclisi üye tamsayısının en az üçte biri tarafından yazıyla teklif edilebilir. Teklif Genel Kurulda iki defa görüşülür ve kabulü Meclisin üye tamsayısının beşte üç çoğunluğunun gizli oyuyla mümkündür. Üçte iki çoğunluk kabul için değil, Cumhurbaşkanınca geri gönderilen kanunun aynen kabulü ve halkoyuna sunmanın ihtiyari hâle gelmesi bakımından önem taşır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -1029,7 +460,7 @@
 			"anayasa-degisikligi",
 			"cogunluk"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1039,13 +470,13 @@
 		"difficulty": "orta",
 		"stem": "Anayasa'nın Devletin temel amaç ve görevlerini düzenleyen maddesine göre Devlet, kişinin temel hak ve hürriyetlerini sınırlayan siyasal, ekonomik ve sosyal engelleri hangi ölçüte göre kaldırmaya çalışır?",
 		"options": [
-			"Kamu düzeni ve millî güvenlik ilkeleriyle bağdaşmayacak surette sınırlayan engelleri",
 			"Sosyal hukuk devleti ve adalet ilkeleriyle bağdaşmayacak surette sınırlayan engelleri",
-			"Genel ahlak ve kamu sağlığı ilkeleriyle bağdaşmayacak surette sınırlayan engelleri",
+			"Kamu düzeni ve millî güvenlik ilkeleriyle bağdaşmayacak surette sınırlayan engelleri",
 			"Demokratik toplum düzeninin gereklerine aykırı biçimde sınırlayan bütün engelleri",
-			"Milletlerarası antlaşmalarla bağdaşmayacak surette sınırlayan engelleri"
+			"Milletlerarası antlaşmalarla bağdaşmayacak surette sınırlayan engelleri",
+			"Genel ahlak ve kamu sağlığı ilkeleriyle bağdaşmayacak surette sınırlayan engelleri"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 5, Devletin temel amaç ve görevleri arasında kişinin temel hak ve hürriyetlerini sosyal hukuk devleti ve adalet ilkeleriyle bağdaşmayacak surette sınırlayan siyasal, ekonomik ve sosyal engelleri kaldırmaya ve insanın maddi ve manevi varlığının gelişmesi için gerekli şartları hazırlamaya çalışmayı sayar. Diğer şıklarda geçen kamu düzeni, genel ahlak ve demokratik toplum düzeni ölçütleri hakların sınırlanması rejimine (m.13) ilişkindir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -1063,7 +494,7 @@
 			"temel-amac",
 			"sosyal-hukuk-devleti"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1073,11 +504,11 @@
 		"difficulty": "zor",
 		"stem": "Türkiye Büyük Millet Meclisi bir Anayasa değişikliği kanununu üye tamsayısının üçte iki çoğunluğuyla kabul etmiştir. Anayasa'ya göre bu kanunun halkoyuna sunulması bakımından aşağıdakilerden hangisi doğrudur?",
 		"options": [
-			"Kanun her hâlde halkoyuna sunulmak üzere Resmî Gazetede yayımlanır.",
+			"Kanunun halkoyuna sunulmasına Anayasa Mahkemesi karar verir.",
 			"Kanunun halkoyuna sunulması Cumhurbaşkanının takdirindedir.",
 			"Kanun hiçbir şekilde halkoyuna sunulamaz.",
-			"Kanunun halkoyuna sunulmasına Anayasa Mahkemesi karar verir.",
-			"Kanunun halkoyuna sunulması için Meclisin ayrıca salt çoğunlukla karar alması gerekir."
+			"Kanunun halkoyuna sunulması için Meclisin ayrıca salt çoğunlukla karar alması gerekir.",
+			"Kanun her hâlde halkoyuna sunulmak üzere Resmî Gazetede yayımlanır."
 		],
 		"correctIndex": 1,
 		"explanation": "Madde 175'e göre Meclisçe üye tamsayısının beşte üçü ile veya üçte ikisinden az oyla kabul edilen Anayasa değişikliği kanunu, Cumhurbaşkanınca Meclise iade edilmediği takdirde halkoyuna sunulmak üzere Resmî Gazetede yayımlanır; bu hâlde halkoylaması zorunludur. Buna karşılık doğrudan veya Cumhurbaşkanının iadesi üzerine üye tamsayısının üçte iki çoğunluğuyla kabul edilen kanun veya gerekli görülen maddeleri Cumhurbaşkanı tarafından halkoyuna sunulabilir; yani halkoylaması ihtiyari olup takdir Cumhurbaşkanına aittir. Halkoylamasına sunulmayan kanun Resmî Gazetede yayımlanır.",
@@ -1097,7 +528,573 @@
 			"halkoylamasi",
 			"anayasa-degisikligi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-genel-017",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 4. maddesine göre aşağıdakilerden hangisi değiştirilemeyecek ve değiştirilmesi teklif edilemeyecek hükümler arasında yer almaz?",
+		"options": [
+			"Devletin şeklinin Cumhuriyet olduğu hükmü",
+			"Devletin başkentinin Ankara olduğu hükmü",
+			"Egemenliğin kayıtsız şartsız Millete ait olduğu hükmü",
+			"Devletin dilinin Türkçe olduğu hükmü",
+			"Cumhuriyetin nitelikleri"
+		],
+		"correctIndex": 2,
+		"explanation": "4. madde koruma altına aldığı hükümleri madde numarasıyla sayar: 1. maddedeki Devletin şeklinin Cumhuriyet olduğu hükmü, 2. maddedeki Cumhuriyetin nitelikleri ve 3. madde hükümleri. Devletin dili, bayrağı, millî marşı ve başkenti 3. maddede yer aldığı için korumadadır. Egemenliğin Millete ait olduğu hüküm ise 6. maddededir ve 4. maddenin kapsamı dışındadır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"değiştirilemeyecek-hükümler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-018",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi Anayasa'nın 5. maddesinde Devletin temel amaç ve görevleri arasında sayılmamıştır?",
+		"options": [
+			"Türk milletinin bağımsızlığını ve bütünlüğünü, ülkenin bölünmezliğini korumak",
+			"Piyasalarda fiyat istikrarını sağlamak",
+			"İnsanın maddi ve manevi varlığının gelişmesi için gerekli şartları hazırlamaya çalışmak",
+			"Cumhuriyeti ve demokrasiyi korumak",
+			"Kişilerin ve toplumun refah, huzur ve mutluluğunu sağlamak"
+		],
+		"correctIndex": 1,
+		"explanation": "5. madde Devletin temel amaç ve görevlerini sayarken bağımsızlık ve bütünlüğün korunmasını, Cumhuriyet ve demokrasinin korunmasını, refah, huzur ve mutluluğun sağlanmasını, temel hak ve hürriyetleri sosyal hukuk devleti ve adalet ilkeleriyle bağdaşmayacak surette sınırlayan engellerin kaldırılmasını ve insanın maddi ve manevi varlığının gelişmesi için gerekli şartların hazırlanmasını sayar. Piyasalarda fiyat istikrarını sağlama görevi ise Anayasa'nın 167. maddesinde düzenlenmiştir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"devletin-temel-amaç-ve-görevleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-019",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 6. maddesine göre Türk Milleti egemenliğini nasıl kullanır?",
+		"options": [
+			"Yalnızca Türkiye Büyük Millet Meclisi eliyle",
+			"Cumhurbaşkanı ve Türkiye Büyük Millet Meclisi arasında paylaştırılmış olarak",
+			"Anayasanın koyduğu esaslara göre, yetkili organları eliyle",
+			"Yalnızca doğrudan doğruya, referandum yoluyla",
+			"Siyasi partiler aracılığıyla"
+		],
+		"correctIndex": 2,
+		"explanation": "6. maddenin ikinci fıkrasına göre Türk Milleti, egemenliğini Anayasanın koyduğu esaslara göre yetkili organları eliyle kullanır. Egemenlik kayıtsız şartsız Milletindir ve kullanılması hiçbir surette hiçbir kişiye, zümreye veya sınıfa bırakılamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"egemenlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-020",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "uzman",
+		"stem": "Bir kanunla, bir meslek kuruluşuna Anayasa'da öngörülmeyen bir kamu gücü yetkisi tanınmıştır. Anayasa'nın 6. maddesi bakımından bu düzenleme için aşağıdakilerden hangisi söylenebilir?",
+		"options": [
+			"Hiçbir kimse veya organ kaynağını Anayasadan almayan bir Devlet yetkisi kullanamayacağından düzenleme Anayasa'ya aykırıdır.",
+			"Aykırılık ancak yetkinin bir kişiye tanınması hâlinde doğar.",
+			"Düzenleme Cumhurbaşkanı kararıyla onaylanırsa Anayasa'ya uygun hâle gelir.",
+			"Meslek kuruluşları kamu kurumu niteliğinde olduğundan aykırılık doğmaz.",
+			"Yetki kanunla tanındığı için Anayasa'ya uygundur."
+		],
+		"correctIndex": 0,
+		"explanation": "6. maddenin son fıkrası iki kural içerir: egemenliğin kullanılması hiçbir surette hiçbir kişiye, zümreye veya sınıfa bırakılamaz ve hiçbir kimse veya organ kaynağını Anayasadan almayan bir Devlet yetkisi kullanamaz. Yetkinin kanunla tanınmış olması, yetkinin kaynağının Anayasa'da bulunması zorunluluğunu ortadan kaldırmaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"egemenlik",
+			"senaryo"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-021",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 3. maddesinde yer alan hükümlerle ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Devletin resmî dini İslamdır.",
+			"Devletin dili Türkçedir.",
+			"Millî marşı İstiklal Marşı'dır.",
+			"Türkiye Devleti, ülkesi ve milletiyle bölünmez bir bütündür.",
+			"Bayrağı, şekli kanununda belirtilen, beyaz ay yıldızlı al bayraktır."
+		],
+		"correctIndex": 0,
+		"explanation": "3. madde Devletin bütünlüğünü, resmî dilini, bayrağını, millî marşını ve başkentini düzenler; Devletin bir dininin bulunduğuna ilişkin bir hüküm içermez. Laiklik, 2. maddede Cumhuriyetin nitelikleri arasında sayılmıştır. 'Devletin dini İslamdır' ibaresi 1924 Anayasası'nda yer almış ve 1928 yılında metinden çıkarılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"devletin-bütünlüğü"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-022",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 7. maddesindeki yasama yetkisinin devredilmezliği ilkesinin sonucu olarak aşağıdakilerden hangisi söylenebilir?",
+		"options": [
+			"Kanunların uygulanmasını göstermek üzere yönetmelik çıkarılamaz.",
+			"Türkiye Büyük Millet Meclisi, bir konuyu düzenleme yetkisini bütünüyle yürütmeye bırakan genel nitelikli bir yetkilendirme yapamaz.",
+			"Türkiye Büyük Millet Meclisi kanun yapma yetkisini komisyonlarına devredemez, ancak yürütmeye devredebilir.",
+			"Yasama yetkisi Cumhurbaşkanı ile Türkiye Büyük Millet Meclisi arasında paylaşılmıştır.",
+			"Yasama yetkisi yalnızca olağanüstü hâllerde devredilebilir."
+		],
+		"correctIndex": 1,
+		"explanation": "7. maddeye göre yasama yetkisi Türk Milleti adına Türkiye Büyük Millet Meclisinindir ve bu yetki devredilemez. İlkenin klasik sonucu, Meclisin bir alanı düzenleme yetkisini bütünüyle yürütmeye bırakamamasıdır; yürütmenin düzenleyici işlemleri ancak kanunun çizdiği çerçevede ve onu uygulamak üzere yapılabilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yasama-yetkisi",
+			"devredilmezlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-023",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 8. maddesine göre yürütme yetkisi ve görevi kim tarafından kullanılır ve yerine getirilir?",
+		"options": [
+			"Bakanlar Kurulu tarafından",
+			"Cumhurbaşkanı tarafından",
+			"Cumhurbaşkanı ve Bakanlar Kurulu tarafından",
+			"Cumhurbaşkanı ve Türkiye Büyük Millet Meclisi tarafından",
+			"Cumhurbaşkanı ve Cumhurbaşkanı yardımcıları tarafından"
+		],
+		"correctIndex": 1,
+		"explanation": "8. maddeye göre yürütme yetkisi ve görevi, Cumhurbaşkanı tarafından Anayasaya ve kanunlara uygun olarak kullanılır ve yerine getirilir. Maddede yer alan 've Bakanlar Kurulu' ibaresi, 21/1/2017 tarihli ve 6771 sayılı Kanun'la yapılan değişiklikle metinden çıkarılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "8"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yürütme-yetkisi",
+			"2017-değişikliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-024",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın yargı yetkisini düzenleyen 9. maddesine 2017 yılındaki Anayasa değişikliğiyle eklenen ibare aşağıdakilerden hangisidir?",
+		"options": [
+			"kanuni hâkim güvencesine sahip",
+			"Türk Milleti adına",
+			"ve bağımsız",
+			"ve doğal hâkim",
+			"ve tarafsız"
+		],
+		"correctIndex": 4,
+		"explanation": "9. madde bugün 'Yargı yetkisi, Türk Milleti adına bağımsız ve tarafsız mahkemelerce kullanılır.' şeklindedir. 'Bağımsız' ibaresinden sonra gelen 've tarafsız' ibaresi, 21/1/2017 tarihli ve 6771 sayılı Kanun'un 1. maddesiyle eklenmiştir; 'Türk Milleti adına' ve 'bağımsız' ibareleri maddenin ilk hâlinde de yer alıyordu.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yargı-yetkisi",
+			"2017-değişikliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-025",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 10. maddesine göre kadın–erkek eşitliği bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu konuda alınacak tedbirler ancak kanunla değil, Cumhurbaşkanlığı kararnamesiyle düzenlenebilir.",
+			"Kadınlar ve erkekler eşit haklara sahiptir; ancak Devlete bu konuda bir yükümlülük yüklenmemiştir.",
+			"Kadınlar ve erkekler eşit haklara sahiptir; Devlet bu eşitliğin yaşama geçmesini sağlamakla yükümlüdür ve bu maksatla alınacak tedbirler eşitlik ilkesine aykırı olarak yorumlanamaz.",
+			"Kadın–erkek eşitliği yalnızca çalışma hayatı bakımından güvence altına alınmıştır.",
+			"Eşitliğin sağlanması amacıyla alınacak her tedbir eşitlik ilkesine aykırılık oluşturur."
+		],
+		"correctIndex": 2,
+		"explanation": "10. maddeye 2004 yılında eklenen fıkra kadınlar ve erkeklerin eşit haklara sahip olduğunu ve Devletin bu eşitliğin yaşama geçmesini sağlamakla yükümlü olduğunu belirtir. 2010 yılında eklenen cümle ise bu maksatla alınacak tedbirlerin eşitlik ilkesine aykırı olarak yorumlanamayacağını açıkça hükme bağlamıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"eşitlik",
+			"kadın-erkek"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-026",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 10. maddesine göre, aşağıdakilerden hangileri için alınacak tedbirler eşitlik ilkesine aykırı sayılmaz?",
+		"options": [
+			"Yalnızca engelliler ve yaşlılar",
+			"Kamu görevlileri ve emekliler",
+			"Yalnızca çocuklar ve kadınlar",
+			"Çocuklar, yaşlılar, engelliler, harp ve vazife şehitlerinin dul ve yetimleri ile malul ve gaziler",
+			"Belirli bir bölgede yaşayanlar"
+		],
+		"correctIndex": 3,
+		"explanation": "10. maddeye 2010 yılında eklenen fıkra, çocuklar, yaşlılar, engelliler (madde metnindeki ifadesiyle özürlüler), harp ve vazife şehitlerinin dul ve yetimleri ile malul ve gaziler için alınacak tedbirlerin eşitlik ilkesine aykırı sayılmayacağını düzenler. Bu hüküm, mutlak eşitliğin değil fiilî eşitliği sağlamaya yönelik tedbirlerin anayasal dayanağıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"eşitlik",
+			"pozitif-ayrımcılık"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-027",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "uzman",
+		"stem": "Bir idare, belirli bir meslek grubuna mensup kişilere kanuni bir dayanağı bulunmayan öncelikler tanıyan bir işlem tesis etmiştir. Anayasa'nın 10. maddesi bakımından bu işlem için aşağıdakilerden hangisi söylenebilir?",
+		"options": [
+			"Eşitlik ilkesi yalnızca kanunlar bakımından geçerli olduğundan idari işlemler bu ilkeye tabi değildir.",
+			"İmtiyaz yasağı yalnızca aileler bakımından geçerlidir.",
+			"Hiçbir kişiye, aileye, zümreye veya sınıfa imtiyaz tanınamayacağından ve idare makamları bütün işlemlerinde eşitlik ilkesine uygun hareket etmek zorunda olduğundan işlem Anayasa'ya aykırıdır.",
+			"Eşitlik ilkesi yalnızca maddede sayılan dil, ırk, renk, cinsiyet gibi sebeplerle sınırlı olduğundan aykırılık doğmaz.",
+			"İşlem bir kanunla dayanaklandırılmadığı sürece eşitlik ilkesi denetimi yapılamaz."
+		],
+		"correctIndex": 2,
+		"explanation": "10. maddenin son iki fıkrası, hiçbir kişiye, aileye, zümreye veya sınıfa imtiyaz tanınamayacağını ve Devlet organları ile idare makamlarının bütün işlemlerinde kanun önünde eşitlik ilkesine uygun hareket etmek zorunda olduklarını düzenler. Maddedeki ayrım sebepleri 've benzeri sebeplerle' ifadesiyle örnekleyicidir; sınırlı sayıda değildir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"eşitlik",
+			"imtiyaz"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-028",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "Türk anayasa tarihinde Kanun-i Esasî ile ilgili aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"1924 yılında kabul edilmiş olup Cumhuriyetin ilk anayasasıdır.",
+			"1839 yılında ilan edilmiş bir fermandır.",
+			"1876 yılında ilan edilmiş olup Osmanlı Devleti'nin ilk anayasasıdır ve I. Meşrutiyet'in başlangıcını oluşturur.",
+			"1808 yılında imzalanmış olup padişahın yetkilerini ilk kez sınırlandıran belgedir.",
+			"1921 yılında kabul edilmiş olup Millî Mücadele döneminin anayasasıdır."
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun-i Esasî 1876 yılında ilan edilmiş, Osmanlı Devleti'nin ilk anayasası olarak I. Meşrutiyet dönemini başlatmıştır. 1808 tarihli Sened-i İttifak ve 1839 tarihli Tanzimat Fermanı anayasa niteliğinde belgeler değildir; 1921 Teşkilât-ı Esasiye Kanunu Millî Mücadele döneminin, 1924 Teşkilât-ı Esasiye Kanunu ise Cumhuriyet'in anayasasıdır.",
+		"legalRef": {
+			"law": "1876 Kanun-i Esasî (Osmanlı Devleti'nin ilk anayasası)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-tarihi",
+			"kanun-i-esasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-029",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "zor",
+		"stem": "1921 Teşkilât-ı Esasiye Kanunu ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Türkiye Büyük Millet Meclisi tarafından 1921 yılında kabul edilmiştir.",
+			"Kısa ve çerçeve niteliğinde bir metin olup az sayıda maddeden oluşmuştur.",
+			"Yasama ve yürütme yetkilerini Türkiye Büyük Millet Meclisinde toplamıştır.",
+			"Egemenliğin kayıtsız şartsız millete ait olduğu ilkesine yer vermiştir.",
+			"Kuvvetler ayrılığı ilkesini benimsemiş ve bağımsız bir yargı düzeni kurmuştur."
+		],
+		"correctIndex": 4,
+		"explanation": "1921 Teşkilât-ı Esasiye Kanunu, yasama ve yürütme yetkilerini Türkiye Büyük Millet Meclisinde toplayan kuvvetler birliği (meclis hükümeti) sistemini benimsemiştir; kuvvetler ayrılığına ve yargıya ilişkin bir düzenleme içermez. Metin kısa ve çerçeve niteliğinde olup egemenliğin kayıtsız şartsız millete ait olduğu ilkesini anayasal düzeyde ilk kez ifade etmiştir.",
+		"legalRef": {
+			"law": "1921 Teşkilât-ı Esasiye Kanunu (Türkiye'nin ilk Anayasası)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-tarihi",
+			"1921"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-030",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "zor",
+		"stem": "1921 Teşkilât-ı Esasiye Kanunu'nda 1923 yılında yapılan değişiklikle anayasa metnine giren düzenleme aşağıdakilerden hangisidir?",
+		"options": [
+			"Devletin hükümet şeklinin Cumhuriyet olduğunun belirtilmesi",
+			"Çok partili hayata geçilmesi",
+			"Kadınlara seçme ve seçilme hakkı tanınması",
+			"Anayasa Mahkemesinin kurulması",
+			"Laiklik ilkesinin anayasaya eklenmesi"
+		],
+		"correctIndex": 0,
+		"explanation": "29 Ekim 1923 tarihli değişiklikle 1921 Teşkilât-ı Esasiye Kanunu'na Devletin hükümet şeklinin Cumhuriyet olduğu hükmü eklenmiş ve Cumhuriyet ilan edilmiştir. Laiklik ilkesi 1937'de 1924 Anayasası'na eklenmiş, Anayasa Mahkemesi ise 1961 Anayasası ile kurulmuştur.",
+		"legalRef": {
+			"law": "1921 Teşkilât-ı Esasiye Kanunu (Türkiye'nin ilk Anayasası)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-tarihi",
+			"1921",
+			"cumhuriyet"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-031",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "1924 Teşkilât-ı Esasiye Kanunu bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"'Devletin dini İslamdır' ibaresi 1937 yılında çıkarılmıştır.",
+			"Laiklik ilkesi anayasanın ilk metninde yer almıştır.",
+			"Metindeki 'Devletin dini İslamdır' ibaresi 1928 yılında çıkarılmış, laiklik ilkesi ise 1937 yılında anayasaya eklenmiştir.",
+			"Anayasa hiçbir zaman değiştirilmemiştir.",
+			"Anayasa, yargı denetimi bakımından Anayasa Mahkemesini öngörmüştür."
+		],
+		"correctIndex": 2,
+		"explanation": "1924 Teşkilât-ı Esasiye Kanunu'nun ilk metninde 'Devletin dini, Dini İslamdır' ibaresi yer alıyordu; bu ibare 1928 yılında yapılan değişiklikle metinden çıkarılmış, laiklik ilkesi ise 1937 yılında Cumhuriyetin nitelikleri arasına eklenmiştir. Anayasa Mahkemesi 1961 Anayasası ile kurulmuştur.",
+		"legalRef": {
+			"law": "1924 Teşkilât-ı Esasiye Kanunu"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-tarihi",
+			"laiklik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-032",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 2. maddesinde Cumhuriyetin nitelikleri sayılırken insan hakları bakımından kullanılan ifade aşağıdakilerden hangisidir?",
+		"options": [
+			"İnsan haklarını üstün tutan",
+			"İnsan haklarına bağlı",
+			"İnsan haklarını güvence altına alan",
+			"İnsan haklarına saygılı",
+			"İnsan haklarına dayanan"
+		],
+		"correctIndex": 3,
+		"explanation": "2. maddeye göre Türkiye Cumhuriyeti; toplumun huzuru, millî dayanışma ve adalet anlayışı içinde, insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, başlangıçta belirtilen temel ilkelere dayanan, demokratik, laik ve sosyal bir hukuk Devletidir. 'İnsan haklarına dayanan' ifadesi 1961 Anayasası'nda yer alıyordu; 1982 Anayasası 'saygılı' ifadesini tercih etmiştir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhuriyetin-nitelikleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-033",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 8. maddesi, yürütme yetkisi ve görevinin kullanılmasını hangi kayda bağlamıştır?",
+		"options": [
+			"Yalnızca Anayasaya uygun olarak kullanılması",
+			"Türkiye Büyük Millet Meclisinin yetkilendirmesine bağlı olarak kullanılması",
+			"Yalnızca kanunlara uygun olarak kullanılması",
+			"Cumhurbaşkanlığı kararnameleriyle serbestçe kullanılması",
+			"Anayasaya ve kanunlara uygun olarak kullanılması ve yerine getirilmesi"
+		],
+		"correctIndex": 4,
+		"explanation": "8. maddeye göre yürütme yetkisi ve görevi, Cumhurbaşkanı tarafından Anayasaya ve kanunlara uygun olarak kullanılır ve yerine getirilir. Madde yürütmeyi hem bir yetki hem bir görev olarak niteler ve onu hukuka bağlılıkla sınırlar; bu bağlılık 104. maddedeki 'kanunda açıkça düzenlenen konularda Cumhurbaşkanlığı kararnamesi çıkarılamaz' kuralının da dayanağıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "8"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yürütme-yetkisi",
+			"kanunilik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
 	}
 ]

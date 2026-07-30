@@ -6,10 +6,10 @@
 		"difficulty": "kolay",
 		"stem": "Kamu görevlilerinin uyacağı etik davranış ilkelerinin listesi hangi metinde düzenlenmiştir?",
 		"options": [
-			"657 sayılı Devlet Memurları Kanunu",
+			"4982 sayılı Kanun",
 			"Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
-			"3628 sayılı Kanun",
-			"4982 sayılı Kanun"
+			"657 sayılı Devlet Memurları Kanunu",
+			"3628 sayılı Kanun"
 		],
 		"correctIndex": 1,
 		"explanation": "5176 sayılı Kanun, etik davranış ilkelerinin Kurulca hazırlanacak yönetmeliklerle belirleneceğini öngörür. İlkelerin ayrıntılı listesi 2005 tarihli Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik'te yer alır. 657 sayılı Kanun hediye ve menfaat yasaklarını, 3628 mal bildirimini, 4982 ise bilgi edinme hakkını düzenler.",
@@ -26,7 +26,7 @@
 		"tags": [
 			"mevzuat"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -36,12 +36,12 @@
 		"difficulty": "kolay",
 		"stem": "Kamu Görevlileri Etik Kuruluna yapılan bir başvuruda aşağıdakilerden hangisinin bulunması zorunlu değildir?",
 		"options": [
-			"Başvuranın adı ve soyadı",
-			"Başvuranın adresi",
 			"Başvuranın imzası",
-			"Başvuranın kamu görevlisi olduğunu gösteren belge"
+			"Başvuranın adı ve soyadı",
+			"Başvuranın kamu görevlisi olduğunu gösteren belge",
+			"Başvuranın adresi"
 		],
-		"correctIndex": 3,
+		"correctIndex": 2,
 		"explanation": "Yönetmeliğe göre başvuruda başvuranın adı, soyadı, adresi ve imzası bulunmak zorundadır; bu bilgileri içermeyen isimsiz ve adressiz başvurular işleme konulmaz. Başvuru hakkı yalnızca kamu görevlilerine tanınmış değildir, dolayısıyla böyle bir belge aranmaz.",
 		"legalRef": {
 			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
@@ -57,7 +57,7 @@
 			"basvuru",
 			"usul"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -67,12 +67,12 @@
 		"difficulty": "kolay",
 		"stem": "Kamu Görevlileri Etik Kurulunun görevleri arasında aşağıdakilerden hangisi yer almaz?",
 		"options": [
-			"Etik davranış ilkelerini yönetmeliklerle belirlemek",
 			"Hediye alma yasağının kapsamını belirlemek",
 			"Etik ilkeleri ihlal edenlere disiplin cezası vermek",
-			"Kamuda etik kültürünü yerleştirmeye yönelik çalışmalar yapmak"
+			"Kamuda etik kültürünü yerleştirmeye yönelik çalışmalar yapmak",
+			"Etik davranış ilkelerini yönetmeliklerle belirlemek"
 		],
-		"correctIndex": 2,
+		"correctIndex": 1,
 		"explanation": "Kurul inceleme ve araştırma yapar, etik ilkelerin ihlal edilip edilmediğini tespit eder; ancak disiplin cezası verme yetkisi yoktur. Bu yetki 657 sayılı Kanun uyarınca disiplin amirleri ve disiplin kurullarına aittir.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -90,7 +90,7 @@
 			"gorevler",
 			"tuzak"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -100,12 +100,12 @@
 		"difficulty": "orta",
 		"stem": "Kamu görevlilerinin mal bildiriminde bulunması hangi kanunla düzenlenmiştir?",
 		"options": [
-			"4982 sayılı Bilgi Edinme Hakkı Kanunu",
-			"3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
 			"5176 sayılı Kamu Görevlileri Etik Kurulu Kanunu",
-			"2709 sayılı Anayasa"
+			"2709 sayılı Anayasa",
+			"3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"4982 sayılı Bilgi Edinme Hakkı Kanunu"
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Mal bildirimi yükümlülüğü 3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu'nda düzenlenmiştir. Bildirimler sonu (0) ve (5) ile biten yılların en geç şubat ayı sonuna kadar yenilenir. Mal bildiriminde bulunma aynı zamanda yönetmelikteki etik davranış ilkelerinden biridir.",
 		"legalRef": {
 			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
@@ -122,7 +122,7 @@
 			"mevzuat",
 			"mal-bildirimi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -132,12 +132,12 @@
 		"difficulty": "orta",
 		"stem": "Etik komisyonları kim tarafından oluşturulur ve temel işlevi nedir?",
 		"options": [
+			"TBMM tarafından oluşturulur; denetim yapar.",
 			"Kamu Görevlileri Etik Kurulunca oluşturulur; ceza verir.",
 			"Kurum yöneticisince oluşturulur; etik kültürünü yerleştirir ve rehberlik eder.",
-			"TBMM tarafından oluşturulur; denetim yapar.",
 			"Disiplin kurulunca oluşturulur; soruşturma yürütür."
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Yönetmeliğe göre kurum ve kuruluşlarda etik kültürünü yerleştirmek, kamu görevlilerine rehberlik etmek ve karşılaşılan sorunlarda yol göstermek üzere kurum yöneticisince etik komisyonu oluşturulur. Komisyon bir yaptırım ya da soruşturma organı değildir.",
 		"legalRef": {
 			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
@@ -152,7 +152,7 @@
 		"tags": [
 			"etik-komisyonu"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -162,12 +162,12 @@
 		"difficulty": "orta",
 		"stem": "Kamu Görevlileri Etik Kurulu başvurular üzerine incelemesini hangi açıdan yürütür?",
 		"options": [
-			"Suç oluşup oluşmadığı yönünden",
 			"Etik davranış ilkelerinin ihlal edilip edilmediği yönünden",
-			"Mali zarar doğup doğmadığı yönünden",
-			"Kurumun performans hedeflerine uygunluk yönünden"
+			"Suç oluşup oluşmadığı yönünden",
+			"Kurumun performans hedeflerine uygunluk yönünden",
+			"Mali zarar doğup doğmadığı yönünden"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "5176 sayılı Kanun'a göre Kurul, başvurular hakkındaki inceleme ve araştırmasını etik davranış ilkelerinin ihlal edilip edilmediği yönünden yürütür. Suçun oluşup oluşmadığını belirlemek adli makamların, mali zararı tespit etmek ise denetim birimlerinin görevidir.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -185,7 +185,7 @@
 			"inceleme",
 			"kapsam"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -195,12 +195,12 @@
 		"difficulty": "zor",
 		"stem": "Hediye alma ve menfaat sağlama yasağı hangi metinlerde birlikte düzenlenmiştir?",
 		"options": [
-			"Yalnızca 5176 sayılı Kanun'da",
-			"657 sayılı Kanun ve Etik Davranış İlkeleri Yönetmeliği'nde",
 			"Yalnızca Anayasa'da",
-			"Yalnızca 3628 sayılı Kanun'da"
+			"Yalnızca 3628 sayılı Kanun'da",
+			"657 sayılı Kanun ve Etik Davranış İlkeleri Yönetmeliği'nde",
+			"Yalnızca 5176 sayılı Kanun'da"
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Hediye alma ve menfaat sağlama yasağı hem 657 sayılı Kanun'un 29. maddesinde hem de Etik Davranış İlkeleri Yönetmeliği'nde düzenlenmiştir. Yönetmelik yasağın kapsamını, istisnalarını ve hediye tanımını ayrıntılandırır; 5176 sayılı Kanun ise Kurula yasağın kapsamını belirleme yetkisi verir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -218,7 +218,7 @@
 			"mevzuat",
 			"hediye"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -230,8 +230,8 @@
 		"options": [
 			"İşleme konulmaz.",
 			"Öncelikli olarak incelenir.",
-			"İlgili kuruma gönderilir ve orada incelenir.",
-			"Kurul tarafından resen soruşturma başlatılır."
+			"Kurul tarafından resen soruşturma başlatılır.",
+			"İlgili kuruma gönderilir ve orada incelenir."
 		],
 		"correctIndex": 0,
 		"explanation": "Yönetmeliğe göre başvuruda başvuranın adı, soyadı, adresi ve imzası bulunması zorunludur; bu bilgileri içermeyen isimsiz ve adressiz başvurular işleme konulmaz. Bu kural, asılsız ihbarlara karşı kamu görevlilerini korumayı amaçlar.",
@@ -249,7 +249,7 @@
 			"basvuru",
 			"usul"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -259,12 +259,12 @@
 		"difficulty": "zor",
 		"stem": "Kamu Görevlileri Etik Kurulu üyeleri aşağıdakilerden hangileri arasından atanır?",
 		"options": [
-			"Yalnızca hâlen görevde olan genel müdürler arasından",
 			"Bakanlık, il belediye başkanlığı, yüksek yargı ve üst düzey kamu yöneticiliği görevlerinde bulunmuş kişiler arasından",
 			"Yalnızca üniversite öğretim üyeleri arasından",
-			"Türkiye Büyük Millet Meclisi üyeleri arasından"
+			"Türkiye Büyük Millet Meclisi üyeleri arasından",
+			"Yalnızca hâlen görevde olan genel müdürler arasından"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "5176 sayılı Kanun'a göre Kurul üyeleri; bakanlık yapmış olanlar, il belediye başkanlığı yapmış olanlar, Yargıtay, Danıştay ve Sayıştay'da görev yapmış olanlar, üniversite rektörlüğü veya dekanlığı yapmış olanlar ile üst kademe kamu yöneticiliği yapmış olanlar arasından Cumhurbaşkanınca atanır. TBMM üyeleri zaten Kanun'un kapsamı dışındadır.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -282,7 +282,7 @@
 			"kurul",
 			"uyelik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -293,11 +293,11 @@
 		"stem": "Bir kurumun etik komisyonu, hakkında etik ihlali iddiası bulunan bir genel müdür hakkında karar vermek istemektedir. Bu durumda ne yapılmalıdır?",
 		"options": [
 			"Etik komisyonu inceleme yapıp karar verebilir.",
-			"Genel müdür seviyesindeki görevliler hakkındaki iddialar Kamu Görevlileri Etik Kurulunun görev alanındadır.",
 			"Konu doğrudan disiplin amirine bırakılır ve Kurula bildirilmez.",
-			"Etik komisyonu kararını Kurulun onayına sunar."
+			"Etik komisyonu kararını Kurulun onayına sunar.",
+			"Genel müdür seviyesindeki görevliler hakkındaki iddialar Kamu Görevlileri Etik Kurulunun görev alanındadır."
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "5176 sayılı Kanun'a göre en az genel müdür veya eşiti seviyedeki kamu görevlileri hakkındaki etik ihlali iddiaları Kamu Görevlileri Etik Kuruluna yapılan başvuruyla incelenir. Etik komisyonları rehberlik organıdır; bu seviyedeki bir görevli hakkında inceleme yapıp karar verme yetkileri yoktur.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -315,7 +315,7 @@
 			"yetki",
 			"senaryo"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -325,12 +325,12 @@
 		"difficulty": "uzman",
 		"stem": "Kamu Görevlileri Etik Kurulu bir kamu görevlisi hakkında etik ihlali tespit etmiştir. Bu tespitin hukuki sonucu nedir?",
 		"options": [
-			"Görevli doğrudan memurluktan çıkarılır.",
-			"Tespit disiplin cezası niteliğinde değildir; ihlal ayrıca disiplin soruşturmasını gerektirebilir.",
+			"Tespit yalnızca istatistiki amaçla kullanılır, hiçbir sonucu yoktur.",
 			"Görevliye otomatik olarak kınama cezası verilir.",
-			"Tespit yalnızca istatistiki amaçla kullanılır, hiçbir sonucu yoktur."
+			"Tespit disiplin cezası niteliğinde değildir; ihlal ayrıca disiplin soruşturmasını gerektirebilir.",
+			"Görevli doğrudan memurluktan çıkarılır."
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Kurulun görevi etik davranış ilkelerinin ihlal edilip edilmediğini tespit etmektir; disiplin cezası verme yetkisi yoktur. Tespit edilen ihlal, aynı fiilin 657 sayılı Kanun kapsamında disiplin suçu oluşturması hâlinde ayrıca disiplin soruşturmasını gerektirebilir. İki süreç birbirinden ayrıdır ancak tespit sonuçsuz da değildir.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -348,7 +348,7 @@
 			"yaptirim",
 			"senaryo"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -359,11 +359,11 @@
 		"stem": "Etik mevzuatına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
 			"Etik Kurul üyeleri Cumhurbaşkanınca atanır ve görev süreleri dört yıldır.",
-			"Kurul, hediye alma yasağının kapsamını belirlemeye yetkilidir.",
 			"Kanun hükümleri Türk Silahlı Kuvvetleri mensupları hakkında da uygulanır.",
-			"Etik sözleşmesi imzalanır ve özlük dosyasına konulur."
+			"Etik sözleşmesi imzalanır ve özlük dosyasına konulur.",
+			"Kurul, hediye alma yasağının kapsamını belirlemeye yetkilidir."
 		],
-		"correctIndex": 2,
+		"correctIndex": 1,
 		"explanation": "5176 sayılı Kanun hükümleri; Cumhurbaşkanı, TBMM üyeleri, Cumhurbaşkanı yardımcıları ve bakanlar, Türk Silahlı Kuvvetleri mensupları, yargı mensupları ve üniversiteler hakkında uygulanmaz. Diğer üç ifade doğrudur.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -381,312 +381,310 @@
 			"kapsam",
 			"tuzak"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
-		"id": "sytay-gys23-q028",
+		"id": "etik-kurul-013",
 		"subjectId": "etik",
 		"topicId": "etik/etik-kurul-ve-mevzuat",
-		"difficulty": "orta",
-		"stem": "Aşağıdakilerden hangisi hakkında 5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun hükümleri uygulanır?",
+		"difficulty": "zor",
+		"stem": "5176 sayılı Kanun'a göre Kamu Görevlileri Etik Kurulunun çalışma usulü bakımından aşağıdakilerden hangisi doğrudur?",
 		"options": [
-			"Türk Silahlı Kuvvetleri mensupları",
-			"Bakanlar",
-			"Türk Tarih Kurumu personeli",
-			"Yargı mensupları"
-		],
-		"correctIndex": 2,
-		"explanation": "5176 sayılı Kanun kamu görevlilerini kapsar; ancak Cumhurbaşkanı, TBMM üyeleri, Bakanlar Kurulu üyeleri, Türk Silahlı Kuvvetleri, yargı mensupları ve üniversiteler kapsam dışında bırakılmıştır. Bu istisnalara girmeyen Türk Tarih Kurumu personeli hakkında Kanun hükümleri uygulanır.",
-		"legalRef": {
-			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kanunu",
-			"lawId": "5176",
-			"article": "1"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "published",
-		"tags": [
-			"kapsam"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-25"
-	},
-	{
-		"id": "sytay-gys23-q030",
-		"subjectId": "etik",
-		"topicId": "etik/etik-kurul-ve-mevzuat",
-		"difficulty": "kolay",
-		"stem": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanuna göre Kamu Görevlileri Etik Kurulu toplam kaç üyeden oluşur?",
-		"options": [
-			"9",
-			"7",
-			"11",
-			"5"
-		],
-		"correctIndex": 2,
-		"explanation": "5176 sayılı Kanun'un 3. maddesine göre Kamu Görevlileri Etik Kurulu on bir (11) üyeden oluşur. Üyeler Cumhurbaşkanı tarafından atanır ve görev süreleri dört yıldır.",
-		"legalRef": {
-			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kanunu",
-			"lawId": "5176",
-			"article": "3"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "published",
-		"tags": [
-			"kurul-yapisi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-25"
-	},
-	{
-		"id": "meb-adl23-q035",
-		"subjectId": "etik",
-		"topicId": "etik/etik-kurul-ve-mevzuat",
-		"difficulty": "orta",
-		"stem": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun'un hükümleri aşağıdakilerden hangisi hakkında uygulanır?",
-		"options": [
-			"Bakan yardımcıları",
-			"Türk Silahlı Kuvvetleri",
-			"Yargı mensupları",
-			"Üniversiteler",
-			"Cumhurbaşkanı yardımcıları"
+			"Kurul, Başkanın daveti üzerine en az altı üyeyle toplanır ve üye tam sayısının salt çoğunluğunun aynı yöndeki oyu ile karar verir.",
+			"Kurul yılda dört defa toplanır ve kararlarını gizli oyla alır.",
+			"Kurulun toplantı ve karar yeter sayıları kendi hazırladığı yönetmelikle belirlenir.",
+			"Kurul, en az üç üyeyle toplanır ve toplantıya katılanların salt çoğunluğuyla karar verir.",
+			"Kurul, üye tam sayısıyla toplanır ve oy birliğiyle karar verir."
 		],
 		"correctIndex": 0,
-		"explanation": "5176 sayılı Kanun, kamu kurum ve kuruluşlarında çalışan personeli kapsar. Cumhurbaşkanı, Cumhurbaşkanı yardımcıları, bakanlar, TBMM üyeleri, Türk Silahlı Kuvvetleri ve yargı mensupları ile üniversiteler Kanun'un kapsamı dışında bırakılmıştır. Bakan yardımcıları bu istisnalar arasında sayılmadığından haklarında Kanun hükümleri uygulanır.",
+		"explanation": "5176 sayılı Kanun'un 2. maddesine göre Kurul, Başkanın daveti üzerine en az altı üyeyle toplanır ve üye tam sayısının salt çoğunluğunun aynı yöndeki oyu ile karar verir. Kurul ayda dört defa toplanır; arka arkaya üç toplantıya veya bir yıl içinde toplam on toplantıya katılmayan üyeler istifa etmiş sayılır.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
 			"lawId": "5176",
-			"article": "1"
+			"article": "2"
 		},
 		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
 		},
-		"status": "review",
+		"status": "published",
 		"tags": [
-			"kapsam",
-			"istisnalar"
+			"etik-kurul",
+			"toplantı"
 		],
 		"version": 1,
-		"updatedAt": "2026-07-26"
+		"updatedAt": "2026-07-30"
 	},
 	{
-		"id": "meb-tmo15-q089",
+		"id": "etik-kurul-014",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "uzman",
+		"stem": "5176 sayılı Kanun'a göre Kamu Görevlileri Etik Kurulu üyelerinin görevden alınması bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Görevi kötüye kullanmaktan veya yüz kızartıcı bir suçtan mahkûm olan üyeler Cumhurbaşkanı onayıyla görevden alınır.",
+			"Kurul üyelerinin görevine, hizmet gereği görüldüğünde görev süresi dolmadan da son verilebilir.",
+			"Atamaya ilişkin şartları kaybeden üyeler atandıkları usule göre görevden alınır.",
+			"Kurul üyelerinin görev süresi dolmadan görevlerine son verilemez.",
+			"Ciddi bir hastalık veya engellilik nedeniyle iş göremeyen üyeler atandıkları usule göre süresi dolmadan görevden alınır."
+		],
+		"correctIndex": 1,
+		"explanation": "5176 sayılı Kanun'un 2. maddesi Kurul üyelerine görev güvencesi tanır: üyelerin görev süresi dolmadan görevlerine son verilemez. Maddede yalnızca sayılan hâllerde (ciddi hastalık veya engellilik nedeniyle iş görememe, atama şartlarını kaybetme, görevi kötüye kullanma veya yüz kızartıcı suçtan mahkûmiyet) görevden alma mümkündür; 'hizmet gereği' böyle bir sebep değildir.",
+		"legalRef": {
+			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
+			"lawId": "5176",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"etik-kurul",
+			"üyelik-güvencesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "etik-kurul-015",
 		"subjectId": "etik",
 		"topicId": "etik/etik-kurul-ve-mevzuat",
 		"difficulty": "orta",
-		"stem": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun'a göre Kurul, aşağıda verilenlerden hangisini yapmakla görevli ve yetkili değildir?",
+		"stem": "5176 sayılı Kanun'a göre kamu görevlilerinin görevlerini yürütürken uymaları gereken etik davranış ilkeleri hangi yolla belirlenir?",
 		"options": [
-			"Etik davranış ilkelerinin ihlal edildiği iddiasıyla mahkemelere suç duyurusunda bulunmak",
-			"Kamuda etik kültürünü yerleştirmek üzere bu konuda yapılacak çalışmalara destek olmak",
-			"Kamu görevlilerinin görevlerini yürütürken uymaları gereken etik davranış ilkelerini hazırlayacağı yönetmeliklerle belirlemek",
-			"Kamuda etik kültürünü yerleştirmek üzere çalışmalar yapmak veya yaptırmak"
+			"Kamu Görevlileri Etik Kurulunun hazırlayacağı yönetmeliklerle",
+			"Doğrudan 5176 sayılı Kanun'un ekinde sayılarak",
+			"Her kurumun kendi etik komisyonunun kararıyla",
+			"Cumhurbaşkanlığı kararnamesiyle",
+			"Türkiye Büyük Millet Meclisi kararıyla"
 		],
 		"correctIndex": 0,
-		"explanation": "Kurulun görevleri; etik davranış ilkelerini yönetmeliklerle belirlemek, ihlal iddialarını inceleyip araştırmak ve kamuda etik kültürünü yerleştirmeye yönelik çalışmalar yapmak, yaptırmak veya bu çalışmalara destek olmaktır. Kurul bir yargı ya da soruşturma organı değildir; incelemesinin sonucunu ilgili makamlara bildirir. Mahkemelere suç duyurusunda bulunmak Kurulun görev ve yetkileri arasında sayılmamıştır.",
+		"explanation": "5176 sayılı Kanun'un 3. maddesine göre Kurul, kamu görevlilerinin uymaları gereken etik davranış ilkelerini hazırlayacağı yönetmeliklerle belirlemekle görevli ve yetkilidir. Kanun'un 7. maddesi uyarınca Kurulca hazırlanan yönetmelikler Cumhurbaşkanı onayı ile yürürlüğe konulur.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
 			"lawId": "5176",
 			"article": "3"
 		},
 		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Toprak Mahsulleri Ofisi Görevde Yükselme Sınavı (Şef/Personel) A Kitapçığı, 2015",
-			"year": 2015,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2015_06/04014638_10_sefpersonel.a.pdf",
-			"license": "public-official"
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
 		},
-		"status": "review",
+		"status": "published",
 		"tags": [
-			"kurul-gorevleri"
+			"kurul-görevleri",
+			"yönetmelik"
 		],
 		"version": 1,
-		"updatedAt": "2026-07-26"
+		"updatedAt": "2026-07-30"
 	},
 	{
-		"id": "meb-tmo15-q090",
+		"id": "etik-kurul-016",
 		"subjectId": "etik",
 		"topicId": "etik/etik-kurul-ve-mevzuat",
-		"difficulty": "kolay",
-		"stem": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun'a göre Kurul, kendisine şikâyet veya ihbar yoluyla ulaşan başvurular üzerine yapacağı inceleme ve araştırmayı en geç kaç ay içinde sonuçlandırmak zorundadır?",
+		"difficulty": "zor",
+		"stem": "5176 sayılı Kanun'a göre Kamu Görevlileri Etik Kurulu, etik davranış ilkelerinin ihlal edildiği iddiasıyla inceleme ve araştırmayı hangi hâllerde yapar?",
 		"options": [
-			"Bir",
-			"İki",
-			"Üç",
-			"Dört"
+			"Yalnızca yazılı başvuru üzerine",
+			"Yalnızca yetkili disiplin kurulunun sevki üzerine",
+			"Yalnızca Cumhurbaşkanlığının havalesi üzerine",
+			"Yalnızca ilgili kurumun talebi üzerine",
+			"Re'sen veya yapılacak başvurular üzerine"
 		],
-		"correctIndex": 2,
-		"explanation": "Kurul, şikâyet veya ihbar yoluyla ulaşan başvurular üzerine yapacağı inceleme ve araştırmayı en geç üç ay içinde sonuçlandırmak zorundadır. Bu süre sınırı, etik denetimin sürüncemede kalmamasını ve başvuru sahibinin makul sürede sonuç almasını güvence altına alır.",
+		"correctIndex": 4,
+		"explanation": "5176 sayılı Kanun'un 3. maddesi Kurulun görevlerini sayarken, etik davranış ilkelerinin ihlal edildiği iddiasıyla re'sen veya yapılacak başvurular üzerine gerekli inceleme ve araştırmayı yaparak sonucu ilgili makamlara bildirmeyi de açıkça sayar. Kurulun harekete geçmesi bir başvuruya bağlı değildir.",
+		"legalRef": {
+			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
+			"lawId": "5176",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kurul-görevleri",
+			"resen-inceleme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "etik-kurul-017",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "orta",
+		"stem": "5176 sayılı Kanun'a göre Kamu Görevlileri Etik Kurulu, şikâyet veya ihbar yoluyla kendisine ulaşan başvurular üzerine yapacağı inceleme ve araştırmayı en geç ne kadar sürede sonuçlandırmak zorundadır?",
+		"options": [
+			"Üç ay",
+			"Bir yıl",
+			"İki ay",
+			"Bir ay",
+			"Altı ay"
+		],
+		"correctIndex": 0,
+		"explanation": "5176 sayılı Kanun'un 5. maddesine göre Kurul, kendisine şikâyet veya ihbar yoluyla ulaşan başvurular üzerine yapacağı inceleme ve araştırmayı en geç üç ay içinde sonuçlandırmak zorundadır ve sonucu ilgililere yazılı olarak bildirir. Bu incelemeler, genel hükümlere göre ceza kovuşturmasına veya disiplin kovuşturmasına engel değildir.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
 			"lawId": "5176",
 			"article": "5"
 		},
 		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Toprak Mahsulleri Ofisi Görevde Yükselme Sınavı (Şef/Personel) A Kitapçığı, 2015",
-			"year": 2015,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2015_06/04014638_10_sefpersonel.a.pdf",
-			"license": "public-official"
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
 		},
-		"status": "review",
+		"status": "published",
 		"tags": [
-			"inceleme-suresi"
+			"inceleme-süresi"
 		],
 		"version": 1,
-		"updatedAt": "2026-07-26"
+		"updatedAt": "2026-07-30"
 	},
 	{
-		"id": "sytay-yim23-q025",
+		"id": "etik-kurul-018",
 		"subjectId": "etik",
 		"topicId": "etik/etik-kurul-ve-mevzuat",
-		"difficulty": "kolay",
-		"stem": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun hükümlerine göre Kamu Görevlileri Etik Kurulu üyeleri kim ya da hangi kurum tarafından atanır?",
+		"difficulty": "zor",
+		"stem": "5176 sayılı Kanun'un kapsamı bakımından aşağıdakilerden hangisi doğrudur?",
 		"options": [
-			"TBMM",
-			"Adalet Bakanı",
-			"Cumhurbaşkanı",
-			"Milli Eğitim Bakanı"
+			"Mahallî idareler ve bunların birlikleri ile kamu iktisadi teşebbüslerinin tüm personeli Kanun kapsamındadır.",
+			"Kanun yalnızca genel bütçeye dahil dairelerde çalışan personeli kapsar.",
+			"Kurul ve üst kurulların başkan ve üyeleri Kanun kapsamı dışındadır.",
+			"Döner sermayeli kuruluşlarda çalışanlar Kanun kapsamı dışındadır.",
+			"Kamu iktisadi teşebbüsleri Kanun kapsamı dışındadır."
 		],
-		"correctIndex": 2,
-		"explanation": "5176 sayılı Kanun'un 2. maddesine göre Kamu Görevlileri Etik Kurulunun biri Başkan olmak üzere on bir üyesi Cumhurbaşkanı tarafından seçilir ve atanır. Üyelerin görev süresi dört yıldır.",
+		"correctIndex": 0,
+		"explanation": "5176 sayılı Kanun'un 1. maddesinin ikinci fıkrası kapsamı geniş tutar: genel bütçeye dahil daireler, katma bütçeli idareler, kamu iktisadi teşebbüsleri, döner sermayeli kuruluşlar, mahallî idareler ve birlikleri ile kamu tüzel kişiliğini haiz kurul, üst kurul, kurum, enstitü ve benzeri adlarla kurulmuş bütün kuruluşlarda çalışan; yönetim ve denetim kurulu ile kurul ve üst kurul başkan ve üyeleri dâhil tüm personel kapsamdadır. Üçüncü fıkrada sayılan Cumhurbaşkanı, milletvekilleri, Cumhurbaşkanı yardımcıları ve bakanlar, Türk Silahlı Kuvvetleri ve yargı mensupları ile üniversiteler ise kapsam dışıdır.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
 			"lawId": "5176",
-			"article": "2"
+			"article": "1"
 		},
 		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
 		},
-		"status": "review",
+		"status": "published",
 		"tags": [
-			"etik-kurul",
-			"üyelik"
+			"kapsam"
 		],
 		"version": 1,
-		"updatedAt": "2026-07-26"
+		"updatedAt": "2026-07-30"
 	},
 	{
-		"id": "meb-cte19im-q025",
+		"id": "etik-kurul-019",
 		"subjectId": "etik",
 		"topicId": "etik/etik-kurul-ve-mevzuat",
-		"difficulty": "orta",
-		"stem": "Mal bildirimlerindeki bilgilerin doğruluğunun kontrolü amacıyla ilgili kişi ve kuruluşlar (bankalar ve özel finans kurumları dâhil) talep edilen bilgileri, en geç kaç gün içinde Kamu Görevlileri Etik Kuruluna vermekle yükümlüdürler?",
+		"difficulty": "uzman",
+		"stem": "3628 sayılı Kanun'un 9. maddesine göre mal bildirimlerinin gizliliği bakımından aşağıdakilerden hangisi doğrudur?",
 		"options": [
-			"Yedi",
-			"On beş",
-			"Otuz",
-			"Kırk beş"
+			"Mal bildirimleri talep eden her vatandaşa bilgi edinme kapsamında verilir.",
+			"Mal bildirimlerinin içeriği hakkında basında yayında bulunulabilir.",
+			"Mal bildirimleri hiçbir merci tarafından incelenemez.",
+			"Bildirimler bildirimde bulunanın özel dosyasında saklanır; ancak Kamu Görevlileri Etik Kurulu mal bildirimlerini gerektiğinde inceleme yetkisine sahiptir.",
+			"Mal bildirimlerinin doğruluğunu yalnızca ilgili kurumun disiplin amiri kontrol edebilir."
 		],
-		"correctIndex": 2,
-		"explanation": "3628 sayılı Kanun'un 9. maddesine 5176 sayılı Kanun'la eklenen fıkraya göre Kamu Görevlileri Etik Kurulu mal bildirimlerini gerektiğinde inceleyebilir; mal bildirimlerindeki bilgilerin doğruluğunun kontrolü amacıyla ilgili kişi ve kuruluşlar (bankalar ve özel finans kurumları dâhil) talep edilen bilgileri en geç otuz gün içinde Kurula vermekle yükümlüdür.",
+		"correctIndex": 3,
+		"explanation": "3628 sayılı Kanun'un 9. maddesine göre mal bildirimleri, özel kanunlardaki hükümler saklı kalmak kaydıyla bildirimde bulunanın özel dosyasında saklanır; içeriği hakkında Kanun'un 20. maddesindeki hâl dışında açıklama yapılamaz, bilgi verilemez ve yayında bulunulamaz. 5176 sayılı Kanun'la eklenen fıkra ise Kamu Görevlileri Etik Kuruluna mal bildirimlerini gerektiğinde inceleme yetkisi tanımış; bilgilerin doğruluğunun kontrolü amacıyla ilgili kişi ve kuruluşların talep edilen bilgileri en geç otuz gün içinde Kurula vermesini zorunlu kılmıştır.",
 		"legalRef": {
 			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
 			"lawId": "3628",
 			"article": "9"
 		},
 		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İkinci Müdür) A Kitapçığı, 26.03.2019",
-			"year": 2019,
-			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171626_1_grup_ikinci_mudur_A.pdf",
-			"license": "public-official"
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
 		},
-		"status": "review",
+		"status": "published",
 		"tags": [
 			"mal-bildirimi",
-			"etik-kurul"
+			"gizlilik"
 		],
 		"version": 1,
-		"updatedAt": "2026-07-26"
+		"updatedAt": "2026-07-30"
 	},
 	{
-		"id": "meb-sag15s-q065",
+		"id": "etik-kurul-020",
 		"subjectId": "etik",
 		"topicId": "etik/etik-kurul-ve-mevzuat",
 		"difficulty": "orta",
-		"stem": "I. Etik davranış ilkelerinin ihlâl edildiği iddiasıyla resen veya yapılacak başvurular üzerine gerekli inceleme ve araştırmayı yaparak sonucu ilgili makamlara bildirmek II. Kamuda etik kültürünü yerleştirmek üzere çalışmalar yapmak veya yaptırmak ve bu konuda yapılacak çalışmalara destek olmak III. Kamu görevlilerinin görevlerini yürütürken uymaları gereken etik davranış ilkelerini hazırlayacağı yönetmeliklerle belirlemek 5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun’a göre Kamu Görevlileri Etik Kurulu, yukarıdakilerden hangisi/hangilerini yapmakla görevli ve yetkilidir?",
+		"stem": "5176 sayılı Kanun'a göre Kamu Görevlileri Etik Kurulunun bilgi ve belge isteme yetkisi bakımından aşağıdakilerden hangisi doğrudur?",
 		"options": [
-			"Yalnız I",
-			"I ve II",
-			"I ve III",
-			"II ve III",
-			"I, II ve III"
+			"Bilgi ve belge talebi ancak Cumhurbaşkanlığı aracılığıyla yapılabilir.",
+			"Kurumlar, istenen bilgi ve belgeleri vermekte serbesttir.",
+			"Kurul yalnızca kendisine başvuruda bulunan kişiden bilgi isteyebilir.",
+			"Bakanlıklar ve diğer kamu kurum ve kuruluşları, Kurulun başvuru konusuyla ilgili istediği bilgi ve belgeleri vermek zorundadır.",
+			"Kurul özel kuruluşlardan hiçbir şekilde bilgi alamaz."
 		],
-		"correctIndex": 4,
-		"explanation": "5176 sayılı Kanun'un 3. maddesine göre Kamu Görevlileri Etik Kurulu; kamu görevlilerinin uyması gereken etik davranış ilkelerini hazırlayacağı yönetmeliklerle belirlemek, ihlal iddiasıyla re'sen veya başvuru üzerine gerekli inceleme ve araştırmayı yaparak sonucu ilgili makamlara bildirmek ve kamuda etik kültürünü yerleştirmek üzere çalışmalar yapmakla görevli ve yetkilidir. Soruda sayılan üç görev de bu maddededir.",
+		"correctIndex": 3,
+		"explanation": "5176 sayılı Kanun'un 6. maddesine göre bakanlıklar ve diğer kamu kurum ve kuruluşları, Kurulun başvuru konusu ile ilgili olarak istediği bilgi ve belgeleri vermek zorundadır. Ayrıca Kurul, Kanun kapsamındaki kuruluşlardan ve özel kuruluşlardan ilgili temsilcileri çağırıp bilgi alma yetkisine de sahiptir.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
 			"lawId": "5176",
-			"article": "3"
+			"article": "6"
 		},
 		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Şef) A Kitapçığı, 28.06.2015",
-			"year": 2015,
-			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
-			"license": "public-official"
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
 		},
-		"status": "review",
+		"status": "published",
 		"tags": [
-			"etik-kurul",
-			"kurul-görevleri"
+			"bilgi-ve-belge"
 		],
 		"version": 1,
-		"updatedAt": "2026-07-26"
+		"updatedAt": "2026-07-30"
 	},
 	{
-		"id": "meb-adl23yim-q033",
+		"id": "etik-kurul-021",
 		"subjectId": "etik",
 		"topicId": "etik/etik-kurul-ve-mevzuat",
-		"difficulty": "zor",
-		"stem": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun’a göre, “Kamu Görevlileri Etik Kurulunun oluşturulması” ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"difficulty": "uzman",
+		"stem": "Kamu Görevlileri Etik Kuruluna yapılan bir başvurunun incelenmesi sırasında, konuyla ilgili olarak yargı yoluna gidildiği anlaşılmıştır. 5176 sayılı Kanun'a göre ne olur?",
 		"options": [
-			"Yargıtay, Danıştay, Sayıştay üyeleri arasından iki üye seçilir.",
-			"İl belediye başkanlığı yapmış olanlar arasından bir üye seçilir.",
-			"Bakanlık görevi yapmış olanlar arasından bir üye seçilir.",
-			"Kamu kurumu niteliğinde meslek kuruluşlarında en üst kademe yöneticiliği yapmış olanlar arasından bir üye seçilir.",
-			"Üniversitelerde rektörlük veya dekanlık görevlerinde bulunmuş öğretim üyeleri veya bunların emeklileri arasından iki üye seçilir."
+			"İnceleme mahkeme kararı beklenmeksizin tamamlanır.",
+			"Başvuru yetkili disiplin kuruluna devredilir.",
+			"Kurul, yargılamanın sonucuna göre yeni bir başvuru şartı arar.",
+			"Başvurunun işlemi durdurulur.",
+			"Kurul, mahkemeye görüş bildirmek üzere incelemeyi sürdürür."
 		],
-		"correctIndex": 0,
-		"explanation": "5176 sayılı Kanun'un 2. maddesine göre Kamu Görevlileri Etik Kurulu on bir üyeden oluşur ve Yargıtay, Danıştay, Sayıştay üyeliği görevlerinden emekliye ayrılanlar arasından İKİ değil ÜÇ üye seçilir. Maddeye göre bakanlık görevi yapmış olanlar ile il belediye başkanlığı yapmış olanlardan birer, müsteşarlık/büyükelçilik/valilik gibi görevlerde bulunanlardan üç, rektörlük veya dekanlık yapmış öğretim üyelerinden iki, kamu kurumu niteliğindeki meslek kuruluşlarının en üst kademe yöneticilerinden bir üye seçilir.",
+		"correctIndex": 3,
+		"explanation": "5176 sayılı Kanun'un 4. maddesinin son fıkrasına göre yargı organlarında görülmekte olan veya yargı organlarınca karara bağlanmış bulunan uyuşmazlıklar hakkında Kurula veya yetkili disiplin kurullarına başvuru yapılamaz; inceleme sırasında yargı yoluna gidildiği anlaşılan başvuruların işlemi durdurulur.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
 			"lawId": "5176",
-			"article": "2"
+			"article": "4"
 		},
 		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 19.08.2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_1_GRUP_YAZI_ISLERI_MUDURU_A.pdf",
-			"license": "public-official"
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
 		},
-		"status": "review",
+		"status": "published",
 		"tags": [
-			"etik-kurul",
-			"kurul-oluşumu"
+			"başvuru",
+			"yargı-yolu"
 		],
 		"version": 1,
-		"updatedAt": "2026-07-26"
+		"updatedAt": "2026-07-30"
 	}
 ]

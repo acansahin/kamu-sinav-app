@@ -6,12 +6,12 @@
 		"difficulty": "kolay",
 		"stem": "Mazeretsiz olarak görevi terk eden bir memur, terkin kesintisiz kaç gün devam etmesi hâlinde çekilme isteğinde bulunmuş sayılır?",
 		"options": [
+			"15 gün",
 			"5 gün",
 			"10 gün",
-			"15 gün",
 			"20 gün"
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Madde 94'e göre mezuniyetsiz veya kurumlarınca kabul edilen mazereti olmaksızın görevin terk edilmesi ve bu terkin kesintisiz 10 gün devam etmesi hâlinde, yazılı müracaat şartı aranmaksızın çekilme isteğinde bulunulmuş sayılır.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -29,7 +29,7 @@
 			"cekilme",
 			"sure"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -39,12 +39,12 @@
 		"difficulty": "kolay",
 		"stem": "Aşağıdakilerden hangisi 657 sayılı Kanun'a göre memurluğu sona erdiren hâllerden biri değildir?",
 		"options": [
+			"Emekliye ayrılma",
 			"Memurluktan çekilme",
 			"Aylıktan kesme cezası alma",
-			"Ölüm",
-			"Emekliye ayrılma"
+			"Ölüm"
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Madde 98'e göre memurluk; memurluktan çıkarılma, memurluğa alınma şartlarından birinin sonradan taşınmadığının anlaşılması veya kaybedilmesi, çekilme, emekliye ayrılma ve ölüm hâllerinde sona erer. Aylıktan kesme bir disiplin cezasıdır ve memurluğu sona erdirmez; memurluğu sona erdiren tek disiplin cezası Devlet memurluğundan çıkarmadır.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -62,7 +62,7 @@
 			"madde-98",
 			"tuzak"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -72,12 +72,12 @@
 		"difficulty": "kolay",
 		"stem": "Memurluktan çekilmek isteyen memur bu isteğini nasıl bildirir?",
 		"options": [
-			"Sözlü olarak amirine",
 			"Bağlı olduğu kuruma yazılı olarak müracaat ederek",
+			"Sözlü olarak amirine",
 			"Disiplin kuruluna başvurarak",
 			"Sendikası aracılığıyla"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 94'e göre Devlet memuru, bağlı olduğu kuruma yazılı olarak müracaat etmek suretiyle memurluktan çekilme isteğinde bulunabilir. Yazılılık kuraldır; tek istisna, kesintisiz 10 günlük mazeretsiz terk hâlinde çekilmiş sayılmadır.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -95,7 +95,7 @@
 			"cekilme",
 			"usul"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -106,11 +106,11 @@
 		"stem": "Usulüne uygun olarak memurluktan çekilen bir memur, en erken ne kadar süre sonra yeniden Devlet memurluğuna atanabilir?",
 		"options": [
 			"3 ay",
-			"6 ay",
 			"1 yıl",
+			"6 ay",
 			"3 yıl"
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Madde 97'ye göre 94. maddenin ikinci ve üçüncü fıkralarına uygun olarak memurluktan çekilenler 6 ay geçmeden yeniden Devlet memurluğuna alınamazlar. Çekilmiş sayılanlar için bu süre 1 yıl, devir teslim yükümlülüğüne uymayanlar için 3 yıldır.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -128,7 +128,7 @@
 			"yeniden-atanma",
 			"sure"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -139,11 +139,11 @@
 		"stem": "Çekilmek isteyen memur, yerine atanan kişi kaç ay içinde gelmezse üstüne haber vererek görevini bırakabilir?",
 		"options": [
 			"15 gün",
-			"1 ay",
 			"2 ay",
+			"1 ay",
 			"3 ay"
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Madde 94'e göre çekilmek isteyen memur, yerine atanan kimsenin gelmesine veya çekilme isteğinin kabulüne kadar görevine devam eder. Yerine atanan kimse bir aya kadar gelmediği veya yerine bir vekil atanmadığı takdirde, üstüne haber vererek görevini bırakabilir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -161,7 +161,7 @@
 			"cekilme",
 			"sure"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -171,8 +171,8 @@
 		"difficulty": "orta",
 		"stem": "Olağanüstü hâl, seferberlik ve savaş hâllerinde veya genel hayata müessir afetlere uğrayan yerlerdeki memurlar görevlerini ne zaman bırakabilir?",
 		"options": [
-			"Bir ay bekledikten sonra",
 			"Üstüne haber vererek her zaman",
+			"Bir ay bekledikten sonra",
 			"Yerine atanacaklar gelip işe başlamadıkça bırakamazlar",
 			"Çekilme isteği kuruma ulaştığı anda"
 		],
@@ -194,7 +194,7 @@
 			"madde-96",
 			"olaganustu"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -204,12 +204,12 @@
 		"difficulty": "zor",
 		"stem": "Devir ve teslim yükümlülüğüne uymadan görevini bırakan bir memur, kaç yıl geçmeden yeniden Devlet memurluğuna alınamaz?",
 		"options": [
-			"6 ay",
-			"1 yıl",
+			"5 yıl",
 			"3 yıl",
-			"5 yıl"
+			"6 ay",
+			"1 yıl"
 		],
-		"correctIndex": 2,
+		"correctIndex": 1,
 		"explanation": "Madde 97'ye göre 95. maddede yazılı devir ve teslim zorunluluklarına uymayanlar 3 yıl geçmeden Devlet memurluğuna alınamazlar. Kademeli yasak şöyledir: usulüne uygun çekilme 6 ay, çekilmiş sayılma 1 yıl, devir teslime uymama 3 yıl, olağanüstü yönetim hâllerinde görevi bırakma ise hiçbir surette.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -227,7 +227,7 @@
 			"yeniden-atanma",
 			"madde-95"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -237,8 +237,8 @@
 		"difficulty": "zor",
 		"stem": "Olağanüstü hâl sırasında görev yerini terk eden bir memurun yeniden Devlet memurluğuna alınması bakımından ne söylenebilir?",
 		"options": [
-			"3 yıl sonra alınabilir.",
 			"5 yıl sonra alınabilir.",
+			"3 yıl sonra alınabilir.",
 			"Hiçbir surette Devlet memurluğuna alınamaz.",
 			"1 yıl sonra alınabilir."
 		],
@@ -260,7 +260,7 @@
 			"yeniden-atanma",
 			"senaryo"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -270,12 +270,12 @@
 		"difficulty": "zor",
 		"stem": "Memurluğa alınma şartlarından birini görevi sırasında kaybeden memurun durumu nedir?",
 		"options": [
-			"Kınama cezası verilir.",
 			"Memurluğu sona erer.",
-			"Başka bir sınıfa atanır.",
-			"Aylıksız izne çıkarılır."
+			"Kınama cezası verilir.",
+			"Aylıksız izne çıkarılır.",
+			"Başka bir sınıfa atanır."
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 98/b'ye göre memurluğa alınma şartlarından herhangi birini taşımadığının sonradan anlaşılması veya memurlukları sırasında bu şartlardan herhangi birini kaybetmesi hâlinde memurluk sona erer. Bu bir disiplin cezası değil, memurluk statüsünün kanunen sona ermesidir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -294,7 +294,7 @@
 			"madde-98",
 			"sart-kaybi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -305,11 +305,11 @@
 		"stem": "Bir memur mazeretsiz olarak 12 gün kesintisiz göreve gelmemiştir. Bu durumun sonucu ve yeniden atanma bakımından değerlendirmesi hangisidir?",
 		"options": [
 			"Çekilmiş sayılır ve 6 ay geçmeden yeniden atanamaz.",
+			"Hiçbir işlem yapılmaz; yalnızca aylığından kesinti yapılır.",
 			"Çekilmiş sayılır ve 1 yıl geçmeden yeniden atanamaz.",
-			"Kademe ilerlemesinin durdurulması cezası alır, memurluğu devam eder.",
-			"Hiçbir işlem yapılmaz; yalnızca aylığından kesinti yapılır."
+			"Kademe ilerlemesinin durdurulması cezası alır, memurluğu devam eder."
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Mazeretsiz terkin kesintisiz 10 gün devam etmesi hâlinde memur, yazılı müracaat aranmaksızın çekilmiş sayılır (m.94). Madde 97'ye göre bu Kanuna göre çekilmiş sayılanlar 1 yıl geçmeden Devlet memurluğuna alınamazlar. 6 aylık süre yalnızca usulüne uygun çekilenler içindir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -328,7 +328,7 @@
 			"senaryo",
 			"tuzak"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -338,12 +338,12 @@
 		"difficulty": "uzman",
 		"stem": "Olağanüstü bir mazeretle çekilen memur bakımından aşağıdakilerden hangisi doğrudur?",
 		"options": [
-			"Her hâlükârda bir ay beklemek zorundadır.",
 			"Üstüne haber vermek şartıyla bir ay kaydına tabi değildir.",
 			"Hiçbir bildirim yapmadan görevi bırakabilir.",
-			"Çekilme isteği kabul edilmeden görevi bırakamaz."
+			"Çekilme isteği kabul edilmeden görevi bırakamaz.",
+			"Her hâlükârda bir ay beklemek zorundadır."
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 94'ün son fıkrasına göre olağanüstü mazeretle çekilenler, üstüne haber vermek şartıyla bir ay kaydına tabi değildirler. Yani bekleme yükümlülüğü kalkar ancak bildirim yükümlülüğü devam eder; bildirimsiz terk mümkün değildir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -361,7 +361,7 @@
 			"cekilme",
 			"istisna"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -371,12 +371,12 @@
 		"difficulty": "uzman",
 		"stem": "Memurluğun sona ermesine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
-			"Ölüm memurluğu sona erdiren hâllerden biridir.",
-			"Devir ve teslimle yükümlü memur, bu işlemler tamamlanmadan görevini bırakamaz.",
 			"Çekilmiş sayılan memur 6 ay sonra yeniden atanabilir.",
-			"Devlet memurluğundan çıkarma cezası memurluğu sona erdirir."
+			"Ölüm memurluğu sona erdiren hâllerden biridir.",
+			"Devlet memurluğundan çıkarma cezası memurluğu sona erdirir.",
+			"Devir ve teslimle yükümlü memur, bu işlemler tamamlanmadan görevini bırakamaz."
 		],
-		"correctIndex": 2,
+		"correctIndex": 0,
 		"explanation": "Çekilmiş sayılanlar için yeniden atanma yasağı 1 yıldır; 6 aylık süre usulüne uygun olarak çekilenlere aittir (m.97). Diğer üç ifade sırasıyla madde 98, madde 95 ve madde 98 hükümleriyle uyumludur.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -394,179 +394,8 @@
 			"tuzak",
 			"yeniden-atanma"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
-	},
-	{
-		"id": "meb-ic21-q024",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/memurlugun-sona-ermesi",
-		"difficulty": "orta",
-		"stem": "657 sayılı Devlet Memurları Kanunu'na göre Devlet memuru iken muvazzaf askerlik hizmetini yapmak üzere silahaltına alınanlardan askerlik görevini tamamlayıp memuriyete dönmek isteyenler, terhis tarihinden itibaren en fazla kaç gün içinde kurumlarına başvurmak zorundadırlar?",
-		"options": [
-			"15",
-			"30",
-			"45",
-			"60"
-		],
-		"correctIndex": 1,
-		"explanation": "657 sayılı Kanun'un 83. maddesine göre muvazzaf askerlik hizmetini yapmak üzere silahaltına alınanlardan askerlik görevini tamamlayıp memuriyete dönmek isteyenler, terhis tarihinden itibaren otuz gün içinde kurumlarına başvurmak zorundadır. Süresinde başvurmayanlar memuriyetten çekilmiş sayılır.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "83"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2021",
-			"year": 2021,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171238_7_YEF_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"askerlik"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-dan19v-q013",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/memurlugun-sona-ermesi",
-		"difficulty": "orta",
-		"stem": "657 sayılı Devlet Memurları Kanunu'na göre çekilen Devlet memurlarından devir ve teslim ile yükümlü olanlar, bu işlemleri yerine getirmeden görevlerini bırakırlarsa en az kaç yıl geçmeden Devlet memurluğuna alınamazlar?",
-		"options": [
-			"1",
-			"2",
-			"3",
-			"4"
-		],
-		"correctIndex": 2,
-		"explanation": "657 sayılı Kanun'un 94. maddesine göre çekilen Devlet memurlarından devir ve teslim ile yükümlü olanlar, bu işlemleri yerine getirmeden görevlerini bırakırlarsa üç yıl geçmeden Devlet memurluğuna alınamazlar.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "94"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Veri Hazırlama ve Kontrol İşletmeni) A Kitapçığı, 2019",
-			"year": 2019,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2020_01/03172311_1._GRUP_VERY_HAZIRLAMA_VE_KONTROL_YYLETMENY_GYS_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"cekilme",
-			"devir-teslim"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-cte19m-q087",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/memurlugun-sona-ermesi",
-		"difficulty": "orta",
-		"stem": "657 sayılı Devlet Memurları Kanunu’na göre aylıksız izin süresinin bitiminde veya mazeret sebebinin kalkmasını izleyen kaç gün içinde görevine dönmeyenler, memuriyetten çekilmiş sayılır?",
-		"options": [
-			"Üç",
-			"Beş",
-			"Yedi",
-			"On"
-		],
-		"correctIndex": 3,
-		"explanation": "657 sayılı Kanun'un 108. maddesinin (F) fıkrasına göre aylıksız izin süresinin bitiminde veya mazeret sebebinin kalkmasını izleyen on gün içinde görevine dönmeyenler, memuriyetten çekilmiş sayılır.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "108",
-			"clause": "F"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (Memur) A Kitapçığı, 26.03.2019",
-			"year": 2019,
-			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26173359_7_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"çekilmiş-sayılma",
-			"aylıksız-izin"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-dmo16sm-q007",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/memurlugun-sona-ermesi",
-		"difficulty": "zor",
-		"stem": "657 sayılı Devlet Memurları Kanunu’na göre çekilmek isteyen memurun, yerine atanan kimsenin bir aya kadar gelmemesi durumunda üstüne haber vererek görevini bırakması hâlinde tekrar Devlet memurluğuna alınabilmesi için en az ne kadar zaman geçmesi gerekir?",
-		"options": [
-			"Üç ay",
-			"Altı ay",
-			"Bir yıl",
-			"Üç yıl"
-		],
-		"correctIndex": 1,
-		"explanation": "657 sayılı Kanun'un 94. maddesine göre çekilmek isteyen memur, yerine atanan kimse bir aya kadar gelmezse üstüne haber vererek görevini bırakabilir. 97. maddenin (A) bendine göre 94. maddenin 2. ve 3. fıkralarına uygun olarak çekilenler altı ay geçmeden yeniden Devlet memurluğuna alınamaz. Yazılı müracaat şartına uymadan görevden ayrılanlarda bu süre bir yıldır.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "97",
-			"clause": "A"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Devlet Malzeme Ofisi Görevde Yükselme Sınavı (Şube Müdürü/Müdür) A Kitapçığı, 2016",
-			"year": 2016,
-			"url": "https://odsgm.meb.gov.tr/www/dmo-gorevde-yukselme-ve-unvan-degisikligi-sinav-sorulari-ve-cevap-anahtari/icerik/151",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"çekilme",
-			"yeniden-atanma"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl17yim-q019",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/memurlugun-sona-ermesi",
-		"difficulty": "orta",
-		"stem": "657 sayılı Devlet Memurları Kanunu’na göre “memurluktan çekilme” ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Olağanüstü mazeretle çekilenler, yasal süreye tabi olmadan üstüne haber vermeksizin çekilebilirler.",
-			"Devlet memuru bağlı olduğu kuruma yazılı olarak müracaat etmek suretiyle memurluktan çekilme isteğinde bulunabilir.",
-			"Çekilmek isteyen memur yerine atanan kimsenin gelmesine veya çekilme isteğinin kabulüne kadar görevine devam eder.",
-			"Yerine atanan kimse bir aya kadar gelmediği veya yerine bir vekil atanmadığı takdirde, üstüne haber vererek görevini bırakabilir.",
-			"Mezuniyetsiz veya kurumlarınca kabul edilen mazereti olmaksızın görevin terk edilmesi ve bu terkin kesintisiz 10 gün devam etmesi hâlinde, yazılı müracaat şartı aranmaksızın, çekilme isteğinde bulunulmuş sayılır."
-		],
-		"correctIndex": 0,
-		"explanation": "657 sayılı Kanun'un 94. maddesine göre olağanüstü mazeretle çekilenler ÜSTÜNE HABER VERMEK ŞARTIYLA bir ay kaydına tabi değildir; haber verme yükümlülüğü ortadan kalkmaz. Maddenin diğer hükümleri uyarınca çekilme yazılı müracaatla olur, memur yerine atanan gelene kadar görevine devam eder ve kesintisiz on gün süren izinsiz görev terki çekilme isteği sayılır.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "94"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
-			"year": 2017,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"çekilme"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
 	},
 	{
 		"id": "657-sona-013",
@@ -575,13 +404,13 @@
 		"difficulty": "kolay",
 		"stem": "657 sayılı Kanun'un çekilmede devir ve teslim süresini düzenleyen hükmüne göre aşağıdakilerden hangisi doğrudur?",
 		"options": [
-			"Devir ve teslimle yükümlü olanlar bu işlemlerin sonuna kadar görevlerini bırakamaz; gerekli süreler yönetmelikte belirtilir.",
-			"Devir ve teslim süresi her hâlde on gündür ve uzatılamaz.",
 			"Devir ve teslimle yükümlü olanlar çekilme dilekçesini verdikleri anda görevlerini bırakabilirler.",
 			"Devir ve teslim süresi memurun kendi talebiyle belirlenir.",
+			"Devir ve teslimle yükümlü olanlar bu işlemlerin sonuna kadar görevlerini bırakamaz; gerekli süreler yönetmelikte belirtilir.",
+			"Devir ve teslim süresi her hâlde on gündür ve uzatılamaz.",
 			"Devir ve teslim yükümlülüğü yalnızca olağanüstü hâl ilan edilen yerlerde uygulanır."
 		],
-		"correctIndex": 0,
+		"correctIndex": 2,
 		"explanation": "Madde 95'e göre çekilen Devlet memurlarından devir ve teslim ile yükümlü olanlar, bu işlemlerin sonuna kadar görevlerini bırakamazlar; hizmet icaplarına göre devir ve teslim işlemleri için gerekli süreler yönetmelikte belirtilir. Kanun sabit bir gün sayısı öngörmediği gibi süreyi memurun takdirine de bırakmamıştır. Devir ve teslim yapmadan görevini bırakanlar bakımından uygulanacak yaptırım ise m.97'de düzenlenmiştir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -598,7 +427,7 @@
 		"tags": [
 			"devir-teslim"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -608,13 +437,13 @@
 		"difficulty": "orta",
 		"stem": "Memurluktan kendi isteğiyle çekilen bir kişinin 657 sayılı Kanun'a göre yeniden memurluğa atanabilmesi bakımından aşağıdakilerden hangisi yanlıştır?",
 		"options": [
-			"Yeniden atanma en çok iki defa mümkündür.",
-			"Ayrıldığı sınıfta boş kadro bulunması gerekir.",
 			"Ayrıldığı sınıfın niteliklerini taşıması gerekir.",
-			"Ayrıldığı tarihte almakta olduğu aylık derecesine eşit bir derecenin aynı kademesine atanabilir.",
-			"Yalnızca ayrıldığı sınıfa dönebilir, başka bir sınıfa hiçbir şekilde atanamaz."
+			"Ayrıldığı sınıfta boş kadro bulunması gerekir.",
+			"Yalnızca ayrıldığı sınıfa dönebilir, başka bir sınıfa hiçbir şekilde atanamaz.",
+			"Yeniden atanma en çok iki defa mümkündür.",
+			"Ayrıldığı tarihte almakta olduğu aylık derecesine eşit bir derecenin aynı kademesine atanabilir."
 		],
-		"correctIndex": 4,
+		"correctIndex": 2,
 		"explanation": "Madde 92'ye göre iki defadan fazla olmamak üzere memurluktan kendi istekleriyle çekilenler veya çekilmiş sayılanlar, ayrıldıkları sınıfta boş kadro bulunmak ve bu sınıfın niteliklerini taşımak şartıyla ayrıldıkları tarihte almakta oldukları aylık derecesine eşit bir derecenin aynı kademesine atanabilirler. Madde ayrıca 71 inci madde hükümlerine uyulmak suretiyle diğer bir sınıfta eşit derecedeki kadrolara atanmaya da açıkça imkân tanıdığından, başka bir sınıfa hiçbir şekilde atanılamayacağı ifadesi yanlıştır.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -631,7 +460,7 @@
 		"tags": [
 			"yeniden-atanma"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -642,12 +471,12 @@
 		"stem": "657 sayılı Kanun'a göre yasama görevinde veya bakan olarak geçirilen süreler, memuriyete dönüşte nasıl değerlendirilir?",
 		"options": [
 			"Her yıl için bir derece yükselmesine esas olacak şekilde değerlendirilir.",
+			"Yalnızca kazanılmış hak aylığında değerlendirilir, kademe ve dereceye etki etmez.",
 			"Her yıl bir kademe ilerlemesi ve her iki yıl bir derece yükselmesine esas olacak şekilde değerlendirilir.",
-			"Her iki yıl için bir kademe ilerlemesine esas olacak şekilde değerlendirilir.",
 			"Bu süreler memuriyette geçmiş sayılmaz ve değerlendirilmez.",
-			"Yalnızca kazanılmış hak aylığında değerlendirilir, kademe ve dereceye etki etmez."
+			"Her iki yıl için bir kademe ilerlemesine esas olacak şekilde değerlendirilir."
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Madde 92'nin ilgili fıkrası, yasama görevinde veya bakan olarak geçirilen her yılın bir kademe ilerlemesi, her iki yılın ise bir derece yükselmesine esas olacak şekilde değerlendirileceğini düzenler. Bu süreler değerlendirme dışı bırakılmadığı gibi, etkisi de yalnızca kazanılmış hak aylığıyla sınırlı değildir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -665,7 +494,7 @@
 			"yasama-gorevi",
 			"kademe"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -677,8 +506,8 @@
 		"options": [
 			"Sınıfında yazılı nitelikleri taşımakta bulunmak",
 			"Kurumda boş kadro bulunması",
-			"Emeklilikle ilgili görevlere yeniden atanamayacaklar arasında bulunmamak",
 			"Memurluktan çekilenlerin yeniden atanmasına ilişkin hükümlere uygunluk",
+			"Emeklilikle ilgili görevlere yeniden atanamayacaklar arasında bulunmamak",
 			"Emekli aylığından feragat edildiğine dair yazılı beyanda bulunmak"
 		],
 		"correctIndex": 4,
@@ -699,7 +528,7 @@
 			"emekli",
 			"yeniden-hizmet"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -709,13 +538,13 @@
 		"difficulty": "uzman",
 		"stem": "657 sayılı Kanun'a tabi olmayan bir kurumdaki görevinden kendi isteğiyle ayrılan bir personelin, bu Kanun'a tabi kurumlarda memuriyete atanması bakımından aşağıdakilerden hangisi doğrudur?",
 		"options": [
-			"Bu kişiler hiçbir şekilde bu Kanun'a tabi kurumlarda memuriyete atanamaz.",
-			"Boş kadro bulunmak ve gireceği sınıfın niteliklerini taşımak kaydıyla atanabilirler.",
 			"Atanabilmeleri için önce bu Kanun'a tabi bir kurumda aday memur olarak bir yıl çalışmaları gerekir.",
+			"Bu kişiler hiçbir şekilde bu Kanun'a tabi kurumlarda memuriyete atanamaz.",
+			"Atanabilmeleri, ayrıldıkları tarihten itibaren en çok altı ay içinde başvurmalarına bağlıdır.",
 			"Yalnızca ayrıldıkları kurumun muvafakati hâlinde atanabilirler.",
-			"Atanabilmeleri, ayrıldıkları tarihten itibaren en çok altı ay içinde başvurmalarına bağlıdır."
+			"Boş kadro bulunmak ve gireceği sınıfın niteliklerini taşımak kaydıyla atanabilirler."
 		],
-		"correctIndex": 1,
+		"correctIndex": 4,
 		"explanation": "Madde 92'nin ayrı bir fıkrası, 657 sayılı Kanun'a tabi olmayan personelden kendi istekleriyle görevinden çekilmiş olanların, boş kadro bulunmak ve gireceği sınıfın niteliklerini taşımak kaydıyla bu Kanun'a tabi kurumlardaki memuriyetlere atanabileceğini düzenler. Bu fıkra bağımsız bir hüküm olduğundan, maddenin birinci fıkrasındaki iki defa sınırı ile derece ve kademe eşitliği şartları burada aranmaz; muvafakat veya altı aylık başvuru süresi gibi ek şartlar da maddede yer almaz.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -733,7 +562,7 @@
 			"kapsam-disi-personel",
 			"atanma"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -768,6 +597,108 @@
 			"madde-97",
 			"cekilme",
 			"yeniden-atanma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-sona-019",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 83. maddesine göre, muvazzaf askerlik hizmetini tamamlayıp memuriyete dönmek isteyenler ile kurumların yükümlülükleri bakımından süreler aşağıdakilerin hangisinde doğru verilmiştir?",
+		"options": [
+			"Memur terhis tarihinden itibaren 30 gün içinde başvurur; kurum boş kadro bulunduğunda göreve başlatır.",
+			"Memur terhis tarihinden itibaren 30 gün içinde başvurur; kurum başvurudan itibaren azami 30 gün içinde göreve başlatır.",
+			"Memur terhis tarihinden itibaren 60 gün içinde başvurur; kurum için süre öngörülmemiştir.",
+			"Memur terhis tarihinden itibaren 15 gün içinde başvurur; kurum 15 gün içinde göreve başlatır.",
+			"Başvuru süresi yoktur; kurum talep hâlinde göreve başlatır."
+		],
+		"correctIndex": 1,
+		"explanation": "83. maddenin birinci fıkrasına göre Devlet memuru iken muvazzaf askerlik hizmetini yapmak üzere silah altına alınanlardan askerlik görevini tamamlayıp memuriyete dönmek isteyenler terhis tarihinden itibaren 30 gün içinde kurumlarına başvurmak, kurumları da başvurma tarihinden itibaren azami 30 gün içinde ilgilileri göreve başlatmak zorundadır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "83"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"askerlik",
+			"göreve-dönüş"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-sona-020",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "uzman",
+		"stem": "657 sayılı Kanun'un 97. maddesine göre, bu Kanun'a göre çekilmiş sayılanlar ile çekilme usulüne uymadan görevlerinden ayrılanlar ne kadar süre geçmeden Devlet memurluğuna alınamaz?",
+		"options": [
+			"Altı ay",
+			"Bir yıl",
+			"Hiçbir surette alınamazlar",
+			"Üç yıl",
+			"İki yıl"
+		],
+		"correctIndex": 1,
+		"explanation": "97. madde yeniden atanma yasağını dört kademede düzenler: 94. maddenin 2. ve 3. fıkrasına uygun olarak çekilenler altı ay, bu Kanuna göre çekilmiş sayılanlar ile 94. maddenin 2. fıkrasına uymadan ayrılanlar bir yıl, 95. maddedeki devir teslim zorunluluklarına uymayanlar üç yıl geçmeden; 96. maddeye aykırı hareket edenler ise hiçbir surette Devlet memurluğuna alınamaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "97"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yeniden-atanma",
+			"çekilmiş-sayılma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-sona-021",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 108. maddesine göre, aylıksız izin kullanan bir memur bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Aylıksız izin süresinin bitiminde veya mazeret sebebinin kalkmasını izleyen on gün içinde göreve dönmeyenler memuriyetten çekilmiş sayılır.",
+			"Muvazzaf askerliğe ayrılan memurun görev yeri saklı tutulmaz.",
+			"Aylıksız izin süresinin bitiminden itibaren otuz gün içinde göreve dönülmesi yeterlidir.",
+			"Göreve dönmeyen memur hakkında yalnızca disiplin soruşturması açılır.",
+			"Aylıksız izin süresi bitmeden mazeretin ortadan kalkması hâlinde memurun göreve dönme yükümlülüğü doğmaz."
+		],
+		"correctIndex": 0,
+		"explanation": "108. maddenin (F) fıkrasına göre aylıksız izin süresinin bitiminden önce mazereti gerektiren sebebin ortadan kalkması hâlinde on gün içinde göreve dönülmesi zorunludur; aylıksız izin süresinin bitiminde veya mazeret sebebinin kalkmasını izleyen on gün içinde görevine dönmeyenler memuriyetten çekilmiş sayılır. (G) fıkrası uyarınca muvazzaf askerliğe ayrılan memurlar ise askerlik süresince görev yeri saklı kalarak aylıksız izinli sayılır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "108"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"aylıksız-izin",
+			"çekilmiş-sayılma"
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"

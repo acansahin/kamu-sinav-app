@@ -6,12 +6,12 @@
 		"difficulty": "kolay",
 		"stem": "Anayasa'ya göre temel hak ve hürriyetler hangi araçla sınırlanabilir?",
 		"options": [
-			"Yalnızca kanunla",
-			"Cumhurbaşkanlığı kararnamesiyle",
+			"Bakanlık genelgesiyle",
 			"Yönetmelikle",
-			"Bakanlık genelgesiyle"
+			"Yalnızca kanunla",
+			"Cumhurbaşkanlığı kararnamesiyle"
 		],
-		"correctIndex": 0,
+		"correctIndex": 2,
 		"explanation": "Anayasa'nın 13. maddesine göre temel hak ve hürriyetler, özlerine dokunulmaksızın yalnızca Anayasanın ilgili maddelerinde belirtilen sebeplere bağlı olarak ve ancak kanunla sınırlanabilir. Kararname, yönetmelik veya genelge gibi idari düzenleyici işlemlerle temel hak sınırlaması yapılamaz.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -29,7 +29,7 @@
 			"madde-13",
 			"sinirlama"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -39,12 +39,12 @@
 		"difficulty": "kolay",
 		"stem": "Anayasa'nın 12. maddesine göre temel hak ve hürriyetlerin nitelikleri aşağıdakilerden hangisinde doğru verilmiştir?",
 		"options": [
-			"Dokunulmaz, devredilebilir, vazgeçilebilir",
 			"Dokunulmaz, devredilmez, vazgeçilmez",
+			"Devredilebilir, sınırlanamaz, vazgeçilmez",
 			"Sınırsız, devredilmez, mutlak",
-			"Devredilebilir, sınırlanamaz, vazgeçilmez"
+			"Dokunulmaz, devredilebilir, vazgeçilebilir"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 12'ye göre herkes, kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez temel hak ve hürriyetlere sahiptir. 'Sınırsız' veya 'mutlak' nitelemesi yanlıştır; haklar madde 13 çerçevesinde sınırlanabilir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -62,7 +62,7 @@
 			"madde-12",
 			"nitelik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -72,12 +72,12 @@
 		"difficulty": "kolay",
 		"stem": "Yakalanan bir kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç, en geç ne kadar sürede hâkim önüne çıkarılır?",
 		"options": [
-			"24 saat",
 			"48 saat",
-			"72 saat",
-			"4 gün"
+			"24 saat",
+			"4 gün",
+			"72 saat"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Anayasa'nın 19. maddesine göre yakalanan veya tutuklanan kişi en geç 48 saat içinde hâkim önüne çıkarılır. Toplu olarak işlenen suçlarda bu süre en çok 4 gündür. Şıktaki '4 gün' bu istisnaya ait olup, sorunun sorduğu genel kurala değil.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -95,7 +95,7 @@
 			"madde-19",
 			"sure"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -105,12 +105,12 @@
 		"difficulty": "orta",
 		"stem": "Anayasa'nın 13. maddesine göre temel hak ve hürriyetlere getirilen sınırlamalar aşağıdakilerden hangisine aykırı olamaz?",
 		"options": [
+			"Hakkın özüne, Anayasa'nın sözüne ve ruhuna, demokratik toplum düzeninin ve laik Cumhuriyetin gereklerine ve ölçülülük ilkesine",
 			"Yalnızca hakkın özüne",
 			"Yalnızca ölçülülük ilkesine",
-			"Hakkın özüne, Anayasa'nın sözüne ve ruhuna, demokratik toplum düzeninin ve laik Cumhuriyetin gereklerine ve ölçülülük ilkesine",
 			"Yalnızca Anayasa'nın sözüne"
 		],
-		"correctIndex": 2,
+		"correctIndex": 0,
 		"explanation": "Madde 13, sınırlamanın dört ayrı sınırını birlikte sayar: hakkın özüne dokunulamaz; sınırlama Anayasa'nın sözüne ve ruhuna, demokratik toplum düzeninin ve laik Cumhuriyetin gereklerine ve ölçülülük ilkesine aykırı olamaz. Bunlardan yalnızca birini veren şıklar eksiktir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -128,7 +128,7 @@
 			"madde-13",
 			"olcululuk"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -138,12 +138,12 @@
 		"difficulty": "orta",
 		"stem": "Anayasa'nın 15. maddesine göre temel hak ve hürriyetlerin kullanılması hangi hâllerde durdurulabilir?",
 		"options": [
+			"Savaş, seferberlik, sıkıyönetim veya olağanüstü hâllerde",
 			"Savaş, seferberlik veya olağanüstü hâllerde",
 			"Yalnızca savaş hâlinde",
-			"Savaş, seferberlik, sıkıyönetim veya olağanüstü hâllerde",
 			"Ekonomik kriz ve doğal afet hâllerinde"
 		],
-		"correctIndex": 0,
+		"correctIndex": 1,
 		"explanation": "Madde 15'e göre savaş, seferberlik veya olağanüstü hâllerde, milletlerarası hukuktan doğan yükümlülükler ihlal edilmemek kaydıyla ve durumun gerektirdiği ölçüde temel hak ve hürriyetlerin kullanılması kısmen veya tamamen durdurulabilir. 'Sıkıyönetim' 2017 Anayasa değişikliğiyle metinden çıkarılmıştır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -161,7 +161,7 @@
 			"madde-15",
 			"guncellik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -171,10 +171,10 @@
 		"difficulty": "orta",
 		"stem": "Anayasa'daki hak sınıflandırmasına göre 'eğitim ve öğrenim hakkı' hangi grupta yer alır?",
 		"options": [
-			"Kişi hakları ve ödevleri",
-			"Sosyal ve ekonomik haklar ve ödevler",
 			"Siyasi haklar ve ödevler",
-			"Koruyucu haklar"
+			"Sosyal ve ekonomik haklar ve ödevler",
+			"Koruyucu haklar",
+			"Kişi hakları ve ödevleri"
 		],
 		"correctIndex": 1,
 		"explanation": "Anayasa temel hakları üç grupta düzenler: kişi hakları ve ödevleri (m. 17-40), sosyal ve ekonomik haklar ve ödevler (m. 41-65), siyasi haklar ve ödevler (m. 66-74). Eğitim ve öğrenim hakkı 42. maddede yer aldığından sosyal ve ekonomik haklar grubundadır.",
@@ -193,7 +193,7 @@
 		"tags": [
 			"siniflandirma"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -203,10 +203,10 @@
 		"difficulty": "zor",
 		"stem": "Anayasa'nın 15. maddesine göre olağanüstü hâllerde dahi dokunulamayacak haklar arasında aşağıdakilerden hangisi yer almaz?",
 		"options": [
-			"Suç ve cezaların geçmişe yürütülemeyeceği",
 			"Masumiyet karinesi",
+			"Kimsenin din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaması",
 			"Toplantı ve gösteri yürüyüşü düzenleme hakkı",
-			"Kimsenin din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaması"
+			"Suç ve cezaların geçmişe yürütülemeyeceği"
 		],
 		"correctIndex": 2,
 		"explanation": "Madde 15'in ikinci fıkrasındaki çekirdek alan dört başlıktan oluşur: savaş hukukuna uygun fiiller sonucu meydana gelen ölümler dışında yaşama hakkı ile maddi ve manevi varlığın bütünlüğü; din, vicdan, düşünce ve kanaatleri açıklamaya zorlanmama; suç ve cezaların geçmişe yürütülmemesi; masumiyet karinesi. Toplantı ve gösteri yürüyüşü hakkı bu çekirdeğe dâhil değildir, dolayısıyla durdurulabilir.",
@@ -226,7 +226,7 @@
 			"madde-15",
 			"cekirdek"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -236,12 +236,12 @@
 		"difficulty": "zor",
 		"stem": "Anayasa'nın 16. maddesine göre temel hak ve hürriyetler yabancılar için nasıl sınırlanabilir?",
 		"options": [
-			"Hiçbir şekilde sınırlanamaz.",
-			"Milletlerarası hukuka uygun olarak kanunla sınırlanabilir.",
 			"İdari kararla serbestçe sınırlanabilir.",
-			"Yalnızca karşılıklılık esasına dayanarak Cumhurbaşkanı kararıyla sınırlanabilir."
+			"Yalnızca karşılıklılık esasına dayanarak Cumhurbaşkanı kararıyla sınırlanabilir.",
+			"Milletlerarası hukuka uygun olarak kanunla sınırlanabilir.",
+			"Hiçbir şekilde sınırlanamaz."
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Madde 16, temel hak ve hürriyetlerin yabancılar için milletlerarası hukuka uygun olarak kanunla sınırlanabileceğini düzenler. Burada iki koşul birlikte aranır: sınırlamanın aracı kanundur ve içeriği milletlerarası hukuka uygun olmalıdır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -259,7 +259,7 @@
 			"madde-16",
 			"yabanci"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -269,12 +269,12 @@
 		"difficulty": "zor",
 		"stem": "Toplu olarak işlenen bir suç nedeniyle yakalanan kişi, en çok ne kadar süre içinde hâkim önüne çıkarılmalıdır?",
 		"options": [
-			"48 saat",
-			"3 gün",
 			"4 gün",
+			"3 gün",
+			"48 saat",
 			"7 gün"
 		],
-		"correctIndex": 2,
+		"correctIndex": 0,
 		"explanation": "Madde 19'da iki ayrı süre vardır: genel kural 48 saat, toplu olarak işlenen suçlarda ise en çok 4 gündür. Her iki sürede de tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hesaba katılmaz. Soruların ayırt edici noktası suçun toplu işlenip işlenmediğidir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -292,7 +292,7 @@
 			"madde-19",
 			"tuzak"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -325,7 +325,7 @@
 			"madde-13",
 			"senaryo"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -335,12 +335,12 @@
 		"difficulty": "uzman",
 		"stem": "Olağanüstü hâl ilan edilen bir dönemde, daha önce suç olmayan bir fiil için geçmişe etkili şekilde ceza öngören bir düzenleme yapılmıştır. Bu düzenleme için ne söylenebilir?",
 		"options": [
-			"Olağanüstü hâlde temel haklar durdurulabildiğinden düzenleme geçerlidir.",
-			"Durumun gerektirdiği ölçüde olduğu sürece geçerlidir.",
+			"Yalnızca milletlerarası hukuka aykırılık varsa geçersizdir.",
 			"Suç ve cezaların geçmişe yürütülemeyeceği kuralı olağanüstü hâlde dahi askıya alınamaz; düzenleme Anayasa'ya aykırıdır.",
-			"Yalnızca milletlerarası hukuka aykırılık varsa geçersizdir."
+			"Durumun gerektirdiği ölçüde olduğu sürece geçerlidir.",
+			"Olağanüstü hâlde temel haklar durdurulabildiğinden düzenleme geçerlidir."
 		],
-		"correctIndex": 2,
+		"correctIndex": 1,
 		"explanation": "Madde 15'in birinci fıkrası olağanüstü hâllerde hakların durdurulabileceğini söylerken, ikinci fıkrası dokunulamayacak çekirdek alanı belirler. Suç ve cezaların geçmişe yürütülemeyeceği bu çekirdek alandadır; dolayısıyla ölçülülük veya olağanüstü hâl gerekçesi bu yasağı aşamaz.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -358,7 +358,7 @@
 			"madde-15",
 			"senaryo"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -368,12 +368,12 @@
 		"difficulty": "uzman",
 		"stem": "Temel hak ve hürriyetlerin sınırlanmasına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
-			"Sınırlama, Anayasa'nın ilgili maddesinde belirtilmeyen bir sebebe dayandırılamaz.",
 			"Sınırlama, hakkın özüne dokunamaz.",
 			"Sınırlama için kanun çıkarılması yeterlidir; ayrıca ölçülülük aranmaz.",
-			"Sınırlama, demokratik toplum düzeninin gereklerine aykırı olamaz."
+			"Sınırlama, demokratik toplum düzeninin gereklerine aykırı olamaz.",
+			"Sınırlama, Anayasa'nın ilgili maddesinde belirtilmeyen bir sebebe dayandırılamaz."
 		],
-		"correctIndex": 2,
+		"correctIndex": 1,
 		"explanation": "Kanunilik, sınırlamanın yalnızca ilk şartıdır. Madde 13'e göre kanunla yapılan sınırlama ayrıca hakkın özüne dokunmamalı; Anayasa'nın sözüne ve ruhuna, demokratik toplum düzeninin ve laik Cumhuriyetin gereklerine ve ölçülülük ilkesine de uygun olmalıdır. Bu nedenle III. ifade yanlıştır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -391,1061 +391,8 @@
 			"madde-13",
 			"tuzak"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
-	},
-	{
-		"id": "sytay-gys23-q002",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıdakilerden hangisi temel hak ve hürriyetlerin kullanılmasının durdurulması hallerinden biri değildir?",
-		"options": [
-			"Seferberlik",
-			"Olağanüstü hâl",
-			"Sıkıyönetim",
-			"Savaş"
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 15. maddesi temel hak ve hürriyetlerin kullanılmasının kısmen veya tamamen durdurulabileceği halleri savaş, seferberlik ve olağanüstü hal olarak sayar. Sıkıyönetim, 2017 Anayasa değişikliğiyle metinden çıkarılmıştır; bu nedenle geçerli bir durdurma hali değildir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "15"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "published",
-		"tags": [
-			"olaganustu-yonetim"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-25"
-	},
-	{
-		"id": "sytay-gys23-q004",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "kolay",
-		"stem": "“Temel hak ve hürriyetler, yabancılar için, milletlerarası hukuka uygun olarak (…) sınırlanabilir.” 2709 sayılı Türkiye Cumhuriyeti Anayasasına göre yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
-		"options": [
-			"Anayasayla",
-			"Cumhurbaşkanlığı Kararnamesiyle",
-			"Kanunla",
-			"Yönetmelikle"
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 16. maddesi uyarınca temel hak ve hürriyetler, yabancılar için, milletlerarası hukuka uygun olarak ancak KANUNLA sınırlanabilir. Temel hakların sınırlanması genel olarak da (m.13) kanunla yapılır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "16"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "published",
-		"tags": [
-			"yabancilarin-durumu"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-25"
-	},
-	{
-		"id": "sytay-gys23-q005",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "Aşağıdakilerden hangisi 2709 sayılı Türkiye Cumhuriyeti Anayasasının “Kişinin Hakları ve Ödevleri” bölümünde düzenlenen haklardan biri değildir?",
-		"options": [
-			"Kişinin dokunulmazlığı, maddi ve manevi varlığı",
-			"Kişi hürriyeti ve güvenliği",
-			"Konut dokunulmazlığı",
-			"Eğitim ve öğrenim hakkı ve ödevi"
-		],
-		"correctIndex": 3,
-		"explanation": "Eğitim ve öğrenim hakkı ve ödevi (m.42), Anayasa'nın 'Sosyal ve Ekonomik Haklar ve Ödevler' bölümünde düzenlenir. Diğer üç seçenek 'Kişinin Hakları ve Ödevleri' bölümündeki klasik (birinci kuşak) haklardandır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "42"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "published",
-		"tags": [
-			"hak-siniflandirmasi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-25"
-	},
-	{
-		"id": "sytay-gys23-q006",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "Aşağıdakilerden hangisi 2709 sayılı Türkiye Cumhuriyeti Anayasasının “Siyasi Haklar ve Ödevler” bölümünde düzenlenen hak veya ödevlerden biridir?",
-		"options": [
-			"Sendika kurma hakkı",
-			"Grev hakkı ve lokavt",
-			"Vergi ödevi",
-			"Sosyal güvenlik hakkı"
-		],
-		"correctIndex": 2,
-		"explanation": "Vergi ödevi (m.73) Anayasa'nın 'Siyasi Haklar ve Ödevler' bölümünde yer alır. Sendika kurma (m.51), grev ve lokavt (m.54) ve sosyal güvenlik (m.60) ise 'Sosyal ve Ekonomik Haklar ve Ödevler' bölümündedir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "73"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "published",
-		"tags": [
-			"vergi-odevi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-25"
-	},
-	{
-		"id": "meb-sm26-q023",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "Yakalanan veya tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç en geç - - - - saat ve toplu olarak işlenen suçlarda en çok - - - - gün içinde hâkim önüne çıkarılır. T.C. Anayasası'na göre, verilen hükümde boş bırakılan yerlere aşağıdakilerden hangisi sırasıyla getirilmelidir?",
-		"options": [
-			"on iki - üç",
-			"on iki - yedi",
-			"yirmi dört - dört",
-			"kırk sekiz - üç",
-			"kırk sekiz - dört"
-		],
-		"correctIndex": 4,
-		"explanation": "Anayasa'nın 19. maddesine göre yakalanan veya tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç en geç kırk sekiz saat, toplu olarak işlenen suçlarda ise en çok dört gün içinde hâkim önüne çıkarılır. Bu süreler kişi hürriyetinin güvencesidir ve aşılamaz.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "19"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Şube Müdürü Görevde Yükselme Sınavı A Kitapçığı, 2026",
-			"year": 2026,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2026_02/69899a10ca3ec941629998_SUBE_MUDURU_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"kisi-hurriyeti",
-			"gozalti"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sm26-q024",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "kolay",
-		"stem": "T.C. Anayasası'na göre; düşünceyi açıklama ve yayma hürriyetinin kullanılmasında uygulanacak şekil, şart ve usuller aşağıdakilerden hangisiyle düzenlenir?",
-		"options": [
-			"Kanun",
-			"Yönetmelik",
-			"Cumhurbaşkanlığı kararnamesi",
-			"Genelge",
-			"Tüzük"
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 26. maddesine göre düşünceyi açıklama ve yayma hürriyetinin kullanılmasında uygulanacak şekil, şart ve usuller kanunla düzenlenir. Temel hak ve hürriyetlerin sınırlanması ve kullanım usulünün belirlenmesi kanun koyucuya ait olduğundan yönetmelik veya genelgeyle düzenleme yapılamaz.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "26"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Şube Müdürü Görevde Yükselme Sınavı A Kitapçığı, 2026",
-			"year": 2026,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2026_02/69899a10ca3ec941629998_SUBE_MUDURU_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"dusunce-hurriyeti"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sm26-q025",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre; siyasi partilerin kapatılması, aşağıdakilerden hangisinin açacağı dava üzerine kesin olarak karara bağlanır?",
-		"options": [
-			"Yüksek Hakem Kurulu",
-			"Hâkimler ve Savcılar Kurulu",
-			"Anayasa Mahkemesi Raportörü",
-			"Yargıtay Cumhuriyet Başsavcısı",
-			"Türkiye Büyük Millet Meclisi Başkanı"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 69. maddesine göre siyasi partilerin kapatılması, Yargıtay Cumhuriyet Başsavcısının açacağı dava üzerine Anayasa Mahkemesince kesin olarak karara bağlanır. Davayı açan makam ile kararı veren makamın ayrı olması, siyasi partilere sağlanan anayasal güvencenin bir parçasıdır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "69"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Şube Müdürü Görevde Yükselme Sınavı A Kitapçığı, 2026",
-			"year": 2026,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2026_02/69899a10ca3ec941629998_SUBE_MUDURU_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"siyasi-partiler"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl23-q002",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre, aşağıdakilerden hangisi sosyal ve ekonomik haklar ve ödevlerdendir?",
-		"options": [
-			"Konut hakkı",
-			"Mülkiyet hakkı",
-			"Zorla çalıştırma yasağı",
-			"Konut dokunulmazlığı",
-			"Vergi ödevi"
-		],
-		"correctIndex": 0,
-		"explanation": "Konut hakkı, Anayasa'nın 57. maddesinde sosyal ve ekonomik haklar ve ödevler bölümünde düzenlenmiştir. Diğer seçenekler farklı bölümlere aittir: mülkiyet hakkı, zorla çalıştırma yasağı ve konut dokunulmazlığı kişinin hakları ve ödevleri, vergi ödevi ise siyasi haklar ve ödevler bölümünde yer alır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "57"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"sosyal-haklar"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl23-q003",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'nda \"Hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz.\" hükmü hangi başlık altında düzenlenmiştir?",
-		"options": [
-			"Hak arama hürriyeti",
-			"Suç ve cezalara ilişkin esaslar",
-			"Yargı yetkisi",
-			"Kanuni hâkim güvencesi",
-			"Duruşmaların açık ve kararların gerekçeli olması"
-		],
-		"correctIndex": 3,
-		"explanation": "Hiç kimsenin kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamayacağı kuralı, Anayasa'nın 37. maddesinde 'kanuni hâkim güvencesi' başlığı altında düzenlenmiştir. Bu güvence, kişiye özel veya olaya özel mahkeme kurulmasını engelleyerek yargılamanın önceden belirlenmiş kurallara göre yapılmasını sağlar.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "37"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"kanuni-hakim-guvencesi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl23-q004",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre, \"temel haklar ve ödevler\" ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Herkes, kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez temel hak ve hürriyetlere sahiptir.",
-			"Türkiye Cumhuriyeti'nde temel hak ve ödevler yalnızca Türk vatandaşları için tanınır.",
-			"Temel hak ve hürriyetler, kişinin topluma, ailesine ve diğer kişilere karşı ödev ve sorumluluklarını da ihtiva eder.",
-			"Anayasa hükümlerinden hiçbiri, Devlet'e veya kişilere, Anayasa'yla tanınan temel hak ve hürriyetlerin yok edilmesini veya Anayasa'da belirtilenden daha geniş şekilde sınırlandırılmasını amaçlayan bir faaliyette bulunmayı mümkün kılacak şekilde yorumlanamaz.",
-			"Anayasa'da yer alan hak ve hürriyetlerden hiçbiri, Devlet'in ülkesi ve milletiyle bölünmez bütünlüğünü bozmayı ve insan haklarına dayanan demokratik ve laik Cumhuriyet'i ortadan kaldırmayı amaçlayan faaliyetler biçiminde kullanılamaz."
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 12. maddesine göre herkes kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez temel hak ve hürriyetlere sahiptir; bu haklar vatandaşlıkla sınırlı değildir. Bu nedenle temel hak ve ödevlerin yalnızca Türk vatandaşları için tanındığı ifadesi yanlıştır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "12"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"temel-haklar"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-ic21-q012",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre aşağıdaki hükümlerden hangisi siyasi haklar ve ödevler ile ilgilidir?",
-		"options": [
-			"Devlet, başarılı sporcuyu korur.",
-			"Çalışma, herkesin hakkı ve ödevidir.",
-			"Vatan hizmeti, her Türk'ün hakkı ve ödevidir.",
-			"Özel teşebbüsler kurmak serbesttir."
-		],
-		"correctIndex": 2,
-		"explanation": "Vatan hizmetinin her Türk'ün hakkı ve ödevi olduğu kuralı Anayasa'nın 72. maddesinde siyasi haklar ve ödevler bölümünde düzenlenmiştir. Diğer seçeneklerdeki sporcunun korunması, çalışma hakkı ve özel teşebbüs hürriyeti sosyal ve ekonomik haklar ve ödevler bölümünde yer alır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "72"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2021",
-			"year": 2021,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171238_7_YEF_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"siyasi-haklar",
-			"vatan-hizmeti"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl25-q003",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "kolay",
-		"stem": "T.C. Anayasası'na göre, kişisel verilerin korunmasına ilişkin esas ve usuller aşağıdakilerden hangisiyle düzenlenir?",
-		"options": [
-			"Tüzük",
-			"Kanun",
-			"Genelge",
-			"Yönetmelik",
-			"Cumhurbaşkanlığı kararnamesi"
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 20. maddesine göre kişisel verilerin korunmasına ilişkin esas ve usuller kanunla düzenlenir. Herkes kendisiyle ilgili kişisel verilerin korunmasını isteme hakkına sahiptir; bu hak özel hayatın gizliliğinin bir uzantısıdır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "20"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2025",
-			"year": 2025,
-			"url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2025/11/adalet/gorev/10_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"kisisel-veriler"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl25-q004",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "zor",
-		"stem": "T.C. Anayasası'na göre, aşağıdakilerden hangisi yerleşme hürriyetinin kanunla sınırlandırılabileceği amaçlardan değildir?",
-		"options": [
-			"Suç işlenmesini önlemek",
-			"Kamu mallarını korumak",
-			"Sosyal ve ekonomik gelişmeyi sağlamak",
-			"Vergi yükünü adaletli ve dengeli dağıtmak",
-			"Sağlıklı ve düzenli kentleşmeyi gerçekleştirmek"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 23. maddesine göre yerleşme hürriyeti; suç işlenmesini önlemek, sosyal ve ekonomik gelişmeyi sağlamak, sağlıklı ve düzenli kentleşmeyi gerçekleştirmek ve kamu mallarını korumak amaçlarıyla kanunla sınırlanabilir. Vergi yükünün adaletli ve dengeli dağıtılması ise 73. maddede yer alan bir vergi ödevi ilkesidir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "23"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2025",
-			"year": 2025,
-			"url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2025/11/adalet/gorev/10_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"yerlesme-hurriyeti"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-dan19m-q002",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre aşağıdakilerden hangisi sosyal ve ekonomik haklar ve ödevlerden değildir?",
-		"options": [
-			"Kamu hizmetlerine girme hakkı",
-			"Eğitim ve öğrenim hakkı ve ödevi",
-			"Ailenin korunması ve çocuk hakları",
-			"Toplu iş sözleşmesi ve toplu sözleşme hakkı"
-		],
-		"correctIndex": 0,
-		"explanation": "Kamu hizmetlerine girme hakkı, Anayasa'nın 70. maddesinde siyasi haklar ve ödevler bölümünde düzenlenmiştir; sosyal ve ekonomik haklardan değildir. Eğitim ve öğrenim hakkı, ailenin korunması ve çocuk hakları ile toplu iş sözleşmesi hakkı ise sosyal ve ekonomik haklar bölümünde yer alır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "70"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Müdür) A Kitapçığı, 2019",
-			"year": 2019,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2019_07/02173605_1._GRUP_MUDUR_GYS_A_C.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"sosyal-haklar"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-dan19v-q002",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre aşağıdakilerden hangisi sosyal ve ekonomik haklar ve ödevlerdendir?",
-		"options": [
-			"Seçme, seçilme ve siyasi faaliyette bulunma hakları",
-			"Toplu iş sözleşmesi, grev hakkı ve lokavt",
-			"Zorla çalıştırma yasağı",
-			"Konut dokunulmazlığı"
-		],
-		"correctIndex": 1,
-		"explanation": "Toplu iş sözleşmesi, grev hakkı ve lokavt Anayasa'nın 53 ve 54. maddelerinde sosyal ve ekonomik haklar ve ödevler bölümünde düzenlenmiştir. Seçme ve seçilme hakkı siyasi haklar, zorla çalıştırma yasağı ve konut dokunulmazlığı ise kişinin hakları ve ödevleri bölümünde yer alır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "53"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Veri Hazırlama ve Kontrol İşletmeni) A Kitapçığı, 2019",
-			"year": 2019,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2020_01/03172311_1._GRUP_VERY_HAZIRLAMA_VE_KONTROL_YYLETMENY_GYS_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"sosyal-haklar",
-			"sendika"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-cte19im-q002",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası’na göre yerleşme ve seyahat hürriyeti ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Vatandaş sınır dışı edilemez ve yurda girme hakkından yoksun bırakılamaz.",
-			"Yerleşme hürriyeti suç işlenmesini önlemek amacıyla kanunla sınırlanabilir.",
-			"Seyahat hürriyeti suç soruşturma ve kovuşturması sebebiyle kanunla sınırlanabilir.",
-			"Vatandaşın yurt dışına çıkma hürriyeti ancak suç işlenmesini önlemek amacıyla kanunla sınırlanabilir."
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 23. maddesine göre vatandaşın yurt dışına çıkma hürriyeti, ancak SUÇ SORUŞTURMASI VEYA KOVUŞTURMASI SEBEBİYLE HÂKİM KARARINA BAĞLI OLARAK sınırlanabilir; 'suç işlenmesini önlemek amacıyla kanunla' sınırlama ölçütü yurt dışına çıkma hürriyeti için geçerli değildir. Yerleşme hürriyeti suç işlenmesini önlemek dâhil sayılan amaçlarla, seyahat hürriyeti ise suç soruşturma ve kovuşturması sebebiyle kanunla sınırlanabilir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "23"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İkinci Müdür) A Kitapçığı, 26.03.2019",
-			"year": 2019,
-			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171626_1_grup_ikinci_mudur_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"yerleşme-ve-seyahat"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-yim23-q002",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "Aşağıdakilerden hangisi 2709 sayılı Türkiye Cumhuriyeti Anayasasının Siyasi Haklar ve Ödevler başlığı altında düzenlenmemiştir?",
-		"options": [
-			"Vergi Ödevi",
-			"Vatan Hizmeti",
-			"Mal Bildirimi",
-			"Sendika Kurma Hakkı"
-		],
-		"correctIndex": 3,
-		"explanation": "Sendika kurma hakkı Anayasa'nın 51. maddesinde, 'Sosyal ve Ekonomik Haklar ve Ödevler' bölümünde düzenlenmiştir. Vergi ödevi (m. 73), vatan hizmeti (m. 72) ve mal bildirimi (m. 71) ise 'Siyasi Haklar ve Ödevler' bölümünde yer alır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "51"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"hak-sınıflandırması",
-			"sendika"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-sef23-q004",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıdakilerden hangisi “Suç ve cezalara ilişkin esaslar”la ilgili doğru bir ifadedir?",
-		"options": [
-			"Kanuna aykırı olarak elde edilmiş bulgular, delil olarak kabul edilemez",
-			"Ceza ve ceza yerine geçen güvenlik tedbirleri Cumhurbaşkanı kararıyla konulabilir",
-			"Ölüm cezası ve genel müsadere cezası verilebilir",
-			"Bir kimse, sözleşmeden doğan bir yükümlülüğü yerine getirememesi nedeniyle özgürlüğünden alıkonulabilir"
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 38. maddesine göre kanuna aykırı olarak elde edilmiş bulgular delil olarak kabul edilemez. Aynı madde uyarınca ceza ve ceza yerine geçen güvenlik tedbirleri ancak kanunla konulur, ölüm cezası ve genel müsadere cezası verilemez, hiç kimse yalnızca sözleşmeden doğan bir yükümlülüğü yerine getirememesinden dolayı özgürlüğünden alıkonulamaz.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "38"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"suç-ve-ceza"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-sef23-q005",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "kolay",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıdakilerden hangisi “Sosyal ve Ekonomik Haklar ve Ödevler” bölümünde düzenlenmiştir?",
-		"options": [
-			"Toplantı ve gösteri yürüyüşü düzenleme hakkı",
-			"Mülkiyet hakkı",
-			"Eğitim ve öğrenim hakkı ve ödevi",
-			"Vatan hizmeti"
-		],
-		"correctIndex": 2,
-		"explanation": "Eğitim ve öğrenim hakkı ve ödevi Anayasa'nın 42. maddesinde, 'Sosyal ve Ekonomik Haklar ve Ödevler' bölümünde düzenlenmiştir. Toplantı ve gösteri yürüyüşü düzenleme hakkı (m. 34) ile mülkiyet hakkı (m. 35) kişinin hakları ve ödevleri, vatan hizmeti (m. 72) ise siyasi haklar ve ödevler bölümündedir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "42"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"hak-sınıflandırması",
-			"eğitim-hakkı"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-yim23-q001",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıdakilerden hangisi milletlerarası hukuktan doğan yükümlülükler ihlal edilmemek kaydıyla, durumun gerektirdiği ölçüde temel hak ve hürriyetlerin kullanılmasının kısmen veya tamamen durdurulması hallerinden biri değildir?",
-		"options": [
-			"Savaş",
-			"Olağanüstü hâl",
-			"Sıkıyönetim",
-			"Seferberlik"
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 15. maddesine göre temel hak ve hürriyetlerin kullanılması savaş, seferberlik veya olağanüstü hâllerde kısmen ya da tamamen durdurulabilir. Sıkıyönetim ibaresi 2017 Anayasa değişikliğiyle madde metninden çıkarılmıştır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "15"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"olağanüstü-yönetim",
-			"2017-değişikliği"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-sef23-q003",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıdakilerden hangisi “Yerleşme ve Seyahat Hürriyeti”nin kanunla sınırlanabileceği hallerden biri değildir?",
-		"options": [
-			"Yerleşme hürriyeti, suç işlenmesini önlemek, sosyal ve ekonomik gelişmeyi sağlamak, sağlıklı ve düzenli kentleşmeyi gerçekleştirmek amaçlarıyla kanunla sınırlanabilir",
-			"Yerleşme Hürriyeti kamu yararı amacıyla sınırlanabilir",
-			"Yerleşme hürriyeti, kamu mallarını korumak amacıyla kanunla sınırlanabilir",
-			"Seyahat hürriyeti, suç soruşturma ve kovuşturması sebebiyle ve suç işlenmesini önlemek amaçlarıyla kanunla sınırlanabilir"
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 23. maddesinde yerleşme hürriyetinin sınırlanma sebepleri sayma yoluyla belirtilmiştir: suç işlenmesini önlemek, sosyal ve ekonomik gelişmeyi sağlamak, sağlıklı ve düzenli kentleşmeyi gerçekleştirmek ve kamu mallarını korumak. Genel nitelikli bir 'kamu yararı' sebebi maddede yer almaz.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "23"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"yerleşme-ve-seyahat",
-			"sınırlama-sebepleri"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sag15sm-q032",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası’na göre süreli ve süresiz yayın hakkı ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Süreli veya süresiz yayın önceden izin alma ve mali teminat yatırma şartına bağlıdır.",
-			"Süreli yayınların çıkarılması, yayım şartları, mali kaynakları ve gazetecilik mesleği ile ilgili esaslar kanunla düzenlenir.",
-			"Süreli yayın çıkarabilmek için kanunun gösterdiği bilgi ve belgelerin, kanunda belirtilen yetkili merciye verilmesi yeterlidir.",
-			"Süreli yayınlar, Devletin ve diğer kamu tüzelkişilerinin veya bunlara bağlı kurumların araç ve imkânlarından eşitlik esasına göre yararlanır.",
-			"Kanun, haber, düşünce ve kanaatlerin serbestçe yayımlanmasını engelleyici veya zorlaştırıcı siyasal, ekonomik, mali ve teknik şartlar koyamaz."
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 29. maddesine göre süreli veya süresiz yayın önceden izin alma ve mali teminat yatırma şartına BAĞLANAMAZ; soru kökündeki 'bağlıdır' ifadesi bu hükmün tersidir. Maddenin diğer hükümleri uyarınca süreli yayın çıkarmak için kanunun gösterdiği bilgi ve belgelerin yetkili mercie verilmesi yeterlidir ve süreli yayınlar kamu kurumlarının imkânlarından eşitlik esasına göre yararlanır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "29"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Şube Müdürü) A Kitapçığı, 28.06.2015",
-			"year": 2015,
-			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"basın-hürriyeti",
-			"süreli-yayın"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl24icra-q032",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "Türkiye Cumhuriyeti 1982 Anayasası’na göre, aşağıdakilerden hangisi “Kişinin Hakları ve Ödevleri” başlığı altında sayılmıştır?",
-		"options": [
-			"Süreli ve süresiz yayın hakkı",
-			"Kamu hizmetlerine girme hakkı",
-			"Çalışma şartları ve dinlenme hakkı",
-			"Ailenin korunması ve çocuk hakları",
-			"Seçme, seçilme ve siyasi faaliyette bulunma hakları"
-		],
-		"correctIndex": 0,
-		"explanation": "Süreli ve süresiz yayın hakkı Anayasa'nın 29. maddesinde, İkinci Bölüm olan 'Kişinin Hakları ve Ödevleri' başlığı altında düzenlenmiştir. Çalışma şartları ve dinlenme hakkı (m. 50) ile ailenin korunması ve çocuk hakları (m. 41) sosyal ve ekonomik haklar; kamu hizmetlerine girme hakkı (m. 70) ile seçme, seçilme ve siyasi faaliyette bulunma hakları (m. 67) ise siyasi haklar ve ödevler bölümündedir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "29"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı İcra Müdür ve Müdür Yardımcılarını Seçme Sınavı A Kitapçığı, 08.12.2024",
-			"year": 2024,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2024_12/09160643_sifreli_iicramudurvemuduryardimcilarinisecmesinavi_a.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"hak-sınıflandırması"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sag15s-q031",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası’na göre kişi hürriyeti ve güvenliği kapsamında tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç toplu olarak işlenen suçlarda en çok ne kadar zaman içinde hâkim önüne çıkarılır?",
-		"options": [
-			"Yirmi dört saat",
-			"Kırk sekiz saat",
-			"Üç gün",
-			"Dört gün",
-			"Beş gün"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 19. maddesine göre yakalanan veya tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç en geç kırk sekiz saat, toplu olarak işlenen suçlarda ise en çok dört gün içinde hâkim önüne çıkarılır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "19"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Şef) A Kitapçığı, 28.06.2015",
-			"year": 2015,
-			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"kişi-hürriyeti",
-			"gözaltı-süresi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sag15s-q032",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası’na göre seyahat hürriyeti, aşağıdaki hangi amaçla kanunla sınırlanabilir?",
-		"options": [
-			"Sağlıklı ve düzenli kentleşmeyi gerçekleştirme amacıyla",
-			"Suç soruşturma ve kovuşturması amacıyla",
-			"Ekonomik gelişmeyi sağlama amacıyla",
-			"Sosyal gelişmeyi sağlama amacıyla",
-			"Kamu mallarını koruma amacıyla"
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 23. maddesinde seyahat hürriyetinin sınırlanma sebepleri yalnızca suç soruşturma ve kovuşturması sebebiyle ve suç işlenmesini önlemek amacıyla olarak belirlenmiştir. Sağlıklı ve düzenli kentleşme, sosyal ve ekonomik gelişme ile kamu mallarını koruma amaçları YERLEŞME hürriyetine ilişkindir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "23"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Şef) A Kitapçığı, 28.06.2015",
-			"year": 2015,
-			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"yerleşme-ve-seyahat",
-			"sınırlama-sebepleri"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-dmo16s-q002",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "I. Kamu düzeni II. Millî güvenlik III. Suç işlenmesinin önlenmesi IV. Genel sağlık ve genel ahlakın korunması T.C. Anayasası’na göre usulüne göre verilmiş hâkim kararının bulunması veya gecikmesinde sakınca bulunan hâllerde de kanunla yetkili kılınmış mercinin yazılı emri dâhilinde, yukarıdaki sebeplerden hangilerine bağlı olarak kişilerin üstü, özel kâğıtları ve eşyası aranabilir ve bunlara el konulabilir?",
-		"options": [
-			"I ve II",
-			"III ve IV",
-			"I, II ve III",
-			"I, II, III ve IV"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 20. maddesine göre millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlık ve genel ahlakın korunması veya başkalarının hak ve özgürlüklerinin korunması sebeplerinden biri veya birkaçına bağlı olarak, usulüne göre verilmiş hâkim kararı ya da gecikmesinde sakınca bulunan hâllerde kanunla yetkili kılınmış merciin yazılı emriyle kişilerin üstü, özel kâğıtları ve eşyası aranabilir. Soruda sayılan dört sebebin tamamı maddede yer alır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "20"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Devlet Malzeme Ofisi Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2016",
-			"year": 2016,
-			"url": "https://odsgm.meb.gov.tr/www/dmo-gorevde-yukselme-ve-unvan-degisikligi-sinav-sorulari-ve-cevap-anahtari/icerik/151",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"özel-hayatın-gizliliği",
-			"arama"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sag15m-q031",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "kolay",
-		"stem": "“Hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz. Bir kimseyi kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarma sonucunu doğuran yargı yetkisine sahip olağanüstü merciler kurulamaz.” T.C. Anayasası’na göre yukarıda, kişinin hakları ve ödevleri ile ilgili hükümlerden hangisi açıklanmıştır?",
-		"options": [
-			"İspat hakkı",
-			"Hak arama hürriyeti",
-			"Temel hak ve hürriyetlerin korunması",
-			"Suç ve cezalara ilişkin esaslar",
-			"Kanuni hâkim güvencesi"
-		],
-		"correctIndex": 4,
-		"explanation": "Anayasa'nın 37. maddesi kanunî hâkim güvencesini düzenler: hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz ve bu sonucu doğuran olağanüstü merciler kurulamaz. Hak arama hürriyeti 36., suç ve cezalara ilişkin esaslar 38., temel hak ve hürriyetlerin korunması 40. maddededir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "37"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Sağlık Bakanlığı ve Bağlı Kuruluşları Görevde Yükselme Sınavı (Memur) A Kitapçığı, 28.06.2015",
-			"year": 2015,
-			"url": "https://odsgm.meb.gov.tr/www/28062015-saglik-bakanligi-ve-bagli-kuruluslarinin-personeline-yonelik-gorevde-yukselme-sinavi-soru-ve-cevap-anahtarlari/icerik/61",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"kanuni-hakim-güvencesi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-pgm23sm-q026",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası’na göre, temel hak ve hürriyetlerin kullanılmasının durdurulmasına ilişkin aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Savaş, seferberlik veya olağanüstü hâllerde temel hak ve hürriyetlerin kullanılması kısmen veya tamamen durdurulabilir.",
-			"Durdurma durumunda, milletlerarası hukuktan doğan yükümlülükler ihlal edilebilir.",
-			"Durdurma durumunda dahi savaş hukukuna uygun fiiller sonucu meydana gelen ölümler dışında, kişinin yaşama hakkına dokunulamaz.",
-			"Durdurma durumunda dahi kimse din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaz.",
-			"Durdurma durumunda dahi suç ve cezalar geçmişe yürütülemez."
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 15. maddesine göre savaş, seferberlik veya olağanüstü hâllerde temel hak ve hürriyetlerin kullanılması kısmen veya tamamen durdurulabilir; ancak bu MİLLETLERARASI HUKUKTAN DOĞAN YÜKÜMLÜLÜKLER İHLAL EDİLMEMEK kaydıyla mümkündür. Bu hâllerde dahi kişinin yaşama hakkına dokunulamaz, kimse din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaz ve suç ve cezalar geçmişe yürütülemez.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "15"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şube Müdürü) A Kitapçığı, 09.07.2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_4_SUBE_MUDURU_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"olağanüstü-yönetim",
-			"çekirdek-haklar"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl17yim-q003",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "kolay",
-		"stem": "T.C. Anayasası’nda yer alan “temel hak ve hürriyetler” ile ilgili “Herkes, kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez temel hak ve hürriyetlere sahiptir. Temel hak ve hürriyetler, kişinin topluma, ailesine ve diğer kişilere karşı ödev ve sorumluluklarını da ihtiva eder.” hükmü aşağıdakilerden hangisinin açıklamasıdır?",
-		"options": [
-			"Yabancıların durumu",
-			"Temel hak ve hürriyetlerin niteliği",
-			"Temel hak ve hürriyetlerin sınırlanması",
-			"Temel hak ve hürriyetlerin kötüye kullanılamaması",
-			"Temel hak ve hürriyetlerin kullanılmasının durdurulması"
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 12. maddesi temel hak ve hürriyetlerin NİTELİĞİNİ düzenler: herkes kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez temel hak ve hürriyetlere sahiptir; bu hak ve hürriyetler kişinin topluma, ailesine ve diğer kişilere karşı ödev ve sorumluluklarını da ihtiva eder. Sınırlama 13., kötüye kullanılamama 14., durdurma 15., yabancıların durumu 16. maddededir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "12"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
-			"year": 2017,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"temel-hakların-niteliği"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl17yim-q006",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası’na göre düzeltme ve cevap yayımlanmazsa, yayımlanmasının gerekip gerekmediğine hâkim tarafından ilgilinin müracaat tarihinden itibaren en geç kaç gün içerisinde karar verilir?",
-		"options": [
-			"Üç",
-			"Beş",
-			"Yedi",
-			"On",
-			"On beş"
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 32. maddesine göre düzeltme ve cevap yayımlanmazsa, yayımlanmasının gerekip gerekmediğine hâkim tarafından ilgilinin müracaat tarihinden itibaren en geç yedi gün içerisinde karar verilir. Düzeltme ve cevap hakkı ancak kişilerin haysiyet ve şereflerine dokunulması veya gerçeğe aykırı yayın yapılması hâllerinde tanınır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "32"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
-			"year": 2017,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"düzeltme-ve-cevap-hakkı"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl17yim-q004",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/temel-hak-ve-odevler",
-		"difficulty": "zor",
-		"stem": "I. Meşru müdafaa hâli II. Bir ayaklanma veya isyanın bastırılması III. Bir tutuklu veya hükümlünün kaçmasının önlenmesi IV. Yakalama ve tutuklama kararlarının yerine getirilmesi Yukarıdakilerden hangileri T.C. Anayasası’nda yer alan “herkes, yaşama, maddi ve manevi varlığını koruma ve geliştirme hakkına sahiptir.” hükmü dışındadır?",
-		"options": [
-			"I ve II",
-			"I, II ve III",
-			"I, III ve IV",
-			"II, III ve IV",
-			"I, II, III ve IV"
-		],
-		"correctIndex": 4,
-		"explanation": "Anayasa'nın 17. maddesine göre meşru müdafaa hâli, yakalama ve tutuklama kararlarının yerine getirilmesi, bir tutuklu veya hükümlünün kaçmasının önlenmesi, bir ayaklanma veya isyanın bastırılması ve olağanüstü hâllerde yetkili merciin verdiği emirlerin uygulanması sırasında silah kullanılmasına kanunun cevaz verdiği zorunlu durumlarda meydana gelen öldürme fiilleri, yaşama hakkını düzenleyen birinci fıkra hükmünün dışındadır. Soruda sayılan dördü de bu istisnalar arasındadır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "17"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
-			"year": 2017,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"yaşama-hakkı",
-			"istisnalar"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
 	},
 	{
 		"id": "anayasa-thakl-013",
@@ -1455,12 +402,12 @@
 		"stem": "Anayasa'nın zorla çalıştırma yasağını düzenleyen maddesine göre aşağıdakilerden hangisi zorla çalıştırma sayılır?",
 		"options": [
 			"Hükümlülük veya tutukluluk süreleri içindeki çalıştırmalar",
-			"Olağanüstü hâllerde vatandaşlardan istenecek hizmetler",
-			"Ülke ihtiyaçlarının zorunlu kıldığı alanlarda öngörülen vatandaşlık ödevi niteliğindeki beden ve fikir çalışmaları",
 			"Bir kişinin rızası dışında karşılıksız olarak çalıştırılması",
-			"Şekil ve şartları kanunla düzenlenen tutukluluk dönemi çalışmaları"
+			"Olağanüstü hâllerde vatandaşlardan istenecek hizmetler",
+			"Şekil ve şartları kanunla düzenlenen tutukluluk dönemi çalışmaları",
+			"Ülke ihtiyaçlarının zorunlu kıldığı alanlarda öngörülen vatandaşlık ödevi niteliğindeki beden ve fikir çalışmaları"
 		],
-		"correctIndex": 3,
+		"correctIndex": 1,
 		"explanation": "Madde 18'e göre hiç kimse zorla çalıştırılamaz ve angarya yasaktır. Maddenin ikinci fıkrası üç hâli yasağın dışında bırakır: şekil ve şartları kanunla düzenlenmek üzere hükümlülük veya tutukluluk süreleri içindeki çalıştırmalar, olağanüstü hâllerde vatandaşlardan istenecek hizmetler ve ülke ihtiyaçlarının zorunlu kıldığı alanlarda öngörülen vatandaşlık ödevi niteliğindeki beden ve fikir çalışmaları. Kişinin rızası dışında karşılıksız çalıştırılması ise angarya olup yasağın tam kapsamındadır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -1478,7 +425,7 @@
 			"zorla-calistirma",
 			"angarya"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1488,11 +435,11 @@
 		"difficulty": "kolay",
 		"stem": "Anayasa'nın hak arama hürriyetini düzenleyen maddesinde yer alan hükümlerden biri aşağıdakilerden hangisidir?",
 		"options": [
-			"Hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz.",
-			"Hiçbir mahkeme, görev ve yetkisi içindeki davaya bakmaktan kaçınamaz.",
-			"Suçluluğu hükmen sabit oluncaya kadar kimse suçlu sayılamaz.",
 			"Kanuna aykırı olarak elde edilmiş bulgular delil olarak kabul edilemez.",
-			"Ceza sorumluluğu şahsidir."
+			"Hiçbir mahkeme, görev ve yetkisi içindeki davaya bakmaktan kaçınamaz.",
+			"Ceza sorumluluğu şahsidir.",
+			"Hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz.",
+			"Suçluluğu hükmen sabit oluncaya kadar kimse suçlu sayılamaz."
 		],
 		"correctIndex": 1,
 		"explanation": "Madde 36'ya göre herkes, meşru vasıta ve yollardan faydalanmak suretiyle yargı mercileri önünde davacı veya davalı olarak iddia ve savunma ile adil yargılanma hakkına sahiptir; ayrıca hiçbir mahkeme görev ve yetkisi içindeki davaya bakmaktan kaçınamaz. Diğer şıklardaki hükümler ayrı maddelerde yer alır: kanuni hâkim güvencesi m.37'de, masumiyet karinesi, hukuka aykırı delil yasağı ve ceza sorumluluğunun şahsiliği ise m.38'de düzenlenmiştir.",
@@ -1512,7 +459,7 @@
 			"hak-arama-hurriyeti",
 			"adil-yargilanma"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1522,13 +469,13 @@
 		"difficulty": "orta",
 		"stem": "Gecikmesinde sakınca bulunan bir hâlde, kanunla yetkili kılınmış merciin yazılı emriyle haberleşmenin gizliliğine dokunulmuştur. Anayasa'ya göre bu karar bakımından işletilecek süreler aşağıdakilerden hangisidir?",
 		"options": [
-			"Karar 24 saat içinde görevli hâkimin onayına sunulur; hâkim kararını 48 saat içinde açıklar.",
-			"Karar 48 saat içinde görevli hâkimin onayına sunulur; hâkim kararını 24 saat içinde açıklar.",
-			"Karar 12 saat içinde görevli hâkimin onayına sunulur; hâkim kararını 36 saat içinde açıklar.",
 			"Karar 24 saat içinde Cumhuriyet savcısının onayına sunulur; savcı kararını 48 saat içinde açıklar.",
-			"Karar için herhangi bir onay süreci öngörülmemiştir."
+			"Karar 12 saat içinde görevli hâkimin onayına sunulur; hâkim kararını 36 saat içinde açıklar.",
+			"Karar için herhangi bir onay süreci öngörülmemiştir.",
+			"Karar 48 saat içinde görevli hâkimin onayına sunulur; hâkim kararını 24 saat içinde açıklar.",
+			"Karar 24 saat içinde görevli hâkimin onayına sunulur; hâkim kararını 48 saat içinde açıklar."
 		],
-		"correctIndex": 0,
+		"correctIndex": 4,
 		"explanation": "Madde 22'ye göre haberleşme hürriyeti esas olup gizliliğine ancak millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlık ve genel ahlâkın korunması veya başkalarının hak ve özgürlüklerinin korunması sebeplerine bağlı olarak usulüne göre verilmiş hâkim kararıyla dokunulabilir. Gecikmesinde sakınca bulunan hâllerde kanunla yetkili kılınmış merciin yazılı emri yeterlidir; ancak bu karar yirmi dört saat içinde görevli hâkimin onayına sunulur ve hâkim kararını kırk sekiz saat içinde açıklar, aksi hâlde karar kendiliğinden kalkar.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -1546,7 +493,7 @@
 			"haberlesme-hurriyeti",
 			"gizlilik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1556,11 +503,11 @@
 		"difficulty": "orta",
 		"stem": "Anayasa'ya göre din eğitim ve öğretimi bakımından aşağıdakilerden hangisi doğrudur?",
 		"options": [
-			"Bütün din eğitim ve öğretimi kişilerin kendi isteğine bağlıdır.",
+			"Küçüklerin din eğitimi için kanuni temsilcisinin talebi aranmaz.",
 			"Din kültürü ve ahlak öğretimi ilk ve ortaöğretim kurumlarında okutulan zorunlu dersler arasındadır.",
-			"Din ve ahlak eğitimi Devletin gözetim ve denetimi dışında serbestçe yapılır.",
 			"Din kültürü ve ahlak öğretimi yalnızca ortaöğretim kurumlarında zorunludur.",
-			"Küçüklerin din eğitimi için kanuni temsilcisinin talebi aranmaz."
+			"Din ve ahlak eğitimi Devletin gözetim ve denetimi dışında serbestçe yapılır.",
+			"Bütün din eğitim ve öğretimi kişilerin kendi isteğine bağlıdır."
 		],
 		"correctIndex": 1,
 		"explanation": "Madde 24'e göre din ve ahlak eğitim ve öğretimi Devletin gözetim ve denetimi altında yapılır; din kültürü ve ahlak öğretimi ilk ve ortaöğretim kurumlarında okutulan zorunlu dersler arasında yer alır. Bunun dışındaki din eğitim ve öğretimi ise ancak kişilerin kendi isteğine, küçüklerin de kanuni temsilcisinin talebine bağlıdır. Bu nedenle bütün din eğitiminin isteğe bağlı olduğu veya Devlet denetimi dışında yapıldığı yönündeki ifadeler yanlıştır.",
@@ -1580,7 +527,7 @@
 			"din-vicdan-hurriyeti",
 			"din-egitimi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1590,11 +537,11 @@
 		"difficulty": "orta",
 		"stem": "Anayasa'ya göre kendileriyle veya kamu ile ilgili dilek ve şikâyetleri hakkında yetkili makamlara ve Türkiye Büyük Millet Meclisine yazı ile başvurma hakkı kimlere tanınmıştır?",
 		"options": [
-			"Yalnızca Türk vatandaşlarına",
-			"Vatandaşlar ile karşılıklılık esası gözetilmek kaydıyla Türkiye'de ikamet eden yabancılara",
-			"Türkiye'de bulunan herkese, ikamet şartı aranmaksızın",
 			"Yalnızca seçme ve seçilme hakkına sahip vatandaşlara",
-			"Vatandaşlar ile Türkiye'de geçici olarak bulunan bütün yabancılara"
+			"Vatandaşlar ile karşılıklılık esası gözetilmek kaydıyla Türkiye'de ikamet eden yabancılara",
+			"Vatandaşlar ile Türkiye'de geçici olarak bulunan bütün yabancılara",
+			"Türkiye'de bulunan herkese, ikamet şartı aranmaksızın",
+			"Yalnızca Türk vatandaşlarına"
 		],
 		"correctIndex": 1,
 		"explanation": "Madde 74'e göre vatandaşlar ve karşılıklılık esası gözetilmek kaydıyla Türkiye'de ikamet eden yabancılar, kendileriyle veya kamu ile ilgili dilek ve şikâyetleri hakkında yetkili makamlara ve Türkiye Büyük Millet Meclisine yazı ile başvurma hakkına sahiptir. Kendileriyle ilgili başvurmaların sonucu gecikmeksizin dilekçe sahiplerine yazılı olarak bildirilir. Bilgi edinme ve kamu denetçisine başvurma hakkı ise aynı maddede 'herkes' için tanınmıştır.",
@@ -1614,7 +561,7 @@
 			"dilekce-hakki",
 			"bilgi-edinme"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1625,9 +572,9 @@
 		"stem": "Anayasa'nın toplantı ve gösteri yürüyüşü düzenleme hakkını düzenleyen maddesine göre bu hakkın kullanılması bakımından aşağıdakilerden hangisi yanlıştır?",
 		"options": [
 			"Herkes önceden izin almadan bu hakkı kullanabilir.",
-			"Toplantı ve gösteri yürüyüşünün silahsız ve saldırısız olması gerekir.",
 			"Hak ancak millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlığın ve genel ahlâkın veya başkalarının hak ve özgürlüklerinin korunması amacıyla sınırlanabilir.",
 			"Hakkın kullanılmasında uygulanacak şekil, şart ve usuller kanunda gösterilir.",
+			"Toplantı ve gösteri yürüyüşünün silahsız ve saldırısız olması gerekir.",
 			"Hakkın kullanılabilmesi yetkili idari makamdan önceden izin alınmasına bağlıdır."
 		],
 		"correctIndex": 4,
@@ -1648,7 +595,7 @@
 			"toplanti-gosteri",
 			"onceden-izin"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1658,13 +605,13 @@
 		"difficulty": "zor",
 		"stem": "Grev ve lokavtın yasaklandığı hâllerde veya ertelendiği durumlarda ertelemenin sonunda uyuşmazlık Anayasa'ya göre nasıl çözülür?",
 		"options": [
-			"Uyuşmazlık iş mahkemesince çözülür ve karar temyize tabidir.",
 			"Uyuşmazlık Yüksek Hakem Kurulunca çözülür; Kurulun kararları kesindir ve toplu iş sözleşmesi hükmündedir.",
 			"Uyuşmazlık Çalışma ve Sosyal Güvenlik Bakanlığınca idari kararla çözülür.",
+			"Erteleme sonunda taraflar yeniden greve gidebilir; ayrı bir çözüm mercii öngörülmemiştir.",
 			"Uyuşmazlık Yargıtayın ilgili dairesince ilk derece mahkemesi sıfatıyla çözülür.",
-			"Erteleme sonunda taraflar yeniden greve gidebilir; ayrı bir çözüm mercii öngörülmemiştir."
+			"Uyuşmazlık iş mahkemesince çözülür ve karar temyize tabidir."
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 54'e göre grev ve lokavtın yasaklandığı hâllerde veya ertelendiği durumlarda ertelemenin sonunda uyuşmazlık Yüksek Hakem Kurulunca çözülür; uyuşmazlığın her safhasında taraflar da anlaşarak Yüksek Hakem Kuruluna başvurabilir. Kurulun kararları kesindir ve toplu iş sözleşmesi hükmündedir. Aynı madde grev hakkı ile lokavtın iyiniyet kurallarına aykırı tarzda, toplum zararına ve millî serveti tahrip edecek şekilde kullanılamayacağını ve greve katılmayanların işyerinde çalışmalarının greve katılanlarca hiçbir şekilde engellenemeyeceğini de belirtir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -1682,7 +629,7 @@
 			"grev",
 			"yuksek-hakem-kurulu"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1692,9 +639,9 @@
 		"difficulty": "uzman",
 		"stem": "Anayasa'nın temel hak ve hürriyetlerin kötüye kullanılamamasını düzenleyen maddesi bakımından aşağıdakilerden hangisi yanlıştır?",
 		"options": [
-			"Anayasada yer alan hak ve hürriyetlerden hiçbiri, Devletin ülkesi ve milletiyle bölünmez bütünlüğünü bozmayı amaçlayan faaliyetler biçiminde kullanılamaz.",
-			"Anayasada yer alan hak ve hürriyetlerden hiçbiri, insan haklarına dayanan demokratik ve lâik Cumhuriyeti ortadan kaldırmayı amaçlayan faaliyetler biçiminde kullanılamaz.",
 			"Anayasa hükümlerinden hiçbiri, temel hak ve hürriyetlerin yok edilmesini amaçlayan bir faaliyette bulunmayı mümkün kılacak şekilde yorumlanamaz.",
+			"Anayasada yer alan hak ve hürriyetlerden hiçbiri, insan haklarına dayanan demokratik ve lâik Cumhuriyeti ortadan kaldırmayı amaçlayan faaliyetler biçiminde kullanılamaz.",
+			"Anayasada yer alan hak ve hürriyetlerden hiçbiri, Devletin ülkesi ve milletiyle bölünmez bütünlüğünü bozmayı amaçlayan faaliyetler biçiminde kullanılamaz.",
 			"Anayasa hükümlerinden hiçbiri, hakların Anayasada belirtilenden daha geniş şekilde sınırlandırılmasını amaçlayan bir faaliyeti mümkün kılacak şekilde yorumlanamaz.",
 			"Bu hükümlere aykırı faaliyette bulunanlar hakkında uygulanacak müeyyideler doğrudan Anayasada sayılmıştır."
 		],
@@ -1716,7 +663,1016 @@
 			"kotuye-kullanma",
 			"mueyyide"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-thakl-021",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 12. maddesine göre temel hak ve hürriyetler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Temel hak ve hürriyetler yalnızca kişiye tanınmış yetkilerden ibarettir; ödev ve sorumluluk içermez.",
+			"Temel hak ve hürriyetler yalnızca Türk vatandaşlarına tanınmıştır.",
+			"Temel hak ve hürriyetler, kişinin topluma, ailesine ve diğer kişilere karşı ödev ve sorumluluklarını da ihtiva eder.",
+			"Temel hak ve hürriyetlerden vazgeçilebilir.",
+			"Temel hak ve hürriyetler devredilebilir niteliktedir."
+		],
+		"correctIndex": 2,
+		"explanation": "12. madde iki fıkradan oluşur: herkes kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez temel hak ve hürriyetlere sahiptir ve temel hak ve hürriyetler kişinin topluma, ailesine ve diğer kişilere karşı ödev ve sorumluluklarını da ihtiva eder. Maddedeki 'herkes' ifadesi hakların yalnızca vatandaşlara tanındığı anlamına gelmez; yabancıların durumu 16. maddede düzenlenmiştir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"temel-hakların-niteliği",
+			"ödev"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-022",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "uzman",
+		"stem": "Bir kişi, imzaladığı bir sözleşmeyle temel hak ve hürriyetlerinden birini süresiz olarak kullanmayacağını taahhüt etmiştir. Anayasa'nın 12. maddesi bakımından bu taahhüt için aşağıdakilerden hangisi söylenebilir?",
+		"options": [
+			"Temel hak ve hürriyetler devredilmez ve vazgeçilmez nitelikte olduğundan böyle bir taahhüt geçerli değildir.",
+			"Taahhüdün geçerliliği ancak kanunla belirlenebilir.",
+			"Taahhüt süreli olsaydı geçersiz, süresiz olduğu için geçerlidir.",
+			"Taahhüt yalnızca noterde düzenlenmişse geçerlidir.",
+			"Kişi kendi hakkı üzerinde serbestçe tasarruf edebileceğinden taahhüt geçerlidir."
+		],
+		"correctIndex": 0,
+		"explanation": "12. maddenin birinci fıkrası temel hak ve hürriyetleri kişiliğe bağlı, dokunulmaz, devredilmez ve vazgeçilmez olarak niteler. Bu niteleme, hakların kişinin iradesiyle bir başkasına devredilmesine veya tümüyle terk edilmesine engeldir; hakların sınırlanması ancak 13. maddedeki koşullarla ve kanunla mümkündür.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"temel-hakların-niteliği",
+			"vazgeçilmezlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-023",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 15. maddesine göre savaş, seferberlik veya olağanüstü hâllerde temel hak ve hürriyetlerin kullanılmasının durdurulması bakımından aranan şartlar aşağıdakilerin hangisinde birlikte ve doğru verilmiştir?",
+		"options": [
+			"Milletlerarası hukuktan doğan yükümlülüklerin ihlal edilmemesi ve durumun gerektirdiği ölçüde hareket edilmesi",
+			"Tedbirlerin altı ayı geçmemesi",
+			"Yalnızca tedbirlerin kanunla düzenlenmesi",
+			"Anayasa Mahkemesinin önceden görüş bildirmesi",
+			"Yalnızca Türkiye Büyük Millet Meclisinin onay vermesi"
+		],
+		"correctIndex": 0,
+		"explanation": "15. maddenin birinci fıkrasına göre savaş, seferberlik veya olağanüstü hâllerde, milletlerarası hukuktan doğan yükümlülükler ihlal edilmemek kaydıyla ve durumun gerektirdiği ölçüde temel hak ve hürriyetlerin kullanılması kısmen veya tamamen durdurulabilir ya da bunlar için Anayasada öngörülen güvencelere aykırı tedbirler alınabilir. Bu iki şart, olağanüstü dönem tedbirlerinin anayasal sınırıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"olağanüstü-yönetim",
+			"ölçülülük"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-024",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 15. maddesinde sayılan olağanüstü yönetim hâlleri bakımından, 2017 yılındaki Anayasa değişikliğiyle madde metninden çıkarılan hâl aşağıdakilerden hangisidir?",
+		"options": [
+			"Savaş",
+			"Sıkıyönetim",
+			"Genel afet hâli",
+			"Olağanüstü hâl",
+			"Seferberlik"
+		],
+		"correctIndex": 1,
+		"explanation": "15. madde bugün savaş, seferberlik veya olağanüstü hâlleri saymaktadır. Maddede yer alan 'sıkıyönetim' ibaresi 21/1/2017 tarihli ve 6771 sayılı Kanun'un 16. maddesiyle metinden çıkarılmıştır; aynı değişiklikle sıkıyönetim kurumu Anayasa'dan tümüyle kaldırılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"olağanüstü-yönetim",
+			"2017-değişikliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-025",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 17. maddesine göre, aşağıdaki hâllerden hangisinde silah kullanılmasına kanunun cevaz verdiği zorunlu durumlarda meydana gelen öldürme fiilleri yaşama hakkına ilişkin birinci fıkra hükmünün dışında sayılmaz?",
+		"options": [
+			"Yakalama ve tutuklama kararlarının yerine getirilmesi sırasında",
+			"Bir ayaklanma veya isyanın bastırılması sırasında",
+			"Bir tutuklu veya hükümlünün kaçmasının önlenmesi sırasında",
+			"Meşru müdafaa hâlinde",
+			"Kamu düzenini korumak amacıyla yapılan rutin denetimler sırasında"
+		],
+		"correctIndex": 4,
+		"explanation": "17. maddenin son fıkrası, birinci fıkra hükmünün dışında kalan hâlleri sınırlı olarak sayar: meşru müdafaa hâli, yakalama ve tutuklama kararlarının yerine getirilmesi, bir tutuklu veya hükümlünün kaçmasının önlenmesi, bir ayaklanma veya isyanın bastırılması ya da olağanüstü hâllerde yetkili merciin verdiği emirlerin uygulanması sırasında silah kullanılmasına kanunun cevaz verdiği zorunlu durumlar. Rutin denetim bu sayımda yer almaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yaşama-hakkı",
+			"istisnalar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-026",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 19. maddesine göre yakalanan veya tutuklanan kişilere, yakalama veya tutuklama sebepleri ve haklarındaki iddialar nasıl bildirilir?",
+		"options": [
+			"Yalnızca yazılı olarak ve yirmi dört saat içinde",
+			"Yalnızca yakınlarına bildirilir; kişinin kendisine bildirim zorunluluğu yoktur",
+			"Yalnızca sözlü olarak ve hâkim önüne çıkarıldığında",
+			"Kişinin talebi hâlinde ve avukatı aracılığıyla",
+			"Her hâlde yazılı, bunun hemen mümkün olmaması hâlinde sözlü olarak derhâl; toplu suçlarda en geç hâkim huzuruna çıkarılıncaya kadar"
+		],
+		"correctIndex": 4,
+		"explanation": "19. maddeye göre yakalanan veya tutuklanan kişilere sebepler ve iddialar her hâlde yazılı, bunun hemen mümkün olmaması hâlinde sözlü olarak derhâl bildirilir; toplu suçlarda ise bu bildirim en geç hâkim huzuruna çıkarılıncaya kadar yapılır. Kişinin yakalandığı veya tutuklandığı ayrıca yakınlarına derhâl bildirilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "19"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kişi-hürriyeti",
+			"bildirim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-027",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 19. maddesinde öngörülen esaslar dışında bir işleme tabi tutulan kişilerin uğradıkları zarar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Anayasa bu konuda bir tazminat öngörmemiştir.",
+			"Zarar ancak kişinin beraat etmesi hâlinde ödenir.",
+			"Zararın ödenmesi için ceza mahkemesinin mahkûmiyet kararı şarttır.",
+			"Zarar, işlemi yapan kamu görevlisi tarafından şahsen ödenir.",
+			"Zarar, tazminat hukukunun genel prensiplerine göre Devletçe ödenir."
+		],
+		"correctIndex": 4,
+		"explanation": "19. maddenin son fıkrası, bu maddedeki esaslar dışında bir işleme tabi tutulan kişilerin uğradıkları zararın tazminat hukukunun genel prensiplerine göre Devletçe ödeneceğini düzenler. Sorumluluk doğrudan Devlete aittir; görevlinin kişisel sorumluluğu Devletin rücu hakkı çerçevesinde ayrıca söz konusu olabilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "19"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kişi-hürriyeti",
+			"tazminat"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-028",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "uzman",
+		"stem": "Gecikmesinde sakınca bulunan bir hâlde, kanunla yetkili kılınmış merciin yazılı emriyle bir kişinin eşyasına el konulmuştur. Anayasa'nın 20. maddesine göre bundan sonra izlenecek usul aşağıdakilerden hangisidir?",
+		"options": [
+			"El koyma kararı doğrudan kesindir; ayrıca hâkim onayı aranmaz.",
+			"El koyma en geç bir hafta içinde idare mahkemesinin onayına sunulur.",
+			"Yetkili merciin kararı yirmi dört saat içinde görevli hâkimin onayına sunulur; hâkim kararını el koymadan itibaren kırk sekiz saat içinde açıklar, aksi hâlde el koyma kendiliğinden kalkar.",
+			"Karar Cumhuriyet savcısının onayına sunulur; savcı yirmi dört saat içinde karar verir.",
+			"Yetkili merciin kararı kırk sekiz saat içinde hâkim onayına sunulur; hâkim yedi gün içinde karar verir."
+		],
+		"correctIndex": 2,
+		"explanation": "20. maddenin ikinci fıkrasına göre kural hâkim kararıdır. Gecikmesinde sakınca bulunan hâllerde kanunla yetkili kılınmış merciin yazılı emriyle arama ve el koyma yapılabilir; ancak yetkili merciin kararı yirmi dört saat içinde görevli hâkimin onayına sunulur ve hâkim, kararını el koymadan itibaren kırk sekiz saat içinde açıklar. Aksi hâlde el koyma kendiliğinden kalkar.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"özel-hayatın-gizliliği",
+			"arama"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-029",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 20. maddesine göre kişisel verilerin korunmasını isteme hakkı bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Bu hak, verilerin düzeltilmesini veya silinmesini talep etmeyi de kapsar.",
+			"Herkes, kendisiyle ilgili kişisel verilerin korunmasını isteme hakkına sahiptir.",
+			"Kişisel veriler ancak kanunda öngörülen hâllerde veya kişinin açık rızasıyla işlenebilir.",
+			"Kişisel veriler, kamu yararının gerektirdiği her durumda idarenin takdiriyle işlenebilir.",
+			"Bu hak, kişinin verileri hakkında bilgilendirilmesini ve bu verilere erişmesini de kapsar."
+		],
+		"correctIndex": 3,
+		"explanation": "20. maddeye 2010 yılında eklenen fıkra, kişisel verilerin ancak kanunda öngörülen hâllerde veya kişinin açık rızasıyla işlenebileceğini düzenler; idarenin takdiri tek başına bir işleme sebebi değildir. Hak; bilgilendirilme, erişim, düzeltme veya silinmeyi talep etme ve verilerin amaçları doğrultusunda kullanılıp kullanılmadığını öğrenmeyi kapsar.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kişisel-veriler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-030",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 23. maddesine göre aşağıdakilerden hangisi yerleşme hürriyetinin sınırlanma sebeplerinden biri değildir?",
+		"options": [
+			"Suç soruşturma ve kovuşturması sebebiyle",
+			"Sosyal ve ekonomik gelişmeyi sağlamak",
+			"Suç işlenmesini önlemek",
+			"Kamu mallarını korumak",
+			"Sağlıklı ve düzenli kentleşmeyi gerçekleştirmek"
+		],
+		"correctIndex": 0,
+		"explanation": "23. madde yerleşme ve seyahat hürriyetlerinin sınırlama sebeplerini ayrı ayrı sayar. Yerleşme hürriyeti; suç işlenmesini önlemek, sosyal ve ekonomik gelişmeyi sağlamak, sağlıklı ve düzenli kentleşmeyi gerçekleştirmek ve kamu mallarını korumak amaçlarıyla sınırlanabilir. Suç soruşturma ve kovuşturması sebebi ise seyahat hürriyetine ilişkindir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "23"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yerleşme-hürriyeti",
+			"sınırlama"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-031",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 23. maddesine göre vatandaşın yurt dışına çıkma hürriyeti hangi hâlde sınırlanabilir?",
+		"options": [
+			"Millî güvenlik gerekçesiyle mülki amirin kararıyla",
+			"Vergi borcu bulunması hâlinde idarenin kararıyla",
+			"Askerlik yükümlülüğünün yerine getirilmemesi hâlinde doğrudan kanunla",
+			"Kamu düzeninin korunması amacıyla kanunla, hâkim kararı aranmaksızın",
+			"Ancak suç soruşturması veya kovuşturması sebebiyle hâkim kararına bağlı olarak"
+		],
+		"correctIndex": 4,
+		"explanation": "23. maddenin 2010 yılında değiştirilen fıkrasına göre vatandaşın yurt dışına çıkma hürriyeti ancak suç soruşturması veya kovuşturması sebebiyle hâkim kararına bağlı olarak sınırlanabilir. Değişiklikten önce vatandaşlık ödevi ya da ceza soruşturması gibi sebeplerle idari kararla sınırlama mümkündü; bugün hem sebep hem de karar mercii bakımından daraltılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "23"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"seyahat-hürriyeti",
+			"yurt-dışına-çıkma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-032",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 23. maddesine göre Türk vatandaşları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Vatandaşın yurda girme hakkı ancak hâkim kararıyla kaldırılabilir.",
+			"Vatandaş sınır dışı edilemez ve yurda girme hakkından yoksun bırakılamaz.",
+			"Bu konuda Anayasa'da bir hüküm bulunmayıp düzenleme kanuna bırakılmıştır.",
+			"Vatandaş, millî güvenlik gerekçesiyle sınır dışı edilebilir.",
+			"Vatandaş, ağır ceza mahkemesinin kararıyla sınır dışı edilebilir."
+		],
+		"correctIndex": 1,
+		"explanation": "23. maddenin son fıkrası mutlak bir güvence getirir: vatandaş sınır dışı edilemez ve yurda girme hakkından yoksun bırakılamaz. Hüküm istisnasızdır; 38. maddedeki 'vatandaş suç sebebiyle yabancı bir ülkeye verilemez' kuralı da bunu tamamlar (Uluslararası Ceza Divanına taraf olmanın gerektirdiği yükümlülükler hariç).",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "23"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"seyahat-hürriyeti",
+			"sınır-dışı-etme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-033",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 26. maddesine göre düşünceyi açıklama ve yayma hürriyeti bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Hürriyet, resmî makamların müdahalesi olmaksızın haber veya fikir almak ya da vermek serbestliğini de kapsar; ancak radyo, televizyon, sinema veya benzeri yollarla yapılan yayımların izin sistemine bağlanmasına engel değildir.",
+			"Haber ve düşünceleri yayma araçlarının kullanılmasına ilişkin her düzenleme hürriyetin sınırlanması sayılır.",
+			"Hürriyet yalnızca söz ve yazı ile açıklamayı kapsar.",
+			"Radyo ve televizyon yayımları hiçbir şekilde izin sistemine bağlanamaz.",
+			"Hürriyetin kullanılmasında uygulanacak şekil, şart ve usuller yönetmelikle düzenlenir."
+		],
+		"correctIndex": 0,
+		"explanation": "26. maddeye göre herkes düşünce ve kanaatlerini söz, yazı, resim veya başka yollarla tek başına ya da toplu olarak açıklama ve yayma hakkına sahiptir; bu hürriyet resmî makamların müdahalesi olmaksızın haber veya fikir alma ve verme serbestliğini de kapsar. Aynı fıkra, radyo, televizyon, sinema veya benzeri yollarla yapılan yayımların izin sistemine bağlanmasına engel değildir. Yayma araçlarının kullanımına ilişkin düzenleyici hükümler, yayımı engellememek kaydıyla sınırlama sayılmaz; şekil, şart ve usuller ise kanunla düzenlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "26"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"düşünceyi-açıklama"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-034",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 29. maddesine göre süreli veya süresiz yayın hakkı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Süreli yayın çıkarmak yalnızca tüzel kişilere tanınmış bir haktır.",
+			"Süresiz yayınlar için mali teminat yatırılması şarttır.",
+			"Süreli veya süresiz yayın önceden izin alma ve mali teminat yatırma şartına bağlanamaz.",
+			"Süreli yayın çıkarmak için yetkili merciden önceden izin alınması zorunludur.",
+			"Süreli yayınların çıkarılmasına ilişkin esaslar Cumhurbaşkanlığı kararnamesiyle düzenlenir."
+		],
+		"correctIndex": 2,
+		"explanation": "29. maddenin birinci fıkrası açıktır: süreli veya süresiz yayın önceden izin alma ve mali teminat yatırma şartına bağlanamaz. Süreli yayın çıkarabilmek için kanunun gösterdiği bilgi ve belgelerin yetkili mercie verilmesi yeterlidir; ilgili esaslar kanunla düzenlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "29"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"süreli-yayın"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-035",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 29. maddesine göre, süreli yayın çıkarmak için verilen bilgi ve belgelerin kanuna aykırılığının tespiti hâlinde yetkili merci ne yapar?",
+		"options": [
+			"Yayının durdurulması için mahkemeye başvurur.",
+			"Yayın sahibine idari para cezası verir ve yayını askıya alır.",
+			"Yayını doğrudan durdurur.",
+			"Bilgi ve belgelerin tamamlanması için süre verir; başka işlem yapamaz.",
+			"Yayının durdurulması için Cumhurbaşkanlığına başvurur."
+		],
+		"correctIndex": 0,
+		"explanation": "29. maddenin ikinci fıkrasına göre süreli yayın çıkarabilmek için kanunun gösterdiği bilgi ve belgelerin yetkili mercie verilmesi yeterlidir; bunların kanuna aykırılığının tespiti hâlinde yetkili merci yayının durdurulması için mahkemeye başvurur. Yayını durdurma yetkisi idarede değil yargıdadır. Ayrıca süreli yayınlar Devletin ve diğer kamu tüzelkişilerinin araç ve imkânlarından eşitlik esasına göre yararlanır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "29"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"süreli-yayın",
+			"durdurma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-036",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 32. maddesine göre düzeltme ve cevap hakkı ile ilgili aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Düzeltme ve cevabın yayımlanmasına idare karar verir.",
+			"Hak, her türlü yayın karşısında sınırsız olarak kullanılabilir.",
+			"Hakkın kullanılması yalnızca süresiz yayınlar bakımından mümkündür.",
+			"Düzeltme ve cevap yayımlanmazsa konu hakkında karar verme yetkisi Basın İlan Kurumundadır.",
+			"Hak, ancak kişilerin haysiyet ve şereflerine dokunulması veya kendileriyle ilgili gerçeğe aykırı yayınlar yapılması hâllerinde tanınır."
+		],
+		"correctIndex": 4,
+		"explanation": "32. maddeye göre düzeltme ve cevap hakkı ancak kişilerin haysiyet ve şereflerine dokunulması veya kendileriyle ilgili gerçeğe aykırı yayınlar yapılması hâllerinde tanınır ve kanunla düzenlenir. Düzeltme ve cevap yayımlanmazsa, yayımlanmasının gerekip gerekmediğine hâkim tarafından ilgilinin müracaat tarihinden itibaren en geç yedi gün içinde karar verilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "32"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"düzeltme-ve-cevap-hakkı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-037",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 37. maddesinde düzenlenen kanuni hâkim güvencesi aşağıdakilerden hangisini ifade eder?",
+		"options": [
+			"Davaların en az giderle ve mümkün olan süratle sonuçlandırılmasını",
+			"Hiçbir mahkemenin görev ve yetkisi içindeki davaya bakmaktan kaçınamamasını",
+			"Herkesin meşru vasıta ve yollardan yargı mercilerine başvurabilmesini",
+			"Hiç kimsenin kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamamasını",
+			"Hâkimlerin azlolunamamasını ve emekliye ayrılamamasını"
+		],
+		"correctIndex": 3,
+		"explanation": "37. maddenin birinci fıkrasına göre hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz; ikinci fıkra ise bir kimseyi kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarma sonucunu doğuran yargı yetkisine sahip olağanüstü merciler kurulmasını yasaklar. Hâkimlik teminatı 139., hak arama hürriyeti 36., yargının usul güvenceleri ise 141. maddede düzenlenmiştir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "37"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kanuni-hâkim-güvencesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-038",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "uzman",
+		"stem": "Belirli bir olay hakkında yargılama yapmak üzere, olaydan sonra kanunla özel bir yargı mercii kurulmuştur. Anayasa'nın 37. maddesi bakımından bu düzenleme için aşağıdakilerden hangisi söylenebilir?",
+		"options": [
+			"Aykırılık ancak merci olağanüstü hâl döneminde kurulmuşsa doğar.",
+			"Merciin bağımsız hâkimlerden oluşması hâlinde aykırılık ortadan kalkar.",
+			"Merci kanunla kurulduğu için Anayasa'ya uygundur.",
+			"Aykırılık ancak merciin kararlarına karşı kanun yolu kapalıysa doğar.",
+			"Kişileri kanunen tabi oldukları mahkemeden başka bir merci önüne çıkarma sonucu doğurduğundan Anayasa'ya aykırıdır."
+		],
+		"correctIndex": 4,
+		"explanation": "37. maddenin ikinci fıkrası, bir kimseyi kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarma sonucunu doğuran yargı yetkisine sahip olağanüstü merciler kurulmasını yasaklar. Güvence, mahkemenin uyuşmazlığın doğmasından önce kanunla belirlenmiş olmasını gerektirir; sonradan kişiye ya da olaya özgü mahkeme kurulması, merci kanunla kurulmuş olsa da yasağın kapsamındadır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "37"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kanuni-hâkim-güvencesi",
+			"olağanüstü-merci"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-039",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 38. maddesindeki suç ve cezalara ilişkin esaslar bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Ölüm cezası ve genel müsadere cezası verilemez.",
+			"İdare, kanunda öngörülmüş olmak şartıyla kişi hürriyetinin kısıtlanması sonucunu doğuran müeyyide uygulayabilir.",
+			"Kanuna aykırı olarak elde edilmiş bulgular delil olarak kabul edilemez.",
+			"Hiç kimse, yalnızca sözleşmeden doğan bir yükümlülüğü yerine getirememesinden dolayı özgürlüğünden alıkonulamaz.",
+			"Ceza sorumluluğu şahsidir."
+		],
+		"correctIndex": 1,
+		"explanation": "38. maddeye göre idare, kişi hürriyetinin kısıtlanması sonucunu doğuran bir müeyyide uygulayamaz; bu kurala yalnızca Silahlı Kuvvetlerin iç düzeni bakımından kanunla istisna getirilebilir. Diğer seçenekler maddenin ceza sorumluluğunun şahsiliği, hukuka aykırı delil yasağı, ölüm ve genel müsadere cezası yasağı ile borç için özgürlükten alıkoyma yasağına ilişkin fıkralarına uygundur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "38"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"suç-ve-ceza"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-040",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 42. maddesine göre eğitim ve öğrenim hakkı ve ödevi bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Kimse eğitim ve öğrenim hakkından yoksun bırakılamaz.",
+			"Eğitim ve öğretim hürriyeti, Anayasaya sadakat borcunu ortadan kaldırmaz.",
+			"İlköğretim bütün vatandaşlar için zorunlu olup hem Devlet hem de özel okullarda parasızdır.",
+			"Eğitim ve öğretim, Atatürk ilke ve inkılapları doğrultusunda, Devletin gözetim ve denetimi altında yapılır.",
+			"Türkçeden başka hiçbir dil, eğitim ve öğretim kurumlarında Türk vatandaşlarına ana dilleri olarak okutulamaz ve öğretilemez."
+		],
+		"correctIndex": 2,
+		"explanation": "42. maddeye göre ilköğretim kız ve erkek bütün vatandaşlar için zorunludur ve Devlet okullarında parasızdır; parasızlık güvencesi özel okulları kapsamaz. Özel ilk ve orta dereceli okulların bağlı olduğu esaslar, Devlet okulları ile erişilmek istenen seviyeye uygun olarak kanunla düzenlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "42"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"eğitim-hakkı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-041",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 51. maddesine göre sendika kurma hakkı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Çalışanlar ve işverenler önceden izin almaksızın sendika ve üst kuruluş kurabilir; hiç kimse bir sendikaya üye olmaya ya da üyelikten ayrılmaya zorlanamaz.",
+			"Sendika kurmak yetkili merciin iznine bağlıdır.",
+			"Bir iş yerinde çalışanların sendikaya üye olmaları zorunludur.",
+			"Sendika kurma hakkı yalnızca işçilere tanınmıştır.",
+			"Sendika kurma hakkı hiçbir sebeple sınırlanamaz."
+		],
+		"correctIndex": 0,
+		"explanation": "51. maddeye göre çalışanlar ve işverenler, üyelerinin çalışma ilişkilerinde ekonomik ve sosyal hak ve menfaatlerini korumak ve geliştirmek için önceden izin almaksızın sendikalar ve üst kuruluşlar kurma, bunlara serbestçe üye olma ve üyelikten serbestçe çekilme haklarına sahiptir; hiç kimse üye olmaya ya da üyelikten ayrılmaya zorlanamaz. Hak, maddede sayılan sebeplerle ve kanunla sınırlanabilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "51"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sendika-kurma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-042",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 53. maddesine göre memurlar ve diğer kamu görevlilerinin toplu sözleşme yapması sırasında uyuşmazlık çıkarsa ne olur?",
+		"options": [
+			"Taraflar Kamu Görevlileri Hakem Kuruluna başvurabilir; Kurul kararları kesindir ve toplu sözleşme hükmündedir.",
+			"Taraflar greve başvurabilir.",
+			"Toplu sözleşme yapılamamış sayılır ve bir sonraki döneme bırakılır.",
+			"Uyuşmazlığı Cumhurbaşkanı kararı çözer.",
+			"Uyuşmazlık Yargıtayca çözülür ve karar tavsiye niteliğindedir."
+		],
+		"correctIndex": 0,
+		"explanation": "53. maddeye 2010 yılında eklenen fıkralar, memurlar ve diğer kamu görevlilerine toplu sözleşme yapma hakkı tanır. Toplu sözleşme yapılması sırasında uyuşmazlık çıkması hâlinde taraflar Kamu Görevlileri Hakem Kuruluna başvurabilir; Kurul kararları kesindir ve toplu sözleşme hükmündedir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "53"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toplu-sözleşme",
+			"hakem-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-043",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 57. maddesinde düzenlenen konut hakkı bakımından Devlete yüklenen görev aşağıdakilerden hangisidir?",
+		"options": [
+			"Konut ihtiyacını yalnızca belediyeler eliyle karşılamak",
+			"Konut kredilerinin faizini sıfırlamak",
+			"Konut kiralarını doğrudan belirlemek",
+			"Her vatandaşa ücretsiz konut tahsis etmek",
+			"Şehirlerin özelliklerini ve çevre şartlarını gözeten bir planlama çerçevesinde konut ihtiyacını karşılayacak tedbirleri almak ve toplu konut teşebbüslerini desteklemek"
+		],
+		"correctIndex": 4,
+		"explanation": "57. maddeye göre Devlet, şehirlerin özelliklerini ve çevre şartlarını gözeten bir planlama çerçevesinde konut ihtiyacını karşılayacak tedbirleri alır, ayrıca toplu konut teşebbüslerini destekler. Madde Devlete her vatandaşa konut sağlama değil, konut ihtiyacını karşılamaya yönelik tedbir alma görevi yükler; konut hakkı sosyal ve ekonomik haklar ve ödevler bölümündedir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "57"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"konut-hakkı",
+			"sosyal-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-044",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 69. maddesine göre siyasi partiler bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Siyasi partiler ticari faaliyetlere girişemez.",
+			"Anayasa Mahkemesi temelli kapatma yerine, fiillerin ağırlığına göre partinin Devlet yardımından kısmen veya tamamen yoksun bırakılmasına karar verebilir.",
+			"Siyasi partilerin kapatılması, Yargıtay Cumhuriyet Başsavcısının açacağı dava üzerine Anayasa Mahkemesince kesin olarak karara bağlanır.",
+			"Anayasa Mahkemesi, siyasi partilerin mal edinimleri ile gelir ve giderlerinin denetiminde Sayıştaydan yardım sağlar.",
+			"Siyasi partilerin kapatılması, İçişleri Bakanlığının başvurusu üzerine Danıştayca karara bağlanır."
+		],
+		"correctIndex": 4,
+		"explanation": "69. maddeye göre siyasi partilerin kapatılması, Yargıtay Cumhuriyet Başsavcısının açacağı dava üzerine Anayasa Mahkemesince kesin olarak karara bağlanır; Danıştay veya İçişleri Bakanlığının böyle bir yetkisi yoktur. Diğer seçenekler maddenin ticari faaliyet yasağı, mali denetim ve temelli kapatma yerine Devlet yardımından yoksun bırakma hükümlerine uygundur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "69"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siyasi-partiler",
+			"kapatma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-045",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 70. maddesine göre kamu hizmetlerine girme hakkı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Hizmete alınmada ayrım yapılıp yapılamayacağı kanunla serbestçe belirlenir.",
+			"Kamu hizmetlerine girmede kurumlar, görevin gerektirdiği niteliklerin dışında da şart belirleyebilir.",
+			"Kamu hizmetlerine girme hakkı Anayasa'da siyasi haklar ve ödevler arasında değil, sosyal haklar arasında düzenlenmiştir.",
+			"Her Türk kamu hizmetlerine girme hakkına sahiptir ve hizmete alınmada görevin gerektirdiği niteliklerden başka hiçbir ayırım gözetilemez.",
+			"Kamu hizmetlerine girme hakkı yalnızca yükseköğrenim mezunlarına tanınmıştır."
+		],
+		"correctIndex": 3,
+		"explanation": "70. madde iki cümleden oluşur: her Türk kamu hizmetlerine girme hakkına sahiptir ve hizmete alınmada görevin gerektirdiği niteliklerden başka hiçbir ayırım gözetilemez. Hak, Anayasa'nın Siyasi Haklar ve Ödevler bölümünde yer alır ve 657 sayılı Kanun'un liyakat ilkesinin anayasal dayanağını oluşturur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "70"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kamu-hizmetlerine-girme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-046",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 72. maddesine göre vatan hizmeti bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Vatan hizmeti her Türkün hakkı ve ödevidir; bu hizmetin ne şekilde yerine getirileceği kanunla düzenlenir.",
+			"Vatan hizmeti yalnızca bir ödevdir; hak niteliği taşımaz.",
+			"Vatan hizmeti Anayasa'da sosyal ve ekonomik haklar arasında düzenlenmiştir.",
+			"Vatan hizmetinin şekli Cumhurbaşkanlığı kararnamesiyle belirlenir.",
+			"Vatan hizmeti yalnızca Silahlı Kuvvetlerde yerine getirilebilir."
+		],
+		"correctIndex": 0,
+		"explanation": "72. maddeye göre vatan hizmeti her Türkün hakkı ve ödevidir; bu hizmetin Silahlı Kuvvetlerde veya kamu kesiminde ne şekilde yerine getirileceği veya getirilmiş sayılacağı kanunla düzenlenir. Madde, Siyasi Haklar ve Ödevler bölümünde yer alır ve hizmetin yalnızca Silahlı Kuvvetlerle sınırlı olmadığını açıkça belirtir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "72"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vatan-hizmeti",
+			"siyasi-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-047",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 35. maddesine göre mülkiyet hakkı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Mülkiyet ve miras hakları ancak kamu yararı amacıyla ve kanunla sınırlanabilir; mülkiyet hakkının kullanılması toplum yararına aykırı olamaz.",
+			"Mülkiyet hakkı hiçbir sebeple sınırlanamaz.",
+			"Mülkiyet hakkı idarenin düzenleyici işlemleriyle de sınırlanabilir.",
+			"Miras hakkı Anayasa'da güvence altına alınmamıştır.",
+			"Mülkiyet hakkı yalnızca Türk vatandaşlarına tanınmıştır."
+		],
+		"correctIndex": 0,
+		"explanation": "35. madde üç cümleden oluşur: herkes mülkiyet ve miras haklarına sahiptir; bu haklar ancak kamu yararı amacıyla, kanunla sınırlanabilir; mülkiyet hakkının kullanılması toplum yararına aykırı olamaz. Sınırlama hem sebep (kamu yararı) hem de araç (kanun) bakımından bağlıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "35"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mülkiyet-hakkı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-048",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 67. maddesine göre seçme ve halkoylamasına katılma hakları bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Seçimler ve halkoylaması serbest, eşit, gizli, tek dereceli, genel oy, açık sayım ve döküm esaslarına göre yargı yönetim ve denetimi altında yapılır.",
+			"Seçim kanunlarında yapılan değişiklikler, yürürlüğe girdiği tarihten itibaren bir yıl içinde yapılacak seçimlerde uygulanmaz.",
+			"On sekiz yaşını dolduran her Türk vatandaşı seçme ve halkoylamasına katılma haklarına sahiptir.",
+			"Ceza infaz kurumlarında bulunan bütün hükümlüler oy kullanabilir.",
+			"Silah altında bulunan er ve erbaşlar ile askerî öğrenciler oy kullanamaz."
+		],
+		"correctIndex": 3,
+		"explanation": "67. maddeye göre silah altında bulunan er ve erbaşlar ile askerî öğrenciler ve taksirli suçlardan hüküm giyenler hariç ceza infaz kurumlarında bulunan hükümlüler oy kullanamaz. Yani hükümlülerin oy kullanabilmesi kural değil, taksirli suçlardan hüküm giyenlere özgü bir istisnadır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "67"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"seçme-seçilme",
+			"siyasi-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-049",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 41. maddesine göre ailenin korunması ve çocuk hakları bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Aile, Türk toplumunun temelidir ve eşler arasında eşitliğe dayanır.",
+			"Devlet, ailenin huzur ve refahı ile özellikle ananın ve çocukların korunması için gerekli tedbirleri alır ve teşkilatı kurar.",
+			"Devlet, her türlü istismara ve şiddete karşı çocukları koruyucu tedbirleri alır.",
+			"Her çocuk korunma ve bakımdan yararlanma hakkına sahiptir.",
+			"Çocuğun ana ve babasıyla kişisel ilişki kurma hakkı hiçbir hâlde sınırlandırılamaz."
+		],
+		"correctIndex": 4,
+		"explanation": "41. maddenin 2010 yılında eklenen fıkrasına göre her çocuk, korunma ve bakımdan yararlanma ile 'yüksek yararına açıkça aykırı olmadıkça' ana ve babasıyla kişisel ve doğrudan ilişki kurma ve sürdürme hakkına sahiptir. Bu hak, çocuğun yüksek yararı ölçütüyle sınırlanabilir niteliktedir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "41"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ailenin-korunması",
+			"çocuk-hakları"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-050",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 73. maddesine göre vergi ödevi bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Vergi, resim, harç ve benzeri mali yükümlülükler kanunla konulur, değiştirilir veya kaldırılır.",
+			"Vergi yükünün adaletli ve dengeli dağılımı maliye politikasının sosyal amacıdır.",
+			"Muaflık, istisna, indirim ve oranlara ilişkin hükümlerde kanunun belirttiği alt ve üst sınırlar içinde değişiklik yapma yetkisi Cumhurbaşkanına verilebilir.",
+			"Vergi, resim, harç ve benzeri mali yükümlülükler Cumhurbaşkanlığı kararnamesiyle konulabilir.",
+			"Herkes kamu giderlerini karşılamak üzere mali gücüne göre vergi ödemekle yükümlüdür."
+		],
+		"correctIndex": 3,
+		"explanation": "73. maddenin üçüncü fıkrası verginin kanuniliği ilkesini koyar: vergi, resim, harç ve benzeri mali yükümlülükler kanunla konulur, değiştirilir veya kaldırılır. Cumhurbaşkanına verilebilecek yetki yalnızca muaflık, istisna, indirim ve oranlara ilişkin hükümlerde, kanunun belirttiği yukarı ve aşağı sınırlar içinde değişiklik yapmakla sınırlıdır; yeni bir mali yükümlülük koyma yetkisi değildir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "73"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vergi-ödevi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
 	}
 ]

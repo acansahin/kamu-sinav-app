@@ -6,12 +6,12 @@
 		"difficulty": "kolay",
 		"stem": "Türkiye Büyük Millet Meclisi kaç milletvekilinden oluşur?",
 		"options": [
-			"450",
+			"650",
 			"550",
-			"600",
-			"650"
+			"450",
+			"600"
 		],
-		"correctIndex": 2,
+		"correctIndex": 3,
 		"explanation": "Anayasa'nın 75. maddesine göre Türkiye Büyük Millet Meclisi, genel oyla seçilen altı yüz milletvekilinden oluşur. Bu sayı 2017 Anayasa değişikliğiyle 550'den 600'e çıkarılmıştır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -29,7 +29,7 @@
 			"madde-75",
 			"sayi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -40,8 +40,8 @@
 		"stem": "Milletvekili seçilebilmek için gereken en az yaş kaçtır?",
 		"options": [
 			"18",
-			"25",
 			"30",
+			"25",
 			"40"
 		],
 		"correctIndex": 0,
@@ -62,7 +62,7 @@
 			"madde-76",
 			"yas"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -72,12 +72,12 @@
 		"difficulty": "kolay",
 		"stem": "TBMM toplantı yeter sayısı nedir?",
 		"options": [
-			"Üye tamsayısının en az üçte biri",
-			"Üye tamsayısının salt çoğunluğu",
+			"Toplantıya katılanların salt çoğunluğu",
 			"Üye tamsayısının beşte üçü",
-			"Toplantıya katılanların salt çoğunluğu"
+			"Üye tamsayısının salt çoğunluğu",
+			"Üye tamsayısının en az üçte biri"
 		],
-		"correctIndex": 0,
+		"correctIndex": 3,
 		"explanation": "Anayasa'nın 96. maddesine göre TBMM, yapacağı seçimler dâhil bütün işlerinde üye tamsayısının en az üçte biri ile toplanır. 600 üyeli Mecliste bu sayı 200'dür.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -95,7 +95,7 @@
 			"madde-96",
 			"yeter-sayi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -105,12 +105,12 @@
 		"difficulty": "orta",
 		"stem": "600 üyeli TBMM'de karar yeter sayısı hiçbir şekilde kaçın altına düşemez?",
 		"options": [
-			"151",
 			"200",
+			"360",
 			"301",
-			"360"
+			"151"
 		],
-		"correctIndex": 0,
+		"correctIndex": 3,
 		"explanation": "Madde 96'ya göre TBMM toplantıya katılanların salt çoğunluğu ile karar verir; ancak karar yeter sayısı hiçbir şekilde üye tamsayısının dörtte birinin bir fazlasından az olamaz. 600 üyede bu sayı 600 / 4 + 1 = 151'dir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -128,7 +128,7 @@
 			"madde-96",
 			"hesap"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -139,9 +139,9 @@
 		"stem": "Anayasa'ya göre kanun teklif etmeye kim yetkilidir?",
 		"options": [
 			"Milletvekilleri",
+			"Bakanlar",
 			"Cumhurbaşkanı",
-			"Milletvekilleri ve Cumhurbaşkanı",
-			"Bakanlar"
+			"Milletvekilleri ve Cumhurbaşkanı"
 		],
 		"correctIndex": 0,
 		"explanation": "Anayasa'nın 88. maddesine göre kanun teklif etmeye milletvekilleri yetkilidir. 2017 Anayasa değişikliğinden sonra Cumhurbaşkanının kanun teklif etme yetkisi bulunmamaktadır; Cumhurbaşkanı kendi yetki alanında Cumhurbaşkanlığı kararnamesi çıkarır.",
@@ -161,7 +161,7 @@
 			"madde-88",
 			"guncellik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -171,12 +171,12 @@
 		"difficulty": "orta",
 		"stem": "Genel ve özel af ilanına karar verilebilmesi için TBMM'de hangi çoğunluk gereklidir?",
 		"options": [
-			"Toplantıya katılanların salt çoğunluğu",
-			"Üye tamsayısının salt çoğunluğu",
 			"Üye tamsayısının beşte üç çoğunluğu",
-			"Üye tamsayısının üçte iki çoğunluğu"
+			"Üye tamsayısının üçte iki çoğunluğu",
+			"Toplantıya katılanların salt çoğunluğu",
+			"Üye tamsayısının salt çoğunluğu"
 		],
-		"correctIndex": 2,
+		"correctIndex": 0,
 		"explanation": "Anayasa'nın 87. maddesine göre TBMM, üye tamsayısının beşte üç çoğunluğunun kararı ile genel ve özel af ilanına karar verir. Bu, olağan karar yeter sayısından ayrılan nitelikli bir çoğunluktur.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -194,7 +194,7 @@
 			"madde-87",
 			"af"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -204,12 +204,12 @@
 		"difficulty": "zor",
 		"stem": "Anayasa'nın 98. maddesindeki bilgi edinme ve denetim yolları arasında aşağıdakilerden hangisi yer almaz?",
 		"options": [
-			"Meclis araştırması",
 			"Genel görüşme",
-			"Gensoru",
-			"Meclis soruşturması"
+			"Meclis soruşturması",
+			"Meclis araştırması",
+			"Gensoru"
 		],
-		"correctIndex": 2,
+		"correctIndex": 3,
 		"explanation": "Madde 98'de sayılan denetim yolları meclis araştırması, genel görüşme, meclis soruşturması ve yazılı sorudur. Gensoru, parlamenter sistemin bir aracı olarak 2017 Anayasa değişikliğiyle kaldırılmıştır; güncel metinde yer almaz.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -228,7 +228,7 @@
 			"guncellik",
 			"tuzak"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -239,9 +239,9 @@
 		"stem": "Cumhurbaşkanı, uygun bulmadığı bir kanunu kaç gün içinde ve nasıl TBMM'ye geri gönderir?",
 		"options": [
 			"15 gün içinde, gerekçeli olarak",
+			"15 gün içinde, gerekçe belirtmeksizin",
 			"30 gün içinde, gerekçe belirtmeksizin",
-			"7 gün içinde, gerekçeli olarak",
-			"15 gün içinde, gerekçe belirtmeksizin"
+			"7 gün içinde, gerekçeli olarak"
 		],
 		"correctIndex": 0,
 		"explanation": "Anayasa'nın 89. maddesine göre Cumhurbaşkanı, TBMM'ce kabul edilen kanunları on beş gün içinde yayımlar; uygun bulmadıklarını ise bir daha görüşülmek üzere aynı süre içinde gerekçeli olarak TBMM'ye geri gönderir. Gerekçe zorunludur.",
@@ -261,7 +261,7 @@
 			"madde-89",
 			"veto"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -271,12 +271,12 @@
 		"difficulty": "zor",
 		"stem": "Cumhurbaşkanınca geri gönderilen bir kanunun aynen kabul edilebilmesi için TBMM'de hangi çoğunluk gerekir?",
 		"options": [
-			"Toplantıya katılanların salt çoğunluğu",
-			"Üye tamsayısının salt çoğunluğu",
+			"Üye tamsayısının üçte ikisi",
 			"Üye tamsayısının beşte üçü",
-			"Üye tamsayısının üçte ikisi"
+			"Üye tamsayısının salt çoğunluğu",
+			"Toplantıya katılanların salt çoğunluğu"
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Madde 89'a göre TBMM, geri gönderilen kanunu üye tamsayısının salt çoğunluğuyla aynen kabul ederse kanun Cumhurbaşkanınca yayımlanır. 600 üyeli Mecliste bu sayı 301'dir; olağan karar yeter sayısından daha ağır bir şarttır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -294,7 +294,7 @@
 			"madde-89",
 			"cogunluk"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -306,8 +306,8 @@
 		"options": [
 			"106",
 			"151",
-			"200",
-			"301"
+			"301",
+			"200"
 		],
 		"correctIndex": 1,
 		"explanation": "Madde 96 iki kuralı birlikte uygular: karar, toplantıya katılanların salt çoğunluğuyla alınır (210'un salt çoğunluğu 106), ancak karar yeter sayısı hiçbir şekilde üye tamsayısının dörtte birinin bir fazlasından, yani 151'den az olamaz. Bu nedenle 106 yeterli değildir; en az 151 kabul oyu gerekir.",
@@ -328,7 +328,7 @@
 			"hesap",
 			"senaryo"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -339,9 +339,9 @@
 		"stem": "TBMM ve Cumhurbaşkanlığı seçimlerine ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
 		"options": [
 			"Seçimler beş yılda bir aynı günde yapılır.",
-			"TBMM seçimleri dört, Cumhurbaşkanlığı seçimleri beş yılda bir yapılır.",
 			"Seçimler yedi yılda bir yapılır.",
-			"TBMM ve Cumhurbaşkanlığı seçimleri farklı yıllarda yapılır."
+			"TBMM ve Cumhurbaşkanlığı seçimleri farklı yıllarda yapılır.",
+			"TBMM seçimleri dört, Cumhurbaşkanlığı seçimleri beş yılda bir yapılır."
 		],
 		"correctIndex": 0,
 		"explanation": "Anayasa'nın 77. maddesine göre Türkiye Büyük Millet Meclisi ve Cumhurbaşkanlığı seçimleri beş yılda bir aynı günde yapılır. Seçimlerin eş zamanlı olması Cumhurbaşkanlığı hükümet sisteminin temel özelliklerinden biridir.",
@@ -361,7 +361,7 @@
 			"madde-77",
 			"secim"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -371,12 +371,12 @@
 		"difficulty": "uzman",
 		"stem": "Yasama organına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
+			"Genel af ilanı üye tamsayısının beşte üç çoğunluğunu gerektirir.",
 			"TBMM üye tamsayısının en az üçte biri ile toplanır.",
 			"Kanun teklif etme yetkisi milletvekillerine aittir.",
-			"Cumhurbaşkanı kabul edilen kanunları otuz gün içinde yayımlar.",
-			"Genel af ilanı üye tamsayısının beşte üç çoğunluğunu gerektirir."
+			"Cumhurbaşkanı kabul edilen kanunları otuz gün içinde yayımlar."
 		],
-		"correctIndex": 2,
+		"correctIndex": 3,
 		"explanation": "Madde 89'a göre Cumhurbaşkanı, TBMM'ce kabul edilen kanunları on beş gün içinde yayımlar; otuz gün değil. Aynı on beş günlük süre, uygun bulunmayan kanunun gerekçeli olarak geri gönderilmesi için de geçerlidir. Diğer üç ifade sırasıyla madde 96, madde 88 ve madde 87 hükümleriyle uyumludur.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -394,851 +394,8 @@
 			"tuzak",
 			"sure"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
-	},
-	{
-		"id": "sytay-gys23-q007",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "orta",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıdakilerden hangisi TBMM'nin görev ve yetkilerinden biridir?",
-		"options": [
-			"Para basılmasına karar vermek",
-			"Milletlerarası andlaşmaları onaylamak",
-			"Cumhurbaşkanını seçmek",
-			"Kanunları yayımlamak"
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 87. maddesine göre para basılmasına karar vermek TBMM'nin görev ve yetkilerindendir. Milletlerarası andlaşmaları onaylama ve kanunları yayımlama Cumhurbaşkanına aittir; Cumhurbaşkanı ise 2017 sonrası halk tarafından seçilir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "87"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "published",
-		"tags": [
-			"tbmm-gorevleri"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-25"
-	},
-	{
-		"id": "sytay-gys23-q008",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "orta",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre Türkiye Büyük Millet Meclisinin Başkanlık Divanında aşağıdakilerden hangisi yer almaz?",
-		"options": [
-			"Meclis Başkanı",
-			"Başkanvekilleri",
-			"Siyasi parti grupları",
-			"Kâtip üyeler ve İdare Amirleri"
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 94. maddesine göre TBMM Başkanlık Divanı; Meclis Başkanı, başkanvekilleri, kâtip üyeler ve idare amirlerinden oluşur. Siyasi parti grupları Divanın üyesi değildir; Divan yalnızca bu grupların üye sayısı oranında oluşturulur.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "94"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "published",
-		"tags": [
-			"baskanlik-divani"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-25"
-	},
-	{
-		"id": "meb-ic21ud-q008",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre \"seçimlerin geriye bırakılması ve ara seçimler\" ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Ara seçim, her seçim döneminde bir defa yapılır.",
-			"Genel seçimlere bir yıl kala, ara seçimi yapılamaz.",
-			"Genel seçimden otuz altı ay geçmedikçe ara seçime gidilemez.",
-			"Türkiye Büyük Millet Meclisi üyeliklerinde boşalma olması hâlinde, ara seçime gidilir."
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 78. maddesine göre ara seçime, genel seçimden otuz ay geçmedikçe gidilemez; seçenekte belirtilen otuz altı aylık süre yanlıştır. Ara seçim her seçim döneminde bir defa yapılır ve genel seçimlere bir yıl kala ara seçim yapılamaz.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "78"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Unvan Değişikliği Sınavı (İnşaat Mühendisi) A Kitapçığı, 2021",
-			"year": 2021,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171334_4_YNYAAT_MUHENDYSY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"ara-secim"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-ic21ud-q009",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "kolay",
-		"stem": "T.C. Anayasası'na göre kanun tekliflerinin Türkiye Büyük Millet Meclisinde görüşülme usul ve esasları aşağıdakilerden hangisi ile düzenlenir?",
-		"options": [
-			"Kanun",
-			"İçtüzük",
-			"Genelge",
-			"Cumhurbaşkanlığı Kararnamesi"
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 88. maddesine göre kanun teklif etmeye milletvekilleri yetkilidir; kanun tekliflerinin Türkiye Büyük Millet Meclisinde görüşülme usul ve esasları ise İçtüzükle düzenlenir. Meclisin kendi çalışma düzenini kendi iç düzenlemesiyle belirlemesi yasama organının özerkliğinin bir sonucudur.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "88"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Unvan Değişikliği Sınavı (İnşaat Mühendisi) A Kitapçığı, 2021",
-			"year": 2021,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171334_4_YNYAAT_MUHENDYSY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"ictuzuk",
-			"kanun-teklifi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sm26-q026",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "zor",
-		"stem": "T.C. Anayasası'na göre, \"Yüksek Seçim Kurulu\" ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Görev ve yetkileri kanunla düzenlenir.",
-			"Yedi asıl ve dört yedek üyeden oluşur.",
-			"Üyeler, salt çoğunluk ve gizli oyla aralarından bir başkan ve bir başkan vekili seçerler.",
-			"Kurula Yargıtay ve Danıştay'dan seçilmiş üyeler arasından ad çekme ile ikişer yedek üye ayrılır.",
-			"Üyelerin yedisi Yargıtay, dördü Danıştay Genel Kurullarınca seçilir."
-		],
-		"correctIndex": 4,
-		"explanation": "Anayasa'nın 79. maddesine göre Yüksek Seçim Kurulunun yedi asıl ve dört yedek üyesinin altısı Yargıtay, beşi Danıştay Genel Kurullarınca seçilir. Seçenekte belirtilen 'yedisi Yargıtay, dördü Danıştay' dağılımı yanlıştır; diğer seçenekler maddenin hükümlerine uygundur.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "79"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Şube Müdürü Görevde Yükselme Sınavı A Kitapçığı, 2026",
-			"year": 2026,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2026_02/69899a10ca3ec941629998_SUBE_MUDURU_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"ysk"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sm26-q027",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "zor",
-		"stem": "T.C. Anayasası'na göre, Türkiye Büyük Millet Meclisinin faaliyetleri ile ilgili aşağıdaki hükümlerden hangisi doğrudur?",
-		"options": [
-			"Türkiye Büyük Millet Meclisi, her yıl Eylül ayının ilk günü kendiliğinden toplanır.",
-			"Türkiye Büyük Millet Meclisi Başkanlık Divanı için, bir yasama döneminde üç seçim yapılır.",
-			"Türkiye Büyük Millet Meclisi, yapacağı seçimler dâhil bütün işlerinde üye tam sayısının en az beşte biri ile toplanır.",
-			"Türkiye Büyük Millet Meclisi Başkan adayları; Meclis üyeleri içinden, Meclisin toplandığı günden itibaren yedi gün içinde, Başkanlık Divanına bildirilir.",
-			"Meclis Başkanı, doğrudan doğruya veya üyelerin beşte birinin yazılı istemi üzerine, Meclisi toplantıya çağırır."
-		],
-		"correctIndex": 4,
-		"explanation": "Anayasa'nın 93. maddesine göre Meclis Başkanı, doğrudan doğruya veya üyelerin beşte birinin yazılı istemi üzerine Meclisi toplantıya çağırır. Diğer seçenekler yanlıştır: Meclis her yıl Ekim ayının ilk günü kendiliğinden toplanır, bir yasama döneminde Başkanlık Divanı için iki seçim yapılır, toplantı yeter sayısı üye tam sayısının en az üçte biridir ve Başkan adayları beş gün içinde bildirilir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "93"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Şube Müdürü Görevde Yükselme Sınavı A Kitapçığı, 2026",
-			"year": 2026,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2026_02/69899a10ca3ec941629998_SUBE_MUDURU_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"toplanma",
-			"meclis"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl23-q005",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre, \"yasama\" ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Türkiye Büyük Millet Meclisi ve Cumhurbaşkanlığı seçimleri beş yılda bir aynı günde yapılır.",
-			"Savaş sebebiyle yeni seçimlerin yapılmasına imkân görülmezse, Türkiye Büyük Millet Meclisi, seçimlerin bir yıl geriye bırakılmasına karar verebilir.",
-			"Yüksek Seçim Kurulunun ve diğer seçim kurullarının görev ve yetkileri yönetmelikle düzenlenir.",
-			"Seçimler, yargı organlarının genel yönetim ve denetimi altında yapılır.",
-			"Türkiye Büyük Millet Meclisi üyeleri, seçildikleri bölgeyi veya kendilerini seçenleri değil, bütün Milleti temsil ederler."
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 79. maddesine göre Yüksek Seçim Kurulunun ve diğer seçim kurullarının görev ve yetkileri kanunla düzenlenir; yönetmelikle düzenlendiği ifadesi yanlıştır. Seçimlerin yargı organlarının genel yönetim ve denetimi altında yapılması da aynı maddenin hükmüdür.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "79"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"ysk",
-			"secim"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl23-q009",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "kolay",
-		"stem": "T.C. Anayasası'na göre, Cumhurbaşkanı, Türkiye Büyük Millet Meclisince kabul edilen kanunları en geç kaç gün içinde yayımlar?",
-		"options": [
-			"Beş",
-			"Yedi",
-			"On",
-			"On beş",
-			"Otuz"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 89. maddesine göre Cumhurbaşkanı, Türkiye Büyük Millet Meclisince kabul edilen kanunları on beş gün içinde yayımlar. Uygun bulmadığı kanunları ise bir daha görüşülmek üzere aynı süre içinde gerekçesiyle birlikte Meclise geri gönderir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "89"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"kanunlarin-yayimlanmasi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-ic21-q013",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "kolay",
-		"stem": "T.C. Anayasası'na göre Yüksek Seçim Kurulu kaç asıl ve kaç yedek üyeden oluşur?",
-		"options": [
-			"Üç asıl, beş yedek",
-			"Dört asıl, yedi yedek",
-			"Beş asıl, üç yedek",
-			"Yedi asıl, dört yedek"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 79. maddesine göre Yüksek Seçim Kurulu yedi asıl ve dört yedek üyeden oluşur. Üyelerin altısı Yargıtay, beşi Danıştay Genel Kurullarınca kendi üyeleri arasından seçilir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "79"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2021",
-			"year": 2021,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171238_7_YEF_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"ysk"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-ic21-q014",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre ödenek ve yollukların en çok kaç aylığı önceden ödenebilir?",
-		"options": [
-			"Üç",
-			"Dört",
-			"Beş",
-			"Altı"
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 86. maddesine göre Türkiye Büyük Millet Meclisi üyelerinin ödenek ve yollukları kanunla düzenlenir ve ödenek ile yolluğun en çok üç aylık tutarı önceden ödenebilir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "86"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2021",
-			"year": 2021,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171238_7_YEF_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"odenek-yolluk"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sef23-q027",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre, aşağıdakilerden hangisi, Türkiye Büyük Millet Meclisinin bilgi edinme ve denetleme yetkisini kullanacağı yollardan değildir?",
-		"options": [
-			"Sözlü soru",
-			"Genel görüşme",
-			"Meclis soruşturması",
-			"Meclis araştırması",
-			"Yazılı soru"
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 98. maddesine göre Türkiye Büyük Millet Meclisi bilgi edinme ve denetleme yetkisini yazılı soru, genel görüşme, Meclis araştırması ve Meclis soruşturması yollarıyla kullanır. Sözlü soru, 2017 Anayasa değişikliğiyle denetim yolları arasından çıkarılmıştır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "98"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_2_SEF_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"denetim-yollari"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl25-q005",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre; Türkiye Büyük Millet Meclisinin boşalan üyeliklerinin sayısı, üye tam sayısının yüzde beşini bulduğu hâllerde ara seçimlerin kaç ay içinde yapılmasına karar verilir?",
-		"options": [
-			"Üç",
-			"Beş",
-			"Altı",
-			"Dokuz",
-			"On iki"
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 78. maddesine göre Türkiye Büyük Millet Meclisi üyeliklerinde boşalma olması hâlinde ara seçime gidilir; boşalan üyeliklerin sayısı üye tam sayısının yüzde beşini bulduğu hâllerde ara seçimlerin üç ay içinde yapılmasına karar verilir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "78"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2025",
-			"year": 2025,
-			"url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2025/11/adalet/gorev/10_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"ara-secim"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl25-q006",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "zor",
-		"stem": "T.C. Anayasası'na göre, \"milletlerarası antlaşmaları uygun bulma\" ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Usulüne göre yürürlüğe konulmuş milletlerarası antlaşmalar kanun hükmündedir.",
-			"Usulüne göre yürürlüğe konulmuş milletlerarası antlaşmalar için Anayasa'ya aykırılık iddiası ile Anayasa Mahkemesine başvurulamaz.",
-			"Türkiye Cumhuriyeti adına yabancı devletlerle ve milletlerarası kuruluşlarla yapılacak antlaşmaların onaylanması, Türkiye Büyük Millet Meclisinin onaylamayı bir kanunla uygun bulmasına bağlıdır.",
-			"Usulüne göre yürürlüğe konulmuş temel hak ve özgürlüklere ilişkin milletlerarası antlaşmalarla kanunların aynı konuda farklı hükümler içermesi nedeniyle çıkabilecek uyuşmazlıklarda kanun hükümleri esas alınır.",
-			"Ekonomik, ticari veya teknik ilişkileri düzenleyen ve süresi bir yılı aşmayan antlaşmalar, Devlet maliyesi bakımından bir yüklenme getirmemek, kişi hâllerine ve Türklerin yabancı memleketlerdeki mülkiyet haklarına dokunmamak şartıyla, yayımlanma ile yürürlüğe konabilir."
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 90. maddesine göre usulüne göre yürürlüğe konulmuş temel hak ve özgürlüklere ilişkin milletlerarası antlaşmalarla kanunların aynı konuda farklı hükümler içermesi nedeniyle çıkabilecek uyuşmazlıklarda MİLLETLERARASI ANTLAŞMA hükümleri esas alınır; kanun hükümlerinin esas alınacağı ifadesi yanlıştır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "90"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2025",
-			"year": 2025,
-			"url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2025/11/adalet/gorev/10_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"milletlerarasi-antlasma"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-dan19m-q003",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre Türkiye Büyük Millet Meclisi ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Türkiye Büyük Millet Meclisi genel oyla seçilen altı yüz milletvekilinden oluşur.",
-			"En az ortaöğretim mezunu olmayanlar milletvekili seçilemezler.",
-			"Türkiye Büyük Millet Meclisi ve Cumhurbaşkanlığı seçimleri beş yılda bir yapılır.",
-			"Taksirli suçlar hariç toplam bir yıl veya daha fazla hapis cezasına hüküm giymiş olanlar; affa uğramış olsalar bile milletvekili seçilemezler."
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 76. maddesine göre en az ilkokul mezunu olmayanlar milletvekili seçilemezler; ortaöğretim mezunu olma şartı aranmadığından seçenekteki ifade yanlıştır. Taksirli suçlar hariç toplam bir yıl veya daha fazla hapis cezasına hüküm giymiş olanlar ise affa uğramış olsalar bile milletvekili seçilemezler.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "76"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Müdür) A Kitapçığı, 2019",
-			"year": 2019,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2019_07/02173605_1._GRUP_MUDUR_GYS_A_C.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"milletvekili-secilme"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-cte19im-q005",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "zor",
-		"stem": "T.C. Anayasası’na göre bütçe ve kesin hesap ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Cumhurbaşkanı bütçe kanun teklifini, malî yılbaşından en az yetmişbeş gün önce, Türkiye Büyük Millet Meclisine sunar.",
-			"Merkezî yönetim kesin hesap kanunu teklifi, ilgili olduğu malî yılın sonundan başlayarak en geç altı ay sonra Cumhurbaşkanı tarafından Türkiye Büyük Millet Meclisine sunulur.",
-			"Merkezî yönetim bütçesiyle verilen ödenek, harcanabilecek tutarın sınırını gösterir. Harcanabilecek tutarın Cumhurbaşkanlığı kararnamesiyle aşılabileceğine dair bütçe kanununa hüküm konulabilir.",
-			"Türkiye Büyük Millet Meclisi üyeleri, Genel Kurulda kamu idare bütçeleri hakkında düşüncelerini her bütçenin görüşülmesi sırasında açıklarlar, gider artırıcı veya gelirleri azaltıcı önerilerde bulunamazlar."
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 161. maddesine göre merkezî yönetim bütçesiyle verilen ödenek, harcanabilecek tutarın sınırını gösterir ve harcanabilecek tutarın Cumhurbaşkanlığı kararnamesiyle aşılabileceğine dair bütçe kanununa hüküm KONULAMAZ. Diğer seçenekler; bütçe teklifinin malî yılbaşından en az yetmiş beş gün önce sunulması (m. 161), kesin hesap kanunu teklifinin en geç altı ay sonra sunulması (m. 164) ve milletvekillerinin gider artırıcı öneride bulunamaması (m. 162) hükümlerine uygundur.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "161"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İkinci Müdür) A Kitapçığı, 26.03.2019",
-			"year": 2019,
-			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171626_1_grup_ikinci_mudur_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"bütçe",
-			"kesin-hesap"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-cte19im-q004",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "orta",
-		"stem": "Bir ilin veya seçim çevresinin, Türkiye Büyük Millet Meclisinde üyesinin kalmaması hâlinde, boşalmayı takip eden - - - - günden sonraki ilk pazar günü ara seçim yapılır. T.C. Anayasası’na göre yukarıdaki hükümde boş bırakılan yere hangisi getirilmelidir?",
-		"options": [
-			"otuz",
-			"kırk beş",
-			"altmış",
-			"doksan"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 78. maddesine göre bir ilin veya seçim çevresinin Türkiye Büyük Millet Meclisinde üyesinin kalmaması hâlinde, boşalmayı takip eden doksan günden sonraki ilk pazar günü ara seçim yapılır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "78"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İkinci Müdür) A Kitapçığı, 26.03.2019",
-			"year": 2019,
-			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171626_1_grup_ikinci_mudur_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"ara-seçim"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-yim23-q004",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "orta",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıdakilerden hangisi TBMM’nin görevlerinden değildir?",
-		"options": [
-			"Kanun koymak, değiştirmek ve kaldırmak",
-			"Para basılmasına karar vermek",
-			"Savaş ilânına karar vermek",
-			"Milletlerarası andlaşmaları onaylamak"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 87. maddesine göre TBMM milletlerarası andlaşmaların ONAYLANMASINI UYGUN BULUR; andlaşmaları onaylamak ve yayımlamak ise Cumhurbaşkanının görevidir (m. 104). Kanun koymak, değiştirmek ve kaldırmak, para basılmasına ve savaş ilânına karar vermek 87. maddede sayılan Meclis görevlerindendir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "87"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"tbmm-görevleri",
-			"milletlerarası-andlaşma"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-yim23-q005",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "kolay",
-		"stem": "Aşağıdakilerden hangisi 2709 sayılı Türkiye Cumhuriyeti Anayasasına göre TBMM’nin kullandığı bilgi edinme ve denetleme yetkilerinden birisi değildir?",
-		"options": [
-			"Gensoru",
-			"Genel görüşme",
-			"Meclis soruşturması",
-			"Meclis araştırması"
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 98. maddesine göre TBMM bilgi edinme ve denetleme yetkisini Meclis araştırması, genel görüşme, Meclis soruşturması ve yazılı soru yollarıyla kullanır. Gensoru, 2017 Anayasa değişikliğiyle denetim yolları arasından çıkarılmıştır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "98"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"denetim-yolları",
-			"2017-değişikliği"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-sef23-q006",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "orta",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre aşağıda yasama ile ilgili olarak verilenler ifadelerden hangisi doğru değildir?",
-		"options": [
-			"Türkiye Büyük Millet Meclisi genel oyla seçilen altıyüz milletvekilinden oluşur",
-			"Türkiye Büyük Millet Meclisi ve Cumhurbaşkanlığı seçimleri beş yılda bir aynı günde yapılır",
-			"18 yaşından gün almış her Türk milletvekili seçilebilir",
-			"Süresi biten milletvekili yeniden seçilebilir"
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 76. maddesine göre milletvekili seçilebilmek için on sekiz yaşını DOLDURMUŞ olmak gerekir; '18 yaşından gün almış olmak' ölçütü Anayasa'da yer almaz. Diğer seçenekler TBMM'nin altı yüz milletvekilinden oluşması (m. 75), seçimlerin beş yılda bir aynı gün yapılması ve süresi biten milletvekilinin yeniden seçilebilmesi (m. 77) hükümlerine uygundur.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "76"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"milletvekili-seçilme-yeterliliği"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-sef23-q007",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "kolay",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre Türkiye Büyük Millet Meclisinin Başkanlık Divanı kimlerden oluşur?",
-		"options": [
-			"Meclis Başkanı ve Kâtip üyeler",
-			"Meclis Başkanı ve Başkanvekilleri",
-			"Meclis Başkanı, Başkanvekilleri ve Kâtip üyeler",
-			"Meclis Başkanı, Başkanvekilleri, Katip üyeler ve İdare Amirleri"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 94. maddesine göre Türkiye Büyük Millet Meclisinin Başkanlık Divanı; Meclis üyeleri arasından seçilen Meclis Başkanı, Başkanvekilleri, Kâtip üyeler ve İdare Amirlerinden oluşur.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "94"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"başkanlık-divanı"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-yim23-q007",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "orta",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre “Kamu Başdenetçisi Türkiye Büyük Millet Meclisi tarafından … oyla … yıl için seçilir.” ibaresinde noktalı yerlere sırasıyla aşağıdakilerden hangisi gelmelidir?",
-		"options": [
-			"gizli-beş",
-			"gizli-dört",
-			"açık-dört",
-			"açık-beş"
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 74. maddesine göre Kamu Başdenetçisi, Türkiye Büyük Millet Meclisi tarafından gizli oyla dört yıl için seçilir. İlk iki oylamada üye tam sayısının üçte iki, üçüncü oylamada salt çoğunluk aranır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "74"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"kamu-denetçiliği"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-pgm23sy-q018",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "zor",
-		"stem": "Yasama dokunulmazlığının kaldırılmasına veya milletvekilliğinin düşmesine 84’üncü maddenin birinci, üçüncü veya dördüncü fıkralarına göre karar verilmiş olması hâllerinde, Meclis Genel Kurulu kararının alındığı tarihten başlayarak - - - - içerisinde ilgili milletvekili veya bir diğer milletvekili, kararın, Anayasaya, kanuna veya iç tüzüğe aykırılığı iddiasıyla iptali için - - - - başvurabilir. T.C. Anayasası’na göre, bu hükümde boş bırakılan yerlere aşağıdakilerden hangisi sırasıyla getirilmelidir?",
-		"options": [
-			"yedi gün / Anayasa Mahkemesine",
-			"yedi gün / Türkiye Büyük Millet Meclisi Başkanlığına",
-			"otuz gün / Anayasa Mahkemesine",
-			"otuz gün / Türkiye Büyük Millet Meclisi Başkanlığına",
-			"otuz gün / Yüksek Seçim Kuruluna"
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 85. maddesine göre yasama dokunulmazlığının kaldırılmasına veya milletvekilliğinin düşmesine karar verilmesi hâlinde, Meclis Genel Kurulu kararının alındığı tarihten başlayarak YEDİ GÜN içerisinde ilgili milletvekili veya bir diğer milletvekili, kararın iptali için ANAYASA MAHKEMESİNE başvurabilir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "85"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Sayman) A Kitapçığı, 09.07.2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_3_SAYMAN_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"yasama-dokunulmazlığı"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-pgm23sm-q023",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "kolay",
-		"stem": "T.C. Anayasası’na göre, Türkiye Büyük Millet Meclisi üyeleri aşağıdakilerden hangisini temsil eder?",
-		"options": [
-			"Seçildikleri bölgeyi",
-			"Kendilerini seçenleri",
-			"Devleti",
-			"Bütün milleti",
-			"Siyasi partilerini"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 80. maddesine göre Türkiye Büyük Millet Meclisi üyeleri, seçildikleri bölgeyi veya kendilerini seçenleri değil, BÜTÜN MİLLETİ temsil ederler. Bu hüküm temsilî demokrasinin ve milletvekilinin bağımsızlığının dayanağıdır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "80"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şube Müdürü) A Kitapçığı, 09.07.2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_4_SUBE_MUDURU_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"milletvekilliği",
-			"temsil"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl17yim-q007",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "zor",
-		"stem": "T.C. Anayasası’na göre aşağıdakilerden hangisi kişinin milletvekili seçilmesine engel değildir?",
-		"options": [
-			"Askerlikle ilişiği olmak",
-			"En az ilkokul mezunu olmamak",
-			"Resmî ihale ve alım satımlara fesat karıştırma suçuyla hüküm giymiş olmak",
-			"Taksirli suçlardan toplam bir yıl veya daha fazla hapis cezasına hüküm giymiş olmak",
-			"İhtilas, irtikâp, dolandırıcılık, sahtecilik suçlarından biriyle hüküm giyerek affa uğramış olmak"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 76. maddesinde milletvekili seçilmeye engel hâller sayılırken hapis cezası bakımından ölçüt 'TAKSİRLİ SUÇLAR HARİÇ toplam bir yıl veya daha fazla hapis' cezasıdır. Taksirli bir suçtan alınan ceza bu nedenle engel değildir. En az ilkokul mezunu olmamak, askerlikle ilişiği olmak ve maddede sayılan yüz kızartıcı suçlardan affa uğramış olsa bile hüküm giymek engeldir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "76"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
-			"year": 2017,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"milletvekili-seçilme-yeterliliği"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl17yim-q008",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yasama",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası’na göre “yasama dokunulmazlığı” ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Türkiye Büyük Millet Meclisi üyeleri, Meclis çalışmalarındaki oy ve sözlerinden o oturumdaki Başkanlık Divanının teklifi üzerine Meclisçe başka bir karar alınmadıkça bunları Meclis dışında tekrarlamak ve açığa vurmaktan sorumlu tutulamazlar.",
-			"Türkiye Büyük Millet Meclisi üyesi hakkında, seçiminden önce veya sonra verilmiş bir ceza hükmünün yerine getirilmesi, üyelik sıfatının sona ermesine bırakılır.",
-			"Tekrar seçilen milletvekili hakkında soruşturma ve kovuşturma, Meclisin yeniden dokunulmazlığını kaldırmasına bağlıdır.",
-			"Türkiye Büyük Millet Meclisindeki siyasi parti gruplarınca, yasama dokunulmazlığı ile ilgili görüşme yapılamaz ve karar alınamaz.",
-			"Seçimden önce veya sonra bir suç işlediği ileri sürülen bir milletvekili, Meclisin kararı aranmaksızın yargılanabilir."
-		],
-		"correctIndex": 4,
-		"explanation": "Anayasa'nın 83. maddesine göre seçimden önce veya sonra bir suç işlediği ileri sürülen milletvekili, MECLİSİN KARARI OLMADIKÇA tutulamaz, sorguya çekilemez, tutuklanamaz ve yargılanamaz; Meclis kararı aranmaksızın yargılanabileceği ifadesi yanlıştır. Ağır cezayı gerektiren suçüstü hâli ile Anayasa'nın 14. maddesindeki durumlar bu hükmün dışındadır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "83"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
-			"year": 2017,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"yasama-dokunulmazlığı"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
 	},
 	{
 		"id": "anayasa-yasama-013",
@@ -1250,8 +407,8 @@
 			"On",
 			"On beş",
 			"Yirmi",
-			"Otuz",
-			"Elli"
+			"Elli",
+			"Otuz"
 		],
 		"correctIndex": 2,
 		"explanation": "Madde 95'e göre Türkiye Büyük Millet Meclisi çalışmalarını kendi yaptığı İçtüzük hükümlerine göre yürütür; İçtüzük hükümleri siyasi parti gruplarının Meclisin bütün faaliyetlerine üye sayısı oranında katılmalarını sağlayacak yolda düzenlenir ve siyasi parti grupları en az yirmi üyeden meydana gelir. Aynı madde Meclisin bina, tesis, eklenti ve arazisindeki kolluk ve yönetim hizmetlerinin Meclis Başkanlığı eliyle yürütüleceğini de öngörür.",
@@ -1271,7 +428,7 @@
 			"siyasi-parti-grubu",
 			"ictuzuk"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1281,13 +438,13 @@
 		"difficulty": "orta",
 		"stem": "Meclis çalışmalarına özürsüz veya izinsiz olarak katılmama sebebiyle milletvekilliğinin düşmesine karar verilebilmesi için Anayasa'da aranan devamsızlık ölçüsü ve karar çoğunluğu aşağıdakilerden hangisidir?",
 		"options": [
+			"Bir ay içinde toplam beş birleşim günü – Başkanlık Divanınca oybirliği",
 			"Bir ay içinde toplam beş birleşim günü – Genel Kurulca üye tamsayısının salt çoğunluğu",
 			"Bir ay içinde toplam üç birleşim günü – Genel Kurulca üye tamsayısının üçte iki çoğunluğu",
 			"Bir yıl içinde toplam on birleşim günü – Genel Kurulca toplantıya katılanların salt çoğunluğu",
-			"Bir ay içinde toplam beş birleşim günü – Başkanlık Divanınca oybirliği",
 			"Bir yasama yılı içinde toplam yirmi birleşim günü – Genel Kurulca gizli oyla salt çoğunluk"
 		],
-		"correctIndex": 0,
+		"correctIndex": 1,
 		"explanation": "Madde 84'e göre Meclis çalışmalarına özürsüz veya izinsiz olarak bir ay içerisinde toplam beş birleşim günü katılmayan milletvekilinin milletvekilliğinin düşmesine, durumun Meclis Başkanlık Divanınca tespit edilmesi üzerine Genel Kurulca üye tamsayısının salt çoğunluğunun oyuyla karar verilebilir. Başkanlık Divanına düşürme değil, yalnızca tespit yetkisi verilmiştir; kararı Genel Kurul alır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -1305,7 +462,7 @@
 			"milletvekilliginin-dusmesi",
 			"devamsizlik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1315,10 +472,10 @@
 		"difficulty": "orta",
 		"stem": "Anayasa'nın üyelikle bağdaşmayan işleri düzenleyen maddesine göre milletvekilleri bakımından aşağıdakilerden hangisi söylenemez?",
 		"options": [
-			"Devletin doğrudan doğruya veya dolaylı olarak katıldığı teşebbüs ve ortaklıkların yönetim ve denetim kurullarında görev alamazlar.",
 			"Herhangi bir taahhüt işini doğrudan veya dolaylı olarak kabul edemezler.",
 			"Temsilcilik ve hakemlik yapamazlar.",
 			"Yürütme organının teklif, inha, atama veya onamasına bağlı resmî veya özel herhangi bir işle görevlendirilemezler.",
+			"Devletin doğrudan doğruya veya dolaylı olarak katıldığı teşebbüs ve ortaklıkların yönetim ve denetim kurullarında görev alamazlar.",
 			"Üyelikle bağdaşmayan diğer görev ve işler Cumhurbaşkanlığı kararnamesiyle düzenlenir."
 		],
 		"correctIndex": 4,
@@ -1338,7 +495,7 @@
 		"tags": [
 			"bagdasmayan-isler"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1348,13 +505,13 @@
 		"difficulty": "zor",
 		"stem": "Türkiye Büyük Millet Meclisi ara vermede iken ülke ani bir silahlı saldırıya uğramış ve silahlı kuvvet kullanılmasına derhal karar verilmesi kaçınılmaz hâle gelmiştir. Anayasa'ya göre bu durumda karar verme yetkisi kimdedir?",
 		"options": [
-			"Yalnızca Türkiye Büyük Millet Meclisi olağanüstü toplantıya çağrılarak karar verebilir.",
-			"Cumhurbaşkanı da Türk Silahlı Kuvvetlerinin kullanılmasına karar verebilir.",
 			"Millî Güvenlik Kurulu karar verir ve karar Meclisin onayına sunulur.",
+			"Yalnızca Türkiye Büyük Millet Meclisi olağanüstü toplantıya çağrılarak karar verebilir.",
 			"Genelkurmay Başkanı karar verir, Cumhurbaşkanı onaylar.",
+			"Cumhurbaşkanı da Türk Silahlı Kuvvetlerinin kullanılmasına karar verebilir.",
 			"Türkiye Büyük Millet Meclisi Başkanlık Divanı karar verir."
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Madde 92'ye göre savaş hâli ilanına ve Türk Silahlı Kuvvetlerinin yabancı ülkelere gönderilmesine veya yabancı silahlı kuvvetlerin Türkiye'de bulunmasına izin verme yetkisi kural olarak Türkiye Büyük Millet Meclisinindir. Ancak Meclis tatilde veya ara vermede iken ülkenin ani bir silahlı saldırıya uğraması ve bu sebeple silahlı kuvvet kullanılmasına derhal karar verilmesinin kaçınılmaz olması hâlinde Cumhurbaşkanı da Türk Silahlı Kuvvetlerinin kullanılmasına karar verebilir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -1372,7 +529,7 @@
 			"savas-hali",
 			"silahli-kuvvet"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1382,13 +539,13 @@
 		"difficulty": "uzman",
 		"stem": "Anayasa'ya göre Türkiye Büyük Millet Meclisindeki görüşmelerin açıklığı ve yayımlanması bakımından aşağıdakilerden hangisi yanlıştır?",
 		"options": [
-			"Genel Kuruldaki görüşmeler açıktır ve tutanak dergisinde tam olarak yayımlanır.",
 			"Meclis, İçtüzük hükümlerine göre kapalı oturumlar yapabilir.",
-			"Kapalı oturumlardaki görüşmelerin yayımı Meclis kararına bağlıdır.",
 			"Açık görüşmelerin her türlü vasıta ile yayımı, Başkanlık Divanının teklifi üzerine Meclisçe başkaca bir karar alınmadıkça serbesttir.",
-			"Kapalı oturumlardaki görüşmeler hiçbir şekilde yayımlanamaz."
+			"Genel Kuruldaki görüşmeler açıktır ve tutanak dergisinde tam olarak yayımlanır.",
+			"Kapalı oturumlardaki görüşmeler hiçbir şekilde yayımlanamaz.",
+			"Kapalı oturumlardaki görüşmelerin yayımı Meclis kararına bağlıdır."
 		],
-		"correctIndex": 4,
+		"correctIndex": 3,
 		"explanation": "Madde 97'ye göre Genel Kuruldaki görüşmeler açıktır ve tutanak dergisinde tam olarak yayımlanır; Meclis İçtüzük hükümlerine göre kapalı oturumlar yapabilir ve bu oturumlardaki görüşmelerin yayımı Meclis kararına bağlıdır. Yani kapalı oturum tutanakları için mutlak bir yayım yasağı değil, Meclis kararına bağlı bir yayım rejimi öngörülmüştür. Açık görüşmelerin yayımı ise o oturumdaki Başkanlık Divanının teklifi üzerine Meclisçe başkaca bir karar alınmadıkça serbesttir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -1406,7 +563,846 @@
 			"gorusmelerin-acikligi",
 			"kapali-oturum"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yasama-018",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 74. maddesine göre Kamu Başdenetçisi nasıl ve ne kadar süre için seçilir?",
+		"options": [
+			"Türkiye Büyük Millet Meclisi Başkanı tarafından dört yıl için",
+			"Türkiye Büyük Millet Meclisi tarafından açık oyla beş yıl için",
+			"Anayasa Mahkemesi Genel Kurulunca altı yıl için",
+			"Türkiye Büyük Millet Meclisi tarafından gizli oyla dört yıl için",
+			"Cumhurbaşkanı tarafından beş yıl için"
+		],
+		"correctIndex": 3,
+		"explanation": "74. maddeye 2010 yılında eklenen fıkraya göre Kamu Başdenetçisi Türkiye Büyük Millet Meclisi tarafından gizli oyla dört yıl için seçilir. Türkiye Büyük Millet Meclisi Başkanlığına bağlı olarak kurulan Kamu Denetçiliği Kurumu ise idarenin işleyişiyle ilgili şikâyetleri inceler.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "74"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kamu-denetçiliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-019",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 76. maddesine göre aşağıdakilerden hangisi milletvekili seçilmeye engel değildir?",
+		"options": [
+			"Askerlikle ilişiği olmak",
+			"Taksirli suçlar hariç toplam bir yıl veya daha fazla hapis cezasına hüküm giymiş olmak",
+			"Kamu hizmetinden yasaklı olmak",
+			"Lise mezunu olmak",
+			"Kısıtlı olmak"
+		],
+		"correctIndex": 3,
+		"explanation": "76. maddeye göre milletvekili seçilmeye engel hâller arasında en az ilkokul mezunu olmamak, kısıtlılık, askerlikle ilişiği olmak, kamu hizmetinden yasaklılık ve taksirli suçlar hariç toplam bir yıl veya daha fazla hapis cezasına hüküm giymiş olmak sayılır. Aranan asgari öğrenim şartı ilkokul mezunu olmaktır; lise mezuniyeti bir engel değil, aranan şartın üzerinde bir durumdur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "76"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"milletvekili-seçilme-yeterliliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-020",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 76. maddesinde milletvekili seçilme yaşı bakımından 2017 yılında yapılan değişiklikle getirilen düzenleme aşağıdakilerden hangisidir?",
+		"options": [
+			"Yaş on sekizden yirmi bire yükseltilmiştir.",
+			"Yaş yirmi beşten on sekize indirilmiştir.",
+			"Yaş şartı tümüyle kaldırılmıştır.",
+			"Yaş otuzdan yirmi beşe indirilmiştir.",
+			"Yaş yirmi beşten yirmiye indirilmiştir."
+		],
+		"correctIndex": 1,
+		"explanation": "76. maddedeki milletvekili seçilme yaşı, ilk metinde otuz iken 2006 yılında yirmi beşe, 21/1/2017 tarihli ve 6771 sayılı Kanun'la da on sekize indirilmiştir. Bugün on sekiz yaşını dolduran her Türk milletvekili seçilebilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "76"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"milletvekili-seçilme-yeterliliği",
+			"2017-değişikliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-021",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "uzman",
+		"stem": "Bir devlet üniversitesinde görev yapan öğretim üyesi milletvekili adayı olmak istemektedir. Anayasa'nın 76. maddesine göre aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Öğretim üyeleri bu kısıtlamanın kapsamı dışındadır.",
+			"Kurumundan izin alması yeterlidir.",
+			"Yükseköğretim Kurulunun uygun görüşü ile aday olabilir.",
+			"Aday olabilir; yalnızca seçilmesi hâlinde görevinden ayrılması gerekir.",
+			"Görevinden çekilmedikçe aday olamaz ve milletvekili seçilemez."
+		],
+		"correctIndex": 4,
+		"explanation": "76. maddenin son fıkrasına göre hâkim ve savcılar, yüksek yargı organları mensupları, yükseköğretim kurumlarındaki öğretim elemanları, Yükseköğretim Kurulu üyeleri, kamu kurum ve kuruluşlarının memur statüsündeki görevlileri ile işçi niteliği taşımayan diğer kamu görevlileri ve Silahlı Kuvvetler mensupları görevlerinden çekilmedikçe aday olamaz ve milletvekili seçilemez. Kural adaylık aşamasında uygulanır; izin veya kurum onayı yeterli değildir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "76"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"milletvekili-adaylığı",
+			"çekilme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-022",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 78. maddesine göre ara seçim bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Ara seçim yalnızca boşalan üyeliklerin sayısı üye tamsayısının yüzde onunu bulduğunda yapılır.",
+			"Genel seçimlere bir yıl kala da ara seçim yapılabilir.",
+			"Ara seçim her yıl bir defa yapılır.",
+			"Ara seçim her seçim döneminde bir defa yapılır ve genel seçimden otuz ay geçmedikçe ara seçime gidilemez.",
+			"Ara seçim, genel seçimden on iki ay geçtikten sonra her zaman yapılabilir."
+		],
+		"correctIndex": 3,
+		"explanation": "78. maddeye göre Türkiye Büyük Millet Meclisi üyeliklerinde boşalma olması hâlinde ara seçime gidilir; ara seçim her seçim döneminde bir defa yapılır ve genel seçimden otuz ay geçmedikçe ara seçime gidilemez. Boşalan üyeliklerin sayısı üye tamsayısının yüzde beşini bulduğu hâllerde ara seçimin üç ay içinde yapılmasına karar verilir; genel seçimlere bir yıl kala ara seçim yapılamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "78"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ara-seçim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-023",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 78. maddesine göre seçimlerin geriye bırakılması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Olağanüstü hâl ilan edilmesi hâlinde seçimler kendiliğinden bir yıl ertelenir.",
+			"Seçimler en çok altı ay geriye bırakılabilir.",
+			"Savaş sebebiyle yeni seçimlerin yapılmasına imkân görülmezse Türkiye Büyük Millet Meclisi seçimlerin bir yıl geriye bırakılmasına karar verebilir.",
+			"Seçimlerin geriye bırakılmasına Cumhurbaşkanı karar verir.",
+			"Geri bırakma kararı hiçbir şekilde tekrarlanamaz."
+		],
+		"correctIndex": 2,
+		"explanation": "78. maddenin ilk iki fıkrasına göre savaş sebebiyle yeni seçimlerin yapılmasına imkân görülmezse Türkiye Büyük Millet Meclisi seçimlerin bir yıl geriye bırakılmasına karar verebilir; geri bırakma sebebi ortadan kalkmamışsa erteleme kararındaki usule göre bu işlem tekrarlanabilir. Yetki Meclise aittir ve tek sebep savaştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "78"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"seçimlerin-geriye-bırakılması"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-024",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "uzman",
+		"stem": "Bir ilin Türkiye Büyük Millet Meclisinde hiç üyesi kalmamıştır. Anayasa'nın 78. maddesine göre bu durumda ne yapılır?",
+		"options": [
+			"Yüksek Seçim Kurulu kararıyla ilgili ile bir başka seçim çevresi birleştirilir.",
+			"Boşalmayı takip eden doksan günden sonraki ilk pazar günü ara seçim yapılır.",
+			"Genel seçim beklenir; ara seçim yapılamaz.",
+			"Boşalan üyelik en çok oy alan bir sonraki adaya verilir.",
+			"Üç ay içinde ara seçim yapılmasına Türkiye Büyük Millet Meclisi karar verebilir."
+		],
+		"correctIndex": 1,
+		"explanation": "78. maddeye 2002 yılında eklenen fıkraya göre, diğer hâllerden ayrı olarak bir ilin veya seçim çevresinin Türkiye Büyük Millet Meclisinde üyesinin kalmaması hâlinde boşalmayı takip eden doksan günden sonraki ilk pazar günü ara seçim yapılır. Bu hâlde maddedeki otuz ay ve bir yıl sınırlamaları uygulanmaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "78"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ara-seçim",
+			"senaryo"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-025",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 79. maddesine göre Yüksek Seçim Kurulunun kararları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kurulun kararlarına karşı Anayasa Mahkemesine bireysel başvuru yapılabilir.",
+			"Kurulun kararlarına karşı Yargıtaya itiraz edilebilir.",
+			"Kurulun kararları aleyhine başka bir mercie başvurulamaz.",
+			"Kurulun kararlarına karşı Danıştaya başvurulabilir.",
+			"Kurulun kararları Türkiye Büyük Millet Meclisinin onayına sunulur."
+		],
+		"correctIndex": 2,
+		"explanation": "79. maddeye göre seçimler yargı organlarının genel yönetim ve denetimi altında yapılır ve seçim işlemlerini yapma, yolsuzluk, şikâyet ve itirazları inceleyip kesin karara bağlama ile seçim tutanaklarını kabul etme görevi Yüksek Seçim Kurulunundur. Aynı fıkra, Kurulun kararları aleyhine başka bir mercie başvurulamayacağını açıkça belirtir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "79"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ysk",
+			"seçim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-026",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 79. maddesine göre Yüksek Seçim Kurulunun oluşumu aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"On üç üyeden oluşur; üyelerin yarısı Türkiye Büyük Millet Meclisince seçilir.",
+			"Beş asıl ve iki yedek üyeden oluşur; üyeler Anayasa Mahkemesince seçilir.",
+			"Yedi asıl ve dört yedek üyeden oluşur; üyelerin altısı Yargıtay, beşi Danıştay Genel Kurullarınca seçilir.",
+			"On bir asıl ve dört yedek üyeden oluşur; üyelerin tamamı Yargıtayca seçilir.",
+			"Yedi asıl ve yedi yedek üyeden oluşur; üyeler Cumhurbaşkanınca atanır."
+		],
+		"correctIndex": 2,
+		"explanation": "79. maddeye göre Yüksek Seçim Kurulu yedi asıl ve dört yedek üyeden oluşur. Üyelerin altısı Yargıtay, beşi Danıştay Genel Kurullarınca kendi üyeleri arasından üye tamsayılarının salt çoğunluğunun gizli oyu ile seçilir; bu üyeler salt çoğunluk ve gizli oyla aralarından bir başkan ve bir başkanvekili seçer.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "79"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ysk",
+			"oluşum"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-027",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 79. maddesine göre Anayasa değişikliklerine ilişkin kanunların halkoyuna sunulması ve Cumhurbaşkanının halk tarafından seçilmesi işlemlerinin genel yönetim ve denetimi hangi hükümlere göre yapılır?",
+		"options": [
+			"Cumhurbaşkanlığı kararnamesiyle belirlenen hükümlere göre",
+			"Milletvekili seçimlerinde uygulanan hükümlere göre",
+			"Türkiye Büyük Millet Meclisi İçtüzüğü hükümlerine göre",
+			"Mahallî idare seçimlerinde uygulanan hükümlere göre",
+			"Anayasa Mahkemesinin belirleyeceği usule göre"
+		],
+		"correctIndex": 1,
+		"explanation": "79. maddenin son fıkrasına göre Anayasa değişikliklerine ilişkin kanunların halkoyuna sunulması ve Cumhurbaşkanının halk tarafından seçilmesi işlemlerinin genel yönetim ve denetimi de milletvekili seçimlerinde uygulanan hükümlere göre olur; bu işlemlerde de yetkili merci Yüksek Seçim Kuruludur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "79"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ysk",
+			"halkoylaması"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-028",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 80. maddesine göre Türkiye Büyük Millet Meclisi üyeleri kimi temsil eder?",
+		"options": [
+			"Kendilerine oy verenleri temsil ederler.",
+			"Üyesi oldukları siyasi partiyi temsil ederler.",
+			"Seçildikleri ili ve o ilin yerel yönetimlerini temsil ederler.",
+			"Seçildikleri bölgeyi veya kendilerini seçenleri değil, bütün Milleti temsil ederler.",
+			"Yalnızca seçildikleri seçim çevresini temsil ederler."
+		],
+		"correctIndex": 3,
+		"explanation": "80. madde temsilde millî temsil ilkesini benimser: Türkiye Büyük Millet Meclisi üyeleri, seçildikleri bölgeyi veya kendilerini seçenleri değil, bütün Milleti temsil eder. Bu ilke, üyelerin bağlayıcı talimat (emredici vekâlet) altında olmamasının da dayanağıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "80"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"milletin-temsili"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-029",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 83. maddesine göre yasama dokunulmazlığı bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Ağır cezayı gerektiren suçüstü hâli bu hükmün dışındadır.",
+			"Türkiye Büyük Millet Meclisindeki siyasi parti grupları, yasama dokunulmazlığı ile ilgili görüşme yapıp karar alabilir.",
+			"Milletvekili hakkında verilmiş bir ceza hükmünün yerine getirilmesi üyelik sıfatının sona ermesine bırakılır ve üyelik süresince zamanaşımı işlemez.",
+			"Seçimden önce veya sonra bir suç işlediği ileri sürülen milletvekili, Meclisin kararı olmadıkça tutulamaz, sorguya çekilemez, tutuklanamaz ve yargılanamaz.",
+			"Tekrar seçilen milletvekili hakkında soruşturma ve kovuşturma, Meclisin yeniden dokunulmazlığını kaldırmasına bağlıdır."
+		],
+		"correctIndex": 1,
+		"explanation": "83. maddenin son fıkrası açıktır: Türkiye Büyük Millet Meclisindeki siyasi parti gruplarınca yasama dokunulmazlığı ile ilgili görüşme yapılamaz ve karar alınamaz. Diğer seçenekler maddenin yasama muafiyeti ve dokunulmazlığa ilişkin fıkralarına uygundur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "83"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yasama-dokunulmazlığı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-030",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "uzman",
+		"stem": "Türkiye Büyük Millet Meclisi Genel Kurulu bir milletvekilinin yasama dokunulmazlığının kaldırılmasına karar vermiştir. Anayasa'nın 85. maddesine göre bu karara karşı başvuru yolu aşağıdakilerden hangisidir?",
+		"options": [
+			"Karar tarihinden başlayarak otuz gün içinde Danıştaya başvurulabilir.",
+			"Karar tarihinden başlayarak yedi gün içinde Anayasa Mahkemesine başvurulabilir; Mahkeme istemi on beş gün içinde kesin karara bağlar.",
+			"Karara karşı hiçbir yargı yoluna başvurulamaz.",
+			"Karar tarihinden başlayarak on beş gün içinde Yargıtaya başvurulabilir.",
+			"Karara karşı yalnızca Meclis Başkanlığına itiraz edilebilir."
+		],
+		"correctIndex": 1,
+		"explanation": "85. maddeye göre yasama dokunulmazlığının kaldırılmasına veya milletvekilliğinin düşmesine 84. maddenin birinci, üçüncü veya dördüncü fıkralarına göre karar verilmesi hâllerinde, Genel Kurul kararının alındığı tarihten başlayarak yedi gün içinde ilgili milletvekili veya bir diğer milletvekili, kararın Anayasaya, kanuna veya İçtüzüğe aykırılığı iddiasıyla iptali için Anayasa Mahkemesine başvurabilir. Anayasa Mahkemesi iptal istemini on beş gün içinde kesin karara bağlar.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "85"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iptal-istemi",
+			"dokunulmazlık"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-031",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 86. maddesine göre Türkiye Büyük Millet Meclisi üyelerinin ödenek ve yollukları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Ödeneğin aylık tutarı için bir üst sınır öngörülmemiştir.",
+			"Ödenek ve yollukların en çok bir yıllığı önceden ödenebilir.",
+			"Ödenek ve yolluklar Cumhurbaşkanlığı kararnamesiyle belirlenir.",
+			"Yolluk, ödenek miktarının iki katına kadar olabilir.",
+			"Ödeneğin aylık tutarı en yüksek Devlet memurunun almakta olduğu miktarı, yolluk da ödenek miktarının yarısını aşamaz."
+		],
+		"correctIndex": 4,
+		"explanation": "86. maddeye göre Türkiye Büyük Millet Meclisi üyelerinin ödenek, yolluk ve emeklilik işlemleri kanunla düzenlenir; ödeneğin aylık tutarı en yüksek Devlet memurunun almakta olduğu miktarı, yolluk da ödenek miktarının yarısını aşamaz. Ödenek ve yollukların en çok üç aylığı önceden ödenebilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "86"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ödenek-yolluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-032",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 87. maddesine göre Türkiye Büyük Millet Meclisinin görev ve yetkileri bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Kanun koymak, değiştirmek ve kaldırmak",
+			"Para basılmasına ve savaş ilanına karar vermek",
+			"Milletlerarası andlaşmaların onaylanmasını uygun bulmak",
+			"Bütçe ve kesin hesap kanun tekliflerini görüşmek ve kabul etmek",
+			"Bakanlar Kurulunu denetlemek ve gensoru ile düşürmek"
+		],
+		"correctIndex": 4,
+		"explanation": "87. madde 2017 yılında yeniden yazılmıştır. Bugünkü metinde Bakanlar Kurulu ve gensoru yer almaz; her iki kurum da 6771 sayılı Kanun'la Anayasa'dan çıkarılmıştır. Maddede sayılan yetkiler kanun koymak, değiştirmek ve kaldırmak; bütçe ve kesin hesap kanun tekliflerini görüşüp kabul etmek; para basılmasına ve savaş ilanına karar vermek; milletlerarası andlaşmaların onaylanmasını uygun bulmak ve üye tamsayısının beşte üç çoğunluğunun kararıyla genel ve özel af ilanına karar vermektir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "87"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tbmm-görevleri",
+			"af"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-033",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 88. maddesine göre kanun tekliflerinin Türkiye Büyük Millet Meclisinde görüşülme usul ve esasları neyle düzenlenir?",
+		"options": [
+			"Anayasa ile ayrıntılı olarak",
+			"Cumhurbaşkanlığı kararnamesiyle",
+			"Meclis Başkanlık Divanı kararıyla",
+			"Kanunla",
+			"İçtüzükle"
+		],
+		"correctIndex": 4,
+		"explanation": "88. madde iki fıkradan oluşur: kanun teklif etmeye milletvekilleri yetkilidir ve kanun tekliflerinin Türkiye Büyük Millet Meclisinde görüşülme usul ve esasları içtüzükle düzenlenir. 2017 değişikliğiyle maddedeki 'tasarı' ibaresi çıkarılmış, kanun tasarısı kurumu kaldırılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "88"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kanun-teklifi",
+			"içtüzük"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-034",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 89. maddesine göre Cumhurbaşkanınca kısmen uygun bulunmayan bir kanun bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Cumhurbaşkanı, yayımlanmasını kısmen veya tamamen uygun bulmadığı kanunu bir daha görüşülmek üzere Meclise geri gönderebilir.",
+			"Cumhurbaşkanı kanunu yayımlamayarak süresiz bekletebilir.",
+			"Cumhurbaşkanı uygun bulmadığı hükümleri çıkararak kanunu yayımlayabilir.",
+			"Cumhurbaşkanı bütçe kanunlarını da geri gönderebilir.",
+			"Cumhurbaşkanı kanunun yalnızca tamamını geri gönderebilir."
+		],
+		"correctIndex": 0,
+		"explanation": "89. maddeye göre Cumhurbaşkanı, yayımlanmasını kısmen veya tamamen uygun bulmadığı kanunları bir daha görüşülmek üzere Meclise geri gönderir; bütçe kanunları bu hükmün dışındadır. Cumhurbaşkanının kanun metnini kendisi değiştirerek yayımlama yetkisi yoktur; Meclis geri gönderilen kanunu üye tamsayısının salt çoğunluğuyla aynen kabul ederse kanun yayımlanır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "89"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kanunların-yayımlanması"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-035",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 90. maddesine göre, usulüne göre yürürlüğe konulmuş temel hak ve özgürlüklere ilişkin bir milletlerarası andlaşma ile bir kanunun aynı konuda farklı hükümler içermesi hâlinde ne olur?",
+		"options": [
+			"Uyuşmazlığı Anayasa Mahkemesi çözer.",
+			"Milletlerarası andlaşma hükümleri esas alınır.",
+			"Türkiye Büyük Millet Meclisi hangisinin uygulanacağına karar verir.",
+			"Sonraki tarihli metin uygulanır.",
+			"Kanun hükümleri esas alınır."
+		],
+		"correctIndex": 1,
+		"explanation": "90. maddenin son fıkrasına göre usulüne göre yürürlüğe konulmuş milletlerarası andlaşmalar kanun hükmündedir ve bunlar hakkında Anayasaya aykırılık iddiasıyla Anayasa Mahkemesine başvurulamaz. 2004 yılında eklenen cümle ise temel hak ve özgürlüklere ilişkin andlaşmalarla kanunların aynı konuda farklı hükümler içermesi nedeniyle çıkabilecek uyuşmazlıklarda andlaşma hükümlerinin esas alınacağını düzenler.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "90"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"milletlerarası-andlaşma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-036",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 93. maddesine göre Türkiye Büyük Millet Meclisi bir yasama yılında en çok ne kadar tatil yapabilir?",
+		"options": [
+			"İki ay",
+			"Üç ay",
+			"Dört ay",
+			"Altı ay",
+			"Tatil süresi için bir sınır öngörülmemiştir"
+		],
+		"correctIndex": 1,
+		"explanation": "93. maddeye göre Meclis her yıl Ekim ayının ilk günü kendiliğinden toplanır ve bir yasama yılında en çok üç ay tatil yapabilir. Ara verme veya tatil sırasında Meclis Cumhurbaşkanınca toplantıya çağrılır; Meclis Başkanı da doğrudan doğruya veya üyelerin beşte birinin yazılı istemi üzerine Meclisi toplantıya çağırır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "93"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toplanma",
+			"tatil"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-037",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 94. maddesine göre Türkiye Büyük Millet Meclisi Başkanlık Divanı bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"İlk seçilenlerin görev süresi iki yıldır.",
+			"Bir yasama döneminde Başkanlık Divanı için iki seçim yapılır.",
+			"Başkanlık Divanı, Meclisteki siyasi parti gruplarının üye sayısı oranında Divana katılmalarını sağlayacak şekilde kurulur.",
+			"Başkanlık Divanı; Meclis Başkanı, Başkanvekilleri, Kâtip üyeler ve İdare Amirlerinden oluşur.",
+			"Siyasi parti grupları Başkanlık için aday gösterebilir."
+		],
+		"correctIndex": 4,
+		"explanation": "94. maddenin ikinci fıkrası, Başkanlık Divanının siyasi parti gruplarının üye sayısı oranında kurulacağını söyledikten sonra açıkça 'Siyasi parti grupları Başkanlık için aday gösteremezler.' der. Diğer seçenekler maddenin Divanın oluşumu ve görev süresine ilişkin hükümlerine uygundur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "94"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"başkanlık-divanı"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-038",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 98. maddesine göre yazılı soru bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Sözlü olarak sorulup Genel Kurulda cevaplanan sorulardır.",
+			"Milletvekillerinin Cumhurbaşkanına doğrudan soru sormalarından ibarettir.",
+			"Cevap süresi otuz gündür.",
+			"Yazılı soru önergeleri Cumhurbaşkanlığı kararnamesiyle düzenlenir.",
+			"Milletvekillerinin, Cumhurbaşkanı yardımcıları ve bakanlara en geç on beş gün içinde yazılı olarak cevaplanmak üzere yazılı olarak soru sormalarından ibarettir."
+		],
+		"correctIndex": 4,
+		"explanation": "98. maddeye göre Türkiye Büyük Millet Meclisi; Meclis araştırması, genel görüşme, Meclis soruşturması ve yazılı soru yollarıyla bilgi edinme ve denetleme yetkisini kullanır. Yazılı soru, yazılı olarak en geç on beş gün içinde cevaplanmak üzere milletvekillerinin Cumhurbaşkanı yardımcıları ve bakanlara yazılı olarak soru sormalarından ibarettir; önergelerin verilme şekli, içeriği ve kapsamı Meclis İçtüzüğü ile düzenlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "98"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"denetim-yolları",
+			"yazılı-soru"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-039",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 98. maddesine göre 'belli bir konuda bilgi edinmek için yapılan incelemeden ibaret' olan denetim yolu aşağıdakilerden hangisidir?",
+		"options": [
+			"Meclis araştırması",
+			"Yazılı soru",
+			"Meclis soruşturması",
+			"Gensoru",
+			"Genel görüşme"
+		],
+		"correctIndex": 0,
+		"explanation": "98. maddeye göre Meclis araştırması belli bir konuda bilgi edinmek için yapılan incelemeden ibarettir. Genel görüşme, toplumu ve Devlet faaliyetlerini ilgilendiren belli bir konunun Genel Kurulda görüşülmesidir; Meclis soruşturması ise Cumhurbaşkanı yardımcıları ve bakanlar hakkında 106. maddeye göre yapılan soruşturmadır. Gensoru 2017 değişikliğiyle Anayasa'dan çıkarılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "98"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"denetim-yolları",
+			"meclis-araştırması"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-040",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 161. maddesine göre bütçe kanun teklifinin sunulması ve görüşülmesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bütçe kanununun süresinde yürürlüğe konulamaması hâlinde bir önceki yılın bütçesi aynen uygulanır.",
+			"Cumhurbaşkanı bütçe kanun teklifini malî yılbaşından en az yetmiş beş gün önce Meclise sunar; Bütçe Komisyonunun elli beş gün içinde kabul edeceği metin Genel Kurulda görüşülür.",
+			"Bütçe kanun teklifini Türkiye Büyük Millet Meclisi Başkanı hazırlar ve Genel Kurula sunar.",
+			"Bütçe kanununa, ihtiyaç duyulan diğer konularda da hüküm konulabilir.",
+			"Bütçe teklifi malî yılbaşından en az kırk beş gün önce sunulur ve doğrudan Genel Kurulda görüşülür."
+		],
+		"correctIndex": 1,
+		"explanation": "161. maddeye göre Cumhurbaşkanı bütçe kanun teklifini malî yılbaşından en az yetmiş beş gün önce Meclise sunar; teklif Bütçe Komisyonunda görüşülür ve Komisyonun elli beş gün içinde kabul edeceği metin Genel Kurulda görüşülerek malî yılbaşına kadar karara bağlanır. Bütçe kanununa bütçe ile ilgili hükümler dışında hiçbir hüküm konulamaz; bütçe kanunu süresinde çıkarılamazsa geçici bütçe kanunu çıkarılır, o da çıkarılamazsa bir önceki yılın bütçesi yeniden değerleme oranına göre artırılarak uygulanır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "161"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bütçe",
+			"süre"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-041",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 81. maddesine göre Türkiye Büyük Millet Meclisi üyeleri ne zaman andiçer?",
+		"options": [
+			"Seçim sonuçlarının kesinleşmesiyle birlikte",
+			"Yalnızca Meclis Başkanı seçilirken",
+			"Göreve başlarken",
+			"Her yasama yılının başında",
+			"Başkanlık Divanı seçildikten sonra"
+		],
+		"correctIndex": 2,
+		"explanation": "81. madde, Türkiye Büyük Millet Meclisi üyelerinin göreve başlarken maddede yazılı metinle andiçeceklerini düzenler. Ant metninde Devletin varlığı ve bağımsızlığının, vatanın ve milletin bölünmez bütünlüğünün, milletin kayıtsız ve şartsız egemenliğinin korunması ile hukukun üstünlüğüne, demokratik ve laik Cumhuriyete ve Atatürk ilke ve inkılaplarına bağlılık yer alır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "81"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"andiçme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-042",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "uzman",
+		"stem": "Anayasa'nın 94. maddesine göre Türkiye Büyük Millet Meclisi Başkanı seçiminde aranan çoğunluklar aşağıdakilerin hangisinde doğru verilmiştir?",
+		"options": [
+			"İlk üç oylamada salt çoğunluk, dördüncü oylamada üçte iki çoğunluk aranır.",
+			"Başkan, Cumhurbaşkanının göstereceği adaylar arasından açık oyla seçilir.",
+			"Bütün oylamalarda üye tamsayısının üçte iki çoğunluğu aranır.",
+			"İlk iki oylamada üye tamsayısının üçte ikisi, üçüncü oylamada üye tamsayısının salt çoğunluğu; sağlanamazsa dördüncü oylamada en fazla oyu alan üye seçilir.",
+			"İlk oylamada salt çoğunluk, ikinci oylamada en fazla oyu alan üye seçilir."
+		],
+		"correctIndex": 3,
+		"explanation": "94. maddeye göre Başkan seçimi gizli oyla yapılır; ilk iki oylamada üye tamsayısının üçte iki, üçüncü oylamada üye tamsayısının salt çoğunluğu aranır. Üçüncü oylamada salt çoğunluk sağlanamazsa en çok oy alan iki aday için dördüncü oylama yapılır ve bu oylamada en fazla oy alan üye Başkan seçilmiş olur. Adaylar Meclisin toplandığı günden itibaren beş gün içinde bildirilir ve seçim aday gösterme süresinin bitiminden itibaren beş gün içinde tamamlanır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "94"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"meclis-başkanı",
+			"seçim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
 	}
 ]

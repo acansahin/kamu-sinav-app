@@ -6,12 +6,12 @@
 		"difficulty": "kolay",
 		"stem": "Anayasa Mahkemesi kaç üyeden oluşur?",
 		"options": [
-			"11",
 			"13",
-			"15",
-			"17"
+			"17",
+			"11",
+			"15"
 		],
-		"correctIndex": 2,
+		"correctIndex": 3,
 		"explanation": "Anayasa'nın 146. maddesine göre Anayasa Mahkemesi on beş üyeden kurulur. Üyelerin on ikisini Cumhurbaşkanı, üçünü Türkiye Büyük Millet Meclisi seçer.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -29,7 +29,7 @@
 			"aym",
 			"sayi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -62,7 +62,7 @@
 			"hsk",
 			"baskan"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -72,12 +72,12 @@
 		"difficulty": "kolay",
 		"stem": "Anayasa'ya göre hâkimlerin hüküm verirken uyacakları ölçüt aşağıdakilerden hangisidir?",
 		"options": [
-			"Amirlerinin talimatları",
 			"Anayasaya, kanuna ve hukuka uygun olarak vicdani kanaatleri",
 			"Adalet Bakanlığının genelgeleri",
+			"Amirlerinin talimatları",
 			"Kamuoyunun beklentileri"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 138'e göre hâkimler görevlerinde bağımsızdır; Anayasaya, kanuna ve hukuka uygun olarak vicdani kanaatlerine göre hüküm verirler. Hiçbir organ, makam, merci veya kişi yargı yetkisinin kullanılmasında mahkemelere emir ve talimat veremez, genelge gönderemez, tavsiye ve telkinde bulunamaz.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -95,7 +95,7 @@
 			"madde-138",
 			"bagimsizlik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -128,7 +128,7 @@
 			"aym",
 			"sure"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -138,12 +138,12 @@
 		"difficulty": "orta",
 		"stem": "Anayasa Mahkemesine bireysel başvuruda bulunabilmek için hangi şart aranır?",
 		"options": [
-			"Doğrudan başvurulabilir, ön şart yoktur.",
 			"Olağan kanun yollarının tüketilmiş olması gerekir.",
 			"Avrupa İnsan Hakları Mahkemesine önce başvurulmuş olması gerekir.",
+			"Doğrudan başvurulabilir, ön şart yoktur.",
 			"TBMM İnsan Haklarını İnceleme Komisyonuna başvurulmuş olması gerekir."
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 148'e göre bireysel başvuruda bulunabilmek için olağan kanun yollarının tüketilmiş olması şarttır. Bireysel başvuru olağanüstü bir kanun yoludur; iç hukuktaki olağan yollar tüketilmeden AYM'ye gidilemez.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -160,7 +160,7 @@
 		"tags": [
 			"bireysel-basvuru"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -171,8 +171,8 @@
 		"stem": "Adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak hangi mahkeme çözer?",
 		"options": [
 			"Anayasa Mahkemesi",
-			"Yargıtay",
 			"Danıştay",
+			"Yargıtay",
 			"Uyuşmazlık Mahkemesi"
 		],
 		"correctIndex": 3,
@@ -192,7 +192,7 @@
 		"tags": [
 			"uyusmazlik-mahkemesi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -202,12 +202,12 @@
 		"difficulty": "zor",
 		"stem": "Aşağıdakilerden hangisi yüksek mahkemelerden biri değildir?",
 		"options": [
-			"Yargıtay",
 			"Danıştay",
-			"Sayıştay",
-			"Uyuşmazlık Mahkemesi"
+			"Uyuşmazlık Mahkemesi",
+			"Yargıtay",
+			"Sayıştay"
 		],
-		"correctIndex": 2,
+		"correctIndex": 3,
 		"explanation": "Sayıştay bir yüksek mahkeme değil, kamu idarelerinin gelir, gider ve mallarını Türkiye Büyük Millet Meclisi adına denetlemekle görevli bir kurumdur. Yüksek mahkemeler Anayasa Mahkemesi, Yargıtay, Danıştay ve Uyuşmazlık Mahkemesidir; Askerî Yargıtay ile Askerî Yüksek İdare Mahkemesi 2017 değişikliğiyle kaldırılmıştır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -225,7 +225,7 @@
 			"yuksek-mahkemeler",
 			"tuzak"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -236,11 +236,11 @@
 		"stem": "Hâkimler ve Savcılar Kurulu üyelerinin görev süresi ve yeniden seçilme durumu nedir?",
 		"options": [
 			"12 yıl – iki defa seçilemez",
-			"4 yıl – süresi biten üyeler yeniden seçilebilir",
 			"6 yıl – yeniden seçilemez",
-			"Süresiz – yaş haddine kadar"
+			"Süresiz – yaş haddine kadar",
+			"4 yıl – süresi biten üyeler yeniden seçilebilir"
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Madde 159'a göre Hâkimler ve Savcılar Kurulu üyeleri dört yıl için seçilir ve süresi biten üyeler yeniden seçilebilirler. Bu, Anayasa Mahkemesi üyeliğinin tam tersidir: AYM üyeleri 12 yıl için seçilir ve bir kimse iki defa seçilemez.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -259,7 +259,7 @@
 			"sure",
 			"tuzak"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -270,11 +270,11 @@
 		"stem": "Anayasa'nın 138. maddesine göre yasama ve yürütme organları ile idare, mahkeme kararları karşısında hangi konumdadır?",
 		"options": [
 			"Kararları değiştirebilir ancak uygulamak zorundadır.",
-			"Mahkeme kararlarına uymak zorundadır; kararları hiçbir suretle değiştiremez ve yerine getirilmesini geciktiremez.",
+			"Yalnızca kesinleşmiş kararlara uymak zorundadır.",
 			"Kamu yararı gerektiriyorsa uygulamayı erteleyebilir.",
-			"Yalnızca kesinleşmiş kararlara uymak zorundadır."
+			"Mahkeme kararlarına uymak zorundadır; kararları hiçbir suretle değiştiremez ve yerine getirilmesini geciktiremez."
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Madde 138'in son fıkrası açıktır: yasama ve yürütme organları ile idare, mahkeme kararlarına uymak zorundadır; bu organlar ve idare, mahkeme kararlarını hiçbir suretle değiştiremez ve bunların yerine getirilmesini geciktiremez. Kamu yararı gerekçesiyle erteleme mümkün değildir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -292,7 +292,7 @@
 			"madde-138",
 			"karar-uyma"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -303,11 +303,11 @@
 		"stem": "Anayasa Mahkemesi üyelerinin seçiminde görev dağılımı aşağıdakilerden hangisidir?",
 		"options": [
 			"Tamamını Cumhurbaşkanı seçer.",
-			"12 üyeyi Cumhurbaşkanı, 3 üyeyi TBMM seçer.",
+			"8 üyeyi Cumhurbaşkanı, 7 üyeyi TBMM seçer.",
 			"Tamamını TBMM seçer.",
-			"8 üyeyi Cumhurbaşkanı, 7 üyeyi TBMM seçer."
+			"12 üyeyi Cumhurbaşkanı, 3 üyeyi TBMM seçer."
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Madde 146'ya göre Anayasa Mahkemesi on beş üyeden kurulur; Türkiye Büyük Millet Meclisi üç üye, Cumhurbaşkanı ise on iki üye seçer. TBMM'nin seçtiği üç üyeden ikisi Sayıştay'ın, biri baro başkanlarının gösterdiği adaylar arasından gizli oyla seçilir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -325,7 +325,7 @@
 			"aym",
 			"secim"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -335,12 +335,12 @@
 		"difficulty": "uzman",
 		"stem": "Bir vatandaş, temel hakkının ihlal edildiği iddiasıyla ilk derece mahkemesinin kararının ardından doğrudan Anayasa Mahkemesine bireysel başvuruda bulunmuştur. Bu başvuru için ne söylenebilir?",
 		"options": [
-			"Usulüne uygundur; ilk derece kararı yeterlidir.",
 			"Olağan kanun yolları tüketilmediğinden başvuru şartı gerçekleşmemiştir.",
-			"Önce Avrupa İnsan Hakları Mahkemesine gidilmesi gerekirdi.",
-			"Bireysel başvuru yalnızca kanunlara karşı yapılabilir."
+			"Bireysel başvuru yalnızca kanunlara karşı yapılabilir.",
+			"Usulüne uygundur; ilk derece kararı yeterlidir.",
+			"Önce Avrupa İnsan Hakları Mahkemesine gidilmesi gerekirdi."
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 148'e göre bireysel başvuruda bulunabilmek için olağan kanun yollarının tüketilmiş olması şarttır. İlk derece kararından sonra istinaf ve temyiz gibi olağan yollar tüketilmeden yapılan başvuru bu şartı karşılamaz. Bireysel başvuru, kanunlara karşı değil, kamu gücü işlemleriyle temel hak ihlallerine karşı öngörülmüştür.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -358,7 +358,7 @@
 			"bireysel-basvuru",
 			"senaryo"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -368,12 +368,12 @@
 		"difficulty": "uzman",
 		"stem": "Yargıya ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
-			"Hâkim ve savcılar azlolunamaz.",
+			"Anayasa Mahkemesi üyeleri 65 yaşını doldurunca emekliye ayrılır.",
 			"Hâkimler ve Savcılar Kurulu iki daire hâlinde çalışır.",
-			"Askerî Yargıtay bir yüksek mahkemedir.",
-			"Anayasa Mahkemesi üyeleri 65 yaşını doldurunca emekliye ayrılır."
+			"Hâkim ve savcılar azlolunamaz.",
+			"Askerî Yargıtay bir yüksek mahkemedir."
 		],
-		"correctIndex": 2,
+		"correctIndex": 3,
 		"explanation": "Askerî Yargıtay ve Askerî Yüksek İdare Mahkemesi 2017 Anayasa değişikliğiyle kaldırılmıştır; güncel Anayasa'da askerî yüksek mahkeme bulunmamaktadır. Diğer üç ifade sırasıyla madde 139, madde 159 ve madde 147 hükümleriyle uyumludur.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -391,555 +391,8 @@
 			"tuzak",
 			"guncellik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
-	},
-	{
-		"id": "sytay-gys23-q009",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "orta",
-		"stem": "Vergi, benzeri mali yükümlülükler ve ödevler hakkında Danıştay ile Sayıştay kararları arasındaki uyuşmazlıklarda (…) esas alınır. 2709 sayılı Türkiye Cumhuriyeti Anayasasına göre yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
-		"options": [
-			"Yargıtay kararları",
-			"Anayasa Mahkemesi kararları",
-			"Sayıştay kararları",
-			"Danıştay kararları"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 160. maddesinin son fıkrasına göre vergi, benzeri mali yükümlülükler ve ödevler hakkında Danıştay ile Sayıştay kararları arasındaki uyuşmazlıklarda Danıştay kararları esas alınır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "160"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "published",
-		"tags": [
-			"sayistay",
-			"danistay"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-25"
-	},
-	{
-		"id": "meb-adl23-q010",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre, \"hâkimlik ve savcılık mesleği\" ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Hâkimler ve savcılar idari görevleri yönünden Hâkimler ve Savcılar Kuruluna bağlıdırlar.",
-			"Hâkimler ve savcılar altmış beş yaşını bitirinceye kadar hizmet görürler; askerî hâkimlerin yaş haddi, yükselme ve emeklilikleri kanunda gösterilir.",
-			"Hâkimler ve savcılar, kanunda belirtilenlerden başka, resmî ve özel hiçbir görev alamazlar.",
-			"Hâkimler, mahkemelerin bağımsızlığı ve hâkimlik teminatı esaslarına göre görev ifa ederler.",
-			"Hâkimler ve savcılar adli ve idari yargı hâkim ve savcıları olarak görev yaparlar."
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 140. maddesine göre hâkimler ve savcılar idari görevleri yönünden Adalet Bakanlığına bağlıdırlar; Hâkimler ve Savcılar Kuruluna bağlı oldukları ifadesi yanlıştır. Hâkimlerin mahkemelerin bağımsızlığı ve hâkimlik teminatı esaslarına göre görev yapması ise aynı maddenin güvencesidir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "140"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"hakimlik-savcilik"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl23-q055",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "zor",
-		"stem": "T.C. Anayasası'na göre, Anayasa Mahkemesinin \"çalışma ve yargılama usulü\" ile ilgili aşağıdakilerden hangisi doğrudur?",
-		"options": [
-			"Genel Kurul, Mahkeme Başkanının veya Başkanın belirleyeceği başkanvekilinin başkanlığında en az on iki üye ile toplanır.",
-			"Anayasa değişikliğinde iptale karar verilebilmesi için üye tam sayısının salt çoğunluğunun oyu şarttır.",
-			"Mahkemenin çalışma esasları, bölüm ve komisyonların oluşumu ve iş bölümü yönetmelikle düzenlenir.",
-			"Mahkeme, gerekli gördüğü hâllerde sözlü açıklamalarını dinlemek üzere ilgilileri ve konu üzerinde bilgisi olanları çağırabilir.",
-			"Yüce Divan sıfatıyla yürütülecek yargılamalara bölümlerce bakılır, bireysel başvurular ise Genel Kurulca karara bağlanır."
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 149. maddesine göre Anayasa Mahkemesi, gerekli gördüğü hâllerde sözlü açıklamalarını dinlemek üzere ilgilileri ve konu üzerinde bilgisi olanları çağırabilir. Genel Kurul en az on üye ile toplanır, Anayasa değişikliğinde iptale üçte iki çoğunlukla karar verilir, çalışma esasları İçtüzükle düzenlenir ve Yüce Divan yargılaması Genel Kurulca yapılır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "149"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"aym",
-			"yargilama-usulu"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl23-q056",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "zor",
-		"stem": "T.C. Anayasası'na göre, \"Hâkimler ve Savcılar Kurulu\" ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Kurul, mahkemelerin bağımsızlığı ve hâkimlik teminatı esaslarına göre kurulur ve görev yapar.",
-			"Kurulun meslekten çıkarma cezasına ilişkin olanlar dışındaki kararlarına karşı yargı mercilerine başvurulamaz.",
-			"Kurul müfettişleri ile Kurulda geçici veya sürekli olarak çalıştırılacak hâkim ve savcıları, muvafakatlerini alarak atama yetkisi Adalet Bakanı'na aittir.",
-			"Kurul, kendi üyeleri arasından daire başkanlarını ve daire başkanlarından birini de başkanvekili olarak seçer.",
-			"Kurul üyelerinin seçimi, dairelerin oluşumu ve iş bölümü, Kurulun ve dairelerin görevleri, toplantı ve karar yeter sayıları, çalışma usul ve esasları kanunla düzenlenir."
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 159. maddesine göre Kurul müfettişleri ile Kurulda geçici veya sürekli olarak çalıştırılacak hâkim ve savcıları, muvafakatlerini alarak atama yetkisi Hâkimler ve Savcılar Kuruluna aittir; bu yetkinin Adalet Bakanına ait olduğu ifadesi yanlıştır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "159"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"hsk"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl23-q057",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "orta",
-		"stem": "Sayıştayın kesin hükümleri hakkında ilgililer yazılı bildirim tarihinden itibaren - - - - gün içinde bir kereye mahsus olmak üzere karar düzeltilmesi isteminde bulunabilirler. T.C. Anayasası'na göre, bu hükümde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
-		"options": [
-			"on beş",
-			"yirmi",
-			"otuz",
-			"kırk beş",
-			"altmış"
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 160. maddesine göre Sayıştayın kesin hükümleri hakkında ilgililer, yazılı bildirim tarihinden itibaren on beş gün içinde bir kereye mahsus olmak üzere karar düzeltilmesi isteminde bulunabilirler. Bu kararlar dolayısıyla idari yargı yoluna başvurulamaz.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "160"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"sayistay"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-ic21-q015",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre Anayasa Mahkemesinde doğrudan doğruya iptal davası açma hakkı, iptali istenen kanun, Cumhurbaşkanlığı kararnamesi veya içtüzüğün Resmî Gazete'de yayımlanmasından başlayarak kaç gün sonra düşer?",
-		"options": [
-			"On beş",
-			"Otuz",
-			"Kırk beş",
-			"Altmış"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 151. maddesine göre Anayasa Mahkemesinde doğrudan doğruya iptal davası açma hakkı, iptali istenen kanun, Cumhurbaşkanlığı kararnamesi veya İçtüzüğün Resmî Gazete'de yayımlanmasından başlayarak altmış gün sonra düşer. Süre hak düşürücüdür.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "151"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2021",
-			"year": 2021,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171238_7_YEF_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"aym",
-			"iptal-davasi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sef23-q028",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "orta",
-		"stem": "Aşağıdakilerden hangisi T.C. Anayasası'nda Yüksek Mahkemeler başlığı altında düzenlenmemiştir?",
-		"options": [
-			"Yargıtay",
-			"Danıştay",
-			"Sayıştay",
-			"Anayasa Mahkemesi",
-			"Uyuşmazlık Mahkemesi"
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'da Yüksek Mahkemeler başlığı altında Anayasa Mahkemesi, Yargıtay, Danıştay ve Uyuşmazlık Mahkemesi düzenlenmiştir. Sayıştay ise yüksek mahkemeler arasında değil, yargı bölümünün ayrı bir başlığı altında 160. maddede düzenlenen bir denetim kurumudur.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "146-160"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_2_SEF_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"yuksek-mahkemeler"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-sef23-q029",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre, Anayasa Mahkemesinin görev ve yetkileri arasında aşağıdakilerden hangisi sayılmamıştır?",
-		"options": [
-			"Kanunların, Cumhurbaşkanlığı kararnamelerinin ve Türkiye Büyük Millet Meclisi İçtüzüğünün Anayasaya şekil ve esas bakımlarından uygunluğunu denetlemek",
-			"İdari mahkemelerce verilen ve kanunun başka bir idari yargı merciine bırakmadığı karar ve hükümlerin son inceleme mercii olarak görev yapmak",
-			"Bireysel başvuruları karara bağlamak",
-			"Yüce Divan sıfatıyla yargılama yapmak",
-			"Anayasa değişikliklerini sadece şekil bakımından incelemek ve denetlemek"
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 148. maddesine göre Anayasa Mahkemesi; kanunların, Cumhurbaşkanlığı kararnamelerinin ve Meclis İçtüzüğünün Anayasaya uygunluğunu denetler, bireysel başvuruları karara bağlar, Yüce Divan sıfatıyla yargılama yapar ve Anayasa değişikliklerini yalnızca şekil bakımından inceler. İdari mahkeme kararlarının son inceleme mercii olmak ise Danıştayın görevidir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "148"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şef) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_2_SEF_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"aym",
-			"gorevler"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-yim23-q003",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "orta",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre Uyuşmazlık Mahkemesi ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Uyuşmazlık Mahkemesi adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözümlemeye yetkilidir",
-			"Bu mahkemenin Başkanlığını, Yargıtay tarafından kendi üyeleri arasından görevlendirilen üye yapar",
-			"Diğer mahkemelerle, Anayasa Mahkemesi arasındaki görev uyuşmazlıklarında, Anayasa Mahkemesinin kararı esas alınır",
-			"Uyuşmazlık Mahkemesinin kuruluşu, üyelerinin nitelikleri ve seçimleri ile işleyişi kanunla düzenlenir"
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 158. maddesine göre Uyuşmazlık Mahkemesinin Başkanlığını, ANAYASA MAHKEMESİNCE kendi üyeleri arasından görevlendirilen üye yapar; Yargıtay değil. Mahkeme adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözer ve diğer mahkemelerle Anayasa Mahkemesi arasındaki görev uyuşmazlıklarında Anayasa Mahkemesinin kararı esas alınır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "158"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"uyuşmazlık-mahkemesi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-yim23-q008",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "kolay",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre Anayasa Mahkemesi kaç üyeden oluşur ve üyelerin görev süresi kaç yıldır?",
-		"options": [
-			"12 üye-12 yıl",
-			"15 üye-12 yıl",
-			"10 üye-10 yıl",
-			"20 üye-10 yıl"
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 146. maddesine göre Anayasa Mahkemesi on beş üyeden kurulur. 147. maddeye göre üyeler on iki yıl için seçilir; bir kimse iki defa Anayasa Mahkemesi üyesi seçilemez.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "146"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"anayasa-mahkemesi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-pgm23sy-q020",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "kolay",
-		"stem": "T.C. Anayasası’na göre, Sayıştay, merkezî yönetim bütçesi kapsamındaki kamu idareleri ile sosyal güvenlik kurumlarının bütün gelir ve giderleri ile mallarını aşağıdakilerden hangisi adına denetlemekle görevlidir?",
-		"options": [
-			"Cumhurbaşkanı",
-			"Türkiye Büyük Millet Meclisi",
-			"Anayasa Mahkemesi",
-			"Devlet Denetleme Kurulu",
-			"Yargıtay"
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 160. maddesine göre Sayıştay, merkezî yönetim bütçesi kapsamındaki kamu idareleri ile sosyal güvenlik kurumlarının bütün gelir ve giderleri ile mallarını TÜRKİYE BÜYÜK MİLLET MECLİSİ ADINA denetler ve sorumluların hesap ve işlemlerini kesin hükme bağlar.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "160"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Sayman) A Kitapçığı, 09.07.2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_3_SAYMAN_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"sayıştay",
-			"denetim"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-pgm23sm-q025",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "zor",
-		"stem": "T.C. Anayasası’na göre, “bireysel başvuru” ile ilgili aşağıdakilerden hangisi doğrudur?",
-		"options": [
-			"Herkes, Anayasada güvence altına alınmış temel hak ve özgürlüklerinden, Avrupa İnsan Hakları Sözleşmesi kapsamındaki herhangi birinin kamu gücü tarafından, ihlal edildiği iddiasıyla Anayasa Mahkemesine başvurabilir.",
-			"Herkes, Cumhurbaşkanı yardımcıları ve bakanlar hakkında görevleriyle ilgili suç işledikleri iddiasıyla Anayasa Mahkemesine başvurabilir.",
-			"Herkes, kanunların, Cumhurbaşkanlığı kararnamelerinin, Türkiye Büyük Millet Meclisi İçtüzüğü’nün veya bunların belirli madde ve hükümlerinin şekil ve esas bakımından Anayasaya aykırılığı iddiasıyla iptali için Anayasa Mahkemesine başvurabilir.",
-			"Herkes, yasama dokunulmazlığının kaldırılmasına veya milletvekilliğinin düşmesine 84’üncü maddenin birinci, üçüncü veya dördüncü fıkralarına göre karar verilmiş olması hâllerinde, Meclis Genel Kurulu kararının alındığı tarihten başlayarak yedi gün içerisinde, kararın, Anayasaya, kanuna veya içtüzüğe aykırılığı iddiasıyla iptali için Anayasa Mahkemesine başvurabilir.",
-			"Bireysel başvuruya ilişkin usul ve esaslar Cumhurbaşkanı kararı ile düzenlenir."
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 148. maddesine göre herkes, Anayasa'da güvence altına alınmış temel hak ve özgürlüklerinden Avrupa İnsan Hakları Sözleşmesi kapsamındaki herhangi birinin kamu gücü tarafından ihlal edildiği iddiasıyla Anayasa Mahkemesine bireysel başvuruda bulunabilir. Başvuruda bulunabilmek için olağan kanun yollarının tüketilmiş olması şarttır ve usul ile esaslar KANUNLA düzenlenir. Diğer seçeneklerde tarif edilenler iptal davası (m. 150), Yüce Divan yargılaması (m. 148) ve yasama dokunulmazlığına ilişkin başvurudur (m. 85).",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "148"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şube Müdürü) A Kitapçığı, 09.07.2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_4_SUBE_MUDURU_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"bireysel-başvuru",
-			"anayasa-mahkemesi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-pgm23sy-q019",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası’na göre, “Anayasa Mahkemesi kararları” ile ilgili aşağıdakilerden hangisi doğrudur?",
-		"options": [
-			"Danıştay tarafından denetlenir.",
-			"Kanun, Cumhurbaşkanlığı kararnamesi veya Türkiye Büyük Millet Meclisi İçtüzüğü ya da bunların hükümleri, iptal kararlarının verildiği ve Anayasa Mahkemesinin çevrim içi sitesinde ilan edildiği gün yürürlükten kalkar.",
-			"İptal kararları geriye dönük etki doğurur.",
-			"Yasama, yürütme ve yargı organlarını, idare makamlarını, gerçek ve tüzel kişileri bağlar.",
-			"Diğer mahkemelerle, Anayasa Mahkemesi arasındaki görev uyuşmazlıklarında, Uyuşmazlık Mahkemesinin kararı esas alınır."
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 153. maddesine göre Anayasa Mahkemesi kararları kesindir ve yasama, yürütme ve yargı organlarını, idare makamlarını, gerçek ve tüzel kişileri bağlar. İptal kararları geriye yürümez; iptal edilen hüküm, kararın Resmî Gazete'de yayımlandığı tarihte veya Mahkemenin belirlediği ileri tarihte yürürlükten kalkar.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "153"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Sayman) A Kitapçığı, 09.07.2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_3_SAYMAN_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"anayasa-mahkemesi",
-			"kararların-bağlayıcılığı"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl17yim-q010",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "zor",
-		"stem": "T.C. Anayasası’na göre Hâkimler ve Savcılar Kurulu ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Üyeler üç yıl için seçilir. Süresi biten üyeler bir kez daha seçilemez.",
-			"Hâkimler ve Savcılar Kurulu on üç üyeden oluşur; iki daire hâlinde çalışır.",
-			"Kurul üyeliği seçimi, üyelerin görev süresinin dolmasından önceki otuz gün içinde yapılır.",
-			"Kurulun meslekten çıkarma cezasına ilişkin olanlar dışındaki kararlarına karşı yargı mercilerine başvurulamaz.",
-			"Kurul, kendi üyeleri arasından daire başkanlarını ve daire başkanlarından birini de başkanvekili olarak seçer."
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 159. maddesine göre Hâkimler ve Savcılar Kurulu üyeleri DÖRT yıl için seçilir ve süresi biten üyeler yeniden seçilebilir; soru kökündeki 'üç yıl, bir kez daha seçilemez' ifadesi yanlıştır. Kurul on üç üyeden oluşur, iki daire hâlinde çalışır, Başkanı Adalet Bakanıdır ve meslekten çıkarma cezasına ilişkin olanlar dışındaki kararlarına karşı yargı yolu kapalıdır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "159"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
-			"year": 2017,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"hakimler-ve-savcilar-kurulu"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl17yim-q049",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "kolay",
-		"stem": "T.C. Anayasası’na göre adliye mahkemelerince verilen ve kanunun başka bir adli yargı mercisine bırakmadığı karar ve hükümlerin son inceleme merci aşağıdakilerden hangisidir?",
-		"options": [
-			"Yargıtay",
-			"Anayasa Mahkemesi",
-			"Danıştay",
-			"Uyuşmazlık Mahkemesi",
-			"Bölge Adliye Mahkemesi"
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 154. maddesine göre Yargıtay, adliye mahkemelerince verilen ve kanunun başka bir adli yargı merciine bırakmadığı karar ve hükümlerin son inceleme merciidir. Kanunla gösterilen belli davalara ilk ve son derece mahkemesi olarak da bakar.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "154"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 07.10.2017",
-			"year": 2017,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/10171554_1._GRUP_YAZI_YYLERY_MYDYRY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"yargıtay"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl17iim-q048",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yargi",
-		"difficulty": "orta",
-		"stem": "I. Türkiye Büyük Millet Meclisi Başkanı II. Cumhuriyet Başsavcı Vekili III. Hava Kuvvetleri Komutanı IV. Genelkurmay Başkanı T.C. Anayasası’na göre yukarıdakilerden hangileri görevleriyle ilgili suçlardan dolayı Yüce Divanda yargılanırlar?",
-		"options": [
-			"I ve II",
-			"II ve III",
-			"III ve IV",
-			"I, II ve III",
-			"I, II, III ve IV"
-		],
-		"correctIndex": 4,
-		"explanation": "Anayasa'nın 148. maddesine göre Anayasa Mahkemesi; Cumhurbaşkanını, TBMM Başkanını, Cumhurbaşkanı yardımcılarını, bakanları, yüksek mahkemelerin Başkan ve üyelerini, Başsavcılarını, Cumhuriyet Başsavcıvekilini, Hâkimler ve Savcılar Kurulu ile Sayıştay Başkan ve üyelerini görevleriyle ilgili suçlardan Yüce Divan sıfatıyla yargılar. Genelkurmay Başkanı ile Kara, Deniz ve Hava Kuvvetleri Komutanları da aynı madde uyarınca Yüce Divanda yargılanır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "148"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (İdari İşler Müdürü) A Kitapçığı, 07.10.2017",
-			"year": 2017,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2017_10/11154144_2._GRUP_YDARY_YYLER_MYDYRY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"yüce-divan"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
 	},
 	{
 		"id": "anayasa-yargi-013",
@@ -948,13 +401,13 @@
 		"difficulty": "kolay",
 		"stem": "Anayasa'nın hâkimlik ve savcılık teminatını düzenleyen maddesine göre aşağıdakilerden hangisi bu teminatın kapsamında değildir?",
 		"options": [
-			"Hâkim ve savcıların azlolunamaması",
-			"Kendileri istemedikçe Anayasada gösterilen yaştan önce emekliye ayrılamamaları",
-			"Bir mahkemenin veya kadronun kaldırılması sebebiyle de olsa aylık, ödenek ve diğer özlük haklarından yoksun kılınamamaları",
 			"Görevleri sebebiyle işledikleri suçlardan dolayı hiçbir şekilde soruşturulamamaları",
+			"Kendileri istemedikçe Anayasada gösterilen yaştan önce emekliye ayrılamamaları",
+			"Hâkim ve savcıların azlolunamaması",
+			"Bir mahkemenin veya kadronun kaldırılması sebebiyle de olsa aylık, ödenek ve diğer özlük haklarından yoksun kılınamamaları",
 			"Meslekte kalmalarının uygun olmadığına karar verilenler bakımından kanundaki istisnaların saklı tutulması"
 		],
-		"correctIndex": 3,
+		"correctIndex": 0,
 		"explanation": "Madde 139'a göre hâkimler ve savcılar azlolunamaz, kendileri istemedikçe Anayasada gösterilen yaştan önce emekliye ayrılamaz; bir mahkemenin veya kadronun kaldırılması sebebiyle de olsa aylık, ödenek ve diğer özlük haklarından yoksun kılınamazlar. Maddenin ikinci fıkrası meslekten çıkarılmayı gerektiren bir suçtan hüküm giyenler, görevini sağlık bakımından yerine getiremeyeceği kesin olarak anlaşılanlar ve meslekte kalmaları uygun görülmeyenler hakkında kanundaki istisnaları saklı tutar. Teminat mutlak bir yargılanmazlık sağlamaz.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -971,7 +424,7 @@
 		"tags": [
 			"hakimlik-teminati"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -981,13 +434,13 @@
 		"difficulty": "kolay",
 		"stem": "Anayasa'ya göre mahkemelerde duruşmaların bir kısmının veya tamamının kapalı yapılmasına hangi hâllerde karar verilebilir?",
 		"options": [
-			"Tarafların birlikte talep etmesi hâlinde",
-			"Yalnızca genel ahlakın veya kamu güvenliğinin kesin olarak gerekli kıldığı hâllerde",
-			"Davanın niteliğine göre mahkemenin serbestçe takdir ettiği her hâlde",
 			"Millî güvenlik, kamu düzeni ve genel sağlığın gerektirdiği bütün hâllerde",
-			"Yalnızca küçüklerin yargılandığı davalarda"
+			"Davanın niteliğine göre mahkemenin serbestçe takdir ettiği her hâlde",
+			"Yalnızca genel ahlakın veya kamu güvenliğinin kesin olarak gerekli kıldığı hâllerde",
+			"Yalnızca küçüklerin yargılandığı davalarda",
+			"Tarafların birlikte talep etmesi hâlinde"
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Madde 141'e göre mahkemelerde duruşmalar herkese açıktır; duruşmaların bir kısmının veya tamamının kapalı yapılmasına ancak genel ahlakın veya kamu güvenliğinin kesin olarak gerekli kıldığı hâllerde karar verilebilir. Küçüklerin yargılanması hakkında kanunla özel hükümler konulması ayrı bir hüküm olup kapalılık sebeplerini genişletmez. Aynı madde bütün mahkemelerin her türlü kararlarının gerekçeli yazılmasını ve davaların en az giderle ve mümkün olan süratle sonuçlandırılmasını da öngörür.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -1005,7 +458,7 @@
 			"durusmalarin-acikligi",
 			"gerekce"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1015,11 +468,11 @@
 		"difficulty": "orta",
 		"stem": "Anayasa'ya göre Danıştay üyelerinin seçiminde görev dağılımı aşağıdakilerden hangisidir?",
 		"options": [
-			"Tamamını Hâkimler ve Savcılar Kurulu seçer.",
+			"Üyelerin dörtte üçünü Cumhurbaşkanı, dörtte birini Türkiye Büyük Millet Meclisi seçer.",
 			"Üyelerin dörtte üçünü Hâkimler ve Savcılar Kurulu, dörtte birini Cumhurbaşkanı seçer.",
 			"Üyelerin yarısını Hâkimler ve Savcılar Kurulu, yarısını Cumhurbaşkanı seçer.",
-			"Üyelerin dörtte üçünü Cumhurbaşkanı, dörtte birini Türkiye Büyük Millet Meclisi seçer.",
-			"Tamamını Cumhurbaşkanı seçer."
+			"Tamamını Cumhurbaşkanı seçer.",
+			"Tamamını Hâkimler ve Savcılar Kurulu seçer."
 		],
 		"correctIndex": 1,
 		"explanation": "Madde 155'e göre Danıştay üyelerinin dörtte üçü, birinci sınıf idari yargı hâkim ve savcıları ile bu meslekten sayılanlar arasından Hâkimler ve Savcılar Kurulu; dörtte biri ise nitelikleri kanunda belirtilen görevliler arasından Cumhurbaşkanı tarafından seçilir. Danıştay Başkanı, Başsavcı, başkanvekilleri ve daire başkanları ise kendi üyeleri arasından Danıştay Genel Kurulunca üye tamsayısının salt çoğunluğu ve gizli oyla dört yıl için seçilir.",
@@ -1039,7 +492,7 @@
 			"danistay",
 			"uye-secimi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1049,13 +502,13 @@
 		"difficulty": "orta",
 		"stem": "Anayasa Mahkemesinde doğrudan doğruya iptal davası açabilme hakkı Anayasa'ya göre kimlere aittir?",
 		"options": [
-			"Yalnızca Cumhurbaşkanına",
-			"Cumhurbaşkanına, Türkiye Büyük Millet Meclisinde en fazla üyeye sahip iki siyasi parti grubuna ve üye tamsayısının en az beşte biri tutarındaki üyelere",
 			"Cumhurbaşkanına, bütün siyasi parti gruplarına ve üye tamsayısının en az üçte biri tutarındaki üyelere",
 			"Yargıtay, Danıştay ve Sayıştay başkanlarına",
-			"Cumhurbaşkanına ve Türkiye Büyük Millet Meclisi Başkanına"
+			"Cumhurbaşkanına ve Türkiye Büyük Millet Meclisi Başkanına",
+			"Yalnızca Cumhurbaşkanına",
+			"Cumhurbaşkanına, Türkiye Büyük Millet Meclisinde en fazla üyeye sahip iki siyasi parti grubuna ve üye tamsayısının en az beşte biri tutarındaki üyelere"
 		],
-		"correctIndex": 1,
+		"correctIndex": 4,
 		"explanation": "Madde 150'ye göre kanunların, Cumhurbaşkanlığı kararnamelerinin, Türkiye Büyük Millet Meclisi İçtüzüğünün veya bunların belirli madde ve hükümlerinin şekil ve esas bakımından Anayasaya aykırılığı iddiasıyla Anayasa Mahkemesinde doğrudan doğruya iptal davası açabilme hakkı; Cumhurbaşkanına, Türkiye Büyük Millet Meclisinde en fazla üyeye sahip iki siyasi parti grubuna ve üye tamsayısının en az beşte biri tutarındaki üyelere aittir. 2017 değişikliğiyle iktidar ve anamuhalefet partisi grubu ölçütü, en fazla üyeye sahip iki siyasi parti grubu ölçütüyle değiştirilmiştir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -1073,7 +526,7 @@
 			"iptal-davasi",
 			"soyut-norm-denetimi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1085,8 +538,8 @@
 		"options": [
 			"Üç ay; süre dolarsa mahkeme davayı düşürür.",
 			"Beş ay; süre dolarsa mahkeme davayı yürürlükteki kanun hükümlerine göre sonuçlandırır.",
-			"Altı ay; süre dolarsa hüküm kendiliğinden iptal edilmiş sayılır.",
 			"Beş ay; süre dolarsa dava temyiz merciine gönderilir.",
+			"Altı ay; süre dolarsa hüküm kendiliğinden iptal edilmiş sayılır.",
 			"Bir yıl; süre dolarsa mahkeme yeniden başvuruda bulunur."
 		],
 		"correctIndex": 1,
@@ -1107,7 +560,7 @@
 			"itiraz-yolu",
 			"somut-norm-denetimi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -1117,13 +570,13 @@
 		"difficulty": "uzman",
 		"stem": "2017 yılında yapılan Anayasa değişikliğinden sonra askerî mahkemelerin kurulması bakımından aşağıdakilerden hangisi doğrudur?",
 		"options": [
-			"Askerî mahkemeler hiçbir şart altında kurulamaz.",
 			"Disiplin mahkemeleri dışında askerî mahkeme kurulamaz; ancak savaş hâlinde asker kişilerin görevleriyle ilgili suçlarına bakmak üzere kurulabilir.",
 			"Askerî mahkemeler yalnızca olağanüstü hâl ilan edilen bölgelerde kurulabilir.",
 			"Askerî mahkemeler barış zamanında da asker kişilerin bütün suçlarına bakmak üzere kurulabilir.",
+			"Askerî mahkemeler hiçbir şart altında kurulamaz.",
 			"Askerî mahkemelerin kurulması Cumhurbaşkanlığı kararnamesiyle serbestçe düzenlenir."
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 142'ye 2017 değişikliğiyle eklenen fıkraya göre disiplin mahkemeleri dışında askerî mahkemeler kurulamaz; ancak savaş hâlinde, asker kişilerin görevleriyle ilgili olarak işledikleri suçlara ait davalara bakmakla görevli askerî mahkemeler kurulabilir. Yasak mutlak olmadığı gibi olağanüstü hâlle de ilişkilendirilmemiştir. Maddenin birinci fıkrası uyarınca mahkemelerin kuruluşu, görev ve yetkileri, işleyişi ve yargılama usulleri kanunla düzenlenir; bu alan Cumhurbaşkanlığı kararnamesine bırakılmamıştır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -1141,7 +594,548 @@
 			"askeri-mahkeme",
 			"mahkemelerin-kurulusu"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yargi-020",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 140. maddesine göre hâkim ve savcılar bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Hâkimler ve savcılar idari görevleri yönünden Adalet Bakanlığına bağlıdır.",
+			"Hâkimler ve savcılar altmış yaşını bitirinceye kadar hizmet görür.",
+			"Hâkimler ve savcılar adli ve idari yargı hâkim ve savcıları olarak görev yapar.",
+			"Hâkimler ve savcılar kanunda belirtilenlerden başka resmî ve özel hiçbir görev alamaz.",
+			"Hâkimler, mahkemelerin bağımsızlığı ve hâkimlik teminatı esaslarına göre görev ifa eder."
+		],
+		"correctIndex": 1,
+		"explanation": "140. maddeye göre hâkimler ve savcılar altmış beş yaşını bitirinceye kadar hizmet görür. Diğer seçenekler maddenin görev, bağımsızlık, başka görev alma yasağı ve idari görevler yönünden Adalet Bakanlığına bağlılık hükümlerine uygundur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "140"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hâkimlik-savcılık"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-021",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 148. maddesine göre Anayasa Mahkemesinin denetim yetkisi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Anayasa değişikliklerini denetleme yetkisi bulunmamaktadır.",
+			"Milletlerarası andlaşmaların Anayasaya uygunluğunu denetler.",
+			"Olağanüstü hâllerde çıkarılan Cumhurbaşkanlığı kararnamelerini esas bakımından denetler.",
+			"Anayasa değişikliklerini hem şekil hem esas bakımından denetler.",
+			"Anayasa değişikliklerini sadece şekil bakımından inceler ve denetler."
+		],
+		"correctIndex": 4,
+		"explanation": "148. maddeye göre Anayasa Mahkemesi kanunların, Cumhurbaşkanlığı kararnamelerinin ve Türkiye Büyük Millet Meclisi İçtüzüğünün Anayasaya şekil ve esas bakımlarından uygunluğunu denetler, bireysel başvuruları karara bağlar; Anayasa değişikliklerini ise sadece şekil bakımından inceler ve denetler. Olağanüstü hâllerde ve savaş hâllerinde çıkarılan Cumhurbaşkanlığı kararnamelerine karşı dava açılamaz; milletlerarası andlaşmalar için de 90. madde uyarınca aykırılık iddiasında bulunulamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "148"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-mahkemesi",
+			"görevler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-022",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 148. maddesine göre kanunların şekil bakımından denetlenmesi bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Kanunlarda şekil denetimi, son oylamanın öngörülen çoğunlukla yapılıp yapılmadığı hususuyla sınırlıdır.",
+			"Kanunun yayımlandığı tarihten itibaren on gün geçtikten sonra şekil bozukluğuna dayalı iptal davası açılamaz.",
+			"Şekil bozukluğu on günlük süre geçtikten sonra def'i yoluyla da ileri sürülemez.",
+			"Şekil bakımından denetleme, Cumhurbaşkanınca veya Türkiye Büyük Millet Meclisi üyelerinin beşte biri tarafından istenebilir.",
+			"Şekil bozukluğuna dayalı iptal davası, kanunun yayımından itibaren altmış gün içinde açılabilir."
+		],
+		"correctIndex": 4,
+		"explanation": "148. maddenin ikinci fıkrasına göre kanunun yayımlandığı tarihten itibaren on gün geçtikten sonra şekil bozukluğuna dayalı iptal davası açılamaz ve def'i yoluyla da ileri sürülemez. Altmış günlük süre, 151. maddedeki genel iptal davası süresidir ve esas bakımından denetime ilişkindir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "148"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-mahkemesi",
+			"şekil-denetimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-023",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "uzman",
+		"stem": "Anayasa'nın 148. maddesine göre aşağıdakilerden hangisi görevleriyle ilgili suçlardan dolayı Yüce Divanda yargılanacaklar arasında sayılmamıştır?",
+		"options": [
+			"Büyükşehir belediye başkanları",
+			"Genelkurmay Başkanı ile Kara, Deniz ve Hava Kuvvetleri Komutanları",
+			"Cumhurbaşkanı yardımcıları ve bakanlar",
+			"Türkiye Büyük Millet Meclisi Başkanı",
+			"Sayıştay Başkan ve üyeleri"
+		],
+		"correctIndex": 0,
+		"explanation": "148. maddeye göre Anayasa Mahkemesi; Cumhurbaşkanını, Türkiye Büyük Millet Meclisi Başkanını, Cumhurbaşkanı yardımcılarını, bakanları, Anayasa Mahkemesi, Yargıtay, Danıştay Başkan ve üyelerini, Başsavcılarını, Cumhuriyet Başsavcıvekilini, Hâkimler ve Savcılar Kurulu ve Sayıştay Başkan ve üyelerini; ayrıca Genelkurmay Başkanı ile kuvvet komutanlarını görevleriyle ilgili suçlardan dolayı Yüce Divan sıfatıyla yargılar. Belediye başkanları bu sayımda yer almaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "148"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yüce-divan"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-024",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 149. maddesine göre Anayasa Mahkemesinin çalışma usulü bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Anayasa değişikliğinde iptale veya siyasi partilerin kapatılmasına karar verilebilmesi için toplantıya katılan üyelerin üçte iki oy çokluğu şarttır.",
+			"Anayasa Mahkemesi iki bölüm ve Genel Kurul hâlinde çalışır.",
+			"Bölümler, başkanvekili başkanlığında dört üyenin katılımıyla toplanır.",
+			"Bireysel başvurular Genel Kurulca karara bağlanır.",
+			"Genel Kurul, Mahkeme Başkanının veya belirleyeceği başkanvekilinin başkanlığında en az on üye ile toplanır."
+		],
+		"correctIndex": 3,
+		"explanation": "149. maddeye göre siyasi partilere ilişkin dava ve başvurulara, iptal ve itiraz davaları ile Yüce Divan sıfatıyla yürütülecek yargılamalara Genel Kurulca bakılır; bireysel başvurular ise bölümlerce karara bağlanır. Genel Kurulun toplantı yeter sayısı 2017 değişikliğiyle on iki üyeden on üyeye indirilmiştir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "149"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-mahkemesi",
+			"çalışma-usulü"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-025",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 151. maddesine göre Anayasa Mahkemesinde doğrudan doğruya iptal davası açma hakkı ne zaman düşer?",
+		"options": [
+			"Yayımlanmasından başlayarak otuz gün sonra",
+			"İptali istenen metnin Resmî Gazetede yayımlanmasından başlayarak altmış gün sonra",
+			"Yayımlanmasından başlayarak doksan gün sonra",
+			"Metnin yürürlüğe girmesinden başlayarak bir yıl sonra",
+			"Yayımlanmasından başlayarak on gün sonra"
+		],
+		"correctIndex": 1,
+		"explanation": "151. maddeye göre Anayasa Mahkemesinde doğrudan doğruya iptal davası açma hakkı, iptali istenen kanun, Cumhurbaşkanlığı kararnamesi veya İçtüzüğün Resmî Gazetede yayımlanmasından başlayarak altmış gün sonra düşer. On günlük süre ise 148. maddedeki şekil bozukluğuna dayalı davalara özgüdür.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "151"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iptal-davası",
+			"süre"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-026",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 153. maddesine göre Anayasa Mahkemesinin iptal kararları bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Anayasa Mahkemesi, kanun koyucu gibi hareketle yeni bir uygulamaya yol açacak biçimde hüküm tesis edemez.",
+			"İptal kararları, iptal edilen hükmün yürürlüğe girdiği tarihten itibaren geçmişe etkili sonuç doğurur.",
+			"Anayasa Mahkemesi gereken hâllerde iptal hükmünün yürürlüğe gireceği tarihi ayrıca kararlaştırabilir; bu tarih bir yılı geçemez.",
+			"Anayasa Mahkemesinin kararları kesindir ve iptal kararları gerekçesi yazılmadan açıklanamaz.",
+			"Anayasa Mahkemesi kararları yasama, yürütme ve yargı organlarını, idare makamlarını, gerçek ve tüzelkişileri bağlar."
+		],
+		"correctIndex": 1,
+		"explanation": "153. maddenin ilgili fıkrası açıktır: iptal kararları geriye yürümez. İptal edilen hüküm, kararın Resmî Gazetede yayımlandığı tarihte (ya da Mahkemenin belirlediği ve bir yılı geçemeyecek ileri tarihte) yürürlükten kalkar.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "153"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-mahkemesi",
+			"kararların-etkisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-027",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 154. maddesine göre Yargıtay bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Üyeleri Cumhurbaşkanı tarafından seçilir.",
+			"İdari mahkemelerin kararlarını da inceler.",
+			"Adliye mahkemelerince verilen ve kanunun başka bir adli yargı merciine bırakmadığı karar ve hükümlerin son inceleme merciidir.",
+			"Yalnızca ilk derece mahkemesi olarak görev yapar.",
+			"Birinci Başkanı Cumhurbaşkanınca dört yıl için atanır."
+		],
+		"correctIndex": 2,
+		"explanation": "154. maddeye göre Yargıtay, adliye mahkemelerince verilen ve kanunun başka bir adli yargı merciine bırakmadığı karar ve hükümlerin son inceleme merciidir; kanunla gösterilen belli davalara ilk ve son derece mahkemesi olarak da bakar. Üyeleri Hâkimler ve Savcılar Kurulunca seçilir; Birinci Başkan, birinci başkanvekilleri ve daire başkanları Yargıtay Genel Kurulunca dört yıl için seçilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "154"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yargıtay"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-028",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 155. maddesine göre Danıştay'ın görevleri arasında aşağıdakilerden hangisi yer almaz?",
+		"options": [
+			"Kanunla gösterilen belli davalara ilk ve son derece mahkemesi olarak bakmak",
+			"İdari mahkemelerce verilen ve kanunun başka bir idari yargı merciine bırakmadığı karar ve hükümleri son inceleme mercii olarak incelemek",
+			"İdari uyuşmazlıkları çözmek",
+			"Tüzük tasarılarını incelemek",
+			"Kamu hizmetleri ile ilgili imtiyaz şartlaşma ve sözleşmeleri hakkında iki ay içinde düşüncesini bildirmek"
+		],
+		"correctIndex": 3,
+		"explanation": "155. maddedeki 'tüzük tasarılarını incelemek' ibaresi, tüzük kurumunun kaldırılmasıyla birlikte 21/1/2017 tarihli ve 6771 sayılı Kanun'la madde metninden çıkarılmıştır. Danıştay bugün davaları görmek, imtiyaz şartlaşma ve sözleşmeleri hakkında iki ay içinde düşüncesini bildirmek, idari uyuşmazlıkları çözmek ve kanunla gösterilen diğer işleri yapmakla görevlidir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "155"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"danıştay",
+			"görevler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-029",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 158. maddesine göre Uyuşmazlık Mahkemesi bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Başkanlığını Anayasa Mahkemesince kendi üyeleri arasından görevlendirilen üye yapar.",
+			"Adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözümlemeye yetkilidir.",
+			"Kuruluşu, üyelerinin nitelikleri ve seçimleri ile işleyişi kanunla düzenlenir.",
+			"Başkanlığını Yargıtay Birinci Başkanı yapar.",
+			"Diğer mahkemelerle Anayasa Mahkemesi arasındaki görev uyuşmazlıklarında Anayasa Mahkemesinin kararı esas alınır."
+		],
+		"correctIndex": 3,
+		"explanation": "158. maddeye göre Uyuşmazlık Mahkemesinin Başkanlığını, Anayasa Mahkemesince kendi üyeleri arasından görevlendirilen üye yapar. 2017 değişikliğiyle maddedeki 'adli, idari ve askerî' ibaresi 'adli ve idari' şeklinde değiştirilmiş, askerî yargı kaldırılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "158"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"uyuşmazlık-mahkemesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-030",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 159. maddesine göre Hâkimler ve Savcılar Kurulu kaç üyeden oluşur ve kaç daire hâlinde çalışır?",
+		"options": [
+			"On üç üye — iki daire",
+			"On üç üye — üç daire",
+			"Yirmi iki üye — üç daire",
+			"On beş üye — iki daire",
+			"On bir üye — iki daire"
+		],
+		"correctIndex": 0,
+		"explanation": "159. maddenin 2017 yılında değiştirilen fıkrasına göre Hâkimler ve Savcılar Kurulu on üç üyeden oluşur ve iki daire hâlinde çalışır. Kurulun Başkanı Adalet Bakanıdır; üyeler dört yıl için seçilir ve süresi bitenler bir kez daha seçilebilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "159"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hsk",
+			"oluşum"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-031",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "uzman",
+		"stem": "Anayasa'nın 159. maddesine göre Hâkimler ve Savcılar Kurulunun seçimle gelen üyelerinin dağılımı aşağıdakilerin hangisinde doğru verilmiştir?",
+		"options": [
+			"Altı üye Cumhurbaşkanınca, beş üye Yargıtay ve Danıştay Genel Kurullarınca seçilir.",
+			"Üyelerin tamamı Türkiye Büyük Millet Meclisi tarafından seçilir.",
+			"Yedi üye Cumhurbaşkanınca, dört üye Türkiye Büyük Millet Meclisi tarafından seçilir.",
+			"Dört üye Cumhurbaşkanınca, yedi üye Türkiye Büyük Millet Meclisi tarafından seçilir.",
+			"Üyelerin tamamı Cumhurbaşkanınca seçilir."
+		],
+		"correctIndex": 3,
+		"explanation": "159. maddeye göre Kurulun üç üyesi birinci sınıf adli yargı hâkim ve savcıları, bir üyesi birinci sınıf idari yargı hâkim ve savcıları arasından Cumhurbaşkanınca; üç üyesi Yargıtay üyeleri, bir üyesi Danıştay üyeleri, üç üyesi ise hukuk dallarında görev yapan öğretim üyeleri ile avukatlar arasından Türkiye Büyük Millet Meclisi tarafından seçilir. Böylece dört üye Cumhurbaşkanınca, yedi üye Meclisçe seçilir; Adalet Bakanı Kurulun Başkanı, Bakanlığın üst düzey temsilcisi ise tabiî üyesidir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "159"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hsk",
+			"üye-seçimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-032",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 160. maddesine göre Sayıştay'ın görevleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Sorumluların hesap ve işlemlerini kesin hükme bağlama yetkisi Danıştaya aittir.",
+			"Mahallî idarelerin hesap ve işlemlerinin denetimi İçişleri Bakanlığına aittir.",
+			"Merkezî yönetim bütçesi kapsamındaki kamu idareleri ile sosyal güvenlik kurumlarının bütün gelir ve giderleri ile mallarını Türkiye Büyük Millet Meclisi adına denetler.",
+			"Kamu idarelerinin harcamalarını Cumhurbaşkanı adına denetler.",
+			"Yalnızca merkezî yönetim bütçesi kapsamındaki idareleri denetler; sosyal güvenlik kurumları kapsam dışıdır."
+		],
+		"correctIndex": 2,
+		"explanation": "160. maddeye göre Sayıştay, merkezî yönetim bütçesi kapsamındaki kamu idareleri ile sosyal güvenlik kurumlarının bütün gelir ve giderleri ile mallarını Türkiye Büyük Millet Meclisi adına denetlemek ve sorumluların hesap ve işlemlerini kesin hükme bağlamakla görevlidir. 2005 yılında eklenen fıkraya göre mahallî idarelerin hesap ve işlemlerinin denetimi ve kesin hükme bağlanması da Sayıştay tarafından yapılır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "160"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sayıştay",
+			"denetim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-033",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 160. maddesine göre Sayıştay'ın kesin hükümleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"İlgililer otuz gün içinde idari yargıda iptal davası açabilir.",
+			"Karar düzeltilmesi istemi sayı sınırı olmaksızın tekrarlanabilir.",
+			"İlgililer yazılı bildirim tarihinden itibaren on beş gün içinde bir kereye mahsus olmak üzere karar düzeltilmesi isteminde bulunabilir; bu kararlar dolayısıyla idari yargı yoluna başvurulamaz.",
+			"Kesin hükümlere karşı Danıştaya temyiz başvurusu yapılabilir.",
+			"Kesin hükümler yalnızca Türkiye Büyük Millet Meclisi kararıyla kaldırılabilir."
+		],
+		"correctIndex": 2,
+		"explanation": "160. maddenin birinci fıkrasına göre Sayıştay'ın kesin hükümleri hakkında ilgililer yazılı bildirim tarihinden itibaren on beş gün içinde bir kereye mahsus olmak üzere karar düzeltilmesi isteminde bulunabilir; bu kararlar dolayısıyla idari yargı yoluna başvurulamaz. Vergi, benzeri mali yükümlülükler ve ödevler hakkında Danıştay ile Sayıştay kararları arasındaki uyuşmazlıklarda ise Danıştay kararları esas alınır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "160"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sayıştay",
+			"karar-düzeltilmesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-034",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "uzman",
+		"stem": "Anayasa'nın 146. maddesine göre Türkiye Büyük Millet Meclisinin Anayasa Mahkemesine seçtiği üyeler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Meclis, iki üyeyi Sayıştay Genel Kurulunun kendi başkan ve üyeleri arasından, bir üyeyi ise baro başkanlarının serbest avukatlar arasından göstereceği adaylar içinden gizli oyla seçer.",
+			"Meclis, üç üyeyi doğrudan kendi üyeleri arasından seçer.",
+			"Meclis, üyelerin tamamını Yargıtay ve Danıştay genel kurullarının göstereceği adaylar içinden seçer.",
+			"Meclisin Anayasa Mahkemesine üye seçme yetkisi 2017 değişikliğiyle kaldırılmıştır.",
+			"Meclis, iki üyeyi Yükseköğretim Kurulunun göstereceği adaylar içinden seçer."
+		],
+		"correctIndex": 0,
+		"explanation": "146. maddeye göre Anayasa Mahkemesi on beş üyeden kurulur. Türkiye Büyük Millet Meclisi üç üye seçer: iki üyeyi Sayıştay Genel Kurulunun kendi başkan ve üyeleri arasından, bir üyeyi ise baro başkanlarının serbest avukatlar arasından gösterecekleri adaylar içinden gizli oylamayla seçer. Kalan on iki üyeyi Cumhurbaşkanı seçer; üye sayısı 2017 değişikliğiyle on yediden on beşe indirilmiştir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "146"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-mahkemesi",
+			"üye-seçimi",
+			"2017-değişikliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-035",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 160. maddesine göre, vergi ve benzeri mali yükümlülükler ile ödevler hakkında Danıştay ile Sayıştay kararları arasında uyuşmazlık çıkarsa hangi karar esas alınır?",
+		"options": [
+			"Sayıştay kararları",
+			"Tarihi daha yeni olan karar",
+			"Uyuşmazlık Mahkemesinin kararı",
+			"Anayasa Mahkemesinin kararı",
+			"Danıştay kararları"
+		],
+		"correctIndex": 4,
+		"explanation": "160. maddenin ikinci fıkrası bu özel çatışmayı tek cümleyle çözer: vergi, benzeri mali yükümlülükler ve ödevler hakkında Danıştay ile Sayıştay kararları arasındaki uyuşmazlıklarda Danıştay kararları esas alınır. Uyuşmazlık Mahkemesi ise 158. madde uyarınca adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarına bakar.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "160"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sayıştay",
+			"danıştay"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
 	}
 ]

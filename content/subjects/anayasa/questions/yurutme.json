@@ -6,12 +6,12 @@
 		"difficulty": "kolay",
 		"stem": "Cumhurbaşkanı seçilebilmek için gereken en az yaş ve öğrenim şartı nedir?",
 		"options": [
-			"18 yaş – ilkokul mezunu",
-			"25 yaş – lise mezunu",
+			"45 yaş – yükseköğrenim",
 			"40 yaş – yükseköğrenim",
-			"45 yaş – yükseköğrenim"
+			"25 yaş – lise mezunu",
+			"18 yaş – ilkokul mezunu"
 		],
-		"correctIndex": 2,
+		"correctIndex": 1,
 		"explanation": "Anayasa'nın 101. maddesine göre Cumhurbaşkanı; kırk yaşını doldurmuş, yükseköğrenim yapmış, milletvekili seçilme yeterliliğine sahip Türk vatandaşları arasından doğrudan halk tarafından seçilir. Milletvekilliği için ise 18 yaş ve en az ilkokul mezuniyeti yeterlidir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -29,7 +29,7 @@
 			"madde-101",
 			"sartlar"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -39,12 +39,12 @@
 		"difficulty": "kolay",
 		"stem": "Cumhurbaşkanının görev süresi ve dönem sınırı aşağıdakilerden hangisidir?",
 		"options": [
-			"4 yıl – en fazla iki dönem",
-			"5 yıl – en fazla iki dönem",
+			"7 yıl – tek dönem",
 			"5 yıl – sınırsız",
-			"7 yıl – tek dönem"
+			"4 yıl – en fazla iki dönem",
+			"5 yıl – en fazla iki dönem"
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Madde 101'e göre Cumhurbaşkanının görev süresi beş yıldır ve bir kimse en fazla iki defa Cumhurbaşkanı seçilebilir. Ayrıca TBMM ve Cumhurbaşkanlığı seçimleri beş yılda bir aynı günde yapılır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -62,7 +62,7 @@
 			"madde-101",
 			"sure"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -72,12 +72,12 @@
 		"difficulty": "kolay",
 		"stem": "Cumhurbaşkanı yardımcıları ve bakanlar nasıl göreve gelir?",
 		"options": [
+			"Cumhurbaşkanınca atanır, TBMM güvenoyu verir.",
 			"TBMM tarafından seçilir.",
 			"Cumhurbaşkanı tarafından atanır ve görevden alınır.",
-			"Cumhurbaşkanınca atanır, TBMM güvenoyu verir.",
 			"Siyasi parti grupları tarafından belirlenir."
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Madde 106'ya göre Cumhurbaşkanı yardımcıları ve bakanlar, milletvekili seçilme yeterliliğine sahip olanlar arasından Cumhurbaşkanı tarafından atanır ve görevden alınır. Güvenoyu kurumu 2017 değişikliğiyle kaldırılmıştır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -95,7 +95,7 @@
 			"madde-106",
 			"bakan"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -105,12 +105,12 @@
 		"difficulty": "orta",
 		"stem": "Cumhurbaşkanlığı kararnamesi ile kanunda farklı hükümler bulunması hâlinde ne uygulanır?",
 		"options": [
-			"Cumhurbaşkanlığı kararnamesi",
 			"Kanun hükümleri",
-			"Tarihi sonraki olan metin",
-			"Anayasa Mahkemesi karar verene kadar ikisi birlikte"
+			"Cumhurbaşkanlığı kararnamesi",
+			"Anayasa Mahkemesi karar verene kadar ikisi birlikte",
+			"Tarihi sonraki olan metin"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 104'e göre Cumhurbaşkanlığı kararnamesi ile kanunlarda farklı hükümler bulunması hâlinde kanun hükümleri uygulanır. Ayrıca TBMM'nin aynı konuda kanun çıkarması durumunda kararname hükümsüz hâle gelir. Kanun her durumda üstündür.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -128,7 +128,7 @@
 			"kararname",
 			"hiyerarsi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -138,12 +138,12 @@
 		"difficulty": "orta",
 		"stem": "Cumhurbaşkanı adayı gösterebilmek için en az kaç seçmenin imzası gereklidir?",
 		"options": [
-			"20.000",
-			"50.000",
 			"100.000",
+			"50.000",
+			"20.000",
 			"500.000"
 		],
-		"correctIndex": 2,
+		"correctIndex": 0,
 		"explanation": "Madde 101'e göre siyasi parti grupları, son seçimlerde toplam geçerli oyların tek başına veya birlikte en az yüzde beşini almış olan siyasi partiler ile en az yüz bin seçmen Cumhurbaşkanı adayı gösterebilir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -161,7 +161,7 @@
 			"madde-101",
 			"adaylik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -171,12 +171,12 @@
 		"difficulty": "orta",
 		"stem": "Olağanüstü hâl en çok ne kadar süre için ilan edilebilir ve TBMM her defasında en çok ne kadar uzatabilir?",
 		"options": [
-			"6 ay – 4 ay",
-			"4 ay – 6 ay",
 			"3 ay – 3 ay",
-			"1 yıl – 6 ay"
+			"1 yıl – 6 ay",
+			"4 ay – 6 ay",
+			"6 ay – 4 ay"
 		],
-		"correctIndex": 0,
+		"correctIndex": 3,
 		"explanation": "Madde 119'a göre Cumhurbaşkanı, yurdun tamamında veya bir bölgesinde süresi altı ayı geçmemek üzere olağanüstü hâl ilan edebilir; karar TBMM'nin onayına sunulur ve TBMM süreyi her defasında dört ayı geçmemek üzere uzatabilir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -194,7 +194,7 @@
 			"ohal",
 			"sure"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -204,10 +204,10 @@
 		"difficulty": "zor",
 		"stem": "Cumhurbaşkanlığı kararnamesi çıkarılamayacak konular bakımından aşağıdakilerden hangisi yanlıştır?",
 		"options": [
+			"Temel haklar kararnameyle sınırlanamaz.",
 			"Anayasada münhasıran kanunla düzenlenmesi öngörülen konularda çıkarılamaz.",
-			"Kanunda açıkça düzenlenen konularda çıkarılamaz.",
 			"Yürütme yetkisine ilişkin konularda çıkarılamaz.",
-			"Temel haklar kararnameyle sınırlanamaz."
+			"Kanunda açıkça düzenlenen konularda çıkarılamaz."
 		],
 		"correctIndex": 2,
 		"explanation": "Madde 104'e göre Cumhurbaşkanı, yürütme yetkisine ilişkin konularda Cumhurbaşkanlığı kararnamesi çıkarabilir; yani yürütme alanı kararnamenin yasak alanı değil, tam olarak kendi alanıdır. Diğer üç ifade doğru sınırlardır.",
@@ -227,7 +227,7 @@
 			"kararname",
 			"tuzak"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -237,12 +237,12 @@
 		"difficulty": "zor",
 		"stem": "Bir TBMM üyesi bakan olarak atanırsa milletvekilliği ne olur?",
 		"options": [
+			"TBMM Genel Kurulu kararıyla belirlenir.",
 			"Devam eder; hem bakan hem milletvekili olabilir.",
 			"Milletvekilliği sona erer.",
-			"Bakanlık süresince askıya alınır, sonra devam eder.",
-			"TBMM Genel Kurulu kararıyla belirlenir."
+			"Bakanlık süresince askıya alınır, sonra devam eder."
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Madde 106'ya göre Türkiye Büyük Millet Meclisi üyeleri Cumhurbaşkanı yardımcısı veya bakan olarak atanırlarsa üyelikleri sona erer. Bu, kuvvetler ayrılığının 2017 sistemindeki katı uygulamalarından biridir; parlamenter sistemde bakanlar aynı zamanda milletvekili olabiliyordu.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -260,7 +260,7 @@
 			"madde-106",
 			"guncellik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -270,12 +270,12 @@
 		"difficulty": "zor",
 		"stem": "Cumhurbaşkanı hakkında soruşturma açılmasına karar verilebilmesi için TBMM'de hangi çoğunluk gerekir?",
 		"options": [
-			"Üye tamsayısının salt çoğunluğu",
 			"Üye tamsayısının beşte üçü",
 			"Üye tamsayısının üçte ikisi",
-			"Toplantıya katılanların salt çoğunluğu"
+			"Toplantıya katılanların salt çoğunluğu",
+			"Üye tamsayısının salt çoğunluğu"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 105'e göre soruşturma açılması istemi üye tamsayısının salt çoğunluğunun vereceği önergeyle olur; Meclis üye tamsayısının beşte üçünün gizli oyuyla soruşturma açılmasına karar verir. Yüce Divana sevk ise üye tamsayısının üçte ikisinin gizli oyunu gerektirir. Üç aşamada çoğunluk giderek ağırlaşır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -293,7 +293,7 @@
 			"madde-105",
 			"cogunluk"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -303,12 +303,12 @@
 		"difficulty": "uzman",
 		"stem": "Bir Cumhurbaşkanlığı kararnamesiyle düzenlenen bir konuda, TBMM daha sonra aynı konuyu düzenleyen bir kanun çıkarmıştır. Kararnamenin durumu ne olur?",
 		"options": [
-			"Kararname yürürlükte kalır; kanunla birlikte uygulanır.",
-			"Kararname hükümsüz hâle gelir.",
 			"Anayasa Mahkemesi karar verene kadar kararname uygulanır.",
-			"Cumhurbaşkanı kararnameyi yeniden yayımlarsa geçerli olur."
+			"Cumhurbaşkanı kararnameyi yeniden yayımlarsa geçerli olur.",
+			"Kararname yürürlükte kalır; kanunla birlikte uygulanır.",
+			"Kararname hükümsüz hâle gelir."
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Madde 104 açıktır: Türkiye Büyük Millet Meclisinin aynı konuda kanun çıkarması durumunda Cumhurbaşkanlığı kararnamesi hükümsüz hâle gelir. Bu, yasama yetkisinin üstünlüğünü koruyan bir hükümdür ve ayrıca bir yargı kararına ihtiyaç duyulmaz.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -326,7 +326,7 @@
 			"kararname",
 			"senaryo"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -336,12 +336,12 @@
 		"difficulty": "uzman",
 		"stem": "Cumhurbaşkanlığı seçiminin birinci oylamasında hiçbir aday geçerli oyların salt çoğunluğunu alamamıştır. Ne olur?",
 		"options": [
-			"Seçim yenilenir ve tüm adaylar yeniden yarışır.",
 			"En çok oy alan iki aday arasında ikinci oylama yapılır.",
 			"TBMM Cumhurbaşkanını seçer.",
+			"Seçim yenilenir ve tüm adaylar yeniden yarışır.",
 			"En çok oy alan aday seçilmiş sayılır."
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 102'ye göre genel oyla yapılacak seçimde geçerli oyların salt çoğunluğunu alan aday Cumhurbaşkanı seçilir. Birinci oylamada bu çoğunluk sağlanamazsa, en çok oy almış iki aday arasında ikinci oylama yapılır ve bu oylamada en çok oy alan aday Cumhurbaşkanı seçilir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -359,7 +359,7 @@
 			"madde-102",
 			"secim"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -392,416 +392,8 @@
 			"tuzak",
 			"guncellik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
-	},
-	{
-		"id": "sytay-gys23-q010",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yurutme",
-		"difficulty": "orta",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasında kanunsuz emir hakkında aşağıda verilenlerden hangisi doğru değildir?",
-		"options": [
-			"Kamu hizmetlerinde çalışan kimse, üstünden aldığı emri yönetmelik, Cumhurbaşkanlığı kararnamesi, kanun veya Anayasa hükümlerine aykırı görürse yerine getirmez ve bu aykırılığı emri verene bildirir",
-			"Üstü emrinde ısrar eder ve bu emrini yazı ile yenilerse emir yerine getirilir; bu hâlde emri yerine getiren sorumlu olmaz",
-			"Konusu suç teşkil eden emir hiçbir suretle yerine getirilmez",
-			"Konusu suç teşkil etse dahi üstün emrini yerine getiren kimse sorumluluktan kurtulur"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 137. maddesine göre konusu suç teşkil eden emir hiçbir suretle yerine getirilmez; yerine getiren kimse sorumluluktan kurtulamaz. Dolayısıyla 'suç teşkil etse dahi sorumluluktan kurtulur' ifadesi yanlıştır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "137"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "published",
-		"tags": [
-			"kanunsuz-emir"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-25"
-	},
-	{
-		"id": "meb-adl23-q006",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yurutme",
-		"difficulty": "zor",
-		"stem": "T.C. Anayasası'na göre, Cumhurbaşkanı yardımcıları ve bakanlar ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Cumhurbaşkanı yardımcıları ve bakanlar, milletvekili seçilme yeterliliğine sahip olanlar arasından Cumhurbaşkanı tarafından atanır ve görevden alınır.",
-			"Cumhurbaşkanı yardımcıları ve bakanlar, Cumhurbaşkanı'na karşı sorumludur.",
-			"Cumhurbaşkanı yardımcıları ve bakanlar, Anayasa'da belirtilen şekilde Türkiye Büyük Millet Meclisi önünde ant içerler.",
-			"Yüce Divanda seçilmeye engel bir suçtan mahkûm edilen Cumhurbaşkanı yardımcısı veya bakanın görevi sona erer.",
-			"Cumhurbaşkanı yardımcıları ve bakanlar, görevleriyle ilgili suçlarda yasama dokunulmazlığına ilişkin hükümlerden yararlanır."
-		],
-		"correctIndex": 4,
-		"explanation": "Anayasa'nın 106. maddesine göre Cumhurbaşkanı yardımcıları ve bakanlar hakkında, görevleriyle ilgili OLMAYAN suçlarda yasama dokunulmazlığına ilişkin hükümler uygulanır. Görevleriyle ilgili suçlarda ise Meclis soruşturması ve Yüce Divan yolu işler; bu nedenle seçenekteki ifade yanlıştır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "106"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"bakanlar",
-			"dokunulmazlik"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl23-q007",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yurutme",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre, Millî Güvenlik Kurulunda aşağıdakilerden hangisi yer almaz?",
-		"options": [
-			"Jandarma Genel Komutanı",
-			"Genelkurmay Başkanı",
-			"Kara, Deniz ve Hava Kuvvetleri Komutanları",
-			"Millî Savunma Bakanı",
-			"İçişleri Bakanı"
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 118. maddesine göre Millî Güvenlik Kurulu; Cumhurbaşkanının başkanlığında, Cumhurbaşkanı yardımcıları, Adalet, Millî Savunma, İçişleri ve Dışişleri Bakanları ile Genelkurmay Başkanı ve Kara, Deniz ve Hava kuvvetleri komutanlarından kurulur. Jandarma Genel Komutanı Kurulun üyeleri arasında sayılmamıştır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "118"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"mgk"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl23-q008",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yurutme",
-		"difficulty": "zor",
-		"stem": "T.C. Anayasası'na göre, \"Cumhurbaşkanlığı kararnameleri\" ile ilgili aşağıdakilerden hangisi doğrudur?",
-		"options": [
-			"Anayasa'nın ikinci kısmının birinci ve ikinci bölümlerinde yer alan temel haklar, kişi hakları ve ödevleriyle dördüncü bölümde yer alan siyasi haklar ve ödevler Cumhurbaşkanlığı kararnamesiyle düzenlenir.",
-			"Cumhurbaşkanlığı kararnamesiyle kamu tüzel kişiliği kurulamaz.",
-			"Kanunda açıkça düzenlenen konularda Cumhurbaşkanlığı kararnamesi çıkarılamaz.",
-			"Cumhurbaşkanlığı kararnamesi ile kanunlarda farklı hükümler bulunması hâlinde, Cumhurbaşkanlığı kararnamesi hükümleri uygulanır.",
-			"Yürütme yetkisine ilişkin konularda Cumhurbaşkanlığı kararnamesi çıkarılamaz."
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 104. maddesine göre kanunda açıkça düzenlenen konularda Cumhurbaşkanlığı kararnamesi çıkarılamaz. Ayrıca temel haklar, kişi hakları ve ödevleri ile siyasi haklar ve ödevler kararnameyle düzenlenemez; kararname ile kanunların farklı hüküm taşıması hâlinde kanun hükümleri uygulanır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "104"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"cbk"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl23-q016",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yurutme",
-		"difficulty": "zor",
-		"stem": "T.C. Anayasası'na göre, kamu kurumu niteliğindeki meslek kuruluşları ile ilgili aşağıdakilerden hangisi doğrudur?",
-		"options": [
-			"Kuruluş amaçları dışında faaliyette bulunamazlar.",
-			"Cumhurbaşkanlığı kararnamesi ile kurulabilirler.",
-			"Kamu iktisadi teşebbüslerinde asli ve sürekli görevlerde çalışanların meslek kuruluşlarına girme mecburiyeti vardır.",
-			"Kamu tüzel kişiliğine sahip değillerdir.",
-			"Organlarının seçimlerinde siyasi partiler aday gösterebilirler."
-		],
-		"correctIndex": 0,
-		"explanation": "Anayasa'nın 135. maddesine göre kamu kurumu niteliğindeki meslek kuruluşları kanunla kurulan ve kamu tüzel kişiliğine sahip kuruluşlardır; kuruluş amaçları dışında faaliyette bulunamazlar. Organlarının seçimlerinde siyasi partiler aday gösteremez ve kamu kurum ve kuruluşları ile kamu iktisadi teşebbüslerinde asli ve sürekli görevlerde çalışanların bu kuruluşlara girme mecburiyeti aranmaz.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "135"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"meslek-kuruluslari"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-dan19m-q004",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yurutme",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre aşağıdakilerden hangisi Cumhurbaşkanının görev ve yetkileri arasında yer almaz?",
-		"options": [
-			"Türk Silahlı Kuvvetlerinin kullanılmasına karar vermek",
-			"Milletlerarası andlaşmaları onaylamak",
-			"Millî güvenlik politikalarını belirlemek",
-			"Para basılmasına karar vermek"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 104. maddesinde sayılan Cumhurbaşkanının görev ve yetkileri arasında Türk Silahlı Kuvvetlerinin kullanılmasına karar vermek, milletlerarası antlaşmaları onaylamak ve millî güvenlik politikalarını belirlemek yer alır. Para basılmasına karar vermek ise 87. maddeye göre Türkiye Büyük Millet Meclisinin görev ve yetkilerindendir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "104"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Müdür) A Kitapçığı, 2019",
-			"year": 2019,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2019_07/02173605_1._GRUP_MUDUR_GYS_A_C.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"cumhurbaskani-yetkileri"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-dan19v-q003",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yurutme",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası'na göre bakanlıkların kurulması, kaldırılması, görevleri ve yetkileri, teşkilat yapısı ile merkez ve taşra teşkilatlarının kurulması aşağıdakilerden hangisiyle düzenlenir?",
-		"options": [
-			"Kanun",
-			"Tüzük",
-			"Yönetmelik",
-			"Cumhurbaşkanlığı kararnamesi"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 106. maddesine göre bakanlıkların kurulması, kaldırılması, görevleri ve yetkileri, teşkilat yapısı ile merkez ve taşra teşkilatlarının kurulması Cumhurbaşkanlığı kararnamesiyle düzenlenir. Bu, 2017 Anayasa değişikliğiyle getirilen Cumhurbaşkanlığı hükûmet sisteminin belirgin sonuçlarından biridir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "106"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Veri Hazırlama ve Kontrol İşletmeni) A Kitapçığı, 2019",
-			"year": 2019,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2020_01/03172311_1._GRUP_VERY_HAZIRLAMA_VE_KONTROL_YYLETMENY_GYS_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"bakanliklar",
-			"cbk"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-dan19v-q004",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yurutme",
-		"difficulty": "kolay",
-		"stem": "T.C. Anayasası'na göre Millî Güvenlik Kurulu aşağıdakilerden hangisinin başkanlığında kurulur?",
-		"options": [
-			"Adalet Bakanı",
-			"Cumhurbaşkanı",
-			"Millî Savunma Bakanı",
-			"Genelkurmay Başkanı"
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 118. maddesine göre Millî Güvenlik Kurulu, Cumhurbaşkanının başkanlığında kurulur ve toplanır. Cumhurbaşkanının katılamadığı zamanlar Kurul, Cumhurbaşkanı yardımcısının başkanlığında toplanır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "118"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Danıştay Görevde Yükselme Sınavı (Veri Hazırlama ve Kontrol İşletmeni) A Kitapçığı, 2019",
-			"year": 2019,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2020_01/03172311_1._GRUP_VERY_HAZIRLAMA_VE_KONTROL_YYLETMENY_GYS_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"mgk"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-sef23-q002",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yurutme",
-		"difficulty": "orta",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre idare ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"İdare, kuruluş ve görevleriyle bir bütündür ve kanunla düzenlenir",
-			"İdari işlemlere karşı açılacak davalarda süre, yazılı bildirim tarihinden başlar",
-			"Hangi yönetmeliklerin Resmî Gazete’de yayımlanacağı kanunda belirtilir",
-			"Kamu tüzelkişiliği sadece kanunla kurulabilir"
-		],
-		"correctIndex": 3,
-		"explanation": "Anayasa'nın 123. maddesine göre kamu tüzelkişiliği KANUNLA VEYA CUMHURBAŞKANLIĞI KARARNAMESİYLE kurulur; sadece kanunla kurulabileceği ifadesi 2017 değişikliğinden sonra yanlıştır. Diğer seçenekler idarenin bütünlüğü (m. 123), idari işlemlere karşı dava süresinin yazılı bildirimden başlaması (m. 125) ve yönetmeliklerin yayımı (m. 124) hükümlerine uygundur.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "123"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"idare",
-			"kamu-tüzelkişiliği",
-			"2017-değişikliği"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-sef23-q008",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yurutme",
-		"difficulty": "kolay",
-		"stem": "“İllerin idaresi (…) esasına dayanır.” 2709 sayılı Türkiye Cumhuriyeti Anayasasına göre yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
-		"options": [
-			"İdari vesayet",
-			"Yerinden yönetim",
-			"Yetki genişliği",
-			"Hizmet yerinden yönetim"
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 126. maddesine göre illerin idaresi yetki genişliği esasına dayanır. Yetki genişliği, merkezî idarenin taşra temsilcisine merkeze danışmadan karar alma yetkisi tanınmasıdır ve yerinden yönetimden farklıdır.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "126"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Şef) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"idare",
-			"yetki-genişliği"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "sytay-yim23-q006",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yurutme",
-		"difficulty": "kolay",
-		"stem": "2709 sayılı Türkiye Cumhuriyeti Anayasasına göre Cumhurbaşkanı yardımcıları ve bakanlar yürütmeye ilişkin yetkilerini kullanmalarından dolayı aşağıdakilerden hangisine karşı sorumludur?",
-		"options": [
-			"TBMM",
-			"Anayasa Mahkemesi",
-			"Cumhurbaşkanı",
-			"Yargıtay"
-		],
-		"correctIndex": 2,
-		"explanation": "Anayasa'nın 106. maddesine göre Cumhurbaşkanı yardımcıları ve bakanlar, yürütme yetkisine ilişkin görevleri kullanmalarından dolayı Cumhurbaşkanına karşı sorumludur.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "106"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Yazı İşleri Müdürü) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"cumhurbaşkanı-yardımcısı",
-			"bakanlar"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-pgm23sm-q024",
-		"subjectId": "anayasa",
-		"topicId": "anayasa/yurutme",
-		"difficulty": "orta",
-		"stem": "T.C. Anayasası’na göre, aşağıdakilerden hangisi Cumhurbaşkanlığı için aday gösteremez?",
-		"options": [
-			"Siyasi parti grupları",
-			"Meclis üye tamsayısının dörtte biri tutarında milletvekili",
-			"En son yapılan genel seçimde toplam geçerli oyların yüzde beşini alan bir siyasi parti",
-			"En son yapılan genel seçimde toplam geçerli oyların birlikte yüzde beşini alan birden fazla siyasi parti",
-			"Yüz bin seçmen"
-		],
-		"correctIndex": 1,
-		"explanation": "Anayasa'nın 101. maddesine göre Cumhurbaşkanlığına; siyasi parti grupları, en son yapılan genel seçimlerde toplam geçerli oyların tek başına veya birlikte en az yüzde beşini almış olan siyasi partiler ile en az yüz bin seçmen aday gösterebilir. Belirli sayıda milletvekilinin aday göstermesi maddede öngörülen bir yol değildir.",
-		"legalRef": {
-			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
-			"lawId": "2709",
-			"article": "101"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — MEB Personel Genel Müdürlüğü Görevde Yükselme Sınavı (Şube Müdürü) A Kitapçığı, 09.07.2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_07/09192314_4_SUBE_MUDURU_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"cumhurbaşkanı-seçimi",
-			"adaylık"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
 	},
 	{
 		"id": "anayasa-yurutme-013",
@@ -810,13 +402,13 @@
 		"difficulty": "kolay",
 		"stem": "Anayasa'nın yargı yolunu düzenleyen maddesine göre idarenin eylem ve işlemlerinden doğan zararlar bakımından aşağıdakilerden hangisi doğrudur?",
 		"options": [
+			"Zararın ödenmesi idarenin takdirindedir.",
 			"Zararı, işlemi tesis eden kamu görevlisi şahsen öder.",
-			"İdare, kendi eylem ve işlemlerinden doğan zararı ödemekle yükümlüdür.",
-			"Zarar yalnızca kusur ispat edilirse ve ancak ceza davası sonuçlandıktan sonra ödenir.",
 			"İdarenin zarardan sorumluluğu ancak kanunda açıkça öngörülen hâllerde doğar.",
-			"Zararın ödenmesi idarenin takdirindedir."
+			"Zarar yalnızca kusur ispat edilirse ve ancak ceza davası sonuçlandıktan sonra ödenir.",
+			"İdare, kendi eylem ve işlemlerinden doğan zararı ödemekle yükümlüdür."
 		],
-		"correctIndex": 1,
+		"correctIndex": 4,
 		"explanation": "Madde 125, idarenin her türlü eylem ve işlemlerine karşı yargı yolunun açık olduğunu belirttikten sonra son fıkrasında idarenin kendi eylem ve işlemlerinden doğan zararı ödemekle yükümlü olduğunu hükme bağlar. Bu, takdire bırakılmış değil anayasal bir yükümlülüktür. Kamu görevlilerinin yetkilerini kullanırken işledikleri kusurlardan doğan tazminat davalarının kendilerine rücu edilmek kaydıyla ancak idare aleyhine açılabileceği ise m.129'da düzenlenmiştir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -834,7 +426,7 @@
 			"yargi-yolu",
 			"idarenin-sorumlulugu"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -844,11 +436,11 @@
 		"difficulty": "kolay",
 		"stem": "Anayasa'ya göre Devletin, kamu iktisadi teşebbüslerinin ve diğer kamu tüzelkişilerinin genel idare esaslarına göre yürütmekle yükümlü oldukları kamu hizmetlerinin gerektirdiği asli ve sürekli görevler kimler eliyle görülür?",
 		"options": [
-			"Yalnızca kadrolu Devlet memurları eliyle",
-			"Memurlar ve diğer kamu görevlileri eliyle",
 			"Memurlar, sözleşmeli personel ve sürekli işçiler eliyle",
-			"Kamu görevlileri ile hizmet satın alınan özel hukuk tüzel kişileri eliyle",
-			"Kanunla belirlenecek her türlü personel eliyle"
+			"Memurlar ve diğer kamu görevlileri eliyle",
+			"Yalnızca kadrolu Devlet memurları eliyle",
+			"Kanunla belirlenecek her türlü personel eliyle",
+			"Kamu görevlileri ile hizmet satın alınan özel hukuk tüzel kişileri eliyle"
 		],
 		"correctIndex": 1,
 		"explanation": "Madde 128'in birinci fıkrasına göre Devletin, kamu iktisadi teşebbüsleri ve diğer kamu tüzelkişilerinin genel idare esaslarına göre yürütmekle yükümlü oldukları kamu hizmetlerinin gerektirdiği asli ve sürekli görevler, memurlar ve diğer kamu görevlileri eliyle görülür. Aynı madde memurların ve diğer kamu görevlilerinin nitelikleri, atanmaları, görev ve yetkileri, hakları ve yükümlülükleri ile aylık ve ödeneklerinin kanunla düzenleneceğini, malî ve sosyal haklara ilişkin toplu sözleşme hükümlerinin ise saklı olduğunu belirtir.",
@@ -868,7 +460,7 @@
 			"kamu-gorevlileri",
 			"asli-surekli-gorev"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -879,8 +471,8 @@
 		"stem": "Anayasa'nın memurların görev ve sorumlulukları ile disiplin kovuşturulmasında güvenceyi düzenleyen maddesine göre aşağıdakilerden hangisi yanlıştır?",
 		"options": [
 			"Savunma hakkı tanınmadıkça disiplin cezası verilemez.",
-			"Disiplin kararları yargı denetimi dışında bırakılamaz.",
 			"Memurların yetkilerini kullanırken işledikleri kusurlardan doğan tazminat davaları ancak idare aleyhine açılabilir.",
+			"Disiplin kararları yargı denetimi dışında bırakılamaz.",
 			"Memurlar hakkında ceza kovuşturması açılması, kanunla belirlenen istisnalar dışında kanunun gösterdiği idari merciin iznine bağlıdır.",
 			"İdare, tazminat ödedikten sonra sorumlu memura hiçbir şekilde rücu edemez."
 		],
@@ -902,7 +494,7 @@
 			"savunma-hakki",
 			"rucu"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -912,13 +504,13 @@
 		"difficulty": "orta",
 		"stem": "Anayasa'ya göre yönetmelik çıkarma yetkisi kimlere aittir ve bu yetki hangi sınır içinde kullanılır?",
 		"options": [
-			"Yalnızca Cumhurbaşkanına aittir ve sınırsızdır.",
 			"Cumhurbaşkanı, bakanlıklar ve kamu tüzelkişilerine aittir; kendi görev alanlarını ilgilendiren kanunların ve Cumhurbaşkanlığı kararnamelerinin uygulanmasını sağlamak üzere ve bunlara aykırı olmamak şartıyla kullanılır.",
-			"Yalnızca bakanlıklara aittir ve ancak kanunun açık izniyle kullanılır.",
 			"Türkiye Büyük Millet Meclisine aittir ve İçtüzükle sınırlıdır.",
-			"Kamu tüzelkişilerine aittir ve Cumhurbaşkanının onayına bağlıdır."
+			"Kamu tüzelkişilerine aittir ve Cumhurbaşkanının onayına bağlıdır.",
+			"Yalnızca Cumhurbaşkanına aittir ve sınırsızdır.",
+			"Yalnızca bakanlıklara aittir ve ancak kanunun açık izniyle kullanılır."
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 124'e göre Cumhurbaşkanı, bakanlıklar ve kamu tüzelkişileri, kendi görev alanlarını ilgilendiren kanunların ve Cumhurbaşkanlığı kararnamelerinin uygulanmasını sağlamak üzere ve bunlara aykırı olmamak şartıyla yönetmelikler çıkarabilirler. Yetki üç makama birden tanınmış olup çıkarılan yönetmelik dayanağı olan kanuna ve kararnameye aykırı olamaz. Hangi yönetmeliklerin Resmî Gazetede yayımlanacağı ise kanunda belirtilir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -935,7 +527,7 @@
 		"tags": [
 			"yonetmelik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -946,12 +538,12 @@
 		"stem": "Anayasa'ya göre bir idari işlem hakkında yürütmenin durdurulmasına karar verilebilmesi için aşağıdakilerden hangisi gereklidir?",
 		"options": [
 			"Telafisi güç veya imkânsız zararların doğması şartının tek başına gerçekleşmesi",
+			"İşlemin yerindelik denetimi sonucunda sakıncalı bulunması",
 			"İdari işlemin açıkça hukuka aykırı olması şartının tek başına gerçekleşmesi",
-			"Telafisi güç veya imkânsız zararların doğması ile işlemin açıkça hukuka aykırı olması şartlarının birlikte gerçekleşmesi ve gerekçe gösterilmesi",
 			"Davacının teminat göstermesi ve idarenin savunmasının alınmış olması",
-			"İşlemin yerindelik denetimi sonucunda sakıncalı bulunması"
+			"Telafisi güç veya imkânsız zararların doğması ile işlemin açıkça hukuka aykırı olması şartlarının birlikte gerçekleşmesi ve gerekçe gösterilmesi"
 		],
-		"correctIndex": 2,
+		"correctIndex": 4,
 		"explanation": "Madde 125'e göre idari işlemin uygulanması hâlinde telafisi güç veya imkânsız zararların doğması ve idari işlemin açıkça hukuka aykırı olması şartlarının birlikte gerçekleşmesi durumunda, gerekçe gösterilerek yürütmenin durdurulmasına karar verilebilir. İki şart birlikte aranır. Aynı madde yargı yetkisinin idari eylem ve işlemlerin hukuka uygunluğunun denetimi ile sınırlı olduğunu, hiçbir surette yerindelik denetimi şeklinde kullanılamayacağını da belirtir; kanun ayrıca olağanüstü hâl, seferberlik ve savaş hâlinde millî güvenlik, kamu düzeni ve genel sağlık nedenleriyle bu kararın verilmesini sınırlayabilir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -968,7 +560,7 @@
 		"tags": [
 			"yurutmenin-durdurulmasi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -979,10 +571,10 @@
 		"stem": "Anayasa'ya göre Radyo ve Televizyon Üst Kurulunun oluşumu bakımından aşağıdakilerden hangisi doğrudur?",
 		"options": [
 			"Dokuz üyeden oluşur ve üyeleri Türkiye Büyük Millet Meclisi Genel Kurulunca seçilir.",
-			"Dokuz üyeden oluşur ve üyeleri Cumhurbaşkanı tarafından atanır.",
 			"On beş üyeden oluşur ve üyelerinin tamamını Cumhurbaşkanı seçer.",
-			"Yedi üyeden oluşur ve üyeleri Anayasa Mahkemesince seçilir.",
-			"On bir üyeden oluşur ve üyeleri Hâkimler ve Savcılar Kurulunca seçilir."
+			"Dokuz üyeden oluşur ve üyeleri Cumhurbaşkanı tarafından atanır.",
+			"On bir üyeden oluşur ve üyeleri Hâkimler ve Savcılar Kurulunca seçilir.",
+			"Yedi üyeden oluşur ve üyeleri Anayasa Mahkemesince seçilir."
 		],
 		"correctIndex": 0,
 		"explanation": "Madde 133'e göre radyo ve televizyon faaliyetlerini düzenlemek ve denetlemek amacıyla kurulan Radyo ve Televizyon Üst Kurulu dokuz üyeden oluşur. Üyeler, siyasi parti gruplarının üye sayısı oranında belirlenecek üye sayısının ikişer katı olarak gösterecekleri adaylar arasından, her siyasi parti grubuna düşen üye sayısı esas alınmak suretiyle Türkiye Büyük Millet Meclisi Genel Kurulunca seçilir. Aynı madde radyo ve televizyon istasyonu kurmanın ve işletmenin kanunla düzenlenecek şartlar çerçevesinde serbest olduğunu da belirtir.",
@@ -1001,7 +593,411 @@
 		"tags": [
 			"rtuk"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
+	},
+	{
+		"id": "anayasa-yurutme-020",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 101. maddesine göre Cumhurbaşkanı seçilen bir milletvekilinin durumu ne olur?",
+		"options": [
+			"Milletvekilliği devam eder; ancak oylamalara katılamaz.",
+			"Milletvekilliği görev süresi boyunca askıya alınır.",
+			"Milletvekilliği sona ermez; yerine yedek üye çağrılır.",
+			"Türkiye Büyük Millet Meclisi üyeliği sona erer.",
+			"Milletvekilliği yalnızca kendi talebi hâlinde sona erer."
+		],
+		"correctIndex": 3,
+		"explanation": "101. maddenin dördüncü fıkrasına göre Cumhurbaşkanı seçilen milletvekilinin Türkiye Büyük Millet Meclisi üyeliği sona erer. 2017 değişikliğiyle Cumhurbaşkanı seçilenin partisiyle ilişiğinin kesilmesine dair kural kaldırılmış, ancak milletvekilliğinin sona ermesi kuralı korunmuştur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "101"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhurbaşkanı-seçimi",
+			"milletvekilliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yurutme-021",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 104. maddesine göre aşağıdakilerden hangisi Cumhurbaşkanının görev ve yetkileri arasında sayılmamıştır?",
+		"options": [
+			"Milletlerarası andlaşmaları onaylamak ve yayımlamak",
+			"Üst kademe kamu yöneticilerini atamak ve görevlerine son vermek",
+			"Kanunları yayımlamak ve tekrar görüşülmek üzere Meclise geri göndermek",
+			"Türkiye Büyük Millet Meclisi seçimlerinin yenilenmesine tek başına karar vermek",
+			"Türk Silahlı Kuvvetlerinin kullanılmasına karar vermek"
+		],
+		"correctIndex": 3,
+		"explanation": "104. madde Cumhurbaşkanının görev ve yetkilerini sayarken seçimlerin yenilenmesine karar vermeyi içermez; bu yetki 116. maddede ayrıca düzenlenmiştir ve kullanıldığında Türkiye Büyük Millet Meclisi ile Cumhurbaşkanlığı seçimleri birlikte yenilenir. Diğer seçenekler 104. maddede açıkça sayılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "104"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhurbaşkanı-yetkileri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yurutme-022",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 104. maddesine göre Cumhurbaşkanı, kişilerin cezalarını hangi sebeplerle hafifletebilir veya kaldırabilir?",
+		"options": [
+			"Kamu yararı ve hizmet gerekleri sebebiyle",
+			"İyi hâl ve pişmanlık sebebiyle",
+			"Cezaevlerinin doluluk oranı sebebiyle",
+			"Sürekli hastalık, sakatlık ve kocama sebebiyle",
+			"Genel af niteliğinde her sebeple"
+		],
+		"correctIndex": 3,
+		"explanation": "104. maddede Cumhurbaşkanının bu yetkisi üç sebeple sınırlıdır: sürekli hastalık, sakatlık ve kocama. Yetki kişiye özgüdür; genel ve özel af ilanına karar verme yetkisi ise 87. madde uyarınca Türkiye Büyük Millet Meclisinin üye tamsayısının beşte üç çoğunluğuna aittir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "104"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhurbaşkanı-yetkileri",
+			"ceza"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yurutme-023",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 106. maddesine göre Cumhurbaşkanlığı makamının herhangi bir nedenle boşalması hâlinde ne olur?",
+		"options": [
+			"Kırk beş gün içinde Cumhurbaşkanı seçimi yapılır; yenisi seçilene kadar Cumhurbaşkanı yardımcısı Cumhurbaşkanlığına vekâlet eder.",
+			"Cumhurbaşkanı yardımcısı kalan süreyi Cumhurbaşkanı sıfatıyla tamamlar.",
+			"Türkiye Büyük Millet Meclisi Başkanı Cumhurbaşkanlığına vekâlet eder ve doksan gün içinde seçim yapılır.",
+			"Otuz gün içinde Türkiye Büyük Millet Meclisi yeni Cumhurbaşkanını seçer.",
+			"Seçim genel seçimlerle birlikte yapılmak üzere ertelenir."
+		],
+		"correctIndex": 0,
+		"explanation": "106. maddenin ikinci fıkrasına göre Cumhurbaşkanlığı makamının herhangi bir nedenle boşalması hâlinde kırk beş gün içinde Cumhurbaşkanı seçimi yapılır; yenisi seçilene kadar Cumhurbaşkanı yardımcısı Cumhurbaşkanlığına vekâlet eder ve Cumhurbaşkanına ait yetkileri kullanır. Genel seçime bir yıl veya daha az kalmışsa Meclis seçimi de Cumhurbaşkanı seçimiyle birlikte yenilenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "106"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhurbaşkanlığının-boşalması"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yurutme-024",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "uzman",
+		"stem": "Anayasa'nın 106. maddesine göre bir bakan hakkında görevleriyle ilgili suç iddiasıyla yürütülen süreçte aranan çoğunluklar aşağıdakilerin hangisinde sırasıyla doğru verilmiştir? (soruşturma önergesi – soruşturma açılması – Yüce Divana sevk)",
+		"options": [
+			"Üye tamsayısının beşte biri – üye tamsayısının salt çoğunluğu – üye tamsayısının beşte üçü",
+			"Üye tamsayısının üçte biri – üye tamsayısının salt çoğunluğu – üye tamsayısının üçte ikisi",
+			"Üye tamsayısının salt çoğunluğu – üye tamsayısının üçte ikisi – üye tamsayısının dörtte üçü",
+			"Üye tamsayısının salt çoğunluğu – üye tamsayısının beşte üçü – üye tamsayısının üçte ikisi",
+			"Toplantıya katılanların salt çoğunluğu – üye tamsayısının salt çoğunluğu – üye tamsayısının beşte üçü"
+		],
+		"correctIndex": 3,
+		"explanation": "106. maddenin beşinci, altıncı ve yedinci fıkralarına göre Cumhurbaşkanı yardımcıları ve bakanlar hakkında soruşturma açılması, üye tamsayısının salt çoğunluğunun vereceği önergeyle istenebilir; Meclis önergeyi en geç bir ay içinde görüşür ve üye tamsayısının beşte üçünün gizli oyuyla soruşturma açılmasına karar verebilir. Genel Kurul görüşmesi sonunda üye tamsayısının üçte ikisinin gizli oyuyla Yüce Divana sevk kararı alınabilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "106"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"meclis-soruşturması",
+			"yüce-divan"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yurutme-025",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 106. maddesine göre bakanlıkların kurulması, kaldırılması, görev ve yetkileri ile teşkilat yapısı neyle düzenlenir?",
+		"options": [
+			"Bakanlar Kurulu kararnamesiyle",
+			"Türkiye Büyük Millet Meclisi kararıyla",
+			"Cumhurbaşkanı kararıyla",
+			"Kanunla",
+			"Cumhurbaşkanlığı kararnamesiyle"
+		],
+		"correctIndex": 4,
+		"explanation": "106. maddenin son fıkrasına göre bakanlıkların kurulması, kaldırılması, görevleri ve yetkileri, teşkilat yapısı ile merkez ve taşra teşkilatlarının kurulması Cumhurbaşkanlığı kararnamesiyle düzenlenir. Bu hüküm, 104. maddedeki 'Anayasada münhasıran kanunla düzenlenmesi öngörülen konularda Cumhurbaşkanlığı kararnamesi çıkarılamaz' kuralının bir istisnası değil, doğrudan Anayasa'nın kararnameye bıraktığı bir alandır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "106"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bakanlıklar",
+			"cbk"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yurutme-026",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 118. maddesine göre Millî Güvenlik Kurulunun oluşumu bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Cumhurbaşkanı yardımcıları Kurulun üyesidir.",
+			"Kurul, Cumhurbaşkanının başkanlığında toplanır.",
+			"Genelkurmay Başkanı ile Kara, Deniz ve Hava kuvvetleri komutanları Kurulun üyesidir.",
+			"Adalet, Millî Savunma, İçişleri ve Dışişleri Bakanları Kurulun üyesidir.",
+			"Kurula Jandarma Genel Komutanı da üye olarak katılır."
+		],
+		"correctIndex": 4,
+		"explanation": "118. maddenin birinci fıkrası 2017 yılında değiştirilmiştir: Millî Güvenlik Kurulu, Cumhurbaşkanının başkanlığında Cumhurbaşkanı yardımcıları, Adalet, Millî Savunma, İçişleri, Dışişleri Bakanları, Genelkurmay Başkanı ile Kara, Deniz ve Hava kuvvetleri komutanlarından kurulur. Jandarma Genel Komutanı aynı değişiklikle madde metninden çıkarılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "118"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mgk",
+			"oluşum"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yurutme-027",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 118. maddesine göre Millî Güvenlik Kurulu kararlarının niteliği bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kurul, millî güvenlik siyasetiyle ilgili tavsiye kararları ve görüşlerini Cumhurbaşkanına bildirir; zorunlu gördüğü tedbirlere ait kararlar Cumhurbaşkanınca değerlendirilir.",
+			"Kurul kararları Türkiye Büyük Millet Meclisinin onayına sunulur.",
+			"Kurul kararları Resmî Gazetede yayımlanarak yürürlüğe girer.",
+			"Kurul kararları yürütme organını bağlayıcıdır.",
+			"Kurul kararlarına karşı idari yargı yoluna başvurulabilir."
+		],
+		"correctIndex": 0,
+		"explanation": "118. maddeye göre Millî Güvenlik Kurulu, Devletin millî güvenlik siyasetinin tayini, tespiti ve uygulanması ile ilgili alınan tavsiye kararları ve gerekli koordinasyonun sağlanması konusundaki görüşlerini Cumhurbaşkanına bildirir; Kurulun zorunlu gördüğü tedbirlere ait kararlar Cumhurbaşkanınca değerlendirilir. 2001 değişikliğiyle 'öncelikle dikkate alınır' ibaresi 'değerlendirilir' hâline getirilerek kararların istişari niteliği pekiştirilmiştir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "118"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mgk",
+			"kararların-niteliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yurutme-028",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 123. maddesine göre kamu tüzelkişiliği nasıl kurulur?",
+		"options": [
+			"İlgili bakanlığın yönetmeliğiyle",
+			"Cumhurbaşkanı kararıyla",
+			"Kanunla veya Cumhurbaşkanlığı kararnamesiyle",
+			"Yalnızca Cumhurbaşkanlığı kararnamesiyle",
+			"Yalnızca kanunla"
+		],
+		"correctIndex": 2,
+		"explanation": "123. maddeye göre idare kuruluş ve görevleriyle bir bütündür ve kanunla düzenlenir; idarenin kuruluş ve görevleri merkezden yönetim ve yerinden yönetim esaslarına dayanır. Maddenin son fıkrası 2017 değişikliğiyle bugünkü hâlini almıştır: kamu tüzelkişiliği kanunla veya Cumhurbaşkanlığı kararnamesiyle kurulur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "123"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"idare",
+			"kamu-tüzelkişiliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yurutme-029",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 126. maddesine göre merkezî idarenin kuruluşu bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"İller yalnızca coğrafya durumuna göre kurulur.",
+			"İllerin idaresi yerinden yönetim esasına dayanır.",
+			"İllerin idaresi idari vesayet esasına dayanır.",
+			"İllerin idaresi yetki genişliği esasına dayanır.",
+			"Birden çok ili içine alan merkezî idare teşkilatı kurulamaz."
+		],
+		"correctIndex": 3,
+		"explanation": "126. maddeye göre Türkiye, merkezî idare kuruluşu bakımından coğrafya durumuna, ekonomik şartlara ve kamu hizmetlerinin gereklerine göre illere; iller de diğer kademeli bölümlere ayrılır ve illerin idaresi yetki genişliği esasına dayanır. Kamu hizmetlerinin görülmesinde verim ve uyum sağlamak amacıyla birden çok ili içine alan merkezî idare teşkilatı kurulabilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "126"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"merkezi-idare",
+			"yetki-genişliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yurutme-030",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 135. maddesine göre kamu kurumu niteliğindeki meslek kuruluşları bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Organları, kendi üyeleri tarafından yargı gözetimi altında gizli oyla seçilir.",
+			"Kanunla kurulan kamu tüzelkişilikleridir.",
+			"Organlarının seçimlerinde siyasi partiler aday gösterebilir.",
+			"Kuruluş amaçları dışında faaliyette bulunamazlar.",
+			"Kamu kurum ve kuruluşlarında asli ve sürekli görevlerde çalışanların bu kuruluşlara girme mecburiyeti aranmaz."
+		],
+		"correctIndex": 2,
+		"explanation": "135. maddenin bir fıkrası açıkça, bu meslek kuruluşları ve üst kuruluşları organlarının seçimlerinde siyasi partilerin aday gösteremeyeceğini düzenler. Diğer seçenekler maddenin tanım, seçim usulü, amaç dışı faaliyet yasağı ve üyelik mecburiyetine ilişkin hükümlerine uygundur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "135"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"meslek-kuruluşları"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yurutme-031",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "uzman",
+		"stem": "Anayasa'nın 137. maddesine göre kanunsuz emir bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Kamu hizmetinde çalışan kimse, üstünden aldığı emri mevzuata aykırı görürse yerine getirmez ve bu aykırılığı emri verene bildirir.",
+			"Konusu suç teşkil eden emir hiçbir suretle yerine getirilmez.",
+			"Üstü emrinde ısrar eder ve emrini yazı ile yenilerse emir yerine getirilir; bu hâlde emri yerine getiren sorumlu olmaz.",
+			"Askerî hizmetlerin görülmesi ve acele hâllerde kamu düzeninin korunması için kanunla gösterilen istisnalar saklıdır.",
+			"Konusu suç teşkil eden emir, yazı ile yenilenmesi hâlinde yerine getirilir ve sorumluluk emri verene ait olur."
+		],
+		"correctIndex": 4,
+		"explanation": "137. maddenin ikinci fıkrası mutlaktır: konusu suç teşkil eden emir hiçbir suretle yerine getirilmez; yerine getiren kimse sorumluluktan kurtulamaz. Yazılı yenileme ile sorumluluğun emri verene geçmesi kuralı yalnızca konusu suç teşkil etmeyen, mevzuata aykırı emirler için geçerlidir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "137"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kanunsuz-emir"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
 	}
 ]

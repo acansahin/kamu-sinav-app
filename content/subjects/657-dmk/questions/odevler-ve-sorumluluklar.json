@@ -6,10 +6,10 @@
 		"difficulty": "kolay",
 		"stem": "Memur, amirinden aldığı emri Anayasa, kanun, tüzük ve yönetmelik hükümlerine aykırı görürse ne yapar?",
 		"options": [
-			"Emri yerine getirir, sonra şikâyet eder.",
+			"Emri yerine getirip yazılı itirazda bulunur.",
 			"Emri yerine getirmez ve bu aykırılığı emri verene bildirir.",
-			"Emri yerine getirmez ve doğrudan savcılığa başvurur.",
-			"Emri yerine getirip yazılı itirazda bulunur."
+			"Emri yerine getirir, sonra şikâyet eder.",
+			"Emri yerine getirmez ve doğrudan savcılığa başvurur."
 		],
 		"correctIndex": 1,
 		"explanation": "Madde 11'e göre Devlet memuru amirinden aldığı emri Anayasa, kanun, tüzük ve yönetmelik hükümlerine aykırı görürse yerine getirmez ve bu aykırılığı o emri verene bildirir. Bildirim doğrudan emri verene yapılır.",
@@ -29,7 +29,7 @@
 			"madde-11",
 			"emir"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -40,11 +40,11 @@
 		"stem": "Konusu suç teşkil eden bir emir karşısında memurun durumu nedir?",
 		"options": [
 			"Emir yazılı olarak yenilenirse yerine getirir.",
-			"Hiçbir surette yerine getirmez; yerine getiren sorumluluktan kurtulamaz.",
 			"Amirin sorumluluğu üstlenmesi hâlinde yerine getirir.",
-			"Disiplin amirinin onayıyla yerine getirir."
+			"Disiplin amirinin onayıyla yerine getirir.",
+			"Hiçbir surette yerine getirmez; yerine getiren sorumluluktan kurtulamaz."
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Madde 11'in son cümlesi mutlaktır: konusu suç teşkil eden emir hiçbir suretle yerine getirilmez, yerine getiren kimse sorumluluktan kurtulamaz. Yazılı yenileme kuralı yalnızca hukuka aykırı ama suç teşkil etmeyen emirler için işler.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -62,7 +62,7 @@
 			"madde-11",
 			"suc-emri"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -73,11 +73,11 @@
 		"stem": "Asli Devlet memurluğuna atanan memur en geç ne kadar süre içinde yemin eder?",
 		"options": [
 			"15 gün",
-			"1 ay",
 			"3 ay",
+			"1 ay",
 			"6 ay"
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Madde 6'ya göre memurlar, asli Devlet memurluğuna atandıktan sonra en geç bir ay içinde kurumlarınca düzenlenecek merasimle yetkili amirlerin huzurunda yemin eder ve Yemin Belgesini imzalar. Belge özlük dosyasına konur.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -95,7 +95,7 @@
 			"yemin",
 			"sure"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -105,12 +105,12 @@
 		"difficulty": "orta",
 		"stem": "Memurun hukuka aykırı gördüğü emri yerine getirme yükümlülüğü hangi durumda doğar?",
 		"options": [
-			"Amir emrinde sözlü olarak ısrar ederse",
 			"Amir emrinde ısrar eder ve emri yazı ile yenilerse",
+			"Amir emrinde sözlü olarak ısrar ederse",
 			"Amir emri bir üst amire onaylatırsa",
 			"Emir mesai saatleri içinde verilirse"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 11'e göre amir emrinde ısrar eder ve bu emrini yazı ile yenilerse memur bu emri yapmaya mecburdur; ancak emrin yerine getirilmesinden doğacak sorumluluk emri verene aittir. Sözlü ısrar bu yükümlülüğü doğurmaz; yazılı olma şartı esaslıdır.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -128,7 +128,7 @@
 			"madde-11",
 			"yazili-emir"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -140,8 +140,8 @@
 		"options": [
 			"Her memur kendi görev alanıyla ilgili demeç verebilir.",
 			"Memurlar bilgi veya demeç veremez; bu yetki bakanın yetkili kılacağı görevlide, illerde validedir.",
-			"Yalnızca yazılı basına demeç verilebilir.",
-			"Amirin sözlü izniyle her memur demeç verebilir."
+			"Amirin sözlü izniyle her memur demeç verebilir.",
+			"Yalnızca yazılı basına demeç verilebilir."
 		],
 		"correctIndex": 1,
 		"explanation": "Madde 15'e göre Devlet memurları kamu görevleri hakkında basına, haber ajanslarına veya radyo ve televizyon kurumlarına bilgi veya demeç veremezler. Bu konuda gerekli bilgi ancak bakanın yetkili kılacağı görevli, illerde ise valiler veya yetkili kılacağı görevli tarafından verilebilir.",
@@ -161,7 +161,7 @@
 			"madde-15",
 			"basin"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -171,12 +171,12 @@
 		"difficulty": "orta",
 		"stem": "Memurların yetkilerini kullanırken kusurlarından doğan ve kişilerin uğradığı zararlarda dava kime karşı açılır?",
 		"options": [
-			"Zarara sebep olan memura karşı",
 			"İlgili kuruma karşı",
 			"Disiplin kuruluna karşı",
+			"Zarara sebep olan memura karşı",
 			"Hem memura hem kuruma karşı birlikte"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 13'e göre kişiler, kamu hukukuna tabi görevlerle ilgili olarak uğradıkları zararlardan dolayı bu görevleri yerine getiren personel aleyhine değil, ilgili kurum aleyhine dava açarlar. Kurum, kusurlu personele sonradan rücu eder.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -194,7 +194,7 @@
 			"madde-13",
 			"sorumluluk"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -204,12 +204,12 @@
 		"difficulty": "zor",
 		"stem": "Amiri, memura hukuka aykırı bir emri yazılı olarak yenilemiştir ve memur emri yerine getirmiştir. Doğacak sorumluluk kime aittir?",
 		"options": [
-			"Emri yerine getiren memura",
-			"Emri verene",
 			"Memur ve amire eşit olarak",
-			"Kuruma"
+			"Kuruma",
+			"Emri verene",
+			"Emri yerine getiren memura"
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Madde 11'e göre amir emrinde ısrar eder ve emrini yazı ile yenilerse memur emri yapmaya mecburdur; ancak emrin yerine getirilmesinden doğacak sorumluluk emri verene aittir. Bu kural, memuru yazılı emir zincirine uymanın sonuçlarından korur — emrin konusu suç teşkil etmiyorsa.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -227,7 +227,7 @@
 			"madde-11",
 			"sorumluluk"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -237,12 +237,12 @@
 		"difficulty": "zor",
 		"stem": "657 sayılı Kanun'un 7. maddesindeki tarafsızlık ve Devlete bağlılık ödevi kapsamında aşağıdakilerden hangisi yasaktır?",
 		"options": [
-			"Sendikaya üye olmak",
 			"Siyasi partiye üye olmak",
+			"Sendikaya üye olmak",
 			"Mesleki dernek kurmak",
 			"Kamuya açık bir konferansa dinleyici olarak katılmak"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 7'ye göre Devlet memurları siyasi partiye üye olamazlar ve herhangi bir siyasi parti, kişi veya zümrenin yararını veya zararını hedef tutan davranışta bulunamazlar. Buna karşılık sendika kurma ve üye olma hakkı madde 22 ile tanınmıştır; siyasi parti üyeliği ile sendika üyeliği karıştırılmamalıdır.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -260,7 +260,7 @@
 			"madde-7",
 			"tuzak"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -270,12 +270,12 @@
 		"difficulty": "zor",
 		"stem": "Kendisine teslim edilen Devlet malını kusuru nedeniyle kaybeden memur zararı nasıl öder?",
 		"options": [
-			"Malın alış bedeli üzerinden",
 			"Rayiç bedel üzerinden",
+			"Malın alış bedeli üzerinden",
 			"Zarar tutarının yarısı kadar",
 			"Ödemez; zarar kurum bütçesinden karşılanır"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Madde 12'ye göre Devlet memuru, görevini dikkat ve itina ile yerine getirmek ve kendisine teslim edilen Devlet malını korumak ve her an hizmete hazır hâlde bulundurmak zorundadır. Kusuru sonucu doğan zararlar rayiç bedel üzerinden ödettirilir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -293,7 +293,7 @@
 			"madde-12",
 			"zarar"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -304,11 +304,11 @@
 		"stem": "Bir amir, memurundan resmî evrakta sahtecilik yapmasını istemiş, memur itiraz edince emri yazılı olarak yenilemiştir. Memur ne yapmalıdır?",
 		"options": [
 			"Emir yazılı olarak yenilendiği için yerine getirmeli; sorumluluk amire aittir.",
-			"Emri hiçbir surette yerine getirmemelidir; konusu suç teşkil eden emirde yazılı yenileme kuralı işlemez.",
+			"Bir üst amirin onayını alarak yerine getirmelidir.",
 			"Emri yerine getirip durumu sonradan bildirmelidir.",
-			"Bir üst amirin onayını alarak yerine getirmelidir."
+			"Emri hiçbir surette yerine getirmemelidir; konusu suç teşkil eden emirde yazılı yenileme kuralı işlemez."
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Resmî evrakta sahtecilik suç teşkil eder. Madde 11'in son cümlesine göre konusu suç teşkil eden emir hiçbir suretle yerine getirilmez ve yerine getiren kimse sorumluluktan kurtulamaz. Emrin yazılı olarak yenilenmiş olması bu mutlak kuralı değiştirmez; yazılı yenileme yalnızca suç teşkil etmeyen hukuka aykırı emirler için sorumluluğu amire geçirir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -327,7 +327,7 @@
 			"senaryo",
 			"tuzak"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -337,9 +337,9 @@
 		"difficulty": "uzman",
 		"stem": "Bir memur, kurumunun yürüttüğü bir proje hakkında yerel bir televizyon kanalına kendi inisiyatifiyle demeç vermiştir. Bu davranış için ne söylenebilir?",
 		"options": [
-			"Serbesttir; memur görev alanıyla ilgili konularda bilgi verebilir.",
-			"657 sayılı Kanun'un 15. maddesine aykırıdır; bu yetki bakanın yetkili kıldığı görevliye, illerde valiye aittir.",
 			"Yalnızca yazılı basına demeç verilmesi hâlinde aykırılık doğar.",
+			"657 sayılı Kanun'un 15. maddesine aykırıdır; bu yetki bakanın yetkili kıldığı görevliye, illerde valiye aittir.",
+			"Serbesttir; memur görev alanıyla ilgili konularda bilgi verebilir.",
 			"Amirinin sözlü izni varsa hukuka uygundur."
 		],
 		"correctIndex": 1,
@@ -360,7 +360,7 @@
 			"madde-15",
 			"senaryo"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -370,12 +370,12 @@
 		"difficulty": "uzman",
 		"stem": "Memurların ödev ve sorumluluklarına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
-			"Memur, hukuka aykırı gördüğü bir emri ilk aşamada yerine getirmez ve aykırılığı emri verene bildirir.",
-			"Memurlar görevleriyle ilgili resmî belge, araç ve gereçleri yetki verilen mahaller dışına çıkaramaz.",
 			"Konusu suç teşkil eden emri yerine getiren memur, emri verenin yazılı talimatı varsa sorumluluktan kurtulur.",
-			"Memurlar görevlerini yerine getirirken dil, ırk, cinsiyet, din ve mezhep gibi ayırım yapamazlar."
+			"Memurlar görevlerini yerine getirirken dil, ırk, cinsiyet, din ve mezhep gibi ayırım yapamazlar.",
+			"Memurlar görevleriyle ilgili resmî belge, araç ve gereçleri yetki verilen mahaller dışına çıkaramaz.",
+			"Memur, hukuka aykırı gördüğü bir emri ilk aşamada yerine getirmez ve aykırılığı emri verene bildirir."
 		],
-		"correctIndex": 2,
+		"correctIndex": 0,
 		"explanation": "Madde 11'e göre konusu suç teşkil eden emri yerine getiren kimse sorumluluktan kurtulamaz; emrin yazılı olması bu sonucu değiştirmez. Diğer üç ifade sırasıyla madde 11, madde 16 ve madde 7 hükümleriyle uyumludur.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -393,242 +393,8 @@
 			"tuzak",
 			"madde-11"
 		],
-		"version": 2,
+		"version": 3,
 		"updatedAt": "2026-07-22"
-	},
-	{
-		"id": "sytay-gys23-q067",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/odevler-ve-sorumluluklar",
-		"difficulty": "orta",
-		"stem": "“Devlet memurları, resmi sıfatlarının gerektirdiği itibar ve güvene layık olduklarını hizmet içindeki ve dışındaki davranışlarıyla göstermek zorundadırlar.” 657 sayılı Devlet Memurları Kanununda yer alan yukarıdaki ifade, Devlet memurlarının ödev ve sorumluluklarından hangisinin tanımı kapsamındadır?",
-		"options": [
-			"Sadakat",
-			"Tarafsızlık ve Devlete bağlılık",
-			"Liyakat",
-			"Davranış ve işbirliği"
-		],
-		"correctIndex": 3,
-		"explanation": "657 sayılı Kanun'un 8. maddesi 'Davranış ve işbirliği' başlığını taşır ve memurların resmi sıfatlarının gerektirdiği itibar ve güvene layık olduklarını hizmet içi ve dışı davranışlarıyla göstermek zorunda olduklarını düzenler.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "8"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "T.C. Sayıştay Başkanlığı Görevde Yükselme Yazılı Sınavı (Memur) A Kitapçığı, 27.09.2023",
-			"year": 2023,
-			"url": "https://www.sayistay.gov.tr/duyuru/596-gorevde-yukselme-yazili-sinav-sorulari-ve",
-			"license": "public-official"
-		},
-		"status": "published",
-		"tags": [
-			"davranis-ve-isbirligi"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-25"
-	},
-	{
-		"id": "meb-ic21ud-q010",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/odevler-ve-sorumluluklar",
-		"difficulty": "orta",
-		"stem": "657 sayılı Devlet Memurları Kanunu'na göre Devlet memurlarının, görevlerini yerine getirirlerken hiçbir şekilde siyasi ve ideolojik amaçlı beyanda ve eylemde bulunamamaları aşağıdakilerden hangisi ile ilgilidir?",
-		"options": [
-			"Sadakat",
-			"Davranış ve iş birliği",
-			"Kişisel sorumluluk ve zarar",
-			"Tarafsızlık ve Devlete bağlılık"
-		],
-		"correctIndex": 3,
-		"explanation": "657 sayılı Kanun'un 7. maddesi 'Tarafsızlık ve Devlete bağlılık' başlığını taşır ve Devlet memurlarının görevlerini yerine getirirken hiçbir şekilde siyasi ve ideolojik amaçlı beyanda ve eylemde bulunamayacaklarını, bu eylemlere katılamayacaklarını hükme bağlar.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "7"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — İçişleri Bakanlığı Unvan Değişikliği Sınavı (İnşaat Mühendisi) A Kitapçığı, 2021",
-			"year": 2021,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2021_11/15171334_4_YNYAAT_MUHENDYSY_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"tarafsizlik"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl23-q023",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/odevler-ve-sorumluluklar",
-		"difficulty": "orta",
-		"stem": "657 sayılı Devlet Memurları Kanunu'na göre, Devlet memurlarının \"ödevler ve sorumlulukları\" ile ilgili aşağıdakilerden hangisi yanlıştır?",
-		"options": [
-			"Devlet memurları siyasi partilere üye olamazlar.",
-			"Devlet memurları derneklere üye olamazlar.",
-			"Devlet memurunun kasıt, kusur, ihmal veya tedbirsizliği sonucu idare zarara uğratılmışsa, bu zararın ilgili memur tarafından rayiç bedeli üzerinden ödenmesi esastır.",
-			"Devlet memurları, kamu görevleri hakkında basına, haber ajanslarına veya radyo ve televizyon kurumlarına bilgi veya demeç veremezler. Bu konuda gerekli bilgi ancak bakanın yetkili kılacağı görevli, illerde valiler veya yetkili kılacağı görevli tarafından verilebilir.",
-			"Kişiler kamu hukukuna tabi görevlerle ilgili olarak uğradıkları zararlardan dolayı bu görevleri yerine getiren personel aleyhine değil, ilgili kurum aleyhine dava açarlar."
-		],
-		"correctIndex": 1,
-		"explanation": "657 sayılı Kanun'un ödevler ve sorumluluklara ilişkin hükümlerinde Devlet memurlarının derneklere üye olmasını yasaklayan bir kural yoktur; dernek kurma ve üye olma Anayasa'nın 33. maddesiyle güvence altına alınmıştır. Siyasi partilere üye olma yasağı, kişisel sorumluluk ve zarar, basına bilgi ve demeç verme yasağı ile kişilerin uğradığı zararlarda kurum aleyhine dava açılması ise bu bölümün hükümleridir.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "6-16"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"odevler",
-			"dernek"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-adl25-q018",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/odevler-ve-sorumluluklar",
-		"difficulty": "kolay",
-		"stem": "657 sayılı Devlet Memurları Kanunu'na göre, aşağıdakilerden hangisi Devlet memurunun ödev ve sorumluluklarındandır?",
-		"options": [
-			"Davranış ve iş birliği",
-			"Müracaat, şikâyet ve dava açma",
-			"Sendika kurma",
-			"Güvenlik",
-			"Çekilme"
-		],
-		"correctIndex": 0,
-		"explanation": "657 sayılı Kanun'un 8. maddesi 'Davranış ve iş birliği' başlığıyla Devlet memurlarının ödev ve sorumlulukları arasında yer alır. Müracaat ve dava açma, sendika kurma, güvenlik ve çekilme ise ödev değil, Kanun'un genel haklar bölümünde düzenlenen haklardır.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "8"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2025",
-			"year": 2025,
-			"url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2025/11/adalet/gorev/10_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"odevler"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-tmo15-q002",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/odevler-ve-sorumluluklar",
-		"difficulty": "orta",
-		"stem": "657 sayılı Devlet Memurları Kanunu'na göre aşağıdakilerden hangisi amir durumda olan devlet memurlarının görev ve sorumluluklarından biri değildir?",
-		"options": [
-			"Amir, maiyetindeki memurlara kanunlara aykırı emir veremez.",
-			"Amir, maiyetindeki memurlara hakkaniyet ve eşitlik içinde davranır.",
-			"Amirlik yetkisini, yönetici ve liderlik özelliğine dayalı olarak kullanır.",
-			"Amir maiyetindeki memurdan hususi bir menfaat temin edecek bir talepte bulunamaz."
-		],
-		"correctIndex": 2,
-		"explanation": "657 sayılı Kanun'un 10. maddesine göre amir, maiyetindeki memurlara hakkaniyet ve eşitlik içinde davranır, kanunlara aykırı emir veremez ve maiyetindekilerden hususi bir menfaat temin edecek talepte bulunamaz. Amirlik yetkisi kanun, tüzük ve yönetmeliklerde belirtilen esaslar içinde kullanılır; yetkinin yönetici ve liderlik özelliğine dayandırılması maddede yer almaz.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "10"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Toprak Mahsulleri Ofisi Görevde Yükselme Sınavı (Şef/Personel) A Kitapçığı, 2015",
-			"year": 2015,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2015_06/04014638_10_sefpersonel.a.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"amir-sorumlulugu"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-cte19idm-q080",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/odevler-ve-sorumluluklar",
-		"difficulty": "kolay",
-		"stem": "657 sayılı Devlet Memurları Kanunu’na göre “Devlet memurları siyasi partiye üye olamazlar, herhangi bir siyasi parti, kişi veya zümrenin yararını veya zararını hedef tutan bir davranışta bulunamazlar.” ifadesi aşağıdaki ödev ve sorumluluklardan hangisiyle ilgilidir?",
-		"options": [
-			"Tarafsızlık ve devlete bağlılık",
-			"Kişisel sorumluluk ve zarar",
-			"Davranış ve iş birliği",
-			"Sadakat"
-		],
-		"correctIndex": 0,
-		"explanation": "657 sayılı Kanun'un 7. maddesi 'Tarafsızlık ve devlete bağlılık' başlığını taşır ve Devlet memurlarının siyasi partiye üye olamayacağını, herhangi bir siyasi parti, kişi veya zümrenin yararını veya zararını hedef tutan bir davranışta bulunamayacaklarını düzenler.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "7"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İdare Memuru) A Kitapçığı, 26.03.2019",
-			"year": 2019,
-			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26171802_3_GRUP_IDARE_MEMURU_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"tarafsızlık"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
-	},
-	{
-		"id": "meb-cte19ikb-q087",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/odevler-ve-sorumluluklar",
-		"difficulty": "orta",
-		"stem": "I. Devlet memurları amiri oldukları kuruluş ve hizmet birimlerinde kanun ve diğer mevzuatla belirlenen görevleri zamanında ve eksiksiz olarak yapmaktan ve yaptırmaktan, maiyetindeki memurlarını yetiştirmekten, hâl ve hareketlerini takip ve kontrol etmekten görevli sorumludurlar. II. Amir, maiyetindeki memurlara kanunlara ve Cumhurbaşkanlığı kararnamelerine aykırı emir veremez ve maiyetindeki memurdan hususi bir menfaat temin edecek bir talepte bulunamaz, hediyesini kabul edemez ve borç alamaz. III. Amir, maiyetindeki memurlara hakkaniyet ve eşitlik içinde davranır. Amirlik yetkisini kanun ve diğer mevzuatta belirtilen esaslar içinde kullanır. 657 sayılı Devlet Memurları Kanunu’na göre amir durumda olan devlet memurlarının görev ve sorumlulukları ile ilgili yukarıdakilerden hangileri doğrudur?",
-		"options": [
-			"Yalnız I ve II.",
-			"Yalnız I ve III.",
-			"Yalnız II ve III.",
-			"I, II ve III."
-		],
-		"correctIndex": 3,
-		"explanation": "657 sayılı Kanun'un 10. maddesi amir durumunda olan Devlet memurlarının görev ve sorumluluklarını düzenler ve üç ifadenin tamamını içerir: amirler görevleri zamanında ve eksiksiz yapmak ve yaptırmaktan, maiyetindeki memurları yetiştirmekten sorumludur; amir kanunlara ve Cumhurbaşkanlığı kararnamelerine aykırı emir veremez, maiyetindekinden menfaat temin edecek talepte bulunamaz, hediyesini kabul edemez ve borç alamaz; amir maiyetindekilere hakkaniyet ve eşitlik içinde davranır.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "10"
-		},
-		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB — Adalet Bakanlığı CTE Görevde Yükselme Sınavı (İnfaz ve Koruma Başmemuru) A Kitapçığı, 26.03.2019",
-			"year": 2019,
-			"url": "https://www.meb.gov.tr/meb_iys_dosyalar/2019_03/26173331_6_GRUP_INFAZ_KORUMA_BAS_MEMURLUGU_A.pdf",
-			"license": "public-official"
-		},
-		"status": "review",
-		"tags": [
-			"amir-sorumluluğu"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-26"
 	},
 	{
 		"id": "657-odev-013",
@@ -637,13 +403,13 @@
 		"difficulty": "kolay",
 		"stem": "Görevi sona eren bir Devlet memuruna görevi icabı teslim edilmiş olan resmî belge, araç ve gereçlerin iadesi konusunda 657 sayılı Kanun aşağıdakilerden hangisini öngörür?",
 		"options": [
-			"İade yükümlülüğü yalnızca memurun kendisine aittir, mirasçılarına geçmez.",
-			"İade yükümlülüğü memurun mirasçılarına da şamildir.",
-			"İade yükümlülüğü emekliye ayrılan memurlar bakımından uygulanmaz.",
 			"İade yükümlülüğü yalnızca resmî araç ve gereçler için geçerlidir, belgeleri kapsamaz.",
-			"İade yükümlülüğü disiplin cezasıyla görevine son verilen memurlar bakımından ortadan kalkar."
+			"İade yükümlülüğü yalnızca memurun kendisine aittir, mirasçılarına geçmez.",
+			"İade yükümlülüğü disiplin cezasıyla görevine son verilen memurlar bakımından ortadan kalkar.",
+			"İade yükümlülüğü memurun mirasçılarına da şamildir.",
+			"İade yükümlülüğü emekliye ayrılan memurlar bakımından uygulanmaz."
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Madde 16'ya göre Devlet memurları görevleri icabı kendilerine teslim edilen resmî belge, araç ve gereçleri görevleri sona erdiği zaman iade etmek zorundadır ve bu zorunluluk memurun mirasçılarına da şamildir. Madde belge ile araç ve gereçler arasında ayrım yapmadığı gibi, emeklilik veya görevine son verilme yükümlülüğü kaldıran bir istisna olarak sayılmamıştır. Aynı madde bu belge, araç ve gereçlerin yetki verilen mahaller dışına çıkarılmasını ve hususi işlerde kullanılmasını da yasaklar.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -661,7 +427,7 @@
 			"resmi-belge",
 			"iade"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -672,12 +438,12 @@
 		"stem": "657 sayılı Kanun'un mal bildirimini düzenleyen maddesine göre memurun vereceği mal bildirimi aşağıdakilerden hangisini kapsamaz?",
 		"options": [
 			"Kendisine ait taşınmaz malları",
-			"Eşine ait taşınır malları",
-			"Velayeti altındaki çocuklarına ait taşınmaz malları",
+			"Reşit olduğu için velayeti altında bulunmayan çocuğuna ait taşınmaz malları",
 			"Kendisine ait alacak ve borçları",
-			"Reşit olduğu için velayeti altında bulunmayan çocuğuna ait taşınmaz malları"
+			"Velayeti altındaki çocuklarına ait taşınmaz malları",
+			"Eşine ait taşınır malları"
 		],
-		"correctIndex": 4,
+		"correctIndex": 1,
 		"explanation": "Madde 14, mal bildiriminin kapsamını memurun kendisi, eşi ve velayeti altındaki çocuklarına ait taşınır ve taşınmaz mallar ile alacak ve borçlar olarak belirler. Reşit olduğu için velayet altında bulunmayan çocuğun malvarlığı bu kapsama girmez. Maddenin atıf yaptığı özel kanun, bildirimin usul ve zamanını düzenleyen 3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu'dur.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -694,7 +460,7 @@
 		"tags": [
 			"mal-bildirimi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -704,13 +470,13 @@
 		"difficulty": "orta",
 		"stem": "657 sayılı Kanun'un yurt dışında davranış ödevini düzenleyen hükmü, yabancı memleketlerde bulunan memurlardan hangileri bakımından uygulanır?",
 		"options": [
+			"Yalnızca yetişme, inceleme ve araştırma için bulunanlar",
+			"Yalnızca yurt dışı teşkilatı kadrolarına atanmış olanlar",
 			"Yalnızca sürekli görevle bulunanlar",
 			"Yalnızca sürekli veya geçici görevle bulunanlar",
-			"Sürekli veya geçici görevle ya da yetişme, inceleme ve araştırma için bulunanlar",
-			"Yalnızca yetişme, inceleme ve araştırma için bulunanlar",
-			"Yalnızca yurt dışı teşkilatı kadrolarına atanmış olanlar"
+			"Sürekli veya geçici görevle ya da yetişme, inceleme ve araştırma için bulunanlar"
 		],
-		"correctIndex": 2,
+		"correctIndex": 4,
 		"explanation": "Madde 9, Devlet itibarını veya görev haysiyetini zedeleyici fiil ve davranışta bulunma yasağını görevle yurt dışında bulunanlarla sınırlamamış; yetişme, inceleme ve araştırma için yabancı memleketlerde bulunanları da kapsama almıştır. Bu nedenle ödev, sürekli görev veya yurt dışı teşkilatı kadrosuna atanmış olma şartına bağlı değildir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -728,7 +494,7 @@
 			"yurt-disi",
 			"davranis"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -738,11 +504,11 @@
 		"difficulty": "zor",
 		"stem": "İdareyi zarara uğratan bir memurun bu zararı, genel hükümlere göre dava açılmaksızın disiplin amiri veya yetkili disiplin kurulu kararına göre ödeyebilmesi için 657 sayılı Kanun'da aranan üst sınır nedir?",
 		"options": [
-			"Zararın, en yüksek Devlet memuru aylığının brüt tutarını geçmemesi",
-			"Zararın, fiilin meydana geldiği tarihte en alt derecenin birinci kademesindeki memurun brüt aylığının yarısını geçmemesi",
 			"Zararın, zarara sebep olan memurun kendi brüt aylığının tamamını geçmemesi",
-			"Zararın, zarara sebep olan memurun net aylığının üçte birini geçmemesi",
-			"Zararın, ödeme tarihindeki asgari ücretin iki katını geçmemesi"
+			"Zararın, fiilin meydana geldiği tarihte en alt derecenin birinci kademesindeki memurun brüt aylığının yarısını geçmemesi",
+			"Zararın, en yüksek Devlet memuru aylığının brüt tutarını geçmemesi",
+			"Zararın, ödeme tarihindeki asgari ücretin iki katını geçmemesi",
+			"Zararın, zarara sebep olan memurun net aylığının üçte birini geçmemesi"
 		],
 		"correctIndex": 1,
 		"explanation": "Madde 12'nin son fıkrasına göre zararların ödettirilmesinde kural olarak genel hükümler uygulanır; ancak fiilin meydana geldiği tarihte en alt derecenin birinci kademesinde bulunan memurun brüt aylığının yarısını geçmeyen zararlar, memurun kabul etmesi hâlinde disiplin amiri veya yetkili disiplin kurulu kararına göre ilgili memurca ödenir. Ölçüt zarara sebep olan memurun kendi aylığı değil, en alt derecenin birinci kademesindeki memurun brüt aylığıdır; ayrıca memurun kabulü de şarttır.",
@@ -762,7 +528,7 @@
 			"zarar",
 			"odeme-siniri"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -772,11 +538,11 @@
 		"difficulty": "uzman",
 		"stem": "Bir Devlet dairesince tahsil edilen paranın görevli personel tarafından zimmete geçirilmesi hâlinde 657 sayılı Kanun'a göre nasıl bir yol izlenir?",
 		"options": [
-			"Hak sahibi zararını ancak ceza davası kesinleştikten sonra kurumdan talep edebilir.",
-			"Hak sahibi tazminat davasını doğrudan zimmete geçiren personel aleyhine açar.",
-			"Zimmete geçirilen miktar cezai takibat sonucu beklenmeden Hazine tarafından hak sahibine ödenir; kurumun sorumlu personele rücu hakkı saklıdır.",
 			"Zarar, en alt derecenin birinci kademesindeki memurun brüt aylığının yarısını geçmiyorsa disiplin amiri kararıyla ödettirilir.",
-			"Ödeme yalnızca ilgili kurumun bütçesinden yapılır ve sorumlu personele rücu edilemez."
+			"Hak sahibi zararını ancak ceza davası kesinleştikten sonra kurumdan talep edebilir.",
+			"Zimmete geçirilen miktar cezai takibat sonucu beklenmeden Hazine tarafından hak sahibine ödenir; kurumun sorumlu personele rücu hakkı saklıdır.",
+			"Ödeme yalnızca ilgili kurumun bütçesinden yapılır ve sorumlu personele rücu edilemez.",
+			"Hak sahibi tazminat davasını doğrudan zimmete geçiren personel aleyhine açar."
 		],
 		"correctIndex": 2,
 		"explanation": "Madde 13 kural olarak kişilerin kamu hukukuna tabi görevlerle ilgili uğradıkları zararlar için personel aleyhine değil ilgili kurum aleyhine dava açmasını öngörür. Aynı fıkradaki istisnaya göre, Devlet dairelerine tevdi edilen veya bu dairelerce tahsil ya da muhafaza edilen para ve para hükmündeki değerli kâğıtların zimmete geçirilmesi hâlinde bu miktar cezai takibat sonucu beklenmeden Hazine tarafından hak sahibine ödenir ve kurumun genel hükümlere göre sorumlu personele rücu hakkı saklı kalır. Disiplin amiri kararıyla ödeme usulü ise m.12'deki idare zararlarına ilişkindir.",
@@ -796,7 +562,7 @@
 			"zimmet",
 			"rucu"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-28"
 	},
 	{
@@ -831,6 +597,241 @@
 			"madde-14",
 			"mal-bildirimi",
 			"3628"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-odev-019",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un Ödevler ve Sorumluluklar bölümüne göre aşağıdakilerden hangisi memurun bir ödevi olarak düzenlenmemiştir?",
+		"options": [
+			"Hizmet içindeki ve dışındaki davranışlarıyla resmî sıfatının gerektirdiği itibar ve güvene layık olduğunu göstermek",
+			"Kurumunun belirlediği siyasi görüşü savunmak",
+			"Görevi sona erdiğinde kendisine teslim edilen resmî belge, araç ve gereçleri iade etmek",
+			"Yabancı memleketlerde bulunduğunda Devlet itibarını veya görev haysiyetini zedeleyici davranışlardan kaçınmak",
+			"Türkiye Cumhuriyeti Anayasasına ve kanunlarına sadakatle bağlı kalmak"
+		],
+		"correctIndex": 1,
+		"explanation": "Ödevler ve sorumluluklar 6 ilâ 16. maddelerde düzenlenmiştir: sadakat (m.6), tarafsızlık ve Devlete bağlılık (m.7), davranış ve iş birliği (m.8), yurt dışında davranış (m.9), amirlerin ve memurların görev ve sorumlulukları (m.10-11), kişisel sorumluluk ve zarar (m.12), mal bildirimi (m.14), basına bilgi verme yasağı (m.15), resmî belge ve araçların iadesi (m.16). Buna karşılık 7. madde memurların siyasi partiye üye olmasını ve siyasi amaçlı beyanda bulunmasını yasaklar; bir siyasi görüşü savunmak ödev değil, yasaktır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ödevler",
+			"sadakat"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-odev-020",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 7. maddesindeki tarafsızlık ve Devlete bağlılık ödevine göre aşağıdakilerden hangisi memurlar bakımından serbesttir?",
+		"options": [
+			"Anayasa ve kanunlara uygun bir derneğe üye olmak",
+			"Bir zümrenin yararını veya zararını hedef tutan davranışta bulunmak",
+			"Görevini yerine getirirken siyasi düşünce ayrımı yapmak",
+			"Siyasi partiye üye olmak",
+			"Siyasi ve ideolojik amaçlı beyanda bulunmak"
+		],
+		"correctIndex": 0,
+		"explanation": "7. madde memurların siyasi partiye üye olmasını, herhangi bir siyasi parti, kişi veya zümrenin yararını ya da zararını hedef tutan davranışta bulunmasını, görevlerini yerine getirirken dil, ırk, cinsiyet, siyasi düşünce, felsefi inanç, din ve mezhep gibi ayrım yapmasını ve siyasi ile ideolojik amaçlı beyan ve eylemde bulunmasını yasaklar. Yasak, Anayasa ve kanunlara aykırı nitelikte olmayan derneklere üye olmayı kapsamaz; maddenin ikinci fıkrasındaki yasak, Türkiye Cumhuriyeti'nin güvenliğini tehlikeye düşüren nitelikteki oluşumlara ilişkindir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tarafsızlık"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-odev-021",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "uzman",
+		"stem": "Bir memur, mesai saatleri dışında düzenlenen bir toplantıda görev yaptığı kurumun politikalarını belirli bir siyasi partinin görüşü doğrultusunda savunan bir konuşma yapmıştır. 657 sayılı Kanun'un 7. maddesi bakımından bu davranış için aşağıdakilerden hangisi söylenebilir?",
+		"options": [
+			"Memur siyasi partiye üye değilse maddeye aykırılık oluşmaz.",
+			"Aykırılık ancak konuşmanın basında yayımlanması hâlinde doğar.",
+			"Siyasi amaçlı beyanda bulunma yasağı mesai saatiyle sınırlı olmadığından davranış maddeye aykırıdır.",
+			"Mesai saatleri dışında yapıldığı için maddeye aykırılık oluşturmaz.",
+			"Konuşma kurumun politikalarını desteklediğinden aykırılık oluşmaz."
+		],
+		"correctIndex": 2,
+		"explanation": "7. madde memurların hiçbir şekilde siyasi ve ideolojik amaçlı beyanda ve eylemde bulunamayacaklarını, bu eylemlere katılamayacaklarını düzenler. 'Hiçbir şekilde' ifadesi yasağı mesai saatiyle, parti üyeliğiyle veya beyanın yayımlanmasıyla sınırlamaz; ödev hizmet içinde ve dışında geçerlidir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tarafsızlık",
+			"senaryo"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-odev-022",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 8. maddesine göre Devlet memurlarının çalışma biçimi bakımından aşağıdakilerden hangisi esastır?",
+		"options": [
+			"Performans hedefine göre bireysel çalışmaları",
+			"İş birliği içinde çalışmaları",
+			"Birbirinden bağımsız çalışmaları",
+			"Sendikal örgütlenme içinde çalışmaları",
+			"Yalnızca amirlerinin yazılı talimatıyla çalışmaları"
+		],
+		"correctIndex": 1,
+		"explanation": "8. madde iki cümleden oluşur: Devlet memurları resmî sıfatlarının gerektirdiği itibar ve güvene layık olduklarını hizmet içindeki ve dışındaki davranışlarıyla göstermek zorundadır ve Devlet memurlarının iş birliği içinde çalışmaları esastır. Nitekim görevin iş birliği içinde yapılması ilkesine aykırı davranış 125. maddede uyarma cezasını gerektiren fiiller arasında sayılmıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "8"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iş-birliği"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-odev-023",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 10. maddesine göre amir durumunda olan Devlet memurları bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Amir, maiyetindeki memurları yetiştirmekten, hâl ve hareketlerini takip ve kontrol etmekten görevli ve sorumludur.",
+			"Amir, amiri olduğu birimlerde mevzuatla belirlenen görevleri zamanında ve eksiksiz yapmaktan ve yaptırmaktan sorumludur.",
+			"Amir, hizmetin gereği hâlinde maiyetindeki memurdan hususi bir menfaat temin edecek talepte bulunabilir.",
+			"Amir, maiyetindeki memurlara hakkaniyet ve eşitlik içinde davranır.",
+			"Amir, maiyetindeki memurlara kanunlara ve Cumhurbaşkanlığı kararnamelerine aykırı emir veremez."
+		],
+		"correctIndex": 2,
+		"explanation": "10. maddenin son fıkrası amir bakımından üç ayrı yasak koyar: maiyetindeki memurdan hususi bir menfaat temin edecek talepte bulunamaz, hediyesini kabul edemez ve ondan borç alamaz. Bu yasaklar hizmet gereğiyle yumuşatılamaz. Diğer seçenekler maddenin birinci ve ikinci fıkralarındaki görev ve yükümlülüklere uygundur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"amir-sorumluluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-odev-024",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "uzman",
+		"stem": "Bir birim amiri, maiyetindeki memurdan kişisel ihtiyacı için borç para istemiş; memur da bu talebi karşılamıştır. 657 sayılı Kanun'un 10. maddesi bakımından bu durum için aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Borcun kısa sürede ödenmesi hâlinde aykırılık ortadan kalkar.",
+			"Memur rızasıyla verdiği için maddeye aykırılık oluşmaz.",
+			"Aykırılık ancak amirin memura menfaat sağlaması hâlinde doğar.",
+			"Amir, maiyetindeki memurdan borç alamayacağından davranış maddeye aykırıdır.",
+			"Yasak yalnızca hediye kabul etmeye ilişkin olduğundan borç almak serbesttir."
+		],
+		"correctIndex": 3,
+		"explanation": "10. maddenin son fıkrası amirin maiyetindeki memurdan hususi bir menfaat temin edecek talepte bulunmasını, hediyesini kabul etmesini ve ondan borç almasını ayrı ayrı yasaklar. Memurun rızası bu yasağı kaldırmaz; yasağın amacı amir–memur ilişkisindeki bağımlılığın kişisel çıkar için kullanılmasını önlemektir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"amir-sorumluluğu",
+			"senaryo"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-odev-025",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "uzman",
+		"stem": "Bir Devlet memuru, mesai dışında katıldığı bir etkinlikte kamuoyunda görev yaptığı kurumun itibarını zedeleyecek nitelikte davranışlarda bulunmuştur. 657 sayılı Kanun'un 8. maddesi bakımından bu davranış için aşağıdakilerden hangisi söylenebilir?",
+		"options": [
+			"Ödev hizmet dışındaki davranışları da kapsadığından madde ile bağdaşmaz.",
+			"Kurumun adı açıkça anılmadıkça aykırılık doğmaz.",
+			"Mesai dışında gerçekleştiği için maddenin kapsamı dışındadır.",
+			"Yalnızca amirler bakımından geçerli bir ödev olduğundan aykırılık doğmaz.",
+			"Davranış basına yansımadıkça maddeyle ilgisi bulunmaz."
+		],
+		"correctIndex": 0,
+		"explanation": "8. maddenin birinci cümlesi ödevin kapsamını açıkça çizer: Devlet memurları, resmî sıfatlarının gerektirdiği itibar ve güvene layık olduklarını hizmet içindeki ve dışındaki davranışlarıyla göstermek zorundadır. Nitekim 125. maddede hizmet dışında memurun itibar ve güven duygusunu sarsacak nitelikte davranışta bulunmak kınama cezasını gerektiren fiiller arasında sayılmıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "8"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"davranış",
+			"hizmet-dışı"
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"

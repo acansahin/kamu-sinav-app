@@ -6,10 +6,10 @@
 		"difficulty": "kolay",
 		"stem": "4982 sayılı Kanun'a göre kurum ve kuruluşlar, bilgi edinme başvurusu üzerine istenen bilgi veya belgeye erişimi kural olarak kaç iş günü içinde sağlar?",
 		"options": [
-			"7 iş günü",
-			"15 iş günü",
 			"30 iş günü",
-			"60 iş günü"
+			"15 iş günü",
+			"60 iş günü",
+			"7 iş günü"
 		],
 		"correctIndex": 1,
 		"explanation": "4982 sayılı Bilgi Edinme Hakkı Kanunu'na göre kurum ve kuruluşlar, başvuru üzerine istenen bilgi veya belgeye erişimi on beş iş günü içinde sağlarlar. Otuz iş günlük süre yalnızca bilginin başka birimden sağlanması, başka kurumun görüşünün gerekmesi veya başvurunun birden fazla kurumu ilgilendirmesi hâlinde uygulanan istisnadır.",
@@ -28,7 +28,7 @@
 			"bilgi-edinme",
 			"sure"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -38,12 +38,12 @@
 		"difficulty": "kolay",
 		"stem": "Bilgi edinme istemi reddedilen başvuru sahibi, kararın tebliğinden itibaren kaç gün içinde Bilgi Edinme Değerlendirme Kuruluna itiraz edebilir?",
 		"options": [
-			"7 gün",
-			"15 gün",
 			"30 gün",
-			"60 gün"
+			"7 gün",
+			"60 gün",
+			"15 gün"
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "4982 sayılı Kanun'a göre bilgi edinme istemi reddedilen başvuru sahibi, yargı yoluna başvurmadan önce kararın tebliğinden itibaren on beş gün içinde Bilgi Edinme Değerlendirme Kuruluna itiraz edebilir. Bu itiraz, idari yargıya başvurma süresini durdurur.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -60,7 +60,7 @@
 			"itiraz",
 			"sure"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -70,12 +70,12 @@
 		"difficulty": "kolay",
 		"stem": "Kamu Başdenetçisi kim tarafından ve kaç yıl için seçilir?",
 		"options": [
+			"Danıştay tarafından, 6 yıl için",
 			"Cumhurbaşkanı tarafından, 5 yıl için",
 			"Türkiye Büyük Millet Meclisi tarafından, 4 yıl için",
-			"Danıştay tarafından, 6 yıl için",
 			"Adalet Bakanı tarafından, 4 yıl için"
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Anayasa'nın 74. maddesine göre Kamu Denetçiliği Kurumu Türkiye Büyük Millet Meclisi Başkanlığına bağlı olarak kurulur ve Kamu Başdenetçisi TBMM tarafından gizli oyla dört yıl için seçilir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -92,7 +92,7 @@
 		"tags": [
 			"kamu-denetciligi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -102,12 +102,12 @@
 		"difficulty": "orta",
 		"stem": "Bilgi edinme başvurusunda istenen bilginin başka bir kurumun görüşünün alınmasını gerektirmesi hâlinde erişim süresi kaç iş günüdür?",
 		"options": [
-			"15 iş günü",
-			"20 iş günü",
+			"60 iş günü",
 			"30 iş günü",
-			"60 iş günü"
+			"15 iş günü",
+			"20 iş günü"
 		],
-		"correctIndex": 2,
+		"correctIndex": 1,
 		"explanation": "İstenen bilgi veya belgenin başvurulan kurum içindeki başka bir birimden sağlanması, başka bir kurumun görüşünün alınmasının gerekmesi veya başvuru içeriğinin birden fazla kurumu ilgilendirmesi durumlarında bilgi veya belgeye erişim otuz iş günü içinde sağlanır. Bu, on beş iş günlük genel kuralın istisnasıdır.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -124,7 +124,7 @@
 			"bilgi-edinme",
 			"istisna"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -134,12 +134,12 @@
 		"difficulty": "orta",
 		"stem": "Bilgi Edinme Değerlendirme Kuruluna yapılan itirazın idari yargıya başvurma süresine etkisi nedir?",
 		"options": [
+			"İdari yargıya başvurma süresini yarıya indirir.",
 			"Hiçbir etkisi yoktur.",
-			"İdari yargıya başvurma süresini durdurur.",
 			"İdari yargı yolunu tamamen kapatır.",
-			"İdari yargıya başvurma süresini yarıya indirir."
+			"İdari yargıya başvurma süresini durdurur."
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "4982 sayılı Kanun'a göre Kurula itiraz, başvuru sahibinin idari yargıya başvurma süresini durdurur. Bu düzenleme, vatandaşın idari itiraz yolunu kullanırken dava açma hakkını kaybetmesini önler.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -156,7 +156,7 @@
 			"itiraz",
 			"yargi"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -166,9 +166,9 @@
 		"difficulty": "orta",
 		"stem": "Yönetmelikteki 'yöneticilerin hesap verme sorumluluğu' ilkesi yöneticiye ne yükler?",
 		"options": [
-			"Yalnızca yıllık faaliyet raporu hazırlamak",
-			"Kurumun amaç ve politikalarına uygun olmayan işlem veya eylemleri engellemek için gerekli önlemleri zamanında almak",
 			"Astlarının tüm işlemlerini bizzat yapmak",
+			"Kurumun amaç ve politikalarına uygun olmayan işlem veya eylemleri engellemek için gerekli önlemleri zamanında almak",
+			"Yalnızca yıllık faaliyet raporu hazırlamak",
 			"Yalnızca üst amirine bilgi vermek"
 		],
 		"correctIndex": 1,
@@ -186,7 +186,7 @@
 		"tags": [
 			"hesap-verebilirlik"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -196,12 +196,12 @@
 		"difficulty": "zor",
 		"stem": "Bilgi Edinme Değerlendirme Kurulu, önüne gelen itiraz hakkında kararını kaç iş günü içinde verir?",
 		"options": [
-			"15 iş günü",
-			"30 iş günü",
 			"45 iş günü",
-			"60 iş günü"
+			"15 iş günü",
+			"60 iş günü",
+			"30 iş günü"
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "4982 sayılı Kanun'a göre Kurul, itiraz konusundaki kararını otuz iş günü içinde verir. Ayrıca kurum ve kuruluşlar, Kurulun istediği her türlü bilgi veya belgeyi on beş iş günü içinde vermekle yükümlüdürler.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -218,7 +218,7 @@
 			"kurul",
 			"sure"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -228,12 +228,12 @@
 		"difficulty": "zor",
 		"stem": "Yabancıların bilgi edinme hakkından yararlanması hangi esasa bağlanmıştır?",
 		"options": [
-			"Yabancılar bu haktan hiçbir şekilde yararlanamaz.",
-			"Türkiye'de ikamet eden yabancılar ile Türkiye'de faaliyette bulunan yabancı tüzel kişiler karşılıklılık esasında yararlanır.",
 			"Tüm yabancılar sınırsız şekilde yararlanır.",
-			"Yalnızca Cumhurbaşkanı kararıyla yararlanabilirler."
+			"Yalnızca Cumhurbaşkanı kararıyla yararlanabilirler.",
+			"Türkiye'de ikamet eden yabancılar ile Türkiye'de faaliyette bulunan yabancı tüzel kişiler karşılıklılık esasında yararlanır.",
+			"Yabancılar bu haktan hiçbir şekilde yararlanamaz."
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "4982 sayılı Kanun'a göre herkes bilgi edinme hakkına sahiptir; Türkiye'de ikamet eden yabancılar ile Türkiye'de faaliyette bulunan yabancı tüzel kişiler ise karşılıklılık esası çerçevesinde ve kendileriyle veya faaliyet alanlarıyla ilgili konularda bu haktan yararlanır.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -250,7 +250,7 @@
 			"bilgi-edinme",
 			"yabanci"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -261,11 +261,11 @@
 		"stem": "Kanunda belirtilen süreler içinde başvuru sahibine olumlu veya olumsuz hiçbir cevap verilmemesi hâlinde ne olur?",
 		"options": [
 			"Başvuru kabul edilmiş sayılır.",
+			"Başvuru geçersiz hâle gelir ve yenilenmesi gerekir.",
 			"Başvuru, altmış günün geçmesiyle reddedilmiş sayılır.",
-			"Başvuru otomatik olarak Kurula gider.",
-			"Başvuru geçersiz hâle gelir ve yenilenmesi gerekir."
+			"Başvuru otomatik olarak Kurula gider."
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "4982 sayılı Kanun'a göre belirtilen süreler içinde kurum ve kuruluşlar tarafından başvuru sahibine olumlu veya olumsuz herhangi bir cevap verilmemesi hâlinde başvuru, 2577 sayılı İdari Yargılama Usulü Kanunu'nun 10. maddesi uyarınca altmış günün geçmesiyle reddedilmiş sayılır. Bu zımni ret, dava açma hakkını doğurur.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -282,7 +282,7 @@
 			"zimni-ret",
 			"sure"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -292,12 +292,12 @@
 		"difficulty": "uzman",
 		"stem": "Bir vatandaşın bilgi edinme başvurusu reddedilmiştir. Vatandaş kararın tebliğinden 20 gün sonra Bilgi Edinme Değerlendirme Kuruluna itiraz etmiştir. Bu itiraz için ne söylenebilir?",
 		"options": [
-			"Süresinde yapılmıştır; itiraz süresi 30 gündür.",
 			"İtiraz süresi 15 gün olduğundan süresinde yapılmamıştır.",
+			"Süresinde yapılmıştır; itiraz süresi 30 gündür.",
 			"İtiraz süresi 60 gün olduğundan süresindedir.",
 			"İtiraz için süre öngörülmemiştir."
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "4982 sayılı Kanun'a göre bilgi edinme istemi reddedilen başvuru sahibi, yargı yoluna başvurmadan önce kararın tebliğinden itibaren on beş gün içinde Kurula itiraz edebilir. 20. günde yapılan itiraz bu süreyi aşmıştır. Şıklardaki 30 iş günü Kurulun karar süresi, 60 gün ise zımni ret süresidir; ikisi de itiraz süresi değildir.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -315,7 +315,7 @@
 			"senaryo",
 			"tuzak"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -325,10 +325,10 @@
 		"difficulty": "uzman",
 		"stem": "Bir kurum, kendisine yapılan bilgi edinme başvurusunu yanıtlamak için başka bir kurumun görüşüne ihtiyaç duymaktadır. Erişimin sağlanması gereken süre ve bu sürenin niteliği nedir?",
 		"options": [
-			"15 iş günü; genel kuraldır.",
+			"60 gün; zımni ret süresidir.",
 			"30 iş günü; genel kuralın istisnasıdır.",
 			"30 gün; genel kuraldır.",
-			"60 gün; zımni ret süresidir."
+			"15 iş günü; genel kuraldır."
 		],
 		"correctIndex": 1,
 		"explanation": "Genel kural on beş iş günüdür. Bilginin başka bir birimden sağlanması, başka bir kurumun görüşünün alınmasının gerekmesi veya başvurunun birden fazla kurumu ilgilendirmesi hâllerinde süre otuz iş gününe çıkar; bu istisnai bir süredir. 60 gün ise cevap verilmemesi hâlindeki zımni ret süresidir ve farklı bir kurumu ifade eder.",
@@ -347,7 +347,7 @@
 			"bilgi-edinme",
 			"senaryo"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
@@ -359,10 +359,10 @@
 		"options": [
 			"Kurula itiraz, idari yargıya başvurma süresini durdurur.",
 			"Kurum ve kuruluşlar Kurulun istediği bilgi veya belgeyi 15 iş günü içinde vermekle yükümlüdür.",
-			"Bilgi edinme başvurusuna erişim süresi her hâlükârda 30 iş günüdür.",
-			"Kamu görevlileri, halkın bilgi edinme hakkını kullanmasına yardımcı olmakla yükümlüdür."
+			"Kamu görevlileri, halkın bilgi edinme hakkını kullanmasına yardımcı olmakla yükümlüdür.",
+			"Bilgi edinme başvurusuna erişim süresi her hâlükârda 30 iş günüdür."
 		],
-		"correctIndex": 2,
+		"correctIndex": 3,
 		"explanation": "Erişim süresi her hâlükârda 30 iş günü değildir; genel kural 15 iş günüdür ve 30 iş günü yalnızca belirli hâllerde uygulanan istisnadır. Diğer üç ifade sırasıyla 4982 sayılı Kanun ve Etik Davranış İlkeleri Yönetmeliği hükümleriyle uyumludur.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -379,41 +379,41 @@
 			"tuzak",
 			"sure"
 		],
-		"version": 1,
+		"version": 2,
 		"updatedAt": "2026-07-21"
 	},
 	{
-		"id": "meb-adl23-q033",
+		"id": "etik-saydam-013",
 		"subjectId": "etik",
 		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
 		"difficulty": "orta",
-		"stem": "Tüm kamu görevlileri, kamu hizmetlerinin yerine getirilmesi sırasında sorumluluk alanlarıyla ilgili konuları cevaplayabilmeli, rapor edebilmeli ve açıklayabilmelidir. Yükümlülüklerini üstlenip kamusal değerlendirme ve muhakemeye her zaman açık ve hazır olmalıdırlar. Bu ifade, aşağıdaki etik davranış ilkelerinden daha çok hangisiyle ilgilidir?",
+		"stem": "5176 sayılı Kanun'un 1. maddesinde kamu görevlilerinin uymaları gereken etik davranış ilkelerine örnek olarak sayılanlar aşağıdakilerin hangisinde birlikte ve doğru verilmiştir?",
 		"options": [
-			"Tarafsızlık",
-			"Hukukilik",
-			"Dürüstlük",
-			"Nesnellik",
-			"Hesap verebilirlik"
+			"Verimlilik, kârlılık, rekabet, süreklilik, saydamlık",
+			"Saydamlık, tarafsızlık, dürüstlük, hesap verebilirlik, kamu yararını gözetme",
+			"Saydamlık, kariyer, liyakat, sınıflandırma, dürüstlük",
+			"Gizlilik, hiyerarşi, sadakat, itaat, tarafsızlık",
+			"Hesap verebilirlik, esneklik, yerindelik, öngörülebilirlik, gizlilik"
 		],
-		"correctIndex": 4,
-		"explanation": "Sorumluluk alanıyla ilgili konularda cevap verebilme, rapor edebilme ve kamusal değerlendirmeye açık olma, hesap verebilirlik ilkesinin tanımıdır. Tarafsızlık ayrım gözetmemeyi, dürüstlük gerçeğe uygun davranmayı, nesnellik ise kişisel yargılardan arınmayı ifade eder; hesap verebilirlik bunlardan farklı olarak yapılan iş ve işlemlerin gerekçesini açıklayabilmeyi gerektirir.",
+		"correctIndex": 1,
+		"explanation": "5176 sayılı Kanun'un 1. maddesi Kanun'un amacını tanımlarken kamu görevlilerinin uymaları gereken etik davranış ilkelerine saydamlık, tarafsızlık, dürüstlük, hesap verebilirlik ve kamu yararını gözetmeyi örnek olarak sayar. Sınıflandırma, kariyer ve liyakat ise 657 sayılı Kanun'un 3. maddesindeki temel ilkelerdir.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
 			"lawId": "5176",
 			"article": "1"
 		},
 		"source": {
-			"kind": "official-past-exam",
-			"origin": "MEB ÖDSGM — Adalet Bakanlığı Görevde Yükselme Sınavı (Memur) A Kitapçığı, 2023",
-			"year": 2023,
-			"url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_08/24135634_11_GRUP_MEMUR_A.pdf",
-			"license": "public-official"
+			"kind": "original",
+			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
 		},
-		"status": "review",
+		"status": "published",
 		"tags": [
+			"etik-ilkeler",
 			"hesap-verebilirlik"
 		],
 		"version": 1,
-		"updatedAt": "2026-07-26"
+		"updatedAt": "2026-07-30"
 	}
 ]
