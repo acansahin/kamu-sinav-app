@@ -36,6 +36,10 @@
 # (kopyalanan web varlıkları, gradle çıktıları, local.properties). Burada
 # tekrarlanmaz.
 
+# Claude Code: dev sunucu tanımı (.claude/launch.json) izlenir, kişisel izin
+# ayarları izlenmez — makineye özgüdür ve ekipte paylaşılması gerekmez.
+.claude/settings.local.json
+
 # misc
 .DS_Store
 *.pem
