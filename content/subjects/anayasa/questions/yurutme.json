@@ -999,5 +999,338 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yurutme-032",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 103. maddesine göre Cumhurbaşkanının andiçmesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Cumhurbaşkanı, görevine başlarken Türkiye Büyük Millet Meclisi önünde andiçer.",
+			"Andiçme, göreve başlama tarihini izleyen bir ay içinde yapılır.",
+			"Cumhurbaşkanı, Anayasa Mahkemesi Genel Kurulu önünde andiçer.",
+			"Cumhurbaşkanı, Yüksek Seçim Kurulu önünde andiçer.",
+			"Cumhurbaşkanının andiçmesi Anayasa'da düzenlenmemiş olup usulü kanunla belirlenir."
+		],
+		"correctIndex": 0,
+		"explanation": "103. madde, Cumhurbaşkanının GÖREVİNE BAŞLARKEN Türkiye Büyük Millet Meclisi önünde andiçeceğini belirtir ve ant metnini kelimesi kelimesine düzenler. Milletvekillerinin andiçmesi ise 81. maddede yer alır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "103"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhurbaskani",
+			"andicme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-yurutme-033",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 108. maddesine göre Devlet Denetleme Kurulu ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Başkan ve üyeleri Cumhurbaşkanınca atanır.",
+			"Kamu kurumu niteliğindeki meslek kuruluşlarında, kamuya yararlı dernek ve vakıflarda da denetim yapabilir.",
+			"Cumhurbaşkanlığına bağlı olarak kurulmuştur.",
+			"Yargı organları da Kurulun görev alanı içindedir.",
+			"Cumhurbaşkanının isteği üzerine her türlü idarî soruşturma, inceleme, araştırma ve denetlemeleri yapar."
+		],
+		"correctIndex": 3,
+		"explanation": "108. madde, yargı organlarının Devlet Denetleme Kurulunun görev alanı DIŞINDA olduğunu açıkça belirtir. Kurulun görev alanı; tüm kamu kurum ve kuruluşları, sermayesinin yarısından fazlasına bunların katıldığı kuruluşlar, kamu kurumu niteliğindeki meslek kuruluşları, her düzeydeki işçi ve işveren meslek kuruluşları ile kamuya yararlı dernek ve vakıflardır. İşleyişi Cumhurbaşkanlığı kararnamesiyle düzenlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "108"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"devlet-denetleme-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-yurutme-034",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 116. maddesine göre Türkiye Büyük Millet Meclisi ve Cumhurbaşkanı seçimlerinin yenilenmesi bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Seçimlerin birlikte yenilenmesine karar verilen Meclisin ve Cumhurbaşkanının yetki ve görevleri, yenileme kararının alındığı tarihte sona erer.",
+			"Cumhurbaşkanının seçimlerin yenilenmesine karar vermesi hâlinde Meclis genel seçimi ile Cumhurbaşkanlığı seçimi birlikte yapılır.",
+			"Türkiye Büyük Millet Meclisi, üye tamsayısının beşte üç çoğunluğuyla seçimlerin yenilenmesine karar verebilir.",
+			"Bu şekilde seçilen Meclis ve Cumhurbaşkanının görev süreleri de beş yıldır.",
+			"Cumhurbaşkanının ikinci döneminde Meclis tarafından seçimlerin yenilenmesine karar verilmesi hâlinde Cumhurbaşkanı bir defa daha aday olabilir."
+		],
+		"correctIndex": 0,
+		"explanation": "116. maddeye göre seçimlerinin birlikte yenilenmesine karar verilen Meclisin ve Cumhurbaşkanının yetki ve görevleri, YENİ Meclisin ve Cumhurbaşkanının göreve başlamasına kadar devam eder. Yenileme kararı görevi kendiliğinden sona erdirmez.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "116"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"secimlerin-yenilenmesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-yurutme-035",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 117. maddesine göre millî savunma bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Millî güvenliğin sağlanmasından ve Silahlı Kuvvetlerin yurt savunmasına hazırlanmasından Türkiye Büyük Millet Meclisine karşı Cumhurbaşkanı sorumludur.",
+			"Genelkurmay Başkanı, savaşta Başkomutanlık görevlerini Cumhurbaşkanlığı namına yerine getirir.",
+			"Başkomutanlık, Türkiye Büyük Millet Meclisinin manevi varlığından ayrılamaz ve Cumhurbaşkanı tarafından temsil olunur.",
+			"Genelkurmay Başkanı Cumhurbaşkanınca atanır.",
+			"Başkomutanlık, Türkiye Büyük Millet Meclisi Başkanı tarafından temsil olunur."
+		],
+		"correctIndex": 4,
+		"explanation": "117. maddeye göre Başkomutanlık TBMM'nin manevi varlığından ayrılamaz ve CUMHURBAŞKANI tarafından temsil olunur. Cumhurbaşkanınca atanan Genelkurmay Başkanı Silahlı Kuvvetlerin komutanı olup savaşta Başkomutanlık görevlerini Cumhurbaşkanlığı namına yerine getirir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "117"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"baskomutanlik",
+			"milli-savunma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-yurutme-036",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 127. maddesine göre mahallî idareler bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Görevleriyle ilgili bir suç sebebiyle haklarında soruşturma veya kovuşturma açılan mahallî idare organlarını veya üyelerini İçişleri Bakanı, geçici bir tedbir olarak kesin hükme kadar görevden uzaklaştırabilir.",
+			"Mahallî idarelerin seçilmiş organlarının organlık sıfatını kaybetmelerine ilişkin denetim, İçişleri Bakanlığınca idarî yoldan yapılır.",
+			"Karar organları, kanunda gösterilen seçmenler tarafından seçilerek oluşturulur.",
+			"Mahallî idarelerin seçimleri, 67. maddedeki esaslara göre beş yılda bir yapılır.",
+			"Mahallî idareler; il, belediye veya köy halkının mahallî müşterek ihtiyaçlarını karşılamak üzere kurulan kamu tüzel kişileridir."
+		],
+		"correctIndex": 1,
+		"explanation": "127. maddeye göre seçilmiş organların organlık sıfatını kazanmalarına ilişkin itirazların çözümü ve bu sıfatı kaybetmeleri konusundaki denetim YARGI YOLU ile olur. İçişleri Bakanının yetkisi yalnızca, görevleriyle ilgili bir suç sebebiyle soruşturma veya kovuşturma açılanları kesin hükme kadar geçici tedbir olarak uzaklaştırmakla sınırlıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "127"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mahalli-idareler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-yurutme-037",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 127. maddesine göre merkezî idarenin mahallî idareler üzerindeki yetkisi ve mahallî idare birlikleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Mahallî idarelere görevleriyle orantılı gelir kaynakları sağlanması Anayasa'da öngörülmemiştir.",
+			"Merkezî idare, kanunda belirtilen esas ve usuller dairesinde mahallî idareler üzerinde idarî vesayet yetkisine sahiptir.",
+			"Merkezî idarenin mahallî idareler üzerindeki yetkisi hiyerarşik denetim yetkisidir.",
+			"Mahallî idareler kendi aralarında birlik kurmak için İçişleri Bakanının iznini alır.",
+			"Mahallî idarelerin kuruluş ve görevleri ile yetkileri, merkezden yönetim ilkesine uygun olarak düzenlenir."
+		],
+		"correctIndex": 1,
+		"explanation": "127. maddeye göre merkezî idare, mahallî hizmetlerin idarenin bütünlüğü ilkesine uygun yürütülmesi, kamu görevlerinde birliğin sağlanması, toplum yararının korunması ve mahallî ihtiyaçların gereği gibi karşılanması amacıyla kanunda belirtilen esaslar dairesinde İDARÎ VESAYET yetkisine sahiptir. Birlik kurma izni Cumhurbaşkanına aittir; mahallî idarelerin kuruluş ve görevleri YERİNDEN YÖNETİM ilkesine uygun olarak kanunla düzenlenir ve bu idarelere görevleriyle orantılı gelir kaynakları sağlanır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "127"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"idari-vesayet",
+			"mahalli-idare-birlikleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-yurutme-038",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 130. maddesine göre yükseköğretim kurumları bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Üniversitelerin hazırladığı bütçeler, Yükseköğretim Kurulunca onaylandıktan sonra doğrudan Cumhurbaşkanlığına sunularak kesinleşir.",
+			"Üniversiteler, kamu tüzel kişiliğine ve bilimsel özerkliğe sahip olarak Devlet tarafından kanunla kurulur.",
+			"Rektörler Cumhurbaşkanınca, dekanlar ise Yükseköğretim Kurulunca seçilir ve atanır.",
+			"Kazanç amacına yönelik olmamak şartıyla vakıflar tarafından, Devletin gözetim ve denetimine tabi yükseköğretim kurumları kurulabilir.",
+			"Üniversite yönetim ve denetim organları ile öğretim elemanları, Yükseköğretim Kurulunun veya üniversitelerin yetkili organlarının dışında kalan makamlarca görevlerinden uzaklaştırılamaz."
+		],
+		"correctIndex": 0,
+		"explanation": "130. maddeye göre üniversitelerin hazırladığı bütçeler, Yükseköğretim Kurulunca tetkik ve onaylandıktan sonra MİLLÎ EĞİTİM BAKANLIĞINA sunulur ve merkezî yönetim bütçesinin bağlı olduğu esaslara uygun olarak işleme tabi tutularak yürürlüğe konulur ve denetlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "130"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yuksekogretim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-yurutme-039",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 131. maddesine göre Yükseköğretim Kurulu bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kurul; üniversitelerce seçilen adaylar arasından Cumhurbaşkanınca atanan üyeler ile Cumhurbaşkanınca doğrudan doğruya seçilen üyelerden kurulur.",
+			"Kurul üyelerinin tamamı görevdeki rektörler arasından seçilir.",
+			"Kurul yalnızca vakıf yükseköğretim kurumlarını denetlemekle görevlidir.",
+			"Kurulun teşkilatı, görev ve yetkileri Cumhurbaşkanlığı kararnamesiyle düzenlenir.",
+			"Kurulun bütün üyeleri Türkiye Büyük Millet Meclisince seçilir."
+		],
+		"correctIndex": 0,
+		"explanation": "131. maddeye göre Yükseköğretim Kurulu, üniversiteler tarafından seçilen ve sayıları, nitelikleri, seçilme usulleri kanunla belirlenen adaylar arasından rektörlük ve öğretim üyeliğinde başarılı hizmet yapmış profesörlere öncelik verilerek Cumhurbaşkanınca atanan üyeler ile Cumhurbaşkanınca doğrudan seçilen üyelerden kurulur. Kurulun teşkilatı, görev, yetki ve çalışma esasları KANUNLA düzenlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "131"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yuksekogretim-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-yurutme-040",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 134. maddesine göre Atatürk Kültür, Dil ve Tarih Yüksek Kurumu bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Cumhurbaşkanının gözetim ve desteğinde, Cumhurbaşkanının görevlendireceği bakana bağlıdır.",
+			"Atatürk Araştırma Merkezi, Türk Dil Kurumu, Türk Tarih Kurumu ve Atatürk Kültür Merkezinden oluşur.",
+			"Kamu tüzel kişiliğine sahiptir.",
+			"Türk Dil Kurumu ile Türk Tarih Kurumu için Atatürk'ün vasiyetnamesinde belirtilen malî menfaatler saklı olup kendilerine tahsis edilir.",
+			"Kurumun kuruluşu, organları ve çalışma usulleri Cumhurbaşkanlığı kararnamesiyle düzenlenir."
+		],
+		"correctIndex": 4,
+		"explanation": "134. maddenin son fıkrasına göre Yüksek Kurumun kuruluşu, organları, çalışma usulleri ve özlük işleri ile kuruluşuna dâhil kurumlar üzerindeki yetkileri KANUNLA düzenlenir. Kurum, Atatürk'ün manevi himayelerinde, Cumhurbaşkanının gözetim ve desteğinde, Cumhurbaşkanının görevlendireceği bakana bağlıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "134"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ataturk-kultur-dil-tarih"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-yurutme-041",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 136. maddesine göre Diyanet İşleri Başkanlığı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kamu kurumu niteliğinde bir meslek kuruluşudur.",
+			"Anayasa'da düzenlenmemiş olup kuruluşu tümüyle kanuna bırakılmıştır.",
+			"Görevleri Cumhurbaşkanlığı kararnamesiyle belirlenir.",
+			"Genel idare içinde yer alır ve laiklik ilkesi doğrultusunda, bütün siyasi görüş ve düşünüşlerin dışında kalarak özel kanununda gösterilen görevleri yerine getirir.",
+			"Mahallî idarelere bağlı olarak kurulmuş bir kuruluştur."
+		],
+		"correctIndex": 3,
+		"explanation": "136. madde Diyanet İşleri Başkanlığını GENEL İDARE İÇİNDE yer alan bir kuruluş olarak düzenler; Başkanlık laiklik ilkesi doğrultusunda, bütün siyasi görüş ve düşünüşlerin dışında kalarak ve milletçe dayanışma ve bütünleşmeyi amaç edinerek ÖZEL KANUNUNDA gösterilen görevleri yerine getirir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "136"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"diyanet-isleri-baskanligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

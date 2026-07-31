@@ -1132,5 +1132,304 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-atama-035",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 50. maddesine göre sınav şartı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Sınav şartı yalnızca genel idare hizmetleri sınıfına atanacaklar için aranır.",
+			"Sınava tabi tutulmadan girilebilecek hiçbir hizmet ve görev yoktur.",
+			"Devlet kamu hizmet ve görevlerine Devlet memuru olarak atanacakların açılacak Devlet memurluğu sınavlarına girmeleri ve sınavı kazanmaları şarttır.",
+			"Sınavların usul ve esasları her kurumun kendi özel yönetmeliğiyle serbestçe belirlenir.",
+			"Sınav şartı, istisnai memurluklara atananlar bakımından da mutlak olarak aranır."
+		],
+		"correctIndex": 2,
+		"explanation": "50. madde, Devlet memurluğuna atanacaklar için sınava girme ve sınavı kazanma şartını kural olarak koyar. Sınavların usul ve esasları ile SINAVA TABİ TUTULMADAN girilebilecek hizmet ve görevler bir GENEL YÖNETMELİKLE düzenlenir; ayrıca 59 ve 60. maddelerdeki istisnai memurluklara atananlar bu şarttan istisna tutulmuştur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "50"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sinav-sarti"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-036",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 52. maddesine göre kurumların memur ihtiyaçlarının karşılanması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Atamalar, sınav başarı sırasına değil başvuru sırasına göre yapılır.",
+			"Müteakip sınav dönemine kadar doğan acil ihtiyaçlar hiçbir şekilde karşılanamaz.",
+			"Memur ihtiyaçları, yayımlanan sınav sonuçlarında belirlenen başarı sırasına göre ilgili kurumlarca atama yapılmak suretiyle karşılanır.",
+			"Kurumlar, sınav sonuçlarındaki sıraya bakılmaksızın diledikleri adayı atayabilir.",
+			"Yapılan atamaların merkezî bir makama bildirilmesi gerekmez."
+		],
+		"correctIndex": 2,
+		"explanation": "52. maddeye göre kurumların memur ihtiyaçları, yayımlanan sınav sonuçlarında belirlenen BAŞARI SIRASINA göre atama yapılmak suretiyle karşılanır. Müteakip sınav dönemine kadar doğan acil ihtiyaçlar da sınavı kazanmış ancak kadro yetersizliği nedeniyle ataması yapılamayanlardan, yine başarı sırasına göre karşılanabilir; yapılan atamalar derhal bildirilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "52"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"memur-ihtiyaci",
+			"basari-sirasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-037",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 71. maddesine göre bir sınıftan başka bir sınıfa geçme bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Sınıfı değişenlerin eski sınıflarının derecesinde elde ettikleri kademelerde geçirdikleri süreler, yeni sınıflarındaki derecelerinde dikkate alınır.",
+			"Sınıf değiştireceklerin, geçecekleri sınıf ve görev için mevzuatta belirtilen niteliklere sahip olmaları şarttır.",
+			"Eski sınıfında daha yüksek bir derece ve kademeden başlamış olup sınıf değiştirenlerin yeni görevlerindeki ilk ilerleme süreleri kısaltılır.",
+			"Memurların eşit dereceler arasında veya derece yükselmesi suretiyle sınıf değiştirmeleri caizdir.",
+			"Kurumlar, memurlarını meslekleriyle ilgili sınıftan genel idare hizmetleri sınıfına veya bunun tersine, görev ve unvan eşitliği gözetmeden kazanılmış hak aylık dereceleriyle atayabilir."
+		],
+		"correctIndex": 2,
+		"explanation": "71. maddenin son fıkrasına göre, eski sınıflarında yeni sınıfa göre daha yüksek bir derece ve kademeden memurluğa başlamış olup sınıf değiştirenlerin yeni görevlerindeki ilk ilerleme süreleri, eski sınıflarında kazandıkları derece ve kademelere tekabül eden süre kadar UZATILIR; bu süre tamamlanıncaya kadar kendilerine kademe ilerlemesi verilmez.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "71"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sinif-degistirme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-038",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 73. maddesine göre karşılıklı olarak yer değiştirme bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Karşılıklı yer değiştirme yalnızca Cumhurbaşkanı kararıyla mümkündür.",
+			"Karşılıklı yer değiştirme talebinin kabul edilmesi zorunludur.",
+			"Talepte bulunacak memurların aynı sınıfta olmaları aranmaz.",
+			"Aynı kurumun başka başka yerlerdeki aynı sınıftaki memurları karşılıklı yer değiştirme suretiyle atanmalarını isteyebilir; isteğin yerine getirilmesi atamaya yetkili amirlerce uygun bulunmasına bağlıdır.",
+			"Farklı kurumlarda görev yapan memurlar da bu yolla karşılıklı yer değiştirebilir."
+		],
+		"correctIndex": 3,
+		"explanation": "73. madde iki şartı birlikte arar: memurların AYNI KURUMUN başka başka yerlerinde bulunması ve AYNI SINIFTA olması. Talep bir hak doğurmaz; yerine getirilmesi atamaya yetkili amirlerce uygun bulunmasına bağlıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "73"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"karsilikli-yer-degistirme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-039",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 79. maddesine göre, bilgilerini artırmak üzere yabancı memlekete gönderilen memurlar bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Sürelerinin bitiminde görevlerine başlamayanlar çekilmiş sayılır.",
+			"Bu suretle çekilmiş sayılanlar, kurumlarınca kendileri için yapılmış masrafların yarısını ödemekle yükümlüdür.",
+			"Kademe ilerlemesi, emeklilik ve diğer bütün hakları ve yükümlülükleri devam eder.",
+			"Bu memurlar kadrolarında bırakılır.",
+			"İzin bitiminde yol süresi hariç on beş gün içinde görevlerine dönerler."
+		],
+		"correctIndex": 1,
+		"explanation": "79. maddeye göre süresi bitiminde görevine başlamayanlar çekilmiş sayılır ve aylık ile yol giderleri dâhil kendilerine kurumlarınca yapılmış bulunan bütün masrafları İKİ KAT olarak ödemeye mecburdurlar. Göreve başlayıp da mecburi hizmetini bitirmeden ayrılanlar ya da bir ceza sebebiyle memurluktan çıkarılanlar da eksik kalan kısımla orantılı miktarı iki kat öder.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "79"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurt-disina-gonderilme",
+			"mecburi-hizmet"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-040",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 87. maddesine göre ikinci görev yasağı bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Bu Kanun'un memurlara ikinci görev verilmesini öngören hükümleri de yasağın kapsamında olup uygulanamaz.",
+			"Maddede sayılan kurumlardan her ne ad ile olursa olsun para ödenemez ve yarar sağlanamaz.",
+			"Bu Kanun'a tabi kurumlarda memurlara ikinci görev verilemez.",
+			"Sermayesinin tamamı Devlet tarafından verilmek suretiyle kurulan iktisadi kurumlarda ikinci görev verilemez.",
+			"Sermayesinin yarısından fazlası Devlete ait bankalarda ikinci görev verilemez."
+		],
+		"correctIndex": 0,
+		"explanation": "87. maddenin son fıkrası, bu Kanun'un memurlara ikinci görev verilmesini öngören hükümleri ile hakem, tasfiye memuru ve bilirkişilere; kurul, komisyon, heyet ve jüri çalışmalarına katılanlara ödeme yapılmasına ilişkin hükümleri SAKLI TUTAR. Yasak, maddede sayılan kurumlarda ikinci görev verilmesini ve buralardan ödeme yapılmasını engeller.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "87"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ikinci-gorev-yasagi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-041",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 88. maddesine göre aşağıdakilerden hangisi memurlara asıl görevlerinin yanında ikinci görev olarak verilebilecek görevlerden biri değildir?",
+		"options": [
+			"Eczacılara baştabip yardımcılığı",
+			"Tabiplere il ve ilçe sağlık müdürlüğü ile baştabiplik",
+			"Diş hekimlerine ve veterinerlere meslekleriyle ilgili baştabiplik",
+			"Öğretmenlere okul ve enstitü müdürlüğü, başyardımcılığı ve yardımcılığı",
+			"Sermayesinin yarısından fazlası Devlete ait bir bankada yönetim kurulu üyeliği"
+		],
+		"correctIndex": 4,
+		"explanation": "88. madde ikinci görev olarak verilebilecek görevleri sayar: mevzuatla memurlara gördürülmesi öngörülen sürekli hizmetler, 87. maddedeki kurumların tabiplik, diş tabipliği, eczacılık, kimyagerlik, veterinerlik ve avukatlıkları ile Adli Tıp Kurumu uzmanlıkları ve belediyelerin teknik hizmetleri; ayrıca tabiplere sağlık müdürlüğü ve baştabiplik, diş hekimi ve veterinerlere baştabiplik, eczacılara baştabip yardımcılığı, öğretmenlere okul müdürlüğü görevleri. Sermayesinin yarısından fazlası Devlete ait bankalarda ikinci görev verilmesi ise 87. madde ile açıkça yasaklanmıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "88"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ikinci-gorev"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-042",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 90. maddesine göre birleşemeyecek görevler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Öğretmenlerin idari görevi de bu sınırlamanın kapsamındadır.",
+			"Ders görevi, ikinci görevle her hâlde birleşebilir.",
+			"Bir memurun üstünde birden çok ücretli vekâlet görevi bulunabilir.",
+			"Devlet memurlarına vekâlet görevi, ikinci görev veya ders görevlerinden ancak birisi verilebilir.",
+			"Bir memura aynı anda hem vekâlet görevi hem ikinci görev verilebilir."
+		],
+		"correctIndex": 3,
+		"explanation": "90. maddeye göre memurlara vekâlet görevi, ikinci görev veya ders görevlerinden ancak BİRİSİ verilebilir ve bir memurun üstünde birden çok ücretli vekâlet görevi veya ikinci görev bulunamaz. Öğretmenlerin idari görevi bu hükmün DIŞINDADIR.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "90"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"birlesemeyecek-gorevler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-043",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'a göre vekâlet aylığı bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Açıktan vekil olarak atananlara, vekâlet edilen görevin kadro derecesinin birinci kademesinin üçte ikisi verilir.",
+			"Kurum içinden veya diğer kurumlardan vekâlet edenlere vekâlet aylığı ödenebilmesi için vekilin asilde aranan şartları taşıması zorunludur.",
+			"Bir göreve vekâleten atanan memurlara, vekâlet edilen görevin kadro derecesinin birinci kademesinin üçte biri verilir.",
+			"Vekâlet aylığının ödenebilmesi için vekâlet görevinin fiilen yapılması aranmaz.",
+			"Açıktan vekil olarak atananlar, bu Kanun'la memurlara tanınan sosyal haklardan da yararlanır."
+		],
+		"correctIndex": 3,
+		"explanation": "174. madde tek cümledir: vekâlet aylıklarının ödenebilmesi için görevin FİİLEN YAPILMASI şarttır. 175. maddeye 2001'de eklenen fıkra ile ayrıca vekilin ASİLDE ARANAN ŞARTLARI taşıması zorunlu kılınmıştır. Vekâleten atanana kadro derecesinin birinci kademesinin üçte biri, açıktan atanana üçte ikisi ödenir; açıktan vekil olarak atananlar memurlara tanınan sosyal haklardan da yararlanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "174-175"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vekalet-ayligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

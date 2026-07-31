@@ -1137,5 +1137,38 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yargi-036",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 144. maddesine göre adalet hizmetlerinin denetimi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Adalet hizmetlerinin denetim yetkisi Danıştay'a aittir.",
+			"Araştırma, inceleme ve soruşturma işlemleri iç denetçiler eliyle yapılır.",
+			"Adalet hizmetleri ile savcıların idarî görevleri yönünden Adalet Bakanlığınca denetimi, adalet müfettişleri ile hâkim ve savcı mesleğinden olan iç denetçiler eliyle yapılır.",
+			"Bu denetime ilişkin usul ve esaslar Cumhurbaşkanlığı kararnamesiyle düzenlenir.",
+			"Savcıların idarî görevleri her türlü denetimin dışında tutulmuştur."
+		],
+		"correctIndex": 2,
+		"explanation": "144. maddeye göre denetim adalet müfettişleri ile hâkim ve savcı mesleğinden olan iç denetçiler eliyle; ARAŞTIRMA, İNCELEME VE SORUŞTURMA işlemleri ise yalnızca adalet müfettişleri eliyle yapılır. Usul ve esaslar KANUNLA düzenlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "144"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"adalet-hizmetlerinin-denetimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

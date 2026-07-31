@@ -1096,5 +1096,72 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-genel-034",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi Anayasa'nın 174. maddesinde korunan inkılap kanunları arasında sayılmamıştır?",
+		"options": [
+			"Şapka İktisası Hakkında Kanun",
+			"Tevhidi Tedrisat Kanunu",
+			"Efendi, Bey, Paşa gibi Lakap ve Unvanların Kaldırıldığına Dair Kanun",
+			"Köy Kanunu",
+			"Türk Harflerinin Kabul ve Tatbiki Hakkında Kanun"
+		],
+		"correctIndex": 3,
+		"explanation": "174. madde sekiz inkılap kanununu tek tek sayar: Tevhidi Tedrisat, Şapka İktisası, Tekke ve Zaviyelerin Seddi, medeni nikâh esası (743 sayılı Kanun'un ilgili hükümleri), Beynelmilel Erkamın Kabulü, Türk Harflerinin Kabul ve Tatbiki, Lakap ve Unvanların Kaldırılması ve Bazı Kisvelerin Giyilemeyeceği hakkındaki kanunlar. Köy Kanunu bu listede yer almaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "174"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"inkilap-kanunlari"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-genel-035",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 176. maddesine göre Başlangıç kısmı ve madde kenar başlıkları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Başlangıç kısmı Anayasa metninden sayılmaz; kenar başlıklar ise metne dâhildir.",
+			"Kenar başlıkların değiştirilmesi, 175. maddedeki anayasa değişikliği usulüne tabidir.",
+			"Hem Başlangıç kısmı hem madde kenar başlıkları Anayasa metnine dâhildir.",
+			"Başlangıç kısmı yalnızca bir yorum kaynağıdır ve hukuken bağlayıcı değildir.",
+			"Başlangıç kısmı Anayasa metnine dâhildir; madde kenar başlıkları ise Anayasa metninden sayılmaz."
+		],
+		"correctIndex": 4,
+		"explanation": "176. maddeye göre Anayasa'nın dayandığı temel görüş ve ilkeleri belirten Başlangıç kısmı Anayasa metnine DÂHİLDİR. Madde kenar başlıkları ise sadece ilgili oldukları maddelerin konusunu ve maddeler arasındaki sıralama ile bağlantıyı gösterir; bu başlıklar Anayasa metninden SAYILMAZ.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "176"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"baslangic",
+			"kenar-basliklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

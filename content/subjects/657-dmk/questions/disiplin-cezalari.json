@@ -1732,5 +1732,171 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-disiplin-053",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 124. maddesine göre disiplin amirleri ve disiplin cezaları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Disiplin amirleri, 657 sayılı Kanun'da unvan unvan sayılmıştır.",
+			"Disiplin amirleri Cumhurbaşkanı kararıyla tek tek belirlenir.",
+			"Disiplin amirleri, kurumların kuruluş ve görev özellikleri dikkate alınarak özel yönetmeliklerinde tayin ve tespit edilen amirlerdir.",
+			"Memura disiplin cezası verilebilmesi için fiilin ayrıca suç teşkil etmesi şarttır.",
+			"Her kurumda disiplin amiri yalnızca kurumun en üst amiridir."
+		],
+		"correctIndex": 2,
+		"explanation": "124. maddenin birinci fıkrasına göre disiplin amirleri, kurumların kuruluş ve görev özellikleri dikkate alınarak ÖZEL YÖNETMELİKLERİNDE tayin ve tespit edilen amirlerdir. İkinci fıkra ise mevzuatın memura yüklediği ödevleri yerine getirmeyenlere, uyulmasını zorunlu kıldığı hususları yapmayanlara ve yasakladığı işleri yapanlara, durumun niteliğine ve ağırlığına göre 125. maddedeki cezalardan birinin verileceğini belirtir; fiilin ayrıca suç teşkil etmesi aranmaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "124"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"disiplin-amiri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-disiplin-054",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 140. maddesine göre, haklarında mahkemelerce cezai kovuşturma yapılan Devlet memurları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Görevden uzaklaştırma yalnızca disiplin kovuşturması sebebiyle uygulanabilen bir tedbirdir.",
+			"Bu memurları yalnızca mahkeme kararı görevden uzaklaştırabilir.",
+			"Bu memurlar da 138. maddedeki yetkililer tarafından görevden uzaklaştırılabilir.",
+			"Bu memurlar hakkında görevden uzaklaştırma tedbiri uygulanamaz.",
+			"Bu memurlar, kovuşturmanın başlamasıyla kendiliğinden görevden uzaklaştırılmış sayılır."
+		],
+		"correctIndex": 2,
+		"explanation": "140. madde, görevden uzaklaştırmanın yalnızca disiplin kovuşturmasına özgü olmadığını gösterir: haklarında mahkemelerce CEZAİ KOVUŞTURMA yapılan Devlet memurları da 138. maddedeki yetkililer (atamaya yetkili amirler, bakanlık ve genel müdürlük müfettişleri, illerde vali, ilçelerde kaymakam) tarafından görevden uzaklaştırılabilir. Tedbir kendiliğinden doğmaz, yetkili merciin kararını gerektirir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "140"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorevden-uzaklastirma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-disiplin-055",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 142. maddesine göre görevden uzaklaştırma tedbirinin kaldırılması bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Müfettişler tarafından görevden uzaklaştırılanlar hakkında tedbir, atamaya yetkili amirlerce kaldırılır.",
+			"Görevden uzaklaştırma tedbirini kaldırmayan görevli hakkında 139. madde hükmü uygulanır.",
+			"Tedbirin kaldırılması, ancak yargılamanın kesin hükümle sonuçlanmasından sonra mümkündür.",
+			"Tedbiri kaldırma yetkisi kural olarak 138. maddedeki yetkililere aittir.",
+			"Soruşturma sonunda memurluktan çıkarma veya cezai bir işlem uygulanmasına lüzum kalmayan memurlar için tedbir derhal kaldırılır."
+		],
+		"correctIndex": 2,
+		"explanation": "142. maddeye göre soruşturma sonunda memurluktan çıkarma veya cezai bir işlem uygulanmasına lüzum kalmayan memurlar için tedbir DERHAL kaldırılır; kesin hüküm beklenmez. Tedbiri kaldırmayan görevli hakkında, keyfî görevden uzaklaştırmayı yaptırıma bağlayan 139. madde hükmü uygulanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "142"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorevden-uzaklastirma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-disiplin-056",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 143. maddesine göre, aşağıdaki hâllerden hangisinde görevden uzaklaştırma tedbirinin kaldırılması zorunlu değildir?",
+		"options": [
+			"Hükümden evvel haklarındaki kovuşturma genel af ile kaldırılanlar",
+			"Haklarında memurluktan çıkarmadan başka bir disiplin cezası verilenler",
+			"Memurluğa engel olmayacak bir ceza ile hükümlü olup cezası ertelenenler",
+			"Yargılamanın men'ine veya beraatine karar verilenler",
+			"Haklarında Devlet memurluğundan çıkarma cezası verilenler"
+		],
+		"correctIndex": 4,
+		"explanation": "143. madde, tedbirin kaldırılmasının zorunlu olduğu hâlleri dört bent hâlinde sayar: memurluktan çıkarmadan başka bir disiplin cezası verilenler, yargılamanın men'ine veya beraatine karar verilenler, kovuşturması hükümden evvel genel af ile kaldırılanlar ve memurluğa engel olmayacak bir ceza ile hükümlü olup cezası ertelenenler. Memurluktan çıkarma cezası verilen memur bu kapsamda değildir; kararların kesinleşmesiyle memurluk sona erer.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "143"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorevden-uzaklastirma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-disiplin-057",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 145. maddesine göre görevden uzaklaştırma süresi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Ceza kovuşturması icabından olan görevden uzaklaştırmada yetkili amir ilgilinin durumunu her altı ayda bir inceler.",
+			"Disiplin kovuşturması icabından olan görevden uzaklaştırma en çok altı ay devam edebilir.",
+			"Görevden uzaklaştırma tedbiri için herhangi bir süre sınırı öngörülmemiştir.",
+			"Disiplin kovuşturması icabından olan görevden uzaklaştırma en çok üç ay devam edebilir; bu süre sonunda karar verilmezse memur görevine başlatılır.",
+			"Üç ayın sonunda karar verilmezse memur çekilmiş sayılır."
+		],
+		"correctIndex": 3,
+		"explanation": "145. maddeye göre bir DİSİPLİN kovuşturması icabından olan görevden uzaklaştırma en çok ÜÇ AY sürer; bu sürenin sonunda hakkında karar verilmeyen memur görevine başlatılır. Bir CEZA kovuşturması icabından olan görevden uzaklaştırmada ise yetkili amir ilgilinin durumunu HER İKİ AYDA BİR inceleyerek göreve dönüp dönmemesi hakkında karar verir ve kararı yazı ile tebliğ eder.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "145"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorevden-uzaklastirma",
+			"sure"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

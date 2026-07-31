@@ -1674,5 +1674,437 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-thakl-051",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 21. maddesine göre konut dokunulmazlığı bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Konut dokunulmazlığı yalnızca millî güvenlik sebebiyle sınırlanabilir; maddede başka bir sınırlama sebebi öngörülmemiştir.",
+			"Hâkim, kararını el koymadan itibaren kırk sekiz saat içinde açıklar; aksi hâlde el koyma kendiliğinden kalkar.",
+			"Usulüne göre verilmiş hâkim kararı olmadıkça kimsenin konutuna girilemez, arama yapılamaz ve buradaki eşyaya el konulamaz.",
+			"Gecikmesinde sakınca bulunan hâllerde kanunla yetkili kılınmış merciin yazılı emriyle de konuta girilebilir.",
+			"Yetkili merciin kararı yirmi dört saat içinde görevli hâkimin onayına sunulur."
+		],
+		"correctIndex": 0,
+		"explanation": "21. madde konut dokunulmazlığının sınırlanma sebeplerini tek tek sayar: millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlık ve genel ahlâkın korunması veya başkalarının hak ve özgürlüklerinin korunması. Sebep millî güvenlikle sınırlı değildir. Diğer seçenekler maddenin usul güvencelerini (hâkim kararı, yazılı emir, 24 saat onay, 48 saat karar) doğru yansıtır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "21"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"konut-dokunulmazligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-thakl-052",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 25. maddesine göre düşünce ve kanaat hürriyeti bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Her ne sebep ve amaçla olursa olsun kimse, düşünce ve kanaatlerini açıklamaya zorlanamaz.",
+			"Düşünce ve kanaatlerini açıklamaya zorlanmama güvencesi, olağanüstü hâllerde tümüyle askıya alınabilir.",
+			"Düşünce ve kanaat hürriyeti yalnızca Türk vatandaşlarına tanınmıştır.",
+			"Düşünce ve kanaatleri sebebiyle kişi hakkında kınama yaptırımı uygulanabilir.",
+			"Kamu düzeninin korunması amacıyla kişi, düşünce ve kanaatlerini açıklamaya zorlanabilir."
+		],
+		"correctIndex": 0,
+		"explanation": "25. madde herkese düşünce ve kanaat hürriyeti tanır ve ikinci fıkrasında hiç kimsenin, hiçbir sebep ve amaçla düşünce ve kanaatlerini açıklamaya zorlanamayacağını, bunlar sebebiyle kınanamayacağını ve suçlanamayacağını belirtir. Bu güvence 15. maddede olağanüstü hâllerde bile dokunulamayacak çekirdek alan içinde sayılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "25"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dusunce-hurriyeti"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-thakl-053",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 28. maddesine göre basın hürriyeti bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Basımevi kurmak izin alma ve malî teminat yatırma şartına bağlanamaz.",
+			"Devlet, basın ve haber alma hürriyetlerini sağlayacak tedbirleri alır.",
+			"Olaylar hakkında hiçbir hâlde yayım yasağı konulamaz; hâkim kararıyla dahi yayım yasağı mümkün değildir.",
+			"Basın hürriyetinin sınırlanmasında Anayasa'nın 26 ve 27. maddeleri hükümleri uygulanır.",
+			"Basın hürdür, sansür edilemez."
+		],
+		"correctIndex": 2,
+		"explanation": "28. madde, yargılama görevinin amacına uygun yerine getirilmesi için kanunla belirtilecek sınırlar içinde HÂKİM tarafından verilen kararları saklı tutar; yayım yasağı konulamayacağı kuralı bu istisna dışındadır. Diğer seçenekler maddenin ilk fıkralarının doğrudan ifadesidir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"basin-hurriyeti"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-thakl-054",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 33. maddesine göre dernek kurma hürriyeti bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Dernekler, kanunun öngördüğü hâllerde hâkim kararıyla kapatılabilir veya faaliyetten alıkonulabilir.",
+			"Dernek kurma hürriyeti, görevlerinin gerektirdiği ölçüde de olsa Devlet memurları bakımından kanunla sınırlanamaz.",
+			"Madde hükümleri vakıflarla ilgili olarak da uygulanır.",
+			"Hiç kimse bir derneğe üye olmaya ve dernekte üye kalmaya zorlanamaz.",
+			"Herkes, önceden izin almaksızın dernek kurma ve bunlara üye olma ya da üyelikten çıkma hürriyetine sahiptir."
+		],
+		"correctIndex": 1,
+		"explanation": "33. maddenin son fıkralarına göre birinci fıkra hükmü, Silahlı Kuvvetler ve kolluk kuvvetleri mensuplarına ve görevlerinin gerektirdiği ölçüde Devlet memurlarına kanunla sınırlamalar getirilmesine engel değildir. Gecikmesinde sakınca bulunan hâllerde faaliyetten men kararı veren merciin kararı da 24 saat içinde hâkim onayına sunulur ve hâkim 48 saat içinde karar verir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "33"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dernek-kurma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-thakl-055",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 40. maddesine göre temel hak ve hürriyetlerin korunması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Başvuru yolları ile sürelerin gösterilmesi zorunluluğu yalnızca yargı kararları bakımından geçerlidir.",
+			"Anayasa ile tanınmış hakları ihlal edilen kişi, korunmayı yalnızca dava açmak suretiyle isteyebilir.",
+			"Resmî görevlilerin haksız işlemleri sonucu uğranılan zarar yalnızca ilgili görevliden istenebilir.",
+			"Devlet, işlemlerinde ilgili kişilerin hangi kanun yollarına ve mercilere başvuracağını ve sürelerini belirtmek zorundadır.",
+			"Devletin, tazmin ettiği zarar için sorumlu görevliye rücu hakkı yoktur."
+		],
+		"correctIndex": 3,
+		"explanation": "40. madde hakkı ihlal edilen herkese yetkili makama geciktirilmeden başvurma imkânı tanır; 2001'de eklenen fıkra ile Devlete, işlemlerinde başvurulacak kanun yollarını, mercileri ve süreleri gösterme yükümlülüğü getirilmiştir. Resmî görevlilerin haksız işlemlerinden doğan zarar Devletçe tazmin edilir; Devletin sorumlu görevliye rücu hakkı saklıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "40"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hak-arama",
+			"basvuru-yollari"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-thakl-056",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 46. maddesine göre kamulaştırma bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Ödenmemiş kamulaştırma bedellerinde, kamu alacakları için öngörülen en düşük faiz uygulanır.",
+			"Devlet ve kamu tüzel kişileri, kamu yararının gerektirdiği hâllerde gerçek karşılıklarını peşin ödemek şartıyla kamulaştırma yapabilir.",
+			"Kamulaştırılan topraktan, o toprağı doğrudan doğruya işleten küçük çiftçiye ait olanların bedeli her hâlde peşin ödenir.",
+			"Kanunun taksitle ödemeyi öngörebileceği hâllerde taksitlendirme süresi beş yılı aşamaz ve taksitler eşit olarak ödenir.",
+			"Kamulaştırma bedeli ile kesin hükme bağlanan artırım bedeli nakden ve peşin olarak ödenir."
+		],
+		"correctIndex": 0,
+		"explanation": "46. maddenin son fıkrası, taksitlendirmelerde ve herhangi bir sebeple ödenmemiş kamulaştırma bedellerinde kamu alacakları için öngörülen EN YÜKSEK faizin uygulanacağını söyler. Taksitle ödeme yalnızca maddede sayılan istisnai projeler (tarım reformu, büyük enerji ve sulama, iskân, orman yetiştirme, kıyı koruma, turizm) için mümkündür ve süre beş yılı aşamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "46"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kamulastirma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-thakl-057",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 48 ve 49. maddelerine göre çalışma ile ilgili aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Devlet, çalışanları ve işsizleri korumak, işsizliği önlemeye elverişli ekonomik bir ortam yaratmak ve çalışma barışını sağlamak için gerekli tedbirleri alır.",
+			"Herkes, dilediği alanda çalışma ve sözleşme hürriyetlerine sahiptir; özel teşebbüsler kurmak serbesttir.",
+			"Devlet, özel teşebbüslerin işleyişine hiçbir şekilde müdahale edemez; bu teşebbüsler bakımından herhangi bir tedbir alamaz.",
+			"Çalışma, herkesin hakkı ve ödevidir.",
+			"Devlet, çalışanların hayat seviyesini yükseltmek ve çalışma hayatını geliştirmek için gerekli tedbirleri alır."
+		],
+		"correctIndex": 2,
+		"explanation": "48. maddenin ikinci fıkrası Devlete, özel teşebbüslerin millî ekonominin gereklerine ve sosyal amaçlara uygun yürümesini, güvenlik ve kararlılık içinde çalışmasını sağlayacak tedbirleri alma görevi verir. Çalışma hakkı ve ödevi ile Devletin çalışma hayatına ilişkin görevleri 49. maddede düzenlenmiştir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "48"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"calisma-hurriyeti"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-thakl-058",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 50. maddesine göre çalışma şartları ve dinlenme hakkı bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Dinlenmek, çalışanların hakkıdır.",
+			"Kimse, yaşına, cinsiyetine ve gücüne uymayan işlerde çalıştırılamaz.",
+			"Ücretli hafta ve bayram tatili ile ücretli yıllık izin hakları ve şartları kanunla düzenlenir.",
+			"Küçükler ve kadınlar ile bedenî ve ruhî yetersizliği olanlar çalışma şartları bakımından özel olarak korunur.",
+			"Ücretli yıllık izin hakkı Anayasa'da yer almaz; bu hak tümüyle taraflar arasındaki sözleşmeye bırakılmıştır."
+		],
+		"correctIndex": 4,
+		"explanation": "50. madde dinlenmeyi çalışanların hakkı sayar ve ücretli hafta ile bayram tatili, ücretli yıllık izin haklarının ve şartlarının KANUNLA düzenleneceğini açıkça belirtir; bu haklar sözleşme serbestisine bırakılmamıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "50"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"calisma-sartlari",
+			"dinlenme-hakki"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-thakl-059",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 56. maddesine göre sağlık hizmetleri ve çevrenin korunması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Devlet sağlık görevini yalnızca kamu kuruluşları eliyle yerine getirir; özel kesim kuruluşlarından yararlanamaz.",
+			"Çevreyi geliştirmek, çevre sağlığını korumak ve çevre kirlenmesini önlemek Devletin ve vatandaşların ödevidir.",
+			"Genel sağlık sigortası ancak Cumhurbaşkanlığı kararnamesiyle kurulabilir.",
+			"Çevrenin korunması yalnızca Devletin ödevi olarak düzenlenmiştir.",
+			"Sağlıklı ve dengeli bir çevrede yaşama hakkı yalnızca Türk vatandaşlarına tanınmıştır."
+		],
+		"correctIndex": 1,
+		"explanation": "56. madde herkese sağlıklı ve dengeli bir çevrede yaşama hakkı tanır ve çevreyi geliştirme, çevre sağlığını koruma ile çevre kirlenmesini önleme ödevini hem Devlete hem vatandaşlara yükler. Devlet bu görevini kamu ve özel kesimdeki sağlık ve sosyal kurumlardan yararlanarak, onları denetleyerek yerine getirir; genel sağlık sigortası kanunla kurulabilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "56"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cevre-hakki",
+			"saglik-hizmetleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-thakl-060",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın sosyal güvenlik hakkını düzenleyen 60. maddesine göre aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Herkes sosyal güvenlik hakkına sahiptir; Devlet bu güvenliği sağlayacak gerekli tedbirleri alır ve teşkilatı kurar.",
+			"Sosyal güvenlik hakkından yararlanmak Türk vatandaşı olma şartına bağlanmıştır.",
+			"Devletin sosyal güvenlik teşkilatı kurma yükümlülüğü yoktur; bu alan özel sigortacılığa bırakılmıştır.",
+			"Sosyal güvenlik hakkı yalnızca bir işte fiilen çalışanlara tanınmıştır.",
+			"Sosyal güvenlik hakkı, Anayasa'nın siyasi haklar ve ödevler bölümünde düzenlenmiştir."
+		],
+		"correctIndex": 0,
+		"explanation": "60. madde iki cümleden ibarettir: herkes sosyal güvenlik hakkına sahiptir ve Devlet bu güvenliği sağlayacak gerekli tedbirleri alıp teşkilatı kurar. Hak, Sosyal ve Ekonomik Haklar ve Ödevler bölümünde yer alır; çalışma veya vatandaşlık şartına bağlanmamıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "60"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sosyal-guvenlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-thakl-061",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 65. maddesine göre Devletin sosyal ve ekonomik alanlardaki görevleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Devletin sosyal ve ekonomik ödevlerinin sınırı Cumhurbaşkanlığı kararnamesiyle tespit edilir.",
+			"Devlet bu görevlerini malî kaynaklarına bakılmaksızın derhal ve eksiksiz yerine getirmek zorundadır.",
+			"Bu görevlerin sınırı her yıl bütçe kanunuyla ayrıca belirlenir.",
+			"Bu hüküm 2017 Anayasa değişikliğiyle yürürlükten kaldırılmıştır.",
+			"Devlet bu görevlerini, amaçlarına uygun öncelikleri gözeterek malî kaynaklarının yeterliliği ölçüsünde yerine getirir."
+		],
+		"correctIndex": 4,
+		"explanation": "65. madde, sosyal ve ekonomik hakların Devlete yüklediği ödevlerin sınırını çizer: Devlet, Anayasa ile belirlenen bu görevleri, görevlerin amaçlarına uygun öncelikleri gözeterek malî kaynaklarının yeterliliği ölçüsünde yerine getirir. Madde 2001'de değiştirilmiş olup yürürlüktedir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "65"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sosyal-ekonomik-odevler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-thakl-062",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 66. maddesine göre Türk vatandaşlığı bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Vatandaşlıktan çıkarma ile ilgili karar ve işlemlere karşı yargı yolu kapatılamaz.",
+			"Vatandaşlık, kanunun gösterdiği şartlarla kazanılır ve ancak kanunda belirtilen hâllerde kaybedilir.",
+			"Türk Devletine vatandaşlık bağı ile bağlı olan herkes Türktür.",
+			"Hiçbir Türk, vatana bağlılıkla bağdaşmayan bir eylemde bulunmadıkça vatandaşlıktan çıkarılamaz.",
+			"Türk babanın çocuğu Türktür; Türk ananın çocuğunun vatandaşlığı ise babanın vatandaşlığına bağlıdır."
+		],
+		"correctIndex": 4,
+		"explanation": "66. maddenin ikinci fıkrası açıktır: Türk babanın VEYA Türk ananın çocuğu Türktür. Ana ile baba arasında ayrım yapılmamıştır. Maddenin diğer fıkraları vatandaşlığın kanunla kazanılıp kaybedilmesini, vatandaşlıktan çıkarmanın sınırını ve bu işlemlere karşı yargı yolunun kapatılamayacağını düzenler.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "66"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vatandaslik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-thakl-063",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 71. maddesine göre mal bildirimi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kamu hizmetine girenlerin mal bildiriminde bulunmaları ve bildirimlerin tekrarlanma süreleri kanunla düzenlenir; yasama ve yürütme organlarında görev alanlar bundan istisna edilemez.",
+			"Yasama organında görev alanlar mal bildirimi yükümlülüğünden istisna tutulmuştur.",
+			"Mal bildiriminin tekrarlanma süreleri Cumhurbaşkanlığı kararnamesiyle belirlenir.",
+			"Mal bildirimi yükümlülüğü yalnızca Devlet memurları bakımından öngörülmüştür.",
+			"Mal bildirimi Anayasa'da düzenlenmemiş olup yalnızca kanun düzeyinde bir yükümlülüktür."
+		],
+		"correctIndex": 0,
+		"explanation": "Mal bildirimi, Anayasa'nın Siyasi Haklar ve Ödevler bölümünde 71. maddede düzenlenmiştir. Yükümlülüğün kapsamı 'kamu hizmetine girenler' olup, madde yasama ve yürütme organlarında görev alanların istisna edilemeyeceğini açıkça belirtir. Ayrıntılar 3628 sayılı Kanun'la düzenlenmiştir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "71"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mal-bildirimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

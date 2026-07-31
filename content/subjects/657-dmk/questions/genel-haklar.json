@@ -1539,5 +1539,238 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-hak-047",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 203. maddesine göre aile yardımı ödeneğinin ödenmesi bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Aile yardımı ödeneği Devlet memurlarına her ay aylıklarıyla birlikte ödenir.",
+			"Karı ve kocanın her ikisi de memur ise bu ödenek yalnız kocaya verilir.",
+			"Aile yardımı ödeneği yılda bir kez, malî yıl sonunda toplu olarak ödenir.",
+			"Aile yardımı ödeneği borç için haczedilemez.",
+			"Aile yardımı ödenekleri hiçbir vergi ve kesintiye tabi tutulmaksızın ödenir."
+		],
+		"correctIndex": 2,
+		"explanation": "203. madde aile yardımı ödeneğinin HER AY aylıklarla birlikte ödeneceğini belirtir. Madde ayrıca eşlerin ikisi de memursa ödeneğin yalnız kocaya verileceğini, ödeneğin hiçbir vergi ve kesintiye tabi tutulmayacağını ve borç için haczedilemeyeceğini düzenler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "203"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"aile-yardimi-odenegi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-048",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 204. maddesine göre memur, eş için ödenen aile yardımı ödeneğine ne zaman hak kazanır?",
+		"options": [
+			"Evlendiği tarihten itibaren",
+			"Evlendiği tarihten üç ay sonra",
+			"Evlenme tarihini takip eden malî yıl başından itibaren",
+			"Evlendiği tarihi takip eden ay başından itibaren",
+			"Evlenmeyi kurumuna bildirdiği tarihten itibaren"
+		],
+		"correctIndex": 3,
+		"explanation": "204. maddeye göre memur, eş için ödenen aile yardımı ödeneğine EVLENDİĞİ, çocuk için ödenen yardıma da ÇOCUĞUNUN DOĞDUĞU tarihi takip eden ay başından itibaren hak kazanır. Ölçüt olayın kendisi değil, olayı izleyen ay başıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "204"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"aile-yardimi-odenegi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-049",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 205. maddesine göre aile yardımı ödeneği hakkının kaybedilmesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Memur, eş için ödenen ödenek hakkını eşinden boşanma veya eşinin ölümünü takip eden ay başından itibaren kaybeder.",
+			"Hak kaybı, olayı izleyen malî yılın başından itibaren doğar.",
+			"Çocuk için ödenen yardım hakkı yalnızca çocuğun ölümü hâlinde kaybedilir.",
+			"Boşanma hâlinde eş için ödenen ödenek kesilmez, ödenmeye devam edilir.",
+			"Hak kaybı, ilgili olayın gerçekleştiği günden itibaren doğar."
+		],
+		"correctIndex": 0,
+		"explanation": "205. maddeye göre eş için ödenen ödenek hakkı boşanma veya eşin ölümünü, çocuk için ödenen yardım hakkı ise çocuğun ölümünü VEYA 206. maddedeki hâllerin gerçekleşmesini takip eden ay başından itibaren kaybedilir. Hak kazanmada olduğu gibi hak kaybında da ölçüt, olayı izleyen ay başıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "205"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"aile-yardimi-odenegi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-050",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 164. maddesine göre memur aylıklarının ödenmesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Emekliye ayrılma hâlinde peşin ödenen aylığın kalan günlere isabet eden kısmı geri alınır.",
+			"Memurlara aylıkları her ayın başında peşin ödenir; emekliye ayrılma ve ölüm hâllerinde o aya ait peşin ödenen aylık geri alınmaz.",
+			"Memur aylıkları çalışılan ayın sonunda ödenir.",
+			"Ölüm hâlinde o aya ait peşin ödenen aylık mirasçılardan geri alınır.",
+			"Sözleşmeli personelin ücretleri de memur aylıkları gibi her ayın başında peşin ödenir."
+		],
+		"correctIndex": 1,
+		"explanation": "164. maddeye göre memurlara aylıkları her ayın başında PEŞİN ödenir ve emekliye ayrılma ile ölüm hâllerinde o aya ait peşin ödenen aylık GERİ ALINMAZ. Sözleşmeli personelin ücretleri sözleşme şartlarına göre, geçici personelin gündelikleri ise gün hesabıyla hafta veya ay sonlarında ödenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "164"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"aylik",
+			"odeme-zamani"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-051",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 178. maddesine göre, fazla çalışma ücreti verilmeksizin çalıştırılan memurlar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Fazla çalışma karşılığında izin verilmesi mümkün değildir; her hâlde ücret ödenir.",
+			"Bu şekilde verilen izin kullanılmazsa ertesi yıla devreder.",
+			"Yaptırılan fazla çalışmanın her dört saati için bir gün izin verilir.",
+			"Bu şekilde verilecek iznin tamamı yıllık izinle birleştirilebilir.",
+			"Yaptırılan fazla çalışmanın her sekiz saati için bir gün izin verilir; bu iznin en çok on günlük kısmı yıllık izinle birleştirilerek yılı içinde kullandırılabilir."
+		],
+		"correctIndex": 4,
+		"explanation": "178. maddenin (B) fıkrasına göre kurumlar gerektiğinde personelini fazla çalışma ücreti vermeksizin çalıştırabilir; bu durumda fazla çalışmanın HER SEKİZ SAATİ için BİR GÜN izin verilir ve bu iznin en çok ON GÜNLÜK kısmı yıllık izinle birleştirilerek YILI İÇİNDE kullandırılabilir. Fazla çalışmanın ücretle karşılandığı hâller (A fıkrası) salgın hastalık ve tabii afet gibi olağanüstü hâller ile işçilerle birlikte çalışma zorunluluğu hâlleriyle sınırlıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "178"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fazla-calisma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-052",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 189. maddesine göre yeniden işe alıştırma bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yeniden işe alıştırma yalnızca aday memurlar hakkında uygulanır.",
+			"İşe alıştırmanın ne suretle yapılacağı 657 sayılı Kanun'da ayrıntılı olarak düzenlenmiştir.",
+			"Malûllük aylığı bağlanan memurların yeniden çalıştırılması hiçbir şekilde mümkün değildir.",
+			"Malûllük aylığı bağlanan memurlardan çalışma gücünün artırılabileceği umulanlar, eski sınıflarında veya yeni bir sınıf ya da meslekte çalışabilmelerini sağlamak üzere işe alıştırılmaya tabi tutulabilir.",
+			"İşe alıştırmaya tabi tutulan memur, eski sınıfı dışında bir sınıfta çalıştırılamaz."
+		],
+		"correctIndex": 3,
+		"explanation": "189. madde, malûllük aylığı bağlanan memurlardan çalışma gücünün artırılabileceği umulanların eski sınıflarında veya YENİ bir sınıf ya da meslekte çalışabilmelerini sağlamak üzere işe alıştırılmaya tabi tutulabileceğini öngörür. İşe alıştırmanın ne suretle ve hangi esaslara göre yapılacağı ÖZEL KANUNUNDA gösterilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "189"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yeniden-ise-alistirma",
+			"sosyal-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-053",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 191. maddesine göre memurların sosyal tesis ihtiyaçları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Sosyal tesislerden yararlanma yalnızca yönetici kadrolarına tanınmıştır.",
+			"Devlet memurları için lüzum ve ihtiyaç görülen yerlerde çocuk bakımevi ve sosyal tesisler kurulabilir.",
+			"Çocuk bakımevlerinin kuruluş ve işletme esasları her kurumun kendi iç yönergesiyle belirlenir.",
+			"Her kurum, bulunduğu her yerde çocuk bakımevi kurmak zorundadır.",
+			"Sosyal tesis kurulması yalnızca merkez teşkilatlarında mümkündür."
+		],
+		"correctIndex": 1,
+		"explanation": "191. maddeye göre Devlet memurları için LÜZUM VE İHTİYAÇ GÖRÜLEN yerlerde çocuk bakımevi ve sosyal tesisler kurulabilir; hüküm zorunluluk değil imkân getirir. Bunların kuruluş ve işletme esas ve usulleri genel bir yönetmelikle belirlenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "191"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sosyal-tesisler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

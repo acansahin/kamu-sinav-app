@@ -1404,5 +1404,105 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "anayasa-yasama-043",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 165. maddesine göre kamu iktisadî teşebbüslerinin denetimi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu kuruluşların denetlenmesi esasları Cumhurbaşkanlığı kararnamesiyle düzenlenir.",
+			"Sermayesinin yarısından fazlası doğrudan doğruya veya dolaylı olarak Devlete ait olan kamu kuruluş ve ortaklıklarının Türkiye Büyük Millet Meclisince denetlenmesi esasları kanunla düzenlenir.",
+			"Denetim, yalnızca sermayesinin tamamı Devlete ait olan kuruluşları kapsar.",
+			"Bu kuruluşlar yalnızca Sayıştay tarafından denetlenir; Türkiye Büyük Millet Meclisinin denetim yetkisi yoktur.",
+			"Bu hüküm 2017 Anayasa değişikliğiyle yürürlükten kaldırılmıştır."
+		],
+		"correctIndex": 1,
+		"explanation": "165. madde, sermayesinin yarısından fazlası doğrudan doğruya veya DOLAYLI olarak Devlete ait olan kamu kuruluş ve ortaklıklarının TBMM'ce denetlenmesi esaslarının kanunla düzenleneceğini öngörür; madde yürürlüktedir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "165"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kit-denetimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-yasama-044",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 161. maddesine göre kesinhesap bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Sayıştay genel uygunluk bildirimini, kesinhesap kanun teklifinin verilmesinden başlayarak en geç yetmiş beş gün içinde Meclise sunar.",
+			"Merkezî yönetim kesinhesap kanunu teklifi, ilgili olduğu malî yılın sonundan başlayarak en geç altı ay sonra Cumhurbaşkanı tarafından Türkiye Büyük Millet Meclisine sunulur.",
+			"Kesinhesap kanunu teklifi, yeni yıl bütçe kanunu teklifiyle birlikte görüşülür ve karara bağlanır.",
+			"Kesinhesap kanunu teklifi ve genel uygunluk bildiriminin Meclise verilmiş olması, ilgili yıla ait Sayıştayca sonuçlandırılamamış denetim ve hesap yargılamasını önlemez.",
+			"Kesinhesap kanunu teklifinin Meclise sunulması, o yıla ait Sayıştay denetiminin karara bağlandığı anlamına gelir."
+		],
+		"correctIndex": 4,
+		"explanation": "161. maddenin son fıkraları, kesinhesap kanunu teklifi ile genel uygunluk bildiriminin Meclise verilmiş olmasının ilgili yıla ait Sayıştayca sonuçlandırılamamış denetim ve hesap yargılamasını ÖNLEMEDİĞİNİ ve bunların karara bağlandığı ANLAMINA GELMEDİĞİNİ açıkça belirtir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "161"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kesinhesap",
+			"butce"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-yasama-045",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 161. maddesine göre bütçe kanununun süresinde yürürlüğe konulamaması hâlinde ne yapılır?",
+		"options": [
+			"Geçici bütçe kanunu çıkarılır; bu da çıkarılamazsa yeni bütçe kanunu kabul edilinceye kadar bir önceki yılın bütçesi yeniden değerleme oranına göre artırılarak uygulanır.",
+			"Yeni bütçe kabul edilinceye kadar bütün harcamalar durdurulur.",
+			"Türkiye Büyük Millet Meclisi Başkanlık Divanı geçici ödenek tutarlarını belirler.",
+			"Bütçe, Cumhurbaşkanlığı kararnamesiyle yürürlüğe konulur.",
+			"Bir önceki yılın bütçesi hiçbir artırım yapılmaksızın aynen uygulanır."
+		],
+		"correctIndex": 0,
+		"explanation": "161. madde iki kademeli bir çözüm öngörür: önce geçici bütçe kanunu çıkarılır; geçici bütçe kanunu da çıkarılamazsa, yeni bütçe kanunu kabul edilinceye kadar bir önceki yılın bütçesi YENİDEN DEĞERLEME ORANINA GÖRE ARTIRILARAK uygulanır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "161"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Anayasa metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gecici-butce"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

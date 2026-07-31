@@ -1074,5 +1074,141 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-genel-033",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 146. maddesine göre malî hükümler bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Amirler, hizmetin gereği olduğunu tespit ettikleri takdirde memurlara bu Kanun'da öngörülmeyen ek ödemeler yapılmasına karar verebilir.",
+			"Memurlara, mevzuatın ve amirlerin tayin ettiği görevler karşılığında bu Kanun'la sağlanan haklar dışında ücret ödenemez ve hiçbir yarar sağlanamaz.",
+			"Bu tutarın asgari ücretin altında kalması hâlinde aradaki fark, memurun diğer özlük hakları ile ilgilendirilmeksizin tazminat olarak ödenir.",
+			"Ödenecek aylık, taban aylığı, kıdem aylığı, zam ve tazminatlar ile diğer ödemeler toplamının brüt tutarı, bulunulan yerde işçiler için tespit olunan asgari ücretin aylık tutarından az olamaz.",
+			"Kanun'un 1. maddesinin birinci fıkrası kapsamına giren memurlar aylık, ücret ve ödenek bakımından bu Kanun'daki hükümlere tabidir."
+		],
+		"correctIndex": 0,
+		"explanation": "146. maddenin ikinci fıkrası mutlak bir yasak getirir: memurlara kanun, Cumhurbaşkanlığı kararnamesi ve yönetmeliklerin ve amirlerin tayin ettiği görevler karşılığında BU KANUNLA SAĞLANAN HAKLAR DIŞINDA ücret ödenemez, hiçbir yarar sağlanamaz. Madde ayrıca ödemeler toplamının brüt tutarı için asgari ücret güvencesi öngörür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "146"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mali-hukumler",
+			"asgari-ucret-guvencesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-genel-034",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 147. maddesindeki deyimlere göre aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+		"options": [
+			"Sözleşmeli ücreti: 4. maddenin (B) bendi gereğince çalıştırılan personele ödenen para",
+			"İş riski zammı: Hayat ve sağlık için tehlike arz eden hizmetlerde çalışanlara ödenen para",
+			"Malî sorumluluk tazminatı: Sayıştay'a hesap vermekle yükümlü olan saymanlarla vezne açığından sorumlu veznedarlara ödenen para",
+			"Gündelik: Kadroya dayanılarak çalışan memurlara ay itibarıyla ödenen para",
+			"Aylık: Bu Kanun'a tabi kurumlarda görevlendirilen memurlara hizmetleri karşılığında kadroya dayanılarak ay itibarıyla ödenen para"
+		],
+		"correctIndex": 3,
+		"explanation": "147. maddeye göre GÜNDELİK, 4. maddenin (C) ve (D) bentleri gereğince çalıştırılan personele ödenen paradır; kadroya dayanılarak ay itibarıyla ödenen para ise AYLIK'tır. Madde ayrıca ödül, temsil giderleri, ders görevi ücreti, fazla çalışma ücreti ile iş güçlüğü, iş riski ve eleman teminindeki güçlük zamlarını tanımlar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "147"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"deyimler",
+			"tanimlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-genel-035",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 154. maddesine göre aylık katsayısı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Aylık gösterge tablosundaki rakamların aylık tutarlara çevrilmesinde uygulanacak katsayılar Genel Bütçe Kanunu ile tespit olunur ve katsayılardaki değişiklik aylıklarda artış veya eksiliş sayılmaz.",
+			"Katsayılardaki değişiklik aylıklarda artış sayılır ve kademe ilerlemesi yerine geçer.",
+			"Katsayılar yalnızca Cumhurbaşkanlığı kararnamesiyle belirlenir.",
+			"Katsayılar bir kez tespit edildikten sonra malî yıl içinde hiçbir şekilde değiştirilemez.",
+			"Aylık katsayısı ile memuriyet taban aylığı katsayısının aynı olması zorunludur."
+		],
+		"correctIndex": 0,
+		"explanation": "154. maddeye göre aylık katsayısı ile taban aylık katsayısı, üçer veya altışar aylık dönemler itibarıyla uygulanmak üzere Genel Bütçe Kanunu ile tespit olunur; malî yılın ikinci yarısında Cumhurbaşkanı bu katsayıları değiştirmeye yetkilidir. Maddenin son cümlesi katsayılardaki değişikliğin aylıklarda artış veya eksiliş SAYILMAYACAĞINI belirtir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "154"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"katsayi",
+			"gosterge"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-genel-036",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 218. maddesine göre Devlet memurlarının yurt dışında yetiştirilmesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Devlet memurları yalnızca yurt içindeki kurumlarda yetiştirilebilir.",
+			"Devlet memurları yabancı memleketlerin hizmetle ilgili kurumlarında veya yetiştirme-eğitim merkezlerinde de yetiştirilebilir ve bunlar hakkında 79. madde hükümleri uygulanır.",
+			"Belirli bir dalda öğrenim ve ihtisas yapma müsaadesi verilmesi mümkün değildir.",
+			"Bu memurların kadrolarıyla ilişikleri kesilir.",
+			"Yurt dışında yetiştirilen memurlar hakkında hiçbir malî yükümlülük doğmaz."
+		],
+		"correctIndex": 1,
+		"explanation": "218. madde, Devlet memurlarının yabancı memleketlerin hizmetle ilgili kurumlarında veya yetiştirme-eğitim merkezlerinde de yetiştirilebileceğini; sınıflarının kapsadığı hizmetlerin niteliği bakımından gerekli görülenlere öğrenim veya ihtisas yapma müsaadesi verilebileceğini düzenler ve bu memurlar hakkında 79. MADDE hükümlerinin (kadroda bırakılma, ödemeler, süresinde dönmeyenin çekilmiş sayılması ve masrafların iki kat ödenmesi) uygulanacağını belirtir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "218"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yetistirme",
+			"yurt-disinda-yetistirme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]
