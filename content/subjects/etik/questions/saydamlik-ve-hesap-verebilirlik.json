@@ -268,8 +268,9 @@
 		"correctIndex": 2,
 		"explanation": "4982 sayılı Kanun'a göre belirtilen süreler içinde kurum ve kuruluşlar tarafından başvuru sahibine olumlu veya olumsuz herhangi bir cevap verilmemesi hâlinde başvuru, 2577 sayılı İdari Yargılama Usulü Kanunu'nun 10. maddesi uyarınca altmış günün geçmesiyle reddedilmiş sayılır. Bu zımni ret, dava açma hakkını doğurur.",
 		"legalRef": {
-			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-			"lawId": "4982"
+			"law": "2577 sayılı İdari Yargılama Usulü Kanunu",
+			"lawId": "2577",
+			"article": "10"
 		},
 		"source": {
 			"kind": "original",
@@ -282,8 +283,8 @@
 			"zimni-ret",
 			"sure"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-07-31"
 	},
 	{
 		"id": "etik-saydam-010",
@@ -415,5 +416,141 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "etik-saydam-014",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "orta",
+		"stem": "4982 sayılı Kanun'un 7. maddesine göre istenecek bilgi veya belgenin niteliği bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Ayrı veya özel bir çalışma, araştırma, inceleme ya da analiz neticesinde oluşturulabilecek türden bilgi talepleri olumsuz cevaplandırılabilir.",
+			"Kurumlar, ayrı ve özel bir araştırma gerektiren her talebi de karşılamak zorundadır.",
+			"İstenen bilgi başka bir kurumda bulunuyorsa başvuru dilekçesi o kuruma gönderilir ve durum ilgiliye yazılı olarak bildirilir.",
+			"Başvuru, kurum ve kuruluşların ellerinde bulunan veya görevleri gereği bulunması gereken bilgi veya belgelere ilişkin olmalıdır.",
+			"Kurumun elinde bulunmayan ancak görevi gereği bulunması gereken bilgiler de başvuruya konu olabilir."
+		],
+		"correctIndex": 1,
+		"explanation": "4982 sayılı Kanun'un 7. maddesi kurumlara, AYRI VEYA ÖZEL BİR ÇALIŞMA, ARAŞTIRMA, İNCELEME YA DA ANALİZ neticesinde oluşturulabilecek türden bilgi veya belge taleplerine OLUMSUZ CEVAP VEREBİLME imkânı tanır. Başvurunun konusu, kurumun elinde bulunan veya görevi gereği bulunması gereken bilgi ve belgelerdir.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"basvurunun-niteligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-saydam-015",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "zor",
+		"stem": "4982 sayılı Kanun'a göre bilgi veya belgeye erişim bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Kurum ve kuruluşlar, başvuru sahibine istenen belgenin onaylı bir kopyasını verir.",
+			"Kurumlar, erişimin gerektirdiği maliyet tutarı kadar bir ücreti bütçeye gelir kaydedilmek üzere tahsil edebilir.",
+			"Gizlilik dereceli veya açıklanması yasaklanan bilgilerle açıklanabilir nitelikte olanlar ayrılabiliyorsa, gizli kısımlar çıkarıldıktan sonra belge başvurana sunulur ve ayırma gerekçesi yazılı olarak bildirilir.",
+			"Bir belgede gizli ve açıklanabilir bilgiler birlikte bulunuyorsa belgenin tamamına erişim her hâlde reddedilir.",
+			"Kopya verilmesinin mümkün olmadığı hâllerde, yazılı veya basılı belgelerde aslın incelenmesi ve not alınması sağlanır."
+		],
+		"correctIndex": 3,
+		"explanation": "4982 sayılı Kanun'un 9. maddesi kısmi erişimi kural hâline getirir: gizlilik dereceli veya açıklanması yasaklanan bilgilerle açıklanabilir nitelikte olanlar BİRBİRİNDEN AYRILABİLİYORSA, gizli kısımlar çıkarıldıktan sonra belge başvuranın bilgisine sunulur ve ayırma gerekçesi yazılı bildirilir. 10. madde ise erişim biçimlerini ve maliyet karşılığı ücret alınabilmesini düzenler.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "9-10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"erisim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-saydam-016",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "zor",
+		"stem": "4982 sayılı Kanun'un 26. maddesine göre kurum içi görüş, bilgi notu ve tavsiyeler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Uzmanlık alanlarında yasal olarak görüş verme yükümlülüğü bulunanların görüşleri hiçbir şekilde bilgi edinme istemine açık değildir.",
+			"Bu bilgiler yalnızca kurum personeli tarafından talep edilebilir.",
+			"Kurumların faaliyetlerini yürütmek üzere elde ettikleri görüş, bilgi notu, teklif ve tavsiye niteliğindeki bilgiler, kurumca aksi kararlaştırılmadıkça bilgi edinme hakkı kapsamındadır.",
+			"Kurum içi görüş ve bilgi notları her hâlde bilgi edinme hakkının kapsamı dışındadır.",
+			"Kurum içi görüşler yalnızca ilgili bakanlığın izniyle bilgi edinme istemine açılabilir."
+		],
+		"correctIndex": 2,
+		"explanation": "4982 sayılı Kanun'un 26. maddesine göre kurum içi görüş, bilgi notu, teklif ve tavsiye niteliğindeki bilgiler KURUMCA AKSİ KARARLAŞTIRILMADIKÇA bilgi edinme hakkı kapsamındadır. Ayrıca bilimsel, teknik, tıbbî, malî, hukukî ve benzeri alanlarda yasal olarak görüş verme yükümlülüğü bulunanların görüşleri, kurumun alacağı kararlara esas teşkil etmesi kaydıyla bilgi edinme istemlerine açıktır.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "26"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"kurum-ici-gorus"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-saydam-017",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "orta",
+		"stem": "4982 sayılı Kanun'un 30. maddesine göre bilgi edinme istatistiklerinin raporlanması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kurumlar bir önceki yıla ait raporlarını her yıl şubat ayının sonuna kadar Bilgi Edinme Değerlendirme Kuruluna gönderir; Kurul genel raporu nisan ayının sonuna kadar Türkiye Büyük Millet Meclisine iletir.",
+			"Kurumlar raporlarını her yıl nisan ayının sonuna kadar doğrudan Türkiye Büyük Millet Meclisine gönderir.",
+			"Raporlar yalnızca reddedilen başvuru sayısını içerir.",
+			"Kurul, genel raporu doğrudan kamuoyuna açıklar; Türkiye Büyük Millet Meclisine gönderilmez.",
+			"Raporlama yükümlülüğü yalnızca merkezî idare kuruluşları için öngörülmüştür."
+		],
+		"correctIndex": 0,
+		"explanation": "30. madde iki aşamalı bir takvim kurar: kurumlar başvuru sayısı, olumlu cevaplananlar, reddedilenler ve dağılımı, kısmi erişim sağlananlar ile itirazlar ve sonuçlarını gösterir raporu her yıl ŞUBAT ayının sonuna kadar Bilgi Edinme Değerlendirme Kuruluna gönderir; Kurul da genel raporu NİSAN ayının sonuna kadar TBMM'ye gönderir. Raporlar takip eden iki ay içinde TBMM Başkanlığınca kamuoyuna açıklanır.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "30"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"raporlama"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

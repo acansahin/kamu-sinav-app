@@ -686,5 +686,102 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "etik-kurul-022",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "kolay",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'ne göre Kamu Görevlileri Etik Kuruluna başvuru hangi biçimlerde yapılabilir?",
+		"options": [
+			"Yalnızca ilgili kurumun etik komisyonu aracılığıyla",
+			"Yalnızca yazılı dilekçe ile",
+			"Yalnızca yazılı dilekçe veya elektronik posta ile",
+			"Yazılı dilekçe, elektronik posta veya tutanağa geçirilen sözlü başvuru yoluyla",
+			"Yalnızca ilgilinin bizzat gelerek yapacağı sözlü başvuru ile"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmeliğin 32. maddesi üç başvuru biçimini sayar: yazılı dilekçe, elektronik posta ve tutanağa geçirilen sözlü başvuru. Sözlü başvuruda başvuranın kimliği ve adresi de tutanağa alınır; elektronik ortamda yapılan başvurularda Kurul kayıtlarına ulaştığı tarih başvuru tarihidir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "32"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"basvuru-bicimleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-kurul-023",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'ne göre etik kültürün yerleştirilmesi ve eğitimi bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Kurul, kamu görevlileri için eğitim programları hazırlar, koordine eder ve yürütür.",
+			"Etik davranış ilkelerinin temel, hazırlayıcı ve hizmet içi eğitim programlarında yer alması kurum ve kuruluş yöneticilerince sağlanır.",
+			"Kurul; araştırma, yayın, anket, kamuoyu yoklaması ve bilimsel toplantılar gibi etkinlikler düzenleyebilir.",
+			"Kurul bu konularda üniversiteler, mahallî idareler ve uzman sivil toplum kuruluşlarıyla iş birliği yapabilir.",
+			"Etik konusundaki eğitim faaliyetleri yalnızca Kurul tarafından ve yalnızca merkezde yürütülebilir."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 25. maddesi Kurula geniş bir çalışma alanı tanır ve iş birliği yapabileceği kurumları (bakanlıklar, kamu kurum ve kuruluşları, üniversiteler, mahallî idareler, uzman sivil toplum kuruluşları) sayar. Ayrıca etik davranış ilkelerinin temel, hazırlayıcı ve hizmet içi eğitim programlarında yer almasını sağlama görevi KURUM VE KURULUŞ YÖNETİCİLERİNE verilmiştir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "25"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"etik-kultur",
+			"egitim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-kurul-024",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'ne göre kurumsal etik ilkeleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kurumsal etik ilkeleri, Kurulun onayı aranmaksızın doğrudan yürürlüğe konulur.",
+			"Kurumsal etik ilkeleri yalnızca mahallî idareler tarafından düzenlenebilir.",
+			"Kurum ve kuruluşların kendi etik ilkelerini belirlemesi mümkün değildir.",
+			"Kurumsal etik ilkeleri düzenlendiğinde Yönetmelikteki genel ilkeler o kurumda uygulanmaz.",
+			"Kurum ve kuruluşlar, yürüttükleri hizmetin veya görevin niteliğine göre kendi kurumsal etik davranış ilkelerini düzenlemek üzere Kurulun inceleme ve onayına sunabilir."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 26. maddesine göre Yönetmelikle belirlenen etik davranış ilkeleri kapsamdaki bütün kurumlarda uygulanır; buna EK OLARAK kurum ve kuruluşlar, yürüttükleri hizmetin veya görevin niteliğine göre kendi kurumsal etik davranış ilkelerini düzenlemek üzere KURULUN İNCELEME VE ONAYINA sunabilir. Kurumsal ilkeler genel ilkelerin yerine geçmez.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "26"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kurumsal-etik-ilkeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

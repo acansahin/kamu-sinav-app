@@ -453,5 +453,267 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "etik-ilke-015",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'nin 'dürüstlük ve tarafsızlık' ilkesine göre kamu görevlilerinin takdir yetkisini kullanması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Takdir yetkisinin kullanımı yönetmelikte düzenlenmemiştir.",
+			"Takdir yetkisi, kamu yararı ve hizmet gerekleri doğrultusunda, her türlü keyfilikten uzak, tarafsızlık ve eşitlik ilkelerine uygun olarak kullanılır.",
+			"Takdir yetkisi, amirin sözlü talimatı doğrultusunda serbestçe kullanılır.",
+			"Takdir yetkisi yalnızca yönetici konumundaki kamu görevlileri bakımından sınırlandırılmıştır.",
+			"Takdir yetkisi kullanılırken hizmetten yararlananlar arasında önceliklendirme yapılabilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğin 9. maddesi, kamu görevlilerinin tüm eylem ve işlemlerinde yasallık, adalet, eşitlik ve dürüstlük ilkeleri doğrultusunda hareket etmesini; takdir yetkisini KAMU YARARI VE HİZMET GEREKLERİ doğrultusunda, HER TÜRLÜ KEYFİLİKTEN UZAK, tarafsızlık ve eşitlik ilkelerine uygun kullanmasını öngörür. Madde ayrıca gerçek veya tüzel kişilere öncelikli, ayrıcalıklı ve taraflı muameleyi yasaklar.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"durustluk",
+			"tarafsizlik",
+			"takdir-yetkisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-ilke-016",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "zor",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'nin 'saygınlık ve güven' ilkesine göre yönetici veya denetleyici konumundaki kamu görevlileri bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Açık ve kesin kanıtlara dayanmayan rapor düzenleyemezler.",
+			"Talep etmemiş olsalar dahi kendilerine sunulan bu tür çıkarları kabul edemezler.",
+			"Keyfi davranışlarda, baskı, hakaret ve tehdit edici uygulamalarda bulunamazlar.",
+			"Mevzuata aykırı olarak kendileri için hizmet, imkân veya benzeri çıkarlar talep edemezler.",
+			"Kendileri talep etmedikleri sürece sunulan hizmet ve imkânları kabul edebilirler."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 10. maddesi yasağı iki yönlü kurar: yönetici veya denetleyici konumundaki kamu görevlileri mevzuata aykırı olarak kendileri için hizmet, imkân veya benzeri çıkarlar TALEP EDEMEZ ve TALEP OLMASA DAHİ SUNULANI KABUL EDEMEZLER. Madde ayrıca halkın kamu hizmetine güvenini zedeleyen davranışlardan kaçınmayı, hizmetten yararlananlara kötü davranmamayı ve çifte standart uygulamamayı öngörür.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sayginlik-ve-guven"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-ilke-017",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "kolay",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'nin 'nezaket ve saygı' ilkesine göre, kendisine gelen konu yetkisi dışında olan kamu görevlisi ne yapar?",
+		"options": [
+			"Konuyu ilgili birime veya yetkiliye yönlendirir.",
+			"Başvuruyu reddeder ve ilgiliye yazılı bildirimde bulunur.",
+			"Konuyu doğrudan kendi takdiriyle sonuçlandırır.",
+			"Başvuru sahibini yeni bir dilekçe vermeye yönlendirir.",
+			"Konuyu etik komisyonuna havale eder."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmeliğin 11. maddesine göre kamu görevlileri üstlerine, meslektaşlarına, astlarına, diğer personele ve hizmetten yararlananlara karşı nazik ve saygılı davranır, gerekli ilgiyi gösterir; konu yetkilerinin dışındaysa İLGİLİ BİRİME VEYA YETKİLİYE YÖNLENDİRİRLER.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nezaket-ve-saygi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-ilke-018",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'nin 'yetkili makamlara bildirim' ilkesine göre aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kurum ve kuruluş amirleri, ihbarda bulunan kamu görevlisinin kimliğini gizli tutar ve kendisine zarar gelmemesi için gerekli tedbirleri alır.",
+			"Bildirim yalnızca yazılı olarak ve doğrudan Kamu Görevlileri Etik Kuruluna yapılabilir.",
+			"İhbarda bulunan kamu görevlisinin kimliği, hakkında ihbarda bulunulan görevliye bildirilir.",
+			"Bildirim yükümlülüğü yalnızca kendisinden yasa dışı bir iş talep edilen görevli için doğar.",
+			"Etik ilkelerle bağdaşmayan bir eylemden haberdar olmak bildirim yükümlülüğü doğurmaz."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmeliğin 12. maddesi bildirim yükümlülüğünü üç hâlde birden doğurur: etik ilkelerle bağdaşmayan ya da yasa dışı bir iş ve eylemin kendisinden TALEP EDİLMESİ, böyle bir eylemden HABERDAR OLMA ya da bunu GÖRME. Maddenin ikinci fıkrası ihbarcıyı korur: kurum amirleri ihbarda bulunanın kimliğini gizli tutar ve zarar görmemesi için tedbir alır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yetkili-makamlara-bildirim",
+			"ihbar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-ilke-019",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "zor",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'nin 'görev ve yetkilerin menfaat sağlamak amacıyla kullanılmaması' ilkesine göre aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Akraba, eş, dost ve hemşehri kayırmacılığı ile siyasal kayırmacılık yapılamaz.",
+			"Seçim kampanyalarında kurumun kaynakları, dolaylı olarak kullanılması hâlinde yasağın dışındadır.",
+			"Görev sırasında elde edilen resmî veya gizli nitelikteki bilgiler, görevden ayrıldıktan sonra da yetkili makamlar dışında hiçbir kişi veya kuruma açıklanamaz.",
+			"Kamu görevlileri; görev, unvan ve yetkilerini kullanarak kendileri, yakınları veya üçüncü kişiler lehine menfaat sağlayamaz ve aracılıkta bulunamazlar.",
+			"Görev, unvan ve yetki kullanılarak kendilerinin veya başkalarının kitap, dergi, kaset, CD ve benzeri ürünlerinin satışı ve dağıtımı yaptırılamaz."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğin 14. maddesinin son fıkrası açıktır: kamu görevlileri seçim kampanyalarında görev yaptığı kurumun kaynaklarını DOĞRUDAN VEYA DOLAYLI OLARAK kullanamaz ve kullandıramazlar. Madde ayrıca herhangi bir kurum, vakıf, dernek veya spor kulübüne yardım ve bağış niteliğinde menfaat sağlamayı da yasaklar.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "14"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"menfaat-saglama",
+			"kayirmacilik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-ilke-020",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'nin kamu mallarının kullanımı ve savurganlıktan kaçınma ilkelerine göre aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Mesai süresi, kamu malları, kaynaklar, iş gücü ve imkânlar kullanılırken etkin, verimli ve tutumlu davranılır.",
+			"Kamu bina ve taşıtları ile diğer kamu malları ve kaynakları, kamusal amaçlar ve hizmet gerekleri dışında kullanılamaz ve kullandırılamaz.",
+			"Kamu mallarının ve kaynaklarının kullanımında israf ve savurganlıktan kaçınılır.",
+			"Mesai süresinin kullanımı bu ilkelerin kapsamı dışındadır; yalnızca maddi kaynaklar bakımından uygulanır.",
+			"Kamu görevlileri bu malları korur ve her an hizmete hazır hâlde bulundurmak için gerekli tedbirleri alır."
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmeliğin 17. maddesi savurganlıktan kaçınma ilkesini yalnızca maddi kaynaklarla sınırlamaz: kamu görevlileri MESAİ SÜRESİNİ, kamu mallarını, kaynaklarını, İŞ GÜCÜNÜ ve imkânlarını kullanırken etkin, verimli ve tutumlu davranırlar. 16. madde ise bu malların kamusal amaç ve hizmet gerekleri dışında kullanılmasını yasaklar.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "16-17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kamu-mallari",
+			"savurganlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-ilke-021",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'nin 'bağlayıcı açıklamalar ve gerçek dışı beyan' ilkesine göre aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Gerçek dışı beyan yasağı yalnızca yönetici konumundaki görevliler için öngörülmüştür.",
+			"Kurumu bağlayıcı açıklamalar, amirin sözlü izniyle yapılabilir.",
+			"Yasak yalnızca yazılı taahhütleri kapsar; sözlü vaatler kapsam dışıdır.",
+			"Yasak yalnızca basına yapılan açıklamalar bakımından geçerlidir.",
+			"Kamu görevlileri yetkilerini aşarak çalıştıkları kurumu bağlayıcı açıklama, taahhüt, vaat veya girişimlerde bulunamaz; aldatıcı ve gerçek dışı beyanat veremezler."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 18. maddesi iki yasağı birlikte koyar: kamu görevlileri görevlerini yerine getirirken YETKİLERİNİ AŞARAK kurumlarını bağlayıcı açıklama, taahhüt, vaat veya girişimlerde bulunamaz ve ALDATICI VE GERÇEK DIŞI BEYANAT veremezler. Hüküm beyanın biçimine, muhatabına veya görevlinin unvanına göre daralmaz.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "18"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"baglayici-aciklama",
+			"gercek-disi-beyan"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-ilke-022",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "zor",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'nin 'eski kamu görevlileriyle ilişkiler' ilkesine göre aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kamu görevinden ayrılan kişilere, daha önce görev yaptıkları kurumdan doğrudan veya dolaylı olarak yüklenicilik, komisyonculuk, temsilcilik, bilirkişilik veya aracılık görevi verilemez.",
+			"Eski kamu görevlilerine, kıdemleri dikkate alınarak kamu hizmetlerinden öncelikli yararlanma imkânı tanınır.",
+			"Eski görevlilere bilirkişilik görevi verilmesi bu ilkenin kapsamı dışındadır.",
+			"Yasak yalnızca doğrudan verilen görevleri kapsar; dolaylı ilişkiler serbesttir.",
+			"Yasak yalnızca emekliye ayrılanlar bakımından geçerlidir."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmeliğin 21. maddesi iki kural içerir: eski kamu görevlileri kamu hizmetlerinden ayrıcalıklı şekilde faydalandırılamaz ve onlara imtiyazlı muamele yapılamaz; ayrıca kamu görevinden ayrılanlara, ilgili kanunlardaki hüküm ve süreler saklı kalmak kaydıyla, daha önce görev yaptıkları kurumdan DOĞRUDAN VEYA DOLAYLI olarak yüklenicilik, komisyonculuk, temsilcilik, bilirkişilik, aracılık veya benzeri görev ve iş verilemez.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "21"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"eski-kamu-gorevlileri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

@@ -410,5 +410,172 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "etik-cikar-014",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "zor",
+		"stem": "3628 sayılı Kanun'un 3. maddesine göre, kamu görevlilerinin yabancı devletlerden veya milletlerarası kuruluşlardan aldıkları hediyeler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Aldıkları tarihteki değeri on aylık net asgari ücret toplamını aşan hediye veya hibe niteliğindeki eşya, alındığı tarihten itibaren bir ay içinde kuruma teslim edilir.",
+			"Değeri ne olursa olsun bütün hediyeler bir hafta içinde kuruma teslim edilir.",
+			"Yabancı devletlerden alınan hediyeler bakımından teslim yükümlülüğü öngörülmemiştir.",
+			"Değeri beş aylık net asgari ücreti aşan hediyeler üç ay içinde teslim edilir.",
+			"Yabancı devlet adamlarınca verilen imzalı hatıra fotoğraflarının çerçeveleri de teslim yükümlülüğü kapsamındadır."
+		],
+		"correctIndex": 0,
+		"explanation": "3628 sayılı Kanun'un 3. maddesine göre eşik ON AYLIK NET ASGARİ ÜCRET toplamıdır; bunu aşan hediye veya hibe niteliğindeki eşya alındığı tarihten itibaren BİR AY içinde kuruma teslim edilir. Yabancı devlet adamları ve milletlerarası kuruluş temsilcilerince verilen imzalı hatıra fotoğraflarının çerçeveleri madde kapsamı dışındadır.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hediye",
+			"yabanci-kaynakli-hediye"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-cikar-015",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "orta",
+		"stem": "3628 sayılı Kanun'un 4. maddesine göre haksız mal edinme bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Geliriyle uyumlu olmayan harcamalar, mal varlığında artış yoksa değerlendirmeye alınmaz.",
+			"Haksız mal edinme yalnızca taşınmaz mallar bakımından tanımlanmıştır.",
+			"Haksız mal edinme yalnızca rüşvet veya zimmet suçunun sabit görülmesi hâlinde söz konusu olur.",
+			"Kanuna veya genel ahlaka uygun olarak sağlandığı ispat edilemeyen mallar ile kişinin sosyal yaşantısı bakımından geliriyle uygun kabul edilemeyecek harcamalar şeklindeki artışlar haksız mal edinme sayılır.",
+			"Malın kanuna uygun sağlandığını ispat yükü her hâlde idareye aittir."
+		],
+		"correctIndex": 3,
+		"explanation": "3628 sayılı Kanun'un 4. maddesi haksız mal edinmeyi iki görünümle tanımlar: KANUNA VEYA GENEL AHLAKA UYGUN OLARAK SAĞLANDIĞI İSPAT EDİLEMEYEN mallar ve ilgilinin SOSYAL YAŞANTISI BAKIMINDAN GELİRİYLE UYGUN OLDUĞU KABUL EDİLEMEYECEK harcamalar şeklinde ortaya çıkan artışlar. Tanım belirli bir suçun sabit olmasına bağlanmamıştır.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"haksiz-mal-edinme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-cikar-016",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "orta",
+		"stem": "3628 sayılı Kanun'un 10. maddesine göre, süresinde mal bildiriminde bulunmayan kamu görevlisi hakkında izlenecek yol aşağıdakilerden hangisidir?",
+		"options": [
+			"Süresinde bildirimde bulunmamak yalnızca disiplin cezasını gerektirir.",
+			"Doğrudan ve ihtara gerek olmaksızın hapis cezası verilir.",
+			"Bildirimlerin verileceği mercilerce ihtarda bulunulur; ihtarın tebliğinden itibaren otuz gün içinde mazeretsiz olarak bildirimde bulunmayana üç aya kadar hapis cezası verilir.",
+			"İhtar yapılır; bildirimde bulunulmaması hâlinde memuriyete son verilir.",
+			"İhtarın tebliğinden itibaren yedi gün içinde bildirimde bulunulmazsa idari para cezası uygulanır."
+		],
+		"correctIndex": 2,
+		"explanation": "3628 sayılı Kanun'un 10. maddesi iki aşamalı bir usul kurar: önce bildirimlerin verileceği mercilerce İHTARDA bulunulur, ihtarın tebliğinden itibaren OTUZ GÜN içinde mazeretsiz olarak bildirimde bulunmayana ÜÇ AYA KADAR HAPİS cezası verilir. Soruşturma ile ilgili olarak verilen süre içinde bildirimde bulunmayana ise üç aydan bir yıla kadar hapis cezası verilir.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mal-bildirimi",
+			"ceza"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-cikar-017",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "zor",
+		"stem": "3628 sayılı Kanun'un ceza hükümlerine göre aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Haksız edinilen malı kaçıran veya gizleyene de haksız mal edinenle aynı ceza verilir.",
+			"Gerçeğe aykırı bildirimde bulunanlar hakkında kamu hizmetlerinden yasaklanma cezası uygulanmaz.",
+			"Haksız mal edinme sebebiyle cezalandırılanlara müebbeten kamu hizmetlerinden yasaklanma cezası hükmolunur.",
+			"Kanunen daha ağır bir cezayı gerektirmediği takdirde gerçeğe aykırı bildirimde bulunana altı aydan üç yıla kadar hapis cezası verilir.",
+			"Kanunun daha ağır bir cezayı gerektirmediği takdirde haksız mal edinene üç yıldan beş yıla kadar hapis cezası verilir."
+		],
+		"correctIndex": 1,
+		"explanation": "3628 sayılı Kanun'un 15. maddesi, 11 ve 12. maddeler uyarınca cezalandırılanlara CEZA SÜRESİ KADAR, 13. madde uyarınca cezalandırılanlara ise MÜEBBETEN kamu hizmetlerinden yasaklanma cezası hükmolunacağını öngörür. Gerçeğe aykırı bildirimde bulunanlar (md.12) da ceza süresi kadar bu yasaklamaya tabidir.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "12-15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ceza-hukumleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-cikar-018",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'nin 'mal bildiriminde bulunma' ilkesine göre, mal bildirimlerindeki bilgilerin doğruluğunun kontrolü bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"İlgili kişi ve kuruluşlar, bankalar ve özel finans kurumları dâhil olmak üzere, talep edilen bilgileri en geç otuz gün içinde Kurula vermekle yükümlüdür.",
+			"Kurulun mal bildirimlerini inceleme yetkisi bulunmamaktadır.",
+			"Bankalar ve özel finans kurumları bu bilgi verme yükümlülüğünün dışında tutulmuştur.",
+			"Talep edilen bilgiler en geç yedi gün içinde verilir.",
+			"Bilgi verme yükümlülüğü yalnızca kamu kurumları bakımından öngörülmüştür."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmeliğin 22. maddesine göre Kurul, gerek gördüğü takdirde mal bildirimlerini inceleme yetkisine sahiptir; bildirimlerdeki bilgilerin doğruluğunun kontrolü amacıyla ilgili kişi ve kuruluşlar (BANKALAR VE ÖZEL FİNANS KURUMLARI DÂHİL) talep edilen bilgileri en geç OTUZ GÜN içinde Kurula vermekle yükümlüdür.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "22"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mal-bildirimi",
+			"kurul-yetkisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]
