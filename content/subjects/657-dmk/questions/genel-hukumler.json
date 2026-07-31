@@ -1176,5 +1176,272 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-genel-037",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un Ek 15. maddesine göre Kanun'da geçen 'Devlet memuru' deyimi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu deyim, belediyeler ve il özel idareleri ile bunların kurdukları birliklerin memurlarını da kapsar.",
+			"Bu deyim yalnızca merkezî idare teşkilatında görev yapan memurları kapsar.",
+			"Mahallî idare birliklerinin memurları hiçbir şekilde Devlet memuru sayılmaz.",
+			"İl özel idaresi memurları bu Kanun'un kapsamı dışında tutulmuştur.",
+			"Belediye memurları hakkında yalnızca kendi özel kanunları uygulanır; bu Kanun uygulanmaz."
+		],
+		"correctIndex": 0,
+		"explanation": "Ek 15. madde Kanun'un kapsamını açıkça genişletir: bu Kanun'da geçen 'Devlet Memuru' deyimi, BELEDİYELER VE İL ÖZEL İDARELERİ ile BUNLARIN KURDUKLARI BİRLİKLER memurlarını da kapsar. Bu nedenle 657 sayılı Kanun'un memurlara ilişkin hükümleri mahallî idare memurları hakkında da uygulanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "Ek 15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kapsam",
+			"mahalli-idareler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-genel-038",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un Ek 19. maddesine göre kılık ve kıyafet bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu konuda 657 sayılı Kanun'da herhangi bir hüküm bulunmamaktadır.",
+			"Kılık ve kıyafet mecburiyeti yalnızca üniformalı hizmet sınıfları için öngörülmüştür.",
+			"Devlet memurları; kanun, Cumhurbaşkanlığı kararnamesi ve yönetmeliklerin öngördüğü kılık ve kıyafet kurallarına uymak mecburiyetindedir.",
+			"Kılık ve kıyafet kuralları yalnızca kurumların iç genelgeleriyle belirlenir.",
+			"Kılık ve kıyafet kuralları memurlar bakımından tavsiye niteliğindedir."
+		],
+		"correctIndex": 2,
+		"explanation": "Ek 19. madde tek cümledir ve bütün Devlet memurlarını bağlar: memurlar kanun, Cumhurbaşkanlığı kararnamesi ve yönetmeliklerin öngördüğü kılık ve kıyafet kurallarına uymak MECBURİYETİNDEDİR. Kurallara aykırı davranmak 125. maddede uyarma cezasını gerektiren fiiller arasında sayılmıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "Ek 19"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kilik-kiyafet"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-genel-039",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "uzman",
+		"stem": "657 sayılı Kanun'un 163. maddesine göre istisnai memurluklardan ayrılanların durumu bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"İstisnai memuriyette geçirilen süreler hiçbir şekilde derece ve kademe ilerlemesinde değerlendirilmez.",
+			"Bu kişiler aynı şartlardan yararlanarak, 71. madde hükümlerine uyulmak kaydıyla başka bir sınıfa da girebilir.",
+			"Bu Kanun'a tabi olmayan kurumlardan istisnai memuriyete atananlar için, bu Kanun'a tabi bir göreve geçişte adaylık hükümleri uygulanmaz.",
+			"Bu Kanun'a tabi kurumlardan atanmış olanlar ayrıldıkları sınıfa dönmek isterse, istisnai memuriyette geçirdikleri süre girebilecekleri yeni derecenin tayininde normal derece terfi sürelerine karşılık sayılır.",
+			"Derece terfi süresine karşılık sayılan süreden geri kalan kısım kademe terfiinde dikkate alınır."
+		],
+		"correctIndex": 0,
+		"explanation": "163. madde istisnai memuriyette geçen süreleri değerlendirir: bu Kanun'a tabi kurumlardan atananlar için süre, yeni derecenin tayininde normal derece terfi sürelerine karşılık sayılır; artan kısım kademe terfiinde dikkate alınır. Bu Kanun'a tabi olmayan kurumlardan atananlar bakımından ise süre, girilecek derecenin sınav veya seçmesini başarmak kaydıyla derece ve kademe ilerlemesine sayılır ve bunlar için adaylık hükümleri uygulanmaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "163"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"istisnai-memurluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-genel-040",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 149-151. maddelerindeki aylık kavramları bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Her derecedeki 1. kademe göstergesine tekabül eden miktar, o derecenin ilk kademe aylığını gösterir.",
+			"Derece aylığı, gösterge tablosundaki derecelerin her birinin ihtiva ettiği yatay kademe aylıklarını topluca ifade eder.",
+			"Kademe aylığı, genel gösterge tablosundaki derecelere dâhil kademelerden her biri için tespit edilen gösterge rakamına tekabül eden aylıktır.",
+			"Kademe aylığı ile derece aylığı aynı kavram olup Kanun'da eş anlamlı kullanılmıştır.",
+			"Aynı derecenin son kademe göstergesine tekabül eden miktar, o derecenin en yüksek kademe aylığını gösterir."
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun iki kavramı ayırır: KADEME AYLIĞI tek bir kademenin gösterge rakamına karşılık gelen aylık (md.149), DERECE AYLIĞI ise bir derecenin içerdiği yatay kademe aylıklarının tamamını topluca ifade eden kavramdır (md.150). 151. madde de bir derecenin ilk ve en yüksek kademe aylığının nasıl belirleneceğini gösterir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "149-151"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kademe-ayligi",
+			"derece-ayligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-genel-041",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 214. maddesine göre hizmet içi eğitim bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Hizmet içi eğitim; memurların yetişmelerini sağlamak, verimliliğini artırmak ve daha ileriki görevlere hazırlamak amacıyla, hazırlanacak yönetmelikler dâhilinde yürütülür.",
+			"Hizmet içi eğitimin amacı yalnızca memurun mevcut görevindeki verimliliğini artırmaktır.",
+			"Hizmet içi eğitim programları doğrudan Kanun'da sayılmıştır.",
+			"Hizmet içi eğitim her kurumun kendi takdirine bırakılmış olup herhangi bir düzenlemeye tabi değildir.",
+			"Hizmet içi eğitim yalnızca aday memurlar için öngörülmüştür."
+		],
+		"correctIndex": 0,
+		"explanation": "214. madde hizmet içi eğitimin üç amacını birlikte sayar: memurların YETİŞMELERİNİ SAĞLAMAK, VERİMLİLİĞİNİ ARTIRMAK ve DAHA İLERİKİ GÖREVLERE HAZIRLAMAK. Eğitim, ilgili kurumlarla birlikte hazırlanacak yönetmelikler dâhilinde yürütülür; sonraki maddeler eğitim birimlerini, eğitim merkezlerini ve genel planı düzenler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "214"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hizmet-ici-egitim"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-genel-042",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 219. maddesine göre kurumlar, yıllık eğitim programlarına göre yaptıkları eğitim çalışmalarının sonuçlarını hangi süre içinde raporla bildirmek zorundadır?",
+		"options": [
+			"Her altı aylık dönemin bitiminden en geç bir ay sonra",
+			"Eğitim programının tamamlanmasını izleyen ilk hafta içinde",
+			"Her üç aylık dönemin bitiminden en geç on beş gün sonra",
+			"Her yılın sonundan en geç üç ay sonra",
+			"Yalnızca talep edilmesi hâlinde, talebi izleyen bir ay içinde"
+		],
+		"correctIndex": 0,
+		"explanation": "219. madde kurumlara, yıllık eğitim programlarına göre yürüttükleri eğitim çalışmalarının sonuçlarını HER ALTI AYLIK DÖNEMİN BİTİMİNDEN EN GEÇ BİR AY SONRA bir raporla bildirme yükümlülüğü getirir. Eğitim programlarının hazırlanması ve uygulanmasında yol göstermek, faaliyetleri koordine etmek ve denetlemek ise 220. maddede düzenlenmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "219"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hizmet-ici-egitim",
+			"raporlama"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-genel-043",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 224. maddesine göre mecburi hizmet bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Mecburi hizmetle yükümlü bulunanlar yarışma sınavına tabi tutulmaksızın atanır.",
+			"Yurt içinde Devlet hesabına okutulan öğrenciler, tatiller dâhil öğrenim süreleri kadar mecburi hizmetle yükümlüdür.",
+			"Yetiştirilmek, eğitilmek, bilgilerini artırmak veya staj yapmak üzere üç ay ve daha fazla süreyle dış memleketlere gönderilen memurlara, yurt dışında kaldıkları sürenin iki katı kadar mecburi hizmet yüklenir.",
+			"Yurt dışındaki öğretim kurumlarında Devlet hesabına öğrenimini bitirenler, tatiller dâhil öğrenim sürelerinin iki katı kadar mecburi hizmetle yükümlüdür.",
+			"Dış memleketlere gönderilen memurlara yüklenecek mecburi hizmet, gönderilme şekline göre değişir; burslu gidenlere mecburi hizmet yüklenmez."
+		],
+		"correctIndex": 4,
+		"explanation": "224. madde dış memleketlere üç ay ve daha fazla süreyle gönderilen memurlara GÖNDERİLME ŞEKİLLERİNE BAKILMAKSIZIN yurt dışında kaldıkları sürenin iki katı kadar mecburi hizmet yükler; burslu olup olmama ayrımı yapılmaz. Yurt içinde Devlet hesabına okuyanlar öğrenim süresi kadar, yurt dışında okuyanlar öğrenim süresinin iki katı kadar yükümlüdür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "224"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mecburi-hizmet"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-genel-044",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 231. maddesine göre kamu personeli bilgi sistemi bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Kamu kurum ve kuruluşları atama, yer değiştirme, görevde yükselme ve unvan değişikliği hareketlerini bildirmek zorundadır.",
+			"Kamu kurum ve kuruluşları talep edilen bilgi ve belgeleri vermekle yükümlüdür.",
+			"Maddenin uygulanmasına ilişkin usul ve esaslar ile istisna tutulacak kurum ve kuruluşlar Cumhurbaşkanınca belirlenir.",
+			"Kamu kurum ve kuruluşlarından teşkilat yapılarına ve personeline ilişkin gerekli görülen bilgi ve belgeler talep edilebilir.",
+			"Bilgi ve belge talebi yalnızca kuruluş kanunları aynı olan kurumlar bakımından yapılabilir."
+		],
+		"correctIndex": 4,
+		"explanation": "231. madde yetkiyi KURULUŞ KANUNLARINA VE BÜTÇE TÜRLERİNE BAĞLI KALINMAKSIZIN tüm kamu kurum ve kuruluşları bakımından tanır; kurumlar bilgi ve belgeleri vermekle ve personel hareketlerini bildirmekle yükümlüdür. Usul ve esaslar ile istisna tutulacak kurumlar Cumhurbaşkanınca belirlenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "231"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kamu-personeli-bilgi-sistemi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

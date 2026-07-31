@@ -1431,5 +1431,274 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-044",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 46. maddesine göre atama yapılacak boş kadroların bildirilmesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Millî İstihbarat Teşkilatı da bu bildirim yükümlülüğüne tabidir.",
+			"Kurumlar boş kadrolarını yalnızca sayı olarak bildirir; sınıf ve derece bildirimi aranmaz.",
+			"Kurumlar, personel atamasına lüzum gördükleri boş kadroların sayılarını, sınıf ve derecelerini belirterek Devlet Personel Başkanlığına bildirir.",
+			"Bildirim yükümlülüğü yalnızca bakanlıklar için öngörülmüştür.",
+			"Boş kadroların bildirimi Türkiye Büyük Millet Meclisi Başkanlığına yapılır."
+		],
+		"correctIndex": 2,
+		"explanation": "46. madde, bakanlıklar ile DİĞER KAMU KURUM VE KURULUŞLARININ (Millî İstihbarat Teşkilatı hariç) personel atamasına lüzum gördükleri boş kadroların SAYILARINI, SINIF VE DERECELERİNİ belirterek Devlet Personel Başkanlığına bildirmesini öngörür. Bu kadroların adaylara duyurulması ise 47. maddede düzenlenmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "46"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bos-kadro-bildirimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-045",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 49. maddesine göre, duyurulan Devlet kamu hizmet ve görevlerine girmek isteyenlerden ilan edilen şartları taşımayanlar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu kişiler sınava alınır, şartları taşımadıkları sınav sonrasında değerlendirilir.",
+			"Bu kişilerin durumu yalnızca sözlü olarak bildirilir.",
+			"Bu kişiler, eksik şartı sınav tarihine kadar tamamlamak kaydıyla sınava katılabilir.",
+			"Şartları taşımayanların başvuruları hakkında herhangi bir bildirim yapılmaz.",
+			"Bu kişiler sınavlara katılamaz ve bu husus başvurulan merciler tarafından kendilerine bir yazı ile bildirilir."
+		],
+		"correctIndex": 4,
+		"explanation": "49. maddeye göre ilan edilen şartları haiz bulunmayanlar SINAVLARA KATILAMAZ ve bu husus başvurulan merciler tarafından kendilerine BİR YAZI İLE bildirilir. Madde ayrıca, girmek isteyenlerin belirlenen şartları yerine getirerek başvurularını yapacağını düzenler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "49"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sinava-katilma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-046",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 67. maddesine göre, diğer şartları taşımakla birlikte üst derecelerde kadro bulunmadığı için derece yükselmesi yapamayan memurlar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kadro boşalıncaya kadar hiçbir şekilde derece yükselmesinden yararlanamazlar.",
+			"Bu memurlara kadro şartı aranmaksızın görev unvanı da bir üst unvanla değiştirilir.",
+			"Kazanılmış hak aylıkları, öğrenim durumlarına bakılmaksızın istedikleri dereceye yükseltilebilir.",
+			"Kazanılmış hak aylıkları, öğrenim durumları itibarıyla yükselebilecekleri dereceyi aşmamak şartıyla işgal etmekte oldukları kadroların üst derecelerine yükseltilir.",
+			"Bu memurların kazanılmış hak aylıkları yalnızca atamaya yetkili amirin takdiriyle yükseltilebilir."
+		],
+		"correctIndex": 3,
+		"explanation": "67. madde kadrosuzluk sebebiyle derece yükselmesi yapamayan memurlar için bir güvence getirir: kazanılmış hak aylıkları, ÖĞRENİM DURUMLARI İTİBARIYLA YÜKSELEBİLECEKLERİ DERECEYİ AŞMAMAK şartıyla işgal ettikleri kadroların üst derecelerine yükseltilir. Bu, aylık derecesine ilişkin olup görev unvanını değiştirmez.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "67"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kadrosuzluk",
+			"derece-yukselmesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-047",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "uzman",
+		"stem": "657 sayılı Kanun'un 69. maddesine göre idari görevlere atanma bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Kariyer hizmet sınıfları ile atandıkları görevlerin ek gösterge, zam ve tazminatlarının farklı olması hâlinde fazla olanı ödenir.",
+			"Bu şekilde atanan memurların aylıkları, atandıkları kadronun derecesi üzerinden ödenir.",
+			"Atama, 2-4 üncü dereceler arasındaki idari görevlere ait olup kazanılmış hak derecelerinin iki altındaki derecelerden tespit ve ihdas edilmiş kadrolara yapılabilir.",
+			"Bu suretle atanan memurların aylıkları kazanılmış hak dereceleri üzerinden ödenir.",
+			"Kurumlar; Eğitim ve Öğretim, Sağlık ve Yardımcı Sağlık ile Teknik Hizmetler Sınıflarına dâhil memurlardan kariyerlerinden yararlanmak istediklerini bu yolla atayabilir."
+		],
+		"correctIndex": 1,
+		"explanation": "69. madde, kazanılmış hak derecesinin iki altındaki bir kadroya atanan memurun mağdur olmamasını sağlar: aylıklar KAZANILMIŞ HAK DERECELERİ üzerinden ödenir, kadro derecesi üzerinden değil. Ek gösterge, zam ve tazminatlarda ise kariyer sınıfı ile yeni görevinkinden FAZLA OLANI ödenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "69"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"idari-gorevlere-atanma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-048",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'a göre, muvazzaflık hizmeti dışında silah altına alınan Devlet memurları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Terhis edilenlerin göreve başlaması için herhangi bir süre öngörülmemiştir.",
+			"Bu memurlar silah altında bulundukları sürece izinli sayılır; terhislerinden sonra göreve başlamaları 62 ve 63. maddelerin yer değiştirme suretiyle atamaya ilişkin hükümlerine tabidir.",
+			"Bu memurlar silah altında bulundukları sürece aylıksız izinli sayılır.",
+			"Bu memurlar silah altında bulundukları sürece çekilmiş sayılır.",
+			"Bu memurların kadroları ile ilişikleri kesilir, terhiste yeniden atanmaları gerekir."
+		],
+		"correctIndex": 1,
+		"explanation": "81. madde, hazarda ve seferde muvazzaflık hizmeti dışında silah altına alınan memurların silah altında bulundukları sürece İZİNLİ SAYILACAĞINI; 82. madde ise terhislerinden sonra göreve başlamalarının 62 ve 63. maddelerin (işe başlama süresi ve işe başlamama hâlinde yapılacak işlem) yer değiştirme suretiyle atamaya ilişkin hükümlerine tabi olduğunu düzenler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "81-82"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"silah-alti",
+			"terhis"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-049",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 84. maddesine göre, muvazzaf askerlik görevini yaptıktan sonra Devlet memurluğuna atananlar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Adaylık hükümleri uygulanmaz, doğrudan asli memurluğa atanırlar.",
+			"Askerlikte geçen süreleri hiçbir şekilde değerlendirilmez.",
+			"Askerlikte geçen süreleri, asaletleri tasdik edilmeden önce kademe ilerlemesinde değerlendirilir.",
+			"Adaylık esaslarına tabi olurlar; muvazzaf askerlikte geçen süreleri asaletlerinin tasdikinden sonra kademe ilerlemesi yapılmak suretiyle değerlendirilir.",
+			"Askerlikte geçen süreleri yalnızca emeklilik hesabında dikkate alınır."
+		],
+		"correctIndex": 3,
+		"explanation": "84. maddeye göre muvazzaf askerlik görevini yaptıktan sonra memurluğa atananlar ADAYLIK ESASLARINA TABİ olur; askerlikte geçen süreleri ASALETLERİNİN TASDİKİNDEN SONRA kademe ilerlemesi yapılmak ve sınav veya seçmeye tabi tutulmak suretiyle derece yükseltilmesinde de değerlendirilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "84"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"askerlik",
+			"intibak"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-050",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 85. maddesine göre, muvazzaflık hizmeti dışında talim ve manevra maksadıyla veya seferde silah altına alınan memurlar bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Silah altında geçen süre içinde kademe ilerlemeleri durur ve terhisten sonra işlemeye başlar.",
+			"Silah altında geçen süre içinde kademe ilerlemeleri devam eder.",
+			"Bu süre içinde derece yükselmesi gerektiğinde terhislerinden sonra açık kadro bulunması aranır.",
+			"Derece yükselmesi için ayrıca sınav veya seçmede başarı göstermeleri gerekir.",
+			"Şartların gerçekleşmesi hâlinde silah altında geçen süreleri, yükselecekleri üst derecenin kademelerinde dikkate alınır."
+		],
+		"correctIndex": 0,
+		"explanation": "85. maddeye göre bu memurların KADEME İLERLEMELERİ DEVAM EDER; ilerleme durmaz. Derece yükselmesi ise iki şarta bağlanmıştır: terhisten sonra açık kadro bulunması ve sınav veya seçmede başarı gösterilmesi. Bu şartlar gerçekleşirse silah altında geçen süreler yükselinecek üst derecenin kademelerinde dikkate alınır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "85"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"askerlik",
+			"intibak"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-051",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 158. maddesine göre aday memurların aylıkları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Aday memurlara adaylık süresince her yıl kademe ilerlemesi uygulanır.",
+			"Aday memurlara asaletleri tasdik edilinceye kadar kademe ilerlemesi uygulanmaz.",
+			"Aday memurlar, gireceği derecenin son kademe aylığını alır.",
+			"Aday memurlar adaylık süresince aylık alamaz.",
+			"Aday memurların aylıkları, asaletleri tasdik edilinceye kadar yarım ödenir."
+		],
+		"correctIndex": 1,
+		"explanation": "158. maddeye göre herhangi bir sınıfta aday olarak göreve başlayanlar, 54. maddedeki esaslara göre girecekleri derecenin hak edecekleri KADEME AYLIĞINI alır; ancak ASALETLERİ TASDİK EDİLİNCEYE KADAR kendilerine kademe ilerlemesi uygulanmaz. Asaleti onaylananların kademe ilerlemesi ise 159. maddede düzenlenmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "158"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"adaylik",
+			"aylik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]
