@@ -1898,5 +1898,268 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-disiplin-058",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi 657 sayılı Kanun'un 125. maddesine göre kınama cezasını gerektiren fiil ve hâllerdendir?",
+		"options": [
+			"Özürsüz olarak bir veya iki gün göreve gelmemek",
+			"Özürsüz veya izinsiz olarak göreve geç gelmek, erken ayrılmak, görev mahallini terk etmek",
+			"Siyasi partiye girmek",
+			"Göreve sarhoş gelmek, görev yerinde alkollü içki içmek",
+			"Eşlerinin, reşit olmayan veya mahcur olan çocuklarının kazanç getiren sürekli faaliyetlerini belirlenen sürede kurumuna bildirmemek"
+		],
+		"correctIndex": 4,
+		"explanation": "Yakınlarının kazanç getiren sürekli faaliyetlerini süresinde bildirmemek 125/B'de kınama cezasına bağlanmıştır. Diğer seçenekler farklı ceza derecelerine aittir: göreve geç gelmek uyarma (A), bir veya iki gün göreve gelmemek aylıktan kesme (C), göreve sarhoş gelmek kademe ilerlemesinin durdurulması (D), siyasi partiye girmek Devlet memurluğundan çıkarma (E) cezasını gerektirir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kinama"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-disiplin-059",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi 657 sayılı Kanun'un 125. maddesine göre aylıktan kesme cezasını gerektiren fiil ve hâllerdendir?",
+		"options": [
+			"Kurumca belirlenen tasarruf tedbirlerine riayet etmemek",
+			"Devlete ait resmî araç, gereç ve benzeri eşyayı özel işlerinde kullanmak",
+			"Devlete ait resmî belge, araç, gereç ve benzerlerini özel menfaat sağlamak için kullanmak",
+			"Gerçeğe aykırı rapor ve belge düzenlemek",
+			"Görev sırasında amire hâl ve hareketi ile saygısız davranmak"
+		],
+		"correctIndex": 2,
+		"explanation": "125/C, Devlete ait belge ve araçların ÖZEL MENFAAT SAĞLAMAK İÇİN kullanılmasını aylıktan kesme cezasına bağlar. Aynı eşyayı yalnızca özel işlerinde kullanmak ile görev sırasında amire hâl ve hareketiyle saygısız davranmak kınama (B), gerçeğe aykırı rapor ve belge düzenlemek kademe ilerlemesinin durdurulması (D), tasarruf tedbirlerine uymamak ise uyarma (A) cezasını gerektirir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ayliktan-kesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-disiplin-060",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi 657 sayılı Kanun'un 125. maddesine göre kademe ilerlemesinin durdurulması cezasını gerektiren fiil ve hâllerdendir?",
+		"options": [
+			"Usulsüz müracaat veya şikâyette bulunmak",
+			"Özürsüz olarak bir yılda toplam yirmi gün göreve gelmemek",
+			"Verilen emirlere itiraz etmek",
+			"Özürsüz olarak bir veya iki gün göreve gelmemek",
+			"Belirlenen durum ve sürelerde mal bildiriminde bulunmamak"
+		],
+		"correctIndex": 4,
+		"explanation": "Mal bildiriminde belirlenen durum ve sürelerde bulunmamak 125/D'de kademe ilerlemesinin durdurulması cezasına bağlanmıştır. Bir veya iki gün göreve gelmemek aylıktan kesme (C), bir yılda toplam yirmi gün göreve gelmemek Devlet memurluğundan çıkarma (E), usulsüz müracaat veya şikâyet uyarma (A), verilen emirlere itiraz etmek ise kınama (B) cezasını gerektirir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kademe-ilerlemesinin-durdurulmasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-disiplin-061",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 125. maddesinin son fıkralarına göre aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Özel kanunların disiplin suçları ve cezalarına ilişkin hükümleri saklıdır.",
+			"Maddede sayılan fiil ve hâllere nitelik ve ağırlıkları itibarıyla benzer eylemlerde bulunanlara da aynı neviden disiplin cezaları verilir.",
+			"Maddede açıkça sayılmayan bir fiil, benzer nitelikte ve ağırlıkta olsa dahi hiçbir şekilde disiplin cezasına konu edilemez.",
+			"Disiplin kovuşturmasının yapılmış olması, fiilin genel hükümler kapsamına girmesi hâlinde ayrıca ceza kovuşturması açılmasına engel değildir.",
+			"Öğrenim durumları nedeniyle yükselebilecekleri kadroların son kademelerinde bulunanların, kademe ilerlemesinin durdurulması cezasını gerektiren hâllerde brüt aylıklarının 1/4'ü - 1/2'si kesilir."
+		],
+		"correctIndex": 2,
+		"explanation": "125. maddenin son fıkralarından biri, sayılan fiil ve hâllere NİTELİK VE AĞIRLIKLARI İTİBARIYLA BENZER eylemlerde bulunanlara da aynı neviden disiplin cezası verileceğini açıkça öngörür; madde bu yönüyle kapalı bir liste değildir. Aynı fıkralar özel kanunların hükümlerini saklı tutar ve disiplin kovuşturmasının ceza kovuşturmasına engel olmadığını belirtir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"benzer-eylem",
+			"ozel-kanunlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-disiplin-062",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 129. maddesine göre yüksek disiplin kurullarının dosyaları incelerken sahip olduğu yetkiler bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Mahallen keşif yapmaya veya yaptırmaya yetkilidir.",
+			"İlgili kurumlardan bilgi almaya yetkilidir.",
+			"Bu yetkiler yalnızca hakkında ceza istenen memurun talebi hâlinde kullanılabilir.",
+			"İlgilinin özlük dosyasını ve her nevi evrakı incelemeye yetkilidir.",
+			"Yeminli tanık ve bilirkişi dinlemeye veya niyabeten dinletmeye yetkilidir."
+		],
+		"correctIndex": 2,
+		"explanation": "129. madde bu yetkileri yüksek disiplin kurullarının GEREKLİ GÖRDÜKLERİ TAKDİRDE kullanabileceğini söyler; kullanım memurun talebine bağlı değildir. Maddenin ikinci fıkrası ise memurluktan çıkarma cezası istenen memura soruşturma evrakını inceleme, tanık dinletme ve kendisi ya da vekili aracılığıyla sözlü veya yazılı savunma yapma hakkı tanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "129"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yuksek-disiplin-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-disiplin-063",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği'ne göre disiplin soruşturması bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Disiplin cezası verilebilmesi için memur hakkında soruşturma açılması zorunludur; soruşturma yapılmadan disiplin cezası verilemez.",
+			"Uyarma ve kınama cezalarında soruşturma açılması zorunlu değildir; disiplin amiri doğrudan ceza verebilir.",
+			"Muhakkik, hakkında soruşturma yapacağı memurdan hiyerarşik olarak alt seviyede olamaz.",
+			"Disiplin soruşturması, memurlar arasından görevlendirilen muhakkik ya da teftiş, denetim ve soruşturma yapmakla görevli memurlar eliyle yapılır.",
+			"Disiplin soruşturmasında birden fazla memur birlikte görevlendirilebilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğin 28. maddesi istisnasızdır: disiplin cezası verilebilmesi için soruşturma açılması zorunlu olup soruşturma yapılmadan hiçbir disiplin cezası verilemez. Aynı madde soruşturmayı yürütecekleri sayar ve muhakkikin, hakkında soruşturma yapacağı memurdan hiyerarşik olarak alt seviyede olamayacağını belirtir.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"disiplin-sorusturmasi",
+			"muhakkik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-disiplin-064",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "zor",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği'ne göre muhakkikin çalışma usulü bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Muhakkik, soruşturma sırasında disipline aykırı yeni bir fiil tespit ederse bu konuda da kendiliğinden soruşturma yapar.",
+			"Muhakkik, kendisini görevlendiren disiplin amirinin bütün yetkilerini savunma isteme dâhil olmak üzere kullanır.",
+			"Muhakkik, savunma isteme ve disiplin cezası verme yetkisi hariç olmak üzere, soruşturma konusuyla sınırlı olarak kendisini görevlendiren disiplin amirinin bütün yetkilerini haizdir.",
+			"Muhakkik raporunu sözlü olarak sunar; ayrıca yazılı rapor düzenlemesi gerekmez.",
+			"Muhakkik, rapora atıf yaptığı belgelerin yalnızca listesini dosyaya ekler; belgelerin asılları veya onaylı örnekleri istenmez."
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmeliğin 29. maddesine göre muhakkik, SAVUNMA İSTEME VE DİSİPLİN CEZASI VERME yetkileri hariç olmak üzere görevlendiren disiplin amirinin yetkilerini soruşturma konusuyla sınırlı olarak kullanır. Yeni bir fiil tespit ederse kendiliğinden soruşturamaz, durumu yazılı olarak disiplin amirine bildirir ve ancak yazılı ek görev verilirse o konuyu da soruşturur. Muhakkik yazılı bir 'Muhakkik Raporu' düzenler, belgelerin asıllarını veya onaylı örneklerini dosyaya ekler ve dizi pusulası hazırlar.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "29"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"muhakkik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-disiplin-065",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği'ne göre Devlet memuru hakkındaki ihbar ve şikâyetler bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Kimlik ve adres bilgisi bulunmayan ihbarlar, somut delil içerse dahi hiçbir şekilde işleme konulamaz.",
+			"Başvuru sahibinin adı, soyadı, imzası ve adresi bulunmayan ihbar ve şikâyetler işleme konulmaz.",
+			"Belirli bir konuyu içermeyen veya somut delile dayanmayan ihbar ve şikâyetler işleme konulmaz.",
+			"Kimlik ve adres bilgisi bulunmayan bir ihbar somut delillere dayanıyorsa konu hakkında disiplin soruşturmasına başlanır.",
+			"Daha önce şikâyet konusu yapılıp sonuçlanan hususlarda yeni delil içermeyen başvurular işleme konulmaz."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmeliğin 38. maddesinin ikinci fıkrası açık bir istisna getirir: adı, soyadı, imzası ve adresi bulunmayan ihbar ve şikâyetler SOMUT DELİLLERE DAYANIYORSA konu hakkında disiplin soruşturmasına başlanır. Maddede sayılan diğer hâller (belirli konu içermeyen, somut delile dayanmayan, sonuçlanmış konuda yeni delil içermeyen, akıl hastalığı sebebiyle vesayet altına alınanlarca verilen başvurular) işleme konulmaz.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "38"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Yönetmelik metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ihbar-ve-sikayet"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

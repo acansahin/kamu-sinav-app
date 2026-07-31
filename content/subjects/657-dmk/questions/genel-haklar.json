@@ -1772,5 +1772,277 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-054",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 100. maddesine 2011 yılında eklenen fıkralara göre aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Görev yerine bağlı olmaksızın çalışmaya ilişkin usul ve esaslar her kurumun kendi yönetmeliğiyle belirlenir.",
+			"Engelli memurlar için farklı çalışma saati belirlenmesi mümkün değildir.",
+			"Engelliler için farklı çalışma saatleri yalnızca Cumhurbaşkanı kararıyla belirlenebilir.",
+			"Engelliler için günlük çalışmanın başlama ve bitiş saatleri ile öğle dinlenme süreleri, merkezde üst yönetici, taşrada mülki amirlerce farklı belirlenebilir.",
+			"Memurların görev yerlerine bağlı olmaksızın çalışabilmeleri hiçbir şekilde mümkün değildir."
+		],
+		"correctIndex": 3,
+		"explanation": "100. maddeye 6111 sayılı Kanun'la eklenen fıkralardan ilki, engel durumu ile hizmet gerekleri, iklim ve ulaşım şartları gözetilerek engelliler için çalışma saatlerinin MERKEZDE ÜST YÖNETİCİ, TAŞRADA MÜLKİ AMİRLERCE farklı belirlenebileceğini; ikincisi ise memurların hizmetin özelliklerine göre çalışma saat ve süreleri ile GÖREV YERLERİNE BAĞLI OLMAKSIZIN çalışabileceklerini, usul ve esasların Cumhurbaşkanınca belirleneceğini öngörür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "100"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"calisma-saatleri",
+			"engelli-memur"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-055",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 108. maddesinin (A) fıkrasına göre, azami hastalık izni süresini kullanan memura sağlık kurulu raporuyla belgelendirmesi şartıyla isteği üzerine verilebilecek aylıksız izin süresi en fazla ne kadardır?",
+		"options": [
+			"On sekiz ay",
+			"On iki ay",
+			"Yirmi dört ay",
+			"Otuz altı ay",
+			"Altı ay"
+		],
+		"correctIndex": 0,
+		"explanation": "108. maddenin (A) fıkrası, 105. maddenin son fıkrası uyarınca verilen iznin bitiminden itibaren, sağlık kurulu raporuyla belgelendirilmesi şartıyla ve istek üzerine ON SEKİZ AYA KADAR aylıksız izin verilebileceğini düzenler. Yirmi dört aylık süre doğum ve evlat edinme hâllerine (B ve C fıkraları), bir yıllık süre ise beş hizmet yılını tamamlayanlara (E fıkrası) ilişkindir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "108"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ayliksiz-izin",
+			"saglik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-056",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 108. maddesinin (C) fıkrasına göre evlat edinme hâlinde verilecek aylıksız izin bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Memur olmayan eşin münferit olarak evlat edinmesi hâlinde memur olan eş de bu izinden yararlanır.",
+			"Bu izin, evlat edinilen çocuğun yaşına bakılmaksızın her hâlde verilir.",
+			"Çocuğu eşiyle birlikte veya münferit olarak evlat edinen memurlar bu izinden yararlanır.",
+			"Evlat edinen her iki eşin memur olması durumunda bu süre, eşlerin talebi üzerine yirmi dört aylık süreyi geçmeyecek şekilde birbirini izleyen iki bölüm hâlinde kullandırılabilir.",
+			"Üç yaşını doldurmamış bir çocuğu evlat edinen memurlara, istekleri üzerine yirmi dört aya kadar aylıksız izin verilir."
+		],
+		"correctIndex": 1,
+		"explanation": "108/C, izni ÜÇ YAŞINI DOLDURMAMIŞ bir çocuğun evlat edinilmesi şartına bağlar. İzin, 104. maddenin (A) fıkrası uyarınca verilen sekiz haftalık iznin ya da (F) fıkrası uyarınca kullanılan iznin bitiminden itibaren istek üzerine yirmi dört aya kadar verilir; her iki eşin memur olması hâlinde toplam yirmi dört ayı aşmamak üzere birbirini izleyen iki bölüm hâlinde kullandırılabilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "108"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ayliksiz-izin",
+			"evlat-edinme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-057",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "uzman",
+		"stem": "657 sayılı Kanun'un 108. maddesinin (D) fıkrasına göre, yurt dışında görevlendirilenlerin memur olan eşlerine verilecek aylıksız izin bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Sürekli görevle yurt içine ya da yurt dışına atanan veya en az altı ay süreyle yurt dışında geçici olarak görevlendirilen memurların memur olan eşlerine görev süresi içinde aylıksız izin verilebilir.",
+			"Yurt dışına öğrenim için gönderilen öğrencilerin memur olan eşleri bu fıkranın kapsamı dışındadır.",
+			"Bu izin yalnızca yurt dışına sürekli görevle atananların eşleri için verilebilir; yurt içi atamalarda uygulanmaz.",
+			"77. maddeye göre izin verilenlerin memur olan eşleri bu fıkranın kapsamı dışındadır.",
+			"Geçici görevlendirmelerde süre şartı aranmaz; her türlü yurt dışı görevlendirmesi izin hakkı doğurur."
+		],
+		"correctIndex": 0,
+		"explanation": "108/D, burslu ya da bütçe imkânlarıyla yurt dışına gönderilen, SÜREKLİ GÖREVLE YURT İÇİNE YA DA YURT DIŞINA atanan veya EN AZ ALTI AY süreyle yurt dışında geçici görevlendirilen memurların, yurt dışına gönderilen öğrencilerin ve 77. maddeye göre izin verilenlerin memur olan eşlerine görev veya öğrenim süresi içinde aylıksız izin verilebileceğini düzenler. 2024'te (7537) eklenen cümleyle uluslararası kuruluşlarda ve kamu sermayeli kuruluşların yurt dışı birimlerinde çalışanların memur eşlerine de, her yıl belgelendirmek kaydıyla 10 yılı aşmamak üzere bu izin verilebilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "108"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ayliksiz-izin",
+			"yurt-disi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-058",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 188. maddesine göre hastalık ve analık sigortası bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Memurların eşleri ile bakmakla yükümlü oldukları ana, baba ve çocuklarının hastalık ve analık hâlleri de kapsamdadır.",
+			"Bir kanuna dayanılarak dul veya yetim aylığı alanların hastalık ve analık hâlleri de kapsamdadır.",
+			"Bu sigortalardan tanınan hak ve sağlanan yardımlar, genel sosyal sigorta rejimleri ile kabul edilen hak ve yardımlardan az olamaz.",
+			"Devlet memurlarının hastalık, analık ve görevden doğan kaza ile mesleki hastalık hâllerinde sosyal sigorta yardımları sağlanır.",
+			"Bu sigorta yardımlarının kapsam ve şartları doğrudan 657 sayılı Kanun'da ayrıntılı olarak düzenlenmiştir."
+		],
+		"correctIndex": 4,
+		"explanation": "188. madde sigorta yardımı sağlanacak hâlleri ve kişileri bentler hâlinde sayar, ancak son fıkralarında bu sigorta yardımlarının ÖZEL KANUNLARLA düzenleneceğini belirtir; 657 sayılı Kanun ayrıntı düzenlemez. Madde ayrıca sağlanan hak ve yardımların genel sosyal sigorta rejimleriyle kabul edilenlerden az olamayacağı güvencesini getirir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "188"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sosyal-haklar",
+			"hastalik-analik-sigortasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-059",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 210. maddesine göre cenaze giderleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Cenazenin başka yere nakli giderleri her hâlde mirasçılara aittir.",
+			"Devlet memurlarının ölümü hâlinde cenaze giderleri, cenazenin başka yere nakli dâhil kurumlarınca ödenir.",
+			"Yurt dışında bulunan memurlardan ölenlerin cenazelerinin yurda getirilmesi giderleri karşılanmaz.",
+			"Cenaze giderleri yalnızca görev sırasında ölen memurlar için ödenir.",
+			"Cenaze giderleri, ölüm yardımı ödeneğinden mahsup edilerek ödenir."
+		],
+		"correctIndex": 1,
+		"explanation": "210. madde cenaze giderlerini, cenazenin başka yere nakli dâhil olmak üzere kurumlara yükler. Ayrıca sürekli veya geçici görevle ya da 78. maddeye göre yurt dışında bulunan memurlardan ölenlerin; yurt dışında sürekli görevde bulunanların eşleri ile bakmakla yükümlü oldukları ana, baba ve çocuklarının cenazelerini yurda getirmek için zorunlu giderler de kurumlarınca karşılanır. Ölüm yardımı ödeneği (md.208) bundan ayrı bir haktır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "210"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sosyal-haklar",
+			"cenaze-giderleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-060",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 166. maddesine göre kademe ilerlemesi yapan Devlet memuru, bir ileri kademeye ait aylığa ne zaman hak kazanır?",
+		"options": [
+			"İlerlemeye müstahak olduğu tarihi takip eden ay başından itibaren",
+			"Onay tarihini izleyen malî yıl başından itibaren",
+			"Kademe ilerlemesi onayının tebliğ edildiği günden itibaren",
+			"İlerlemeye müstahak olduğu tarihi izleyen üç ayın sonundan itibaren",
+			"İlerlemeye müstahak olduğu tarihten itibaren"
+		],
+		"correctIndex": 0,
+		"explanation": "166. maddeye göre kademe ilerlemesinde Devlet memuru, bu ilerlemeye müstahak olduğu tarihi TAKİP EDEN AY BAŞINDAN itibaren aynı derecenin bir ileri kademesine ait aylığa hak kazanır. Kanun aylığa hak kazanmada genel olarak 'olayı izleyen ay başı' ölçütünü kullanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "166"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kademe-ilerlemesi",
+			"aylik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-061",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 211 ve 212. maddelerine göre giyecek ve yiyecek yardımı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Giyecek yardımı Kanun'da düzenlenmiş, yiyecek yardımı ise yürürlükten kaldırılmıştır.",
+			"Bu yardımlardan bütün Devlet memurları eşit olarak yararlanır.",
+			"Yardımların kapsamı her kurumun kendi genelgesiyle belirlenir.",
+			"Memurlardan hangilerinin ne şekilde bu yardımlardan faydalanacağı yönetmelikle tespit olunur.",
+			"Bu yardımlar nakden ödenir ve tutarı Kanun'da gösterilmiştir."
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun bu iki yardımın esasını koyar, ayrıntısını yönetmeliğe bırakır: 211. madde memurlardan hangilerinin ne şekilde giyecek yardımından faydalanacağının, 212. madde ise memurların hangi hâllerde ve ne şekilde yiyecek yardımından faydalanacağının bir yönetmelikle tespit edileceğini öngörür. Her iki madde de yürürlüktedir; buna karşılık yakacak yardımını düzenleyen 213. madde mülgadır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "211-212"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sosyal-haklar",
+			"giyecek-yiyecek-yardimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]
