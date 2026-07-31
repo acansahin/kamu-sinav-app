@@ -63,11 +63,16 @@ export function AppShell({ children }: { children: ReactNode }) {
 				İçeriğe geç
 			</a>
 
+			{/*
+			 * Üst pay durum çubuğu içindir: başlık ekranın en tepesine yapışır ve
+			 * kendi zeminini çubuğun ARKASINA boyar. Böylece bant uygulamanın
+			 * açık/koyu temasını izler — native pencere arka planını değil.
+			 */}
 			<header
 				data-print="hide"
-				className="sticky top-0 z-30 border-b border-line bg-surface-raised/95 backdrop-blur"
+				className="sticky top-0 z-30 border-b border-line bg-surface-raised/95 pt-[var(--safe-top)] backdrop-blur"
 			>
-				<div className="mx-auto flex w-full max-w-5xl items-center gap-4 px-4 py-3">
+				<div className="mx-auto flex w-full max-w-5xl items-center gap-4 py-3 pl-[max(1rem,var(--safe-left))] pr-[max(1rem,var(--safe-right))]">
 					<Link
 						href="/"
 						className="flex min-h-11 items-center text-lg font-bold tracking-tight text-fg no-underline"
@@ -151,7 +156,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 
 			<main
 				id="icerik"
-				className="mx-auto w-full max-w-5xl flex-1 px-4 py-6 print:max-w-none print:px-0 print:py-0"
+				className="mx-auto w-full max-w-5xl flex-1 py-6 pl-[max(1rem,var(--safe-left))] pr-[max(1rem,var(--safe-right))] print:max-w-none print:py-0 print:pl-0 print:pr-0"
 			>
 				{children}
 			</main>
@@ -162,11 +167,14 @@ export function AppShell({ children }: { children: ReactNode }) {
 			 * (PROJECT_PLAN.md §4), Ayarlar'a gömülü kalmamalı.
 			 *
 			 * Alt boşluk burada: sabit mobil gezinme çubuğunun altında kalmamak için
-			 * gereken pay, sayfanın SON öğesi olan bu bloğa verilir.
+			 * gereken pay, sayfanın SON öğesi olan bu bloğa verilir. Çubuk jest
+			 * çubuğu kadar uzadığı için pay da onunla birlikte büyümek zorunda;
+			 * aksi hâlde bu bağlantılar çubuğun altında kaybolur. Geniş ekranda
+			 * gezinme çubuğu yok ama jest çubuğu duruyor, pay orada da eklenir.
 			 */}
 			<footer
 				data-print="hide"
-				className="mx-auto w-full max-w-5xl px-4 pb-24 text-sm md:pb-8"
+				className="mx-auto w-full max-w-5xl pb-[calc(6rem+var(--safe-bottom))] pl-[max(1rem,var(--safe-left))] pr-[max(1rem,var(--safe-right))] text-sm md:pb-[calc(2rem+var(--safe-bottom))]"
 			>
 				<nav aria-label="Alt bilgi">
 					<ul className="flex flex-wrap items-center gap-x-5 border-t border-line pt-2">
@@ -190,13 +198,17 @@ export function AppShell({ children }: { children: ReactNode }) {
 				</nav>
 			</footer>
 
-			{/* Mobilde alt gezinme: birincil aksiyonlar başparmak erişiminde */}
+			{/*
+			 * Mobilde alt gezinme: birincil aksiyonlar başparmak erişiminde.
+			 * Alt pay jest çubuğu içindir — zemin çubuğun arkasına uzanır, hedefler
+			 * onun üstünde kalır.
+			 */}
 			<nav
 				aria-label="Ana menü"
 				data-print="hide"
-				className="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface-raised md:hidden"
+				className="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface-raised pb-[var(--safe-bottom)] md:hidden"
 			>
-				<ul className="mx-auto flex max-w-5xl">
+				<ul className="mx-auto flex max-w-5xl pl-[var(--safe-left)] pr-[var(--safe-right)]">
 					{NAV_ITEMS.map(({ href, label, icon: Icon }) => {
 						const active = isActive(pathname, href);
 						return (

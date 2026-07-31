@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Adaptive icon zemini. mipmap-anydpi-v26/ic_launcher{,_round}.xml bu ada
+    referans verir; ad değişirse orayı da güncelleyin.
+-->
 <resources>
-    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="ic_launcher_background">@color/brand</color>
 </resources>

@@ -66,6 +66,37 @@ ile dışlanmıştır; kök `.gitignore` bunları tekrarlamaz.
 - Debug imzalama anahtarını Android Gradle Plugin kendisi üretir; ayrıca keystore
   yönetmek gerekmez.
 
+### İkon, splash ve marka rengi
+
+Launcher ikonları da içerik gibi **koddan üretilir**: `npm run icons:build` hem
+`public/icons/` hem `android/**/mipmap-*` altına yazar. `android/` git'te tutulduğu
+için çıktılar commit'lenir; PNG'leri elle düzenlemeyin, kaynak
+`scripts/generate-icons.ts` içindeki SVG'dir.
+
+Marka rengi **üç yerde** aynı olmak zorundadır ve birlikte değişir:
+`globals.css` → `--brand`, `scripts/generate-icons.ts` → `BRAND`,
+`android/app/src/main/res/values/colors.xml` → `brand`.
+
+Açılış ekranı yoğunluk başına PNG değil, tek vektördür (`drawable/ic_splash_logo.xml`);
+`values/styles.xml` bunu `windowSplashScreenAnimatedIcon` ile bağlar.
+`androidx.core:core-splashscreen` nitelikleri API 24'e kadar geriye taşır.
+
+### Sistem çubukları ve safe-area
+
+Uygulama kenardan kenara çizer. Anahtar `src/app/layout.tsx` içindeki
+`viewportFit: "cover"`: Capacitor'ın yerleşik `SystemBars` eklentisi bu ibareyi
+meta etiketinde arar. **Kaldırılırsa** eklenti WebView'i içeri padler ve çubukların
+arkası uygulamanın temasını izlemeyen statik bir bant hâline gelir.
+
+Kenar payları `globals.css`'teki `--safe-top/right/bottom/left` token'larından okunur;
+bunlar önce Capacitor'ın enjekte ettiği `--safe-area-inset-*` değişkenlerine, yoksa
+`env()`'e düşer — böylece aynı CSS hem APK'da hem tarayıcıda doğru çalışır.
+Sabit konumlu yeni bir kenar öğesi eklerseniz payı bu token'lardan alın.
+
+Durum çubuğu ikonlarının rengi `useApplyPreferences()` içinden `SystemBars.setStyle`
+ile ayarlanır. Capacitor'ın varsayılanı **cihazın** gece modunu okur, uygulamanınkini
+değil; bu çağrı kalkarsa kullanıcı temayı elle değiştirdiğinde ikonlar okunmaz olur.
+
 ## İçerik nasıl eklenir
 
 İçerik **koddur**: git'te durur, PR ile gözden geçirilir, şema doğrulaması CI kapısıdır.

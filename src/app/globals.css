@@ -44,6 +44,21 @@
 
 	--focus: #1f6feb;
 
+	/*
+	 * Sistem çubuklarının kapladığı kenar payları.
+	 *
+	 * İki katmanlı okunur, çünkü iki farklı kaynak var: Capacitor
+	 * `--safe-area-inset-*` değişkenlerini <html> üzerine satır içi stil olarak
+	 * yazar; düz tarayıcıda (GitHub Pages, masaüstü) böyle bir değişken yoktur,
+	 * orada `env()` devreye girer. İkisi de yoksa 0px.
+	 *
+	 * Tüketen kod tek isim görür: --safe-top / --safe-right / vb.
+	 */
+	--safe-top: var(--safe-area-inset-top, env(safe-area-inset-top, 0px));
+	--safe-right: var(--safe-area-inset-right, env(safe-area-inset-right, 0px));
+	--safe-bottom: var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px));
+	--safe-left: var(--safe-area-inset-left, env(safe-area-inset-left, 0px));
+
 	/* Yazı boyutu tabanı — rem tabanlı olduğu için boşluklar da birlikte ölçeklenir */
 	font-size: 16px;
 }

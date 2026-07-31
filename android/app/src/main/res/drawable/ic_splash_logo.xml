@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Açılış ekranı işareti. Zemin şeffaftır; arkasını
+    `windowSplashScreenBackground` (@color/brand) verir.
+
+    Yol koordinatları scripts/generate-icons.ts içindeki tik işaretiyle
+    birebir aynıdır — bu yüzden viewport 512 birimde bırakıldı. Android 12+
+    açılış ikonunu 288dp tuvalin iç 2/3'lük dairesine kırpar; ölçek bu
+    dairenin içinde rahat pay bırakacak şekilde seçildi.
+
+    Yoğunluk başına splash.png üretmeye gerek yok: vektör her ekranda ölçeklenir.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="288dp"
+    android:height="288dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <group
+        android:pivotX="256"
+        android:pivotY="256"
+        android:scaleX="0.85"
+        android:scaleY="0.85">
+        <path
+            android:pathData="M150,268 L222,340 L366,176"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="44"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+    </group>
+</vector>

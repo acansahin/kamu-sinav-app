@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Native tarafın renkleri.
+
+    `brand` değeri globals.css içindeki `--brand` ve scripts/generate-icons.ts
+    içindeki BRAND sabiti ile aynı olmalıdır; üçü birden değişir.
+
+    colorPrimary / colorPrimaryDark / colorAccent adlarını Capacitor kütüphanesi
+    kendi indigo varsayılanıyla (#3F51B5) tanımlar. Bu dosya olmadan uygulama
+    teması o indigoyu kullanır; buradaki tanımlar onu ezer.
+-->
+<resources>
+    <color name="brand">#17395E</color>
+    <color name="brand_dark">#0F2740</color>
+
+    <color name="colorPrimary">@color/brand</color>
+    <color name="colorPrimaryDark">@color/brand_dark</color>
+    <color name="colorAccent">@color/brand</color>
+</resources>

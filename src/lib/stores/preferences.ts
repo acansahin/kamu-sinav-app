@@ -59,6 +59,68 @@ export function useApplyPreferences(): void {
 		if (highContrast) root.setAttribute("data-contrast", "yuksek");
 		else root.removeAttribute("data-contrast");
 	}, [theme, fontScale, highContrast]);
+
+	useSystemBarsStyle(theme);
+}
+
+/**
+ * Durum ve jest çubuğu ikonlarını uygulama temasına bağlar. Yalnızca Android
+ * paketinde iş görür; tarayıcıda sessizce hiçbir şey yapmaz.
+ *
+ * Capacitor'ın varsayılanı CİHAZIN gece modunu okur, uygulamanınkini değil.
+ * Kullanıcı açık moddaki bir telefonda uygulamayı "Koyu"ya alırsa koyu başlığın
+ * üstünde koyu ikonlar çıkar ve okunmaz hâle gelir — edge-to-edge'e geçtikten
+ * sonra çubuğun arkasını artık uygulama boyadığı için bu gerçek bir kontrast
+ * ihlalidir.
+ */
+function useSystemBarsStyle(theme: ThemeChoice): void {
+	useEffect(() => {
+		let cancelled = false;
+		const koyuSorgu = window.matchMedia("(prefers-color-scheme: dark)");
+
+		async function uygula(): Promise<void> {
+			/*
+			 * Dinamik yükleme bilinçli: statik içe aktarım @capacitor/core'u web
+			 * yayınının ortak paketine sokar (bkz. lib/auth/supabase-client.ts).
+			 */
+			const { Capacitor, SystemBars, SystemBarsStyle } =
+				await import("@capacitor/core");
+
+			// Web implementasyonu `unavailable` fırlatır; native değilse hiç çağırma.
+			if (cancelled || !Capacitor.isNativePlatform()) return;
+
+			const koyu = theme === "koyu" || (theme === "sistem" && koyuSorgu.matches);
+
+			/*
+			 * Enum adı ZEMİNİ anlatır, ikonu değil: `Dark` = koyu zemin üzerinde
+			 * açık ikon. Uygulama teması koyuyken istediğimiz budur.
+			 */
+			await SystemBars.setStyle({
+				style: koyu ? SystemBarsStyle.Dark : SystemBarsStyle.Light,
+			});
+		}
+
+		const calistir = (): void => {
+			// Çubuk stili tamamen kozmetik: başarısız olursa kullanıcıya
+			// gösterilecek bir şey yok, uygulama çalışmaya devam eder.
+			void uygula().catch(() => {});
+		};
+
+		calistir();
+
+		// "Sistem" seçiliyken cihazın teması sonradan da değişebilir.
+		if (theme !== "sistem") {
+			return () => {
+				cancelled = true;
+			};
+		}
+
+		koyuSorgu.addEventListener("change", calistir);
+		return () => {
+			cancelled = true;
+			koyuSorgu.removeEventListener("change", calistir);
+		};
+	}, [theme]);
 }
 
 export const FONT_SCALE_LABELS: Record<FontScale, string> = {

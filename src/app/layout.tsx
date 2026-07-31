@@ -21,6 +21,14 @@ export const viewport: Viewport = {
 	// Kullanıcının yakınlaştırmasını asla engelleme — erişilebilirlik gereği
 	maximumScale: 5,
 	userScalable: true,
+	/*
+	 * Android'de sistem çubuklarının altını da uygulama boyasın. Capacitor'ın
+	 * yerleşik SystemBars eklentisi bu anahtarı meta etiketinde arar: yoksa
+	 * WebView'i içeri padler ve çubukların arkası statik pencere arka planıyla
+	 * (temayı izlemeyen bir bant) kalır. Varsa insetleri geçirir ve
+	 * globals.css'teki --safe-* token'ları gerçek değerleri alır.
+	 */
+	viewportFit: "cover",
 };
 
 export default function RootLayout({
