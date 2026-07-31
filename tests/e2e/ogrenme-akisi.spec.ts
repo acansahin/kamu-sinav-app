@@ -1,5 +1,9 @@
 import { expect, test } from "@playwright/test";
-import { sikSec, soruSayisiSec } from "./yardimcilar";
+import {
+	mevzuatDayanagiKalibi,
+	sikSec,
+	soruSayisiSec,
+} from "./yardimcilar";
 
 /**
  * Öğrenme döngüsü: konu özeti → test → sonuç → ilerleme.
@@ -66,7 +70,10 @@ test("her soruda mevzuat dayanağı ve hata bildirimi görünür", async ({
 	await sikSec(page);
 
 	// Farklılaşma tezi: dayanak her zaman görünür (§4, taahhüt 1).
-	await expect(page.getByText(/657 sayılı Devlet Memurları Kanunu, m\./)).toBeVisible();
+	// Hangi soru çekilirse çekilsin geçerli olsun diye kalıp havuzdan türetilir.
+	await expect(
+		page.getByText(mevzuatDayanagiKalibi("657-dmk", "disiplin-cezalari")).first(),
+	).toBeVisible();
 	await expect(
 		page.getByRole("button", { name: "Bu soruda sorun var" }),
 	).toBeVisible();
