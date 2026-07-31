@@ -2,8 +2,10 @@
 <!--
     Native tarafın renkleri.
 
-    `brand` değeri globals.css içindeki `--brand` ve scripts/generate-icons.ts
-    içindeki BRAND sabiti ile aynı olmalıdır; üçü birden değişir.
+    Buradaki `brand`, globals.css içindeki marka özel özelliği ve
+    scripts/generate-icons.ts içindeki BRAND sabiti ile aynı olmalıdır; üçü
+    birden değişir. (XML yorumlarında iki tire yan yana yazılamaz, bu yüzden
+    CSS token'ı adıyla değil tarifiyle anılıyor.)
 
     colorPrimary / colorPrimaryDark / colorAccent adlarını Capacitor kütüphanesi
     kendi indigo varsayılanıyla (#3F51B5) tanımlar. Bu dosya olmadan uygulama
