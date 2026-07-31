@@ -595,5 +595,173 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-yasak-019",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "orta",
+		"stem": "Bir Devlet memuru, görevli olduğu kurumun sermayesine katıldığı bir şirkette kurumunu temsilen yönetim kurulu üyeliğine getirilmiştir. 657 sayılı Kanun'un 28. maddesi bakımından bu durum için aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Memurun bu görevi üstlenebilmesi için durumu 15 gün içinde kurumuna bildirmesi yeterlidir.",
+			"Aykırılık yalnızca görev karşılığında ayrıca ücret alınması hâlinde doğar.",
+			"Bu görevin alınabilmesi ancak Cumhurbaşkanı izniyle mümkündür.",
+			"Ticaret ve sanayi müesseselerinde görev alma yasağı mutlak olduğundan davranış yasağa aykırıdır.",
+			"Görevli olunan kurumun iştiraklerinde kurumu temsilen alınan görevler yasağın dışında tutulduğundan aykırılık yoktur."
+		],
+		"correctIndex": 4,
+		"explanation": "28. madde memurların ticaret ve sanayi müesseselerinde görev almasını yasaklarken parantez içi hükümle bir istisna koyar: görevli oldukları kurumların iştiraklerinde kurumlarını temsilen alacakları görevler yasağın dışındadır. 15 günlük bildirim yükümlülüğü ise memurun kendi görevine değil, eşi ile reşit olmayan veya mahcur çocuklarının yasaklanan faaliyetlerine ilişkindir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ticaret-yasagi",
+			"istirak"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-yasak-020",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "zor",
+		"stem": "Bir Devlet memuru, mesai saatleri dışında bir vakıf yükseköğretim kurumunda ücret karşılığı çalışmaya başlamıştır. 657 sayılı Kanun'un 28. maddesi bakımından bu durum için aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yasak yalnızca gerçek kişilere ait iş yerlerini kapsar; vakıf yükseköğretim kurumları kapsam dışındadır.",
+			"Çalışma mesai saatleri dışında olduğu için yasak kapsamına girmez.",
+			"Memurlar vakıf yükseköğretim kurumlarında çalışamayacağından davranış yasağa aykırıdır.",
+			"Kurumundan yazılı izin alınması hâlinde bu çalışma mümkündür.",
+			"Yasak yalnızca tacir veya esnaf sayılmayı gerektiren faaliyetleri kapsadığından aykırılık yoktur."
+		],
+		"correctIndex": 2,
+		"explanation": "28. maddenin 2014'te (6514 sayılı Kanun) yeniden düzenlenen son cümlesi açıktır: memurlar mesleki faaliyette veya serbest meslek icrasında bulunmak üzere ofis, büro, muayenehane ve benzeri yerler açamaz; gerçek kişilere, özel hukuk tüzel kişilerine veya kamu kurumu niteliğindeki meslek kuruluşlarına ait herhangi bir iş yerinde VEYA VAKIF YÜKSEKÖĞRETİM KURUMLARINDA çalışamaz. Hüküm mesai saati ayrımı yapmaz ve izinle aşılabilecek bir istisna öngörmez.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ticaret-yasagi",
+			"serbest-meslek"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-yasak-021",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 28. maddesine göre, yakınlarının yasaklanan faaliyetlerde bulunması hâlinde memura kurumuna bildirim yükümlülüğü doğuran kişiler aşağıdakilerden hangisinde birlikte ve doğru olarak verilmiştir?",
+		"options": [
+			"Eşi, reşit olmayan çocukları ve mahcur olan çocukları",
+			"Eşi, çocukları ve anne ile babası",
+			"Yalnızca eşi",
+			"Eşi, reşit olmayan çocukları ve aynı konutta yaşadığı kardeşleri",
+			"Eşi ve reşit olup olmadığına bakılmaksızın bütün çocukları"
+		],
+		"correctIndex": 0,
+		"explanation": "28. maddenin son fıkrası bildirim yükümlülüğünü üç grupla sınırlar: eşleri, REŞİT OLMAYAN çocukları ve MAHCUR olan çocukları yasaklanan faaliyetlerde bulunan memurlar bu durumu 15 gün içinde bağlı oldukları kuruma bildirmekle yükümlüdür. Reşit ve mahcur olmayan çocuk ile diğer yakınlar kapsam dışındadır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ticaret-yasagi",
+			"bildirim-yukumlulugu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-yasak-022",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "orta",
+		"stem": "Bir memur, biriminde işi bulunan bir kişiden bir yakını aracılığıyla hediye istemiş; ancak hediye henüz kendisine verilmemiştir. 657 sayılı Kanun'un 29. maddesi bakımından bu durum için aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Hediyenin aracı eliyle istenmesi de yasak kapsamında olduğundan davranış hediye alma yasağına aykırıdır.",
+			"Yasak yalnızca görev sırasında istenen hediyeleri kapsadığından aykırılık yoktur.",
+			"Hediye fiilen kabul edilmediği sürece yasak ihlal edilmiş sayılmaz.",
+			"Aykırılık ancak hediyenin değerinin belirli bir tutarı aşması hâlinde doğar.",
+			"Yasak yalnızca hediyenin memurca doğrudan istenmesini kapsadığından aykırılık yoktur."
+		],
+		"correctIndex": 0,
+		"explanation": "29. madde iki ayrı fiili birden yasaklar: memurların DOĞRUDAN DOĞRUYA VEYA ARACI ELİYLE hediye istemeleri ve görevleri sırasında olmasa dahi menfaat sağlama amacıyla hediye kabul etmeleri. Hediyenin istenmesi başlı başına yasağı ihlal eder; fiilen alınmış olması aranmaz. Maddede parasal bir eşik de yoktur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "29"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hediye-yasagi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-yasak-023",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "zor",
+		"stem": "Denetim görevi yürüten bir memur, denetlediği şirketin sahibinden eşi adına ücretsiz konaklama sağlanmasını temin etmiştir. 657 sayılı Kanun'un 30. maddesi bakımından bu durum için aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Denetimi altındaki teşebbüsten aracı eliyle ve her ne ad altında olursa olsun menfaat sağlanması yasak olduğundan davranış maddeye aykırıdır.",
+			"Yasak yalnızca memurun kendi kurumuyla ilgisi olan teşebbüsleri kapsar; denetlediği teşebbüsler kapsam dışındadır.",
+			"Aykırılık ancak sağlanan menfaatin denetim sonucunu etkilediğinin ispatı hâlinde doğar.",
+			"Menfaat memurun kendisine değil eşine sağlandığından maddeye aykırılık oluşmaz.",
+			"Yasak yalnızca nakit olarak sağlanan menfaatleri kapsar."
+		],
+		"correctIndex": 0,
+		"explanation": "30. madde, memurun denetimi altında bulunan veya kendi görevi ya da mensup olduğu kurum ile ilgisi olan bir teşebbüsten DOĞRUDAN DOĞRUYA VEYA ARACI ELİYLE HER NE AD ALTINDA OLURSA OLSUN menfaat sağlamasını yasaklar. Menfaatin türü, kime yöneldiği ve denetim sonucunu etkileyip etkilemediği yasağın oluşması bakımından önem taşımaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "30"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"menfaat-saglama-yasagi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

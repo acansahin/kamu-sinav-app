@@ -4,7 +4,7 @@
 		"subjectId": "657-dmk",
 		"topicId": "657-dmk/odevler-ve-sorumluluklar",
 		"difficulty": "kolay",
-		"stem": "Memur, amirinden aldığı emri Anayasa, kanun, tüzük ve yönetmelik hükümlerine aykırı görürse ne yapar?",
+		"stem": "Memur, amirinden aldığı emri Anayasa, kanun, Cumhurbaşkanlığı kararnamesi ve yönetmelik hükümlerine aykırı görürse ne yapar?",
 		"options": [
 			"Emri yerine getirip yazılı itirazda bulunur.",
 			"Emri yerine getirmez ve bu aykırılığı emri verene bildirir.",
@@ -12,7 +12,7 @@
 			"Emri yerine getirmez ve doğrudan savcılığa başvurur."
 		],
 		"correctIndex": 1,
-		"explanation": "Madde 11'e göre Devlet memuru amirinden aldığı emri Anayasa, kanun, tüzük ve yönetmelik hükümlerine aykırı görürse yerine getirmez ve bu aykırılığı o emri verene bildirir. Bildirim doğrudan emri verene yapılır.",
+		"explanation": "11. maddeye göre Devlet memuru amirinden aldığı emri Anayasa, kanun, Cumhurbaşkanlığı kararnamesi ve yönetmelik hükümlerine aykırı görürse yerine getirmez ve bu aykırılığı o emri verene bildirir. Bildirim doğrudan emri verene yapılır. (Maddedeki 'tüzük' ibaresi 2/7/2018 tarihli ve 703 sayılı KHK ile 'Cumhurbaşkanlığı kararnamesi' olarak değiştirilmiştir.)",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
 			"lawId": "657",
@@ -29,8 +29,8 @@
 			"madde-11",
 			"emir"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-07-31"
 	},
 	{
 		"id": "657-odev-002",
@@ -835,5 +835,272 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-odev-026",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 6. maddesine göre sadakat ödevi ve yemin bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Yemin metni Kanun'un kendisinde yer alır.",
+			"Yemin, asli Devlet memurluğuna atandıktan sonra en geç bir ay içinde yapılır.",
+			"Yemin sözlü olarak yapılır; ayrıca bir belgenin imzalanması öngörülmemiştir.",
+			"Yemin, kurumlarınca düzenlenecek merasimle yetkili amirlerin huzurunda yapılır.",
+			"Devlet memurları Türkiye Cumhuriyeti Anayasasına ve kanunlarına sadakatle bağlı kalmak zorundadır."
+		],
+		"correctIndex": 2,
+		"explanation": "6. maddeye göre memurlar yemini yalnız sözle etmez; özlük dosyalarına konulacak YEMİN BELGESİNİ imzalayarak göreve başlarlar. Yemin, asli Devlet memurluğuna atandıktan sonra en geç bir ay içinde, kurumca düzenlenecek merasimle ve yetkili amirlerin huzurunda yapılır; yemin metni maddenin içinde kelimesi kelimesine yazılıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sadakat",
+			"yemin"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-odev-027",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 7. maddesinin ikinci fıkrasına göre Devlete bağlılık ödevi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Memurlar bu nitelikteki teşekküllere üye olabilir; yalnızca maddi yardımda bulunmaları yasaktır.",
+			"Devletin menfaatlerini koruma yükümlülüğü yalnızca amir konumundaki memurlar için düzenlenmiştir.",
+			"Bu yükümlülük yalnızca mesai saatleri içinde geçerlidir.",
+			"Memurlar her durumda Devletin menfaatlerini korumak zorundadır; Anayasa'ya ve kanunlara aykırı, memleketin bağımsızlığını ve bütünlüğünü bozan nitelikteki hareket, gruplaşma, teşekkül veya derneklere katılamaz ve bunlara yardım edemezler.",
+			"Yükümlülük yalnızca yurt dışında görevli memurlar bakımından öngörülmüştür."
+		],
+		"correctIndex": 3,
+		"explanation": "7. maddenin ikinci fıkrası memurlara HER DURUMDA Devletin menfaatlerini koruma mecburiyeti yükler; Anayasa'ya ve kanunlara aykırı olan, memleketin bağımsızlığını ve bütünlüğünü bozan, Türkiye Cumhuriyetinin güvenliğini tehlikeye düşüren faaliyetlerde bulunmayı, aynı nitelikte faaliyet gösteren hareket, gruplaşma, teşekkül veya derneklere katılmayı ve bunlara yardım etmeyi ayrı ayrı yasaklar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"devlete-baglilik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-odev-028",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "Kurumunca bir araştırma programı için yabancı bir ülkeye gönderilen memur, orada Devletin itibarını zedeleyici davranışlarda bulunmuştur. 657 sayılı Kanun'un 9. maddesi bakımından bu durum için aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Madde yalnızca sürekli görevle yurt dışında bulunanları kapsadığından aykırılık yoktur.",
+			"Aykırılık ancak bulunulan ülkenin mevzuatının da ihlal edilmesi hâlinde doğar.",
+			"Memurların yurt dışındaki davranışları 657 sayılı Kanun'un kapsamı dışındadır.",
+			"Madde araştırma için yabancı memlekette bulunanları da kapsadığından davranış yurt dışında davranış ödevine aykırıdır.",
+			"Aykırılık yalnızca davranışın görevin ifası sırasında gerçekleşmesi hâlinde doğar."
+		],
+		"correctIndex": 3,
+		"explanation": "9. madde ödevin muhatabını üç grup hâlinde sayar: sürekli veya geçici görevle YA DA yetişme, inceleme ve araştırma için yabancı memleketlerde bulunan memurlar. Bunlar Devlet itibarını veya görev haysiyetini zedeleyici fiil ve davranışlarda bulunamaz; hüküm davranışın görev sırasında olup olmamasına ya da yabancı mevzuatın ihlaline bağlanmamıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurt-disinda-davranis"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-odev-029",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 11. maddesinin birinci fıkrasına göre Devlet memuru, görevlerinin iyi ve doğru yürütülmesinden kime karşı sorumludur?",
+		"options": [
+			"Amirlerine karşı",
+			"Yetkili disiplin kuruluna karşı",
+			"Doğrudan doğruya kamuoyuna karşı",
+			"Yalnızca yargı mercilerine karşı",
+			"Görev verdiği maiyet memurlarına karşı"
+		],
+		"correctIndex": 0,
+		"explanation": "11. maddenin birinci fıkrası üç unsuru birlikte kurar: memurlar kanun ve diğer mevzuatta belirtilen esaslara uymakla, amirler tarafından verilen görevleri yerine getirmekle yükümlüdür ve görevlerinin iyi ve doğru yürütülmesinden AMİRLERİNE KARŞI sorumludur. Maddenin sonraki fıkraları kanunsuz emir rejimini düzenler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorev-ve-sorumluluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-odev-030",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 12. maddesinin birinci fıkrasına göre Devlet memurlarının yükümlülüğü aşağıdakilerden hangisidir?",
+		"options": [
+			"Görevlerini dikkat ve itina ile yerine getirmek, kendilerine teslim edilen Devlet malını korumak ve her an hizmete hazır hâlde bulundurmak için gerekli tedbirleri almak",
+			"Görevlerini yalnızca amirin yazılı talimatı bulunması hâlinde yerine getirmek",
+			"Yalnızca kendilerine zimmetle teslim edilen taşınır malları korumak",
+			"Devlet malının korunmasından yalnızca amir konumundaki memurların sorumlu olması",
+			"Devlet malını korumak, ancak bakım ve hizmete hazır bulundurulmasından sorumlu olmamak"
+		],
+		"correctIndex": 0,
+		"explanation": "12. maddenin birinci fıkrası üç yükümlülüğü birlikte sayar: görevleri dikkat ve itina ile yerine getirmek, kendilerine teslim edilen Devlet malını korumak ve bu malı her an hizmete hazır hâlde bulundurmak için gerekli tedbirleri almak. Maddenin sonraki fıkraları, bu ödeve aykırılıktan doğan zararın rayiç bedel üzerinden ödenmesini düzenler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"devlet-mali",
+			"kisisel-sorumluluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-odev-031",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 13. maddesine göre, işkence ya da zalimane, gayri insani veya haysiyet kırıcı muamele suçları nedeniyle Avrupa İnsan Hakları Mahkemesince verilen kararlar sonucunda Devletçe ödenen tazminatlar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Rücu yetkisi münhasıran Adalet Bakanlığına aittir.",
+			"Bu tazminatlar bakımından sorumlu personele rücu edilmesi mümkün değildir.",
+			"Bu tazminatlardan dolayı sorumlu personele rücu edilmesi hakkında da maddenin birinci fıkrası hükmü uygulanır.",
+			"Rücu, yalnızca personel hakkındaki ceza mahkûmiyetinin kesinleşmesi hâlinde mümkündür.",
+			"Bu konu 657 sayılı Kanun'da düzenlenmemiş olup yalnızca Anayasa'da yer alır."
+		],
+		"correctIndex": 2,
+		"explanation": "13. maddeye 2002'de (4748 sayılı Kanun) eklenen fıkra, Avrupa İnsan Hakları Mahkemesi kararları sonucunda Devletçe ödenen tazminatlarda da birinci fıkra hükmünün, yani kurumun genel hükümlere göre sorumlu personele rücu hakkının saklı olduğu kuralının uygulanacağını belirtir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"rucu",
+			"aihm"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-odev-032",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 15. maddesine göre askerî hizmetle ilgili bilgilerin açıklanması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Askerî hizmetle ilgili bilgiler, özel kanunların ve Cumhurbaşkanlığı kararnamelerinin yetkili kıldığı personel dışında hiç kimse tarafından açıklanamaz.",
+			"Bu bilgiler bakanın yetkili kılacağı her görevli tarafından açıklanabilir.",
+			"Askerî hizmetle ilgili bilgiler 657 sayılı Kanun'un düzenleme alanı dışındadır.",
+			"Bu bilgiler, kamu görevleri hakkındaki diğer bilgiler gibi illerde valiler tarafından açıklanabilir.",
+			"Bu bilgiler yalnızca yazılı basına açıklanabilir."
+		],
+		"correctIndex": 0,
+		"explanation": "15. maddenin ilk fıkrası kamu görevleri hakkında bilgi ve demeç verme yetkisini bakanın yetkili kılacağı görevliye, illerde valilere bırakırken; ikinci fıkrası askerî hizmetle ilgili bilgiler için daha dar bir rejim kurar: bu bilgiler ancak özel kanunların ve Cumhurbaşkanlığı kararnamelerinin yetkili kıldığı personel tarafından açıklanabilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"basina-bilgi-verme"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-odev-033",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 16. maddesinin birinci fıkrasına göre resmî belge, araç ve gereçler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu belge, araç ve gereçler amirin sözlü izniyle hususi işlerde kullanılabilir.",
+			"Yasak yalnızca taşınabilir nitelikteki araç ve gereçler bakımından geçerlidir.",
+			"Mesai saatleri dışında hususi işlerde kullanılması serbesttir.",
+			"Yasak yalnızca resmî belgeleri kapsar; araç ve gereçler kapsam dışındadır.",
+			"Devlet memurları görevleriyle ilgili resmî belge, araç ve gereçleri yetki verilen mahaller dışına çıkaramaz ve hususi işlerinde kullanamaz."
+		],
+		"correctIndex": 4,
+		"explanation": "16. madde iki ayrı yükümlülük getirir. Birinci fıkra, görevle ilgili resmî belge, araç ve gereçlerin yetki verilen mahaller dışına çıkarılmasını ve hususi işlerde kullanılmasını yasaklar; ikinci fıkra ise görev sona erdiğinde bunların iade edilmesini zorunlu kılar ve bu zorunluluğu memurun mirasçılarına da teşmil eder.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"resmi-belge-arac-gerec"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]
