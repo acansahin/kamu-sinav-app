@@ -702,5 +702,175 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-sona-022",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 98. maddesinde memurluğu sona erdiren emeklilik sebepleri aşağıdakilerden hangisinde birlikte ve doğru olarak verilmiştir?",
+		"options": [
+			"İstek, malûllük ve görevde başarısızlık",
+			"Yaş haddi, malûllük ve hizmet süresinin dolması",
+			"Yalnızca istek ve yaş haddi",
+			"İstek, yaş haddi ve malûllük",
+			"İstek, yaş haddi ve kadrosuzluk"
+		],
+		"correctIndex": 3,
+		"explanation": "98. maddenin (ç) bendi emekliye ayrılma sebeplerini üç başlıkta sayar: istek, yaş haddi ve malûllük. Maddenin diğer bentleri memurluktan çıkarılma, memurluğa alınma şartlarından birinin taşınmadığının sonradan anlaşılması veya kaybedilmesi, çekilme ve ölümdür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "98"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"memurlugun-sona-ermesi",
+			"emeklilik"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-sona-023",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "zor",
+		"stem": "23/1/2026 tarihli ve 7573 sayılı Kanun'la yeniden düzenlenen 657 sayılı Kanun'un 56. maddesine göre, adaylık süresi içinde ilişiği kesilenler bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"İlişikleri kesilenler bir yıl geçtikten sonra yeniden Devlet memurluğuna alınabilir.",
+			"İlişikleri kesilenler, ilgili kurumlarca derhal Kamu Personel Bilgi Sisteminin bulunduğu kuruma bildirilir.",
+			"Temel eğitim, hazırlayıcı eğitim ve staj devrelerinin herhangi birinde başarısız olmak ilişik kesme sebebidir.",
+			"İlişikleri kesilenler, sağlık nedenleri hariç, üç yıl süre ile Devlet memurluğuna alınmaz.",
+			"İlişik kesme işlemi, disiplin amirlerinin teklifi ve atamaya yetkili amirin onayı ile yapılır."
+		],
+		"correctIndex": 0,
+		"explanation": "56. maddenin ikinci fıkrası, bu madde uyarınca ilişikleri kesilenlerin (SAĞLIK NEDENLERİ HARİÇ) ÜÇ YIL süreyle Devlet memurluğuna alınamayacağını öngörür. Aynı madde ilişik kesme kararının disiplin amirlerinin teklifi ve atamaya yetkili amirin onayı ile verileceğini ve durumun derhal Kamu Personel Bilgi Sisteminin bulunduğu kuruma bildirileceğini de düzenler. Aynı Kanun'la 57. madde mülga edilmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "56"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"adaylik",
+			"7573"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-sona-024",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 97. maddesinde çekilen ve çekilmiş sayılanlar için öngörülen yeniden atanma yasakları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yasaklar yalnızca ayrıldığı kuruma yeniden atanmayı engeller; başka kurumlara atanmaya engel değildir.",
+			"Yasaklar, memurun kendi isteğiyle çekilmesi hâlinde uygulanmaz.",
+			"Madde bu yasakları düzenlerken ilgililerin malî ve cezai sorumluluklarını saklı tutar; yasak süresinin geçmesi bu sorumlulukları ortadan kaldırmaz.",
+			"Yasak süresinin dolmasıyla ilgilinin malî sorumluluğu da sona erer.",
+			"Yasakların uygulanıp uygulanmaması atamaya yetkili amirin takdirindedir."
+		],
+		"correctIndex": 2,
+		"explanation": "97. madde 'Memurlardan malî ve cezai sorumlulukları saklı kalmak üzere' ibaresiyle başlar: yeniden atanma yasakları idari nitelikte olup ilgilinin malî ve cezai sorumluluğunu etkilemez. Yasaklar Devlet memurluğuna alınmayı bütünüyle engeller (altı ay, bir yıl, üç yıl ya da hiçbir surette) ve takdire bağlı değildir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "97"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yeniden-atanma",
+			"sorumluluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-sona-025",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "zor",
+		"stem": "Devlet memurluğundan çıkarma cezası ile memuriyeti sona eren bir kişinin yeniden Devlet memurluğuna atanması bakımından 657 sayılı Kanun'a göre aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Ayrıldığı sınıfta boş kadro bulunması hâlinde 92. madde uyarınca yeniden atanabilir.",
+			"Yeniden atanıp atanmaması atamaya yetkili amirin takdirindedir.",
+			"Bu ceza bir daha Devlet memurluğuna atanmamak üzere memurluktan çıkarma sonucu doğurduğundan yeniden atanma mümkün değildir.",
+			"Cezanın uygulanmasından üç yıl geçtikten sonra yeniden atanabilir.",
+			"Ceza özlük dosyasından silindiği takdirde yeniden atanabilir."
+		],
+		"correctIndex": 2,
+		"explanation": "125. maddenin (E) bendi Devlet memurluğundan çıkarmayı 'BİR DAHA DEVLET MEMURLUĞUNA ATANMAMAK ÜZERE memurluktan çıkarma' olarak tanımlar; 98. maddenin (a) bendi de bu hâlde memurluğun sona ereceğini söyler. 92. maddedeki yeniden atanma imkânı kendi isteğiyle çekilenler ile çekilmiş sayılanlara ilişkindir. Ayrıca 133. madde, cezanın özlük dosyasından silinmesini isteme hakkını Devlet memurluğundan çıkarma cezası DIŞINDAKİ cezalar için tanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "98"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"memurluktan-cikarma",
+			"yeniden-atanma"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-sona-026",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "uzman",
+		"stem": "657 sayılı Kanun'un 92. maddesine 25/12/2024 tarihli ve 7537 sayılı Kanun'la eklenen fıkraya göre, kapsamdaki yönetici görevlerinden alınıp ilgili kadrolara atandıktan sonra memurluktan kendi istekleriyle çekilenlerin yeniden atanması bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Ayrılmadan önceki özlük hakları korunur.",
+			"Haklarında güvenlik soruşturması yapılması şarttır.",
+			"Atanabilmeleri için ayrıldıkları kadronun boş bulunması şarttır.",
+			"Bu imkândan iki defadan fazla yararlanılamaz.",
+			"Başvurmalarını takiben en geç üç ay içinde ayrıldıkları kadrolarına atanırlar."
+		],
+		"correctIndex": 2,
+		"explanation": "Fıkra, bu kişilerin maddedeki DİĞER ŞARTLAR ARANMAKSIZIN ve başkaca bir işleme gerek kalmaksızın ayrıldıkları kadrolarına atanacağını; atananların kadrolarının başka bir işleme gerek kalmaksızın ihdas edilmiş ve kurumların kadro cetvellerine eklenmiş sayılacağını öngörür. Dolayısıyla boş kadro şartı aranmaz. Aranan şartlar güvenlik soruşturması yapılması ve bu imkânın iki defadan fazla kullanılmamasıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "92"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yeniden-atanma",
+			"7537"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

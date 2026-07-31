@@ -595,5 +595,276 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-30"
+	},
+	{
+		"id": "657-ilke-020",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 37. maddesine göre yükselinebilecek derecenin üstünde bir dereceye yükselme bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu yükselme, memurun görev unvanının da bir üst unvanla değişmesi sonucunu doğurur.",
+			"Azami yükselebilecekleri derecelerin dördüncü kademesinden aylık almaya hak kazanan ve son sekiz yıllık süre içinde herhangi bir disiplin cezası almayanların kazanılmış hak aylıkları, kadro şartı aranmaksızın bir üst dereceye yükseltilir.",
+			"Azami yükselinebilecek derecenin birinci kademesinden aylık almaya hak kazananlar bu haktan yararlanır.",
+			"Son sekiz yıllık süre içinde alınan uyarma cezası bu yükselmeye engel değildir.",
+			"Bu yükselmenin yapılabilmesi için üst derecede boş kadro bulunması şarttır."
+		],
+		"correctIndex": 1,
+		"explanation": "37. madde, öğrenim durumu, hizmet sınıfı ve görev unvanı itibarıyla azami yükselebileceği derecenin DÖRDÜNCÜ KADEMESİNDEN aylık almaya hak kazanan ve son sekiz yıllık süre içinde HERHANGİ BİR disiplin cezası almayan memurun kazanılmış hak aylığının KADRO ŞARTI ARANMAKSIZIN bir üst dereceye yükseltilmesini öngörür. Uyarma da bir disiplin cezasıdır ve bu hakkı engeller; yükselme kazanılmış hak aylığına ilişkindir, görev unvanını değiştirmez.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "37"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"derece-yukselmesi",
+			"kadro-sarti"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-ilke-021",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 39. maddesine göre kadro ihdası bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kadronun boş olması hâlinde sınıf dışı kadro ihdası serbesttir.",
+			"Sınıflar dışında kadro ihdası Cumhurbaşkanı kararıyla mümkündür.",
+			"Hizmetin gerektirdiği hâllerde sınıflar dışında memurluk kadrosu ihdas edilebilir.",
+			"Bu Kanun'a tabi kurumlarda sınıflar dışında memurluk kadroları ihdas edilemez.",
+			"Sınıf dışında kadro ihdası yalnızca mahallî idareler bakımından yasaktır."
+		],
+		"correctIndex": 3,
+		"explanation": "39. madde tek cümledir: bu Kanun'a tabi kurumlarda sınıflar dışında memurluk kadroları ihdas edilemez. Hüküm, sınıflandırma ilkesinin (md.3) kadro düzeni bakımından sonucudur ve istisna tanımaz; 33. maddedeki 'kadrosuz memur çalıştırılamaz' kuralıyla birlikte okunur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "39"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siniflandirma",
+			"kadro"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-ilke-022",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "uzman",
+		"stem": "657 sayılı Kanun'un 45. maddesine göre, derece yükselmesi için gerekli nitelikleri haiz memur bulunmaması hâlinde 5 ve daha aşağı derecelerdeki kadrolara karşılık gösterilmek suretiyle yapılan atamalar bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Karşılık gösterilecek kadro derecesi, memurun kazanılmış hak aylık derecesinin üç üst derecesinden fazla olamaz.",
+			"Bu şekilde atananlar, işgal ettikleri kadroda kazanılmış derece ve kademelerinin aylığını almaya devam eder.",
+			"Karşılık gösterilen kadrolar, ilgililer için kazanılmış hak teşkil eder.",
+			"36. maddede öğrenim durumları itibarıyla tespit olunan yükselinebilecek derece aşılamaz.",
+			"Atama, memurun kendi derecesi ile aynı sınıftan yapılır."
+		],
+		"correctIndex": 2,
+		"explanation": "45. maddenin son fıkrası açıktır: karşılık gösterilen kadrolar ilgililer için KAZANILMIŞ HAK TEŞKİL ETMEZ. Bu yolla atananlar işgal ettikleri kadroda kendi kazanılmış derece ve kademelerinin aylığını almaya devam eder; kademe ilerlemesi ve derece yükselmesi genel esaslara göre yapılır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "45"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"karsilik-gosterme",
+			"kazanilmis-hak"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-ilke-023",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 36. maddesinde Mülki İdare Amirliği Hizmetleri Sınıfı kimleri kapsayacak şekilde tanımlanmıştır?",
+		"options": [
+			"Yalnızca görevde bulunan valileri ve kaymakamları",
+			"Valiler ve kaymakamlar ile bu sıfatları kazanmış olup İçişleri Bakanlığı merkez ve iller kuruluşunda çalışanları ve maiyet memurlarını",
+			"İl ve ilçelerde yönetim görevi yürüten bütün birim amirlerini",
+			"Valiler, kaymakamlar ve belediye başkanlarını",
+			"İçişleri Bakanlığı kadrolarında görev yapan bütün memurları"
+		],
+		"correctIndex": 1,
+		"explanation": "36. maddenin XI numaralı bendine göre bu sınıf; valiler ve kaymakamlar ile BU SIFATLARI KAZANMIŞ OLUP İçişleri Bakanlığı merkez ve iller kuruluşunda çalışanları ve MAİYET MEMURLARINI kapsar. Sınıf, fiilen valilik veya kaymakamlık yapanlarla sınırlı olmadığı gibi Bakanlığın bütün personelini de kapsamaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hizmet-siniflari",
+			"mulki-idare-amirligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-ilke-024",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 36. maddesine göre Yardımcı Hizmetler Sınıfı bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Yazı ve dosya dağıtmak ve toplamak, müracaat sahiplerini karşılamak ve yol göstermek bu sınıfın görevleri arasındadır.",
+			"Hizmet yerlerinin temizlenmesi ve tesisatın bakım ve işletilmesi gibi hizmetlerin üçüncü şahıslara ihale yoluyla gördürülmesi mümkündür.",
+			"Ana hizmetlere yardımcı mahiyetteki görevlerde, her kurumun özel bünyesine göre çalıştırılan memurları kapsar.",
+			"Kanun'da tespit edilen diğer sınıflara girmeyen bütün memurlar bu sınıfı teşkil eder.",
+			"4. maddenin (D) bendinde tanımlananlar bu sınıfın dışındadır."
+		],
+		"correctIndex": 3,
+		"explanation": "Diğer sınıflara girmeyen memurların teşkil ettiği sınıf, GENEL İDARE HİZMETLERİ SINIFIDIR (bent I). Yardımcı Hizmetler Sınıfı (bent X) ise ana hizmetlere yardımcı mahiyetteki belirli görevlerle tanımlanır, işçileri (4/D) kapsam dışında bırakır ve bu sınıfa düşen bazı hizmetlerin ihale yoluyla gördürülmesine imkân tanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hizmet-siniflari",
+			"yardimci-hizmetler"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-ilke-025",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 36. maddesindeki hizmet sınıfı tanımları bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Sahil Güvenlik Hizmetleri Sınıfı, Sahil Güvenlik Komutanlığı kadrolarında bulunan subay ve astsubayları kapsar.",
+			"Millî İstihbarat Hizmetleri Sınıfı, Millî İstihbarat Teşkilatı kadrolarında veya bu teşkilat emrinde çalıştırılanlardan özel kanunlarında gösterilen veya Cumhurbaşkanınca tespit edilen görevleri ifa edenleri kapsar.",
+			"Teknik Hizmetler Sınıfı yalnızca yükseköğrenim görmüş teknik personeli kapsar; orta derecede mesleki tahsil görenler bu sınıfa giremez.",
+			"Jandarma Hizmetleri Sınıfı, Jandarma Genel Komutanlığı kadrolarında bulunan subay, astsubay, uzman jandarma ile çarşı ve mahalle bekçilerini kapsar.",
+			"Sağlık Hizmetleri ve Yardımcı Sağlık Hizmetleri Sınıfı, hayvan sağlığı alanında mesleki eğitim görerek yetişmiş olanları da kapsar."
+		],
+		"correctIndex": 2,
+		"explanation": "36. maddenin II numaralı bendi, teknik unvanlara sahip olup EN AZ ORTA DERECEDE mesleki tahsil görmüş bulunanları da (tekniker, teknisyen, fen memuru ve emsali) Teknik Hizmetler Sınıfına dâhil eder; sınıf yükseköğrenimle sınırlı değildir. Diğer seçenekler ilgili bentlerin metnine uygundur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hizmet-siniflari"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-ilke-026",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler'e göre lisansüstü öğrenim ve akademik unvanların derece ve kademeye etkisi bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Tıpta uzmanlık belgesi alanlara bir derece yükselmesi uygulanır.",
+			"Doktora üstü üniversite doçentliği unvanını üniversitede görevli iken kazananlara iki kademe ilerlemesi uygulanır.",
+			"Master derecesini alıp bir kademe ilerlemesinden yararlanan memura, mesleği ile ilgili öğrenim dalında doktora yaptığı takdirde iki kademe ilerlemesi uygulanır.",
+			"Mesleği ile ilgili öğrenim dalında doktora yapanlara bir derece yükselmesi uygulanır.",
+			"Yükseköğrenim üstü master derecesi almış olanlara bir kademe ilerlemesi uygulanır."
+		],
+		"correctIndex": 1,
+		"explanation": "Ortak Hükümler'in 10. bendi ikili bir ayrım yapar: doktora üstü üniversite doçentliği unvanını ÜNİVERSİTEDE görevli iken kazananlara BİR DERECE, DİĞER MEMURİYETLERDE iken kazananlara İKİ KADEME ilerlemesi uygulanır. Diğer seçenekler 9. bendin hükümleridir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ortak-hukumler",
+			"lisansustu"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-ilke-027",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler'e göre avukatlık stajı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Stajın nerede yapıldığına bakılmaksızın bir derece yükselmesi uygulanır.",
+			"Avukatlık stajının kademe ilerlemesine herhangi bir etkisi yoktur.",
+			"Yalnızca memuriyette iken staj yapanlara iki kademe ilerlemesi uygulanır; açıkta staj yapanlara bir uygulama yapılmaz.",
+			"Avukatlık stajını açıkta iken yapanlara iki, memuriyette iken yapanlara bir kademe ilerlemesi uygulanır.",
+			"Avukatlık stajını açıkta iken yapanlara bir, memuriyette iken yapanlara iki kademe ilerlemesi uygulanır."
+		],
+		"correctIndex": 3,
+		"explanation": "Ortak Hükümler'in 1. bendi, avukatlık stajını AÇIKTA iken yapanlara İKİ, MEMURİYETTE iken yapanlara BİR kademe ilerlemesi uygulanacağını öngörür. Memuriyette geçen staj süresi zaten kademe ilerlemesine esas hizmet sayıldığından açıkta yapılan staj için daha fazla kademe verilmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Kanun metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ortak-hukumler",
+			"avukatlik-staji"
+		],
+		"version": 1,
+		"updatedAt": "2026-07-31"
 	}
 ]

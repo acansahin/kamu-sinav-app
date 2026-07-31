@@ -808,40 +808,6 @@
 		"updatedAt": "2026-07-30"
 	},
 	{
-		"id": "657-genel-025",
-		"subjectId": "657-dmk",
-		"topicId": "657-dmk/genel-hukumler",
-		"difficulty": "zor",
-		"stem": "23/1/2026 tarihli ve 7573 sayılı Kanun'la yeniden düzenlenen 657 sayılı Kanun'un 56. maddesine göre, adaylık süresi içinde aşağıdaki hâllerden hangisi tek başına ilişik kesme sebebi değildir?",
-		"options": [
-			"Aylıktan kesme cezası almış olmak",
-			"Kademe ilerlemesinin durdurulması cezası almış olmak",
-			"Hazırlayıcı eğitim devresinde başarısız olmak",
-			"Temel eğitim devresinde başarısız olmak",
-			"Bir defa uyarma cezası almış olmak"
-		],
-		"correctIndex": 4,
-		"explanation": "Maddenin yeni metnine göre adaylık süresi içinde temel ve hazırlayıcı eğitim ile staj devrelerinin herhangi birinde başarısız olanların, birden fazla uyarma ve/veya kınama cezası almış olanların ve aylıktan kesme ya da kademe ilerlemesinin durdurulması cezası almış olanların ilişiği kesilir. Tek bir uyarma cezası bu sebepler arasında yer almaz; ilişiği kesilenler ise (sağlık nedenleri hariç) üç yıl süreyle Devlet memurluğuna alınmaz.",
-		"legalRef": {
-			"law": "657 sayılı Devlet Memurları Kanunu",
-			"lawId": "657",
-			"article": "56"
-		},
-		"source": {
-			"kind": "original",
-			"origin": "Çıkmış sınav madde haritası rehberliğinde kanun metninden özgün soru yazımı",
-			"year": 2026,
-			"license": "own-work"
-		},
-		"status": "published",
-		"tags": [
-			"adaylık",
-			"2026-değişikliği"
-		],
-		"version": 1,
-		"updatedAt": "2026-07-30"
-	},
-	{
 		"id": "657-genel-026",
 		"subjectId": "657-dmk",
 		"topicId": "657-dmk/genel-hukumler",
