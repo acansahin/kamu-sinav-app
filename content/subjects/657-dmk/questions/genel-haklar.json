@@ -2044,5 +2044,142 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-hak-062",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 23. maddesinde düzenlenen izin hakkı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"İzin hakkının süre ve şartları kurumların kendi yönetmelikleriyle belirlenir.",
+			"Devlet memurları, bu Kanunda gösterilen süre ve şartlarla izin hakkına sahiptir.",
+			"İzin hakkı yalnızca yıllık izinden ibarettir.",
+			"İznin verilip verilmeyeceği tümüyle amirin takdirindedir.",
+			"İzin hakkı yalnızca adaylığı kaldırılmış memurlara tanınmıştır."
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un Genel Haklar bölümünde yer alan 23. maddesi, izni bir lütuf değil hak olarak tanımlar: Devlet memurları bu Kanunda gösterilen süre ve şartlarla izin hakkına sahiptir. Sürelerin ve şartların kaynağı kurum yönetmeliği değil Kanun'un kendisidir; yıllık izin (m.102), mazeret izni (m.104), hastalık izni (m.105) ve aylıksız izin (m.108) bu hakkın türleridir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "23"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"izin",
+			"genel-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-hak-063",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 176. maddesine göre ek ders ücreti nasıl hesaplanır?",
+		"options": [
+			"En yüksek Devlet memuru aylığının onda biri olarak",
+			"Her yıl kurumlarca serbestçe belirlenen maktu bir tutar üzerinden",
+			"Asgari ücretin aylık ders saati sayısına bölünmesiyle",
+			"Memurun brüt aylığının belirli bir yüzdesi olarak",
+			"Gösterge rakamının aylık katsayı ile çarpımından oluşan miktar üzerinden"
+		],
+		"correctIndex": 4,
+		"explanation": "657 sayılı Kanun'un 176. maddesine göre 89. madde uyarınca kendilerine ders görevi verilenlere, ders saati başına belirlenen gösterge rakamının bu Kanuna göre belirlenen aylık katsayı ile çarpımından oluşan miktar üzerinden ek ders ücreti ödenir. Gündüz öğretimi için 140, yarıyıl ve yaz tatilleri ile cumartesi-pazar ve saat 18.00'den sonra başlayan öğretim faaliyetleri için 150 gösterge rakamı esas alınır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "176"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ek-ders",
+			"mali-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-hak-064",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 199. maddesine göre mahrumiyet yerlerinde çalışan memurların yatılı okuyan çocukları için pansiyon ücretinde uygulanan indirim oranı nedir?",
+		"options": [
+			"%30",
+			"%25",
+			"%100",
+			"%75",
+			"%50"
+		],
+		"correctIndex": 4,
+		"explanation": "657 sayılı Kanun'un 199. maddesi, görev yerinde çocuğunun girmesi gereken orta dereceli okul bulunmayan mahrumiyet yeri memurlarına pansiyon ücret indirimi tanır. İndirim, her yıl bütçe kanunu ile tespit olunan pansiyon ücretlerinden en azının çocukların her biri için %50'si oranındadır ve doğan fark Devlet bütçesinden ödenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "199"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"pansiyon",
+			"mahrumiyet-yeri",
+			"sosyal-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-hak-065",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 200. maddesine göre pansiyon ücret indiriminden yararlanan memur çocukları sınıfta kalırsa ne olur?",
+		"options": [
+			"Aynı sınıf için ikinci sene bu haktan yararlanamazlar.",
+			"İndirim oranı yarıya düşürülür.",
+			"İndirimden yararlanmak için kurumdan yeniden izin alırlar.",
+			"İndirimden aynen yararlanmaya devam ederler.",
+			"İndirim hakkı tümüyle ve sürekli olarak sona erer."
+		],
+		"correctIndex": 0,
+		"explanation": "657 sayılı Kanun'un 200. maddesine göre pansiyonlarda ücret indiriminden faydalanan memurların çocukları sınıfta kalırlarsa aynı sınıf için ikinci sene bu haktan faydalanamazlar. Hak tümüyle sona ermez; yalnızca tekrarlanan sınıf yılı için askıya alınır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "200"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"pansiyon",
+			"sosyal-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
 	}
 ]

@@ -872,5 +872,39 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-sona-027",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 94. maddesine göre çekilme isteğinde bulunan memur, kural olarak ne zamana kadar görevine devam eder?",
+		"options": [
+			"Çekilme dilekçesini verdiği güne kadar",
+			"Yıllık izin hakkını kullanıncaya kadar",
+			"Yerine atanan kimsenin gelmesine veya çekilme isteğinin kabulüne kadar",
+			"Kurumun idari soruşturmayı tamamlamasına kadar",
+			"Dilekçenin verilmesini izleyen ay başına kadar"
+		],
+		"correctIndex": 2,
+		"explanation": "657 sayılı Kanun'un 94. maddesine göre çekilmek isteyen memur, yerine atanan kimsenin gelmesine veya çekilme isteğinin kabulüne kadar görevine devam eder. Yerine atanan kimse bir aya kadar gelmez veya yerine bir vekil atanmazsa memur, üstüne haber vererek görevini bırakabilir. Olağanüstü mazeretle çekilenler bu bir ay kaydına tabi değildir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "94"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cekilme",
+			"istifa"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
 	}
 ]

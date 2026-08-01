@@ -1332,5 +1332,39 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-yurutme-042",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 123. maddesine göre idarenin kuruluş ve görevleri hangi esaslara dayanır?",
+		"options": [
+			"Kamu yararı ve hizmet gereği esaslarına",
+			"Hiyerarşi ve vesayet esaslarına",
+			"Merkezden yönetim ve yerinden yönetim esaslarına",
+			"Kuvvetler ayrılığı ve yargı bağımsızlığı esaslarına",
+			"Yetki genişliği ve takdir yetkisi esaslarına"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 123. maddesine göre idare, kuruluş ve görevleriyle bir bütündür ve kanunla düzenlenir; idarenin kuruluş ve görevleri merkezden yönetim ve yerinden yönetim esaslarına dayanır. Aynı madde kamu tüzelkişiliğinin kanunla veya Cumhurbaşkanlığı kararnamesiyle kurulacağını belirtir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "123"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"idarenin-butunlugu",
+			"idare"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
 	}
 ]

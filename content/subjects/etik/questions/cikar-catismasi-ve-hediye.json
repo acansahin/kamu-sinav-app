@@ -577,5 +577,39 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-cikar-019",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "kolay",
+		"stem": "3628 sayılı Kanun'un 2. maddesine göre aşağıdakilerden hangisi mal bildiriminde bulunmakla yükümlü değildir?",
+		"options": [
+			"Noterler",
+			"Siyasi parti genel başkanları",
+			"Muhtarlar ve ihtiyar heyeti üyeleri",
+			"Belediyelerde aylık veya ücret alarak kamu hizmeti gören memurlar",
+			"Her tür seçimle iş başına gelen kamu görevlileri"
+		],
+		"correctIndex": 2,
+		"explanation": "3628 sayılı Kanun'un 2. maddesi mal bildirimiyle yükümlü olanları sayarken, her tür seçimle iş başına gelen kamu görevlilerini kapsama alır ancak muhtarlar ile ihtiyar heyeti üyelerini açıkça hariç tutar. Noterler, siyasi parti genel başkanları, vakıfların idare organlarında görev alanlar ve kamu kurumlarında aylık veya ücret karşılığı kamu hizmeti görenler kapsamdadır.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mal-bildirimi",
+			"kapsam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
 	}
 ]

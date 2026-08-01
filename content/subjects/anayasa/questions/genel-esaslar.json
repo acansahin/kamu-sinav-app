@@ -1163,5 +1163,108 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-genel-036",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 3. maddesine göre Türkiye Devleti'nin dili ve bayrağı aşağıdakilerden hangisinde birlikte ve doğru verilmiştir?",
+		"options": [
+			"Türkçe ve resmî yardımcı diller — beyaz ay yıldızlı al bayrak",
+			"Türkçe — beyaz ay yıldızlı al bayrak",
+			"Türkçe — al ay yıldızlı beyaz bayrak",
+			"Türkçe — kırmızı ay yıldızlı ak bayrak",
+			"Türkçe — şekli Cumhurbaşkanlığı kararnamesiyle belirlenen bayrak"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 3. maddesine göre Türkiye Devleti ülkesi ve milletiyle bölünmez bir bütündür; dili Türkçedir; bayrağı, şekli kanununda belirtilen beyaz ay yıldızlı al bayraktır; millî marşı İstiklal Marşı, başkenti Ankara'dır. Bayrağın şekli kararnameyle değil kanunla belirlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"devletin-nitelikleri",
+			"bayrak",
+			"resmi-dil"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-genel-037",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 10. maddesinin son fıkrasına göre imtiyaz tanınması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"İmtiyaz yalnızca yabancılar bakımından yasaktır.",
+			"Kamu yararı bulunduğunda ailelere imtiyaz tanınabilir.",
+			"Kanunla düzenlenmek şartıyla belirli zümrelere imtiyaz tanınabilir.",
+			"Hiçbir kişiye, aileye, zümreye veya sınıfa imtiyaz tanınamaz.",
+			"İmtiyaz tanınıp tanınmayacağını Cumhurbaşkanı belirler."
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 10. maddesi herkesin ayırım gözetilmeksizin kanun önünde eşit olduğunu belirttikten sonra hiçbir kişiye, aileye, zümreye veya sınıfa imtiyaz tanınamayacağını hükme bağlar. Çocuklar, yaşlılar, engelliler ile harp ve vazife şehitlerinin dul ve yetimleri için alınacak tedbirler ve kadın-erkek eşitliğini sağlamaya yönelik tedbirler ise eşitlik ilkesine aykırı sayılmaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"esitlik",
+			"imtiyaz"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-genel-038",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 174. maddesinde koruma altına alınan inkılap kanunlarının sayısı kaçtır?",
+		"options": [
+			"5",
+			"8",
+			"12",
+			"10",
+			"6"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 174. maddesi, Türk toplumunu çağdaş uygarlık seviyesinin üstüne çıkarma ve Cumhuriyetin laiklik niteliğini koruma amacını güden sekiz inkılap kanununu sayar: Tevhidi Tedrisat, Şapka İktisası, Tekke ve Zaviyelerin Kapatılması, Medeni Kanunla kabul edilen evlenme akdi hükümleri, Beynelmilel Erkamın Kabulü, Türk Harflerinin Kabulü, Lakap ve Unvanların Kaldırılması ile Bazı Kisvelerin Giyilemeyeceğine Dair Kanun. Bu kanunların Anayasa'ya aykırı olduğu ileri sürülemez.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "174"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"inkilap-kanunlari",
+			"laiklik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
 	}
 ]

@@ -1443,5 +1443,39 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-genel-045",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 36. maddesinde Devlet memurlarının hizmet sınıfları kaç başlık altında sayılmıştır?",
+		"options": [
+			"10",
+			"14",
+			"8",
+			"12",
+			"6"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 36. maddesi hizmet sınıflarını on iki başlık altında sayar: Genel İdare, Teknik, Sağlık ve Yardımcı Sağlık, Eğitim ve Öğretim, Avukatlık, Din, Emniyet, Jandarma, Sahil Güvenlik, Yardımcı Hizmetler, Mülki İdare Amirliği ve Millî İstihbarat Hizmetleri sınıfları. Jandarma ve Sahil Güvenlik Hizmetleri sınıfları 2016 yılında eklenmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hizmet-siniflari",
+			"siniflandirma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
 	}
 ]

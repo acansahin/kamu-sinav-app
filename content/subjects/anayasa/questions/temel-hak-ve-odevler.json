@@ -2106,5 +2106,174 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-thakl-064",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 27. maddesinde düzenlenen bilim ve sanat hürriyeti kapsamında aşağıdakilerden hangisi yer almaz?",
+		"options": [
+			"Bilim ve sanat alanında açıklama ve yayma",
+			"Bilim ve sanatı serbestçe öğrenme",
+			"Bu alanlarda her türlü araştırma yapma",
+			"Bilim ve sanatı serbestçe öğretme",
+			"Yayma hakkının Anayasa'nın ilk üç maddesini değiştirmek amacıyla kullanılması"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa'nın 27. maddesine göre herkes bilim ve sanatı serbestçe öğrenme ve öğretme, açıklama, yayma ve bu alanlarda her türlü araştırma hakkına sahiptir. Ancak aynı madde açık bir sınır koyar: yayma hakkı, Anayasa'nın 1, 2 ve 3. maddeleri hükümlerinin değiştirilmesini sağlamak amacıyla kullanılamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "27"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilim-sanat-hurriyeti"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-thakl-065",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 49. maddesine göre çalışmanın hukuki niteliği nedir?",
+		"options": [
+			"Yalnızca bir haktır; ödev niteliği yoktur.",
+			"Herkesin hem hakkı hem ödevidir.",
+			"Yalnızca kamu görevlileri bakımından ödevdir.",
+			"Yalnızca bir ödevdir; hak olarak düzenlenmemiştir.",
+			"Sosyal güvenlik hakkının bir sonucudur."
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 49. maddesi 'Çalışma, herkesin hakkı ve ödevidir.' hükmüyle başlar. Aynı madde Devlete, çalışanların hayat seviyesini yükseltmek, çalışma hayatını geliştirmek, çalışanları ve işsizleri korumak, işsizliği önlemeye elverişli ekonomik ortam yaratmak ve çalışma barışını sağlamak için gerekli tedbirleri alma görevi yükler.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "49"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"calisma-hakki",
+			"sosyal-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-thakl-066",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 59. maddesine göre spor alanında Devlete yüklenen görev aşağıdakilerden hangisidir?",
+		"options": [
+			"Her ilde en az bir spor tesisi işletmek",
+			"Bütün spor kulüplerini kamu tüzelkişiliğine kavuşturmak",
+			"Profesyonel sporcuların ücretlerini belirlemek",
+			"Spor federasyonlarını doğrudan yönetmek",
+			"Sporun kitlelere yayılmasını teşvik etmek ve başarılı sporcuyu korumak"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa'nın 59. maddesine göre Devlet, her yaştaki Türk vatandaşlarının beden ve ruh sağlığını geliştirecek tedbirleri alır, sporun kitlelere yayılmasını teşvik eder ve başarılı sporcuyu korur. 2011'de eklenen fıkraya göre spor federasyonlarının yönetim ve disipline ilişkin kararlarına karşı ancak zorunlu tahkim yoluna başvurulabilir; tahkim kurulu kararları kesindir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "59"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"spor",
+			"sosyal-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-thakl-067",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 63. maddesine göre Devlet hangi varlıkların korunmasını sağlamakla görevlidir?",
+		"options": [
+			"Yalnızca taşınmaz kültür varlıkları",
+			"Tarih, kültür ve tabiat varlıkları ve değerleri",
+			"Yalnızca devlet mülkiyetindeki tarihî yapılar",
+			"Yalnızca müzelerde sergilenen eserler",
+			"Yalnızca millî parklar ve tabiat alanları"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 63. maddesine göre Devlet, tarih, kültür ve tabiat varlıklarının ve değerlerinin korunmasını sağlar; bu amaçla destekleyici ve teşvik edici tedbirleri alır. Bu varlıklardan özel mülkiyet konusu olanlara getirilecek sınırlamalar ile hak sahiplerine yapılacak yardımlar ve tanınacak muafiyetler kanunla düzenlenir. Koruma yükümlülüğü mülkiyetin kime ait olduğuna göre daralmaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "63"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kultur-varliklari",
+			"sosyal-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-thakl-068",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 70. maddesine göre kamu hizmetlerine girmede hangi ayırım gözetilebilir?",
+		"options": [
+			"Hizmetin yürütüleceği ile göre ayırım",
+			"Adayın siyasi görüşüne göre ayırım",
+			"Yalnızca görevin gerektirdiği niteliklere ilişkin ayırım",
+			"Hiçbir şekilde, görevin nitelikleri dâhil, ayırım yapılamaz",
+			"Adayın mezun olduğu okulun bulunduğu bölgeye göre ayırım"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 70. maddesine göre her Türk kamu hizmetlerine girme hakkına sahiptir ve hizmete alınmada görevin gerektirdiği niteliklerden başka hiçbir ayırım gözetilemez. Yani liyakate dayalı nitelik şartları meşrudur; siyasi görüş, bölge veya benzeri ölçütlere dayanan ayırım Anayasa'ya aykırıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "70"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kamu-hizmetine-girme",
+			"liyakat"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
 	}
 ]

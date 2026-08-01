@@ -2161,5 +2161,339 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-disiplin-066",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "Memura, görevinde ve davranışlarında daha dikkatli olması gerektiğinin yazı ile bildirilmesi hangi disiplin cezasıdır?",
+		"options": [
+			"Aylıktan kesme",
+			"Kademe ilerlemesinin durdurulması",
+			"Görevden uzaklaştırma",
+			"Kınama",
+			"Uyarma"
+		],
+		"correctIndex": 4,
+		"explanation": "657 sayılı Kanun'un 125. maddesinin (A) bendine göre uyarma, memura görevinde ve davranışlarında daha dikkatli olması gerektiğinin yazı ile bildirilmesidir. Kınamada bildirilen şey dikkatsizlik değil kusurdur. Görevden uzaklaştırma ise bir disiplin cezası değil, 137. maddede düzenlenen ihtiyati tedbirdir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"uyarma",
+			"disiplin-cezalari",
+			"tanim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-disiplin-067",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 125. maddesine göre kınama cezası memura neyin bildirilmesidir?",
+		"options": [
+			"Görevinden geçici olarak uzaklaştırıldığının yazı ile bildirilmesi",
+			"Bulunduğu kademede ilerlemesinin durdurulduğunun yazı ile bildirilmesi",
+			"Görevinde daha dikkatli olması gerektiğinin yazı ile bildirilmesi",
+			"Görevinde ve davranışlarında kusurlu olduğunun yazı ile bildirilmesi",
+			"Brüt aylığından kesinti yapılacağının yazı ile bildirilmesi"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 125. maddesinin (B) bendine göre kınama, memura görevinde ve davranışlarında kusurlu olduğunun yazı ile bildirilmesidir. Uyarmadan farkı, bildirilenin dikkat eksikliği değil kusur olmasıdır; her iki ceza da yazı ile bildirimden ibaret olup malî sonuç doğurmaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kinama",
+			"disiplin-cezalari",
+			"tanim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-disiplin-068",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği kimler hakkında uygulanır?",
+		"options": [
+			"Yalnızca merkez teşkilatında görevli memurlar",
+			"657 sayılı Devlet Memurları Kanunu'na tabi memurlar",
+			"Yalnızca adaylığı kaldırılmış memurlar",
+			"Memurlar ile sürekli işçiler",
+			"Kamuda çalışan bütün personel"
+		],
+		"correctIndex": 1,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 2. maddesine göre Yönetmelik, 14/7/1965 tarihli ve 657 sayılı Devlet Memurları Kanunu'na tabi memurlar hakkında uygulanır. İşçiler ve diğer statüdeki personel kapsam dışındadır; TBMM, MİT, Adalet Bakanlığı ve Hâkimler ve Savcılar Kurulu gibi bazı yerlerde düzenleme yapma yetkisi ayrı makamlara verilmiştir.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"disiplin-yonetmeligi",
+			"kapsam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-disiplin-069",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği'ne göre yüksek disiplin kurulu nerede kurulur?",
+		"options": [
+			"Her ilde valilik bünyesinde",
+			"Bölge müdürlüklerinin bulunduğu illerde",
+			"Yalnızca Cumhurbaşkanlığı bünyesinde",
+			"Her ilçede kaymakamlık bünyesinde",
+			"Kamu idarelerinin merkez teşkilatlarında"
+		],
+		"correctIndex": 4,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 15. maddesine göre disiplin ve soruşturma işlemlerinde verilen görevleri yapmak üzere kamu idarelerinin merkez teşkilatlarında yüksek disiplin kurulu kurulur. Döner sermayeli kuruluşlar, kefalet sandıkları ve kanunla kurulan fonlarda görevli memurlar için, bunların bağlı veya ilgili oldukları kamu idaresindeki yüksek disiplin kurulu yetkilidir.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yuksek-disiplin-kurulu",
+			"disiplin-yonetmeligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-disiplin-070",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği'ne göre disiplin kurulu toplantılarına hangi sendika temsilcisinin katılacağı nasıl belirlenir?",
+		"options": [
+			"Kurul başkanı toplantı sırasında belirler.",
+			"Kamu idaresinin personel birimi resen görevlendirir.",
+			"Hakkında soruşturma yürütülen memur seçer.",
+			"Sendika tarafından, toplantı tarihinden önce ilgili kamu idaresine bildirilir.",
+			"En çok üyeye sahip konfederasyon her yıl bildirir."
+		],
+		"correctIndex": 3,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 20. maddesine göre sendikalar tarafından disiplin kurulu ve yüksek disiplin kurulu toplantılarına hangi temsilcinin katılacağı, toplantı tarihinden önce ilgili kamu idaresine bildirilir. Temsilciyi belirleme yetkisi idarede veya kurul başkanında değil, memurun üyesi olduğu sendikadadır.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"disiplin-kurulu",
+			"sendika-temsilcisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-disiplin-071",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği'ne göre kesinleşmiş bir disiplin cezası başka bir idari işlemle geri alınabilir mi?",
+		"options": [
+			"Kanuni düzenleme ile yargı kararlarının gerektirdiği durumlar dışında geri alınamaz.",
+			"Disiplin amirinin uygun görmesi hâlinde her zaman geri alınabilir.",
+			"Yalnızca uyarma ve kınama cezaları geri alınabilir.",
+			"Üst disiplin amiri tarafından her zaman kaldırılabilir.",
+			"Memurun talebi üzerine bir yıl içinde geri alınabilir."
+		],
+		"correctIndex": 0,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 34. maddesine göre kesinleşmiş disiplin cezaları, kanuni düzenleme ile yargı kararlarının gerektirdiği durumlar hariç başka bir idari işlemle geri alınamaz, değiştirilemez veya ortadan kaldırılamaz. Cezanın özlük dosyasından silinmesi ise ayrı bir kurumdur ve 657 sayılı Kanun'un 133. maddesindeki sürelere tabidir.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "34"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kesinlesme",
+			"disiplin-yonetmeligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-disiplin-072",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği'ne göre disiplin iş ve işlemlerine ilişkin talep edilen bilgiler nereye kaydedilir?",
+		"options": [
+			"Kamu personeli bilgi sisteminin ilgili bölümlerine",
+			"Kamu Görevlileri Etik Kurulunun kayıtlarına",
+			"Yalnızca memurun kurumundaki özlük dosyasına",
+			"Cumhurbaşkanlığı İdari İşler Başkanlığı arşivine",
+			"İl disiplin kurulunun karar defterine"
+		],
+		"correctIndex": 0,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 39. maddesine göre amirlerce verilen disiplin cezaları, bu amirlerin bağlı bulunduğu disiplin amirine bildirilir; disiplin iş ve işlemlerine ilişkin talep edilen bilgiler ise kamu idarelerince kamu personeli bilgi sisteminin ilgili bölümlerine kaydedilir.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "39"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bildirim",
+			"disiplin-yonetmeligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-disiplin-073",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 144. maddesine göre görevden uzaklaştırma tedbiri hangi hâlde her zaman kaldırılabilir?",
+		"options": [
+			"Memurun savunmasını vermiş olması hâlinde",
+			"Memurun yazılı olarak talepte bulunması hâlinde",
+			"Disiplin cezasının kesinleşmiş olması hâlinde",
+			"Soruşturmaya konu fiillerin memurun hizmetini sürdürmesine engel olmadığı hâllerde",
+			"Tedbirin üzerinden bir ay geçmiş olması hâlinde"
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 144. maddesine göre 140 ve 142. maddeler ile 143. maddenin (a), (b) ve (c) fıkralarında yazılı hâllerdeki görevden uzaklaştırma tedbiri, Devlet memurunun soruşturmaya konu olan fiillerinin hizmetlerini devama engel olmadığı hâllerde her zaman kaldırılabilir. Ölçüt sürenin geçmesi ya da memurun talebi değil, fiilin göreve devama engel olup olmamasıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "144"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorevden-uzaklastirma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-disiplin-074",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği'ne göre savunma istemine ilişkin yazıda ayrıca hangi hususun belirtilmesi gerekir?",
+		"options": [
+			"Memurun avukatla temsil edilemeyeceği",
+			"Savunmanın disiplin kuruluna doğrudan verileceği",
+			"Süresi içinde savunma yapılmazsa savunma hakkından vazgeçilmiş sayılacağı",
+			"Savunmanın yalnızca sözlü olarak yapılabileceği",
+			"Verilecek cezanın türü ve miktarı"
+		],
+		"correctIndex": 2,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 30. maddesine göre memur, yetkili kurulun veya disiplin amirinin yedi günden az olmamak üzere verdiği süre içinde savunmasını yapar; savunma istemine ilişkin yazıda süresi içinde yapılmaması hâlinde savunma hakkından vazgeçilmiş sayılacağı belirtilir. Yazıda ayrıca iddialar, deliller ve fiilin 657 sayılı Kanun'un 125. maddesindeki hangi bent kapsamına girdiği gösterilir.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "30"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"savunma-hakki",
+			"disiplin-yonetmeligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-disiplin-075",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "kolay",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği'ne göre disiplin kurulu üyeleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Üyeler soruşturma dosyasını yalnızca başkanın izniyle görebilir.",
+			"Üyelere soruşturma dosyasını inceleme imkânı sağlanır.",
+			"Soruşturma dosyası yalnızca raportöre verilir.",
+			"Üyeler dosyayı yalnızca karar oylanırken görebilir.",
+			"Dosyanın incelenmesi hakkında Yönetmelikte hüküm yoktur."
+		],
+		"correctIndex": 1,
+		"explanation": "Devlet Memurları Disiplin Yönetmeliği'nin 21. maddesine göre disiplin kurulları ve yüksek disiplin kurullarının üyelerine soruşturma dosyasını inceleme imkânı sağlanır. Aynı madde kurul başkanının gündem ile toplantı gün, saat ve yerini belirleyip üyeler arasından bir raportör tayin edeceğini; sekretarya hizmetlerinin ise kamu idarelerinin personel birimlerince yürütüleceğini düzenler.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "21"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"disiplin-kurulu",
+			"disiplin-yonetmeligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
 	}
 ]

@@ -1700,5 +1700,107 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-atama-052",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 86. maddesine göre bir görevin memurlar eliyle vekâleten yürütülmesinde kural nedir?",
+		"options": [
+			"Vekâlet yalnızca ücretli olarak yürütülebilir.",
+			"Vekâlet aylığının ödenip ödenmeyeceğini vekâlet eden memur seçer.",
+			"Vekâlet aylığı her hâlde ödenir.",
+			"Aylıksız vekâlet asıldır.",
+			"Vekâlet eden memura asıl görevlinin aylığının tamamı ödenir."
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 86. maddesi, memurların kanuni izin, geçici görev, disiplin cezası uygulaması veya görevden uzaklaştırma nedenleriyle geçici olarak ayrılmaları hâlinde yerlerine kurum içinden, diğer kurumlardan veya açıktan vekil atanabileceğini düzenler. Aynı maddeye göre bir görevin memurlar eliyle vekâleten yürütülmesi hâlinde aylıksız vekâlet asıldır; ücret ödenmesi maddede tek tek sayılan kadrolar için öngörülmüş istisnadır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "86"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vekalet",
+			"atama"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-atama-053",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 89. maddesine göre eğitim ve öğretim kurumlarında ücretle ek ders görevi verilebilmesinin şartı nedir?",
+		"options": [
+			"Ek ders görevinin haftada beş saati aşmaması",
+			"Ders verecek kişinin eğitim ve öğretim hizmetleri sınıfında olması",
+			"Görevin yalnızca yaz döneminde yürütülecek olması",
+			"Kurumun kendi bütçesinden karşılama taahhüdünde bulunması",
+			"Kurumda öğretmen veya öğretim üyesi bulunmaması"
+		],
+		"correctIndex": 4,
+		"explanation": "657 sayılı Kanun'un 89. maddesine göre her derecedeki eğitim ve öğretim kurumları ile üniversite, akademi, okul, kurs veya yaygın eğitim yapan kuruluşlarda öğretmen veya öğretim üyesi bulunmaması hâlinde; öğretmenlere, öğretim üyelerine, diğer memurlara veyahut açıktan atanacaklara ücret ile ek ders görevi verilebilir. Ücretle okutulacak ders saatlerinin sayısı ve görev alacakların nitelikleri Cumhurbaşkanı kararı ile tespit olunur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "89"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ek-ders",
+			"ikinci-gorev"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-atama-054",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 91. maddesine göre kadrosu kaldırılan memurlar en geç ne kadar süre içinde niteliklerine uygun bir kadroya atanır?",
+		"options": [
+			"Bir ay",
+			"Altı ay",
+			"Üç ay",
+			"İki yıl",
+			"Bir yıl"
+		],
+		"correctIndex": 1,
+		"explanation": "657 sayılı Kanun'un 91. maddesine göre kadrosu kaldırılan memurlar en geç altı ay içinde kendi kurumlarında niteliklerine uygun bir kadroya atanır. Kurumlarında atama imkânı yoksa aynı süre içinde başka bir kurumdaki kadrolara atanmak üzere bildirilirler. Bu memurlar atama işlemi yapılıncaya kadar kurumlarında niteliklerine uygun işlerde çalıştırılır ve eski kadrolarına ait malî haklardan yararlanmaya devam ederler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "91"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kadro",
+			"atama"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
 	}
 ]

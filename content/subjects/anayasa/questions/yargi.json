@@ -1170,5 +1170,106 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-yargi-037",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 141. maddesine göre mahkeme kararlarının yazılması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bütün mahkemelerin her türlü kararları gerekçeli olarak yazılır.",
+			"Yalnızca mahkûmiyet kararları gerekçeli yazılır.",
+			"Gerekçe yazılıp yazılmayacağını mahkeme takdir eder.",
+			"Duruşması kapalı yapılan davalarda gerekçe yazılmaz.",
+			"Yalnızca yüksek mahkeme kararları gerekçeli yazılır."
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 141. maddesine göre bütün mahkemelerin her türlü kararları gerekçeli olarak yazılır. Aynı madde duruşmaların herkese açık olduğunu, ancak genel ahlakın veya kamu güvenliğinin kesin olarak gerekli kıldığı hâllerde kapalılığa karar verilebileceğini ve davaların en az giderle ve mümkün olan süratle sonuçlandırılmasının yargının görevi olduğunu düzenler.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "141"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gerekceli-karar",
+			"durusma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-yargi-038",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 142. maddesine göre mahkemelerin kuruluşu, görev ve yetkileri, işleyişi ve yargılama usulleri neyle düzenlenir?",
+		"options": [
+			"Kanunla",
+			"Cumhurbaşkanlığı kararnamesiyle",
+			"Hâkimler ve Savcılar Kurulu kararıyla",
+			"Adalet Bakanlığı yönetmeliğiyle",
+			"Yargıtay İçtihadı Birleştirme kararıyla"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 142. maddesine göre mahkemelerin kuruluşu, görev ve yetkileri, işleyişi ve yargılama usulleri kanunla düzenlenir. 2017 değişikliğiyle eklenen fıkra, disiplin mahkemeleri dışında askerî mahkeme kurulamayacağını; ancak savaş hâlinde asker kişilerin görevleriyle ilgili suçlarına bakmak üzere askerî mahkeme kurulabileceğini öngörür.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "142"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kanuni-hakim-guvencesi",
+			"mahkemelerin-kurulusu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-yargi-039",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 138. maddesinin ikinci fıkrasına göre yargı yetkisinin kullanılmasında mahkemelere ve hâkimlere kim emir ve talimat verebilir?",
+		"options": [
+			"Yalnızca bağlı bulunulan yüksek mahkeme",
+			"Yalnızca Adalet Bakanı",
+			"Yalnızca Hâkimler ve Savcılar Kurulu",
+			"Hiçbir organ, makam, merci veya kişi",
+			"Yalnızca Cumhurbaşkanı"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 138. maddesinin ikinci fıkrasına göre hiçbir organ, makam, merci veya kişi, yargı yetkisinin kullanılmasında mahkemelere ve hâkimlere emir ve talimat veremez; genelge gönderemez; tavsiye ve telkinde bulunamaz. Bu yasak hâkimlerin bağımsızlığının en somut güvencesidir ve istisnası yoktur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "138"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hakimlerin-bagimsizligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
 	}
 ]

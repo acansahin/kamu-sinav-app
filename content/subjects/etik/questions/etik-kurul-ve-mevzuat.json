@@ -783,5 +783,39 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-kurul-025",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "kolay",
+		"stem": "3628 sayılı Kanun'un 5. maddesine göre mal bildiriminin konusuna aşağıdakilerden hangisi girmez?",
+		"options": [
+			"Görevlinin alacakları ve borçları ile bunların sebepleri",
+			"Velayet altındaki çocuklara ait taşınmaz mallar",
+			"Kardeşe ait taşınmaz mallar",
+			"Eşe ait taşınmaz mallar",
+			"Görevlinin kendisine ait taşınmaz mallar"
+		],
+		"correctIndex": 2,
+		"explanation": "3628 sayılı Kanun'un 5. maddesine göre bildirim yükümlülüğü görevlinin kendisi, eşi ve velayeti altındaki çocuklarıyla sınırlıdır; kardeş bildirime dâhil değildir. Bildirimin konusu taşınmaz mallar ile belirli tutarın üzerindeki para, hisse senedi, tahvil, altın, mücevher ve diğer taşınır mallar, haklar, alacaklar, gelirler ve bunların kaynakları ile borçlar ve sebepleridir.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mal-bildirimi",
+			"kapsam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
 	}
 ]

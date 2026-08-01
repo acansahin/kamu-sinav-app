@@ -552,5 +552,39 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-saydam-018",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "kolay",
+		"stem": "4982 sayılı Kanun'un 5. maddesine göre kurum ve kuruluşların bilgi verme yükümlülüğü bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca kendi internet sitelerinde yayımladıkları bilgileri vermekle yükümlüdürler.",
+			"Kanundaki istisnalar dışındaki her türlü bilgi veya belgeyi başvuranların yararlanmasına sunmakla yükümlüdürler.",
+			"Bilgi verip vermemek kurumun takdirindedir.",
+			"Yalnızca başvuranı doğrudan ilgilendiren belgeleri vermekle yükümlüdürler.",
+			"Yükümlülük yalnızca merkezî idare kuruluşları için geçerlidir."
+		],
+		"correctIndex": 1,
+		"explanation": "4982 sayılı Bilgi Edinme Hakkı Kanunu'nun 5. maddesine göre kurum ve kuruluşlar, bu Kanunda yer alan istisnalar dışındaki her türlü bilgi veya belgeyi başvuranların yararlanmasına sunmak ve bilgi edinme başvurularını etkin, süratli ve doğru sonuçlandırmak üzere gerekli idari ve teknik tedbirleri almakla yükümlüdür. Aynı madde, diğer kanunların bu Kanuna aykırı hükümlerinin uygulanmayacağını da belirtir.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"seffaflik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
 	}
 ]

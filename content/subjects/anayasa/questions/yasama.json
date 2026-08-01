@@ -1504,5 +1504,173 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "anayasa-yasama-046",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 77. maddesine göre Türkiye Büyük Millet Meclisi ve Cumhurbaşkanlığı seçimleri ne zaman yapılır?",
+		"options": [
+			"Beş yılda bir fakat farklı günlerde",
+			"Beş yılda bir aynı günde",
+			"Dört yılda bir aynı günde",
+			"Dört yılda bir fakat farklı günlerde",
+			"Yedi yılda bir aynı günde"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 2017 değişikliğiyle yeniden düzenlenen 77. maddesine göre Türkiye Büyük Millet Meclisi ve Cumhurbaşkanlığı seçimleri beş yılda bir aynı günde yapılır. Süresi biten milletvekili yeniden seçilebilir. Cumhurbaşkanlığı seçiminde birinci oylamada gerekli çoğunluk sağlanamazsa 101. maddedeki usule göre ikinci oylama yapılır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "77"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"secimler",
+			"yasama-donemi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-yasama-047",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "kolay",
+		"stem": "Milletvekillerinin Meclis çalışmalarındaki oy ve sözlerinden, Mecliste ileri sürdükleri düşüncelerden sorumlu tutulamamasına ne ad verilir?",
+		"options": [
+			"Yasama bağışıklığı",
+			"Yasama sorumsuzluğu",
+			"Meclis muafiyeti",
+			"Kürsü tekeli",
+			"Yasama dokunulmazlığı"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 83. maddesinin birinci fıkrası yasama sorumsuzluğunu (kürsü dokunulmazlığını) düzenler: milletvekilleri Meclis çalışmalarındaki oy ve sözlerinden, Mecliste ileri sürdükleri düşüncelerden sorumlu tutulamazlar. İkinci fıkradaki yasama dokunulmazlığı ise farklıdır; suç isnadı hâlinde tutulma, sorguya çekilme, tutuklanma ve yargılanmayı Meclis kararına bağlar ve geçici koruma sağlar.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "83"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yasama-sorumsuzlugu",
+			"dokunulmazlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-yasama-048",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 90. maddesine göre Türkiye Cumhuriyeti adına yabancı devletlerle yapılacak andlaşmaların onaylanması kural olarak neye bağlıdır?",
+		"options": [
+			"Türkiye Büyük Millet Meclisi Başkanlık Divanının kararına",
+			"Cumhurbaşkanının tek başına vereceği onay kararına",
+			"Anayasa Mahkemesinin uygunluk denetiminden geçmesine",
+			"Türkiye Büyük Millet Meclisinin onaylamayı bir kanunla uygun bulmasına",
+			"Dışişleri Bakanlığının uygun görüşüne"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 90. maddesine göre Türkiye Cumhuriyeti adına yabancı devletlerle ve milletlerarası kuruluşlarla yapılacak andlaşmaların onaylanması, TBMM'nin onaylamayı bir kanunla uygun bulmasına bağlıdır. Ekonomik, ticari veya teknik ilişkileri düzenleyen ve süresi bir yılı aşmayan andlaşmalar ise maddede sayılan şartlarla yayımlanma ile yürürlüğe konabilir; bu andlaşmalar yayımlarından başlayarak iki ay içinde Meclisin bilgisine sunulur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "90"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"milletlerarasi-andlasma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-yasama-049",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 93. maddesine göre Türkiye Büyük Millet Meclisi her yıl hangi tarihte kendiliğinden toplanır?",
+		"options": [
+			"Ocak ayının ilk günü",
+			"Kasım ayının ilk günü",
+			"Eylül ayının son günü",
+			"Ekim ayının ilk günü",
+			"Eylül ayının ilk günü"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 93. maddesine göre Türkiye Büyük Millet Meclisi her yıl Ekim ayının ilk günü kendiliğinden toplanır; toplanmak için ayrı bir çağrıya ihtiyaç yoktur. Meclis bir yasama yılında en çok üç ay tatil yapabilir; ara verme veya tatil sırasında Cumhurbaşkanınca ya da Meclis Başkanı tarafından doğrudan veya üyelerin beşte birinin yazılı istemi üzerine toplantıya çağrılabilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "93"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yasama-yili",
+			"toplanma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-yasama-050",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 94. maddesine göre bir yasama döneminde Başkanlık Divanı için kaç seçim yapılır ve ilk seçilenlerin görev süresi ne kadardır?",
+		"options": [
+			"İki seçim — iki yıl",
+			"Bir seçim — beş yıl",
+			"İki seçim — dört yıl",
+			"Üç seçim — bir yıl",
+			"İki seçim — üç yıl"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 94. maddesine göre Türkiye Büyük Millet Meclisi Başkanlık Divanı için bir yasama döneminde iki seçim yapılır. İlk seçilenlerin görev süresi iki yıldır; ikinci devre için seçilenlerin görev süresi ise o yasama döneminin sonuna kadar devam eder. Başkanlık Divanı, Meclisteki siyasi parti gruplarının üye sayısı oranında Divana katılmalarını sağlayacak şekilde kurulur; siyasi parti grupları Başkanlık için aday gösteremez.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "94"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"baskanlik-divani"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
 	}
 ]

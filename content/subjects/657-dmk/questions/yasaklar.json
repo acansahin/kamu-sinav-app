@@ -763,5 +763,38 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-yasak-024",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 27. maddesinin ikinci fıkrasına göre, başkalarınca ilan edilmiş bir grev karşısında Devlet memurunun durumu nedir?",
+		"options": [
+			"Sendika üyesi ise greve katılabilir.",
+			"Kendi kurumunda ilan edilmemişse her türlü desteği verebilir.",
+			"Greve katılamaz ancak açıktan destekleyebilir.",
+			"Greve katılamaz, grevi destekleyemez ve teşvik edemez.",
+			"Mesai saatleri dışında greve katılabilir."
+		],
+		"correctIndex": 3,
+		"explanation": "657 sayılı Kanun'un 27. maddesinin birinci fıkrası memurların greve karar vermelerini, grev tertiplemelerini, ilan etmelerini ve bu yolda propaganda yapmalarını yasaklar. İkinci fıkra ise yasağı başkalarının grevine de genişletir: Devlet memurları herhangi bir greve veya grev teşebbüsüne katılamaz, grevi destekleyemez veya teşvik edemezler. Sendika üyeliği veya mesai dışı olması bu yasağı kaldırmaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "27"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"grev-yasagi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01"
 	}
 ]
