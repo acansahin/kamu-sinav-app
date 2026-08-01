@@ -226,6 +226,14 @@ Anahtar veya şekil değişirse o betiği de güncelleyin.
 
 ## Bilinen tuzaklar
 
+- **`npm run dev` açıkken `npm run build` almayın.** İkisi aynı `.next/` dizinini
+  paylaşır; dev sunucusu çalışırken alınan build **sessizce eksik** bir `out/`
+  üretir (ölçüldü: `out/_next` altındaki paketler yazılmaz, çevrimdışı indirme
+  listesi 1331 yerine 177 dosya olur). Build hata vermez, sayfalar da açılır —
+  bozukluk ancak Capacitor paketinde ya da çevrimdışı kullanımda ortaya çıkar.
+  Şüphelenirseniz `postbuild` çıktısındaki dosya sayısına bakın; düşükse
+  `.next/` ve `out/` silinip build tekrarlanmalıdır.
+
 - **Türkçe metinde `toLowerCase()` kullanmayın.** Varsayılan yerel ayar "I" harfini
   "i" yapar; Türkçede "ı" olmalıdır. Arama ve karşılaştırmalarda
   `lib/search/normalize.ts` içindeki `foldForSearch` kullanılır — hem `tr` yerel

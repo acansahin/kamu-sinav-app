@@ -173,11 +173,11 @@
 		"options": [
 			"Üstüne haber vererek her zaman",
 			"Bir ay bekledikten sonra",
-			"Yerine atanacaklar gelip işe başlamadıkça bırakamazlar",
+			"Çekilme istekleri kabul edilmedikçe veya yerine atanacaklar gelip işe başlamadıkça bırakamazlar",
 			"Çekilme isteği kuruma ulaştığı anda"
 		],
 		"correctIndex": 2,
-		"explanation": "Madde 96'ya göre olağanüstü hâl, seferberlik ve savaş hâllerinde veya genel hayata müessir afetlere uğrayan yerlerdeki Devlet memurları, yerine atanacaklar gelip işe başlamadıkça görevlerini bırakamazlar. Burada bir aylık bekleme kolaylığı uygulanmaz.",
+		"explanation": "657 sayılı Kanun'un 96. maddesine göre olağanüstü hâl, seferberlik ve savaş hâllerinde veya genel hayata müessir afetlere uğrayan yerlerdeki Devlet memurları, çekilme istekleri kabul edilmedikçe veya yerine atanacaklar gelip işe başlamadıkça görevlerini bırakamazlar. İki şart alternatiftir; biri gerçekleşince görev bırakılabilir. Ancak isteğin kuruma ulaşması yetmez, kabul edilmesi gerekir ve 94. maddedeki bir aylık bekleme kolaylığı burada uygulanmaz.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
 			"lawId": "657",
@@ -194,8 +194,8 @@
 			"madde-96",
 			"olaganustu"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-01"
 	},
 	{
 		"id": "657-sona-007",
@@ -243,7 +243,7 @@
 			"1 yıl sonra alınabilir."
 		],
 		"correctIndex": 2,
-		"explanation": "Madde 97'ye göre 96. maddeye aykırı hareket edenler, yani olağanüstü hâl, seferberlik, savaş hâllerinde veya genel hayata müessir afet yerlerinde yerine atanan gelmeden görevini bırakanlar, hiçbir surette Devlet memurluğuna alınamazlar. Bu, kademeli yasak listesindeki tek kalıcı engeldir.",
+		"explanation": "657 sayılı Kanun'un 97. maddesine göre 96. maddeye aykırı hareket edenler, yani olağanüstü hâl, seferberlik, savaş hâllerinde veya genel hayata müessir afet yerlerinde çekilme isteği kabul edilmeden ya da yerine atanan gelip işe başlamadan görevini bırakanlar, hiçbir surette Devlet memurluğuna alınamazlar. Bu, kademeli yasak listesindeki tek kalıcı engeldir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
 			"lawId": "657",
@@ -260,8 +260,8 @@
 			"yeniden-atanma",
 			"senaryo"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-01"
 	},
 	{
 		"id": "657-sona-009",
