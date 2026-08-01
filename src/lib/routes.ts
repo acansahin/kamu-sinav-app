@@ -15,4 +15,6 @@ export const routes = {
 		`/konular/${subjectId}/${topicSlug}` as Route,
 	topicTest: (subjectId: string, topicSlug: string) =>
 		`/testler/${subjectId}/${topicSlug}` as Route,
+	topicTestSet: (subjectId: string, topicSlug: string, testSlug: string) =>
+		`/testler/${subjectId}/${topicSlug}/${testSlug}` as Route,
 } as const;

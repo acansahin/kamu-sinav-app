@@ -5,27 +5,22 @@ import type { Page } from "@playwright/test";
 /**
  * Ortak test yardımcıları.
  *
- * Soru şıkları ve sayı seçenekleri, tasarım gereği görsel olarak gizlenmiş
- * radio girdileri kullanır (etiketin kendisi tıklanabilir kart görevi görür).
- * Gizli girdiyi doğrudan işaretlemek gerçek kullanımı taklit etmez ve
- * Playwright'ın tıklanabilirlik denetimine takılır; bu yüzden her yerde
- * etikete tıklanır.
+ * Soru şıkları, tasarım gereği görsel olarak gizlenmiş radio girdileri
+ * kullanır (etiketin kendisi tıklanabilir kart görevi görür). Gizli girdiyi
+ * doğrudan işaretlemek gerçek kullanımı taklit etmez ve Playwright'ın
+ * tıklanabilirlik denetimine takılır; bu yüzden her yerde etikete tıklanır.
  */
 
 /**
- * Test kurulumunda soru sayısını seçer.
+ * Konunun test listesinden numaralı bir testi açar.
  *
- * Arama, legend'i "Soru sayısı" olan fieldset ile sınırlanır. Sayfada aynı
- * metni üretebilen ikinci bir kaynak var: "Zorluk seviyesi" fieldset'i her
- * seviyenin yanına havuzdaki soru sayısını rozet olarak basar. Bir konuda o
- * sayı seçeneklerden birine eşitlenince (havuz büyüdükçe kaçınılmaz)
- * sayfa geneli arama iki öğe bulup strict mode ihlali veriyordu.
+ * Kartın erişilebilir adı `aria-label`dan gelir ve "Test 3: 10 soru, …"
+ * biçimindedir. İki nokta kalıba dâhil: `^Test 1` deseni "Test 10" kartını da
+ * yakalardı ve konu havuzu büyüyüp onuncu test doğduğunda testler sessizce
+ * yanlış kartı tıklamaya başlardı.
  */
-export async function soruSayisiSec(page: Page, etiket: string) {
-	await page
-		.getByRole("group", { name: "Soru sayısı" })
-		.getByText(etiket, { exact: true })
-		.click();
+export async function testiAc(page: Page, numara: number) {
+	await page.getByRole("link", { name: new RegExp(`^Test ${numara}:`) }).click();
 }
 
 /** Görünen ilk şıkkı seçer. */

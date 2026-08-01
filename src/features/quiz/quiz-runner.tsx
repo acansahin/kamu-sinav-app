@@ -1,15 +1,17 @@
 "use client";
 
+import { useLiveQuery } from "dexie-react-hooks";
 import {
 	ArrowLeft,
 	ArrowRight,
 	BookOpen,
+	ListChecks,
 	RotateCcw,
 	Scale,
 	Trophy,
 } from "lucide-react";
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Button, ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ProgressBar } from "@/components/ui/progress-bar";
@@ -21,20 +23,10 @@ import {
 	computeTestResult,
 	isPassing,
 } from "@/lib/scoring/test-result";
-import {
-	type DifficultyFilter,
-	selectQuestions,
-} from "@/lib/selector/question-selector";
-import {
-	DIFFICULTY_LABELS,
-	DIFFICULTY_ORDER,
-	type Difficulty,
-	type Question,
-} from "@/types/content";
+import { testSetSlug } from "@/lib/selector/test-sets";
+import { DIFFICULTY_LABELS, type Question } from "@/types/content";
 import type { AnswerIndex, TestResult } from "@/types/progress";
 import { cn } from "@/lib/utils/cn";
-
-type Phase = "setup" | "running" | "result";
 
 interface Props {
 	subjectId: string;
@@ -42,19 +34,26 @@ interface Props {
 	topicId: string;
 	topicSlug: string;
 	topicName: string;
-	/** Konunun yayımlanmış soru havuzunun tamamı (derleme zamanında gömülür). */
-	pool: Question[];
+	/** 1 tabanlı test sırası — ekranda "Test 3" olarak görünür. */
+	setNumber: number;
+	setSlug: string;
+	/** Konudaki toplam test sayısı; "Test 3 / 7" için. */
+	setCount: number;
+	/** Bu testin soruları — derleme zamanında sabitlenmiştir, seçim yok. */
+	questions: Question[];
 }
-
-const COUNT_CHOICES = [5, 10, 20] as const;
 
 /**
  * Konu testi motoru.
  *
- * Kurulum, çözme ve sonuç tek rotada tutulur. Sebebi teknik: uygulama tam
- * statik üretiliyor (Capacitor kısıtı), dolayısıyla `/sonuc/[oturumId]` gibi
- * çalışma anında doğan bir rota önceden üretilemez. Oturum durumu bileşende,
- * kalıcı kayıt Dexie'de tutulur.
+ * Test kurulum ekranı YOKTUR: hangi soruların geleceği `lib/selector/test-sets.ts`
+ * tarafından derleme zamanında belirlenir, kullanıcı yalnızca listeden test
+ * numarası seçer. Sayfa açılır açılmaz oturum başlar.
+ *
+ * Çözme ve sonuç tek rotada tutulur. Sebebi teknik: uygulama tam statik
+ * üretiliyor (Capacitor kısıtı), dolayısıyla `/sonuc/[oturumId]` gibi çalışma
+ * anında doğan bir rota önceden üretilemez. Oturum durumu bileşende, kalıcı
+ * kayıt Dexie'dedir.
  */
 export function QuizRunner({
 	subjectId,
@@ -62,63 +61,68 @@ export function QuizRunner({
 	topicId,
 	topicSlug,
 	topicName,
-	pool,
+	setNumber,
+	setSlug,
+	setCount,
+	questions,
 }: Props) {
-	const [phase, setPhase] = useState<Phase>("setup");
-	const [difficulty, setDifficulty] = useState<DifficultyFilter>("karisik");
-	const [requestedCount, setRequestedCount] = useState<number>(10);
-	const [instantFeedback, setInstantFeedback] = useState(true);
-
-	const [questions, setQuestions] = useState<Question[]>([]);
-	const [answers, setAnswers] = useState<Record<string, AnswerIndex | null>>({});
+	const [answers, setAnswers] = useState<Record<string, AnswerIndex | null>>(
+		() => Object.fromEntries(questions.map((q) => [q.id, null])),
+	);
 	const [revealed, setRevealed] = useState<Record<string, boolean>>({});
 	const [current, setCurrent] = useState(0);
 	const [sessionId, setSessionId] = useState("");
 	const [startedAt, setStartedAt] = useState(0);
 	const [result, setResult] = useState<TestResult | null>(null);
 
-	const availableByDifficulty = useMemo(() => {
-		const counts = Object.fromEntries(
-			DIFFICULTY_ORDER.map((level) => [level, 0]),
-		) as Record<Difficulty, number>;
-		for (const question of pool) counts[question.difficulty] += 1;
-		return counts;
-	}, [pool]);
+	/**
+	 * Anında geri bildirim artık test başında değil, Ayarlar'da seçilir:
+	 * her testte yeniden sorulan bir kutu, kurulum ekranının kaldırılma
+	 * gerekçesiyle çelişirdi. Ayarlar okunana kadar varsayılan açıktır.
+	 */
+	const settings = useLiveQuery(
+		() => progressRepository.getSettings(),
+		[],
+		undefined,
+	);
+	const instantFeedback = settings?.instantFeedback ?? true;
 
-	const availableForChoice =
-		difficulty === "karisik" ? pool.length : availableByDifficulty[difficulty];
-	const effectiveCount = Math.min(requestedCount, availableForChoice);
+	/** Oturum tek kez açılır, tek kez kapanır — bkz. aşağıdaki iki koruma. */
+	const started = useRef(false);
+	const finishing = useRef(false);
 
-	const start = useCallback(async () => {
+	const startSession = useCallback(async () => {
 		const id = globalThis.crypto.randomUUID();
-		const picked = selectQuestions({
-			pool,
-			difficulty,
-			count: requestedCount,
-			seed: id,
-		});
-		if (picked.length === 0) return;
-
+		finishing.current = false;
 		setSessionId(id);
-		setQuestions(picked);
-		setAnswers(Object.fromEntries(picked.map((q) => [q.id, null])));
+		setAnswers(Object.fromEntries(questions.map((q) => [q.id, null])));
 		setRevealed({});
 		setCurrent(0);
+		setResult(null);
 		setStartedAt(Date.now());
-		setPhase("running");
 
 		await progressRepository.createTestSession({
 			id,
 			kind: "topic-test",
 			subjectId,
 			topicId,
-			difficulty,
-			questionIds: picked.map((q) => q.id),
+			// Sabit setlerin tamamı karışıktır; alan sunucu senkronu için korunuyor.
+			difficulty: "karisik",
+			setSlug,
+			questionIds: questions.map((q) => q.id),
 			answers: {},
 			status: "in-progress",
 			startedAt: new Date().toISOString(),
 		});
-	}, [pool, difficulty, requestedCount, subjectId, topicId]);
+	}, [questions, subjectId, topicId, setSlug]);
+
+	// Oturum sayfa açılır açılmaz başlar. Ref koruması geliştirme modundaki
+	// çift effect çağrısının ikinci bir oturum satırı açmasını engeller.
+	useEffect(() => {
+		if (started.current) return;
+		started.current = true;
+		void startSession();
+	}, [startSession]);
 
 	const question = questions[current];
 	const isRevealed = question ? (revealed[question.id] ?? false) : false;
@@ -135,7 +139,20 @@ export function QuizRunner({
 		[question, isRevealed, instantFeedback],
 	);
 
+	/**
+	 * Testi bitirir.
+	 *
+	 * Sıra bağlayıcıdır: sonuç ekranı ancak yazmalar bittikten sonra açılır.
+	 * Tersi denendi ve yarış doğurdu — sonuç görünür görünmez kullanıcı (veya
+	 * test) başka bir sayfaya geçtiğinde yarım kalan IndexedDB işlemi iptal
+	 * oluyor, oturum "in-progress" kalıyor ve skor test listesine hiç
+	 * düşmüyordu. Yazma başarısız olsa bile sonuç gösterilir; kullanıcının
+	 * emeği ekranda kalmalı.
+	 */
 	const finish = useCallback(async () => {
+		if (finishing.current) return;
+		finishing.current = true;
+
 		const answered = questions.map((q) => ({
 			question: q,
 			selectedIndex: answers[q.id] ?? null,
@@ -145,31 +162,36 @@ export function QuizRunner({
 			answered,
 			Date.now() - startedAt,
 		);
-		setResult(computed);
-		setPhase("result");
 
-		await progressRepository.recordAttempts(
-			answered.map(({ question: q, selectedIndex }) => ({
-				questionId: q.id,
-				subjectId: q.subjectId,
-				topicId: q.topicId,
-				difficulty: q.difficulty,
-				selectedIndex,
-				isCorrect: selectedIndex === q.correctIndex,
-				// Oturum süresini sorulara eşit dağıtmak bir yaklaşıklıktır;
-				// soru başına ölçüm Faz 2'de aralıklı tekrarla birlikte gelecek.
-				durationMs: Math.round((Date.now() - startedAt) / questions.length),
-				context: "practice" as const,
+		try {
+			await progressRepository.recordAttempts(
+				answered.map(({ question: q, selectedIndex }) => ({
+					questionId: q.id,
+					subjectId: q.subjectId,
+					topicId: q.topicId,
+					difficulty: q.difficulty,
+					selectedIndex,
+					isCorrect: selectedIndex === q.correctIndex,
+					// Oturum süresini sorulara eşit dağıtmak bir yaklaşıklıktır;
+					// soru başına ölçüm Faz 2'de aralıklı tekrarla birlikte gelecek.
+					durationMs: Math.round((Date.now() - startedAt) / questions.length),
+					context: "practice" as const,
+					sessionId,
+				})),
+			);
+			await progressRepository.completeTestSession(
 				sessionId,
-			})),
-		);
-		await progressRepository.completeTestSession(
-			sessionId,
-			Object.fromEntries(
-				answered.map(({ question: q, selectedIndex }) => [q.id, selectedIndex]),
-			),
-			computed.score,
-		);
+				Object.fromEntries(
+					answered.map(({ question: q, selectedIndex }) => [
+						q.id,
+						selectedIndex,
+					]),
+				),
+				computed.score,
+			);
+		} finally {
+			setResult(computed);
+		}
 	}, [questions, answers, sessionId, startedAt]);
 
 	const goNext = useCallback(() => {
@@ -179,7 +201,7 @@ export function QuizRunner({
 
 	// Klavye kısayolları: 1-5 şık seçer, ok tuşları soru değiştirir.
 	useEffect(() => {
-		if (phase !== "running") return;
+		if (result !== null) return;
 
 		function onKeyDown(event: KeyboardEvent) {
 			if (event.target instanceof HTMLInputElement) return;
@@ -198,187 +220,17 @@ export function QuizRunner({
 
 		window.addEventListener("keydown", onKeyDown);
 		return () => window.removeEventListener("keydown", onKeyDown);
-	}, [phase, select, goNext, current, questions]);
+	}, [result, select, goNext, current, questions]);
 
-	// --- Kurulum -------------------------------------------------------------
-	if (phase === "setup") {
-		return (
-			<div>
-				<p className="text-sm text-fg-muted">{subjectName}</p>
-				<h1 className="mb-6 text-2xl font-bold">{topicName} — Test</h1>
+	const nextSetSlug = setNumber < setCount ? testSetSlug(setNumber + 1) : null;
 
-				<Card>
-					<fieldset>
-						<legend className="mb-3 font-semibold">Zorluk seviyesi</legend>
-						<div className="grid gap-2 sm:grid-cols-2">
-							{(["karisik", ...DIFFICULTY_ORDER] as DifficultyFilter[]).map(
-								(level) => {
-									const count =
-										level === "karisik"
-											? pool.length
-											: availableByDifficulty[level];
-									const disabled = count === 0;
-									const selected = difficulty === level;
-
-									return (
-										<label
-											key={level}
-											className={cn(
-												"flex min-h-14 items-center gap-3 rounded-xl border-2 p-3",
-												disabled
-													? "cursor-not-allowed border-line opacity-50"
-													: "cursor-pointer",
-												selected && !disabled
-													? "border-brand bg-brand-soft"
-													: "border-line bg-surface-raised",
-											)}
-										>
-											<input
-												type="radio"
-												name="difficulty"
-												checked={selected}
-												disabled={disabled}
-												onChange={() => setDifficulty(level)}
-												className="size-5 accent-[var(--brand)]"
-											/>
-											<span className="flex-1">
-												<span className="block font-semibold">
-													{level === "karisik"
-														? "Karışık"
-														: DIFFICULTY_LABELS[level].label}
-												</span>
-												<span className="block text-sm text-fg-muted">
-													{level === "karisik"
-														? "Tüm seviyelerden"
-														: DIFFICULTY_LABELS[level].description}
-												</span>
-											</span>
-											<span className="text-sm font-medium text-fg-subtle">
-												{count} soru
-											</span>
-										</label>
-									);
-								},
-							)}
-						</div>
-					</fieldset>
-
-					<fieldset className="mt-6">
-						<legend className="mb-3 font-semibold">Soru sayısı</legend>
-						<div className="flex flex-wrap gap-2">
-							{COUNT_CHOICES.map((choice) => (
-								<label
-									key={choice}
-									className={cn(
-										"secim-etiketi flex min-h-11 cursor-pointer items-center gap-2 rounded-xl border-2 px-4",
-										requestedCount === choice
-											? "border-brand bg-brand-soft font-semibold"
-											: "border-line bg-surface-raised",
-									)}
-								>
-									<input
-										type="radio"
-										name="count"
-										checked={requestedCount === choice}
-										onChange={() => setRequestedCount(choice)}
-										className="sr-only"
-									/>
-									{choice} soru
-								</label>
-							))}
-						</div>
-						{effectiveCount < requestedCount && (
-							<p className="mt-2 text-sm text-flag">
-								Bu seçimde havuzda {availableForChoice} soru var; test{" "}
-								{effectiveCount} soruyla açılacak.
-							</p>
-						)}
-					</fieldset>
-
-					<label className="mt-6 flex min-h-11 cursor-pointer items-center gap-3">
-						<input
-							type="checkbox"
-							checked={instantFeedback}
-							onChange={(e) => setInstantFeedback(e.target.checked)}
-							className="size-5 accent-[var(--brand)]"
-						/>
-						<span>
-							<span className="block font-medium">Anında geri bildirim</span>
-							<span className="block text-sm text-fg-muted">
-								Kapalıysa doğru cevaplar testin sonunda gösterilir.
-							</span>
-						</span>
-					</label>
-
-					<Button
-						size="lg"
-						block
-						className="mt-6"
-						onClick={() => void start()}
-						disabled={effectiveCount === 0}
-					>
-						Testi başlat
-					</Button>
-				</Card>
-			</div>
-		);
-	}
-
-	// --- Çözme ---------------------------------------------------------------
-	if (phase === "running" && question) {
-		const isLast = current === questions.length - 1;
-		const canAdvance = instantFeedback ? isRevealed : true;
-
-		return (
-			<div>
-				<div className="mb-5">
-					<ProgressBar
-						value={current + 1}
-						max={questions.length}
-						label={`Test ilerlemesi: ${current + 1} / ${questions.length}`}
-					/>
-					<p className="mt-2 text-sm text-fg-muted">
-						{answeredCount} / {questions.length} cevaplandı
-					</p>
-				</div>
-
-				<Card>
-					<QuestionCard
-						question={question}
-						index={current}
-						total={questions.length}
-						selectedIndex={answers[question.id] ?? null}
-						onSelect={select}
-						revealed={isRevealed}
-					/>
-				</Card>
-
-				<div className="mt-4 flex items-center gap-3">
-					<Button
-						variant="secondary"
-						onClick={() => setCurrent((c) => Math.max(0, c - 1))}
-						disabled={current === 0}
-					>
-						<ArrowLeft aria-hidden size={18} />
-						Önceki
-					</Button>
-
-					<Button className="flex-1" onClick={goNext} disabled={!canAdvance}>
-						{isLast ? "Testi bitir" : "Sonraki"}
-						{!isLast && <ArrowRight aria-hidden size={18} />}
-					</Button>
-				</div>
-
-				<p className="mt-3 text-center text-sm text-fg-subtle">
-					Klavye: <kbd>1</kbd>–<kbd>5</kbd> şık seçer, <kbd>←</kbd> <kbd>→</kbd>{" "}
-					soru değiştirir.
-				</p>
-			</div>
-		);
-	}
+	// Bir konunun adı dersin adıyla aynı olabiliyor (Etik → Etik Davranış
+	// İlkeleri); ikisini yan yana basmak aynı ibareyi iki kez okutur.
+	const breadcrumb =
+		subjectName === topicName ? topicName : `${subjectName} · ${topicName}`;
 
 	// --- Sonuç ---------------------------------------------------------------
-	if (phase === "result" && result) {
+	if (result) {
 		const passed = isPassing(result.score);
 		const wrongQuestions = questions.filter((q) =>
 			result.wrongQuestionIds.includes(q.id),
@@ -386,10 +238,8 @@ export function QuizRunner({
 
 		return (
 			<div>
-				<h1 className="mb-1 text-2xl font-bold">Test sonucu</h1>
-				<p className="mb-6 text-fg-muted">
-					{subjectName} · {topicName}
-				</p>
+				<h1 className="mb-1 text-2xl font-bold">Test {setNumber} sonucu</h1>
+				<p className="mb-6 text-fg-muted">{breadcrumb}</p>
 
 				<Card
 					className={cn(
@@ -462,36 +312,117 @@ export function QuizRunner({
 				)}
 
 				<div className="mt-8 flex flex-col gap-3 sm:flex-row">
+					{nextSetSlug ? (
+						<ButtonLink
+							href={routes.topicTestSet(subjectId, topicSlug, nextSetSlug)}
+							className="flex-1"
+						>
+							Test {setNumber + 1}
+							<ArrowRight aria-hidden size={18} />
+						</ButtonLink>
+					) : (
+						<ButtonLink
+							href={routes.topicTest(subjectId, topicSlug)}
+							className="flex-1"
+						>
+							<ListChecks aria-hidden size={18} />
+							Test listesi
+						</ButtonLink>
+					)}
+
 					<Button
 						variant="secondary"
 						className="flex-1"
-						onClick={() => setPhase("setup")}
+						onClick={() => void startSession()}
 					>
 						<RotateCcw aria-hidden size={18} />
-						Yeni test
+						Tekrar çöz
 					</Button>
+
 					<ButtonLink
 						href={routes.topic(subjectId, topicSlug)}
 						variant="secondary"
 						className="flex-1"
 					>
 						<BookOpen aria-hidden size={18} />
-						Konu özetine dön
-					</ButtonLink>
-					<ButtonLink href="/ilerleme" className="flex-1">
-						<Scale aria-hidden size={18} />
-						İlerlememi gör
+						Konu özeti
 					</ButtonLink>
 				</div>
 
 				<p className="mt-6 text-center text-sm text-fg-subtle">
-					<Link href="/testler" className="underline hover:text-fg">
-						Başka bir konuyu test et
+					<Link
+						href="/ilerleme"
+						className="inline-flex items-center gap-1.5 underline hover:text-fg"
+					>
+						<Scale aria-hidden size={16} />
+						İlerlememi gör
 					</Link>
 				</p>
 			</div>
 		);
 	}
 
-	return null;
+	// --- Çözme ---------------------------------------------------------------
+	if (!question) return null;
+
+	const isLast = current === questions.length - 1;
+	const canAdvance = instantFeedback ? isRevealed : true;
+
+	return (
+		<div>
+			<p className="text-sm text-fg-muted">{breadcrumb}</p>
+			<h1 className="mb-4 text-xl font-bold">
+				Test {setNumber} <span className="text-fg-subtle">/ {setCount}</span>
+			</h1>
+
+			<div className="mb-5">
+				<ProgressBar
+					value={current + 1}
+					max={questions.length}
+					label={`Test ilerlemesi: ${current + 1} / ${questions.length}`}
+				/>
+				<div className="mt-2 flex items-center justify-between gap-3 text-sm">
+					<p className="text-fg-muted">
+						{answeredCount} / {questions.length} cevaplandı
+					</p>
+					{/* Testin dört seviyeye yayıldığı çözerken de görünsün. */}
+					<p className="rounded-full border border-line px-2.5 py-0.5 font-semibold text-fg-muted">
+						{DIFFICULTY_LABELS[question.difficulty].label} soru
+					</p>
+				</div>
+			</div>
+
+			<Card>
+				<QuestionCard
+					question={question}
+					index={current}
+					total={questions.length}
+					selectedIndex={answers[question.id] ?? null}
+					onSelect={select}
+					revealed={isRevealed}
+				/>
+			</Card>
+
+			<div className="mt-4 flex items-center gap-3">
+				<Button
+					variant="secondary"
+					onClick={() => setCurrent((c) => Math.max(0, c - 1))}
+					disabled={current === 0}
+				>
+					<ArrowLeft aria-hidden size={18} />
+					Önceki
+				</Button>
+
+				<Button className="flex-1" onClick={goNext} disabled={!canAdvance}>
+					{isLast ? "Testi bitir" : "Sonraki"}
+					{!isLast && <ArrowRight aria-hidden size={18} />}
+				</Button>
+			</div>
+
+			<p className="mt-3 text-center text-sm text-fg-subtle">
+				Klavye: <kbd>1</kbd>–<kbd>5</kbd> şık seçer, <kbd>←</kbd> <kbd>→</kbd>{" "}
+				soru değiştirir.
+			</p>
+		</div>
+	);
 }

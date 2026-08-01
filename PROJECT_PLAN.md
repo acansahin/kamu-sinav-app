@@ -318,7 +318,7 @@ Her özet aşağıdaki sözleşmeye uyar (içerik hattı bunu doğrular):
 |---|---|
 | **Ana Sayfa** | Kaldığın yerden devam, günlük hedef, sınav geri sayımı, zayıf konu önerisi |
 | **Konu Özetleri** | 9 ders → konu listesi → okuma ekranı; okundu işareti, yer imi, not |
-| **Testler** | Konu bazlı test; 4 zorluk (Kolay/Orta/Zor/Uzman); anında veya sonda geri bildirim |
+| **Testler** | Konu bazlı, 10 soruluk numaralı testler (Test 1, Test 2 …); her testte 4 zorluk birlikte; anında veya sonda geri bildirim |
 | **Deneme Sınavları** | 20 / 50 / 80 / 100 soru; süre, soru navigatörü, işaretleme, kurtarma |
 | **Sonuç ve Analiz** | Puan, başarı yüzdesi, ders bazlı doğru/yanlış, süre analizi, yanlış listesi |
 | **İlerleme Takibi** | Tamamlanan konular, çözülen soru sayısı, başarı oranı, güçlü/zayıf konular |
@@ -839,9 +839,9 @@ kolay test edilir.
 | 2 | **Ders Listesi** | `/konular` | 9 dersin kapsam ve ilerlemesi | Her kartta yüzde + kalan konu sayısı |
 | 3 | **Konu Listesi** | `/konular/[ders]` | Ders içi konular | Okundu ✓, soru sayısı, hakimiyet rozeti |
 | 4 | **Konu Okuma** | `/konular/[ders]/[konu]` | Özet okuma | Yapışkan içindekiler, `Kritik`/`Sayı`/`Tuzak` vurguları, mevzuat sürüm rozeti, yer imi, alt bar: *Bu konuyu test et* |
-| 5 | **Test Kurulum** | `/testler` | Konu + zorluk + soru sayısı seçimi | Zorluk açıklamaları görünür; "karışık" seçeneği |
-| 6 | **Test Çözme** | `/testler/oturum/[id]` | Soru çözme | Anında/sonda geri bildirim seçilebilir; doğruda açıklama + mevzuat maddesi açılır |
-| 7 | **Test Sonucu** | `/testler/sonuc/[id]` | Özet + yanlış incelemesi | Her yanlışta *özete git* bağlantısı |
+| 5 | **Test Listesi** | `/testler/[ders]/[konu]` | Konunun numaralı testleri | Kurulum yok: her test 10 soru ve sabit içerik. Kartta zorluk dağılımı ve en iyi puan |
+| 6 | **Test Çözme** | `/testler/[ders]/[konu]/test-[n]` | Soru çözme | Sayfa açılır açılmaz başlar; doğruda açıklama + mevzuat maddesi açılır. Geri bildirim tercihi Ayarlar'da |
+| 7 | **Test Sonucu** | (aynı rota, sonuç aşaması) | Özet + yanlış incelemesi | Statik export'ta `/sonuc/[id]` üretilemez; sonuç aynı sayfada gösterilir. Sonraki teste geçiş bağlantısı |
 | 8 | **Deneme Kurulumu** | `/deneme` | Mod seçimi (20/50/80/100) | Süre ve dağılım önizlemesi; yarım kalan sınav varsa kurtarma uyarısı |
 | 9 | **Sınav Ekranı** | `/deneme/oturum/[id]` | Gerçek sınav simülasyonu | Sabit süre göstergesi, soru navigatörü (cevaplandı/işaretli/boş), işaretle, ileri-geri, otomatik kaydetme, süre bitince otomatik teslim |
 | 10 | **Sınav Analizi** | `/deneme/sonuc/[id]` | Detaylı rapor | Puan + geçti/kaldı, ders bazlı tablo, süre analizi, en zayıf 3 konu ve çalışma önerisi |
@@ -887,7 +887,7 @@ flowchart TD
     D --> E["Özeti oku · ilerleme kaydedilir"]
     E --> F["Okudum işaretle"]
     F --> G["Bu konuyu test et"]
-    G --> H["Zorluk seç · Kolay/Orta/Zor/Uzman"]
+    G --> H["Test seç · Test 1, Test 2 …<br/>her biri 10 soru, 4 zorluk karışık"]
     H --> I["Soruları çöz"]
     I --> J["Sonuç ekranı"]
     J --> K{"Başarı ≥ %70?"}

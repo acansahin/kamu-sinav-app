@@ -74,6 +74,13 @@ export interface TestSession {
 	subjectId: string;
 	topicId: string;
 	difficulty: Difficulty | "karisik";
+	/**
+	 * Çözülen sabit test setinin slug'ı ("test-3"). Konu testleri artık önceden
+	 * bölünmüş setlerden gelir; hangi setin çözüldüğü test listesinde skor
+	 * göstermek için gerekir. İNDEKSSİZ ve isteğe bağlıdır: eski oturumlarda
+	 * yoktur ve Dexie'de şema göçü gerektirmez.
+	 */
+	setSlug?: string;
 	questionIds: string[];
 	answers: Record<string, AnswerIndex | null>;
 	status: TestSessionStatus;

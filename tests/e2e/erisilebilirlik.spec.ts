@@ -1,6 +1,6 @@
 import AxeBuilder from "@axe-core/playwright";
 import { expect, test } from "@playwright/test";
-import { sikSec, soruSayisiSec } from "./yardimcilar";
+import { sikSec } from "./yardimcilar";
 
 /**
  * Erişilebilirlik kapısı — PROJECT_PLAN.md §13.2.
@@ -20,7 +20,7 @@ const SAYFALAR = [
 	{ ad: "Ders listesi", yol: "/konular/" },
 	{ ad: "Konu listesi", yol: "/konular/657-dmk/" },
 	{ ad: "Konu özeti", yol: "/konular/657-dmk/disiplin-cezalari/" },
-	{ ad: "Test kurulumu", yol: "/testler/657-dmk/disiplin-cezalari/" },
+	{ ad: "Konunun test listesi", yol: "/testler/657-dmk/disiplin-cezalari/" },
 	{ ad: "Deneme sınavı", yol: "/deneme/" },
 	{ ad: "Tekrar merkezi", yol: "/yanlislarim/" },
 	{ ad: "İlerleme", yol: "/ilerleme/" },
@@ -51,12 +51,9 @@ for (const { ad, yol } of SAYFALAR) {
 }
 
 test("test çözme ekranı erişilebilirlik ihlali içermez", async ({ page }) => {
-	// Soru kartı yalnızca test başlayınca oluşur; kurulum ekranını taramak
-	// asıl etkileşimli arayüzü kaçırır.
-	await page.goto("/testler/657-dmk/disiplin-cezalari/");
-	await soruSayisiSec(page, "5 soru");
-	await page.getByRole("button", { name: "Testi başlat" }).click();
-	await page.getByText("Soru 1 / 5").waitFor();
+	// Soru kartı asıl etkileşimli arayüzdür; test listesini taramak onu kaçırır.
+	await page.goto("/testler/657-dmk/disiplin-cezalari/test-1/");
+	await page.getByText("Soru 1 / 10").waitFor();
 
 	const kurulum = await new AxeBuilder({ page }).withTags(WCAG).analyze();
 	expect(

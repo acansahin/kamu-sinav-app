@@ -167,8 +167,8 @@ export function SettingsPanel() {
 				</label>
 			</Card>
 
-			<Card>
-				<h2 className="mb-4 text-lg font-bold">Çalışma</h2>
+			<Card className="space-y-6">
+				<h2 className="text-lg font-bold">Çalışma</h2>
 				<label className="block">
 					<span className="font-semibold">Günlük hedef (soru)</span>
 					<input
@@ -184,6 +184,28 @@ export function SettingsPanel() {
 						}
 						className="mt-2 block min-h-11 w-32 rounded-lg border-2 border-line bg-surface-raised px-3 text-base"
 					/>
+				</label>
+
+				{/* Testler sabit setlerden geldiği için kurulum ekranı yok; bu tercih
+				    her testte yeniden sorulmak yerine buradan bir kez seçilir. */}
+				<label className="flex min-h-11 cursor-pointer items-center gap-3">
+					<input
+						type="checkbox"
+						checked={settings?.instantFeedback ?? true}
+						onChange={(e) =>
+							void progressRepository.saveSettings({
+								instantFeedback: e.target.checked,
+							})
+						}
+						className="size-5 accent-[var(--brand)]"
+					/>
+					<span>
+						<span className="block font-semibold">Anında geri bildirim</span>
+						<span className="block text-sm text-fg-muted">
+							Testlerde her sorudan sonra doğru cevabı ve açıklamayı gösterir.
+							Kapalıysa hepsi testin sonunda görünür.
+						</span>
+					</span>
 				</label>
 			</Card>
 

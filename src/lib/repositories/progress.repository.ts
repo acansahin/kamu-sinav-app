@@ -50,6 +50,8 @@ export interface IProgressRepository {
 		score: number,
 	): Promise<void>;
 	getRecentTestSessions(limit: number): Promise<TestSession[]>;
+	/** Bir konunun tamamlanmış test oturumları — test listesinde skor rozetleri için. */
+	getCompletedTestSessions(topicId: string): Promise<TestSession[]>;
 	createExamSession(session: NewExamSession): Promise<void>;
 	/** Yarıda kalmış sınav varsa döner — çökme sonrası kurtarma için. */
 	getResumableExamSession(): Promise<ExamSession | null>;
@@ -334,6 +336,17 @@ class DexieProgressRepository implements IProgressRepository {
 			.reverse()
 			.sortBy("startedAt");
 		return sessions.slice(0, limit);
+	}
+
+	async getCompletedTestSessions(topicId: string): Promise<TestSession[]> {
+		return getDb()
+			.testSessions.where("topicId")
+			.equals(topicId)
+			.filter(
+				(session) =>
+					session.userId === this.userId && session.status === "completed",
+			)
+			.toArray();
 	}
 
 	async createExamSession(session: NewExamSession): Promise<void> {
