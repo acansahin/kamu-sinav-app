@@ -342,11 +342,11 @@
 			"En çok oy alan aday seçilmiş sayılır."
 		],
 		"correctIndex": 0,
-		"explanation": "Madde 102'ye göre genel oyla yapılacak seçimde geçerli oyların salt çoğunluğunu alan aday Cumhurbaşkanı seçilir. Birinci oylamada bu çoğunluk sağlanamazsa, en çok oy almış iki aday arasında ikinci oylama yapılır ve bu oylamada en çok oy alan aday Cumhurbaşkanı seçilir.",
+		"explanation": "Anayasa'nın 101. maddesine göre genel oyla yapılacak seçimde geçerli oyların salt çoğunluğunu alan aday Cumhurbaşkanı seçilir. İlk oylamada bu çoğunluk sağlanamazsa, oylamayı izleyen ikinci pazar günü ikinci oylama yapılır; bu oylamaya ilk oylamada en çok oy almış iki aday katılır ve geçerli oyların çoğunluğunu alan aday Cumhurbaşkanı seçilir. Kural 102. maddede aranmamalıdır: o madde 21/1/2017 tarihli ve 6771 sayılı Kanun'la mülga edilmiş, Cumhurbaşkanı seçimine ilişkin şartlar ve usul 101. maddede toplanmıştır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
 			"lawId": "2709",
-			"article": "102"
+			"article": "101"
 		},
 		"source": {
 			"kind": "original",
@@ -359,8 +359,8 @@
 			"madde-102",
 			"secim"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-01"
 	},
 	{
 		"id": "anayasa-yurutme-012",
