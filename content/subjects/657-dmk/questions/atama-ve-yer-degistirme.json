@@ -103,7 +103,7 @@
 		"subjectId": "657-dmk",
 		"topicId": "657-dmk/atama-ve-yer-degistirme",
 		"difficulty": "orta",
-		"stem": "Başka yerdeki bir göreve atanan memur, atama emrinin tebliğinden itibaren kaç gün içinde işe başlamak zorundadır?",
+		"stem": "Başka yerdeki bir göreve atanan memur, atama emrinin tebliğinden itibaren kaç gün içinde o yere hareket etmek zorundadır?",
 		"options": [
 			"10 gün",
 			"15 gün",
@@ -111,7 +111,7 @@
 			"5 gün"
 		],
 		"correctIndex": 1,
-		"explanation": "Madde 62'ye göre aynı yerdeki görevlere atananlar atama emirlerinin kendilerine tebliğ gününü izleyen iş günü, başka yerdeki görevlere atananlar ise tebliğ tarihinden itibaren 15 gün içerisinde işe başlamak zorundadır.",
+		"explanation": "657 sayılı Kanun'un 62. maddesine göre aynı yerdeki görevlere atananlar atama emrinin tebliğ gününü izleyen iş günü işe başlar. Başka yerdeki görevlere atananlar ise tebliğ tarihinden itibaren 15 gün içinde o yere hareket eder ve belli yol süresini izleyen iş günü işe başlar; yani 15 gün işe başlama değil, hareket süresidir. Savaş ve olağanüstü hâllerde bu süre Cumhurbaşkanı Kararı ile kısaltılabilir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
 			"lawId": "657",
@@ -128,8 +128,8 @@
 			"ise-baslama",
 			"sure"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-01"
 	},
 	{
 		"id": "657-atama-005",
@@ -144,7 +144,7 @@
 			"Askerlik durumu itibarıyla engeli bulunmamak"
 		],
 		"correctIndex": 2,
-		"explanation": "Madde 48/A'daki genel şartlar arasında belirli bir sınav puanı yer almaz. Puan barajı gibi ölçütler kurumların özel mevzuatında veya sınav kılavuzlarında düzenlenir ve özel şart niteliğindedir. Genel şartlar vatandaşlık, yaş, öğrenim, kamu haklarından mahrum olmama, belirli suçlardan mahkûm olmama, askerlik, sağlık ve güvenlik soruşturmasıdır.",
+		"explanation": "657 sayılı Kanun'un 48/A maddesindeki genel şartlar arasında belirli bir sınav puanı yer almaz. Puan barajı gibi ölçütler kurumların özel mevzuatında veya sınav kılavuzlarında düzenlenir ve özel şart niteliğindedir. Maddedeki yedi genel şart şunlardır: Türk vatandaşı olmak, 40. maddedeki yaş şartını taşımak, 41. maddedeki öğrenim şartını taşımak, kamu haklarından mahrum bulunmamak, sayılan suçlardan mahkûm olmamak, askerlik durumu itibarıyla engeli bulunmamak ve görevi devamlı yapmaya engel akıl hastalığı bulunmamak. 2016'da eklenen sekizinci bent (güvenlik soruşturması ve arşiv araştırması) Anayasa Mahkemesinin 24/7/2019 tarihli kararıyla iptal edilmiştir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
 			"lawId": "657",
@@ -161,8 +161,8 @@
 			"madde-48",
 			"sartlar"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-01"
 	},
 	{
 		"id": "657-atama-006",

@@ -241,7 +241,7 @@
 			"4 yıl – süresi biten üyeler yeniden seçilebilir"
 		],
 		"correctIndex": 3,
-		"explanation": "Madde 159'a göre Hâkimler ve Savcılar Kurulu üyeleri dört yıl için seçilir ve süresi biten üyeler yeniden seçilebilirler. Bu, Anayasa Mahkemesi üyeliğinin tam tersidir: AYM üyeleri 12 yıl için seçilir ve bir kimse iki defa seçilemez.",
+		"explanation": "Anayasa'nın 159. maddesine göre Hâkimler ve Savcılar Kurulu üyeleri dört yıl için seçilir ve süresi biten üyeler bir kez daha seçilebilir; yani en çok iki dönem görev yapılabilir. Bu, Anayasa Mahkemesi üyeliğinden farklıdır: AYM üyeleri 12 yıl için seçilir ve bir kimse iki defa AYM üyesi seçilemez.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
 			"lawId": "2709",
@@ -259,8 +259,8 @@
 			"sure",
 			"tuzak"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-01"
 	},
 	{
 		"id": "anayasa-yargi-009",
