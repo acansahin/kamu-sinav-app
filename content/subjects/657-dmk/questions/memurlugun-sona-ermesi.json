@@ -906,5 +906,40 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-sona-028",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 98. maddesinde memurluğu sona erdiren emeklilik sebepleri arasında sayılan yaş haddi, Devlet memurları bakımından genel olarak kaç yaşın doldurulmasıdır?",
+		"options": [
+			"67",
+			"62",
+			"60",
+			"70",
+			"65"
+		],
+		"explanation": "657 sayılı Kanun'un 98. maddesi yaş haddini memurluğu sona erdiren emeklilik sebepleri arasında sayar ancak yaşı belirlemez. Yaş haddi 5434 sayılı Türkiye Cumhuriyeti Emekli Sandığı Kanunu'nun 40. maddesindedir: iştirakçilerin görevleri ile ilişiklerinin kesilmesini gerektiren yaş haddi 65 yaşını doldurdukları tarihtir. Aynı madde 65 yaşını dolduranların bu görevlere açıktan veya naklen atanamayacağını da belirtir. Üniversite öğretim üyelerinde yaş haddi 67'dir; subaylar ve emniyet mensupları gibi bazı gruplar için maddede ayrı yaş hadleri gösterilmiştir.",
+		"legalRef": {
+			"law": "5434 sayılı Türkiye Cumhuriyeti Emekli Sandığı Kanunu",
+			"lawId": "5434",
+			"article": "40"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (kolay seviye partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yas-haddi",
+			"emeklilik",
+			"memurlugun-sona-ermesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-01",
+		"correctIndex": 4
 	}
 ]
