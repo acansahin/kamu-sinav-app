@@ -65,8 +65,7 @@ export default async function TopicTestListPage({ params }: Props) {
 					slug: set.slug,
 					number: set.number,
 					questionCount: set.questions.length,
-					countsByDifficulty: set.countsByDifficulty,
-				}))}
+									}))}
 			/>
 
 			<Card className="mt-6 bg-surface-sunken">

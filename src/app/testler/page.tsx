@@ -4,7 +4,6 @@ import { Card, CardLink } from "@/components/ui/card";
 import { contentRepository } from "@/lib/repositories/content.repository";
 import { routes } from "@/lib/routes";
 import { TEST_SIZE, planSizes } from "@/lib/selector/test-sets";
-import { DIFFICULTY_ORDER } from "@/types/content";
 
 export const metadata: Metadata = { title: "Testler" };
 
@@ -43,15 +42,7 @@ export default async function TestsPage() {
 												<h3 className="font-semibold">{topic.name}</h3>
 												<p className="mt-1 text-sm text-fg-muted">
 													{planSizes(topic.questionCount).length} test ·{" "}
-													{topic.questionCount} soru ·{" "}
-													{DIFFICULTY_ORDER.filter(
-														(level) => topic.countsByDifficulty[level] > 0,
-													)
-														.map(
-															(level) =>
-																`${level} ${topic.countsByDifficulty[level]}`,
-														)
-														.join(" · ")}
+													{topic.questionCount} soru
 												</p>
 											</CardLink>
 										</li>

@@ -6,8 +6,6 @@ import { CardLink } from "@/components/ui/card";
 import { progressRepository } from "@/lib/repositories/progress.repository";
 import { routes } from "@/lib/routes";
 import { isPassing } from "@/lib/scoring/test-result";
-import { DIFFICULTY_ORDER } from "@/types/content";
-import type { Difficulty } from "@/types/content";
 import { cn } from "@/lib/utils/cn";
 
 /**
@@ -19,7 +17,6 @@ export interface TestSetSummary {
 	slug: string;
 	number: number;
 	questionCount: number;
-	countsByDifficulty: Record<Difficulty, number>;
 }
 
 export function TestSetList({
@@ -54,13 +51,6 @@ export function TestSetList({
 			{sets.map((set) => {
 				const score = bestScores.get(set.slug);
 				const solved = score !== undefined;
-				const mix = DIFFICULTY_ORDER.filter(
-					(level) => set.countsByDifficulty[level] > 0,
-				)
-					// Zorluk kimliği zaten küçük harfli Türkçe bir sözcük ("kolay",
-					// "uzman"); etiketi küçültmek yerine kimliği kullanmak
-					// `toLowerCase` tuzağını tamamen atlar.
-					.map((level) => `${set.countsByDifficulty[level]} ${level}`);
 
 				return (
 					<li key={set.slug}>
@@ -72,14 +62,14 @@ export function TestSetList({
 							 * "Test 1" ile "10 soru"yu bitişik okur ("Test 110 soru"),
 							 * çünkü aradaki boşluk yalnızca blok düzeninden geliyor.
 							 */
-							aria-label={`Test ${set.number}: ${set.questionCount} soru, ${mix.join(", ")}. ${
+							aria-label={`Test ${set.number}: ${set.questionCount} soru. ${
 								solved ? `En iyi puanın ${score}` : "Henüz çözmedin"
 							}`}
 						>
 							<span className="flex-1">
 								<span className="block font-semibold">Test {set.number}</span>
 								<span className="mt-1 block text-sm text-fg-muted">
-									{set.questionCount} soru · {mix.join(" · ")}
+									{set.questionCount} soru
 								</span>
 							</span>
 
