@@ -815,5 +815,179 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-cikar-026",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "kolay",
+		"stem": "3628 sayılı Kanun'un 17. maddesinde yazılı suçlara (irtikâp, rüşvet, zimmet, ihaleye fesat karıştırma ve benzeri) ilişkin ihbarlar nereye yapılır?",
+		"options": [
+			"Sanığın atamaya yetkili amirine",
+			"Doğrudan Cumhuriyet Başsavcılıklarına",
+			"Kamu Görevlileri Etik Kuruluna",
+			"İlgili kurumun teftiş kuruluna",
+			"Valiliğe veya kaymakamlığa"
+		],
+		"correctIndex": 1,
+		"explanation": "3628 m.18: 17. maddede yazılı suçlara ilişkin ihbarlar DOĞRUDAN CUMHURİYET BAŞSAVCILIKLARINA yapılır. İhbar üzerine derhâl bir ihbar tutanağı düzenlenir ve bir örneği muhbire verilir; acele ve gecikmesinde sakınca umulan hâllerde tutanak düzenlenmesi sonraya bırakılabilir. Bu suçlarda müfettiş ve muhakkikler de delil veya emare elde ettiklerinde işi yetkili Cumhuriyet Başsavcılığına ihbar ve evrakı tevdi etmek zorundadır.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "18"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ihbar",
+			"cumhuriyet-bassavciligi",
+			"yolsuzlukla-mucadele"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-cikar-027",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "orta",
+		"stem": "3628 sayılı Kanun'un 18. maddesine göre muhbirlerin kimliği ve ihbar konusu hakkında yayın bakımından aşağıdakilerden hangisi YANLIŞTIR?",
+		"options": [
+			"Muhbirlerin kimlikleri, rızaları olmadıkça açıklanmaz.",
+			"İhbar üzerine düzenlenen ihbar tutanağının bir örneği muhbire verilir.",
+			"İhbar konusu suç hakkında dava açılıncaya kadar bilgi vermek ve yayın yapmak yasaktır.",
+			"İhbar asılsız çıktığında, aleyhine takibat yapılanın istemi üzerine muhbirin kimliği açıklanır.",
+			"Muhbirin kimliği, ihbarın asılsız çıkması hâlinde dahi hiçbir surette açıklanamaz."
+		],
+		"correctIndex": 4,
+		"explanation": "3628 m.18 muhbiri korur ama korumayı mutlak kılmaz: muhbirlerin kimlikleri RIZALARI OLMADIKÇA açıklanmaz; ancak İHBAR ASILSIZ ÇIKTIĞINDA, ALEYHİNE TAKİBAT YAPILANIN İSTEMİ ÜZERİNE muhbirin kimliği AÇIKLANIR. Aynı madde, ihbar konusu suç hakkında DAVA AÇILINCAYA KADAR bilgi vermeyi ve yayın yapmayı da yasaklar.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "18"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"muhbir",
+			"kimligin-gizliligi",
+			"yayin-yasagi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-cikar-028",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "orta",
+		"stem": "3628 sayılı Kanun'un 20. maddesindeki bilgi verme zorunluluğuna aykırı davranan kişiler hakkında öngörülen yaptırım bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca idari para cezası uygulanır.",
+			"Altı aya kadar hapis cezası verilir ve ceza her hâlde ertelenir.",
+			"Yalnızca disiplin cezası uygulanır.",
+			"Bir yıldan üç yıla kadar hapis cezası verilir; ceza para cezasına çevrilebilir.",
+			"Bir yıldan üç yıla kadar hapis cezası verilir; bu ceza para cezasına veya tedbirlerden birine çevrilemez ve ertelenemez."
+		],
+		"correctIndex": 4,
+		"explanation": "3628 m.20, ÖZEL KANUNLARINDA AKSİNE HÜKÜM BULUNSA BİLE ilgili gerçek veya tüzel kişiler ile kamu kurum ve kuruluşlarını, takip, soruşturma ve kovuşturmaya yetkili mercilerce istenen bilgileri GECİKMEKSİZİN MAKUL SÜREDE EKSİKSİZ vermekle yükümlü tutar. Aksine davrananlara BİR YILDAN ÜÇ YILA KADAR HAPİS cezası verilir ve madde yaptırımı ağırlaştırır: bu ceza PARA CEZASINA VEYA TEDBİRLERDEN BİRİNE ÇEVRİLEMEZ VE ERTELENEMEZ.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-verme-zorunlulugu",
+			"ceza"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-cikar-029",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "uzman",
+		"stem": "3628 sayılı Kanun'un 17. maddesine göre, irtikâp, rüşvet ve zimmet gibi suçlardan sanık olanlar hakkında 4483 sayılı Memurlar ve Diğer Kamu Görevlilerinin Yargılanması Hakkında Kanun hükümlerinin uygulanmaması kuralı kimler bakımından uygulanamaz?",
+		"options": [
+			"Daire başkanları",
+			"Şube müdürleri",
+			"Genel müdürler",
+			"Belediye başkanları",
+			"Müsteşarlar, valiler ve kaymakamlar"
+		],
+		"correctIndex": 4,
+		"explanation": "3628 m.17, bu Kanunda yazılı suçlarla irtikâp, rüşvet, basit ve nitelikli zimmet, görev sırasında veya görevinden dolayı kaçakçılık, resmî ihale ve alım satımlara fesat karıştırma ve Devlet sırlarının açıklanması suçlarından sanık olanlar hakkında 4483 SAYILI KANUN HÜKÜMLERİNİN UYGULANMAYACAĞINI söyler — yani bu suçlarda soruşturma izni aranmaz. Bu, Anayasa m.129'un “ceza kovuşturması açılması kanunun gösterdiği idari merciin iznine bağlıdır” kuralının, aynı maddede öngörülen “kanunla belirlenen istisnalar” kapsamındaki uygulamasıdır. Maddenin ikinci fıkrası istisnanın istisnasını koyar: bu hüküm MÜSTEŞARLAR, VALİLER VE KAYMAKAMLAR hakkında uygulanamaz; onlar için izin usulü işlemeye devam eder. (Müsteşarlık unvanı 2018'de kaldırılmış olmakla birlikte madde metni bu ibareyi korumaktadır.) Ayrıca görevleri veya sıfatları sebebiyle özel soruşturma ve kovuşturma usulüne tabi olanlarla ilgili kanun hükümleri saklıdır.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sorusturma-izni",
+			"4483",
+			"istisna"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-cikar-030",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "uzman",
+		"stem": "3628 sayılı Kanun'un 19. maddesine göre, haksız edinilen malın kaçırıldığı yolunda delil ve emare elde edilmesi hâlinde Cumhuriyet Savcısı kimlerden mal bildiriminde bulunmalarını ister ve bildirim hangi sürede verilir?",
+		"options": [
+			"Sanığın birinci dereceye kadar kan hısımlarından; istemin ulaştığı tarihten itibaren bir ay içinde",
+			"Yalnızca sanıktan; istemin ulaştığı tarihten itibaren otuz gün içinde",
+			"Sanığın üçüncü dereceye kadar kan ve sıhri hısımlarından; istemin ulaştığı tarihten itibaren yedi gün içinde",
+			"Sanığın ikinci dereceye kadar kan ve sıhri hısımları ile gelini ve damadından; istemin ulaştığı tarihten itibaren yedi gün içinde",
+			"Yalnızca sanığın eşi ve çocuklarından; istemin ulaştığı tarihten itibaren on beş gün içinde"
+		],
+		"correctIndex": 3,
+		"explanation": "3628 m.19'a göre Cumhuriyet Savcısı, soruşturmaya başladığında ihbarı doğrulayan emareler bulursa sanıktan; haksız edinilen malın KAÇIRILDIĞI yolunda delil ve emare elde ederse ayrıca sanığın İKİNCİ DERECEYE KADAR KAN VE SIHRİ HISIMLARI İLE GELİNİ VE DAMADINDAN mal bildiriminde bulunmalarını ister. İstemin ilgililere ulaştığı tarihten itibaren YEDİ GÜN içinde mal bildiriminin verilmesi zorunludur. Soruşturmanın müfettiş veya muhakkik tarafından yapılması hâlinde aynı yetki ve aynı süre onlar için de geçerlidir.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "19"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mal-bildirimi",
+			"hisimlar",
+			"sure"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]
