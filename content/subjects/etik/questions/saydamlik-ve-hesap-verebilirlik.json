@@ -586,5 +586,421 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "etik-saydam-019",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "kolay",
+		"stem": "4982 sayılı Bilgi Edinme Hakkı Kanunu'na göre Devlet sırrına ilişkin bilgi veya belgeler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Açıklanması hâlinde Devletin emniyetine, dış ilişkilerine, millî savunmasına ve millî güvenliğine açıkça zarar verecek ve niteliği itibarıyla Devlet sırrı olan gizlilik dereceli bilgi veya belgeler bilgi edinme hakkı kapsamı dışındadır.",
+			"Devlet sırrına ilişkin belgeler, başvuranın gerekçe göstermesi hâlinde verilir.",
+			"Devlet sırrı niteliğindeki belgelere erişim, kurumun takdirine bağlı olarak sağlanabilir.",
+			"Devlet sırrı sayılan belgeler, üzerinden on yıl geçmesiyle kendiliğinden bilgi edinme başvurularına açılır.",
+			"Devlet sırrı istisnası yalnızca askerî belgeler için geçerlidir."
+		],
+		"correctIndex": 0,
+		"explanation": "4982 m.16, Kanun'un “Bilgi Edinme Hakkının Sınırları” bölümündeki ilk istisnadır: açıklanması hâlinde DEVLETİN EMNİYETİNE, DIŞ İLİŞKİLERİNE, MİLLÎ SAVUNMASINA VE MİLLÎ GÜVENLİĞİNE AÇIKÇA ZARAR VERECEK ve niteliği itibarıyla Devlet sırrı olan gizlilik dereceli bilgi veya belgeler bilgi edinme hakkı kapsamı dışındadır. İstisna kurumun takdirine ya da sürenin geçmesine bağlı değildir; gizliliğin kaldırılması hâlinde ise m.28 uyarınca belge başvurulara açık hâle gelir.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"devlet-sirri",
+			"istisnalar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-saydam-020",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "kolay",
+		"stem": "4982 sayılı Kanun'un 6. maddesine göre bilgi edinme başvurusu bakımından aşağıdakilerden hangisi YANLIŞTIR?",
+		"options": [
+			"Başvuru, istenen bilgi veya belgenin bulunduğu kurum veya kuruluşa yapılır.",
+			"Dilekçede başvuru sahibinin adı, soyadı, imzası ve oturma yeri veya iş adresi bulunur.",
+			"Dilekçede istenen bilgi veya belgeler açıkça belirtilir.",
+			"Başvuru sahibi tüzel kişi ise unvanı, adresi, yetkili kişinin imzası ve yetki belgesi aranır.",
+			"Başvuru yalnızca ıslak imzalı dilekçeyle yapılabilir; elektronik ortamda başvuru kabul edilmez."
+		],
+		"correctIndex": 4,
+		"explanation": "4982 m.6'nın ikinci cümlesi açıkça izin verir: başvuru, kişinin kimliğinin ve imzasının veya yazının kimden neşet ettiğinin tespitine yarayacak başka bilgilerin yasal olarak belirlenebilir olması kaydıyla ELEKTRONİK ORTAMDA VEYA DİĞER İLETİŞİM ARAÇLARIYLA DA yapılabilir. Diğer şıklar maddenin ilk cümlesinde sayılan zorunlu unsurlardır.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"basvuru-usulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-saydam-021",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "orta",
+		"stem": "4982 sayılı Kanun'a göre kurum ve kuruluşlarca yayımlanmış veya kamuya açıklanmış bilgi ve belgeler için yapılan bilgi edinme başvuruları nasıl sonuçlanır?",
+		"options": [
+			"Başvuru reddedilir ve başvurana herhangi bir bildirim yapılmaz.",
+			"Başvuru, yalnızca belge Resmî Gazete'de yayımlanmışsa reddedilir.",
+			"Kurum, yayımlanmış olsa dahi belgenin bir örneğini başvurana göndermek zorundadır.",
+			"Bu bilgi ve belgeler başvuruya konu olamaz; ancak ne şekilde, ne zaman ve nerede yayımlandığı veya açıklandığı başvurana bildirilir.",
+			"Başvuru, yayımın üzerinden bir yıl geçmişse kabul edilir."
+		],
+		"correctIndex": 3,
+		"explanation": "4982 m.8'e göre kurum ve kuruluşlarca yayımlanmış veya yayın, broşür, ilân ve benzeri yollarla kamuya açıklanmış bilgi veya belgeler BİLGİ EDİNME BAŞVURULARINA KONU OLAMAZ. Ancak madde başvuranı boşta bırakmaz: bu bilgi veya belgelerin NE ŞEKİLDE, NE ZAMAN VE NEREDE yayımlandığı veya açıklandığı başvurana bildirilir.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "8"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"yayimlanmis-bilgi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-saydam-022",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "orta",
+		"stem": "4982 sayılı Kanun'un 17. maddesine göre ülkenin ekonomik çıkarlarına ilişkin bilgi veya belgeler hangi hâlde Kanun kapsamı dışındadır?",
+		"options": [
+			"Ekonomiyle ilgili olan her bilgi ve belge, içeriğine bakılmaksızın kapsam dışıdır.",
+			"Yalnızca Hazine ve Maliye Bakanlığının ürettiği belgeler kapsam dışıdır.",
+			"Açıklanması ya da zamanından önce açıklanması hâlinde ülkenin ekonomik çıkarlarına zarar verecek veya haksız rekabet ve kazanca sebep olacak nitelikte ise",
+			"Yalnızca yabancı yatırımcıları ilgilendiren belgeler kapsam dışıdır.",
+			"Yalnızca bütçe görüşmeleri sürerken kapsam dışıdır."
+		],
+		"correctIndex": 2,
+		"explanation": "4982 m.17 istisnayı içerik değil SONUÇ ölçütüne bağlar: açıklanması YA DA ZAMANINDAN ÖNCE AÇIKLANMASI hâlinde ülkenin ekonomik çıkarlarına zarar verecek veya HAKSIZ REKABET VE KAZANCA sebep olacak bilgi veya belgeler Kanun kapsamı dışındadır. “Zamanından önce” ibaresi önemlidir: aynı belge, zamanı geldiğinde erişime açık olabilir.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"ekonomik-cikarlar",
+			"istisnalar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-saydam-023",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "orta",
+		"stem": "4982 sayılı Kanun'un 20. maddesine göre adlî soruşturma ve kovuşturmaya ilişkin olarak aşağıdakilerden hangisi Kanun kapsamı DIŞINDA tutulmamıştır?",
+		"options": [
+			"Soruşturması tamamlanmış ve kesin hükme bağlanmış bir dosyaya ilişkin, hiçbir sakınca doğurmayan bilgi ve belgeler",
+			"Açıklanması suç işlenmesine yol açacak bilgi veya belgeler",
+			"Açıklanması yargılama görevinin gereğince yerine getirilmesini engelleyecek bilgi veya belgeler",
+			"Açıklanması suçların önlenmesi ve soruşturulmasını tehlikeye düşürecek bilgi veya belgeler",
+			"Açıklanması hakkında dava açılmış bir kişinin adil yargılanma hakkını ihlâl edecek bilgi veya belgeler"
+		],
+		"correctIndex": 0,
+		"explanation": "4982 m.20 dört bent sayar ve hepsinde ölçüt AÇIKLANMANIN DOĞURACAĞI SAKINCADIR: suç işlenmesine yol açma, suçların önlenmesi ve soruşturulması ya da suçluların yakalanıp kovuşturulmasını tehlikeye düşürme, yargılama görevinin gereğince yerine getirilmesini engelleme, adil yargılanma hakkını ihlâl. Bu sakıncalardan hiçbirini doğurmayan bilgi ve belge, yalnızca bir soruşturma dosyasında yer aldığı için kapsam dışında sayılmaz. Maddede ayrıca ceza ve idari yargılama usulüne ilişkin özel kanun hükümleri saklı tutulmuştur.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"adli-sorusturma",
+			"istisnalar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-saydam-024",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "orta",
+		"stem": "4982 sayılı Kanun'un 23. maddesine göre ticarî sır kapsamında Kanun'un dışında tutulan bilgi ve belgeler hangileridir?",
+		"options": [
+			"Kanunlarda ticarî sır olarak nitelenen bilgi ve belgeler ile kurum ve kuruluşlar tarafından gerçek veya tüzel kişilerden gizli kalması kaydıyla sağlanan ticarî ve malî bilgiler",
+			"Yalnızca kanunlarda ticarî sır olarak nitelenen bilgi ve belgeler",
+			"Yalnızca bankalardan alınan bilgiler",
+			"Yalnızca kamu ihalelerine ilişkin teklif dosyaları",
+			"Ticaret şirketlerine ait her türlü bilgi ve belge"
+		],
+		"correctIndex": 0,
+		"explanation": "4982 m.23 iki grubu birlikte kapsam dışında tutar: (1) KANUNLARDA ticarî sır olarak nitelenen bilgi veya belgeler, (2) kurum ve kuruluşlar tarafından gerçek veya tüzel kişilerden GİZLİ KALMASI KAYDIYLA sağlanan TİCARÎ VE MALÎ BİLGİLER. İkinci grup, kanunda ayrıca ticarî sır sayılmasa bile gizlilik kaydıyla verilmiş olması nedeniyle korunur.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "23"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"ticari-sir",
+			"istisnalar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-saydam-025",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "zor",
+		"stem": "4982 sayılı Kanun'un 15. maddesine göre yargı denetimi dışında kalan idarî işlemler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yargı denetimi dışında kalan işlemlerin tamamı Kanun kapsamı dışındadır.",
+			"Bu işlemler hakkında bilgi edinme hakkının kullanılması, işlemi yargı denetimine açar.",
+			"Bu işlemler yalnızca ilgili kişinin avukatı başvurduğunda Kanun kapsamına girer.",
+			"Bunlardan kişinin çalışma hayatını ve mesleki onurunu etkileyecek nitelikte olanlar Kanun kapsamına dâhildir; ancak bu yolla sağlanan bilgi edinme hakkı işlemin yargı denetimine açılması sonucunu doğurmaz.",
+			"Bu işlemler hakkında bilgi ancak mahkeme kararıyla verilebilir."
+		],
+		"correctIndex": 3,
+		"explanation": "4982 m.15, “Bilgi Edinme Hakkının Sınırları” bölümünü bir istisnayla değil, bir KAPSAM GENİŞLETMESİYLE açar: yargı denetimi dışında kalan idarî işlemlerden KİŞİNİN ÇALIŞMA HAYATINI VE MESLEKİ ONURUNU ETKİLEYECEK nitelikte olanlar Kanun kapsamına dâhildir. Maddenin ikinci cümlesi sınırı çizer: bu şekilde sağlanan bilgi edinme hakkı, işlemin YARGI DENETİMİNE AÇILMASI SONUCUNU DOĞURMAZ.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"yargi-denetimi-disi-islemler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-saydam-026",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "zor",
+		"stem": "4982 sayılı Kanun'un 18. maddesine göre sivil ve askerî istihbarat birimlerinin görev ve faaliyetlerine ilişkin bilgi veya belgeler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca askerî istihbarat birimlerinin belgeleri kapsam dışındadır.",
+			"Kural olarak Kanun kapsamı dışındadır; ancak kişilerin çalışma hayatını ve meslek onurunu etkileyecek nitelikte iseler bilgi edinme hakkı kapsamı içindedir.",
+			"Kapsam dışında olup olmadığına her başvuruda Bilgi Edinme Değerlendirme Kurulu karar verir.",
+			"Hiçbir istisnası olmaksızın Kanun kapsamı dışındadır.",
+			"Kural olarak kapsam içindedir; yalnızca Devlet sırrı niteliğindeyse kapsam dışına çıkar."
+		],
+		"correctIndex": 1,
+		"explanation": "4982 m.18 önce sivil ve askerî istihbarat birimlerinin görev ve faaliyetlerine ilişkin bilgi ve belgeleri kapsam dışında bırakır, sonra maddenin ikinci cümlesiyle bunu geri alır: bu bilgi ve belgeler KİŞİLERİN ÇALIŞMA HAYATINI VE MESLEK ONURUNU ETKİLEYECEK NİTELİKTE ise bilgi edinme hakkı kapsamı İÇİNDEDİR. Aynı ölçüt 15. maddede de kullanılmıştır; sınavda istisnanın istisnası olarak sorulur.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "18"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"istihbarat",
+			"istisnalar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-saydam-027",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "zor",
+		"stem": "4982 sayılı Kanun'un 19. maddesine göre, idarî soruşturmalarla ilgili bilgi ve belgelerin Kanun kapsamı dışında tutulması için aşağıdakilerden hangisi aranmaz?",
+		"options": [
+			"Soruşturmanın disiplin cezasıyla sonuçlanmış olması",
+			"Açıklanmasının gizli kalması gereken bilgi kaynağının açığa çıkmasına neden olacak olması",
+			"Açıklanmasının kişilerin özel hayatına açıkça haksız müdahale sonucunu doğuracak olması",
+			"Açıklanmasının kişilerin veya soruşturmayı yürüten görevlilerin hayatını ya da güvenliğini tehlikeye sokacak olması",
+			"Açıklanmasının soruşturmanın güvenliğini tehlikeye düşürecek olması"
+		],
+		"correctIndex": 0,
+		"explanation": "4982 m.19, kurum ve kuruluşların yetkili birimlerince yürütülen idarî soruşturmalarla ilgili bilgi ve belgeleri dört bent hâlinde saydığı SAKINCALAR gerçekleşecekse kapsam dışında tutar: özel hayata açıkça haksız müdahale, kişilerin veya soruşturmacıların hayat ya da güvenliğinin tehlikeye girmesi, soruşturmanın güvenliğinin tehlikeye düşmesi, gizli bilgi kaynağının açığa çıkması. Soruşturmanın sonucu (ceza verilip verilmediği) ölçüt değildir; madde “açıklanması veya ZAMANINDAN ÖNCE açıklanması” ifadesiyle zamanlamayı da hesaba katar.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "19"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"idari-sorusturma",
+			"istisnalar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-saydam-028",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "zor",
+		"stem": "4982 sayılı Kanun'un 25. maddesine göre kurum ve kuruluşların kamuoyunu ilgilendirmeyen, yalnızca kendi personeli ile kurum içi uygulamalarına ilişkin düzenlemeleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca sendika temsilcilerinin erişimine açıktır.",
+			"Kapsam dışındadır; kurum çalışanları da dâhil hiç kimse bu düzenlemelere erişemez.",
+			"Bilgi edinme hakkının kapsamı dışındadır; ancak söz konusu düzenlemeden etkilenen kurum çalışanlarının bilgi edinme hakları saklıdır.",
+			"Yalnızca düzenlemenin yürürlüğe girmesinden sonra kapsam dışına çıkar.",
+			"Her hâlde bilgi edinme hakkı kapsamındadır."
+		],
+		"correctIndex": 2,
+		"explanation": "4982 m.25, kamuoyunu ilgilendirmeyen ve sadece kendi personeli ile kurum içi uygulamalara ilişkin düzenlemeleri kapsam dışında tutar; ancak maddenin ikinci cümlesi önemli bir kayıt düşer: SÖZ KONUSU DÜZENLEMEDEN ETKİLENEN KURUM ÇALIŞANLARININ BİLGİ EDİNME HAKLARI SAKLIDIR. Yani istisna, düzenlemenin muhatabı olan personele karşı ileri sürülemez.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "25"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"kurum-ici-duzenlemeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-saydam-029",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "uzman",
+		"stem": "Bir kurum, kamu yararının gerektirdiğini değerlendirdiği bir konuda kişisel bilgi ve belgeleri açıklamak istemektedir. 4982 sayılı Kanun'un 21. maddesine göre bunun için aşağıdakilerden hangisi gereklidir?",
+		"options": [
+			"İlgili kişiye en az yedi gün önceden haber verilmesi ve yazılı rızasının alınması",
+			"Yalnızca kurumun gerekçeli kararı; ilgiliye bildirim gerekmez",
+			"Bilgi Edinme Değerlendirme Kurulunun izni",
+			"İlgili kişiye en az on beş gün önceden haber verilmesi; ayrıca rıza aranmaz",
+			"Mahkeme kararı alınması"
+		],
+		"correctIndex": 0,
+		"explanation": "4982 m.21 kural olarak, kişinin izin verdiği hâller saklı kalmak üzere, açıklanması hâlinde kişinin SAĞLIK BİLGİLERİ ile ÖZEL VE AİLE HAYATINA, ŞEREF VE HAYSİYETİNE, MESLEKÎ VE EKONOMİK DEĞERLERİNE haksız müdahale oluşturacak bilgi ve belgeleri kapsam dışında tutar. İkinci fıkra dar bir kapı açar: kamu yararının gerektirdiği hâllerde kişisel bilgi veya belgeler, ilgili kişiye EN AZ YEDİ GÜN ÖNCEDEN HABER VERİLEREK YAZILI RIZASI ALINMAK KOŞULUYLA açıklanabilir. İki şart birlikte aranır.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "21"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"ozel-hayatin-gizliligi",
+			"kamu-yarari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-saydam-030",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"difficulty": "uzman",
+		"stem": "4982 sayılı Kanun'un 27 ve 28. maddeleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Tavsiye ve mütalaa talepleri Kanun kapsamı dışındadır; gizliliği kaldırılmış bilgi veya belgeler ise diğer istisnalar kapsamına girmiyorsa başvurulara açık hâle gelir.",
+			"Tavsiye ve mütalaa talepleri Kanun kapsamındadır; gizliliği kaldırılan belgeler ise her hâlde kapalı kalır.",
+			"Tavsiye ve mütalaa talepleri yalnızca kamu görevlileri tarafından yapılabilir.",
+			"Gizliliği kaldırılan belgeler, başka bir istisna kapsamına girse dahi başvurulara açılır.",
+			"Her iki tür bilgi de her hâlde Kanun kapsamı dışındadır."
+		],
+		"correctIndex": 0,
+		"explanation": "İki madde birlikte okunur. 4982 m.27: TAVSİYE VE MÜTALAA TALEPLERİ Kanun kapsamı dışındadır — bilgi edinme hakkı, mevcut bilgi ve belgeye erişimi kapsar, idareden görüş üretmesini istemeyi değil. 4982 m.28: gizliliği kaldırılmış olan bilgi veya belgeler, Kanunda belirtilen DİĞER İSTİSNALAR KAPSAMINA GİRMİYOR İSE başvurulara açık hâle gelir; gizliliğin kaldırılması tek başına erişim hakkı doğurmaz.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "27"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme",
+			"tavsiye-ve-mutalaa",
+			"gizliligin-kaldirilmasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

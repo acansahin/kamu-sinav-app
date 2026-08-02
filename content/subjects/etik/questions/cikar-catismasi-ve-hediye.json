@@ -611,5 +611,209 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "etik-cikar-020",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "kolay",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre kamu görevlilerinin hediye VERMESİ bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kutlama, duyuru ve anma ilanları serbesttir.",
+			"Kamu kaynaklarını kullanarak hediye verebilirler; yasak yalnızca hediye almaya ilişkindir.",
+			"Kamu kaynaklarını kullanarak hediye veremez; resmî gün, tören ve bayramlar dışında hiçbir gerçek veya tüzel kişiye çelenk veya çiçek gönderemezler.",
+			"Yasak yalnızca yöneticiler için geçerlidir.",
+			"Çelenk ve çiçek gönderilmesi hiçbir hâlde yasak değildir."
+		],
+		"correctIndex": 2,
+		"explanation": "Hediye yasağı iki yönlüdür. Yönetmelik m.15'e göre kamu görevlileri KAMU KAYNAKLARINI KULLANARAK HEDİYE VEREMEZ; RESMÎ GÜN, TÖREN VE BAYRAMLAR DIŞINDA hiçbir gerçek veya tüzel kişiye ÇELENK VEYA ÇİÇEK GÖNDEREMEZ; görev ve hizmetle ilgisi olmayan KUTLAMA, DUYURU VE ANMA İLANLARI veremezler. Maddenin temel ilkesi de bunu özetler: kamu görevlisinin hediye almaması, kamu görevlisine hediye verilmemesi ve görev sebebiyle çıkar sağlanmaması esastır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hediye-verme",
+			"kamu-kaynaklari",
+			"celenk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-cikar-021",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "orta",
+		"stem": "3628 sayılı Kanun'a göre mal bildiriminin muhtevası hakkında gizlilik kuralına aykırı davranan kişi hakkında öngörülen ceza nedir?",
+		"options": [
+			"Altı aydan iki yıla kadar hapis; fiil basın yoluyla işlenmişse ceza iki katına çıkarılır",
+			"Bir yıldan üç yıla kadar hapis; basın yoluyla işlenmesi cezayı etkilemez",
+			"Üç aydan bir yıla kadar hapis; fiil basın yoluyla işlenmişse ceza yarı oranında artırılır",
+			"Adli para cezası; hapis cezası öngörülmemiştir",
+			"Yalnızca disiplin cezası uygulanır"
+		],
+		"correctIndex": 2,
+		"explanation": "3628 sayılı Kanun'un 9. maddesi mal bildirimlerinin gizliliğini düzenler; 11. madde ise bu gizliliği ihlal edenin cezasını gösterir: mal bildiriminin muhtevası hakkında 9. maddeye aykırı davranan ÜÇ AYDAN BİR YILA KADAR HAPİS cezası ile cezalandırılır ve fiilin BASIN YOLUYLA işlenmesi hâlinde verilecek ceza YARI ORANINDA ARTIRILIR. Bu, gerçeğe aykırı bildirimde bulunmanın cezasından ayrı bir suçtur.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mal-bildirimi",
+			"gizlilik",
+			"ceza"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-cikar-022",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre, görev yapılan kuruma katkı anlamına gelen ve kurum hizmetlerinin hukuka uygun yürütülmesini etkilemeyecek olan hediyelerin yasak kapsamı dışında sayılabilmesi için aşağıdakilerden hangisi gerekmez?",
+		"options": [
+			"Kamu hizmetine tahsis edilmesi",
+			"Makam aracı veya belli bir kamu görevlisinin hizmetine tahsis edilmek üzere alınan hediyelerden olmaması",
+			"Kurumun demirbaş listesine kaydedilmesi",
+			"Kamuoyuna açıklanması",
+			"Hediyeyi veren kişinin kurumla iş ilişkisinin bulunmaması"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.15'in istisna listesinin (a) bendi üç koşulu birlikte arar: hediyenin KAMU HİZMETİNE TAHSİS EDİLMESİ, KURUMUN DEMİRBAŞ LİSTESİNE KAYDEDİLMESİ ve KAMUOYUNA AÇIKLANMASI. Bent ayrıca açık bir kapsam dışılık getirir: MAKAM ARACI ve belli bir kamu görevlisinin hizmetine tahsis edilmek üzere alınan diğer hediyeler bu istisnadan yararlanamaz. Verenin kurumla iş ilişkisi bulunup bulunmaması bu bentte koşul olarak sayılmamıştır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hediye-istisnalari",
+			"makam-araci",
+			"demirbas"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-cikar-023",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre en az genel müdür, eşiti ve üstü görevliler aldıkları hediyelerin listesini Kurula ne zaman bildirir?",
+		"options": [
+			"Her hediyeyi aldığı tarihten itibaren on beş gün içinde",
+			"Kurulun her takvim yılı sonunda yapacağı istem üzerine",
+			"Görevden ayrıldıkları tarihi izleyen bir ay içinde",
+			"Herhangi bir uyarı beklemeksizin, her yıl ocak ayı sonuna kadar bir önceki yıla ait olanları",
+			"Sonu 0 ve 5 ile biten yılların şubat ayı sonuna kadar"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.15'in son fıkrası bir RESEN BİLDİRİM yükümlülüğü koyar: kapsamdaki en az genel müdür, eşiti ve üstü görevliler, maddede sayılan hediyelere ilişkin bir önceki yılda aldıklarının listesini HERHANGİ BİR UYARI BEKLEMEKSİZİN HER YIL OCAK AYI SONUNA KADAR Kurula bildirirler. Bu, 657 sayılı Kanun'un 29. maddesindeki Kurulun her takvim yılı sonunda liste İSTEME yetkisinden ayrı ve ondan bağımsız bir yükümlülüktür.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hediye-bildirimi",
+			"ust-duzey-gorevliler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-cikar-024",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "zor",
+		"stem": "3628 sayılı Kanun'a göre siyasi parti genel başkanları mal bildirimlerini hangi mercie verir?",
+		"options": [
+			"Yargıtay Cumhuriyet Başsavcılığına",
+			"Türkiye Büyük Millet Meclisi Başkanlığına",
+			"Yüksek Seçim Kuruluna",
+			"Kamu Görevlileri Etik Kuruluna",
+			"İçişleri Bakanlığına"
+		],
+		"correctIndex": 0,
+		"explanation": "3628 m.8, bildirimlerin verileceği mercileri tek tek sayar. SİYASİ PARTİ GENEL BAŞKANLARI için merci YARGITAY CUMHURİYET BAŞSAVCILIĞIDIR. Aynı maddeye göre TBMM üyeleri için TBMM Başkanlığı, Cumhurbaşkanı yardımcıları ve bakanlar için Cumhurbaşkanlığı, yüksek mahkemelerin daire başkan ve üyeleri için mahkemenin başkanı, noterler için Adalet Bakanlığı, diğer kurum ve kuruluşların memurları için atamaya yetkili makam yetkilidir.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "8"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mal-bildirimi",
+			"bildirim-mercileri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-cikar-025",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"difficulty": "uzman",
+		"stem": "Uluslararası ilişkilerde nezaket ve protokol kuralları gereğince yabancı bir kuruluş tarafından bir kamu görevlisine, 3628 sayılı Kanun'un 3. maddesindeki sınırın altında değeri olan bir hediye verilmiştir. Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre bu hediye bakımından ne yapılır?",
+		"options": [
+			"Sınırın altında kalsa da beyan edilir.",
+			"Hediye derhâl iade edilir; beyan söz konusu olmaz.",
+			"Hediye yalnızca genel müdür ve üstü görevliler tarafından beyan edilir.",
+			"Hediye kurumun demirbaş listesine kaydedilir ve beyan edilmez.",
+			"Sınırın altında kaldığı için beyan edilmesi gerekmez."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.15, uluslararası ilişkilerde nezaket ve protokol kuralları gereğince yabancı kişi ve kuruluşlarca verilen hediyeler için özel bir kural koyar: 3628 sayılı Kanun'un 3. maddesi hükümleri saklı kalmakla birlikte, söz konusu maddede belirtilen SINIRIN ALTINDA KALANLAR DA BEYAN EDİLİR. 3628 m.3'e göre sınırın üstünde kalan hediyeler zaten bir ay içinde kuruma teslim edilir; Yönetmelik beyan yükümlülüğünü sınırın altına da genişletmiştir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"uluslararasi-hediye",
+			"beyan",
+			"protokol"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

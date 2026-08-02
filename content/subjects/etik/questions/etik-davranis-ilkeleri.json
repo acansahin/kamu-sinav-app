@@ -715,5 +715,271 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "etik-ilke-023",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "kolay",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'nin “halka hizmet bilinci” ilkesine göre kamu görevlileri hizmetlerin yerine getirilmesinde aşağıdakilerden hangisini hedefler?",
+		"options": [
+			"Öncelikle kurumun bütçe hedeflerini tutturmayı",
+			"Halkın günlük yaşamını kolaylaştırmayı, ihtiyaçlarını en etkin, hızlı ve verimli biçimde karşılamayı, hizmet kalitesini yükseltmeyi ve halkın memnuniyetini artırmayı",
+			"Yalnızca mevzuatta sayılan asgari işlemleri yerine getirmeyi",
+			"Hizmet sayısını azaltarak iş yükünü hafifletmeyi",
+			"Kurum içi hiyerarşinin korunmasını"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.6, halka hizmet bilincini beş hedefle tanımlar: halkın günlük yaşamını kolaylaştırmak, ihtiyaçlarını EN ETKİN, HIZLI VE VERİMLİ biçimde karşılamak, hizmet kalitesini yükseltmek, halkın memnuniyetini artırmak ve HİZMETTEN YARARLANANIN İHTİYACINA VE HİZMETLERİN SONUCUNA ODAKLI olmak. İlke, hizmetin ölçüsünü kurumun iç işleyişine değil, hizmetten yararlanana bağlar.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"halka-hizmet-bilinci",
+			"etik-ilkeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-ilke-024",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "kolay",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'nin “amaç ve misyona bağlılık” ilkesine göre kamu görevlileri hangi doğrultuda hareket eder?",
+		"options": [
+			"Kendi mesleki kariyer hedefleri doğrultusunda hareket ederler.",
+			"Yalnızca amirlerinin belirlediği öncelikler doğrultusunda hareket ederler.",
+			"Bağlı bulundukları sendikanın belirlediği ilkeler doğrultusunda hareket ederler.",
+			"Kurumun kısa vadeli performans göstergeleri doğrultusunda hareket ederler.",
+			"Çalıştıkları kurum veya kuruluşun amaçlarına ve misyonuna uygun davranır; ülkenin çıkarları, toplumun refahı ve kurumlarının hizmet idealleri doğrultusunda hareket ederler."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.8 iki cümledir ve ikisi birlikte sorulur: kamu görevlileri çalıştıkları kurum veya kuruluşun AMAÇLARINA VE MİSYONUNA uygun davranırlar; ÜLKENİN ÇIKARLARI, TOPLUMUN REFAHI VE KURUMLARININ HİZMET İDEALLERİ doğrultusunda hareket ederler. Ölçüt kişisel ya da amirin takdiri değil, kurumun tanımlı amacı ve kamu yararıdır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "8"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"amac-ve-misyona-baglilik",
+			"etik-ilkeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-ilke-025",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'nin “hizmet standartlarına uyma” ilkesi kimleri ve hangi yükümlülüğü kapsar?",
+		"options": [
+			"Kamu kurum ve kuruluşlarının yöneticileri ile diğer personelini kapsar; hizmetleri belirlenen standart ve süreçlere uygun yürütmeyi ve hizmetten yararlananları süreç boyunca aydınlatmayı gerektirir.",
+			"Yalnızca vatandaşla doğrudan temas eden personeli kapsar.",
+			"Yalnızca hizmet standartlarının belirlenmesini kapsar; hizmetten yararlananların bilgilendirilmesi bu ilkenin dışındadır.",
+			"Yalnızca elektronik ortamda sunulan hizmetleri kapsar.",
+			"Yalnızca yöneticileri kapsar; diğer personel bakımından bir yükümlülük öngörmez."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.7 muhatabını geniş tutar: KAMU KURUM VE KURULUŞLARININ YÖNETİCİLERİ VE DİĞER PERSONELİ, kamu hizmetlerini belirlenen STANDARTLARA VE SÜREÇLERE uygun şekilde yürütürler. Maddenin ikinci yükümlülüğü aydınlatmadır: hizmetten yararlananlara iş ve işlemlerle ilgili gerekli açıklayıcı bilgileri vererek onları HİZMET SÜRECİ BOYUNCA aydınlatırlar.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hizmet-standartlari",
+			"aydinlatma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-ilke-026",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "orta",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'nin “bilgi verme, saydamlık ve katılımcılık” ilkesine göre üst yöneticilerin yükümlülüğü aşağıdakilerden hangisidir?",
+		"options": [
+			"Yalnızca yıllık bütçeyi kamuoyuna açıklamak",
+			"İlgili kanunların izin verdiği çerçevede kurumlarının ihale süreçlerini, faaliyet ve denetim raporlarını uygun araçlarla kamuoyunun bilgisine sunmak",
+			"Bilgi edinme başvurularını bizzat cevaplandırmak",
+			"Kurumun tüm yazışmalarını internet sitesinde yayımlamak",
+			"Kurum içi düzenlemeleri Resmî Gazete'de yayımlatmak"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.19 üç yükümlülük içerir: kamu görevlileri halkın bilgi edinme hakkını kullanmasına yardımcı olur ve istenen bilgi veya belgeleri 4982 sayılı Kanundaki istisnalar dışında usulüne uygun olarak verir; ÜST YÖNETİCİLER, ilgili kanunların izin verdiği çerçevede kurumlarının İHALE SÜREÇLERİNİ, FAALİYET VE DENETİM RAPORLARINI uygun araçlarla kamuoyunun bilgisine sunar; katılımcılık gereği, temel kararlardan doğrudan ya da dolaylı etkilenecek olanların karar süreçlerine katkıda bulunmasını sağlamaya dikkat edilir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "19"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"saydamlik",
+			"katilimcilik",
+			"ihale-surecleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-ilke-027",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "uzman",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'nin “personeli bilgilendirme” maddesine göre, kamu kurum ve kuruluşlarında istihdam edilen personelin etik davranış ilkeleri hakkında bilgilendirilmesi nasıl nitelendirilmiştir?",
+		"options": [
+			"Yalnızca yeni göreve başlayan personel için öngörülmüş bir tanıtım faaliyetidir.",
+			"Yalnızca Kamu Görevlileri Etik Kurulunun düzenlediği eğitimlerle yerine getirilebilir.",
+			"İstihdama ilişkin koşulların bir parçası olarak, her düzeydeki personel bu ilkeler ve ilgili sorumlulukları hakkında bilgilendirilir.",
+			"Yalnızca yönetici konumundaki personel için zorunludur.",
+			"Kurumların takdirine bırakılmış, isteğe bağlı bir eğitim faaliyetidir."
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.24: kamu kurum ve kuruluşlarında istihdam edilen HER DÜZEYDEKİ PERSONEL, İSTİHDAMA İLİŞKİN KOŞULLARIN BİR PARÇASI OLARAK etik davranış ilkeleri ve bu ilkelere ilişkin sorumlulukları hakkında bilgilendirilir. İfade bilinçlidir: bilgilendirme isteğe bağlı bir eğitim değil, istihdamın koşullarından biridir. Bunu tamamlayan m.23'e göre de etik davranış ilkeleri, kamu görevlilerinin istihdamını düzenleyen mevzuat hükümlerinin bir parçasını oluşturur.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "24"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"personeli-bilgilendirme",
+			"istihdam-kosullari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-ilke-029",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre yönetici kamu görevlilerinin, yetkisi içindeki personelin yolsuzluk yapmasını önlemek için alacağı tedbirler arasında aşağıdakilerden hangisi SAYILMAMIŞTIR?",
+		"options": [
+			"Yasal ve idari düzenlemeleri uygulamak",
+			"Eğitim ve bilgilendirme konusunda uygun çalışmalar yapmak",
+			"Personelin banka hesap hareketlerini düzenli olarak inceletmek",
+			"Personelin karşı karşıya kaldığı malî ve diğer zorluklar konusunda dikkatli davranmak",
+			"Kişisel davranışlarıyla personeline örnek olmak"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.20'ye göre yönetici kamu görevlilerinin yolsuzluğu önleme tedbirleri dört başlıktır: yasal ve idari düzenlemeleri UYGULAMAK, EĞİTİM VE BİLGİLENDİRME konusunda uygun çalışmalar yapmak, personelin karşı karşıya kaldığı MALÎ VE DİĞER ZORLUKLAR konusunda dikkatli davranmak ve KİŞİSEL DAVRANIŞLARIYLA ÖRNEK OLMAK. Aynı madde yöneticiye personelin GELİRİYLE BAĞDAŞMAYAN YAŞANTISINI İZLEME yükümlülüğü verir; ancak banka hesaplarını inceletme gibi bir yetki öngörmez.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hesap-verebilirlik",
+			"yolsuzlugun-onlenmesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-ilke-030",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "orta",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre kurum ve kuruluşların yetkili sicil amirleri, personelin sicil ve performansını hangi açıdan da değerlendirir?",
+		"options": [
+			"Yalnızca hizmet içi eğitimlere katılım açısından",
+			"Yalnızca disiplin cezası alıp almadığı açısından",
+			"Yönetmelikte düzenlenen etik davranış ilkelerine uygunluk açısından",
+			"Yalnızca mal bildirimini zamanında verip vermediği açısından",
+			"Yalnızca amirlerine karşı tutumu açısından"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.23'ün son fıkrası: kurum ve kuruluşların yetkili sicil amirleri, personelin sicil ve performansını, bu Yönetmelikte düzenlenen ETİK DAVRANIŞ İLKELERİNE UYGUNLUK AÇISINDAN DA değerlendirirler. Aynı madde etik davranış ilkelerinin kamu görevlilerinin istihdamını düzenleyen mevzuatın bir parçasını oluşturduğunu belirtir ve kapsamdaki görevlilere BİR AY içinde Etik Sözleşme belgesini imzalama yükümlülüğü getirir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "23"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"etik-sozlesme",
+			"sicil-degerlendirmesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-ilke-028",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'nin “dürüstlük ve tarafsızlık” maddesinin üçüncü fıkrasına göre kamu görevlileri için aşağıdakilerden hangisi YASAKLANMAMIŞTIR?",
+		"options": [
+			"Kamu makamlarının mevzuata uygun politikalarını, kararlarını ve eylemlerini engellemek",
+			"Eşitlik ilkesine aykırı uygulama yapmak",
+			"Herhangi bir siyasi parti, kişi veya zümrenin yararını veya zararını hedef alan bir davranışta bulunmak",
+			"Gerçek veya tüzel kişilere öncelikli, ayrıcalıklı ve taraflı muamele yapmak",
+			"Kamu makamlarının mevzuata uygun politika ve kararlarını, gerekçelerini belirterek eleştirmek"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.9'un üçüncü fıkrası üç yasak getirir: gerçek veya tüzel kişilere ÖNCELİKLİ, AYRICALIKLI, TARAFLI VE EŞİTLİK İLKESİNE AYKIRI muamele ve uygulama yapmak; herhangi bir SİYASİ PARTİ, KİŞİ VEYA ZÜMRENİN yararını veya zararını hedef alan davranışta bulunmak; kamu makamlarının mevzuata uygun politikalarını, kararlarını ve eylemlerini ENGELLEMEK. Yasaklanan fiil ENGELLEMEDİR — maddede politika ve kararların eleştirilmesine ilişkin bir yasak yoktur. Maddenin birinci fıkrası ayrıca görevin yerine getirilmesinde ve hizmetlerden yararlandırmada dil, din, felsefi inanç, siyasi düşünce, ırk, cinsiyet ve benzeri sebeplerle ayrım yapmayı yasaklar.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"durustluk-ve-tarafsizlik",
+			"esitlik",
+			"kamu-politikalari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

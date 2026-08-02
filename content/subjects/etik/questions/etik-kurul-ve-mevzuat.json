@@ -817,5 +817,171 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "etik-kurul-026",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "kolay",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik'e göre Kurul, kurum ve kuruluşların etik davranış ilkeleri konusunda uygulamada karşılaştıkları sorunlara yönelik olarak ne yapmaya yetkilidir?",
+		"options": [
+			"İlgili kurum yöneticisini görevden almaya",
+			"Görüş bildirmeye",
+			"Kurumun işlemini iptal etmeye",
+			"Kurumun bütçesinden kesinti yapmaya",
+			"Doğrudan disiplin cezası vermeye"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.30: “Kurul, kurum ve kuruluşların, etik davranış ilkeleri konusunda uygulamada karşılaştıkları sorunlara yönelik olarak GÖRÜŞ BİLDİRMEYE yetkilidir.” Kurulun yetkileri inceleme, araştırma, görüş bildirme ve etik kültürünü yerleştirme ile sınırlıdır; ceza verme ya da işlem iptali yetkisi yoktur — disiplin cezası verme yetkisi disiplin amirleri ve disiplin kurullarındadır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "30"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"etik-kurulu",
+			"gorus-bildirme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-kurul-027",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "orta",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre elektronik posta yoluyla yapılan başvurularda başvuru tarihi hangisidir?",
+		"options": [
+			"Başvurunun Kurul tarafından okunduğu tarih",
+			"Başvurunun gönderildiği tarih",
+			"Başvurunun Kurul gündemine alındığı tarih",
+			"Başvuruya ilişkin evrakın çıktısının alındığı tarih",
+			"Başvurunun Kurulun elektronik posta adresine ulaştığı tarih"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.34'e göre elektronik posta yolu ile yapılacak başvurularda BAŞVURUNUN KURULUN ELEKTRONİK POSTA ADRESİNE ULAŞTIĞI TARİH başvuru tarihidir. Aynı madde, gerçek kişilerin bu yolla yaptıkları başvurularda ad, soyad ve oturma yeri veya iş adresinin belirtileceğini; Türkiye'de oturan YABANCILARIN başvurularında ise ayrıca PASAPORT NUMARASI VE UYRUĞUNUN gösterileceğini düzenler.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "34"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"etik-kurulu",
+			"elektronik-basvuru"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-kurul-028",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'nin başvuru usulünü düzenleyen maddesi bakımından aşağıdakilerden hangisi YANLIŞTIR?",
+		"options": [
+			"Başvuru konusu aykırı davranış iddiası; kişi, zaman ve yer belirtilerek somut biçimde gösterilir.",
+			"Başvuru dilekçeleri posta yoluyla da Kurula gönderilebilir.",
+			"Başvurunun tutanağa geçirilmek koşuluyla sözlü yapılması durumunda başvuranın imzası ve adresi de tutanağa alınır.",
+			"Başvuru dilekçelerinin daktilo ile yazılmış veya bilgisayar çıktısı olması zorunludur.",
+			"Başvurunun Kurul kayıtlarına geçtiği tarih, başvuru tarihidir."
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.33 tam tersini söyler: “Başvuru dilekçelerinin daktilo ile yazılması veya bilgisayar çıktısı olması koşulu ARANMAZ. Dilekçelerin okunaklı ve anlaşılır olması yeterlidir.” Madde ayrıca iddianın kişi, zaman ve yer belirtilerek somut gösterilmesini ister; başvuru tarihini Kurul kayıtlarına geçiş tarihine bağlar ve posta ile sözlü başvuru yollarını düzenler.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "33"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"etik-kurulu",
+			"basvuru-usulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-kurul-029",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre Kurulun resen inceleme yetkisi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kurul, ancak yazılı bir başvuru üzerine inceleme yapabilir; resen inceleme yetkisi yoktur.",
+			"Resen inceleme yalnızca ilgili bakanın talebi üzerine başlatılabilir.",
+			"Resen inceleme yalnızca basında yer alan iddialar için mümkündür.",
+			"Resen incelemede rapor hazırlanmaz; konu doğrudan Kurul gündemine alınır.",
+			"Kurulun inceleme yetkisi içindeki bir kamu görevlisinin etik ilkelere aykırı davrandığının çeşitli yollarla öğrenilmesi üzerine Kurul resen inceleme yetkisini kullanabilir."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.36'ya göre Kurulun inceleme yetkisi içinde bulunan bir kamu görevlisinin etik ilkelere aykırı davrandığının ÇEŞİTLİ YOLLARLA ÖĞRENİLMESİ üzerine Kurul RESEN inceleme yetkisini kullanabilir. Usul de belirlidir: Kurul Başkanınca görevlendirilecek bir üyenin veya raportörün gözetiminde bilgiler toplanarak hazırlanan RAPOR Başkana sunulur; konu Kurulda görüşülür ve inceleme 35. maddedeki usule göre tamamlanır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"etik-kurulu",
+			"resen-inceleme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-kurul-030",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre, Kurulun görev alanı dışındaki kamu görevlileri hakkında disiplin kurullarınca verilen etik kararları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kararlar yalnızca hakkında başvuru yapılan kamu görevlisine bildirilir.",
+			"Kararlar, Kamu Görevlileri Etik Kurulunca onaylandıktan sonra kesinleşir.",
+			"Kararlar her hâlde Resmî Gazete'de yayımlanır.",
+			"Kararlar başvuru sahibine bildirilmez; yalnızca kuruma iletilir.",
+			"Kararlar ilgili kurum yetkilisine, hakkında başvuru yapılan kamu görevlisine ve başvuru sahibine bildirilir; ancak kamuoyuna duyurulmaz."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.38'e göre 5176 sayılı Kanun ve Yönetmelik kapsamında bulunan, ancak Kurulun görev alanı DIŞINDAKİ kamu görevlileri hakkındaki başvurular yetkili disiplin kurullarınca aynı etik davranış ilkeleri ve başvuru usulü çerçevesinde incelenir. Verilen kararlar İLGİLİ KURUM YETKİLİSİNE, HAKKINDA BAŞVURU YAPILAN KAMU GÖREVLİSİNE VE BAŞVURU SAHİBİNE bildirilir; maddenin son cümlesi açıktır: DİSİPLİN KURULLARININ KARARLARI KAMUOYUNA DUYURULMAZ.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "38"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"disiplin-kurullari",
+			"etik-inceleme",
+			"kamuoyuna-duyurma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]
