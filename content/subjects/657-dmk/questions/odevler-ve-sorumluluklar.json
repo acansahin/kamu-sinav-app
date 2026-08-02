@@ -1102,5 +1102,211 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-odev-034",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 6. maddesindeki Yemin Belgesi metninde aşağıdakilerden hangisi yer ALMAZ?",
+		"options": [
+			"Türk Milletinin millî, ahlaki, insani, manevi ve kültürel değerlerini benimseyip koruyacağıma",
+			"Türkiye Cumhuriyeti Anayasasına, Atatürk İnkılap ve İlkelerine sadakatla bağlı kalacağıma",
+			"Türkiye Cumhuriyeti kanunlarını milletin hizmetinde olarak tarafsız ve eşitlik ilkelerine bağlı kalarak uygulayacağıma",
+			"Amirlerin hukuka uygun tüm emirlerine kayıtsız şartsız uyacağıma",
+			"Anayasada ifadesi bulunan Türk Milliyetçiliğine sadakatla bağlı kalacağıma"
+		],
+		"correctIndex": 3,
+		"explanation": "657 m.6'daki Yemin Belgesi metni; Anayasaya, Atatürk İnkılap ve İlkelerine ve Anayasada ifadesi bulunan Türk Milliyetçiliğine sadakati, kanunların tarafsızlık ve eşitlik ilkelerine bağlı kalınarak uygulanmasını, Türk Milletinin millî, ahlaki, insani, manevi ve kültürel değerlerinin benimsenip korunmasını ve insan haklarına dayanan millî, demokratik, laik bir hukuk devleti olan Türkiye Cumhuriyetine karşı görev ve sorumlulukların bilinmesini içerir. AMİRLERİN EMİRLERİNE UYMA yemin metninde değil, memurun görev ve sorumluluklarını düzenleyen 11. maddede yer alır — üstelik orada da kayıtsız şartsız değildir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sadakat",
+			"yemin-belgesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-odev-035",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 7. maddesine göre Devlet memurları görevlerini yerine getirirken aşağıdakilerin hangisine dayanarak ayırım yapamaz?",
+		"options": [
+			"Dil, ırk, cinsiyet, siyasi düşünce, felsefi inanç, din ve mezhep",
+			"Yalnızca din ve mezhep",
+			"Yalnızca siyasi düşünce ve felsefi inanç",
+			"Yalnızca dil, ırk ve cinsiyet",
+			"Yalnızca ırk, din ve mezhep"
+		],
+		"correctIndex": 0,
+		"explanation": "657 m.7'nin birinci fıkrası tarafsızlık ödevini üç yasakla somutlaştırır: memurlar siyasi partiye üye olamazlar; herhangi bir siyasi parti, kişi veya zümrenin yararını veya zararını hedef tutan bir davranışta bulunamazlar; görevlerini yerine getirirken DİL, IRK, CİNSİYET, SİYASİ DÜŞÜNCE, FELSEFİ İNANÇ, DİN VE MEZHEP gibi ayırım yapamazlar. Fıkra ayrıca hiçbir şekilde siyasi ve ideolojik amaçlı beyanda ve eylemde bulunmayı ve bu eylemlere katılmayı da yasaklar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tarafsizlik",
+			"ayirim-yasagi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-odev-036",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "zor",
+		"stem": "Bir memur, görevi sırasında belirli bir derneğin üyelerine öncelik tanıyarak işlemlerini hızlandırmış, diğer başvuru sahiplerini bekletmiştir. 657 sayılı Kanun'un 7. maddesi bakımından bu davranış için aşağıdakilerden hangisi söylenebilir?",
+		"options": [
+			"Davranış mesai saatleri içinde gerçekleştiği için maddeye aykırı değildir.",
+			"Davranış yalnızca siyasi partiler bakımından yasaklandığından dernek üyelerine öncelik tanınması maddeye aykırı değildir.",
+			"Davranış, ancak memur bu dernekten menfaat sağlamışsa maddeye aykırı olur.",
+			"Memurlar herhangi bir siyasi parti, kişi veya zümrenin yararını veya zararını hedef tutan bir davranışta bulunamayacağından davranış maddeye aykırıdır.",
+			"Davranış yalnızca disiplin hükümlerini ilgilendirir; 7. maddeyle ilgisi yoktur."
+		],
+		"correctIndex": 3,
+		"explanation": "657 m.7'nin yasağı siyasi partilerle sınırlı değildir: memurlar herhangi bir SİYASİ PARTİ, KİŞİ VEYA ZÜMRENİN yararını veya zararını hedef tutan bir davranışta bulunamazlar. Belirli bir gruba öncelik tanımak, o zümrenin yararını hedef tutan bir davranıştır ve menfaat sağlanmış olması aranmaz. Aynı davranış, memurun görevini yerine getirirken ayırım yapma yasağını da ihlal eder.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tarafsizlik",
+			"zumre-yarari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-odev-037",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 10. maddesine göre amir durumunda olan Devlet memurlarının maiyetindeki memurlara karşı davranışı ve amirlik yetkisini kullanması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Amirin hal ve hareketleri takip ve kontrol etme yetkisi yalnızca mesai saatleriyle sınırlıdır.",
+			"Amir, hizmetin gereklerini kendisi takdir ederek amirlik yetkisini mevzuatla bağlı olmaksızın kullanabilir.",
+			"Amirin maiyetindeki memurlara eşit davranma yükümlülüğü yalnızca disiplin işlerinde geçerlidir.",
+			"Amir, maiyetindeki memurlara hakkaniyet ve eşitlik içinde davranır ve amirlik yetkisini kanun ve diğer mevzuatta belirtilen esaslar içinde kullanır.",
+			"Amir, maiyetindeki memurları yetiştirmekle görevli değildir; bu görev insan kaynakları birimine aittir."
+		],
+		"correctIndex": 3,
+		"explanation": "657 m.10'un ikinci fıkrası iki ödev koyar: amir, maiyetindeki memurlara HAKKANİYET VE EŞİTLİK İÇİNDE davranır ve AMİRLİK YETKİSİNİ KANUN VE DİĞER MEVZUATTA BELİRTİLEN ESASLAR İÇİNDE kullanır. Maddenin birinci fıkrası ayrıca amiri, mevzuatla belirlenen görevleri zamanında ve eksiksiz yapmak ve yaptırmaktan, MAİYETİNDEKİ MEMURLARI YETİŞTİRMEKTEN, hâl ve hareketlerini takip ve kontrol etmekten sorumlu tutar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"amir",
+			"hakkaniyet",
+			"amirlik-yetkisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-odev-038",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 10. maddesine göre amir, maiyetindeki memurlara hangi nitelikteki emri veremez?",
+		"options": [
+			"Yalnızca konusu suç teşkil eden emir",
+			"Yalnızca memurun görev tanımı dışında kalan emir",
+			"Kanunlara ve Cumhurbaşkanlığı kararnamelerine aykırı emir",
+			"Yalnızca yazılı olarak verilmeyen emir",
+			"Yalnızca mesai saatleri dışında yerine getirilecek emir"
+		],
+		"correctIndex": 2,
+		"explanation": "657 m.10'un üçüncü fıkrası amire dört ayrı yasak getirir: maiyetindeki memurlara KANUNLARA VE CUMHURBAŞKANLIĞI KARARNAMELERİNE AYKIRI EMİR VEREMEZ, maiyetindeki memurdan hususi bir menfaat temin edecek talepte bulunamaz, hediyesini kabul edemez ve borç alamaz. Yasak konusu suç teşkil eden emirle sınırlı değildir; mevzuata aykırı her emir bu kapsamdadır. Böyle bir emirle karşılaşan memurun izleyeceği usul ise 11. maddede düzenlenmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"amir",
+			"aykiri-emir"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-odev-039",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "uzman",
+		"stem": "657 sayılı Kanun'un 11. maddesindeki kanunsuz emir usulü bakımından, acele hâllerde kamu düzeninin ve kamu güvenliğinin korunması için öngörülen istisnalar hakkında aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu istisnalar kurumların özel yönetmelikleriyle belirlenir.",
+			"Bu istisnalar saklı tutulmuştur ve ancak kanunla gösterilebilir.",
+			"Bu istisnalar Cumhurbaşkanlığı kararnamesiyle gösterilir.",
+			"Bu istisnalar amirin takdiriyle belirlenir.",
+			"Böyle bir istisna öngörülmemiştir; usul her hâlde aynen işler."
+		],
+		"correctIndex": 1,
+		"explanation": "657 m.11, mevzuata aykırı gördüğü emri yerine getirmeme, aykırılığı emri verene bildirme, amirin yazılı ısrarı hâlinde emri yerine getirme ve sorumluluğun emri verene ait olması zincirini kurduktan sonra son fıkrasında şu kaydı düşer: “Ancak, ACELE HALLERDE KAMU DÜZENİNİN VE KAMU GÜVENLİĞİNİN KORUNMASI İÇİN KANUNLA GÖSTERİLEN İSTİSNALAR SAKLIDIR.” İstisnanın kaynağı yalnızca KANUNDUR; amirin takdiri, kararname veya yönetmelik bu usulü değiştiremez. Konusu suç teşkil eden emir ise hiçbir hâlde yerine getirilmez.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kanunsuz-emir",
+			"istisna",
+			"kamu-duzeni"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

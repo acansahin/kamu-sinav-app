@@ -1477,5 +1477,211 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-genel-046",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 222. maddesine göre kurumlarca yurt içinde veya yurt dışında okutulacak öğrenciler nasıl seçilir?",
+		"options": [
+			"Öğrenim başarı sırasına göre kura ile",
+			"Yarışma sınavı ile",
+			"İlgili bakanlığın belirleyeceği kontenjana göre doğrudan atama ile",
+			"Mülakat sonucuna göre",
+			"Kurum amirinin takdiriyle"
+		],
+		"correctIndex": 1,
+		"explanation": "657 m.222 tek cümledir: “Kurumlarca yurt içinde veya yurt dışında okutulacak öğrenciler YARIŞMA SINAVI ile seçilirler.” Kanun'un 221. maddesi kurumlara Devlet memurluğuna eleman yetiştirmek üzere okul ve kurs açma ile öğrenci okutma imkânı tanır; 222. madde bu imkânın seçme usulünü liyakat esasına bağlar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "222"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ogrenci-okutma",
+			"yarisma-sinavi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-genel-047",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 216. maddesine göre kurumlararası eğitim ihtiyaçlarını karşılamak üzere kurumlararası eğitim merkezleri neyle açılabilir?",
+		"options": [
+			"Millî Eğitim Bakanlığının onayıyla",
+			"Türkiye Büyük Millet Meclisi kararıyla",
+			"Cumhurbaşkanı kararıyla",
+			"Kurumların kendi yönetmelikleriyle",
+			"İlgili kurumların protokolüyle"
+		],
+		"correctIndex": 2,
+		"explanation": "657 m.216'nın birinci fıkrası iki ayrı imkân tanır: kurumlar KENDİ eğitim ihtiyaçlarını karşılamak üzere eğitim merkezleri açabilirler; KURUMLARARASI eğitim ihtiyaçlarını karşılamak üzere ise CUMHURBAŞKANI KARARIYLA kurumlararası eğitim merkezleri açılabilir. Kanun'un 214. maddesi hizmet içi eğitimi, 215. maddesi ise kurumlarda eğitim birimi kurulmasını düzenler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "216"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hizmet-ici-egitim",
+			"egitim-merkezleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-genel-048",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 223. maddesine göre, öğrenimi sırasında Devlet hesabına okuma hakkını kaybeden veya öğrenim kurumunu terk edenler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Masraflar tahsil edilmez; yalnızca mecburi hizmet yükümlülüğü doğar.",
+			"Kurumlarınca yapılmış masraflar kendilerinden faiziyle birlikte tahsil olunur; özel kanun ve yüklenme senedi hükümleri saklıdır.",
+			"Masraflar yalnızca öğrenim kurumunu kendi isteğiyle terk edenlerden tahsil olunur.",
+			"Kurumlarınca yapılmış masraflar faizsiz olarak tahsil olunur.",
+			"Masrafların tahsili için ayrıca yüklenme senedi düzenlenmiş olması şarttır."
+		],
+		"correctIndex": 1,
+		"explanation": "657 m.223'ün son fıkrası: öğrenimi sırasında Devlet hesabına okuma hakkını kaybeden veya öğrenim kurumunu terk edenler için kurumlarınca yapılmış masraflar KENDİLERİNDEN FAİZİ İLE BİRLİKTE tahsil olunur; ÖZEL KANUN VE YÜKLENME SENEDİ HÜKÜMLERİ SAKLIDIR. Yani tahsil yükümlülüğü Kanun'dan doğar, yüklenme senedinin varlığına bağlı değildir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "223"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"devlet-hesabina-okuma",
+			"masraflarin-tahsili"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-genel-049",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 167. maddesine göre derece yükselmesinde veya daha aşağı bir dereceye atamada memur, yeni derecesinin kademe aylığını ne zamandan itibaren alır?",
+		"options": [
+			"Atama emrinin kendisine tebliğ edildiği tarihi takip eden gün başından itibaren",
+			"Atama onayının verildiği tarihten itibaren",
+			"Terfi ettiği yılın ocak ayı başından itibaren",
+			"Görevine başladığı tarihten itibaren",
+			"Yükseldiği veya atandığı derecenin görevine başladığı tarihi takip eden aybaşından itibaren"
+		],
+		"correctIndex": 4,
+		"explanation": "657 m.167'nin kuralı, derece değişikliğinde aylığa hak kazanmayı GÖREVE BAŞLAMA tarihini takip eden aybaşına bağlar: memur, yükseldiği veya atandığı derecenin görevine başladığı tarihi takip eden aybaşından itibaren bu derecenin 161. maddeye göre kazandığı kademe aylığını alır. 1982'de eklenen ikinci fıkra bir istisna getirir: yürütülmekte olan görevin niteliğinde bir değişme olmaması hâlinde, derece yükselmesine ilişkin ONAYIN GEÇERLİLİK TARİHİNİ takip eden ay başı esas alınır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "167"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"derece-degisikligi",
+			"aylik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-genel-050",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "uzman",
+		"stem": "Kazanılmış hak aylık derecesinden daha aşağı bir dereceye atanan bir memurun atandığı derecede, eski derecesinde almakta olduğu kademe göstergesine eşit bir gösterge bulunmamaktadır. 657 sayılı Kanun'un 161. maddesine göre bu memur hangi aylığı alır?",
+		"options": [
+			"Eski göstergesine en yakın kademenin göstergesine tekabül eden aylığı alır; kazanılmış hak aylık dereceleri saklı kalır.",
+			"Atandığı derecenin son kademe göstergesine tekabül eden aylığı alır.",
+			"Atandığı derecenin ilk kademe göstergesine tekabül eden aylığı alır.",
+			"Aylığı, iki gösterge arasındaki farkın ortalaması alınarak belirlenir.",
+			"Eski derecesinin aylığını almaya devam eder; yeni derecenin göstergesi hiç uygulanmaz."
+		],
+		"correctIndex": 0,
+		"explanation": "657 m.161'in (B) bendi, kazanılmış hak aylık derecesinden daha aşağı bir dereceye atanan memur için iki basamaklı bir kural koyar: (a) atandığı derecede ESKİ DERECESİNDE ALMAKTA OLDUĞU KADEME GÖSTERGESİNE, (b) atandığı derecede eşit gösterge yoksa ESKİ GÖSTERGESİNE EN YAKIN kademenin göstergesine tekabül eden aylığı alır. Her iki hâlde de KAZANILMIŞ HAK AYLIK DERECELERİ SAKLI kalır. Yukarı derecelere atanmada ise (A) bendi uygulanır ve alt derecede eşit göstergeli kademede geçirilen süre dikkate alınır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "161"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"derece-yukselmesi",
+			"gosterge",
+			"kazanilmis-hak"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-genel-051",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"difficulty": "uzman",
+		"stem": "657 sayılı Kanun'un 232. maddesine göre, Türk Silahlı Kuvvetlerinde çalışan sivil memurlar hakkında Kanun'un aşağıdaki hükümlerinden hangisi UYGULANIR?",
+		"options": [
+			"Fazla çalışma ücretini düzenleyen 178. madde",
+			"Günlük çalışma saatlerinin tespitini düzenleyen 100. madde",
+			"Çalışma saatlerini düzenleyen 99. madde",
+			"Disiplin cezası vermeye yetkili amir ve kurulları düzenleyen 126. madde",
+			"Görevden uzaklaştırmaya yetkilileri sayan 138. madde"
+		],
+		"correctIndex": 3,
+		"explanation": "657 m.232, Türk Silahlı Kuvvetlerinde çalışan sivil memurlar, sözleşmeli ve geçici personel ile işçiler hakkında UYGULANMAYACAK maddeleri tek tek sayar: çalışma saatleri hakkındaki 99., günlük çalışma saatlerinin tespiti hakkındaki 100., günün 24 saatinde devamlılık gösteren hizmette çalışma saat ve usulünün tespiti hakkındaki 101., fazla çalışma ücreti hakkındaki 178. ve görevden uzaklaştırmaya yetkilileri sayan 138. maddeler. Listede yer almayan 126. madde ise uygulanmaya devam eder.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "232"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"turk-silahli-kuvvetleri",
+			"sivil-memur",
+			"istisna"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

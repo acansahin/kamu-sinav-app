@@ -2181,5 +2181,177 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-hak-066",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 177. maddesine göre, bir görevin ifası için sürekli veya geçici olarak görev yerinden ayrılan Devlet memurlarının yol giderleri ve gündelikleri neye göre ödenir?",
+		"options": [
+			"Toplu sözleşmede belirlenen tutarlara göre",
+			"657 sayılı Kanun'da gösterilen gösterge rakamlarına göre",
+			"Kurumların kendi yönetmeliklerine göre",
+			"Cumhurbaşkanlığı kararnamesiyle belirlenen tarifeye göre",
+			"Yolluklar hakkındaki özel kanun hükümlerine göre"
+		],
+		"correctIndex": 4,
+		"explanation": "657 m.177, yolluk konusunu kendi içinde düzenlemez; atıf yapar: Devlet memurlarından bir görevin ifası için sürekli veya geçici olarak görev yerinden ayrılanların yol giderleri ve gündelikleri, YOLLUKLAR HAKKINDAKİ ÖZEL KANUN hükümlerine göre ödenir (6245 sayılı Harcırah Kanunu). Sözleşmeli olarak çalıştırılanların yol masrafları ile gündelikleri ise sözleşmelerindeki hükümlere tabidir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "177"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yolluk",
+			"gundelik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-hak-067",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 187. maddesine göre, Devlet memurlarının emeklilik ve malûllük hâllerinde kendilerinin, ölümleri hâlinde dul ve yetimlerinin sahip bulundukları haklar neyle düzenlenir?",
+		"options": [
+			"Emeklilik kanunlarıyla",
+			"Kurumların çıkaracağı yönetmeliklerle",
+			"657 sayılı Kanun'un kendi hükümleriyle",
+			"Toplu sözleşmeyle",
+			"Cumhurbaşkanlığı kararnamesiyle"
+		],
+		"correctIndex": 0,
+		"explanation": "657 m.187, “Sosyal Haklar ve Yardımlar” kısmının ilk maddesidir ve emeklilik rejimini kendi dışına havale eder: Devlet memurlarının emeklilik ve malûllük hâllerinde kendilerinin, ölümleri hâlinde dul ve yetimlerinin sahip bulundukları haklar EMEKLİLİK KANUNLARIYLA düzenlenir. Bu yüzden emeklilik soruları 657'de değil, 5434 ve 5510 sayılı kanunlarda karşılık bulur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "187"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"emeklilik",
+			"sosyal-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-hak-068",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 192. maddesine göre, istekleri üzerine Toplu Konut Fonundan özel şartlarla ve öncelikle konut kredisi verilebilecek Devlet memurları için aranan hizmet süresi aşağıdakilerden hangisidir?",
+		"options": [
+			"On beş yıl ve daha fazla",
+			"Üç yıl ve daha fazla",
+			"Yirmi yıl ve daha fazla",
+			"On yıl ve daha fazla",
+			"Beş yıl ve daha fazla"
+		],
+		"correctIndex": 3,
+		"explanation": "657 m.192'ye göre Devlet memurlarından T.C. Emekli Sandığına tabi hizmeti ON YIL VE DAHA FAZLA olanlara, istekleri üzerine Toplu Konut Fonundan özel şartlarla ve öncelikle konut kredisi verilebilir. Krediden yararlanma şartları, borcun tahsili ve her yıl ödenecek toplam kredi tutarı gibi hususlar yönetmelikle düzenlenir. Hüküm bir hak değil, imkân öngörür — madde “verilebilir” demektedir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "192"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"konut-kredisi",
+			"sosyal-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-hak-069",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un Ek 43. maddesine göre yarım zamanlı çalışma hakkı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Doğum yapan memur, doğum sonrası analık izninin bitiminden çocuğun mecburi ilköğretim çağının başladığı tarihi takip eden ay başına kadarki dönemde, ayrıca süt izni verilmeksizin haftalık çalışma saatlerinin normal çalışma süresinin yarısı olarak düzenlenmesini talep edebilir.",
+			"Hak yalnızca doğum yapan memura tanınmıştır; eşi doğum yapan memur bu haktan yararlanamaz.",
+			"Evlat edinen memurlar bu haktan hiçbir şekilde yararlanamaz.",
+			"Hak, çocuk üç yaşını dolduruncaya kadar kullanılabilir.",
+			"Yarım zamanlı çalışan memura ayrıca süt izni de verilir."
+		],
+		"correctIndex": 0,
+		"explanation": "657 Ek m.43 (2016'da 6663 sayılı Kanunla eklendi) üç noktada sınav sorusu üretir: (1) hak DOĞUM YAPAN memura analık izninin veya 104/F izninin bitiminden, EŞİ DOĞUM YAPAN memura ise babalık izninin bitiminden başlar; (2) süre çocuğun MECBURİ İLKÖĞRETİM ÇAĞININ başladığı tarihi takip eden ay başına kadardır; (3) bu dönemde AYRICA SÜT İZNİ VERİLMEZ. Bir çocuğu eşiyle birlikte veya münferit olarak evlat edinen memurlar da istekleri üzerine bu hükümlerden yararlanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "Ek 43"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yarim-zamanli-calisma",
+			"dogum",
+			"sut-izni"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-hak-070",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "uzman",
+		"stem": "Yarım zamanlı çalışmaya başlayan bir memurun malî hakları ile derece ve kademe süreleri, 657 sayılı Kanun'un Ek 43. maddesine göre nasıl hesaplanır?",
+		"options": [
+			"Bu dönemde hiçbir ödeme yapılmaz ve süre hizmetten sayılmaz.",
+			"Malî hakları tam ödenir, ancak hizmet süreleri yarım sayılır.",
+			"Malî hakları yarım ödenir, ancak hizmet süreleri tam sayılır.",
+			"Malî hakları ile sosyal yardımlarına ilişkin her bir ödeme unsurunun yarısı esas alınarak ödeme yapılır ve derece yükselmesi ile kademe ilerlemesi için aranan sürelerde bu dönemdeki hizmet süreleri yarım olarak dikkate alınır.",
+			"Hem malî hakları hem hizmet süreleri tam olarak dikkate alınır."
+		],
+		"correctIndex": 3,
+		"explanation": "657 Ek m.43'e göre yarım zamanlı çalışmaya başlayan memura, bu çalışmaya başladığı tarihi izleyen ay başından itibaren malî haklar ile sosyal yardımlara ilişkin HER BİR ÖDEME UNSURUNUN YARISI esas alınarak ödeme yapılır; fiilî çalışmaya bağlı ödemelerde ise ilgili mevzuat hükümleri uygulanmaya devam eder. Derece yükselmesi ile kademe ilerlemesi için aranan süreler bakımından bu şekilde çalışılan dönemdeki HİZMET SÜRELERİ YARIM olarak dikkate alınır. Memur, aynı çocuk için bir daha yararlanmamak kaydıyla normal zamanlı çalışmaya dönebilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "Ek 43"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yarim-zamanli-calisma",
+			"mali-haklar",
+			"hizmet-suresi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

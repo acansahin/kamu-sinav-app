@@ -1802,5 +1802,212 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-atama-055",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 80. maddesine göre, şahsen özel burs sağlayanlar dışında her yıl yurt dışına gönderilebilecek Devlet memurlarının kurumlar itibarıyla sayıları nasıl belirlenir?",
+		"options": [
+			"Her kurumun kendi yönetmeliğiyle",
+			"Cumhurbaşkanlığı kararnamesiyle",
+			"Cumhurbaşkanı kararı ile",
+			"İlgili bakanın onayıyla",
+			"Türkiye Büyük Millet Meclisi kararıyla"
+		],
+		"correctIndex": 2,
+		"explanation": "657 m.80'in birinci fıkrasına göre, şahsen özel burs sağlayan ve bu burstan istifade etmesi için kendilerine maaşsız izin verilenler dışında, her yıl yurt dışına gönderilebilecek Devlet memurlarının kurumlar itibarıyla sayıları CUMHURBAŞKANI KARARI ile belirlenir. Aynı madde, 78 ve 79. maddelerde yazılı olanların ayırma ve seçilme usul ve şartlarının bir yönetmelikle düzenleneceğini de öngörür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "80"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurt-disina-gonderilme",
+			"cumhurbaskani-karari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-atama-056",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 159. maddesine göre, adaylık süresi sonunda asıl memurluğa atananların adaylıkta geçirdikleri süreler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca kademe ilerlemelerinde değerlendirilir, derece yükselmesinde dikkate alınmaz.",
+			"Hiçbir şekilde değerlendirilmez; süre asaletin onayıyla başlar.",
+			"Emeklilik hizmetinde değerlendirilir, ancak kademe ve derecede dikkate alınmaz.",
+			"Kademe ilerlemelerinde ve derece yükselmelerinde değerlendirilir.",
+			"Yalnızca derece yükselmelerinde değerlendirilir."
+		],
+		"correctIndex": 3,
+		"explanation": "657 m.159: adaylık süresi sonunda Kanun hükümlerine göre asıl memurluğa atananların adaylıkta geçirdikleri süreler, KADEME İLERLEMELERİNDE VE DERECE YÜKSELMELERİNDE DEĞERLENDİRİLİR. Bu hüküm, adaylara asaletleri tasdik edilinceye kadar kademe ilerlemesi uygulanmayacağını söyleyen 158. maddeyi tamamlar: adaylıkta geçen süre o dönemde ilerleme doğurmaz, ancak asalet onaylandığında geriye dönük olarak sayılır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "159"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"adaylik",
+			"kademe-ilerlemesi",
+			"derece-yukselmesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-atama-057",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un Ek 39. maddesine göre, hayatını başkasının yardım veya bakımı olmadan devam ettiremeyecek derecede engelli olduğu sağlık kurulu raporuyla tespit edilen yakınının memuriyet mahalli dışında eğitim görecek olması hâlinde memura tanınan hak nedir?",
+		"options": [
+			"Kurum, memura yol ve barınma gideri öder; görev yeri değişmez.",
+			"Memura yalnızca eğitim süresince günde iki saat izin verilir.",
+			"İlgilinin talebi üzerine, eğitim ve öğretim kuruluşunun bulunduğu il veya ilçe sınırları dâhilinde kurumunda bulunan durumuna uygun boş bir kadroya ataması yapılır.",
+			"Memur talep ederse emekliye ayrılabilir.",
+			"Eğitim süresince ücretsiz izin verilir; atama yapılmaz."
+		],
+		"correctIndex": 2,
+		"explanation": "657 Ek m.39, engelli yakını bulunan memura yer değiştirme hakkı tanır. Şartlar birlikte aranır: (1) EŞİ, ÇOCUKLARI VEYA KARDEŞLERİNDEN birinin hayatını başkasının yardım veya bakımı olmadan devam ettiremeyecek derecede engelli olduğunun SAĞLIK KURULU RAPORUYLA tespiti, (2) bu kişinin memuriyet mahalli dışında resmî veya özel bir eğitim-öğretim kuruluşunda öğrenim göreceğinin ÖZEL EĞİTİM DEĞERLENDİRME KURULUNCA belgelendirilmesi. Bu hâlde memurun talebi üzerine, kuruluşun bulunduğu il veya ilçe sınırları içinde kurumunda bulunan durumuna uygun boş bir kadroya ataması yapılır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "Ek 39"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"engelli-yakini",
+			"atama",
+			"egitim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-atama-058",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 171. maddesine göre, hesaplarını görevi devralanlara devir zorunluluğu bulunan saymanlar ile sayman mutemetlerinin devir süreleri sırasıyla aşağıdakilerden hangisidir?",
+		"options": [
+			"Yedi gün – iki gün",
+			"Bir ay – on beş gün",
+			"Beş gün – üç gün",
+			"On gün – beş gün",
+			"On beş gün – yedi gün"
+		],
+		"correctIndex": 0,
+		"explanation": "657 m.171: hesaplarını görevi devralanlara devir zorunluluğu bulunan SAYMANLARIN devir süresi YEDİ GÜN, SAYMAN MUTEMETLERİ için devir süresi İKİ GÜNDÜR. Devir teslim süresinin aylık ödeme zamanına rastlaması hâlinde o aya ait aylıklar eski görev yerinde, kadro tasarrufundan ödenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "171"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sayman",
+			"devir-suresi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-atama-059",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "uzman",
+		"stem": "Başka bir ildeki göreve nakledilen bir memur, 657 sayılı Kanun'un 62. maddesinde belirtilen süre içinde yeni görevinde işe başlamıştır. Kanun'un 169. maddesine göre bu memurun aylığı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Aylığı, işe başladığı tarihten itibaren yeni görev yerinde ödenir ve eski kurum ödediği aylıkları yeni kurumdan tahsil eder.",
+			"Aylığı, işe başladığı tarihi takip eden aybaşından itibaren yeni görev yerinde ödenir ve eski görev yerinde alınan aylıklar için kurumlar arasında hesaplaşma yapılmaz.",
+			"Aylığı, kurumlar arasında ay bazında paylaştırılarak ödenir.",
+			"Aylığı, atama emrinin tebliğ edildiği tarihten itibaren yeni görev yerinde ödenir.",
+			"Aylığı, yıl sonuna kadar eski görev yerinde ödenmeye devam eder."
+		],
+		"correctIndex": 1,
+		"explanation": "657 m.169'a göre başka yerlerdeki görevlere nakledilen ve 62. maddedeki süre içinde yeni görevinde işe başlayan memurlarla, yer değiştirme suretiyle başka kurumlara atanan memurların aylıkları, İŞE BAŞLADIKLARI TARİHİ TAKİP EDEN AYBAŞINDAN itibaren yeni görev yerinde ödenir. Madde ayrıca eski görev yerinde alınan aylıklar için KURUMLAR ARASINDA HERHANGİ BİR HESAPLAŞMA YAPILMAYACAĞINI açıkça belirtir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "169"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"naklen-atama",
+			"aylik-odemesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-atama-060",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"difficulty": "uzman",
+		"stem": "Yıllık iznini kullanmakta olan bir memurun asıl görev yeri, izni sürerken değiştirilmiştir. 657 sayılı Kanun'un 170. maddesine göre bu memurun aylığı iznin sonuna kadar nasıl ödenir?",
+		"options": [
+			"İzin süresince aylık ödenmez; izin dönüşü toplu olarak ödenir.",
+			"Aylığın yarısı eski, yarısı yeni görev yerinde ödenir.",
+			"İznin sona ermesine kadar eski görev yerinde, kadro tasarrufundan ödenir.",
+			"Memurun tercih ettiği görev yerinde ödenir.",
+			"Atama onayının tarihinden itibaren yeni görev yerinde ödenir."
+		],
+		"correctIndex": 2,
+		"explanation": "657 m.170: kanuni izinlerin kullanılması sırasında VEYA GEÇİCİ BİR GÖREVDE İKEN asıl görev yeri değiştirilen memurların aylıkları, izin veya geçici görevin SONA ERMESİNE KADAR ESKİ GÖREV YERLERİNDE, KADRO TASARRUFUNDAN ödenir. Aylığın yeni görev yerine geçmesi, 169. maddedeki kural uyarınca ancak memur yeni görevine fiilen başladıktan sonraki aybaşında gerçekleşir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "170"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gecici-gorev",
+			"izin",
+			"kadro-tasarrufu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

@@ -941,5 +941,73 @@
 		"version": 1,
 		"updatedAt": "2026-08-01",
 		"correctIndex": 4
+	},
+	{
+		"id": "657-sona-029",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 92. maddesine göre memurluktan kendi istekleriyle çekilenlerin veya çekilmiş sayılanların tekrar memurluğa dönebilmeleri bakımından getirilen sayı sınırı nedir?",
+		"options": [
+			"Üç defadan fazla olmamak üzere",
+			"Sayı sınırı yoktur",
+			"İki defadan fazla olmamak üzere",
+			"Dört defadan fazla olmamak üzere",
+			"Bir defadan fazla olmamak üzere"
+		],
+		"correctIndex": 2,
+		"explanation": "657 m.92'nin birinci fıkrası açıkça “İKİ DEFADAN FAZLA OLMAMAK ÜZERE” der: memurluktan kendi istekleriyle çekilenlerden veya Kanun hükümlerine göre çekilmiş sayılanlardan tekrar memurluğa dönmek isteyenler, ayrıldıkları sınıfta boş kadro bulunmak ve bu sınıfın niteliklerini taşımak şartıyla, ayrıldıkları tarihte almakta oldukları AYLIK DERECESİNE EŞİT BİR DERECENİN AYNI KADEMESİNE veya 71. madde hükümlerine uyulmak suretiyle diğer bir sınıfta eşit derecedeki kadrolara atanabilirler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "92"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yeniden-atanma",
+			"cekilme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-sona-030",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/memurlugun-sona-ermesi",
+		"difficulty": "zor",
+		"stem": "Bir memurun, memurluğa alınma şartlarından birini görevi sırasında kaybettiği tespit edilmiştir. 657 sayılı Kanun'un 98. maddesine göre bu durumun sonucu nedir?",
+		"options": [
+			"Memurluğu sona erer.",
+			"Görevden uzaklaştırılır; memurluğu ancak yargı kararıyla sona erer.",
+			"Aylıksız izinli sayılır ve durumu her yıl yeniden değerlendirilir.",
+			"Hakkında yalnızca disiplin soruşturması açılır; memurluğu devam eder.",
+			"Şartı yeniden kazanması için altı ay süre verilir."
+		],
+		"correctIndex": 0,
+		"explanation": "657 m.98, memurluğun sona erme hâllerini sayar: (a) Kanun hükümlerine göre memurluktan çıkarılma, (b) MEMURLUĞA ALINMA ŞARTLARINDAN HERHANGİ BİRİNİ TAŞIMADIĞININ SONRADAN ANLAŞILMASI VEYA MEMURLUKLARI SIRASINDA BU ŞARTLARDAN HERHANGİ BİRİNİ KAYBETMESİ, (c) memurluktan çekilme, (ç) istek, yaş haddi veya malûllük sebebiyle emekliye ayrılma, (d) ölüm. Şartın kaybı, ayrı bir disiplin cezasına gerek olmaksızın doğrudan memurluğu sona erdiren bir sebeptir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "98"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"memurlugun-sona-ermesi",
+			"atanma-sartlari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

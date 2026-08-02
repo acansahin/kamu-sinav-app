@@ -1266,5 +1266,73 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-genel-039",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 175. maddesine göre Anayasa değişikliği tekliflerinin Genel Kuruldaki görüşülmesi ve kabulü bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Teklifler Genel Kurulda iki defa görüşülür ve kabul, üye tamsayısının beşte üç çoğunluğunun gizli oyuyla mümkündür.",
+			"Teklifler komisyonda iki defa, Genel Kurulda bir defa görüşülür.",
+			"Teklifler Genel Kurulda iki defa görüşülür ve kabul, toplantıya katılanların salt çoğunluğunun açık oyuyla mümkündür.",
+			"Teklifler Genel Kurulda bir defa görüşülür ve açık oyla kabul edilir.",
+			"Teklifler Genel Kurulda üç defa görüşülür ve işaret oyuyla kabul edilir."
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa m.175/1: Anayasanın değiştirilmesi TBMM üye tamsayısının en az üçte biri tarafından yazıyla teklif edilebilir; teklifler Genel Kurulda İKİ DEFA görüşülür; değiştirme teklifinin kabulü Meclisin üye tamsayısının BEŞTE ÜÇ çoğunluğunun GİZLİ OYUYLA mümkündür. Bu kayıtlar dışında Anayasa değişikliği tekliflerinin görüşülmesi ve kabulü, kanunların görüşülmesi ve kabulü hakkındaki hükümlere tabidir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "175"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-degisikligi",
+			"usul"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-genel-040",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"difficulty": "uzman",
+		"stem": "Bir kamu kurumu, bir Anayasa hükmünün yalnızca yasama organını bağladığını, kendisinin ise ancak kanun ve yönetmeliklerle bağlı olduğunu ileri sürmüştür. Anayasa'nın 11. maddesi bakımından bu görüş için aşağıdakilerden hangisi söylenebilir?",
+		"options": [
+			"Görüş yanlıştır; Anayasa hükümleri yasama, yürütme ve yargı organlarını, idare makamlarını ve diğer kuruluş ve kişileri bağlayan temel hukuk kurallarıdır.",
+			"Görüş kısmen doğrudur; Anayasa yalnızca yasama ve yargı organlarını bağlar.",
+			"Görüş doğrudur; özel hukuk kişileri Anayasa ile hiçbir şekilde bağlı değildir.",
+			"Görüş doğrudur; Anayasa yalnızca yasama organını bağlar, idare kanunla bağlıdır.",
+			"Görüş doğrudur; Anayasa hükümleri ancak kanunla somutlaştırıldıktan sonra idareyi bağlar."
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa m.11/1: “Anayasa hükümleri, yasama, yürütme ve yargı organlarını, idare makamlarını ve diğer kuruluş ve kişileri bağlayan temel hukuk kurallarıdır.” Bağlayıcılık, araya kanun girmesine bağlı değildir ve idare makamları ile özel kişileri de kapsar. Maddenin ikinci fıkrası ise Anayasanın üstünlüğünün diğer yüzünü koyar: kanunlar Anayasaya aykırı olamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasanin-baglayiciligi",
+			"ustunluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

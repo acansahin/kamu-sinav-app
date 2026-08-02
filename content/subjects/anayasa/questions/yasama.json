@@ -1672,5 +1672,345 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-yasama-051",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 166. maddesine göre kalkınma planları hangi organ tarafından onaylanır?",
+		"options": [
+			"Sayıştay",
+			"Ekonomik ve Sosyal Konsey",
+			"Cumhurbaşkanı",
+			"Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı",
+			"Türkiye Büyük Millet Meclisi"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa m.166/3: kalkınma planlarının hazırlanmasına, TÜRKİYE BÜYÜK MİLLET MECLİSİNCE ONAYLANMASINA, uygulanmasına, değiştirilmesine ve bütünlüğünü bozacak değişikliklerin önlenmesine ilişkin usul ve esaslar kanunla düzenlenir. Ekonomik, sosyal ve kültürel kalkınmayı planlamak ve bu amaçla gerekli teşkilatı kurmak ise Devletin görevidir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "166"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"planlama",
+			"kalkinma-plani"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yasama-052",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 166. maddesine göre Ekonomik ve Sosyal Konsey hangi amaçla kurulur?",
+		"options": [
+			"Kalkınma planlarını hazırlayıp Türkiye Büyük Millet Meclisine sunmak amacıyla",
+			"Asgarî ücreti tespit etmek amacıyla",
+			"Kamu iktisadi teşebbüslerini denetlemek amacıyla",
+			"Toplu sözleşme görüşmelerinde çıkan uyuşmazlıkları karara bağlamak amacıyla",
+			"Ekonomik ve sosyal politikaların oluşturulmasında Cumhurbaşkanına istişarî nitelikte görüş bildirmek amacıyla"
+		],
+		"correctIndex": 4,
+		"explanation": "2010 yılında 5982 sayılı Kanunla m.166'ya eklenen fıkraya göre Ekonomik ve Sosyal Konsey, ekonomik ve sosyal politikaların oluşturulmasında CUMHURBAŞKANINA İSTİŞARÎ NİTELİKTE GÖRÜŞ BİLDİRMEK amacıyla kurulur; kuruluş ve işleyişi kanunla düzenlenir. Görüşü bağlayıcı değildir ve Konseyin plan yapma, ücret tespit etme veya denetim yetkisi yoktur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "166"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomik-ve-sosyal-konsey",
+			"2010-degisikligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yasama-053",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 167. maddesine göre Devlet; para, kredi, sermaye, mal ve hizmet piyasalarında aşağıdakilerden hangisini önler?",
+		"options": [
+			"Özel teşebbüsün piyasaya girmesini",
+			"Yabancı sermayenin piyasaya girmesini",
+			"Fiyatların arz ve talebe göre oluşmasını",
+			"Fiilî veya anlaşma sonucu doğacak tekelleşme ve kartelleşmeyi",
+			"İthalat ve ihracatın artmasını"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa m.167/1'e göre Devlet, para, kredi, sermaye, mal ve hizmet piyasalarının sağlıklı ve düzenli işlemelerini sağlayıcı ve geliştirici tedbirleri alır; piyasalarda FİİLÎ VEYA ANLAŞMA SONUCU doğacak TEKELLEŞME VE KARTELLEŞMEYİ önler. Hüküm piyasa mekanizmasını değil, onu bozan yapıları hedef alır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "167"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"piyasalarin-denetimi",
+			"tekellesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yasama-054",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 167. maddesine göre, dış ticaret işlemleri üzerine vergi ve benzeri yükümlülükler dışında ek malî yükümlülükler koymaya ve bunları kaldırmaya kim yetkili kılınabilir?",
+		"options": [
+			"Bu konuda yetki Ekonomik ve Sosyal Konseye aittir.",
+			"Kanunla Cumhurbaşkanına yetki verilebilir.",
+			"Bu yetki münhasıran Türkiye Büyük Millet Meclisine aittir ve hiçbir şekilde devredilemez.",
+			"Cumhurbaşkanı bu yetkiyi doğrudan Anayasadan alır; ayrıca kanun gerekmez.",
+			"Cumhurbaşkanlığı kararnamesiyle Ticaret Bakanlığına yetki verilebilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa m.167/2: dış ticaretin ülke ekonomisinin yararına düzenlenmesi amacıyla ithalat, ihracat ve diğer dış ticaret işlemleri üzerine vergi ve benzeri yükümlülükler dışında EK MALÎ YÜKÜMLÜLÜKLER koymaya ve bunları kaldırmaya KANUNLA CUMHURBAŞKANINA YETKİ VERİLEBİLİR. Yetkinin kaynağı doğrudan Anayasa değil, Meclisin çıkaracağı kanundur — bu, verginin kanuniliği ilkesinin (m.73) Anayasada açıkça öngörülmüş bir istisnasıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "167"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-ticaret",
+			"ek-mali-yukumluluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yasama-055",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 168. maddesine göre tabii servetler ve kaynakların aranması ve işletilmesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Arama ve işletme hakkı Devlete aittir; Devlet bu hakkını belli bir süre için gerçek ve tüzelkişilere devredebilir.",
+			"Arama ve işletme hakkı süresiz olarak gerçek ve tüzelkişilere devredilebilir.",
+			"Devlet bu hakkını hiçbir şekilde devredemez.",
+			"Devir yalnızca kamu iktisadi teşebbüslerine yapılabilir.",
+			"Tabii servet ve kaynaklar üzerinde özel mülkiyet kurulabilir."
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa m.168: tabii servetler ve kaynaklar DEVLETİN HÜKÜM VE TASARRUFU ALTINDADIR, aranması ve işletilmesi hakkı Devlete aittir. Devlet bu hakkını BELLİ BİR SÜRE İÇİN gerçek ve tüzelkişilere devredebilir; hangi servet veya kaynağın Devletle ortak ya da doğrudan özel kişiler eliyle işletileceği KANUNUN AÇIK İZNİNE bağlıdır. Bu durumda uyulacak şartlar, gözetim ve denetim usulleri ile müeyyideler de kanunda gösterilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "168"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tabii-servetler",
+			"devlet-hukum-ve-tasarrufu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yasama-056",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 169. maddesine göre Devlet ormanları bakımından aşağıdakilerden hangisi YANLIŞTIR?",
+		"options": [
+			"Bütün ormanların gözetimi Devlete aittir.",
+			"Devlet ormanları kamu yararı dışında irtifak hakkına konu olamaz.",
+			"Devlet ormanlarının mülkiyeti devrolunamaz.",
+			"Devlet ormanları, yeterli zilyetlik süresinin dolmasıyla zamanaşımı yoluyla mülk edinilebilir.",
+			"Devlet ormanları kanuna göre Devletçe yönetilir ve işletilir."
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa m.169/2 tam tersini söyler: Devlet ormanları ZAMANAŞIMI İLE MÜLK EDİNİLEMEZ ve kamu yararı dışında irtifak hakkına konu olamaz; mülkiyeti devrolunamaz, kanuna göre Devletçe yönetilir ve işletilir. Birinci fıkraya göre bütün ormanların gözetimi Devlete aittir ve yanan ormanların yerinde yeni orman yetiştirilir; bu yerlerde başka çeşit tarım ve hayvancılık yapılamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "169"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ormanlar",
+			"zamanasimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yasama-057",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 169. maddesine göre orman suçlarında af bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Ormanları yakma suçu genel af kapsamına alınabilir, ancak özel af kapsamına alınamaz.",
+			"Münhasıran orman suçları için genel ve özel af çıkarılamaz; ormanları yakmak, ormanı yok etmek veya daraltmak amacıyla işlenen suçlar genel ve özel af kapsamına alınamaz.",
+			"Orman suçları için af, Türkiye Büyük Millet Meclisi üye tamsayısının üçte iki çoğunluğuyla çıkarılabilir.",
+			"Orman suçları için yalnızca özel af çıkarılabilir.",
+			"Orman suçları için de af çıkarılabilir; Anayasada bu konuda bir sınırlama yoktur."
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa m.169/3 iki ayrı yasak getirir: (1) MÜNHASIRAN orman suçları için genel ve özel af çıkarılamaz, (2) ormanları yakmak, ormanı yok etmek veya daraltmak amacıyla işlenen suçlar genel ve özel af kapsamına ALINAMAZ. Aynı fıkra, ormanların tahrip edilmesine yol açan siyasi propagandayı da yasaklar. Af ilanı normalde TBMM'nin üye tamsayısının beşte üç çoğunluğuyla kullandığı bir yetkidir (m.87); orman suçlarında ise çoğunluk ne olursa olsun af çıkarılamaz.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "169"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ormanlar",
+			"af"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yasama-058",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 170. maddesine göre orman içinden nakledilen köyler halkına ait araziler ne yapılır?",
+		"options": [
+			"Kalkınma planında gösterilen yatırımlara tahsis edilir.",
+			"Devlet ormanı olarak derhâl ağaçlandırılır.",
+			"Tarım arazisi olarak orman köylüsüne dağıtılır.",
+			"İlgili belediyeye bedelsiz olarak devredilir.",
+			"Hazine adına tescil edilerek satışa çıkarılır."
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa m.170'in son fıkrası açıktır: orman içinden nakledilen köyler halkına ait araziler, DEVLET ORMANI OLARAK DERHÂL AĞAÇLANDIRILIR. Maddenin bütünü orman köylüsünün korunmasına ilişkindir: 31/12/1981 tarihinden önce bilim ve fen bakımından orman niteliğini tamamen kaybetmiş yerlerin değerlendirilmesi ve orman içi köyler halkının bu yerlere yerleştirilmesi kanunla düzenlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "170"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"orman-koylusu",
+			"agaclandirma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yasama-059",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 171. maddesine göre Devlet, kooperatifçiliğin gelişmesini sağlayacak tedbirleri alırken öncelikle neyi amaçlar?",
+		"options": [
+			"Üretimin artırılmasını ve tüketicinin korunmasını",
+			"İhracatın artırılmasını ve döviz girdisi sağlanmasını",
+			"Kırsal nüfusun kentlere göçünün önlenmesini",
+			"İstihdamın artırılmasını ve işsizliğin azaltılmasını",
+			"Küçük ve orta ölçekli sanayinin desteklenmesini"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa m.171: Devlet, millî ekonominin yararlarını dikkate alarak, ÖNCELİKLE ÜRETİMİN ARTIRILMASINI VE TÜKETİCİNİN KORUNMASINI amaçlayan kooperatifçiliğin gelişmesini sağlayacak tedbirleri alır. Maddenin kooperatiflere siyasi faaliyet yasağı getiren son fıkrası 1995 yılında yürürlükten kaldırılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "171"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kooperatifcilik",
+			"ekonomik-hukumler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yasama-060",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 172. maddesine göre Devletin tüketicilere ilişkin ödevi aşağıdakilerden hangisidir?",
+		"options": [
+			"Tüketici derneklerine bütçeden doğrudan malî yardım yapmak",
+			"Tüketici uyuşmazlıklarını karara bağlayacak özel mahkemeler kurmak",
+			"Temel tüketim mallarının fiyatlarını doğrudan belirlemek",
+			"Tüketicileri koruyucu ve aydınlatıcı tedbirler almak, tüketicilerin kendilerini koruyucu girişimlerini teşvik etmek",
+			"Tüketici kredilerinin faiz oranlarına üst sınır getirmek"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa m.172: “Devlet, tüketicileri koruyucu ve aydınlatıcı tedbirler alır, tüketicilerin kendilerini koruyucu girişimlerini teşvik eder.” Hemen ardından gelen 173. madde ise esnaf ve sanatkârlar için benzer bir ödev öngörür: Devlet, esnaf ve sanatkârı koruyucu ve destekleyici tedbirleri alır. İkisi de Anayasanın “Ekonomik Hükümler” bölümünde yer alır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "172"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tuketicinin-korunmasi",
+			"ekonomik-hukumler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

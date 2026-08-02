@@ -1366,5 +1366,314 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-yurutme-043",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 132. maddesine göre Türk Silahlı Kuvvetleri ve emniyet teşkilatına bağlı yükseköğretim kurumları hangi hükümlere tabidir?",
+		"options": [
+			"Cumhurbaşkanlığı kararnamelerine",
+			"Diğer üniversitelerle aynı kanun hükümlerine",
+			"Yükseköğretim Kurulunun kararlarına",
+			"Millî Savunma Bakanlığının çıkaracağı yönetmeliklere",
+			"Özel kanunlarının hükümlerine"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa m.132: “Türk Silahlı Kuvvetleri ve emniyet teşkilatına bağlı yükseköğretim kurumları ÖZEL KANUNLARININ hükümlerine tabidir.” Bu, m.130 ve m.131'de kurulan genel yükseköğretim rejiminin Anayasa düzeyinde öngörülmüş istisnasıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "132"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yuksekogretim",
+			"ozel-hukumler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yurutme-044",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 127. maddesine göre mahallî idarelerin seçimleri hangi sıklıkla yapılır?",
+		"options": [
+			"Dört yılda bir",
+			"Milletvekili genel seçimleriyle aynı gün, her seçim döneminde",
+			"Üç yılda bir",
+			"Beş yılda bir",
+			"Yedi yılda bir"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa m.127/3: mahallî idarelerin seçimleri, 67. maddedeki esaslara göre BEŞ YILDA BİR yapılır. Aynı fıkra, kanunun büyük yerleşim merkezleri için özel yönetim biçimleri getirebileceğini de öngörür. Mahallî idareler; il, belediye veya köy halkının mahallî müşterek ihtiyaçlarını karşılamak üzere kurulan, karar organları seçmenlerce seçilen kamu tüzelkişileridir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "127"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mahalli-idareler",
+			"secimler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yurutme-045",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 126. maddesine göre kamu hizmetlerinin görülmesinde verim ve uyum sağlamak amacıyla birden çok ili içine alan merkezî idare teşkilatı kurulması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Böyle bir teşkilat kurulamaz; merkezî idare yalnızca il esasına göre örgütlenir.",
+			"Böyle bir teşkilat kurulabilir; görev ve yetkileri kanunla düzenlenir.",
+			"Böyle bir teşkilat yalnızca olağanüstü hâl süresince kurulabilir.",
+			"Böyle bir teşkilat ancak ilgili il genel meclislerinin kararıyla kurulabilir.",
+			"Böyle bir teşkilat kurulabilir; ancak görev ve yetkileri Cumhurbaşkanlığı kararnamesiyle düzenlenir."
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa m.126'nın son fıkrası, kamu hizmetlerinin görülmesinde verim ve uyum sağlamak amacıyla BİRDEN ÇOK İLİ İÇİNE ALAN merkezî idare teşkilatı kurulmasına açıkça izin verir ve bu teşkilatın görev ve yetkilerinin KANUNLA düzenleneceğini belirtir. Maddenin ilk iki fıkrası ise Türkiye'nin illere, illerin de kademeli bölümlere ayrıldığını ve illerin idaresinin yetki genişliği esasına dayandığını hükme bağlar.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "126"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"merkezi-idare",
+			"bolge-teskilati"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yurutme-046",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 104. maddesine göre üst kademe kamu yöneticilerinin atanmalarına ilişkin usul ve esaslar neyle düzenlenir?",
+		"options": [
+			"İlgili bakanlığın yönetmeliğiyle",
+			"Cumhurbaşkanının çıkaracağı yönetmelikle",
+			"Türkiye Büyük Millet Meclisi kararıyla",
+			"Cumhurbaşkanlığı kararnamesiyle",
+			"Kanunla"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa m.104'te Cumhurbaşkanının görevleri sayılırken şu ifade yer alır: “Üst kademe kamu yöneticilerini atar, görevlerine son verir ve bunların atanmalarına ilişkin usul ve esasları CUMHURBAŞKANLIĞI KARARNAMESİYLE düzenler.” Buna karşılık memurların ve diğer kamu görevlilerinin nitelikleri, atanmaları ve özlük işleri m.128 uyarınca KANUNLA düzenlenir — sınavda bu ikisi sıkça karşılaştırılır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "104"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhurbaskani",
+			"ust-kademe-yoneticileri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yurutme-047",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 130. maddesine göre üniversiteler ve vakıf yükseköğretim kurumlarının kurulması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Üniversiteler Cumhurbaşkanlığı kararnamesiyle kurulur; vakıf yükseköğretim kurumu kurulamaz.",
+			"Vakıflar, kazanç amacı güderek de yükseköğretim kurumu kurabilir.",
+			"Vakıf yükseköğretim kurumları Devletin gözetim ve denetimi dışındadır.",
+			"Hem Devlet hem vakıf üniversiteleri Yükseköğretim Kurulu kararıyla kurulur.",
+			"Üniversiteler Devlet tarafından kanunla kurulur; vakıflar ise kazanç amacına yönelik olmamak şartıyla, Devletin gözetim ve denetimine tabi yükseköğretim kurumları kurabilir."
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa m.130/1'e göre kamu tüzelkişiliğine ve bilimsel özerkliğe sahip üniversiteler Devlet tarafından KANUNLA kurulur. İkinci fıkra ise vakıflara, KAZANÇ AMACINA YÖNELİK OLMAMAK ŞARTIYLA ve DEVLETİN GÖZETİM VE DENETİMİNE TABİ olmak üzere yükseköğretim kurumu kurma imkânı tanır. Ayrıca kanun, üniversitelerin ülke sathına dengeli biçimde yayılmasını gözetir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "130"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"universiteler",
+			"vakif-yuksekogretim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yurutme-048",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 128. maddesine göre memurların ve diğer kamu görevlilerinin nitelikleri, atanmaları, görev ve yetkileri, hakları ve yükümlülükleri ile aylık ve ödenekleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kurumların çıkaracağı yönetmeliklerle düzenlenir.",
+			"Kanunla düzenlenir; hiçbir istisnası yoktur.",
+			"Kanunla düzenlenir; ancak malî ve sosyal haklara ilişkin toplu sözleşme hükümleri saklıdır.",
+			"Toplu sözleşmeyle düzenlenir; kanunla düzenleme yapılamaz.",
+			"Cumhurbaşkanlığı kararnamesiyle düzenlenir."
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa m.128/2 kural olarak KANUNİLİK getirir: memurların ve diğer kamu görevlilerinin nitelikleri, atanmaları, görev ve yetkileri, hakları ve yükümlülükleri, aylık ve ödenekleri ve diğer özlük işleri kanunla düzenlenir. 2010 yılında 5982 sayılı Kanunla eklenen cümle tek istisnayı koyar: MALÎ VE SOSYAL HAKLARA İLİŞKİN TOPLU SÖZLEŞME HÜKÜMLERİ SAKLIDIR. Aynı maddenin son fıkrasına göre üst kademe yöneticilerinin yetiştirilme usul ve esasları kanunla ÖZEL OLARAK düzenlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "128"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kamu-gorevlileri",
+			"kanunilik",
+			"toplu-sozlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yurutme-049",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 128. maddesine göre üst kademe yöneticilerinin yetiştirilme usul ve esasları nasıl düzenlenir?",
+		"options": [
+			"Toplu sözleşmeyle düzenlenir.",
+			"Kanunla özel olarak düzenlenir.",
+			"Cumhurbaşkanlığı kararnamesiyle düzenlenir.",
+			"Yükseköğretim Kurulunun belirleyeceği esaslara göre düzenlenir.",
+			"Kurumların kendi yönetmelikleriyle düzenlenir."
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa m.128'in son fıkrası: “Üst kademe yöneticilerinin yetiştirilme usul ve esasları, KANUNLA ÖZEL OLARAK düzenlenir.” Bu hüküm, üst kademe kamu yöneticilerinin ATANMASINA ilişkin usul ve esasların Cumhurbaşkanlığı kararnamesiyle düzenlendiğini söyleyen m.104 hükmüyle karıştırılmamalıdır: atanma kararnameye, YETİŞTİRİLME kanuna bırakılmıştır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "128"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ust-kademe-yoneticileri",
+			"yetistirilme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yurutme-050",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "uzman",
+		"stem": "Bir memura, hakkındaki iddialar bildirilmeden ve savunması alınmadan disiplin cezası verilmiş; ilgili mevzuatta bu cezaya karşı yargı yolunun kapalı olduğu ileri sürülmüştür. Anayasa'nın 129. maddesi bakımından bu durum için aşağıdakilerden hangisi söylenebilir?",
+		"options": [
+			"Anayasa disiplin cezalarına ilişkin bir güvence öngörmemiştir; konu tümüyle kanun koyucunun takdirindedir.",
+			"Savunma alınmaması Anayasa'ya aykırıdır, ancak disiplin kararlarının yargı denetimi dışında bırakılması mümkündür.",
+			"Savunma hakkı tanınmadıkça disiplin cezası verilemez ve disiplin kararları yargı denetimi dışında bırakılamaz; her iki yönden de Anayasa'ya aykırılık vardır.",
+			"Disiplin cezalarında savunma alınması zorunlu değildir; yalnızca yargı yolunun kapatılması Anayasa'ya aykırıdır.",
+			"Uyarma ve kınama cezalarında her iki kural da uygulanmaz."
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa m.129 iki ayrı güvence getirir: (1) memurlar ve diğer kamu görevlileri ile kamu kurumu niteliğindeki meslek kuruluşları mensuplarına SAVUNMA HAKKI TANINMADIKÇA DİSİPLİN CEZASI VERİLEMEZ; (2) 2010 değişikliğinden sonraki hâliyle DİSİPLİN KARARLARI YARGI DENETİMİ DIŞINDA BIRAKILAMAZ. Değişiklikten önce uyarma ve kınama cezaları yargı denetimi dışındaydı; bugün böyle bir istisna yoktur. Silahlı Kuvvetler mensupları ile hâkim ve savcılar hakkındaki hükümler ise saklıdır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "129"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"disiplin-cezasi",
+			"savunma-hakki",
+			"yargi-denetimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yurutme-051",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"difficulty": "uzman",
+		"stem": "Bir memur hakkında görevi sırasında işlediği iddia edilen bir suçtan ötürü doğrudan ceza kovuşturması başlatılmak istenmektedir. Anayasa'nın 129. maddesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Memurlar hakkında hiçbir şekilde ceza kovuşturması açılamaz; yalnızca disiplin soruşturması yapılır.",
+			"Ceza kovuşturması açılması için izin aranmaz; genel hükümler uygulanır.",
+			"Ceza kovuşturması açılması, kanunla belirlenen istisnalar dışında, kanunun gösterdiği idari merciin iznine bağlıdır.",
+			"İzin yalnızca üst kademe kamu yöneticileri bakımından aranır.",
+			"Ceza kovuşturması açılması her hâlde ilgili bakanın iznine bağlıdır; kanunla istisna öngörülemez."
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa m.129'un son fıkrası: memurlar ve diğer kamu görevlileri hakkında işledikleri iddia edilen suçlardan ötürü ceza kovuşturması açılması, KANUNLA BELİRLENEN İSTİSNALAR DIŞINDA, KANUNUN GÖSTERDİĞİ İDARİ MERCİİN İZNİNE bağlıdır. İzin kuralı mutlak değildir — kanun koyucu istisna öngörebilir (rüşvet ve irtikâp gibi suçlarda olduğu üzere). Aynı maddeye göre memurların yetkilerini kullanırken işledikleri kusurlardan doğan tazminat davaları da, kendilerine rücu edilmek kaydıyla, ancak idare aleyhine açılabilir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "129"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ceza-kovusturmasi",
+			"izin",
+			"rucu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

@@ -796,5 +796,74 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-yasak-025",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 26. maddesindeki toplu eylem ve hareketlerde bulunma yasağı kapsamında aşağıdakilerden hangisi YER ALMAZ?",
+		"options": [
+			"Kamu hizmetlerini aksatacak şekilde memurluktan kasıtlı olarak birlikte çekilme",
+			"Kamu hizmetlerini aksatacak şekilde birlikte görevlerine gelmeme",
+			"Görevlerine gelip de Devlet hizmetlerinin yavaşlatılması sonucunu doğuracak eylemlerde bulunma",
+			"Bir memurun tek başına ve usulüne uygun şekilde memurluktan çekilme isteğinde bulunması",
+			"Görevlerine gelip de Devlet işlerinin aksatılması sonucunu doğuracak hareketlerde bulunma"
+		],
+		"correctIndex": 3,
+		"explanation": "657 m.26, yasağın konusunu üç davranışla sınırlar ve hepsinde TOPLULUK ve KAMU HİZMETİNİ AKSATMA unsuru aranır: kamu hizmetlerini aksatacak şekilde memurluktan KASITLI OLARAK BİRLİKTE çekilme, görevlerine gelmeme, ya da göreve gelip de hizmetlerin yavaşlatılması veya aksatılması sonucunu doğuracak eylem ve hareketlerde bulunma. Bir memurun 94. maddedeki usule uyarak TEK BAŞINA çekilme isteğinde bulunması ise Kanun'un tanıdığı bir haktır, yasak kapsamında değildir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "26"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toplu-eylem",
+			"birlikte-cekilme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-yasak-026",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/yasaklar",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 28. maddesine göre ticaret ve diğer kazanç getirici faaliyetlerde bulunma yasağının DIŞINDA tutulan görevler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yasağın hiçbir istisnası yoktur; memur hiçbir tüzel kişilikte organ üyeliği yapamaz.",
+			"Kooperatif üyelikleri yasağın dışındadır, ancak yardım sandıklarındaki hiçbir görev istisna kapsamında değildir.",
+			"İstisna yalnızca denetim kurulu üyelikleri için geçerlidir; yönetim kurulu üyeliği her hâlde yasaktır.",
+			"Memurların üyesi oldukları yapı, kalkınma ve tüketim kooperatifleri, kamu kurumu niteliğindeki meslek kuruluşları ve kanunla veya Cumhurbaşkanlığı kararnamesiyle kurulmuş yardım sandıklarının yönetim, denetim ve disiplin kurulu üyelikleri yasağın dışındadır.",
+			"Yalnızca yapı kooperatiflerinin yönetim kurulu üyelikleri yasağın dışındadır."
+		],
+		"correctIndex": 3,
+		"explanation": "657 m.28'in ikinci fıkrası istisnaları tek tek sayar: memurların üyesi oldukları YAPI, KALKINMA VE TÜKETİM KOOPERATİFLERİ, KAMU KURUMU NİTELİĞİNDEKİ MESLEK KURULUŞLARI ve KANUNLA VEYA CUMHURBAŞKANLIĞI KARARNAMESİYLE KURULMUŞ YARDIM SANDIKLARININ yönetim, denetim ve disiplin kurulları üyelikleri ile özel kanunlarda belirtilen görevler yasaklamanın dışındadır. İstisna kooperatif türüyle veya kurul türüyle sınırlı değildir. Ayrıca birinci fıkra, görevli olunan kurumların iştiraklerinde kurumu temsilen alınacak görevleri de yasak dışında bırakır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ticaret-yasagi",
+			"istisnalar",
+			"yardim-sandiklari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

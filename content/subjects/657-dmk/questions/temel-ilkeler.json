@@ -866,5 +866,143 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-07-31"
+	},
+	{
+		"id": "657-ilke-028",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 36. maddesine göre Sağlık Hizmetleri ve Yardımcı Sağlık Hizmetleri Sınıfı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca insan sağlığı alanında çalışan personeli kapsar; veteriner hekimler Teknik Hizmetler Sınıfındadır.",
+			"Yalnızca tabip, diş tabibi ve eczacıları kapsar.",
+			"Hayvan sağlığı dâhil olmak üzere sağlık hizmetlerinde mesleki eğitim görerek yetişmiş tabip, diş tabibi, eczacı ve veteriner hekim gibi memurlar ile bu sahada çalışan sağlık personelini kapsar.",
+			"Hemşire ve ebeler bu sınıfa değil, Yardımcı Hizmetler Sınıfına dâhildir.",
+			"Yalnızca yükseköğrenim görmüş sağlık personelini kapsar."
+		],
+		"correctIndex": 2,
+		"explanation": "657 m.36'daki tanım geniştir: Sağlık Hizmetleri ve Yardımcı Sağlık Hizmetleri Sınıfı, sağlık hizmetlerinde (HAYVAN SAĞLIĞI DÂHİL) mesleki eğitim görerek yetişmiş tabip, diş tabibi, eczacı, VETERİNER HEKİM gibi memurlar ile bu hizmet sahasında çalışan fizyoterapist, ebe, hemşire, sağlık memuru, biyolog, psikolog, diyetçi ve benzeri sağlık personelini kapsar. Sınıfa girmek için yükseköğrenim şartı da yoktur; teknisyen ve yardımcıları da sayılmıştır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hizmet-siniflari",
+			"saglik-hizmetleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-ilke-030",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 36. maddesine göre Emniyet Hizmetleri Sınıfı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Jandarma Genel Komutanlığı kadrolarındaki subay ve astsubayları da kapsar.",
+			"Yalnızca Emniyet Genel Müdürlüğü merkez teşkilatında görevli memurları kapsar.",
+			"Özel kanunlarına göre çarşı ve mahalle bekçisi, polis, komiser muavini, komiser, başkomiser, emniyet müfettişi, polis müfettişi, emniyet amiri ve emniyet müdürü ile emniyet müdürü sıfatını kazanmış emniyet mensubu memurları kapsar.",
+			"Yalnızca komiser ve üstü rütbedeki emniyet mensuplarını kapsar.",
+			"Çarşı ve mahalle bekçileri bu sınıfa değil, Yardımcı Hizmetler Sınıfına dâhildir."
+		],
+		"correctIndex": 2,
+		"explanation": "657 m.36'daki Emniyet Hizmetleri Sınıfı tanımı rütbe ayrımı yapmaz ve ÇARŞI VE MAHALLE BEKÇİSİNDEN emniyet müdürüne kadar sayılan unvanları kapsar. Jandarma Genel Komutanlığı kadrolarındaki subay, astsubay ve uzman jandarmalar ise 2016'da ayrı bir sınıf olarak eklenen JANDARMA HİZMETLERİ SINIFINDA yer alır; Sahil Güvenlik Komutanlığı kadrolarındaki subay ve astsubaylar için de ayrı bir sınıf vardır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hizmet-siniflari",
+			"emniyet-hizmetleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-ilke-031",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "uzman",
+		"stem": "657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler'e göre, dört yıl süreli yükseköğrenimi bitirenler ile liseyi bitirenlerin memuriyete giriş derece ve kademeleri sırasıyla aşağıdakilerden hangisidir?",
+		"options": [
+			"9. derecenin 1. kademesi – 13. derecenin 3. kademesi",
+			"9. derecenin 3. kademesi – 12. derecenin 2. kademesi",
+			"8. derecenin 1. kademesi – 12. derecenin 3. kademesi",
+			"10. derecenin 1. kademesi – 14. derecenin 2. kademesi",
+			"9. derecenin 2. kademesi – 13. derecenin 1. kademesi"
+		],
+		"correctIndex": 0,
+		"explanation": "657 m.36'nın Ortak Hükümler bölümündeki (A) tablosuna göre DÖRT YIL süreli yükseköğrenimi bitirenler 9. DERECENİN 1. KADEMESİNDEN, LİSEYİ bitirenler ise 13. DERECENİN 3. KADEMESİNDEN memuriyete girer. Tablonun diğer sık sorulan satırları: ilkokul 15/1, ortaokul 14/2, iki yıl süreli yükseköğrenim 10/2, beş yıl süreli yükseköğrenim 9/2, altı yıl süreli yükseköğrenim 9/3.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ortak-hukumler",
+			"giris-derecesi",
+			"ogrenim-durumu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-ilke-029",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler'e göre, dört yıl ve daha fazla süreli yükseköğrenim görenlerden tabip, diş tabibi, veteriner hekim ve eczacı ile benzeri sağlık bilimleri lisansiyerleri hizmete nasıl alınır?",
+		"options": [
+			"Öğrenimlerine göre tespit edilen giriş derece ve kademelerine iki kademe eklenmek suretiyle bulunacak derece ve kademelerden",
+			"Öğrenimlerine göre tespit edilen giriş derece ve kademelerinden; ayrıca bir ekleme yapılmaz",
+			"Öğrenimlerine göre tespit edilen giriş derece ve kademelerine bir derece eklenmek suretiyle bulunacak derece ve kademelerden",
+			"Öğrenimlerine göre tespit edilen giriş derece ve kademelerine bir kademe eklenmek suretiyle bulunacak derece ve kademelerden",
+			"Doğrudan 8. derecenin 1. kademesinden"
+		],
+		"correctIndex": 2,
+		"explanation": "657 m.36'nın Ortak Hükümler bölümündeki 5 numaralı bende göre, dört yıl ve daha fazla süreli yükseköğrenim görenlerden tabip, diş tabibi, veteriner hekim, eczacı ile benzeri sağlık bilimleri lisansiyerleri (hayvan sağlığı dâhil), giriş derece ve kademelerine BİR DERECE EKLENMEK suretiyle bulunacak derece ve kademelerden hizmete alınır. Aynı bölümde mühendis ve mimarlara (bent 2 ve 3) ile teknik hizmetler sınıfındaki fen bilimleri lisansiyerlerine (bent 4) de birer derece verilmesi öngörülmüştür; buna karşılık avukatlık stajı için tanınan avantaj derece değil KADEME ilerlemesidir (bent 1).",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ortak-hukumler",
+			"giris-derecesi",
+			"saglik-bilimleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

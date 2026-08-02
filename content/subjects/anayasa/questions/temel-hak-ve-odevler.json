@@ -2275,5 +2275,413 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-thakl-069",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 30. maddesine göre, kanuna uygun şekilde basın işletmesi olarak kurulan basımevi ve eklentileri ile basın araçları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Gecikmesinde sakınca bulunan hâllerde Cumhuriyet savcısının emriyle işletilmekten alıkonulabilir.",
+			"Suç aleti olduğu gerekçesiyle zapt ve müsadere edilemez veya işletilmekten alıkonulamaz.",
+			"Yayım yoluyla işlenen suçlarda basımevi hakkında da kapatma cezası uygulanır.",
+			"İşlenen suçun ağırlığına göre en çok altı ay süreyle işletilmekten alıkonulabilir.",
+			"Suç aleti olduğu tespit edilirse hâkim kararıyla müsadere edilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 30. maddesi basın araçlarına özel bir güvence getirir: kanuna uygun şekilde basın işletmesi olarak kurulan basımevi ve eklentileri ile basın araçları, SUÇ ALETİ OLDUĞU GEREKÇESİYLE zapt ve müsadere edilemez veya işletilmekten alıkonulamaz. Güvence mutlaktır; hâkim kararı, savcı emri veya suçun ağırlığı bu sonucu değiştirmez.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "30"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"basin-hurriyeti",
+			"basin-araclarinin-korunmasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-thakl-070",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 31. maddesine göre kamu tüzel kişilerinin elindeki basın dışı kitle haberleşme ve yayım araçlarından yararlanma hakkı kimlere tanınmıştır?",
+		"options": [
+			"Kişiler ve siyasi partilere",
+			"Yalnızca basın kuruluşları ile haber ajanslarına",
+			"Yalnızca kamu kurumu niteliğindeki meslek kuruluşlarına",
+			"Yalnızca siyasi partilere",
+			"Yalnızca Türkiye Büyük Millet Meclisinde grubu bulunan siyasi partilere"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa m.31/1: “Kişiler ve siyasi partiler, kamu tüzel kişilerinin elindeki basın dışı kitle haberleşme ve yayım araçlarından yararlanma hakkına sahiptir.” Hak yalnızca partilere ya da yalnızca basına değil, kişilere de tanınmıştır; yararlanmanın şart ve usulleri kanunla düzenlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "31"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kitle-haberlesme-araclari",
+			"siyasi-partiler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-thakl-071",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 39. maddesinde düzenlenen ispat hakkı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"İspat hakkı yalnızca basın yoluyla işlenen suçlarda tanınmıştır.",
+			"İspat istemi hiçbir hâlde kabul edilemez; isnadın doğruluğu ceza sorumluluğunu etkilemez.",
+			"Kamu görev ve hizmetinde bulunanlara karşı, bu görev ve hizmetin yerine getirilmesiyle ilgili olarak yapılan isnatlardan dolayı açılan hakaret davalarında sanık, isnadın doğruluğunu ispat hakkına sahiptir.",
+			"Sanık, açılan her hakaret davasında isnadın doğruluğunu ispat hakkına koşulsuz olarak sahiptir.",
+			"İspat hakkı yalnızca şikâyetçinin ispata razı olması hâlinde kullanılabilir."
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa m.39, ispat hakkını kural olarak KAMU GÖREV VE HİZMETİNDE bulunanlara karşı, bu görevin yerine getirilmesiyle ilgili isnatlardan doğan hakaret davalarıyla sınırlı olarak tanır. Bunun dışındaki hâllerde ispat isteminin kabulü, isnat olunan fiilin doğruluğunun anlaşılmasında kamu yararı bulunmasına veya şikâyetçinin ispata razı olmasına bağlıdır — yani şikâyetçinin rızası tek yol değil, iki seçenekten biridir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "39"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ispat-hakki",
+			"hakaret-davasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-thakl-072",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 43. maddesine göre kıyılar kimin hüküm ve tasarrufu altındadır?",
+		"options": [
+			"Devletin",
+			"Kıyının bulunduğu köyün tüzel kişiliğinin",
+			"İlgili belediyenin",
+			"İl özel idaresinin",
+			"Kıyıya bitişik taşınmazın malikinin"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa m.43/1: “Kıyılar, Devletin hüküm ve tasarrufu altındadır.” Maddenin ikinci fıkrası, deniz, göl ve akarsu kıyılarıyla sahil şeritlerinden yararlanmada ÖNCELİKLE KAMU YARARININ gözetileceğini belirtir; kullanım derinliği ve şartları kanunla düzenlenir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "43"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kiyilar",
+			"kamu-yarari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-thakl-073",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 44. maddesi uyarınca topraksız olan veya yeter toprağı bulunmayan çiftçiye dağıtılan topraklar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bölünebilir, ancak hiçbir şekilde başkalarına devredilemez.",
+			"Yalnızca tarım kredisi karşılığında ipotek edilmek üzere devredilebilir.",
+			"Bölünemez; miras hükümleri dışında başkalarına devredilemez ve ancak dağıtılan çiftçilerle mirasçıları tarafından işletilebilir.",
+			"Miras yoluyla dahi intikal etmez; malikin ölümüyle Devlete geri döner.",
+			"Beş yıllık işletme süresi dolduktan sonra serbestçe devredilebilir."
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa m.44/2: bu amaçla dağıtılan topraklar BÖLÜNEMEZ, MİRAS HÜKÜMLERİ DIŞINDA başkalarına devredilemez ve ancak dağıtılan çiftçilerle mirasçıları tarafından işletilebilir. Şartların kaybı hâlinde toprağın Devletçe geri alınmasına ilişkin esaslar kanunla düzenlenir. Miras yoluyla intikal mümkündür; yasak, miras dışı devirlere ilişkindir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "44"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toprak-mulkiyeti",
+			"sosyal-ekonomik-odevler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-thakl-074",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 45. maddesine göre Devletin tarım arazileri ile çayır ve meralar bakımından yükümlülüğü aşağıdakilerden hangisidir?",
+		"options": [
+			"Yalnızca sulama tesislerini kurmak ve işletmek",
+			"Mülkiyetini yalnızca çiftçilik yapanlara tahsis etmek",
+			"Sahiplerine her yıl doğrudan gelir desteği ödemek",
+			"Tamamını kamulaştırarak Devlet işletmelerine dönüştürmek",
+			"Amaç dışı kullanılmasını ve tahribini önlemek"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa m.45/1'e göre Devlet, tarım arazileri ile çayır ve meraların AMAÇ DIŞI KULLANILMASINI VE TAHRİBİNİ ÖNLEMEK, tarımsal üretim planlaması ilkelerine uygun olarak bitkisel ve hayvansal üretimi artırmak maksadıyla, tarım ve hayvancılıkla uğraşanların işletme araç ve gereçlerinin sağlanmasını kolaylaştırır. İkinci fıkra ayrıca ürünlerin gerçek değerinin üreticinin eline geçmesi için tedbir alınmasını öngörür.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "45"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tarim-ve-hayvancilik",
+			"sosyal-ekonomik-odevler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-thakl-075",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 47. maddesine göre devletleştirme bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Özelleştirmeye ilişkin esas ve usuller Anayasada tek tek sayılmıştır.",
+			"Her türlü özel teşebbüs, kamu yararı gerekçesiyle karşılıksız olarak devletleştirilebilir.",
+			"Devletleştirme yalnızca Cumhurbaşkanlığı kararnamesiyle yapılabilir.",
+			"Kamu hizmeti niteliği taşıyan özel teşebbüsler, kamu yararının zorunlu kıldığı hâllerde ve gerçek karşılığı üzerinden devletleştirilebilir.",
+			"Devletleştirmede bedel, her hâlde en çok beş yılda eşit taksitlerle ödenir."
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa m.47: kamu hizmeti niteliği taşıyan ÖZEL TEŞEBBÜSLER, kamu yararının zorunlu kıldığı hâllerde devletleştirilebilir ve devletleştirme GERÇEK KARŞILIĞI üzerinden yapılır; karşılığın hesaplanma tarzı ve usulleri kanunla düzenlenir. Özelleştirmeye ilişkin esas ve usuller de Anayasada sayılmaz, KANUNLA gösterilir. Beş yılda taksitle ödeme, devletleştirmenin değil kamulaştırmanın (m.46) istisnai hâllerine ilişkin kuraldır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "47"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"devletlestirme",
+			"ozellestirme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-thakl-076",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 55. maddesine göre asgarî ücretin tespitinde aşağıdakilerden hangisi göz önünde bulundurulur?",
+		"options": [
+			"Yalnızca çalışanların geçim şartları",
+			"Yalnızca ülkenin ekonomik durumu",
+			"Kamu görevlilerine toplu sözleşmeyle verilen zam oranı",
+			"Yalnızca işverenlerin ödeme gücü",
+			"Çalışanların geçim şartları ile ülkenin ekonomik durumu"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa m.55, “Ücret emeğin karşılığıdır” diyerek başlar ve Devlete çalışanların yaptıkları işe uygun adaletli bir ücret elde etmeleri için tedbir alma ödevi yükler. 2001 değişikliğiyle son fıkraya eklenen ölçüt İKİLİDİR: asgarî ücretin tespitinde çalışanların GEÇİM ŞARTLARI ile ülkenin EKONOMİK DURUMU birlikte göz önünde bulundurulur.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "55"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ucrette-adalet",
+			"asgari-ucret"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-thakl-077",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 58. maddesine göre Devlet, gençleri aşağıdakilerin hangisinden korumak için gerekli tedbirleri alır?",
+		"options": [
+			"Yalnızca suçluluk ve kumardan",
+			"Yalnızca uyuşturucu maddelerden ve alkol düşkünlüğünden",
+			"Alkol düşkünlüğünden, uyuşturucu maddelerden, suçluluk, kumar ve benzeri kötü alışkanlıklardan ve cehaletten",
+			"Yalnızca zararlı yayınlardan ve kötü alışkanlıklardan",
+			"Yalnızca cehaletten ve işsizlikten"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa m.58/2'de Devletin gençleri koruyacağı hâller tek tek sayılır: ALKOL DÜŞKÜNLÜĞÜ, UYUŞTURUCU MADDELER, SUÇLULUK, KUMAR VE BENZERİ KÖTÜ ALIŞKANLIKLAR ve CEHALET. Maddenin birinci fıkrası ayrıca gençlerin müspet ilmin ışığında, Atatürk ilke ve inkılapları doğrultusunda yetişmelerini sağlayıcı tedbirleri Devlete ödev olarak yükler.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "58"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gencligin-korunmasi",
+			"sosyal-ekonomik-odevler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-thakl-078",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 61. maddesinde “sosyal güvenlik bakımından özel olarak korunması gerekenler” arasında aşağıdakilerden hangisi SAYILMAMIŞTIR?",
+		"options": [
+			"Malûller ve gaziler",
+			"Yabancı ülkelerde çalışan Türk vatandaşları",
+			"Harp ve vazife şehitlerinin dul ve yetimleri",
+			"Yaşlılar",
+			"Korunmaya muhtaç çocuklar"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa m.61, korunacak grupları sayar: harp ve vazife şehitlerinin dul ve yetimleriyle malûl ve gaziler, engelliler (madde metnindeki ifadeyle “sakatlar”), yaşlılar ve korunmaya muhtaç çocuklar. YABANCI ÜLKELERDE ÇALIŞAN TÜRK VATANDAŞLARI bu maddede değil, hemen ardından gelen 62. maddede düzenlenir; Devlet onların aile birliğinin, çocuklarının eğitiminin ve anavatanla bağlarının korunması için tedbir alır.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "61"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sosyal-guvenlik",
+			"ozel-olarak-korunmasi-gerekenler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-thakl-079",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 68. maddesine göre siyasi parti üyeliği bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Memurlar, amirlerinden izin almak kaydıyla siyasi partilere üye olabilir.",
+			"Parti üyesi olabilmek için onsekiz yaşını doldurmuş olmak gerekir ve kamu kurum ve kuruluşlarının memur statüsündeki görevlileri siyasi partilere üye olamaz.",
+			"Hâkimler ve savcılar siyasi partilere üye olabilir; yalnızca parti yönetim organlarında görev alamaz.",
+			"Parti üyesi olabilmek için yirmi bir yaşını doldurmuş olmak gerekir.",
+			"Yükseköğretim öncesi öğrenciler siyasi partilere üye olabilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa m.68/1'e göre parti üyesi olabilmek için ONSEKİZ yaşını doldurmuş olmak gerekir. Beşinci fıkra ise üye olamayacakları sayar: hâkimler ve savcılar, Sayıştay dâhil yüksek yargı organları mensupları, KAMU KURUM VE KURULUŞLARININ MEMUR STATÜSÜNDEKİ GÖREVLİLERİ, yaptıkları hizmet bakımından işçi niteliği taşımayan diğer kamu görevlileri, Silahlı Kuvvetler mensupları ve yükseköğretim öncesi öğrencileri. Bu yasak izinle aşılabilecek bir yasak değildir.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "68"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siyasi-partiler",
+			"parti-uyeligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-thakl-080",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 68. maddesine göre siyasi partilerle ilgili aşağıdaki ifadelerden hangisi YANLIŞTIR?",
+		"options": [
+			"Siyasi partiler, demokratik siyasi hayatın vazgeçilmez unsurlarıdır.",
+			"Vatandaşlar, siyasi parti kurma ve usulüne göre partilere girme ve partilerden ayrılma hakkına sahiptir.",
+			"Siyasi partilere Devlet, yeterli düzeyde ve hakça malî yardım yapar.",
+			"Siyasi partiler, kurulmadan önce Yargıtay Cumhuriyet Başsavcılığından izin almak zorundadır.",
+			"Siyasi partilerin tüzük ve programları ile eylemleri, Devletin ülkesi ve milletiyle bölünmez bütünlüğüne aykırı olamaz."
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa m.68/3 açıktır: siyasi partiler ÖNCEDEN İZİN ALMADAN kurulurlar ve Anayasa ve kanun hükümleri içerisinde faaliyetlerini sürdürürler. Diğer şıkların tamamı maddenin lafzıdır: partiler demokratik siyasi hayatın vazgeçilmez unsurudur (f.2), tüzük, program ve eylemleri için sınırlar sayılmıştır (f.4) ve Devlet partilere yeterli düzeyde ve hakça malî yardım yapar (son fıkra).",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "68"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siyasi-partiler",
+			"devlet-yardimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

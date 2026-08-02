@@ -2495,5 +2495,171 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "657-disiplin-077",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "zor",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği'ne göre il millî eğitim disiplin kurulunun başkanı kimdir?",
+		"options": [
+			"İl millî eğitim müdürü",
+			"En kıdemli eğitim kurumu müdürü",
+			"Personelden sorumlu şube müdürü",
+			"Vali",
+			"Valinin görevlendireceği vali yardımcısı"
+		],
+		"correctIndex": 4,
+		"explanation": "Disiplin Yönetmeliği m.11'e göre il millî eğitim disiplin kurulu, VALİNİN GÖREVLENDİRECEĞİ VALİ YARDIMCISININ BAŞKANLIĞINDA; il millî eğitim müdürü, vali tarafından görevlendirilen millî eğitim müdürlüğünde personelden sorumlu bir şube müdürü ve biri ilköğretim, diğeri ortaöğretim kurumları müdürlerinden olmak üzere iki eğitim kurumu müdürü ile varsa memurun üyesi olduğu sendikanın temsilcisinden oluşur. İl millî eğitim müdürü kurulun başkanı değil, üyesidir.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"il-milli-egitim-disiplin-kurulu",
+			"kurul-olusumu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-disiplin-078",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "uzman",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği'ne göre il özel idare disiplin kurulu kimlerden oluşur?",
+		"options": [
+			"Valinin başkanlığında, il özel idare birim müdürlerinden",
+			"Vali yardımcısının başkanlığında, il genel meclisi üyelerinden",
+			"Genel sekreterin başkanlığında, vali tarafından görevlendirilen dört il özel idare yöneticisi ile varsa memurun üyesi olduğu sendikanın temsilcisinden",
+			"Genel sekreter yardımcısının başkanlığında, iki il özel idare yöneticisinden",
+			"İl encümeni üyelerinden"
+		],
+		"correctIndex": 2,
+		"explanation": "Disiplin Yönetmeliği m.13'ün birinci fıkrasına göre il özel idare disiplin kurulu; GENEL SEKRETERİN BAŞKANLIĞINDA, VALİ TARAFINDAN GÖREVLENDİRİLEN DÖRT il özel idare yöneticisi ile varsa memurun üyesi olduğu sendikanın temsilcisinden oluşur. Aynı madde belediyeler için ayrı bir düzen kurar; norm kadro standartları cetvelinde başkan yardımcısı bulunmayan ilçe ve belde belediyelerinde ise disiplin kurulu BELEDİYE ENCÜMENİ ile varsa sendika temsilcisinden oluşur.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mahalli-idareler",
+			"disiplin-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-disiplin-079",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "uzman",
+		"stem": "Cumhurbaşkanınca atanmış bir memur hakkında kademe ilerlemesinin durdurulması cezası teklif edilmiştir. Devlet Memurları Disiplin Yönetmeliği'ne göre bu teklifi incelemeye yetkili kurul hangisidir?",
+		"options": [
+			"Merkez teşkilatı disiplin kurulu",
+			"Memurun görev yerindeki disiplin kurulu",
+			"İçişleri Bakanlığı yüksek disiplin kurulu",
+			"Yüksek disiplin kurulu",
+			"Cumhurbaşkanlığı İdari İşler Başkanlığı disiplin kurulu"
+		],
+		"correctIndex": 0,
+		"explanation": "Disiplin Yönetmeliği m.25'in kuralı, yetkiyi FİİLİN İŞLENDİĞİ SIRADA memurun görev yerindeki disiplin kuruluna verir; ancak kademe ilerlemesinin durdurulması teklifini inceleme yönünden üç istisna sayar ve bunların ilkinde CUMHURBAŞKANINCA ATANMIŞ memurlar hakkında MERKEZ TEŞKİLATI DİSİPLİN KURULU yetkilidir. Diğer iki istisna, cezanın bakan veya üst yönetici tarafından verilecek olması ile doğrudan merkeze bağlı taşra teşkilatında çalışan memurlardır.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "25"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yetkili-disiplin-kurulu",
+			"kademe-ilerlemesinin-durdurulmasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-disiplin-080",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "uzman",
+		"stem": "Bir belediyede görev yapan memur hakkında Devlet memurluğundan çıkarma cezası verilmesi istenmektedir. Devlet Memurları Disiplin Yönetmeliği'ne göre bu cezayı vermeye yetkili kurul hangisidir?",
+		"options": [
+			"Çevre, Şehircilik ve İklim Değişikliği Bakanlığı yüksek disiplin kurulu",
+			"Belediyenin kendi yüksek disiplin kurulu",
+			"Belediye encümeni",
+			"İl özel idare disiplin kurulu",
+			"İçişleri Bakanlığı yüksek disiplin kurulu"
+		],
+		"correctIndex": 4,
+		"explanation": "Disiplin Yönetmeliği m.26'nın birinci fıkrasına göre Devlet memurluğundan çıkarma cezasını vermeye ve kademe ilerlemesinin durdurulması cezasına karşı yapılan itirazları değerlendirmeye kural olarak memurun bağlı bulunduğu kamu idaresinin yüksek disiplin kurulu yetkilidir. İkinci fıkra MAHALLÎ İDARELERDE görev yapan memurlar için özel bir kural koyar: bu yetki İÇİŞLERİ BAKANLIĞI YÜKSEK DİSİPLİN KURULUNA aittir.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "26"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yuksek-disiplin-kurulu",
+			"mahalli-idareler",
+			"memurluktan-cikarma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-disiplin-076",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"difficulty": "orta",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği'ne göre bakanlıklarda yüksek disiplin kurulunun başkanı kimdir?",
+		"options": [
+			"Hukuk hizmetlerini yürüten birimin yöneticisi",
+			"Personel genel müdürü",
+			"Bakan",
+			"Bakan tarafından görevlendirilen bakan yardımcısı",
+			"Teftiş kurulu başkanı"
+		],
+		"correctIndex": 3,
+		"explanation": "Disiplin Yönetmeliği m.16, yüksek disiplin kurullarının başkanını idare türüne göre ayrı ayrı belirler: Cumhurbaşkanlığı İdari İşler Başkanlığında İDARİ İŞLER BAŞKANI, BAKANLIKLARDA bakan tarafından görevlendirilen BAKAN YARDIMCISI, diğer kamu idarelerinde ÜST YÖNETİCİ. Bakanlık teşkilatında kurulun başkan ve üyeleri bakan onayı ile görevlendirilir; üyelikler ise hukuk, personel, teftiş veya denetim hizmetlerini yürüten birimlerin başındaki yöneticiler esas alınarak doldurulur.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yuksek-disiplin-kurulu",
+			"baskanlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

@@ -1271,5 +1271,73 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-01"
+	},
+	{
+		"id": "anayasa-yargi-040",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "uzman",
+		"stem": "Bir milletvekili, halen görülmekte olan bir dava hakkında Türkiye Büyük Millet Meclisi Genel Kurulunda yargı yetkisinin kullanılmasına ilişkin bir görüşme açılmasını istemiştir. Anayasa'nın 138. maddesi bakımından bu talep için aşağıdakilerden hangisi söylenebilir?",
+		"options": [
+			"Görülmekte olan bir dava hakkında Yasama Meclisinde yargı yetkisinin kullanılması ile ilgili soru sorulamaz, görüşme yapılamaz veya herhangi bir beyanda bulunulamaz; talep Anayasa'ya aykırıdır.",
+			"Talep, davanın tarafı bir kamu kurumu ise Anayasa'ya uygundur.",
+			"Talep, ancak dava temyiz aşamasındaysa Anayasa'ya aykırıdır.",
+			"Talep yerindedir; Meclis, görülmekte olan davalar hakkında her zaman görüşme açabilir.",
+			"Talep, yalnızca Meclis soruşturması kapsamındaki davalar bakımından Anayasa'ya aykırıdır."
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa m.138/3, mahkemelerin bağımsızlığını yasama organına karşı da korur: GÖRÜLMEKTE OLAN BİR DAVA hakkında Yasama Meclisinde yargı yetkisinin kullanılması ile ilgili SORU SORULAMAZ, GÖRÜŞME YAPILAMAZ veya herhangi bir BEYANDA BULUNULAMAZ. Yasak davanın türüne veya aşamasına bağlı değildir. Aynı maddenin ikinci fıkrası da hiçbir organ, makam, merci veya kişinin mahkemelere emir ve talimat veremeyeceğini, genelge gönderemeyeceğini, tavsiye ve telkinde bulunamayacağını hükme bağlar.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "138"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mahkemelerin-bagimsizligi",
+			"yasama-yasagi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yargi-041",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 141. maddesine göre davaların en az giderle ve mümkün olan süratle sonuçlandırılması kimin görevidir?",
+		"options": [
+			"Hâkimler ve Savcılar Kurulunun",
+			"Türkiye Büyük Millet Meclisinin",
+			"Tarafların ve vekillerinin",
+			"Yargının",
+			"Adalet Bakanlığının"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa m.141'in son fıkrası: “Davaların en az giderle ve mümkün olan süratle sonuçlandırılması, YARGININ görevidir.” Aynı madde duruşmaların herkese açık olduğunu, kapalılığa ancak genel ahlakın veya kamu güvenliğinin kesin olarak gerekli kıldığı hâllerde karar verilebileceğini, küçüklerin yargılanması hakkında kanunla özel hükümler konulacağını ve bütün mahkemelerin her türlü kararlarının gerekçeli olarak yazılacağını düzenler.",
+		"legalRef": {
+			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "141"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"usul-ekonomisi",
+			"yarginin-gorevi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]
