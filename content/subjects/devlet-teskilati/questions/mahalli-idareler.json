@@ -1,0 +1,352 @@
+[
+	{
+		"id": "dt-mi-001",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "5393 sayılı Belediye Kanunu'na göre belediyenin organları aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"Belediye meclisi ve belediye başkanı",
+			"Belediye başkanı ve ihtisas komisyonları",
+			"Belediye meclisi, belediye encümeni ve belediye başkanı",
+			"Belediye meclisi, belediye encümeni ve denetim komisyonu",
+			"Belediye meclisi, belediye encümeni ve mahalle muhtarları"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 3. maddesinin (b) bendine göre belediyenin organları belediye meclisi, belediye encümeni ve belediye başkanıdır. İhtisas komisyonları ve denetim komisyonu meclis bünyesinde kurulan çalışma birimleridir; ayrı birer organ değildir.",
+		"legalRef": {
+			"law": "5393 sayılı Belediye Kanunu",
+			"lawId": "5393",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"belediye",
+			"organlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-mi-002",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "5302 sayılı İl Özel İdaresi Kanunu'na göre il özel idaresinin organları aşağıdakilerden hangisidir?",
+		"options": [
+			"İl genel meclisi, il encümeni ve il genel meclisi başkanı",
+			"İl genel meclisi ve vali",
+			"İl encümeni ve genel sekreter",
+			"İl genel meclisi, il encümeni ve vali",
+			"Vali ve il idare kurulu"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 3. maddesinin (b) bendine göre il özel idaresinin organları il genel meclisi, il encümeni ve validir. Valinin aynı zamanda bir mahallî idarenin organı olması bu idarenin ayırt edici özelliğidir; belediyede karşılık gelen organ seçimle gelen belediye başkanıdır.",
+		"legalRef": {
+			"law": "5302 sayılı İl Özel İdaresi Kanunu",
+			"lawId": "5302",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"il-ozel-idaresi",
+			"organlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-mi-003",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "442 sayılı Köy Kanunu'na göre her köyde bulunması öngörülen yapılar aşağıdakilerden hangisidir?",
+		"options": [
+			"Yalnızca köy muhtarı",
+			"Köy derneği ve köy meclisi",
+			"Köy derneği, köy muhtarı ve ihtiyar meclisi",
+			"Köy muhtarı ve köy azaları",
+			"Köy muhtarı, köy encümeni ve köy meclisi"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 20. maddesine göre her köyde bir köy derneği, bir köy muhtarı ve bir de ihtiyar meclisi bulunur. Köy muhtarını ve ihtiyar meclisi üyelerini seçmeye hakkı olan kadın ve erkek köylülerin toplanmasına köy derneği denir; köy muhtarı ihtiyar meclisinin başıdır.",
+		"legalRef": {
+			"law": "442 sayılı Köy Kanunu",
+			"lawId": "442",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koy",
+			"organlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-mi-004",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5216 sayılı Kanun'a göre bir ilin il belediyesinin büyükşehir belediyesine dönüştürülebilmesi için aranan nüfus ölçütü nedir?",
+		"options": [
+			"Toplam nüfusunun 100.000'den fazla olması",
+			"Toplam nüfusunun 750.000'den fazla olması",
+			"Toplam nüfusunun 2.000.000'dan fazla olması",
+			"Toplam nüfusunun 500.000'den fazla olması",
+			"Toplam nüfusunun 1.000.000'dan fazla olması"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 12/11/2012 tarihli ve 6360 sayılı Kanunla değiştirilen 4. maddesine göre toplam nüfusu 750.000'den fazla olan illerin il belediyeleri kanunla büyükşehir belediyesine dönüştürülebilir. Dönüştürme idari bir kararla değil, kanunla yapılır.",
+		"legalRef": {
+			"law": "5216 sayılı Büyükşehir Belediyesi Kanunu",
+			"lawId": "5216",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"buyuksehir",
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-mi-005",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "İl belediyeleri ile nüfusu 100.000'in üzerindeki belediyelerde belediye encümeni kaç kişiden oluşur?",
+		"options": [
+			"9",
+			"5",
+			"3",
+			"11",
+			"7"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 33. maddesinin (a) bendine göre il belediyeleri ile nüfusu 100.000'in üzerindeki belediyelerde encümen; belediye başkanının başkanlığında, meclisin kendi üyeleri arasından bir yıl için gizli oyla seçeceği üç üye, malî hizmetler birim amiri ve başkanın birim amirleri arasından seçeceği iki üye olmak üzere yedi kişiden oluşur. Diğer belediyelerde bu sayı beştir.",
+		"legalRef": {
+			"law": "5393 sayılı Belediye Kanunu",
+			"lawId": "5393",
+			"article": "33"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"belediye",
+			"encumen"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-mi-006",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5302 sayılı Kanun'a göre il encümeni kimlerden oluşur?",
+		"options": [
+			"Valinin başkanlığında, genel sekreter ile il genel meclisinin her yıl kendi üyeleri arasından seçeceği üç üye ve valinin her yıl birim amirleri arasından seçeceği iki üyeden",
+			"Genel sekreterin başkanlığında yedi üyeden",
+			"Valinin başkanlığında yalnızca il genel meclisi üyelerinden",
+			"Valinin başkanlığında ildeki kaymakamlardan",
+			"İl genel meclisi başkanının başkanlığında beş üyeden"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 25. maddesine göre il encümeni valinin başkanlığında, genel sekreter ile il genel meclisinin her yıl kendi üyeleri arasından seçeceği üç üye ve valinin her yıl birim amirleri arasından seçeceği iki üyeden oluşur. Valinin katılamadığı encümen toplantısına genel sekreter başkanlık eder.",
+		"legalRef": {
+			"law": "5302 sayılı İl Özel İdaresi Kanunu",
+			"lawId": "5302",
+			"article": "25"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"il-ozel-idaresi",
+			"encumen"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-mi-007",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5393 sayılı Kanun'a göre belediye meclisinin toplanma düzeni ve toplantı süreleri aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"Her ayın son haftası toplanır; bütçe toplantısı en çok otuz gündür",
+			"Üç ayda bir toplanır; toplantı süresi en çok on gündür",
+			"Her ayın ilk haftası önceden kararlaştırdığı günde toplanır; bütçe görüşmesine rastlayan toplantı süresi en çok yirmi, diğer toplantıların süresi en çok beş gündür",
+			"Her ayın ilk haftası toplanır; bütün toplantıların süresi en çok üç gündür",
+			"Yılda iki defa toplanır; toplantı süresini vali belirler"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 20. maddesine göre belediye meclisi her ayın ilk haftası, önceden kararlaştırdığı günde toplanır. Bütçe görüşmesine rastlayan toplantı süresi en çok yirmi gün, diğer toplantıların süresi en çok beş gündür. Meclis her yıl bir ay tatil kararı alabilir; belediye başkanı acil durumlarda meclisi bir yılda üç defadan fazla olmamak üzere olağanüstü toplantıya çağırabilir.",
+		"legalRef": {
+			"law": "5393 sayılı Belediye Kanunu",
+			"lawId": "5393",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"belediye",
+			"meclis"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-mi-008",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5393 sayılı Kanun'a göre belediyelerde denetim komisyonu nasıl oluşturulur?",
+		"options": [
+			"Yalnızca nüfusu 50.000'in üzerindeki belediyelerde oluşturulması zorunludur",
+			"Bütün belediyelerde, meclisin her nisan ayı toplantısında açık oyla oluşturulur",
+			"Belediye encümeni üyeleri arasından seçilerek oluşturulur",
+			"İl ve ilçe belediyeleri ile nüfusu 10.000'in üzerindeki belediyelerde, meclisin her ocak ayı toplantısında kendi üyeleri arasından gizli oyla, üyesi üçten az beşten çok olmamak üzere oluşturulur",
+			"Belediye başkanınca birim amirleri arasından oluşturulur"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 25. maddesine göre il ve ilçe belediyeleri ile nüfusu 10.000'in üzerindeki belediyelerde belediye meclisi, her ocak ayı toplantısında bir önceki yılın gelir ve giderleri ile hesap kayıt ve işlemlerinin denetimi için kendi üyeleri arasından gizli oyla ve üye sayısı üçten az beşten çok olmamak üzere bir denetim komisyonu oluşturur.",
+		"legalRef": {
+			"law": "5393 sayılı Belediye Kanunu",
+			"lawId": "5393",
+			"article": "25"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"belediye",
+			"denetim-komisyonu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-mi-009",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir büyükşehir belediyesi sınırları içindeki ilçe belediye başkanları, büyükşehir belediye meclisi bakımından hangi konumdadır?",
+		"options": [
+			"Meclise yalnızca oy hakkı olmaksızın katılabilirler",
+			"Yalnızca bütçe görüşmelerine katılabilirler",
+			"Meclis üyeliği için ayrıca seçilmeleri gerekir",
+			"Büyükşehir belediye meclisiyle hiçbir organik bağları yoktur",
+			"Büyükşehir belediye meclisinin doğal üyesidir"
+		],
+		"correctIndex": 4,
+		"explanation": "5216 sayılı Kanun'un 12. maddesine göre büyükşehir belediye başkanı büyükşehir belediye meclisinin başkanıdır ve büyükşehir içindeki diğer belediyelerin başkanları büyükşehir belediye meclisinin doğal üyesidir. Doğal üyelik ayrı bir seçim gerektirmez ve oy hakkını da kapsar.",
+		"legalRef": {
+			"law": "5216 sayılı Büyükşehir Belediyesi Kanunu",
+			"lawId": "5216",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"buyuksehir",
+			"meclis"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-mi-010",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Mahallî idarelere ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"442 sayılı Köy Kanunu'na göre nüfusu iki bin ile yirmi bin arasında olan yerleşim yerlerine köy denir.",
+			"İl özel idaresinin görev alanı il sınırlarını kapsar.",
+			"Belediye, karar organı seçmenler tarafından seçilerek oluşturulan, idarî ve malî özerkliğe sahip bir kamu tüzel kişisidir.",
+			"Belediye meclisi, üyeleri arasından en az üç en fazla beş kişiden oluşan ihtisas komisyonları kurabilir.",
+			"Köy, kanunla kendisine verilen işleri yapan ve şahsı manevisi bulunan başlı başına bir varlıktır."
+		],
+		"correctIndex": 0,
+		"explanation": "442 sayılı Kanun'un 1. maddesine göre nüfusu iki binden aşağı yurtlara köy, nüfusu iki bin ile yirmi bin arasında olanlara kasaba, yirmi binden çok nüfusu olanlara şehir denir. Yani iki bin–yirmi bin aralığı köyü değil kasabayı tanımlar. Diğer dört ifade 5393 sayılı Kanun'un 3 ve 24, 442 sayılı Kanun'un 7 ve 5302 sayılı Kanun'un 5. maddesiyle uyumludur.",
+		"legalRef": {
+			"law": "442 sayılı Köy Kanunu",
+			"lawId": "442",
+			"article": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koy",
+			"tanimlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	}
+]
