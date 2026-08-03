@@ -1,0 +1,344 @@
+[
+	{
+		"id": "dt-ukky-001",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "3 sayılı Cumhurbaşkanlığı Kararnamesi'ne ekli (I) sayılı cetvelde yer alan kadro, pozisyon ve görevlere atama nasıl yapılır?",
+		"options": [
+			"Cumhurbaşkanı yardımcısının kararıyla",
+			"Kurumun atamaya yetkili amirinin onayıyla",
+			"İlgili bakanın onayıyla",
+			"Cumhurbaşkanı kararıyla",
+			"Türkiye Büyük Millet Meclisi kararıyla"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 2. maddesine göre ekli (I) ve (II) sayılı cetvellerde yer alan kadro, pozisyon ve görevlere Cumhurbaşkanı kararıyla atama yapılır. Bu cetvellerde sayılmayan kadro, pozisyon ve görevlere ise ilgili Cumhurbaşkanı yardımcısı, bakan veya atamaya yetkili amirler tarafından atama yapılır.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"atama"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-ukky-002",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "(I) sayılı cetvelde yer alan üst kademe kamu yöneticiliklerine atanacaklarda aranan öğrenim şartı nedir?",
+		"options": [
+			"Doktora derecesine sahip olmak",
+			"En az lise mezunu olmak",
+			"Yüksek lisans derecesine sahip olmak",
+			"En az iki yıllık yükseköğrenim mezunu olmak",
+			"En az dört yıllık yükseköğrenim mezunu olmak"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 3. maddesinin birinci fıkrasına göre atanacaklarda 657 sayılı Kanun'un 48. maddesindeki genel şartları taşımak, en az dört yıllık yükseköğrenim mezunu olmak ve en az beş yıl çalışmış olmak şartları birlikte aranır.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"atama-sartlari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-ukky-003",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "(I) sayılı cetveldeki üst kademe kamu yöneticiliklerine atanabilmek için en az kaç yıl çalışmış olmak gerekir?",
+		"options": [
+			"12",
+			"10",
+			"2",
+			"5",
+			"3"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 3. maddesinin birinci fıkrasının (c) bendine göre, kamuda ve/veya sosyal güvenlik kurumlarına tabi olmak kaydıyla uluslararası kuruluşlar ile özel sektörde veya serbest olarak en az beş yıl çalışmış olmak şartı aranır. Süre yalnızca kamuda geçen hizmetle sınırlı değildir.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"atama-sartlari",
+			"sure"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-ukky-004",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "(I) sayılı cetvelde yer alan üst kademe kamu yöneticilerinin görev süresi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Görev süresi dört yıldır",
+			"Görev süresi üç yıldır ve yalnızca bir kez yenilenebilir",
+			"Görev süresi, atandıkları tarihte görevde bulunan Cumhurbaşkanının görev süresini geçemez",
+			"Görev süresizdir; yaş haddine kadar devam eder",
+			"Görev süresi beş yıldır ve uzatılamaz"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 4. maddesine göre bu kişilerin görev süresi, atandıkları tarihte görevde bulunan Cumhurbaşkanının görev süresini geçemez. Süre sabit bir yıl sayısına değil, Cumhurbaşkanının görev süresine bağlanmıştır.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorev-suresi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-ukky-005",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Cumhurbaşkanının görevi sona erdiğinde (I) sayılı cetvelde yer alan üst kademe kamu yöneticilerinin durumu ne olur?",
+		"options": [
+			"Görevleri de sona erer; ancak yerlerine atama yapılıncaya kadar görevlerine devam ederler",
+			"Görevleri Cumhurbaşkanının görev süresinden etkilenmez",
+			"Görevleri kendiliğinden bir dönem daha uzar",
+			"Görevlerine devam edip edemeyecekleri Türkiye Büyük Millet Meclisi kararıyla belirlenir",
+			"Görevleri derhâl sona erer ve aynı gün itibarıyla görevleriyle ilişikleri kesilir"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 4. maddesine göre Cumhurbaşkanının görevi sona erdiğinde bunların da görevi sona erer; ancak kamu hizmetinin kesintiye uğramaması için yerlerine atama yapılıncaya kadar görevlerine devam ederler. Görev süreleri sona erenler yeniden atanabilir.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorev-suresi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-ukky-006",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "3 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre rektörler kimler arasından atanır?",
+		"options": [
+			"Daha önce dekanlık yapmış olanlar arasından",
+			"Profesörlük yapanlar arasından",
+			"Doktora derecesine sahip olan herkes arasından",
+			"Doçentlik unvanına sahip olanlar arasından",
+			"Yükseköğretim Kurulu üyeleri arasından"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 3. maddesinin beşinci fıkrasına göre rektörler, profesörlük yapanlar arasından atanır. Ayrıca (I) sayılı cetveldeki bir kadronun boşalması hâlinde rektörler bakımından görevlendirme yetkisi Yükseköğretim Kurulu Başkanına aittir.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"rektor",
+			"atama"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-ukky-007",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "(I) sayılı cetvelde yer alan bir kadro, pozisyon veya görevin boşalması hâlinde yapılacak görevlendirme bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Görevlendirme yetkisi Cumhurbaşkanlığı Genel Sekreterine aittir",
+			"Görevlendirme yapılamaz; kadro, atama yapılıncaya kadar boş kalır",
+			"Yalnızca Cumhurbaşkanı görevlendirme yapabilir",
+			"Görevlendirme bir ay içinde Cumhurbaşkanlığına bildirilir",
+			"Rektörler bakımından Yükseköğretim Kurulu Başkanı, diğerleri bakımından ilgili Cumhurbaşkanı yardımcısı veya bakan görevlendirme yapabilir; bu görevlendirmeler aynı gün Cumhurbaşkanlığına bildirilir"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 2. maddesinin dördüncü fıkrasına göre boşalma hâlinde rektörler bakımından Yükseköğretim Kurulu Başkanı, diğerleri bakımından ilgili Cumhurbaşkanı yardımcısı veya bakan tarafından görevlendirme yapılabilir ve bu görevlendirmeler aynı gün Cumhurbaşkanlığına bildirilir. Bildirim süresi bir ay değil, aynı gündür.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorevlendirme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-ukky-008",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Üst kademe kamu yöneticileriyle yapılan hizmet sözleşmeleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Sözleşmeler süresiz olarak yapılır",
+			"Sözleşme süresi her hâlükârda beş yıldır",
+			"Üst kademe kamu yöneticileri sözleşmeli olarak çalıştırılamaz",
+			"Sözleşme süresi, üst kademe kamu yöneticisinin görev süresi ile sınırlıdır",
+			"Sözleşme süresi görev süresini aşacak şekilde serbestçe belirlenebilir"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 5. maddesine göre (I) sayılı cetveldeki kadro, pozisyon ve görevlere atananlar sözleşmeli olarak da çalıştırılabilir ve sözleşme süresi görev süresi ile sınırlıdır. Görev süresi sona eren veya görevden alınan yöneticinin görevle ilişiği kesilir ve sözleşmesi feshedilmiş sayılır.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sozlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-ukky-009",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "(I) sayılı cetvelde yer alan bir üst kademe kamu yöneticisi, görev süresi dolmadan Cumhurbaşkanınca görevden alınmıştır. Bu işlem için ne söylenebilir?",
+		"options": [
+			"Kararname bu imkânı açıkça tanımaktadır; bu kişiler görev süreleri sona ermeden de Cumhurbaşkanınca görevden alınabilir",
+			"Görevden alma ancak disiplin cezası gerektiren bir fiilin varlığı hâlinde mümkündür",
+			"Görev süresi dolmadan görevden alma hiçbir şekilde mümkün değildir",
+			"Görevden alma için Türkiye Büyük Millet Meclisi kararı gerekir",
+			"Görevden alınan kişi aynı göreve bir daha atanamaz"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 4. maddesinin son cümlesine göre bu kişiler, görev süreleri sona ermeden de Cumhurbaşkanınca görevden alınabilir. Görevden alma bir disiplin yaptırımı değildir; üst kademe yöneticiliğinin güvenceli memuriyetten ayrılan yanı budur. Görev süresi sona erenler ayrıca yeniden atanabilir.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorevden-alma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-ukky-010",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "3 sayılı Cumhurbaşkanlığı Kararnamesi'ne ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Cumhurbaşkanı, atamaya yetkili amirlere ait yetkileri haizdir.",
+			"Cumhurbaşkanı yardımcısı ve bakan, atama yetkisini alt kademedeki yöneticilere devredebilir.",
+			"Kararname, kamu iktisadi teşebbüslerini de kapsamına almıştır.",
+			"Görev süreleri sona erenler yeniden atanabilir.",
+			"Ekli cetvellerde sayılmayan kadro, pozisyon ve görevlere ilgili Cumhurbaşkanı yardımcısı, bakan veya atamaya yetkili amirler atama yapar."
+		],
+		"correctIndex": 2,
+		"explanation": "19/2/2026 tarihli ve 194 sayılı Cumhurbaşkanlığı Kararnamesiyle 1. maddenin ikinci fıkrasına eklenen cümleye göre kamu iktisadi teşebbüsleri ile ekli cetvellerde kadro, pozisyon ve görevlerine yer verilenler hariç kamu işletmeleri bu Kararname kapsamında yer almaz. Diğer dört ifade 2 ve 4. madde hükümleriyle uyumludur.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kapsam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	}
+]

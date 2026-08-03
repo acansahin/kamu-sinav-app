@@ -1,0 +1,347 @@
+[
+	{
+		"id": "dt-il-001",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "5442 sayılı İl İdaresi Kanunu'na göre il genel idaresinin başı ve mercii kimdir?",
+		"options": [
+			"İl idare kurulu",
+			"Vali",
+			"Büyükşehir belediye başkanı",
+			"Vali muavini",
+			"İl genel meclisi başkanı"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 4. maddesine göre il genel idaresinin başı ve mercii validir. Bakanlıkların kuruluş mevzuatına göre illerde bulunan teşkilatın başındakiler il idare şube başkanlarıdır ve bu teşkilat valinin emri altındadır. Yargı mensupları ile askerî birlikler bu hükmün dışındadır.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-il-002",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "5442 sayılı Kanun'a göre Türkiye, merkezî idare kuruluşu bakımından nasıl bölünmüştür?",
+		"options": [
+			"Bölgelere, bölgeler illere ve ilçelere",
+			"Yalnızca illere ve ilçelere",
+			"İllere, ilçelere ve köylere",
+			"Yalnızca illere",
+			"İllere, iller ilçelere ve ilçeler de bucaklara"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 1. maddesine göre Türkiye; merkezî idare kuruluşu bakımından coğrafya durumuna, iktisadi şartlara ve kamu hizmetlerinin gereklerine göre illere, iller ilçelere ve ilçeler de bucaklara bölünmüştür. Köy bir mahallî idare birimidir; merkezî idarenin bölümlenmesinde yer almaz.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mulki-bolum"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-il-003",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "5442 sayılı Kanun'a göre valinin ildeki hukuki konumu aşağıdakilerden hangisidir?",
+		"options": [
+			"Türkiye Büyük Millet Meclisinin temsilcisidir",
+			"İl özel idaresinin temsilcisidir",
+			"Yalnızca idari yürütme vasıtasıdır; temsil sıfatı yoktur",
+			"Cumhurbaşkanının temsilcisi ve idari yürütme vasıtasıdır",
+			"Yalnızca İçişleri Bakanının temsilcisidir"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 9. maddesine göre vali, ilde Cumhurbaşkanının temsilcisi ve idari yürütme vasıtasıdır. Bu ifade kaymakamınkinden farklıdır: 27. maddeye göre kaymakam ilçede yalnızca Cumhurbaşkanının 'idari yürütme vasıtası'dır, temsilci sıfatı taşımaz.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-il-004",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5442 sayılı Kanun'a göre ilçe genel idaresinin başı ve kaymakamın hukuki konumu aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"İlçe genel idaresinin başı kaymakamdır; kaymakam ilçede Cumhurbaşkanının temsilcisi ve idari yürütme vasıtasıdır",
+			"İlçe genel idaresinin başı, vali tarafından görevlendirilen vali muavinidir",
+			"İlçe genel idaresinin başı ve mercii kaymakamdır; kaymakam ilçede Cumhurbaşkanının idari yürütme vasıtasıdır",
+			"İlçe genel idaresinin başı ilçe idare kuruludur",
+			"İlçe genel idaresinin başı belediye başkanıdır"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 27. maddesine göre ilçe genel idaresinin başı ve mercii kaymakamdır ve kaymakam ilçede Cumhurbaşkanının idari yürütme vasıtasıdır. Sınavda sıkça ölçülen ayrım şudur: 'temsilci' sıfatı yalnızca valiye aittir (m. 9); kaymakam için Kanun bu ibareyi kullanmaz.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "27"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kaymakam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-il-005",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5442 sayılı Kanun'a göre vali, kolluk bakımından hangi konumdadır?",
+		"options": [
+			"Yalnızca olağanüstü hâl ilan edilen dönemlerde kolluk amiridir",
+			"İl sınırları içinde bulunan genel ve özel bütün kolluk kuvvet ve teşkilatının amiridir",
+			"Yalnızca genel kolluk kuvvetlerinin amiridir",
+			"Kolluk kuvvetleri üzerinde herhangi bir yetkisi yoktur",
+			"Yalnızca jandarma teşkilatının amiridir"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 11. maddesinin (A) fıkrasına göre vali, il sınırları içinde bulunan genel ve özel bütün kolluk kuvvet ve teşkilatının amiridir. Suç işlenmesini önlemek ve kamu düzen ve güvenini korumak için gereken tedbirleri alır; kolluk amir ve memurları valinin emirlerini derhâl yerine getirmekle yükümlüdür.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali",
+			"kolluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-il-006",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kamu düzeni veya güvenliğinin olağan hayatı durduracak şekilde bozulduğu hâllerde vali, ildeki belirli yerlere giriş ve çıkışı en çok ne kadar süreyle sınırlayabilir?",
+		"options": [
+			"15 gün",
+			"60 gün",
+			"7 gün",
+			"30 gün",
+			"3 gün"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 11. maddesinin (C) fıkrasına 25/7/2018 tarihli ve 7145 sayılı Kanunla eklenen paragrafa göre vali, kamu düzeni veya güvenliğinin olağan hayatı durduracak ya da kesintiye uğratacak şekilde bozulduğu hâllerde on beş günü geçmemek üzere ildeki belirli yerlere giriş ve çıkışı sınırlayabilir; kişilerin dolaşmalarını ve araçların seyirlerini düzenleyebilir veya kısıtlayabilir.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali",
+			"sure"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-il-007",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5442 sayılı Kanun'a göre il idare kurulu kimlerden oluşur?",
+		"options": [
+			"Belediye başkanının başkanlığında il müdürlerinden",
+			"Valinin başkanlığı altında hukuk işleri müdürü, defterdar, millî eğitim, bayındırlık, sağlık ve sosyal yardım, tarım ve veteriner müdürlerinden",
+			"Vali muavininin başkanlığında bütün il müdürlerinden",
+			"Valinin başkanlığında ildeki bütün kaymakamlardan",
+			"Valinin başkanlığında yalnızca il genel meclisi üyelerinden"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 57. maddesine göre il idare kurulu, valinin başkanlığı altında hukuk işleri müdürü, defterdar, millî eğitim, bayındırlık, sağlık ve sosyal yardım, tarım ve veteriner müdürlerinden teşekkül eder. Vali, kurula başkanlık etmek üzere vali muavinini görevlendirebilir.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "57"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"il-idare-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-il-008",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5442 sayılı Kanun'a göre kaymakamın ilçe memurlarına verebileceği disiplin cezaları ve bu cezaların niteliği aşağıdakilerden hangisidir?",
+		"options": [
+			"Uyarma ve kınama cezaları verebilir; kaymakamlarca re'sen verilen bu cezalar kesindir",
+			"Kademe ilerlemesinin durdurulması dâhil bütün disiplin cezalarını verebilir",
+			"Hiçbir disiplin cezası veremez; yalnızca teklifte bulunabilir",
+			"Yalnızca uyarma cezası verebilir ve bu ceza valinin onayına tabidir",
+			"Uyarma, kınama ve aylıktan kesme cezaları verebilir"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 31. maddesinin (I) fıkrasına göre kaymakam, ilçenin idare şube başkanlarıyla ikinci derecedeki memurlarına ve genel ve özel kolluk amir ve memurlarına savunmasını aldıktan sonra uyarma ve kınama cezaları verir ve uygular; kaymakamlarca re'sen verilen cezalar kesindir. Daha ağır cezalar için özel kanun hükümlerine göre teklif ve talepte bulunabilir.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "31"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kaymakam",
+			"disiplin"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-il-009",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir kaymakam, denetimi sırasında ilçe idare şube başkanlarından birinin iş başında kalmasında sakınca görmüştür. Kaymakam ne yapabilir?",
+		"options": [
+			"Hiçbir şekilde işten el çektiremez; yalnızca durumu valiye bildirir",
+			"Re'sen ve doğrudan işten el çektirebilir",
+			"İl idare kurulu kararı alınmadan işten el çektiremez",
+			"Ancak İçişleri Bakanlığının onayıyla işten el çektirebilir",
+			"Valinin muvafakatiyle bu şube başkanını işten el çektirebilir"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 31. maddesinin (D) fıkrasına göre kaymakam, denetlemesi sırasında iş başında kalmalarında mahzur gördüğü ilçe idare şube başkanlarını valinin muvafakatiyle işten el çektirebilir. Ayrım şuradadır: diğer memur ve müstahdemleri ise re'sen ve kendi sorumluluğu altında işten el çektirebilir; şube başkanları için valinin muvafakati şarttır.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "31"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kaymakam",
+			"isten-el-cektirme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-il-010",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "İl idaresine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Cumhurbaşkanı yardımcıları ve bakanlar, görevlerine ait işler için valilere re'sen emir ve talimat verirler.",
+			"Valinin bulunmadığı zamanlarda vekilliğini vali muavini yapar.",
+			"Vali, Cumhuriyet Bayramında ilde yapılacak resmî törenlere başkanlık yapar.",
+			"Valiler, ilin genel idaresinden İçişleri Bakanına karşı sorumludur.",
+			"Vali, mevzuatın verdiği yetkiyi kullanmak ve ödevleri yerine getirmek için genel emirler çıkarabilir ve bunları ilan eder."
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 9. maddesinin (A) fıkrasına göre valiler, ilin genel idaresinden Cumhurbaşkanına karşı sorumludur. Cumhurbaşkanı yardımcıları ve bakanların re'sen emir ve talimat verebilmesi bu sorumluluğu değiştirmez. Diğer dört ifade 5, 9 ve 9. madde hükümleriyle uyumludur.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali",
+			"sorumluluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	}
+]

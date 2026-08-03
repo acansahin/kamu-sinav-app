@@ -1,0 +1,347 @@
+[
+	{
+		"id": "dt-pk-001",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Cumhurbaşkanlığı politika kurullarının başkanı kimdir?",
+		"options": [
+			"Cumhurbaşkanı",
+			"Kurul üyelerince kendi aralarından seçilen başkan",
+			"Cumhurbaşkanı yardımcısı",
+			"Cumhurbaşkanlığı Genel Sekreteri",
+			"Görev alanıyla ilgili bakan"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 21. maddesinin birinci fıkrasına göre Cumhurbaşkanı, kurulların başkanıdır. Cumhurbaşkanı ayrıca kurul üyelerinden birini başkanvekili olarak görevlendirir; başkanvekili üyelerce seçilmez.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "21"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"politika-kurullari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-pk-002",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Cumhurbaşkanlığı politika kurulları en az kaç üyeden oluşur?",
+		"options": [
+			"7",
+			"9",
+			"11",
+			"3",
+			"5"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 21. maddesinin ikinci fıkrasına göre kurullar en az üç üyeden oluşur ve kurul üyeleri Cumhurbaşkanınca atanır. Maddede azami bir üye sayısı belirlenmemiştir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "21"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"politika-kurullari",
+			"sayi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-pk-003",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdakilerden hangisi Cumhurbaşkanlığı politika kurullarından biri değildir?",
+		"options": [
+			"Hukuk Politikaları Kurulu",
+			"Tarım ve Gıda Politikaları Kurulu",
+			"Maliye ve Bütçe Politikaları Kurulu",
+			"Kültür ve Sanat Politikaları Kurulu",
+			"Yerel Yönetim ve Afet Politikaları Kurulu"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 20. maddesinde kurulan politika kurulları tek tek sayılır ve aralarında Maliye ve Bütçe Politikaları Kurulu yoktur; bütçe işleri Cumhurbaşkanlığına bağlı Strateji ve Bütçe Başkanlığının görev alanındadır. Tarım ve Gıda Politikaları Kurulu ile Yerel Yönetim ve Afet Politikaları Kurulu, 28/3/2025 tarihli ve 183 sayılı Cumhurbaşkanlığı Kararnamesiyle yapılan düzenlemeyle listede yer almıştır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"politika-kurullari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-pk-004",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi Cumhurbaşkanlığına bağlı kurum ve kuruluşlardan biri değildir?",
+		"options": [
+			"Millî İstihbarat Teşkilatı Başkanlığı",
+			"Sayıştay",
+			"Diyanet İşleri Başkanlığı",
+			"Devlet Denetleme Kurulu",
+			"Strateji ve Bütçe Başkanlığı"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 37. maddesinde Cumhurbaşkanlığına bağlı kurum ve kuruluşlar sayılır; Sayıştay bunlar arasında yer almaz. Sayıştay, Anayasa'nın 160. maddesi uyarınca kamu idarelerinin gelir, gider ve mallarını Türkiye Büyük Millet Meclisi adına denetlemekle görevli bir kurumdur ve yürütmeye bağlı değildir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "37"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bagli-kuruluslar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-pk-005",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "2025 yılında yapılan düzenlemeyle Cumhurbaşkanlığına bağlı kurum ve kuruluşlar arasına eklenen başkanlık aşağıdakilerden hangisidir?",
+		"options": [
+			"Millî Saraylar İdaresi Başkanlığı",
+			"İletişim Başkanlığı",
+			"Savunma Sanayi Başkanlığı",
+			"Devlet Arşivleri Başkanlığı",
+			"Siber Güvenlik Başkanlığı"
+		],
+		"correctIndex": 4,
+		"explanation": "Siber Güvenlik Başkanlığı, 8/1/2025 tarihli ve 177 sayılı Cumhurbaşkanlığı Kararnamesiyle Kararnamenin 37. maddesindeki listeye eklenmiştir. Diğer dört başkanlık listede daha önceden yer almaktaydı.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "37"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bagli-kuruluslar",
+			"siber-guvenlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-pk-006",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yatırım ve Finans Ofisinin hukuki niteliği ve merkezi aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"Cumhurbaşkanlığına bağlı, özel bütçeli, kamu tüzel kişiliğini haiz, idarî ve malî özerkliğe sahiptir; merkezi Ankara'dadır",
+			"Kamu tüzel kişiliği yoktur; Genel Sekreterliğe bağlı bir dairedir",
+			"Bir bakanlığa bağlı, genel bütçeli bir birimdir; merkezi İstanbul'dadır",
+			"Özel hukuk tüzel kişisidir; merkezi İstanbul'dadır",
+			"Cumhurbaşkanlığına bağlıdır ancak idarî ve malî özerkliği bulunmaz"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 525. maddesine göre Yatırım ve Finans Ofisi; Cumhurbaşkanlığına bağlı, özel bütçeli, kamu tüzel kişiliğini haiz, idarî ve malî özerkliğe sahip olarak kurulmuştur. Merkezi Ankara'dadır ve gerekli görmesi hâlinde yurtiçinde ve yurtdışında çalışma bürosu açabilir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "525"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ofisler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-pk-007",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi Cumhurbaşkanlığı politika kurullarının genel görev ve yetkileri arasında yer almaz?",
+		"options": [
+			"Genişletilmiş kurul toplantıları yapmak",
+			"Görev alanlarına giren konularda kamu kurum ve kuruluşlarına görüş vermek",
+			"Cumhurbaşkanı programına uygunluk açısından bakanlıkların uygulamalarını izleyerek Cumhurbaşkanına rapor sunmak",
+			"Bakanlıkların kadro ihdas taleplerini karara bağlamak",
+			"Görev alanlarına giren konularda talep, ihtiyaç ve etki analizi yapmak veya yaptırmak"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 22. maddesinde kurulların genel görev ve yetkileri sayılır; bunların tamamı öneri geliştirme, görüş verme, izleme ve rapor sunma niteliğindedir. Kadro ihdası bir icrai işlemdir ve kurulların görevleri arasında yer almaz; kadro usulü ayrı bir Cumhurbaşkanlığı kararnamesinin konusudur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "22"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"politika-kurullari",
+			"gorevler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-pk-008",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Cumhurbaşkanlığı politika kurullarının üyeleri nasıl göreve gelir?",
+		"options": [
+			"Cumhurbaşkanı yardımcısı tarafından atanır",
+			"Kurul üyelerince kendi aralarından seçilir",
+			"Türkiye Büyük Millet Meclisi tarafından seçilir",
+			"İlgili bakanlıkların önerisi üzerine Genel Sekreterce atanır",
+			"Cumhurbaşkanınca atanır"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 21. maddesinin ikinci fıkrasına göre kurul üyeleri Cumhurbaşkanınca atanır ve Cumhurbaşkanı üyelerden birini başkanvekili olarak görevlendirir. Kurulların başkanı da Cumhurbaşkanının kendisidir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "21"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"politika-kurullari",
+			"atama"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-pk-009",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir Cumhurbaşkanlığı politika kurulu, görev alanına giren bir konuda bir bakanlığa doğrudan bağlayıcı talimat vermiştir. Bu işlem için ne söylenebilir?",
+		"options": [
+			"Kurul bu yetkisini yalnızca başkanvekili aracılığıyla kullanabilir",
+			"Kurulların bağlayıcı talimat verme yetkisi yoktur; görev alanlarına giren konularda görüş verir, Cumhurbaşkanına öneri ve rapor sunarlar",
+			"Usulüne uygundur; talimat Genel Sekreterce onaylanmışsa bağlayıcı hâle gelir",
+			"Usulüne uygundur; kurullar bakanlıklara doğrudan talimat verebilir",
+			"Kurullar talimat yetkisini yalnızca mahallî idareler bakımından kullanabilir"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 22. maddesinde sayılan yetkiler öneri geliştirme, görüş verme, izleme ve raporlama ile sınırlıdır. Kurullar bir istişare ve politika üretme organıdır; bakanlıklar üzerinde hiyerarşik amirlik ya da talimat yetkisi bulunmaz. Bakanlık üzerindeki yetki Cumhurbaşkanına aittir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "22"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"politika-kurullari",
+			"yetki"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-pk-010",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Politika kurulları ve Cumhurbaşkanlığına bağlı kuruluşlara ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Politika kurullarının başkanvekili, kurul üyelerince kendi aralarından seçilir.",
+			"Politika kurulları en az üç üyeden oluşur.",
+			"Cumhurbaşkanı, politika kurullarının başkanıdır.",
+			"Türkiye Varlık Fonu, Cumhurbaşkanlığına bağlı kuruluşlar arasında sayılmıştır.",
+			"Yatırım ve Finans Ofisi, gerekli görmesi hâlinde yurtiçinde ve yurtdışında çalışma bürosu açabilir."
+		],
+		"correctIndex": 0,
+		"explanation": "21. maddenin ikinci fıkrasına göre başkanvekilini Cumhurbaşkanı görevlendirir; üyelerin kendi aralarından seçmesi söz konusu değildir. Diğer dört ifade 21, 37 ve 525. madde hükümleriyle uyumludur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "21"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"politika-kurullari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	}
+]

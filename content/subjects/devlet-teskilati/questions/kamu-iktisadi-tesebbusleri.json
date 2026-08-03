@@ -1,0 +1,352 @@
+[
+	{
+		"id": "dt-kit-001",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre 'kamu iktisadi teşebbüsü' hangi iki kuruluşun ortak adıdır?",
+		"options": [
+			"İktisadi devlet teşekkülü ile iştirak",
+			"İktisadi devlet teşekkülü ile kamu iktisadi kuruluşu",
+			"Müessese ile işletme",
+			"Müessese ile bağlı ortaklık",
+			"Bağlı ortaklık ile iştirak"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararname'nin 2. maddesine göre kamu iktisadi teşebbüsü ('Teşebbüs'), iktisadi devlet teşekkülü ile kamu iktisadi kuruluşunun ortak adıdır. Müessese, bağlı ortaklık, iştirak ve işletme ise teşebbüsün altında yer alan ayrı kavramlardır.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kit",
+			"tanimlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-kit-002",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre teşebbüsler kim tarafından kurulur?",
+		"options": [
+			"Türkiye Büyük Millet Meclisi kararıyla",
+			"Bakanlar Kurulu kararıyla",
+			"İlgili bakanlıkça",
+			"Cumhurbaşkanınca",
+			"Hazine ve Maliye Bakanlığınca"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararname'nin 3. maddesine göre teşebbüsler Cumhurbaşkanınca kurulur. Bu hüküm 2/7/2018 tarihli ve 703 sayılı KHK ile değiştirilmiştir; maddede yer alan 'Bakanlar Kurulu kararı ile' ibaresi 'Cumhurbaşkanınca' şeklinde güncellenmiştir. Bakanlar Kurulu diyen kaynaklar güncel değildir.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kit",
+			"kurulus"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-kit-003",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre teşebbüsün organları aşağıdakilerden hangisidir?",
+		"options": [
+			"Yönetim kurulu, denetim kurulu ve genel müdürlük",
+			"Genel kurul ve yönetim kurulu",
+			"Yalnızca genel müdürlük",
+			"Genel kurul, yönetim kurulu ve genel müdürlük",
+			"Yönetim kurulu ve genel müdürlük"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararname'nin 5. maddesine göre teşebbüs organları yönetim kurulu ve genel müdürlüktür. Yönetim kurulu teşebbüsün en yüksek seviyede yetkili ve sorumlu karar organı, genel müdürlük ise yetkili ve sorumlu yürütme organıdır.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kit",
+			"organlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-kit-004",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "İktisadi devlet teşekkülü ile kamu iktisadi kuruluşu arasındaki temel fark aşağıdakilerden hangisidir?",
+		"options": [
+			"İktisadi devlet teşekkülü yalnızca hizmet, kamu iktisadi kuruluşu yalnızca mal üretir",
+			"Aralarında hukuki bir fark yoktur; iki kavram eş anlamlıdır",
+			"İktisadi devlet teşekkülü iktisadi alanda ticari esaslara göre faaliyet gösterir; kamu iktisadi kuruluşu ise tekel niteliğindeki mal ve hizmetleri kamu yararı gözeterek üretir ve ürettiği mal ve hizmetler imtiyaz sayılır",
+			"Kamu iktisadi kuruluşunun sermayesinin yarısı özel sektöre aittir",
+			"İktisadi devlet teşekkülünün sermayesinin bir kısmı özel kişilere aittir"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararname'nin 2. maddesine göre her ikisinin de sermayesinin tamamı Devlete aittir; ayrım faaliyetin niteliğindedir. İktisadi devlet teşekkülü ticari esaslara göre faaliyet göstermek üzere kurulur; kamu iktisadi kuruluşu ise tekel niteliğindeki mal ve hizmetleri kamu yararı gözeterek üretmek ve pazarlamak üzere kurulur ve gördüğü kamu hizmeti dolayısıyla ürettiği mal ve hizmetler imtiyaz sayılır.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kit",
+			"tanimlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-kit-005",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre 'bağlı ortaklık' nedir?",
+		"options": [
+			"Sermayesinin yüzde ellisinden fazlası iktisadi devlet teşekkülüne veya kamu iktisadi kuruluşuna ait olan işletme veya işletmeler topluluğundan oluşan anonim şirketlerdir",
+			"Sermayesinin en az yüzde on beşine sahip olunan anonim şirketlerdir",
+			"Sermayesinin yüzde yirmi beşi teşebbüse ait olan şirketlerdir",
+			"Teşebbüslerin mal ve hizmet üreten fabrika ve diğer birimleridir",
+			"Sermayesinin tamamı bir teşebbüse ait olan işletme veya işletmeler topluluğudur"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararname'nin 2. maddesine göre bağlı ortaklık, sermayesinin yüzde ellisinden fazlası iktisadi devlet teşekkülüne veya kamu iktisadi kuruluşuna ait olan anonim şirketlerdir. Karıştırılmaması gereken iki kavram: sermayesinin tamamı teşebbüse ait olan 'müessese', mal ve hizmet üreten fabrika ve birimler ise 'işletme'dir.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kit",
+			"bagli-ortaklik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-kit-006",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre 'iştirak' sayılabilmek için sermaye payı hangi aralıkta olmalıdır?",
+		"options": [
+			"En az yüzde yirmi, en çok yüzde altmış",
+			"En az yüzde on beş, en çok yüzde elli",
+			"En az yüzde on, en çok yüzde kırk",
+			"En az yüzde beş, en çok yüzde yirmi beş",
+			"En az yüzde elli bir"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararname'nin 2. maddesine göre iştirak; iktisadi devlet teşekküllerinin, kamu iktisadi kuruluşlarının veya bağlı ortaklıklarının sermayelerinin en az yüzde on beşine, en çok yüzde ellisine sahip bulundukları anonim şirketlerdir. Pay yüzde elliyi aşarsa kuruluş iştirak değil bağlı ortaklık olur.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kit",
+			"istirak"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-kit-007",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre teşebbüs yönetim kurulunun teşkili bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yönetim kurulu bir başkan ve beş üyeden oluşur; başkanı doğrudan Cumhurbaşkanı atar",
+			"Yönetim kurulu yedi üyeden oluşur; başkanını üyeler kendi aralarından seçer",
+			"Yönetim kurulu bir başkan ve beş üyeden oluşur; genel müdür yönetim kurulunun da başkanıdır",
+			"Yönetim kurulu üç üyeden oluşur",
+			"Yönetim kurulu bir başkan ve dört üyeden oluşur; başkanını ilgili bakan atar"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararname'nin 6. maddesine göre yönetim kurulu bir başkan ve beş üyeden oluşur ve genel müdür yönetim kurulunun da başkanıdır. Genel müdürün bulunmadığı hâllerde, genel müdürün yönetim kurulu üyeleri arasından görevlendireceği genel müdür vekili yönetim kuruluna başkanlık yapar.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kit",
+			"yonetim-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-kit-008",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Teşebbüs yönetim kurulu üyelerinin görev süresi ve yeniden atanma durumu aşağıdakilerden hangisidir?",
+		"options": [
+			"Görev süresi belirlenmemiştir; yaş haddine kadar devam eder",
+			"Görev süresi beş yıldır; tekrar atanamazlar",
+			"Görev süresi iki yıldır",
+			"Görev süresi dört yıldır ve en fazla iki dönem görev yapılabilir",
+			"Görev süresi üç yıldır; süresi sona erenler tekrar atanabilir"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararname'nin 8. maddesine göre yönetim kurulu üyelerinin görev süresi üç yıldır; görev süresi sona erenler tekrar atanabilirler ve atandıkları usule göre görevlerinden alınabilirler. Süre dolmadan üyeliğin boşalması hâlinde kalan süreyi tamamlamak üzere atama yapılır.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "8"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kit",
+			"gorev-suresi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-kit-009",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Teşebbüslerin tabi olduğu hukuk rejimi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bütün işlemlerinde kamu hukuku hükümlerine tabidir",
+			"Kanun Hükmünde Kararname ile saklı tutulan hususlar dışında özel hukuk hükümlerine tabidir; Genel Muhasebe Kanunu ile Devlet İhale Kanunu hükümlerine tabi değildir",
+			"Personel rejimi dâhil bütün konularda 657 sayılı Kanun'a tabidir",
+			"Devlet İhale Kanunu'na tabidir ancak Genel Muhasebe Kanunu'na tabi değildir",
+			"Yalnızca Türk Ticaret Kanunu hükümlerine tabidir; kendi kararnamesi uygulanmaz"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararname'nin 4. maddesine göre teşebbüsler tüzelkişiliğe sahiptir ve bu Kanun Hükmünde Kararname ile saklı tutulan hususlar dışında özel hukuk hükümlerine tabidir. Ayrıca Genel Muhasebe Kanunu ile Devlet İhale Kanunu hükümlerine tabi değildir ve sorumlulukları sermayeleri ile sınırlıdır.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kit",
+			"hukuki-rejim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-kit-010",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Kamu iktisadi teşebbüslerine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Teşebbüs yönetim kurulu başkan ve üyeleri, aynı anda başka bir teşebbüste de yönetim kurulu üyesi olabilir.",
+			"Teşebbüsler tüzelkişiliğe sahiptir.",
+			"Anonim şirket şeklinde kurulan teşebbüslerde genel kurul bulunmaz.",
+			"Müessese, sermayesinin tamamı bir iktisadi devlet teşekkülüne veya kamu iktisadi kuruluşuna ait olan işletme veya işletmeler topluluğudur.",
+			"Teşebbüslerin sorumlulukları sermayeleri ile sınırlıdır."
+		],
+		"correctIndex": 0,
+		"explanation": "Kararname'nin 7. maddesine göre teşebbüs yönetim kurulu başkan ve üyeleri başka bir teşebbüste yönetim kurulu üyesi olamaz ve rakip kuruluşlarla menfaat ilişkisi içinde bulunamazlar. Diğer dört ifade 4, 3 ve 2. madde hükümleriyle uyumludur; anonim şirket şeklinde kurulan teşebbüslerde genel kurul bulunmayacağı 18/6/2025 tarihli ve 7551 sayılı Kanunla yeniden düzenlenmiştir.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kit",
+			"yonetim-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	}
+]

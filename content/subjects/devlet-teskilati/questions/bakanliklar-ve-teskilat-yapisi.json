@@ -1,0 +1,348 @@
+[
+	{
+		"id": "dt-bak-001",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bakan, bakanlık hizmetlerini yürütmekten kime karşı sorumludur?",
+		"options": [
+			"Türkiye Büyük Millet Meclisine",
+			"Hem Cumhurbaşkanına hem Türkiye Büyük Millet Meclisine",
+			"Cumhurbaşkanına",
+			"Cumhurbaşkanı yardımcısına",
+			"Cumhurbaşkanlığı Genel Sekreterine"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 503. maddesinin ikinci fıkrasına göre bakanlar, bakanlık hizmetlerini mevzuata, Cumhurbaşkanının genel siyasetine, Cumhurbaşkanı karar ve talimatlarına, kalkınma planlarına ve yıllık programlara uygun olarak yürütmekle görevli ve Cumhurbaşkanına karşı sorumludur. Meclise karşı sorumluluk 2017 öncesi parlamenter sisteme aittir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "503"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bakan",
+			"sorumluluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-bak-002",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bakanlıklarda istihdam edilebilecek Bakan Müşaviri sayısı en çok kaçtır?",
+		"options": [
+			"10",
+			"20",
+			"30",
+			"5",
+			"15"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 505. maddesine göre bakanlıklarda sayısı on beşi geçmemek üzere Bakan Müşaviri istihdam edilebilir. Bakan Müşavirlerinin kadroları atama işlemi gerçekleşince hiçbir işleme gerek kalmaksızın ihdas edilmiş ve ilgili bakanlığa ait kadro cetveline eklenmiş sayılır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "505"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bakan-musaviri",
+			"sayi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-bak-003",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bakanlıklar hangi birimlerden meydana gelir?",
+		"options": [
+			"Yalnızca merkez ve taşra teşkilatından",
+			"Merkez teşkilatı, taşra teşkilatı ve döner sermaye işletmelerinden",
+			"Merkez teşkilatı ile il özel idarelerinden",
+			"Merkez teşkilatı ile ihtiyaca göre kurulan taşra ve yurtdışı teşkilatından ve bağlı, ilgili ve ilişkili kuruluşlardan",
+			"Yalnızca merkez teşkilatı ile bağlı kuruluşlardan"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 509. maddesinin birinci fıkrasına göre bakanlıklar; merkez teşkilatı ile ihtiyaca göre kurulan taşra ve yurtdışı teşkilatından ve bağlı, ilgili ve ilişkili kuruluşlardan meydana gelir. Taşra ve yurtdışı teşkilatı zorunlu değil, ihtiyaca bağlıdır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "509"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"teskilat"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-bak-004",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bakanlık taşra teşkilatı, ihtiyaca göre aşağıdaki kuruluşların tamamından veya birkaçından meydana gelecek şekilde düzenlenir. Buna göre taşra teşkilatı hangi kuruluşlardan oluşabilir?",
+		"options": [
+			"İl özel idareleri ile belediyeler",
+			"İl valisine bağlı il kuruluşları, kaymakama bağlı ilçe kuruluşları ve doğrudan merkeze bağlı taşra kuruluşları",
+			"Yalnızca il ve ilçe kuruluşları",
+			"Yalnızca il valisine bağlı il kuruluşları",
+			"Yalnızca bölge müdürlükleri"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 509. maddesinin üçüncü fıkrasına göre bakanlık taşra teşkilatı; il valisine bağlı il kuruluşları, kaymakama bağlı ilçe kuruluşları ve doğrudan merkeze bağlı taşra kuruluşlarından meydana gelecek şekilde düzenlenir. İl özel idaresi ve belediye ise bakanlık teşkilatı değil, ayrı kamu tüzel kişiliğine sahip mahallî idarelerdir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "509"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tasra-teskilati"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-bak-005",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bakanlıklarda yetki devri hangi şartlara bağlanmıştır?",
+		"options": [
+			"Yetki devri sözlü olarak da yapılabilir",
+			"Yetki devri için Cumhurbaşkanının onayı gerekir",
+			"Bakan ve her kademedeki bakanlık yöneticileri, sınırlarını açıkça belirtmek ve yazılı olmak kaydıyla yetkilerinden bir kısmını alt kademelere devredebilir",
+			"Yetkilerin tamamı tek bir işlemle devredilebilir",
+			"Yetki devri yalnızca bakan tarafından yapılabilir"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 506. maddesine göre bakan ve her kademedeki bakanlık yöneticileri sınırlarını açıkça belirtmek ve yazılı olmak kaydıyla yetkilerinden bir kısmını alt kademelere devredebilir; yetki devri uygun araçlarla ilgililere duyurulur. Yetki devri yetkilerin bir kısmıyla sınırlıdır ve devir yetkisi yalnızca bakana ait değildir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "506"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yetki-devri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-bak-006",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bakan yardımcıları, bakanlık hizmetlerini yürütürken bakanlık kuruluşlarına gereken emirleri verir. Bu emir yetkisinin dışında tutulan birim aşağıdakilerden hangisidir?",
+		"options": [
+			"Bakanlık teftiş kurulu",
+			"Daire başkanlıkları",
+			"Bağlı kuruluşlar",
+			"Taşra teşkilatı",
+			"Genel müdürlükler"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 504. maddesinin birinci fıkrasına göre bakan yardımcıları, bu amaçla 'bakanlık teftiş kurulu hariç' bakanlık kuruluşlarına gereken emirleri verir ve bunların uygulanmasını gözetir. Teftiş kurulunun bu istisnası, denetim işlevinin bağımsızlığını korumaya yöneliktir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "504"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bakan-yardimcisi",
+			"teftis"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-bak-007",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bakanlık merkez teşkilatındaki hiyerarşik kademeler aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"Müsteşarlık — Genel Müdürlük — Daire Başkanlığı",
+			"Bakan Yardımcılığı — Daire Başkanlığı — Şeflik",
+			"Bakan Yardımcılığı — Bakan Yardımcılığına bağlı Genel Müdürlük, Kurul Başkanlığı veya Daire Başkanlığı — Genel Müdürlük veya Kurul Başkanlığına bağlı Daire Başkanlığı",
+			"Genel Müdürlük — Bölge Müdürlüğü — Şube Müdürlüğü",
+			"Bakan Yardımcılığı — Şube Müdürlüğü — Şeflik"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 509. maddesinin dördüncü fıkrasının (a) bendine göre merkez teşkilatındaki kademeler Bakan Yardımcılığı, buna bağlı Genel Müdürlük/Kurul Başkanlığı/Daire Başkanlığı ve bunlara bağlı Daire Başkanlığı biçimindedir. Müsteşarlık kademesi 2018'de kaldırılmıştır; şube müdürlüğü ve şeflik ise merkez teşkilatının değil bağlı kuruluşlar ile taşra teşkilatının kademeleridir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "509"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hiyerarsi",
+			"merkez-teskilati"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-bak-008",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre 'dış temsilcilik' kavramı neyi ifade eder?",
+		"options": [
+			"Dış temsilcilikler bünyesinde çalışan ihtisas birimleri",
+			"Yalnızca konsolosluklar",
+			"Dış temsilcilik niteliği taşımayan yurtdışı kuruluşları",
+			"Yalnızca büyükelçilikler",
+			"Diplomatik temsilcilikler ile konsolosluklar"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 510. maddesine göre dış temsilcilik, diplomatik temsilciliklerle konsolosluklardır. Diplomatik temsilcilik büyükelçilik, daimî temsilcilik, temsilcilik, elçilik, ortaelçilik ve daimî maslahatgüzarlıkları; konsolosluk ise başkonsolosluk, konsolosluk, muavin konsolosluk, konsolosluk ajanlığı ve fahri temsilcilikleri kapsar. İhtisas birimleri dış temsilcilik bünyesinde çalışan ayrı birimlerdir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "510"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurtdisi-teskilati"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-bak-009",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bakanlık taşra teşkilatının il kuruluşlarındaki hiyerarşik kademeler aşağıdakilerden hangisinde doğru sıralanmıştır?",
+		"options": [
+			"Vali — İl Müdürlüğü — Şube Müdürlüğü — Şeflik",
+			"Vali — Bölge Müdürlüğü — Şube Müdürlüğü — Şeflik",
+			"Vali — Genel Müdürlük — Daire Başkanlığı — Şeflik",
+			"Kaymakam — İlçe Müdürlüğü — Şube Müdürlüğü — Şeflik",
+			"İl Müdürlüğü — Daire Başkanlığı — Şube Müdürlüğü — Şeflik"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 509. maddesinin dördüncü fıkrasının (ç) bendine göre il kuruluşlarında kademeler Vali, İl Müdürlüğü, Şube Müdürlüğü ve Şeflik biçimindedir. İlçe kuruluşlarında ise Kaymakam, İlçe Müdürlüğü, ihtiyaç bulunan ilçelerde Şube Müdürlüğü ve Şeflik; bölge kuruluşlarında Bölge Müdürlüğü, Şube Müdürlüğü veya Başmühendislik, Şeflik veya Mühendislik kademeleri uygulanır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "509"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hiyerarsi",
+			"tasra-teskilati"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-bak-010",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bakanlıkların teşkilat yapısına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Bakan, bakanlık kuruluşunun en üst amiridir.",
+			"Bakan yardımcıları, bakanlık hizmetlerinin yürütülmesinden doğrudan Cumhurbaşkanına karşı sorumludur.",
+			"Misyon şefi, diplomatik temsilciliklerin en üst yöneticisidir.",
+			"Bakan yardımcısı kadroları, atama işlemi yapıldığı anda herhangi bir işleme gerek kalmaksızın ihdas edilmiş sayılır.",
+			"Bakanlık, görev, yetki ve sorumluluk alanına giren konularda idari düzenlemeler yapabilir."
+		],
+		"correctIndex": 1,
+		"explanation": "504. maddenin ikinci fıkrasına göre bakan yardımcıları, hizmetlerin yürütülmesinden Bakana karşı sorumludur; Cumhurbaşkanına karşı sorumlu olan bakanın kendisidir (m. 503). Diğer dört ifade 503, 508, 510 ve 504. madde hükümleriyle uyumludur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "504"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bakan-yardimcisi",
+			"sorumluluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	}
+]

@@ -1,0 +1,60 @@
+{
+	"id": "devlet-teskilati",
+	"name": "Devlet Teşkilatı ile İlgili Mevzuat",
+	"shortName": "Devlet Teşkilatı",
+	"description": "Cumhurbaşkanlığı teşkilatı, politika kurulları, bakanlıkların kuruluşu ve hiyerarşik kademeleri, üst kademe kamu yöneticilerinin atanması, il ve ilçe idaresi, mahalli idareler ile kamu iktisadi teşebbüsleri.",
+	"scope": "ortak",
+	"order": 5,
+	"icon": "Landmark",
+	"topics": [
+		{
+			"id": "devlet-teskilati/cumhurbaskanligi-teskilati",
+			"slug": "cumhurbaskanligi-teskilati",
+			"name": "Cumhurbaşkanlığı Teşkilatı",
+			"order": 1,
+			"estimatedMinutes": 9
+		},
+		{
+			"id": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+			"slug": "politika-kurullari-ve-bagli-kuruluslar",
+			"name": "Politika Kurulları ve Bağlı Kuruluşlar",
+			"order": 2,
+			"estimatedMinutes": 8
+		},
+		{
+			"id": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+			"slug": "bakanliklar-ve-teskilat-yapisi",
+			"name": "Bakanlıklar ve Teşkilat Yapısı",
+			"order": 3,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+			"slug": "ust-kademe-kamu-yoneticileri",
+			"name": "Üst Kademe Kamu Yöneticileri",
+			"order": 4,
+			"estimatedMinutes": 8
+		},
+		{
+			"id": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+			"slug": "il-idaresi-ve-tasra-teskilati",
+			"name": "İl İdaresi ve Taşra Teşkilatı",
+			"order": 5,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "devlet-teskilati/mahalli-idareler",
+			"slug": "mahalli-idareler",
+			"name": "Mahalli İdareler",
+			"order": 6,
+			"estimatedMinutes": 11
+		},
+		{
+			"id": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+			"slug": "kamu-iktisadi-tesebbusleri",
+			"name": "Kamu İktisadi Teşebbüsleri",
+			"order": 7,
+			"estimatedMinutes": 8
+		}
+	]
+}

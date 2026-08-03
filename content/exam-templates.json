@@ -10,7 +10,7 @@
 		"distribution": [
 			{
 				"subjectId": "657-dmk",
-				"count": 9
+				"count": 8
 			},
 			{
 				"subjectId": "anayasa",
@@ -22,7 +22,11 @@
 			},
 			{
 				"subjectId": "resmi-yazisma",
-				"count": 3
+				"count": 2
+			},
+			{
+				"subjectId": "devlet-teskilati",
+				"count": 2
 			}
 		]
 	},
@@ -37,19 +41,23 @@
 		"distribution": [
 			{
 				"subjectId": "657-dmk",
-				"count": 20
+				"count": 18
 			},
 			{
 				"subjectId": "anayasa",
-				"count": 14
+				"count": 13
 			},
 			{
 				"subjectId": "etik",
-				"count": 10
+				"count": 9
 			},
 			{
 				"subjectId": "resmi-yazisma",
-				"count": 6
+				"count": 5
+			},
+			{
+				"subjectId": "devlet-teskilati",
+				"count": 5
 			}
 		]
 	},
@@ -64,18 +72,22 @@
 		"distribution": [
 			{
 				"subjectId": "657-dmk",
-				"count": 32
+				"count": 29
 			},
 			{
 				"subjectId": "anayasa",
-				"count": 24
+				"count": 21
 			},
 			{
 				"subjectId": "etik",
-				"count": 16
+				"count": 14
 			},
 			{
 				"subjectId": "resmi-yazisma",
+				"count": 8
+			},
+			{
+				"subjectId": "devlet-teskilati",
 				"count": 8
 			}
 		]

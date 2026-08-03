@@ -1,0 +1,343 @@
+[
+	{
+		"id": "dt-cb-001",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre, 'en yüksek Devlet memuru' sıfatını taşıyan ve Cumhurbaşkanlığı Genel Sekreterliğinin en üst amiri olan görevli aşağıdakilerden hangisidir?",
+		"options": [
+			"Cumhurbaşkanı Özel Kalem Müdürü",
+			"Strateji ve Bütçe Başkanı",
+			"Cumhurbaşkanlığı Genel Sekreteri",
+			"Cumhurbaşkanı Başdanışmanı",
+			"Cumhurbaşkanlığı İdari İşler Başkanı"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 5. maddesine göre en yüksek Devlet memuru olan Genel Sekreter, Cumhurbaşkanlığı Genel Sekreterliğinin en üst amiridir ve bu hizmetlerin yürütülmesinden Cumhurbaşkanına karşı sorumludur. Dikkat: 28/12/2024 tarihli ve 174 sayılı Cumhurbaşkanlığı Kararnamesi ile 'İdari İşler Başkanı' ibaresi 'Genel Sekreter', 'İdari İşler Başkanlığı' ibaresi 'Genel Sekreterlik' olarak değiştirilmiştir; 'İdari İşler Başkanı' diyen kaynaklar güncel değildir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"genel-sekreterlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-cb-002",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Cumhurbaşkanlığı makamının herhangi bir nedenle boşalması hâlinde, yenisi seçilene kadar Cumhurbaşkanlığına kim vekâlet eder?",
+		"options": [
+			"En kıdemli bakan",
+			"Cumhurbaşkanının önceden görevlendirdiği yardımcısı",
+			"Cumhurbaşkanlığı Genel Sekreteri",
+			"En yaşlı Cumhurbaşkanı yardımcısı",
+			"Türkiye Büyük Millet Meclisi Başkanı"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 18. maddesinin birinci fıkrasına göre makamın boşalması hâlinde en yaşlı Cumhurbaşkanı yardımcısı vekâlet eder ve Cumhurbaşkanına ait yetkileri kullanır. Maddenin ikinci fıkrasındaki hâl bundan farklıdır: hastalık veya yurtdışına çıkma gibi geçici ayrılmalarda Cumhurbaşkanının görevlendirdiği yardımcı vekâlet eder. İki fıkra karıştırılmamalıdır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "18"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vekalet"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-cb-003",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Cumhurbaşkanı Özel Kalem Müdürüne hangi unvan verilir?",
+		"options": [
+			"Büyükelçi",
+			"Başdanışman",
+			"Genel müdür",
+			"Müsteşar",
+			"Daimî temsilci"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 2. maddesinin dördüncü fıkrasına göre Cumhurbaşkanı Özel Kalem Müdürüne büyükelçi unvanı verilir. Aynı maddeye göre Özel Kalem Müdürüne yardımcı olmak üzere müdür yardımcıları görevlendirilebilir ve ihtiyaç duyulan yerlerde Cumhurbaşkanlığı çalışma büroları açılabilir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ozel-kalem"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-cb-004",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'nin 1. maddesine göre Cumhurbaşkanının yetki devri hangi şarta bağlanmıştır?",
+		"options": [
+			"Yetkilerinin tamamını tek bir işlemle devredebilir",
+			"Yetkilerinden bir kısmını, gerektiğinde sınırlarını yazılı olarak belirterek astlarına devredebilir",
+			"Yetkilerini yalnızca Cumhurbaşkanı yardımcılarına devredebilir",
+			"Yetki devri için Türkiye Büyük Millet Meclisinin onayı gerekir",
+			"Yetkilerini sözlü olarak da astlarına devredebilir"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 1. maddesinin üçüncü fıkrasına göre Cumhurbaşkanı, yetkilerinden bir kısmını gerektiğinde sınırlarını yazılı olarak belirterek astlarına devredebilir. İki unsur birlikte aranır: devir yazılı olacak ve sınırları belirtilecektir. Devir yetkinin tamamını kapsayamaz.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yetki-devri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-cb-005",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi Cumhurbaşkanlığı Genel Sekreterliğinin birimlerinden biri değildir?",
+		"options": [
+			"Personel ve Prensipler Genel Müdürlüğü",
+			"Destek ve Mali Hizmetler Genel Müdürlüğü",
+			"Hukuk ve Mevzuat Genel Müdürlüğü",
+			"Güvenlik İşleri Genel Müdürlüğü",
+			"Strateji ve Bütçe Genel Müdürlüğü"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 6. maddesinin ikinci fıkrasında Genel Sekreterliğin birimleri beş başlıkta sayılır: Hukuk ve Mevzuat, Personel ve Prensipler, Güvenlik İşleri, Destek ve Mali Hizmetler ile Koruma Hizmetleri genel müdürlükleri. Strateji ve Bütçe ise Genel Sekreterliğin bir birimi değil, 37. maddede sayılan Cumhurbaşkanlığına bağlı ayrı bir başkanlıktır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"genel-sekreterlik",
+			"birimler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-cb-006",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Resmî Gazete'nin yayımlanmasını sağlamak görevi Cumhurbaşkanlığı Genel Sekreterliğinin hangi biriminindir?",
+		"options": [
+			"Personel ve Prensipler Genel Müdürlüğü",
+			"İletişim Başkanlığı",
+			"Hukuk ve Mevzuat Genel Müdürlüğü",
+			"Destek ve Mali Hizmetler Genel Müdürlüğü",
+			"Cumhurbaşkanı Özel Kalem Müdürlüğü"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 7. maddesinde Hukuk ve Mevzuat Genel Müdürlüğünün görevleri sayılırken Resmî Gazete'nin yayımlanmasını sağlamak da bunlar arasında yer alır. Aynı birim kanunların Anayasaya uygunluğunu incelemek, kanun ve Cumhurbaşkanlığı kararnamelerinin yayımlanmasına ilişkin işlemleri yapmak ve mevzuat taslaklarını incelemekle de görevlidir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"resmi-gazete"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-cb-007",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Cumhurbaşkanınca görevlendirilen özel temsilcilere ilişkin aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Görevlendirme Türkiye Büyük Millet Meclisinin onayına sunulur",
+			"Yalnızca Dışişleri Bakanlığı meslek memurları arasından görevlendirilebilirler",
+			"Büyükelçilik unvanı zorunlu olarak verilir ve unvan ömür boyu devam eder",
+			"Giderleri Dışişleri Bakanlığı bütçesinden karşılanır",
+			"Büyükelçilik unvanı verilebilir ve bu unvan özel temsilcilik görevi süresince devam eder"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 4. maddesine göre Cumhurbaşkanı, özel bilgi ve uzmanlık gerektiren konularda dış ülkelerde veya uluslararası kuruluşlar nezdinde özel bir görevi ifa etmek üzere özel temsilci görevlendirebilir. Bunlara büyükelçi unvanı verilebilir ve unvan görev müddetince devam eder. Giderleri Cumhurbaşkanlığı bütçesinden karşılanır; harcırahlarında Cumhurbaşkanı Başdanışmanlarına ilişkin hükümler uygulanır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ozel-temsilci"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-cb-008",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Cumhurbaşkanlığı Yüksek İstişare Kuruluna ilişkin aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kurulun başkanı Cumhurbaşkanlığı Genel Sekreteridir",
+			"Kurul yalnızca görevi sona ermiş Cumhurbaşkanlarından oluşur",
+			"Kurul üyeleri ile Kurulun çalışma usul ve esasları Cumhurbaşkanınca belirlenir",
+			"Kurulun üye sayısı kararnamede on bir olarak belirlenmiştir",
+			"Kurul üyeleri Türkiye Büyük Millet Meclisi tarafından seçilir"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnameye 2019'da eklenen 4/A maddesine göre, millete ve devlete hizmeti geçmiş, bilgi ve birikim sahibi kişilerin kazanımlarından istifade edilebilmesi amacıyla Cumhurbaşkanlığı Yüksek İstişare Kurulu oluşturulmuştur. Kurul üyeleri Cumhurbaşkanınca belirlenir; çalışma usul ve esasları ile üyelere yapılabilecek ödemeler de Cumhurbaşkanınca belirlenir. Maddede sabit bir üye sayısı yoktur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "4/A"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yuksek-istisare-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-cb-009",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Cumhurbaşkanı, resmî bir ziyaret nedeniyle yurtdışına çıkarak görevinden geçici olarak ayrılmıştır. Bu durumda vekâlet bakımından ne söylenebilir?",
+		"options": [
+			"Türkiye Büyük Millet Meclisi Başkanı vekâlet eder",
+			"Cumhurbaşkanının görevlendirdiği yardımcısı vekâlet eder ve Cumhurbaşkanına ait yetkileri kullanır",
+			"Geçici ayrılmalarda vekâlet söz konusu olmaz; yetkiler askıya alınır",
+			"En yaşlı Cumhurbaşkanı yardımcısı vekâlet eder",
+			"Cumhurbaşkanlığı Genel Sekreteri vekâlet eder"
+		],
+		"correctIndex": 1,
+		"explanation": "18. maddenin ikinci fıkrasına göre Cumhurbaşkanının hastalık ve yurtdışına çıkma gibi sebeplerle geçici olarak görevinden ayrılması hâlinde, Cumhurbaşkanının görevlendirdiği yardımcısı vekâlet eder. 'En yaşlı yardımcı' ölçütü yalnızca birinci fıkradaki makamın boşalması hâlinde uygulanır; ayırt edici nokta ayrılmanın geçici mi yoksa makamın boşalması mı olduğudur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "18"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vekalet"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-cb-010",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Cumhurbaşkanlığı teşkilatına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+		"options": [
+			"Cumhurbaşkanı yardımcıları, Cumhurbaşkanı tarafından verilen görevleri yaparlar.",
+			"Cumhurbaşkanı, kendisine danışmanlık yapmak üzere Başdanışman ve Danışman atayabilir.",
+			"İhtiyaç duyulan yerlerde Cumhurbaşkanlığı çalışma büroları açılabilir.",
+			"Cumhurbaşkanı yardımcıları, görevlerinden dolayı Türkiye Büyük Millet Meclisine karşı sorumludur.",
+			"Genel Sekreter, bütün birimlerin faaliyetlerini, işlemlerini ve hesaplarını denetlemekle görevli ve yetkilidir."
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 17. maddesinin ikinci fıkrasına göre Cumhurbaşkanı yardımcıları Cumhurbaşkanına karşı sorumludur; Meclise karşı sorumluluk 2017 Anayasa değişikliğiyle terk edilen parlamenter sisteme aittir. Diğer dört ifade 17, 5, 2 ve 3. madde hükümleriyle uyumludur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sorumluluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-03"
+	}
+]
