@@ -6,12 +6,13 @@
 		"difficulty": "kolay",
 		"stem": "657 sayılı Kanun'un 4. maddesinde hâlen yürürlükte olan istihdam şekli kaç tanedir?",
 		"options": [
-			"4",
-			"2",
 			"5",
-			"3"
+			"4",
+			"3",
+			"2",
+			"6"
 		],
-		"correctIndex": 3,
+		"correctIndex": 2,
 		"explanation": "Madde 4 başlangıçta dört fıkra içeriyordu; geçici personeli düzenleyen (C) fıkrası KHK-696 ile yürürlükten kaldırılmış ve bu düzenleme 7079 sayılı Kanun'la aynen kabul edilmiştir. Hâlen yürürlükte olan üç statü vardır: 4/A memur, 4/B sözleşmeli personel, 4/D işçi. Dikkat: madde 5'in lafzı güncellenmediği için hâlâ 'dört istihdam şekli' ifadesini taşır; o sayı yürürlükteki statü sayısını değil, güncellenmemiş bir atfı gösterir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -30,8 +31,8 @@
 			"madde-4",
 			"guncellik"
 		],
-		"version": 3,
-		"updatedAt": "2026-07-22"
+		"version": 4,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-genel-002",
@@ -42,8 +43,9 @@
 		"options": [
 			"Geçici ve ihtisasa dayalı hizmet ifa etmek",
 			"Döner sermayeli bir kuruluşta çalışmak",
-			"Belirsiz süreli iş sözleşmesiyle çalışmak",
-			"Genel idare esaslarına göre yürütülen asli ve sürekli kamu hizmetlerini ifa etmek"
+			"Kadro karşılığı gösterilmiş olmak",
+			"Genel idare esaslarına göre yürütülen asli ve sürekli kamu hizmetlerini ifa etmek",
+			"Belirsiz süreli iş sözleşmesiyle çalışmak"
 		],
 		"correctIndex": 3,
 		"explanation": "Madde 4/A'ya göre memur, mevcut kuruluş biçimine bakılmaksızın Devlet ve diğer kamu tüzel kişiliklerince genel idare esaslarına göre yürütülen asli ve sürekli kamu hizmetlerini ifa edendir. Geçici ve ihtisasa dayalı işler sözleşmeli personelin, belirsiz süreli iş sözleşmesi ise işçinin tanımıdır.",
@@ -63,8 +65,8 @@
 		"tags": [
 			"memur-tanimi"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-genel-003",
@@ -73,12 +75,13 @@
 		"difficulty": "kolay",
 		"stem": "657 sayılı Kanun'un 5. maddesine göre kurumlar personel çalıştırma konusunda neyle sınırlıdır?",
 		"options": [
-			"İhtiyaç duydukları her statüde personel çalıştırabilirler.",
-			"Kanunda yazılı dört istihdam şekli dışında personel çalıştıramazlar.",
 			"Cumhurbaşkanı kararıyla yeni istihdam şekli oluşturabilirler.",
-			"Yalnızca memur çalıştırabilirler."
+			"Yalnızca memur ve sözleşmeli personel çalıştırabilirler.",
+			"Kanunda yazılı dört istihdam şekli dışında personel çalıştıramazlar.",
+			"Yalnızca memur çalıştırabilirler.",
+			"İhtiyaç duydukları her statüde personel çalıştırabilirler."
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Madde 5'in lafzı şöyledir: 'Bu Kanuna tabi kurumlar, dördüncü maddede yazılı dört istihdam şekli dışında personel çalıştıramazlar.' Bu, kamuda istihdamın kanunla sınırlı olması ilkesinin ifadesidir. Not: maddedeki 'dört' ifadesi güncellenmemiştir; geçici personeli düzenleyen 4/C fıkrası yürürlükten kaldırıldığından hâlen yürürlükte olan statü sayısı üçtür.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -95,8 +98,8 @@
 		"tags": [
 			"madde-5"
 		],
-		"version": 3,
-		"updatedAt": "2026-07-22"
+		"version": 4,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-genel-004",
@@ -105,12 +108,13 @@
 		"difficulty": "orta",
 		"stem": "Bir kamu kurumunda sürekli işçi kadrosunda belirsiz süreli iş sözleşmesiyle çalışan personel hangi mevzuata tabidir?",
 		"options": [
-			"657 sayılı Devlet Memurları Kanunu",
+			"Sözleşmeli personel mevzuatı",
+			"Türk Borçlar Kanunu",
 			"5176 sayılı Kanun",
-			"İş Kanunu",
-			"Sözleşmeli personel mevzuatı"
+			"657 sayılı Devlet Memurları Kanunu",
+			"İş Kanunu"
 		],
-		"correctIndex": 2,
+		"correctIndex": 4,
 		"explanation": "İşçiler 657 sayılı Kanun'un 4/D fıkrasında tanımlanmakla birlikte bu Kanun'a tabi değildir; İş Kanunu hükümlerine tabidirler. Bu nedenle 657'deki disiplin, izin ve atama hükümleri işçilere uygulanmaz.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -129,8 +133,8 @@
 			"isci",
 			"kapsam"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-genel-005",
@@ -139,12 +143,13 @@
 		"difficulty": "orta",
 		"stem": "657 sayılı Kanun'un 4. maddesindeki hangi istihdam şekli yürürlükten kaldırılmıştır?",
 		"options": [
-			"Sözleşmeli personel (4/B)",
 			"Memurlar (4/A)",
+			"Geçici personel (4/C)",
 			"İşçiler (4/D)",
-			"Geçici personel (4/C)"
+			"Sözleşmeli personel (4/B)",
+			"Hiçbiri; dört istihdam şekli de yürürlüktedir."
 		],
-		"correctIndex": 3,
+		"correctIndex": 1,
 		"explanation": "Geçici personeli düzenleyen 4/C fıkrası, 20/11/2017 tarihli KHK-696 ile yürürlükten kaldırılmış ve bu düzenleme 1/2/2018 tarihli 7079 sayılı Kanun'la aynen kabul edilmiştir. Bu statüdeki personelin önemli bölümü sözleşmeli personel statüsüne geçirilmiştir. Yürürlükte kalan üç statü 4/A memur, 4/B sözleşmeli personel ve 4/D işçidir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -163,8 +168,8 @@
 			"guncellik",
 			"istihdam"
 		],
-		"version": 3,
-		"updatedAt": "2026-07-22"
+		"version": 4,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-genel-006",
@@ -173,12 +178,13 @@
 		"difficulty": "orta",
 		"stem": "657 sayılı Kanun'un amacı aşağıdakilerden hangisinde en kapsamlı şekilde ifade edilmiştir?",
 		"options": [
-			"Yalnızca memurların aylık ve ödeneklerini düzenlemek",
 			"Kamu görevlilerinin etik davranış ilkelerini belirlemek",
+			"Kamu personelinin işe alımında uygulanacak sınav usullerini belirlemek",
+			"Yalnızca memurların aylık ve ödeneklerini düzenlemek",
 			"Devlet memurlarının hizmet şartlarını, niteliklerini, atanma ve yetiştirilmelerini, ödev, hak, yüküm ve sorumlulukları ile özlük işlerini düzenlemek",
 			"Kamu kurumlarının teşkilat yapısını belirlemek"
 		],
-		"correctIndex": 2,
+		"correctIndex": 3,
 		"explanation": "Madde 2'ye göre Kanun'un amacı; Devlet memurlarının hizmet şartlarını, niteliklerini, atanma ve yetiştirilmelerini, ilerleme ve yükselmelerini, ödev, hak, yüküm ve sorumluluklarını, aylıklarını ve ödeneklerini ve diğer özlük işlerini düzenlemektir. Etik davranış ilkeleri 5176 sayılı Kanun'un konusudur.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -196,8 +202,8 @@
 			"amac",
 			"madde-2"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-genel-007",
@@ -206,9 +212,10 @@
 		"difficulty": "zor",
 		"stem": "657 sayılı Kanun'un 4. maddesindeki tanımlara göre, kalkınma planında yer alan bir projenin yürütülmesi için özel ihtisas gerektiren ve geçici olan bir işte çalıştırılacak kişi hangi statüde istihdam edilir?",
 		"options": [
-			"İşçi (4/D)",
-			"Sözleşmeli personel (4/B)",
 			"Memur (4/A)",
+			"Sözleşmeli personel (4/B)",
+			"İşçi (4/D)",
+			"Geçici personel (4/C)",
 			"Hiçbiri; bu iş için personel çalıştırılamaz"
 		],
 		"correctIndex": 1,
@@ -230,8 +237,8 @@
 			"sozlesmeli",
 			"senaryo"
 		],
-		"version": 3,
-		"updatedAt": "2026-07-22"
+		"version": 4,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-genel-008",
@@ -240,12 +247,13 @@
 		"difficulty": "zor",
 		"stem": "657 sayılı Kanun'un kapsamına ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
 		"options": [
-			"Belediyelerde çalışan memurlar hakkında bu Kanun uygulanır.",
 			"Devlet Tiyatrosu sanatçıları bu Kanun'a tabidir.",
+			"Emniyet hizmetleri sınıfı personeli bu Kanun'un kapsamı dışındadır.",
 			"Hâkim ve savcılar hakkında da bu Kanun hükümleri uygulanır.",
-			"Subay ve astsubaylar bu Kanun'a tabidir."
+			"Subay ve astsubaylar bu Kanun'a tabidir.",
+			"Belediyelerde çalışan memurlar hakkında bu Kanun uygulanır."
 		],
-		"correctIndex": 0,
+		"correctIndex": 4,
 		"explanation": "Kanun; genel ve katma bütçeli kurumlar, il özel idareleri, belediyeler ve bunların kurdukları birlikler ile bağlı döner sermayeli kuruluşlarda çalışan memurlar hakkında uygulanır. Hâkim ve savcılar, subay ve astsubaylar ile Devlet Tiyatrosu, Devlet Opera ve Balesi sanatçıları özel kanunlarına tabi olup bu Kanun'un kapsamı dışındadır.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -263,8 +271,8 @@
 			"kapsam",
 			"istisna"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-genel-009",
@@ -274,11 +282,12 @@
 		"stem": "Memur tanımındaki 'asli ve sürekli' ölçütünün işlevi nedir?",
 		"options": [
 			"Memurun yıllık izin süresini belirler.",
+			"Memurun hangi kurumda çalışacağını belirler.",
+			"Memuru, geçici ve ihtisasa dayalı işlerde çalışan sözleşmeli personelden ayırır.",
 			"Memurun kadro derecesini belirler.",
-			"Memurun hangi sınıfa gireceğini belirler.",
-			"Memuru, geçici ve ihtisasa dayalı işlerde çalışan sözleşmeli personelden ayırır."
+			"Memurun hangi sınıfa gireceğini belirler."
 		],
-		"correctIndex": 3,
+		"correctIndex": 2,
 		"explanation": "Memur tanımı iki ölçütü birlikte arar: hizmetin genel idare esaslarına göre yürütülmesi ve asli ve sürekli olması. 'Asli ve sürekli' ölçütü, geçici veya özel ihtisas gerektiren işlerde çalıştırılan sözleşmeli personeli tanımın dışında bırakır. Kadro derecesi, izin süresi ve sınıf ayrı maddelerin konusudur.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -297,8 +306,8 @@
 			"memur-tanimi",
 			"yorum"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-genel-010",
@@ -307,12 +316,13 @@
 		"difficulty": "uzman",
 		"stem": "Bir belediye, kanunda sayılan istihdam şekillerinden hiçbirine girmeyen yeni bir personel statüsü oluşturarak çalışan istihdam etmiştir. Bu işlem için ne söylenebilir?",
 		"options": [
-			"Kanun'un 5. maddesine aykırıdır; kurumlar dört istihdam şekli dışında personel çalıştıramaz.",
 			"Belediyeler yerel yönetim özerkliği gereği kendi statülerini oluşturabilir.",
 			"Cumhurbaşkanı kararnamesiyle sonradan geçerli hâle getirilebilir.",
-			"Meclis kararıyla oluşturulmuşsa hukuka uygundur."
+			"Meclis kararıyla oluşturulmuşsa hukuka uygundur.",
+			"İçişleri Bakanlığının onayıyla hukuka uygun hâle gelir.",
+			"Kanun'un 5. maddesine aykırıdır; kurumlar dört istihdam şekli dışında personel çalıştıramaz."
 		],
-		"correctIndex": 0,
+		"correctIndex": 4,
 		"explanation": "Madde 5, bu Kanuna tabi kurumların dördüncü maddede yazılı dört istihdam şekli dışında personel çalıştıramayacağını emredici biçimde düzenler. Yerel yönetim özerkliği veya meclis kararı bu kanuni sınırı aşamaz; kamuda istihdam kanunla sınırlıdır.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -330,8 +340,8 @@
 			"madde-5",
 			"senaryo"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-genel-011",
@@ -340,12 +350,13 @@
 		"difficulty": "uzman",
 		"stem": "Aynı kurumda çalışan bir memur ile bir sürekli işçi, aynı fiili işlemiştir. Disiplin bakımından ne söylenebilir?",
 		"options": [
-			"İşçiye disiplin hükmü uygulanamaz.",
 			"Memura 657 sayılı Kanun, işçiye İş Kanunu ve toplu iş sözleşmesi hükümleri uygulanır.",
 			"Her ikisine de 657 sayılı Kanun'un disiplin hükümleri uygulanır.",
-			"Her ikisine de İş Kanunu uygulanır."
+			"Her ikisine de İş Kanunu uygulanır.",
+			"İşçiye disiplin hükmü uygulanamaz.",
+			"Her ikisine de kurumun kendi disiplin yönetmeliği uygulanır."
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "İşçiler 657 sayılı Kanun'un 4/D fıkrasında sayılmakla birlikte bu Kanun'a tabi değildir. Memurun disiplin rejimi 657 sayılı Kanun'da, işçininki İş Kanunu ve varsa toplu iş sözleşmesi hükümlerinde düzenlenir. Aynı fiil, iki farklı hukuki rejime göre değerlendirilir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -363,8 +374,8 @@
 			"kapsam",
 			"senaryo"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-genel-012",
@@ -373,13 +384,14 @@
 		"difficulty": "uzman",
 		"stem": "657 sayılı Kanun'un genel hükümlerine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
-			"Sözleşmeli personel, asli ve sürekli kamu hizmeti ifa ettiği için memur sayılır.",
-			"Geçici personeli düzenleyen fıkra yürürlükten kaldırılmıştır.",
+			"İşçiler bu Kanun'a değil, İş Kanunu'na tabidir.",
+			"Madde 5, dördüncü maddede yazılı dört istihdam şekline atıf yapar.",
 			"Kurumlar kanunda sayılanlar dışında personel çalıştıramaz.",
-			"Madde 5, dördüncü maddede yazılı dört istihdam şekline atıf yapar."
+			"Sözleşmeli personel, asli ve sürekli kamu hizmeti ifa ettiği için memur sayılır.",
+			"Geçici personeli düzenleyen fıkra yürürlükten kaldırılmıştır."
 		],
-		"correctIndex": 0,
-		"explanation": "Sözleşmeli personel memur değildir. Madde 4/B'ye göre sözleşmeli personel, geçici olarak özel meslek bilgisine ve ihtisasa ihtiyaç gösteren işlerde çalıştırılır; bu, memur tanımındaki 'asli ve sürekli' ölçütünün tam karşıtıdır. Diğer üç ifade doğrudur: madde 5'in güncellenmemiş lafzı gerçekten dört istihdam şekline atıf yapar, 4/C fıkrası KHK-696 ile kaldırılmıştır ve madde 5 kurumları kanunda sayılanlarla sınırlar.",
+		"correctIndex": 3,
+		"explanation": "Sözleşmeli personel memur değildir. Madde 4/B'ye göre sözleşmeli personel, geçici olarak özel meslek bilgisine ve ihtisasa ihtiyaç gösteren işlerde çalıştırılır; bu, memur tanımındaki 'asli ve sürekli' ölçütünün tam karşıtıdır. Diğer dört ifade doğrudur: madde 5'in güncellenmemiş lafzı gerçekten dört istihdam şekline atıf yapar, 4/C fıkrası KHK-696 ile kaldırılmıştır, madde 5 kurumları kanunda sayılanlarla sınırlar ve işçiler 4/D fıkrasında sayılmakla birlikte İş Kanunu'na tabidir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
 			"lawId": "657",
@@ -396,8 +408,8 @@
 			"tuzak",
 			"istihdam"
 		],
-		"version": 3,
-		"updatedAt": "2026-07-22"
+		"version": 4,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-genel-013",

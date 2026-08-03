@@ -6,12 +6,13 @@
 		"difficulty": "kolay",
 		"stem": "4982 sayılı Kanun'a göre kurum ve kuruluşlar, bilgi edinme başvurusu üzerine istenen bilgi veya belgeye erişimi kural olarak kaç iş günü içinde sağlar?",
 		"options": [
-			"30 iş günü",
 			"15 iş günü",
+			"10 iş günü",
 			"60 iş günü",
+			"30 iş günü",
 			"7 iş günü"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "4982 sayılı Bilgi Edinme Hakkı Kanunu'na göre kurum ve kuruluşlar, başvuru üzerine istenen bilgi veya belgeye erişimi on beş iş günü içinde sağlarlar. Otuz iş günlük süre yalnızca bilginin başka birimden sağlanması, başka kurumun görüşünün gerekmesi veya başvurunun birden fazla kurumu ilgilendirmesi hâlinde uygulanan istisnadır.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -28,8 +29,8 @@
 			"bilgi-edinme",
 			"sure"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-saydam-002",
@@ -38,12 +39,13 @@
 		"difficulty": "kolay",
 		"stem": "Bilgi edinme istemi reddedilen başvuru sahibi, kararın tebliğinden itibaren kaç gün içinde Bilgi Edinme Değerlendirme Kuruluna itiraz edebilir?",
 		"options": [
-			"30 gün",
 			"7 gün",
-			"60 gün",
-			"15 gün"
+			"15 gün",
+			"10 gün",
+			"30 gün",
+			"60 gün"
 		],
-		"correctIndex": 3,
+		"correctIndex": 1,
 		"explanation": "4982 sayılı Kanun'a göre bilgi edinme istemi reddedilen başvuru sahibi, yargı yoluna başvurmadan önce kararın tebliğinden itibaren on beş gün içinde Bilgi Edinme Değerlendirme Kuruluna itiraz edebilir. Bu itiraz, idari yargıya başvurma süresini durdurur.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -60,8 +62,8 @@
 			"itiraz",
 			"sure"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-saydam-003",
@@ -70,10 +72,11 @@
 		"difficulty": "kolay",
 		"stem": "Kamu Başdenetçisi kim tarafından ve kaç yıl için seçilir?",
 		"options": [
-			"Danıştay tarafından, 6 yıl için",
 			"Cumhurbaşkanı tarafından, 5 yıl için",
+			"Adalet Bakanı tarafından, 4 yıl için",
 			"Türkiye Büyük Millet Meclisi tarafından, 4 yıl için",
-			"Adalet Bakanı tarafından, 4 yıl için"
+			"Danıştay tarafından, 6 yıl için",
+			"Türkiye Büyük Millet Meclisi tarafından, 6 yıl için"
 		],
 		"correctIndex": 2,
 		"explanation": "Anayasa'nın 74. maddesine göre Kamu Denetçiliği Kurumu Türkiye Büyük Millet Meclisi Başkanlığına bağlı olarak kurulur ve Kamu Başdenetçisi TBMM tarafından gizli oyla dört yıl için seçilir.",
@@ -92,8 +95,8 @@
 		"tags": [
 			"kamu-denetciligi"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-saydam-004",
@@ -102,12 +105,13 @@
 		"difficulty": "orta",
 		"stem": "Bilgi edinme başvurusunda istenen bilginin başka bir kurumun görüşünün alınmasını gerektirmesi hâlinde erişim süresi kaç iş günüdür?",
 		"options": [
+			"45 iş günü",
 			"60 iş günü",
-			"30 iş günü",
+			"20 iş günü",
 			"15 iş günü",
-			"20 iş günü"
+			"30 iş günü"
 		],
-		"correctIndex": 1,
+		"correctIndex": 4,
 		"explanation": "İstenen bilgi veya belgenin başvurulan kurum içindeki başka bir birimden sağlanması, başka bir kurumun görüşünün alınmasının gerekmesi veya başvuru içeriğinin birden fazla kurumu ilgilendirmesi durumlarında bilgi veya belgeye erişim otuz iş günü içinde sağlanır. Bu, on beş iş günlük genel kuralın istisnasıdır.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -124,8 +128,8 @@
 			"bilgi-edinme",
 			"istisna"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-saydam-005",
@@ -136,10 +140,11 @@
 		"options": [
 			"İdari yargıya başvurma süresini yarıya indirir.",
 			"Hiçbir etkisi yoktur.",
-			"İdari yargı yolunu tamamen kapatır.",
-			"İdari yargıya başvurma süresini durdurur."
+			"İdari yargıya başvurma süresini durdurur.",
+			"İdari yargıya başvurma süresini yeniden başlatır.",
+			"İdari yargı yolunu tamamen kapatır."
 		],
-		"correctIndex": 3,
+		"correctIndex": 2,
 		"explanation": "4982 sayılı Kanun'a göre Kurula itiraz, başvuru sahibinin idari yargıya başvurma süresini durdurur. Bu düzenleme, vatandaşın idari itiraz yolunu kullanırken dava açma hakkını kaybetmesini önler.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -156,8 +161,8 @@
 			"itiraz",
 			"yargi"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-saydam-006",
@@ -166,12 +171,13 @@
 		"difficulty": "orta",
 		"stem": "Yönetmelikteki 'yöneticilerin hesap verme sorumluluğu' ilkesi yöneticiye ne yükler?",
 		"options": [
-			"Astlarının tüm işlemlerini bizzat yapmak",
-			"Kurumun amaç ve politikalarına uygun olmayan işlem veya eylemleri engellemek için gerekli önlemleri zamanında almak",
+			"Yalnızca üst amirine bilgi vermek",
+			"Kurumun bütün işlemlerini Sayıştay denetimine sunmak",
 			"Yalnızca yıllık faaliyet raporu hazırlamak",
-			"Yalnızca üst amirine bilgi vermek"
+			"Kurumun amaç ve politikalarına uygun olmayan işlem veya eylemleri engellemek için gerekli önlemleri zamanında almak",
+			"Astlarının tüm işlemlerini bizzat yapmak"
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Yönetmeliğe göre yöneticiler, kurumun amaç ve politikalarına uygun olmayan işlem veya eylemleri engellemek için görev ve yetkilerinin gerektirdiği önlemleri zamanında alır ve hesap verme sorumluluğu çerçevesinde davranır. Sorumluluk pasif bir raporlama değil, önleyici bir yükümlülüktür.",
 		"legalRef": {
 			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
@@ -186,8 +192,8 @@
 		"tags": [
 			"hesap-verebilirlik"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-saydam-007",
@@ -196,12 +202,13 @@
 		"difficulty": "zor",
 		"stem": "Bilgi Edinme Değerlendirme Kurulu, önüne gelen itiraz hakkında kararını kaç iş günü içinde verir?",
 		"options": [
-			"45 iş günü",
 			"15 iş günü",
-			"60 iş günü",
-			"30 iş günü"
+			"30 iş günü",
+			"20 iş günü",
+			"45 iş günü",
+			"60 iş günü"
 		],
-		"correctIndex": 3,
+		"correctIndex": 1,
 		"explanation": "4982 sayılı Kanun'a göre Kurul, itiraz konusundaki kararını otuz iş günü içinde verir. Ayrıca kurum ve kuruluşlar, Kurulun istediği her türlü bilgi veya belgeyi on beş iş günü içinde vermekle yükümlüdürler.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -218,8 +225,8 @@
 			"kurul",
 			"sure"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-saydam-008",
@@ -228,12 +235,13 @@
 		"difficulty": "zor",
 		"stem": "Yabancıların bilgi edinme hakkından yararlanması hangi esasa bağlanmıştır?",
 		"options": [
-			"Tüm yabancılar sınırsız şekilde yararlanır.",
-			"Yalnızca Cumhurbaşkanı kararıyla yararlanabilirler.",
 			"Türkiye'de ikamet eden yabancılar ile Türkiye'de faaliyette bulunan yabancı tüzel kişiler karşılıklılık esasında yararlanır.",
-			"Yabancılar bu haktan hiçbir şekilde yararlanamaz."
+			"Yabancılar bu haktan hiçbir şekilde yararlanamaz.",
+			"Yabancılar bu haktan yalnızca Türk vatandaşı bir temsilci aracılığıyla yararlanabilir.",
+			"Tüm yabancılar sınırsız şekilde yararlanır.",
+			"Yalnızca Cumhurbaşkanı kararıyla yararlanabilirler."
 		],
-		"correctIndex": 2,
+		"correctIndex": 0,
 		"explanation": "4982 sayılı Kanun'a göre herkes bilgi edinme hakkına sahiptir; Türkiye'de ikamet eden yabancılar ile Türkiye'de faaliyette bulunan yabancı tüzel kişiler ise karşılıklılık esası çerçevesinde ve kendileriyle veya faaliyet alanlarıyla ilgili konularda bu haktan yararlanır.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -250,8 +258,8 @@
 			"bilgi-edinme",
 			"yabanci"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-saydam-009",
@@ -260,12 +268,13 @@
 		"difficulty": "zor",
 		"stem": "Kanunda belirtilen süreler içinde başvuru sahibine olumlu veya olumsuz hiçbir cevap verilmemesi hâlinde ne olur?",
 		"options": [
+			"Başvuru, otuz günün geçmesiyle reddedilmiş sayılır.",
+			"Başvuru otomatik olarak Kurula gider.",
 			"Başvuru kabul edilmiş sayılır.",
 			"Başvuru geçersiz hâle gelir ve yenilenmesi gerekir.",
-			"Başvuru, altmış günün geçmesiyle reddedilmiş sayılır.",
-			"Başvuru otomatik olarak Kurula gider."
+			"Başvuru, altmış günün geçmesiyle reddedilmiş sayılır."
 		],
-		"correctIndex": 2,
+		"correctIndex": 4,
 		"explanation": "4982 sayılı Kanun'a göre belirtilen süreler içinde kurum ve kuruluşlar tarafından başvuru sahibine olumlu veya olumsuz herhangi bir cevap verilmemesi hâlinde başvuru, 2577 sayılı İdari Yargılama Usulü Kanunu'nun 10. maddesi uyarınca altmış günün geçmesiyle reddedilmiş sayılır. Bu zımni ret, dava açma hakkını doğurur.",
 		"legalRef": {
 			"law": "2577 sayılı İdari Yargılama Usulü Kanunu",
@@ -283,8 +292,8 @@
 			"zimni-ret",
 			"sure"
 		],
-		"version": 3,
-		"updatedAt": "2026-07-31"
+		"version": 4,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-saydam-010",
@@ -293,12 +302,13 @@
 		"difficulty": "uzman",
 		"stem": "Bir vatandaşın bilgi edinme başvurusu reddedilmiştir. Vatandaş kararın tebliğinden 20 gün sonra Bilgi Edinme Değerlendirme Kuruluna itiraz etmiştir. Bu itiraz için ne söylenebilir?",
 		"options": [
-			"İtiraz süresi 15 gün olduğundan süresinde yapılmamıştır.",
-			"Süresinde yapılmıştır; itiraz süresi 30 gündür.",
 			"İtiraz süresi 60 gün olduğundan süresindedir.",
+			"Süresinde yapılmıştır; itiraz süresi 30 gündür.",
+			"İtiraz süresi 15 iş günü olduğundan süresinde yapılmıştır.",
+			"İtiraz süresi 15 gün olduğundan süresinde yapılmamıştır.",
 			"İtiraz için süre öngörülmemiştir."
 		],
-		"correctIndex": 0,
+		"correctIndex": 3,
 		"explanation": "4982 sayılı Kanun'a göre bilgi edinme istemi reddedilen başvuru sahibi, yargı yoluna başvurmadan önce kararın tebliğinden itibaren on beş gün içinde Kurula itiraz edebilir. 20. günde yapılan itiraz bu süreyi aşmıştır. Şıklardaki 30 iş günü Kurulun karar süresi, 60 gün ise zımni ret süresidir; ikisi de itiraz süresi değildir.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -316,8 +326,8 @@
 			"senaryo",
 			"tuzak"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-saydam-011",
@@ -326,10 +336,11 @@
 		"difficulty": "uzman",
 		"stem": "Bir kurum, kendisine yapılan bilgi edinme başvurusunu yanıtlamak için başka bir kurumun görüşüne ihtiyaç duymaktadır. Erişimin sağlanması gereken süre ve bu sürenin niteliği nedir?",
 		"options": [
-			"60 gün; zımni ret süresidir.",
-			"30 iş günü; genel kuralın istisnasıdır.",
 			"30 gün; genel kuraldır.",
-			"15 iş günü; genel kuraldır."
+			"30 iş günü; genel kuralın istisnasıdır.",
+			"15 iş günü; genel kuraldır.",
+			"60 gün; zımni ret süresidir.",
+			"30 iş günü; genel kuraldır."
 		],
 		"correctIndex": 1,
 		"explanation": "Genel kural on beş iş günüdür. Bilginin başka bir birimden sağlanması, başka bir kurumun görüşünün alınmasının gerekmesi veya başvurunun birden fazla kurumu ilgilendirmesi hâllerinde süre otuz iş gününe çıkar; bu istisnai bir süredir. 60 gün ise cevap verilmemesi hâlindeki zımni ret süresidir ve farklı bir kurumu ifade eder.",
@@ -348,8 +359,8 @@
 			"bilgi-edinme",
 			"senaryo"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-saydam-012",
@@ -358,13 +369,14 @@
 		"difficulty": "uzman",
 		"stem": "Saydamlık ve bilgi edinmeye ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
-			"Kurula itiraz, idari yargıya başvurma süresini durdurur.",
+			"Bilgi edinme başvurusuna erişim süresi her hâlükârda 30 iş günüdür.",
+			"Bilgi edinme istemi reddedilen başvuru sahibi, tebliğden itibaren on beş gün içinde Kurula itiraz edebilir.",
 			"Kurum ve kuruluşlar Kurulun istediği bilgi veya belgeyi 15 iş günü içinde vermekle yükümlüdür.",
 			"Kamu görevlileri, halkın bilgi edinme hakkını kullanmasına yardımcı olmakla yükümlüdür.",
-			"Bilgi edinme başvurusuna erişim süresi her hâlükârda 30 iş günüdür."
+			"Kurula itiraz, idari yargıya başvurma süresini durdurur."
 		],
-		"correctIndex": 3,
-		"explanation": "Erişim süresi her hâlükârda 30 iş günü değildir; genel kural 15 iş günüdür ve 30 iş günü yalnızca belirli hâllerde uygulanan istisnadır. Diğer üç ifade sırasıyla 4982 sayılı Kanun ve Etik Davranış İlkeleri Yönetmeliği hükümleriyle uyumludur.",
+		"correctIndex": 0,
+		"explanation": "Erişim süresi her hâlükârda 30 iş günü değildir; genel kural 15 iş günüdür ve 30 iş günü yalnızca belirli hâllerde uygulanan istisnadır. Diğer dört ifade 4982 sayılı Kanun ve Etik Davranış İlkeleri Yönetmeliği hükümleriyle uyumludur.",
 		"legalRef": {
 			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
 			"lawId": "4982"
@@ -380,8 +392,8 @@
 			"tuzak",
 			"sure"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-saydam-013",

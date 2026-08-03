@@ -6,12 +6,13 @@
 		"difficulty": "kolay",
 		"stem": "Kamu Görevlileri Etik Kurulu kaç üyeden oluşur?",
 		"options": [
-			"7",
-			"9",
 			"11",
+			"9",
+			"13",
+			"7",
 			"15"
 		],
-		"correctIndex": 2,
+		"correctIndex": 0,
 		"explanation": "5176 sayılı Kanun'a göre Kamu Görevlileri Etik Kurulu, biri Başkan olmak üzere toplam 11 üyeden oluşur. Üyeler Cumhurbaşkanınca atanır ve görev süreleri dört yıldır.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -29,8 +30,8 @@
 			"kurul",
 			"sayi"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-ilke-002",
@@ -40,11 +41,12 @@
 		"stem": "Kamu Görevlileri Etik Kurulu üyelerinin görev süresi kaç yıldır?",
 		"options": [
 			"2 yıl",
+			"6 yıl",
+			"5 yıl",
 			"4 yıl",
-			"3 yıl",
-			"5 yıl"
+			"3 yıl"
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Kurul üyelerinin görev süresi dört yıldır. Süresi dolan üyeler Cumhurbaşkanınca yeniden seçilebilir.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -62,8 +64,8 @@
 			"kurul",
 			"sure"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-ilke-003",
@@ -72,12 +74,13 @@
 		"difficulty": "kolay",
 		"stem": "Kamu görevlilerinin imzaladığı Etik Sözleşmesi nereye konulur?",
 		"options": [
-			"Görevlinin özlük dosyasına",
-			"Kamu Görevlileri Etik Kuruluna gönderilir",
 			"Kurum arşivine",
-			"Sicil affı dosyasına"
+			"Kurumun etik komisyonuna teslim edilir",
+			"Sicil affı dosyasına",
+			"Görevlinin özlük dosyasına",
+			"Kamu Görevlileri Etik Kuruluna gönderilir"
 		],
-		"correctIndex": 0,
+		"correctIndex": 3,
 		"explanation": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik gereği kamu görevlileri Etik Sözleşmesini imzalar ve bu sözleşme görevlinin özlük dosyasına konulur.",
 		"legalRef": {
 			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
@@ -92,8 +95,8 @@
 		"tags": [
 			"etik-sozlesme"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-ilke-004",
@@ -102,12 +105,13 @@
 		"difficulty": "orta",
 		"stem": "5176 sayılı Kanun hükümleri aşağıdakilerden hangisi hakkında uygulanmaz?",
 		"options": [
+			"Döner sermayeli kuruluş personeli",
 			"Belediye başkanları",
+			"Kamu iktisadi teşebbüsü çalışanları",
 			"İl özel idaresi personeli",
-			"Yargı mensupları",
-			"Kamu iktisadi teşebbüsü çalışanları"
+			"Yargı mensupları"
 		],
-		"correctIndex": 2,
+		"correctIndex": 4,
 		"explanation": "5176 sayılı Kanun; Cumhurbaşkanı, TBMM üyeleri, Cumhurbaşkanı yardımcıları ve bakanlar, Türk Silahlı Kuvvetleri mensupları, yargı mensupları ve üniversiteler hakkında uygulanmaz. Belediyeler, il özel idareleri ve kamu iktisadi teşebbüsleri ise kapsam içindedir.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -124,8 +128,8 @@
 		"tags": [
 			"kapsam"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-ilke-005",
@@ -134,12 +138,13 @@
 		"difficulty": "orta",
 		"stem": "Kamu Görevlileri Etik Kuruluna, hangi seviyedeki kamu görevlileri hakkında başvuruda bulunulabilir?",
 		"options": [
+			"Yalnızca daire başkanı ve üstü hakkında",
 			"En az genel müdür veya eşiti seviyedeki kamu görevlileri hakkında",
 			"Her kademedeki kamu görevlisi hakkında",
 			"Yalnızca şube müdürü ve üstü hakkında",
 			"Yalnızca müsteşar ve üstü hakkında"
 		],
-		"correctIndex": 0,
+		"correctIndex": 1,
 		"explanation": "Kurula, etik davranış ilkelerine aykırı uygulamalar bulunduğu iddiasıyla en az genel müdür veya eşiti seviyedeki kamu görevlileri hakkında başvurulabilir. Daha alt kademedeki görevliler hakkındaki başvurular ilgili kurumun yetkili disiplin kuruluna yapılır.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -157,8 +162,8 @@
 			"basvuru",
 			"esik"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-ilke-006",
@@ -168,9 +173,10 @@
 		"stem": "Kamu Görevlileri Etik Kurulu üyelerini kim atar?",
 		"options": [
 			"Cumhurbaşkanı",
-			"Devlet Personel Başkanlığı",
+			"Danıştay Genel Kurulu",
+			"Bakanlar Kurulu",
 			"Türkiye Büyük Millet Meclisi",
-			"Danıştay Genel Kurulu"
+			"Devlet Personel Başkanlığı"
 		],
 		"correctIndex": 0,
 		"explanation": "Kurul üyeleri Cumhurbaşkanı tarafından atanır. 2018 öncesinde bu yetki Bakanlar Kuruluna aitti; Cumhurbaşkanlığı hükümet sistemine geçişle atama yetkisi Cumhurbaşkanına geçmiştir. 'Bakanlar Kurulu' diyen kaynaklar güncel değildir.",
@@ -190,8 +196,8 @@
 			"kurul",
 			"guncellik"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-ilke-007",
@@ -200,10 +206,11 @@
 		"difficulty": "zor",
 		"stem": "Etik davranış ilkeleri arasında aşağıdakilerden hangisi yer almaz?",
 		"options": [
-			"Eski kamu görevlileriyle ilişkiler",
+			"Savurganlıktan kaçınma",
 			"Yöneticilerin hesap verme sorumluluğu",
 			"Siyasi partiye üye olma serbestisi",
-			"Savurganlıktan kaçınma"
+			"Eski kamu görevlileriyle ilişkiler",
+			"Çıkar çatışmasından kaçınma"
 		],
 		"correctIndex": 2,
 		"explanation": "Yönetmelikte sayılan etik davranış ilkeleri arasında savurganlıktan kaçınma, eski kamu görevlileriyle ilişkiler ve yöneticilerin hesap verme sorumluluğu yer alır. Siyasi partiye üye olma ise bir etik ilke değildir; aksine 657 sayılı Kanun'a göre memurun siyasi partiye girmesi Devlet memurluğundan çıkarma cezasını gerektiren bir fiildir.",
@@ -221,8 +228,8 @@
 			"ilkeler",
 			"tuzak"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-ilke-008",
@@ -231,12 +238,13 @@
 		"difficulty": "zor",
 		"stem": "Kurumlarda oluşturulan etik komisyonlarının görevi aşağıdakilerden hangisidir?",
 		"options": [
-			"Kamu Görevlileri Etik Kurulu üyelerini seçmek",
 			"Etik kültürünü yerleştirmek ve kamu görevlilerine rehberlik etmek",
+			"Memurların mal bildirimlerini denetleyip onaylamak",
+			"Etik ihlali iddialarını soruşturup rapora bağlamak",
 			"Etik ilkeleri ihlal eden görevlilere disiplin cezası vermek",
-			"Memurların mal bildirimlerini denetleyip onaylamak"
+			"Kamu Görevlileri Etik Kurulu üyelerini seçmek"
 		],
-		"correctIndex": 1,
+		"correctIndex": 0,
 		"explanation": "Etik komisyonları, kurumlarda etik kültürünü yerleştirmek, görevlilere rehberlik etmek ve karşılaşılan sorunlarda yol göstermek üzere kurum yöneticisince oluşturulur. Bu komisyonlar bir yaptırım organı değildir; disiplin cezası verme yetkisi 657 sayılı Kanun'a göre disiplin amirleri ve disiplin kurullarındadır.",
 		"legalRef": {
 			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
@@ -252,8 +260,8 @@
 			"etik-komisyonu",
 			"tuzak"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-ilke-009",
@@ -263,11 +271,12 @@
 		"stem": "5176 sayılı Kanun'un amacı aşağıdakilerden hangisinde en doğru şekilde ifade edilmiştir?",
 		"options": [
 			"Kamu görevlilerinin mali haklarını yeniden belirlemek",
-			"Kamu görevlilerine verilecek disiplin cezalarını yeniden düzenlemek",
+			"Kamu görevlilerinin uyacağı etik davranış ilkelerini belirlemek ve uygulamayı gözetmek üzere Etik Kurulun kuruluş ve çalışma esaslarını düzenlemek",
 			"Kamu kurumlarında iç denetim birimlerinin kurulmasını sağlamak",
-			"Kamu görevlilerinin uyacağı etik davranış ilkelerini belirlemek ve uygulamayı gözetmek üzere Etik Kurulun kuruluş ve çalışma esaslarını düzenlemek"
+			"Kamu görevlilerine verilecek disiplin cezalarını yeniden düzenlemek",
+			"Kamu görevlilerinin mal bildirimi usul ve esaslarını belirlemek"
 		],
-		"correctIndex": 3,
+		"correctIndex": 1,
 		"explanation": "Kanun'un amacı, kamu görevlilerinin uymaları gereken saydamlık, tarafsızlık, dürüstlük, hesap verebilirlik ve kamu yararını gözetme gibi etik davranış ilkelerini belirlemek ve uygulamayı gözetmek üzere Kamu Görevlileri Etik Kurulunun kuruluş, görev ve çalışma usul ve esaslarını düzenlemektir. Kanun bir disiplin veya özlük hakları düzenlemesi değildir.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -284,8 +293,8 @@
 		"tags": [
 			"amac"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-ilke-010",
@@ -294,12 +303,13 @@
 		"difficulty": "uzman",
 		"stem": "Bir vatandaş, çalıştığı ildeki bir şube müdürünün etik davranış ilkelerine aykırı davrandığı iddiasıyla doğrudan Kamu Görevlileri Etik Kuruluna başvurmuştur. Bu başvuru için ne söylenebilir?",
 		"options": [
-			"Kurul, her kademedeki görevliyi inceleyebileceğinden başvuru usulüne uygundur.",
-			"Başvuru yalnızca kamu görevlileri tarafından yapılabileceğinden reddedilir.",
+			"Başvuru, incelenmeksizin doğrudan Cumhurbaşkanlığına gönderilir.",
 			"Kurul yalnızca Cumhurbaşkanlığı üzerinden gelen başvuruları inceler.",
+			"Başvuru yalnızca kamu görevlileri tarafından yapılabileceğinden reddedilir.",
+			"Kurul, her kademedeki görevliyi inceleyebileceğinden başvuru usulüne uygundur.",
 			"Şube müdürü genel müdür seviyesinin altında olduğundan başvurunun ilgili kurumun yetkili disiplin kuruluna yapılması gerekir."
 		],
-		"correctIndex": 3,
+		"correctIndex": 4,
 		"explanation": "Kurula başvuru eşiği en az genel müdür veya eşiti seviyedeki kamu görevlileridir. Şube müdürü bu eşiğin altında kaldığından, iddia ilgili kurumun yetkili disiplin kuruluna iletilmelidir. Başvuru hakkı yalnızca kamu görevlilerine tanınmış değildir; sorun başvuranın sıfatı değil, hakkında başvurulan görevlinin seviyesidir.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -317,8 +327,8 @@
 			"basvuru",
 			"senaryo"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-ilke-011",
@@ -327,12 +337,13 @@
 		"difficulty": "uzman",
 		"stem": "Bir kurumun etik komisyonu, etik ilkeleri ihlal ettiğini tespit ettiği bir memura kınama cezası vermiştir. Bu işlem için ne söylenebilir?",
 		"options": [
-			"Yetki yönünden hukuka aykırıdır; disiplin cezası verme yetkisi disiplin amirleri ve disiplin kurullarındadır.",
-			"Usulüne uygundur; çünkü kınama en hafif ikinci cezadır.",
+			"Usulüne uygundur; etik komisyonları disiplin cezası verebilir.",
 			"Usulüne uygundur; ancak cezanın Etik Kurulca onaylanması gerekir.",
-			"Usulüne uygundur; etik komisyonları disiplin cezası verebilir."
+			"Usulüne uygundur; ancak cezaya karşı Etik Kurula itiraz edilebilir.",
+			"Yetki yönünden hukuka aykırıdır; disiplin cezası verme yetkisi disiplin amirleri ve disiplin kurullarındadır.",
+			"Usulüne uygundur; çünkü kınama en hafif ikinci cezadır."
 		],
-		"correctIndex": 0,
+		"correctIndex": 3,
 		"explanation": "Etik komisyonları rehberlik ve danışma organlarıdır; yaptırım uygulama yetkileri yoktur. Kınama cezası 657 sayılı Kanun'un 126. maddesi uyarınca disiplin amirlerince verilir. Etik ihlali tespiti ile disiplin cezası verilmesi ayrı süreçlerdir; ihlal, ayrıca disiplin soruşturmasını gerektirebilir ama cezayı etik organı veremez.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -351,8 +362,8 @@
 			"senaryo",
 			"yetki"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-ilke-012",
@@ -361,13 +372,14 @@
 		"difficulty": "uzman",
 		"stem": "Kamu Görevlileri Etik Kuruluna ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
+			"Kurul 11 üyeden oluşur.",
+			"Kurula, en az genel müdür veya eşiti seviyedeki kamu görevlileri hakkında başvurulabilir.",
 			"Kanun hükümleri üniversiteler hakkında da uygulanır.",
 			"Kurul, hediye alma yasağının kapsamını belirlemeye yetkilidir.",
-			"Kurul 11 üyeden oluşur.",
 			"Üyelerin görev süresi dört yıldır ve süresi dolan üyeler yeniden seçilebilir."
 		],
-		"correctIndex": 0,
-		"explanation": "5176 sayılı Kanun hükümleri üniversiteler hakkında uygulanmaz; üniversiteler Cumhurbaşkanı, TBMM üyeleri, Cumhurbaşkanı yardımcıları ve bakanlar, Türk Silahlı Kuvvetleri ve yargı mensuplarıyla birlikte kapsam dışındadır. Diğer üç ifade doğrudur; Kurul ayrıca hediye alma yasağının kapsamını belirlemeye ve üst düzey görevlilerden aldıkları hediyelerin listesini istemeye yetkilidir.",
+		"correctIndex": 2,
+		"explanation": "5176 sayılı Kanun hükümleri üniversiteler hakkında uygulanmaz; üniversiteler Cumhurbaşkanı, TBMM üyeleri, Cumhurbaşkanı yardımcıları ve bakanlar, Türk Silahlı Kuvvetleri ve yargı mensuplarıyla birlikte kapsam dışındadır. Diğer dört ifade doğrudur; Kurul ayrıca hediye alma yasağının kapsamını belirlemeye ve üst düzey görevlilerden aldıkları hediyelerin listesini istemeye yetkilidir.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
 			"lawId": "5176",
@@ -384,8 +396,8 @@
 			"kapsam",
 			"tuzak"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-ilke-013",
