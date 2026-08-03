@@ -326,5 +326,664 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-011",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "kolay",
+		"stem": "Yönetmelikte “idare” kavramı neyi ifade eder?",
+		"options": [
+			"Belgeyi imzalamaya yetkili makamları",
+			"Belgenin muhatabı olan gerçek ve tüzel kişileri",
+			"Kamu kurum ve kuruluşları ile kamu kurumu niteliğindeki meslek kuruluşlarını",
+			"Kamu kurum ve kuruluşlarını",
+			"Yalnızca merkezî yönetim kapsamındaki kamu idarelerini"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.3'te “İdare: Kamu kurum ve kuruluşlarını” ifade eder biçiminde tanımlanmıştır. Bu tanım Yönetmeliğin kapsam maddesiyle örtüşür: Yönetmelik bütün kamu kurum ve kuruluşlarını kapsar.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"idare",
+			"tanimlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-012",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "kolay",
+		"stem": "Yönetmelikteki tanımlara göre aşağıdaki eşleştirmelerden hangisi YANLIŞTIR?",
+		"options": [
+			"Fiziksel ortam: Kâğıt ortamında yapılan işlemleri",
+			"Form: Biçimli belgeyi",
+			"Üst yazı: Belgenin, varsa ek veya ekleri hariç kısmını",
+			"Format: Biçimli belgeyi",
+			"İdare: Kamu kurum ve kuruluşlarını"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.3'te iki kısa tanım birbirine karıştırılacak biçimde yan yanadır: FORM “biçimli belgeyi”, FORMAT ise “ELEKTRONİK DOSYA TÜRLERİNİ” ifade eder. Fiziksel ortam kâğıt ortamında yapılan işlemler, idare kamu kurum ve kuruluşları, üst yazı ise belgenin ekleri hariç kısmıdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fiziksel-ortam",
+			"form",
+			"format"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-013",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre “resmî yazışma” tanımı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca idarelerin gerçek ve tüzel kişilerle yaptıkları yazışmaları ifade eder.",
+			"İdarelerin kendi içlerinde, birbirleriyle veya gerçek ya da tüzel kişiler ile iletişim sağlamak amacıyla yürüttükleri süreci ifade eder.",
+			"Yalnızca idare içindeki birimler arasındaki yazışmaları ifade eder.",
+			"Yalnızca idarelerin birbirleriyle yaptıkları yazışmaları ifade eder.",
+			"Yalnızca elektronik ortamda yapılan yazışmaları ifade eder."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.3'e göre RESMÎ YAZIŞMA; idarelerin KENDİ İÇLERİNDE, BİRBİRLERİYLE VEYA GERÇEK YA DA TÜZEL KİŞİLER İLE iletişim sağlamak amacıyla, güvenli elektronik imza kullanarak elektronik ortamda ve zorunlu hâllerde veya olağanüstü durumlarda el yazısıyla atılan imza ile fiziksel ortamda yürüttükleri süreçtir. Tanım üç yönü de (iç, idareler arası, kişilerle) kapsar.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"resmi-yazisma",
+			"tanimlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-014",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre “yetkili makam” aşağıdakilerden hangisini ifade eder?",
+		"options": [
+			"Mevzuatta belirtilen görevleri yerine getirme hususunda yürütme ve karar verme yetkisine sahip görevlileri",
+			"Güvenli elektronik imza oluşturma aracını kullanan her personeli",
+			"İdarenin en üst yöneticisini",
+			"Belgeyi paraflayan birim yöneticilerini",
+			"Belgeye kayıt numarası vermeye yetkili evrak görevlilerini"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.3'te YETKİLİ MAKAM, “mevzuatta belirtilen görevleri yerine getirme hususunda YÜRÜTME VE KARAR VERME YETKİSİNE SAHİP GÖREVLİLERİ” ifade eder. Buna karşılık İMZA SAHİBİ, güvenli elektronik imza oluşturmak amacıyla bir imza oluşturma aracını kullanan veya zorunlu hâl ya da olağanüstü durumlarda belgeyi el yazısıyla imzalayan GERÇEK KİŞİDİR. İki kavram farklıdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yetkili-makam",
+			"imza-sahibi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-015",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğin “belge” tanımı bakımından aşağıdakilerden hangisi tanımın unsurlarından biri DEĞİLDİR?",
+		"options": [
+			"Güvenli elektronik imza ya da el yazısıyla imzalanmış olması",
+			"Ait olduğu fonksiyon veya işlem için delil teşkil ederek aidiyet zincirini muhafaza etmesi",
+			"Bir bireysel işlemin, kurumsal fonksiyonun veya kurumsal işlemin yerine getirilmesi için alınmış ya da idare tarafından hazırlanmış olması",
+			"Muhatabına ulaşmış olması",
+			"Kayıt altına alınmış olması"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.3'teki belge tanımının unsurları şunlardır: bir işlemin yerine getirilmesi için ALINMIŞ YA DA HAZIRLANMIŞ olmak; içerik, ilişki ve formatıyla DELİL TEŞKİL EDEREK AİDİYET ZİNCİRİNİ MUHAFAZA ETMEK; İMZALANMIŞ ve KAYIT ALTINA ALINMIŞ olmak. Muhataba ulaşmış olmak tanımda yer almaz — imzalanıp kayda geçen bir yazı, gönderilmemiş olsa da belgedir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"belge",
+			"tanimlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-016",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre Elektronik Belge Yönetim Sistemi (EBYS) tanımı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Belgelere sayı almak için kullanılan defter ve benzeri fiziksel kayıttır.",
+			"Belgelerin yapısı, formatı ve imzalama mekanizmalarını tanımlayan rehberdir.",
+			"Belgelerin konu esasına göre dosyalanmasını sağlayan sınıflama şemasıdır.",
+			"Belgelerin içerik, üstveri, format ve ilişkisel özelliklerini koruyan ve aidiyet zinciri içerisindeki yönetimini elektronik ortamda sağlayan sistemdir.",
+			"İdarelerin birimlerini Türkiye Cumhuriyeti Devlet Teşkilatı Numarası ile tanımladığı sistemdir."
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.3: EBYS, idarelerin hazırladıkları ve faaliyetlerinin delili olabilecek e-Yazışma Teknik Rehberi'ne uygun belgelerin İÇERİK, ÜSTVERİ, FORMAT VE İLİŞKİSEL ÖZELLİKLERİNİ KORUYAN, belgelerin delil teşkil etmesini sağlayan ve AİDİYET ZİNCİRİ İÇERİSİNDEKİ YÖNETİMİNİ elektronik ortamda sağlayan sistemdir. Diğer şıklar sırasıyla DETSİS, standart dosya planı, e-Yazışma Teknik Rehberi ve kurumsal belge kayıt sistemi tanımlarıdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ebys",
+			"tanimlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-017",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre DETSİS'in açılımı ve işlevi aşağıdakilerden hangisidir?",
+		"options": [
+			"Devlet Teşkilatı Merkezi Kayıt Sistemi — belgelere kayıt numarası verilen sistem",
+			"Devlet Elektronik Sistemi — belgelerin elektronik ortamda saklandığı sistem",
+			"Devlet Teşkilatı Merkezi Kayıt Sistemi — idarelerin merkez, taşra ve yurt dışı teşkilatındaki birimlerinin Türkiye Cumhuriyeti Devlet Teşkilatı Numarası ile tanımlandığı sistem",
+			"Devlet Teşkilatı Standart Bilgi Sistemi — standart dosya planının yayımlandığı sistem",
+			"Dijital Elektronik Sertifika Sistemi — güvenli elektronik imza sertifikalarının verildiği sistem"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.3: DEVLET TEŞKİLATI MERKEZİ KAYIT SİSTEMİ (DETSİS), Dijital Dönüşüm Ofisi Başkanlığı tarafından yürütülen ve idarelerin MERKEZ, TAŞRA VE YURT DIŞI teşkilatındaki BİRİMLERİNİN TÜRKİYE CUMHURİYETİ DEVLET TEŞKİLATI NUMARASI İLE TANIMLANDIĞI sistemdir. Belgeye kayıt numarası ise DETSİS'ten değil EBYS'den alınır; DETSİS numarası sayının yalnızca bir bileşenidir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"detsis",
+			"tanimlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-018",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre standart dosya planı nedir?",
+		"options": [
+			"Belgelerin, üretim yerleri ile ilişkisi belirtilerek konu veya fonksiyon esasına göre dosyalanmasını sağlamak amacıyla geliştirilen sınıflama şeması",
+			"Belgelerin arşive devir usulünü düzenleyen yönerge",
+			"Belgelerin elektronik ortamda hangi formatta oluşturulacağını gösteren rehber",
+			"Belgelerin saklama sürelerini gösteren çizelge",
+			"İdarelerin birimlerinin numaralandırıldığı kayıt sistemi"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.3: STANDART DOSYA PLANI, kurumsal işlemler ve bu işlemler sonucunda oluşturulan veya alınan belgelerin ÜRETİM YERLERİ İLE OLAN İLİŞKİSİ BELİRTİLEREK KONU VEYA FONKSİYON ESASINA GÖRE DOSYALANMASINI sağlamak amacıyla geliştirilen ve DEVLET ARŞİVLERİ BAŞKANLIĞI tarafından yayımlanan SINIFLAMA ŞEMASIDIR. Standart dosya planı kodu, belgenin sayı bölümünün üçüncü bileşenidir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"standart-dosya-plani"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-019",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre e-Yazışma Teknik Rehberi neyi tanımlar?",
+		"options": [
+			"İdarelerin teşkilat yapısını ve birim numaralarını",
+			"Belgelerin konu esasına göre dosyalanma usulünü",
+			"Belgelerin saklama ve tasfiye sürelerini",
+			"Resmî yazışmalarda kullanılacak dil ve üslup kurallarını",
+			"Elektronik ortamda oluşturulan belgelerin yapısı, formatı, imzalama ve şifreleme mekanizmaları gibi teknik hususları"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.3: e-YAZIŞMA TEKNİK REHBERİ, elektronik ortamda yapılacak resmî yazışmalar kapsamında oluşturulan belgelerin YAPISI, FORMATI, İMZALAMA VE ŞİFRELEME MEKANİZMALARI gibi teknik hususları tanımlayan ve DİJİTAL DÖNÜŞÜM OFİSİ BAŞKANLIĞI tarafından yayımlanan GÜNCEL REHBERDİR. Rehbere uygunluk, m.30 uyarınca belgenin işleme konulup konulmayacağını da belirler.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"e-yazisma-teknik-rehberi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-020",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre “elektronik ortam” tanımı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Her türlü bilgisayar ve internet ortamını ifade eder.",
+			"Yalnızca belgelerin gönderildiği iletim ortamını ifade eder.",
+			"Kurumsal belge kayıt sisteminin tutulduğu ortamı ifade eder.",
+			"E-posta ve kayıtlı elektronik posta sistemlerini ifade eder.",
+			"EBYS içerisinde e-Yazışma Teknik Rehberi'ne uygun olarak güvenli elektronik imza ile imzalanmış belgelerin hazırlandığı, kayıt altına alındığı, saklandığı ve gönderildiği ortamdır."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.3'teki ELEKTRONİK ORTAM tanımı dardır ve dört fiili birden sayar: EBYS İÇERİSİNDE, e-Yazışma Teknik Rehberi'ne uygun olarak güvenli elektronik imza ile imzalanmış belgelerin HAZIRLANDIĞI, KAYIT ALTINA ALINDIĞI, SAKLANDIĞI VE GÖNDERİLDİĞİ ortamdır. Herhangi bir dijital ortam değil, EBYS ve rehber şartına bağlı bir ortamdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"elektronik-ortam",
+			"fiziksel-ortam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-021",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre “güvenli elektronik imza” tanımının unsurları bakımından aşağıdakilerden hangisi YANLIŞTIR?",
+		"options": [
+			"Münhasıran imza sahibine bağlı olması",
+			"Sadece imza sahibinin tasarrufunda bulunan güvenli elektronik imza oluşturma aracı ile oluşturulması",
+			"İmzalanmış elektronik veride sonradan değişiklik yapılıp yapılmadığının tespitini sağlaması",
+			"İmza sahibinin kimliğini gizleyerek belgenin bütünlüğünü sağlaması",
+			"Nitelikli elektronik sertifikaya dayanması"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.3'e göre güvenli elektronik imza, imza sahibinin KİMLİĞİNİN TESPİTİNİ SAĞLAR; kimliği gizlemez. Tanımın unsurları: MÜNHASIRAN imza sahibine bağlı olmak, SADECE imza sahibinin tasarrufundaki güvenli elektronik imza oluşturma aracıyla oluşturulmak, NİTELİKLİ ELEKTRONİK SERTİFİKAYA dayanmak, imza sahibinin KİMLİĞİNİN ve verideki SONRAKİ DEĞİŞİKLİĞİN TESPİTİNİ sağlamak.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"guvenli-elektronik-imza"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-022",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre “arşiv imza” aşağıdakilerden hangisidir?",
+		"options": [
+			"Belgenin saklama süresi dolduğunda tasfiye kararına eklenen imza",
+			"Kriptografik metotların zaman içerisinde koruyucu özelliğini yitirmesine karşı, periyodik olarak alınan zaman damgası ile korunan elektronik imza",
+			"Belgeyi arşivde saklamaya yetkili görevlinin elektronik onayı",
+			"Elektronik belgenin çıktısı üzerine atılan ıslak imza",
+			"Belgenin arşive devredilmesi sırasında arşiv birimince atılan imza"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.3: ARŞİV İMZA, kriptografik metotların ZAMAN İÇERİSİNDE KORUYUCU ÖZELLİĞİNİ YİTİRMESİNE KARŞI, PERİYODİK OLARAK ALINAN ZAMAN DAMGASI ile korunan elektronik imzadır. Kavram m.17/4 ile birlikte okunur: EBYS'ler, imzanın ilgili teknik standarda göre “arşiv imzası” tipine dönüştürülebilmesini ve UZUN DÖNEMLİ DOĞRULANABİLMESİNİ sağlar nitelikte olmalıdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"arsiv-imza",
+			"zaman-damgasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-023",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre zaman damgası kim tarafından ve nasıl oluşturulur?",
+		"options": [
+			"Belgeyi imzalayan yetkili makam tarafından elle girilerek",
+			"Dijital Dönüşüm Ofisi Başkanlığı tarafından merkezî olarak",
+			"Devlet Arşivleri Başkanlığı tarafından yıllık olarak",
+			"Elektronik sertifika hizmet sağlayıcısı tarafından güvenli elektronik imza ile doğrulanan zaman kaydı olarak",
+			"İdarenin EBYS'si tarafından sistem saatine göre"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.3: ZAMAN DAMGASI, bir elektronik verinin üretildiği, değiştirildiği, gönderildiği, alındığı ve/veya kaydedildiği zamanın tespit edilmesi amacıyla ELEKTRONİK SERTİFİKA HİZMET SAĞLAYICISI TARAFINDAN GÜVENLİ ELEKTRONİK İMZA İLE DOĞRULANAN ZAMAN KAYDIDIR. Belge tarihi de (m.12/2) bu zaman damgasındaki tarihe dayanır; idarenin sistem saati esas alınmaz.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"zaman-damgasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-024",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre EBYS'nin “günlük raporu” hangi bilgileri içerir?",
+		"options": [
+			"EBYS'de yapılan ekleme, değiştirme, silme, arama, görüntüleme, gönderme ve alma gibi işlemlerin hangi EBYS elemanı üzerinde ve kim tarafından gerçekleştirildiği ile işlemin tarih ve saat bilgisini",
+			"O gün süresi dolan belgelerin listesini",
+			"İdarenin o gün ürettiği belgelerin sayı ve konu listesini",
+			"Belgelere ilişkin paraf ve imza yetkilerinin listesini",
+			"Gizlilik dereceli belgelerin listesini ve saklama sürelerini"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.3: GÜNLÜK RAPOR, EBYS'de yapılan EKLEME, DEĞİŞTİRME, SİLME, ARAMA, GÖRÜNTÜLEME, GÖNDERME VE ALMA gibi işlemlerin HANGİ EBYS ELEMANI ÜZERİNDE VE KİM TARAFINDAN gerçekleştirildiği ile işlemin gerçekleştirildiği TARİH VE SAAT bilgisini ihtiva eden kayıtlardır. m.21/2'ye göre elektronik onaylar bu raporlarda kayıt altına alınır; raporlar günlük olarak zaman damgasıyla damgalanır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gunluk-rapor",
+			"ebys"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-025",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre EBYS'nin günlük raporlarının saklama süresi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"İdarenin belirleyeceği süre kadardır; bir alt sınır öngörülmemiştir.",
+			"Her hâlde bir yıldır.",
+			"İlişkili olduğu belgelerin saklama süresinden daha kısa olamaz.",
+			"İlişkili olduğu belgelerin saklama süresinin yarısı kadardır.",
+			"Her hâlde beş yıldır."
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.21/2: elektronik onaylar EBYS'nin günlük raporlarında kayıt altına alınır; günlük raporlar GÜNLÜK OLARAK ZAMAN DAMGASIYLA damgalanır ve GÜNLÜK RAPORLARININ SAKLAMA SÜRESİ İLİŞKİLİ OLDUĞU BELGELERİN SAKLAMA SÜRESİNDEN DAHA KISA OLAMAZ. Kural sabit bir süre değil, belgeye bağlı bir alt sınır getirir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gunluk-rapor",
+			"saklama-suresi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-026",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre “imza sahibi” kimdir?",
+		"options": [
+			"Belgeyi hazırlayan birimin yöneticisi",
+			"Güvenli elektronik imza oluşturmak amacıyla bir imza oluşturma aracını kullanan veya zorunlu hâllerde ya da olağanüstü durumlarda hazırlanan belgeyi el yazısıyla imzalayan gerçek kişi",
+			"İdare adına elektronik sertifika alan tüzel kişi",
+			"Belgeyi paraflayan bütün görevliler",
+			"Mevzuatta belirtilen görevlerde yürütme ve karar verme yetkisine sahip görevliler"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.3: İMZA SAHİBİ, güvenli elektronik imza oluşturmak amacıyla bir İMZA OLUŞTURMA ARACINI KULLANAN veya zorunlu hâllerde ya da olağanüstü durumlarda hazırlanan belgeyi EL YAZISIYLA İMZALAYAN GERÇEK KİŞİDİR. Tanımdaki “gerçek kişi” vurgusu önemlidir: elektronik imza tüzel kişiye değil, kişiye bağlıdır. “Yetkili makam” ise ayrı bir tanımdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"imza-sahibi",
+			"tanimlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-027",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "uzman",
+		"stem": "Bir idarede EBYS, üç gün süren bir yazılım arızası nedeniyle çalışmamaktadır. Bu sırada hazırlanan belgeler bakımından Yönetmelik hangi kavramı esas alır ve sayı bölümünde hangi ön ek kullanılır?",
+		"options": [
+			"Olağanüstü durum — “O” ön eki",
+			"Elektronik ortam — “E” ön eki",
+			"Zorunlu hâl — “Z” ön eki",
+			"Olağanüstü durum — “Z” ön eki",
+			"Zorunlu hâl — “O” ön eki"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.3'e göre uzun süreli elektrik kesintileri, DONANIM VE YAZILIM SORUNLARI gibi teknik gerekçelerle EBYS'nin uzun süreli çalışmaması OLAĞANÜSTÜ DURUMDUR. m.11'e göre sayının ön eki olağanüstü durumlar için “O”dur ve m.11/3 uyarınca belgeye KURUMSAL BELGE KAYIT SİSTEMİNDEN kayıt numarası alınır; EBYS'ye erişim sağlandığında belge ve üstveri bilgileri EBYS'ye kaydedilir. Mevzuattan doğan hâller ise zorunlu hâldir ve “Z” ön ekini alır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"senaryo",
+			"zorunlu-hal",
+			"olaganustu-durum"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-028",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "uzman",
+		"stem": "Bir belgenin, ilgili mevzuatındaki özel bir hüküm gereği fiziksel ortamda hazırlanması gerekmektedir. Yönetmelik bakımından bu durum için aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Belge fiziksel hazırlanır ancak sayı ön eki kullanılmaz.",
+			"Zorunlu hâl söz konusudur; belge el yazısıyla imzalanır, en az iki nüsha düzenlenir ve sayı “Z” ön ekini alır.",
+			"Olağanüstü durum söz konusudur; belge “O” ön ekini alır.",
+			"Belge yine elektronik ortamda hazırlanır; mevzuattaki özel hüküm uygulanmaz.",
+			"Belge tek nüsha hazırlanır ve güvenli elektronik imza ile imzalanır."
+		],
+		"correctIndex": 1,
+		"explanation": "Kaynağı MEVZUAT olan hâller ZORUNLU HÂLDİR (m.3). Bu durumda m.4/2 uyarınca belge EL YAZISIYLA İMZALANIR, m.5/2 uyarınca PARAFLI NÜSHASI İDAREDE KALACAK ŞEKİLDE EN AZ İKİ NÜSHA düzenlenir ve m.11 uyarınca sayı “Z” ÖN EKİNİ alır. Zorunlu hâlde kayıt numarası, belge EL YAZISIYLA İMZALANDIKTAN SONRA EBYS veya kurumsal belge kayıt sisteminden alınır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"senaryo",
+			"zorunlu-hal"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-029",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "uzman",
+		"stem": "Yönetmeliğin kapsamı ve uygulama alanı bakımından aşağıdakilerden hangisi YANLIŞTIR?",
+		"options": [
+			"Yönetmelik yalnızca idareler arası yazışmaları düzenler; idarelerin gerçek kişilerle yazışmaları kapsam dışındadır.",
+			"Yönetmeliğin amaçlarından biri uygulama birliğini sağlamaktır.",
+			"Yönetmelik hem elektronik hem fiziksel ortamda yapılan yazışmalara ilişkin kuralları belirler.",
+			"Resmî yazışma tanımı, idarelerin kendi içlerindeki yazışmaları da kapsar.",
+			"Yönetmelik bütün kamu kurum ve kuruluşlarını kapsar."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.3'teki resmî yazışma tanımı üç ilişkiyi birden kapsar: idarelerin KENDİ İÇLERİNDE, BİRBİRLERİYLE VEYA GERÇEK YA DA TÜZEL KİŞİLER İLE iletişimi. Dolayısıyla gerçek kişilerle yazışmalar kapsam dışında değildir; nitekim m.14 muhatabın gerçek kişi olması hâlindeki yazım kuralını ayrıca düzenler ve m.15 gerçek kişiden gelen dilekçenin ilgi tutulmasını öngörür.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kapsam",
+			"yonetmelik-yapisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-genel-030",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+		"difficulty": "uzman",
+		"stem": "Yönetmelikteki kayıt ve veri kavramları bakımından aşağıdaki eşleştirmelerden hangisi doğrudur?",
+		"options": [
+			"Üçü de aynı kavramın farklı adlandırmalarıdır.",
+			"Günlük rapor belgenin ekleri hariç kısmını, üst yazı ise EBYS işlem kayıtlarını ifade eder.",
+			"Üstveri belgeyi tanımlayan bilgileri, günlük rapor EBYS'de yapılan işlemlerin kim ve ne zaman kaydını, aidiyet zinciri ise belgenin hazırlanmasından tasfiyesine kadarki süreci ifade eder.",
+			"Aidiyet zinciri belgeyi tanımlayan bilgileri, üstveri ise belgenin yaşam sürecini ifade eder.",
+			"Üstveri EBYS işlemlerinin kaydını, günlük rapor belgeyi tanımlayan bilgileri ifade eder."
+		],
+		"correctIndex": 2,
+		"explanation": "Üç kavram Yönetmelik m.3'te ayrı ayrı tanımlanır ve birbirine karıştırılır: ÜSTVERİ, belgeyi tanımlayan gönderici, konu, tarih, sayı ve benzeri tüm bilgiler; GÜNLÜK RAPOR, EBYS'de yapılan işlemlerin hangi eleman üzerinde, kim tarafından ve ne zaman yapıldığını gösteren kayıtlar; AİDİYET ZİNCİRİ ise belgenin HAZIRLANMASINDAN TASFİYESİNE kadar olan sürecidir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kavram-ayrimi",
+			"ustveri",
+			"gunluk-rapor"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

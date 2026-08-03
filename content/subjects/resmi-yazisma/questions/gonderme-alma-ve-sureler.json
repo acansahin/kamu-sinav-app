@@ -326,5 +326,662 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-011",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre “Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik Kılavuzu” hangi kurum tarafından hazırlanır ve duyurulur?",
+		"options": [
+			"İçişleri Bakanlığı",
+			"Devlet Arşivleri Başkanlığı",
+			"Cumhurbaşkanlığı İdari İşler Başkanlığı",
+			"Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı",
+			"Dijital Dönüşüm Ofisi Başkanlığı"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.36/1: CUMHURBAŞKANLIĞI İDARİ İŞLER BAŞKANLIĞINCA, Yönetmeliğin UYGULAMA BİRLİĞİNİN SAĞLANMASI ve idari işleyişin verimli yürütülebilmesi amacıyla “Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik Kılavuzu” HAZIRLANIR VE DUYURULUR. Dijital Dönüşüm Ofisi ise DETSİS ve e-Yazışma Teknik Rehberi'nden sorumludur.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kilavuz",
+			"idari-isler-baskanligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-012",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "kolay",
+		"stem": "Yönetmelik ne zaman yürürlüğe girer?",
+		"options": [
+			"Yayımını takip eden ayın birinci günü",
+			"Yayımından altı ay sonra",
+			"Yayımı tarihinde",
+			"Cumhurbaşkanınca belirlenecek tarihte",
+			"Yayımını takip eden yılın ilk günü"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.38: “Bu Yönetmelik YAYIMINI TAKİP EDEN AYIN BİRİNCİ GÜNÜ yürürlüğe girer.” Yönetmelik 10/6/2020 tarihli Resmî Gazete'de yayımlanmıştır. m.39'a göre Yönetmelik hükümlerini CUMHURBAŞKANI yürütür.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "38"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yururluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-013",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre idare içi ve idare dışı görüş, bilgi ve belge talep yazıları nasıl yazılır?",
+		"options": [
+			"Dağıtımlı yazılır",
+			"Gizlilik dereceli yazılır",
+			"Günlü yazılır",
+			"Yalnızca elektronik ortamda yazılır",
+			"Her hâlde “ACELE” ibaresiyle yazılır"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.33'ün ilk cümlesi: “İdare içi ve idare dışı görüş, bilgi ve belge talep yazıları GÜNLÜ YAZILIR.” Süre belirtilmemişse Yönetmelik kendi tamamlayıcı sürelerini devreye sokar: belge talepleri en geç beş iş günü, bilgi ve görüş talepleri en geç on beş iş günü.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "33"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gunlu-yazi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-014",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre güvenli elektronik imza ile imzalanan belgenin çoğaltılması nasıl gerçekleştirilir?",
+		"options": [
+			"Yalnızca muhatap idare tarafından",
+			"Belgenin çoğaltılması mümkün değildir",
+			"Yalnızca belgeyi imzalayan makam tarafından",
+			"Yetkilendirilmiş görevliler tarafından çıktı alınarak",
+			"Herhangi bir personel tarafından çıktı alınarak"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.29/1: güvenli elektronik imza ile imzalanan belgenin çoğaltılması, YETKİLENDİRİLMİŞ GÖREVLİLER tarafından ÇIKTI ALINARAK gerçekleştirilir. Çoğaltılan belgenin doğrulama işlemi ise m.23/2'deki usule göre, doğrulama kodu ve karekod ile e-Devlet üzerinden yapılır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "29"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cogaltma",
+			"yetkilendirilmis-gorevli"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-015",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre idareler resmî yazışmalarla ilgili olarak ek düzenleme yapabilir mi?",
+		"options": [
+			"Yalnızca Cumhurbaşkanlığı İdari İşler Başkanlığının izniyle yapabilir.",
+			"Hiçbir şekilde ek düzenleme yapamaz.",
+			"Yalnızca Yönetmelikte hüküm bulunmayan konularda ve Dijital Dönüşüm Ofisi onayıyla yapabilir.",
+			"Yönetmeliğe aykırı olsa dahi kendi teşkilat kanununa dayanarak yapabilir.",
+			"Bu Yönetmeliğe aykırı olmamak kaydıyla ek düzenleme yapabilir."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.36/2: “İdareler, resmî yazışmalarla ilgili olarak BU YÖNETMELİĞE AYKIRI OLMAMAK KAYDIYLA EK DÜZENLEME YAPABİLİR.” Sınır Yönetmeliğe aykırı olmamaktır; ayrıca bir izin şartı öngörülmemiştir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ek-duzenleme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-016",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "orta",
+		"stem": "Yönetmelikle ilgili eğitim stratejilerini belirlemeye, ortaya çıkabilecek tereddütleri gidermeye ve uygulamaya yönelik esasları düzenlemeye kim yetkilidir?",
+		"options": [
+			"Cumhurbaşkanlığı İdari İşler Başkanlığı",
+			"Her idare kendi bakımından yetkilidir",
+			"Dijital Dönüşüm Ofisi Başkanlığı",
+			"Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı",
+			"Devlet Arşivleri Başkanlığı"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.36/3: bu Yönetmelik ile ilgili EĞİTİM STRATEJİLERİNİ BELİRLEMEYE VE KOORDİNASYONU SAĞLAMAYA, ORTAYA ÇIKABİLECEK TEREDDÜTLERİ GİDERMEYE ve gerektiğinde UYGULAMAYA YÖNELİK ESASLARI DÜZENLEMEYE CUMHURBAŞKANLIĞI İDARİ İŞLER BAŞKANLIĞI YETKİLİDİR. Aynı Başkanlık Yönetmelik Kılavuzunu da hazırlar.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tereddutlerin-giderilmesi",
+			"egitim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-017",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "orta",
+		"stem": "Yönetmelik hangi düzenlemeyi yürürlükten kaldırmıştır ve mülga düzenlemeye yapılan atıflar ne olur?",
+		"options": [
+			"2014 tarihli yönetmeliği kaldırmıştır; ancak ona yapılan atıflar geçersiz hâle gelmiştir.",
+			"1 sayılı Cumhurbaşkanlığı Kararnamesinin ilgili maddelerini kaldırmıştır.",
+			"2014/7074 sayılı Bakanlar Kurulu Kararı ile yürürlüğe konulan Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmeliği kaldırmıştır; ona yapılan atıflar bu Yönetmeliğe yapılmış sayılır.",
+			"Hiçbir düzenlemeyi yürürlükten kaldırmamıştır.",
+			"Devlet Arşiv Hizmetleri Hakkında Yönetmeliği kaldırmıştır."
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.37: 15/12/2014 tarihli ve 2014/7074 sayılı BAKANLAR KURULU KARARI ile yürürlüğe konulan Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik YÜRÜRLÜKTEN KALDIRILMIŞTIR. İkinci fıkraya göre diğer mevzuatta MÜLGA YÖNETMELİĞE YAPILAN ATIFLAR BU YÖNETMELİĞE YAPILMIŞ SAYILIR.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "37"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mulga-yonetmelik",
+			"atiflar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-018",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre güvenli elektronik imzalı belgelerin elektronik ortamda gönderilmesi ve alınması işlemlerinde esas olan yöntem nedir?",
+		"options": [
+			"Belgenin muhatabın internet sitesine yüklenmesi",
+			"Belgenin DETSİS üzerinden iletilmesi",
+			"İdarelerin doğrudan e-posta ile göndermesi",
+			"Belgenin her hâlde veri depolama aracıyla elden teslimi",
+			"İlgili mevzuatla yetki verilmiş üçüncü bir taraf aracılığıyla kayıt altına alınarak yapılması"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.30/1: gönderme ve alma işlemlerinin, elektronik ortamda İLGİLİ MEVZUATLA YETKİ VERİLMİŞ ÜÇÜNCÜ BİR TARAF ARACILIĞIYLA KAYIT ALTINA ALINARAK yapılması ESASTIR. Ancak idareler arasında, taraflarca yapılacak ANLAŞMALAR çerçevesinde ve KAYIT ALTINA ALINMAK KAYDIYLA başka bir iletim mekanizması da kullanılabilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "30"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ucuncu-taraf",
+			"kayit"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-019",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre güvenli elektronik imzalı belgeler veri depolama araçlarıyla iletilebilir mi?",
+		"options": [
+			"İletilebilir; bu durumda gönderme ve alma işlemine ilişkin kayıt tutulur.",
+			"Yalnızca gizlilik dereceli belgeler veri depolama aracıyla iletilebilir.",
+			"İletilemez; yalnızca üçüncü taraf aracılığıyla iletim mümkündür.",
+			"İletilebilir; ayrıca bir kayıt tutulması gerekmez.",
+			"Yalnızca idare içi yazışmalarda iletilebilir."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.30/2: güvenli elektronik imza ile imzalanan belgeler VERİ DEPOLAMA ARAÇLARIYLA DA İLETİLEBİLİR. Bu durumda GÖNDERME VE ALMA İŞLEMİNE İLİŞKİN KAYIT TUTULUR. Yönetmeliğin gönderim rejiminde ortak payda, hangi yol kullanılırsa kullanılsın işlemin kayıt altına alınmasıdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "30"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"veri-depolama-araci"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-020",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "orta",
+		"stem": "Muhatabına elektronik iletimin mümkün olmadığı durumlarda güvenli elektronik imzalı belge fiziksel ortamda nasıl gönderilir ve alan idare ne yapar?",
+		"options": [
+			"Yetkilendirilmiş görevlilerce çıktısı alınan belge, elektronik ortamdaki aslına erişim amacıyla gönderilir; alan idare doğrulama işlemini yapar ve doğrulaması yapılan belgeyi işleme alır.",
+			"Belgenin çıktısı alınır ve ıslak imzayla imzalanarak gönderilir.",
+			"Belge gönderilir ancak muhatap idarece doğrulama yapılmaz.",
+			"Belgenin yalnızca üstverisi çıktı alınarak gönderilir.",
+			"Belge fiziksel ortamda gönderilemez; muhatabın elektronik altyapı kurması beklenir."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.31/1: muhatabına elektronik iletimin mümkün olmadığı durumlarda, YETKİLENDİRİLMİŞ GÖREVLİLER tarafından çıktısı alınan güvenli elektronik imzalı belge, ELEKTRONİK ORTAMDAKİ ASLINA ERİŞİM AMACI İLE fiziksel ortamda gönderilir. Fiziksel ortamda alınan belgenin doğrulaması m.23/2'deki şekilde yapılır ve DOĞRULAMASI YAPILAN BELGE muhatap idare tarafından İŞLEME ALINIR. Çıktı ıslak imzalanmaz.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "31"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fiziksel-gonderim",
+			"dogrulama"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-021",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre resmî yazışma kapsamında idare dışına gönderilen güvenli elektronik imzalı belgelerin şifrelenmesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Gerekli hâllerde elektronik olarak şifrelenir; şifreleme işlemi e-Yazışma Teknik Rehberi'nde tanımlandığı şekilde yapılır.",
+			"Şifreleme yalnızca gizlilik dereceli belgeler için ve idarenin belirlediği yöntemle yapılır.",
+			"Bütün belgeler her hâlde şifrelenir.",
+			"İdare dışına gönderilen belgeler şifrelenemez.",
+			"Şifreleme yöntemini Devlet Arşivleri Başkanlığı belirler."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.30/5: resmî yazışma kapsamında idare dışına gönderilen güvenli elektronik imza ile imzalanan belgeler, GEREKLİ HÂLLERDE ELEKTRONİK OLARAK ŞİFRELENİR. Elektronik belgelerin şifrelenmesi işlemi e-YAZIŞMA TEKNİK REHBERİ'NDE TANIMLANDIĞI ŞEKİLDE yapılır. Şifreleme her belge için zorunlu değildir, gereklilik şartına bağlıdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "30"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sifreleme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-022",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre “Hizmete Özel” haricindeki gizlilik dereceli belgelerin gönderilmesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu belgeler yalnızca kayıtlı elektronik posta ile gönderilebilir.",
+			"Gerekli güvenlik tedbirleri alınarak fiziksel ortamda gönderilmesi esastır; ancak kodlu veya kriptolu haberleşme yapmaya yetkili kılınan idareler bu belgeleri güvenli elektronik imzayla elektronik ortamda gönderebilir.",
+			"Bu belgeler her hâlde elektronik ortamda gönderilir.",
+			"Bu belgeler hiçbir hâlde elektronik ortamda gönderilemez.",
+			"Bu belgelerin gönderim usulünü muhatap idare belirler."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.31/3: “Hizmete Özel” haricindeki gizlilik dereceli belgelerin GEREKLİ GÜVENLİK TEDBİRLERİ ALINARAK FİZİKSEL ORTAMDA GÖNDERİLMESİ ESASTIR. Ancak Kamu Kurum ve Kuruluşları ile Gerçek ve Tüzel Kişilerin Elektronik Haberleşme Hizmeti İçinde KODLU VEYA KRİPTOLU HABERLEŞME Yapma Usul ve Esasları Hakkında Yönetmelikte YETKİLİ KILINAN İDARELER, gerekli güvenlik tedbirlerini almak şartıyla bu belgeleri güvenli elektronik imza ile imzalayarak elektronik ortamda gönderebilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "31"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gizlilik-dereceli-belge",
+			"kriptolu-haberlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-023",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "zor",
+		"stem": "Bir idareye, muhatabı olmadığı hâlde elektronik ortamda güvenli elektronik imzalı bir belge gelmiştir. Yönetmeliğe göre ne yapılır?",
+		"options": [
+			"Belge her hâlde gönderene fiziksel ortamda iade edilir.",
+			"Belge idarece işleme alınır; muhatap değişikliği yapılır.",
+			"Muhatabı olunmadığı bilgisi ve belgeye ilişkin tanımlayıcı bilgiler gönderene elektronik ortamda iletilir; asıl muhatap açıkça belliyse belge muhataba iletilebilir ve gönderene bilgi verilebilir.",
+			"Belge asıl muhatabı belli olsa dahi muhataba iletilemez.",
+			"Belge silinir ve gönderene hiçbir bildirim yapılmaz."
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.32/1: idareye muhatabı olmadığı hâlde elektronik ortamda güvenli elektronik imzalı belge gelmesi durumunda, MUHATABI OLUNMADIĞI BİLGİSİ VE BELGEYE İLİŞKİN TANIMLAYICI BİLGİLER GÖNDERENE ELEKTRONİK ORTAMDA İLETİLİR. Ancak ASIL MUHATABIN AÇIKÇA BELLİ OLMASI durumunda belge MUHATABA İLETİLEBİLİR ve gönderen idareye bilgi verilebilir; bu durumda belgenin BİR KOPYASI elektronik ortamda MUHAFAZA EDİLİR.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "32"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iade",
+			"elektronik-ortam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-024",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğin yürürlüğe girdiği tarihten önce kurulan EBYS'ler bakımından geçici madde ne öngörmüştür?",
+		"options": [
+			"İdarelerce üç ay içinde uyumlu hâle getirilir.",
+			"Mevcut EBYS'ler kapatılarak yenileri kurulur.",
+			"Mevcut EBYS'ler için uyum yükümlülüğü öngörülmemiştir.",
+			"İdarelerce bir yıl içinde uyumlu hâle getirilir.",
+			"İdarelerce altı ay içinde Yönetmelik hükümlerine uyumlu hâle getirilir."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik GEÇİCİ MADDE 1/1: Yönetmeliğin yürürlüğe girdiği tarihten ÖNCE KURULAN EBYS'ler, idarelerce ALTI AY İÇİNDE bu Yönetmelik hükümlerine uyumlu hâle getirilir. Yürürlükten SONRA kurulacak EBYS'ler ise doğrudan Yönetmelik hükümlerine uyumlu şekilde kurulur.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gecici-madde",
+			"ebys-uyum"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-025",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğin geçici maddesine göre, yetki verilmiş üçüncü taraf aracılığıyla oluşturulacak kullanıcı hesaplarını temin etmeyen idareler ne yapmakla yükümlüdür?",
+		"options": [
+			"Kullanıcı hesabı temin etmek zorunda değildir; fiziksel yazışmaya devam edebilir.",
+			"Yönetmeliğin yürürlüğe girdiği tarihten itibaren üç ay içinde kullanıcı hesaplarını temin ederek DETSİS'e kaydeder ve faal olarak kullanımını sağlar.",
+			"Bir yıl içinde kullanıcı hesaplarını temin eder; kayıt yükümlülüğü yoktur.",
+			"Üç ay içinde kullanıcı hesabı temin eder ve e-Yazışma Teknik Rehberi'ne kaydeder.",
+			"Altı ay içinde kullanıcı hesaplarını temin eder ve Devlet Arşivleri Başkanlığına bildirir."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik GEÇİCİ MADDE 1/2: 30. maddenin birinci fıkrasında belirtilen, belgelerin elektronik ortamda gönderilmesi ve alınması işlemlerini sağlamak amacıyla YETKİ VERİLMİŞ ÜÇÜNCÜ TARAF aracılığıyla oluşturulacak KULLANICI HESAPLARINI temin etmeyen idareler, Yönetmeliğin yürürlüğe girdiği tarihten itibaren ÜÇ AY İÇİNDE kullanıcı hesaplarını temin ederek DETSİS'E KAYDEDER ve FAAL OLARAK KULLANIMINI SAĞLAR.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gecici-madde",
+			"kullanici-hesabi",
+			"detsis"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-026",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre bir idareye, e-Yazışma Teknik Rehberi'ne uygun şekilde hazırlanmış bir belge iletilirse idarenin yükümlülüğü nedir?",
+		"options": [
+			"Belgeyi yalnızca kendi görev alanına giriyorsa işleme koyar.",
+			"Belgeyi yalnızca fiziksel ortamda bir örneği de gelirse işleme koyar.",
+			"Belgeyi işleme koymakla yükümlüdür.",
+			"Belgeyi işleme koyup koymamakta serbesttir.",
+			"Belgeyi önce gönderen idareye teyit ettirmek zorundadır."
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.30/3: “İdare, resmî yazışma kapsamında kendisine iletilen ve e-Yazışma Teknik Rehberi'ne UYGUN ŞEKİLDE HAZIRLANMIŞ BELGELERİ İŞLEME KOYMAKLA YÜKÜMLÜDÜR.” Bu yükümlülüğün karşıtı m.30/4'tedir: rehberdeki kurallara uygun hazırlanmamış belge REDDEDİLEBİLİR ve ret, belgenin ulaştığı tarihi takip eden ikinci iş gününün sonuna kadar sebepleriyle bildirilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "30"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"isleme-koyma-yukumlulugu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-027",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "uzman",
+		"stem": "Yönetmeliğin yürürlük ve yürütme hükümleri ile dayanağı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yönetmelik 657 sayılı Kanuna dayanılarak hazırlanmış ve hükümlerini Cumhurbaşkanlığı İdari İşler Başkanı yürütmektedir.",
+			"Yönetmelik yayımı tarihinde yürürlüğe girmiş ve hükümlerini Dijital Dönüşüm Ofisi Başkanı yürütmektedir.",
+			"Yönetmelik 1 sayılı Cumhurbaşkanlığı Kararnamesinin 6 ve 7. maddelerine dayanılarak hazırlanmış, yayımını takip eden ayın birinci günü yürürlüğe girmiş ve hükümlerini Cumhurbaşkanı yürütmektedir.",
+			"Yönetmelik 5070 sayılı Elektronik İmza Kanununa dayanmakta ve hükümlerini Cumhurbaşkanı yürütmektedir.",
+			"Yönetmelik bir Bakanlar Kurulu Kararı ile yürürlüğe konulmuş ve hükümlerini İçişleri Bakanı yürütmektedir."
+		],
+		"correctIndex": 2,
+		"explanation": "Üç hüküm birleşir: m.2 — Yönetmelik 1 SAYILI CUMHURBAŞKANLIĞI TEŞKİLATI HAKKINDA CUMHURBAŞKANLIĞI KARARNAMESİNİN 6 VE 7. MADDELERİNE dayanılarak hazırlanmıştır; m.38 — YAYIMINI TAKİP EDEN AYIN BİRİNCİ GÜNÜ yürürlüğe girer; m.39 — hükümlerini CUMHURBAŞKANI YÜRÜTÜR. Yönetmelik 9/6/2020 tarihli ve 2646 sayılı Cumhurbaşkanı Kararı ile yürürlüğe konulmuştur.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "39"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurutme",
+			"dayanak"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-028",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "uzman",
+		"stem": "Muhatabı olunmadığı hâlde gelen ve asıl muhatabı anlaşılamayan bir belgede, belgenin elektronik ya da fiziksel ortamda gelmiş olması sonucu değiştirir mi?",
+		"options": [
+			"Değiştirmez; her iki hâlde de belge gönderene iade edilir.",
+			"Değiştirir; elektronik belge iade edilirken fiziksel belge idarede saklanır.",
+			"Değiştirmez; her iki hâlde de belge imha edilir.",
+			"Değiştirmez; her iki hâlde de yalnızca bilgi verilir, belge iade edilmez.",
+			"Değiştirir; elektronik ortamda gelen belgede muhatabı olunmadığı bilgisi ve tanımlayıcı bilgiler gönderene elektronik ortamda iletilirken, fiziksel ortamda gelen belge gönderene iade edilir."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.32 ortama göre iki ayrı sonuç öngörür. ELEKTRONİK ortamda gelen belgede (f.1) muhatabı olunmadığı bilgisi ve belgeye ilişkin TANIMLAYICI BİLGİLER gönderene ELEKTRONİK ORTAMDA İLETİLİR. FİZİKSEL ortamda gelen belgede (f.2) asıl muhatap anlaşılamıyorsa belge GÖNDERENE İADE EDİLİR. Her iki fıkrada da asıl muhatabın açıkça belli olması hâlinde belge muhataba iletilebilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "32"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"senaryo",
+			"iade",
+			"ortam-farki"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-029",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "uzman",
+		"stem": "Bir idareye 3 Mart'ta EBYS'ye giriş kaydı yapılan, süre belirtilmemiş bir görüş talebi ile yine aynı gün kaydedilen süre belirtilmemiş bir belge talebi ulaşmıştır. Yönetmeliğe göre bu iki talep en geç hangi sürelerde yerine getirilir?",
+		"options": [
+			"Her ikisi de en geç on beş iş günü içinde",
+			"Her ikisi de en geç otuz iş günü içinde",
+			"Görüş talebi en geç on beş iş günü, belge talebi en geç beş iş günü içinde",
+			"Görüş talebi en geç beş iş günü, belge talebi en geç on beş iş günü içinde",
+			"Her ikisi de en geç beş iş günü içinde"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.33: süre belirtilmeyen BELGE talepleri EN GEÇ BEŞ İŞ GÜNÜ, süre belirtilmeyen BİLGİ VE GÖRÜŞ talepleri EN GEÇ ON BEŞ İŞ GÜNÜ içinde yerine getirilir. Sürenin başlangıcı olan “talebin ulaştığı tarih”, elektronik ortamda gelen talepler için ilgili yazının EBYS'YE GİRİŞ KAYDININ YAPILDIĞI ZAMANDIR.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "33"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"senaryo",
+			"sureler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-030",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "uzman",
+		"stem": "Yönetmeliğe uygun yazılmayan belgeler gönderen bir idarenin bu davranışı sürmektedir. Muhatap idare, gelen “GÜNLÜDÜR” ibareli bir belgeyi de biçim kusuru nedeniyle iade edebilir mi?",
+		"options": [
+			"Edemez; Yönetmelik hiçbir belgenin iadesine izin vermez.",
+			"Edemez; iade imkânı süreli belgeler hariç tutularak düzenlenmiştir.",
+			"Edebilir; iade imkânı bütün belgeler için geçerlidir.",
+			"Edebilir; ancak iade için muhatabın yazılı onayı gerekir.",
+			"Edebilir; süreli belgelerde iade süresi iki iş günüdür."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.35: uygun yazılmayan belgelere verilecek cevabî yazılarda Yönetmeliğin ilgili maddeleri belirtilerek muhatap UYARILABİLİR; durumun devam etmesi hâlinde, SÜRELİ BELGELER HARİÇ müteakip belgeler gerekçesi belirtilerek iade edilebilir. “GÜNLÜDÜR” ibaresi belgeyi m.26 anlamında SÜRELİ belge yapar; dolayısıyla iade edilemez. Bu istisna, biçim kusuru yüzünden ivedi işlerin sürüncemede kalmasını önler.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "35"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"senaryo",
+			"uyari",
+			"sureli-belge"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

@@ -324,5 +324,403 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gizli-011",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre hangi belgelere sayfa numarası verilir?",
+		"options": [
+			"Birden fazla sayfa tutan belgelere",
+			"Yalnızca gizlilik dereceli belgelere",
+			"Yalnızca dağıtımlı belgelere",
+			"Yalnızca eki bulunan belgelere",
+			"Bütün belgelere"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.27: “BİRDEN FAZLA SAYFA TUTAN BELGELERE sayfa numarası verilir.” Tek sayfalık belgede sayfa numarası aranmaz. Numara, iletişim bilgilerinin altında ve sayfanın ortasında, toplam sayfa sayısının kaçıncısı olduğunu gösterecek şekilde belirtilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "27"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sayfa-numarasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gizli-012",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre idareler, e-Yazışma Teknik Rehberi'nde belirtilen üstveri elemanlarına ilave eleman kullanabilir mi?",
+		"options": [
+			"Evet; idare, ihtiyacına binaen ilave üstveri elemanları kullanabilir.",
+			"Yalnızca gizlilik dereceli belgelerde kullanabilir.",
+			"Hayır; yalnızca rehberde belirtilen elemanlar kullanılabilir.",
+			"Yalnızca Dijital Dönüşüm Ofisi Başkanlığının izniyle kullanabilir.",
+			"Yalnızca fiziksel ortamda hazırlanan belgelerde kullanabilir."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.28: güvenli elektronik imzalı belgelerde ASGARİ OLARAK e-Yazışma Teknik Rehberi'ndeki üstveri elemanları kullanılır; rehberdekilerle birlikte ilgili mevzuattaki standartlara uygun üstveri elemanları da kullanılabilir. İkinci fıkra açıkça izin verir: İDARE, İHTİYACINA BİNAEN İLAVE ÜSTVERİ ELEMANLARI KULLANABİLİR. “Asgari” ifadesi bir taban belirler, tavan koymaz.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ustveri",
+			"ilave-eleman"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gizli-013",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre belge doğrulama kodu ve karekod belgede nerede yer alır?",
+		"options": [
+			"Doğrulama kodu imza bölümünün altında, karekod ise başlığın yanında",
+			"Doğrulama kodu, “Bu belge, güvenli elektronik imza ile imzalanmıştır.” ibaresinin altındaki ikinci satırda; karekod ise “İletişim bilgileri” alanının en sağ kısmında",
+			"Doğrulama kodu her sayfanın üst kısmında, karekod son sayfada",
+			"Her ikisi de yalnızca üstveride yer alır; belge görüntüsünde gösterilmez",
+			"Doğrulama kodu ve karekod belgenin sağ üst köşesinde birlikte"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.23/1: “İletişim bilgileri” alanının üst sınırını belirleyen çizginin üzerindeki iki satırlık alanın ilk satırında “Bu belge, güvenli elektronik imza ile imzalanmıştır.” ibaresi bulunur; BELGE DOĞRULAMA KODU İKİNCİ SATIRDA, KAREKOD İSE “İLETİŞİM BİLGİLERİ” ALANININ EN SAĞ KISMINDA yer alır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "23"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dogrulama-kodu",
+			"karekod"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gizli-014",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre iletişim bilgileri bölümünde sol tarafta yer alan bilgiler arasında aşağıdakilerden hangisi SAYILMAMIŞTIR?",
+		"options": [
+			"İnternet adresi",
+			"Telefon ve faks numarası",
+			"Belgeyi gönderen idarenin adresi ve posta kodu",
+			"E-posta adresi ve kayıtlı elektronik posta (KEP) adresi",
+			"Bilgi alınacak kişinin adı ve unvanı"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.24: SOLDA belgeyi gönderen idarenin ADRESİ, POSTA KODU, TELEFONU, FAKS NUMARASI, E-POSTA ADRESİ, KAYITLI ELEKTRONİK POSTA (KEP) ADRESİ VE İNTERNET ADRESİ; SAĞDA ise BİLGİ ALINACAK KİŞİNİN ADI, SOYADI, UNVANI VE TELEFON NUMARASI yer alır. Bilgi alınacak kişi sağ tarafa aittir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "24"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iletisim-bilgileri",
+			"kep"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gizli-015",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre “Hizmete Özel” gizlilik dereceli belgelerde hangi işlemler elektronik ortamda gerçekleştirilir?",
+		"options": [
+			"Hazırlanması, kaydedilmesi, saklanması, gönderilmesi, alınması ve diğer işlemlerin tamamı",
+			"Yalnızca saklanması",
+			"Yalnızca hazırlanması ve kaydedilmesi",
+			"Yalnızca gönderilmesi ve alınması",
+			"Yalnızca hazırlanması; diğer işlemler fiziksel ortamda yapılır"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.25/1 işlemleri tek tek sayar: “Hizmete Özel” gizlilik derecesi bulunan belgelerin HAZIRLANMASI, KAYDEDİLMESİ, SAKLANMASI, GÖNDERİLMESİ, ALINMASI VE DİĞER İŞLEMLERİ ELEKTRONİK ORTAMDA gerçekleştirilir. “Özel” ve üstü gizlilik dereceli belgelerde ise aynı işlemlerin tamamı fiziksel ortamda yapılır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "25"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hizmete-ozel",
+			"islemler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gizli-016",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre güvenli elektronik imza ile imzalanan belgelerde hangi üstveri elemanları kullanılır?",
+		"options": [
+			"Yalnızca tarih ve sayı bilgisi",
+			"Yalnızca standart dosya planında gösterilen elemanlar",
+			"İdarenin serbestçe belirlediği elemanlar; asgari bir liste yoktur",
+			"Yalnızca Devlet Arşivleri Başkanlığının belirlediği elemanlar",
+			"Asgari olarak e-Yazışma Teknik Rehberi'nde belirtilen üstveri elemanları; bunlarla birlikte ilgili mevzuattaki standartlara uygun üstveri elemanları da kullanılabilir."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.28/1: güvenli elektronik imza ile imzalanan belgelerde ASGARİ OLARAK e-YAZIŞMA TEKNİK REHBERİ'NDE belirtilen üstveri elemanları kullanılır. Rehberdeki elemanlarla birlikte İLGİLİ MEVZUATTA BELİRTİLEN STANDARTLARA UYGUN üstveri elemanları da kullanılabilir; idare ayrıca ilave eleman ekleyebilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ustveri",
+			"asgari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gizli-017",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+		"difficulty": "zor",
+		"stem": "Güvenli elektronik imza ile imzalanan süreli belgelerde “ACELE” veya “GÜNLÜDÜR” ibaresine nerede yer verilir?",
+		"options": [
+			"Yalnızca dağıtım bölümünde",
+			"Yalnızca belgenin zarfında",
+			"Yalnızca üstveride",
+			"Yalnızca üst yazı üzerinde",
+			"Hem üstveride hem üst yazı üzerinde"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.26/1: güvenli elektronik imza ile imzalanan süreli belgelerde “ACELE” veya “GÜNLÜDÜR” ibaresine ÜSTVERİDE VE ÜST YAZI ÜZERİNDE yer verilir. Bu, m.28/3'teki “belge görüntüsü ile üstveri arasında fark olamaz” ilkesinin somut bir uygulamasıdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "26"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sureli-yazisma",
+			"ustveri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gizli-018",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+		"difficulty": "zor",
+		"stem": "“GÜNLÜDÜR” ibaresi taşıyan belgelerde cevap verilmesi gereken süre veya tarih nerede belirtilir?",
+		"options": [
+			"Yalnızca belgenin sağ üst köşesinde",
+			"Belirtilmesi gerekmez; süre her hâlde beş iş günüdür",
+			"Yalnızca dağıtım bölümünde",
+			"Metin içinde ve ilgili üstveri alanında",
+			"Yalnızca zarfın üzerinde"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.26/1: “GÜNLÜDÜR” ibaresi taşıyan belgelere cevap verilmesi gereken SÜRE VEYA TARİH, METİN İÇİNDE VE İLGİLİ ÜSTVERİ ALANINDA belirtilir. m.26/2'ye göre bu belgeye BELİRTİLEN SÜRE İÇİNDE, “ACELE” ibareli belgeye ise DERHÂL VE SÜRATLE cevap verilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "26"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gunludur",
+			"sure-belirtme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gizli-019",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre “KİŞİYE ÖZEL” ibaresi taşıyan belge üzerinde kim tasarruf hakkına sahiptir ve belge EBYS'ye nasıl kaydedilir?",
+		"options": [
+			"Belge hiçbir şekilde EBYS'ye kaydedilemez.",
+			"Belge üzerinde tasarruf hakkı idareye aittir; kayıt zorunludur.",
+			"İlgilinin amiri tasarruf hakkına sahiptir; belge amirin onayıyla kaydedilir.",
+			"Belgeyi teslim alan evrak birimi tasarruf hakkına sahiptir; belge derhâl EBYS'ye kaydedilir.",
+			"Yalnızca ilgili kişi tasarruf hakkına sahiptir; belge ilgilinin talebi ile EBYS'ye kaydedilir."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.26/5: “KİŞİYE ÖZEL” ibaresi taşıyan belgenin zarfı açılmadan zarf üzerindeki bilgiler yetkili birimce kaydedilir ve belge ilgilisine teslim edilir. Belge üzerinde YALNIZCA İLGİLİ KİŞİ TASARRUF HAKKINA SAHİPTİR ve belge İLGİLİNİN TALEBİ İLE EBYS'ye kaydedilir. Kayıt kişinin iradesine bağlıdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "26"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kisiye-ozel",
+			"tasarruf-hakki"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gizli-020",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+		"difficulty": "zor",
+		"stem": "Yönetmelikte 23. maddenin ikinci fıkrasındaki doğrulama usulüne hangi hâllerde atıf yapılmıştır?",
+		"options": [
+			"Yalnızca belgenin iade edilmesinde",
+			"Güvenli elektronik imzalı belgenin çoğaltılmasında ve fiziksel ortamda gönderilip alınmasında",
+			"Yalnızca dağıtımlı belgelerin hazırlanmasında",
+			"Yalnızca tekit yazısı yazılmasında",
+			"Yalnızca gizlilik dereceli belgelerin gönderilmesinde"
+		],
+		"correctIndex": 1,
+		"explanation": "m.23/2'deki doğrulama usulü (doğrulama kodu ve karekod ile e-Devlet üzerinden) iki yerde daha karşımıza çıkar: m.29/1 — çoğaltılan güvenli elektronik imzalı belgenin doğrulama işlemi 23. maddenin ikinci fıkrasındaki şekilde yapılır; m.31/1 — FİZİKSEL ORTAMDA ALINAN belgenin doğrulama işlemi de aynı şekilde gerçekleştirilir ve doğrulaması yapılan belge muhatap idarece işleme alınır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "23"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dogrulama",
+			"cogaltma",
+			"fiziksel-gonderim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gizli-021",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+		"difficulty": "uzman",
+		"stem": "Bir idare, “Gizli” gizlilik derecesi taşıyan bir belgeyi EBYS üzerinden hazırlayıp güvenli elektronik imza ile imzalamak istemektedir. Yönetmeliğin 25. maddesi bakımından bu durum için aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Gizlilik derecesi ortam bakımından bir sonuç doğurmaz.",
+			"Belge elektronik ortamda hazırlanabilir; yalnızca gönderimi fiziksel olmalıdır.",
+			"Aykırılık yalnızca belgenin elektronik ortamda saklanması hâlinde doğar; hazırlanması serbesttir.",
+			"Bütün gizlilik dereceli belgeler elektronik ortamda hazırlanabileceğinden uygulamada aykırılık yoktur.",
+			"“Özel” ve üstü gizlilik dereceli belgelerin işlemleri fiziksel ortamda gerçekleştirileceğinden bu belge fiziksel ortamda hazırlanmalıdır."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.25 gizlilik derecesini ortamla eşler: “HİZMETE ÖZEL” belgelerin bütün işlemleri ELEKTRONİK ortamda, “ÖZEL” VE ÜSTÜ (Özel, Gizli, Çok Gizli) gizlilik dereceli belgelerin HAZIRLANMASI, KAYDEDİLMESİ, SAKLANMASI, GÖNDERİLMESİ, ALINMASI VE DİĞER İŞLEMLERİ ise ilgili mevzuata uygun olarak FİZİKSEL ORTAMDA gerçekleştirilir. “Gizli” derecesi “Özel”in üstünde olduğundan belge fiziksel ortamda hazırlanır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "25"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"senaryo",
+			"cok-gizli",
+			"ortam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gizli-022",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+		"difficulty": "uzman",
+		"stem": "Bir belgeyi hazırlayan personel belgeye gizlilik derecesi vermemiş, belgeyi imzalayan genel müdür ise belgenin “Hizmete Özel” olması gerektiğini düşünmektedir. Yönetmelik bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Gizlilik derecesi yalnızca “Özel” ve üstü belgeler için belirlenir; “Hizmete Özel” için belirleme yapılmaz.",
+			"Gizlilik derecesinin belirlenmesinden belgenin imzacısı olan yetkili makam sorumlu olduğundan derecelendirmeyi genel müdür yapar.",
+			"Gizlilik derecesini idarenin evrak birimi belirler.",
+			"Gizlilik derecesi ancak muhatap idarenin talebiyle verilebilir.",
+			"Gizlilik derecesini belgeyi hazırlayan personel belirler; imzacı bu belirlemeyi değiştiremez."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.25/3: “Belgenin İMZACISI OLAN YETKİLİ MAKAM, belgeye ait GİZLİLİK DERECESİNİN BELİRLENMESİNDEN SORUMLUDUR.” Sorumluluk hazırlayan personele, paraf zincirine ya da evrak birimine ait değildir. “Hizmete Özel” derecesi verilmesi hâlinde belge m.25/1 uyarınca elektronik ortamda işlem görmeye devam eder.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "25"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"senaryo",
+			"gizlilik-derecesi",
+			"sorumluluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

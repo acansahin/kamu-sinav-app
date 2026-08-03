@@ -325,5 +325,400 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-011",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre belge ekleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Belge ekleri farklı form, format veya ebatlarda hazırlanabilir.",
+			"Belge ekleri de her hâlde A4 boyutunda hazırlanır.",
+			"Belge ekleri yalnızca elektronik ortamda hazırlanabilir.",
+			"Belge ekleri yalnızca üst yazıyla aynı formatta hazırlanabilir.",
+			"Belge eklerinin ebadı Devlet Arşivleri Başkanlığınca belirlenir."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.6/2: “Belge ekleri FARKLI FORM, FORMAT VEYA EBATLARDA hazırlanabilir.” A4 kuralı (m.6/1) üst yazı içindir. Aynı esneklik m.7'de de vardır: BELGE EKLERİNDE farklı yazı tipi ve harf büyüklüğü kullanılabilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekler",
+			"ebat"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-012",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre idarelerin kurumsal logo kullanması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Logo yalnızca dış yazışmalarda kullanılabilir.",
+			"İdareler tercihen kurumsal logo kullanabilir; logo kullanmak zorunlu değildir.",
+			"Logo yalnızca merkez teşkilatı belgelerinde kullanılabilir.",
+			"Logo kullanımı Cumhurbaşkanlığı İdari İşler Başkanlığının iznine bağlıdır.",
+			"Bütün idareler belgelerinde kurumsal logo kullanmak zorundadır."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.9/1 “İdareler, TERCİHEN kurumsal logo kullanabilir.” diyerek logoyu bir imkân olarak düzenler; zorunluluk getirmez. Buna karşılık m.8'de logo kullanılması hâlinde sayfanın üst boşluğunun 0,5 cm olacağı belirtilerek yerleşim kuralı bağlanmıştır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"logo",
+			"tercih"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-013",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre elektronik ortamda güvenli elektronik imza ile imzalanan belgeler nasıl paylaşılır ve saklanır?",
+		"options": [
+			"Hem elektronik hem fiziksel ortamda birer nüsha olarak saklanır.",
+			"Elektronik ortamda muhatapları ile paylaşılır ve elektronik ortamda saklanır.",
+			"Fiziksel ortamda paylaşılır ve elektronik ortamda saklanır.",
+			"Elektronik ortamda paylaşılır, ancak çıktısı alınarak fiziksel ortamda saklanır.",
+			"Yalnızca muhatabın talebi hâlinde elektronik ortamda paylaşılır."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.4/1: elektronik ortamda e-Yazışma Teknik Rehberi'ne uygun hazırlanan ve güvenli elektronik imza ile imzalanan belgeler, ELEKTRONİK ORTAMDA MUHATAPLARI İLE PAYLAŞILIR VE ELEKTRONİK ORTAMDA SAKLANIR. Aynı fıkranın son cümlesi bu belgelerin çıktı alınarak el yazısıyla imzalanmasını ve fiziksel ortamda saklanmasını yasaklar.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"elektronik-ortam",
+			"paylasim-saklama"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-014",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "orta",
+		"stem": "Zorunlu hâllerde veya olağanüstü durumlarda el yazısıyla imzalanan belgelerin gönderilmesi ve saklanması nasıl gerçekleştirilir?",
+		"options": [
+			"Fiziksel ortam şartlarına göre",
+			"Her hâlde kayıtlı elektronik posta üzerinden",
+			"Elektronik ortam şartlarına göre",
+			"Muhatabın tercihine göre",
+			"Belgenin gizlilik derecesine göre belirlenir"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.4/2: zorunlu hâllerde veya olağanüstü durumlarda resmî yazışmalar el yazısıyla imzalanan belgelerle yapılır ve BU BELGELERİN GÖNDERİLMESİ VE SAKLANMASI FİZİKSEL ORTAM ŞARTLARINA GÖRE GERÇEKLEŞTİRİLİR. Belgenin hazırlandığı ortam, gönderim ve saklama rejimini de belirler.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"zorunlu-hal",
+			"fiziksel-ortam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-015",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre elektronik ortamda yapılan resmî yazışmalarda belgeler neye uygun olarak hazırlanır?",
+		"options": [
+			"Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik Kılavuzuna",
+			"Kamu Bilgi Sistemlerinde Birlikte Çalışabilirlik Esaslarına",
+			"İdarenin kendi yazışma yönergesine",
+			"e-Yazışma Teknik Rehberi'ne",
+			"Standart dosya planına"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.4/1: kamu kurum ve kuruluşlarınca resmî yazışmalar, elektronik ortamda e-YAZIŞMA TEKNİK REHBERİ'NE UYGUN OLARAK hazırlanan ve güvenli elektronik imza ile imzalanan belgelerle yapılır. Rehbere uygunluk yalnızca bir hazırlama şartı değildir: m.30 uyarınca rehbere uygun belge işleme konulmak zorundadır, uygun olmayan belge ise reddedilebilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"e-yazisma-teknik-rehberi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-016",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre belgelerde kullanılacak yazı tipinin stili bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yazı tipi koyu (kalın) stilde kullanılır.",
+			"Yazı tipi eğik (italik) stilde kullanılır.",
+			"Times New Roman veya Arial yazı tipi normal yazı stilinde kullanılır.",
+			"Başlık ve metin farklı stillerde kullanılmak zorundadır.",
+			"Yazı stili idarenin takdirindedir."
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.7/1: hazırlanan belgelerde “Times New Roman” veya “Arial” yazı tipi NORMAL YAZI STİLİNDE kullanılır. Eğik (italik) yazım yalnızca m.16/9 uyarınca METİN İÇİNDEKİ ALINTILAR için öngörülmüştür; alıntılar tırnak içinde ve/veya eğik olarak yazılabilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazi-stili"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-017",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre belge eklerinde yazı tipi ve harf büyüklüğü bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Belge eklerinde harf büyüklüğü 8 puntonun altına düşürülemez.",
+			"Belge eklerinde farklı yazı tipi ve harf büyüklüğü kullanılabilir.",
+			"Belge eklerinde de üst yazıdaki yazı tipi ve punto aynen kullanılmak zorundadır.",
+			"Belge eklerinde yalnızca harf büyüklüğü değiştirilebilir, yazı tipi değiştirilemez.",
+			"Belge eklerinde yalnızca Arial yazı tipi kullanılabilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.7/1'in son cümlesi: “BELGE EKLERİNDE FARKLI YAZI TİPİ VE HARF BÜYÜKLÜĞÜ KULLANILABİLİR.” Punto alt sınırları (yazı alanında 9, iletişim bilgilerinde 8) ÜST YAZI için öngörülmüştür. Bu esneklik m.6/2'deki “ekler farklı form, format veya ebatlarda hazırlanabilir” kuralıyla aynı mantığı taşır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekler",
+			"punto"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-018",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre belgede tek logo kullanıldığında logo nerede yer alır?",
+		"options": [
+			"İletişim bilgileri alanının sol tarafında",
+			"Yalnızca belgenin en üst orta kısmında",
+			"Belgenin en üst orta kısmında “T.C.” ibaresini ortalayacak şekilde veya “Başlık” alanını ortalayacak şekilde belgenin üst sol kısmında",
+			"Belgenin son sayfasının alt orta kısmında",
+			"Yalnızca belgenin üst sağ kısmında"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.9/1 tek logo için İKİ ALTERNATİF konum tanır: logo, tek kullanıldığında belgenin EN ÜST ORTA KISMINDA “T.C.” İBARESİNİ ORTALAYACAK ŞEKİLDE veya “BAŞLIK” ALANINI ORTALAYACAK ŞEKİLDE BELGENİN ÜST SOL KISMINDA yer alır. İki logo kullanıldığında ise ikisi de “Başlık” alanını ortalayacak biçimde konumlanır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"logo",
+			"tek-logo"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-019",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "zor",
+		"stem": "Bir kavram veya etkinlikle ilgili logo, idarenin logosuyla birlikte kullanılmak istendiğinde yerleşim nasıl olur?",
+		"options": [
+			"Kavram veya etkinlik logosu solda, idareye ait logo sağda kullanılır.",
+			"İki logo da belgenin üst sol kısmında alt alta kullanılır.",
+			"Kavram veya etkinlik logosu belgenin alt kısmında kullanılır.",
+			"Kavram veya etkinlik logosu resmî yazışmalarda kullanılamaz.",
+			"“Başlık” alanını ortalayacak şekilde idareye ait logo solda, diğer logo sağda kullanılır."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.9/1: bir kavram veya etkinlik gibi hususlarla ilgili logo kullanılmak istendiğinde, “Başlık” alanını ortalayacak şekilde İDAREYE AİT OLAN LOGO SOLDA, DİĞER LOGO SAĞDA kullanılır. Kural, iki idare logosundaki “hiyerarşide üst olan solda” mantığıyla aynı yöndedir: sol taraf her zaman idareye/üst kuruma aittir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"logo",
+			"kavram-etkinlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-020",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "zor",
+		"stem": "Zorunlu hâllerde veya olağanüstü durumlarda en az iki nüsha düzenlenen belgelerde paraflı nüsha ne olur?",
+		"options": [
+			"Hazırlayan idarede kalır.",
+			"Devlet Arşivleri Başkanlığına gönderilir.",
+			"İmha edilir.",
+			"Muhatabın talebi hâlinde muhataba verilir.",
+			"Muhataba gönderilir."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.5/2: zorunlu hâllerde veya olağanüstü durumlarda hazırlanacak belgeler, PARAFLI NÜSHASI HAZIRLAYAN İDAREDE KALACAK ŞEKİLDE en az iki nüsha olarak düzenlenir. Bu kural m.21/3 ile örtüşür: fiziksel ortamda paraflar belgenin SADECE İDAREDE KALACAK NÜSHASINDA yer alır — paraf bilgisi muhatapla paylaşılmaz.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nusha",
+			"parafli-nusha"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-021",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "uzman",
+		"stem": "Logo kullanmayan bir idare ile logo kullanan bir idarenin belgelerinde sayfanın üst boşluğu sırasıyla ne kadardır?",
+		"options": [
+			"0,5 cm — 1,5 cm",
+			"1,5 cm — 0,5 cm",
+			"1 cm — 0,5 cm",
+			"1,5 cm — 1,5 cm",
+			"2 cm — 1 cm"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.8: yazı alanı sayfanın üst, sol ve sağ kenarından 1,5 CM boşluk bırakılarak düzenlenir; ancak İDARE LOGO KULLANMAK İSTEDİĞİNDE SAYFANIN ÜST BOŞLUĞU 0,5 CM olarak düzenlenir. Logo kullanımı yalnızca ÜST boşluğu değiştirir; sol ve sağ kenar boşlukları her iki hâlde de 1,5 cm'dir. Logo kullanmak zaten zorunlu değildir (m.9).",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "8"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"senaryo",
+			"yazi-alani",
+			"logo"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-022",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "uzman",
+		"stem": "Zorunlu hâlde hazırlanan bir üst yazının A3 boyutunda bir çizim eki bulunmakta ve bu ekte 10 punto Calibri yazı tipi kullanılmak istenmektedir. Yönetmelik bakımından bu durum için aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Ek A4 boyutunda olmak zorundadır; ancak yazı tipi serbesttir.",
+			"Ek yalnızca elektronik ortamda hazırlanırsa farklı ebat ve yazı tipi kullanılabilir.",
+			"Ekte farklı ebat kullanılabilir; ancak yazı tipi Times New Roman veya Arial olmak zorundadır.",
+			"Her ikisi de Yönetmeliğe aykırıdır; ekler üst yazıyla aynı biçim kurallarına tabidir.",
+			"Her ikisi de mümkündür; belge ekleri farklı form, format veya ebatlarda hazırlanabilir ve eklerde farklı yazı tipi ile harf büyüklüğü kullanılabilir."
+		],
+		"correctIndex": 4,
+		"explanation": "İki hüküm birlikte uygulanır. m.6/2: BELGE EKLERİ FARKLI FORM, FORMAT VEYA EBATLARDA hazırlanabilir. m.7/1 son cümle: BELGE EKLERİNDE FARKLI YAZI TİPİ VE HARF BÜYÜKLÜĞÜ kullanılabilir. A4 boyutu, Times New Roman/Arial ve punto sınırları ÜST YAZIYA ilişkin kurallardır. Zorunlu hâlde ayrıca üst yazı için kâğıdın bir yüzü kullanılırken eklerde her iki yüz kullanılabilir (m.6/3).",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"senaryo",
+			"ekler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

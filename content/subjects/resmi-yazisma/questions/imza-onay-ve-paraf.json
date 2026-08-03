@@ -325,5 +325,663 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-011",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "kolay",
+		"stem": "Zorunlu hâllerde veya olağanüstü durumlarda el yazısıyla atılan imza bakımından Yönetmelik ne öngörür?",
+		"options": [
+			"İmza, unvanın altına kırmızı renkli kalemle atılır.",
+			"İmza, ad ve soyadın altına siyah renkli kalemle atılır.",
+			"İmza için kalem rengi konusunda bir kural öngörülmemiştir.",
+			"İmza, ad ve soyadın üzerinde bırakılan boşluğa, kaybolmayacak ve kâğıda işlemesini sağlayacak mavi renkli kalemle atılır.",
+			"İmza, yazı alanının solunda ve yeşil renkli kalemle atılır."
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.17/6: zorunlu hâllerde veya olağanüstü durumlarda imza, AD VE SOYADIN ÜZERİNDE bırakılan boşluğa el yazısıyla atılır ve el yazısıyla atılan imza, KAYBOLMAYACAK VE KÂĞIDA İŞLEMESİNİ SAĞLAYACAK MAVİ RENKLİ KALEMLE atılır. Aynı renk kuralı m.21/3'te paraf için de geçerlidir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"imza",
+			"mavi-kalem"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-012",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre “Dağıtım:” başlığı nereye yazılır?",
+		"options": [
+			"Her hâlde imza bölümünden hemen sonra, sayfa ortalanarak",
+			"Ek varsa “Ek:” bölümünden sonra, ek yoksa imza bölümünden sonra uygun satır boşluğu bırakılarak yazı alanının solundan başlanarak",
+			"Muhatap bölümünün altına, yazı alanının solundan başlanarak",
+			"İmza bölümünden önce, yazı alanının sağından başlanarak",
+			"Belgenin son sayfasının en altına, iletişim bilgilerinin altına"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.19/1: belgenin birden fazla muhataba gönderilmesi durumunda dağıtım bölümüne yer verilir ve “Dağıtım:” başlığı EK VARSA “EK:” BÖLÜMÜNDEN SONRA, EK YOKSA İMZA BÖLÜMÜNDEN SONRA uygun satır boşluğu bırakılarak YAZI ALANININ SOLUNDAN başlanarak yazılır. Belgenin alt kısmındaki sıra: İmza → Ek → Dağıtım.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "19"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dagitim",
+			"yerlesim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-013",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre belge olur için makama sunulurken “OLUR” ibaresi nasıl yazılır?",
+		"options": [
+			"Ek bölümünden sonra yazı alanının sağında",
+			"Belgenin sağ üst köşesinde kırmızı renkli olarak",
+			"İmza bölümünden sonra uygun boş satır bırakılarak yazı alanının ortasına büyük harflerle",
+			"Metnin başında ve koyu harflerle",
+			"İmza bölümünden önce yazı alanının solunda küçük harflerle"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.20/2: belge, olur için makama sunulurken İMZA BÖLÜMÜNDEN SONRA uygun boş satır bırakılarak YAZI ALANININ ORTASINA BÜYÜK HARFLERLE “OLUR” yazılır. “OLUR” ibaresinin alt satırına imzalayanın adı ilk harfi büyük, soyadı büyük ve bir alt satıra unvanı ortalanarak yazılır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"olur",
+			"yazim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-014",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre idare içinde birden fazla birimin iş birliğiyle hazırlanan belgelerde ne yapılır?",
+		"options": [
+			"İş birliğine dâhil olan bütün birimler belgeyi ayrı ayrı imzalar.",
+			"Her birim için ayrı bir belge hazırlanır.",
+			"Yalnızca hazırlayan birimin parafı yeterlidir; başka bir işlem yapılmaz.",
+			"Belgeyi hazırlayan birime ait paraf hiyerarşisinden sonra “Koordinasyon” seçimi yapılır ve iş birliğine dâhil olanların unvanları, adları ve soyadları belirtilir.",
+			"İş birliğine dâhil olanlar yalnızca üstveride gösterilir, belgede belirtilmez."
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.22: idare içinde BİRDEN FAZLA BİRİMİN İŞ BİRLİĞİ İLE hazırlanan ve yetkili makamın imzasına sunulan belgelerde, belgeyi hazırlayan birime ait PARAF HİYERARŞİSİNDEN SONRA “KOORDİNASYON” SEÇİMİ yapılır ve iş birliğine dâhil olan ilgililerin UNVANLARI, ADLARI VE SOYADLARI belirtilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "22"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koordinasyon"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-015",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre akademik unvanlar veya rütbeler imza bölümünde nasıl yazılır?",
+		"options": [
+			"Adın ön tarafına ya da bir satır altına, ilk harfleri büyük diğerleri küçük harflerle açık ya da kısaltılarak yazılabilir.",
+			"İmza bölümünde akademik unvan veya rütbeye yer verilmez.",
+			"Yalnızca unvan satırının altına ve kısaltılmadan yazılır.",
+			"Yalnızca soyadın ardından parantez içinde yazılır.",
+			"Yalnızca adın ön tarafına ve tamamen büyük harflerle yazılır."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.17/2'nin son cümlesi: AKADEMİK UNVANLAR VEYA RÜTBELER, ADIN ÖN TARAFINA YA DA BİR SATIR ALTINA ilk harfleri büyük diğerleri küçük harflerle AÇIK YA DA KISALTILARAK yazılabilir. Hüküm seçimlik olduğundan hem konum hem de açık/kısaltılmış yazım serbesttir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"akademik-unvan",
+			"rutbe"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-016",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre idareler arası yazışmalarda belgeyi imzalayacak makam neye göre seçilir?",
+		"options": [
+			"Her hâlde idarenin en üst yöneticisi tarafından",
+			"Muhatap idarenin talebine göre",
+			"Belgeyi hazırlayan birimin yöneticisinin takdirine göre",
+			"Belgenin gizlilik derecesine göre",
+			"Muhatap idarenin ast-üst ilişkisi, belgenin içeriği ve önem derecesi dikkate alınarak hazırlanan ve yetkili makamlarca uygun görülen imza yetkileri ve/veya yetki devri yönergesine göre"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.17/7: idareler arası yazışmalarda belgeyi imzalayacak olan makam; MUHATAP İDARENİN AST-ÜST İLİŞKİSİ, BELGENİN İÇERİĞİ VE ÖNEM DERECESİ dikkate alınarak hazırlanacak olan ve yetkili makamlarca uygun görülen İMZA YETKİLERİ VE/VEYA YETKİ DEVRİ YÖNERGESİNE göre seçilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"imza-yetkisi",
+			"yonerge"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-017",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre bakanlıklar ile bunlara bağlı, ilgili ve ilişkili kurum ve kuruluşların Cumhurbaşkanlığı ile yapacakları yazışmalar kim tarafından imzalanır?",
+		"options": [
+			"Belgenin mahiyeti ve aciliyet durumu değerlendirilerek bakan veya ilgili bakan yardımcısı tarafından",
+			"İlgili genel müdür tarafından",
+			"Her hâlde bakan tarafından",
+			"Her hâlde ilgili bakan yardımcısı tarafından",
+			"Kurumun hukuk hizmetleri biriminin yöneticisi tarafından"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.17/8: bakanlıklar ile bunlara bağlı, ilgili ve ilişkili kurum ve kuruluşların Cumhurbaşkanlığı ile yapacakları yazışmalar, BELGENİN MAHİYETİ VE ACİLİYET DURUMU DEĞERLENDİRİLEREK BAKAN VEYA İLGİLİ BAKAN YARDIMCISI tarafından imzalanır. CUMHURBAŞKANLIĞINA BAĞLI kurum ve kuruluşların Cumhurbaşkanlığı ile yazışmaları ise EN ÜST YÖNETİCİ tarafından imzalanır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhurbaskanligi-yazismasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-018",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre belgelere eklenecek elektronik dosyalar hangi formatlarda oluşturulur?",
+		"options": [
+			"“Kamu Bilgi Sistemlerinde Birlikte Çalışabilirlik Esasları”nın güncel sürümünde belirtilen formatlarda",
+			"İdarenin kendi belirlediği formatlarda",
+			"Standart dosya planında gösterilen formatlarda",
+			"Yalnızca PDF formatında",
+			"Devlet Arşivleri Başkanlığının belirlediği formatlarda"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.18/3: elektronik ortamda hazırlanan belgelere ve zorunlu hâllerde veya olağanüstü durumlarda hazırlanan belgelere veri depolama araçları ile eklenecek elektronik dosyalar, uluslararası kabul görmüş, endüstri standardı niteliği taşıyan “KAMU BİLGİ SİSTEMLERİNDE BİRLİKTE ÇALIŞABİLİRLİK ESASLARI”NIN GÜNCEL SÜRÜMÜNDE belirtilen formatlarda oluşturulur.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "18"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ek",
+			"elektronik-format"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-019",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "orta",
+		"stem": "Dağıtım bölümü yazı alanına sığmayacak kadar uzunsa Yönetmeliğe göre ne yapılır?",
+		"options": [
+			"Muhataplar “DAĞITIM YERLERİNE” ibaresiyle kısaltılır ve liste hiç yazılmaz.",
+			"Dağıtım bölümü küçültülerek 8 puntoya kadar düşürülür.",
+			"Her muhatap için ayrı belge hazırlanır.",
+			"“Dağıtım:” başlığı altına “DAĞITIM LİSTESİ” yazılır ve ayrı bir sayfada gösterilir; gerekli hâllerde dağıtım listesi ek olarak da üst yazıya eklenebilir.",
+			"Belge birden fazla sayfaya bölünerek dağıtım her sayfaya dağıtılır."
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.19/3: dağıtım bölümü yazı alanına sığmayacak kadar uzunsa “Dağıtım:” başlığı altına “DAĞITIM LİSTESİ” yazılır ve AYRI BİR SAYFADA “DAĞITIM LİSTESİ” BAŞLIĞI ALTINDA gösterilir. Ancak gerekli hâllerde dağıtım listesi “EK” OLARAK DA üst yazıya eklenebilir. Aynı mantık m.18/4'te ek listesi için de geçerlidir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "19"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dagitim-listesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-020",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "orta",
+		"stem": "Oluru teklif eden birim ile olur alınan makam arasında başka makamlar varsa Yönetmeliğe göre ne yapılır?",
+		"options": [
+			"Bu makamlar olura katılabilir; teklif eden birim yetkilisinin imza bölümü ile “OLUR” ibaresi arasına yazı alanının solunda “Uygun görüşle arz ederim.” ibaresi yazılır.",
+			"“Uygun görüşle arz ederim.” ibaresi yazı alanının sağında ve “OLUR” ibaresinden sonra yazılır.",
+			"Aradaki makamlar için ayrı bir olur belgesi düzenlenir.",
+			"Aradaki makamlar belgeyi ayrıca paraflar; herhangi bir ibare yazılmaz.",
+			"Aradaki makamlar olura katılamaz; yalnızca teklif eden ve olur veren imzalar."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.20/4: oluru teklif eden birim ile olur alınan makam arasında BAŞKA MAKAMLAR VARSA BUNLAR OLURA KATILABİLİR. Bu durumda teklif eden birim yetkilisinin imza bölümü ile “OLUR” ibaresinin bulunduğu bölüm arasına uygun boşluk bırakılarak YAZI ALANININ SOLUNDA yer alacak şekilde “UYGUN GÖRÜŞLE ARZ EDERİM.” ibaresi yazılır ve bu ibarenin altına ilgili makamın bilgileri ile tarih yazılır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"olur",
+			"uygun-gorusle-arz"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-021",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "zor",
+		"stem": "Zorunlu hâllerde veya olağanüstü durumlarda hazırlanan çok sayfalı bir rapor bakımından Yönetmelik ne öngörür?",
+		"options": [
+			"Bütün sayfalar ayrı ayrı imzalanmak zorundadır; paraf yeterli değildir.",
+			"Sayfalar yalnızca idare mührüyle mühürlenir; imza veya paraf aranmaz.",
+			"Sorumluluğu bulunan yetkililerce son sayfa imzalanır; son sayfadan önceki sayfalar ise imza sahiplerince ya imzalanır ya da paraflanır.",
+			"Yalnızca ilk sayfa imzalanır; diğer sayfalarda işlem yapılmaz.",
+			"Rapor tek nüsha hazırlanır ve hiç imzalanmaz; yalnızca üstveride tutulur."
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.17/12: zorunlu hâllerde veya olağanüstü durumlarda rapor ya da benzeri bir belge hazırlanması hâlinde, belgede sorumluluğu bulunan yetkili veya yetkililer tarafından SON SAYFA İMZALANIR, SON SAYFADAN ÖNCEKİ SAYFALAR ise imza sahibi veya imza sahipleri tarafından YA İMZALANIR YA DA PARAFLANIR. Gerekli görülmesi hâlinde sayfalar ayrıca en az bir kişisel mühürle veya idare mührüyle mühürlenir; imza, paraf veya mühür METİN BÖLÜMÜNÜN OKUNMASINI ENGELLEMEYECEK şekilde yer alır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"rapor",
+			"imza-paraf"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-022",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "zor",
+		"stem": "Zorunlu hâllerde veya olağanüstü durumlarda üst yazıya ilişkin olarak idarece hazırlanan ekler (rapor ve benzeri belgeler hariç) bakımından Yönetmelik ne öngörür?",
+		"options": [
+			"Eklerin imzalanması veya paraflanması gerekmez.",
+			"İmza sahibi veya imza sahiplerinden en az biri tarafından imzalanır ya da paraflanır veyahut paraf zincirinde yer alanların en az biri tarafından paraflanır.",
+			"Ekler yalnızca idare mührüyle mühürlenir.",
+			"Ekleri bütün imza sahiplerinin ayrı ayrı imzalaması zorunludur.",
+			"Ekler yalnızca üst yazıyı imzalayan en üst makam tarafından imzalanır."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.17/13: zorunlu hâllerde veya olağanüstü durumlarda üst yazıya ilişkin olarak hazırlanan ve on ikinci fıkrada belirtilenler (rapor ve benzeri belgeler) haricindeki ekler, İMZA SAHİBİ VEYA İMZA SAHİPLERİNDEN EN AZ BİRİ tarafından imzalanır ya da paraflanır VEYAHUT PARAF ZİNCİRİNDE YER ALANLARIN EN AZ BİRİ tarafından paraflanır. Gerekli görülmesi hâlinde ekler ayrıca idare mührüyle mühürlenir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekler",
+			"paraf"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-023",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "zor",
+		"stem": "Zorunlu hâllerde veya olağanüstü durumlarda hazırlanan dağıtımlı belgelerde Yönetmelik hangi iki yolu tanır?",
+		"options": [
+			"Yalnızca nüshaların her biri ayrı ayrı imzalanabilir.",
+			"Dağıtımlı belge zorunlu hâllerde hazırlanamaz.",
+			"Yalnızca tek nüsha imzalanır ve muhataplara sırayla elden dolaştırılır.",
+			"Nüshalar imzalanmaz; yalnızca idare mührüyle mühürlenir.",
+			"Nüshaların her biri ilgili makam tarafından imzalanabilir ya da imzalanan bir nüsha çoğaltma usulüne göre çoğaltılarak muhataplara gönderilebilir."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.17/14: zorunlu hâllerde veya olağanüstü durumlarda hazırlanan dağıtımlı belgelerde, NÜSHALARIN HER BİRİ İLGİLİ MAKAM TARAFINDAN İMZALANABİLECEĞİ GİBİ, İMZALANAN BİR NÜSHA 29. MADDEDEKİ USULE GÖRE ÇOĞALTILARAK da muhataplara gönderilebilir. 29. maddedeki usul, çoğaltılan belgeye “ASLI GİBİDİR” ibaresi konularak yetkilendirilmiş görevlice imzalanmasıdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dagitimli-belge",
+			"cogaltma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-024",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre güvenlik gerekçesi, teknik veya benzeri nedenlerle üst yazıyla birlikte gönderilemeyen belge ekleri için ne yapılabilir?",
+		"options": [
+			"Üst yazıyla ilişkilendirilmek suretiyle üst yazıdan ayrı olarak gönderilebilir veya alınabilir; bu şekilde alınan ekler ilişkilendirilmek şartıyla üst yazıdan ayrı olarak muhafaza edilebilir.",
+			"Ekler hiçbir şekilde üst yazıdan ayrı gönderilemez.",
+			"Ekler ayrı gönderilebilir ancak üst yazıyla ilişkilendirilmez.",
+			"Ekler ayrı gönderildiğinde üst yazı geçersiz sayılır.",
+			"Ekler yalnızca gizlilik dereceli olmaları hâlinde ayrı gönderilebilir."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.18/6: GÜVENLİK GEREKÇESİ, TEKNİK VEYA BENZERİ NEDENLERLE üst yazıyla birlikte gönderilemeyen veya alınamayan belge ekleri, ÜST YAZIYLA İLİŞKİLENDİRİLMEK SURETİYLE üst yazıdan AYRI OLARAK gönderilebilir veya alınabilir. Bu nedenlerle alınan ekler de üst yazıyla ilişkilendirilmek şartıyla ayrı olarak MUHAFAZA EDİLEBİLİR. Belirleyici olan ilişkilendirmedir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "18"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ek",
+			"ayri-gonderim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-025",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre fiziksel ortamda hazırlanan belgelerde paraflar nerede yer alır?",
+		"options": [
+			"Yalnızca muhataba gönderilen nüshada, imza bölümünün altında",
+			"Belgenin ilk sayfasının üst kısmında",
+			"Belgenin bütün nüshalarında, yazı alanının sonunda ve sağ kenarında",
+			"Belgenin arka yüzünde, iletişim bilgilerinin altında",
+			"Belgenin sadece idarede kalacak nüshasında, yazı alanının sonunda ve sol kenarında"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.21/3: zorunlu hâllerde veya olağanüstü durumlarda el yazısıyla atılan paraf MAVİ KALEMLE atılır ve fiziksel ortamda hazırlanan belgelerde paraflar, BELGENİN SADECE İDAREDE KALACAK NÜSHASINDA, YAZI ALANININ SONUNDA VE SOL KENARINDA yer alır. Bu, m.5/2'deki “paraflı nüshası hazırlayan idarede kalacak şekilde en az iki nüsha” kuralıyla örtüşür.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "21"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"paraf",
+			"fiziksel-ortam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-026",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre elektronik ortamda paraf nasıl atılır ve elektronik onaylar nerede kayıt altına alınır?",
+		"options": [
+			"Paraf, belgenin üstverisine elle girilir ve muhatapla paylaşılır.",
+			"Paraf, güvenli elektronik imza veya elektronik onay ile atılır; elektronik onaylar EBYS'nin günlük raporlarında kayıt altına alınır.",
+			"Paraf yalnızca elektronik onay ile atılır; onaylar üstveride tutulur.",
+			"Paraf yalnızca güvenli elektronik imza ile atılır; ayrıca bir kayıt tutulmaz.",
+			"Elektronik ortamda paraf atılmaz; yalnızca imza kullanılır."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.21/2: elektronik ortamda hazırlanan belgelerde paraf, GÜVENLİ ELEKTRONİK İMZA VEYA ELEKTRONİK ONAY ile atılır. ELEKTRONİK ONAYLAR, EBYS'NİN GÜNLÜK RAPORLARINDA kayıt altına alınır; günlük raporlar günlük olarak zaman damgasıyla damgalanır ve saklama süresi ilişkili olduğu belgelerin saklama süresinden kısa olamaz.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "21"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"elektronik-onay",
+			"gunluk-rapor"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-027",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "uzman",
+		"stem": "Yönetmeliğe göre EBYS'lerin imza bakımından taşıması gereken nitelik aşağıdakilerden hangisidir?",
+		"options": [
+			"İmzayı yalnızca belge muhataba gönderilene kadar saklamak",
+			"İmzayı ıslak imzaya dönüştürülebilir biçimde çıktı almak",
+			"Belgedeki imzanın dayanağı olan teknik standartta belirtilen arşivleme metodunu desteklemek, imzanın “arşiv imzası” tipine dönüştürülebilmesini ve uzun dönemli doğrulanabilmesini sağlamak",
+			"İmzayı belge görüntüsü üzerinde grafik olarak göstermek",
+			"İmzayı her yıl yenilenen bir sertifikayla değiştirmek"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.17/4: EBYS'ler, belgede yer alan imzanın dayanağı olan TEKNİK STANDARTTA BELİRTİLEN ARŞİVLEME METODUNU DESTEKLER, imzanın ilgili teknik standarda göre “ARŞİV İMZASI” TİPİNE DÖNÜŞTÜRÜLEBİLMESİNİ ve UZUN DÖNEMLİ DOĞRULANABİLMESİNİ sağlar nitelikte olmalıdır. Bu hüküm, m.3'teki arşiv imza tanımının (periyodik zaman damgasıyla korunan imza) sistem tarafındaki karşılığıdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"arsiv-imza",
+			"ebys"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-028",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "uzman",
+		"stem": "Münhasıran şahsına ait özlük işlemleriyle ilgili yazışmalarda imzası aranan personelin güvenli elektronik imzası bulunmuyorsa Yönetmeliğe göre nasıl hareket edilir?",
+		"options": [
+			"Personel bu tür taleplerini yalnızca kayıtlı elektronik posta ile iletebilir.",
+			"Talep, personelin amiri tarafından personel adına elektronik imzayla imzalanır.",
+			"Personele derhâl güvenli elektronik imza temin edilinceye kadar talep işleme alınmaz.",
+			"Personelin özlük işlemine ilişkin talebi, idarenin belirleyeceği usule göre alınır.",
+			"Talep yalnızca fiziksel ortamda ve iki nüsha olarak alınır."
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.17/5: resmî yazışma sürecinde İMZA YETKİSİ BULUNAN GÖREVLİLERE idarece güvenli elektronik imza TEMİN EDİLİR. Münhasıran şahsına ait özlük işlemleriyle ilgili yazışmalarda imzası aranan personelin güvenli elektronik imzasının bulunmadığı durumlarda ise personelin özlük işlemine ilişkin TALEBİ İDARENİN BELİRLEYECEĞİ USULE GÖRE ALINIR. Böylece e-imzası olmayan personelin özlük başvurusu engellenmemiş olur.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"e-imza-temini",
+			"ozluk-islemleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-029",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "uzman",
+		"stem": "Zorunlu hâllerde veya olağanüstü durumlarda hazırlanan olur yazılarında Yönetmeliğe göre nasıl bir düzen izlenir?",
+		"options": [
+			"“OLUR” ibaresi kullanılmaz; yalnızca imza atılır.",
+			"İlk satırda unvan, ikinci satırda ad ve soyad yer alır.",
+			"“OLUR” ibaresinden önce tarih yazılır; imzalayanın adı yazılmaz.",
+			"Tarih için boşluk bırakılmaz; tarih üstveriden alınır.",
+			"“OLUR” ibaresinden sonra tarih ve imza için uygun boş satır bırakılarak ilk satırda imzalayanın adı ve soyadına, ikinci satırda unvan bilgilerine yer verilir."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.20/3: zorunlu hâllerde veya olağanüstü durumlarda hazırlanan olur yazılarında “OLUR” İBARESİNDEN SONRA TARİH VE İMZA İÇİN UYGUN BOŞ SATIR bırakılarak İLK SATIRDA İMZALAYANIN ADI VE SOYADINA, İKİNCİ SATIRDA İSE UNVAN BİLGİLERİNE yer verilir. Elektronik ortamda ise tarih zaman damgasından geldiği için ayrıca boşluk bırakılmaz.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"olur",
+			"zorunlu-hal"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-imza-030",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/imza-onay-ve-paraf",
+		"difficulty": "uzman",
+		"stem": "Makam oluru alınan ve iki eki bulunan bir belgede “Ek:” başlığı nereye yazılır ve ekler nasıl gösterilir?",
+		"options": [
+			"Olur belgelerinde ek gösterilmez; ekler ayrı bir yazıyla gönderilir.",
+			"“Ek:” başlığı dağıtım bölümünden sonra yazılır ve ekler yalnızca üstveride belirtilir.",
+			"“Ek:” başlığı oluru alınan makamın imza bölümünden sonra yazı alanının solundan yazılır; ekler başlığın altında numaralandırılır ve eklerin üzerinde ek numarası sağ üst köşede belirtilir.",
+			"“Ek:” başlığı “OLUR” ibaresinden önce ve yazı alanının sağından yazılır.",
+			"“Ek:” başlığı teklif eden birim yetkilisinin imza bölümünden sonra yazılır; ekler numaralandırılmaz."
+		],
+		"correctIndex": 2,
+		"explanation": "İki kural birleşir. m.18/1: OLUR BELGELERİNDE “Ek:” başlığı, OLURU ALINAN MAKAMIN İMZA BÖLÜMÜNDEN SONRA uygun satır boşluğu bırakılarak yazı alanının SOLUNDAN başlanarak yazılır. m.18/2: belgede BİRDEN FAZLA EK varsa “Ek:” başlığının altında EKLER NUMARALANDIRILIR ve eklerin üzerinde EK NUMARASI YAZI ALANININ SAĞ ÜST KÖŞESİNDE belirtilir (EK-1, EK-2); sayfa, adet, kişi sayısı gibi açıklamalar parantez içinde gösterilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "18"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"senaryo",
+			"ek",
+			"olur"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]

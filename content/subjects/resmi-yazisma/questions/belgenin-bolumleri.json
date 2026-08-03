@@ -322,5 +322,665 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-011",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre yazışma yapan makamlar arasındaki hiyerarşi yönünden metnin son bölümü nasıl bitirilir?",
+		"options": [
+			"Alt makamlara “… arz ederim.”, üst makamlara “… rica ederim.”",
+			"Alt makamlara “… bilgilerinize sunulur.”, üst makamlara “… arz ederim.”",
+			"Bütün makamlara “… arz ederim.”",
+			"Bütün makamlara “… rica ederim.”",
+			"Alt makamlara “… rica ederim.”, üst ve aynı düzeydeki makamlara “… arz ederim.”"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.16/12-a: yazışma yapan makamlar arasındaki hiyerarşi yönünden ALT MAKAMLARA “… RİCA EDERİM.”, ÜST VE AYNI DÜZEYDEKİ MAKAMLARA “… ARZ EDERİM.” ibaresiyle bitirilir. Aynı düzeydeki makamın “arz” tarafında olduğuna dikkat edilmelidir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"arz-rica",
+			"metnin-son-bolumu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-012",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre muhatabı gerçek kişi olan yazışmalar hangi ibarelerle bitirilebilir?",
+		"options": [
+			"Yalnızca “Rica ederim.”",
+			"“Gereğini arz ederim.”",
+			"“Arz ve rica ederim.” veya “Arz/rica ederim.”",
+			"“Saygılarımla.”, “İyi dileklerimle.” veya “Bilgilerinize sunulur.”",
+			"Yalnızca “Arz ederim.”"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.16/12-e: muhatabı GERÇEK KİŞİ olan yazışmalar “SAYGILARIMLA.”, “İYİ DİLEKLERİMLE.” veya “BİLGİLERİNİZE SUNULUR.” ibareleriyle bitirilebilir. Arz ve rica ibareleri makamlar arası hiyerarşi için öngörülmüştür.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gercek-kisi",
+			"metnin-son-bolumu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-013",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre “Sayı:” yan başlığı nereye yazılır?",
+		"options": [
+			"Yazı alanının en sağında, tarihin altına",
+			"Başlığın son satırından itibaren iki satır boşluk bırakılarak ve yazı alanının solundan başlanarak",
+			"Başlığın hemen altına, sayfa ortalanarak",
+			"Muhatap bölümünün altına, yazı alanının solundan başlanarak",
+			"Başlığın son satırından itibaren bir satır boşluk bırakılarak, yazı alanının sağından"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.11/2: “Sayı:” yan başlığı, BAŞLIĞIN SON SATIRINDAN İTİBAREN İKİ SATIR BOŞLUK bırakılarak ve YAZI ALANININ SOLUNDAN başlanarak yazılır. Tarih ise m.12 uyarınca sayı ile AYNI SATIRDA, yazı alanının EN SAĞINDA yer alır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sayi",
+			"yerlesim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-014",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre belge hangi kaynak esas alınarak dil bilgisi kurallarına göre yazılır?",
+		"options": [
+			"Cumhurbaşkanlığı İdari İşler Başkanlığının genelgeleri",
+			"Devlet Arşivleri Başkanlığının yayımladığı yazışma kılavuzu",
+			"Türk Dil Kurumu tarafından hazırlanan Yazım Kılavuzu ve Türkçe Sözlük'ün güncel yayımı",
+			"İdarelerin kendi yazışma yönergeleri",
+			"e-Yazışma Teknik Rehberi"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.16/8: belge, TÜRK DİL KURUMU tarafından hazırlanan YAZIM KILAVUZU VE TÜRKÇE SÖZLÜK'ün GÜNCEL YAYIMI esas alınarak dil bilgisi kurallarına göre ANLAMLI VE ÖZLÜ olarak yazılır. Aynı fıkra, zorunlu olmadıkça yabancı kelimeye yer verilmemesini, verildiğinde parantez içinde anlamının belirtilmesini öngörür.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dil",
+			"yazim-kilavuzu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-015",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "orta",
+		"stem": "Üst, aynı düzey ve alt makamlara birlikte dağıtımlı olarak yapılan bir yazışmanın metni hangi ibareyle bitirilir?",
+		"options": [
+			"“… gereğini rica ederim.”",
+			"Yalnızca “… arz ederim.”",
+			"Yalnızca “… rica ederim.”",
+			"“… arz ve rica ederim.” veya “… arz/rica ederim.”",
+			"“… bilgilerinize sunulur.”"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.16/12-b: ÜST, AYNI DÜZEY VE ALT MAKAMLARA BİRLİKTE dağıtımlı olarak yapılan yazışmalar “… ARZ VE RİCA EDERİM.” veya “… ARZ/RİCA EDERİM.” ibaresiyle bitirilir. Tek muhataplı yazışmalarda ise hiyerarşiye göre yalnızca arz ya da rica kullanılır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dagitimli-yazisma",
+			"arz-rica"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-016",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre idarelerin il ve ilçe teşkilatlarında kullanılan başlıklar hangi kanuna uygun olarak yazılır?",
+		"options": [
+			"5393 sayılı Belediye Kanunu",
+			"3152 sayılı İçişleri Bakanlığı Teşkilat ve Görevleri Hakkında Kanun",
+			"5302 sayılı İl Özel İdaresi Kanunu",
+			"657 sayılı Devlet Memurları Kanunu",
+			"5442 sayılı İl İdaresi Kanunu"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.10/3: idarelerin il ve ilçe teşkilatlarında kullanılan başlıklar, 10/6/1949 tarihli ve 5442 SAYILI İL İDARESİ KANUNU hükümlerine uygun olarak; ilk satıra “T.C.” kısaltması, ikinci satıra BAĞLI OLUNAN MÜLKİ İDARENİN ADI büyük harflerle, üçüncü satıra ilgili birimin adı ilk harfleri büyük olacak şekilde ortalanarak yazılır. DIŞ TEMSİLCİLİKLERDE başlıklar da il ve ilçe teşkilatındaki gibi yazılır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"baslik",
+			"il-ilce-teskilati"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-017",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre belgede ay adının harfle yazılması hâlinde ne yapılır?",
+		"options": [
+			"Gün, ay ve yıl arasına nokta konulur.",
+			"Gün, ay ve yıl arasına herhangi bir işaret konulmaz.",
+			"Gün, ay ve yıl arasına eğik çizgi konulur.",
+			"Yıl iki haneli olarak yazılır.",
+			"Ay adı harfle yazılamaz; her hâlde rakamla yazılır."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.12/1: tarih kural olarak gün, ay, yıl olarak rakamla ve aralarına NOKTA konularak yazılır (01.09.2019). Ancak AY ADLARI HARFLE DE YAZILABİLİR; bu durumda GÜN, AY VE YIL ARASINA HERHANGİ BİR İŞARET KONULMAZ (10 Ekim 2019).",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tarih",
+			"ay-adi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-018",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre metin içinde dört ve dörtten çok haneli sayılar ile kesirler nasıl yazılır?",
+		"options": [
+			"Dört ve dörtten çok haneli sayılar üçlü gruplara ayrılıp araya virgül konularak; kesirler ise nokta ile ayrılarak",
+			"Sayılar gruplandırılmaz; kesirler nokta ile ayrılır",
+			"Dört ve dörtten çok haneli sayılar sondan sayılmak üzere üçlü gruplara ayrılıp araya nokta konularak; kesirler ise virgül ile ayrılarak",
+			"Dört haneli sayılar gruplandırılmaz, beş ve üzeri haneli sayılar gruplandırılır",
+			"Sayılar yalnızca harfle yazılır"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.16/7: DÖRT VE DÖRTTEN ÇOK HANELİ sayılar SONDAN SAYILMAK ÜZERE ÜÇLÜ GRUPLARA ayrılarak yazılır ve araya NOKTA (.) işareti konulur (1.452; 25.126; 326.197). SAYILARDA KESİRLER VİRGÜL (,) İLE AYRILIR (10.545,72).",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sayilarin-yazimi",
+			"kesir"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-019",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre metin içinde kısaltma kullanılacaksa nasıl bir yol izlenir?",
+		"options": [
+			"Kısaltmalar yalnızca Türk Dil Kurumu listesinde yer alıyorsa açıklanmadan kullanılabilir.",
+			"Metinde kısaltma kullanılamaz.",
+			"Kısaltmalar yalnızca belgenin sonunda bir listede açıklanır.",
+			"İlk kullanımda kısaltma, sonra parantez içinde açık biçimi yazılır.",
+			"İfadenin ilk kullanıldığı yerde açık biçimi, sonra parantez içinde kısaltılmış biçimi yazılır."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.16/11: metin içinde kısaltma kullanılacak ise ifadenin İLK KULLANILDIĞI YERDE AÇIK BİÇİMİ, SONRA PARANTEZ İÇİNDE KISALTILMIŞ BİÇİMİ yazılır. Örnek: Türkiye Büyük Millet Meclisi (TBMM), Kayıtlı Elektronik Posta (KEP). Paraf bölümünde ise m.21 uyarınca kısaltma hiç kullanılmaz.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kisaltma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-020",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "orta",
+		"stem": "İlgi tutulan belge bir gerçek kişiden geliyorsa Yönetmeliğe göre ilgi bölümü nasıl yazılır?",
+		"options": [
+			"“…'ın … tarihli başvurusu/dilekçesi.” biçiminde yazılır; ancak belgenin muhatabı başvurunun sahibi ise gerçek kişinin isim bilgisine yer verilmez.",
+			"Yalnızca başvurunun tarihi yazılır; kişi bilgisi hiçbir hâlde belirtilmez.",
+			"Başvurunun kayıt numarası yazılır; tarih belirtilmez.",
+			"Her hâlde gerçek kişinin adı ve soyadı yazılır.",
+			"Gerçek kişiden gelen belgeler ilgi tutulamaz."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.15/9: ilgide belirtilen belge GERÇEK KİŞİDEN geliyorsa ilgi bölümü “…'IN … TARİHLİ BAŞVURUSU/DİLEKÇESİ.” biçiminde yazılır. Ancak belgenin MUHATABI, ilgi tutulan başvurunun veya dilekçenin SAHİBİ İSE ilgi bölümünde GERÇEK KİŞİNİN İSİM BİLGİSİNE YER VERİLMEZ — muhataba kendi adı yazılmaz.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilgi",
+			"gercek-kisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-021",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre belgenin kayıt numarası bakımından aşağıdakilerden hangisi YANLIŞTIR?",
+		"options": [
+			"Zorunlu hâllerde hazırlanan belgenin kayıt numarası, belge el yazısıyla imzalandıktan sonra alınır.",
+			"Olağanüstü durumlarda hazırlanan belgeye kayıt numarası EBYS üzerinden alınır.",
+			"Kayıt numarası, belge hazırlanırken EBYS üzerinden alınır ve belge üzerinde gösterilir.",
+			"Her bir belgenin hazırlanma sürecine göre kayıt numarasının eşsiz olması zorunludur.",
+			"Olağanüstü durumlarda EBYS'ye erişim sağlandığında belge ve üstveri bilgileri EBYS'ye kaydedilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.11/3: OLAĞANÜSTÜ DURUMLARDA belge fiziksel ortam esaslarına uygun hazırlanır ve belgeye yetkili birim tarafından KURUMSAL BELGE KAYIT SİSTEMİNDEN kayıt numarası alınır; EBYS'ye erişim sağlandığında belge ve üstveri bilgileri EBYS'ye kaydedilir. Normal süreçte kayıt numarası EBYS'den, zorunlu hâlde ise imzalandıktan sonra EBYS veya kurumsal belge kayıt sisteminden alınır ve numaranın EŞSİZ olması zorunludur.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kayit-numarasi",
+			"essizlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-022",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre tutanak, rapor ve tebliğ-tebellüğ belgesi gibi belgelerde tarih nerede yer alabilir?",
+		"options": [
+			"Yalnızca üstveride; belge görüntüsünde gösterilmez",
+			"Yalnızca belgenin ilk sayfasının üst orta kısmında",
+			"İmza bölümünün altında ve mutlaka kırmızı renkle",
+			"Metnin bitiminde",
+			"Yalnızca sayı ile aynı satırda, yazı alanının en sağında"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.12/4 genel kurala bir istisna getirir: TUTANAK, RAPOR, TEBLİĞ-TEBELLÜĞ BELGESİ VE BENZERİ BELGELERDE TARİH, METNİN BİTİMİNDE YER ALABİLİR. Genel kural ise tarihin sayı ile aynı satırda, yazı alanının en sağında bulunmasıdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tarih",
+			"tutanak-rapor"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-023",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre bağlı, ilgili veya ilişkili idarelere gönderilecek belgeler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Belgeler yalnızca bakanlık onayı alınarak gönderilebilir.",
+			"Belgeler doğrudan o idareye gönderilebilir; ancak bağlı veya ilgili olunan idarenin bilgi sahibi olmasının gerekli görüldüğü durumlarda belge, söz konusu idare aracılığıyla gönderilir.",
+			"Belgeler her hâlde bağlı olunan idare aracılığıyla gönderilir.",
+			"Belgeler her hâlde doğrudan gönderilir; aracı idare kullanılamaz.",
+			"Bu idarelerle yazışma yalnızca fiziksel ortamda yapılabilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.14/4: bağlı, ilgili veya ilişkili idarelere gönderilecek belgeler DOĞRUDAN O İDAREYE GÖNDERİLEBİLİR. Ancak idarenin bağlı veya ilgili olduğu idarenin BİLGİ SAHİBİ OLMASININ GEREKLİ GÖRÜLDÜĞÜ durumlarda belge, söz konusu bağlı veya ilgili olunan idare ARACILIĞIYLA gönderilir. Kural doğrudan gönderim, aracılı gönderim istisnadır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "14"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bagli-ilgili-idareler",
+			"gonderim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-024",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre ilgide, ilgi tutulan belgeyi gönderen idarenin adı hangi durumda belirtilmez?",
+		"options": [
+			"İlgi tutulan belge elektronik ortamda hazırlanmışsa",
+			"İlgi tutulan belge gizlilik derecesi taşıyorsa",
+			"İlgi tutulan belge bir yıldan eski ise",
+			"İlgi tutulan belge, muhatap idarenin daha önce gönderdiği bir belge veya muhatap idareye daha önce gönderilen bir belge ise",
+			"İlgi sayısı üçten fazla ise"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.15/6: ilgide, ilgi tutulan belgeyi gönderen idarenin adı ile belgenin tarihi ve sayısı belirtilir. Ancak ilgi tutulan belgenin, MUHATAP İDARENİN DAHA ÖNCE GÖNDERDİĞİ bir belge veya MUHATAP İDAREYE DAHA ÖNCE GÖNDERİLEN bir belge olması durumunda İDARE ADI BELİRTİLMEZ — taraflar zaten bellidir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilgi",
+			"idare-adi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-025",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "zor",
+		"stem": "İlgide belirtilen belge muhatapta bulunmuyorsa Yönetmeliğe göre ne yapılabilir?",
+		"options": [
+			"Belge ilgi tutulamaz.",
+			"Belgenin yalnızca tarih ve sayısı yazılır, içeriği metne aktarılır.",
+			"Söz konusu belge, ek olarak muhatabına iletilebilir.",
+			"İlgi bölümünden çıkarılır ve metinde açıklanır.",
+			"Muhataptan belgeyi temin etmesi istenir."
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.15/8: ilgide belirtilen belge, MUHATAPTA BULUNMADIĞI DURUMLARDA söz konusu belge EK OLARAK MUHATABINA İLETİLEBİLİR. Böylece muhatap, ilgi tutulan belgeye erişebilir ve yazışmanın bağlamı korunur.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilgi",
+			"ek"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-026",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre yabancı dil kullanımı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yabancı dil kullanılabilir; Türkçe tercüme oluşturulması gerekmez.",
+			"Resmî yazışmalarda hiçbir şekilde yabancı dil kullanılamaz.",
+			"Yabancı dille yazılan belgenin Türkçe tercümesi ayrı bir belge sayılır ve ilişkilendirilmez.",
+			"Yabancı dil yalnızca dış temsilcilikler tarafından kullanılabilir.",
+			"Muhatabı yabancı ülke veya uluslararası kuruluş olan resmî yazışmalarda yabancı dil kullanılabilir; bu durumda belgenin Türkçe tercümesi oluşturulur ve yabancı dille hazırlanan belge ile ilişkilendirilerek saklanır."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.16/8: belge içinde zorunlu olmadıkça yabancı kelimeye yer verilmez, verildiğinde parantez içinde anlamı belirtilir. Ancak MUHATABI YABANCI ÜLKE VEYA ULUSLARARASI KURULUŞ olan resmî yazışmalarda YABANCI DİL KULLANILABİLİR; bu durumda belge varsa uluslararası yazışma usullerine göre hazırlanabilir. Ayrıca YABANCI DİLLE YAZILAN BELGENİN TÜRKÇE TERCÜMESİ OLUŞTURULUR ve yabancı dille hazırlanan belge ile İLİŞKİLENDİRİLEREK SAKLANIR.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yabanci-dil",
+			"tercume"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-027",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "uzman",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesinin 6. maddesi gereğince bakanlıklarla yapılan yazışmalar, Cumhurbaşkanlığı İdari İşler Başkanı tarafından veya adına imzalandığında metin hangi ibareyle bitirilir?",
+		"options": [
+			"“Saygılarımla.”",
+			"“Rica ederim.”",
+			"“Arz ederim.”",
+			"“Arz ve rica ederim.”",
+			"“Bilgilerinize sunulur.”"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.16/12-ç özel bir kural koyar: 1 sayılı Cumhurbaşkanlığı Kararnamesinin 6. maddesi gereğince BAKANLIKLARLA yapılan yazışmalar, CUMHURBAŞKANLIĞI İDARİ İŞLER BAŞKANI TARAFINDAN VEYA ADINA imzalandığında “RİCA EDERİM.” ibaresiyle bitirilir. Bu, hiyerarşi kuralının kararnameden doğan bir uygulamasıdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"arz-rica",
+			"cumhurbaskanligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-028",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "uzman",
+		"stem": "Belge, imza yetkisini devreden makam adına imzalandığında metnin “arz” mı yoksa “rica” mı ile bitirileceği neye göre belirlenir?",
+		"options": [
+			"Muhatabın talebine göre",
+			"Belgeyi fiilen imzalayan görevlinin hiyerarşik durumu dikkate alınarak",
+			"Yetkiyi devreden makamın hiyerarşik durumu dikkate alınarak",
+			"Her hâlde “arz ederim.” kullanılır",
+			"Her hâlde “rica ederim.” kullanılır"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.16/12-d: belge, imza yetkisini devreden makam adına imzalandığında, YETKİYİ DEVREDEN MAKAMIN HİYERARŞİK DURUMU DİKKATE ALINARAK arz veya rica ibarelerinden uygun olanı kullanılır. Ölçüt fiilen imzalayan görevlinin değil, adına imza atılan makamın konumudur — bu, m.17/9'daki “Bakan a.” yazım kuralıyla birlikte okunmalıdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"arz-rica",
+			"yetki-devri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-029",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "uzman",
+		"stem": "Gerçek kişi ve tarih bilgisi bulunmayan bir başvuru/dilekçe ilgi tutulmak istendiğinde Yönetmeliğe göre nasıl yazılır ve işleme alınıp alınmayacağı neye göre belirlenir?",
+		"options": [
+			"Böyle bir başvuru hiçbir şekilde ilgi tutulamaz ve işleme alınmaz.",
+			"Başvuru, tarih ve isim tamamlanmak üzere sahibine iade edilir.",
+			"İlgi bölümü “İsimsiz ve tarihsiz başvuru/dilekçe.” biçiminde yazılır; işleme alınıp alınmayacağı ilgili mevzuat hükümlerine göre değerlendirilir.",
+			"İlgi bölümü boş bırakılır; durum metinde açıklanır.",
+			"İlgi bölümüne başvurunun kurumsal kayıt numarası yazılır ve her hâlde işleme alınır."
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.15/10: gerçek kişi ve tarih bilgisi bulunmayan başvuru/dilekçe ilgi tutulmak istendiğinde ilgi bölümü “İSİMSİZ VE TARİHSİZ BAŞVURU/DİLEKÇE.” biçiminde yazılır. Söz konusu başvurunun/dilekçenin İŞLEME ALINIP ALINMAYACAĞI İLGİLİ MEVZUAT HÜKÜMLERİNE GÖRE DEĞERLENDİRİLİR — Yönetmelik yazım biçimini gösterir, işleme alma kararını başka mevzuata bırakır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilgi",
+			"isimsiz-dilekce"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-030",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "uzman",
+		"stem": "Yönetmeliğe göre DETSİS kayıtlarının esas alınması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca muhatap idarenin adının yazımında DETSİS kayıtları esas alınır.",
+			"DETSİS yalnızca sayı bölümündeki numara için kullanılır; başlık ve muhatap yazımında rol oynamaz.",
+			"DETSİS kayıtları yalnızca taşra teşkilatı başlıklarında esas alınır.",
+			"Yalnızca başlığın yazımında DETSİS kayıtları esas alınır.",
+			"Hem başlığın yazımında hem de muhatap idarenin adının yazımında DETSİS'te yer alan kayıtlar esas alınır."
+		],
+		"correctIndex": 4,
+		"explanation": "DETSİS Yönetmelikte üç yerde karşımıza çıkar: m.11'de SAYININ bileşeni olan Türkiye Cumhuriyeti Devlet Teşkilatı Numarası; m.10/6'da “BAŞLIĞIN YAZIMINDA DETSİS'TE YER ALAN BAŞLIK KAYITLARI ESAS ALINIR”; m.14/2'de “MUHATAP İDARENİN ADININ YAZIMINDA DETSİS'TE YER ALAN KAYITLAR ESAS ALINIR”. Yani hem gönderenin hem muhatabın adı DETSİS'e göre yazılır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"detsis",
+			"baslik",
+			"muhatap"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
 	}
 ]
