@@ -1,0 +1,330 @@
+[
+	{
+		"id": "yazisma-gonderme-001",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre süre belirtilmeyen belge talepleri, talebin ulaşmasından itibaren en geç ne kadar sürede yerine getirilir?",
+		"options": [
+			"Üç iş günü",
+			"Otuz iş günü",
+			"On beş iş günü",
+			"On iş günü",
+			"Beş iş günü"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.33: idareler, ilgili mevzuattaki özel hükümler saklı kalmak kaydıyla SÜRE BELİRTİLMEYEN BELGE TALEPLERİNİ, talebin kendilerine ulaşmasından itibaren EN GEÇ BEŞ İŞ GÜNÜ içinde yerine getirir. Süre belirtilmeyen BİLGİ VE GÖRÜŞ talepleri için süre ise EN GEÇ ON BEŞ İŞ GÜNÜDÜR.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "33"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sureler",
+			"belge-talebi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-002",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre süre belirtilmeyen bilgi ve görüş talepleri en geç ne kadar sürede yerine getirilir?",
+		"options": [
+			"Otuz iş günü",
+			"Yedi iş günü",
+			"Beş iş günü",
+			"On beş iş günü",
+			"Bir ay"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.33'e göre süre belirtilmeyen BİLGİ VE GÖRÜŞ TALEPLERİ, talebin ulaşmasından itibaren EN GEÇ ON BEŞ İŞ GÜNÜ içinde yerine getirilir. BELGE talepleri için süre daha kısadır: EN GEÇ BEŞ İŞ GÜNÜ. Ayrıca idare içi ve idare dışı görüş, bilgi ve belge talep yazıları GÜNLÜ YAZILIR.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "33"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sureler",
+			"bilgi-gorus-talebi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-003",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre belgeye süresi içinde cevap verilmemesi durumunda ne yapılabilir?",
+		"options": [
+			"Talep, süre sonunda kabul edilmiş sayılır.",
+			"Belge iade edilmiş sayılır.",
+			"Muhatap idare hakkında idari soruşturma başlatılır.",
+			"Belge doğrudan bir üst makama gönderilir.",
+			"Muhataba tekit yazısı yazılabilir."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.34 tek cümledir: “Belgeye süresi içinde cevap verilmemesi durumunda muhataba TEKİT YAZISI yazılabilir.” Tekit, cevabın hatırlatılması amacını taşır; madde bir yaptırım ya da zımni kabul sonucu öngörmez.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "34"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tekit-yazisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-004",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre “ASLI GİBİDİR” ibaresi hangi durumda kullanılır?",
+		"options": [
+			"Belgenin gizlilik derecesi taşıdığı durumlarda",
+			"Zorunlu hâllerde, olağanüstü durumlarda ya da Yönetmeliğin yürürlüğünden önce fiziksel ortamda hazırlanan bir belgeden örnek çıkarılması hâlinde",
+			"Belgenin birden fazla muhataba dağıtımlı gönderildiği durumlarda",
+			"Belgenin muhataba fiziksel ortamda gönderildiği her durumda",
+			"Güvenli elektronik imzalı her belgenin çıktısı alındığında"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.29/2: ZORUNLU HÂLLERDE VEYA OLAĞANÜSTÜ DURUMLARDA ya da bu Yönetmeliğin yürürlüğe girdiği tarihten önce FİZİKSEL ORTAMDA HAZIRLANAN bir belgeden örnek çıkarılması hâlinde, çoğaltılan belgenin uygun bir yerine “ASLI GİBİDİR” ibaresi konulur ve YETKİLENDİRİLMİŞ GÖREVLİ tarafından AD, SOYAD, UNVAN VE TARİH belirtilmek suretiyle imzalanır; belge asıl belge gibi kabul edilir. Elektronik imzalı belgenin çıktısında ise doğrulama karekod ve doğrulama kodu ile yapılır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "29"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cogaltma",
+			"asli-gibidir"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-005",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre bir idareye, e-Yazışma Teknik Rehberi'nde tanımlanan kurallara uygun hazırlanmamış bir belge iletilirse ne olur?",
+		"options": [
+			"Belge gönderen idareye kendiliğinden iade edilmiş sayılır.",
+			"İdare belgeyi reddetme hakkına sahiptir.",
+			"Belge yalnızca gizlilik derecesi taşıyorsa reddedilebilir.",
+			"İdare belgeyi işleme koymakla yükümlüdür.",
+			"İdare belgeyi düzelterek işleme koymak zorundadır."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.30 iki karşıt kural içerir: idare, kendisine iletilen ve e-Yazışma Teknik Rehberi'ne UYGUN şekilde hazırlanmış belgeleri İŞLEME KOYMAKLA YÜKÜMLÜDÜR (f.3); rehberdeki kurallara UYGUN ŞEKİLDE HAZIRLANMAMIŞ bir belgeyi ise REDDETME HAKKINA SAHİPTİR (f.4). Ret hâlinde durum, sebepleriyle birlikte gönderen idareye bildirilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "30"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ret",
+			"teknik-rehber"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-006",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "zor",
+		"stem": "Rehbere uygun hazırlanmadığı için bir belgeyi reddeden idare, bu durumu gönderen idareye ne zamana kadar bildirir?",
+		"options": [
+			"Bildirim için bir süre öngörülmemiştir",
+			"Belgenin kendisine ulaştığı tarihi takip eden on beş iş günü içinde",
+			"Belgenin kendisine ulaştığı gün içinde",
+			"Belgenin kendisine ulaştığı tarihi takip eden ikinci iş gününün sonuna kadar",
+			"Belgenin kendisine ulaştığı tarihten itibaren beş iş günü içinde"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.30/4: kendisine iletilen belgeyi reddeden idare, gönderen idareye bu durumu SEBEPLERİYLE BİRLİKTE, belgenin kendisine ULAŞTIĞI TARİHİ TAKİP EDEN İKİNCİ İŞ GÜNÜNÜN SONUNA KADAR bildirir. Süre kısa tutulmuştur; gönderen idarenin belgeyi düzeltip yeniden göndermesi beklenir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "30"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ret-bildirimi",
+			"sure"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-007",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre belge zarflanarak gönderildiğinde zarf üzerindeki yerleşim nasıl olur?",
+		"options": [
+			"Başlık bilgisi sağ üst köşeye, muhatabın adı ve adresi sol üst köşeye yazılır.",
+			"Başlık bilgisi ile belgenin tarihi ve sayısı sol üst köşeye, muhatabın adı ve adresi ortaya, varsa süre ve kişiye özel bilgisi sağ üst köşeye kırmızı renkli büyük harflerle yazılır.",
+			"Zarf üzerinde yalnızca muhatabın adı ve adresi bulunur; başka bilgi yazılmaz.",
+			"Muhatabın adı ve adresi sol üst köşeye, gönderen idarenin bilgileri ortaya yazılır.",
+			"Süre ve kişiye özel bilgisi zarfın arka yüzüne siyah renkli olarak yazılır."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.31/2: belge zarflanarak muhatabına iletildiğinde BAŞLIK BİLGİSİ, ihtiyaç duyulması hâlinde gönderen idarenin adres bilgisi, BELGENİN TARİHİ VE SAYISI zarfın SOL ÜST KÖŞESİNE; MUHATABIN ADI VE ADRES BİLGİSİ zarfın ORTASINA kısaltma kullanılmadan yazılır. Varsa süre ve kişiye özel bilgisi (ACELE, GÜNLÜDÜR, KİŞİYE ÖZEL), üstte olmak üzere zarfın SAĞ ÜST KÖŞESİNDE KIRMIZI RENKLİ BÜYÜK HARFLERLE belirtilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "31"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"zarf",
+			"fiziksel-gonderim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-008",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "zor",
+		"stem": "Bir idareye, muhatabı olmadığı hâlde fiziksel ortamda bir belge gelmiş ve belgenin asıl muhatabı anlaşılamamıştır. Yönetmeliğe göre ne yapılır?",
+		"options": [
+			"Belge EBYS'ye kaydedilerek arşivlenir.",
+			"Belge en yakın idareye gönderilir.",
+			"Belge gönderene iade edilir.",
+			"Belge, muhatabı tespit edilinceye kadar idarede bekletilir.",
+			"Belgenin bir sureti alınarak aslı imha edilir."
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.32/2: idareye muhatabı olmadığı hâlde FİZİKSEL ORTAMDA gelen bir belgenin ASIL MUHATABI ANLAŞILAMIYORSA GÖNDERENE İADE EDİLİR. Asıl muhatabın açıkça belli olması durumunda ise gerektiğinde belgenin bir sureti alınarak ASLI MUHATABINA GÖNDERİLİR ve belgeyi gönderene de bilgi verilir. Elektronik ortamda gelen belgede ise muhatabı olunmadığı bilgisi gönderene elektronik ortamda iletilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "32"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iade"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-009",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "uzman",
+		"stem": "Bir idare, kendisine sürekli olarak Yönetmeliğe uygun olmayan biçimde belge gönderen bir kurumun belgelerini iade etmek istemektedir. Yönetmeliğe göre bu durum için aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Önce Yönetmeliğin ilgili maddeleri belirtilerek muhatap uyarılabilir; durum devam ederse süreli belgeler hariç müteakip belgeler gerekçesi belirtilerek iade edilebilir.",
+			"Uygun yazılmayan belgeler iade edilemez; yalnızca muhatap uyarılabilir.",
+			"İade için muhatap idarenin üst makamından izin alınması gerekir.",
+			"Süreli belgeler de dâhil olmak üzere bütün belgeler iade edilebilir.",
+			"Uygun yazılmayan belgeler uyarı yapılmaksızın derhâl iade edilir."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.35 kademeli bir yol öngörür: uygun yazılmayan belgelere verilecek cevabî yazılarda YÖNETMELİĞİN İLGİLİ MADDELERİ BELİRTİLMEK SURETİYLE MUHATAP UYARILABİLİR; söz konusu durumun DEVAM ETMESİ HÂLİNDE, SÜRELİ BELGELER HARİÇ müteakip belgeler GEREKÇESİ BELİRTİLEREK İADE EDİLEBİLİR. Süreli belgelerin istisna tutulması, biçim kusuru yüzünden ivedi bir işin sürüncemede kalmasını önler.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "35"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"uygun-yazilmayan-belgeler",
+			"iade"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-010",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"difficulty": "uzman",
+		"stem": "Yönetmeliğe göre görüş, bilgi ve belge taleplerinde sürenin başlangıcı olan “talebin ulaştığı tarih” nasıl belirlenir?",
+		"options": [
+			"Talebin cevaplanmak üzere ilgili personele zimmetlendiği tarih",
+			"Her hâlde belgenin üzerindeki tarih",
+			"Talebin ilgili birim yöneticisine havale edildiği tarih",
+			"Elektronik ortamda gelen taleplerde ilgili yazının EBYS'ye giriş kaydının yapıldığı zaman; fiziksel ortamda gelenlerde ise EBYS'ye veya kurumsal belge kayıt sistemine girdiği zaman",
+			"Her hâlde belgenin idarenin evrak birimine fiziken teslim edildiği gün"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.33 sürenin başlangıcını tanımlar: talebin ulaştığı tarih, ELEKTRONİK ORTAMDA gelen talepler için ilgili yazının EBYS'YE GİRİŞ KAYDININ YAPILDIĞI ZAMANI; FİZİKSEL ORTAMDA gelen talepler için ise ilgili yazının EBYS'YE VEYA KURUMSAL BELGE KAYIT SİSTEMİNE GİRDİĞİ ZAMANI ifade eder. Belge üzerindeki tarih veya havale tarihi esas alınmaz.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "33"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sureler",
+			"talebin-ulastigi-tarih"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	}
+]

@@ -1,0 +1,53 @@
+{
+	"id": "resmi-yazisma",
+	"name": "Resmî Yazışma Kuralları",
+	"shortName": "Resmî Yazışma",
+	"description": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik çerçevesinde belgenin bölümleri, biçim kuralları, imza ve onay usulü ile elektronik yazışma esasları.",
+	"scope": "ortak",
+	"order": 4,
+	"icon": "FileText",
+	"topics": [
+		{
+			"id": "resmi-yazisma/genel-hukumler-ve-tanimlar",
+			"slug": "genel-hukumler-ve-tanimlar",
+			"name": "Genel Hükümler ve Tanımlar",
+			"order": 1,
+			"estimatedMinutes": 7
+		},
+		{
+			"id": "resmi-yazisma/belgenin-ozellikleri",
+			"slug": "belgenin-ozellikleri",
+			"name": "Belgenin Özellikleri ve Yazı Alanı",
+			"order": 2,
+			"estimatedMinutes": 8
+		},
+		{
+			"id": "resmi-yazisma/belgenin-bolumleri",
+			"slug": "belgenin-bolumleri",
+			"name": "Belgenin Bölümleri — Başlıktan Metne",
+			"order": 3,
+			"estimatedMinutes": 12
+		},
+		{
+			"id": "resmi-yazisma/imza-onay-ve-paraf",
+			"slug": "imza-onay-ve-paraf",
+			"name": "İmza, Ek, Dağıtım, Olur ve Paraf",
+			"order": 4,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+			"slug": "gizlilik-dogrulama-ustveri",
+			"name": "Gizlilik, Doğrulama ve Üstveri",
+			"order": 5,
+			"estimatedMinutes": 8
+		},
+		{
+			"id": "resmi-yazisma/gonderme-alma-ve-sureler",
+			"slug": "gonderme-alma-ve-sureler",
+			"name": "Belgenin Gönderilmesi, Alınması ve Süreler",
+			"order": 6,
+			"estimatedMinutes": 9
+		}
+	]
+}

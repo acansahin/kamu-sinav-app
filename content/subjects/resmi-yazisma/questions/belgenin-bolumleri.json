@@ -1,0 +1,326 @@
+[
+	{
+		"id": "yazisma-bolum-001",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre başlıkta (antet) ilk üç satır sırasıyla nasıl yazılır?",
+		"options": [
+			"İlk satıra “T.C.” kısaltması, ikinci ve üçüncü satırlara idarenin adı ile birimin adı tamamen büyük harflerle",
+			"İlk satıra idarenin adı büyük harflerle, ikinci satıra birimin adı, üçüncü satıra “T.C.” kısaltması",
+			"İlk satıra “T.C.” kısaltması, ikinci satıra birimin adı, üçüncü satıra idarenin adı",
+			"İlk satıra idarenin adı, ikinci satıra “T.C.” kısaltması, üçüncü satıra birimin adı",
+			"İlk satıra “T.C.” kısaltması, ikinci satıra idarenin adı büyük harflerle, üçüncü satıra birimin adı ilk harfleri büyük diğerleri küçük harflerle"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.10'a göre başlık, belgeyi GÖNDEREN idarenin adının belirtildiği bölümdür ve yazı alanının üst kısmına ORTALANARAK yazılır: ilk satıra “T.C.” kısaltması, ikinci satıra İDARENİN ADI BÜYÜK HARFLERLE, üçüncü satıra BİRİMİN ADI ilk harfleri büyük diğerleri küçük harflerle. Başlığın yazımında DETSİS'teki başlık kayıtları esas alınır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"baslik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-002",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre belgelerde sayı bulunması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Sayı yalnızca ek içeren belgelerde bulunur.",
+			"Sayı bulunması idarenin takdirindedir.",
+			"Sayı yalnızca idare dışına gönderilen belgelerde bulunur.",
+			"Sayı yalnızca elektronik ortamda hazırlanan belgelerde bulunur.",
+			"Belgelerde sayı bulunması zorunludur."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.11'in ilk cümlesi kesindir: “Belgelerde SAYI BULUNMASI ZORUNLUDUR.” Sayı; E/Z/O ön eki, DETSİS'te belirtilen Türkiye Cumhuriyeti Devlet Teşkilatı Numarası, standart dosya planı kodu ve kayıt numarasından oluşur.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sayi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-003",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre “Sayı:” bölümü hangi ögelerden ve hangi sırayla oluşur?",
+		"options": [
+			"E/Z/O ibaresi – standart dosya planı kodu – DETSİS numarası – kayıt numarası",
+			"DETSİS numarası – kayıt numarası – standart dosya planı kodu",
+			"Yıl – DETSİS numarası – kayıt numarası",
+			"Kayıt numarası – DETSİS numarası – standart dosya planı kodu – E/Z/O ibaresi",
+			"Ortamı gösteren E/Z/O ibaresi – DETSİS'te belirtilen Türkiye Cumhuriyeti Devlet Teşkilatı Numarası – standart dosya planı kodu – kayıt numarası"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.11'e göre “Sayı:” sırasıyla; belgenin hazırlanma süreçlerini ifade eden ELEKTRONİK ORTAM İÇİN “E”, ZORUNLU HÂLLER İÇİN “Z” VEYA OLAĞANÜSTÜ DURUMLAR İÇİN “O” ibarelerinden uygun olanı, DETSİS'te belirtilen TÜRKİYE CUMHURİYETİ DEVLET TEŞKİLATI NUMARASI, STANDART DOSYA PLANI KODU ile KAYIT NUMARASINDAN oluşur ve aralarına KISA ÇİZGİ (-) konulur. Örnek: E-67915368-903.07.02-4752.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sayi",
+			"detsis"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-004",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre belgede tarihin yazımı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Sayı ile aynı satırda, yazı alanının en sağında; gün ve ay iki haneli, yıl dört haneli olarak ve aralarına nokta konularak yazılır.",
+			"Metnin bitiminde, imza bölümünün üzerinde yazılır.",
+			"Sayının bir alt satırında, yazı alanının en sağında; yıl iki haneli olarak yazılır.",
+			"Başlığın hemen altında, yazı alanının solunda; gün, ay ve yıl arasına eğik çizgi konularak yazılır.",
+			"Muhatap bölümünün altında, sayfa ortalanarak yazılır."
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik m.12'ye göre tarih; SAYI İLE AYNI SATIRDA olmak üzere yazı alanının EN SAĞINDA gün, ay, yıl olarak rakamla ve aralarına NOKTA konularak yazılır. GÜN VE AY İKİ HANELİ, YIL DÖRT HANELİDİR (01.09.2019). Ay adları harfle de yazılabilir; bu durumda araya HERHANGİ BİR İŞARET KONULMAZ (10 Ekim 2019). Tutanak, rapor ve tebliğ-tebellüğ belgesi gibi belgelerde tarih metnin bitiminde yer alabilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tarih"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-005",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre “Konu:” bölümünün yazımı bakımından aşağıdakilerden hangisi YANLIŞTIR?",
+		"options": [
+			"Konu bir satırı geçerse, ikinci ve devamındaki satırlar “Konu:” yan başlığının altı boş bırakılarak yazılır.",
+			"Konu, kelimelerin baş harfleri büyük olacak şekilde yazılır.",
+			"Konu, yazı alanının dikey orta hizasını geçmeyecek biçimde yazılır.",
+			"“Konu:” yan başlığı, “Sayı:” yan başlığının bir alt satırına yazılır.",
+			"Konunun sonuna nokta veya iki nokta işareti konulur."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.13 tam tersini söyler: belgenin konusu, yazı alanının dikey orta hizasını geçmeyecek biçimde, kelimelerin baş harfleri büyük olarak ve SONUNA HERHANGİ BİR NOKTALAMA İŞARETİ KONULMAKSIZIN yazılır. Konu ayrıca belgenin içeriği hakkında KISA VE ÖZ bilgi barındırır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"konu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-006",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre muhatabın yazımı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Muhatap idare ise adı ilk harfleri büyük diğerleri küçük harflerle yazılır.",
+			"Muhatap her hâlde “Sayın” ibaresinden sonra yazılır.",
+			"Muhatap gerçek kişi ise adı ve soyadı tamamen büyük harflerle yazılır.",
+			"Muhatap bölümü yazı alanının solundan başlanarak yazılır.",
+			"Muhatap idare veya özel hukuk tüzel kişisi ise adı büyük harflerle ve sonuna yönelme hâl eklerinden uygun olanı getirilerek; muhatap gerçek kişi ise “Sayın” ibaresinden sonra adı ilk harfi büyük, soyadı büyük harflerle yazılır."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.14'e göre muhatap bölümü, konunun son satırından itibaren İKİ SATIR BOŞLUK bırakılarak SAYFA ORTALANARAK yazılır. Muhatap İDARE VEYA ÖZEL HUKUK TÜZEL KİŞİSİ ise adı BÜYÜK HARFLERLE ve sonuna YÖNELME HÂL EKİ getirilerek; muhatap GERÇEK KİŞİ ise “SAYIN” ibaresinden sonra adı ilk harfi büyük, SOYADI BÜYÜK HARFLERLE yazılır. Muhatap idarenin adının yazımında DETSİS kayıtları esas alınır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "14"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"muhatap"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-007",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre birden fazla ilginin bulunması durumunda sıralama nasıl yapılır?",
+		"options": [
+			"Sıralamada bir kural yoktur; ilgiler serbestçe dizilir.",
+			"Belgeler önceki tarihli olandan başlanarak sıralanır; sıralamada Roma rakamları kullanılır.",
+			"Belgeler önceki tarihli olandan başlanarak tarih sırasına göre sıralanır; sıralamada Türk alfabesindeki küçük harfler, sonlarına kapama parantez işareti konularak kullanılır.",
+			"Belgeler önem sırasına göre sıralanır; sıralamada büyük harfler kullanılır.",
+			"Belgeler en son tarihli olandan başlanarak sıralanır; sıralamada rakamlar kullanılır."
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.15'e göre ilginin birden fazla olması durumunda belgeler ÖNCEKİ TARİHLİ OLANDAN BAŞLANARAK tarih sırasına göre sıralanır. Sıralamada TÜRK ALFABESİNDE YER ALAN BÜTÜN KÜÇÜK HARFLER, kendilerinden sonra KAPAMA PARANTEZ İŞARETİ “)” konularak kullanılır. İlgide “… tarihli ve … sayılı …” ibaresi kullanılır ve ilginin sonuna NOKTA konulur.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilgi",
+			"siralama"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-008",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre metin bölümünün yazımı bakımından aşağıdakilerden hangisi YANLIŞTIR?",
+		"options": [
+			"Kelime aralarında ve noktalama işaretlerinden sonra bir karakter boşluk bırakılır.",
+			"Noktalama işaretleri kendinden önce gelen harfe bitişik yazılır.",
+			"Paragrafa 1,25 cm içeriden başlanır.",
+			"Paragraflar arasında bir satır boşluk bırakılır.",
+			"Metin iki yana hizalanır."
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.16'ya göre paragrafa 1,25 CM içeriden başlanır, metin İKİ YANA HİZALANIR ve PARAGRAFLAR ARASINDA SATIR BOŞLUĞU BIRAKILMAZ. İhtiyaç duyulması hâlinde paragraflar harf veya rakam ile sıralanabilir. Metin alanı, “Muhatap” veya varsa “İlgi” ile “İmza” arasındaki kısımdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"metin",
+			"paragraf"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-009",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "uzman",
+		"stem": "Birden fazla sayfa tutan bir üst yazıda bilgilerin hangi sayfada yer alacağı bakımından Yönetmelik ne öngörür?",
+		"options": [
+			"Bütün bilgilere her sayfada yer verilir.",
+			"Sayı, tarih ve konu bilgilerine her sayfada; imza bilgisine ise sadece ilk sayfada yer verilir.",
+			"İletişim bilgilerine yalnızca son sayfada yer verilir.",
+			"Sayı, tarih, konu, muhatap ve ilgi bilgilerine sadece ilk sayfada; imza, ek ve dağıtım bilgilerine sadece son sayfada; iletişim ve belge doğrulama bilgilerine ise her sayfanın en alt kısmında yer verilir.",
+			"İmza, ek ve dağıtım bilgilerine ilk sayfada; sayı ve tarih bilgilerine son sayfada yer verilir."
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.16/5: birden fazla sayfa tutan üst yazılarda SAYI, TARİH, KONU, MUHATAP VE İLGİ bilgilerine SADECE İLK SAYFADA; İMZA, EK VE DAĞITIM bilgilerine ise SADECE SON SAYFADA yer verilir. İLETİŞİM BİLGİSİNE VE BELGE DOĞRULAMA BİLGİLERİNE HER SAYFANIN EN ALT KISMINDA yer verilir. Zorunlu hâl ve olağanüstü durumlarda hazırlanan çok sayfalı belgelerde her sayfanın altında iletişim bilgisi bulunur.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cok-sayfali-belge"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-010",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"difficulty": "uzman",
+		"stem": "Elektronik ortamda hazırlanan bir belgede “belge tarihi” olarak hangi tarih esas alınır?",
+		"options": [
+			"Belgeyi hazırlayan personelin taslağı oluşturduğu tarih",
+			"Belgenin muhataba gönderildiği tarih",
+			"Belgenin en son yetkili tarafından güvenli elektronik imza ile imzalandığı zamanı gösteren zaman damgasındaki tarih",
+			"Belgeyi ilk paraflayan yetkilinin paraf tarihi",
+			"Belgeye EBYS üzerinden kayıt numarası alındığı tarih"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.12/2: belgenin EN SON YETKİLİ TARAFINDAN GÜVENLİ ELEKTRONİK İMZA İLE İMZALANDIĞI ZAMANI GÖSTEREN ZAMAN DAMGASINDAKİ TARİH BİLGİSİ, belge tarihi olarak esas alınır ve bu bilgi ÜSTVERİ ALANINDA yer alır. Makam oluru alınan belgelerde ise m.20 uyarınca OLURU ALINAN MAKAMIN imzasına ait tarih esas alınır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"belge-tarihi",
+			"zaman-damgasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	}
+]

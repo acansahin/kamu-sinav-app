@@ -8,9 +8,22 @@
 		"passingScore": 60,
 		"negativeMarking": false,
 		"distribution": [
-			{ "subjectId": "657-dmk", "count": 10 },
-			{ "subjectId": "anayasa", "count": 6 },
-			{ "subjectId": "etik", "count": 4 }
+			{
+				"subjectId": "657-dmk",
+				"count": 9
+			},
+			{
+				"subjectId": "anayasa",
+				"count": 5
+			},
+			{
+				"subjectId": "etik",
+				"count": 3
+			},
+			{
+				"subjectId": "resmi-yazisma",
+				"count": 3
+			}
 		]
 	},
 	{
@@ -22,9 +35,22 @@
 		"passingScore": 60,
 		"negativeMarking": false,
 		"distribution": [
-			{ "subjectId": "657-dmk", "count": 22 },
-			{ "subjectId": "anayasa", "count": 16 },
-			{ "subjectId": "etik", "count": 12 }
+			{
+				"subjectId": "657-dmk",
+				"count": 20
+			},
+			{
+				"subjectId": "anayasa",
+				"count": 14
+			},
+			{
+				"subjectId": "etik",
+				"count": 10
+			},
+			{
+				"subjectId": "resmi-yazisma",
+				"count": 6
+			}
 		]
 	},
 	{
@@ -36,9 +62,22 @@
 		"passingScore": 60,
 		"negativeMarking": false,
 		"distribution": [
-			{ "subjectId": "657-dmk", "count": 36 },
-			{ "subjectId": "anayasa", "count": 26 },
-			{ "subjectId": "etik", "count": 18 }
+			{
+				"subjectId": "657-dmk",
+				"count": 32
+			},
+			{
+				"subjectId": "anayasa",
+				"count": 24
+			},
+			{
+				"subjectId": "etik",
+				"count": 16
+			},
+			{
+				"subjectId": "resmi-yazisma",
+				"count": 8
+			}
 		]
 	}
 ]

@@ -1,0 +1,329 @@
+[
+	{
+		"id": "yazisma-ozellik-001",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre belgeler hangi kâğıt boyutu dikkate alınarak hazırlanır?",
+		"options": [
+			"Letter (216x279 mm)",
+			"A3 (297x420 mm)",
+			"B5 (176x250 mm)",
+			"A5 (148x210 mm)",
+			"A4 (210x297 mm)"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.6'ya göre belgeler A4 (210x297 mm) boyutu dikkate alınarak hazırlanır. Aynı maddeye göre BELGE EKLERİ farklı form, format veya ebatlarda hazırlanabilir; boyut kuralı üst yazı içindir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kagit-boyutu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-002",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre belgelerde kullanılacak yazı tipleri ve esas harf büyüklükleri aşağıdakilerin hangisinde doğru verilmiştir?",
+		"options": [
+			"Times New Roman 12 punto veya Calibri 11 punto",
+			"Times New Roman 12 punto veya Arial 11 punto",
+			"Times New Roman 10 punto veya Arial 10 punto",
+			"Arial 12 punto veya Verdana 11 punto",
+			"Times New Roman 11 punto veya Arial 12 punto"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.7'ye göre belgelerde “Times New Roman” veya “Arial” yazı tipi NORMAL YAZI STİLİNDE kullanılır; harf büyüklüğünün TIMES NEW ROMAN İÇİN 12, ARIAL İÇİN 11 PUNTO olması esastır. İki yazı tipinin puntosunun farklı olması sınavda sıkça değiştirilerek sorulur.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazi-tipi",
+			"punto"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-003",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre nüsha sayısı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Elektronik belgeler iki nüsha, fiziksel belgeler tek nüsha düzenlenir.",
+			"Elektronik ortamda güvenli elektronik imza ile imzalanan belgeler tek nüsha; zorunlu hâllerde veya olağanüstü durumlarda hazırlanacak belgeler en az iki nüsha olarak düzenlenir.",
+			"Elektronik belgeler tek nüsha, fiziksel belgeler en az üç nüsha düzenlenir.",
+			"Bütün belgeler en az iki nüsha olarak düzenlenir.",
+			"Nüsha sayısı idarenin takdirindedir; Yönetmelikte bir sayı belirtilmemiştir."
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik m.5: elektronik ortamda güvenli elektronik imza ile imzalanan belgeler TEK NÜSHA olarak hazırlanır. Zorunlu hâllerde veya olağanüstü durumlarda hazırlanacak belgeler ise PARAFLI NÜSHASI HAZIRLAYAN İDAREDE KALACAK ŞEKİLDE EN AZ İKİ NÜSHA olarak düzenlenir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nusha-sayisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-004",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre belgenin yazı alanı nasıl düzenlenir?",
+		"options": [
+			"Sayfanın sol kenarından 1,5 cm, diğer kenarlardan 1 cm boşluk bırakılarak düzenlenir.",
+			"Sayfanın dört kenarından 2 cm boşluk bırakılarak düzenlenir.",
+			"Sayfanın üst, sol ve sağ kenarından 2,5 cm boşluk bırakılarak düzenlenir.",
+			"Sayfanın üst ve alt kenarından 1,5 cm boşluk bırakılarak düzenlenir.",
+			"Sayfanın üst, sol ve sağ kenarından 1,5 cm boşluk bırakılarak; idare logo kullanmak istediğinde üst boşluk 0,5 cm olarak düzenlenir."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.8: belgenin yazı alanı sayfanın ÜST, SOL VE SAĞ kenarından 1,5 CM boşluk bırakılarak düzenlenir. İdare LOGO KULLANMAK İSTEDİĞİNDE sayfanın ÜST boşluğu 0,5 CM olarak düzenlenir. Maddede alt kenar için bir ölçü verilmemiştir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "8"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazi-alani",
+			"logo"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-005",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre bir belge üzerinde en fazla kaç logo kullanılabilir?",
+		"options": [
+			"Dört",
+			"Sınırlama yoktur",
+			"İki",
+			"Bir",
+			"Üç"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.9'a göre belge üzerinde EN FAZLA İKİ LOGO kullanılabilir. Aynı maddeye göre idareler logoyu TERCİHEN kullanabilir; logo kullanmak zorunlu değildir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"logo"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-006",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre gerekli hâllerde harf büyüklüğü, yazı alanında ve iletişim bilgileri kısmında en fazla kaç puntoya kadar düşürülebilir?",
+		"options": [
+			"Yazı alanında 8, iletişim bilgilerinde 9 puntoya kadar",
+			"Yazı alanında 10, iletişim bilgilerinde 9 puntoya kadar",
+			"Yazı alanında 9, iletişim bilgilerinde 8 puntoya kadar",
+			"Her ikisinde de 10 puntoya kadar",
+			"Her ikisinde de 8 puntoya kadar"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.7'nin son cümleleri iki farklı alt sınır koyar: gerekli hâllerde YAZI ALANINDA harf büyüklüğü 9 PUNTOYA, İLETİŞİM BİLGİLERİ kısmında ise 8 PUNTOYA kadar düşürülebilir. Ayrıca BELGE EKLERİNDE farklı yazı tipi ve harf büyüklüğü kullanılabilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"punto",
+			"istisna"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-007",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre güvenli elektronik imza ile imzalanan belgeler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Arşivlenmek üzere her hâlde bir fiziksel nüshası dosyalanır.",
+			"Çıktısı alınabilir ancak bu çıktı belge sayılmaz ve doğrulanamaz.",
+			"Çıktısı alınarak el yazısıyla atılan imza ile imzalanmaz ve fiziksel ortamda saklanmaz.",
+			"Çıktısı alınıp ıslak imza ile imzalanarak fiziksel ortamda da saklanır.",
+			"Yalnızca gizlilik dereceli olanların çıktısı alınarak saklanır."
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.4'ün birinci fıkrası açıktır: güvenli elektronik imza ile imzalanan belgeler ÇIKTISI ALINARAK EL YAZISIYLA ATILAN İMZA İLE İMZALANMAZ VE FİZİKSEL ORTAMDA SAKLANMAZ. Belgeler elektronik ortamda paylaşılır ve elektronik ortamda saklanır. Çıktı almak yasak değildir; m.29 ve m.31 uyarınca çoğaltma ve fiziksel iletim için çıktı alınabilir, ancak bu çıktı ıslak imzalanıp asıl nüsha gibi saklanamaz.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"elektronik-ortam",
+			"saklama"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-008",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "zor",
+		"stem": "Zorunlu hâllerde veya olağanüstü durumlarda hazırlanacak belgelerde kâğıdın kullanımı bakımından Yönetmelik ne öngörür?",
+		"options": [
+			"Hem üst yazı hem ekler için kâğıdın her iki yüzü kullanılabilir.",
+			"Üst yazılar için iki yüz, ekler için bir yüz kullanılır.",
+			"Hem üst yazı hem ekler için kâğıdın yalnızca bir yüzü kullanılır.",
+			"Kâğıdın kaç yüzünün kullanılacağı idarenin takdirindedir.",
+			"Üst yazılar için kâğıdın bir yüzü kullanılır; ancak üst yazının ekleri için kâğıdın her iki yüzü de kullanılabilir."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik m.6'nın üçüncü fıkrası üst yazı ile eki arasında ayrım yapar: zorunlu hâllerde veya olağanüstü durumlarda hazırlanacak belgelerin ÜST YAZILARI İÇİN KÂĞIDIN BİR YÜZÜ kullanılır; ancak ÜST YAZININ EKLERİ İÇİN KÂĞIDIN HER İKİ YÜZÜ DE kullanılabilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kagidin-yuzu",
+			"ekler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-009",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "uzman",
+		"stem": "Bir belge üzerinde iki ayrı idareye ait logo kullanılacaktır. Yönetmeliğe göre yerleşim nasıl olur?",
+		"options": [
+			"İki logo da belgenin en üst orta kısmında yan yana yer alır.",
+			"Hiyerarşi yönünden üst olan idarenin logosu sağda, alt olanınki solda yer alır.",
+			"“Başlık” alanını ortalayacak şekilde, hiyerarşi yönünden üst olan idarenin logosu solda, alt olan idarenin logosu sağda yer alır.",
+			"Üst olan idarenin logosu üstte, alt olanınki onun altında yer alır.",
+			"İki ayrı idareye ait logo aynı belgede kullanılamaz."
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik m.9'a göre belge üzerinde iki ayrı logo kullanıldığında, “Başlık” alanını ortalayacak şekilde HİYERARŞİ YÖNÜNDEN ÜST OLAN İDAREYE AİT LOGO SOLDA, ALT OLAN İDAREYE AİT LOGO SAĞDA kullanılır. Bir kavram veya etkinlik logosu kullanılmak istendiğinde ise İDAREYE AİT LOGO SOLDA, diğer logo sağda yer alır. Her iki hâlde de idare/üst kurum solu alır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"logo",
+			"hiyerarsi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-ozellik-010",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-ozellikleri",
+		"difficulty": "uzman",
+		"stem": "Bir birim, EBYS üzerinden güvenli elektronik imza ile imzalanan bir yazının çıktısını almış, imza yetkilisine ıslak imza attırmış ve bu nüshayı klasöre kaldırmıştır. Yönetmelik bakımından bu uygulama için ne söylenebilir?",
+		"options": [
+			"Yönetmeliğe uygundur; yalnızca gizlilik dereceli belgelerde bu uygulama yasaktır.",
+			"Yönetmeliğe uygundur; arşiv güvenliği için ıslak imzalı bir nüsha tutulması önerilir.",
+			"Yönetmelik bu konuda bir hüküm içermez; uygulama idarenin takdirindedir.",
+			"Yönetmeliğe aykırıdır; güvenli elektronik imzalı belge çıktısı alınarak el yazısıyla imzalanmaz ve fiziksel ortamda saklanmaz.",
+			"Aykırılık yalnızca ıslak imzanın mavi kalemle atılmamış olması hâlinde doğar."
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik m.4/1 bu uygulamayı doğrudan yasaklar: güvenli elektronik imza ile imzalanan belgeler ÇIKTISI ALINARAK EL YAZISIYLA ATILAN İMZA İLE İMZALANMAZ VE FİZİKSEL ORTAMDA SAKLANMAZ. Belgenin aslı elektroniktir; fiziksel çıktı yalnızca m.29 (çoğaltma) ve m.31 (elektronik iletimin mümkün olmadığı hâllerde gönderim) amaçlarıyla ve doğrulama koduyla birlikte kullanılır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"senaryo",
+			"elektronik-ortam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-02"
+	}
+]
