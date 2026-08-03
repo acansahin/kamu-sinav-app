@@ -6,12 +6,13 @@
 		"difficulty": "kolay",
 		"stem": "Kamu görevlilerinin uyacağı etik davranış ilkelerinin listesi hangi metinde düzenlenmiştir?",
 		"options": [
+			"3628 sayılı Kanun",
+			"657 sayılı Devlet Memurları Kanunu",
 			"4982 sayılı Kanun",
 			"Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
-			"657 sayılı Devlet Memurları Kanunu",
-			"3628 sayılı Kanun"
+			"5176 sayılı Kamu Görevlileri Etik Kurulu Kanunu"
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "5176 sayılı Kanun, etik davranış ilkelerinin Kurulca hazırlanacak yönetmeliklerle belirleneceğini öngörür. İlkelerin ayrıntılı listesi 2005 tarihli Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik'te yer alır. 657 sayılı Kanun hediye ve menfaat yasaklarını, 3628 mal bildirimini, 4982 ise bilgi edinme hakkını düzenler.",
 		"legalRef": {
 			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
@@ -26,8 +27,8 @@
 		"tags": [
 			"mevzuat"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-kurul-002",
@@ -37,11 +38,12 @@
 		"stem": "Kamu Görevlileri Etik Kuruluna yapılan bir başvuruda aşağıdakilerden hangisinin bulunması zorunlu değildir?",
 		"options": [
 			"Başvuranın imzası",
+			"Başvuranın adresi",
+			"Etik ilkeye aykırı olduğu iddia edilen davranışın belirtilmesi",
 			"Başvuranın adı ve soyadı",
-			"Başvuranın kamu görevlisi olduğunu gösteren belge",
-			"Başvuranın adresi"
+			"Başvuranın kamu görevlisi olduğunu gösteren belge"
 		],
-		"correctIndex": 2,
+		"correctIndex": 4,
 		"explanation": "Yönetmeliğe göre başvuruda başvuranın adı, soyadı, adresi ve imzası bulunmak zorundadır; bu bilgileri içermeyen isimsiz ve adressiz başvurular işleme konulmaz. Başvuru hakkı yalnızca kamu görevlilerine tanınmış değildir, dolayısıyla böyle bir belge aranmaz.",
 		"legalRef": {
 			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
@@ -57,8 +59,8 @@
 			"basvuru",
 			"usul"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-kurul-003",
@@ -67,12 +69,13 @@
 		"difficulty": "kolay",
 		"stem": "Kamu Görevlileri Etik Kurulunun görevleri arasında aşağıdakilerden hangisi yer almaz?",
 		"options": [
+			"Kamuda etik kültürünü yerleştirmeye yönelik çalışmalar yapmak",
 			"Hediye alma yasağının kapsamını belirlemek",
 			"Etik ilkeleri ihlal edenlere disiplin cezası vermek",
-			"Kamuda etik kültürünü yerleştirmeye yönelik çalışmalar yapmak",
+			"Başvurular üzerine inceleme ve araştırma yapmak",
 			"Etik davranış ilkelerini yönetmeliklerle belirlemek"
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Kurul inceleme ve araştırma yapar, etik ilkelerin ihlal edilip edilmediğini tespit eder; ancak disiplin cezası verme yetkisi yoktur. Bu yetki 657 sayılı Kanun uyarınca disiplin amirleri ve disiplin kurullarına aittir.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -90,8 +93,8 @@
 			"gorevler",
 			"tuzak"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-kurul-004",
@@ -100,12 +103,13 @@
 		"difficulty": "orta",
 		"stem": "Kamu görevlilerinin mal bildiriminde bulunması hangi kanunla düzenlenmiştir?",
 		"options": [
-			"5176 sayılı Kamu Görevlileri Etik Kurulu Kanunu",
-			"2709 sayılı Anayasa",
 			"3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
-			"4982 sayılı Bilgi Edinme Hakkı Kanunu"
+			"5176 sayılı Kamu Görevlileri Etik Kurulu Kanunu",
+			"4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"2709 sayılı Anayasa",
+			"5237 sayılı Türk Ceza Kanunu"
 		],
-		"correctIndex": 2,
+		"correctIndex": 0,
 		"explanation": "Mal bildirimi yükümlülüğü 3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu'nda düzenlenmiştir. Bildirimler sonu (0) ve (5) ile biten yılların en geç şubat ayı sonuna kadar yenilenir. Mal bildiriminde bulunma aynı zamanda yönetmelikteki etik davranış ilkelerinden biridir.",
 		"legalRef": {
 			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
@@ -122,8 +126,8 @@
 			"mevzuat",
 			"mal-bildirimi"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-kurul-005",
@@ -132,12 +136,13 @@
 		"difficulty": "orta",
 		"stem": "Etik komisyonları kim tarafından oluşturulur ve temel işlevi nedir?",
 		"options": [
-			"TBMM tarafından oluşturulur; denetim yapar.",
-			"Kamu Görevlileri Etik Kurulunca oluşturulur; ceza verir.",
+			"Cumhurbaşkanlığı İdari İşler Başkanlığınca oluşturulur; etik ilkeleri belirler.",
 			"Kurum yöneticisince oluşturulur; etik kültürünü yerleştirir ve rehberlik eder.",
-			"Disiplin kurulunca oluşturulur; soruşturma yürütür."
+			"Disiplin kurulunca oluşturulur; soruşturma yürütür.",
+			"Kamu Görevlileri Etik Kurulunca oluşturulur; ceza verir.",
+			"TBMM tarafından oluşturulur; denetim yapar."
 		],
-		"correctIndex": 2,
+		"correctIndex": 1,
 		"explanation": "Yönetmeliğe göre kurum ve kuruluşlarda etik kültürünü yerleştirmek, kamu görevlilerine rehberlik etmek ve karşılaşılan sorunlarda yol göstermek üzere kurum yöneticisince etik komisyonu oluşturulur. Komisyon bir yaptırım ya da soruşturma organı değildir.",
 		"legalRef": {
 			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
@@ -152,8 +157,8 @@
 		"tags": [
 			"etik-komisyonu"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-kurul-006",
@@ -162,12 +167,13 @@
 		"difficulty": "orta",
 		"stem": "Kamu Görevlileri Etik Kurulu başvurular üzerine incelemesini hangi açıdan yürütür?",
 		"options": [
-			"Etik davranış ilkelerinin ihlal edilip edilmediği yönünden",
+			"Disiplin suçu oluşup oluşmadığı yönünden",
 			"Suç oluşup oluşmadığı yönünden",
+			"Mali zarar doğup doğmadığı yönünden",
 			"Kurumun performans hedeflerine uygunluk yönünden",
-			"Mali zarar doğup doğmadığı yönünden"
+			"Etik davranış ilkelerinin ihlal edilip edilmediği yönünden"
 		],
-		"correctIndex": 0,
+		"correctIndex": 4,
 		"explanation": "5176 sayılı Kanun'a göre Kurul, başvurular hakkındaki inceleme ve araştırmasını etik davranış ilkelerinin ihlal edilip edilmediği yönünden yürütür. Suçun oluşup oluşmadığını belirlemek adli makamların, mali zararı tespit etmek ise denetim birimlerinin görevidir.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -185,8 +191,8 @@
 			"inceleme",
 			"kapsam"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-kurul-007",
@@ -195,9 +201,10 @@
 		"difficulty": "zor",
 		"stem": "Hediye alma ve menfaat sağlama yasağı hangi metinlerde birlikte düzenlenmiştir?",
 		"options": [
+			"657 sayılı Kanun ve 3628 sayılı Kanun'da",
 			"Yalnızca Anayasa'da",
-			"Yalnızca 3628 sayılı Kanun'da",
 			"657 sayılı Kanun ve Etik Davranış İlkeleri Yönetmeliği'nde",
+			"Yalnızca 3628 sayılı Kanun'da",
 			"Yalnızca 5176 sayılı Kanun'da"
 		],
 		"correctIndex": 2,
@@ -218,8 +225,8 @@
 			"mevzuat",
 			"hediye"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-kurul-008",
@@ -228,12 +235,13 @@
 		"difficulty": "zor",
 		"stem": "İsimsiz ve adressiz olarak Kamu Görevlileri Etik Kuruluna yapılan bir başvuru hakkında ne yapılır?",
 		"options": [
-			"İşleme konulmaz.",
-			"Öncelikli olarak incelenir.",
 			"Kurul tarafından resen soruşturma başlatılır.",
-			"İlgili kuruma gönderilir ve orada incelenir."
+			"İlgili kuruma gönderilir ve orada incelenir.",
+			"Öncelikli olarak incelenir.",
+			"İşleme konulmaz.",
+			"Başvuranın kimliği gizli tutularak incelenir."
 		],
-		"correctIndex": 0,
+		"correctIndex": 3,
 		"explanation": "Yönetmeliğe göre başvuruda başvuranın adı, soyadı, adresi ve imzası bulunması zorunludur; bu bilgileri içermeyen isimsiz ve adressiz başvurular işleme konulmaz. Bu kural, asılsız ihbarlara karşı kamu görevlilerini korumayı amaçlar.",
 		"legalRef": {
 			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik"
@@ -249,8 +257,8 @@
 			"basvuru",
 			"usul"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-kurul-009",
@@ -259,12 +267,13 @@
 		"difficulty": "zor",
 		"stem": "Kamu Görevlileri Etik Kurulu üyeleri aşağıdakilerden hangileri arasından atanır?",
 		"options": [
+			"Yalnızca kamu kurumlarında en az yirmi yıl çalışmış memurlar arasından",
 			"Bakanlık, il belediye başkanlığı, yüksek yargı ve üst düzey kamu yöneticiliği görevlerinde bulunmuş kişiler arasından",
 			"Yalnızca üniversite öğretim üyeleri arasından",
 			"Türkiye Büyük Millet Meclisi üyeleri arasından",
 			"Yalnızca hâlen görevde olan genel müdürler arasından"
 		],
-		"correctIndex": 0,
+		"correctIndex": 1,
 		"explanation": "5176 sayılı Kanun'a göre Kurul üyeleri; bakanlık yapmış olanlar, il belediye başkanlığı yapmış olanlar, Yargıtay, Danıştay ve Sayıştay'da görev yapmış olanlar, üniversite rektörlüğü veya dekanlığı yapmış olanlar ile üst kademe kamu yöneticiliği yapmış olanlar arasından Cumhurbaşkanınca atanır. TBMM üyeleri zaten Kanun'un kapsamı dışındadır.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -282,8 +291,8 @@
 			"kurul",
 			"uyelik"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-kurul-010",
@@ -292,12 +301,13 @@
 		"difficulty": "uzman",
 		"stem": "Bir kurumun etik komisyonu, hakkında etik ihlali iddiası bulunan bir genel müdür hakkında karar vermek istemektedir. Bu durumda ne yapılmalıdır?",
 		"options": [
+			"Genel müdür seviyesindeki görevliler hakkındaki iddialar Kamu Görevlileri Etik Kurulunun görev alanındadır.",
 			"Etik komisyonu inceleme yapıp karar verebilir.",
 			"Konu doğrudan disiplin amirine bırakılır ve Kurula bildirilmez.",
 			"Etik komisyonu kararını Kurulun onayına sunar.",
-			"Genel müdür seviyesindeki görevliler hakkındaki iddialar Kamu Görevlileri Etik Kurulunun görev alanındadır."
+			"Etik komisyonu inceleme yapar, ancak nihai kararı kurumun disiplin kurulu verir."
 		],
-		"correctIndex": 3,
+		"correctIndex": 0,
 		"explanation": "5176 sayılı Kanun'a göre en az genel müdür veya eşiti seviyedeki kamu görevlileri hakkındaki etik ihlali iddiaları Kamu Görevlileri Etik Kuruluna yapılan başvuruyla incelenir. Etik komisyonları rehberlik organıdır; bu seviyedeki bir görevli hakkında inceleme yapıp karar verme yetkileri yoktur.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -315,8 +325,8 @@
 			"yetki",
 			"senaryo"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-kurul-011",
@@ -325,12 +335,13 @@
 		"difficulty": "uzman",
 		"stem": "Kamu Görevlileri Etik Kurulu bir kamu görevlisi hakkında etik ihlali tespit etmiştir. Bu tespitin hukuki sonucu nedir?",
 		"options": [
-			"Tespit yalnızca istatistiki amaçla kullanılır, hiçbir sonucu yoktur.",
+			"Tespit, ilgili hakkında doğrudan ceza soruşturması başlatılmasını zorunlu kılar.",
 			"Görevliye otomatik olarak kınama cezası verilir.",
-			"Tespit disiplin cezası niteliğinde değildir; ihlal ayrıca disiplin soruşturmasını gerektirebilir.",
-			"Görevli doğrudan memurluktan çıkarılır."
+			"Tespit yalnızca istatistiki amaçla kullanılır, hiçbir sonucu yoktur.",
+			"Görevli doğrudan memurluktan çıkarılır.",
+			"Tespit disiplin cezası niteliğinde değildir; ihlal ayrıca disiplin soruşturmasını gerektirebilir."
 		],
-		"correctIndex": 2,
+		"correctIndex": 4,
 		"explanation": "Kurulun görevi etik davranış ilkelerinin ihlal edilip edilmediğini tespit etmektir; disiplin cezası verme yetkisi yoktur. Tespit edilen ihlal, aynı fiilin 657 sayılı Kanun kapsamında disiplin suçu oluşturması hâlinde ayrıca disiplin soruşturmasını gerektirebilir. İki süreç birbirinden ayrıdır ancak tespit sonuçsuz da değildir.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
@@ -348,8 +359,8 @@
 			"yaptirim",
 			"senaryo"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-kurul-012",
@@ -358,13 +369,14 @@
 		"difficulty": "uzman",
 		"stem": "Etik mevzuatına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
+			"Etik sözleşmesi imzalanır ve özlük dosyasına konulur.",
+			"Kurul, incelemesini etik davranış ilkelerinin ihlal edilip edilmediği yönünden yürütür.",
 			"Etik Kurul üyeleri Cumhurbaşkanınca atanır ve görev süreleri dört yıldır.",
 			"Kanun hükümleri Türk Silahlı Kuvvetleri mensupları hakkında da uygulanır.",
-			"Etik sözleşmesi imzalanır ve özlük dosyasına konulur.",
 			"Kurul, hediye alma yasağının kapsamını belirlemeye yetkilidir."
 		],
-		"correctIndex": 1,
-		"explanation": "5176 sayılı Kanun hükümleri; Cumhurbaşkanı, TBMM üyeleri, Cumhurbaşkanı yardımcıları ve bakanlar, Türk Silahlı Kuvvetleri mensupları, yargı mensupları ve üniversiteler hakkında uygulanmaz. Diğer üç ifade doğrudur.",
+		"correctIndex": 3,
+		"explanation": "5176 sayılı Kanun hükümleri; Cumhurbaşkanı, TBMM üyeleri, Cumhurbaşkanı yardımcıları ve bakanlar, Türk Silahlı Kuvvetleri mensupları, yargı mensupları ve üniversiteler hakkında uygulanmaz. Diğer dört ifade doğrudur.",
 		"legalRef": {
 			"law": "5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun",
 			"lawId": "5176",
@@ -381,8 +393,8 @@
 			"kapsam",
 			"tuzak"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "etik-kurul-013",

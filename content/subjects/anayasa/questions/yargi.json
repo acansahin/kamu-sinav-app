@@ -6,12 +6,13 @@
 		"difficulty": "kolay",
 		"stem": "Anayasa Mahkemesi kaç üyeden oluşur?",
 		"options": [
+			"12",
 			"13",
-			"17",
 			"11",
+			"17",
 			"15"
 		],
-		"correctIndex": 3,
+		"correctIndex": 4,
 		"explanation": "Anayasa'nın 146. maddesine göre Anayasa Mahkemesi on beş üyeden kurulur. Üyelerin on ikisini Cumhurbaşkanı, üçünü Türkiye Büyük Millet Meclisi seçer.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -29,8 +30,8 @@
 			"aym",
 			"sayi"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yargi-002",
@@ -39,12 +40,13 @@
 		"difficulty": "kolay",
 		"stem": "Hâkimler ve Savcılar Kurulunun Başkanı kimdir?",
 		"options": [
-			"Cumhurbaşkanı",
-			"Adalet Bakanı",
 			"Yargıtay Başkanı",
+			"Adalet Bakanlığı Bakan Yardımcısı",
+			"Adalet Bakanı",
+			"Cumhurbaşkanı",
 			"Anayasa Mahkemesi Başkanı"
 		],
-		"correctIndex": 1,
+		"correctIndex": 2,
 		"explanation": "Anayasa'nın 159. maddesine göre Hâkimler ve Savcılar Kurulu on üç üyeden oluşur, iki daire hâlinde çalışır ve Kurulun Başkanı Adalet Bakanıdır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -62,8 +64,8 @@
 			"hsk",
 			"baskan"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yargi-003",
@@ -72,12 +74,13 @@
 		"difficulty": "kolay",
 		"stem": "Anayasa'ya göre hâkimlerin hüküm verirken uyacakları ölçüt aşağıdakilerden hangisidir?",
 		"options": [
-			"Anayasaya, kanuna ve hukuka uygun olarak vicdani kanaatleri",
+			"Yargıtay ve Danıştayın içtihatları",
 			"Adalet Bakanlığının genelgeleri",
-			"Amirlerinin talimatları",
-			"Kamuoyunun beklentileri"
+			"Kamuoyunun beklentileri",
+			"Anayasaya, kanuna ve hukuka uygun olarak vicdani kanaatleri",
+			"Amirlerinin talimatları"
 		],
-		"correctIndex": 0,
+		"correctIndex": 3,
 		"explanation": "Madde 138'e göre hâkimler görevlerinde bağımsızdır; Anayasaya, kanuna ve hukuka uygun olarak vicdani kanaatlerine göre hüküm verirler. Hiçbir organ, makam, merci veya kişi yargı yetkisinin kullanılmasında mahkemelere emir ve talimat veremez, genelge gönderemez, tavsiye ve telkinde bulunamaz.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -95,8 +98,8 @@
 			"madde-138",
 			"bagimsizlik"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yargi-004",
@@ -105,9 +108,10 @@
 		"difficulty": "orta",
 		"stem": "Anayasa Mahkemesi üyelerinin görev süresi ve yeniden seçilme durumu aşağıdakilerden hangisidir?",
 		"options": [
-			"4 yıl – yeniden seçilebilir",
+			"10 yıl – bir kişi iki defa seçilemez",
 			"12 yıl – bir kişi iki defa seçilemez",
 			"12 yıl – sınırsız yeniden seçilebilir",
+			"4 yıl – yeniden seçilebilir",
 			"Süresiz – 65 yaşında emekli olur"
 		],
 		"correctIndex": 1,
@@ -128,8 +132,8 @@
 			"aym",
 			"sure"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yargi-005",
@@ -139,8 +143,9 @@
 		"stem": "Anayasa Mahkemesine bireysel başvuruda bulunabilmek için hangi şart aranır?",
 		"options": [
 			"Olağan kanun yollarının tüketilmiş olması gerekir.",
-			"Avrupa İnsan Hakları Mahkemesine önce başvurulmuş olması gerekir.",
 			"Doğrudan başvurulabilir, ön şart yoktur.",
+			"Anayasa Mahkemesinin aynı konuda verilmiş bir iptal kararının bulunması gerekir.",
+			"Avrupa İnsan Hakları Mahkemesine önce başvurulmuş olması gerekir.",
 			"TBMM İnsan Haklarını İnceleme Komisyonuna başvurulmuş olması gerekir."
 		],
 		"correctIndex": 0,
@@ -160,8 +165,8 @@
 		"tags": [
 			"bireysel-basvuru"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yargi-006",
@@ -170,12 +175,13 @@
 		"difficulty": "orta",
 		"stem": "Adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak hangi mahkeme çözer?",
 		"options": [
-			"Anayasa Mahkemesi",
-			"Danıştay",
+			"Hâkimler ve Savcılar Kurulu",
 			"Yargıtay",
-			"Uyuşmazlık Mahkemesi"
+			"Uyuşmazlık Mahkemesi",
+			"Anayasa Mahkemesi",
+			"Danıştay"
 		],
-		"correctIndex": 3,
+		"correctIndex": 2,
 		"explanation": "Anayasa'nın 158. maddesine göre Uyuşmazlık Mahkemesi, adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözmekle görevlidir. Yargıtay adli, Danıştay ise idari yargının son inceleme merciidir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -192,8 +198,8 @@
 		"tags": [
 			"uyusmazlik-mahkemesi"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yargi-007",
@@ -202,12 +208,13 @@
 		"difficulty": "zor",
 		"stem": "Aşağıdakilerden hangisi yüksek mahkemelerden biri değildir?",
 		"options": [
-			"Danıştay",
+			"Anayasa Mahkemesi",
+			"Sayıştay",
 			"Uyuşmazlık Mahkemesi",
-			"Yargıtay",
-			"Sayıştay"
+			"Danıştay",
+			"Yargıtay"
 		],
-		"correctIndex": 3,
+		"correctIndex": 1,
 		"explanation": "Sayıştay bir yüksek mahkeme değil, kamu idarelerinin gelir, gider ve mallarını Türkiye Büyük Millet Meclisi adına denetlemekle görevli bir kurumdur. Yüksek mahkemeler Anayasa Mahkemesi, Yargıtay, Danıştay ve Uyuşmazlık Mahkemesidir; Askerî Yargıtay ile Askerî Yüksek İdare Mahkemesi 2017 değişikliğiyle kaldırılmıştır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -225,8 +232,8 @@
 			"yuksek-mahkemeler",
 			"tuzak"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yargi-008",
@@ -235,10 +242,11 @@
 		"difficulty": "zor",
 		"stem": "Hâkimler ve Savcılar Kurulu üyelerinin görev süresi ve yeniden seçilme durumu nedir?",
 		"options": [
-			"12 yıl – iki defa seçilemez",
-			"6 yıl – yeniden seçilemez",
 			"Süresiz – yaş haddine kadar",
-			"4 yıl – süresi biten üyeler yeniden seçilebilir"
+			"4 yıl – süresi biten üyeler yeniden seçilemez",
+			"12 yıl – iki defa seçilemez",
+			"4 yıl – süresi biten üyeler yeniden seçilebilir",
+			"6 yıl – yeniden seçilemez"
 		],
 		"correctIndex": 3,
 		"explanation": "Anayasa'nın 159. maddesine göre Hâkimler ve Savcılar Kurulu üyeleri dört yıl için seçilir ve süresi biten üyeler bir kez daha seçilebilir; yani en çok iki dönem görev yapılabilir. Bu, Anayasa Mahkemesi üyeliğinden farklıdır: AYM üyeleri 12 yıl için seçilir ve bir kimse iki defa AYM üyesi seçilemez.",
@@ -259,8 +267,8 @@
 			"sure",
 			"tuzak"
 		],
-		"version": 3,
-		"updatedAt": "2026-08-01"
+		"version": 4,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yargi-009",
@@ -269,12 +277,13 @@
 		"difficulty": "zor",
 		"stem": "Anayasa'nın 138. maddesine göre yasama ve yürütme organları ile idare, mahkeme kararları karşısında hangi konumdadır?",
 		"options": [
-			"Kararları değiştirebilir ancak uygulamak zorundadır.",
 			"Yalnızca kesinleşmiş kararlara uymak zorundadır.",
+			"Kararları değiştirebilir ancak uygulamak zorundadır.",
+			"Bütçe imkânları elverdiği ölçüde yerine getirir.",
 			"Kamu yararı gerektiriyorsa uygulamayı erteleyebilir.",
 			"Mahkeme kararlarına uymak zorundadır; kararları hiçbir suretle değiştiremez ve yerine getirilmesini geciktiremez."
 		],
-		"correctIndex": 3,
+		"correctIndex": 4,
 		"explanation": "Madde 138'in son fıkrası açıktır: yasama ve yürütme organları ile idare, mahkeme kararlarına uymak zorundadır; bu organlar ve idare, mahkeme kararlarını hiçbir suretle değiştiremez ve bunların yerine getirilmesini geciktiremez. Kamu yararı gerekçesiyle erteleme mümkün değildir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -292,8 +301,8 @@
 			"madde-138",
 			"karar-uyma"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yargi-010",
@@ -302,12 +311,13 @@
 		"difficulty": "uzman",
 		"stem": "Anayasa Mahkemesi üyelerinin seçiminde görev dağılımı aşağıdakilerden hangisidir?",
 		"options": [
-			"Tamamını Cumhurbaşkanı seçer.",
-			"8 üyeyi Cumhurbaşkanı, 7 üyeyi TBMM seçer.",
+			"12 üyeyi Cumhurbaşkanı, 3 üyeyi TBMM seçer.",
 			"Tamamını TBMM seçer.",
-			"12 üyeyi Cumhurbaşkanı, 3 üyeyi TBMM seçer."
+			"3 üyeyi Cumhurbaşkanı, 12 üyeyi TBMM seçer.",
+			"8 üyeyi Cumhurbaşkanı, 7 üyeyi TBMM seçer.",
+			"Tamamını Cumhurbaşkanı seçer."
 		],
-		"correctIndex": 3,
+		"correctIndex": 0,
 		"explanation": "Madde 146'ya göre Anayasa Mahkemesi on beş üyeden kurulur; Türkiye Büyük Millet Meclisi üç üye, Cumhurbaşkanı ise on iki üye seçer. TBMM'nin seçtiği üç üyeden ikisi Sayıştay'ın, biri baro başkanlarının gösterdiği adaylar arasından gizli oyla seçilir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -325,8 +335,8 @@
 			"aym",
 			"secim"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yargi-011",
@@ -335,12 +345,13 @@
 		"difficulty": "uzman",
 		"stem": "Bir vatandaş, temel hakkının ihlal edildiği iddiasıyla ilk derece mahkemesinin kararının ardından doğrudan Anayasa Mahkemesine bireysel başvuruda bulunmuştur. Bu başvuru için ne söylenebilir?",
 		"options": [
-			"Olağan kanun yolları tüketilmediğinden başvuru şartı gerçekleşmemiştir.",
-			"Bireysel başvuru yalnızca kanunlara karşı yapılabilir.",
 			"Usulüne uygundur; ilk derece kararı yeterlidir.",
+			"Olağan kanun yolları tüketilmediğinden başvuru şartı gerçekleşmemiştir.",
+			"Usulüne uygundur; temel hak ihlali iddiasının bulunması tek başına yeterlidir.",
+			"Bireysel başvuru yalnızca kanunlara karşı yapılabilir.",
 			"Önce Avrupa İnsan Hakları Mahkemesine gidilmesi gerekirdi."
 		],
-		"correctIndex": 0,
+		"correctIndex": 1,
 		"explanation": "Madde 148'e göre bireysel başvuruda bulunabilmek için olağan kanun yollarının tüketilmiş olması şarttır. İlk derece kararından sonra istinaf ve temyiz gibi olağan yollar tüketilmeden yapılan başvuru bu şartı karşılamaz. Bireysel başvuru, kanunlara karşı değil, kamu gücü işlemleriyle temel hak ihlallerine karşı öngörülmüştür.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -358,8 +369,8 @@
 			"bireysel-basvuru",
 			"senaryo"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yargi-012",
@@ -369,12 +380,13 @@
 		"stem": "Yargıya ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
 			"Anayasa Mahkemesi üyeleri 65 yaşını doldurunca emekliye ayrılır.",
-			"Hâkimler ve Savcılar Kurulu iki daire hâlinde çalışır.",
 			"Hâkim ve savcılar azlolunamaz.",
-			"Askerî Yargıtay bir yüksek mahkemedir."
+			"Anayasa Mahkemesi on beş üyeden kurulur.",
+			"Askerî Yargıtay bir yüksek mahkemedir.",
+			"Hâkimler ve Savcılar Kurulu iki daire hâlinde çalışır."
 		],
 		"correctIndex": 3,
-		"explanation": "Askerî Yargıtay ve Askerî Yüksek İdare Mahkemesi 2017 Anayasa değişikliğiyle kaldırılmıştır; güncel Anayasa'da askerî yüksek mahkeme bulunmamaktadır. Diğer üç ifade sırasıyla madde 139, madde 159 ve madde 147 hükümleriyle uyumludur.",
+		"explanation": "Askerî Yargıtay ve Askerî Yüksek İdare Mahkemesi 2017 Anayasa değişikliğiyle kaldırılmıştır; güncel Anayasa'da askerî yüksek mahkeme bulunmamaktadır. Diğer dört ifade madde 139, madde 159, madde 147 ve madde 146 hükümleriyle uyumludur.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
 			"lawId": "2709",
@@ -391,8 +403,8 @@
 			"tuzak",
 			"guncellik"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yargi-013",

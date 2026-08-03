@@ -6,9 +6,10 @@
 		"difficulty": "kolay",
 		"stem": "Hizmeti 15 yıl olan bir Devlet memurunun yıllık izin süresi kaç gündür?",
 		"options": [
-			"20 gün",
 			"25 gün",
+			"40 gün",
 			"30 gün",
+			"20 gün",
 			"45 gün"
 		],
 		"correctIndex": 2,
@@ -28,8 +29,8 @@
 		"tags": [
 			"yillik-izin"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-hak-002",
@@ -39,11 +40,12 @@
 		"stem": "Eşi doğum yapan memura verilen babalık izni kaç gündür?",
 		"options": [
 			"5 gün",
+			"7 gün",
 			"15 gün",
 			"10 gün",
 			"3 gün"
 		],
-		"correctIndex": 2,
+		"correctIndex": 3,
 		"explanation": "657 sayılı Kanun'un 104. maddesine göre eşi doğum yapan memura 10 gün babalık izni verilir. İş Kanunu kapsamındaki işçiler için bu süre 2026'da 5 günden 10 güne çıkarılarak memurlarla eşitlenmiştir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -60,8 +62,8 @@
 		"tags": [
 			"babalik-izni"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-hak-003",
@@ -70,12 +72,13 @@
 		"difficulty": "kolay",
 		"stem": "Memurun kendisinin veya çocuğunun evlenmesi hâlinde verilen izin kaç gündür?",
 		"options": [
+			"5 gün",
+			"14 gün",
 			"7 gün",
 			"10 gün",
-			"5 gün",
 			"3 gün"
 		],
-		"correctIndex": 0,
+		"correctIndex": 2,
 		"explanation": "Madde 104'e göre memura, kendisinin veya çocuğunun evlenmesi; eşinin, çocuğunun, kendisinin veya eşinin ana, baba ve kardeşinin ölümü hâllerinde 7 gün izin verilir. Evlenme ve ölüm izni aynı süredir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -92,8 +95,8 @@
 		"tags": [
 			"evlenme-olum-izni"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-hak-004",
@@ -102,12 +105,13 @@
 		"difficulty": "orta",
 		"stem": "657 sayılı Kanun'un 2026'da değiştirilen hâline göre memura verilen toplam analık izni kaç haftadır?",
 		"options": [
+			"32 hafta",
 			"24 hafta",
 			"18 hafta",
-			"16 hafta",
-			"20 hafta"
+			"20 hafta",
+			"16 hafta"
 		],
-		"correctIndex": 0,
+		"correctIndex": 1,
 		"explanation": "1 Mayıs 2026'da yürürlüğe giren 7578 sayılı Kanun ile 657 sayılı Kanun'un 104. maddesi değiştirilmiş; doğum sonrası analık izni 8 haftadan 16 haftaya, doğum öncesi 8 hafta ile birlikte toplam analık izni 16 haftadan 24 haftaya çıkarılmıştır. Doğum öncesi 8 haftalık sürede değişiklik yapılmamıştır.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -125,8 +129,8 @@
 			"analik-izni",
 			"guncellik"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-hak-005",
@@ -135,12 +139,13 @@
 		"difficulty": "orta",
 		"stem": "657 sayılı Kanun'a göre Devlet memurlarının aşağıdakilerden hangisi hakkı değildir?",
 		"options": [
-			"Müracaat, şikâyet ve dava açma",
 			"Emeklilik",
-			"Grev yapma",
-			"Sendika kurma ve üye olma"
+			"Sendika kurma ve üye olma",
+			"Müracaat, şikâyet ve dava açma",
+			"İzin",
+			"Grev yapma"
 		],
-		"correctIndex": 2,
+		"correctIndex": 4,
 		"explanation": "Memurlar madde 22 uyarınca sendika ve üst kuruluşlar kurabilir ve bunlara üye olabilirler; ancak madde 27 grev yasağını düzenler ve memurların grev kararı vermesi, greve katılması veya grevi desteklemesi yasaktır. Sendika üyeliği ile grev hakkı karıştırılmamalıdır.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -159,8 +164,8 @@
 			"grev",
 			"tuzak"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-hak-006",
@@ -170,11 +175,12 @@
 		"stem": "657 sayılı Kanun'un 18. maddesindeki güvenlik hakkı neyi ifade eder?",
 		"options": [
 			"Memurun görev yerinin değiştirilemeyeceğini",
+			"Kanunlarda yazılı hâller dışında memurluğuna son verilemeyeceğini ve aylık ile başka haklarının elinden alınamayacağını",
+			"Memurun emekli oluncaya kadar aynı kadroda kalmasını",
 			"Memurun sosyal güvenlik primlerinin devletçe ödenmesini",
-			"Memurun görev yerinde can güvenliğinin sağlanmasını",
-			"Kanunlarda yazılı hâller dışında memurluğuna son verilemeyeceğini ve aylık ile başka haklarının elinden alınamayacağını"
+			"Memurun görev yerinde can güvenliğinin sağlanmasını"
 		],
-		"correctIndex": 3,
+		"correctIndex": 1,
 		"explanation": "Madde 18 memurluk güvencesini düzenler: kanunlarda yazılı hâller dışında Devlet memurunun memurluğuna son verilmez, aylık ve başka hakları elinden alınamaz. Bu, liyakat ilkesinin memura sağladığı güvencenin somut karşılığıdır; görev yerinin hiç değiştirilemeyeceği anlamına gelmez.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -192,8 +198,8 @@
 			"guvence",
 			"madde-18"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-hak-007",
@@ -202,12 +208,13 @@
 		"difficulty": "zor",
 		"stem": "Hizmet süresi tam 10 yıl olan bir memurun yıllık izin süresi kaç gündür?",
 		"options": [
-			"20 gün",
 			"30 gün",
 			"20 gün + 2 gün yol",
+			"20 gün",
+			"10 gün",
 			"25 gün"
 		],
-		"correctIndex": 0,
+		"correctIndex": 2,
 		"explanation": "Madde 102'de eşik 'hizmeti 1 yıldan 10 yıla kadar (10 yıl dâhil) olanlar için 20 gün' biçiminde yazılmıştır. Tam 10 yıl bu gruba dâhildir, dolayısıyla izin 20 gündür. 30 güne hak kazanmak için hizmetin 10 yılı aşması gerekir. Yol izni ancak zorunlu hâllerde ve ayrıca eklenir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -225,8 +232,8 @@
 			"yillik-izin",
 			"tuzak"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-hak-008",
@@ -235,12 +242,13 @@
 		"difficulty": "zor",
 		"stem": "Öğretmenlerin yıllık izin durumu aşağıdakilerden hangisidir?",
 		"options": [
-			"Diğer memurlar gibi 20 veya 30 gün yıllık izin kullanırlar.",
-			"Yaz tatili ile dinlenme tatillerinde izinli sayılırlar; ayrıca yıllık izin verilmez.",
 			"Yalnızca hizmeti 10 yılı aşanlara yıllık izin verilir.",
+			"Diğer memurlar gibi 20 veya 30 gün yıllık izin kullanırlar.",
+			"Yaz tatiline ek olarak 20 gün yıllık izin kullanırlar.",
+			"Yaz tatili ile dinlenme tatillerinde izinli sayılırlar; ayrıca yıllık izin verilmez.",
 			"Yılda 45 gün yıllık izin kullanırlar."
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Madde 103'e göre öğretmenler yaz tatili ile dinlenme tatillerinde izinli sayılırlar ve bunlara ayrıca yıllık izin verilmez. Bu, öğretmenlerin çalışma takviminin yapısından kaynaklanan özel bir düzenlemedir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -258,8 +266,8 @@
 			"yillik-izin",
 			"ogretmen"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-hak-009",
@@ -268,12 +276,13 @@
 		"difficulty": "zor",
 		"stem": "Çoğul gebelik hâlinde doğum öncesi analık izni süresine kaç hafta eklenir?",
 		"options": [
+			"3 hafta",
+			"8 hafta",
 			"1 hafta",
-			"2 hafta",
 			"4 hafta",
-			"8 hafta"
+			"2 hafta"
 		],
-		"correctIndex": 1,
+		"correctIndex": 4,
 		"explanation": "Madde 104'e göre çoğul gebelik hâlinde doğum öncesi sekiz haftalık analık izni süresine iki hafta eklenir; yani doğum öncesi izin 10 hafta olur. Doğum sonrası süre bu durumdan etkilenmez.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -291,8 +300,8 @@
 			"analik-izni",
 			"cogul-gebelik"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-hak-010",
@@ -303,10 +312,11 @@
 		"options": [
 			"3 haftaya kadar; çalışılan süre doğum sonrası izne eklenir.",
 			"2 haftaya kadar; çalışılan süre izinden düşülür.",
-			"2 haftaya kadar; çalışılan süre doğum sonrası izne eklenir.",
-			"4 haftaya kadar; çalışılan süre yıllık izne eklenir."
+			"3 haftaya kadar; çalışılan süre izinden düşülür.",
+			"4 haftaya kadar; çalışılan süre yıllık izne eklenir.",
+			"2 haftaya kadar; çalışılan süre doğum sonrası izne eklenir."
 		],
-		"correctIndex": 2,
+		"correctIndex": 4,
 		"explanation": "7578 sayılı Kanun'la yapılan değişiklikten sonra bu sınır 3 haftadan 2 haftaya indirilmiştir: sağlık durumu uygun olan memur, tabip raporuyla doğumdan önceki 2 haftaya kadar çalışabilir ve bu şekilde çalışılan süre doğum sonrası analık iznine eklenir. Süre izinden düşülmez, aksine eklenir.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -325,8 +335,8 @@
 			"guncellik",
 			"tuzak"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-hak-011",
@@ -335,12 +345,13 @@
 		"difficulty": "uzman",
 		"stem": "Bir memura yıl içinde 10 günlük mazeret izni kullandırılmış, zaruret hâli nedeniyle 10 gün daha verilmiştir. İkinci 10 günlük süre için ne söylenebilir?",
 		"options": [
-			"Ücretsiz izin olarak sayılır.",
-			"Memurun yıllık izninden düşülür.",
+			"Hastalık izninden düşülür.",
 			"Ek izin olarak verilir, herhangi bir izinden düşülmez.",
-			"Hastalık izninden düşülür."
+			"Bir sonraki yılın mazeret izninden düşülür.",
+			"Memurun yıllık izninden düşülür.",
+			"Ücretsiz izin olarak sayılır."
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Madde 104'e göre mazeret izni yılda 10 gündür; zaruret hâlinde öğretmenler hariç aynı usulle 10 gün daha verilebilir. Ancak bu ikinci 10 günlük süre, memurun yıllık izninden düşülür. Öğretmenlere bu ikinci süre verilmez.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
@@ -358,8 +369,8 @@
 			"mazeret-izni",
 			"senaryo"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-hak-012",
@@ -368,13 +379,14 @@
 		"difficulty": "uzman",
 		"stem": "Memurların hak ve izinlerine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
-			"Kanunlarda yazılı hâller dışında memurun memurluğuna son verilemez.",
+			"Eşi doğum yapan memura 10 gün babalık izni verilir.",
 			"Memurun toplam analık izni 16 haftadır.",
 			"Memurlar sendika kurabilir ve sendikalara üye olabilirler.",
-			"Üç yaşını doldurmamış bir çocuğu evlat edinen memura 8 hafta izin verilir."
+			"Üç yaşını doldurmamış bir çocuğu evlat edinen memura 8 hafta izin verilir.",
+			"Kanunlarda yazılı hâller dışında memurun memurluğuna son verilemez."
 		],
 		"correctIndex": 1,
-		"explanation": "Toplam analık izni 2026'da yürürlüğe giren 7578 sayılı Kanun'la 16 haftadan 24 haftaya çıkarılmıştır (doğum öncesi 8 hafta + doğum sonrası 16 hafta). '16 hafta' rakamı değişiklik öncesine aittir ve güncel değildir. Diğer üç ifade doğrudur.",
+		"explanation": "Toplam analık izni 2026'da yürürlüğe giren 7578 sayılı Kanun'la 16 haftadan 24 haftaya çıkarılmıştır (doğum öncesi 8 hafta + doğum sonrası 16 hafta). '16 hafta' rakamı değişiklik öncesine aittir ve güncel değildir. Diğer dört ifade doğrudur.",
 		"legalRef": {
 			"law": "657 sayılı Devlet Memurları Kanunu",
 			"lawId": "657",
@@ -391,8 +403,8 @@
 			"guncellik",
 			"tuzak"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "657-hak-013",

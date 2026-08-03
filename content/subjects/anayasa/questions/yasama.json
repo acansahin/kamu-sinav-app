@@ -8,10 +8,11 @@
 		"options": [
 			"650",
 			"550",
+			"500",
 			"450",
 			"600"
 		],
-		"correctIndex": 3,
+		"correctIndex": 4,
 		"explanation": "Anayasa'nın 75. maddesine göre Türkiye Büyük Millet Meclisi, genel oyla seçilen altı yüz milletvekilinden oluşur. Bu sayı 2017 Anayasa değişikliğiyle 550'den 600'e çıkarılmıştır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -29,8 +30,8 @@
 			"madde-75",
 			"sayi"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yasama-002",
@@ -40,9 +41,10 @@
 		"stem": "Milletvekili seçilebilmek için gereken en az yaş kaçtır?",
 		"options": [
 			"18",
+			"40",
+			"21",
 			"30",
-			"25",
-			"40"
+			"25"
 		],
 		"correctIndex": 0,
 		"explanation": "Anayasa'nın 76. maddesine göre on sekiz yaşını dolduran her Türk milletvekili seçilebilir. Bu yaş 2017 değişikliğiyle 25'ten 18'e indirilmiştir. 40 yaş ise Cumhurbaşkanı seçilme şartıdır.",
@@ -62,8 +64,8 @@
 			"madde-76",
 			"yas"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yasama-003",
@@ -72,12 +74,13 @@
 		"difficulty": "kolay",
 		"stem": "TBMM toplantı yeter sayısı nedir?",
 		"options": [
-			"Toplantıya katılanların salt çoğunluğu",
-			"Üye tamsayısının beşte üçü",
 			"Üye tamsayısının salt çoğunluğu",
-			"Üye tamsayısının en az üçte biri"
+			"Üye tamsayısının dörtte birinin bir fazlası",
+			"Üye tamsayısının en az üçte biri",
+			"Üye tamsayısının beşte üçü",
+			"Toplantıya katılanların salt çoğunluğu"
 		],
-		"correctIndex": 3,
+		"correctIndex": 2,
 		"explanation": "Anayasa'nın 96. maddesine göre TBMM, yapacağı seçimler dâhil bütün işlerinde üye tamsayısının en az üçte biri ile toplanır. 600 üyeli Mecliste bu sayı 200'dür.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -95,8 +98,8 @@
 			"madde-96",
 			"yeter-sayi"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yasama-004",
@@ -105,12 +108,13 @@
 		"difficulty": "orta",
 		"stem": "600 üyeli TBMM'de karar yeter sayısı hiçbir şekilde kaçın altına düşemez?",
 		"options": [
-			"200",
 			"360",
+			"121",
+			"200",
 			"301",
 			"151"
 		],
-		"correctIndex": 3,
+		"correctIndex": 4,
 		"explanation": "Madde 96'ya göre TBMM toplantıya katılanların salt çoğunluğu ile karar verir; ancak karar yeter sayısı hiçbir şekilde üye tamsayısının dörtte birinin bir fazlasından az olamaz. 600 üyede bu sayı 600 / 4 + 1 = 151'dir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -128,8 +132,8 @@
 			"madde-96",
 			"hesap"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yasama-005",
@@ -138,12 +142,13 @@
 		"difficulty": "orta",
 		"stem": "Anayasa'ya göre kanun teklif etmeye kim yetkilidir?",
 		"options": [
-			"Milletvekilleri",
 			"Bakanlar",
+			"Milletvekilleri ve Cumhurbaşkanı",
 			"Cumhurbaşkanı",
-			"Milletvekilleri ve Cumhurbaşkanı"
+			"Milletvekilleri",
+			"Milletvekilleri ve bakanlar"
 		],
-		"correctIndex": 0,
+		"correctIndex": 3,
 		"explanation": "Anayasa'nın 88. maddesine göre kanun teklif etmeye milletvekilleri yetkilidir. 2017 Anayasa değişikliğinden sonra Cumhurbaşkanının kanun teklif etme yetkisi bulunmamaktadır; Cumhurbaşkanı kendi yetki alanında Cumhurbaşkanlığı kararnamesi çıkarır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -161,8 +166,8 @@
 			"madde-88",
 			"guncellik"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yasama-006",
@@ -172,9 +177,10 @@
 		"stem": "Genel ve özel af ilanına karar verilebilmesi için TBMM'de hangi çoğunluk gereklidir?",
 		"options": [
 			"Üye tamsayısının beşte üç çoğunluğu",
+			"Üye tamsayısının salt çoğunluğu",
 			"Üye tamsayısının üçte iki çoğunluğu",
-			"Toplantıya katılanların salt çoğunluğu",
-			"Üye tamsayısının salt çoğunluğu"
+			"Üye tamsayısının dörtte üç çoğunluğu",
+			"Toplantıya katılanların salt çoğunluğu"
 		],
 		"correctIndex": 0,
 		"explanation": "Anayasa'nın 87. maddesine göre TBMM, üye tamsayısının beşte üç çoğunluğunun kararı ile genel ve özel af ilanına karar verir. Bu, olağan karar yeter sayısından ayrılan nitelikli bir çoğunluktur.",
@@ -194,8 +200,8 @@
 			"madde-87",
 			"af"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yasama-007",
@@ -204,12 +210,13 @@
 		"difficulty": "zor",
 		"stem": "Anayasa'nın 98. maddesindeki bilgi edinme ve denetim yolları arasında aşağıdakilerden hangisi yer almaz?",
 		"options": [
-			"Genel görüşme",
-			"Meclis soruşturması",
 			"Meclis araştırması",
-			"Gensoru"
+			"Gensoru",
+			"Meclis soruşturması",
+			"Genel görüşme",
+			"Yazılı soru"
 		],
-		"correctIndex": 3,
+		"correctIndex": 1,
 		"explanation": "Madde 98'de sayılan denetim yolları meclis araştırması, genel görüşme, meclis soruşturması ve yazılı sorudur. Gensoru, parlamenter sistemin bir aracı olarak 2017 Anayasa değişikliğiyle kaldırılmıştır; güncel metinde yer almaz.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -228,8 +235,8 @@
 			"guncellik",
 			"tuzak"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yasama-008",
@@ -238,12 +245,13 @@
 		"difficulty": "zor",
 		"stem": "Cumhurbaşkanı, uygun bulmadığı bir kanunu kaç gün içinde ve nasıl TBMM'ye geri gönderir?",
 		"options": [
-			"15 gün içinde, gerekçeli olarak",
 			"15 gün içinde, gerekçe belirtmeksizin",
 			"30 gün içinde, gerekçe belirtmeksizin",
-			"7 gün içinde, gerekçeli olarak"
+			"15 gün içinde, gerekçeli olarak",
+			"7 gün içinde, gerekçeli olarak",
+			"10 gün içinde, gerekçeli olarak"
 		],
-		"correctIndex": 0,
+		"correctIndex": 2,
 		"explanation": "Anayasa'nın 89. maddesine göre Cumhurbaşkanı, TBMM'ce kabul edilen kanunları on beş gün içinde yayımlar; uygun bulmadıklarını ise bir daha görüşülmek üzere aynı süre içinde gerekçeli olarak TBMM'ye geri gönderir. Gerekçe zorunludur.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -261,8 +269,8 @@
 			"madde-89",
 			"veto"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yasama-009",
@@ -273,10 +281,11 @@
 		"options": [
 			"Üye tamsayısının üçte ikisi",
 			"Üye tamsayısının beşte üçü",
-			"Üye tamsayısının salt çoğunluğu",
-			"Toplantıya katılanların salt çoğunluğu"
+			"Toplantıya katılanların salt çoğunluğu",
+			"Toplantıya katılanların üçte iki çoğunluğu",
+			"Üye tamsayısının salt çoğunluğu"
 		],
-		"correctIndex": 2,
+		"correctIndex": 4,
 		"explanation": "Madde 89'a göre TBMM, geri gönderilen kanunu üye tamsayısının salt çoğunluğuyla aynen kabul ederse kanun Cumhurbaşkanınca yayımlanır. 600 üyeli Mecliste bu sayı 301'dir; olağan karar yeter sayısından daha ağır bir şarttır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -294,8 +303,8 @@
 			"madde-89",
 			"cogunluk"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yasama-010",
@@ -305,11 +314,12 @@
 		"stem": "TBMM Genel Kurulu 210 milletvekilinin katılımıyla toplanmıştır. Bu oturumda bir kanun teklifinin kabul edilmesi için en az kaç kabul oyu gerekir?",
 		"options": [
 			"106",
-			"151",
+			"200",
 			"301",
-			"200"
+			"151",
+			"121"
 		],
-		"correctIndex": 1,
+		"correctIndex": 3,
 		"explanation": "Madde 96 iki kuralı birlikte uygular: karar, toplantıya katılanların salt çoğunluğuyla alınır (210'un salt çoğunluğu 106), ancak karar yeter sayısı hiçbir şekilde üye tamsayısının dörtte birinin bir fazlasından, yani 151'den az olamaz. Bu nedenle 106 yeterli değildir; en az 151 kabul oyu gerekir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -328,8 +338,8 @@
 			"hesap",
 			"senaryo"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yasama-011",
@@ -338,12 +348,13 @@
 		"difficulty": "uzman",
 		"stem": "TBMM ve Cumhurbaşkanlığı seçimlerine ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
 		"options": [
+			"TBMM seçimleri dört, Cumhurbaşkanlığı seçimleri beş yılda bir yapılır.",
+			"Seçimler beş yılda bir, ancak farklı günlerde yapılır.",
 			"Seçimler beş yılda bir aynı günde yapılır.",
-			"Seçimler yedi yılda bir yapılır.",
 			"TBMM ve Cumhurbaşkanlığı seçimleri farklı yıllarda yapılır.",
-			"TBMM seçimleri dört, Cumhurbaşkanlığı seçimleri beş yılda bir yapılır."
+			"Seçimler yedi yılda bir yapılır."
 		],
-		"correctIndex": 0,
+		"correctIndex": 2,
 		"explanation": "Anayasa'nın 77. maddesine göre Türkiye Büyük Millet Meclisi ve Cumhurbaşkanlığı seçimleri beş yılda bir aynı günde yapılır. Seçimlerin eş zamanlı olması Cumhurbaşkanlığı hükümet sisteminin temel özelliklerinden biridir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -361,8 +372,8 @@
 			"madde-77",
 			"secim"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yasama-012",
@@ -371,13 +382,14 @@
 		"difficulty": "uzman",
 		"stem": "Yasama organına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
-			"Genel af ilanı üye tamsayısının beşte üç çoğunluğunu gerektirir.",
+			"Cumhurbaşkanı kabul edilen kanunları otuz gün içinde yayımlar.",
 			"TBMM üye tamsayısının en az üçte biri ile toplanır.",
 			"Kanun teklif etme yetkisi milletvekillerine aittir.",
-			"Cumhurbaşkanı kabul edilen kanunları otuz gün içinde yayımlar."
+			"Cumhurbaşkanı, uygun bulmadığı kanunu gerekçeli olarak TBMM'ye geri gönderir.",
+			"Genel af ilanı üye tamsayısının beşte üç çoğunluğunu gerektirir."
 		],
-		"correctIndex": 3,
-		"explanation": "Madde 89'a göre Cumhurbaşkanı, TBMM'ce kabul edilen kanunları on beş gün içinde yayımlar; otuz gün değil. Aynı on beş günlük süre, uygun bulunmayan kanunun gerekçeli olarak geri gönderilmesi için de geçerlidir. Diğer üç ifade sırasıyla madde 96, madde 88 ve madde 87 hükümleriyle uyumludur.",
+		"correctIndex": 0,
+		"explanation": "Madde 89'a göre Cumhurbaşkanı, TBMM'ce kabul edilen kanunları on beş gün içinde yayımlar; otuz gün değil. Aynı on beş günlük süre, uygun bulunmayan kanunun gerekçeli olarak geri gönderilmesi için de geçerlidir. Diğer dört ifade madde 96, madde 88, madde 87 ve madde 89 hükümleriyle uyumludur.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
 			"lawId": "2709",
@@ -394,8 +406,8 @@
 			"tuzak",
 			"sure"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yasama-013",

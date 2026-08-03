@@ -6,9 +6,10 @@
 		"difficulty": "kolay",
 		"stem": "Cumhurbaşkanı seçilebilmek için gereken en az yaş ve öğrenim şartı nedir?",
 		"options": [
-			"45 yaş – yükseköğrenim",
-			"40 yaş – yükseköğrenim",
 			"25 yaş – lise mezunu",
+			"40 yaş – yükseköğrenim",
+			"45 yaş – yükseköğrenim",
+			"35 yaş – yükseköğrenim",
 			"18 yaş – ilkokul mezunu"
 		],
 		"correctIndex": 1,
@@ -29,8 +30,8 @@
 			"madde-101",
 			"sartlar"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yurutme-002",
@@ -39,12 +40,13 @@
 		"difficulty": "kolay",
 		"stem": "Cumhurbaşkanının görev süresi ve dönem sınırı aşağıdakilerden hangisidir?",
 		"options": [
-			"7 yıl – tek dönem",
+			"7 yıl – en fazla iki dönem",
 			"5 yıl – sınırsız",
+			"7 yıl – tek dönem",
 			"4 yıl – en fazla iki dönem",
 			"5 yıl – en fazla iki dönem"
 		],
-		"correctIndex": 3,
+		"correctIndex": 4,
 		"explanation": "Madde 101'e göre Cumhurbaşkanının görev süresi beş yıldır ve bir kimse en fazla iki defa Cumhurbaşkanı seçilebilir. Ayrıca TBMM ve Cumhurbaşkanlığı seçimleri beş yılda bir aynı günde yapılır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -62,8 +64,8 @@
 			"madde-101",
 			"sure"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yurutme-003",
@@ -73,11 +75,12 @@
 		"stem": "Cumhurbaşkanı yardımcıları ve bakanlar nasıl göreve gelir?",
 		"options": [
 			"Cumhurbaşkanınca atanır, TBMM güvenoyu verir.",
-			"TBMM tarafından seçilir.",
+			"Siyasi parti grupları tarafından belirlenir.",
+			"Cumhurbaşkanınca atanır; görevden alınmaları TBMM kararına bağlıdır.",
 			"Cumhurbaşkanı tarafından atanır ve görevden alınır.",
-			"Siyasi parti grupları tarafından belirlenir."
+			"TBMM tarafından seçilir."
 		],
-		"correctIndex": 2,
+		"correctIndex": 3,
 		"explanation": "Madde 106'ya göre Cumhurbaşkanı yardımcıları ve bakanlar, milletvekili seçilme yeterliliğine sahip olanlar arasından Cumhurbaşkanı tarafından atanır ve görevden alınır. Güvenoyu kurumu 2017 değişikliğiyle kaldırılmıştır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -95,8 +98,8 @@
 			"madde-106",
 			"bakan"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yurutme-004",
@@ -105,12 +108,13 @@
 		"difficulty": "orta",
 		"stem": "Cumhurbaşkanlığı kararnamesi ile kanunda farklı hükümler bulunması hâlinde ne uygulanır?",
 		"options": [
-			"Kanun hükümleri",
 			"Cumhurbaşkanlığı kararnamesi",
+			"Kanun hükümleri",
 			"Anayasa Mahkemesi karar verene kadar ikisi birlikte",
+			"Cumhurbaşkanlığı kararnamesi; ancak TBMM'nin onayına sunulur",
 			"Tarihi sonraki olan metin"
 		],
-		"correctIndex": 0,
+		"correctIndex": 1,
 		"explanation": "Madde 104'e göre Cumhurbaşkanlığı kararnamesi ile kanunlarda farklı hükümler bulunması hâlinde kanun hükümleri uygulanır. Ayrıca TBMM'nin aynı konuda kanun çıkarması durumunda kararname hükümsüz hâle gelir. Kanun her durumda üstündür.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -128,8 +132,8 @@
 			"kararname",
 			"hiyerarsi"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yurutme-005",
@@ -139,9 +143,10 @@
 		"stem": "Cumhurbaşkanı adayı gösterebilmek için en az kaç seçmenin imzası gereklidir?",
 		"options": [
 			"100.000",
+			"200.000",
 			"50.000",
-			"20.000",
-			"500.000"
+			"500.000",
+			"20.000"
 		],
 		"correctIndex": 0,
 		"explanation": "Madde 101'e göre siyasi parti grupları, son seçimlerde toplam geçerli oyların tek başına veya birlikte en az yüzde beşini almış olan siyasi partiler ile en az yüz bin seçmen Cumhurbaşkanı adayı gösterebilir.",
@@ -161,8 +166,8 @@
 			"madde-101",
 			"adaylik"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yurutme-006",
@@ -171,12 +176,13 @@
 		"difficulty": "orta",
 		"stem": "Olağanüstü hâl en çok ne kadar süre için ilan edilebilir ve TBMM her defasında en çok ne kadar uzatabilir?",
 		"options": [
-			"3 ay – 3 ay",
-			"1 yıl – 6 ay",
+			"6 ay – 6 ay",
 			"4 ay – 6 ay",
-			"6 ay – 4 ay"
+			"6 ay – 4 ay",
+			"1 yıl – 6 ay",
+			"3 ay – 3 ay"
 		],
-		"correctIndex": 3,
+		"correctIndex": 2,
 		"explanation": "Madde 119'a göre Cumhurbaşkanı, yurdun tamamında veya bir bölgesinde süresi altı ayı geçmemek üzere olağanüstü hâl ilan edebilir; karar TBMM'nin onayına sunulur ve TBMM süreyi her defasında dört ayı geçmemek üzere uzatabilir.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -194,8 +200,8 @@
 			"ohal",
 			"sure"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yurutme-007",
@@ -204,13 +210,14 @@
 		"difficulty": "zor",
 		"stem": "Cumhurbaşkanlığı kararnamesi çıkarılamayacak konular bakımından aşağıdakilerden hangisi yanlıştır?",
 		"options": [
-			"Temel haklar kararnameyle sınırlanamaz.",
 			"Anayasada münhasıran kanunla düzenlenmesi öngörülen konularda çıkarılamaz.",
 			"Yürütme yetkisine ilişkin konularda çıkarılamaz.",
+			"Siyasi haklar ve ödevler kararnameyle düzenlenemez.",
+			"Temel haklar kararnameyle sınırlanamaz.",
 			"Kanunda açıkça düzenlenen konularda çıkarılamaz."
 		],
-		"correctIndex": 2,
-		"explanation": "Madde 104'e göre Cumhurbaşkanı, yürütme yetkisine ilişkin konularda Cumhurbaşkanlığı kararnamesi çıkarabilir; yani yürütme alanı kararnamenin yasak alanı değil, tam olarak kendi alanıdır. Diğer üç ifade doğru sınırlardır.",
+		"correctIndex": 1,
+		"explanation": "Madde 104'e göre Cumhurbaşkanı, yürütme yetkisine ilişkin konularda Cumhurbaşkanlığı kararnamesi çıkarabilir; yani yürütme alanı kararnamenin yasak alanı değil, tam olarak kendi alanıdır. Diğer dört ifade doğru sınırlardır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
 			"lawId": "2709",
@@ -227,8 +234,8 @@
 			"kararname",
 			"tuzak"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yurutme-008",
@@ -237,12 +244,13 @@
 		"difficulty": "zor",
 		"stem": "Bir TBMM üyesi bakan olarak atanırsa milletvekilliği ne olur?",
 		"options": [
-			"TBMM Genel Kurulu kararıyla belirlenir.",
 			"Devam eder; hem bakan hem milletvekili olabilir.",
-			"Milletvekilliği sona erer.",
-			"Bakanlık süresince askıya alınır, sonra devam eder."
+			"Bakanlık süresince askıya alınır, sonra devam eder.",
+			"TBMM Genel Kurulu kararıyla belirlenir.",
+			"Milletvekilliği devam eder; ancak Genel Kurulda oy kullanamaz.",
+			"Milletvekilliği sona erer."
 		],
-		"correctIndex": 2,
+		"correctIndex": 4,
 		"explanation": "Madde 106'ya göre Türkiye Büyük Millet Meclisi üyeleri Cumhurbaşkanı yardımcısı veya bakan olarak atanırlarsa üyelikleri sona erer. Bu, kuvvetler ayrılığının 2017 sistemindeki katı uygulamalarından biridir; parlamenter sistemde bakanlar aynı zamanda milletvekili olabiliyordu.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -260,8 +268,8 @@
 			"madde-106",
 			"guncellik"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yurutme-009",
@@ -270,12 +278,13 @@
 		"difficulty": "zor",
 		"stem": "Cumhurbaşkanı hakkında soruşturma açılmasına karar verilebilmesi için TBMM'de hangi çoğunluk gerekir?",
 		"options": [
-			"Üye tamsayısının beşte üçü",
-			"Üye tamsayısının üçte ikisi",
 			"Toplantıya katılanların salt çoğunluğu",
+			"Üye tamsayısının dörtte üçü",
+			"Üye tamsayısının üçte ikisi",
+			"Üye tamsayısının beşte üçü",
 			"Üye tamsayısının salt çoğunluğu"
 		],
-		"correctIndex": 0,
+		"correctIndex": 3,
 		"explanation": "Madde 105'e göre soruşturma açılması istemi üye tamsayısının salt çoğunluğunun vereceği önergeyle olur; Meclis üye tamsayısının beşte üçünün gizli oyuyla soruşturma açılmasına karar verir. Yüce Divana sevk ise üye tamsayısının üçte ikisinin gizli oyunu gerektirir. Üç aşamada çoğunluk giderek ağırlaşır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -293,8 +302,8 @@
 			"madde-105",
 			"cogunluk"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yurutme-010",
@@ -303,12 +312,13 @@
 		"difficulty": "uzman",
 		"stem": "Bir Cumhurbaşkanlığı kararnamesiyle düzenlenen bir konuda, TBMM daha sonra aynı konuyu düzenleyen bir kanun çıkarmıştır. Kararnamenin durumu ne olur?",
 		"options": [
-			"Anayasa Mahkemesi karar verene kadar kararname uygulanır.",
-			"Cumhurbaşkanı kararnameyi yeniden yayımlarsa geçerli olur.",
+			"Kararname hükümsüz hâle gelir.",
 			"Kararname yürürlükte kalır; kanunla birlikte uygulanır.",
-			"Kararname hükümsüz hâle gelir."
+			"Kanun, kararnameye aykırı olduğu ölçüde uygulanmaz.",
+			"Anayasa Mahkemesi karar verene kadar kararname uygulanır.",
+			"Cumhurbaşkanı kararnameyi yeniden yayımlarsa geçerli olur."
 		],
-		"correctIndex": 3,
+		"correctIndex": 0,
 		"explanation": "Madde 104 açıktır: Türkiye Büyük Millet Meclisinin aynı konuda kanun çıkarması durumunda Cumhurbaşkanlığı kararnamesi hükümsüz hâle gelir. Bu, yasama yetkisinin üstünlüğünü koruyan bir hükümdür ve ayrıca bir yargı kararına ihtiyaç duyulmaz.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -326,8 +336,8 @@
 			"kararname",
 			"senaryo"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yurutme-011",
@@ -336,12 +346,13 @@
 		"difficulty": "uzman",
 		"stem": "Cumhurbaşkanlığı seçiminin birinci oylamasında hiçbir aday geçerli oyların salt çoğunluğunu alamamıştır. Ne olur?",
 		"options": [
-			"En çok oy alan iki aday arasında ikinci oylama yapılır.",
 			"TBMM Cumhurbaşkanını seçer.",
+			"Geçerli oyların en az yüzde kırkını alan adaylar arasında ikinci oylama yapılır.",
+			"En çok oy alan iki aday arasında ikinci oylama yapılır.",
 			"Seçim yenilenir ve tüm adaylar yeniden yarışır.",
 			"En çok oy alan aday seçilmiş sayılır."
 		],
-		"correctIndex": 0,
+		"correctIndex": 2,
 		"explanation": "Anayasa'nın 101. maddesine göre genel oyla yapılacak seçimde geçerli oyların salt çoğunluğunu alan aday Cumhurbaşkanı seçilir. İlk oylamada bu çoğunluk sağlanamazsa, oylamayı izleyen ikinci pazar günü ikinci oylama yapılır; bu oylamaya ilk oylamada en çok oy almış iki aday katılır ve geçerli oyların çoğunluğunu alan aday Cumhurbaşkanı seçilir. Kural 102. maddede aranmamalıdır: o madde 21/1/2017 tarihli ve 6771 sayılı Kanun'la mülga edilmiş, Cumhurbaşkanı seçimine ilişkin şartlar ve usul 101. maddede toplanmıştır.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
@@ -359,8 +370,8 @@
 			"madde-102",
 			"secim"
 		],
-		"version": 3,
-		"updatedAt": "2026-08-01"
+		"version": 4,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yurutme-012",
@@ -369,13 +380,14 @@
 		"difficulty": "uzman",
 		"stem": "Yürütmeye ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
 		"options": [
+			"Kararname ile kanun çatışırsa kanun uygulanır.",
 			"Cumhurbaşkanı bir kimse en fazla iki defa seçilebilir.",
-			"Bakanlar göreve başlarken TBMM'den güvenoyu alır.",
 			"Olağanüstü hâl kararı TBMM'nin onayına sunulur.",
-			"Kararname ile kanun çatışırsa kanun uygulanır."
+			"Bakanlar göreve başlarken TBMM'den güvenoyu alır.",
+			"Cumhurbaşkanı yardımcıları ve bakanlar Cumhurbaşkanı tarafından atanır."
 		],
-		"correctIndex": 1,
-		"explanation": "Güvenoyu kurumu 2017 Anayasa değişikliğiyle kaldırılmıştır. Madde 106'ya göre bakanlar Cumhurbaşkanı tarafından atanır ve görevden alınır; TBMM'nin güvenoyuna sunulmazlar. Diğer üç ifade sırasıyla madde 101, madde 119 ve madde 104 hükümleriyle uyumludur.",
+		"correctIndex": 3,
+		"explanation": "Güvenoyu kurumu 2017 Anayasa değişikliğiyle kaldırılmıştır. Madde 106'ya göre bakanlar Cumhurbaşkanı tarafından atanır ve görevden alınır; TBMM'nin güvenoyuna sunulmazlar. Diğer dört ifade madde 101, madde 119, madde 104 ve madde 106 hükümleriyle uyumludur.",
 		"legalRef": {
 			"law": "2709 sayılı Türkiye Cumhuriyeti Anayasası",
 			"lawId": "2709",
@@ -392,8 +404,8 @@
 			"tuzak",
 			"guncellik"
 		],
-		"version": 2,
-		"updatedAt": "2026-07-21"
+		"version": 3,
+		"updatedAt": "2026-08-03"
 	},
 	{
 		"id": "anayasa-yurutme-013",
