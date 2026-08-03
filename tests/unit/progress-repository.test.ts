@@ -283,3 +283,107 @@ describe("yer imi mezar taşı", () => {
 		expect(bundle.bookmarks[0]?.deletedAt).toBeTruthy();
 	});
 });
+
+/**
+ * Konu testinde kaldığın yerden devam.
+ *
+ * Kullanıcı test sırasında Ayarlar'a gidip döndüğünde cevaplar duruyor olmalı.
+ * Buradaki asıl mesele oturumun DOĞRU olanının bulunması: aynı konuda birden
+ * çok test seti var ve yanlış setin oturumunu geri yüklemek cevapları başka
+ * sorulara yazardı.
+ */
+describe("yarıda kalmış konu testi", () => {
+	const TOPIC = "657-dmk/yasaklar";
+
+	async function open(id: string, setSlug: string): Promise<void> {
+		await progressRepository.createTestSession({
+			id,
+			kind: "topic-test",
+			subjectId: "657-dmk",
+			topicId: TOPIC,
+			difficulty: "karisik",
+			setSlug,
+			questionIds: ["q1", "q2"],
+			answers: {},
+			status: "in-progress",
+			startedAt: new Date().toISOString(),
+		});
+	}
+
+	it("aynı sete ait açık oturumu bulur", async () => {
+		await open("t1", "test-1");
+
+		const found = await progressRepository.getResumableTestSession(
+			TOPIC,
+			"test-1",
+		);
+		expect(found?.id).toBe("t1");
+	});
+
+	it("başka bir setin oturumunu döndürmez", async () => {
+		await open("t1", "test-1");
+
+		expect(
+			await progressRepository.getResumableTestSession(TOPIC, "test-2"),
+		).toBeNull();
+	});
+
+	it("başka bir konunun oturumunu döndürmez", async () => {
+		await open("t1", "test-1");
+
+		expect(
+			await progressRepository.getResumableTestSession("anayasa/yargi", "test-1"),
+		).toBeNull();
+	});
+
+	it("cevapları diske yazar ve geri okur", async () => {
+		await open("t1", "test-1");
+		await progressRepository.saveTestProgress("t1", {
+			answers: { q1: 2, q2: null },
+		});
+
+		const found = await progressRepository.getResumableTestSession(
+			TOPIC,
+			"test-1",
+		);
+		expect(found?.answers).toEqual({ q1: 2, q2: null });
+		expect(found?.updatedAt).toBeTruthy();
+	});
+
+	it("tamamlanmış oturum devam ettirilebilir sayılmaz", async () => {
+		await open("t1", "test-1");
+		await progressRepository.completeTestSession("t1", { q1: 0, q2: 1 }, 50);
+
+		expect(
+			await progressRepository.getResumableTestSession(TOPIC, "test-1"),
+		).toBeNull();
+	});
+
+	it("terk edilen oturum devam ettirilebilir sayılmaz", async () => {
+		await open("t1", "test-1");
+		await progressRepository.abandonTestSession("t1");
+
+		expect(
+			await progressRepository.getResumableTestSession(TOPIC, "test-1"),
+		).toBeNull();
+		expect((await getDb().testSessions.get("t1"))?.status).toBe("abandoned");
+	});
+
+	/**
+	 * Aynı sette birden çok açık oturum ancak eski bir kusurdan kalabilir;
+	 * o hâlde en yenisi doğru olandır.
+	 */
+	it("birden çok açık oturumda en yenisini döndürür", async () => {
+		await open("eski", "test-1");
+		await getDb().testSessions.update("eski", {
+			startedAt: "2026-01-01T00:00:00.000Z",
+		});
+		await open("yeni", "test-1");
+
+		const found = await progressRepository.getResumableTestSession(
+			TOPIC,
+			"test-1",
+		);
+		expect(found?.id).toBe("yeni");
+	});
+});

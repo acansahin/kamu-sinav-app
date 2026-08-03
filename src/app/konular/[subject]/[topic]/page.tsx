@@ -1,10 +1,10 @@
 import { Clock, FileText } from "lucide-react";
 import type { Metadata } from "next";
 import { compileMDX } from "next-mdx-remote/rsc";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import remarkGfm from "remark-gfm";
 import { mdxComponents } from "@/components/content/mdx-components";
+import { Breadcrumb } from "@/components/layout/breadcrumb";
 import { Badge } from "@/components/ui/badge";
 import { ButtonLink } from "@/components/ui/button";
 import { PrintButton } from "@/features/print/print-button";
@@ -57,19 +57,12 @@ export default async function TopicPage({ params }: Props) {
 
 	return (
 		<article>
-			<nav
-				aria-label="Konum"
-				data-print="hide"
-				className="mb-4 text-sm text-fg-muted"
-			>
-				<Link href="/konular" className="hover:text-fg">
-					Konular
-				</Link>
-				<span aria-hidden> / </span>
-				<Link href={`/konular/${subject.id}`} className="hover:text-fg">
-					{subject.shortName}
-				</Link>
-			</nav>
+			<Breadcrumb
+				items={[
+					{ href: "/konular", label: "Konular" },
+					{ href: routes.subject(subject.id), label: subject.shortName },
+				]}
+			/>
 
 			<div data-print="hide" className="mb-4 flex flex-wrap items-center gap-2">
 				<Badge>

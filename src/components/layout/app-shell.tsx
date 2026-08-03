@@ -16,6 +16,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { Route } from "next";
 import type { ReactNode } from "react";
+import { BackButton } from "@/components/layout/back-button";
 import { isAccountConfigured } from "@/lib/auth/supabase-client";
 import { useIdentity } from "@/lib/stores/identity";
 import { useApplyPreferences } from "@/lib/stores/preferences";
@@ -52,6 +53,14 @@ export function AppShell({ children }: { children: ReactNode }) {
 	const accountConfigured = isAccountConfigured();
 	const signedIn = identity.kind === "account";
 
+	/*
+	 * Dar ekranda başlıkta logo + üç ikon zaten sınırda; geri tuşu dördüncü
+	 * hedef olarak eklenince kelime markasına yer kalmıyor. Bu yüzden geri
+	 * tuşunun göründüğü sayfalarda marka mobilde gizlenir. Ana sayfaya erişim
+	 * kaybolmaz: hem alt gezinme çubuğunda hem masaüstü menüsünde yer alıyor.
+	 */
+	const isHome = pathname === "/";
+
 	return (
 		<div className="flex min-h-dvh flex-col">
 			{/* Klavye kullanıcıları her sayfada gezinmeyi atlayabilmeli */}
@@ -72,10 +81,16 @@ export function AppShell({ children }: { children: ReactNode }) {
 				data-print="hide"
 				className="sticky top-0 z-30 border-b border-line bg-surface-raised/95 pt-[var(--safe-top)] backdrop-blur"
 			>
-				<div className="mx-auto flex w-full max-w-5xl items-center gap-4 py-3 pl-[max(1rem,var(--safe-left))] pr-[max(1rem,var(--safe-right))]">
+				<div className="mx-auto flex w-full max-w-5xl items-center gap-2 py-3 pl-[max(1rem,var(--safe-left))] pr-[max(1rem,var(--safe-right))] sm:gap-4">
+					{/* Ana sayfada kendini gizler ama ağaçta kalır — bkz. BackButton. */}
+					<BackButton />
+
 					<Link
 						href="/"
-						className="flex min-h-11 items-center text-lg font-bold tracking-tight text-fg no-underline"
+						className={cn(
+							"min-h-11 shrink-0 items-center text-lg font-bold tracking-tight text-fg no-underline",
+							isHome ? "flex" : "hidden sm:flex",
+						)}
 					>
 						Kamu Sınav <span className="text-brand">Akademi</span>
 					</Link>

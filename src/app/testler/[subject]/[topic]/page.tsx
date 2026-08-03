@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { Breadcrumb } from "@/components/layout/breadcrumb";
 import { Card } from "@/components/ui/card";
 import { TestSetList } from "@/features/quiz/test-set-list";
 import { contentRepository } from "@/lib/repositories/content.repository";
@@ -46,6 +47,7 @@ export default async function TopicTestListPage({ params }: Props) {
 
 	return (
 		<div>
+			<Breadcrumb items={[{ href: "/testler", label: "Testler" }]} />
 			{/* Konu adı dersin adıyla aynı olabiliyor; iki kez basmayalım. */}
 			{subject.name !== topic.name && (
 				<p className="text-sm text-fg-muted">{subject.name}</p>

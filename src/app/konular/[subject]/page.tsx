@@ -2,6 +2,7 @@ import { ArrowRight, FileText, Lock, Printer } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Breadcrumb } from "@/components/layout/breadcrumb";
 import { Card, CardLink } from "@/components/ui/card";
 import { contentRepository } from "@/lib/repositories/content.repository";
 import { routes } from "@/lib/routes";
@@ -29,6 +30,7 @@ export default async function SubjectPage({ params }: Props) {
 
 	return (
 		<div>
+			<Breadcrumb items={[{ href: "/konular", label: "Konular" }]} />
 			<h1 className="mb-1 text-2xl font-bold">{subject.name}</h1>
 			<p className="mb-4 text-fg-muted">{subject.description}</p>
 

@@ -52,6 +52,23 @@ export interface IProgressRepository {
 	getRecentTestSessions(limit: number): Promise<TestSession[]>;
 	/** Bir konunun tamamlanmış test oturumları — test listesinde skor rozetleri için. */
 	getCompletedTestSessions(topicId: string): Promise<TestSession[]>;
+	/**
+	 * Belirli bir test setinde yarıda kalmış oturum varsa döner.
+	 *
+	 * Kullanıcı test sırasında Ayarlar'a gidip döndüğünde testin baştan
+	 * başlamaması için gerekir; sınavdaki `getResumableExamSession` ile aynı işi
+	 * yapar ama sete özgüdür — farklı bir testin açık oturumu döndürülmemeli.
+	 */
+	getResumableTestSession(
+		topicId: string,
+		setSlug: string,
+	): Promise<TestSession | null>;
+	/** Test sürerken cevapları diske yazar; sayfadan ayrılınca kayıp olmaz. */
+	saveTestProgress(
+		sessionId: string,
+		patch: Pick<TestSession, "answers">,
+	): Promise<void>;
+	abandonTestSession(sessionId: string): Promise<void>;
 	createExamSession(session: NewExamSession): Promise<void>;
 	/** Yarıda kalmış sınav varsa döner — çökme sonrası kurtarma için. */
 	getResumableExamSession(): Promise<ExamSession | null>;
@@ -347,6 +364,45 @@ class DexieProgressRepository implements IProgressRepository {
 					session.userId === this.userId && session.status === "completed",
 			)
 			.toArray();
+	}
+
+	/*
+	 * `testSessions`te bileşik [userId+status] indeksi yok ve eklenmedi: sorgu
+	 * zaten `topicId` indeksiyle daraltılıyor, kalan süzme bellekte ucuz. İndeks
+	 * eklemenin bedeli her yazmada ödenirdi — bkz. database.ts'teki v4 notu.
+	 */
+	async getResumableTestSession(
+		topicId: string,
+		setSlug: string,
+	): Promise<TestSession | null> {
+		const open = await getDb()
+			.testSessions.where("topicId")
+			.equals(topicId)
+			.filter(
+				(session) =>
+					session.userId === this.userId &&
+					session.status === "in-progress" &&
+					session.setSlug === setSlug,
+			)
+			.sortBy("startedAt");
+		return open.at(-1) ?? null;
+	}
+
+	async saveTestProgress(
+		sessionId: string,
+		patch: Pick<TestSession, "answers">,
+	): Promise<void> {
+		await getDb().testSessions.update(sessionId, {
+			...patch,
+			updatedAt: new Date().toISOString(),
+		});
+	}
+
+	async abandonTestSession(sessionId: string): Promise<void> {
+		await getDb().testSessions.update(sessionId, {
+			status: "abandoned",
+			updatedAt: new Date().toISOString(),
+		});
 	}
 
 	async createExamSession(session: NewExamSession): Promise<void> {

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { compileMDX } from "next-mdx-remote/rsc";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import remarkGfm from "remark-gfm";
 import { mdxComponents } from "@/components/content/mdx-components";
+import { Breadcrumb } from "@/components/layout/breadcrumb";
 import { Card } from "@/components/ui/card";
 import { PrintButton } from "@/features/print/print-button";
 import { SummaryDocument } from "@/features/study/summary-document";
@@ -66,15 +66,12 @@ export default async function SubjectPrintPage({ params }: Props) {
 	return (
 		<div>
 			<div data-print="hide" className="mb-8">
-				<nav aria-label="Konum" className="mb-4 text-sm text-fg-muted">
-					<Link href="/konular" className="hover:text-fg">
-						Konular
-					</Link>
-					<span aria-hidden> / </span>
-					<Link href={routes.subject(subject.id)} className="hover:text-fg">
-						{subject.shortName}
-					</Link>
-				</nav>
+				<Breadcrumb
+					items={[
+						{ href: "/konular", label: "Konular" },
+						{ href: routes.subject(subject.id), label: subject.shortName },
+					]}
+				/>
 
 				<h1 className="text-2xl font-bold">{subject.name} — Ders Paketi</h1>
 				<p className="mt-1 text-fg-muted">

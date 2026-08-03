@@ -98,8 +98,13 @@ export type ExamSessionStatus = "in-progress" | "completed" | "abandoned";
  * Deneme sınavı oturumu.
  *
  * `remainingSeconds` düzenli aralıklarla yazılır: sekme kapanır veya uygulama
- * çökerse kullanıcı sınavı kaldığı yerden sürdürebilsin diye. Bu, konu
- * testinden farklı olarak sınavın uzun sürmesinden kaynaklanan bir gerekliliktir.
+ * çökerse kullanıcı sınavı kaldığı yerden sürdürebilsin diye. Kalan süre yalnızca
+ * sınava özgüdür; konu testinde geri sayım yoktur.
+ *
+ * Cevapların ara ara yazılması ise ARTIK İKİSİNDE DE var. Konu testi başta bunu
+ * yapmıyordu ("test kısa sürer" gerekçesiyle) ama süre yanlış ölçüttü:
+ * kullanıcı test sırasında Ayarlar'a gidip döndüğünde bütün cevaplar
+ * siliniyordu. Bkz. `getResumableTestSession` / `saveTestProgress`.
  */
 export interface ExamSession {
 	id: string;

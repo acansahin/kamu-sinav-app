@@ -18,3 +18,40 @@ export const routes = {
 	topicTestSet: (subjectId: string, topicSlug: string, testSlug: string) =>
 		`/testler/${subjectId}/${topicSlug}/${testSlug}` as Route,
 } as const;
+
+/**
+ * Bir rotanın hiyerarşik üstü.
+ *
+ * Geri tuşunun YEDEK yoludur: uygulama içi geçmiş yoksa (derin bağlantı, soğuk
+ * açılış) `router.back()` ölü kalır ve bunun yerine buraya düşülür. Geçmiş
+ * varsa bu fonksiyon hiç çağrılmaz — Ayarlar'ın hiyerarşik üstü, kullanıcının
+ * geldiği test sayfası DEĞİLDİR ve o senaryoyu ancak geçmiş çözer.
+ *
+ * Saf ve React'ten bağımsızdır; testi `tests/unit/routes.test.ts` içindedir.
+ */
+export function parentRoute(pathname: string): Route {
+	const segments = pathname.split("/").filter(Boolean);
+	const [section, subjectId, topicSlug] = segments;
+
+	if (section === "konular" && subjectId) {
+		// /konular/<ders>/<konu> ve /konular/<ders>/yazdir → /konular/<ders>
+		return segments.length >= 3
+			? routes.subject(subjectId)
+			: ("/konular" as Route);
+	}
+
+	if (section === "testler" && subjectId) {
+		// /testler/<ders>/<konu>/<test> → /testler/<ders>/<konu>
+		if (segments.length >= 4 && topicSlug) {
+			return routes.topicTest(subjectId, topicSlug);
+		}
+		// Ara bir /testler/<ders> rotası YOKTUR; konu listesinin üstü doğrudan
+		// /testler'dir. Bu yüzden burada iki segment birden düşer.
+		return "/testler" as Route;
+	}
+
+	// İstatistik, İlerleme sayfasının detayıdır.
+	if (section === "istatistik") return "/ilerleme" as Route;
+
+	return "/" as Route;
+}
