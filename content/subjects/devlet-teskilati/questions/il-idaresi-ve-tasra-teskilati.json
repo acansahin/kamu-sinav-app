@@ -343,5 +343,216 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-il-011",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "5442 sayılı İl İdaresi Kanunu'na göre vali muavinleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Valinin bulunmadığı zamanlarda ile kaymakamlardan en kıdemlisi vekâlet eder.",
+			"Vali muavinleri yalnızca valinin yazılı olarak devrettiği işlerde görev yapar, vekâlet edemez.",
+			"Vali muavinliği yalnızca büyükşehir statüsündeki illerde bulunur.",
+			"Valilerin tayin ve tespit ettiği işlerde yardımcılık ve valinin bulunmadığı zamanlarda vekillik yaparlar; valiliğin yazı işlerinin düzenlenmesinden de sorumludurlar.",
+			"Vali muavinleri il idare kuruluna hiçbir hâlde başkanlık edemez."
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 5. maddesine göre illerde, valilerin tayin ve tespit ettiği işlerde yardımcılığını ve valinin bulunmadığı zamanlarda vekilliğini yapmak üzere vali muavinleri bulunur; valiliğin yazı işlerinin düzenlenmesinden de vali muavini sorumludur. Ayrıca 57. maddeye göre vali, il idare kuruluna başkanlık etmek üzere vali muavinini görevlendirebilir.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali-muavini",
+			"vekalet"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-il-012",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5442 sayılı Kanun'a göre aşağıdakilerden hangisi ildeki teşkilatın valinin emri altında olması kuralının dışında tutulmuştur?",
+		"options": [
+			"İl millî eğitim müdürlüğü",
+			"Yargıçlar, Cumhuriyet savcıları ve yargıç sınıfındakilerle adalet memurları",
+			"İl sağlık müdürlüğü",
+			"İl tarım ve orman müdürlüğü",
+			"Defterdarlık"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 4. maddesine göre bakanlıkların illerdeki teşkilatının başındakiler il idare şube başkanlarıdır ve bu teşkilat valinin emri altındadır. Bu kuralın dışında kalanlar yargıçlar, Cumhuriyet savcıları ve yargıç sınıfındakilerle adalet memurları, askerî birlikler, askerî fabrika ve müesseseler ile askerlik daire ve şubeleridir. Millî eğitim, sağlık, tarım müdürlükleri ve defterdarlık valinin emri altındadır.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"il-idare-sube-baskanlari",
+			"istisna"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-il-013",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5442 sayılı Kanun'a göre kaymakamın yazışma usulü bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kaymakam her konuda doğrudan bakanlıklarla yazışır; valiye bilgi vermesi gerekmez.",
+			"Kaymakam hiçbir hâlde bakanlıklarla doğrudan yazışamaz.",
+			"Kaymakam yalnızca İçişleri Bakanlığıyla ve yalnızca valinin yazılı izniyle yazışabilir.",
+			"Valiler ilçeye ait işleri il idare şube başkanları aracılığıyla kaymakama bildirir.",
+			"Olağanüstü hâllerde kaymakam İçişleri Bakanlığı ve diğer bakanlıklarla doğrudan yazışabilir ve aynı zamanda valiye bilgi verir."
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 31. maddesine göre valiler ilçeye ait işleri doğrudan doğruya kaymakama yazarlar. Olağanüstü hâllerde kaymakam, İçişleri Bakanlığı ve diğer bakanlıklarla doğrudan yazışabilir ve durumdan valiye bilgi verir. Yani doğrudan yazışma yasak değildir; olağanüstü hâlle ve valiye bilgi verme yükümlülüğüyle sınırlıdır.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "31"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kaymakam",
+			"yazisma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-il-014",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5442 sayılı Kanun'a göre kaymakamın izin verme yetkisi aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"İlçe idare şube başkanlarına acele hâllerde 8 güne kadar; tayini kendisine ait memurlara yıllık izin süresine mahsuben bir aya kadar",
+			"Bütün ilçe memurlarına yıllık izin süresine mahsuben üç aya kadar",
+			"İlçe idare şube başkanlarına 15 güne kadar; diğer memurlara 8 güne kadar",
+			"Yalnızca valinin muvafakatiyle ve en çok 8 güne kadar",
+			"İlçe idare şube başkanlarına bir aya kadar; diğer memurlara izin veremez"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 31. maddesine göre kaymakam, ilçe idare şube başkanlarına acele ve zorunlu hâllerde 8 güne kadar izin verebilir; tayini kendisine ait memurlara ise yıllık izin süresine mahsuben bir aya kadar izin verebilir.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "31"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kaymakam",
+			"izin"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-il-015",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi 5442 sayılı Kanun'a göre valinin görev ve yetkilerinden biri değildir?",
+		"options": [
+			"Kanun, Cumhurbaşkanlığı kararnamesi ve diğer mevzuatın neşir ve ilanını ve uygulanmasını sağlamak",
+			"Mevzuatın verdiği yetkiyi kullanmak ve ödevleri yerine getirmek için genel emirler çıkarmak ve bunları ilan etmek",
+			"Cumhuriyet Bayramında ilde yapılacak resmî törenlere başkanlık yapmak ve tebrikleri kabul etmek",
+			"Adli ve askerî teşkilat dışındaki Devlet daire, müessese ve işletmelerini denetlemek ve teftiş etmek",
+			"İldeki mahkemelerin kararlarını denetlemek ve gerektiğinde bunların uygulanmasını durdurmak"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 9. maddesi valiye mevzuatın neşir ve ilanı, genel emirler çıkarma, denetim ve teftiş ile resmî törenlere başkanlık gibi görevler verir. Mahkeme kararlarını denetlemek ya da uygulanmasını durdurmak valinin yetkisinde değildir; 4. madde yargıçları, savcıları ve adalet memurlarını zaten valinin emri altındaki teşkilatın dışında tutmuştur. Yargı bağımsızlığı Anayasa'nın 138. maddesinin güvencesindedir.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali",
+			"gorevler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-il-016",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "5442 sayılı Kanun'a göre valinin ve kaymakamın hukuki konumu karşılaştırıldığında aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Her ikisi de Cumhurbaşkanının temsilcisi ve idari yürütme vasıtası olarak nitelendirilmiştir.",
+			"Vali yalnızca idari yürütme vasıtası, kaymakam ise hem temsilci hem idari yürütme vasıtasıdır.",
+			"Vali hem Cumhurbaşkanının temsilcisi hem idari yürütme vasıtasıdır; kaymakam için ise yalnızca idari yürütme vasıtası ifadesi kullanılmıştır.",
+			"Her ikisi de yalnızca idari yürütme vasıtasıdır; temsilcilik sıfatı hiçbirine tanınmamıştır.",
+			"Temsilcilik sıfatı büyükşehir statüsündeki illerin valilerine özgüdür."
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 9. maddesi valiyi “ilde Cumhurbaşkanının temsilcisi ve idari yürütme vasıtası” olarak tanımlar. 27. madde ise kaymakam için yalnızca “ilçede Cumhurbaşkanının idari yürütme vasıtası” ifadesini kullanır; kaymakam bakımından “temsilci” ibaresine yer verilmemiştir. Bu ayrım sınavda en sık sorulan farklardan biridir.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali",
+			"kaymakam",
+			"hukuki-konum"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
 	}
 ]

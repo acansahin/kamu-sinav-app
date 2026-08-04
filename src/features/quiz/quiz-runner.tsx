@@ -8,6 +8,7 @@ import {
 	ListChecks,
 	RotateCcw,
 	Scale,
+	TriangleAlert,
 	Trophy,
 } from "lucide-react";
 import type { Route } from "next";
@@ -29,6 +30,16 @@ import { testSetSlug } from "@/lib/selector/test-sets";
 import { DIFFICULTY_LABELS, type Question } from "@/types/content";
 import type { AnswerIndex, TestResult } from "@/types/progress";
 import { cn } from "@/lib/utils/cn";
+
+/**
+ * Ayarlar bu süre içinde gelmezse depolama çalışmıyor sayılır ve teste yine
+ * başlanır. Gerçek bir okumada bu süre milisaniyelerle ölçülür; eşik yalnızca
+ * "hiç gelmeyecek" durumunu ayırmak için var.
+ */
+const SETTINGS_TIMEOUT_MS = 3000;
+
+/** Ayarlar okunamadığında kullanılan anında geri bildirim tercihi. */
+const DEFAULT_INSTANT_FEEDBACK = true;
 
 interface Props {
 	subjectId: string;
@@ -76,6 +87,8 @@ export function QuizRunner({
 	const [sessionId, setSessionId] = useState("");
 	const [startedAt, setStartedAt] = useState(0);
 	const [result, setResult] = useState<TestResult | null>(null);
+	/** Sonuç hesaplandı ama kalıcı olarak yazılamadı mı? */
+	const [saveFailed, setSaveFailed] = useState(false);
 	/** Yarıda kalmış oturum geri yüklendiyse kullanıcıya bunu söylemek gerekir. */
 	const [resumed, setResumed] = useState(false);
 
@@ -104,19 +117,29 @@ export function QuizRunner({
 		const id = globalThis.crypto.randomUUID();
 		const startedIso = new Date().toISOString();
 
-		await progressRepository.createTestSession({
-			id,
-			kind: "topic-test",
-			subjectId,
-			topicId,
-			// Sabit setlerin tamamı karışıktır; alan sunucu senkronu için korunuyor.
-			difficulty: "karisik",
-			setSlug,
-			questionIds: questions.map((q) => q.id),
-			answers: {},
-			status: "in-progress",
-			startedAt: startedIso,
-		});
+		try {
+			await progressRepository.createTestSession({
+				id,
+				kind: "topic-test",
+				subjectId,
+				topicId,
+				// Sabit setlerin tamamı karışıktır; alan sunucu senkronu için korunuyor.
+				difficulty: "karisik",
+				setSlug,
+				questionIds: questions.map((q) => q.id),
+				answers: {},
+				status: "in-progress",
+				startedAt: startedIso,
+			});
+		} catch {
+			/*
+			 * Depolama açılamıyorsa oturum yalnızca bellekte yaşar: test çözülür,
+			 * sonuç hesaplanır, ama kaydedilmez. Uygulamayı kilitlemek yerine
+			 * çalışan kısmı çalıştırmak doğru davranış — kullanıcı zaten üstteki
+			 * şeritte (DatabaseNotice) durumu görüyor, sonuç ekranında da ayrıca
+			 * uyarılıyor.
+			 */
+		}
 
 		finishing.current = false;
 		setSessionId(id);
@@ -138,10 +161,10 @@ export function QuizRunner({
 	 */
 	const beginSession = useCallback(
 		async (revealAnswered: boolean) => {
-			const saved = await progressRepository.getResumableTestSession(
-				topicId,
-				setSlug,
-			);
+			// Depolama okunamıyorsa sürdürülecek oturum da yoktur; sıfırdan başlanır.
+			const saved = await progressRepository
+				.getResumableTestSession(topicId, setSlug)
+				.catch(() => null);
 
 			if (saved) {
 				// İçerik güncellenmişse kayıtlı cevaplar başka sorulara aitmiş gibi
@@ -190,6 +213,11 @@ export function QuizRunner({
 	 * `instantFeedback`e bağlı ve `useLiveQuery` yüklenene kadar `undefined`
 	 * döner. Erken başlansaydı tercihi kapalı olan kullanıcıya cevaplar açılmış
 	 * gelirdi.
+	 *
+	 * Ama süresiz de beklenmez. `useLiveQuery` depolama açılamadığında sonsuza
+	 * kadar `undefined` döner; beklemek testi hiç başlatmamak olurdu. Depolama
+	 * çalışmasa bile test çözülebilmeli (uyarı zaten üst şeritte), o yüzden
+	 * süre dolunca varsayılan tercihle başlanır.
 	 */
 	useEffect(() => {
 		if (started.current || settings === undefined) return;
@@ -197,10 +225,33 @@ export function QuizRunner({
 		void beginSession(settings.instantFeedback);
 	}, [settings, beginSession]);
 
+	/**
+	 * Ayarlar hiç gelmezse teste yine de başlanır.
+	 *
+	 * `useLiveQuery` depolama açılamadığında sonsuza kadar `undefined` döner;
+	 * yukarıdaki effect o hâlde hiç tetiklenmez ve kullanıcı "Test
+	 * hazırlanıyor…" ekranında kalırdı. Oysa test çözmek için depolama şart
+	 * değil — kaydedilemeyeceği zaten üst şeritte söyleniyor.
+	 */
+	useEffect(() => {
+		if (started.current || settings !== undefined) return;
+
+		const timer = setTimeout(() => {
+			if (started.current) return;
+			started.current = true;
+			void beginSession(DEFAULT_INSTANT_FEEDBACK);
+		}, SETTINGS_TIMEOUT_MS);
+
+		return () => clearTimeout(timer);
+	}, [settings, beginSession]);
+
 	/** Cevap değiştikçe diske yazılır; sayfadan ayrılmak ilerlemeyi silmez. */
 	useEffect(() => {
 		if (!sessionId || result !== null) return;
-		void progressRepository.saveTestProgress(sessionId, { answers });
+		// Ara kaydın başarısızlığı akışı kesmez; sonuç yazması ayrıca uyarıyor.
+		void progressRepository
+			.saveTestProgress(sessionId, { answers })
+			.catch(() => {});
 	}, [answers, sessionId, result]);
 
 	/** Kullanıcı kayıtlı ilerlemeyi bilerek atmak isterse. */
@@ -233,6 +284,10 @@ export function QuizRunner({
 	 * oluyor, oturum "in-progress" kalıyor ve skor test listesine hiç
 	 * düşmüyordu. Yazma başarısız olsa bile sonuç gösterilir; kullanıcının
 	 * emeği ekranda kalmalı.
+	 *
+	 * Ama SESSİZ kalmaz: hata yutulursa kullanıcı skorunun kaydedildiğini
+	 * sanır, ilerleme ekranında bulamaz ve nedenini anlayamaz. Bu yüzden yazma
+	 * hatası sonuç ekranında açıkça bildirilir.
 	 */
 	const finish = useCallback(async () => {
 		if (finishing.current) return;
@@ -274,6 +329,8 @@ export function QuizRunner({
 				),
 				computed.score,
 			);
+		} catch {
+			setSaveFailed(true);
 		} finally {
 			setResult(computed);
 		}
@@ -334,6 +391,25 @@ export function QuizRunner({
 			<div>
 				<Breadcrumb items={crumbs} />
 				<h1 className="mb-6 text-2xl font-bold">Test {setNumber} sonucu</h1>
+
+				{saveFailed && (
+					<div
+						role="alert"
+						className="mb-6 flex items-start gap-2 rounded-xl border border-flag/40 bg-flag-soft p-4"
+					>
+						<TriangleAlert
+							aria-hidden
+							size={20}
+							className="mt-0.5 shrink-0 text-flag"
+						/>
+						<p className="text-fg">
+							<strong className="font-semibold">Bu sonuç kaydedilemedi.</strong>{" "}
+							Aşağıdaki puanınız doğru, ancak ilerlemenize ve
+							istatistiklerinize işlenmedi. Cihazınızda yer olduğundan emin
+							olup testi yeniden çözebilirsiniz.
+						</p>
+					</div>
+				)}
 
 				<Card
 					className={cn(
@@ -459,6 +535,33 @@ export function QuizRunner({
 
 	// --- Çözme ---------------------------------------------------------------
 	if (!question) return null;
+
+	/*
+	 * Oturum kurulmadan şık gösterilmez.
+	 *
+	 * Sorular sunucuda üretildiği için sayfa açılır açılmaz görünür, oysa
+	 * oturum ancak Ayarlar okunduktan sonra kurulur. Arada seçilen bir şık
+	 * `startFresh`in durum sıfırlamasına yakalanıp SESSİZCE siliniyordu:
+	 * kullanıcı şıkka basıyor, açıklama açılıyor, sonra ekran kendiliğinden
+	 * ilk soruya ve "0 cevaplandı"ya dönüyordu. Hızlı bir kullanıcıda ya da
+	 * yavaş bir cihazda güvenilir biçimde tekrarlanıyor (e2e testinde
+	 * yakalandı).
+	 */
+	if (!sessionId) {
+		return (
+			<div>
+				<Breadcrumb items={crumbs} />
+				<h1 className="mb-4 text-xl font-bold">
+					Test {setNumber} <span className="text-fg-subtle">/ {setCount}</span>
+				</h1>
+				<Card>
+					<p role="status" className="text-fg-muted">
+						Test hazırlanıyor…
+					</p>
+				</Card>
+			</div>
+		);
+	}
 
 	const isLast = current === questions.length - 1;
 	const canAdvance = instantFeedback ? isRevealed : true;

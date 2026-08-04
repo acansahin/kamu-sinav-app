@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "port": 3000
+    },
+    {
+      "name": "static",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "out", "-p", "4173", "-L"],
+      "port": 4173
     }
   ]
 }

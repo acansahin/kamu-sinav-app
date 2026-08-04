@@ -1,5 +1,30 @@
 apply plugin: 'com.android.application'
 
+// Sürüm bilgisi version.properties'ten okunur; `-PappVersionCode` /
+// `-PappVersionName` ile ezilebilir (release iş akışı bunu kullanır).
+def versionProps = new Properties()
+def versionPropsFile = rootProject.file('version.properties')
+if (versionPropsFile.exists()) {
+    versionPropsFile.withInputStream { versionProps.load(it) }
+}
+def appVersionName = project.findProperty('appVersionName') ?: versionProps.getProperty('versionName', '1.0.0')
+def appVersionCode = Integer.parseInt((project.findProperty('appVersionCode') ?: versionProps.getProperty('versionCode', '1')).toString())
+
+/*
+ * Release imzalama YALNIZCA android/keystore.properties varsa kurulur.
+ *
+ * Dosya git'te DEĞİLDİR (bkz. android/.gitignore) ve yerel makinede de
+ * bulunmaz; CI onu imzalama sırlarından üretir. Koşullu olması bilinçli:
+ * dosya yokken `assembleDebug` ve `assembleRelease` yine çalışsın, yalnızca
+ * release imzasız çıksın. Aksi hâlde keystore'u olmayan herkesin derlemesi
+ * kırılırdı.
+ */
+def keystorePropsFile = rootProject.file('keystore.properties')
+def keystoreProps = new Properties()
+if (keystorePropsFile.exists()) {
+    keystorePropsFile.withInputStream { keystoreProps.load(it) }
+}
+
 android {
     namespace = "tr.kamusinavakademi.app"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -7,8 +32,8 @@ android {
         applicationId "tr.kamusinavakademi.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode appVersionCode
+        versionName appVersionName
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
@@ -16,8 +41,28 @@ android {
             ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    signingConfigs {
+        if (keystorePropsFile.exists()) {
+            release {
+                storeFile rootProject.file(keystoreProps.getProperty('storeFile'))
+                storePassword keystoreProps.getProperty('storePassword')
+                keyAlias keystoreProps.getProperty('keyAlias')
+                keyPassword keystoreProps.getProperty('keyPassword')
+            }
+        }
+    }
     buildTypes {
         release {
+            if (keystorePropsFile.exists()) {
+                signingConfig signingConfigs.release
+            }
+            /*
+             * R8 kapalı. Capacitor köprüsü eklenti sınıflarını ada göre
+             * yansımayla (reflection) çözer; küçültme bunları budayabilir ve
+             * hata yalnızca çalışma anında, üretimde ortaya çıkar. 15 MB'lık
+             * bir pakette kazanç bu riski karşılamıyor. Açılacaksa Capacitor'ın
+             * consumer kuralları doğrulanmalı ve gerçek cihazda sınanmalıdır.
+             */
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }

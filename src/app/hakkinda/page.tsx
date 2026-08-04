@@ -1,4 +1,10 @@
-import { BookOpenCheck, FileCheck2, Scale, Map as MapIcon } from "lucide-react";
+import {
+	AlertTriangle,
+	BookOpenCheck,
+	FileCheck2,
+	Scale,
+	Map as MapIcon,
+} from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
@@ -67,6 +73,32 @@ export default async function AboutPage() {
 				Bu sayfa uygulamanın iddialarını denetlenebilir kılar: içerik ne zaman
 				derlendi, hangi konu en son ne zaman doğrulandı, sorular nereden geldi.
 			</p>
+
+			{/*
+			 * Sorumluluk reddi denetlenebilirlik iddiasının önüne konulur: sayfanın
+			 * geri kalanı içeriğin ne kadar sağlam olduğunu anlatıyor ve bu, tek
+			 * başına okunduğunda resmîlik izlenimi doğurabilir.
+			 */}
+			<Card className="mb-6 border-flag/40 bg-flag-soft">
+				<p className="flex items-center gap-2 font-bold text-flag">
+					<AlertTriangle aria-hidden size={20} />
+					Bu uygulama resmî değildir
+				</p>
+				<div className="mt-2 space-y-2 text-fg">
+					<p>
+						Kamu Sınav Akademi bağımsız bir hazırlık aracıdır; hiçbir bakanlık,
+						kurum, kuruluş veya sınav merkeziyle bağlantılı değildir ve onlar
+						tarafından onaylanmamıştır. Sorular bu uygulama için hazırlanmıştır;
+						girdiğiniz sınavda çıkacak soruları göstermez.
+					</p>
+					<p>
+						İçerik bilgi amaçlıdır ve hukuki tavsiye değildir. Bağlayıcı olan
+						tek metin, Resmî Gazete&rsquo;de yayımlanan mevzuatın yürürlükteki
+						hâlidir — aşağıdaki doğrulama tarihleri de bunu ölçmek içindir.{" "}
+						<Link href="/kullanim-kosullari">Kullanım Koşulları</Link>
+					</p>
+				</div>
+			</Card>
 
 			{/* --- İçerik sürümü ------------------------------------------------- */}
 			<Card className="mb-6 border-brand/40 bg-brand-soft">

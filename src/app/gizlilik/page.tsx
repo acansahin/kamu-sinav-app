@@ -1,10 +1,11 @@
-import { AlertTriangle, ShieldCheck } from "lucide-react";
+import { AlertTriangle, ShieldCheck, Smartphone } from "lucide-react";
 import type { Metadata } from "next";
 import { Card } from "@/components/ui/card";
+import { isAccountConfigured } from "@/lib/auth/supabase-client";
 import {
 	DATA_CONTROLLER,
 	PRIVACY_NOTICE_UPDATED_AT,
-	isDataControllerComplete,
+	isPrivacyNoticePublishable,
 } from "@/lib/legal/data-controller";
 
 export const metadata: Metadata = {
@@ -26,7 +27,13 @@ export const metadata: Metadata = {
  * Bu sayfa yalnızca bilgilendirmedir; hiçbir yerde onay kutusu yoktur.
  */
 export default function PrivacyPage() {
-	const complete = isDataControllerComplete();
+	/*
+	 * Hesap özelliği bu derlemede var mı? Anahtar yoksa uygulama hiçbir kişisel
+	 * veriyi cihaz dışına çıkarmaz; metnin hesaba dair bölümleri o hâlde
+	 * bilgilendirme niteliğindedir ve okuyucuya bunu söylemek gerekir.
+	 */
+	const accountEnabled = isAccountConfigured();
+	const complete = isPrivacyNoticePublishable(accountEnabled);
 
 	return (
 		<div>
@@ -47,15 +54,30 @@ export default function PrivacyPage() {
 						Bu metin henüz yayına hazır değil
 					</p>
 					<p className="mt-2 text-fg">
-						Veri sorumlusunun kimlik ve iletişim bilgileri doldurulmamış.
-						Kanun bu bilgilerin açıkça yazılmasını zorunlu kılar; eksik
-						bırakıldığında aydınlatma yükümlülüğü karşılanmış sayılmaz.
+						{accountEnabled
+							? "Veri sorumlusunun kimlik ve iletişim bilgileri doldurulmamış. Hesap özelliği bu derlemede açık olduğu için e-posta adresiniz işlenmektedir; Kanun bu durumda veri sorumlusunun adının ve tebligata esas adresinin açıkça yazılmasını zorunlu kılar."
+							: "İletişim adresi doldurulmamış. Bu derlemede hesap özelliği kapalı olduğu için kişisel veri işlenmiyor, ancak içerik hatası ve telif bildirimleri için ulaşılabilir bir kanal bulunmak zorunda."}
 					</p>
 					<p className="mt-2 text-sm text-fg-muted">
 						Geliştirici notu: <code>src/lib/legal/data-controller.ts</code>{" "}
 						dosyasındaki alanları doldurun.
 					</p>
 				</div>
+			)}
+
+			{!accountEnabled && (
+				<Card className="mb-6 border-correct/40 bg-correct-soft">
+					<p className="flex items-center gap-2 font-bold text-correct">
+						<Smartphone aria-hidden size={20} />
+						Bu sürümde hesap özelliği kapalı
+					</p>
+					<p className="mt-2 text-fg">
+						Uygulama tamamen cihazınızda çalışır: giriş yoktur, sunucuya hiçbir
+						veri gönderilmez, kişisel veriniz işlenmez. Aşağıdaki metnin hesap
+						ve eşitlemeye dair bölümleri, özellik ileride açılırsa neyin
+						geçerli olacağını anlatır — bugün uygulanmıyor.
+					</p>
+				</Card>
 			)}
 
 			<Card className="mb-6 border-brand/40 bg-brand-soft">
@@ -92,7 +114,29 @@ export default function PrivacyPage() {
 
 			<div className="prose-okuma max-w-3xl">
 				<h2>1. Veri sorumlusu kim?</h2>
-				{complete ? (
+				{!complete ? (
+					<p>
+						<em>
+							Veri sorumlusunun kimlik ve iletişim bilgileri henüz
+							yayımlanmamıştır.
+						</em>
+					</p>
+				) : !accountEnabled ? (
+					<>
+						<p>
+							Bu sürümde uygulama hiçbir kişisel veriyi cihazınızdan dışarı
+							çıkarmadığı için <strong>veri sorumlusu sıfatı doğmamaktadır</strong>
+							. Yine de içerik hatası, telif bildirimi ve her türlü soru için
+							aşağıdaki adresten ulaşabilirsiniz; hesap özelliği açıldığında bu
+							bölüm künyenin tamamıyla güncellenecektir.
+						</p>
+						<ul>
+							<li>
+								<strong>E-posta:</strong> {DATA_CONTROLLER.email}
+							</li>
+						</ul>
+					</>
+				) : (
 					<>
 						<p>
 							Kişisel verileriniz, veri sorumlusu sıfatıyla{" "}
@@ -118,13 +162,6 @@ export default function PrivacyPage() {
 							)}
 						</ul>
 					</>
-				) : (
-					<p>
-						<em>
-							Veri sorumlusunun kimlik ve iletişim bilgileri henüz
-							yayımlanmamıştır.
-						</em>
-					</p>
 				)}
 
 				<h2>2. Hangi kişisel verileriniz işleniyor?</h2>

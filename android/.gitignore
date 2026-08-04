@@ -53,9 +53,12 @@ captures/
 .idea/navEditor.xml
 
 # Keystore files
-# Uncomment the following lines if you do not want to check your keystore files in.
-#*.jks
-#*.keystore
+# Yükleme anahtarı ASLA git'e girmez: deponun okuma erişimi olan herkes
+# uygulamayı sizin kimliğinizle imzalayabilir hâle gelir ve Play'e yüklenmiş
+# bir anahtar iptal edilemez. Anahtar CI'da KEYSTORE_BASE64 sırrından üretilir.
+*.jks
+*.keystore
+keystore.properties
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild

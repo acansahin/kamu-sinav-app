@@ -340,5 +340,216 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-ukky-011",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "3 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre üst kademe kamu yöneticileriyle yapılacak sözleşmeleri idare adına imzalayacak olanları kim belirler?",
+		"options": [
+			"İlgili bakan",
+			"Cumhurbaşkanı",
+			"Cumhurbaşkanlığı Genel Sekreteri",
+			"Atamaya yetkili amir",
+			"Strateji ve Bütçe Başkanı"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 5. maddesine göre (I) sayılı cetveldeki kadro, pozisyon ve görevlere atananlar sözleşmeli olarak da çalıştırılabilir ve bu sözleşmeleri idare adına imzalayacak olanlar Cumhurbaşkanınca belirlenir. Sözleşme süresi yöneticinin görev süresiyle sınırlıdır.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sozlesme",
+			"imza-yetkisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-ukky-012",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "19/2/2026 tarihli ve 194 sayılı Cumhurbaşkanlığı Kararnamesi ile 3 sayılı Cumhurbaşkanlığı Kararnamesi'nin kapsamında yapılan değişiklik aşağıdakilerden hangisidir?",
+		"options": [
+			"Rektörler kararname kapsamı dışına çıkarılmıştır.",
+			"(II) sayılı cetvel yürürlükten kaldırılmıştır.",
+			"Kararname kapsamına mahallî idarelerin üst yöneticileri de alınmıştır.",
+			"Kamu iktisadi teşebbüsleri ile ekli cetvellerde kadro, pozisyon ve görevlerine yer verilenler hariç kamu işletmeleri kapsam dışına çıkarılmıştır.",
+			"Atama şartlarındaki beş yıllık çalışma süresi üç yıla indirilmiştir."
+		],
+		"correctIndex": 3,
+		"explanation": "194 sayılı Cumhurbaşkanlığı Kararnamesi ile 1. maddeye eklenen cümleye göre kamu iktisadi teşebbüsleri ile ekli cetvellerde kadro, pozisyon ve görevlerine yer verilenler hariç kamu işletmeleri bu Kararname kapsamında yer almaz. Çok yeni bir değişiklik olduğu için eski kaynaklar kamu iktisadi teşebbüslerini hâlâ kapsam içinde gösterir.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kapsam",
+			"kit",
+			"mevzuat-degisikligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-ukky-013",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "3 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre ekli cetvellerde yer almayan kadro, pozisyon ve görevlere atama bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Atama ilgili Cumhurbaşkanı yardımcısı, bakan veya atamaya yetkili amirlerce yapılır; Cumhurbaşkanı yardımcısı ve bakan bu yetkisini alt kademedeki yöneticilere devredebilir.",
+			"Bu kadrolara da yalnızca Cumhurbaşkanı kararıyla atama yapılabilir.",
+			"Atama yetkisi münhasıran Cumhurbaşkanı yardımcılarına aittir ve devredilemez.",
+			"Bu kadrolara atama yapılabilmesi için Genel Sekreterliğin uygun görüşü aranır.",
+			"Bu kadrolara atama yetkisi Devlet Personel Başkanlığına aittir."
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 2. maddesine göre (I) ve (II) sayılı cetvelde yer alan kadro, pozisyon ve görevlere Cumhurbaşkanı kararıyla; cetvellerde sayılmayanlara ise ilgili Cumhurbaşkanı yardımcısı, bakan veya atamaya yetkili amirler tarafından atama yapılır. Cumhurbaşkanı yardımcısı ve bakan bu yetkisini alt kademedeki yöneticilere devredebilir.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"atama-yetkisi",
+			"yetki-devri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-ukky-014",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "3 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre emeklilik ikramiyesinin fazla ödenmesinde uygulanacak oranlar aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"Yaş haddine en fazla üç yıl kalanlarda %20, üç ile altı yıl arasında %30, altı yıldan fazla olanlarda %40",
+			"Yaş haddine en fazla iki yıl kalanlarda %30, iki ile beş yıl arasında %40, beş yıldan fazla olanlarda %50",
+			"Yaş haddine en fazla üç yıl kalanlarda %30, üç yıldan çok altı yıldan az olanlarda (altı yıl dâhil) %40, altı yıldan fazla olanlarda %50",
+			"Bütün hâllerde tek oran uygulanır ve bu oran %50'dir.",
+			"Yaş haddine en fazla beş yıl kalanlarda %30, beş yıldan fazla olanlarda %50"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 6. maddesine göre yaş haddinden emekliliğine en fazla üç yıl kalanlara %30, üç yıldan çok altı yıldan az kalanlara (altı yıl dâhil) %40, altı yıldan fazla kalanlara %50 fazlasıyla emeklilik ikramiyesi ödenir.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"emeklilik-ikramiyesi",
+			"oran"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-ukky-015",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Görev süresi sona eren üst kademe kamu yöneticileri bakımından 3 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Görev süresi sona erenler bir daha aynı göreve atanamaz.",
+			"Görev süresi sona erenler yeniden atanabilir.",
+			"Görev süresi sona erenler yalnızca daha alt bir kadroya atanabilir.",
+			"Yeniden atanabilmeleri için aradan en az bir yıl geçmesi gerekir.",
+			"Yeniden atanmaları ancak Türkiye Büyük Millet Meclisinin onayıyla mümkündür."
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 4. maddesine göre görev süreleri sona erenler yeniden atanabilir. Madde ayrıca Cumhurbaşkanının görevi sona erdiğinde bunların görevlerinin de sona ereceğini, ancak yerlerine atama yapılıncaya kadar görevlerine devam edeceklerini ve görev süreleri dolmadan da Cumhurbaşkanınca görevden alınabileceklerini düzenler.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorev-suresi",
+			"yeniden-atama"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-ukky-016",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Kamu görevlileri arasından (I) sayılı cetveldeki bir kadroya atanan bir yönetici, göreve başlamasından yedi ay sonra görevden alınmıştır. 3 sayılı Cumhurbaşkanlığı Kararnamesi'nin emeklilik ikramiyesine ilişkin hükmü bakımından durumu nedir?",
+		"options": [
+			"Görevden alınma bir disiplin yaptırımı sayıldığı için ikramiye hakkı tamamen düşer.",
+			"Görev süresi ne olursa olsun ikramiyesi %50 fazlasıyla ödenir.",
+			"Görevden alındığı için değil yalnızca istifa ettiği için ikramiye fazlasından yararlanabilirdi.",
+			"En az bir yıl görev yapma şartını sağlamadığından, görevden alınma sebebiyle öngörülen ikramiye fazlasından yararlanamaz.",
+			"Yedi aylık süre bir yıla tamamlanmış sayılarak %30 fazlasıyla ödeme yapılır."
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 6. maddesi, ikramiyenin fazlasıyla ödenmesini iki hâle bağlar: görev süresinin sona ermesi veya en az bir yıl görev yaptıktan sonra görevden alınma. Yedi ay görev yapan bir yönetici bu şartı sağlamadığından fazladan ödemeden yararlanamaz. Görevden alınma bir disiplin yaptırımı değildir; bu, üst kademe yöneticiliğinin güvenceli memuriyetten ayrıldığı noktadır.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"emeklilik-ikramiyesi",
+			"senaryo"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
 	}
 ]

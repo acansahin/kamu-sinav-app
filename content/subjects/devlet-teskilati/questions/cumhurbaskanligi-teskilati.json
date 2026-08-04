@@ -339,5 +339,215 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-cb-011",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Cumhurbaşkanlığı Genel Sekreterliği kaç birimden oluşur?",
+		"options": [
+			"Üç",
+			"Dört",
+			"Beş",
+			"Altı",
+			"Yedi"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 6. maddesine göre Genel Sekreterliğin beş birimi vardır: Hukuk ve Mevzuat Genel Müdürlüğü, Personel ve Prensipler Genel Müdürlüğü, Güvenlik İşleri Genel Müdürlüğü, Destek ve Mali Hizmetler Genel Müdürlüğü ve Koruma Hizmetleri Genel Müdürlüğü.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"genel-sekreterlik",
+			"birimler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-cb-012",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Cumhurbaşkanlığında başdanışman ve danışman görevlendirilmesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Cumhurbaşkanı, danışmanlık hizmetleri ile vereceği diğer görevleri yerine getirmek üzere başdanışman ve danışman atayabilir.",
+			"Başdanışman ve danışmanlar Genel Sekreterin teklifi üzerine Cumhurbaşkanınca atanır.",
+			"Başdanışman ve danışman sayısı en çok on beşle sınırlıdır.",
+			"Başdanışmanlar yalnızca dış politika alanında görevlendirilebilir.",
+			"Danışmanlar Cumhurbaşkanı yardımcılarına karşı sorumludur."
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 3. maddesi, Cumhurbaşkanının danışmanlık hizmetleri ile vereceği diğer görevleri yerine getirmek üzere başdanışman ve danışman atayabileceğini düzenler. Atama için başka bir makamın teklifi aranmaz, sayı sınırı ya da alan sınırı getirilmemiştir; on beş sayısı bakanlıklardaki Bakan Müşavirlerine ilişkindir (m.505).",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"basdanisman",
+			"danisman"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-cb-013",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Cumhurbaşkanlığı Genel Sekreterinin Genel Sekreterlik birimleri üzerindeki konumu bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca mali işlemleri denetleyebilir; diğer işlemler Sayıştay denetimine bırakılmıştır.",
+			"Birimleri denetleme yetkisi Cumhurbaşkanı yardımcılarına aittir.",
+			"Birimlerin faaliyetlerini denetleyebilmesi için Cumhurbaşkanından ayrıca yazılı onay alması gerekir.",
+			"Birimler üzerinde hiyerarşik amirlik yetkisi yoktur; yalnızca koordinasyon sağlar.",
+			"Bütün birimlerin faaliyetlerini, işlemlerini ve hesaplarını denetlemekle görevli ve yetkilidir."
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 5. maddesine göre Genel Sekreter, Genel Sekreterliğin en üst amiridir; bütün birimlerin faaliyetlerini, işlemlerini ve hesaplarını denetlemekle görevli ve yetkilidir. Bu yetki için ayrı bir onay aranmaz ve mali işlemlerle sınırlı değildir. Genel Sekreter, hizmetlerin mevzuata ve Cumhurbaşkanının politika ve talimatlarına uygun yürütülmesinden Cumhurbaşkanına karşı sorumludur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"genel-sekreter",
+			"denetim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-cb-014",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "28/12/2024 tarihli ve 174 sayılı Cumhurbaşkanlığı Kararnamesi ile Cumhurbaşkanlığı teşkilatında yapılan değişiklik aşağıdakilerden hangisidir?",
+		"options": [
+			"Cumhurbaşkanlığı Genel Sekreterliği kaldırılarak görevleri politika kurullarına devredilmiştir.",
+			"Cumhurbaşkanlığı İdari İşler Başkanlığının adı Cumhurbaşkanlığı Genel Sekreterliği, İdari İşler Başkanının unvanı da Genel Sekreter olarak değiştirilmiştir.",
+			"Cumhurbaşkanlığı Genel Sekreterliğinin birim sayısı beşten yediye çıkarılmıştır.",
+			"Strateji ve Bütçe Başkanlığı Genel Sekreterliğin birimleri arasına alınmıştır.",
+			"En yüksek Devlet memuru sıfatı Cumhurbaşkanı Özel Kalem Müdürüne verilmiştir."
+		],
+		"correctIndex": 1,
+		"explanation": "174 sayılı Cumhurbaşkanlığı Kararnamesi ile “Cumhurbaşkanlığı İdari İşler Başkanlığı” ibaresi “Cumhurbaşkanlığı Genel Sekreterliği”, “İdari İşler Başkanı” ibaresi de “Genel Sekreter” olarak değiştirilmiştir. “İdari İşler Başkanı” ifadesini kullanan kaynaklar güncel değildir. En yüksek Devlet memuru sıfatı Genel Sekretere aittir; Strateji ve Bütçe Başkanlığı ise Genel Sekreterliğin birimi değil, Cumhurbaşkanlığına bağlı ayrı bir başkanlıktır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"genel-sekreterlik",
+			"mevzuat-degisikligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-cb-015",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi Cumhurbaşkanlığı Genel Sekreterliği Hukuk ve Mevzuat Genel Müdürlüğünün görevlerinden biri değildir?",
+		"options": [
+			"Türkiye Büyük Millet Meclisince kabul edilen kanunların Anayasaya uygunluğunu incelemek",
+			"Kanunların bir daha görüşülmek üzere geri gönderilmesine ilişkin hazırlıkları yapmak",
+			"Merkezî yönetim bütçe kanunu teklifini hazırlamak ve uygulamasını izlemek",
+			"Kanunların halkoyuna sunulmasına ilişkin işlemleri yürütmek",
+			"Resmî Gazete'nin yayımlanmasını sağlamak"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 7. maddesinde sayılan görevler kanunların Anayasaya uygunluğunun incelenmesi, geri gönderme hazırlıkları, iptal davası hazırlıkları, halkoyuna sunma işlemleri, kanun ve kararnamelerin yayımlanması, mevzuat taslaklarının incelenmesi ve Resmî Gazete'nin yayımlanmasının sağlanmasıdır. Merkezî yönetim bütçe kanunu teklifini hazırlamak, Cumhurbaşkanlığına bağlı ayrı bir kuruluş olan Strateji ve Bütçe Başkanlığının görevidir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hukuk-ve-mevzuat",
+			"gorevler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-cb-016",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'nde büyükelçi unvanı verilmesine ilişkin aşağıdaki karşılaştırmalardan hangisi doğrudur?",
+		"options": [
+			"Hem Özel Kalem Müdürüne hem özel temsilcilere büyükelçi unvanı verilmesi Cumhurbaşkanının takdirindedir.",
+			"Özel Kalem Müdürüne büyükelçi unvanı verilmesi zorunlu, özel temsilcilere verilmesi ihtiyaridir ve unvan görev süresince devam eder.",
+			"Özel Kalem Müdürüne büyükelçi unvanı verilebilir, özel temsilcilere ise mutlaka verilir.",
+			"Büyükelçi unvanı yalnızca Dışişleri Bakanlığı kadrolarındaki görevlilere verilebilir.",
+			"Her iki görevde de unvan, görev sona erdikten sonra da kişide kalır."
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 2. maddesi Cumhurbaşkanı Özel Kalem Müdürüne büyükelçi unvanı “verilir” diyerek bunu zorunlu kılar. 4. madde ise özel temsilcilere büyükelçi unvanı “verilebilir” demekte ve unvanın görev müddetince devam edeceğini belirtmektedir. Aradaki fark bu iki kipin (verilir/verilebilir) karşılaştırılmasında yatar.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"buyukelci-unvani",
+			"ozel-temsilci"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
 	}
 ]

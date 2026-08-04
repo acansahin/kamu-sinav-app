@@ -343,5 +343,216 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-pk-011",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Cumhurbaşkanlığı bünyesinde kurulan politika kurullarının sayısı kaçtır?",
+		"options": [
+			"Sekiz",
+			"Dokuz",
+			"On",
+			"On bir",
+			"On iki"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 20. maddesine göre on politika kurulu vardır: Bilim, Teknoloji ve Yenilik; Eğitim ve Öğretim; Ekonomi; Güvenlik ve Dış Politikalar; Hukuk; Kültür ve Sanat; Sağlık; Sosyal ve Gençlik; Tarım ve Gıda; Yerel Yönetim ve Afet Politikaları Kurulu.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"politika-kurullari",
+			"sayi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-pk-012",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "28/3/2025 tarihli ve 183 sayılı Cumhurbaşkanlığı Kararnamesi ile politika kurulları listesinde yapılan değişiklik aşağıdakilerden hangisidir?",
+		"options": [
+			"Tarım ve Gıda Politikaları Kurulu eklenmiş, Sağlık ile Sosyal ve Gençlik kurullarının adları değişmiştir.",
+			"Maliye ve Bütçe Politikaları Kurulu kurulmuştur.",
+			"Hukuk Politikaları Kurulu kaldırılarak görevleri Genel Sekreterliğe devredilmiştir.",
+			"Kurulların üye sayısı en az üçten en az beşe çıkarılmıştır.",
+			"Kurulların başkanlığı Cumhurbaşkanı yardımcılarına bırakılmıştır."
+		],
+		"correctIndex": 0,
+		"explanation": "183 sayılı Cumhurbaşkanlığı Kararnamesi ile listeye Tarım ve Gıda Politikaları Kurulu eklenmiş; “Sağlık ve Gıda Politikaları Kurulu” Sağlık Politikaları Kurulu, “Sosyal Politikalar Kurulu” ise Sosyal ve Gençlik Politikaları Kurulu adını almıştır. Listede maliye veya bütçe adını taşıyan bir kurul yoktur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"politika-kurullari",
+			"mevzuat-degisikligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-pk-013",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Cumhurbaşkanlığı politika kurullarında başkanvekili nasıl belirlenir?",
+		"options": [
+			"Kurul üyelerinin kendi aralarından salt çoğunlukla seçmesiyle",
+			"Genel Sekreterin teklifi ve Cumhurbaşkanının onayıyla",
+			"Kurulun en kıdemli üyesinin kendiliğinden başkanvekili olmasıyla",
+			"Cumhurbaşkanının, kurul üyelerinden birini başkanvekili olarak görevlendirmesiyle",
+			"İlgili Cumhurbaşkanı yardımcısının görevlendirmesiyle"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 21. maddesine göre kurulların başkanı Cumhurbaşkanıdır ve Cumhurbaşkanı, kurul üyelerinden birini başkanvekili olarak görevlendirir. Başkanvekili üyelerce seçilmez, kıdeme göre de belirlenmez.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "21"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"politika-kurullari",
+			"baskanvekili"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-pk-014",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Yatırım ve Finans Ofisinin teşkilatlanması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Ofisin taşra teşkilatı kurması zorunludur.",
+			"Ofis, gerekli görmesi hâlinde yurtiçinde ve yurtdışında çalışma bürosu açabilir.",
+			"Ofis yalnızca yurtdışında büro açabilir; yurtiçinde merkez dışında birim kuramaz.",
+			"Ofisin merkezi İstanbul'dur ve başka yerde birim açamaz.",
+			"Ofis, bağlı olduğu bakanlığın izniyle büro açabilir."
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 525. maddesine göre Ofisin merkezi Ankara'dadır ve Ofis, gerekli görmesi hâlinde yurtiçinde ve yurtdışında çalışma bürosu açabilir. Ofis bir bakanlığa değil doğrudan Cumhurbaşkanlığına bağlıdır; taşra teşkilatı kurma zorunluluğu getirilmemiştir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "525"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yatirim-ve-finans-ofisi",
+			"teskilat"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-pk-015",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Sayıştay'ın, 1 sayılı Cumhurbaşkanlığı Kararnamesi'nin 37. maddesinde Cumhurbaşkanlığına bağlı kurum ve kuruluşlar arasında sayılmamasının sebebi aşağıdakilerden hangisidir?",
+		"options": [
+			"Sayıştay'ın bir yüksek mahkeme olarak yargı erki içinde yer alması ve idari denetim yapmaması",
+			"Sayıştay'ın Cumhurbaşkanlığı yerine Hazine ve Maliye Bakanlığına bağlı olması",
+			"Sayıştay'ın denetim görevinin 2018'de Devlet Denetleme Kuruluna devredilmiş olması",
+			"Sayıştay'ın yalnızca mahallî idareleri denetlemesi ve merkezî idare dışında kalması",
+			"Sayıştay'ın, kamu idarelerinin gelir, gider ve mallarını Türkiye Büyük Millet Meclisi adına denetlemesi ve yürütmeye bağlı bir kuruluş olmaması"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa'nın 160. maddesine göre Sayıştay, merkezî yönetim bütçesi kapsamındaki kamu idareleri ile sosyal güvenlik kurumlarının bütün gelir ve giderleri ile mallarını Türkiye Büyük Millet Meclisi adına denetler. Denetimini yasama adına yaptığı için yürütmenin başı olan Cumhurbaşkanlığına bağlı kuruluşlar listesinde yer almaz. Aynı gerekçeyle Yükseköğretim Kurulu da bu listede sayılmamıştır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "37"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sayistay",
+			"bagli-kuruluslar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-pk-016",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Cumhurbaşkanlığı bünyesindeki politika kurulları, bağlı kurum ve kuruluşlar ile Yatırım ve Finans Ofisi karşılaştırıldığında aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Politika kurulları öneri geliştirme, görüş verme, izleme ve raporlama işlevi görür.",
+			"Cumhurbaşkanlığına bağlı kurum ve kuruluşlar kanunlardaki ve/veya Cumhurbaşkanlığı kararnamelerindeki hükümlere tabidir.",
+			"Politika kurulları, görev alanlarına giren konularda bakanlıklara bağlayıcı talimat verebilir.",
+			"Yatırım ve Finans Ofisi kamu tüzel kişiliğini haiz, özel bütçeli ve idarî-malî özerkliğe sahiptir.",
+			"Politika kurullarının üyeleri Cumhurbaşkanınca atanır ve kurullar en az üç üyeden oluşur."
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 22. maddesinde sayılan yetkilerin tamamı öneri geliştirme, görüş verme, izleme ve raporlama niteliğindedir. Politika kurullarının bakanlıklar üzerinde hiyerarşik amirlik ya da bağlayıcı talimat yetkisi yoktur; kurullar istişari organlardır. Diğer seçenekler 21, 22, 37 ve 525. maddelerin hükümlerine uygundur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "22"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"politika-kurullari",
+			"bagli-kuruluslar",
+			"ofis"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
 	}
 ]

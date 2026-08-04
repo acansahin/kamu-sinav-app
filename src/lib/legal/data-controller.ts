@@ -6,8 +6,10 @@
  * ulaşılacağı açıkça yazmak zorundadır; boş bırakılan bir metin yükümlülüğü
  * karşılamaz.
  *
- * Boş kaldıkları sürece `/gizlilik` sayfası görünür bir uyarı gösterir —
- * eksikliğin sessizce yayına çıkmaması için.
+ * Eksik kaldıkları sürece `/gizlilik` sayfası görünür bir uyarı gösterir —
+ * eksikliğin sessizce yayına çıkmaması için. Neyin "eksik" sayıldığı hesap
+ * özelliğinin açık olup olmamasına göre değişir; bkz.
+ * `isPrivacyNoticePublishable`.
  *
  * Ad alanı gerçek kişi için "Ad Soyad", tüzel kişi için unvandır. Adres,
  * KVKK başvurularının yazılı olarak gönderilebileceği tebligata esas adres
@@ -32,7 +34,7 @@ export const DATA_CONTROLLER: DataController = {
 	address: "",
 };
 
-/** Aydınlatma metninin yayımlanabilir olması için gereken asgari alanlar dolu mu? */
+/** Veri sorumlusu künyesinin KVKK'nın saydığı unsurları eksiksiz mi? */
 export function isDataControllerComplete(
 	controller: DataController = DATA_CONTROLLER,
 ): boolean {
@@ -41,6 +43,31 @@ export function isDataControllerComplete(
 		controller.email.trim().length > 0 &&
 		controller.address.trim().length > 0
 	);
+}
+
+/**
+ * Aydınlatma metni bu derlemede yayımlanabilir mi?
+ *
+ * Eşik hesap özelliğine bağlıdır ve bu bilinçli bir ayrımdır:
+ *
+ *  - **Hesap kapalıyken** (Supabase anahtarı yok) uygulama hiçbir kişisel
+ *    veriyi cihaz dışına çıkarmaz. Veri sorumlusu sıfatını doğuran bir işleme
+ *    faaliyeti yoktur; tebligata esas adres istemek anlamsız olur. Yine de bir
+ *    **iletişim kanalı** gerekir: hem içerik hatası/telif bildirimi için, hem
+ *    de Google Play geliştirici e-postasını zorunlu tuttuğu için.
+ *  - **Hesap açıldığında** e-posta adresi işlenmeye başlar; künyenin tamamı
+ *    (ad/unvan ve tebligat adresi) zorunlu olur.
+ *
+ * Böylece hesapsız bir derleme yalnızca eksik adres yüzünden "yayına hazır
+ * değil" uyarısı göstermez, ama anahtar eklendiği anda uyarı kendiliğinden
+ * geri gelir.
+ */
+export function isPrivacyNoticePublishable(
+	accountEnabled: boolean,
+	controller: DataController = DATA_CONTROLLER,
+): boolean {
+	if (accountEnabled) return isDataControllerComplete(controller);
+	return controller.email.trim().length > 0;
 }
 
 /**

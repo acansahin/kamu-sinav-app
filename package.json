@@ -13,6 +13,7 @@
     "build": "next build",
     "postbuild": "tsx scripts/build-precache-manifest.ts",
     "icons:build": "tsx scripts/generate-icons.ts",
+    "store:screenshots": "tsx scripts/capture-store-screenshots.ts",
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
@@ -25,6 +26,7 @@
   },
   "dependencies": {
     "@capacitor/android": "^8.4.2",
+    "@capacitor/app": "^8.1.1",
     "@capacitor/core": "^8.4.2",
     "@supabase/supabase-js": "^2.110.8",
     "class-variance-authority": "^0.7.1",

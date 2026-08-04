@@ -348,5 +348,216 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-mi-011",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "442 sayılı Köy Kanunu'na göre nüfusu iki bin ile yirmi bin arasında olan yerleşim yerlerine ne ad verilir?",
+		"options": [
+			"Köy",
+			"Kasaba",
+			"Şehir",
+			"Belde",
+			"Bucak"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 1. maddesine göre nüfusu iki binden aşağı olan yerleşim yerleri köy, iki bin ile yirmi bin arasındakiler kasaba, yirmi binden çok olanlar ise şehir sayılır. Nüfusu iki binden aşağı olsa dahi belediye teşkilatı bulunan nahiye, kaza ve vilayet merkezleri kasaba sayılır ve Belediye Kanunu'na tabidir.",
+		"legalRef": {
+			"law": "442 sayılı Köy Kanunu",
+			"lawId": "442",
+			"article": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koy",
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-mi-012",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5393 sayılı Belediye Kanunu'na göre belediye meclisi ihtisas komisyonları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Komisyonlar belediye başkanının belirleyeceği kamu görevlilerinden oluşur.",
+			"Komisyon üye sayısı en az beş en fazla dokuzdur.",
+			"Meclis üyeleri arasından en az üç en fazla beş kişiden oluşur; il ve ilçe belediyeleri ile nüfusu 10.000'in üzerindeki belediyelerde plan ve bütçe ile imar komisyonlarının kurulması zorunludur.",
+			"Bütün belediyelerde yalnızca denetim komisyonu kurulur; ihtisas komisyonu kurulamaz.",
+			"Komisyonların kurulması her belediyede zorunludur ve üye sayısı meclisçe serbestçe belirlenir."
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 24. maddesine göre ihtisas komisyonları meclis üyeleri arasından en az üç en fazla beş kişiden oluşur. İl ve ilçe belediyeleri ile nüfusu 10.000'in üzerindeki belediyelerde plan ve bütçe ile imar komisyonlarının kurulması zorunludur; diğer belediyelerde komisyon kurmak ihtiyaridir.",
+		"legalRef": {
+			"law": "5393 sayılı Belediye Kanunu",
+			"lawId": "5393",
+			"article": "24"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"belediye-meclisi",
+			"ihtisas-komisyonu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-mi-013",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "442 sayılı Köy Kanunu'na göre köyün hukuki niteliği bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Köy, taşınır ve taşınmaz mallara sahip olan ve kanunla kendisine verilen işleri yapan başlı başına bir varlıktır; buna şahsı manevi denir.",
+			"Köy, bağlı bulunduğu ilçenin tüzel kişiliği içinde yer alan bir birimdir; ayrı tüzel kişiliği yoktur.",
+			"Köyün tüzel kişiliği yalnızca nüfusu bin beş yüzü aşan köyler için tanınmıştır.",
+			"Köy, il özel idaresinin bir alt birimi olarak taşınmaz mal edinemez.",
+			"Köyün tüzel kişiliği her yıl valilikçe yenilenen bir kararla devam eder."
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 7. maddesine göre köy; taşınır ve taşınmaz mallara sahip olan ve kanunla kendisine verilen işleri yapan başlı başına bir varlıktır ve buna şahsı manevi (tüzel kişilik) denir. Köyün tüzel kişiliği nüfusa veya idari bir karara bağlı değildir; mahallî idare olmasının doğal sonucudur.",
+		"legalRef": {
+			"law": "442 sayılı Köy Kanunu",
+			"lawId": "442",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koy",
+			"tuzel-kisilik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-mi-014",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5302 sayılı İl Özel İdaresi Kanunu'na göre valinin katılamadığı il encümeni toplantısına kim başkanlık eder?",
+		"options": [
+			"İl genel meclisi başkanı",
+			"İl genel meclisinin seçtiği üyelerin en kıdemlisi",
+			"Valinin görevlendireceği vali muavini",
+			"Encümen üyeleri arasından o toplantı için seçilen üye",
+			"Genel sekreter"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 25. maddesine göre il encümeni valinin başkanlığında, genel sekreter ile il genel meclisinin her yıl kendi üyeleri arasından seçeceği üç üye ve valinin her yıl birim amirleri arasından seçeceği iki üyeden oluşur; valinin katılamadığı toplantılara genel sekreter başkanlık eder. Belediye encümeninde ise başkanın katılamadığı toplantılara görevlendireceği başkan yardımcısı veya encümen üyesi başkanlık eder.",
+		"legalRef": {
+			"law": "5302 sayılı İl Özel İdaresi Kanunu",
+			"lawId": "5302",
+			"article": "25"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"il-encumeni",
+			"baskanlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-mi-015",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5393 sayılı Belediye Kanunu'na göre belediye meclisi ihtisas komisyonlarının işi sonuçlandırma süreleri aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"İmar komisyonu en fazla beş iş günü, diğer komisyonlar en fazla on iş günü",
+			"İmar komisyonu en fazla on iş günü, diğer komisyonlar en fazla beş iş günü",
+			"Bütün komisyonlar için en fazla on beş iş günü",
+			"Bütün komisyonlar için en fazla üç iş günü",
+			"İmar komisyonu en fazla bir ay, diğer komisyonlar en fazla on beş gün"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 24. maddesine göre imar komisyonu en fazla on iş günü, diğer komisyonlar ise en fazla beş iş günü içinde kendilerine havale edilen işleri sonuçlandırır. İmar işlerinin teknik incelemesi daha uzun sürdüğü için imar komisyonuna iki katı süre tanınmıştır.",
+		"legalRef": {
+			"law": "5393 sayılı Belediye Kanunu",
+			"lawId": "5393",
+			"article": "24"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ihtisas-komisyonu",
+			"sure"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-mi-016",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "İl özel idaresinin organlarının belediyeninkilerle karşılaştırılması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"İl özel idaresinde belediye başkanına karşılık gelen organ, atamayla göreve gelen validir; belediyede ise bu organ seçimle gelen belediye başkanıdır.",
+			"Her iki idarede de yürütme organı seçimle göreve gelir.",
+			"İl özel idaresinin yürütme organı il genel meclisi başkanıdır.",
+			"Vali, il özel idaresinin organı değil yalnızca vesayet makamıdır.",
+			"Belediye encümenine vali, il encümenine belediye başkanı başkanlık eder."
+		],
+		"correctIndex": 0,
+		"explanation": "5302 sayılı Kanun'un 3. maddesine göre il özel idaresinin organları il genel meclisi, il encümeni ve validir. Belediyede bunlara karşılık gelen organlar belediye meclisi, belediye encümeni ve belediye başkanıdır. Ayırt edici nokta şudur: il özel idaresinde yürütme organı olan vali atamayla gelir ve aynı zamanda merkezî idarenin taşradaki başıdır; belediyede ise belediye başkanı seçimle gelir. Vali bir vesayet makamı değil, doğrudan il özel idaresinin organıdır.",
+		"legalRef": {
+			"law": "5302 sayılı İl Özel İdaresi Kanunu",
+			"lawId": "5302",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"il-ozel-idaresi",
+			"organ",
+			"karsilastirma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
 	}
 ]

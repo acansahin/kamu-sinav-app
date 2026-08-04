@@ -57,6 +57,8 @@ export function ExamRunner({ templates, pool, subjectNames, topics }: Props) {
 	const [remaining, setRemaining] = useState(0);
 	const [confirming, setConfirming] = useState(false);
 	const [result, setResult] = useState<ExamResult | null>(null);
+	/** Sonuç hesaplandı ama kalıcı olarak yazılamadı mı? */
+	const [saveFailed, setSaveFailed] = useState(false);
 	const [resumable, setResumable] = useState<ExamSession | null>(null);
 
 	const questionsById = useMemo(
@@ -159,20 +161,30 @@ export function ExamRunner({ templates, pool, subjectNames, topics }: Props) {
 			setResult(computed);
 			setPhase("result");
 
-			await progressRepository.recordAttempts(
-				answered.map(({ question: q, selectedIndex }) => ({
-					questionId: q.id,
-					subjectId: q.subjectId,
-					topicId: q.topicId,
-					difficulty: q.difficulty,
-					selectedIndex,
-					isCorrect: selectedIndex === q.correctIndex,
-					durationMs: Math.round(elapsedMs / Math.max(1, questions.length)),
-					context: "exam" as const,
-					sessionId: session.id,
-				})),
-			);
-			await progressRepository.completeExamSession(session.id, computed);
+			/*
+			 * Yazma başarısız olsa bile sonuç ekranda kalır — iki saatlik bir deneme
+			 * sınavının çıktısı bir depolama hatası yüzünden silinemez. Ama hata
+			 * yutulmaz: sessiz kalırsa kullanıcı sonucun kaydedildiğini sanır ve
+			 * ilerleme ekranında bulamayınca nedenini anlayamaz.
+			 */
+			try {
+				await progressRepository.recordAttempts(
+					answered.map(({ question: q, selectedIndex }) => ({
+						questionId: q.id,
+						subjectId: q.subjectId,
+						topicId: q.topicId,
+						difficulty: q.difficulty,
+						selectedIndex,
+						isCorrect: selectedIndex === q.correctIndex,
+						durationMs: Math.round(elapsedMs / Math.max(1, questions.length)),
+						context: "exam" as const,
+						sessionId: session.id,
+					})),
+				);
+				await progressRepository.completeExamSession(session.id, computed);
+			} catch {
+				setSaveFailed(true);
+			}
 		},
 		[session, questions, remaining, subjectNames],
 	);
@@ -529,6 +541,27 @@ export function ExamRunner({ templates, pool, subjectNames, topics }: Props) {
 			<div>
 				<h1 className="mb-1 text-2xl font-bold">Sınav Analizi</h1>
 				<p className="mb-6 text-fg-muted">{session.templateName}</p>
+
+				{saveFailed && (
+					<div
+						role="alert"
+						className="mb-6 flex items-start gap-2 rounded-xl border border-flag/40 bg-flag-soft p-4"
+					>
+						<AlertTriangle
+							aria-hidden
+							size={20}
+							className="mt-0.5 shrink-0 text-flag"
+						/>
+						<p className="text-fg">
+							<strong className="font-semibold">
+								Bu sınav sonucu kaydedilemedi.
+							</strong>{" "}
+							Aşağıdaki analiz doğru ve bu sayfada kalır, ancak ilerlemenize ve
+							istatistiklerinize işlenmedi. Ayrılmadan önce sonuçlarınızı not
+							almak isteyebilirsiniz.
+						</p>
+					</div>
+				)}
 
 				<Card
 					className={cn(

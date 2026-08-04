@@ -34,6 +34,8 @@ edilirse `npm run build` değil, Android paketi bozulur — yani hata geç fark 
 | `npm test` | İçeriği derler, sonra Vitest |
 | `npm run typecheck` | `tsc --noEmit` |
 | `npm run android:sync` | Build alır ve `out/`u Android projesine kopyalar |
+| `npm run icons:build` | İkonları ve Play mağaza görsellerini koddan üretir |
+| `npm run store:screenshots` | Mağaza ekran görüntülerini gerçek uygulamadan alır |
 
 ## Web yayını (GitHub Pages)
 
@@ -57,7 +59,8 @@ kök tabanlıdır ve Android paketi bozulmaz. Bu değeri elle sabitlemeyin.
 ile dışlanmıştır; kök `.gitignore` bunları tekrarlamaz.
 
 - **APK yerel makinede derlenmez.** Android SDK kurulu değildir ve kurulması gerekmez;
-  APK yalnızca `.github/workflows/android.yml` içinde üretilir (Java 21 + AGP).
+  debug APK yalnızca `.github/workflows/android.yml`, imzalı AAB ise
+  `.github/workflows/android-release.yml` içinde üretilir (Java 21 + AGP).
 - Sıra bağlayıcıdır: `npm run build` → `cap sync android` → `gradlew assembleDebug`.
   `out/` yoksa Capacitor kopyalayacak bir şey bulamaz.
 - `appId` (`tr.kamusinavakademi.app`) bir Java paket adıdır: küçük harf, yalnızca nokta
@@ -65,6 +68,28 @@ ile dışlanmıştır; kök `.gitignore` bunları tekrarlamaz.
   yeniden üretilmesini gerektirir.
 - Debug imzalama anahtarını Android Gradle Plugin kendisi üretir; ayrıca keystore
   yönetmek gerekmez.
+
+### Yayın imzalama ve sürüm
+
+Release imzalama **yalnızca `android/keystore.properties` varsa** kurulur
+(`android/app/build.gradle`). Dosya ve keystore git'te değildir; release iş akışı
+ikisini de `KEYSTORE_BASE64`, `KEYSTORE_PASSWORD`, `KEY_ALIAS`, `KEY_PASSWORD`
+sırlarından üretir. Koşullu olması bilinçlidir: anahtarı olmayan bir makinede
+`assembleDebug` ve `assembleRelease` yine çalışsın, yalnızca release imzasız çıksın.
+
+Sürüm bilgisi `android/version.properties` içindedir. `versionCode` Play'de her
+yüklemede artmak zorundadır ve release iş akışı bunu `-PappVersionCode` ile
+`github.run_number`dan geçirir — elle artırmayı unutmak en sık yapılan yükleme
+hatasıdır.
+
+`minifyEnabled` bilinçli olarak **kapalıdır**: R8, Capacitor köprüsünün ada göre
+yansımayla çözdüğü eklenti sınıflarını budayabilir ve hata yalnızca üretimde
+görünür.
+
+Mağaza metinleri, veri güvenliği ve içerik derecelendirme cevapları `store/`
+altındadır; görseller `npm run icons:build` ve `npm run store:screenshots` ile
+üretilir, elle düzenlenmez. Ekran görüntüleri **anahtarsız** derlemeden alınır —
+yayınlanan pakette hesap özelliği kapalıdır ve başlıkta hesap ikonu yoktur.
 
 ### İkon, splash ve marka rengi
 
@@ -207,6 +232,15 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   hızlı ve kolay test edilir. Yeni iş mantığı `features/` değil `lib/` altına yazılır.
 - **Rota bağlantıları `lib/routes.ts` üzerinden.** `typedRoutes` açık olduğu için şablon
   dizesi bağlantılar reddedilir; dönüştürme tek yerde toplanmıştır.
+- **Geri gezinme tek yerden.** `useBackNavigation` (`components/layout/`) kök düzende
+  BİR KEZ çağrılır; hem başlıktaki tuş hem Android donanım tuşu aynı `goBack`e bağlanır.
+  Geçmiş derinliği sayacı bileşen içinde tutulduğu için ikinci bir çağrı ikinci bir sayaç
+  doğurur ve iki tuş uyumsuz davranmaya başlar. `BackButton` yalnızca görünümdür.
+- **Depolama yokluğu uygulamayı kilitlemez.** IndexedDB açılamazsa (gizli mod, kota, eski
+  WebView) `checkDatabase()` bunu bir kez yoklar ve `DatabaseNotice` şeridi durumu söyler;
+  konu özetleri, testler ve denemeler içerik dosyalarından okunduğu için çalışmaya devam
+  eder. Kaybolan yalnızca ilerleme kaydıdır — yeni bir Dexie çağrısı eklerken hata yolunu
+  da yazın, `useLiveQuery` hata hâlinde `undefined` dönüp sonsuz iskelet gösterir.
 
 ## Erişilebilirlik sözleşmesi
 
@@ -233,6 +267,13 @@ Anahtar veya şekil değişirse o betiği de güncelleyin.
   bozukluk ancak Capacitor paketinde ya da çevrimdışı kullanımda ortaya çıkar.
   Şüphelenirseniz `postbuild` çıktısındaki dosya sayısına bakın; düşükse
   `.next/` ve `out/` silinip build tekrarlanmalıdır.
+
+  Aynı bozukluk `.next/` **kısmen silindiğinde** de oluşur (OneDrive altında
+  `rm -rf` kilitli dosyalarda sessizce başarısız olabilir) ve o hâlde sayı daha
+  ince bir yerden düşer: sayfalar üretilir ama RSC yükleri (`out/**/*.txt`)
+  yazılmaz. Ölçülen örnek: sağlam build 2037 kayıt / 1802 `.txt`, bozuk build
+  1233 kayıt / neredeyse hiç `.txt`. İkisinde de sayfalar açıldığı için fark
+  yalnızca bu sayıdan anlaşılır.
 
 - **Türkçe metinde `toLowerCase()` kullanmayın.** Varsayılan yerel ayar "I" harfini
   "i" yapar; Türkçede "ı" olmalıdır. Arama ve karşılaştırmalarda

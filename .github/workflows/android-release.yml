@@ -1,0 +1,99 @@
+name: Android Release (AAB)
+
+# Yalnızca elle tetiklenir. `push` tetikleyicisi bilinçli olarak yoktur:
+# imzalı bir paket üretmek yayına aday bir çıktıdır ve her seferinde bilinçli
+# karar gerektirir. Debug APK için .github/workflows/android.yml kullanılır.
+on:
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      # Sırlar eksikse iş burada, anlaşılır bir mesajla düşer. Aksi hâlde
+      # Gradle imzasız bir paket üretir ve bu ancak Play yüklemeyi reddedince
+      # fark edilir.
+      - name: İmzalama sırlarını doğrula
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          eksik=""
+          [ -z "$KEYSTORE_BASE64" ] && eksik="$eksik KEYSTORE_BASE64"
+          [ -z "$KEYSTORE_PASSWORD" ] && eksik="$eksik KEYSTORE_PASSWORD"
+          [ -z "$KEY_ALIAS" ] && eksik="$eksik KEY_ALIAS"
+          [ -z "$KEY_PASSWORD" ] && eksik="$eksik KEY_PASSWORD"
+          if [ -n "$eksik" ]; then
+            echo "::error::Eksik depo sırrı:$eksik — Settings > Secrets and variables > Actions"
+            exit 1
+          fi
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      # Capacitor 8 / Android Gradle Plugin Java 21 ister.
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: android-actions/setup-android@v3
+
+      - run: npm ci
+
+      # Hesap özelliği bilinçli olarak KAPALI: Supabase anahtarı geçilmez.
+      # Anahtar olmadan authProvider yerel kimliğe düşer, hesap ikonu hiç
+      # render edilmez ve uygulama cihaz dışına hiçbir kişisel veri
+      # göndermez (bkz. AGENTS.md, "Hesap özelliği isteğe bağlıdır").
+      - name: Statik export üret
+        run: npm run build
+
+      - name: Web varlıklarını Android projesine kopyala
+        run: npx cap sync android
+
+      # Keystore ve parolalar diske yalnızca burada, iş boyunca yazılır;
+      # runner iş bitince imha edilir. Dosyaların ikisi de .gitignore'dadır.
+      - name: İmzalama anahtarını hazırla
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          echo "$KEYSTORE_BASE64" | base64 -d > android/upload-keystore.jks
+          cat > android/keystore.properties <<EOF
+          storeFile=upload-keystore.jks
+          storePassword=$KEYSTORE_PASSWORD
+          keyAlias=$KEY_ALIAS
+          keyPassword=$KEY_PASSWORD
+          EOF
+
+      # versionCode run_number'dan gelir: Play aynı veya daha düşük bir
+      # versionCode'u reddeder, elle artırmayı unutmak en sık yapılan hatadır.
+      - name: İmzalı AAB ve APK derle
+        working-directory: android
+        run: |
+          chmod +x ./gradlew
+          ./gradlew bundleRelease assembleRelease --no-daemon \
+            -PappVersionCode=${{ github.run_number }}
+
+      - name: AAB'yi yükle
+        uses: actions/upload-artifact@v4
+        with:
+          name: kamu-sinav-akademi-release-aab
+          path: android/app/build/outputs/bundle/release/*.aab
+          retention-days: 30
+
+      # APK, Play'e yüklenmez; imzalı paketi gerçek cihazda denemek içindir.
+      - name: APK'yı yükle
+        uses: actions/upload-artifact@v4
+        with:
+          name: kamu-sinav-akademi-release-apk
+          path: android/app/build/outputs/apk/release/*.apk
+          retention-days: 30

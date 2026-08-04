@@ -67,15 +67,24 @@ test("konu özetinden testine geçilir ve sonuç kaydedilir", async ({ page }) =
 	await expect(page.getByText("Disiplin Cezaları")).toBeVisible();
 });
 
-test("her test dört zorluk seviyesini birlikte içerir", async ({ page }) => {
-	// Ürün kararı: kullanıcı zorluk seçmez, her test kolaydan uzmana yayılır.
+test("test listesi numaralı setleri ve çözülme durumunu gösterir", async ({
+	page,
+}) => {
+	/*
+	 * Ürün kararı: kullanıcı zorluk ya da soru sayısı SEÇMEZ; liste sabit,
+	 * numaralı setlerden oluşur ve kartın söylediği tek şey hangi test olduğu,
+	 * kaç soru içerdiği ve çözülüp çözülmediğidir.
+	 *
+	 * Her testin dört zorluk seviyesini birlikte içerdiği ayrı bir güvencedir
+	 * ve derleme zamanı seçicisine aittir — `tests/unit/test-sets.test.ts`
+	 * içinde ("dolu testlerin her birinde dört seviye de bulunur") ölçülür.
+	 * Burada ölçülmesi anlamsız: kart zorluk dağılımını göstermiyor.
+	 */
 	await page.goto("/testler/657-dmk/disiplin-cezalari/");
 
 	const ilkTest = page.getByRole("link", { name: /^Test 1:/ });
-	for (const seviye of ["kolay", "orta", "zor", "uzman"]) {
-		await expect(ilkTest).toContainText(seviye);
-	}
 	await expect(ilkTest).toContainText(`${TEST_BOYU} soru`);
+	await expect(ilkTest).toContainText("Çözülmedi");
 });
 
 test("her soruda mevzuat dayanağı ve hata bildirimi görünür", async ({
@@ -98,10 +107,26 @@ test("yanlış cevap tekrar planına girer", async ({ page }) => {
 	await page.goto("/testler/anayasa/genel-esaslar/test-1/");
 
 	for (let i = 0; i < TEST_BOYU; i += 1) {
+		/*
+		 * Şık seçmeden ÖNCE doğru soruda olduğumuz doğrulanır. Anında geri
+		 * bildirim açıkken şık seçilince açıklama paneli açılır ve düzen kayar;
+		 * bu geçiş sırasında "ilk şık etiketi" hâlâ önceki soruya ait olabilir.
+		 * O hâlde yeni soru cevapsız kalır, `canAdvance` false döner ve tuş
+		 * hiç etkinleşmediği için test zaman aşımına uğrardı.
+		 */
+		await expect(
+			page.getByText(new RegExp(`${i + 1}\\s*/\\s*${TEST_BOYU}`)),
+		).toBeVisible();
+
 		await sikSec(page);
-		await page
-			.getByRole("button", { name: i === TEST_BOYU - 1 ? "Testi bitir" : "Sonraki" })
-			.click();
+
+		const ilerle = page.getByRole("button", {
+			name: i === TEST_BOYU - 1 ? "Testi bitir" : "Sonraki",
+		});
+		// Tuş ancak soru açıldıktan sonra etkinleşir; beklemek düzenin de
+		// oturmasını sağlar, tıklama şık etiketine takılmaz.
+		await expect(ilerle).toBeEnabled();
+		await ilerle.click();
 	}
 
 	await page.goto("/yanlislarim/");

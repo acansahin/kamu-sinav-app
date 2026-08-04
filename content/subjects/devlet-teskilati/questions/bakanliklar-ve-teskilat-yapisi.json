@@ -344,5 +344,215 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-bak-011",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bir bakanlık, diğer bakanlıkların hizmet alanına giren faaliyetlerinde ne yapmakla sorumludur?",
+		"options": [
+			"Faaliyeti durdurup konuyu tamamen ilgili bakanlığa devretmekle",
+			"İlgili bakanlıklara danışmak ve gerekli işbirliği ile koordinasyonu sağlamakla",
+			"Cumhurbaşkanından her defasında yazılı izin almakla",
+			"Konuyu ilgili politika kurulunun onayına sunmakla",
+			"Faaliyeti yalnızca ortak bir yönetmelik çıkararak yürütmekle"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 507. maddesine göre bakanlıklar, diğer bakanlıkların hizmet alanına giren faaliyetlerinde ilgili bakanlıklara danışmak ve gerekli işbirliği ile koordinasyonu sağlamaktan sorumludur. Faaliyetin devri, ayrı bir izin ya da kurul onayı öngörülmemiştir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "507"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koordinasyon",
+			"bakanlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-bak-012",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bakanlıkların idari düzenleme yapma yetkisi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bakanlıklar hiçbir şekilde idari düzenleme yapamaz; bu yetki yalnızca Cumhurbaşkanına aittir.",
+			"Bakanlıklar ancak diğer bakanlıklarla birlikte ortak düzenleme yapabilir.",
+			"Bakanlıklar yalnızca taşra teşkilatını ilgilendiren konularda düzenleme yapabilir.",
+			"Bakanlıklar, görev, yetki ve sorumluluk alanlarına giren konularda idari düzenlemeler yapabilir.",
+			"Bakanlıkların yaptığı idari düzenlemeler ilgili politika kurulunun onayıyla yürürlüğe girer."
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 508. maddesi, bakanlıkların görev, yetki ve sorumluluk alanlarına giren konularda idari düzenlemeler yapabileceğini açıkça öngörür. Yetki ortak düzenleme şartına, taşrayla sınırlı bir alana veya kurul onayına bağlanmamıştır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "508"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"idari-duzenleme",
+			"bakanlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-bak-013",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bakan yardımcısı kadroları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Atama işlemi yapıldığı anda, başka bir işleme gerek kalmaksızın ihdas edilerek Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesine eklenmiş sayılır.",
+			"Kadroların ihdası için ayrıca Cumhurbaşkanı kararı alınması zorunludur.",
+			"Kadrolar ancak Türkiye Büyük Millet Meclisinin çıkaracağı kanunla ihdas edilebilir.",
+			"Kadrolar ilgili bakanın teklifi üzerine Strateji ve Bütçe Başkanlığınca ihdas edilir.",
+			"Kadroların ihdası için Genel Sekreterliğin uygun görüşü aranır."
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 504. maddesine göre bakan yardımcısı kadroları, atama işlemi yapıldığı anda herhangi bir işleme gerek kalmaksızın ihdas edilerek Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesine eklenmiş sayılır. Aynı yöntem 505. maddede Bakan Müşaviri kadroları için de öngörülmüştür.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "504"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bakan-yardimcisi",
+			"kadro"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-bak-014",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bakanlıkların bağlı kuruluşlarındaki hiyerarşik kademeler aşağıdakilerden hangisinde doğru sıralanmıştır?",
+		"options": [
+			"Bakan Yardımcılığı → Genel Müdürlük → Daire Başkanlığı",
+			"Müsteşarlık → Genel Müdürlük → Daire Başkanlığı",
+			"Genel Müdürlük → Daire Başkanlığı → ihtiyaca göre Şube Müdürlüğü",
+			"Genel Müdürlük → Bölge Müdürlüğü → Şube Müdürlüğü → Şeflik",
+			"Başkanlık → Genel Müdürlük → Daire Başkanlığı → Şeflik"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 509. maddesine göre bağlı kuruluşların hiyerarşik kademeleri Genel Müdürlük, ona bağlı Daire Başkanlığı ve ihtiyaca göre kurulan Şube Müdürlüğüdür. Bakan Yardımcılığı merkez teşkilatının ilk kademesidir; Bölge Müdürlüğü ise taşra teşkilatına aittir. Müsteşarlık kademesi 2018'de kaldırılmıştır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "509"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bagli-kuruluslar",
+			"hiyerarsik-kademe"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-bak-015",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre “misyon şefi” kavramı neyi ifade eder?",
+		"options": [
+			"Dış temsilcilik bünyesinde görev yapan, Dışişleri Bakanlığı dışındaki kurumlara mensup görevlilerden oluşan birimin amirini",
+			"Yurtdışı teşkilatında görevli bütün kamu görevlilerinin en kıdemlisini",
+			"Konsoloslukların başında bulunan başkonsolos veya konsolosu",
+			"Diplomatik temsilciliğin büyükelçi, daimî temsilci, temsilci, elçi, ortaelçi veya maslahatgüzar unvanlı en üst yöneticisini",
+			"Dış temsilciliklerde mali işlemleri yürütmekle görevli yöneticiyi"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 510. maddesine göre misyon şefi, diplomatik temsilciliğin büyükelçi, daimî temsilci, temsilci, elçi, ortaelçi veya maslahatgüzar unvanlı en üst yöneticisidir. Dışişleri Bakanlığı dışındaki kurumlara mensup görevlilerden oluşan birimler ise aynı maddede “ihtisas birimi” olarak tanımlanmıştır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "510"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurtdisi-teskilat",
+			"misyon-sefi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-bak-016",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir bakanlığın genel müdürü, kendisine ait bazı imza yetkilerini daire başkanlarına devretmek istemektedir. 1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bu devir bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Genel müdür yetkilerinin bir kısmını, sınırlarını açıkça belirtmek ve yazılı olmak kaydıyla devredebilir; devir uygun araçlarla duyurulur.",
+			"Yetki devri yalnızca bakana tanınmış bir yetki olduğundan genel müdür devir yapamaz.",
+			"Genel müdür yetkilerinin tamamını devredebilir; kısmi devir mümkün değildir.",
+			"Devir sözlü olarak da yapılabilir; yazılı olma şartı yalnızca bakanın devirleri için aranır.",
+			"Devir için Genel Sekreterliğin önceden uygun görüşünün alınması zorunludur."
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 506. maddesi yetki devrini yalnızca bakana değil, “her kademedeki bakanlık yöneticilerine” tanır. Devrin iki şartı vardır ve birlikte aranır: sınırların açıkça belirtilmesi ve devrin yazılı olması. Devredilebilecek olan yetkilerin bir kısmıdır, tamamı değildir; ayrıca devir uygun araçlarla duyurulur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "506"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yetki-devri",
+			"senaryo"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
 	}
 ]

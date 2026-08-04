@@ -17,6 +17,8 @@ import { usePathname } from "next/navigation";
 import type { Route } from "next";
 import type { ReactNode } from "react";
 import { BackButton } from "@/components/layout/back-button";
+import { DatabaseNotice } from "@/components/layout/database-notice";
+import { useBackNavigation } from "@/components/layout/use-back-navigation";
 import { isAccountConfigured } from "@/lib/auth/supabase-client";
 import { useIdentity } from "@/lib/stores/identity";
 import { useApplyPreferences } from "@/lib/stores/preferences";
@@ -46,6 +48,13 @@ export function AppShell({ children }: { children: ReactNode }) {
 	useApplyPreferences();
 	const pathname = usePathname();
 	const identity = useIdentity();
+
+	/*
+	 * Geri gezinme kök düzende BİR KEZ kurulur: geçmiş derinliği sayacının tek
+	 * örneği olmalı ve rota değişimlerinde korunmalı. Aynı `goBack` hem
+	 * başlıktaki tuşa hem Android donanım tuşuna bağlanır.
+	 */
+	const { goBack, showExitHint } = useBackNavigation();
 
 	// Hesap yapılandırılmamışsa (Supabase anahtarı yok) çalışmayan bir ikon
 	// gösterilmez — olmayan özelliği varmış gibi göstermeme ilkesi
@@ -82,8 +91,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 				className="sticky top-0 z-30 border-b border-line bg-surface-raised/95 pt-[var(--safe-top)] backdrop-blur"
 			>
 				<div className="mx-auto flex w-full max-w-5xl items-center gap-2 py-3 pl-[max(1rem,var(--safe-left))] pr-[max(1rem,var(--safe-right))] sm:gap-4">
-					{/* Ana sayfada kendini gizler ama ağaçta kalır — bkz. BackButton. */}
-					<BackButton />
+					{!isHome && <BackButton onBack={goBack} />}
 
 					<Link
 						href="/"
@@ -169,6 +177,13 @@ export function AppShell({ children }: { children: ReactNode }) {
 				</div>
 			</header>
 
+			{/*
+			 * Depolama açılamadıysa uyarı başlığın hemen altında, her sayfada durur:
+			 * sorunun görünür sonucu (kaydedilmeyen ilerleme, dolmayan istatistik)
+			 * tek bir ekrana ait değil.
+			 */}
+			<DatabaseNotice />
+
 			<main
 				id="icerik"
 				className="mx-auto w-full max-w-5xl flex-1 py-6 pl-[max(1rem,var(--safe-left))] pr-[max(1rem,var(--safe-right))] print:max-w-none print:py-0 print:pl-0 print:pr-0"
@@ -209,8 +224,28 @@ export function AppShell({ children }: { children: ReactNode }) {
 								Kişisel Verilerin Korunması
 							</Link>
 						</li>
+						<li>
+							<Link
+								href="/kullanim-kosullari"
+								className="inline-flex min-h-11 items-center font-medium text-fg-muted hover:text-fg"
+							>
+								Kullanım Koşulları
+							</Link>
+						</li>
 					</ul>
 				</nav>
+
+				{/*
+				 * Sorumluluk reddi her sayfanın altında durur, bir alt sayfaya gömülü
+				 * değil: mevzuat içeriği taşıyan bir üründe kullanıcının uygulamayı
+				 * resmî bir kaynak sanması gerçek bir risktir ve uyarının görülmesi
+				 * ayrı bir tıklamaya bağlı olmamalıdır.
+				 */}
+				<p className="text-fg-subtle">
+					Bağımsız bir hazırlık uygulamasıdır; hiçbir kamu kurumuyla bağlantılı
+					değildir. İçerik bilgi amaçlıdır, bağlayıcı metin Resmî
+					Gazete&rsquo;dir.
+				</p>
 			</footer>
 
 			{/*
@@ -244,6 +279,27 @@ export function AppShell({ children }: { children: ReactNode }) {
 					})}
 				</ul>
 			</nav>
+
+			{/*
+			 * Kökte donanım geri tuşuna basıldığında çıkış onayı. Yalnızca Android
+			 * paketinde görünür; tarayıcıda `showExitHint` hiç true olmaz.
+			 *
+			 * Animasyon yok: `prefers-reduced-motion` gözetmek zorunda kalmadan
+			 * anında görünür, iki saniye sonra kaybolur. Alt gezinme çubuğunun
+			 * ÜSTÜNDE konumlanır, onu örtmez.
+			 */}
+			{showExitHint && (
+				<div
+					role="status"
+					aria-live="polite"
+					data-print="hide"
+					className="pointer-events-none fixed inset-x-0 bottom-[calc(4.5rem+var(--safe-bottom))] z-40 flex justify-center px-4 md:bottom-[calc(1rem+var(--safe-bottom))]"
+				>
+					<p className="rounded-full bg-fg px-4 py-2 text-sm font-medium text-surface shadow-lg">
+						Çıkmak için tekrar basın
+					</p>
+				</div>
+			)}
 		</div>
 	);
 }

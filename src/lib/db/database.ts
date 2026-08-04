@@ -143,3 +143,73 @@ export function getDb(): AppDatabase {
 	instance ??= new AppDatabase();
 	return instance;
 }
+
+/** IndexedDB neden açılamadı? Kullanıcıya gösterilecek metin buna göre seçilir. */
+export type DatabaseUnavailableReason =
+	| "yok" // Tarayıcıda IndexedDB API'si hiç yok (çok eski WebView).
+	| "gizli-mod" // Gizli sekme veya site verisi engellenmiş.
+	| "kota" // Depolama kotası dolu.
+	| "surum" // Başka bir sekme veritabanının daha yeni sürümünü açmış.
+	| "bilinmeyen";
+
+export interface DatabaseStatus {
+	available: boolean;
+	reason?: DatabaseUnavailableReason;
+}
+
+let statusPromise: Promise<DatabaseStatus> | null = null;
+
+/**
+ * Veritabanının gerçekten açılabildiğini bir kez yoklar.
+ *
+ * Dexie'nin açılışı TEMBELDİR: `new AppDatabase()` başarılı olsa bile hata ilk
+ * sorguda ortaya çıkar. Sorgular ise `useLiveQuery` üzerinden yapılıyor ve o,
+ * hata hâlinde `undefined` döndürüp öyle kalıyor — çağıran bileşenler bunu
+ * "yükleniyor" sayıp sonsuza kadar iskelet gösteriyor. Yani hata sessizce
+ * kalıcı bir yükleme ekranına dönüşüyor.
+ *
+ * Bu yüzden açılış ayrıca ve açıkça yoklanır; sonuç önbelleklenir, çünkü
+ * cevap oturum boyunca değişmez ve her bileşenin ayrı ayrı denemesi gereksiz.
+ *
+ * Veritabanı yoksa uygulama ÇALIŞMAYA DEVAM EDER: konu özetleri, testler ve
+ * deneme sınavları içerik dosyalarından okunur ve Dexie'ye ihtiyaç duymaz.
+ * Kaybolan yalnızca ilerleme kaydıdır — bu yüzden doğru davranış uygulamayı
+ * kilitlemek değil, kullanıcıyı uyarmaktır.
+ */
+export function checkDatabase(): Promise<DatabaseStatus> {
+	statusPromise ??= runDatabaseCheck();
+	return statusPromise;
+}
+
+async function runDatabaseCheck(): Promise<DatabaseStatus> {
+	if (typeof window === "undefined") {
+		return { available: false, reason: "bilinmeyen" };
+	}
+	if (!("indexedDB" in window) || window.indexedDB === null) {
+		return { available: false, reason: "yok" };
+	}
+
+	try {
+		await getDb().open();
+		return { available: true };
+	} catch (error) {
+		return { available: false, reason: classifyOpenError(error) };
+	}
+}
+
+function classifyOpenError(error: unknown): DatabaseUnavailableReason {
+	const name = error instanceof Error ? error.name : "";
+
+	// Dexie hata adlarını olduğu gibi korur (DexieError.name === DOMException adı).
+	if (name === "QuotaExceededError") return "kota";
+	if (name === "VersionError") return "surum";
+	/*
+	 * Firefox gizli pencerede IndexedDB'yi açar ama InvalidStateError fırlatır;
+	 * Safari ve site verisi engellenmiş Chrome SecurityError verir. Üçü de
+	 * kullanıcı açısından aynı şeydir: depolamaya izin yok.
+	 */
+	if (name === "InvalidStateError" || name === "SecurityError") {
+		return "gizli-mod";
+	}
+	return "bilinmeyen";
+}

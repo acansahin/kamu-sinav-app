@@ -348,5 +348,217 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-03"
+	},
+	{
+		"id": "dt-kit-011",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre “müessese” nedir?",
+		"options": [
+			"Sermayesinin yüzde ellisinden fazlası teşebbüse ait olan anonim şirket",
+			"Sermayesinin en az yüzde on beşine teşebbüsün sahip olduğu anonim şirket",
+			"Sermayesinin tamamı bir iktisadi devlet teşekkülüne veya kamu iktisadi kuruluşuna ait olan, işletme veya işletmeler topluluğu",
+			"Teşebbüsün mal ve hizmet üreten fabrika ve diğer birimleri",
+			"Sermayesinin tamamı Devlete ait olan ve tekel niteliğinde mal üreten kuruluş"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 2. maddesine göre müessese, sermayesinin tamamı bir iktisadi devlet teşekkülüne veya kamu iktisadi kuruluşuna ait olup ona bağlı işletme veya işletmeler topluluğudur. Sermayesinin yüzde ellisinden fazlası teşebbüse ait olan anonim şirket bağlı ortaklık, yüzde on beş ile yüzde elli arası pay sahipliği iştirak, fabrika ve diğer üretim birimleri ise işletmedir.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"muessese",
+			"tanim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-kit-012",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre anonim şirket şeklinde kurulan teşebbüsler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Anonim şirket şeklinde teşebbüs kurulması mümkün değildir.",
+			"Anonim şirket şeklinde kurulan teşebbüslerde genel kurul, yönetim kurulunun yerini alır.",
+			"Anonim şirket şeklinde kurulabilirler ve bu teşebbüslerde genel kurul bulunmaz.",
+			"Anonim şirket şeklinde kurulanlar 233 sayılı Kararname kapsamından tamamen çıkar.",
+			"Anonim şirket şeklinde kurulanlarda organ sayısı üçe çıkar."
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 3. maddesinde 18/6/2025 tarihli ve 7551 sayılı Kanunla yapılan düzenlemeye göre teşebbüsler anonim şirket şeklinde de kurulabilir ve anonim şirket şeklinde kurulan teşebbüslerde genel kurul bulunmaz. Teşebbüslerin organları 5. maddede sayıldığı üzere yalnızca yönetim kurulu ve genel müdürlüktür.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kurulus",
+			"anonim-sirket"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-kit-013",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre teşebbüslerin sorumluluğu ve sermayesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Teşebbüslerin borçlarından Hazine sınırsız olarak sorumludur.",
+			"Sorumlulukları sermayeleri ile sınırlıdır; sermayeleri ilgili bakanlığın talebi üzerine Koordinasyon Kurulunca tespit edilir.",
+			"Sermaye miktarı her yıl Türkiye Büyük Millet Meclisince kanunla belirlenir.",
+			"Sorumlulukları sermayeleriyle sınırlı değildir; teşebbüs tüzel kişiliğe sahip olmadığından borçlar ilgili bakanlığa aittir.",
+			"Sermaye, teşebbüs yönetim kurulunun kararıyla serbestçe artırılır."
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 4. maddesine göre teşebbüsler tüzelkişiliğe sahiptir, sorumlulukları sermayeleri ile sınırlıdır ve sermayeleri ilgili bakanlığın talebi üzerine Koordinasyon Kurulunca tespit edilir. Aynı madde teşebbüslerin, Kararnamede saklı tutulan hususlar dışında özel hukuk hükümlerine tabi olduğunu da düzenler.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sorumluluk",
+			"sermaye"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-kit-014",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir iktisadi devlet teşekkülü, sermayesinin yüzde kırkına sahip olduğu bir anonim şirketteki payını yüzde altmışa çıkarmıştır. 233 sayılı Kanun Hükmünde Kararname'nin tanımları bakımından bu şirketin niteliği nasıl değişir?",
+		"options": [
+			"Niteliği değişmez; her iki oranda da iştirak sayılır.",
+			"İştirak olmaktan çıkıp müessese hâline gelir.",
+			"İştirak olmaktan çıkıp işletme hâline gelir.",
+			"Niteliği değişmez; her iki oranda da bağlı ortaklık sayılır.",
+			"İştirak olmaktan çıkıp bağlı ortaklık hâline gelir."
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 2. maddesine göre iştirak, teşebbüsün veya bağlı ortaklığın sermayesinin en az yüzde on beşine en çok yüzde ellisine sahip bulunduğu anonim şirkettir. Pay yüzde elliyi aştığında kuruluş iştirak olmaktan çıkar ve sermayesinin yüzde ellisinden fazlası teşebbüse ait anonim şirket, yani bağlı ortaklık hâline gelir. Müessese ise şirket değildir; sermayesinin tamamı teşebbüse ait bir işletme topluluğudur.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bagli-ortaklik",
+			"istirak",
+			"senaryo"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-kit-015",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre teşebbüs organlarının nitelikleri aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"Yönetim kurulu en yüksek seviyede yetkili ve sorumlu karar organı, genel müdürlük ise yetkili ve sorumlu yürütme organıdır.",
+			"Genel kurul en yüksek karar organı, yönetim kurulu ise yürütme organıdır.",
+			"Yönetim kurulu yürütme organı, genel müdürlük ise karar organıdır.",
+			"Her iki organ da yalnızca danışma niteliğindedir; karar yetkisi ilgili bakanlığa aittir.",
+			"Yönetim kurulu denetim organı, genel müdürlük ise karar ve yürütme organıdır."
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 5. maddesine göre teşebbüsün organları yönetim kurulu ve genel müdürlüktür. Yönetim kurulu teşebbüsün en yüksek seviyede yetkili ve sorumlu karar organı, genel müdürlük ise yetkili ve sorumlu yürütme organıdır. Teşebbüste genel kurul bulunmaz; anonim şirket şeklinde kurulanlarda da bulunmaz.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"organlar",
+			"nitelik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-kit-016",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Sermayesinin tamamı Devlete ait olan bir kuruluş, tekel niteliğindeki bir hizmeti kamu yararı gözeterek üretmekte ve ürettiği bu hizmet imtiyaz sayılmaktadır. 233 sayılı Kanun Hükmünde Kararname'ye göre bu kuruluş aşağıdakilerden hangisidir?",
+		"options": [
+			"İktisadi devlet teşekkülü",
+			"Bağlı ortaklık",
+			"Müessese",
+			"Kamu iktisadi kuruluşu",
+			"İştirak"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 2. maddesine göre kamu iktisadi kuruluşu; sermayesinin tamamı Devlete ait olup tekel niteliğindeki mal ve hizmetleri kamu yararı gözeterek üretmek ve pazarlamak üzere kurulan ve ürettiği mal ve hizmetler imtiyaz sayılan kamu iktisadi teşebbüsüdür. İktisadi devlet teşekkülünün sermayesinin tamamı da Devlete aittir; aradaki fark sermayede değil faaliyetin niteliğindedir — teşekkül ticari esaslara göre çalışır.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kik",
+			"idt",
+			"senaryo"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-04"
 	}
 ]

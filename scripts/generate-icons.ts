@@ -16,6 +16,8 @@ import sharp from "sharp";
 const ROOT = path.resolve(import.meta.dirname, "..");
 const OUT_DIR = path.join(ROOT, "public", "icons");
 const ANDROID_RES = path.join(ROOT, "android", "app", "src", "main", "res");
+/** Google Play'e yüklenecek görseller; ekran görüntüleri de buraya konur. */
+const STORE_DIR = path.join(ROOT, "store", "assets");
 
 /** globals.css içindeki --brand ile aynı olmalı. */
 const BRAND = "#17395e";
@@ -85,6 +87,51 @@ const OUTPUTS = [
 	{ file: "icon-maskable-512.png", size: 512, safe: 0.72 },
 	{ file: "apple-touch-icon.png", size: 180, safe: 1 },
 ];
+
+/**
+ * Google Play mağaza kartının üstünde duran görsel. Ölçü Play tarafından
+ * sabitlenmiştir: 1024×500, JPEG veya 24-bit PNG, saydamlık yok.
+ *
+ * İkonlarla aynı geometri ve aynı marka renginden üretilir — mağaza kartı ile
+ * launcher ikonu arasındaki sürekliliği elle hizalamak yerine tek kaynaktan
+ * almak içindir.
+ */
+const FEATURE_W = 1024;
+const FEATURE_H = 500;
+
+function featureGraphicSvg(): string {
+	/*
+	 * Yazı tipi adı değil, yığın verilir: görsel üretim makinesinde hangi
+	 * fontun bulunduğu garanti değildir ve librsvg ilk bulduğuna düşer.
+	 */
+	const fontStack =
+		"DejaVu Sans, Liberation Sans, Segoe UI, Arial, Helvetica, sans-serif";
+	const markSize = 190;
+	const markX = 92;
+	const markY = (FEATURE_H - markSize) / 2;
+
+	return `<svg width="${FEATURE_W}" height="${FEATURE_H}" viewBox="0 0 ${FEATURE_W} ${FEATURE_H}" xmlns="http://www.w3.org/2000/svg">
+  <rect width="${FEATURE_W}" height="${FEATURE_H}" fill="${BRAND}"/>
+  <circle cx="${FEATURE_W - 120}" cy="${FEATURE_H + 40}" r="300" fill="#ffffff" opacity="0.05"/>
+  <circle cx="${FEATURE_W - 40}" cy="-60" r="200" fill="#ffffff" opacity="0.05"/>
+
+  <g transform="translate(${markX} ${markY})">
+    <rect width="${markSize}" height="${markSize}" rx="42" fill="#ffffff" opacity="0.12"/>
+    <g transform="scale(${markSize / CANVAS})">
+      <path d="M150 268 L222 340 L366 176"
+            stroke="#ffffff" stroke-width="44"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+  </g>
+
+  <text x="${markX + markSize + 56}" y="216" font-family="${fontStack}"
+        font-size="76" font-weight="bold" fill="#ffffff">Kamu Sınav</text>
+  <text x="${markX + markSize + 56}" y="300" font-family="${fontStack}"
+        font-size="76" font-weight="bold" fill="#ffffff" opacity="0.72">Akademi</text>
+  <text x="${markX + markSize + 60}" y="360" font-family="${fontStack}"
+        font-size="30" fill="#ffffff" opacity="0.75">Görevde Yükselme ve Unvan Değişikliği</text>
+</svg>`;
+}
 
 /**
  * Android yoğunluk kademeleri. Ölçüler dp cinsindendir: launcher ikonu 48dp,
@@ -160,6 +207,27 @@ async function main(): Promise<void> {
 			`    mipmap-${dir.padEnd(17)} ${launcher}×${launcher} + ${adaptive}×${adaptive}  ${kb(bytes)}`,
 		);
 	}
+
+	console.log("\n  Google Play:");
+	await mkdir(STORE_DIR, { recursive: true });
+
+	// Mağaza kartı ikonu 512×512 ve saydamlıksız olmak zorundadır.
+	const storeIcon = await sharp(Buffer.from(markSvg(1)))
+		.resize(512, 512)
+		.flatten({ background: BRAND })
+		.png({ compressionLevel: 9 })
+		.toBuffer();
+	await writeFile(path.join(STORE_DIR, "icon-512.png"), storeIcon);
+	console.log(`    icon-512.png             512×512  ${kb(storeIcon.length)}`);
+
+	const feature = await sharp(Buffer.from(featureGraphicSvg()))
+		.flatten({ background: BRAND })
+		.png({ compressionLevel: 9 })
+		.toBuffer();
+	await writeFile(path.join(STORE_DIR, "feature-graphic.png"), feature);
+	console.log(
+		`    feature-graphic.png      ${FEATURE_W}×${FEATURE_H}  ${kb(feature.length)}`,
+	);
 }
 
 console.log("\n✔ İkonlar üretiliyor:\n");
