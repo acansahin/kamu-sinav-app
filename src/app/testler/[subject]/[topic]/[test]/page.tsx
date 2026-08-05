@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { QuizGate } from "@/features/quiz/quiz-gate";
 import { QuizRunner } from "@/features/quiz/quiz-runner";
 import { contentRepository } from "@/lib/repositories/content.repository";
 import { buildTestSets, parseTestSetSlug } from "@/lib/selector/test-sets";
@@ -62,17 +63,32 @@ export default async function TopicTestSetPage({ params }: Props) {
 	const set = sets.find((candidate) => candidate.number === number);
 	if (!set) notFound();
 
+	/*
+	 * Kilit kapısı koşucunun ETRAFINDA: `QuizRunner` monte edilir edilmez bir
+	 * test oturumu yazar, dolayısıyla kilit içeriden uygulanamaz. Kilitliyken
+	 * koşucu hiç mount edilmez.
+	 */
 	return (
-		<QuizRunner
+		<QuizGate
 			subjectId={subject.id}
 			subjectName={subject.name}
-			topicId={topic.id}
 			topicSlug={topic.slug}
 			topicName={topic.name}
 			setNumber={set.number}
 			setSlug={set.slug}
 			setCount={sets.length}
-			questions={set.questions}
-		/>
+		>
+			<QuizRunner
+				subjectId={subject.id}
+				subjectName={subject.name}
+				topicId={topic.id}
+				topicSlug={topic.slug}
+				topicName={topic.name}
+				setNumber={set.number}
+				setSlug={set.slug}
+				setCount={sets.length}
+				questions={set.questions}
+			/>
+		</QuizGate>
 	);
 }

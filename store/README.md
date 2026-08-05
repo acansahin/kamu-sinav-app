@@ -56,6 +56,18 @@ Bunlar depoda tutulamaz; Play Console hesabında yapılır:
 4. **Veri güvenliği formu** — cevaplar `data-safety.md` içinde.
 5. **Ülke/bölge seçimi** — içerik Türkiye mevzuatına özgüdür; yalnızca Türkiye
    seçilmesi önerilir.
+6. **Ödeme profili (merchant account)** — uygulama içi ürün oluşturmanın
+   önkoşuludur.
+7. **Uygulama içi ürün** — Monetize → Products → In-app products:
+   - Ürün kimliği: **`tam_erisim`** (`src/lib/billing/products.ts` ile birebir
+     aynı olmalı). **Oluşturulduktan sonra değiştirilemez, silinirse yeniden
+     kullanılamaz.**
+   - Tür: tek seferlik (managed product). Abonelik değildir.
+   - Fiyat: TRY. Google Play Türkiye'de **kayıtlı satıcıdır**; girilen fiyat
+     kullanıcıya vergi dâhil görünür (Console'daki vergi ayarından doğrulayın).
+   - Durum: **Aktif**. Yayılması birkaç saat sürebilir; ürün pasifken
+     `getProduct()` null döner ve bu bir kod hatası sanılır.
+8. **Lisans testi** — Setup → License testing'e test Gmail adresleri eklenir.
 
 ## Yükleme
 
@@ -63,3 +75,27 @@ Bunlar depoda tutulamaz; Play Console hesabında yapılır:
 iş çıktısı olarak indirilir. İlk yüklemenin **iç test** kanalına yapılması
 önerilir; üretime çıkmadan önce imzalı paketin gerçek cihazda açıldığı
 doğrulanmalıdır.
+
+### Satın alma nasıl test edilir
+
+⚠️ **Uygulama içi satın alma, `android.yml` iş akışının ürettiği debug APK ile
+test EDİLEMEZ.** Play Billing yalnızca Play tarafından dağıtılan bir pakette
+çalışır; debug APK'da `getProduct()` boş döner. Test için AAB'yi **iç test**
+kanalına yükleyip cihaza Play üzerinden kurun.
+
+Kabul kriteri olan senaryolar:
+
+1. Satın al → uygulamayı kapat/aç → erişim kalıcı.
+2. Uygulama verisini sil → "Satın alımları geri yükle" → erişim geri gelir.
+3. Uçak moduna al → erişim korunur (önbellek).
+4. **Console'dan iade et → uygulamayı aç → kilit geri gelir.** En çok atlanan
+   senaryodur ve iade akışının tek doğrulaması budur.
+
+### Manifest ve boyut kontrolü
+
+- `com.android.vending.BILLING` izni depodaki manifestte yazılı değildir;
+  Billing AAR'ından manifest merge ile gelir. Derlemeden sonra
+  `android/app/build/outputs/logs/manifest-merger-release-report.txt` içinde
+  doğrulanmalıdır — `data-safety.md`'deki izin beyanının dayanağı budur.
+- `minifyEnabled false` olduğu için `billing:8.3.0` + `guava` budanmadan girer.
+  AAB boyutunu satın alma öncesi/sonrası karşılaştırın.

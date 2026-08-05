@@ -5,6 +5,7 @@ import remarkGfm from "remark-gfm";
 import { mdxComponents } from "@/components/content/mdx-components";
 import { Breadcrumb } from "@/components/layout/breadcrumb";
 import { Card } from "@/components/ui/card";
+import { AccessGate } from "@/features/billing/access-gate";
 import { PrintButton } from "@/features/print/print-button";
 import { SummaryDocument } from "@/features/study/summary-document";
 import { contentRepository } from "@/lib/repositories/content.repository";
@@ -79,45 +80,53 @@ export default async function SubjectPrintPage({ params }: Props) {
 					olarak &ldquo;PDF olarak kaydet&rdquo;i seçerek dosya olarak
 					indirebilirsin.
 				</p>
+			</div>
 
-				<Card className="mt-4 flex flex-wrap items-center justify-between gap-4">
+			{/*
+			 * Ücretsiz derste bile kilitli: bu sayfa dersin TÜM konu özetlerini
+			 * basar, yani ücretsiz konunun yanında kilitli olanları da içerir.
+			 * Yazdırma butonu da kapının içinde — kilitliyken basılacak bir belge
+			 * yok.
+			 */}
+			<AccessGate rule={{ kind: "print" }}>
+				<Card data-print="hide" className="mb-8 flex flex-wrap items-center justify-between gap-4">
 					<p className="text-sm text-fg-muted">
 						Her konu yeni sayfada başlar. Çıktıda menüler ve butonlar yer almaz.
 					</p>
 					<PrintButton variant="primary" label="Yazdır veya PDF kaydet" />
 				</Card>
-			</div>
 
-			{/* Kâğıda basılan kısım buradan başlar */}
-			<header className="mb-10">
-				<h1 className="text-3xl font-bold tracking-tight">{subject.name}</h1>
-				<p className="mt-2 text-fg-muted">{subject.description}</p>
-				{lastVerified && (
-					<p className="mt-3 text-sm text-fg-subtle">
-						Bu paketteki en eski doğrulama tarihi:{" "}
-						{new Date(lastVerified).toLocaleDateString("tr-TR", {
-							day: "numeric",
-							month: "long",
-							year: "numeric",
-						})}{" "}
-						· Kamu Sınav Akademi
-					</p>
+				{/* Kâğıda basılan kısım buradan başlar */}
+				<header className="mb-10">
+					<h1 className="text-3xl font-bold tracking-tight">{subject.name}</h1>
+					<p className="mt-2 text-fg-muted">{subject.description}</p>
+					{lastVerified && (
+						<p className="mt-3 text-sm text-fg-subtle">
+							Bu paketteki en eski doğrulama tarihi:{" "}
+							{new Date(lastVerified).toLocaleDateString("tr-TR", {
+								day: "numeric",
+								month: "long",
+								year: "numeric",
+							})}{" "}
+							· Kamu Sınav Akademi
+						</p>
+					)}
+				</header>
+
+				{documents.map((doc) =>
+					doc === null ? null : (
+						<article
+							key={doc.topic.id}
+							data-print="page-break"
+							className="mb-16 border-t border-line pt-8 first:border-t-0 first:pt-0"
+						>
+							<SummaryDocument summary={doc.summary} headingLevel="h2">
+								{doc.content}
+							</SummaryDocument>
+						</article>
+					),
 				)}
-			</header>
-
-			{documents.map((doc) =>
-				doc === null ? null : (
-					<article
-						key={doc.topic.id}
-						data-print="page-break"
-						className="mb-16 border-t border-line pt-8 first:border-t-0 first:pt-0"
-					>
-						<SummaryDocument summary={doc.summary} headingLevel="h2">
-							{doc.content}
-						</SummaryDocument>
-					</article>
-				),
-			)}
+			</AccessGate>
 		</div>
 	);
 }

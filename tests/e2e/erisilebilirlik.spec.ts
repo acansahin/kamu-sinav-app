@@ -28,6 +28,7 @@ const SAYFALAR = [
 	{ ad: "Arama", yol: "/arama/" },
 	{ ad: "Ayarlar", yol: "/ayarlar/" },
 	{ ad: "Hesap", yol: "/hesap/" },
+	{ ad: "Tam erişim", yol: "/tam-erisim/" },
 	{ ad: "Kişisel verilerin korunması", yol: "/gizlilik/" },
 	{ ad: "Hakkında", yol: "/hakkinda/" },
 ];

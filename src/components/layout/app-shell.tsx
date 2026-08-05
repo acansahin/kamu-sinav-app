@@ -20,6 +20,7 @@ import { BackButton } from "@/components/layout/back-button";
 import { DatabaseNotice } from "@/components/layout/database-notice";
 import { useBackNavigation } from "@/components/layout/use-back-navigation";
 import { isAccountConfigured } from "@/lib/auth/supabase-client";
+import { useResolveEntitlement } from "@/lib/stores/entitlement";
 import { useIdentity } from "@/lib/stores/identity";
 import { useApplyPreferences } from "@/lib/stores/preferences";
 import { cn } from "@/lib/utils/cn";
@@ -46,6 +47,13 @@ function isActive(pathname: string, href: string): boolean {
 
 export function AppShell({ children }: { children: ReactNode }) {
 	useApplyPreferences();
+
+	/*
+	 * Hak çözümlemesi de kök düzende BİR KEZ kurulur: ikinci bir çağrı ikinci
+	 * bir Play sorgusu ve ikinci bir `resume` dinleyicisi doğurur.
+	 */
+	useResolveEntitlement();
+
 	const pathname = usePathname();
 	const identity = useIdentity();
 

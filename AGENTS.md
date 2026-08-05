@@ -232,6 +232,30 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   hızlı ve kolay test edilir. Yeni iş mantığı `features/` değil `lib/` altına yazılır.
 - **Rota bağlantıları `lib/routes.ts` üzerinden.** `typedRoutes` açık olduğu için şablon
   dizesi bağlantılar reddedilir; dönüştürme tek yerde toplanmıştır.
+- **Paywall çalışma anında seçilir, derleme anında değil.** Tek `out/` klasörü hem
+  GitHub Pages'e hem Capacitor paketine gidiyor; bu yüzden `getBillingProvider()`
+  (`lib/billing/billing.provider.ts`) `Capacitor.isNativePlatform()`e bakar ve
+  tarayıcıda `OpenBillingProvider`a düşer — **webde hiçbir kilit yoktur**.
+  `authProvider`dan farkı budur: o `isAccountConfigured()` ile derleme anında seçilir.
+  Kilit kararları `lib/billing/entitlement.ts` içinde saf fonksiyonlardır; ücretsiz
+  kapsam `FREE_SUBJECT_ID`/`FREE_TOPIC_SLUG`/`FREE_TEST_SLUG` sabitleriyle tanımlıdır
+  ve `content-integrity` testi bu slug'ların içerikte gerçekten var olduğunu doğrular
+  (yeniden adlandırılırsa ücretsiz kapsam sessizce sıfıra düşerdi).
+- **Hak Dexie'de DEĞİL, localStorage'da.** Üç gerekçe: (1) `exportAll`/`importAll`
+  tüm Dexie tablolarını JSON'a yazıp geri okuduğu için yedek dosyası çalışan bir
+  lisans anahtarına dönüşürdü; (2) IndexedDB açılamazsa ödemiş kullanıcı kilitli
+  kalırdı; (3) satın alma Google hesabına bağlıdır, uygulamanın `userId`sine değil —
+  senkron geldiğinde sunucuya gitmemelidir. Yerel kayıt yalnızca **önbellektir**;
+  kaynak her zaman Play'in `getPurchases()` cevabıdır ve her başarılı sorguda
+  (`false` bile olsa) üzerine yazılır, böylece iade kendiliğinden geri alınır.
+- **Kilit sarmalayıcıdır, koşucunun içinde değil.** `QuizGate` kilitliyken
+  `QuizRunner`ı hiç mount etmez; koşucu monte edilir edilmez bir `testSessions`
+  satırı yazdığı için kilidi içeriden uygulamak kilitli testlere oturum kaydı
+  üretirdi. Aynı gerekçeyle `AccessGate` de içeriğin etrafındadır.
+- **Faturalandırma eklentisi dinamik yüklenir** (`lib/billing/native.provider.ts`).
+  Statik içe aktarım `@capgo/native-purchases`i tarayıcı paketine sokar; ölçüldü,
+  bugün eklenti chunk'ına **hiçbir HTML sayfası referans vermiyor**. Buraya
+  `import { NativePurchases }` yazmayın (`supabase-client.ts` ile aynı kural).
 - **Geri gezinme tek yerden.** `useBackNavigation` (`components/layout/`) kök düzende
   BİR KEZ çağrılır; hem başlıktaki tuş hem Android donanım tuşu aynı `goBack`e bağlanır.
   Geçmiş derinliği sayacı bileşen içinde tutulduğu için ikinci bir çağrı ikinci bir sayaç

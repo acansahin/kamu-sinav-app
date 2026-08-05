@@ -59,7 +59,7 @@ formatında deneme sınavları** — üçü de kişisel ilerleme takibiyle bağl
 | MVP içerik kapsamı | Yalnızca **ortak konular**; ilk sürümde **3 ders** (657 DMK, Anayasa, Etik) |
 | İçerik kaynağı | Resmî çıkmış sınav soruları + derleme → sonraki fazda AI destekli üretim + insan onayı |
 | Üyelik | MVP'de yok; veri modeli ve katmanlar baştan çoklu kullanıcıya hazır |
-| Gelir modeli | MVP'de yok, reklam yok. Ücretlendirme Faz 6 |
+| Gelir modeli | **Freemium, reklamsız.** Uygulama ücretsiz indirilir; 657 DMK / Genel Hükümler konusunun özeti ve ilk testi ücretsizdir, içeriğin tamamı **tek seferlik** uygulama içi satın almayla açılır (`tam_erisim`). Abonelik yok |
 
 ### Android kararının mimari sonucu
 
@@ -1271,8 +1271,21 @@ Mevzuat metninden taslak soru/özet üretimi, insan onay kuyruğu (yönetim aray
 "neden yanlış?" açıklama koçu, çelişki/tekrar tespiti.
 
 ### Faz 6 — Ticarileşme ve ölçek
-Ücretlendirme ve ödeme, mobil paketleme (Capacitor), sosyal/liderlik, push bildirim,
+Mobil paketleme (Capacitor) ✅, ücretlendirme ✅, sosyal/liderlik, push bildirim,
 kurumlara yönelik panel.
+
+**Ücretlendirme — yapılan (Faz 6.1).** Google Play tek seferlik ürün
+(`tam_erisim`, managed product). Ücretsiz ön gösterim: 657 DMK / Genel Hükümler
+konusunun özeti ve ilk testi. Kilit mantığı `src/lib/billing/entitlement.ts`
+içinde saf ve testlidir; hak `Capacitor.isNativePlatform()` ile **yalnızca
+Android paketinde** uygulanır, web sürümü tamamen açık kalır.
+
+**Bilinçli sınır — doğrulama yalnızca cihazda.** Purchase token bir sunucuya
+doğrulatılmaz; `output: "export"` altında arka uç yoktur ve içerik zaten pakete
+gömülüdür, yani istemci kilidi bir görünürlük kararıdır, güvenlik sınırı
+değildir. Bedeli: iade edilen kullanıcı bir sonraki başarılı Play sorgusuna
+kadar erişimini korur. Faz 6.2'de Play Developer API doğrulaması eklenirse
+değişecek tek dosya `src/lib/billing/native.provider.ts`tir.
 
 ---
 

@@ -7,6 +7,7 @@ import { mdxComponents } from "@/components/content/mdx-components";
 import { Breadcrumb } from "@/components/layout/breadcrumb";
 import { Badge } from "@/components/ui/badge";
 import { ButtonLink } from "@/components/ui/button";
+import { AccessGate } from "@/features/billing/access-gate";
 import { PrintButton } from "@/features/print/print-button";
 import { SummaryDocument } from "@/features/study/summary-document";
 import { TopicReadActions } from "@/features/study/topic-read-actions";
@@ -71,25 +72,32 @@ export default async function TopicPage({ params }: Props) {
 				<Badge tone="brand">{topic.questionCount} soru</Badge>
 			</div>
 
-			<SummaryDocument summary={summary}>{content}</SummaryDocument>
+			{/*
+			 * Konum çubuğu ve rozetler kapının DIŞINDA: kilitli bir konuya derin
+			 * bağlantıyla gelen kullanıcı nerede olduğunu ve nereye dönebileceğini
+			 * görmeli. Kilitlenen şey özetin gövdesi ve okuma eylemleridir.
+			 */}
+			<AccessGate rule={{ kind: "topic", subjectId: subject.id, topicSlug: topic.slug }}>
+				<SummaryDocument summary={summary}>{content}</SummaryDocument>
 
-			<div data-print="hide" className="mt-8 flex flex-wrap gap-3">
-				<PrintButton />
-				<ButtonLink
-					href={routes.subjectPrint(subject.id)}
-					variant="secondary"
-				>
-					<FileText aria-hidden size={18} />
-					Dersin tamamını yazdır
-				</ButtonLink>
-			</div>
+				<div data-print="hide" className="mt-8 flex flex-wrap gap-3">
+					<PrintButton />
+					<ButtonLink
+						href={routes.subjectPrint(subject.id)}
+						variant="secondary"
+					>
+						<FileText aria-hidden size={18} />
+						Dersin tamamını yazdır
+					</ButtonLink>
+				</div>
 
-			<TopicReadActions
-				subjectId={subject.id}
-				topicId={topic.id}
-				topicSlug={topic.slug}
-				questionCount={topic.questionCount}
-			/>
+				<TopicReadActions
+					subjectId={subject.id}
+					topicId={topic.id}
+					topicSlug={topic.slug}
+					questionCount={topic.questionCount}
+				/>
+			</AccessGate>
 		</article>
 	);
 }

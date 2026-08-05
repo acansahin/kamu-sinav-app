@@ -1,10 +1,15 @@
 "use client";
 
-import { BookOpen, ListChecks, Search } from "lucide-react";
+import { BookOpen, ListChecks, Lock, Search } from "lucide-react";
 import Link from "next/link";
 import { useDeferredValue, useId, useMemo, useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
+import {
+	isQuestionSearchUnlocked,
+	isTopicSnippetUnlocked,
+} from "@/lib/billing/entitlement";
+import { useEntitlement } from "@/lib/stores/entitlement";
 import { routes } from "@/lib/routes";
 import {
 	extractSnippet,
@@ -57,6 +62,27 @@ export function SearchPanel({ index }: { index: SearchEntry[] }) {
 
 	const searched = tokens.length > 0;
 
+	/*
+	 * Arama, paywall'ın en kolay atlandığı yüzey.
+	 *
+	 * İndeks her sorunun kökünü, TÜM şıklarını ve açıklamasını taşır
+	 * (`scripts/build-content.ts`) ve açıklamalar çoğunlukla doğru cevabı düz
+	 * metinle söyler. Kilitliyken soru sonuçları listeden tamamen düşer —
+	 * başlıkları zaten soruların kendisidir, gizlenecek bir kısmı yoktur.
+	 *
+	 * Konu sonuçları kalır (başlık gezinme için gerekli ve konu listesinde
+	 * zaten açık) ama parçacıkları düşer: parçacık `keyPoints` ile özet
+	 * başlıklarından üretilir, yani kilitli özetin içeriğidir.
+	 */
+	const entitlement = useEntitlement();
+	const questionsUnlocked =
+		entitlement === undefined || isQuestionSearchUnlocked(entitlement);
+
+	const visible = questionsUnlocked
+		? results
+		: results.filter((item) => item.entry.kind === "topic");
+	const hiddenQuestions = results.length - visible.length;
+
 	return (
 		<div>
 			<label htmlFor={inputId} className="block font-semibold">
@@ -99,12 +125,19 @@ export function SearchPanel({ index }: { index: SearchEntry[] }) {
 					</Card>
 				) : (
 					<>
-						<p className="mb-3 text-sm text-fg-muted">
-							{results.length}
-							{results.length === MAX_RESULTS && "+"} sonuç
-						</p>
+						{/*
+						 * Sayı görünen sonuçlarındır. Hepsi gizlenmişse (aranan kelime
+						 * yalnızca sorularda geçiyorsa) "0 sonuç" yazmak yanıltıcı
+						 * olurdu — aşağıdaki kilit satırı durumu zaten söylüyor.
+						 */}
+						{visible.length > 0 && (
+							<p className="mb-3 text-sm text-fg-muted">
+								{visible.length}
+								{results.length === MAX_RESULTS && "+"} sonuç
+							</p>
+						)}
 						<ul className="space-y-3">
-							{results.map(({ entry }) => {
+							{visible.map(({ entry }) => {
 								const isTopic = entry.kind === "topic";
 								const href = isTopic
 									? routes.topic(entry.subjectId, entry.topicSlug)
@@ -132,14 +165,36 @@ export function SearchPanel({ index }: { index: SearchEntry[] }) {
 											<p className="font-semibold leading-relaxed">
 												{entry.title}
 											</p>
-											<p className="mt-1 text-sm leading-relaxed text-fg-muted">
-												{extractSnippet(entry.body, tokens)}
-											</p>
+											{(entitlement === undefined ||
+												isTopicSnippetUnlocked(
+													entry.subjectId,
+													entry.topicSlug,
+													entitlement,
+												)) && (
+												<p className="mt-1 text-sm leading-relaxed text-fg-muted">
+													{extractSnippet(entry.body, tokens)}
+												</p>
+											)}
 										</Link>
 									</li>
 								);
 							})}
 						</ul>
+
+						{/*
+						 * Gizlenen sonuçlar sessizce düşmez: aramanın bozuk olduğu
+						 * izlenimi vermemek ve kullanıcıya neyin eksik olduğunu
+						 * söylemek için sayı ve yol gösterilir.
+						 */}
+						{hiddenQuestions > 0 && (
+							<Link
+								href="/tam-erisim"
+								className="mt-3 flex min-h-11 items-center gap-2 rounded-xl border border-brand/40 bg-brand-soft p-4 text-sm font-medium text-brand"
+							>
+								<Lock aria-hidden size={18} className="shrink-0" />
+								{hiddenQuestions} soru sonucu gizli — tam erişimle görüntülenir
+							</Link>
+						)}
 					</>
 				)}
 			</div>

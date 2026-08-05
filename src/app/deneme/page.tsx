@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { AccessGate } from "@/features/billing/access-gate";
 import { ExamRunner } from "@/features/exam/exam-runner";
 import { getAllTopicRefs } from "@/lib/content/topic-refs";
 import { contentRepository } from "@/lib/repositories/content.repository";
@@ -23,12 +24,19 @@ export default async function ExamPage() {
 		manifest.subjects.map((subject) => [subject.id, subject.name]),
 	);
 
+	/*
+	 * Deneme sınavı bütünüyle kilitlidir. Ücretsiz bir dilim tanımlanamaz:
+	 * sınav havuzun tamamından çeker ve en küçük şablon 20 sorudur — ücretsiz
+	 * kapsamın iki katı. Kilit faz makinesinin dışında, sayfa düzeyindedir.
+	 */
 	return (
-		<ExamRunner
-			templates={manifest.examTemplates}
-			pool={pool}
-			subjectNames={subjectNames}
-			topics={topics}
-		/>
+		<AccessGate rule={{ kind: "exam" }}>
+			<ExamRunner
+				templates={manifest.examTemplates}
+				pool={pool}
+				subjectNames={subjectNames}
+				topics={topics}
+			/>
+		</AccessGate>
 	);
 }

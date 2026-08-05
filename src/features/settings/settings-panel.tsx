@@ -1,12 +1,13 @@
 "use client";
 
 import { useLiveQuery } from "dexie-react-hooks";
-import { Download, Mail, Trash2, Upload } from "lucide-react";
+import { CircleCheck, Download, Mail, Trash2, Upload } from "lucide-react";
 import Link from "next/link";
 import { useId, useRef, useState } from "react";
-import { Button } from "@/components/ui/button";
+import { Button, ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { OfflineDownload } from "@/features/offline/offline-download";
+import { useEntitlement } from "@/lib/stores/entitlement";
 import { getContactEmail } from "@/lib/legal/data-controller";
 import { buildReportMailto } from "@/lib/legal/report-mail";
 import { progressRepository } from "@/lib/repositories/progress.repository";
@@ -75,6 +76,47 @@ function ChoiceGroup<T extends string>({
 	);
 }
 
+/**
+ * Tam erişim durumu ve geri yükleme.
+ *
+ * Yalnızca paywall'ın gerçekten etkin olduğu ortamda (Android paketi)
+ * render edilir. Tarayıcıda satın alınacak bir şey yoktur ve olmayan bir
+ * özelliği varmış gibi göstermek `accountConfigured` ile aynı gerekçeyle
+ * yanlış olurdu (PROJECT_PLAN.md §3.2).
+ */
+function FullAccessSection() {
+	const entitlement = useEntitlement();
+	if (!entitlement?.paywallActive) return null;
+
+	return (
+		<Card>
+			<h2 className="mb-1 text-lg font-bold">Tam erişim</h2>
+			{entitlement.fullAccess ? (
+				<p className="flex items-center gap-2 text-sm font-medium text-correct">
+					<CircleCheck aria-hidden size={18} />
+					Etkin — bütün içerik açık.
+				</p>
+			) : (
+				<p className="text-sm text-fg-muted">
+					İçeriğin tamamı tek seferlik bir ödemeyle kalıcı olarak açılır.
+					Daha önce satın aldıysanız geri yükleyebilirsiniz.
+				</p>
+			)}
+
+			<ButtonLink
+				href="/tam-erisim"
+				variant="secondary"
+				block
+				className="mt-3"
+			>
+				{entitlement.fullAccess
+					? "Tam erişim sayfasını aç"
+					: "Tam erişimi incele"}
+			</ButtonLink>
+		</Card>
+	);
+}
+
 export function SettingsPanel() {
 	const {
 		theme,
@@ -140,6 +182,8 @@ export function SettingsPanel() {
 
 	return (
 		<div className="space-y-4">
+			<FullAccessSection />
+
 			<Card className="space-y-6">
 				<h2 className="text-lg font-bold">Görünüm</h2>
 

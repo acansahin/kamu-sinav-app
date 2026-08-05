@@ -3,9 +3,12 @@
 import { useLiveQuery } from "dexie-react-hooks";
 import { CircleAlert, CircleCheck, CircleDashed } from "lucide-react";
 import { CardLink } from "@/components/ui/card";
+import { LockBadge } from "@/features/billing/lock-badge";
+import { isTestSetUnlocked } from "@/lib/billing/entitlement";
 import { progressRepository } from "@/lib/repositories/progress.repository";
 import { routes } from "@/lib/routes";
 import { isPassing } from "@/lib/scoring/test-result";
+import { useEntitlement } from "@/lib/stores/entitlement";
 import { cn } from "@/lib/utils/cn";
 
 /**
@@ -36,6 +39,14 @@ export function TestSetList({
 		undefined,
 	);
 
+	/*
+	 * Hak henüz çözülmemişken (`undefined`) hiçbir satır kilitli gösterilmez:
+	 * ödemiş kullanıcıya bir kare boyunca kilit rozeti göstermek, kilidi bir
+	 * kare geç göstermekten daha rahatsız edici. Kapının kendisi zaten test
+	 * sayfasında (`QuizGate`); buradaki rozet yalnızca önden bilgilendirmedir.
+	 */
+	const entitlement = useEntitlement();
+
 	// Aynı test birden çok kez çözülebilir; rozette en iyi skor gösterilir.
 	const bestScores = new Map<string, number>();
 	for (const session of sessions ?? []) {
@@ -51,6 +62,9 @@ export function TestSetList({
 			{sets.map((set) => {
 				const score = bestScores.get(set.slug);
 				const solved = score !== undefined;
+				const locked =
+					entitlement !== undefined &&
+					!isTestSetUnlocked(subjectId, topicSlug, set.slug, entitlement);
 
 				return (
 					<li key={set.slug}>
@@ -63,7 +77,11 @@ export function TestSetList({
 							 * çünkü aradaki boşluk yalnızca blok düzeninden geliyor.
 							 */
 							aria-label={`Test ${set.number}: ${set.questionCount} soru. ${
-								solved ? `En iyi puanın ${score}` : "Henüz çözmedin"
+								locked
+									? "Kilitli — tam erişim gerekir"
+									: solved
+										? `En iyi puanın ${score}`
+										: "Henüz çözmedin"
 							}`}
 						>
 							<span className="flex-1">
@@ -73,7 +91,15 @@ export function TestSetList({
 								</span>
 							</span>
 
+							{/*
+							 * Kilit durumu skoru gölgeler: kilitli bir testin eski skoru
+							 * (havuz büyüyüp setler yeniden dağıldığında olabilir) burada
+							 * gösterilse "çözdüm ama neden kilitli?" sorusunu doğururdu.
+							 */}
+							{locked && <LockBadge />}
+
 							{/* Renk tek başına anlam taşımaz: ikon + metin birlikte. */}
+							{!locked && (
 							<span
 								className={cn(
 									"flex shrink-0 items-center gap-1.5 text-sm font-semibold",
@@ -102,6 +128,7 @@ export function TestSetList({
 									</>
 								)}
 							</span>
+							)}
 						</CardLink>
 					</li>
 				);

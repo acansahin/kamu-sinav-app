@@ -11,16 +11,41 @@ eklenirse bu form baştan doldurulmalıdır — bkz. son bölüm.
 
 | Soru | Cevap | Gerekçe |
 |---|---|---|
-| Uygulamanız kullanıcı verisi topluyor veya paylaşıyor mu? | **Hayır** | Uygulama hiçbir veriyi cihaz dışına göndermez. Ağ isteği yalnızca uygulamanın kendi statik dosyaları içindir; analiz, reklam veya çökme raporlama SDK'sı yoktur. |
-| Üçüncü taraflarla veri paylaşıyor mu? | **Hayır** | Üçüncü taraf SDK'sı bulunmuyor. |
+| Uygulamanız kullanıcı verisi topluyor veya paylaşıyor mu? | **Hayır** | Uygulama hiçbir veriyi cihaz dışına göndermez. Ağ isteği yalnızca uygulamanın kendi statik dosyaları ve Google Play faturalandırma servisi içindir; analiz, reklam veya çökme raporlama SDK'sı yoktur. |
+| Üçüncü taraflarla veri paylaşıyor mu? | **Hayır** | Üçüncü taraf analiz/reklam SDK'sı bulunmuyor. |
 
 Bu cevapla form kısa yoldan biter; aşağıdaki bölümler yalnızca doğrulama
 gerekirse dayanak olsun diye tutuluyor.
+
+## Uygulama içi satın alma bu cevabı neden değiştirmiyor
+
+Uygulama tek seferlik bir ürün satar (`tam_erisim`) ve bunun için Google Play
+Billing kütüphanesini kullanır. Play'in veri güvenliği tanımına göre bu
+**uygulamanın veri toplaması değildir**:
+
+- Ödeme akışı tamamen **Google Play'in kendi arayüzünde** yürür. Uygulama kart
+  numarası, ad, adres veya başka bir ödeme bilgisi görmez, işlemez ve saklamaz.
+- Uygulamanın cihazda tuttuğu tek satın alma verisi bir **evet/hayır bayrağıdır**
+  (`kamu-sinav-erisim`, `src/lib/billing/entitlement-cache.ts`). Satın alma
+  geçmişi, sipariş numarası veya token saklanmaz ve hiçbir yere gönderilmez.
+- **Sunucu doğrulaması yoktur:** purchase token bir arka uca gönderilmez
+  (Faz 1 kararı, `src/lib/billing/native.provider.ts`). Bu yüzden "Satın alma
+  geçmişi" veri türü **bildirilmez**.
+
+> Console'da yine de "Uygulama içeriği → Uygulama içi satın alma = **Evet**"
+> beyanı verilir; bu, veri güvenliği formundan ayrı bir alandır
+> (bkz. `content-rating.md`).
 
 ## Beyanı destekleyen olgular
 
 - **Ağ izni:** `AndroidManifest.xml` yalnızca `android.permission.INTERNET`
   ister. Kamera, konum, rehber, depolama, bildirim izni yoktur.
+- **Faturalandırma izni:** `com.android.vending.BILLING` izni depodaki manifest
+  dosyasında yazılı değildir; Play Billing kütüphanesinin AAR'ından **manifest
+  merge** ile gelir. Yayın derlemesinden sonra
+  `android/app/build/outputs/logs/manifest-merger-release-report.txt` içinde
+  doğrulanmalıdır. Bu izin ödeme akışı için gereklidir ve kişisel veriye
+  erişim sağlamaz.
 - **Analiz aracı yok:** Depoda Firebase, Google Analytics, Crashlytics, Sentry
   veya benzeri bir bağımlılık bulunmaz. `google-services.json` dosyası yoktur.
 - **Reklam yok:** Reklam SDK'sı bulunmaz, reklam kimliği okunmaz.

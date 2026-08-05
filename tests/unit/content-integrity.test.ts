@@ -3,6 +3,12 @@ import path from "node:path";
 import process from "node:process";
 import { describe, expect, it } from "vitest";
 import {
+	FREE_SUBJECT_ID,
+	FREE_TEST_SLUG,
+	FREE_TOPIC_SLUG,
+} from "@/lib/billing/entitlement";
+import { buildTestSets } from "@/lib/selector/test-sets";
+import {
 	contentManifestSchema,
 	questionSchema,
 	summaryDocSchema,
@@ -72,6 +78,47 @@ describe("derlenmiş içerik", () => {
 				expect(summary.keyPoints.length).toBeGreaterThanOrEqual(2);
 			}
 		}
+	});
+});
+
+/**
+ * Ücretsiz ön gösterimin gerçekten var olduğu.
+ *
+ * Paywall'ın açık bıraktığı tek konu ve tek test, `lib/billing/entitlement.ts`
+ * içinde SLUG olarak sabittir. O slug'lar bir gün yeniden adlandırılırsa
+ * kilit mantığı hatasız çalışmaya devam eder ama hiçbir şeyi açmaz: uygulama
+ * sessizce "hiçbir şey ücretsiz değil" hâline gelir ve bu ancak mağaza
+ * yorumlarından öğrenilir. Bu yüzden eşleşme bir derleme kapısıdır.
+ */
+describe("ücretsiz ön gösterim içerikte karşılığı olan bir konudur", () => {
+	it("ücretsiz ders ve konu manifestte vardır", async () => {
+		const manifest = await loadManifest();
+
+		const subject = manifest.subjects.find((s) => s.id === FREE_SUBJECT_ID);
+		expect(subject, `“${FREE_SUBJECT_ID}” dersi bulunamadı`).toBeDefined();
+
+		const topic = subject?.topics.find((t) => t.slug === FREE_TOPIC_SLUG);
+		expect(topic, `“${FREE_TOPIC_SLUG}” konusu bulunamadı`).toBeDefined();
+		expect(topic?.questionCount).toBeGreaterThan(0);
+		expect(topic?.hasSummary).toBe(true);
+	});
+
+	it("ücretsiz test seti gerçekten üretilir", async () => {
+		const raw = JSON.parse(
+			await readFile(
+				path.join(
+					CONTENT_ROOT,
+					"questions",
+					FREE_SUBJECT_ID,
+					`${FREE_TOPIC_SLUG}.json`,
+				),
+				"utf8",
+			),
+		);
+		const questions = questionSchema.array().parse(raw);
+		const sets = buildTestSets(questions, `${FREE_SUBJECT_ID}/${FREE_TOPIC_SLUG}`);
+
+		expect(sets.some((set) => set.slug === FREE_TEST_SLUG)).toBe(true);
 	});
 });
 

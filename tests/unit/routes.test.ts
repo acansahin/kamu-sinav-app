@@ -45,6 +45,7 @@ describe("parentRoute", () => {
 		"/yanlislarim",
 		"/konular",
 		"/testler",
+		"/tam-erisim",
 		"/",
 	])("%s gibi kök seviyesindeki sayfalar ana sayfaya düşer", (pathname) => {
 		expect(parentRoute(pathname)).toBe("/");

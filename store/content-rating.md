@@ -24,10 +24,32 @@ Oyun kategorisi seçilmemelidir; oyun anketi tamamen farklı sorular sorar.
 | Kullanıcı tarafından üretilen içerik paylaşımı | Hayır |
 | Kullanıcı konumunun paylaşılması | Hayır |
 | Kişisel bilgi paylaşımı | Hayır |
-| Dijital satın alma | Hayır |
+| Dijital satın alma | **Evet** — tek seferlik "Tam erişim" ürünü (`tam_erisim`) |
 | Reklam gösterimi | Hayır |
 
-Beklenen sonuç: **herkes / 3+**.
+Beklenen sonuç: **herkes / 3+**. Dijital satın alma varlığı derecelendirmeyi
+yükseltmez; yalnızca listelemede "Uygulama içi satın alma" rozeti çıkar.
+
+> ⚠️ **Anket yeniden doldurulmalıdır.** Uygulama içi satın alma 1.0.0 planında
+> yoktu ve bu satır "Hayır" idi. Cevap değiştiği için Console'daki anket
+> güncellenmeden yayına çıkılmamalıdır — yanlış beyan derecelendirmenin
+> iptaline yol açar.
+
+## Uygulama içeriği → Uygulama içi satın alma
+
+Play Console'da ayrı bir beyan alanıdır (İçerik derecelendirmesinden
+bağımsızdır):
+
+| Soru | Cevap |
+|---|---|
+| Uygulamanız uygulama içi satın alma içeriyor mu? | **Evet** |
+| Ürün türü | Tek seferlik ürün (managed product), abonelik yok |
+| Fiyat aralığı | Console'da tanımlanan tek ürünün fiyatı (TRY) |
+
+Ücretsiz kapsamın mağaza açıklamasında **açıkça** yazılması gerekir
+(`listing-tr.md` → "ÜCRETSİZ KULLANIM VE TAM ERİŞİM" bölümü): ekran
+görüntüleri paywall'sız web derlemesinden alındığı için tam içeriği gösterir
+ve neyin ücretli olduğu metinden anlaşılmalıdır.
 
 ## Dikkat edilecek nokta
 

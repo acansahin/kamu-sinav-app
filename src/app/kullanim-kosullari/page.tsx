@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 /** Metnin en son ne zaman gözden geçirildiği. */
-const TERMS_UPDATED_AT = "2026-08-04";
+const TERMS_UPDATED_AT = "2026-08-05";
 
 /**
  * Kullanım koşulları.
@@ -22,9 +22,11 @@ const TERMS_UPDATED_AT = "2026-08-04";
  * dayanıp zarar gördüğünde başvurulacak metin budur. Bu yüzden sorumluluk
  * reddi sayfanın en başında, gövdeye gömülü değil.
  *
- * Ücretlendirme, üyelik ve ödeme Faz 6 kapsamındadır; bugün ürün tamamen
- * ücretsiz ve reklamsızdır. O bölümler bilinçli olarak yazılmadı — var olmayan
- * bir hizmete koşul yazmak metni belirsizleştirir.
+ * Uygulama ÜCRETSİZ indirilir; bir bölümü satın alma olmadan kullanılabilir,
+ * içeriğin tamamı tek seferlik bir uygulama içi satın almayla açılır (§3).
+ * Ödeme Google Play üzerinden alınır ve Google **kayıtlı satıcıdır**; bu,
+ * faturalandırma, vergi ve iade süreçlerinin kimde olduğunu belirlediği için
+ * metinde açıkça yazılır.
  */
 export default function TermsPage() {
 	const contact = getContactEmail();
@@ -76,8 +78,10 @@ export default function TermsPage() {
 				<p>
 					Uygulama; Görevde Yükselme ve Unvan Değişikliği sınavlarına hazırlanan
 					kamu görevlilerine yönelik konu özetleri, konu testleri ve deneme
-					sınavları sunar. Hizmet <strong>ücretsizdir</strong>, reklam
-					içermez, izleme ve analiz aracı kullanmaz.
+					sınavları sunar. Uygulama <strong>ücretsiz indirilir</strong>, reklam
+					içermez, izleme ve analiz aracı kullanmaz. İçeriğin bir bölümü satın
+					alma olmadan kullanılabilir; tamamı için 3. maddedeki tek seferlik
+					satın alma gerekir.
 				</p>
 				<p>
 					Uygulama <strong>çevrimdışı</strong> çalışacak biçimde tasarlanmıştır.
@@ -87,7 +91,49 @@ export default function TermsPage() {
 					açıklanmıştır.
 				</p>
 
-				<h2>3. İçeriğin doğruluğu ve sorumluluk reddi</h2>
+				<h2>3. Tam erişim ve uygulama içi satın alma</h2>
+				<p>
+					<strong>Ücretsiz kapsam.</strong> 657 sayılı Devlet Memurları
+					Kanunu&rsquo;nun &ldquo;Genel Hükümler&rdquo; konusunun özeti ve ilk
+					testi satın alma olmadan kullanılabilir. İlerleme takibi,
+					istatistikler, tekrar planı ve konu araması da her zaman ücretsizdir.
+				</p>
+				<p>
+					<strong>Tam erişim.</strong> Bütün konu özetleri, soru havuzunun
+					tamamı, deneme sınavları, aramada soru sonuçları ve dersin tamamını
+					yazdırma özelliği, <strong>tek seferlik</strong> bir uygulama içi
+					satın almayla açılır. Bu bir abonelik değildir: yenilenmez, düzenli
+					bir ödeme doğurmaz ve iptal edilmesi gerekmez. Erişim, satın almanın
+					yapıldığı Google hesabına bağlıdır ve aynı hesapla giriş yapılan
+					cihazlarda &ldquo;Satın alımları geri yükle&rdquo; ile kullanılabilir.
+				</p>
+				<p>
+					<strong>Ödeme ve fatura.</strong> Ödeme Google Play üzerinden alınır;
+					Google Play bu satışta <strong>kayıtlı satıcıdır</strong>. Fiyat,
+					vergiler dâhil olmak üzere satın alma ekranında Google Play tarafından
+					gösterilir; ödeme yöntemleri, faturalandırma ve makbuz Google Play
+					tarafından yönetilir. Uygulama kart bilgilerinizi görmez, işlemez ve
+					saklamaz.
+				</p>
+				<p>
+					<strong>İade ve cayma.</strong> İade talepleri Google Play&rsquo;in
+					yürürlükteki iade politikasına tabidir ve Google Play üzerinden
+					yapılır. Dijital içeriğin anında ifasına ilişkin mevzuattan doğan
+					haklarınız ile tüketici sıfatıyla sahip olduğunuz haklar saklıdır.
+					İade edilen bir satın almada tam erişim sona erer ve uygulama
+					ücretsiz kapsama döner.
+				</p>
+				<p>
+					<strong>Erişimin sürekliliği.</strong> Tam erişim, mağazadan alınan
+					satın alma kaydının cihazda doğrulanmasıyla açılır. Uzun süre
+					çevrimdışı kalan bir cihazda bu doğrulama gecikebilir; bu durumda
+					internete bağlanmak veya &ldquo;Satın alımları geri yükle&rdquo;
+					seçeneğini kullanmak yeterlidir. Satın alınan içeriğin kapsamı
+					zamanla genişleyebilir; mevcut içeriğin daraltılması hâlinde bu
+					sayfada duyurulur.
+				</p>
+
+				<h2>4. İçeriğin doğruluğu ve sorumluluk reddi</h2>
 				<p>
 					İçerik, mevzuat metinlerinden özenle hazırlanır; her konu özetinde
 					dayanılan mevzuat sürümü ve son doğrulama tarihi kullanıcıya
@@ -122,7 +168,7 @@ export default function TermsPage() {
 					içeriğin düzeltilmesinde kullanılır.
 				</p>
 
-				<h2>4. Fikri mülkiyet</h2>
+				<h2>5. Fikri mülkiyet</h2>
 				<p>
 					Uygulamadaki konu özetleri ve sorular özgün olarak üretilmiştir ve
 					fikri hakları saklıdır. Mevzuat metinleri kamuya açık kaynaklardan
@@ -150,7 +196,7 @@ export default function TermsPage() {
 					bildirimine bakabilirsiniz.
 				</p>
 
-				<h2>5. Kullanıcının yükümlülükleri</h2>
+				<h2>6. Kullanıcının yükümlülükleri</h2>
 				<ul>
 					<li>
 						Uygulamayı yürürlükteki mevzuata aykırı biçimde kullanmamak.
@@ -166,7 +212,7 @@ export default function TermsPage() {
 					</li>
 				</ul>
 
-				<h2>6. Hizmetin sürekliliği ve değişiklikler</h2>
+				<h2>7. Hizmetin sürekliliği ve değişiklikler</h2>
 				<p>
 					Uygulamanın içeriği, özellikleri ve bu koşullar önceden bildirimde
 					bulunulmaksızın değiştirilebilir; hizmet askıya alınabilir veya
@@ -181,14 +227,14 @@ export default function TermsPage() {
 					güncellemeniz gerekir.
 				</p>
 
-				<h2>7. Uygulanacak hukuk</h2>
+				<h2>8. Uygulanacak hukuk</h2>
 				<p>
 					Bu koşullar Türkiye Cumhuriyeti hukukuna tabidir. Uyuşmazlıklarda
 					Türkiye Cumhuriyeti mahkemeleri ve icra daireleri yetkilidir.
 					Tüketici sıfatıyla sahip olduğunuz haklar saklıdır.
 				</p>
 
-				<h2>8. İletişim</h2>
+				<h2>9. İletişim</h2>
 				{contact ? (
 					<p>
 						Sorularınız ve bildirimleriniz için:{" "}
