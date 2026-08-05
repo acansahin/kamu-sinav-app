@@ -1,12 +1,14 @@
 "use client";
 
 import { useLiveQuery } from "dexie-react-hooks";
-import { Download, Trash2, Upload } from "lucide-react";
+import { Download, Mail, Trash2, Upload } from "lucide-react";
 import Link from "next/link";
 import { useId, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { OfflineDownload } from "@/features/offline/offline-download";
+import { getContactEmail } from "@/lib/legal/data-controller";
+import { buildReportMailto } from "@/lib/legal/report-mail";
 import { progressRepository } from "@/lib/repositories/progress.repository";
 import {
 	FONT_SCALE_LABELS,
@@ -93,6 +95,16 @@ export function SettingsPanel() {
 		[],
 		undefined,
 	);
+
+	const contact = getContactEmail();
+	const reportMailto =
+		contact && reports
+			? buildReportMailto({
+					email: contact,
+					reports,
+					labelFor: (reason) => REPORT_REASON_LABELS[reason],
+				})
+			: null;
 
 	const fileInput = useRef<HTMLInputElement>(null);
 	const [message, setMessage] = useState<string | null>(null);
@@ -213,9 +225,17 @@ export function SettingsPanel() {
 
 			<Card>
 				<h2 className="mb-1 text-lg font-bold">Hata bildirimlerin</h2>
+				{/*
+				 * Metin iletişim adresinin varlığına göre değişir: adres yokken
+				 * bildirimin cihazda kaldığını söylemek zorundayız, varken de
+				 * göndermenin kullanıcının kendi eylemi olduğunu. Uygulama arkada
+				 * kendiliğinden e-posta göndermez; `mailto:` taslağı açar ve
+				 * gönderme kararı kullanıcıda kalır.
+				 */}
 				<p className="mb-4 text-sm text-fg-muted">
-					Sorularda bildirdiğin sorunlar. Şimdilik yalnızca bu cihazda tutulur ve
-					yedeğe dâhil edilir; üyelik geldiğinde bize iletilebilecek.
+					{contact
+						? "Sorularda bildirdiğin sorunlar. Bu cihazda tutulur ve yedeğe dâhil edilir; aşağıdaki tuşla bize e-posta olarak iletebilirsin."
+						: "Sorularda bildirdiğin sorunlar. Şimdilik yalnızca bu cihazda tutulur ve yedeğe dâhil edilir; üyelik geldiğinde bize iletilebilecek."}
 				</p>
 
 				{reports === undefined ? (
@@ -245,6 +265,16 @@ export function SettingsPanel() {
 							</li>
 						))}
 					</ul>
+				)}
+
+				{reportMailto && (
+					<a
+						href={reportMailto}
+						className="mt-4 inline-flex min-h-11 items-center gap-2 rounded-xl border-2 border-line bg-surface-raised px-4 font-semibold text-fg no-underline hover:bg-surface-sunken"
+					>
+						<Mail aria-hidden size={18} />
+						E-posta ile gönder
+					</a>
 				)}
 			</Card>
 

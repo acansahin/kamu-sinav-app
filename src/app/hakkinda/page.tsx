@@ -2,6 +2,7 @@ import {
 	AlertTriangle,
 	BookOpenCheck,
 	FileCheck2,
+	Mail,
 	Scale,
 	Map as MapIcon,
 } from "lucide-react";
@@ -16,6 +17,7 @@ import {
 	countWithLegalRef,
 	summarizeSubjectTrust,
 } from "@/lib/content/about-stats";
+import { getContactEmail } from "@/lib/legal/data-controller";
 import { contentRepository } from "@/lib/repositories/content.repository";
 import type { SummaryDoc } from "@/types/content";
 
@@ -61,6 +63,7 @@ export default async function AboutPage() {
 
 	const questions = await contentRepository.getAllQuestions();
 
+	const contact = getContactEmail();
 	const trust = summarizeSubjectTrust(subjects, summaries);
 	const sources = countBySourceKind(questions);
 	const licenses = countByLicense(questions);
@@ -252,8 +255,18 @@ export default async function AboutPage() {
 						kuralıdır: lisansı bilinmeyen soru derlemeyi kırar.
 					</p>
 					<p>
-						Bir içeriğin hak sahibi olduğunuzu düşünüyorsanız bize bildirin;
-						kaynağı doğrulanamayan içerik yayından kaldırılır.
+						Bir içeriğin hak sahibi olduğunuzu düşünüyorsanız{" "}
+						{contact ? (
+							<>
+								<a href={`mailto:${contact}`} className="font-medium text-brand">
+									{contact}
+								</a>{" "}
+								adresinden
+							</>
+						) : (
+							"bize"
+						)}{" "}
+						bildirin; kaynağı doğrulanamayan içerik yayından kaldırılır.
 					</p>
 				</div>
 			</Card>
@@ -288,6 +301,58 @@ export default async function AboutPage() {
 						ve &ldquo;neden yanlış?&rdquo; açıklama koçu.
 					</li>
 				</ul>
+			</Card>
+
+			{/* --- İletişim ------------------------------------------------------ */}
+			<h2 className="mb-1 flex items-center gap-2 text-xl font-bold">
+				<Mail aria-hidden size={20} className="text-fg-subtle" />
+				İletişim
+			</h2>
+			<p className="mb-3 text-fg-muted">
+				İçerik hatası, telif bildirimi ve diğer sorular için.
+			</p>
+
+			<Card className="mb-6">
+				{contact ? (
+					<div className="space-y-2 text-fg-muted">
+						<p>
+							<a
+								href={`mailto:${contact}`}
+								className="text-lg font-bold text-brand"
+							>
+								{contact}
+							</a>
+						</p>
+						<p>
+							Bir soruda hata gördüğünüzde, açıklamanın altındaki{" "}
+							<strong className="text-fg">
+								&ldquo;Bu soruda sorun var&rdquo;
+							</strong>{" "}
+							bağlantısını kullanmak daha hızlıdır: bildirim soru numarasıyla
+							birlikte kaydedilir ve Ayarlar&rsquo;dan tek seferde bize
+							gönderilebilir.
+						</p>
+					</div>
+				) : (
+					/*
+					 * Adres yokken sahte bir kanal gösterilmez. Uygulama içi bildirim
+					 * yine de çalışır ve kayıt cihazda durur; kullanıcıya söylenmesi
+					 * gereken tam olarak budur.
+					 */
+					<div className="space-y-2 text-fg-muted">
+						<p>
+							<em>İletişim adresi henüz yayımlanmamıştır.</em>
+						</p>
+						<p>
+							Bu sürümde bir soruda gördüğünüz hatayı, açıklamanın altındaki{" "}
+							<strong className="text-fg">
+								&ldquo;Bu soruda sorun var&rdquo;
+							</strong>{" "}
+							bağlantısıyla bildirebilirsiniz. Bildirim şimdilik yalnızca kendi
+							cihazınızda saklanır ve Ayarlar&rsquo;dan görülebilir.
+						</p>
+					</div>
+				)}
 			</Card>
 
 			<p className="text-sm text-fg-muted">

@@ -34,6 +34,25 @@ export const DATA_CONTROLLER: DataController = {
 	address: "",
 };
 
+/**
+ * Kullanıcıya gösterilebilecek iletişim adresi — yoksa `null`.
+ *
+ * Adres **tek bir yerden** okunur: `DATA_CONTROLLER.email` doldurulduğu anda
+ * ona bağlı bütün yüzeyler (Hakkında, Kullanım Koşulları, Ayarlar'daki hata
+ * bildirimi gönderme) kendiliğinden açılır; ikinci bir sabit tanımlanmaz.
+ * Boşken hiçbir yüzey adres varmış gibi davranmaz — olmayan özelliği varmış
+ * gibi göstermeme ilkesi (PROJECT_PLAN.md §3.2).
+ *
+ * `null` dönmesi bir hata değil, yayın öncesi normal durumdur; çağıran kod
+ * her zaman boş hâli de karşılamak zorundadır.
+ */
+export function getContactEmail(
+	controller: DataController = DATA_CONTROLLER,
+): string | null {
+	const email = controller.email.trim();
+	return email.length > 0 ? email : null;
+}
+
 /** Veri sorumlusu künyesinin KVKK'nın saydığı unsurları eksiksiz mi? */
 export function isDataControllerComplete(
 	controller: DataController = DATA_CONTROLLER,

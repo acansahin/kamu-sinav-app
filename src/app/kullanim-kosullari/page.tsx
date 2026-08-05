@@ -2,7 +2,7 @@ import { AlertTriangle } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
-import { DATA_CONTROLLER } from "@/lib/legal/data-controller";
+import { getContactEmail } from "@/lib/legal/data-controller";
 
 export const metadata: Metadata = {
 	title: "Kullanım Koşulları",
@@ -27,7 +27,7 @@ const TERMS_UPDATED_AT = "2026-08-04";
  * bir hizmete koşul yazmak metni belirsizleştirir.
  */
 export default function TermsPage() {
-	const contact = DATA_CONTROLLER.email.trim();
+	const contact = getContactEmail();
 
 	return (
 		<div>
