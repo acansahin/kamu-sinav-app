@@ -90,20 +90,51 @@ export function AppShell({ children }: { children: ReactNode }) {
 				data-print="hide"
 				className="sticky top-0 z-30 border-b border-line bg-surface-raised/95 pt-[var(--safe-top)] backdrop-blur"
 			>
-				<div className="mx-auto flex w-full max-w-5xl items-center gap-2 py-3 pl-[max(1rem,var(--safe-left))] pr-[max(1rem,var(--safe-right))] sm:gap-4">
+				{/*
+				 * `lg:gap-2`, `sm:gap-4`ten geri adımdır: etiketli menü tam da bu
+				 * eşikte devreye giriyor ve satır en kalabalık hâlini alıyor
+				 * (geri tuşu + marka + altı menü öğesi + üç ikon). Boşluğu burada
+				 * kısmak, dokunma hedeflerinin İÇİNE dokunmadan ~40px kazandırır;
+				 * alternatifi ikonları ya da etiketleri küçültmekti ve ikisi de
+				 * erişilebilirlik sözleşmesini deler.
+				 */}
+				<div className="mx-auto flex w-full max-w-5xl items-center gap-2 py-3 pl-[max(1rem,var(--safe-left))] pr-[max(1rem,var(--safe-right))] sm:gap-4 lg:gap-2">
 					{!isHome && <BackButton onBack={goBack} />}
 
+					{/*
+					 * Başlıkta daralınca GERİYE ADIM ATAN öğe markadır: `min-w-0` +
+					 * `truncate` ile kırpılır. Bilinçli bir tahliye valfi — menü
+					 * `shrink-0` olduğu için baskı bir yere gitmek zorunda ve markanın
+					 * kısalması, menü etiketinin satır atlamasından da dokunma
+					 * hedefinin ezilmesinden de zararsızdır. Ana sayfaya erişim
+					 * kaybolmaz: menüde ve alt çubukta "Ana Sayfa" zaten var.
+					 */}
 					<Link
 						href="/"
 						className={cn(
-							"min-h-11 shrink-0 items-center text-lg font-bold tracking-tight text-fg no-underline",
+							"min-h-11 min-w-0 items-center text-lg font-bold tracking-tight text-fg no-underline",
 							isHome ? "flex" : "hidden sm:flex",
 						)}
 					>
-						Kamu Sınav <span className="text-brand">Akademi</span>
+						<span className="truncate">
+							Kamu Sınav <span className="text-brand">Akademi</span>
+						</span>
 					</Link>
 
-					<nav aria-label="Ana menü" className="ml-auto hidden md:block">
+					{/*
+					 * Eşik `md` değil `lg`: altı etiketli menü + marka + iki ikon,
+					 * ölçüldüğünde 768px'te sığmıyordu (gereken ~962px, mevcut 736px).
+					 * Sığmayınca satır taşıyor, tek iki kelimelik etiket olan
+					 * "Ana Sayfa" iki satıra düşüyor ve ikonlar 44px'ten 20px'e
+					 * eziliyordu. 1024px altında zaten alt gezinme çubuğu var.
+					 *
+					 * `shrink-0` + `whitespace-nowrap` birlikte çalışır: menü asla
+					 * sıkışmaz, etiketler asla sarmalanmaz.
+					 */}
+					<nav
+						aria-label="Ana menü"
+						className="ml-auto hidden shrink-0 lg:block"
+					>
 						<ul className="flex items-center gap-1">
 							{NAV_ITEMS.map(({ href, label, icon: Icon }) => {
 								const active = isActive(pathname, href);
@@ -113,7 +144,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 											href={href}
 											aria-current={active ? "page" : undefined}
 											className={cn(
-												"flex min-h-11 items-center gap-2 rounded-lg px-3 text-base font-medium transition-colors",
+												"flex min-h-11 items-center gap-1.5 whitespace-nowrap rounded-lg px-2 text-base font-medium transition-colors",
 												active
 													? "bg-brand-soft text-brand"
 													: "text-fg-muted hover:bg-surface-sunken hover:text-fg",
@@ -128,11 +159,17 @@ export function AppShell({ children }: { children: ReactNode }) {
 						</ul>
 					</nav>
 
+					{/*
+					 * Bu üç ikonda `shrink-0` süs değil, erişilebilirlik sözleşmesinin
+					 * parçası: flex satırı daralınca `size-11` bir ALT sınır değildir,
+					 * esnek taban genişliğidir ve ölçümde hedefler 44px'ten 20px'e
+					 * düşüyordu. `shrink-0` olmadan dokunma hedefi sessizce küçülür.
+					 */}
 					<Link
 						href="/arama"
 						aria-label="Arama"
 						className={cn(
-							"ml-auto flex size-11 items-center justify-center rounded-lg transition-colors md:ml-0",
+							"ml-auto flex size-11 shrink-0 items-center justify-center rounded-lg transition-colors lg:ml-0",
 							pathname.startsWith("/arama")
 								? "bg-brand-soft text-brand"
 								: "text-fg-muted hover:bg-surface-sunken hover:text-fg",
@@ -145,7 +182,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 						href="/ayarlar"
 						aria-label="Ayarlar"
 						className={cn(
-							"flex size-11 items-center justify-center rounded-lg transition-colors",
+							"flex size-11 shrink-0 items-center justify-center rounded-lg transition-colors",
 							pathname.startsWith("/ayarlar")
 								? "bg-brand-soft text-brand"
 								: "text-fg-muted hover:bg-surface-sunken hover:text-fg",
@@ -161,7 +198,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 							// etiket de durumu söyler, ikon tek başına anlam taşımasın.
 							aria-label={signedIn ? "Hesabım" : "Giriş yap"}
 							className={cn(
-								"flex size-11 items-center justify-center rounded-lg transition-colors",
+								"flex size-11 shrink-0 items-center justify-center rounded-lg transition-colors",
 								pathname.startsWith("/hesap")
 									? "bg-brand-soft text-brand"
 									: "text-fg-muted hover:bg-surface-sunken hover:text-fg",
@@ -204,7 +241,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 			 */}
 			<footer
 				data-print="hide"
-				className="mx-auto w-full max-w-5xl pb-[calc(6rem+var(--safe-bottom))] pl-[max(1rem,var(--safe-left))] pr-[max(1rem,var(--safe-right))] text-sm md:pb-[calc(2rem+var(--safe-bottom))]"
+				className="mx-auto w-full max-w-5xl pb-[calc(6rem+var(--safe-bottom))] pl-[max(1rem,var(--safe-left))] pr-[max(1rem,var(--safe-right))] text-sm lg:pb-[calc(2rem+var(--safe-bottom))]"
 			>
 				<nav aria-label="Alt bilgi">
 					<ul className="flex flex-wrap items-center gap-x-5 border-t border-line pt-2">
@@ -249,14 +286,19 @@ export function AppShell({ children }: { children: ReactNode }) {
 			</footer>
 
 			{/*
-			 * Mobilde alt gezinme: birincil aksiyonlar başparmak erişiminde.
-			 * Alt pay jest çubuğu içindir — zemin çubuğun arkasına uzanır, hedefler
-			 * onun üstünde kalır.
+			 * Mobilde ve tablette alt gezinme: birincil aksiyonlar başparmak
+			 * erişiminde. Alt pay jest çubuğu içindir — zemin çubuğun arkasına
+			 * uzanır, hedefler onun üstünde kalır.
+			 *
+			 * Eşik üstteki menüyle AYNI olmak zorunda (`lg`): ikisi birbirinin
+			 * yerine geçer, arada bir boşluk kalırsa o genişlikte hiç gezinme
+			 * görünmez. Aşağıdaki footer payı ve çıkış ipucu da bu çubuğun
+			 * varlığına bağlıdır; eşik değişirse üçü birlikte değişir.
 			 */}
 			<nav
 				aria-label="Ana menü"
 				data-print="hide"
-				className="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface-raised pb-[var(--safe-bottom)] md:hidden"
+				className="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface-raised pb-[var(--safe-bottom)] lg:hidden"
 			>
 				<ul className="mx-auto flex max-w-5xl pl-[var(--safe-left)] pr-[var(--safe-right)]">
 					{NAV_ITEMS.map(({ href, label, icon: Icon }) => {
@@ -293,7 +335,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 					role="status"
 					aria-live="polite"
 					data-print="hide"
-					className="pointer-events-none fixed inset-x-0 bottom-[calc(4.5rem+var(--safe-bottom))] z-40 flex justify-center px-4 md:bottom-[calc(1rem+var(--safe-bottom))]"
+					className="pointer-events-none fixed inset-x-0 bottom-[calc(4.5rem+var(--safe-bottom))] z-40 flex justify-center px-4 lg:bottom-[calc(1rem+var(--safe-bottom))]"
 				>
 					<p className="rounded-full bg-fg px-4 py-2 text-sm font-medium text-surface shadow-lg">
 						Çıkmak için tekrar basın
