@@ -176,6 +176,8 @@ export interface DailyStat {
 
 export type FontScale = "normal" | "buyuk" | "cok-buyuk";
 export type ThemeChoice = "sistem" | "acik" | "koyu";
+/** Konu özetlerinin sesli okunma hızı. Motor karşılıkları `lib/speech/types.ts`. */
+export type SpeechRate = "yavas" | "normal" | "hizli";
 
 /**
  * Çalışma tercihleri (Dexie'de).

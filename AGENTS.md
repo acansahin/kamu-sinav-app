@@ -256,6 +256,18 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   Statik içe aktarım `@capgo/native-purchases`i tarayıcı paketine sokar; ölçüldü,
   bugün eklenti chunk'ına **hiçbir HTML sayfası referans vermiyor**. Buraya
   `import { NativePurchases }` yazmayın (`supabase-client.ts` ile aynı kural).
+- **Sesli okuma tarayıcı API'siyle YAPILAMAZ.** Web Speech API
+  (`window.speechSynthesis`) Android WebView'de çalışmaz (Chromium issue 40417848,
+  hâlâ açık); Chrome Android'de çalıştığı için tarayıcıda ve testlerde her şey yolunda
+  görünür, **yalnızca APK'da sessizce ölür**. Bu yüzden
+  `@capacitor-community/text-to-speech` zorunludur ve `lib/speech/speech.provider.ts`
+  içinden **dinamik** yüklenir. Metin ham MDX'ten değil, render edilmiş DOM'dan
+  çıkarılır (`lib/speech/extract.ts`): tablolar zaten `<thead>/<td>` yapısında,
+  `<Madde>` kendi önekini basıyor ve HTML boyutu hiç büyümüyor. Atlanacak yerler
+  seçiciyle değil **nitelikle** işaretlenir (`data-tts="skip"`, mevcut
+  `data-print="hide"` yeniden kullanılır); vurgulama React'in değil hook'un yazdığı
+  `data-tts-active` niteliğiyle yapılır — `className`e dokunmak bir sonraki render'da
+  sessizce silinirdi.
 - **Geri gezinme tek yerden.** `useBackNavigation` (`components/layout/`) kök düzende
   BİR KEZ çağrılır; hem başlıktaki tuş hem Android donanım tuşu aynı `goBack`e bağlanır.
   Geçmiş derinliği sayacı bileşen içinde tutulduğu için ikinci bir çağrı ikinci bir sayaç
@@ -298,6 +310,14 @@ Anahtar veya şekil değişirse o betiği de güncelleyin.
   yazılmaz. Ölçülen örnek: sağlam build 2037 kayıt / 1802 `.txt`, bozuk build
   1233 kayıt / neredeyse hiç `.txt`. İkisinde de sayfalar açıldığı için fark
   yalnızca bu sayıdan anlaşılır.
+
+- **Capacitor eklenti nesnesini `async` fonksiyondan DÖNDÜRMEYİN.** `registerPlugin`
+  her özellik erişimini köprüye çeviren bir Proxy üretir ve `then` de bir özelliktir.
+  Proxy doğrudan bir `async` fonksiyondan döndürülürse JavaScript onu "thenable" sanıp
+  `.then()` çağırır, Proxy bunu native bir metoda çevirir ve çağrı
+  `"X.then() is not implemented"` ile patlar. Sarmalayıcı içinde döndürün
+  (`return { api: NativePurchases }`). Hata sessizdir: `getBillingProvider` gibi
+  try/catch'li yollarda **yalnızca cihazda** görünür.
 
 - **Türkçe metinde `toLowerCase()` kullanmayın.** Varsayılan yerel ayar "I" harfini
   "i" yapar; Türkçede "ı" olmalıdır. Arama ve karşılaştırmalarda

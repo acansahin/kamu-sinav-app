@@ -32,8 +32,16 @@ export function SummaryDocument({
 			 * Güven damgası kâğıda da basılır: elden ele dolaşan bir çıktının
 			 * hangi mevzuat sürümüne ait olduğu görünmezse, bayatladığında
 			 * kimse fark etmez.
+			 *
+			 * Sesli okumada ise ATLANIR (`data-tts="skip"`): her dinlemenin
+			 * başında "5 Ağustos 2026" gibi bir tarih duymak akışı bozar ve
+			 * bilgi ekranda zaten görünür. Niteliği kaldırmayın — sözleşme
+			 * `tests/unit/speech-extract.test.tsx` içinde sabitlenmiştir.
 			 */}
-			<p className="mt-3 flex flex-wrap items-center gap-2 rounded-lg border border-line bg-surface-sunken px-3 py-2 text-sm text-fg-muted">
+			<p
+				data-tts="skip"
+				className="mt-3 flex flex-wrap items-center gap-2 rounded-lg border border-line bg-surface-sunken px-3 py-2 text-sm text-fg-muted"
+			>
 				<CalendarCheck aria-hidden size={15} className="shrink-0" />
 				<span>
 					<strong className="font-semibold text-fg">
@@ -58,7 +66,16 @@ export function SummaryDocument({
 				</ul>
 			</Card>
 
-			<div className="prose-okuma mt-8">{children}</div>
+			{/*
+			 * `data-tts="body"` derlenmiş MDX gövdesini işaretler. Sesli
+			 * okumadaki "gövdedeki `## Bir bakışta` bölümünü atla" kuralı
+			 * YALNIZCA bu kapsamda uygulanır: yukarıdaki kartın başlığı da aynı
+			 * metni taşıyor ve kural kapsamlanmasaydı ikisi birden atlanır,
+			 * hiçbir konuda özet duyulmazdı.
+			 */}
+			<div data-tts="body" className="prose-okuma mt-8">
+				{children}
+			</div>
 		</>
 	);
 }

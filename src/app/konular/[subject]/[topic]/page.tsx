@@ -10,6 +10,7 @@ import { ButtonLink } from "@/components/ui/button";
 import { AccessGate } from "@/features/billing/access-gate";
 import { PrintButton } from "@/features/print/print-button";
 import { SummaryDocument } from "@/features/study/summary-document";
+import { SummaryReader } from "@/features/study/summary-reader";
 import { TopicReadActions } from "@/features/study/topic-read-actions";
 import { contentRepository } from "@/lib/repositories/content.repository";
 import { routes } from "@/lib/routes";
@@ -78,7 +79,14 @@ export default async function TopicPage({ params }: Props) {
 			 * görmeli. Kilitlenen şey özetin gövdesi ve okuma eylemleridir.
 			 */}
 			<AccessGate rule={{ kind: "topic", subjectId: subject.id, topicSlug: topic.slug }}>
-				<SummaryDocument summary={summary}>{content}</SummaryDocument>
+				{/*
+				 * Sesli okuma kapının İÇİNDE: kilitli bir özeti sesli çıkarmak
+				 * paywall'ı tamamen atlardı (aramada soru sonuçları aynı gerekçeyle
+				 * kapalı). Kilitliyken okunacak DOM da zaten mount edilmiyor.
+				 */}
+				<SummaryReader subjectId={subject.id} topicId={topic.id}>
+					<SummaryDocument summary={summary}>{content}</SummaryDocument>
+				</SummaryReader>
 
 				<div data-print="hide" className="mt-8 flex flex-wrap gap-3">
 					<PrintButton />

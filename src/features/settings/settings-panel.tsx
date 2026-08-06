@@ -3,9 +3,10 @@
 import { useLiveQuery } from "dexie-react-hooks";
 import { CircleCheck, Download, Mail, Trash2, Upload } from "lucide-react";
 import Link from "next/link";
-import { useId, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Button, ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { ChoiceGroup } from "@/components/ui/choice-group";
 import { OfflineDownload } from "@/features/offline/offline-download";
 import { useEntitlement } from "@/lib/stores/entitlement";
 import { getContactEmail } from "@/lib/legal/data-controller";
@@ -22,7 +23,6 @@ import type {
 	ReportReason,
 	ThemeChoice,
 } from "@/types/progress";
-import { cn } from "@/lib/utils/cn";
 
 const REPORT_REASON_LABELS: Record<ReportReason, string> = {
 	"yanlis-cevap": "Doğru cevap yanlış görünüyor",
@@ -31,50 +31,6 @@ const REPORT_REASON_LABELS: Record<ReportReason, string> = {
 	"yazim-hatasi": "Yazım hatası",
 	diger: "Diğer",
 };
-
-function ChoiceGroup<T extends string>({
-	legend,
-	hint,
-	value,
-	options,
-	onChange,
-}: {
-	legend: string;
-	hint?: string;
-	value: T;
-	options: { value: T; label: string }[];
-	onChange: (value: T) => void;
-}) {
-	const name = useId();
-	return (
-		<fieldset>
-			<legend className="font-semibold">{legend}</legend>
-			{hint && <p className="mb-2 text-sm text-fg-muted">{hint}</p>}
-			<div className="mt-2 flex flex-wrap gap-2">
-				{options.map((option) => (
-					<label
-						key={option.value}
-						className={cn(
-							"secim-etiketi flex min-h-11 cursor-pointer items-center rounded-xl border-2 px-4",
-							value === option.value
-								? "border-brand bg-brand-soft font-semibold"
-								: "border-line bg-surface-raised",
-						)}
-					>
-						<input
-							type="radio"
-							name={name}
-							checked={value === option.value}
-							onChange={() => onChange(option.value)}
-							className="sr-only"
-						/>
-						{option.label}
-					</label>
-				))}
-			</div>
-		</fieldset>
-	);
-}
 
 /**
  * Tam erişim durumu ve geri yükleme.

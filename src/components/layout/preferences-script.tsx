@@ -9,6 +9,11 @@ import { PREFERENCES_STORAGE_KEY } from "@/lib/stores/preferences";
  *
  * localStorage anahtarı ve veri şekli `lib/stores/preferences.ts` ile aynı
  * olmak zorundadır — Zustand persist `{ state: {...}, version: n }` yazar.
+ *
+ * Burada YALNIZCA ilk boyamayı etkileyen tercihler okunur. `speechRate` (sesli
+ * okuma hızı) bilinçli olarak yok: hiçbir `<html>` niteliğine yansımıyor ve
+ * ancak kullanıcı oynatıcıya bastığında gerekiyor. Betik bilinmeyen alanları
+ * zaten görmezden gelir; yeni bir GÖRSEL tercih eklenirse buraya da eklenmeli.
  */
 export function PreferencesScript() {
 	const script = `

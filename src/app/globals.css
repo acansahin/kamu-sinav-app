@@ -192,7 +192,16 @@ body {
 	outline-offset: 2px;
 }
 
-/* Hareket azaltma tercihi mutlak saygı görür */
+/*
+ * Hareket azaltma tercihi mutlak saygı görür.
+ *
+ * ⚠️ Aşağıdaki `scroll-behavior: auto !important` kuralı JS'ten yapılan
+ * `scrollIntoView({ behavior: "smooth" })` çağrılarını ETKİLEMEZ: CSS
+ * özelliğine yalnızca `behavior: "auto"` geçildiğinde danışılır. Sesli okuma
+ * bu yüzden ayrıca `matchMedia("(prefers-reduced-motion: reduce)")` sorgular
+ * (`features/study/use-speech-reader.ts`). O JS korumasını "zaten CSS'te var"
+ * diye silmeyin.
+ */
 @media (prefers-reduced-motion: reduce) {
 	*,
 	*::before,
@@ -249,6 +258,15 @@ body {
 	/* Gezinme, aksiyonlar ve etkileşimli her şey kâğıda basılmaz */
 	[data-print="hide"] {
 		display: none !important;
+	}
+
+	/*
+	 * Sesli okuma vurgusu kâğıda geçmez: kullanıcı okuma ortasında yazdırırsa
+	 * çıktıda rastgele bir paragraf boyalı çıkardı.
+	 */
+	[data-tts-active] {
+		background: none !important;
+		box-shadow: none !important;
 	}
 
 	.prose-okuma {
@@ -340,4 +358,27 @@ body {
 .prose-okuma th {
 	background-color: var(--surface-sunken);
 	font-weight: 600;
+}
+
+/*
+ * Sesli okumada o an okunan blok.
+ *
+ * Nitelik seçicisi bilinçli: vurguyu React DEĞİL, okuyucu hook'u doğrudan DOM
+ * üzerinden ekliyor. `className`e dokunmak React'in bir sonraki render'ında
+ * sessizce silinirdi; React kendi yazmadığı `data-*` niteliklerine karışmaz.
+ *
+ * Sol kenar çubuğu renk dışı ikinci ipuçtur (renk tek başına anlam taşımaz).
+ * `border` yerine `box-shadow: inset`: kenarlık yerleşimi kaydırır ve okuma
+ * ilerledikçe satırlar zıplardı.
+ */
+[data-tts-active] {
+	background-color: var(--brand-soft);
+	box-shadow: inset 4px 0 0 0 var(--brand);
+	border-radius: 4px;
+	/* Yapışkan başlık + yapışkan oynatıcı, kaydırma sonrası bloğu örtmesin. */
+	scroll-margin-top: calc(var(--safe-top) + 11rem);
+}
+tr[data-tts-active] > td,
+tr[data-tts-active] > th {
+	background-color: var(--brand-soft);
 }

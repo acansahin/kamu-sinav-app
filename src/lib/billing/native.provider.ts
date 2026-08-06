@@ -24,10 +24,20 @@ import { FULL_ACCESS_PRODUCT_ID } from "@/lib/billing/products";
  * dosya budur.
  */
 
-/** Eklenti örneği — dinamik yükleme, ilk çağrıda bir kez. */
+/**
+ * Eklenti örneği — dinamik yükleme, ilk çağrıda bir kez.
+ *
+ * ⚠️ Eklenti nesnesi bir SARMALAYICI İÇİNDE döndürülür ve bu zorunludur.
+ * Capacitor'ın `registerPlugin` çağrısı her özellik erişimini köprüye çeviren
+ * bir Proxy üretir; `then` de bir özelliktir. Proxy doğrudan bir `async`
+ * fonksiyondan döndürülürse JavaScript onu "thenable" sanıp `.then()` çağırır,
+ * Proxy bunu native bir metot çağrısına çevirir ve çağrı
+ * `"NativePurchases.then() is not implemented"` ile patlar. Hata YALNIZCA
+ * cihazda görünür — tarayıcıda bu dala hiç girilmiyor.
+ */
 async function plugin() {
 	const { NativePurchases } = await import("@capgo/native-purchases");
-	return NativePurchases;
+	return { api: NativePurchases };
 }
 
 /**
@@ -47,9 +57,8 @@ function isPurchased(transaction: Transaction): boolean {
 export class NativeBillingProvider implements IBillingProvider {
 	async isSupported(): Promise<boolean> {
 		try {
-			const { isBillingSupported } = await (
-				await plugin()
-			).isBillingSupported();
+			const { api } = await plugin();
+			const { isBillingSupported } = await api.isBillingSupported();
 			return isBillingSupported;
 		} catch {
 			return false;
@@ -58,9 +67,10 @@ export class NativeBillingProvider implements IBillingProvider {
 
 	async getFullAccessProduct(): Promise<BillingProduct | null> {
 		try {
-			const { product } = await (
-				await plugin()
-			).getProduct({ productIdentifier: FULL_ACCESS_PRODUCT_ID });
+			const { api } = await plugin();
+			const { product } = await api.getProduct({
+				productIdentifier: FULL_ACCESS_PRODUCT_ID,
+			});
 
 			// Ürün Play Console'da pasifse veya henüz yayılmadıysa mağaza boş
 			// bir kayıt döndürebilir; fiyatsız bir satın alma düğmesi göstermek
@@ -75,7 +85,8 @@ export class NativeBillingProvider implements IBillingProvider {
 
 	async queryEntitlement(): Promise<boolean | null> {
 		try {
-			const { purchases } = await (await plugin()).getPurchases();
+			const { api } = await plugin();
+			const { purchases } = await api.getPurchases();
 			return purchases.some(isPurchased);
 		} catch {
 			// Sorgu YAPILAMADI — `false` ile karıştırılmamalı. Çağıran taraf bu
@@ -88,9 +99,8 @@ export class NativeBillingProvider implements IBillingProvider {
 		let transaction: Transaction;
 
 		try {
-			transaction = await (
-				await plugin()
-			).purchaseProduct({
+			const { api } = await plugin();
+			transaction = await api.purchaseProduct({
 				productIdentifier: FULL_ACCESS_PRODUCT_ID,
 				/*
 				 * Ömür boyu üründe tüketim YAPILMAZ: tüketilen satın alma
@@ -119,7 +129,8 @@ export class NativeBillingProvider implements IBillingProvider {
 
 	async restore(): Promise<boolean> {
 		try {
-			await (await plugin()).restorePurchases();
+			const { api } = await plugin();
+			await api.restorePurchases();
 		} catch {
 			// Geri yükleme bazı cihazlarda desteklenmez; yine de doğrudan
 			// sorgulamayı denemek, kullanıcıyı boş yere hatayla karşılamaktan
@@ -130,7 +141,7 @@ export class NativeBillingProvider implements IBillingProvider {
 
 	async sweepAcknowledgements(): Promise<void> {
 		try {
-			const api = await plugin();
+			const { api } = await plugin();
 			const { purchases } = await api.getPurchases();
 
 			for (const transaction of purchases) {

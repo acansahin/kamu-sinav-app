@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import type { FontScale, ThemeChoice } from "@/types/progress";
+import type { FontScale, SpeechRate, ThemeChoice } from "@/types/progress";
 
 /**
  * Görsel tercihler.
@@ -22,9 +22,22 @@ interface PreferencesState {
 	theme: ThemeChoice;
 	fontScale: FontScale;
 	highContrast: boolean;
+	/**
+	 * Konu özetlerinin sesli okunma hızı.
+	 *
+	 * Diğer üçünden farklı olarak `<html>` niteliklerine YANSIMAZ ve ilk
+	 * boyamadan önce okunması gerekmez; `preferences-script.tsx` bu yüzden
+	 * dokunulmadan kaldı (orada da not düşüldü).
+	 *
+	 * Kalıcı kayıtta bu alanı taşımayan eski tarayıcılar varsayılana düşer:
+	 * zustand `persist`in varsayılan birleştirmesi sığdır ve eksik alanlar
+	 * başlangıç değerini korur — göç gerekmez.
+	 */
+	speechRate: SpeechRate;
 	setTheme: (theme: ThemeChoice) => void;
 	setFontScale: (fontScale: FontScale) => void;
 	setHighContrast: (highContrast: boolean) => void;
+	setSpeechRate: (speechRate: SpeechRate) => void;
 }
 
 export const usePreferences = create<PreferencesState>()(
@@ -33,9 +46,11 @@ export const usePreferences = create<PreferencesState>()(
 			theme: "sistem",
 			fontScale: "normal",
 			highContrast: false,
+			speechRate: "normal",
 			setTheme: (theme) => set({ theme }),
 			setFontScale: (fontScale) => set({ fontScale }),
 			setHighContrast: (highContrast) => set({ highContrast }),
+			setSpeechRate: (speechRate) => set({ speechRate }),
 		}),
 		{ name: PREFERENCES_STORAGE_KEY },
 	),
@@ -133,4 +148,10 @@ export const THEME_LABELS: Record<ThemeChoice, string> = {
 	sistem: "Sistem",
 	acik: "Açık",
 	koyu: "Koyu",
+};
+
+export const SPEECH_RATE_LABELS: Record<SpeechRate, string> = {
+	yavas: "Yavaş",
+	normal: "Normal",
+	hizli: "Hızlı",
 };
