@@ -28,16 +28,29 @@ describe("blok üretimi", () => {
 	it("paragrafları ayrı bloklara ayırır", () => {
 		const parcalar = cikar(kok("<p>Birinci paragraf.</p><p>İkinci paragraf.</p>"));
 		expect(parcalar).toHaveLength(2);
-		expect(parcalar[0].blockIndex).toBe(0);
-		expect(parcalar[1].blockIndex).toBe(1);
 		expect(parcalar[0].el.tagName).toBe("P");
+		expect(parcalar[0].el).not.toBe(parcalar[1].el);
 	});
 
-	it("aynı paragrafın cümleleri AYNI bloğu paylaşır", () => {
-		const uzun = `${"Birinci cümle burada duruyor ve yeterince uzundur.".padEnd(60, " ")} İkinci cümle de burada duruyor ve yeterince uzundur.`;
-		const parcalar = cikar(kok(`<p>${uzun}</p>`));
+	/**
+	 * Parça = blok. Bir paragraf ancak üst sınırı aşınca bölünür ve o zaman bile
+	 * parçalar AYNI elemana bağlı kalır — vurgu paragrafın tamamında durur.
+	 */
+	it("bölünen paragrafın parçaları aynı elemanı paylaşır", () => {
+		const cumle = "Bu cümle blok üst sınırını doldurmak için yazılmıştır.";
+		const parcalar = cikar(kok(`<p>${`${cumle} `.repeat(10).trim()}</p>`));
+
 		expect(parcalar.length).toBeGreaterThan(1);
-		expect(new Set(parcalar.map((p) => p.blockIndex)).size).toBe(1);
+		expect(new Set(parcalar.map((p) => p.el)).size).toBe(1);
+	});
+
+	it("kısa paragrafı TEK parça verir", () => {
+		const metin = metinleri(
+			"<p>Birinci cümle. İkinci cümle. Üçüncü cümle burada biter.</p>",
+		);
+		expect(metin).toEqual([
+			"Birinci cümle. İkinci cümle. Üçüncü cümle burada biter.",
+		]);
 	});
 
 	it("başlıkları da okur", () => {
@@ -52,7 +65,40 @@ describe("blok üretimi", () => {
 		const metin = metinleri(
 			'<aside><p><svg></svg>Kritik bilgi</p><div><p>Gövde metni.</p></div></aside>',
 		);
-		expect(metin).toEqual(["Kritik bilgi", "Gövde metni."]);
+		expect(metin).toEqual(["Kritik bilgi.", "Gövde metni."]);
+	});
+});
+
+/**
+ * Blok sonu noktalaması.
+ *
+ * Ölçüldü: 197 liste öğesinin 142'si hiçbir sonlandırıcı noktalama taşımıyor.
+ * Motor onu görmeyince düşen konturu uygulamaz ve art arda gelen öğeler
+ * "listeyi bitirmemiş" gibi duyulur.
+ */
+describe("blok sonu noktalaması", () => {
+	it("noktalamasız bloğun sonuna nokta ekler", () => {
+		expect(metinleri("<li>Kritik bilgi</li>")).toEqual(["Kritik bilgi."]);
+	});
+
+	it("virgül ve noktalı virgülü noktaya çevirir", () => {
+		expect(metinleri("<li>Birinci öğe,</li><li>İkinci öğe;</li>")).toEqual([
+			"Birinci öğe.",
+			"İkinci öğe.",
+		]);
+	});
+
+	/** Liste girişi askıda kontur ister; nokta oradaki beklentiyi bozar. */
+	it("iki nokta üst üsteyi KORUR", () => {
+		expect(metinleri("<p>Şunlar sayılır:</p>")).toEqual(["Şunlar sayılır:"]);
+	});
+
+	/** Başlık cümle değildir; utterance sınırı duraklamayı zaten veriyor. */
+	it("başlıklara nokta EKLEMEZ", () => {
+		expect(metinleri("<h2>Kapsam</h2><h3>Alt başlık</h3>")).toEqual([
+			"Kapsam",
+			"Alt başlık",
+		]);
 	});
 });
 
@@ -73,7 +119,7 @@ describe("atlanan içerik", () => {
 	it("sr-only önekini atlar — normalleştirme zaten madde adını üretiyor", () => {
 		expect(
 			metinleri('<p><span class="sr-only">Mevzuat referansı: </span>657 s.K. m.1</p>'),
-		).toEqual(["657 sayılı Kanun madde 1"]);
+		).toEqual(["657 sayılı Kanun madde 1."]);
 	});
 
 	it("ikonları ve aria-hidden ağaçları atlar", () => {
@@ -145,8 +191,8 @@ describe("tablolar", () => {
 	it("giriş cümlesi ve satır başına bir parça üretir", () => {
 		expect(metinleri(TABLO)).toEqual([
 			"Tablo. Sütunlar: Fıkra, Statü, Durum. 2 satır.",
-			"Fıkra A. Statü: Memur. Durum: Yürürlükte.",
-			"Fıkra C. Statü: Geçici personel. Durum: Mülga.",
+			"Fıkra A. Statü: Memur; Durum: Yürürlükte.",
+			"Fıkra C. Statü: Geçici personel; Durum: Mülga.",
 		]);
 	});
 

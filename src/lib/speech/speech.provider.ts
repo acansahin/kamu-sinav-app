@@ -19,6 +19,8 @@
  * olurdu.
  */
 
+import { enIyiTurkceSes } from "@/lib/speech/voice";
+
 /** Bu ortamda sesli okuma mümkün mü? */
 export type SpeechCapability =
 	| { durum: "hazir" }
@@ -46,6 +48,15 @@ const DIL = "tr-TR";
 
 /** Tarayıcıda ses listesinin dolması için beklenecek en uzun süre. */
 const SES_LISTESI_ZAMAN_ASIMI = 1500;
+
+/**
+ * `speak()`e geçilecek ses indeksi; seçilemediyse `null`.
+ *
+ * Yoklamada BİR KEZ çözülür ve modül ömrü boyunca kalır. `null` kalması normal
+ * bir sonuçtur: çoğu cihaz tek bir yerel Türkçe ses gönderir ve orada seçim
+ * hiçbir şeyi değiştirmez.
+ */
+let sesIndeksi: number | null = null;
 
 /**
  * Eklentiyi yükler.
@@ -124,30 +135,69 @@ export async function yetenegiYokla(): Promise<SpeechCapability> {
 		}
 	}
 
+	let destekli: boolean;
 	try {
 		const { supported } = await tts.isLanguageSupported({ lang: DIL });
-		if (supported) return { durum: "hazir" };
-
-		/*
-		 * Bazı motorlar etiketi `tr_TR` ya da düz `tr` olarak bildiriyor;
-		 * birebir eşleşme aramak Türkçe sesi olan cihazlarda bile "yok"
-		 * dedirtiyordu.
-		 */
-		const { languages } = await tts.getSupportedLanguages();
-		if (languages.some((etiket) => /^tr\b/i.test(etiket) || etiket === "tr")) {
-			return { durum: "hazir" };
+		if (supported) {
+			destekli = true;
+		} else {
+			/*
+			 * Bazı motorlar etiketi `tr_TR` ya da düz `tr` olarak bildiriyor;
+			 * birebir eşleşme aramak Türkçe sesi olan cihazlarda bile "yok"
+			 * dedirtiyordu.
+			 */
+			const { languages } = await tts.getSupportedLanguages();
+			destekli = languages.some(
+				(etiket) => /^tr\b/i.test(etiket) || etiket === "tr",
+			);
 		}
 	} catch {
 		return { durum: "yok" };
 	}
 
-	return { durum: "dil-yok", kurulumAcilabilir: ortam === "android" };
+	if (!destekli) {
+		return { durum: "dil-yok", kurulumAcilabilir: ortam === "android" };
+	}
+
+	/*
+	 * Ses seçimi TEK bir "hazır" çıkışında yapılıyor. Önceki sürümde iki ayrı
+	 * `hazir` dönüşü vardı; birine bağlanan bir yan etki ikinci yolda sessizce
+	 * atlanırdı ve bu, `tr_TR` bildiren cihazların tam olarak seçimden en çok
+	 * fayda görenler olduğu için en kötü yerde kaybolurdu.
+	 */
+	await sesiCoz(tts);
+	return { durum: "hazir" };
+}
+
+/**
+ * En iyi Türkçe sesi bir kez seçer.
+ *
+ * Hata ASLA yukarı taşınmaz: ses seçimi bir iyileştirmedir, okumanın önkoşulu
+ * değil. `getSupportedVoices()` bazı motorlarda hiç yok ve orada varsayılan
+ * sesle okumak, hiç okumamaktan sonsuz kat iyidir.
+ */
+async function sesiCoz(
+	tts: Awaited<ReturnType<typeof eklenti>>["tts"],
+): Promise<void> {
+	try {
+		const { voices } = await tts.getSupportedVoices();
+		sesIndeksi = enIyiTurkceSes(voices);
+	} catch {
+		sesIndeksi = null;
+	}
 }
 
 class PluginSpeechProvider implements ISpeechProvider {
 	async speak({ text, rate }: { text: string; rate: number }): Promise<void> {
 		const { tts } = await eklenti();
-		await tts.speak({ text, lang: DIL, rate });
+		// `pitch` BİLİNÇLİ olarak geçilmiyor: Android'de pitch değişimi kaba bir
+		// yeniden örnekleme, sesi yapaylaştırır (bkz. `voice.ts`).
+		await tts.speak({
+			text,
+			lang: DIL,
+			rate,
+			...(sesIndeksi !== null && { voice: sesIndeksi }),
+		});
 	}
 
 	async stop(): Promise<void> {

@@ -268,6 +268,16 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   `data-print="hide"` yeniden kullanılır); vurgulama React'in değil hook'un yazdığı
   `data-tts-active` niteliğiyle yapılır — `className`e dokunmak bir sonraki render'da
   sessizce silinirdi.
+
+- **Sesli okumada parça = BLOK, cümle değil.** Eklentinin Android tarafı her `speak()`
+  çağrısında motoru önce **durdurup baştan yapılandırıyor**
+  (`TextToSpeech.java`: `stop()` → `setLanguage` → `setSpeechRate` → `setVoice`).
+  Cümle cümle çağırmak bir özette ~120 kez bu döngü demekti: cümleler arası boşluk ve
+  her cümlede prosodi sıfırlaması — kesik, robotik okumanın baskın sebebi. `bloklaraAyir`
+  (`lib/speech/sentences.ts`) bu yüzden bloğun tamamını tek parça verir ve **yalnızca**
+  400 karakteri aşınca, **yalnızca cümle sınırından** böler. Virgülden bölmek cümle
+  ortasında tam durak ve düşen tonlama üretir; asla yapılmaz. `MOTOR_TAVANI` bir UX
+  eşiği değil, motorun girdi sınırıdır (Android `getMaxSpeechInputLength()` = 4000).
 - **Geri gezinme tek yerden.** `useBackNavigation` (`components/layout/`) kök düzende
   BİR KEZ çağrılır; hem başlıktaki tuş hem Android donanım tuşu aynı `goBack`e bağlanır.
   Geçmiş derinliği sayacı bileşen içinde tutulduğu için ikinci bir çağrı ikinci bir sayaç

@@ -127,6 +127,20 @@ describe("okuma akışı", () => {
 		);
 		expect(paragraflar[0].hasAttribute("data-tts-active")).toBe(false);
 	});
+
+	/**
+	 * Okunan blok EKRANIN ORTASINDA durmalı. Önceki `block: "nearest"` görünen
+	 * elemanı hiç kaydırmadığı için okuma ilerledikçe satır ekranın en altına
+	 * yapışıyordu — cihazda bildirilen üç şikâyetten biri buydu.
+	 */
+	it("okunan bloğu ekranın ORTASINA kaydırır", async () => {
+		kur();
+		await okumayaBasla();
+
+		expect(Element.prototype.scrollIntoView).toHaveBeenCalledWith(
+			expect.objectContaining({ block: "center" }),
+		);
+	});
 });
 
 describe("duraklat ve devam", () => {

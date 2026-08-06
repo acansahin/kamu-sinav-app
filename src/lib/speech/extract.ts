@@ -1,5 +1,5 @@
 import { konusmaMetni } from "@/lib/speech/normalize-tr";
-import { parcalaraAyir } from "@/lib/speech/sentences";
+import { bloklaraAyir, motorTavaniniUygula } from "@/lib/speech/sentences";
 import { tabloyuOku } from "@/lib/speech/table";
 import type { SpeechChunk } from "@/lib/speech/types";
 
@@ -148,6 +148,23 @@ function tabloVerisi(tablo: HTMLTableElement): {
 }
 
 /**
+ * Bloğun sonuna sonlandırıcı noktalama koyar.
+ *
+ * Ölçüldü: 197 liste öğesinin 142'si hiçbir noktalama taşımıyor. Motor
+ * sonlandırıcı noktalama görmeyince düşen kontur uygulamaz; art arda gelen
+ * öğeler "listeyi bitirmemiş" hissi verir ve okuma askıda kalır.
+ *
+ * İki nokta üst üste KORUNUR: liste girişleri ("Şunlar sayılır:") askıda kontur
+ * ister, nokta oradaki beklentiyi bozar.
+ */
+function blokSonunuNoktala(metin: string): string {
+	const son = metin[metin.length - 1];
+	if (".!?…:".includes(son)) return metin;
+	if (son === "," || son === ";") return `${metin.slice(0, -1)}.`;
+	return `${metin}.`;
+}
+
+/**
  * Kökü gezip seslendirme parçalarını üretir.
  *
  * Hiçbir zaman `throw` etmez: tanımadığı bir yapı düz metin olarak okunur.
@@ -156,7 +173,6 @@ function tabloVerisi(tablo: HTMLTableElement): {
  */
 export function cikar(kok: HTMLElement): SpeechChunk[] {
 	const parcalar: SpeechChunk[] = [];
-	let blokSayaci = 0;
 
 	/** Gövde içindeki tekrar bölümü başladı mı? */
 	let tekrarBolumunde = false;
@@ -167,13 +183,16 @@ export function cikar(kok: HTMLElement): SpeechChunk[] {
 		const hazir = konusmaMetni(metin);
 		if (hazir.length === 0) return;
 
-		const bolumler = parcalaraAyir(hazir);
+		// Başlıklar hariç: başlık bir cümle değildir ve utterance sınırı gereken
+		// duraklamayı zaten veriyor. Sonuna nokta koymak onu cümleye benzetir.
+		const kapali = /^H[1-4]$/.test(el.tagName)
+			? hazir
+			: blokSonunuNoktala(hazir);
+
+		const bolumler = bloklaraAyir(kapali);
 		if (bolumler.length === 0) return;
 
-		for (const bolum of bolumler) {
-			parcalar.push({ text: bolum, el, blockIndex: blokSayaci });
-		}
-		blokSayaci += 1;
+		for (const bolum of bolumler) parcalar.push({ text: bolum, el });
 	}
 
 	function gez(dugum: Node): void {
@@ -207,17 +226,17 @@ export function cikar(kok: HTMLElement): SpeechChunk[] {
 			// <tr>'lerinde: 8 satırlık bir tabloyu 40 saniye tek blok olarak
 			// vurgulamak dinleyiciyi kaybettirirdi.
 			if (okuma.giris.length > 0) {
-				parcalar.push({ text: okuma.giris, el, blockIndex: blokSayaci });
-				blokSayaci += 1;
+				for (const bolum of motorTavaniniUygula(okuma.giris)) {
+					parcalar.push({ text: bolum, el });
+				}
 			}
 			okuma.satirlar.forEach((satir, i) => {
 				if (satir.length === 0) return;
-				parcalar.push({
-					text: satir,
-					el: satirElemanlari[i].el,
-					blockIndex: blokSayaci,
-				});
-				blokSayaci += 1;
+				// Tablo satırı zaten `tabloyuOku` tarafından noktalanmış geliyor;
+				// yalnızca motor tavanı uygulanır (ucuz ve simetrik).
+				for (const bolum of motorTavaniniUygula(satir)) {
+					parcalar.push({ text: bolum, el: satirElemanlari[i].el });
+				}
 			});
 			return;
 		}

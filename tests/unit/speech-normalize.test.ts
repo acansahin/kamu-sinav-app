@@ -79,7 +79,7 @@ describe("oranlar ve karşılaştırmalar", () => {
 		expect(
 			konusmaMetni("Müessese: %100 · Bağlı ortaklık: >%50 · İştirak: %15-%50"),
 		).toBe(
-			"Müessese: yüzde 100. Bağlı ortaklık: yüzde 50 üzeri. İştirak: yüzde 15 ila yüzde 50",
+			"Müessese: yüzde 100; Bağlı ortaklık: yüzde 50 üzeri; İştirak: yüzde 15 ila yüzde 50",
 		);
 	});
 
@@ -87,7 +87,7 @@ describe("oranlar ve karşılaştırmalar", () => {
 	it("nüfus eşikleri 'altı/üzeri' olarak okunur", () => {
 		expect(
 			konusmaMetni("Köy < 2.000 · Kasaba 2.000-20.000 · Şehir > 20.000"),
-		).toBe("Köy 2.000 altı. Kasaba 2.000-20.000. Şehir 20.000 üzeri");
+		).toBe("Köy 2.000 altı; Kasaba 2.000-20.000; Şehir 20.000 üzeri");
 	});
 });
 
@@ -111,10 +111,17 @@ describe("fıkra ve bent gösterimi", () => {
 });
 
 describe("ayraçlar", () => {
-	/** 657-dmk/disiplin-cezalari.mdx <Sayi> bloğu. */
-	it("orta nokta cümle sonu duraklamasına döner", () => {
+	/**
+	 * 657-dmk/disiplin-cezalari.mdx `<Sayi>` bloğu.
+	 *
+	 * NOKTA DEĞİL, NOKTALI VİRGÜL: `<Sayi>` bloğu bir listedir, cümle dizisi
+	 * değil. Nokta her ayraçta bir tam durak ve düşen kontur üretiyordu; ayrıca
+	 * `cumlelereBol` yalnızca `.!?…` üzerinden böldüğü için blok artık tek
+	 * utterance kalıyor.
+	 */
+	it("orta nokta noktalı virgüle döner", () => {
 		expect(konusmaMetni("15 gün · 30 gün · 6 ay")).toBe(
-			"15 gün. 30 gün. 6 ay",
+			"15 gün; 30 gün; 6 ay",
 		);
 	});
 

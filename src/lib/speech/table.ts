@@ -55,7 +55,8 @@ function noktala(cumle: string): string {
  *
  * Üç ve daha fazla sütunda tekrar ZORUNLUDUR: dinleyici üçüncü değerin hangi
  * sütuna ait olduğunu başka türlü bilemez. Orada ilk hücre başlığıyla
- * anahtarlanır ("Fıkra A."), kalanlar "Başlık: değer" biçiminde okunur.
+ * anahtarlanır ("Fıkra A."), kalanlar "Başlık: değer" biçiminde ve aralarında
+ * NOKTALI VİRGÜLLE okunur — nokta her nitelikte bir tam durak üretiyordu.
  */
 export function tabloyuOku({ basliklar, satirlar }: TabloVerisi): TabloOkumasi {
 	const temizBasliklar = basliklar.map(temiz);
@@ -104,7 +105,22 @@ export function tabloyuOku({ basliklar, satirlar }: TabloVerisi): TabloOkumasi {
 			parcalar.push(baslik.length > 0 ? `${baslik}: ${hucre}` : hucre);
 		});
 
-		return parcalar.map(noktala).join(" ");
+		/*
+		 * Satır TEK cümle olarak okunur: anahtar noktayla kapanır, kalan
+		 * nitelikler noktalı virgülle bağlanır, satır noktayla biter.
+		 *
+		 * Her niteliği noktalamak 8 satırlık üç sütunlu bir tabloda 24 tam durak
+		 * üretiyordu; okuma robot gibi kesiliyordu. Noktalı virgül duraklamayı
+		 * korur, düşen konturu tekrarlamaz.
+		 *
+		 * Anahtarın noktası BİLİNÇLİ olarak korunuyor: sıra sütunlu bir tabloda
+		 * "1." Türkçe motorlarda "birinci" okunur, "1;" ise "bir" — ordinal doğru
+		 * olandır.
+		 */
+		const [anahtar, ...nitelikler] = parcalar;
+		if (anahtar === undefined) return "";
+		if (nitelikler.length === 0) return noktala(anahtar);
+		return `${noktala(anahtar)} ${noktala(nitelikler.join("; "))}`;
 	});
 
 	return {

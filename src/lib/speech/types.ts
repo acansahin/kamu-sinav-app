@@ -3,45 +3,37 @@ import type { SpeechRate } from "@/types/progress";
 /**
  * Sesli okumanın veri şekilleri.
  *
- * İki kademeli bir model var ve ikisi bilinçli olarak AYRI:
+ * Model TEK kademelidir: **parça = blok**. Bir parça hem ekranda vurgulanan DOM
+ * elemanının (paragraf, liste öğesi, tablo satırı, vurgu kutusu, başlık) tamamı,
+ * hem de tek bir `speak()` çağrısının birimidir.
  *
- *   - **Blok**: ekranda vurgulanan DOM elemanı (paragraf, liste öğesi, tablo
- *     satırı, vurgu kutusu, başlık).
- *   - **Parça** (`SpeechChunk`): `speak()` çağrısının birimi — blok içindeki
- *     bir cümle.
- *
- * Tek bir birim iki ihtiyacı birden karşılayamazdı: vurgulama için doğal birim
- * blok, duraklatma çözünürlüğü için doğal birim cümledir. Bir paragrafı tek
- * parça yapmak "Devam et"in koca bir paragrafı baştan okuması demekti.
+ * Önceki sürüm bloğu cümlelere bölüyordu ve bu tonlamayı bozuyordu: eklentinin
+ * Android tarafı her `speak()` çağrısında motoru önce DURDURUP baştan
+ * yapılandırıyor (`TextToSpeech.java`: `stop()` + `setLanguage` + `setSpeechRate`).
+ * Cümle cümle çağırmak bir özette ~120 kez durdur-yapılandır döngüsü demekti:
+ * cümleler arası boşluk ve her cümlede prosodi sıfırlaması. Bedeli, "Devam et"in
+ * cümleyi değil paragrafı baştan okumasıdır — kabul edildi.
  */
 export interface SpeechChunk {
 	/** Motora verilecek, normalleştirilmiş metin. */
 	text: string;
 	/** Bu parça okunurken vurgulanacak eleman. */
 	el: HTMLElement;
-	/**
-	 * Parçanın ait olduğu blok sırası.
-	 *
-	 * Kaydırma yalnızca bu değer DEĞİŞTİĞİNDE yapılır; aynı paragrafın üçüncü
-	 * cümlesinde sayfa tekrar kaydırılmaz.
-	 */
-	blockIndex: number;
 }
 
 /**
- * Bir parçanın hedeflenen karakter aralığı.
+ * Bir bloğun hedeflenen üst karakter sınırı.
  *
- * Alt sınır: çok kısa parçalar arasında Capacitor köprüsünün gidiş-dönüşü
- * duyulabilir bir boşluk üretir; kısa cümleler bu yüzden birleştirilir.
+ * Bu bir UX sınırıdır: aşan blok cümle sınırından paketlenerek bölünür ve
+ * "Devam et"in tekrar okuyacağı en kötü hâli sınırlar (400 karakter ≈ 30 sn).
+ * Ölçüldü: 191 düz paragrafın 187'si bunun altında, ortalama 183 karakter.
  *
- * Üst sınır UX'tir, motor sınırı DEĞİL: Android'in `getMaxSpeechInputLength()`
- * değeri 4000 karakterdir ve içerikteki en uzun paragraf bunun onda biri.
- * Sınırı belirleyen şey "Devam et"in ne kadarını tekrar okuyacağıdır.
+ * ⚠️ **`MOTOR_TAVANI` ile karıştırmayın.** O bir cümle bölme eşiği DEĞİL, motorun
+ * kendi girdisi sınırıdır (Android `getMaxSpeechInputLength()` = 4000) ve
+ * yalnızca doğal bir sınır bulunamadığında, kelime boşluğundan uygulanır.
  */
-export const PARCA_ALT_SINIR = 45;
-export const PARCA_UST_SINIR = 200;
-/** Bölünecek doğal nokta bulunamazsa uygulanan mutlak tavan. */
-export const PARCA_MUTLAK_TAVAN = 300;
+export const BLOK_UST_SINIR = 400;
+export const MOTOR_TAVANI = 3500;
 
 /**
  * Hız kademelerinin motor karşılıkları.

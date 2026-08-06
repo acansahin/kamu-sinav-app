@@ -92,14 +92,6 @@ export function useSpeechReader({
 		parca.el.setAttribute("data-tts-active", "");
 
 		/*
-		 * Kaydırma yalnızca BLOK değişince yapılır; aynı paragrafın üçüncü
-		 * cümlesinde sayfayı yeniden kaydırmak sarsıntı yaratırdı.
-		 * `block: "nearest"` zaten görünen elemanı hiç kaydırmaz.
-		 */
-		const oncekiBlok = parcalar[indeks - 1]?.blockIndex;
-		if (oncekiBlok === parca.blockIndex) return;
-
-		/*
 		 * `matchMedia` kontrolü ZORUNLU: `globals.css` içindeki
 		 * `scroll-behavior: auto !important` kuralı JS'in `behavior: "smooth"`
 		 * seçeneğini ETKİLEMEZ — CSS özelliğine yalnızca `behavior: "auto"`
@@ -114,10 +106,24 @@ export function useSpeechReader({
 		 * Korumasız bırakıldığında `scrollIntoView` yokluğu (eski WebView,
 		 * test ortamı) döngüyü fırlatarak sesi tamamen susturuyordu.
 		 */
+		/*
+		 * `block: "center"` — okunan blok EKRANIN ORTASINDA durmalı. Önceki
+		 * `"nearest"` görünen elemanı hiç kaydırmadığı için okuma ilerledikçe
+		 * satır ekranın en altına yapışıyordu.
+		 *
+		 * Kabul edilen sınır: belgenin en başındaki ve en sonundaki bloklar
+		 * merkeze GETİRİLEMEZ (kaydırma sınırı). Elle `window.scrollTo`
+		 * matematiği yapışkan krom + safe-area ile birleşince kırılgan olur.
+		 *
+		 * Parça = blok olduğundan aynı elemanın ikinci kez ortalanması ancak
+		 * 400 karakteri aşan bloklarda olur; zaten ortalanmış eleman yeniden
+		 * ortalandığında görsel olarak hiçbir şey kımıldamaz.
+		 */
 		try {
 			parca.el.scrollIntoView({
 				behavior: azalt ? "auto" : "smooth",
-				block: "nearest",
+				block: "center",
+				inline: "nearest",
 			});
 		} catch {
 			/* kaydırma desteklenmiyor — vurgu yine de duruyor */

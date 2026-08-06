@@ -132,8 +132,16 @@ export function konusmaMetni(ham: string): string {
 	//      onlarda eğik çizginin iki yanı bitişiktir.
 	metin = metin.replace(/ \/ /g, " veya ");
 
-	// 12 — Orta nokta ayracı (`<Sayi>` bloklarında yoğun): cümle sonu duraklaması.
-	metin = metin.replace(/\s*·\s*/g, ". ");
+	// 12 — Orta nokta ayracı (`<Sayi>` bloklarında yoğun).
+	//
+	//      NOKTA DEĞİL, NOKTALI VİRGÜL. "AYM: 15 üye · 12 + 3 · 12 yıl · 65 yaş
+	//      haddi" bir LİSTEDİR, cümle dizisi değil; nokta beş ayrı tam durak ve
+	//      beş kez düşen kontur üretiyordu. Noktalı virgül orta uzunlukta bir
+	//      duraklama verir ve sonlandırıcı konturu uygulamaz.
+	//
+	//      Ek kazanç: `cumlelereBol` yalnızca `.!?…` üzerinden böldüğü için
+	//      `<Sayi>` bloğu artık tek utterance kalır.
+	metin = metin.replace(/\s*·\s*/g, "; ");
 
 	// 13 — Ok işareti: sıralama anlamı taşır, virgül duraklaması yeterli.
 	metin = metin.replace(/\s*→\s*/g, ", ");

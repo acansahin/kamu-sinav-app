@@ -45,6 +45,19 @@
 	--focus: #1f6feb;
 
 	/*
+	 * Sesli okumada o an okunan bloğun zemini.
+	 *
+	 * Kendi token'ı var çünkü vurgu RENKLİ KARTLARIN ÜZERİNDE de duruyor:
+	 * okumanın başladığı "Bir bakışta" kartı `--brand-soft`, `<Kritik>`
+	 * `--correct-soft`, `<Tuzak>` `--flag-soft` zeminlidir. `--brand-soft`
+	 * kullanmak vurgunun ilk kartta tamamen görünmez olması demekti.
+	 * Bu değer hem `--fg` ile 8.76:1 veriyor hem en zayıf kart ayrımında 1.57.
+	 *
+	 * `@theme inline` bloğuna eklenmez — hiçbir Tailwind sınıfı kullanmıyor.
+	 */
+	--tts-highlight: #9cc1e6;
+
+	/*
 	 * Sistem çubuklarının kapladığı kenar payları.
 	 *
 	 * İki katmanlı okunur, çünkü iki farklı kaynak var: Capacitor
@@ -92,6 +105,7 @@
 		--flag: #e0b062;
 		--flag-soft: #33260f;
 		--focus: #79b8ff;
+		--tts-highlight: #2a4d73;
 	}
 }
 
@@ -115,6 +129,7 @@
 	--flag: #e0b062;
 	--flag-soft: #33260f;
 	--focus: #79b8ff;
+	--tts-highlight: #2a4d73;
 }
 
 /* Yüksek kontrast — kontrast oranlarını AAA sınırına taşır */
@@ -133,6 +148,7 @@
 	--correct: #0c4a30;
 	--wrong: #7a1219;
 	--flag: #5c3b02;
+	--tts-highlight: #8ec0ea;
 }
 
 :root[data-contrast="yuksek"][data-theme="koyu"],
@@ -244,6 +260,7 @@ body {
 		--wrong-soft: #ffffff;
 		--flag: #000000;
 		--flag-soft: #ffffff;
+		--tts-highlight: #ffffff;
 	}
 
 	@page {
@@ -267,6 +284,9 @@ body {
 	[data-tts-active] {
 		background: none !important;
 		box-shadow: none !important;
+		color: inherit !important;
+		padding-inline: 0 !important;
+		margin-inline: 0 !important;
 	}
 
 	.prose-okuma {
@@ -367,18 +387,53 @@ body {
  * üzerinden ekliyor. `className`e dokunmak React'in bir sonraki render'ında
  * sessizce silinirdi; React kendi yazmadığı `data-*` niteliklerine karışmaz.
  *
- * Sol kenar çubuğu renk dışı ikinci ipuçtur (renk tek başına anlam taşımaz).
- * `border` yerine `box-shadow: inset`: kenarlık yerleşimi kaydırır ve okuma
- * ilerledikçe satırlar zıplardı.
+ * Sol kenar çubuğu (`box-shadow: inset 4px`) KALDIRILDI: kutunun İÇİNE
+ * çiziliyordu ve blokta yatay dolgu olmadığı için ilk harflerin üstüne
+ * biniyordu. Yerine güçlü bir zemin geldi.
+ *
+ * `color: var(--fg)` override ZORUNLU: `<Tuzak>` başlığı `text-flag` (#8a5a06)
+ * ve zemin koyulaştıkça AA eşiğini korumak zemin parlaklığını hapsedip
+ * "koyulaştır" isteğiyle doğrudan çelişiyor. Kutunun anlamı zaten ikon +
+ * başlık metni + kenarlıkla taşınıyor ("Kritik bilgi", "Sınav tuzağı" düz
+ * metindir), dolayısıyla okuma anında rengin geçici nötrleşmesi bilgi kaybı
+ * değil.
+ *
+ * `scroll-margin-top` YOK: `block: "center"` ile tarayıcı scroll-margin
+ * kutusunu ortalar; bir pay eklemek elemanı gerçek merkezin altına iter.
  */
 [data-tts-active] {
-	background-color: var(--brand-soft);
-	box-shadow: inset 4px 0 0 0 var(--brand);
-	border-radius: 4px;
-	/* Yapışkan başlık + yapışkan oynatıcı, kaydırma sonrası bloğu örtmesin. */
-	scroll-margin-top: calc(var(--safe-top) + 11rem);
+	background-color: var(--tts-highlight);
+	color: var(--fg);
+	border-radius: 6px;
 }
 tr[data-tts-active] > td,
 tr[data-tts-active] > th {
-	background-color: var(--brand-soft);
+	background-color: var(--tts-highlight);
+	color: var(--fg);
+}
+
+/*
+ * Şekil ipucu — vurgu metnin bir tık dışına taşar, ilk harf zemine yapışmaz.
+ * Telafi edici negatif margin sayesinde yerleşim kaymaz.
+ *
+ * `<li>`ye UYGULANMAZ: `list-style-position: outside` yüzünden negatif
+ * `margin-inline-start` madde imini de kaydırır ve vurgu ilerledikçe imler
+ * zıplar. Listede zaten 1.5rem girinti var, ilk harf hiçbir şeyle örtülmüyor.
+ *
+ * `<td>`/`<th>` de gerekmiyor: `.prose-okuma th, td` zaten 0.7rem yatay dolgu
+ * taşıyor, ayrıca `display: table-cell` üzerinde margin yok sayılır.
+ *
+ * DİKEY taşma bilinçli olarak yok: telafi edici negatif `margin-block`,
+ * `.prose-okuma p { margin-block: 0.85rem }` (özgüllük 0,1,1) tarafından
+ * `[data-tts-active]` (0,1,0) üzerine yazılacağı için çalışmaz — satırlar
+ * zıplardı.
+ */
+p[data-tts-active],
+h1[data-tts-active],
+h2[data-tts-active],
+h3[data-tts-active],
+h4[data-tts-active],
+blockquote[data-tts-active] {
+	padding-inline: 0.35rem;
+	margin-inline: -0.35rem;
 }

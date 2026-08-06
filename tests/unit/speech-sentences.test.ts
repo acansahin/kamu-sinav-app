@@ -1,9 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { cumlelereBol, parcalaraAyir } from "@/lib/speech/sentences";
-import {
-	PARCA_MUTLAK_TAVAN,
-	PARCA_UST_SINIR,
-} from "@/lib/speech/types";
+import { bloklaraAyir, cumlelereBol } from "@/lib/speech/sentences";
+import { BLOK_UST_SINIR, MOTOR_TAVANI } from "@/lib/speech/types";
 
 /**
  * Cümleye bölme.
@@ -76,45 +73,78 @@ describe("cumlelereBol — bölmesi gerekenler", () => {
 	});
 });
 
-describe("parcalaraAyir", () => {
-	it("kısa cümleleri birleştirir", () => {
-		const parcalar = parcalaraAyir("Kısa cümle. Bu da kısa. Üçüncüsü de öyle.");
+/**
+ * `content/subjects/etik/topics/etik-kurul-ve-mevzuat.mdx` içindeki gerçek
+ * paragraf — bir kontenjan listesi ve **tek cümle**. Sınırı tek başına aştığı
+ * için asla bölünmez; virgüllerinden bölmek bu listeyi altı ayrı yerde tam
+ * durakla kesiyordu, oysa liste tonlamasını üreten şey tam da onun tek
+ * utterance olmasıdır.
+ */
+const KONTENJAN_LISTESI =
+	"Üyelerin kontenjanı maddede tek tek belirlenmiştir (5176 m.2): " +
+	"bakanlık yapmış olanlardan 1, il belediye başkanlığı yapmış olanlardan 1, " +
+	"Yargıtay–Danıştay–Sayıştay üyeliğinden emekli olanlardan 3, " +
+	"müsteşarlık–büyükelçilik–valilik–düzenleyici kurul başkanlığı " +
+	"görevlerinde bulunmuşlardan 3, üniversitede rektörlük veya dekanlık " +
+	"yapmış öğretim üyelerinden 2, kamu kurumu niteliğindeki meslek " +
+	"kuruluşlarında en üst kademe yöneticiliği yapmışlardan 1 üye.";
+
+describe("bloklaraAyir", () => {
+	it("bir bloğun cümlelerini tek parçada tutar", () => {
+		const parcalar = bloklaraAyir("Kısa cümle. Bu da kısa. Üçüncüsü de öyle.");
 		expect(parcalar).toHaveLength(1);
 	});
 
-	it("uzun cümleyi virgülden böler", () => {
-		const uzun = `${"a".repeat(150)}, ${"b".repeat(150)}.`;
-		const parcalar = parcalaraAyir(uzun);
-		expect(parcalar.length).toBeGreaterThan(1);
-		expect(parcalar[0].endsWith(",")).toBe(true);
-	});
+	it("eşiği tek başına aşan cümleyi bölmez", () => {
+		expect(KONTENJAN_LISTESI.length).toBeGreaterThan(BLOK_UST_SINIR);
 
-	it("noktalama yoksa kelime sınırından böler", () => {
-		const uzun = Array.from({ length: 60 }, () => "kelime").join(" ");
-		const parcalar = parcalaraAyir(uzun);
-		expect(parcalar.length).toBeGreaterThan(1);
+		const parcalar = bloklaraAyir(KONTENJAN_LISTESI);
+
+		expect(parcalar).toEqual([KONTENJAN_LISTESI]);
 		for (const parca of parcalar) {
-			expect(parca.length).toBeLessThanOrEqual(PARCA_UST_SINIR);
+			expect(parca.endsWith(",")).toBe(false);
+			expect(parca.endsWith(";")).toBe(false);
 		}
 	});
 
-	/** Bölünecek doğal nokta hiç yoksa mutlak tavan devreye girer. */
-	it("boşluksuz devasa dizeyi mutlak tavandan keser", () => {
-		const parcalar = parcalaraAyir("x".repeat(1000));
+	it("üst sınırı aşan bloğu yalnızca cümle sınırından böler", () => {
+		const cumle = `${"Memur ".repeat(20).trim()} sayılır.`;
+		const parcalar = bloklaraAyir(`${cumle} ${cumle} ${cumle} ${cumle}`);
+
+		expect(parcalar.length).toBeGreaterThan(1);
 		for (const parca of parcalar) {
-			expect(parca.length).toBeLessThanOrEqual(PARCA_MUTLAK_TAVAN);
+			expect(parca.endsWith("sayılır.")).toBe(true);
+		}
+	});
+
+	/** Kelime sınırından bölme KALDIRILDI: cümle ortasında durak üretiyordu. */
+	it("noktalama yoksa kelime sınırından bölmez", () => {
+		const uzun = Array.from({ length: 60 }, () => "kelime").join(" ");
+		expect(uzun.length).toBeGreaterThan(BLOK_UST_SINIR);
+		expect(bloklaraAyir(uzun)).toEqual([uzun]);
+	});
+
+	/**
+	 * Motor tavanı bir UX eşiği değil, Android `getMaxSpeechInputLength()`
+	 * sınırıdır; yalnızca içerikte hiç görülmeyen devasa dizelerde devreye girer.
+	 */
+	it("motor tavanını aşan dizeyi keser", () => {
+		const parcalar = bloklaraAyir("x".repeat(MOTOR_TAVANI + 500));
+		expect(parcalar.length).toBeGreaterThan(1);
+		for (const parca of parcalar) {
+			expect(parca.length).toBeLessThanOrEqual(MOTOR_TAVANI);
 		}
 	});
 
 	it("boş metinde boş dizi döner", () => {
-		expect(parcalaraAyir("   ")).toEqual([]);
+		expect(bloklaraAyir("   ")).toEqual([]);
 	});
 
 	/** Hiçbir parça kaybolmamalı: birleştirme ve bölme metni korumalı. */
 	it("metni kaybetmez", () => {
 		const metin =
 			"Kanun memurlar hakkında uygulanır. İşçi İş Kanunu'na tabidir. Üçüncü bir statü sözleşmeli personeldir.";
-		const birlesik = parcalaraAyir(metin).join(" ");
+		const birlesik = bloklaraAyir(metin).join(" ");
 		expect(birlesik.replace(/\s+/g, " ")).toBe(metin);
 	});
 });

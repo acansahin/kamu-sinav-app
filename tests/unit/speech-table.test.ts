@@ -56,7 +56,20 @@ describe("üç sütunlu tablo", () => {
 	 */
 	it("ilk hücreyi başlığıyla anahtarlar, kalanları etiketler", () => {
 		const { satirlar } = tabloyuOku(tablo);
-		expect(satirlar[0]).toBe("Fıkra A. Statü: Memur. Durum: Yürürlükte.");
+		expect(satirlar[0]).toBe("Fıkra A. Statü: Memur; Durum: Yürürlükte.");
+	});
+
+	/**
+	 * Nitelikleri noktayla ayırmak 8 satırlık bir tabloda 24 tam durak üretiyor
+	 * ve okuma robot gibi kesiliyordu. Noktalı virgül duraklamayı korur,
+	 * sonlandırıcı düşen konturu tekrarlamaz.
+	 *
+	 * Anahtarın noktası bilinçli olarak KORUNUR: sıra sütununda "1." Türkçe
+	 * motorlarda "birinci", "1;" ise "bir" okunur.
+	 */
+	it("satır başına yalnızca iki tam durak üretir", () => {
+		const { satirlar } = tabloyuOku(tablo);
+		expect(satirlar[0].split(".").length - 1).toBe(2);
 	});
 
 	it("hücre içeriği de normalleştirmeden geçer", () => {
@@ -74,7 +87,7 @@ describe("sıra sütunu", () => {
 			basliklar: ["#", "Ceza", "Tanımı"],
 			satirlar: [["1", "Uyarma", "Yazılı olarak bildirilir"]],
 		});
-		expect(satirlar[0]).toBe("1. Ceza: Uyarma. Tanımı: Yazılı olarak bildirilir.");
+		expect(satirlar[0]).toBe("1. Ceza: Uyarma; Tanımı: Yazılı olarak bildirilir.");
 		expect(satirlar[0]).not.toContain("#");
 	});
 });
@@ -104,7 +117,7 @@ describe("kenar durumları", () => {
 			satirlar: [["GİH", "1", "Memur", "En kalabalık"]],
 		});
 		expect(satirlar[0]).toBe(
-			"Sınıf GİH. Kod: 1. Örnek: Memur. Not: En kalabalık.",
+			"Sınıf GİH. Kod: 1; Örnek: Memur; Not: En kalabalık.",
 		);
 	});
 

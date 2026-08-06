@@ -1,8 +1,4 @@
-import {
-	PARCA_ALT_SINIR,
-	PARCA_MUTLAK_TAVAN,
-	PARCA_UST_SINIR,
-} from "@/lib/speech/types";
+import { BLOK_UST_SINIR, MOTOR_TAVANI } from "@/lib/speech/types";
 
 /**
  * Metni seslendirme parçalarına böler.
@@ -99,51 +95,50 @@ export function cumlelereBol(metin: string): string[] {
 }
 
 /**
- * Uzun bir cümleyi doğal bir noktadan böler.
+ * Motorun girdi sınırına sığmayan bir parçayı kelime boşluğundan böler.
  *
- * Sıra: önce `;`, sonra `,`, sonra üst sınıra en yakın kelime boşluğu. Hiçbiri
- * yoksa mutlak tavandan kesilir — bölünemeyen bir cümle, dinleyiciyi
- * duraklatamaz hâle getirmektense ortadan kesilir.
+ * Bu bir UX kuralı DEĞİL, son çare bir emniyet supabıdır: içerikte hiçbir blok
+ * bu boyuta yaklaşmıyor. Yalnızca noktalamasız devasa bir dize geldiğinde
+ * (bozuk içerik, yapıştırılmış tablo) motorun sessizce kesmesini engeller.
  */
-function uzunuBol(cumle: string): string[] {
-	if (cumle.length <= PARCA_UST_SINIR) return [cumle];
+export function motorTavaniniUygula(parca: string): string[] {
+	if (parca.length <= MOTOR_TAVANI) return [parca];
 
-	const pencere = cumle.slice(0, PARCA_UST_SINIR);
-	const aday =
-		pencere.lastIndexOf(";") > 0
-			? pencere.lastIndexOf(";")
-			: pencere.lastIndexOf(",") > 0
-				? pencere.lastIndexOf(",")
-				: pencere.lastIndexOf(" ");
+	const pencere = parca.slice(0, MOTOR_TAVANI);
+	const bosluk = pencere.lastIndexOf(" ");
+	const kesim = bosluk > 0 ? bosluk + 1 : MOTOR_TAVANI;
 
-	const kesim = aday > 0 ? aday + 1 : Math.min(PARCA_MUTLAK_TAVAN, cumle.length);
-
-	const bas = cumle.slice(0, kesim).trim();
-	const kalan = cumle.slice(kesim).trim();
+	const bas = parca.slice(0, kesim).trim();
+	const kalan = parca.slice(kesim).trim();
 
 	if (kalan.length === 0) return [bas];
-	return [bas, ...uzunuBol(kalan)];
+	return [bas, ...motorTavaniniUygula(kalan)];
 }
 
 /**
  * Bir bloğun metnini seslendirme parçalarına çevirir.
  *
- * Kısa cümleler birleştirilir, uzunlar bölünür. Birleştirme YALNIZCA blok
- * içinde yapılır: iki ayrı paragrafın cümlelerini tek parçaya koymak,
- * vurgulamanın hangi bloğa ait olduğunu belirsizleştirirdi.
+ * Normal hâlde çıktı TEK parçadır — bloğun tamamı. Bölme yalnızca blok üst
+ * sınırı aşıldığında ve YALNIZCA CÜMLE SINIRINDAN yapılır; virgülden bölmek
+ * cümle ortasında tam durak ve düşen tonlama üretiyordu, kesik okumanın ikinci
+ * sebebi buydu.
+ *
+ * Tek başına sınırı aşan bir cümle olduğu gibi bırakılır. Ölçülen en kötü hâl
+ * `etik/etik-kurul-ve-mevzuat.mdx` içindeki 539 karakterlik tek cümledir ve onu
+ * tek utterance vermek liste tonlamasını üreten şeyin kendisidir.
  */
-export function parcalaraAyir(metin: string): string[] {
-	const cumleler = cumlelereBol(metin).flatMap(uzunuBol);
+export function bloklaraAyir(metin: string): string[] {
+	const cumleler = cumlelereBol(metin);
 	const parcalar: string[] = [];
 
+	// Açgözlü paketleme: sınırı aşana kadar cümleleri aynı parçada biriktir.
 	for (const cumle of cumleler) {
 		const oncekiIndeks = parcalar.length - 1;
 		const onceki = parcalar[oncekiIndeks];
 
 		if (
 			onceki !== undefined &&
-			onceki.length < PARCA_ALT_SINIR &&
-			onceki.length + cumle.length + 1 <= PARCA_UST_SINIR
+			onceki.length + cumle.length + 1 <= BLOK_UST_SINIR
 		) {
 			parcalar[oncekiIndeks] = `${onceki} ${cumle}`;
 			continue;
@@ -151,5 +146,5 @@ export function parcalaraAyir(metin: string): string[] {
 		parcalar.push(cumle);
 	}
 
-	return parcalar;
+	return parcalar.flatMap(motorTavaniniUygula);
 }
