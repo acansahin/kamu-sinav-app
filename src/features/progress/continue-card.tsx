@@ -4,7 +4,7 @@ import { useLiveQuery } from "dexie-react-hooks";
 import { ArrowRight, BookOpen, Target } from "lucide-react";
 import { ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ProgressBar } from "@/components/ui/progress-bar";
+import { ProgressRing } from "@/components/ui/progress-ring";
 import { progressRepository } from "@/lib/repositories/progress.repository";
 import { routes } from "@/lib/routes";
 import { MASTERY_THRESHOLD } from "@/lib/scoring/mastery";
@@ -27,7 +27,9 @@ export function ContinueCard({ topics }: { topics: TopicRef[] }) {
 
 	// Veri henüz yüklenmediyse iskelet göster — düzen sıçraması olmasın.
 	if (progress === undefined) {
-		return <Card className="h-40 animate-pulse bg-surface-sunken" />;
+		return (
+			<Card elevation="duz" className="h-40 animate-pulse bg-surface-sunken" />
+		);
 	}
 
 	const byTopic = new Map(progress.map((p) => [p.topicId, p]));
@@ -68,34 +70,53 @@ export function ContinueCard({ topics }: { topics: TopicRef[] }) {
 	const targetProgress = byTopic.get(target.topicId);
 	const isWeak = weak[0]?.topicId === target.topicId;
 
+	const showsMastery =
+		targetProgress !== undefined && targetProgress.questionsAttempted > 0;
+
+	/*
+	 * Ana sayfanın tek gradyan yüzeyi. Sayfadaki diğer her şey düz kart kalır —
+	 * ikinci bir gradyan hiyerarşiyi yeniden düzleştirirdi.
+	 */
 	return (
-		<Card className="border-brand/40 bg-brand-soft">
-			<p className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-brand">
-				{isWeak ? <Target aria-hidden size={16} /> : <BookOpen aria-hidden size={16} />}
-				{isWeak ? "Zayıf konun" : "Kaldığın yerden devam"}
-			</p>
+		<Card
+			elevation="kahraman"
+			className="kahraman-yuzey belir rounded-kahraman border-transparent"
+		>
+			<div className="flex items-start justify-between gap-4">
+				<div className="min-w-0">
+					<p className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide opacity-80">
+						{isWeak ? (
+							<Target aria-hidden size={16} />
+						) : (
+							<BookOpen aria-hidden size={16} />
+						)}
+						{isWeak ? "Zayıf konun" : "Kaldığın yerden devam"}
+					</p>
 
-			<h2 className="mt-2 text-xl font-bold">{target.topicName}</h2>
-			<p className="text-fg-muted">{target.subjectName}</p>
+					<h2 className="mt-2 text-2xl font-bold">{target.topicName}</h2>
+					<p className="opacity-80">{target.subjectName}</p>
+				</div>
 
-			{targetProgress && targetProgress.questionsAttempted > 0 && (
-				<div className="mt-4">
-					<div className="mb-1.5 flex items-baseline justify-between text-sm">
-						<span className="text-fg-muted">Hakimiyet</span>
-						<span className="font-semibold tabular-nums">
-							%{Math.round(targetProgress.masteryScore)}
-						</span>
-					</div>
-					<ProgressBar
+				{showsMastery && (
+					<ProgressRing
 						value={targetProgress.masteryScore}
 						label={`${target.topicName} hakimiyeti`}
-						tone={
-							targetProgress.masteryScore >= MASTERY_THRESHOLD
-								? "correct"
-								: "brand"
-						}
+						tone="gradyan"
 					/>
-				</div>
+				)}
+			</div>
+
+			{/*
+			 * Halka yüzdeyi zaten yazıyor; buradaki satır ne olduğunu söylüyor.
+			 * Renk tek başına anlam taşımaz kuralı gereği eşik durumu da metinde.
+			 */}
+			{showsMastery && (
+				<p className="mt-3 text-sm opacity-80">
+					Hakimiyet
+					{targetProgress.masteryScore >= MASTERY_THRESHOLD
+						? " — eşiği geçtin"
+						: " — eşiğin altında"}
+				</p>
 			)}
 
 			<ButtonLink
@@ -104,6 +125,7 @@ export function ContinueCard({ topics }: { topics: TopicRef[] }) {
 						? routes.topicTest(target.subjectId, target.topicSlug)
 						: routes.topic(target.subjectId, target.topicSlug)
 				}
+				variant="kahraman"
 				size="lg"
 				block
 				className="mt-5"

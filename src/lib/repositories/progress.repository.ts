@@ -101,6 +101,7 @@ export interface IProgressRepository {
 	getSettings(): Promise<StudySettings>;
 	saveSettings(patch: Partial<StudySettings>): Promise<void>;
 	getDailyStats(days: number): Promise<DailyStat[]>;
+	getStreakSummary(activityDays: number): Promise<StreakSummary>;
 	toggleBookmark(refType: Bookmark["refType"], refId: string): Promise<boolean>;
 	isBookmarked(refType: Bookmark["refType"], refId: string): Promise<boolean>;
 	exportAll(): Promise<ExportBundle>;
@@ -155,6 +156,9 @@ export interface CountPair {
 	total: number;
 }
 
+/** Son N günün aktivitesi, eskiden yeniye; boş günler de dâhil. */
+export type ActivityDay = { date: string; answered: number; correct: number };
+
 export interface StatisticsSnapshot {
 	totalAttempts: number;
 	totalCorrect: number;
@@ -162,8 +166,20 @@ export interface StatisticsSnapshot {
 	bySubject: (CountPair & { subjectId: string })[];
 	byDifficulty: (CountPair & { difficulty: Difficulty })[];
 	byContext: (CountPair & { context: AttemptContext })[];
-	/** Son N günün aktivitesi, eskiden yeniye; boş günler de dâhil. */
-	activity: { date: string; answered: number; correct: number }[];
+	activity: ActivityDay[];
+}
+
+/**
+ * `StatisticsSnapshot`in seri + aktivite kısmı.
+ *
+ * Ayrı bir tipi ve ayrı bir sorgusu var çünkü ana sayfa bunu HER açılışta
+ * okuyor: `getStatistics` tüm `attempts` tablosunu belleğe alır (aylar süren
+ * kullanımda on binlerce satır), oysa seri şeridi yalnızca `dailyStats`
+ * gerektiriyor — günde en fazla bir satır.
+ */
+export interface StreakSummary {
+	streakDays: number;
+	activity: ActivityDay[];
 }
 
 const DEFAULT_SETTINGS: Omit<StudySettings, "userId" | "updatedAt"> = {
@@ -173,6 +189,34 @@ const DEFAULT_SETTINGS: Omit<StudySettings, "userId" | "updatedAt"> = {
 
 function newId(): string {
 	return globalThis.crypto.randomUUID();
+}
+
+/**
+ * Aktivite takvimini kurar. Çalışılmamış günler de ATLANMAZ, sıfır olarak
+ * girer: grafikte boşluk görünmezse iki aktif gün arasındaki ara kapanır ve
+ * seri kesintisiz gibi okunur.
+ */
+function buildActivity(
+	daily: readonly DailyStat[],
+	days: number,
+	today: Date,
+): ActivityDay[] {
+	const byDate = new Map(daily.map((d) => [d.date, d]));
+	const activity: ActivityDay[] = [];
+
+	for (let i = days - 1; i >= 0; i -= 1) {
+		const date = new Date(today);
+		date.setDate(date.getDate() - i);
+		const key = dayKey(date);
+		const stat = byDate.get(key);
+		activity.push({
+			date: key,
+			answered: stat?.questionsAnswered ?? 0,
+			correct: stat?.correctAnswers ?? 0,
+		});
+	}
+
+	return activity;
 }
 
 class DexieProgressRepository implements IProgressRepository {
@@ -566,22 +610,7 @@ class DexieProgressRepository implements IProgressRepository {
 			return map;
 		}
 
-		// Aktivite takvimi boş günleri de içerir; grafikte boşluk görünsün.
-		const byDate = new Map(daily.map((d) => [d.date, d]));
-		const activity: StatisticsSnapshot["activity"] = [];
 		const today = new Date();
-
-		for (let i = activityDays - 1; i >= 0; i -= 1) {
-			const date = new Date(today);
-			date.setDate(date.getDate() - i);
-			const key = dayKey(date);
-			const stat = byDate.get(key);
-			activity.push({
-				date: key,
-				answered: stat?.questionsAnswered ?? 0,
-				correct: stat?.correctAnswers ?? 0,
-			});
-		}
 
 		return {
 			totalAttempts: attempts.length,
@@ -590,6 +619,7 @@ class DexieProgressRepository implements IProgressRepository {
 				daily.filter((d) => d.questionsAnswered > 0).map((d) => d.date),
 				dayKey(today),
 			),
+			activity: buildActivity(daily, activityDays, today),
 			bySubject: [...tally((a) => a.subjectId)].map(([subjectId, counts]) => ({
 				subjectId,
 				...counts,
@@ -601,7 +631,26 @@ class DexieProgressRepository implements IProgressRepository {
 				context,
 				...counts,
 			})),
-			activity,
+		};
+	}
+
+	/**
+	 * Seri şeridi için hafif sorgu — `attempts` tablosuna hiç dokunmaz.
+	 * Gerekçe için `StreakSummary` tipine bakın.
+	 */
+	async getStreakSummary(activityDays: number): Promise<StreakSummary> {
+		const daily = await getDb()
+			.dailyStats.where("userId")
+			.equals(this.userId)
+			.toArray();
+		const today = new Date();
+
+		return {
+			streakDays: computeStreak(
+				daily.filter((d) => d.questionsAnswered > 0).map((d) => d.date),
+				dayKey(today),
+			),
+			activity: buildActivity(daily, activityDays, today),
 		};
 	}
 

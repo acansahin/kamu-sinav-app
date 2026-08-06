@@ -16,6 +16,7 @@ import sharp from "sharp";
 const ROOT = path.resolve(import.meta.dirname, "..");
 const OUT_DIR = path.join(ROOT, "public", "icons");
 const ANDROID_RES = path.join(ROOT, "android", "app", "src", "main", "res");
+const SPLASH_XML = path.join(ANDROID_RES, "drawable", "ic_splash_logo.xml");
 /** Google Play'e yüklenecek görseller; ekran görüntüleri de buraya konur. */
 const STORE_DIR = path.join(ROOT, "store", "assets");
 
@@ -26,16 +27,71 @@ const BRAND = "#17395e";
 const CANVAS = 512;
 
 /**
- * Ortak tik işareti. Verilen oranda, tuvalin merkezine göre ölçeklenir.
+ * Yuvarlatılmış dikdörtgeni `pathData` olarak yazar.
+ *
+ * `<rect rx>` KULLANILMAZ, çünkü aynı geometri Android açılış ekranının
+ * VectorDrawable'ına da gidiyor ve o biçim yalnızca `<path>`, `<group>` ve
+ * `<clip-path>` tanır — `<rect>` ve `rx` yoktur. Tek dize üretip iki yerde
+ * kullanmak, işaretin ikiye ayrılıp sessizce ayrışmasını imkânsız kılar.
+ *
+ * Virgül/boşluk karışımı bilinçli: hem SVG hem Android'in PathParser'ı okur.
+ */
+function roundedRect(
+	x: number,
+	y: number,
+	w: number,
+	h: number,
+	r: number,
+): string {
+	const right = x + w;
+	const bottom = y + h;
+
+	return [
+		`M${x + r},${y}`,
+		`H${right - r}`,
+		`A${r},${r} 0 0 1 ${right},${y + r}`,
+		`V${bottom - r}`,
+		`A${r},${r} 0 0 1 ${right - r},${bottom}`,
+		`H${x + r}`,
+		`A${r},${r} 0 0 1 ${x},${bottom - r}`,
+		`V${y + r}`,
+		`A${r},${r} 0 0 1 ${x + r},${y}`,
+		"Z",
+	].join(" ");
+}
+
+/**
+ * Marka işareti: klasik sütun — başlık, üç yiv, taban.
+ *
+ * Kamu kurumu / hukuk çağrışımı taşır ve önceki tik işaretinin aksine
+ * kategoride ayrışır. Tamamı DOLU form: ince bir stroke'un mdpi 48px
+ * launcher'da eriyip gitmesi riski yok.
+ *
+ * Sınır kutusu 104..408 × 119..393, yani merkezi tam (256, 256). Yuvarlak
+ * maskede yarı köşegen 205 < 256; maskable'da (0.72 ölçek) 148 < 205; adaptive
+ * ön planda (0.9 ölçek) genişlik tuvalin %53'ü, Android'in istediği iç %61'in
+ * içinde. Parçaların yönü aynı (saat yönü), nonzero dolgu delik açmaz.
+ *
+ * Dikey boşluklar bilinçli olarak eşittir (başlık↔yiv ve yiv↔taban = 18):
+ * eşit olmayan boşluk küçük boyutta sütunu "kaymış" gösteriyordu.
+ */
+const COLUMN_PATH = [
+	roundedRect(124, 119, 264, 44, 14), // başlık
+	roundedRect(161, 181, 38, 146, 19), // yiv
+	roundedRect(237, 181, 38, 146, 19), // yiv
+	roundedRect(313, 181, 38, 146, 19), // yiv
+	roundedRect(104, 345, 304, 48, 14), // taban
+].join(" ");
+
+/**
+ * İşareti verilen oranda, tuvalin merkezine göre ölçekler.
  * Tek geometri: web, launcher ve splash aynı işareti kullanır.
  */
 function mark(scale: number): string {
 	const offset = (CANVAS * (1 - scale)) / 2;
 
 	return `  <g transform="translate(${offset} ${offset}) scale(${scale})">
-    <path d="M150 268 L222 340 L366 176"
-          stroke="#ffffff" stroke-width="44"
-          stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="${COLUMN_PATH}" fill="#ffffff"/>
   </g>`;
 }
 
@@ -57,7 +113,7 @@ function maskableRadius(safeRatio: number): number {
 
 /**
  * Android'in `roundIcon` çıktısı. Köşe yuvarlaması yerine tam daire zemin:
- * kare ikonu daireye kırpmak tik işaretinin uçlarını yiyor.
+ * kare ikonu daireye kırpmak işaretin kenarlarını yiyor.
  */
 function roundSvg(): string {
 	const radius = CANVAS / 2;
@@ -118,9 +174,7 @@ function featureGraphicSvg(): string {
   <g transform="translate(${markX} ${markY})">
     <rect width="${markSize}" height="${markSize}" rx="42" fill="#ffffff" opacity="0.12"/>
     <g transform="scale(${markSize / CANVAS})">
-      <path d="M150 268 L222 340 L366 176"
-            stroke="#ffffff" stroke-width="44"
-            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <path d="${COLUMN_PATH}" fill="#ffffff"/>
     </g>
   </g>
 
@@ -131,6 +185,49 @@ function featureGraphicSvg(): string {
   <text x="${markX + markSize + 60}" y="360" font-family="${fontStack}"
         font-size="30" fill="#ffffff" opacity="0.75">Görevde Yükselme ve Unvan Değişikliği</text>
 </svg>`;
+}
+
+/**
+ * Açılış ekranı işareti. Yoğunluk başına PNG değil tek vektördür ve
+ * `values/styles.xml` bunu `windowSplashScreenAnimatedIcon` ile bağlar.
+ *
+ * Bu dosya ELLE değil buradan yazılır: aynı `COLUMN_PATH`ı paylaştığı için
+ * logo değiştiğinde açılış ekranıyla launcher ikonunun ayrışması imkânsız
+ * hâle gelir. Ayrışma hatası yalnızca APK açılışında görülürdü.
+ *
+ * Zemin şeffaftır; arkasını `windowSplashScreenBackground` (@color/brand) verir.
+ */
+const SPLASH_SCALE = 0.85;
+
+function splashVectorXml(): string {
+	return `<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ÜRETİLMİŞ DOSYA — elle düzenlemeyin.
+    Kaynak: scripts/generate-icons.ts · npm run icons:build
+
+    Yol verisi launcher ikonlarıyla birebir aynıdır; viewport bu yüzden 512
+    birimde bırakıldı. Android 12+ açılış ikonunu 288dp tuvalin iç 2/3'lük
+    dairesine kırpar, ölçek bu dairenin içinde pay bırakacak şekilde seçildi.
+
+    Zemin şeffaftır; arkasını windowSplashScreenBackground (@color/brand) verir.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="288dp"
+    android:height="288dp"
+    android:viewportWidth="${CANVAS}"
+    android:viewportHeight="${CANVAS}">
+
+    <group
+        android:pivotX="${CANVAS / 2}"
+        android:pivotY="${CANVAS / 2}"
+        android:scaleX="${SPLASH_SCALE}"
+        android:scaleY="${SPLASH_SCALE}">
+        <path
+            android:pathData="${COLUMN_PATH}"
+            android:fillColor="#FFFFFF" />
+    </group>
+</vector>
+`;
 }
 
 /**
@@ -207,6 +304,10 @@ async function main(): Promise<void> {
 			`    mipmap-${dir.padEnd(17)} ${launcher}×${launcher} + ${adaptive}×${adaptive}  ${kb(bytes)}`,
 		);
 	}
+
+	await mkdir(path.dirname(SPLASH_XML), { recursive: true });
+	await writeFile(SPLASH_XML, splashVectorXml(), "utf8");
+	console.log("    drawable/ic_splash_logo.xml  (açılış ekranı vektörü)");
 
 	console.log("\n  Google Play:");
 	await mkdir(STORE_DIR, { recursive: true });

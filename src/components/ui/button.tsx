@@ -22,6 +22,14 @@ const buttonVariants = cva(
 					"border border-line-strong bg-surface-raised text-fg hover:bg-surface-sunken",
 				ghost: "text-fg-muted hover:bg-surface-sunken hover:text-fg",
 				danger: "border border-wrong bg-surface-raised text-wrong hover:bg-wrong-soft",
+				/*
+				 * Gradyan kahraman yüzeyin üstünde duran buton. Yüzey her iki
+				 * temada da derin lacivert kaldığı için renkleri surface/brand
+				 * token'larından ALINAMAZ — koyu temada ikisi de ters döner ve
+				 * buton zemine gömülür. Bkz. globals.css → --gradient-btn-fg.
+				 */
+				kahraman:
+					"bg-[color:var(--gradient-fg)] text-[color:var(--gradient-btn-fg)] hover:opacity-90",
 			},
 			size: {
 				md: "",

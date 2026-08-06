@@ -106,6 +106,14 @@ Açılış ekranı yoğunluk başına PNG değil, tek vektördür (`drawable/ic_
 `values/styles.xml` bunu `windowSplashScreenAnimatedIcon` ile bağlar.
 `androidx.core:core-splashscreen` nitelikleri API 24'e kadar geriye taşır.
 
+**Bu vektör de `icons:build` tarafından yazılır, elle düzenlenmez.** Launcher
+ikonlarıyla aynı `COLUMN_PATH` dizesini paylaşır; ayrı tutulduğunda logo
+değişince ikisi ayrışıyordu ve fark yalnızca APK açılışında görülüyordu.
+İşaret bu yüzden `<rect rx>` ile değil `roundedRect()` yardımcısının ürettiği
+`pathData` ile çizilir: **VectorDrawable yalnızca `<path>`, `<group>` ve
+`<clip-path>` tanır** — `<rect>` ve `rx` yoktur. Yeni bir biçim eklerken de
+aynı kısıt geçerlidir.
+
 ### Sistem çubukları ve safe-area
 
 Uygulama kenardan kenara çizer. Anahtar `src/app/layout.tsx` içindeki
@@ -305,6 +313,38 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   konu özetleri, testler ve denemeler içerik dosyalarından okunduğu için çalışmaya devam
   eder. Kaybolan yalnızca ilerleme kaydıdır — yeni bir Dexie çağrısı eklerken hata yolunu
   da yazın, `useLiveQuery` hata hâlinde `undefined` dönüp sonsuz iskelet gösterir.
+
+## Tasarım token'ları
+
+Renk, gölge, gradyan ve yarıçap **yalnızca** `globals.css`'teki token'lardan gelir;
+bileşenlere sabit renk yazılmaz. Üç kural kırılgandır:
+
+- **Her token DÖRT varyantta da tanımlanır:** açık, koyu, `[data-contrast="yuksek"]`
+  ve `@media print`. Yüksek kontrastta gölgeler `none`a, gradyan düz renge iner
+  (gradyan üstünde kontrast oranı zeminin en açık noktasına göre düşer); baskıda
+  ikisi de kâğıda geçmez. Bir varyantı atlamak hatayı **yalnızca o modda** doğurur.
+
+- **⚠️ Koyu tema İKİ blokta tanımlıdır** — biri `@media (prefers-color-scheme: dark)`
+  içinde, diğeri `:root[data-theme="koyu"]`. CSS'te tek yerde toplanamıyorlar.
+  Yeni token'ı **ikisine de** yazın: yalnızca birine yazmak, kullanıcı temayı elle
+  seçtiğinde çalışan ama cihaz gece moduna geçtiğinde sessizce açık tema değerine
+  düşen bir hata üretir. Bu tuzağa bir kez düşüldü.
+
+- **`--accent` DEKORATİFTİR, durum taşımaz.** Doğru/yanlış/işaretli/kilitli için
+  kullanılamaz — o anlamlar `--correct`/`--wrong`/`--flag`ındır. Yalnızca başarı ve
+  alışkanlık yüzeylerinde (seri şeridi, hedef tamamlama) görünür; quiz ekranlarında
+  hiç bulunmaz, bu yüzden `--correct` ile karışma riski yoktur.
+
+Kahraman yüzeyler (`.kahraman-yuzey`) gradyan zemini ve ön plan rengini **birlikte**
+getirir; ikisini ayrı ayrı uygulamayın. Üstlerindeki buton `variant="kahraman"`
+kullanır: gradyan her iki temada da derin lacivert kaldığı için renkleri
+`surface`/`brand` token'larından alınamaz — koyu temada ikisi de ters döner ve buton
+zemine gömülür. **Aynı ekranda en fazla bir gradyan yüzey** bulunur; ikincisi
+hiyerarşiyi yeniden düzleştirir.
+
+Hareket tek bir eğri ve tek bir süreyle sınırlıdır (`--ease-cikis`, 150 ms) ve tek
+animasyon `belir`dir. Yeni bir `prefers-reduced-motion` kuralı **yazmayın**: mevcut
+global blok tüm animasyon ve geçiş sürelerini zaten kısıyor ve yenileri de yakalıyor.
 
 ## Erişilebilirlik sözleşmesi
 

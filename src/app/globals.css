@@ -34,6 +34,26 @@
 	--brand-fg: #ffffff;
 	--brand-soft: #e3ecf6;
 
+	/*
+	 * Kahraman yüzeyler (ana sayfadaki "devam et" kartı gibi). Ön plan rengi
+	 * AYRI bir token: koyu temada --brand açık maviye, --brand-fg koyuya döner,
+	 * gradyan yüzey ise her iki temada da derin lacivert kalır. --brand-fg
+	 * kullanmak koyu temada metni okunmaz yapardı.
+	 *
+	 * Aynı ekranda en fazla BİR gradyan yüzey bulunur; ikincisi hiyerarşiyi
+	 * yeniden düzleştirir.
+	 */
+	--brand-gradient: linear-gradient(135deg, #1d4a7a 0%, #17395e 55%, #102a47 100%);
+	--gradient-fg: #ffffff;
+	/*
+	 * Gradyan üstündeki butonun YAZI rengi. Zemini --gradient-fg (beyaza yakın)
+	 * olduğu için ayrı bir zemin token'ı gerekmez, ama yazı rengi --brand
+	 * OLAMAZ: koyu temada --brand açık maviye döner ve açık buton üstünde
+	 * okunmaz. Gradyan her iki temada da derin lacivert kaldığından bu değer
+	 * temaya göre ayrı ayarlanır.
+	 */
+	--gradient-btn-fg: #17395e;
+
 	/* Anlam renkleri. Renk asla tek başına anlam taşımaz; ikon + metin eşlik eder. */
 	--correct: #17694a;
 	--correct-soft: #e2f3ea;
@@ -42,7 +62,31 @@
 	--flag: #8a5a06;
 	--flag-soft: #fdf0da;
 
+	/*
+	 * İkinci vurgu rengi — DEKORATİFTİR, DURUM TAŞIMAZ.
+	 *
+	 * Yukarıdaki beş anlam rengi dolu: doğru, yanlış, işaretli, marka, odak.
+	 * Başarı ve alışkanlık anları (günlük seri, hedef tamamlama) bunlardan
+	 * birini ödünç alınca anlam kirleniyordu — özellikle --flag ("işaretli /
+	 * uyarı") sınavda başka bir şey söylüyor.
+	 *
+	 * KURAL: --accent hiçbir durumu ifade edemez. Doğru/yanlış/kilitli/işaretli
+	 * için kullanılamaz. Bu yüzden --correct ile aynı ekranda bulunması sorun
+	 * değildir: quiz yüzeylerinde accent hiç görünmez.
+	 */
+	--accent: #0e6b74;
+	--accent-soft: #ddf1f3;
+
 	--focus: #1f6feb;
+
+	/*
+	 * Yükseklik. Renk saf siyah değil --fg'ye kaçıktır: nötr gri yüzeyde saf
+	 * siyah gölge kirli görünür. Dört varyantın DÖRDÜNDE de tanımlıdır
+	 * (koyu, yüksek kontrast, baskı) — eksik biri sessizce bozar.
+	 */
+	--shadow-card: 0 1px 2px rgb(22 32 44 / 0.05), 0 1px 3px rgb(22 32 44 / 0.04);
+	--shadow-raised: 0 2px 4px rgb(22 32 44 / 0.06),
+		0 8px 20px rgb(22 32 44 / 0.07);
 
 	/*
 	 * Sesli okumada o an okunan bloğun zemini.
@@ -83,7 +127,15 @@
 	font-size: 20px;
 }
 
-/* Koyu tema: sistem tercihi (açık'a sabitlenmediyse) veya açık seçim */
+/*
+ * Koyu tema: sistem tercihi (açık'a sabitlenmediyse) veya açık seçim.
+ *
+ * ⚠️ AŞAĞIDAKİ İKİ BLOK BİREBİR AYNI OLMAK ZORUNDA. Biri `@media` içinde
+ * olduğu için CSS'te tek yerde toplanamıyorlar. Yeni bir token eklerken
+ * İKİSİNE de yazın: yalnızca birine yazmak, kullanıcı temayı ELLE seçtiğinde
+ * çalışan ama cihaz gece moduna geçtiğinde sessizce açık tema değerine düşen
+ * bir hata üretir — ve iki yolu birlikte denemedikçe fark edilmez.
+ */
 @media (prefers-color-scheme: dark) {
 	:root:not([data-theme="acik"]) {
 		--surface: #0e141b;
@@ -104,8 +156,16 @@
 		--wrong-soft: #3a171b;
 		--flag: #e0b062;
 		--flag-soft: #33260f;
+		--accent: #5fc6d0;
+		--accent-soft: #0e2d31;
 		--focus: #79b8ff;
 		--tts-highlight: #2a4d73;
+		--brand-gradient: linear-gradient(135deg, #1c3a5c 0%, #14263a 100%);
+		--gradient-fg: #e8edf3;
+		--gradient-btn-fg: #14263a;
+		/* Koyu zeminde açık gölge görünmez; saf siyah ve daha derin olmalı. */
+		--shadow-card: 0 1px 2px rgb(0 0 0 / 0.4);
+		--shadow-raised: 0 4px 16px rgb(0 0 0 / 0.5);
 	}
 }
 
@@ -128,8 +188,16 @@
 	--wrong-soft: #3a171b;
 	--flag: #e0b062;
 	--flag-soft: #33260f;
+	--accent: #5fc6d0;
+	--accent-soft: #0e2d31;
 	--focus: #79b8ff;
 	--tts-highlight: #2a4d73;
+	--brand-gradient: linear-gradient(135deg, #1c3a5c 0%, #14263a 100%);
+	--gradient-fg: #e8edf3;
+	--gradient-btn-fg: #14263a;
+	/* Koyu zeminde açık gölge görünmez; saf siyah ve daha derin olmalı. */
+	--shadow-card: 0 1px 2px rgb(0 0 0 / 0.4);
+	--shadow-raised: 0 4px 16px rgb(0 0 0 / 0.5);
 }
 
 /* Yüksek kontrast — kontrast oranlarını AAA sınırına taşır */
@@ -148,7 +216,20 @@
 	--correct: #0c4a30;
 	--wrong: #7a1219;
 	--flag: #5c3b02;
+	--accent: #054249;
+	--accent-soft: #d5eef1;
 	--tts-highlight: #8ec0ea;
+
+	/*
+	 * Gölge kontrast taşımaz — yüksek kontrast modunda hiyerarşiyi yalnızca
+	 * --border-strong taşır. Gradyan da düz renge iner: dereceli zemin üzerinde
+	 * kontrast oranı zeminin en açık noktasına göre düşer.
+	 */
+	--shadow-card: none;
+	--shadow-raised: none;
+	--brand-gradient: var(--brand);
+	--gradient-fg: #ffffff;
+	--gradient-btn-fg: #0b2c4d;
 }
 
 :root[data-contrast="yuksek"][data-theme="koyu"],
@@ -175,6 +256,19 @@
 	--color-wrong-soft: var(--wrong-soft);
 	--color-flag: var(--flag);
 	--color-flag-soft: var(--flag-soft);
+	--color-accent: var(--accent);
+	--color-accent-soft: var(--accent-soft);
+
+	/* shadow-kart / shadow-kahraman yardımcılarını açar */
+	--shadow-kart: var(--shadow-card);
+	--shadow-kahraman: var(--shadow-raised);
+
+	/* rounded-kart / rounded-kahraman — kahraman yüzeyler daha yumuşak köşe alır */
+	--radius-kart: 0.875rem;
+	--radius-kahraman: 1.25rem;
+
+	/* Tek geçiş eğrisi ve tek süre; bkz. "Hareket" notu aşağıda */
+	--ease-cikis: cubic-bezier(0.22, 1, 0.36, 1);
 
 	--font-sans:
 		system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
@@ -187,6 +281,31 @@ body {
 	font-family: var(--font-sans);
 	line-height: 1.65;
 	-webkit-text-size-adjust: 100%;
+}
+
+/*
+ * Başlık tipografisi. Sistem font yığınının harf aralığı büyük puntoda gevşek
+ * durur; hafif negatif aralık başlıkları toparlar.
+ *
+ * `text-wrap: balance` başlığın son satırında tek kelime kalmasını önler,
+ * `pretty` paragraf sonundaki öksüz kelimeyi engeller. Desteklemeyen eski
+ * WebView ikisini de sessizce yok sayar — geriye dönük kırılma riski yok.
+ */
+h1,
+h2,
+h3 {
+	letter-spacing: -0.011em;
+	text-wrap: balance;
+}
+
+/*
+ * Kahraman yüzey — gradyan zemin ve ona ait ön plan rengi birlikte gelir.
+ * İkisini ayrı ayrı uygulamak, birini güncelleyip diğerini unutmayı mümkün
+ * kılıyordu; koyu temada sonuç okunmaz metindi.
+ */
+.kahraman-yuzey {
+	background: var(--brand-gradient);
+	color: var(--gradient-fg);
 }
 
 /* Odak her yerde görünür. Hiçbir yerde outline:none kullanılmaz. */
@@ -230,6 +349,31 @@ body {
 }
 
 /*
+ * Tek giriş animasyonu: 2 piksel yükselerek belirme, 150 ms.
+ *
+ * Kullanımı bilinçli olarak dardır — durumu DEĞİŞEN yüzeyler (cevap açıldığında
+ * gerekçe kutusu, ilk yüklenen kahraman kart). Liste öğelerine kademeli olarak
+ * uygulanmaz: hedef kitlenin yaş profili için "canlı" değil rahatsız edici olur.
+ *
+ * Ayrı bir `prefers-reduced-motion` kuralı YAZILMAZ; yukarıdaki global blok
+ * `animation-duration`ı zaten 0.01ms'ye çekiyor ve bunu da yakalar.
+ */
+@keyframes belir {
+	from {
+		opacity: 0;
+		transform: translateY(2px);
+	}
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.belir {
+	animation: belir 150ms var(--ease-cikis) both;
+}
+
+/*
  * Yazdırma / PDF çıktısı.
  *
  * PDF üretimi için ayrı bir kütüphane kullanılmaz: tarayıcının kendi yazdırma
@@ -260,7 +404,26 @@ body {
 		--wrong-soft: #ffffff;
 		--flag: #000000;
 		--flag-soft: #ffffff;
+		--accent: #000000;
+		--accent-soft: #ffffff;
 		--tts-highlight: #ffffff;
+
+		/*
+		 * Gölge ve gradyan kâğıda geçmez: ikisi de yalnızca kartuş tüketir,
+		 * gradyan üstündeki beyaz metin ise okunmaz çıkardı.
+		 */
+		--shadow-card: none;
+		--shadow-raised: none;
+		--brand-gradient: #ffffff;
+		--gradient-fg: #000000;
+		--gradient-btn-fg: #000000;
+	}
+
+	/*
+	 * Yardımcı sınıflarla gelen gölgeler token'dan geçmez; ayrıca söndürülür.
+	 */
+	* {
+		box-shadow: none !important;
 	}
 
 	@page {

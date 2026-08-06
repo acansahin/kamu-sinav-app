@@ -5,7 +5,7 @@ import { Check, TrendingUp } from "lucide-react";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Card, SectionHeading } from "@/components/ui/card";
-import { ProgressBar } from "@/components/ui/progress-bar";
+import { ProgressRing } from "@/components/ui/progress-ring";
 import { progressRepository } from "@/lib/repositories/progress.repository";
 import { routes } from "@/lib/routes";
 import { MASTERY_LABELS, masteryLevel } from "@/lib/scoring/mastery";
@@ -21,8 +21,8 @@ export function ProgressOverview({ topics }: { topics: TopicRef[] }) {
 	if (progress === undefined) {
 		return (
 			<div className="space-y-3">
-				<Card className="h-28 animate-pulse bg-surface-sunken" />
-				<Card className="h-48 animate-pulse bg-surface-sunken" />
+				<Card elevation="duz" className="h-28 animate-pulse bg-surface-sunken" />
+				<Card elevation="duz" className="h-48 animate-pulse bg-surface-sunken" />
 			</div>
 		);
 	}
@@ -100,15 +100,27 @@ export function ProgressOverview({ topics }: { topics: TopicRef[] }) {
 
 						return (
 							<li key={topic.topicId}>
-								<Card>
-									<div className="flex flex-wrap items-start justify-between gap-2">
-										<div className="min-w-0">
-											<h3 className="font-semibold">{topic.topicName}</h3>
-											<p className="text-sm text-fg-muted">
-												{topic.subjectName}
-											</p>
-										</div>
-										<div className="flex items-center gap-2">
+								{/*
+								 * Halka solda, metin sağda. Yatay çubuk kartın tamamını
+								 * kaplayıp her satırı iki kat uzatıyordu; halka aynı bilgiyi
+								 * satır yüksekliğinde veriyor. Yüzde halkanın ortasında metin
+								 * olarak da yazılı — renk tek başına anlam taşımaz.
+								 */}
+								<Card className="flex items-start gap-4">
+									{p.questionsAttempted > 0 && (
+										<ProgressRing
+											value={p.masteryScore}
+											label={`${topic.topicName} hakimiyeti`}
+											tone={level === "hakim" ? "correct" : "brand"}
+											size="sm"
+										/>
+									)}
+
+									<div className="min-w-0 flex-1">
+										<h3 className="font-semibold">{topic.topicName}</h3>
+										<p className="text-sm text-fg-muted">{topic.subjectName}</p>
+
+										<div className="mt-2 flex flex-wrap items-center gap-2">
 											{p.summaryRead && (
 												<Badge tone="correct">
 													<Check aria-hidden size={13} />
@@ -118,35 +130,22 @@ export function ProgressOverview({ topics }: { topics: TopicRef[] }) {
 											<Badge tone={level === "hakim" ? "correct" : "neutral"}>
 												{MASTERY_LABELS[level]}
 											</Badge>
-										</div>
-									</div>
-
-									{p.questionsAttempted > 0 && (
-										<div className="mt-4">
-											<div className="mb-1.5 flex items-baseline justify-between text-sm">
-												<span className="text-fg-muted">
+											{p.questionsAttempted > 0 && (
+												<span className="text-sm tabular-nums text-fg-muted">
 													{p.questionsCorrect} / {p.questionsAttempted} doğru
 												</span>
-												<span className="font-semibold tabular-nums">
-													%{Math.round(p.masteryScore)}
-												</span>
-											</div>
-											<ProgressBar
-												value={p.masteryScore}
-												label={`${topic.topicName} hakimiyeti`}
-												tone={level === "hakim" ? "correct" : "brand"}
-											/>
+											)}
 										</div>
-									)}
 
-									{topic.questionCount > 0 && (
-										<Link
-											href={routes.topicTest(topic.subjectId, topic.topicSlug)}
-											className="mt-3 inline-block text-sm font-medium text-brand underline"
-										>
-											Tekrar test et
-										</Link>
-									)}
+										{topic.questionCount > 0 && (
+											<Link
+												href={routes.topicTest(topic.subjectId, topic.topicSlug)}
+												className="mt-3 inline-block min-h-11 text-sm font-medium leading-[2.75rem] text-brand underline"
+											>
+												Tekrar test et
+											</Link>
+										)}
+									</div>
 								</Card>
 							</li>
 						);

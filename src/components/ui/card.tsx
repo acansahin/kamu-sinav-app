@@ -2,11 +2,32 @@ import Link from "next/link";
 import type { ComponentProps, ReactNode } from "react";
 import { cn } from "@/lib/utils/cn";
 
-export function Card({ className, ...props }: ComponentProps<"div">) {
+/**
+ * Yükseklik kademeleri. Gölge token'ları dört tema varyantının dördünde de
+ * tanımlıdır: yüksek kontrastta ve baskıda `none`a iner, hiyerarşiyi orada
+ * kenarlık taşır (bkz. globals.css).
+ *
+ * `duz` gölgesiz kart demektir — bilgilendirme şeritleri ve iç içe kartlar
+ * gibi, üstünde durduğu yüzeyden ayrılması gerekmeyen yerler için.
+ */
+const YUKSEKLIKLER = {
+	duz: "",
+	kart: "shadow-kart",
+	kahraman: "shadow-kahraman",
+} as const;
+
+type Yukseklik = keyof typeof YUKSEKLIKLER;
+
+export function Card({
+	className,
+	elevation = "kart",
+	...props
+}: ComponentProps<"div"> & { elevation?: Yukseklik }) {
 	return (
 		<div
 			className={cn(
-				"rounded-xl border border-line bg-surface-raised p-5",
+				"rounded-kart border border-line bg-surface-raised p-5",
+				YUKSEKLIKLER[elevation],
 				className,
 			)}
 			{...props}
@@ -15,11 +36,16 @@ export function Card({ className, ...props }: ComponentProps<"div">) {
 }
 
 /** Tamamı tıklanabilir kart. Odak halkası kartın tamamını çevreler. */
-export function CardLink({ className, ...props }: ComponentProps<typeof Link>) {
+export function CardLink({
+	className,
+	elevation = "kart",
+	...props
+}: ComponentProps<typeof Link> & { elevation?: Yukseklik }) {
 	return (
 		<Link
 			className={cn(
-				"block rounded-xl border border-line bg-surface-raised p-5 transition-colors hover:border-line-strong hover:bg-surface-sunken",
+				"block rounded-kart border border-line bg-surface-raised p-5 transition-colors duration-150 ease-[var(--ease-cikis)] hover:border-line-strong hover:bg-surface-sunken",
+				YUKSEKLIKLER[elevation],
 				className,
 			)}
 			{...props}

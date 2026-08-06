@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Açılış ekranı işareti. Zemin şeffaftır; arkasını
-    `windowSplashScreenBackground` (@color/brand) verir.
+    ÜRETİLMİŞ DOSYA — elle düzenlemeyin.
+    Kaynak: scripts/generate-icons.ts · npm run icons:build
 
-    Yol koordinatları scripts/generate-icons.ts içindeki tik işaretiyle
-    birebir aynıdır — bu yüzden viewport 512 birimde bırakıldı. Android 12+
-    açılış ikonunu 288dp tuvalin iç 2/3'lük dairesine kırpar; ölçek bu
-    dairenin içinde rahat pay bırakacak şekilde seçildi.
+    Yol verisi launcher ikonlarıyla birebir aynıdır; viewport bu yüzden 512
+    birimde bırakıldı. Android 12+ açılış ikonunu 288dp tuvalin iç 2/3'lük
+    dairesine kırpar, ölçek bu dairenin içinde pay bırakacak şekilde seçildi.
 
-    Yoğunluk başına splash.png üretmeye gerek yok: vektör her ekranda ölçeklenir.
+    Zemin şeffaftır; arkasını windowSplashScreenBackground (@color/brand) verir.
 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="288dp"
@@ -22,10 +21,7 @@
         android:scaleX="0.85"
         android:scaleY="0.85">
         <path
-            android:pathData="M150,268 L222,340 L366,176"
-            android:strokeColor="#FFFFFF"
-            android:strokeWidth="44"
-            android:strokeLineCap="round"
-            android:strokeLineJoin="round" />
+            android:pathData="M138,119 H374 A14,14 0 0 1 388,133 V149 A14,14 0 0 1 374,163 H138 A14,14 0 0 1 124,149 V133 A14,14 0 0 1 138,119 Z M180,181 H180 A19,19 0 0 1 199,200 V308 A19,19 0 0 1 180,327 H180 A19,19 0 0 1 161,308 V200 A19,19 0 0 1 180,181 Z M256,181 H256 A19,19 0 0 1 275,200 V308 A19,19 0 0 1 256,327 H256 A19,19 0 0 1 237,308 V200 A19,19 0 0 1 256,181 Z M332,181 H332 A19,19 0 0 1 351,200 V308 A19,19 0 0 1 332,327 H332 A19,19 0 0 1 313,308 V200 A19,19 0 0 1 332,181 Z M118,345 H394 A14,14 0 0 1 408,359 V379 A14,14 0 0 1 394,393 H118 A14,14 0 0 1 104,379 V359 A14,14 0 0 1 118,345 Z"
+            android:fillColor="#FFFFFF" />
     </group>
 </vector>

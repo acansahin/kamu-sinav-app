@@ -2,7 +2,7 @@
 
 import { useLiveQuery } from "dexie-react-hooks";
 import { Card } from "@/components/ui/card";
-import { ProgressBar } from "@/components/ui/progress-bar";
+import { ProgressRing } from "@/components/ui/progress-ring";
 import { progressRepository } from "@/lib/repositories/progress.repository";
 
 /** Günün çalışma özeti ve günlük hedefe göre ilerleme. */
@@ -20,32 +20,46 @@ export function TodaySummary() {
 	);
 
 	if (data === undefined) {
-		return <Card className="h-28 animate-pulse bg-surface-sunken" />;
+		return (
+			<Card elevation="duz" className="h-28 animate-pulse bg-surface-sunken" />
+		);
 	}
 
 	const answered = data.today?.questionsAnswered ?? 0;
 	const correct = data.today?.correctAnswers ?? 0;
 	const goal = data.settings.dailyGoalQuestions;
+	const reached = answered >= goal;
 
 	return (
-		<Card>
-			<div className="mb-2 flex items-baseline justify-between gap-4">
-				<p className="font-semibold">Günlük hedef</p>
-				<p className="text-sm tabular-nums text-fg-muted">
-					{answered} / {goal} soru
-				</p>
-			</div>
-			<ProgressBar
+		<Card className="flex items-center gap-5">
+			{/*
+			 * Halka ortasında yüzde değil çözülen SORU SAYISI durur: hedef
+			 * kullanıcının kafasındaki birim soru sayısıdır, yüzde değil.
+			 * Yüzdeyi `aria-valuenow` yine taşır.
+			 */}
+			<ProgressRing
 				value={answered}
 				max={goal}
 				label={`Günlük hedef: ${answered} / ${goal} soru`}
-				tone={answered >= goal ? "correct" : "brand"}
+				tone={reached ? "correct" : "brand"}
+				display={answered}
 			/>
-			<p className="mt-3 text-sm text-fg-muted">
-				{answered === 0
-					? "Bugün henüz soru çözmedin."
-					: `Bugün ${answered} soru çözdün, ${correct} tanesi doğru.`}
-			</p>
+
+			<div className="min-w-0">
+				<p className="font-semibold">
+					Günlük hedef{" "}
+					<span className="font-normal tabular-nums text-fg-muted">
+						{answered} / {goal} soru
+					</span>
+				</p>
+				<p className="mt-1 text-sm text-fg-muted">
+					{answered === 0
+						? "Bugün henüz soru çözmedin."
+						: reached
+							? `Bugün ${answered} soru çözdün, ${correct} tanesi doğru. Hedefi tamamladın.`
+							: `Bugün ${answered} soru çözdün, ${correct} tanesi doğru.`}
+				</p>
+			</div>
 		</Card>
 	);
 }
