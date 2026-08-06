@@ -23,6 +23,63 @@ import { kesriOku } from "@/lib/speech/number-tr";
  * `lib/` kuralı gereği React ve DOM görmez.
  */
 
+/**
+ * Türkçe harf adları.
+ *
+ * ⚠️ **Tek başına duran büyük harfi motorlar ROMEN RAKAMI sanıyor.** Cihazda
+ * ölçüldü: "Fıkra C" → "Fıkra yüz", "Fıkra D" → "Fıkra beş yüz" (C=100, D=500).
+ * Hata tam olarak bu iki harfte bildirildi; A ve B romen rakamı olmadığı için
+ * doğru okunuyordu. Aynı tuzak I, V, X, L ve M için de geçerlidir.
+ *
+ * Harf adını YAZMAK sesi motorun yorumuna bırakmaz: "ce" sıradan bir Türkçe
+ * sözcük gibi okunur ve harfin adıyla birebir aynı sesi verir.
+ *
+ * ⚠️ Bu tablo yalnızca harfin **fıkra/bent adı olduğu KESİN** olduğu yerlerde
+ * uygulanır (bkz. 7. adım, 15. adım ve `table.ts`). Genel bir "tek harfi
+ * çevir" kuralı yazılamaz, çünkü romen rakamı bazen BİLİNÇLİDİR:
+ * "(I) sayılı cetvel" ifadesinde motorun "bir" okuması doğru olandır
+ * (`devlet-teskilati/ust-kademe-kamu-yoneticileri.mdx`).
+ */
+const HARF_ADLARI: Record<string, string> = {
+	A: "a",
+	B: "be",
+	C: "ce",
+	Ç: "çe",
+	D: "de",
+	E: "e",
+	F: "fe",
+	G: "ge",
+	Ğ: "yumuşak ge",
+	H: "he",
+	I: "ı",
+	İ: "i",
+	J: "je",
+	K: "ke",
+	L: "le",
+	M: "me",
+	N: "ne",
+	O: "o",
+	Ö: "ö",
+	P: "pe",
+	Q: "ku",
+	R: "re",
+	S: "se",
+	Ş: "şe",
+	T: "te",
+	U: "u",
+	Ü: "ü",
+	V: "ve",
+	W: "çift ve",
+	X: "iks",
+	Y: "ye",
+	Z: "ze",
+};
+
+/** Bir harfin Türkçe adı; harf değilse `null`. */
+export function harfAdi(harf: string): string | null {
+	return HARF_ADLARI[harf] ?? null;
+}
+
 const AYLAR = [
 	"Ocak",
 	"Şubat",
@@ -103,12 +160,14 @@ export function konusmaMetni(ham: string): string {
 
 	// 7 — Fıkra/bent gösterimi: "4/A", "48/A".
 	//     Sözcük EKLENMEZ: içerikte hem 4/A (fıkra) hem 48/A (bent) geçiyor ve
-	//     tek bir sabit sözcük ikisine birden uymuyor. "dört A" her ikisinde de
-	//     doğru okunur.
+	//     tek bir sabit sözcük ikisine birden uymuyor.
+	//     Harf ADIYLA yazılır: burada harfin bir fıkra/bent adı olduğu kesindir
+	//     ve düz bırakılırsa "4/C" motorda "dört yüz", "4/D" "dört beş yüz"
+	//     oluyor (romen rakamı yorumu — bkz. HARF_ADLARI).
 	//     Lookahead, "A/B testi" gibi harf-harf yapılarını dışarıda tutar.
 	metin = metin.replace(
 		/(\d{1,3})\/([A-ZÇĞİÖŞÜ])(?![A-Za-zÇĞİÖŞÜçğıöşü])/g,
-		"$1 $2",
+		(_tam, sayi: string, harf: string) => `${sayi} ${harfAdi(harf) ?? harf}`,
 	);
 
 	// 8 — Aralık tiresi (en tire / em tire). 9. adımdan ÖNCE olmalı: "1/30 – 1/8"
@@ -149,7 +208,34 @@ export function konusmaMetni(ham: string): string {
 	// 14 — Rakam arasında kalmayan en/em tireler (tanım tiresi): virgül.
 	metin = metin.replace(/\s*[–—]\s*/g, ", ");
 
-	// 15 — Genel kısaltmalar. "m.N" kuralı 2. adımdan sonra gelmek zorunda.
+	// 15 — Parantez içindeki fıkra/bent harfleri.
+	//
+	//      İki biçim var ve ikisi de gerçek içerikten: "(C) fıkrası" ve
+	//      "3 (A, B, D)" (657-dmk/genel-hukumler.mdx). Düz bırakılırsa motor
+	//      C'yi "yüz", D'yi "beş yüz" okuyor.
+	//
+	//      Kural BAĞLAMA BAĞLIDIR ve öyle kalmalıdır: tek harfi her yerde
+	//      çevirmek "(I) sayılı cetvel" ifadesini bozardı — orada romen rakamı
+	//      bilinçlidir ve motorun "bir" okuması DOĞRUDUR. Bu yüzden tek harf
+	//      yalnızca ardından "fıkra/bent" sözcüğü gelirse, harf listesi ise
+	//      yalnızca en az iki harf varsa çevrilir; "(I)" hiçbirine uymaz.
+	metin = metin.replace(
+		/\(([A-ZÇĞİÖŞÜ])\)(?=\s+(?:fıkra|bent|bend))/g,
+		(tam, harf: string) => {
+			const ad = harfAdi(harf);
+			return ad === null ? tam : `(${ad})`;
+		},
+	);
+	metin = metin.replace(
+		/\(([A-ZÇĞİÖŞÜ](?:,\s*[A-ZÇĞİÖŞÜ])+)\)/g,
+		(_tam, liste: string) =>
+			`(${liste
+				.split(",")
+				.map((h) => harfAdi(h.trim()) ?? h.trim())
+				.join(", ")})`,
+	);
+
+	// 16 — Genel kısaltmalar. "m.N" kuralı 2. adımdan sonra gelmek zorunda.
 	metin = metin
 		.replace(/\bmd\.\s*(\d+)/g, "madde $1")
 		.replace(/\bm\.\s*(\d+)/g, "madde $1")
@@ -157,7 +243,7 @@ export function konusmaMetni(ham: string): string {
 		.replace(/\bvs\./g, "vesaire")
 		.replace(/\bbkz\./g, "bakınız");
 
-	// 16 — Sadeleştirme: art arda düşen noktalama ve boşluklar.
+	// 17 — Sadeleştirme: art arda düşen noktalama ve boşluklar.
 	metin = metin
 		.replace(/\s+/g, " ")
 		.replace(/\s+([.,;:!?])/g, "$1")

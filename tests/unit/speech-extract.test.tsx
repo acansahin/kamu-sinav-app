@@ -191,8 +191,8 @@ describe("tablolar", () => {
 	it("giriş cümlesi ve satır başına bir parça üretir", () => {
 		expect(metinleri(TABLO)).toEqual([
 			"Tablo. Sütunlar: Fıkra, Statü, Durum. 2 satır.",
-			"Fıkra A. Statü: Memur; Durum: Yürürlükte.",
-			"Fıkra C. Statü: Geçici personel; Durum: Mülga.",
+			"Fıkra a. Statü: Memur; Durum: Yürürlükte.",
+			"Fıkra ce. Statü: Geçici personel; Durum: Mülga.",
 		]);
 	});
 

@@ -56,7 +56,18 @@ describe("üç sütunlu tablo", () => {
 	 */
 	it("ilk hücreyi başlığıyla anahtarlar, kalanları etiketler", () => {
 		const { satirlar } = tabloyuOku(tablo);
-		expect(satirlar[0]).toBe("Fıkra A. Statü: Memur; Durum: Yürürlükte.");
+		expect(satirlar[0]).toBe("Fıkra a. Statü: Memur; Durum: Yürürlükte.");
+	});
+
+	/**
+	 * Tek harflik hücre harf ADIYLA okunur. Düz bırakılinca motor romen rakamı
+	 * sanıyordu: cihazda "Fıkra C" → "Fıkra yüz", "Fıkra D" → "Fıkra beş yüz"
+	 * (C=100, D=500). Bildirilen hata tam olarak buydu.
+	 */
+	it("tek harflik hücreyi harf adıyla okur — romen rakamı sanılmasın", () => {
+		const { satirlar } = tabloyuOku(tablo);
+		expect(satirlar[1]).toContain("Fıkra ce.");
+		expect(satirlar[1]).not.toContain("Fıkra C.");
 	});
 
 	/**
@@ -70,6 +81,15 @@ describe("üç sütunlu tablo", () => {
 	it("satır başına yalnızca iki tam durak üretir", () => {
 		const { satirlar } = tabloyuOku(tablo);
 		expect(satirlar[0].split(".").length - 1).toBe(2);
+	});
+
+	/** Başlık bir sütun adıdır, etiket değil — harf adına çevrilmez. */
+	it("tek harflik BAŞLIĞA dokunmaz", () => {
+		const { giris } = tabloyuOku({
+			basliklar: ["A", "Karşılığı"],
+			satirlar: [["C", "Yüz"]],
+		});
+		expect(giris).toContain("Sütunlar: A, Karşılığı.");
 	});
 
 	it("hücre içeriği de normalleştirmeden geçer", () => {
@@ -98,7 +118,7 @@ describe("kenar durumları", () => {
 			basliklar: ["Fıkra", "Statü", "Durum"],
 			satirlar: [["D", "İşçi", ""]],
 		});
-		expect(satirlar[0]).toBe("Fıkra D. Statü: İşçi.");
+		expect(satirlar[0]).toBe("Fıkra de. Statü: İşçi.");
 		expect(satirlar[0]).not.toContain("Durum");
 	});
 

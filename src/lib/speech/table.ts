@@ -1,4 +1,4 @@
-import { konusmaMetni } from "@/lib/speech/normalize-tr";
+import { harfAdi, konusmaMetni } from "@/lib/speech/normalize-tr";
 
 /**
  * Tabloyu seslendirilebilir cümlelere çevirir.
@@ -38,6 +38,20 @@ function temiz(deger: string | undefined): string {
 	return konusmaMetni((deger ?? "").trim());
 }
 
+/**
+ * Tamamı tek harften ibaret bir hücre, harf ADIYLA okunur.
+ *
+ * Böyle bir hücre her zaman bir etikettir — fıkra adı ("A", "B", "C", "D") ya
+ * da belge öneki ("E", "Z", "O"); içerikteki yedi örneğin tamamı budur. Düz
+ * bırakılınca motor romen rakamı sanıyor ve cihazda "Fıkra C" → "Fıkra yüz",
+ * "Fıkra D" → "Fıkra beş yüz" okunuyordu.
+ *
+ * BAŞLIK hücrelerine uygulanmaz: başlık bir sütun adıdır, etiket değil.
+ */
+function harfHucresi(hucre: string): string {
+	return harfAdi(hucre) ?? hucre;
+}
+
 /** Cümlenin sonuna nokta koyar — motorun duraklaması buna bağlı. */
 function noktala(cumle: string): string {
 	const kirpik = cumle.trim();
@@ -75,7 +89,7 @@ export function tabloyuOku({ basliklar, satirlar }: TabloVerisi): TabloOkumasi {
 	const ikiSutun = sutunSayisi <= 2;
 
 	const okunanSatirlar = satirlar.map((satir) => {
-		const hucreler = satir.map(temiz);
+		const hucreler = satir.map((h) => harfHucresi(temiz(h)));
 
 		if (ikiSutun) {
 			const [ilk, ikinci] = hucreler;

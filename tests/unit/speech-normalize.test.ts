@@ -95,18 +95,50 @@ describe("fıkra ve bent gösterimi", () => {
 	/**
 	 * Sözcük EKLENMEZ: 4/A bir fıkra, 48/A bir benttir. Tek bir sabit sözcük
 	 * ikisine birden uymadığı için yalnızca eğik çizgi düşürülür.
+	 *
+	 * Harf ADIYLA yazılır: düz bırakılan tek harfi motor romen rakamı sanıyor
+	 * ve "4/C" cihazda "dört yüz", "4/D" "dört beş yüz" olarak okunuyordu.
 	 */
 	it.each([
-		["memur (4/A)", "memur (4 A)"],
-		["sözleşmeli personel (4/B)", "sözleşmeli personel (4 B)"],
-		["Geçici personel (4/C) mülgadır", "Geçici personel (4 C) mülgadır"],
-		["48/A şartları", "48 A şartları"],
+		["memur (4/A)", "memur (4 a)"],
+		["sözleşmeli personel (4/B)", "sözleşmeli personel (4 be)"],
+		["Geçici personel (4/C) mülgadır", "Geçici personel (4 ce) mülgadır"],
+		["işçi (4/D)", "işçi (4 de)"],
+		["48/A şartları", "48 a şartları"],
 	])("%s → %s", (girdi, beklenen) => {
 		expect(konusmaMetni(girdi)).toBe(beklenen);
 	});
 
 	it("harf-harf yapılara dokunmaz", () => {
 		expect(konusmaMetni("E/Z kodu")).toBe("E/Z kodu");
+	});
+});
+
+describe("parantez içindeki fıkra harfleri", () => {
+	/** 657-dmk/genel-hukumler.mdx — gövde metni ve <Sayi> bloğu. */
+	it("fıkra sözcüğünden önce gelen tek harfi adıyla okur", () => {
+		expect(konusmaMetni("(C) fıkrası yürürlükten kaldırıldı")).toBe(
+			"(ce) fıkrası yürürlükten kaldırıldı",
+		);
+	});
+
+	it("harf listesini adlarıyla okur", () => {
+		expect(konusmaMetni("Yürürlükteki istihdam şekli: 3 (A, B, D)")).toBe(
+			"Yürürlükteki istihdam şekli: 3 (a, be, de)",
+		);
+	});
+
+	/**
+	 * REGRESYON — kural bilinçli olarak bağlama bağlıdır. Tek harfi her yerde
+	 * çevirmek burayı bozardı: "(I) sayılı cetvel" ifadesinde romen rakamı
+	 * bilinçlidir ve motorun "bir" okuması DOĞRU olandır.
+	 * (devlet-teskilati/ust-kademe-kamu-yoneticileri.mdx)
+	 */
+	it.each([
+		"(I) sayılı cetvelde gösterilen kadrolar",
+		"(I) ve (II) sayılı cetveldeki kadrolara atama yapılır",
+	])("romen rakamlı cetvel gösterimine DOKUNMAZ: %s", (girdi) => {
+		expect(konusmaMetni(girdi)).toBe(girdi);
 	});
 });
 

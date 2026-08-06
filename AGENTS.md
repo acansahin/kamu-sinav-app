@@ -278,6 +278,15 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   400 karakteri aşınca, **yalnızca cümle sınırından** böler. Virgülden bölmek cümle
   ortasında tam durak ve düşen tonlama üretir; asla yapılmaz. `MOTOR_TAVANI` bir UX
   eşiği değil, motorun girdi sınırıdır (Android `getMaxSpeechInputLength()` = 4000).
+
+- **Sesli okumada tek başına duran büyük harf ROMEN RAKAMI okunur.** Cihazda ölçüldü:
+  "Fıkra C" → "Fıkra yüz", "Fıkra D" → "Fıkra beş yüz" (C=100, D=500); aynı tuzak
+  I, V, X, L ve M için de geçerli. `HARF_ADLARI` (`lib/speech/normalize-tr.ts`) harfi
+  adıyla yazar ("ce", "de") ve sesi motorun yorumuna bırakmaz. Kural **bağlama
+  bağlıdır ve öyle kalmalıdır**: yalnızca harfin fıkra/bent adı olduğu kesin olan üç
+  yerde uygulanır (`4/C` gösterimi, "(C) fıkrası" ve harf listeleri, tek harften
+  ibaret tablo hücresi). Genel bir "tek harfi çevir" kuralı **"(I) sayılı cetvel"**
+  ifadesini bozar — orada romen rakamı bilinçlidir ve motorun "bir" okuması doğrudur.
 - **Geri gezinme tek yerden.** `useBackNavigation` (`components/layout/`) kök düzende
   BİR KEZ çağrılır; hem başlıktaki tuş hem Android donanım tuşu aynı `goBack`e bağlanır.
   Geçmiş derinliği sayacı bileşen içinde tutulduğu için ikinci bir çağrı ikinci bir sayaç
