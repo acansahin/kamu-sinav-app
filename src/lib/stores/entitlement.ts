@@ -12,6 +12,7 @@ import {
 	getBillingProvider,
 	isNativeRuntime,
 } from "@/lib/billing/billing.provider";
+import { TEST_FULL_ACCESS } from "@/lib/billing/test-build";
 
 /**
  * Hakkın React'e bağlanması.
@@ -74,9 +75,23 @@ export function useEntitlement(): Entitlement | undefined {
 	return useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 }
 
+/**
+ * Test derlemesinin sabit hakkı.
+ *
+ * `paywallActive: true` bilinçli: amaç kilitleri kaldırmak değil, SATIN ALMIŞ
+ * kullanıcıyı taklit etmek. `false` yazmak paywall'ı tamamen yok sayardı ve
+ * test APK'sı gerçek uygulamadan farklı bir yüzey hâline gelirdi (satın alma
+ * ekranı, geri yükleme düğmesi, rozet mantığı hiç çalışmazdı).
+ */
+const TEST_ENTITLEMENT: Entitlement = { paywallActive: true, fullAccess: true };
+
 /** Önbellekten gelen ilk (senkron) değer — ilk açılış dışında iskelet göstermez. */
 function hydrateFromCache(): void {
 	if (entitlement) return;
+	if (TEST_FULL_ACCESS) {
+		setEntitlement(TEST_ENTITLEMENT);
+		return;
+	}
 	const cached = entitlementFromCache(readEntitlementCache());
 	if (cached) setEntitlement(cached);
 }
@@ -88,6 +103,16 @@ function hydrateFromCache(): void {
  * `resolveEntitlement` içinde ve testlidir.
  */
 async function refresh(): Promise<void> {
+	/*
+	 * Test derlemesinde Play'e HİÇ sorulmaz ve önbellek YAZILMAZ: cihazda
+	 * kalıcı bir "satın alınmış" izi bırakmak, aynı cihaza sonradan kurulan
+	 * normal APK'nın da açık görünmesine yol açardı.
+	 */
+	if (TEST_FULL_ACCESS) {
+		setEntitlement(TEST_ENTITLEMENT);
+		return;
+	}
+
 	const native = await isNativeRuntime();
 	const provider = await getBillingProvider();
 	const playResult = native ? await provider.queryEntitlement() : null;

@@ -248,6 +248,15 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   senkron geldiğinde sunucuya gitmemelidir. Yerel kayıt yalnızca **önbellektir**;
   kaynak her zaman Play'in `getPurchases()` cevabıdır ve her başarılı sorguda
   (`false` bile olsa) üzerine yazılır, böylece iade kendiliğinden geri alınır.
+- **Test APK'sı için `NEXT_PUBLIC_TEST_FULL_ACCESS=1`.** Cihazda tüm konuları
+  kilitsiz denemek için `lib/billing/test-build.ts` bayrağı hakkı sabitler
+  (`paywallActive: true, fullAccess: true` — kilitleri kaldırmaz, **satın almış
+  kullanıcıyı taklit eder**; `false` yazmak satın alma ekranını ve rozet mantığını
+  hiç çalıştırmazdı). Play'e sorulmaz ve **önbelleğe yazılmaz**: kalıcı bir
+  "satın alınmış" izi, aynı cihaza sonradan kurulan normal APK'yı da açık
+  gösterirdi. Bayrağı yalnızca `android.yml`in elle tetiklenen dalı geçer;
+  `android-release.yml`e **eklemeyin** — imzalı AAB'de tüm içerik ücretsiz
+  açılırdı ve hata ancak Play'e yüklendikten sonra görülürdü.
 - **Kilit sarmalayıcıdır, koşucunun içinde değil.** `QuizGate` kilitliyken
   `QuizRunner`ı hiç mount etmez; koşucu monte edilir edilmez bir `testSessions`
   satırı yazdığı için kilidi içeriden uygulamak kilitli testlere oturum kaydı

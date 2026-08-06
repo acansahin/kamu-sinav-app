@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      tum_icerik_acik:
+        description: "Tüm konuları aç (cihazda test için; yayına GİTMEZ)"
+        type: boolean
+        default: true
 
 # Android SDK yerel makinede kurulu değildir ve kurulması da gerekmez.
 # APK yalnızca burada üretilir.
@@ -30,8 +35,14 @@ jobs:
 
       # Sıra önemli: Capacitor `out/` klasörünü WebView varlıklarına kopyalar,
       # dolayısıyla statik export önce üretilmiş olmalıdır.
+      # `tum_icerik_acik` YALNIZCA elle tetiklendiğinde okunur; `main`e push
+      # ile üretilen debug APK gerçek uygulamanın davranışını korur (girdi
+      # tanımsız olduğu için ifade '0' verir). İmzalı AAB'yi üreten
+      # `android-release.yml` bu değişkeni hiç geçmez ve geçmemelidir.
       - name: Statik export üret
         run: npm run build
+        env:
+          NEXT_PUBLIC_TEST_FULL_ACCESS: ${{ (github.event_name == 'workflow_dispatch' && inputs.tum_icerik_acik) && '1' || '0' }}
 
       - name: Web varlıklarını Android projesine kopyala
         run: npx cap sync android
@@ -42,9 +53,11 @@ jobs:
           chmod +x ./gradlew
           ./gradlew assembleDebug --no-daemon
 
+      # Artefakt adı kilit durumunu söyler: iki APK dosya olarak birbirinin
+      # aynısıdır ve indirildikten sonra ayırt edilemezdi.
       - name: APK'yı yükle
         uses: actions/upload-artifact@v4
         with:
-          name: kamu-sinav-akademi-debug
+          name: kamu-sinav-akademi-debug${{ (github.event_name == 'workflow_dispatch' && inputs.tum_icerik_acik) && '-tum-icerik-acik' || '' }}
           path: android/app/build/outputs/apk/debug/*.apk
           retention-days: 30
