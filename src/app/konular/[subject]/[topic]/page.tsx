@@ -11,6 +11,7 @@ import { AccessGate } from "@/features/billing/access-gate";
 import { PrintButton } from "@/features/print/print-button";
 import { SummaryDocument } from "@/features/study/summary-document";
 import { SummaryReader } from "@/features/study/summary-reader";
+import { TopicBookmarkButton } from "@/features/study/topic-bookmark-button";
 import { TopicReadActions } from "@/features/study/topic-read-actions";
 import { contentRepository } from "@/lib/repositories/content.repository";
 import { routes } from "@/lib/routes";
@@ -71,6 +72,11 @@ export default async function TopicPage({ params }: Props) {
 					<Clock aria-hidden size={14} />~{summary.readingMinutes} dk okuma
 				</Badge>
 				<Badge tone="brand">{topic.questionCount} soru</Badge>
+				{/*
+				 * Yer imi kapının DIŞINDA: kilitli bir konuyu sonraya kaydetmek
+				 * içeriğe erişim değildir ve satın alma öncesi en doğal niyettir.
+				 */}
+				<TopicBookmarkButton topicId={topic.id} />
 			</div>
 
 			{/*

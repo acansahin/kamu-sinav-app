@@ -304,6 +304,40 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   yerde uygulanır (`4/C` gösterimi, "(C) fıkrası" ve harf listeleri, tek harften
   ibaret tablo hücresi). Genel bir "tek harfi çevir" kuralı **"(I) sayılı cetvel"**
   ifadesini bozar — orada romen rakamı bilinçlidir ve motorun "bir" okuması doğrudur.
+- **Konu özetinin okuma kromu `SummaryReader`a girer, `SummaryDocument`a DEĞİL.**
+  İçindekiler, okuma ilerleme şeridi, sona varış nirengisi ve yer imi düğmesi
+  sarmalayıcıdadır; belge bileşeni dokunulmadan kalır çünkü **ders paketi de
+  (`konular/[subject]/yazdir`) onu kullanıyor** — oraya eklenen her şey 6-8
+  konuluk yazdırma çıktısında tekrarlanırdı.
+
+  Eklenen her krom öğesi `data-print="hide"` **ve** `data-tts="skip"` taşır.
+  Asıl koruma yapısaldır: yeni öğelerin hiçbiri `kokRef`in İÇİNDE değildir ve
+  `lib/speech/extract.ts` yalnızca orayı gezer. Nitelikler ikinci savunma
+  hattıdır; yerleşim değişip bir öğe köke girerse metin sesli okumaya sızardı.
+
+- **Yapışkan öğeler `--baslik-yuksekligi` token'ından beslenir.** Başlık
+  `min-h-11 + py-3 + border-b` = `4.25rem + 1px`tir ve **rem tabanlı olduğu için
+  yazı boyutu tercihiyle büyür** (`cok-buyuk`ta ~85px). Sabit piksel veren öğe
+  büyük yazıda başlığın arkasına gizlenir; ölçüldü, 64px'lik şerit 68.8px'lik
+  başlığın altında tamamen kayboluyordu. Sesli okuma oynatıcısı da aynı
+  token'dan 3px aşağı yapışır — ikisi aynı ofsette olsaydı oynatıcının opak
+  zemini şeridi örterdi.
+
+  Aynı gerekçeyle içindekiler **`scroll-margin-top` KULLANMAZ**: sesli okuma
+  aynı başlıkları `scrollIntoView({ block: "center" })` ile ortalıyor ve
+  scroll-margin o kutuyu kaydırıp elemanı gerçek merkezin altına iter. Pay
+  yalnızca tıklama anında, JS'te uygulanır.
+
+- **Başlık id'leri istemcide üretilir; `rehype-slug` eklenmez.**
+  `github-slugger` `toLowerCase()` kullanır ve bu depoda Türkçe için yasaktır —
+  başlıklardan bozuk slug'lar üretirdi. id'ler konum tabanlıdır (`bolum-1`…) ve
+  listeyle aynı DOM gezintisinden çıkar, dolayısıyla ikisi ayrışamaz.
+
+- **`unmarkSummaryRead` `summaryReadAt`i DE siler.** `markSummaryRead` o alanı
+  bilinçli olarak korur (ilk okuma tarihi kaybolmasın); yalnızca bayrağı
+  çevirmek "okunmadı ama okunma tarihi var" diyen tutarsız bir satır bırakırdı.
+  Satır silinmez — sayaç alanları attempt günlüğünden türer.
+
 - **Geri gezinme tek yerden.** `useBackNavigation` (`components/layout/`) kök düzende
   BİR KEZ çağrılır; hem başlıktaki tuş hem Android donanım tuşu aynı `goBack`e bağlanır.
   Geçmiş derinliği sayacı bileşen içinde tutulduğu için ikinci bir çağrı ikinci bir sayaç
@@ -329,6 +363,11 @@ bileşenlere sabit renk yazılmaz. Üç kural kırılgandır:
   Yeni token'ı **ikisine de** yazın: yalnızca birine yazmak, kullanıcı temayı elle
   seçtiğinde çalışan ama cihaz gece moduna geçtiğinde sessizce açık tema değerine
   düşen bir hata üretir. Bu tuzağa bir kez düşüldü.
+
+- **Renk opaklıkla TÜRETİLMEZ.** `opacity-*` ile soluklaştırılan metin token
+  sisteminin dışına çıkar ve kontrastı sessizce düşürür: ölçüldü, `--fg-muted`
+  %60 opaklıkta 3.56:1'e iniyor ve AA eşiğini geçemiyor (axe yakaladı). Daha
+  soluk bir ton gerekiyorsa `--fg-subtle` vardır; yoksa yeni bir token tanımlanır.
 
 - **`--accent` DEKORATİFTİR, durum taşımaz.** Doğru/yanlış/işaretli/kilitli için
   kullanılamaz — o anlamlar `--correct`/`--wrong`/`--flag`ındır. Yalnızca başarı ve

@@ -116,6 +116,20 @@
 	--safe-bottom: var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px));
 	--safe-left: var(--safe-area-inset-left, env(safe-area-inset-left, 0px));
 
+	/*
+	 * Yapışkan başlığın kapladığı yükseklik.
+	 *
+	 * `app-shell.tsx`'teki başlıktan türer: içerik `min-h-11` (2.75rem) +
+	 * `py-3` (2 × 0.75rem) + `border-b` (1px) = 4.25rem + 1px, üstüne sistem
+	 * çubuğu payı. Kenarlığı unutmak 0.8px'lik bir örtüşme bırakıyordu.
+	 *
+	 * SABİT PİKSEL VERİLEMEZ: rem tabanlı olduğu için yazı boyutu tercihiyle
+	 * birlikte büyür (`cok-buyuk`ta 85px'e çıkar). Altına yapışan her öğe
+	 * (okuma ilerleme şeridi, sesli okuma oynatıcısı) bu token'dan beslenir;
+	 * sabit değer verildiğinde öğe büyük yazıda başlığın ARKASINA gizleniyordu.
+	 */
+	--baslik-yuksekligi: calc(4.25rem + 1px + var(--safe-top));
+
 	/* Yazı boyutu tabanı — rem tabanlı olduğu için boşluklar da birlikte ölçeklenir */
 	font-size: 16px;
 }

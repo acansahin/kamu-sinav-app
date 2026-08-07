@@ -1,7 +1,7 @@
 "use client";
 
 import { useLiveQuery } from "dexie-react-hooks";
-import { Check, ListChecks } from "lucide-react";
+import { Check, ListChecks, Undo2 } from "lucide-react";
 import { useState } from "react";
 import { Button, ButtonLink } from "@/components/ui/button";
 import { progressRepository } from "@/lib/repositories/progress.repository";
@@ -43,16 +43,41 @@ export function TopicReadActions({
 		}
 	}
 
+	/*
+	 * Geri alma, işaretin OTOMATİK de konabilmesiyle birlikte geldi
+	 * (`summary-reader.tsx`): sona kaydırıp geçen kullanıcı istemediği bir
+	 * durumla kalmamalı. Elle basılmış işaret için de aynı yol açık.
+	 */
+	async function unmarkRead() {
+		setSaving(true);
+		try {
+			await progressRepository.unmarkSummaryRead(topicId);
+		} finally {
+			setSaving(false);
+		}
+	}
+
 	return (
 		<div
 			data-print="hide"
 			className="mt-10 flex flex-col gap-3 rounded-xl border border-line bg-surface-raised p-4 sm:flex-row sm:items-center"
 		>
 			{isRead ? (
-				<p className="flex min-h-11 flex-1 items-center gap-2 font-medium text-correct">
-					<Check aria-hidden size={20} />
-					Bu konuyu okudun
-				</p>
+				<div className="flex min-h-11 flex-1 flex-wrap items-center gap-x-3 gap-y-1">
+					<p className="flex items-center gap-2 font-medium text-correct">
+						<Check aria-hidden size={20} />
+						Bu konuyu okudun
+					</p>
+					<Button
+						variant="ghost"
+						size="sm"
+						onClick={unmarkRead}
+						disabled={saving}
+					>
+						<Undo2 aria-hidden size={16} />
+						Geri al
+					</Button>
+				</div>
 			) : (
 				<Button
 					variant="secondary"

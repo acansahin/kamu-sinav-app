@@ -42,6 +42,7 @@ export interface IProgressRepository {
 	getTopicProgress(topicId: string): Promise<TopicProgress | null>;
 	getAllTopicProgress(): Promise<TopicProgress[]>;
 	markSummaryRead(subjectId: string, topicId: string): Promise<void>;
+	unmarkSummaryRead(topicId: string): Promise<void>;
 	createTestSession(session: NewTestSession): Promise<void>;
 	getTestSession(sessionId: string): Promise<TestSession | null>;
 	completeTestSession(
@@ -104,6 +105,7 @@ export interface IProgressRepository {
 	getStreakSummary(activityDays: number): Promise<StreakSummary>;
 	toggleBookmark(refType: Bookmark["refType"], refId: string): Promise<boolean>;
 	isBookmarked(refType: Bookmark["refType"], refId: string): Promise<boolean>;
+	getBookmarks(refType: Bookmark["refType"]): Promise<Bookmark[]>;
 	exportAll(): Promise<ExportBundle>;
 	importAll(bundle: ExportBundle): Promise<void>;
 	clearAll(): Promise<void>;
@@ -361,6 +363,31 @@ class DexieProgressRepository implements IProgressRepository {
 			summaryReadAt: existing?.summaryReadAt ?? nowIso,
 			updatedAt: nowIso,
 		});
+	}
+
+	/**
+	 * Okundu işaretini geri alır.
+	 *
+	 * `summaryReadAt` DE SİLİNİR. `markSummaryRead` o alanı bilinçli olarak
+	 * koruduğu (ilk okuma tarihi kaybolmasın) için yalnızca bayrağı çevirmek
+	 * "okunmadı ama okunma tarihi var" diyen tutarsız bir satır bırakırdı.
+	 *
+	 * Satırın kendisi SİLİNMEZ: `questionsAttempted`/`questionsCorrect`/
+	 * `masteryScore` attempt günlüğünden türer ve okuma işaretiyle ilgisi yoktur.
+	 * Satır yoksa yapacak bir şey de yoktur.
+	 */
+	async unmarkSummaryRead(topicId: string): Promise<void> {
+		const db = getDb();
+		const existing = await db.topicProgress.get([this.userId, topicId]);
+		if (!existing) return;
+
+		const guncel: TopicProgress = {
+			...existing,
+			summaryRead: false,
+			updatedAt: new Date().toISOString(),
+		};
+		delete guncel.summaryReadAt;
+		await db.topicProgress.put(guncel);
 	}
 
 	async createTestSession(session: NewTestSession): Promise<void> {
@@ -724,6 +751,23 @@ class DexieProgressRepository implements IProgressRepository {
 		const row = await getDb().bookmarks.get([this.userId, refType, refId]);
 		// Mezar taşı "kaldırılmış" demektir; kullanıcıya işaretli görünmez.
 		return row !== undefined && !row.deletedAt;
+	}
+
+	/**
+	 * Bir türdeki canlı yer imleri, en yeniden eskiye.
+	 *
+	 * Mezar taşları `isBookmarked` ile aynı kuralla elenir — listede süzmeyi
+	 * unutmak kaldırılmış yer imlerini geri getirirdi.
+	 */
+	async getBookmarks(refType: Bookmark["refType"]): Promise<Bookmark[]> {
+		const rows = await getDb()
+			.bookmarks.where("userId")
+			.equals(this.userId)
+			.toArray();
+
+		return rows
+			.filter((row) => row.refType === refType && !row.deletedAt)
+			.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
 	}
 
 	/**

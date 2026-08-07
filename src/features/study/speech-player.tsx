@@ -55,8 +55,12 @@ export function SpeechPlayer({ reader }: { reader: SpeechReader }) {
 				// Yapışkanlık YALNIZCA okurken: boştayken normal akışta durur,
 				// okuma başlayınca "Duraklat" her zaman elin altında kalır.
 				// Yerleşim değişmiyor, yalnızca konumlandırma — reflow olmaz.
+				//
+				// Konum okuma ilerleme şeridinin 3px'i kadar aşağıda: ikisi de
+				// yapışkan ve aynı ofsette dursalardı oynatıcının opak zemini
+				// şeridi tamamen örterdi.
 				calisiyor &&
-					"sticky top-16 z-20 bg-surface-raised/95 backdrop-blur",
+					"sticky top-[calc(var(--baslik-yuksekligi)+3px)] z-20 bg-surface-raised/95 backdrop-blur",
 			)}
 		>
 			<div className="flex flex-wrap items-center gap-3">

@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
 import { CardLink } from "@/components/ui/card";
+import { BookmarkedTopics } from "@/features/study/bookmarked-topics";
+import { getAllTopicRefs } from "@/lib/content/topic-refs";
 import { contentRepository } from "@/lib/repositories/content.repository";
 import { routes } from "@/lib/routes";
 
 export const metadata: Metadata = { title: "Konu Özetleri" };
 
 export default async function SubjectsPage() {
-	const subjects = await contentRepository.getSubjects();
+	const [subjects, topics] = await Promise.all([
+		contentRepository.getSubjects(),
+		getAllTopicRefs(),
+	]);
 
 	return (
 		<div>
@@ -15,6 +20,9 @@ export default async function SubjectsPage() {
 				Ortak konular — tüm kurumların görevde yükselme ve unvan değişikliği
 				sınavlarında geçerlidir.
 			</p>
+
+			{/* Yer imi yoksa hiç render edilmez */}
+			<BookmarkedTopics topics={topics} />
 
 			<ul className="grid gap-3 sm:grid-cols-2">
 				{subjects.map((subject) => {
