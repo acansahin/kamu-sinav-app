@@ -13,6 +13,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button, ButtonLink } from "@/components/ui/button";
 import { Card, SectionHeading } from "@/components/ui/card";
+import { useScrollToTop } from "@/components/hooks/use-scroll-to-top";
 import { ProgressBar } from "@/components/ui/progress-bar";
 import { ExamNavigator } from "@/features/exam/exam-navigator";
 import { QuestionCard } from "@/features/quiz/question-card";
@@ -60,6 +61,13 @@ export function ExamRunner({ templates, pool, subjectNames, topics }: Props) {
 	/** Sonuç hesaplandı ama kalıcı olarak yazılamadı mı? */
 	const [saveFailed, setSaveFailed] = useState(false);
 	const [resumable, setResumable] = useState<ExamSession | null>(null);
+
+	/*
+	 * Soru yerinde değişiyor; kaydırma konumu kalırsa yeni soru ekranın
+	 * üstünde görünmez bir yerde başlar. Denemede bu daha da kritik: navigatör
+	 * ızgarasından herhangi bir soruya atlanabiliyor.
+	 */
+	useScrollToTop(current);
 
 	const questionsById = useMemo(
 		() => new Map(pool.map((q) => [q.id, q])),

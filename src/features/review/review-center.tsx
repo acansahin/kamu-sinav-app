@@ -11,6 +11,7 @@ import { QuestionCard } from "@/features/quiz/question-card";
 import { progressRepository } from "@/lib/repositories/progress.repository";
 import { routes } from "@/lib/routes";
 import { describeInterval } from "@/lib/scheduler/sm2";
+import { useScrollToTop } from "@/components/hooks/use-scroll-to-top";
 import type { Question } from "@/types/content";
 import { type AnswerIndex } from "@/types/progress";
 import type { TopicRef } from "@/types/ui";
@@ -43,6 +44,10 @@ export function ReviewCenter({
 	const [startedAt, setStartedAt] = useState(0);
 	const [correctCount, setCorrectCount] = useState(0);
 	const [sessionId, setSessionId] = useState("");
+
+	// Soru yerinde değişiyor; kaydırma konumu kalırsa yeni soru ekranın
+	// üstünde görünmez bir yerde başlar (konu testiyle aynı hata).
+	useScrollToTop(current);
 
 	const byId = useMemo(() => new Map(pool.map((q) => [q.id, q])), [pool]);
 	const topicById = useMemo(

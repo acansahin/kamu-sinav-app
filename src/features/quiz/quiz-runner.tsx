@@ -14,6 +14,7 @@ import {
 import type { Route } from "next";
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { useScrollToTop } from "@/components/hooks/use-scroll-to-top";
 import { Breadcrumb, type Crumb } from "@/components/layout/breadcrumb";
 import { Button, ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -335,6 +336,10 @@ export function QuizRunner({
 			setResult(computed);
 		}
 	}, [questions, answers, sessionId, startedAt]);
+
+	// Soru yerinde değişiyor; kaydırma konumu kalırsa yeni soru ekranın
+	// üstünde görünmez bir yerde başlar.
+	useScrollToTop(current);
 
 	const goNext = useCallback(() => {
 		if (current < questions.length - 1) setCurrent((c) => c + 1);

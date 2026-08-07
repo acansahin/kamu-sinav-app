@@ -71,6 +71,44 @@ describe("kesirler ve aralıklar", () => {
 			konusmaMetni("Memur — genel idare esaslarına göre çalışan"),
 		).toBe("Memur, genel idare esaslarına göre çalışan");
 	});
+
+	/*
+	 * Aşağıdakiler cihazda bildirilen hataya ait: motor DÜZ tireyi (`-`) hiç
+	 * duraklamadan geçiyordu. En/em tire zaten ele alınıyordu, düz tire değil.
+	 */
+	it("rakam aralığında düz tire de 'ila' olur", () => {
+		// resmi-yazisma tablosundan; 16. adım "m.29"u sonra "madde 29" yapar.
+		expect(konusmaMetni("657 sayılı Kanun (m.29-30)")).toBe(
+			"657 sayılı Kanun (madde 29 ila 30)",
+		);
+		expect(konusmaMetni("maddeler 503-510")).toBe("maddeler 503 ila 510");
+	});
+
+	it("birleşik sözcük tiresi virgüle döner", () => {
+		expect(konusmaMetni("Valinin giriş-çıkış sınırlaması")).toBe(
+			"Valinin giriş, çıkış sınırlaması",
+		);
+		expect(konusmaMetni("Paraf: kısaltmasız, ast-üstten")).toBe(
+			"Paraf: kısaltmasız, ast, üstten",
+		);
+		// Şapkalı harfler karakter sınıfında olmalı (idarî-malî gerçek içerikten).
+		expect(konusmaMetni("idarî-malî denetim")).toBe("idarî, malî denetim");
+	});
+
+	/**
+	 * Tek harfli önek KORUNUR — düzeltilenden fazlasını bozmamak için.
+	 * "e, posta" apaçık yanlıştır.
+	 */
+	it("tek harfli önekteki tireye dokunmaz", () => {
+		expect(konusmaMetni("e-posta adresi")).toBe("e-posta adresi");
+		expect(konusmaMetni("e-Yazışma Teknik Rehberi")).toBe(
+			"e-Yazışma Teknik Rehberi",
+		);
+	});
+
+	it("CBK numarasındaki tireyi de kaldırır", () => {
+		expect(konusmaMetni("CBK-1 ile kurulan")).toBe("CBK 1 ile kurulan");
+	});
 });
 
 describe("oranlar ve karşılaştırmalar", () => {
@@ -87,7 +125,10 @@ describe("oranlar ve karşılaştırmalar", () => {
 	it("nüfus eşikleri 'altı/üzeri' olarak okunur", () => {
 		expect(
 			konusmaMetni("Köy < 2.000 · Kasaba 2.000-20.000 · Şehir > 20.000"),
-		).toBe("Köy 2.000 altı; Kasaba 2.000-20.000; Şehir 20.000 üzeri");
+			// "2.000-20.000" düz tireyle yazılmış bir ARALIKTIR. Eskiden olduğu
+			// gibi bırakılıyordu ve motor "iki bin yirmi bin" diye tek nefeste
+			// okuyordu (cihazda bildirildi).
+		).toBe("Köy 2.000 altı; Kasaba 2.000 ila 20.000; Şehir 20.000 üzeri");
 	});
 });
 

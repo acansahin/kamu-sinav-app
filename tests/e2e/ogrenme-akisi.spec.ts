@@ -103,6 +103,27 @@ test("her soruda mevzuat dayanağı ve hata bildirimi görünür", async ({
 	).toBeVisible();
 });
 
+test("sonraki soruya geçince sayfa başa döner", async ({ page }) => {
+	await page.goto("/testler/657-dmk/disiplin-cezalari/test-1/");
+
+	await sikSec(page);
+	// Anında geri bildirim açıkken gerekçe paneli açılır ve sayfa uzar;
+	// kullanıcı aşağı kayar. Cihazda bildirilen hata buradan doğuyordu.
+	await page.mouse.wheel(0, 2000);
+	await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(0);
+
+	await page.getByRole("button", { name: "Sonraki" }).click();
+
+	await expect(page.getByText(`Soru 2 / ${TEST_BOYU}`)).toBeVisible();
+	await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(0);
+
+	// Geri giderken de aynı kural geçerli.
+	await page.mouse.wheel(0, 2000);
+	await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(0);
+	await page.getByRole("button", { name: "Önceki" }).click();
+	await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(0);
+});
+
 test("yanlış cevap tekrar planına girer", async ({ page }) => {
 	await page.goto("/testler/anayasa/genel-esaslar/test-1/");
 

@@ -80,6 +80,16 @@ export function harfAdi(harf: string): string | null {
 	return HARF_ADLARI[harf] ?? null;
 }
 
+/**
+ * Tire kurallarında "harf" sayılan karakterler (karakter sınıfı gövdesi).
+ *
+ * `\p{L}` KULLANILMAZ: Unicode özellik kaçışları da lookbehind ile aynı ES2018
+ * kuşağındandır ve dosyanın başındaki uyarı gereği eski WebView'lerde ayrıştırma
+ * anında patlayabilir. Türkçenin şapkalı harfleri (â, î, û) içeride —
+ * "idarî-malî" gerçek içerikten.
+ */
+const TURKCE_HARF = "A-Za-zÇĞİÖŞÜçğıöşüÂÎÛâîû";
+
 const AYLAR = [
 	"Ocak",
 	"Şubat",
@@ -170,10 +180,17 @@ export function konusmaMetni(ham: string): string {
 		(_tam, sayi: string, harf: string) => `${sayi} ${harfAdi(harf) ?? harf}`,
 	);
 
-	// 8 — Aralık tiresi (en tire / em tire). 9. adımdan ÖNCE olmalı: "1/30 – 1/8"
-	//     içindeki kesirler önce sözcüğe çevrilirse tire iki RAKAM arasında
-	//     kalmaz ve bu kural hiç tetiklenmez.
-	metin = metin.replace(/(\d)\s*[–—]\s*(?=\d)/g, "$1 ila ");
+	// 8 — Aralık tiresi (en tire / em tire / DÜZ TİRE). 9. adımdan ÖNCE olmalı:
+	//     "1/30 – 1/8" içindeki kesirler önce sözcüğe çevrilirse tire iki RAKAM
+	//     arasında kalmaz ve bu kural hiç tetiklenmez.
+	//
+	//     Düz tire (`-`) sonradan eklendi: cihazda bildirildi, motor onu hiç
+	//     duraklamadan geçiyor ve iki sayı tek bir okumaya yapışıyor —
+	//     "m.29-30" → "madde yirmi dokuz otuz", "2.000-20.000" → "iki bin
+	//     yirmi bin". Gerçek içerikten: `resmi-yazisma` ve `mahalli-idareler`.
+	//     Rakam-rakam şartı `KHK-696`/`CBK-1` gibi yapıları dışarıda tutar
+	//     (solda harf var), 10. adım onlarla ayrıca ilgilenir.
+	metin = metin.replace(/(\d)\s*[-–—]\s*(?=\d)/g, "$1 ila ");
 
 	// 9 — Kesirler. Motorların gerçekten yanlış okuduğu ikinci yapı.
 	metin = metin.replace(
@@ -182,8 +199,9 @@ export function konusmaMetni(ham: string): string {
 			kesriOku(Number(pay), Number(payda)) ?? tam,
 	);
 
-	// 10 — Mevzuat kısaltmaları.
-	metin = metin.replace(/\bKHK-(\d+)/g, "KHK $1");
+	// 10 — Mevzuat kısaltmaları. CBK de KHK ile aynı biçimde yazılıyor
+	//      ("CBK-1", `devlet-teskilati` altında) ve aynı tireyi taşıyor.
+	metin = metin.replace(/\b(KHK|CBK)-(\d+)/g, "$1 $2");
 
 	// 11 — BOŞLUKLU eğik çizgi seçenek anlamı taşır ("20 gün / 30 gün",
 	//      "Başdanışman / Danışman") ve motor onu "bölü" diye okur.
@@ -207,6 +225,22 @@ export function konusmaMetni(ham: string): string {
 
 	// 14 — Rakam arasında kalmayan en/em tireler (tanım tiresi): virgül.
 	metin = metin.replace(/\s*[–—]\s*/g, ", ");
+
+	// 14b — Birleşik sözcük tiresi: "giriş-çıkış", "ast-üstten", "plan-bütçe",
+	//       "sosyal-ekonomik", "idarî-malî". Cihazda bildirildi: motor tireyi
+	//       hiç duraklamadan geçip iki sözcüğü tek sözcüğe yapıştırıyor
+	//       ("astüstten"). Virgül istenen duraklamayı verir.
+	//
+	//       ⚠️ SOLDA EN AZ İKİ HARF ŞARTI ZORUNLU. "e-posta" ve "e-Yazışma"
+	//       tek harfli öneklerdir ve bu kural onlara uygulanırsa "e, posta"
+	//       diye okunurlar — bozulan şey düzeltilenden fazla olurdu.
+	//       Her iki yanı da HARF: `KHK-696` (harf-rakam) ve `503-510`
+	//       (rakam-rakam) buraya düşmez; ikincisini 8. adım zaten aralık
+	//       olarak okuyor.
+	metin = metin.replace(
+		new RegExp(`([${TURKCE_HARF}]{2,})-(?=[${TURKCE_HARF}])`, "g"),
+		"$1, ",
+	);
 
 	// 15 — Parantez içindeki fıkra/bent harfleri.
 	//

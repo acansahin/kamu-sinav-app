@@ -304,6 +304,26 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   yerde uygulanır (`4/C` gösterimi, "(C) fıkrası" ve harf listeleri, tek harften
   ibaret tablo hücresi). Genel bir "tek harfi çevir" kuralı **"(I) sayılı cetvel"**
   ifadesini bozar — orada romen rakamı bilinçlidir ve motorun "bir" okuması doğrudur.
+- **Sesli okumada DÜZ TİRE duraklama üretmez.** Cihazda ölçüldü: motor `-`
+  işaretini hiç duraklamadan geçip iki yanı birleştiriyor — "2.000-20.000" →
+  "iki bin yirmi bin", "ast-üstten" → "astüstten". En/em tire (`–`, `—`) zaten
+  ele alınıyordu, düz tire değil. `normalize-tr.ts` bu yüzden iki ayrı kural
+  uygular: **rakam-rakam** aralıktır ve "ila" olur (8. adım), **harf-harf**
+  birleşik sözcüktür ve virgül olur (14b).
+
+  ⚠️ Harf kuralında **solda en az iki harf şartı ZORUNLU**: "e-posta" ve
+  "e-Yazışma" tek harfli öneklerdir ve kural onlara uygulanırsa "e, posta" diye
+  okunurlar — düzeltilenden fazlası bozulur. `TURKCE_HARF` sınıfında şapkalı
+  harfler de var ("idarî-malî" gerçek içerikten) ve `\p{L}` KULLANILMAZ:
+  lookbehind ile aynı ES2018 kuşağındandır, eski WebView'de modülü öldürür.
+
+- **Soru koşucuları soru değişince sayfayı başa alır** (`useScrollToTop`,
+  `components/hooks/`). Üç koşucu da (konu testi, deneme, tekrar) soruyu
+  YERİNDE değiştiriyor; kaydırma konumu kalırsa yeni soru ekranın üstünde
+  görünmez bir yerde başlar — cihazda bildirilen hata buydu. Kaydırma
+  bilinçli olarak ANİDİR: bu bir içerik değişimi, aynı içerik içinde hareket
+  değil. Yeni bir soru koşucusu yazarsanız hook'u da çağırın.
+
 - **Konu özetinin okuma kromu `SummaryReader`a girer, `SummaryDocument`a DEĞİL.**
   İçindekiler, okuma ilerleme şeridi, sona varış nirengisi ve yer imi düğmesi
   sarmalayıcıdadır; belge bileşeni dokunulmadan kalır çünkü **ders paketi de
