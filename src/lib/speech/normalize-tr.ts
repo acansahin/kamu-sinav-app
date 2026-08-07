@@ -1,4 +1,5 @@
 import { kesriOku } from "@/lib/speech/number-tr";
+import { DURAK_ISARETI } from "@/lib/speech/types";
 
 /**
  * Metni Türkçe TTS motorunun doğru okuyacağı hâle getirir.
@@ -223,23 +224,21 @@ export function konusmaMetni(ham: string): string {
 	// 13 — Ok işareti: sıralama anlamı taşır, virgül duraklaması yeterli.
 	metin = metin.replace(/\s*→\s*/g, ", ");
 
-	// 14 — Rakam arasında kalmayan en/em tireler (tanım tiresi): NOKTALI VİRGÜL.
+	// 14 — Rakam arasında kalmayan en/em tireler (tanım tiresi): PARÇA SINIRI.
 	//
-	//      Önce virgüldü; cihazda ölçüldü, virgül tirenin yerinde DUYULUR bir
-	//      duraklama üretmiyor — kullanıcı "hâlâ duraksama yok" diye bildirdi.
-	//      Noktalı virgül 12. adımda ölçülen davranışı verir: orta uzunlukta
-	//      duraklama, sonlandırıcı düşen kontur YOK. Nokta bu iş için fazla
-	//      güçlü, cümle bitmiş gibi duyuluyor.
-	//
-	//      Utterance sınırını etkilemez: `bloklaraAyir` yalnızca `.!?…`
-	//      üzerinden böler, dolayısıyla blok tek parça kalmaya devam eder.
-	metin = metin.replace(/\s*[–—]\s*/g, "; ");
+	//      Noktalama DENENDİ VE OLMADI: önce virgül, sonra noktalı virgül
+	//      kondu; ikisinde de cihazda hiçbir duraklama duyulmadı. Metnin
+	//      `speak()`e olduğu gibi ulaştığı doğrulandı (APK paketindeki JS
+	//      incelendi), yani sorun dönüşümde değil motorun cümle içi noktalamayı
+	//      prosodiye çevirmemesinde. Tire artık UTTERANCE SINIRI üretiyor;
+	//      gerekçe ve ölçek güvenliği için bkz. `types.ts` → DURAK_ISARETI.
+	metin = metin.replace(/\s*[–—]\s*/g, DURAK_ISARETI);
 
 	// 14b — Birleşik sözcük tiresi: "giriş-çıkış", "ast-üstten", "plan-bütçe",
 	//       "sosyal-ekonomik", "idarî-malî". Cihazda bildirildi: motor tireyi
 	//       hiç duraklamadan geçip iki sözcüğü tek sözcüğe yapıştırıyor
-	//       ("astüstten"). 14. adımdaki gerekçeyle NOKTALI VİRGÜL: virgül
-	//       denendi ve cihazda duyulur bir duraklama vermedi.
+	//       ("astüstten"). 14. adımdaki gerekçeyle PARÇA SINIRI: virgül de
+	//       noktalı virgül de denendi, ikisi de cihazda duyulmadı.
 	//
 	//       ⚠️ SOLDA EN AZ İKİ HARF ŞARTI ZORUNLU. "e-posta" ve "e-Yazışma"
 	//       tek harfli öneklerdir ve bu kural onlara uygulanırsa "e, posta"
@@ -249,7 +248,7 @@ export function konusmaMetni(ham: string): string {
 	//       olarak okuyor.
 	metin = metin.replace(
 		new RegExp(`([${TURKCE_HARF}]{2,})-(?=[${TURKCE_HARF}])`, "g"),
-		"$1; ",
+		`$1${DURAK_ISARETI}`,
 	);
 
 	// 15 — Parantez içindeki fıkra/bent harfleri.

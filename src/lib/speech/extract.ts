@@ -1,5 +1,9 @@
 import { konusmaMetni } from "@/lib/speech/normalize-tr";
-import { bloklaraAyir, motorTavaniniUygula } from "@/lib/speech/sentences";
+import {
+	bloklaraAyir,
+	duraklardanBol,
+	motorTavaniniUygula,
+} from "@/lib/speech/sentences";
 import { tabloyuOku } from "@/lib/speech/table";
 import type { SpeechChunk } from "@/lib/speech/types";
 
@@ -171,6 +175,17 @@ function blokSonunuNoktala(metin: string): string {
  * İleride içeriğe yeni bir bileşen eklenirse özellik sessizce kırılmasın diye
  * böyle; bu davranış testle sabitlenmiştir.
  */
+/**
+ * Tablo dalının parçalayıcısı.
+ *
+ * Tablo satırları `bloklaraAyir`dan GEÇMEZ (cümle paketlemesi tablo için
+ * yanlış), ama durak işaretinin motora ulaşmaması aynı derecede zorunludur —
+ * bu yüzden `duraklardanBol` burada da uygulanır.
+ */
+function parcala(metin: string): string[] {
+	return duraklardanBol(metin).flatMap(motorTavaniniUygula);
+}
+
 export function cikar(kok: HTMLElement): SpeechChunk[] {
 	const parcalar: SpeechChunk[] = [];
 
@@ -226,15 +241,15 @@ export function cikar(kok: HTMLElement): SpeechChunk[] {
 			// <tr>'lerinde: 8 satırlık bir tabloyu 40 saniye tek blok olarak
 			// vurgulamak dinleyiciyi kaybettirirdi.
 			if (okuma.giris.length > 0) {
-				for (const bolum of motorTavaniniUygula(okuma.giris)) {
+				for (const bolum of parcala(okuma.giris)) {
 					parcalar.push({ text: bolum, el });
 				}
 			}
 			okuma.satirlar.forEach((satir, i) => {
 				if (satir.length === 0) return;
 				// Tablo satırı zaten `tabloyuOku` tarafından noktalanmış geliyor;
-				// yalnızca motor tavanı uygulanır (ucuz ve simetrik).
-				for (const bolum of motorTavaniniUygula(satir)) {
+				// yalnızca durak ayrımı ve motor tavanı uygulanır.
+				for (const bolum of parcala(satir)) {
 					parcalar.push({ text: bolum, el: satirElemanlari[i].el });
 				}
 			});

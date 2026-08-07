@@ -311,11 +311,20 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   uygular: **rakam-rakam** aralıktır ve "ila" olur (8. adım), **harf-harf**
   birleşik sözcüktür ve virgül olur (14b).
 
-  Duraklama **noktalı virgülle** verilir, virgülle değil. Virgül denendi ve
-  cihazda duyulur bir duraklama üretmedi; noktalı virgül 12. adımda ölçülen
-  davranışı verir — orta uzunlukta duraklama, sonlandırıcı düşen kontur yok.
-  Nokta bu iş için fazla güçlüdür, cümle bitmiş gibi duyulur. Utterance
-  sınırını etkilemez: `bloklaraAyir` yalnızca `.!?…` üzerinden böler.
+  ⚠️ **Duraklama NOKTALAMAYLA verilemez.** Sırayla virgül ve noktalı virgül
+  denendi; ikisinde de cihazda hiçbir duraklama duyulmadı. Metnin `speak()`e
+  olduğu gibi ulaştığı doğrulandı (APK paketindeki JS incelendi), yani sorun
+  dönüşümde değil motorun cümle içi noktalamayı prosodiye çevirmemesinde.
+
+  Bu motorda duraklama üreten tek güvenilir mekanizma **ayrı bir `speak()`
+  çağrısıdır** — yukarıda "sorun" diye anlatılan durdur-yapılandır döngüsünün
+  kendisi. Tire bu yüzden `DURAK_ISARETI` (`types.ts`) üretir ve
+  `duraklardanBol` onu parça sınırına çevirir. İşaret motora ASLA ulaşmaz;
+  `speak()`e giden her yol o fonksiyondan geçmek zorundadır (`bloklaraAyir`
+  **ve** `extract.ts`in tablo dalı — tablo `bloklaraAyir`dan geçmez).
+
+  Ölçek bu kuralı güvenli kılar: ölçüldü, 30 özette 159 durak = özet başına
+  ortalama 5,3. Kesik okumaya yol açan ~120 ile kıyaslanamaz.
 
   ⚠️ Harf kuralında **solda en az iki harf şartı ZORUNLU**: "e-posta" ve
   "e-Yazışma" tek harfli öneklerdir ve kural onlara uygulanırsa "e, posta" diye

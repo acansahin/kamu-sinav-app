@@ -36,6 +36,31 @@ export const BLOK_UST_SINIR = 400;
 export const MOTOR_TAVANI = 3500;
 
 /**
+ * Parça sınırı işareti — tirenin bıraktığı duraklamayı üretir.
+ *
+ * ⚠️ **Noktalama bu iş için ÇALIŞMIYOR.** Cihazda sırayla virgül ve noktalı
+ * virgül denendi; motor cümle içi noktalamayı duyulur bir duraklamaya
+ * çevirmiyor. Metnin `speak()`e olduğu gibi ulaştığı doğrulandı, yani sorun
+ * dönüşümde değil motorun prosodisinde.
+ *
+ * Bu motorda duraklama üreten TEK güvenilir mekanizma, yukarıda "sorun" olarak
+ * anlatılan şeyin kendisidir: ayrı bir `speak()` çağrısı motoru durdurup baştan
+ * yapılandırır ve arada duyulur bir boşluk kalır. Cümle başına yapıldığında
+ * (~120 kez) okumayı kesikleştiren buydu; tirede yapıldığında istenen tam
+ * olarak bu.
+ *
+ * Ölçek farkı kritiktir ve bu kuralı güvenli kılan şeydir. Ölçüldü: 30 özetin
+ * tamamında 159 durak, yani **özet başına ortalama 5,3** (en kötü hâl
+ * `mahalli-idareler` ile 14; iki özette hiç yok). Kesik okumaya yol açan ~120
+ * ile kıyaslanamaz. Yeni içerik bu sayıyı belirgin biçimde büyütürse kural
+ * yeniden ölçülmelidir.
+ *
+ * Kontrol karakteri seçildi: içerikte asla geçemez. Motora ASLA ulaşmaz —
+ * `duraklardanBol` parçalara ayırırken tüketir.
+ */
+export const DURAK_ISARETI = "\u0001";
+
+/**
  * Hız kademelerinin motor karşılıkları.
  *
  * Uçlar bilinçli olarak kullanılmıyor: ölçüldüğünde 0.5 Android'de sarhoş gibi

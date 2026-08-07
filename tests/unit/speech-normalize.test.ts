@@ -1,5 +1,17 @@
 import { describe, expect, it } from "vitest";
 import { konusmaMetni } from "@/lib/speech/normalize-tr";
+import { bloklaraAyir } from "@/lib/speech/sentences";
+import { DURAK_ISARETI } from "@/lib/speech/types";
+
+/**
+ * Tirenin gerçek etkisi tek bir dizede değil, PARÇA SAYISINDA görülür:
+ * her parça ayrı bir `speak()` çağrısıdır ve duraklamayı aradaki motor
+ * yeniden yapılandırması üretir. Bu yardımcı, boru hattının tamamını
+ * (normalleştirme + parçalama) çalıştırır.
+ */
+function seslendirmeParcalari(ham: string): string[] {
+	return bloklaraAyir(konusmaMetni(ham));
+}
 
 /**
  * Türkçe seslendirme normalleştirmesi.
@@ -67,14 +79,23 @@ describe("kesirler ve aralıklar", () => {
 	});
 
 	/*
-	 * NOKTALI VİRGÜL, virgül değil. Virgülle denendi ve cihazda duyulur bir
-	 * duraklama vermedi; noktalı virgül 12. adımda ölçülen orta uzunlukta
-	 * duraklamayı sonlandırıcı kontur olmadan veriyor.
+	 * Tire NOKTALAMAYA değil, PARÇA SINIRINA dönüşür. Virgül ve noktalı virgül
+	 * sırayla denendi; ikisinde de cihazda hiçbir duraklama duyulmadı, çünkü
+	 * motor cümle içi noktalamayı prosodiye çevirmiyor. Duraklamayı ancak ayrı
+	 * bir `speak()` çağrısı üretiyor (bkz. types.ts → DURAK_ISARETI).
 	 */
-	it("rakam arasında olmayan tire noktalı virgüle döner", () => {
+	it("rakam arasında olmayan tire ayrı bir parça doğurur", () => {
 		expect(
-			konusmaMetni("Memur — genel idare esaslarına göre çalışan"),
-		).toBe("Memur; genel idare esaslarına göre çalışan");
+			seslendirmeParcalari("Memur — genel idare esaslarına göre çalışan"),
+		).toEqual(["Memur", "genel idare esaslarına göre çalışan"]);
+	});
+
+	it("durak işareti motora ASLA ulaşmaz", () => {
+		for (const parca of seslendirmeParcalari(
+			"Valinin giriş-çıkış sınırlaması — en çok 15 gün",
+		)) {
+			expect(parca).not.toContain(DURAK_ISARETI);
+		}
 	});
 
 	/*
@@ -89,15 +110,20 @@ describe("kesirler ve aralıklar", () => {
 		expect(konusmaMetni("maddeler 503-510")).toBe("maddeler 503 ila 510");
 	});
 
-	it("birleşik sözcük tiresi noktalı virgüle döner", () => {
-		expect(konusmaMetni("Valinin giriş-çıkış sınırlaması")).toBe(
-			"Valinin giriş; çıkış sınırlaması",
-		);
-		expect(konusmaMetni("Paraf: kısaltmasız, ast-üstten")).toBe(
-			"Paraf: kısaltmasız, ast; üstten",
-		);
+	it("birleşik sözcük tiresi de ayrı parça doğurur", () => {
+		expect(seslendirmeParcalari("Valinin giriş-çıkış sınırlaması")).toEqual([
+			"Valinin giriş",
+			"çıkış sınırlaması",
+		]);
+		expect(seslendirmeParcalari("Paraf: kısaltmasız, ast-üstten")).toEqual([
+			"Paraf: kısaltmasız, ast",
+			"üstten",
+		]);
 		// Şapkalı harfler karakter sınıfında olmalı (idarî-malî gerçek içerikten).
-		expect(konusmaMetni("idarî-malî denetim")).toBe("idarî; malî denetim");
+		expect(seslendirmeParcalari("idarî-malî denetim")).toEqual([
+			"idarî",
+			"malî denetim",
+		]);
 	});
 
 	/**

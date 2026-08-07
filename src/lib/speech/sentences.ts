@@ -1,4 +1,8 @@
-import { BLOK_UST_SINIR, MOTOR_TAVANI } from "@/lib/speech/types";
+import {
+	BLOK_UST_SINIR,
+	DURAK_ISARETI,
+	MOTOR_TAVANI,
+} from "@/lib/speech/types";
 
 /**
  * Metni seslendirme parçalarına böler.
@@ -95,6 +99,25 @@ export function cumlelereBol(metin: string): string[] {
 }
 
 /**
+ * Metni durak işaretlerinden ayırır ve işareti TÜKETİR.
+ *
+ * `konusmaMetni` tirenin yerine bu işareti koyuyor; her parça ayrı bir
+ * `speak()` çağrısı olacağı için aradaki motor yeniden yapılandırması istenen
+ * duraklamayı üretir (gerekçe: `types.ts` → DURAK_ISARETI).
+ *
+ * İşaretin motora ULAŞMAMASI bu fonksiyona bağlıdır — metni `speak()`e veren
+ * her yol buradan geçmek zorundadır (`bloklaraAyir` ve `extract.ts`in tablo
+ * dalı). Boş parçalar düşürülür: art arda gelen iki tire sessiz bir utterance
+ * üretirdi.
+ */
+export function duraklardanBol(metin: string): string[] {
+	return metin
+		.split(DURAK_ISARETI)
+		.map((parca) => parca.trim())
+		.filter((parca) => parca.length > 0);
+}
+
+/**
  * Motorun girdi sınırına sığmayan bir parçayı kelime boşluğundan böler.
  *
  * Bu bir UX kuralı DEĞİL, son çare bir emniyet supabıdır: içerikte hiçbir blok
@@ -128,6 +151,12 @@ export function motorTavaniniUygula(parca: string): string[] {
  * tek utterance vermek liste tonlamasını üreten şeyin kendisidir.
  */
 export function bloklaraAyir(metin: string): string[] {
+	// Durak işaretleri ÖNCE ayrılır ve bir daha birleştirilmez: aşağıdaki
+	// açgözlü paketleme onları tekrar aynı parçaya toplarsa duraklama kaybolur.
+	return duraklardanBol(metin).flatMap(cumleleriPaketle);
+}
+
+function cumleleriPaketle(metin: string): string[] {
 	const cumleler = cumlelereBol(metin);
 	const parcalar: string[] = [];
 
