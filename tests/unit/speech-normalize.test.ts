@@ -66,10 +66,15 @@ describe("kesirler ve aralıklar", () => {
 		);
 	});
 
-	it("rakam arasında olmayan tire virgüle döner", () => {
+	/*
+	 * NOKTALI VİRGÜL, virgül değil. Virgülle denendi ve cihazda duyulur bir
+	 * duraklama vermedi; noktalı virgül 12. adımda ölçülen orta uzunlukta
+	 * duraklamayı sonlandırıcı kontur olmadan veriyor.
+	 */
+	it("rakam arasında olmayan tire noktalı virgüle döner", () => {
 		expect(
 			konusmaMetni("Memur — genel idare esaslarına göre çalışan"),
-		).toBe("Memur, genel idare esaslarına göre çalışan");
+		).toBe("Memur; genel idare esaslarına göre çalışan");
 	});
 
 	/*
@@ -84,15 +89,15 @@ describe("kesirler ve aralıklar", () => {
 		expect(konusmaMetni("maddeler 503-510")).toBe("maddeler 503 ila 510");
 	});
 
-	it("birleşik sözcük tiresi virgüle döner", () => {
+	it("birleşik sözcük tiresi noktalı virgüle döner", () => {
 		expect(konusmaMetni("Valinin giriş-çıkış sınırlaması")).toBe(
-			"Valinin giriş, çıkış sınırlaması",
+			"Valinin giriş; çıkış sınırlaması",
 		);
 		expect(konusmaMetni("Paraf: kısaltmasız, ast-üstten")).toBe(
-			"Paraf: kısaltmasız, ast, üstten",
+			"Paraf: kısaltmasız, ast; üstten",
 		);
 		// Şapkalı harfler karakter sınıfında olmalı (idarî-malî gerçek içerikten).
-		expect(konusmaMetni("idarî-malî denetim")).toBe("idarî, malî denetim");
+		expect(konusmaMetni("idarî-malî denetim")).toBe("idarî; malî denetim");
 	});
 
 	/**

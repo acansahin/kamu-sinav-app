@@ -223,13 +223,23 @@ export function konusmaMetni(ham: string): string {
 	// 13 — Ok işareti: sıralama anlamı taşır, virgül duraklaması yeterli.
 	metin = metin.replace(/\s*→\s*/g, ", ");
 
-	// 14 — Rakam arasında kalmayan en/em tireler (tanım tiresi): virgül.
-	metin = metin.replace(/\s*[–—]\s*/g, ", ");
+	// 14 — Rakam arasında kalmayan en/em tireler (tanım tiresi): NOKTALI VİRGÜL.
+	//
+	//      Önce virgüldü; cihazda ölçüldü, virgül tirenin yerinde DUYULUR bir
+	//      duraklama üretmiyor — kullanıcı "hâlâ duraksama yok" diye bildirdi.
+	//      Noktalı virgül 12. adımda ölçülen davranışı verir: orta uzunlukta
+	//      duraklama, sonlandırıcı düşen kontur YOK. Nokta bu iş için fazla
+	//      güçlü, cümle bitmiş gibi duyuluyor.
+	//
+	//      Utterance sınırını etkilemez: `bloklaraAyir` yalnızca `.!?…`
+	//      üzerinden böler, dolayısıyla blok tek parça kalmaya devam eder.
+	metin = metin.replace(/\s*[–—]\s*/g, "; ");
 
 	// 14b — Birleşik sözcük tiresi: "giriş-çıkış", "ast-üstten", "plan-bütçe",
 	//       "sosyal-ekonomik", "idarî-malî". Cihazda bildirildi: motor tireyi
 	//       hiç duraklamadan geçip iki sözcüğü tek sözcüğe yapıştırıyor
-	//       ("astüstten"). Virgül istenen duraklamayı verir.
+	//       ("astüstten"). 14. adımdaki gerekçeyle NOKTALI VİRGÜL: virgül
+	//       denendi ve cihazda duyulur bir duraklama vermedi.
 	//
 	//       ⚠️ SOLDA EN AZ İKİ HARF ŞARTI ZORUNLU. "e-posta" ve "e-Yazışma"
 	//       tek harfli öneklerdir ve bu kural onlara uygulanırsa "e, posta"
@@ -239,7 +249,7 @@ export function konusmaMetni(ham: string): string {
 	//       olarak okuyor.
 	metin = metin.replace(
 		new RegExp(`([${TURKCE_HARF}]{2,})-(?=[${TURKCE_HARF}])`, "g"),
-		"$1, ",
+		"$1; ",
 	);
 
 	// 15 — Parantez içindeki fıkra/bent harfleri.
@@ -283,6 +293,11 @@ export function konusmaMetni(ham: string): string {
 		.replace(/\s+([.,;:!?])/g, "$1")
 		.replace(/\.\s*\./g, ".")
 		.replace(/,\s*,/g, ",")
+		// Tire kuralları noktalı virgül ürettiği için art arda düşme ihtimali
+		// doğdu ("ast-üstten, ..." → "ast; , ..."). İkilileri tek işarete indir.
+		.replace(/;\s*;/g, ";")
+		.replace(/;\s*,/g, ";")
+		.replace(/,\s*;/g, ";")
 		.trim();
 
 	return metin;

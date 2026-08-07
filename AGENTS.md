@@ -311,6 +311,12 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   uygular: **rakam-rakam** aralıktır ve "ila" olur (8. adım), **harf-harf**
   birleşik sözcüktür ve virgül olur (14b).
 
+  Duraklama **noktalı virgülle** verilir, virgülle değil. Virgül denendi ve
+  cihazda duyulur bir duraklama üretmedi; noktalı virgül 12. adımda ölçülen
+  davranışı verir — orta uzunlukta duraklama, sonlandırıcı düşen kontur yok.
+  Nokta bu iş için fazla güçlüdür, cümle bitmiş gibi duyulur. Utterance
+  sınırını etkilemez: `bloklaraAyir` yalnızca `.!?…` üzerinden böler.
+
   ⚠️ Harf kuralında **solda en az iki harf şartı ZORUNLU**: "e-posta" ve
   "e-Yazışma" tek harfli öneklerdir ve kural onlara uygulanırsa "e, posta" diye
   okunurlar — düzeltilenden fazlası bozulur. `TURKCE_HARF` sınıfında şapkalı
