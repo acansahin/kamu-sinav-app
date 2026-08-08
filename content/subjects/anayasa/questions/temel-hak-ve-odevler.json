@@ -2695,5 +2695,346 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-temelhak-001",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 62. maddesine göre Devlet, yabancı ülkelerde çalışan Türk vatandaşları bakımından hangi konularda tedbir almakla yükümlüdür?",
+		"options": [
+			"Yalnızca oy kullanma haklarının kullandırılması",
+			"Aile birliğinin, çocuklarının eğitiminin, kültürel ihtiyaçlarının ve sosyal güvenliklerinin sağlanması ile anavatanla bağlarının korunması ve yurda dönüşlerinde yardımcı olunması",
+			"Yalnızca yurda dönüşlerinde iş bulmalarına yardımcı olunması",
+			"Yalnızca çocuklarının Türkçe öğrenmesinin sağlanması",
+			"Yalnızca sosyal güvenliklerinin sağlanması"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 62. maddesine göre Devlet, yabancı ülkelerde çalışan Türk vatandaşlarının aile birliğinin, çocuklarının eğitiminin, kültürel ihtiyaçlarının ve sosyal güvenliklerinin sağlanması, anavatanla bağlarının korunması ve yurda dönüşlerinde yardımcı olunması için gereken tedbirleri alır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "62"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sosyal-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-temelhak-002",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 64. maddesi aşağıdaki konulardan hangisini düzenler?",
+		"options": [
+			"Sanat faaliyetlerinin ve sanatçının korunması",
+			"Konut hakkı",
+			"Gençliğin korunması",
+			"Sporun geliştirilmesi",
+			"Tarih, kültür ve tabiat varlıklarının korunması"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 64. maddesine göre Devlet, sanat faaliyetlerini ve sanatçıyı korur; sanat eserlerinin ve sanatçının korunması, değerlendirilmesi, desteklenmesi ve sanat sevgisinin yayılması için gereken tedbirleri alır. Tarih, kültür ve tabiat varlıklarının korunması 63., gençliğin korunması 58., sporun geliştirilmesi 59., konut hakkı ise 57. maddededir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "64"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sanat"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-temelhak-003",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 17. maddesine göre kişinin vücut bütünlüğü ve tıbbi müdahaleler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kişinin rızası olmadan hiçbir şart altında tıbbi müdahalede bulunulamaz",
+			"Tıbbi zorunluluklar ve kanunda yazılı hâller dışında kişinin vücut bütünlüğüne dokunulamaz; kişi rızası olmadan bilimsel ve tıbbi deneylere tabi tutulamaz",
+			"Vücut bütünlüğüne müdahale yalnızca mahkeme kararıyla mümkündür",
+			"Bilimsel ve tıbbi deneyler için kişinin rızası aranmaz; kamu yararı yeterlidir",
+			"Bu konudaki sınırlar Anayasa'da değil, yalnızca yönetmeliklerde düzenlenmiştir"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 17. maddesinin ikinci fıkrasına göre tıbbi zorunluluklar ve kanunda yazılı hâller dışında kişinin vücut bütünlüğüne dokunulamaz; rızası olmadan bilimsel ve tıbbi deneylere tabi tutulamaz. Üçüncü fıkra ise işkence ve eziyet ile insan haysiyetiyle bağdaşmayan ceza ve muamele yasağını düzenler.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kisi-dokunulmazligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-temelhak-004",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 24. maddesine göre din ve vicdan hürriyeti bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kimse ibadete, dini ayin ve törenlere katılmaya, dini inanç ve kanaatlerini açıklamaya zorlanamaz; dini inanç ve kanaatlerinden dolayı kınanamaz ve suçlanamaz",
+			"Dini ayin ve törenler her hâlükârda ve sınırsız biçimde serbesttir",
+			"Herkes dini inancını açıklamakla yükümlüdür",
+			"Din ve ahlak eğitimi Devletin gözetim ve denetimi dışında yapılır",
+			"Din kültürü ve ahlak öğretimi seçmeli derslerdendir"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 24. maddesinin üçüncü fıkrasına göre kimse ibadete, dini ayin ve törenlere katılmaya, dini inanç ve kanaatlerini açıklamaya zorlanamaz; dini inanç ve kanaatlerinden dolayı kınanamaz ve suçlanamaz. İbadet ve dini törenler 14. madde hükümlerine aykırı olmamak şartıyla serbesttir; din kültürü ve ahlak öğretimi ise ilk ve ortaöğretimde zorunlu dersler arasındadır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "24"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"din-ve-vicdan-hurriyeti"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-temelhak-005",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 36. maddesinde yer alan ve mahkemelere yönelik olan hüküm aşağıdakilerden hangisidir?",
+		"options": [
+			"Mahkemeler, iş yükü gerekçesiyle davaya bakmayı erteleyebilir",
+			"Hiçbir mahkeme, görev ve yetkisi içindeki davaya bakmaktan kaçınamaz",
+			"Mahkemeler, tarafların anlaşması hâlinde davaya bakmaktan çekilebilir",
+			"Mahkemeler yalnızca kanunla kendilerine açıkça verilen davalara bakabilir",
+			"Mahkemeler, Anayasaya aykırı gördükleri kanunları uygulamaktan kaçınabilir"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 36. maddesinin ikinci fıkrasına göre hiçbir mahkeme, görev ve yetkisi içindeki davaya bakmaktan kaçınamaz. Maddenin birinci fıkrası ise herkesin meşru vasıta ve yollardan faydalanmak suretiyle yargı mercileri önünde davacı veya davalı olarak iddia ve savunma ile adil yargılanma hakkına sahip olduğunu düzenler.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "36"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hak-arama-hurriyeti"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-temelhak-006",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 40. maddesine göre Devletin işlemlerinde ilgili kişilere bildirmek zorunda olduğu hususlar aşağıdakilerden hangisidir?",
+		"options": [
+			"Yalnızca işlemi yapan görevlinin adı ve unvanı",
+			"Yalnızca dava açılacak mahkemenin adı",
+			"İşlemin gerekçesi ile birlikte idarenin bütçe bilgileri",
+			"Hangi kanun yolları ve mercilere başvuracakları ile başvuru süreleri",
+			"Yalnızca işlemin hukuki dayanağı"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 40. maddesine 2001 yılında eklenen ikinci fıkraya göre Devlet, işlemlerinde ilgili kişilerin hangi kanun yolları ve mercilere başvuracağını ve sürelerini belirtmek zorundadır. Aynı madde, kişinin resmî görevliler tarafından yapılan haksız işlemler sonucu uğradığı zararın Devletçe tazmin edileceğini ve Devletin ilgili görevliye rücu hakkının saklı olduğunu düzenler.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "40"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"temel-haklarin-korunmasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-temelhak-007",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 42. maddesine göre eğitim ve öğretim bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Türkçeden başka diller, talep hâlinde Türk vatandaşlarına ana dilleri olarak okutulabilir",
+			"Kimse eğitim ve öğrenim hakkından yoksun bırakılamaz",
+			"Eğitim ve öğretim hürriyeti, Anayasaya sadakat borcunu ortadan kaldırmaz",
+			"Eğitim ve öğretim, Atatürk ilkeleri ve inkılapları doğrultusunda, Devletin gözetim ve denetimi altında yapılır",
+			"İlköğretim kız ve erkek bütün vatandaşlar için zorunludur ve Devlet okullarında parasızdır"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 42. maddesine göre Türkçeden başka hiçbir dil, eğitim ve öğretim kurumlarında Türk vatandaşlarına ana dilleri olarak okutulamaz ve öğretilemez. Diğer seçenekler maddenin lafzına uygundur.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "42"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"egitim-hakki"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-temelhak-008",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 53. maddesine göre memurlar ve diğer kamu görevlilerinin toplu sözleşme görüşmelerinde uyuşmazlık çıkması hâlinde ne yapılır?",
+		"options": [
+			"Uyuşmazlık grev yoluyla çözülür",
+			"Uyuşmazlık hâlinde toplu sözleşme yapılamaz ve şartlar tek yanlı olarak idarece belirlenir",
+			"Uyuşmazlık Yüksek Hakem Kuruluna götürülür ve kararı tavsiye niteliğindedir",
+			"Taraflar Kamu Görevlileri Hakem Kuruluna başvurabilir; Kurul kararları kesindir ve toplu sözleşme hükmündedir",
+			"Uyuşmazlık idari yargıda dava konusu yapılır"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 53. maddesine 2010 yılında eklenen fıkralara göre memurlar ve diğer kamu görevlileri toplu sözleşme yapma hakkına sahiptir; toplu sözleşme yapılması sırasında uyuşmazlık çıkması hâlinde taraflar Kamu Görevlileri Hakem Kuruluna başvurabilir ve Kurul kararları kesindir, toplu sözleşme hükmündedir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "53"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toplu-sozlesme",
+			"kamu-gorevlileri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-temelhak-009",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 67. maddesine göre seçimler ve halkoylaması hangi esaslara göre yapılır?",
+		"options": [
+			"Serbest, iki dereceli ve gizli oy esasına göre; Yüksek Seçim Kurulunun gözetiminde",
+			"Serbest, eşit, açık oy ve gizli sayım esaslarına göre; idarenin yönetimi altında",
+			"Serbest, eşit ve gizli oy esasına göre; Türkiye Büyük Millet Meclisinin denetimi altında",
+			"Serbest, eşit, gizli, tek dereceli, genel oy, açık sayım ve döküm esaslarına göre; yargı yönetim ve denetimi altında",
+			"Zorunlu oy, gizli sayım ve kapalı döküm esaslarına göre"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 67. maddesinin ikinci fıkrasına göre seçimler ve halkoylaması serbest, eşit, gizli, tek dereceli, genel oy, açık sayım ve döküm esaslarına göre, yargı yönetim ve denetimi altında yapılır. Silah altındaki er ve erbaşlar ile askerî öğrenciler ve taksirli suçlardan hüküm giyenler hariç ceza infaz kurumlarındaki hükümlüler oy kullanamaz.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "67"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"secme-hakki"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-temelhak-010",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/temel-hak-ve-odevler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 73. maddesine göre vergi, resim, harç ve benzeri malî yükümlülüklerin muaflık, istisna, indirim ve oranlarında değişiklik yapma yetkisi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu yetki Hazine ve Maliye Bakanlığına aittir",
+			"Bu yetki sınırsız biçimde Cumhurbaşkanına aittir",
+			"Bu konularda hiçbir şekilde yetki devri yapılamaz",
+			"Kanunun belirttiği yukarı ve aşağı sınırlar içinde değişiklik yapmak yetkisi Cumhurbaşkanına verilebilir",
+			"Bu yetki yalnızca Türkiye Büyük Millet Meclisi Plan ve Bütçe Komisyonuna aittir"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 73. maddesinin son fıkrasına göre vergi, resim, harç ve benzeri malî yükümlülüklerin muaflık, istisnalar ve indirimleriyle oranlarına ilişkin hükümlerinde kanunun belirttiği yukarı ve aşağı sınırlar içinde değişiklik yapmak yetkisi Cumhurbaşkanına verilebilir. Bu malî yükümlülüklerin konulması, değiştirilmesi ve kaldırılması ise kanunla olur.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "73"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vergi-odevi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

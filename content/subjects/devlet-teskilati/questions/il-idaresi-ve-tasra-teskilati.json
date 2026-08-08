@@ -554,5 +554,489 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-il-017",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5442 sayılı İl İdaresi Kanunu'na göre il ve ilçe kurulması ile bucak kurulması hangi usulle yapılır?",
+		"options": [
+			"İl kurulması kanunla, ilçe ve bucak kurulması İçişleri Bakanlığının tasvibiyle yapılır",
+			"İl ve ilçe kurulması kanunla, bucak kurulması Cumhurbaşkanı onayı ile yapılır",
+			"Her ikisi de kanunla yapılır",
+			"İl ve ilçe kurulması Cumhurbaşkanı kararıyla, bucak kurulması il genel meclisi kararıyla yapılır",
+			"Her ikisi de Cumhurbaşkanı onayı ile yapılır"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 2. maddesinin (A) bendine göre il ve ilçe kurulması, kaldırılması, merkezlerinin belirtilmesi, adlarının değiştirilmesi ve bir ilçenin başka bir ile bağlanması kanunla; (B) bendine göre bucak kurulması, kaldırılması, il, ilçe ve bucak sınırlarının değiştirilmesi ve bir köyün başka bir il veya ilçeye bağlanması Cumhurbaşkanı onayı ile yapılır. Köy adlarının değiştirilmesi ve köylerin birleştirilmesi ise İçişleri Bakanlığının tasvibiyle yapılır.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mulki-bolumler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-il-018",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "5442 sayılı İl İdaresi Kanunu'na göre illerin idaresi hangi esasa dayanır?",
+		"options": [
+			"Yerinden yönetim",
+			"Kuvvetler ayrılığı",
+			"Yetki genişliği",
+			"İdari vesayet",
+			"Mali özerklik"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 3. maddesine göre illerin idaresi yetki genişliği esasına dayanır. Bu esas Anayasa'nın 126. maddesinde de yer alır. Aynı madde, illerde genel idare teşkilatının il, ilçe ve bucak bölümlerine uygun olarak düzenleneceğini ve belli kamu hizmetleri için birden çok ili içine alan çevrede yetki genişliğine sahip kuruluşlar meydana getirilebileceğini belirtir.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yetki-genisligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-il-019",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5442 sayılı Kanun'a göre vali, bakanlıklar ve tüzel kişiliği haiz genel müdürlüklerin il teşkilatında çalışan memur ve müstahdemler bakımından hangi konumdadır?",
+		"options": [
+			"Yalnızca kendisine bağlı il müdürlüklerinin amiridir; genel müdürlüklerin il teşkilatı bu kapsamda değildir",
+			"Bütün memur ve müstahdemlerin, adli ve askerî daireler dâhil, en büyük amiridir",
+			"Adli ve askerî daireler hariç olmak üzere bunların hepsinin en büyük amiridir",
+			"Yalnızca İçişleri Bakanlığı personelinin en büyük amiridir",
+			"Hiçbiri üzerinde amirlik sıfatı yoktur; yalnızca koordinasyon görevi vardır"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 13. maddesine göre vali, dördüncü maddenin son fıkrasında belirtilen adli ve askerî daireler hariç olmak üzere bakanlıklar ve tüzel kişiliği haiz genel müdürlüklerin il teşkilatında çalışan bütün memur ve müstahdemlerin en büyük amiridir. 4. maddenin son fıkrası yargıçları, Cumhuriyet savcılarını, adalet memurlarını, askerî birlikleri ve askerlik daire ve şubelerini bu kapsamın dışında tutar.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-il-020",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir vali, denetlemesi sırasında bir memurun iş başında kalmasında sakınca görmüştür. 5442 sayılı Kanun'a göre vali bu durumda ne yapabilir?",
+		"options": [
+			"Memuru başka bir ile naklen atayabilir",
+			"Kendi sorumluluğu altında memuru işten el çektirebilir, hizmetin aksamaması için gereken tedbirleri aldırır ve durumu gerekçesiyle ilgili makama derhâl bildirir",
+			"Memurun görevine son verebilir ve yerine atama yapabilir",
+			"Memuru işten el çektiremez; yalnızca disiplin soruşturması açılmasını isteyebilir",
+			"Ancak İçişleri Bakanlığından izin aldıktan sonra işten el çektirebilir"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 16. maddesine göre valiler, denetlemeleri sırasında iş başında kalmalarında mahzur gördükleri bütün memur ve müstahdemleri sorumluluğu altında işten el çektirebilir ve hizmetin aksamaması için gereken tedbirleri aldırır; bu takdirde işi gerekçesiyle ait olduğu makama derhâl bildirir. Kaymakamın aynı yöndeki yetkisi ise valinin muvafakatine bağlıdır (m.31).",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali",
+			"denetim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-il-021",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5442 sayılı Kanun'a göre vali, il içinde denetim ve teftişi altında bulunmayan daire ve müesseselerde öğrendiği yolsuzluklar karşısında ne yapar?",
+		"options": [
+			"Hiçbir işlem yapamaz; denetimi altında olmayan birimlerle ilgilenemez",
+			"Doğrudan soruşturma açar ve gerekli disiplin cezasını uygular",
+			"Yalnızca Cumhuriyet başsavcılığına suç duyurusunda bulunabilir, başka bir işlem yapamaz",
+			"Durumu ilgili makamlara bildirir; ilgili makamlar gerekli incelemeyi yaparak sonucundan valiye bilgi verir",
+			"Doğrudan Danıştaya başvurarak işlemin iptalini ister"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 17. maddesine göre valiler, il içinde denetim ve teftişleri altında bulunmayan bütün daire ve müesseselerde vukubulduğunu öğrendikleri yolsuzlukları ilgili makamlara bildirir; ilgili makamlar gereken incelemeyi yaparak kanuni gereğini yerine getirir ve sonucundan valiye bilgi verir.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali",
+			"denetim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-il-022",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "5442 sayılı Kanun'a göre valiler, gereken hâllerde il mensuplarına aşağıdakilerden hangisini verebilir?",
+		"options": [
+			"Bir kademe ilerlemesi",
+			"Yurt dışı görev tahsisi",
+			"İkramiye",
+			"Takdirname",
+			"Bir derece yükselmesi"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 20. maddesine göre valiler, gereken hâllerde il mensuplarına takdirname verir. Tayinleri merkeze ait olanlar hakkındaki takdir ve tecziye işlemlerini ise ilgili makamlara bildirirler.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-il-023",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5442 sayılı Kanun'a göre il idare şube başkanları, şubelerine ilişkin işlerin yürütülmesinden kime karşı sorumludur?",
+		"options": [
+			"Valiye",
+			"Doğrudan Cumhurbaşkanına",
+			"İl genel meclisine",
+			"Vali muavinine",
+			"Bağlı oldukları bakanlığın müsteşarına"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 21. maddesine göre il idare şube başkanları, kendi şubelerine ilişkin işlerin yürütülmesinden ve şubelerinin memur ve müstahdemlerinin mevzuatta belirtilen ödev ve görevlerinin süratle ve intizamla yapılmasından valiye karşı sorumludur. Ayrıca valinin istediği her türlü bilgiyi vermekle ödevlidirler.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "21"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"il-idare-sube-baskanlari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-il-024",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir il idare şube başkanı, vali tarafından kendisine re'sen verilen emrin mevzuata uygun olmadığı kanaatindedir. 5442 sayılı Kanun'a göre izlenecek usul aşağıdakilerden hangisidir?",
+		"options": [
+			"Emri hiçbir şekilde yerine getirmez ve durumu doğrudan bağlı olduğu bakanlığa bildirir",
+			"Emrin uygulanması, İçişleri Bakanlığından görüş gelinceye kadar kendiliğinden durur",
+			"Konuyu il idare kuruluna götürür; kurul kararı kesindir",
+			"Durumu valiye yazar; vali emrin mevzuata uygunluğunda ısrar ederse yazılı emir verir ve işi ilgili mercie yazar, cevap gelinceye kadar emir valinin sorumluluğu altında uygulanır",
+			"Emri tereddütsüz yerine getirir; itiraz hakkı yoktur"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 23. maddesine göre il idare şube başkanları ve kaymakamlar, vali tarafından re'sen verilen emirlerin mevzuata uygun olmadığı içtihadındaysalar keyfiyeti valiye yazar. Vali emrin mevzuata uygun bulunduğunda ısrar ederse yazılı olarak emir verir ve aynı zamanda işi ilgili mercie yazar; cevap gelinceye kadar valinin verdiği emir kendi sorumluluğu altında uygulanır. Bu düzenleme 657 sayılı Kanun'un 11. maddesindeki kanunsuz emir usulünün il idaresindeki karşılığıdır.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "23"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"emir",
+			"sorumluluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-il-025",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5442 sayılı Kanun'a göre valinin, il idare şube başkanlarını heyet hâlinde toplaması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yılda dört defadan az olmamak üzere toplar ve bu toplantıda alınan kararların yürütülmesi bütün idare şubeleri için mecburidir",
+			"Yılda bir defa toplar ve alınan kararlar yalnızca tavsiye niteliğindedir",
+			"Toplantı yapıp yapmamakta serbesttir; kararlar hiçbir şubeyi bağlamaz",
+			"Ayda bir toplamak zorundadır ve kararlar oy birliğiyle alınır",
+			"Toplantıya yalnızca kaymakamlar katılabilir; şube başkanları çağrılamaz"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 24. maddesine göre vali, yılda dört defadan az olmamak üzere lüzum gördüğü zamanlarda idarede birliğin sağlanması ve işlerin düzenlenmesi amacıyla idare şube başkanlarını heyet hâlinde toplar; bu toplantıda alınan kararların yürütülmesi bütün idare şubeleri için mecburidir. Toplantılara kaymakamlar ile belediye, ticaret ve ziraat odası başkanları ve diğer ilgililer de çağrılabilir.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "24"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali",
+			"toplanti"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-il-026",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "5442 sayılı Kanun'a göre vali, ilin hizmetlerinin ahenkli yürütülmesi için alınacak tedbirleri görüşmek üzere kaymakamları ne sıklıkla toplantıya çağırır?",
+		"options": [
+			"Yılda dört defa",
+			"Yılda bir defa",
+			"Ayda bir defa",
+			"Altı ayda bir defa",
+			"İki yılda bir defa"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 25. maddesine göre valiler, ilin yönetim, ekonomi, sağlık ve sosyal yardım, kültür ve bayındırlık işleriyle ilgili hizmetlerin ahenkli yürütülmesi için alınması gereken tedbirleri görüşmek üzere kaymakamları yılda bir defa toplantıya çağırır. Bu toplantı, il idare şube başkanlarının yılda en az dört kez toplandığı heyetten farklıdır.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "25"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali",
+			"kaymakam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-il-027",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5442 sayılı Kanun'a göre valiler, ilin idari, malî, ekonomik, kültürel, sağlık ve sosyal durumu ile alınan karar ve tedbirlerin sonuçları hakkında yıl sonunda kime rapor verir?",
+		"options": [
+			"Sayıştay Başkanlığına",
+			"Yalnızca İçişleri Bakanlığına",
+			"Türkiye Büyük Millet Meclisi Başkanlığına",
+			"İl genel meclisine",
+			"Cumhurbaşkanlığına ve ilgili bakanlıklara"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 26. maddesine göre valiler her yıl uygun gördükleri zamanlarda ilin bütün ilçe ve bucaklarını, sırasıyla programa alınan köylerini ve il içindeki teşkilatı teftiş eder; ilin durumu ile alınan karar ve tedbirlerin sonuçları hakkında yıl sonunda veya gerekli gördükleri diğer zamanlarda Cumhurbaşkanlığına ve ilgili bakanlıklara rapor verirler.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "26"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vali",
+			"teftis",
+			"rapor"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-il-028",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5442 sayılı Kanun'a göre ilçedeki genel idare teşkilatının başında bulunanlara ne ad verilir ve bunların emri altında çalışanların konumu nedir?",
+		"options": [
+			"İlçe müdürleridir; emirleri altında çalışanlar il memuru sayılır",
+			"Kaymakam yardımcılarıdır; emirleri altında çalışanlar sözleşmeli personeldir",
+			"Bucak müdürleridir; emirleri altında çalışanlar ilçenin birinci derecede memurlarıdır",
+			"İlçe idare şube başkanlarıdır; emirleri altında çalışanlar ilçenin ikinci derecede memurlarıdır",
+			"İl idare şube başkanlarıdır; ilçede ayrı bir teşkilat bulunmaz"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 28. maddesine göre ilçedeki genel idare teşkilatının başında bulunanlar ilçe idare şube başkanlarıdır ve bunların emri altında çalışanlar ilçenin ikinci derecede memurlarıdır. Aynı yapı il düzeyinde 4. maddede il idare şube başkanları için öngörülmüştür.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilce-idaresi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-il-029",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5442 sayılı Kanun'a göre ilçe idare kurulu kimlerden oluşur?",
+		"options": [
+			"Kaymakamın başkanlığı altında tahrirat kâtibi, malmüdürü, Hükümet hekimi, millî eğitim memuru, tarım memuru ve veterinerden",
+			"Vali muavininin başkanlığı altında ilçe idare şube başkanlarından",
+			"Kaymakamın başkanlığı altında yalnızca ilçe millî eğitim müdürü ve ilçe sağlık müdüründen",
+			"Kaymakamın başkanlığı altında ilçe emniyet müdürü, jandarma komutanı ve belediye başkanından",
+			"Belediye başkanının başkanlığı altında kaymakam ve ilçe idare şube başkanlarından"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 58. maddesine göre ilçe idare kurulu; kaymakamın başkanlığı altında tahrirat kâtibi, malmüdürü, Hükümet hekimi, millî eğitim memuru ile tarım memuru ve veterinerden oluşur. İl idare kurulu ise valinin başkanlığında hukuk işleri müdürü, defterdar, millî eğitim, bayındırlık, sağlık ve sosyal yardım, tarım ve veteriner müdürlerinden oluşur (m.57).",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "58"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilce-idare-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-il-030",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/il-idaresi-ve-tasra-teskilati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "5442 sayılı Kanun'a göre idare kurullarının görüşmeleri ve karar alma usulü bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Görüşmeler mürettep üyenin yarısından bir fazlası hazır olmadıkça yapılamaz; oyların eşitliği hâlinde başkanın bulunduğu taraf çokluk sayılır",
+			"Oyların eşitliği hâlinde konu bir sonraki toplantıya bırakılır",
+			"Toplantı yeter sayısı aranmaz; hazır bulunan üyelerle görüşme yapılır",
+			"Görüşmeler üye tamsayısının üçte ikisi ile yapılır; oyların eşitliği hâlinde teklif reddedilmiş sayılır",
+			"Kararlar yalnızca oy birliğiyle alınabilir"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 61. maddesine göre idare kurullarının görüşmeleri, mürettep üyenin yarısından bir fazlası hazır olmadıkça yapılamaz ve oyların eşitliği hâlinde başkanın bulunduğu taraf çokluk sayılır. Teşkilat noksanı, tayin edilmemiş olmak veya vekili bulunmamak gibi sebeplerle üyelerden bir veya ikisi eksikse bunlar mürettep üye ve toplantı nisabı hesabına katılmaz.",
+		"legalRef": {
+			"law": "5442 sayılı İl İdaresi Kanunu",
+			"lawId": "5442",
+			"article": "61"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"idare-kurullari",
+			"toplanti-nisabi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

@@ -560,5 +560,487 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-kit-017",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir kamu iktisadi teşebbüsünün yönetim kurulu, sahip olduğu yetkilerden bir kısmını genel müdüre devretmiştir. 233 sayılı Kanun Hükmünde Kararname bakımından bu devrin sonucu ne olur?",
+		"options": [
+			"Yönetim kurulu, sınırlarını açıkça belirlemek şartıyla yetkilerinden bir kısmını genel müdüre devredebilir; ancak yetki devri yönetim kurulunun sorumluluğunu kaldırmaz",
+			"Yetki devriyle birlikte devredilen konudaki sorumluluk tamamen genel müdüre geçer",
+			"Yönetim kurulu yetkilerinin hiçbirini devredemez",
+			"Yönetim kurulu yetkilerini müessese müdürlerine devredebilir, genel müdüre devredemez",
+			"Yönetim kurulu yetkilerini yalnızca ilgili bakanın onayıyla devredebilir"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararname'nin 9. maddesinin 10. bendine göre yönetim kurulları, sınırlarını açıkça belirlemek şartıyla yetkilerinden bir kısmını genel müdüre devredebilir; ancak yetki devri yönetim kurulunun sorumluluğunu kaldırmaz. Aynı kural 13. maddede genel müdürün astlarına yaptığı yetki devri için de geçerlidir.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yonetim-kurulu",
+			"yetki-devri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-kit-018",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre teşebbüs yönetim kurulunun toplanma ve karar alma usulü aşağıdakilerden hangisidir?",
+		"options": [
+			"Genel müdürün daveti üzerine ayda iki defadan az olmamak üzere üye tamsayısının salt çoğunluğu ile toplanır ve kararlarını üye tamsayısının salt çoğunluğu ile alır",
+			"İlgili bakanın çağrısı üzerine üç ayda bir toplanır ve kararlarını oy birliğiyle alır",
+			"Toplanma sıklığı ve yeter sayılar her teşebbüsün kendi yönetmeliğiyle belirlenir",
+			"Ayda bir toplanır; toplantı yeter sayısı üye tamsayısının üçte ikisidir",
+			"Yılda dört defa toplanır ve kararlarını katılanların salt çoğunluğuyla alır"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararname'nin 10. maddesine göre yönetim kurulu, genel müdürün daveti üzerine ayda iki defadan az olmamak üzere üye tamsayısının salt çoğunluğu ile toplanır ve kararlarını üye tamsayısının salt çoğunluğu ile alır; oylarda eşitlik hâlinde başkanın bulunduğu taraf çoğunluğu sağlamış sayılır.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yonetim-kurulu",
+			"toplanti"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-kit-019",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre, yönetim kurulunun onayı ile uygulanabilecek müessese yönetim komitesi kararları hakkında yönetim kurulu hangi süre içinde karar almak zorundadır?",
+		"options": [
+			"Komite kararının alındığı tarihten itibaren yedi gün içinde",
+			"Komite kararının teşebbüse ulaşmasını izleyen otuz gün içinde",
+			"Komite kararının teşebbüse ulaşmasını izleyen on beş gün içinde",
+			"İlk olağan yönetim kurulu toplantısında; süre sınırı yoktur",
+			"Komite kararının teşebbüse ulaşmasını izleyen altmış gün içinde"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararname'nin 9. maddesinin 5. bendine göre yönetim kurulu, kendi onayı ile uygulanabilecek yönetim komitesi kararları hakkında, komite kararının teşebbüse ulaşmasını izleyen on beş gün içinde karar almakla görevlidir.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yonetim-kurulu",
+			"yonetim-komitesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-kit-020",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre teşebbüs genel müdürlüğü kimlerden ve hangi birimlerden oluşur?",
+		"options": [
+			"Genel müdür ve ilgili bakanlıkça atanan bir denetçiden",
+			"Genel müdür, müessese müdürleri ve bağlı ortaklık genel müdürlerinden",
+			"Yalnızca genel müdür ve iki genel müdür yardımcısından",
+			"Genel müdür, Koordinasyon Kurulu kararı ile belirlenecek sayıda genel müdür yardımcısı ve bağlı birimlerden",
+			"Genel müdür ile yönetim kurulu üyelerinden"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararname'nin 11. maddesine göre genel müdürlük; genel müdür, Koordinasyon Kurulu kararı ile belirlenecek sayıda genel müdür yardımcısı ve bağlı birimlerden teşekkül eder. Genel müdürlük, teşebbüsün yetkili ve sorumlu yürütme organıdır.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"genel-mudurluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-kit-021",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre işletmelerini müessese hâlinde teşkilatlandırabilecek teşebbüsler hangileridir?",
+		"options": [
+			"Yalnızca anonim şirket şeklinde kurulmuş teşebbüsler",
+			"Sermayesinin en az yüzde on beşi Devlete ait olan teşebbüsler",
+			"Sermayesinin en az yüzde ellisi Devlete ait olan bütün teşebbüsler",
+			"Yalnızca bağlı ortaklığı bulunmayan teşebbüsler",
+			"Sermayesinin tamamı Devlete ait olan teşebbüsler"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararname'nin 15. maddesine göre sermayesinin tamamı Devlete ait teşebbüsler, işletmelerini müessese hâlinde teşkilatlandırabilir. Müessese, sermayesinin tamamı bir iktisadi devlet teşekkülüne veya kamu iktisadi kuruluşuna ait olan işletme veya işletmeler topluluğudur (m.2).",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "15"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"muessese"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-kit-022",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre müessesenin organları aşağıdakilerden hangisidir?",
+		"options": [
+			"Genel kurul ve denetim kurulu",
+			"Müessese meclisi ve müessese encümeni",
+			"Yönetim kurulu ve genel müdürlük",
+			"Yönetim komitesi ve müessese müdürlüğü",
+			"Yönetim kurulu ve denetçiler"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararname'nin 17. maddesine göre müessesenin organları yönetim komitesi ve müessese müdürlüğüdür. Teşebbüsün organları ise yönetim kurulu ve genel müdürlüktür (m.5); ikisi karıştırılmamalıdır.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"muessese",
+			"organlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-kit-023",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre müessese yönetim komitesi kaç kişiden oluşur?",
+		"options": [
+			"Bir başkan ve üç üye",
+			"Bir başkan ve dört üye",
+			"Bir başkan ve altı üye",
+			"Bir başkan ve iki üye",
+			"Bir başkan ve beş üye"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararname'nin 18. maddesine göre müessese yönetim komitesi bir başkan ve dört üyeden oluşur; üyeler teşebbüs genel müdürünün teklifi üzerine yönetim kurulunca atanır. Teşebbüs yönetim kurulu ise bir başkan ve beş üyeden oluşur (m.6).",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "18"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"muessese",
+			"yonetim-komitesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-kit-024",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre müessese müdürü olarak atanabilmek için aranan çalışma süresi şartı nedir?",
+		"options": [
+			"Çalışma süresi şartı aranmaz; yalnızca yükseköğrenim şartı aranır",
+			"En az dört yılı kamu kurum ve kuruluşlarında olmak üzere toplam asgari sekiz yıl başarı ile çalışmış olmak",
+			"Toplam asgari beş yıl çalışmış olmak; bu sürenin kamuda geçmesi şartı yoktur",
+			"En az iki yılı kamuda olmak üzere toplam dört yıl çalışmış olmak",
+			"Kamu kurumlarında kesintisiz olarak en az on yıl çalışmış olmak"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararname'nin 20. maddesinin 2. bendine göre müessese müdürü olarak atanabilmek için, en az dört yılı kamu kurum ve kuruluşlarında olmak üzere toplam asgari sekiz yıl başarı ile çalışmış olmak ve genel müdürde aranan diğer niteliklere sahip bulunmak gerekir. Müessese müdürü, teklif üzerine yönetim kurulunca atanır.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "20"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"muessese-muduru"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-kit-025",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi 233 sayılı Kanun Hükmünde Kararname'ye göre bağlı ortaklığın oluşma biçimlerinden biri değildir?",
+		"options": [
+			"Mevcut bir işletmenin bağlı ortaklık hâline getirilmesi",
+			"Teşebbüsün bir iştirakteki hissesinin yüzde on beşin üstüne çıkması",
+			"Teşebbüsün sermayesinde yüzde elliden fazla hisseye sahip olduğu yeni bir şirket kurulması",
+			"Bir müessesenin bağlı ortaklık hâline getirilmesi",
+			"Teşebbüsün iştiraklerdeki hissesinin yüzde ellinin üstüne çıkması"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararname'nin 22. maddesine göre bağlı ortaklık üç biçimde oluşur: bir müessesenin bağlı ortaklık hâline getirilmesi, teşebbüsün iştiraklerdeki hissesinin yüzde ellinin üstüne çıkması ve teşebbüsün yüzde elliden fazla hisseye sahip olduğu yeni bir şirket kurulması. Yüzde on beş, iştirak sayılmanın alt sınırıdır (m.2); bağlı ortaklık için eşik yüzde ellidir. Mevcut müesseselerin veya işletmelerin bağlı ortaklık hâline getirilmesi ile yeni bağlı ortaklık kurulması Cumhurbaşkanınca yapılır.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "22"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bagli-ortaklik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-kit-026",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre sermayelerinin en az yüzde 91'i kamu iktisadi kuruluşlarına ait olan bağlı ortaklıklar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Genel kurulu ve denetçileri bulunmaz",
+			"Bunlar bağlı ortaklık sayılmaz, müessese sayılır",
+			"Genel kurulu bulunur; yalnızca denetçileri bulunmaz",
+			"Yalnızca genel kurulu bulunmaz; denetçileri genel kurulca seçilir",
+			"Hem genel kurulu hem denetçileri zorunlu olarak bulunur"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararname'nin 23. maddesine göre sermayelerinin en az yüzde 91'i kamu iktisadi kuruluşlarına ait olan bağlı ortaklıkların genel kurulu ve denetçileri bulunmaz. Bağlı ortaklıklar, Kararname'de saklı tutulan hususlar dışında özel hukuk hükümlerine tabidir.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "23"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bagli-ortaklik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-kit-027",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre bağlı ortaklıkların yönetim kurulu bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yönetim kurulu üç üyeden oluşur ve genel müdür yönetim kurulunda yer almaz",
+			"Yönetim kurulu genel müdür dâhil beş üyeden oluşur ve bağlı ortaklık genel müdürü aynı zamanda yönetim kurulu başkanıdır",
+			"Yönetim kurulu genel müdür hariç beş üyeden oluşur ve başkanı genel kurulca seçilir",
+			"Bağlı ortaklıklarda yönetim kurulu bulunmaz; yönetim komitesi görev yapar",
+			"Yönetim kurulu yedi üyeden oluşur ve başkanını ilgili bakan belirler"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararname'nin 24. maddesine göre bağlı ortaklıkların yönetim kurulu, genel müdür dâhil beş üyeden oluşur ve bağlı ortaklık genel müdürü aynı zamanda yönetim kurulu başkanıdır. Genel müdür yardımcıları teşebbüs yönetim kurulu tarafından atanır.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "24"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bagli-ortaklik",
+			"yonetim-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-kit-028",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre bir teşebbüs bünyesindeki müessesenin, işletmenin veya bağlı ortaklığın başka bir teşebbüse bağlanması nasıl olur?",
+		"options": [
+			"Koordinasyon Kurulu kararı ile",
+			"Türkiye Büyük Millet Meclisi kararı ile",
+			"Bağlı ortaklık genel kurulunun kararı ile",
+			"İlgili bakanın onayı ile",
+			"Teşebbüs genel müdürünün kararı ile"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararname'nin 56. maddesine göre bir teşebbüs bünyesindeki müessesenin, işletmenin veya bağlı ortaklığın başka bir teşebbüse bağlanması Koordinasyon Kurulu kararı ile olur. Aynı maddenin birinci bendine göre teşebbüslerin diğer bakanlıklarla ilgilendirilmesi ise Cumhurbaşkanınca yapılır.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "56"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"baglanti-degisikligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-kit-029",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "233 sayılı Kanun Hükmünde Kararname'ye göre teşebbüslerin, müesseselerin, işletmelerin ve bağlı ortaklıkların malları aleyhine işlenen suçlar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu mallar Hazine malı sayılır ve suçlar idarî para cezasını gerektirir",
+			"Devlet malı aleyhine işlenmiş sayılır ve bu suçlara Türk Ceza Kanunu'ndaki cezalar uygulanır",
+			"Bağlı ortaklıkların malları bu kapsamın tamamen dışındadır",
+			"Yalnızca sermayesinin tamamı Devlete ait teşebbüslerde Devlet malı sayılır",
+			"Özel hukuk tüzel kişisinin malı sayıldığından genel hükümler uygulanır ve ceza artırımı söz konusu olmaz"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararname'nin 57. maddesine göre teşebbüslerin, müesseselerin, işletmelerin ve bağlı ortaklıkların malları ve her çeşit mevcutları aleyhine işlenen suçlar Devlet malı aleyhine işlenmiş sayılır ve bu suçlara Türk Ceza Kanunu'ndaki cezalar uygulanır. Hüküm, teşebbüslerin özel hukuk hükümlerine tabi olmasının bir istisnasıdır.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "57"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"devlet-mali"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-kit-030",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/kamu-iktisadi-tesebbusleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir iktisadi devlet teşekkülü, tesislerinde oluşan atıl kapasiteyi değerlendirmek amacıyla kuruluş amacı dışında kalan bir alanda faaliyete geçmek istemektedir. 233 sayılı Kanun Hükmünde Kararname'ye göre bu talep bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kuruluş amacı dışında faaliyet, yönetim kurulu kararıyla üç yıl süreyle yapılabilir",
+			"Kuruluş amacı dışında faaliyet, yalnızca genel müdürün onayıyla mümkündür",
+			"Teşebbüsler, müesseseler ve bağlı ortaklıklar kuruluş amaçları dışında faaliyette bulunamaz; atıl kapasitelerin değerlendirilmesinde de bu esasa uyulur",
+			"Atıl kapasitenin değerlendirilmesi hâlinde kuruluş amacı dışındaki faaliyetler serbesttir",
+			"Teşebbüslerin amaç ve faaliyet alanları her teşebbüsün kendi yönetim kurulunca belirlenir"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararname'nin 54. maddesine göre teşebbüslerin amaç ve faaliyet alanları Koordinasyon Kurulunca belirlenir ve teşebbüsler, müesseseler ile bağlı ortaklıklar kuruluş amaçları dışında faaliyette bulunamaz; madde bu yasağın atıl kapasitelerin değerlendirilmesi amacıyla girişilen faaliyetlerde de geçerli olduğunu açıkça belirtir.",
+		"legalRef": {
+			"law": "233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname",
+			"lawId": "233",
+			"article": "54"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"faaliyet-alani"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

@@ -995,5 +995,340 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-kurul-031",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre Kamu Görevlileri Etik Kurulunun bilgi ve belge temini bakımından sahip olduğu yetki nedir?",
+		"options": [
+			"Kurulun bilgi isteme yetkisi yalnızca kendi personeliyle sınırlıdır",
+			"Özel kuruluşlardan hiçbir şekilde bilgi istenemez",
+			"Kurul yalnızca yazılı bilgi isteyebilir; temsilci çağırma yetkisi yoktur",
+			"Bakanlıklar ve diğer kamu kurum ve kuruluşları Kurulun istediği bilgi ve belgeleri süresi içinde vermek zorundadır; Kurul ayrıca kapsamdaki kuruluşlardan ve özel kuruluşlardan ilgili temsilcileri çağırıp bilgi alabilir",
+			"Kurul bilgi ve belgeyi ancak ilgili bakanın onayıyla isteyebilir"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmeliğin 27. maddesine göre bakanlıklar ve diğer kamu kurum ve kuruluşları, Kurulun başvuru konusu ile ilgili olarak istediği bilgi ve belgeleri süresi içinde vermek zorundadır; Kurul, Yönetmelik kapsamındaki kuruluşlardan ve özel kuruluşlardan ilgili temsilcileri çağırıp bilgi alma yetkisine de sahiptir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "27"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"etik-kurul",
+			"bilgi-isteme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-kurul-032",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kamu Görevlileri Etik Kurulu, etik davranış ilkelerinin kurumlarda yerleştirilmesi ve geliştirilmesi bakımından Yönetmeliğe göre hangi yetkiye sahiptir?",
+		"options": [
+			"Yalnızca kurumların hazırladığı raporları arşivler",
+			"Bu konudaki çalışmaları yalnızca kurumların etik komisyonları yürütür",
+			"Kurumlara doğrudan talimat vererek uygulama yaptırır",
+			"Bu konuda faaliyet, inceleme ve araştırma yapabilir",
+			"Bu konuda hiçbir faaliyet yürütemez; görevi başvuruları incelemekle sınırlıdır"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmeliğin 28. maddesinin son fıkrasına göre Kurul, kurum ve kuruluşlarda etik davranış ilkelerinin yerleştirilmesi ve geliştirilmesi konusunda faaliyet, inceleme ve araştırma yapabilir. Aynı madde Kurulun etik ilkelere aykırı davranışlar hakkında resen veya başvuru üzerine inceleme yapmaya yetkili olduğunu da düzenler.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"etik-kurul",
+			"inceleme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-kurul-033",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre kurum ve kuruluşlarda oluşturulan etik komisyonu bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Üyeleri kurum dışından, ilgili bakanlıkça görevlendirilir",
+			"Kamu Görevlileri Etik Kurulu tarafından atanan beş kişiden oluşur",
+			"Üst yönetici tarafından kurum içinden en az üç kişilik olarak oluşturulur ve üyelerin özgeçmiş ile iletişim bilgileri üç ay içinde Kurula bildirilir",
+			"Komisyon üyelerinin Kurula bildirilmesi zorunluluğu yoktur",
+			"En az yedi kişiden oluşur ve üyeleri kurum personelince seçimle belirlenir"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmeliğin 29. maddesine göre etik komisyonu, kurum veya kuruluşun üst yöneticisi tarafından kurum içinden en az üç kişilik olarak oluşturulur; üyelerin ne kadar süreyle görev yapacağı üst yöneticice belirlenir ve üyelerin özgeçmiş ile iletişim bilgileri üç ay içinde Kurula bildirilir. Komisyon, Kurul ile işbirliği içinde çalışır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "29"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"etik-komisyonu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-kurul-034",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre Kamu Görevlileri Etik Kuruluna kimler başvurabilir?",
+		"options": [
+			"Yabancı gerçek kişiler hiçbir şekilde başvuruda bulunamaz",
+			"Yalnızca kamu görevlileri başvurabilir",
+			"Başvuru hakkı yalnızca tüzel kişilere tanınmıştır",
+			"Yalnızca etik ihlalinden doğrudan zarar gören kişiler başvurabilir",
+			"Medeni hakları kullanma ehliyetine sahip Türkiye Cumhuriyeti vatandaşları ile Türkiye'de oturan yabancı gerçek kişiler başvurabilir; başvuranın menfaatinin etkilenmesi koşulu aranmaz"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 31. maddesine göre 3071 sayılı Dilekçe Hakkının Kullanılmasına İlişkin Kanunda belirlenen esaslara göre medeni hakları kullanma ehliyetine sahip Türkiye Cumhuriyeti vatandaşları ile Türkiye'de oturan yabancı gerçek kişiler başvurabilir; başvuruda bulunabilmek için başvuranın menfaatinin etkilenmesi koşulu aranmaz. Etik ilkeye aykırı davranışa tanık olan yabancı, başvuru hakkı bakımından Türkiye'de oturuyor kabul edilir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "31"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"basvuru-hakki"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-kurul-035",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre aşağıdaki başvurulardan hangisi değerlendirmeye alınmaz?",
+		"options": [
+			"Kamu görevlilerini karalama amacı güttüğü açıkça anlaşılan ve başvuranın kimliği tespit edilemeyen başvurular",
+			"Elektronik posta yoluyla yapılan başvurular",
+			"Başvuranın menfaatinin etkilenmediği başvurular",
+			"Türkiye'de oturan yabancı gerçek kişilerin başvuruları",
+			"Başka bir ildeki kamu görevlisi hakkında yapılan başvurular"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmeliğin 31. maddesine göre kamu görevlilerini karalama amacı güttüğü açıkça anlaşılan ve başvuranın kimliği tespit edilemeyen başvurular değerlendirmeye alınmaz. Menfaat şartı aranmaması, yabancıların başvurabilmesi ve elektronik posta ile başvuru ise Yönetmelikte açıkça kabul edilmiştir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "31"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"basvuru",
+			"isleme-konulmama"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-kurul-036",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre başvurunun kabul edilebilir bulunması hâlinde şikâyet edilen kamu görevlisinin savunma süresi ne kadardır?",
+		"options": [
+			"İstem yazısının bildirildiği tarihten itibaren 15 gün",
+			"İstem yazısının bildirildiği tarihten itibaren 30 gün",
+			"İstem yazısının bildirildiği tarihten itibaren 7 gün",
+			"Savunma süresi her başvuruda Kurulca ayrıca belirlenir",
+			"İstem yazısının bildirildiği tarihi izleyen günden itibaren 10 gün"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 35. maddesine göre başvurunun kabul edilebilir bulunması durumunda şikâyet edilen kamu görevlisinin savunması alınır ve savunma süresi, istem yazısının kendisine bildirildiği tarihi izleyen günden itibaren 10 gündür. Sürenin son günü resmî tatile rastlarsa tatili izleyen çalışma günü son gün sayılır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "35"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"savunma",
+			"sureler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-kurul-037",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre kurum ve kuruluşların herhangi bir birimine yanlışlıkla ulaşan başvuru dilekçeleri ne yapılır?",
+		"options": [
+			"Dilekçe geçersiz sayılır; başvuranın yeniden başvurması gerekir",
+			"Doğrudan ilgili kamu görevlisinin amirine gönderilir",
+			"Ulaştığı birim tarafından sonuçlandırılır",
+			"İşleme konulmadan, ilgisine göre yetkili disiplin kuruluna veya Kamu Görevlileri Etik Kurulu Başkanlığına gönderilir",
+			"İşleme konulmaz ve başvurana iade edilir"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmeliğin 35. maddesine göre kurum ve kuruluşların herhangi bir birimine yanlışlıkla ulaşan başvuru dilekçeleri işleme konulmadan, ilgisine göre yetkili disiplin kuruluna veya Kamu Görevlileri Etik Kurulu Başkanlığına gönderilir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "35"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"basvuru-usulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-kurul-038",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre Kurula ulaşan başvurunun incelenmesinde izlenen ilk usul aşağıdakilerden hangisidir?",
+		"options": [
+			"Başvuru hakkında ilk kararı Kurul Başkanı tek başına verir",
+			"Kaydedilen başvuru en kısa zamanda Kurul Başkanı veya görevlendireceği üye tarafından bir raportöre verilir; raportör görev, konu ve kabul edilebilirlik yönünden inceleyerek ön rapor hazırlar",
+			"Başvuru önce şikâyet edilen kamu görevlisinin kurumuna gönderilir",
+			"Başvuru doğrudan Kurul gündemine alınır; ön inceleme yapılmaz",
+			"Başvuru, ilgili kurumun etik komisyonunca incelenip Kurula sunulur"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğin 35. maddesine göre kaydedilen başvuru en kısa zamanda Kurul Başkanı veya görevlendireceği üye tarafından bir raportöre verilir; raportör başvuruyu görev, konu ve kabul edilebilirlik yönlerinden inceleyerek bir ön rapor hazırlayıp Kurul Başkanına sunar. Rapor daha sonra görüşülmek üzere Kurul gündemine alınır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "35"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"raportor"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-kurul-039",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ne göre Kurul kararlarında aşağıdakilerden hangisinin yer alması öngörülmemiştir?",
+		"options": [
+			"Karara katılan Başkan ve üyelerin ad ve imzaları ile varsa azlık oyu",
+			"Şikâyet edilen kamu görevlisinin adı, soyadı ve görevi",
+			"Şikâyet edilen kamu görevlisine verilecek disiplin cezasının türü",
+			"Başvuranın adı ve soyadı",
+			"Kararın dayandığı belge ve bilgiler ile savunma ve inceleme sonucu"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmeliğin 37. maddesine göre kararlarda başvuranın adı ve soyadı, şikâyet edilen kamu görevlisinin adı, soyadı ve görevi, karar tarih ve sayısı, kararın dayandığı belge ve bilgiler, savunma ve inceleme sonucu, karara katılan Başkan ve üyelerin ad ve imzaları, varsa azlık oyu ile raportörün adı ve soyadı yer alır. Kurul disiplin cezası veremeyeceği için kararda ceza türüne yer verilmesi söz konusu değildir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "37"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kurul-kararlari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-kurul-040",
+		"subjectId": "etik",
+		"topicId": "etik/etik-kurul-ve-mevzuat",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "3628 sayılı Kanun'un ceza hükümlerine ilişkin 16. maddesine göre bu bölümde yazılı cezalar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu cezalar her hâlükârda ertelenebilir",
+			"Bu cezalar yalnızca disiplin cezası niteliğindedir",
+			"Bu cezalar hakkında genel hükümler aynen uygulanır; herhangi bir özel sınırlama yoktur",
+			"Bu cezaların tamamı adli para cezasına çevrilebilir",
+			"Bu cezalar tecil edilemez; şahsi hürriyeti bağlayıcı olanlar para veya tedbire çevrilemez"
+		],
+		"correctIndex": 4,
+		"explanation": "3628 sayılı Kanun'un 16. maddesine göre bu bölümde yazılı olan cezalar, 10. maddenin birinci fıkrası hariç tecil edilemez; şahsi hürriyeti bağlayıcı olanlar para veya tedbire çevrilemez. Bu hüküm, yolsuzlukla mücadelede caydırıcılığı sağlamaya yöneliktir.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ceza-hukumleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

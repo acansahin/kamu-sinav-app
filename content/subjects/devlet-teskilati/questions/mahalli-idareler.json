@@ -559,5 +559,484 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-mi-017",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5393 sayılı Belediye Kanunu'na göre belediye kurulması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Nüfusu 5.000 ve üzerinde olan yerleşim birimlerinde belediye kurulabilir; il ve ilçe merkezlerinde ise belediye kurulması zorunludur",
+			"İl merkezlerinde belediye kurulması zorunlu, ilçe merkezlerinde ihtiyaridir",
+			"Nüfusu 2.000'in üzerindeki her yerleşim biriminde belediye kurulması zorunludur",
+			"Yalnızca nüfusu 10.000'in üzerindeki yerleşim birimlerinde belediye kurulabilir",
+			"Nüfus şartı aranmaz; belediye kurulmasına il genel meclisi karar verir"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 4. maddesine göre nüfusu 5.000 ve üzerinde olan yerleşim birimlerinde belediye kurulabilir; il ve ilçe merkezlerinde belediye kurulması zorunludur. Ayrıca içme ve kullanma suyu havzaları ile sit ve diğer koruma alanlarında ve mevcut bir belediyenin sınırlarına 5.000 metreden yakın yerleşim yerlerinde belediye kurulamaz.",
+		"legalRef": {
+			"law": "5393 sayılı Belediye Kanunu",
+			"lawId": "5393",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"belediye-kurulusu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-mi-018",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5393 sayılı Belediye Kanunu'na göre belediye sınırları içinde mahalle kurulması, kaldırılması, birleştirilmesi ve sınırlarının değiştirilmesi hangi usulle yapılır?",
+		"options": [
+			"Doğrudan belediye meclisi kararıyla; başka bir onaya gerek yoktur",
+			"Belediye meclisinin kararı ve kaymakamın görüşü üzerine valinin onayı ile",
+			"İçişleri Bakanlığının kararı ve Cumhurbaşkanının onayı ile",
+			"İl genel meclisinin kararı ve valinin onayı ile",
+			"Mahalle sakinlerinin oylamasıyla ve muhtarın onayıyla"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 9. maddesine göre belediye sınırları içinde mahalle kurulması, kaldırılması, birleştirilmesi, bölünmesi, adlarıyla sınırlarının tespiti ve değiştirilmesi belediye meclisinin kararı ve kaymakamın görüşü üzerine valinin onayı ile olur. Mahalle, muhtar ve ihtiyar heyeti tarafından yönetilir.",
+		"legalRef": {
+			"law": "5393 sayılı Belediye Kanunu",
+			"lawId": "5393",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mahalle"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-mi-019",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5393 sayılı Belediye Kanunu'na göre belediye meclisinin toplantı ve karar yeter sayısı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Üye tam sayısının salt çoğunluğuyla toplanır ve katılanların salt çoğunluğuyla karar verir; karar yeter sayısı üye tam sayısının dörtte birinden az olamaz",
+			"Toplantı yeter sayısı aranmaz; kararlar katılanların üçte iki çoğunluğuyla alınır",
+			"Üye tam sayısının dörtte biriyle toplanır ve oy birliğiyle karar verir",
+			"Üye tam sayısının üçte ikisiyle toplanır ve üye tam sayısının salt çoğunluğuyla karar verir",
+			"Toplantı ve karar yeter sayısı her yıl meclisçe belirlenir"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 22. maddesine göre belediye meclisi üye tam sayısının salt çoğunluğuyla toplanır ve katılanların salt çoğunluğuyla karar verir; ancak karar yeter sayısı üye tam sayısının dörtte birinden az olamaz. Oylamada eşitlik çıkarsa meclis başkanının bulunduğu taraf çoğunluk sayılır; gizli oylamada eşitlik bozulmazsa başkan kur'a çeker.",
+		"legalRef": {
+			"law": "5393 sayılı Belediye Kanunu",
+			"lawId": "5393",
+			"article": "22"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"belediye-meclisi",
+			"yeter-sayi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-mi-020",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5393 sayılı Belediye Kanunu'na göre belediye başkanı, hukuka aykırı gördüğü meclis kararlarını kaç gün içinde yeniden görüşülmek üzere meclise iade edebilir ve meclisin ısrarıyla kesinleşen kararlar aleyhine hangi süre içinde idarî yargıya başvurabilir?",
+		"options": [
+			"On gün içinde iade edebilir; altmış gün içinde idarî yargıya başvurabilir",
+			"Üç gün içinde iade edebilir; yedi gün içinde idarî yargıya başvurabilir",
+			"Beş gün içinde iade edebilir; ısrarla kesinleşen kararlar aleyhine on gün içinde idarî yargıya başvurabilir",
+			"İade yetkisi yoktur; yalnızca altmış gün içinde idarî yargıya başvurabilir",
+			"Yedi gün içinde iade edebilir; otuz gün içinde idarî yargıya başvurabilir"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 23. maddesine göre belediye başkanı hukuka aykırı gördüğü meclis kararlarını gerekçesini de belirterek beş gün içinde yeniden görüşülmek üzere meclise iade edebilir; meclisin üye tam sayısının salt çoğunluğuyla ısrar ettiği kararlar kesinleşir ve başkan bu kararlar aleyhine on gün içinde idarî yargıya başvurabilir. Kesinleşen kararlar en geç yedi gün içinde mahallin en büyük mülkî idare amirine gönderilir; gönderilmeyen kararlar yürürlüğe girmez.",
+		"legalRef": {
+			"law": "5393 sayılı Belediye Kanunu",
+			"lawId": "5393",
+			"article": "23"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"belediye-meclisi",
+			"kararlarin-kesinlesmesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-mi-021",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5393 sayılı Belediye Kanunu'na göre belediye başkanının izin, hastalık veya başka bir sebeple görev başında bulunmadığı hâllerde başkan vekili nasıl belirlenir ve yetkileri nelerdir?",
+		"options": [
+			"Belediye başkan yardımcılarından biri kendiliğinden vekâlet eder",
+			"En yaşlı meclis üyesi kendiliğinden başkan vekili olur ve yalnızca meclise başkanlık eder",
+			"Belediye başkanı, belediye meclisi üyeleri arasından birini başkan vekili olarak görevlendirir; başkan vekili başkanın yetkilerine sahiptir",
+			"Vali, belediye meclisi üyeleri arasından birini başkan vekili olarak atar; vekilin yetkileri sınırlıdır",
+			"Belediye encümeni kendi üyeleri arasından seçer; vekil yalnızca günlük işleri yürütür"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 40. maddesine göre belediye başkanı, görev başında bulunmadığı hâllerde kendisine vekâlet etmek üzere belediye meclisi üyeleri arasından birini başkan vekili olarak görevlendirir ve başkan vekili başkanın yetkilerine sahiptir. Başkan vekiline görev süresince başkana ödenen aylık brüt ödeneğin gün hesabı üzerinden ödenek verilir.",
+		"legalRef": {
+			"law": "5393 sayılı Belediye Kanunu",
+			"lawId": "5393",
+			"article": "40"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"baskan-vekili"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-mi-022",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5393 sayılı Belediye Kanunu'na göre görevleriyle ilgili bir suç nedeniyle haklarında soruşturma veya kovuşturma açılan belediye organları ve üyeleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Görevden uzaklaştırma kararı altı ayda bir gözden geçirilir",
+			"Kesin hükme kadar İçişleri Bakanı tarafından görevden uzaklaştırılabilir; karar iki ayda bir gözden geçirilir",
+			"Görevden uzaklaştırılan belediye başkanına bu süre içinde hiçbir ödeme yapılmaz",
+			"Görevden uzaklaştırma kararı ancak mahkeme kararıyla verilebilir",
+			"Yalnızca vali tarafından ve en çok üç ay süreyle görevden uzaklaştırılabilir"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 47. maddesine göre görevleriyle ilgili bir suç nedeniyle haklarında soruşturma veya kovuşturma açılan belediye organları veya üyeleri, kesin hükme kadar İçişleri Bakanı tarafından görevden uzaklaştırılabilir; karar iki ayda bir gözden geçirilir ve devamında kamu yararı bulunmayan karar kaldırılır. Görevden uzaklaştırılan belediye başkanına aylık ödeneğinin üçte ikisi ödenir.",
+		"legalRef": {
+			"law": "5393 sayılı Belediye Kanunu",
+			"lawId": "5393",
+			"article": "47"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorevden-uzaklastirma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-mi-023",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "5393 sayılı Belediye Kanunu'na göre belediyenin kamu kurum ve kuruluşlarıyla yazışması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Belediye, yalnızca İçişleri Bakanlığı ile doğrudan yazışabilir",
+			"Belediye, merkezî idare kuruluşlarıyla yazışamaz",
+			"Belediye, kamu kurum ve kuruluşlarıyla doğrudan yazışabilir",
+			"Belediye, yazışmalarını mutlaka valilik aracılığıyla yapar",
+			"Belediyenin yazışmaları belediye meclisinin izniyle yapılır"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 78. maddesi tek cümledir: Belediye, kamu kurum ve kuruluşlarıyla doğrudan yazışabilir. Bu hüküm, mahallî idarelerin merkezî idareyle yazışmalarında aracı makam zorunluluğunu kaldırır.",
+		"legalRef": {
+			"law": "5393 sayılı Belediye Kanunu",
+			"lawId": "5393",
+			"article": "78"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazisma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-mi-024",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5393 sayılı Belediye Kanunu'na göre kent konseyinde oluşturulan görüşler ne olur?",
+		"options": [
+			"Yalnızca kaymakamlığa bildirilir; belediye organlarını ilgilendirmez",
+			"Bir sonraki mahallî idareler seçiminden sonra değerlendirilir",
+			"Belediye encümeni tarafından karara bağlanır ve kesinleşir",
+			"Belediye meclisinin ilk toplantısında gündeme alınarak değerlendirilir",
+			"Belediye başkanı için bağlayıcıdır ve derhâl uygulanır"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 76. maddesine göre kent konseyinde oluşturulan görüşler belediye meclisinin ilk toplantısında gündeme alınarak değerlendirilir. Kent konseyi; meslek kuruluşları, sendikalar, noterler, üniversiteler, sivil toplum örgütleri, siyasî partiler, kamu kurumları ve mahalle muhtarlarının temsilcileriyle oluşur; çalışma usul ve esasları bakanlıkça hazırlanan yönetmelikle belirlenir.",
+		"legalRef": {
+			"law": "5393 sayılı Belediye Kanunu",
+			"lawId": "5393",
+			"article": "76"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kent-konseyi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-mi-025",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5302 sayılı İl Özel İdaresi Kanunu'na göre valinin il özel idaresindeki konumu ve yetkileri bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Vali, il encümenine başkanlık eder",
+			"Vali, il genel meclisi ve encümen kararlarını uygular",
+			"İl özel idaresi personelinin atanması il genel meclisine aittir; valinin atama yetkisi yoktur",
+			"Vali, il özel idaresinin başı ve tüzel kişiliğinin temsilcisidir",
+			"Vali, il özel idaresi teşkilâtının en üst amiri olarak teşkilâtı sevk ve idare eder"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 30. maddesinin (j) bendine göre il özel idaresi personelini atamak valinin görev ve yetkileri arasındadır. 29. maddeye göre vali, il özel idaresinin başı ve tüzel kişiliğinin temsilcisidir; teşkilâtın en üst amiri olarak sevk ve idare eder, il encümenine başkanlık eder ve meclis ile encümen kararlarını uygular.",
+		"legalRef": {
+			"law": "5302 sayılı İl Özel İdaresi Kanunu",
+			"lawId": "5302",
+			"article": "29"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"il-ozel-idaresi",
+			"vali"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-mi-026",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi 5302 sayılı İl Özel İdaresi Kanunu'na göre il genel meclisinin görev ve yetkilerinden biri değildir?",
+		"options": [
+			"İl özel idaresi tarafından çıkarılacak yönetmelikleri kabul etmek",
+			"Encümen üyeleri ile ihtisas komisyonları üyelerini seçmek",
+			"Bütçe ve kesinhesabı kabul etmek",
+			"Borçlanmaya karar vermek",
+			"İl özel idaresi personelini atamak"
+		],
+		"correctIndex": 4,
+		"explanation": "İl özel idaresi personelini atamak, Kanun'un 30. maddesine göre valinin görevidir. Diğer seçenekler 10. maddede il genel meclisinin görev ve yetkileri arasında sayılmıştır. İl genel meclisi il özel idaresinin karar organıdır; yürütme görevi valiye aittir.",
+		"legalRef": {
+			"law": "5302 sayılı İl Özel İdaresi Kanunu",
+			"lawId": "5302",
+			"article": "10"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"il-genel-meclisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-mi-027",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5216 sayılı Büyükşehir Belediyesi Kanunu'ndaki tanıma göre büyükşehir belediyesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Sınırları il mülkî sınırı olan, sınırları içindeki ilçe belediyeleri arasında koordinasyonu sağlayan, idarî ve malî özerkliğe sahip bir kamu tüzel kişisidir",
+			"Karar organı, ilçe belediye başkanlarınca kendi aralarından seçilen üyelerden oluşur",
+			"Tüzel kişiliği bulunmayan, il özel idaresine bağlı bir hizmet birimidir",
+			"Sınırları içindeki ilçe belediyelerinin hiyerarşik üstü olan ve onlara emir veren bir idaredir",
+			"Sınırları yalnızca merkez ilçelerle sınırlı olan ve karar organı atamayla oluşan bir kamu kurumudur"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 3. maddesinin (a) bendindeki tanıma göre büyükşehir belediyesi; sınırları il mülkî sınırı olan ve sınırları içerisindeki ilçe belediyeleri arasında koordinasyonu sağlayan, idarî ve malî özerkliğe sahip olarak kanunlarla verilen görev ve sorumlulukları yerine getiren, karar organı seçmenler tarafından seçilerek oluşturulan kamu tüzel kişisidir. Büyükşehir belediyesi ilçe belediyelerinin hiyerarşik üstü değildir.",
+		"legalRef": {
+			"law": "5216 sayılı Büyükşehir Belediyesi Kanunu",
+			"lawId": "5216",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"buyuksehir-belediyesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-mi-028",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5216 sayılı Kanun'a göre büyükşehir kapsamındaki ilçe belediye meclislerince alınan imara ilişkin kararlar hangi usule tabidir?",
+		"options": [
+			"Kararın gelişinden itibaren üç ay içinde büyükşehir belediye meclisince nazım imar plânına uygunluk yönünden incelenir; bu sürede görüşülmeyen kararlar onaylanmış sayılır",
+			"Kararlar bir ay içinde valilikçe onaylanır; onaylanmayanlar yürürlüğe girmez",
+			"Kararlar üç ay içinde görüşülmezse reddedilmiş sayılır",
+			"Kararlar altı ay içinde Çevre, Şehircilik ve İklim Değişikliği Bakanlığınca incelenir",
+			"Kararlar doğrudan kesinleşir; büyükşehir belediye meclisinin inceleme yetkisi yoktur"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 14. maddesine göre büyükşehir kapsamındaki ilçe belediye meclisleri tarafından alınan imara ilişkin kararlar, kararın gelişinden itibaren üç ay içinde büyükşehir belediye meclisince nazım imar plânına uygunluk yönünden incelenerek aynen veya değiştirilerek kabul edildikten sonra büyükşehir belediye başkanına gönderilir; üç ay içinde büyükşehir belediye meclisinde görüşülmeyen kararlar onaylanmış sayılır.",
+		"legalRef": {
+			"law": "5216 sayılı Büyükşehir Belediyesi Kanunu",
+			"lawId": "5216",
+			"article": "14"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"imar-kararlari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-mi-029",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "442 sayılı Köy Kanunu'na göre köye ait işlerin ayrımı ve isteğe bağlı işlerin niteliği bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"İsteğe bağlı işler hiçbir şekilde mecburi hâle getirilemez",
+			"Mecburi işleri yapmayan köylüye ceza verilemez; yalnızca uyarı yapılır",
+			"Köy işleri mecburi ve köylünün isteğine bağlı olmak üzere ikiye ayrılır; isteğe bağlı bir işe köy derneğinin yarısından çoğu karar verir ve valinin ya da kaymakamın rızası alınırsa o iş bütün köylü için mecburi olur",
+			"Bütün köy işleri mecburidir; isteğe bağlı iş kavramı Kanun'da yer almaz",
+			"İsteğe bağlı işlere yalnızca muhtar karar verir ve karar kendiliğinden mecburi olur"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 12. maddesine göre köye ait işler mecburi işler ve köylünün isteğine bağlı işler olmak üzere ikiye ayrılır. Mecburi işleri görmeyen köylü ceza görür; isteğe bağlı işlerde ceza yoktur. Ancak isteğe bağlı bir işte köy derneğinin yarısından çoğu hükmeder ve vilayete bağlı yerlerde valinin, kazaya bağlı köylerde kaymakamın rızası alınırsa o iş bütün köylü için mecburi olur ve yapmayan ceza görür.",
+		"legalRef": {
+			"law": "442 sayılı Köy Kanunu",
+			"lawId": "442",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koy-isleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-mi-030",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/mahalli-idareler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "442 sayılı Köy Kanunu'na göre köy ihtiyar meclisi ne sıklıkla toplanır ve toplantıya kim çağırır?",
+		"options": [
+			"Ayda bir defa toplanır ve yalnızca kaymakamın çağrısıyla toplanabilir",
+			"Üç ayda bir toplanır ve toplantıya en yaşlı üye başkanlık eder",
+			"En az haftada bir defa toplanır; toplantıya muhtar çağırır, ancak meclis muhtara haber vererek kendi isteğiyle de toplanabilir",
+			"Yılda dört defa toplanır; toplantıya köy derneği çağırır",
+			"Toplanma sıklığı serbesttir; yalnızca muhtarın çağrısıyla toplanabilir"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 42. maddesine göre ihtiyar meclisi en az haftada bir defa toplanıp görüşür; toplantıya muhtar çağırır. Ancak ihtiyar meclisi, muhtarın çağırmadığı ve toplanma günü olmadığı zamanlarda dahi köy muhtarına haber vererek kendi isteğiyle toplanabilir.",
+		"legalRef": {
+			"law": "442 sayılı Köy Kanunu",
+			"lawId": "442",
+			"article": "42"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ihtiyar-meclisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

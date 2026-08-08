@@ -554,5 +554,491 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-bak-017",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre konsoloslukların görevi aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"Bulundukları ülke ile siyasi ilişkileri yürütmek ve devletlerarası anlaşmaları müzakere etmek",
+			"Uluslararası kuruluşlar nezdinde Türkiye'yi temsil etmek ve oy kullanmak",
+			"Yalnızca bağlı oldukları kamu kurumunun kendi alanına giren teknik görevleri yerine getirmek",
+			"Bulundukları ülkelerde Türkiye Cumhuriyetinin ve vatandaşlarının hak ve menfaatlerini korumak, bunlarla ilgili idari, ticari ve hukuki işlemleri yürütmek",
+			"Yurtdışındaki Türk vatandaşlarının askerlik yoklamalarını yapmak ve celp işlemlerini yürütmek"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 511. maddesinin birinci fıkrasının (c) bendine göre konsolosluklar, bulundukları ülkelerde Türkiye Cumhuriyetinin ve vatandaşlarının hak ve menfaatlerini korur ve bunlarla ilgili idari, ticari ve hukuki işlemleri yürütür. Siyasi ilişkilerin yürütülmesi elçilik niteliğindeki dış temsilciliklerin, uluslararası kuruluşlar nezdinde temsil ise daimi temsilciliklerin görevidir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "511"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurtdisi-teskilati",
+			"konsolosluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-bak-018",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre konsolosluklardaki memur ve diğer görevliler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Konsolosluklarda görev yapan bütün personel konsolosluk memuru statüsündedir",
+			"Konsolosluk ajanları diplomatik statüye haiz personel arasında sayılmıştır",
+			"Başkonsolos, konsolos ve muavin konsolos konsolosluk memuru statüsündedir; idari, teknik ve hizmetli personel ise bu statüde değildir",
+			"Konsolosluklarda idari, teknik ve hizmetli personel istihdam edilemez",
+			"Konsolosluk memuru statüsü yalnızca Dışişleri Bakanlığı mensuplarına tanınır; diğer kurumların ataşeleri bu statüyü taşımaz"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 512. maddesinin ikinci fıkrasında konsolosluktaki görevliler üç grupta sayılır: konsolosluk memuru statüsündeki başkonsolos, başkonsolos yardımcısı, konsolos, muavin konsolos, konsolosluk ajanı ve ataşeler; diğer kamu kurum ve kuruluşlarına mensup konsolosluk memuru statüsündeki ataşe ve ataşe yardımcıları; konsolosluk memuru statüsünde olmayan idari, teknik ve hizmetli personel.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "512"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurtdisi-teskilati",
+			"dis-temsilcilik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-bak-019",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre yurtdışı teşkilatında bir göreve atanacak memurlarda aranan nitelikler aşağıdakilerden hangisidir?",
+		"options": [
+			"Görevlendirileceği ülkenin vatandaşlığını taşımamak ve o ülkede daha önce bulunmamış olmak",
+			"Gerekli ve yeterli mesleki bilgi, yabancı dil bilgisi ve temsil yeteneğine sahip olmak",
+			"Yalnızca yabancı dil sınavında belirli bir puanı almış olmak",
+			"En az on yıl kamu hizmeti ve lisansüstü öğrenim şartını taşımak",
+			"Dışişleri Bakanlığı meslek memurluğu sınavını kazanmış olmak"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 514. maddesine göre yurtdışı teşkilatında bir göreve atanacak memurların gerekli ve yeterli mesleki bilgi, yabancı dil bilgisi ve temsil yeteneğine sahip olmaları gereklidir. Bu niteliklerin tespitine ilişkin hususlar Cumhurbaşkanlığınca yürürlüğe konulacak yönetmelikle düzenlenir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "514"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurtdisi-teskilati",
+			"atama-sartlari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-bak-020",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre misyon ve konsolosluk şeflerinin, dış temsilcilik niteliği taşımayan yurtdışı teşkilatı üzerindeki yetkileri bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Bu teşkilatın teftiş veya denetlemelerini yetkili makam ve mercilerden isteyebilir",
+			"İhtiyaç duyulması hâlinde bu teşkilatın yöneticilerini toplantıya çağırabilir",
+			"Bu teşkilatın yöneticilerini görevden alabilir ve yerlerine atama yapabilir",
+			"Bu teşkilatın yöneticilerinden bilgi ve görüş isteyebilir",
+			"Bu teşkilatı denetleyebilir veya denetlettirebilir"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 515. maddesinin ikinci fıkrası misyon ve konsolosluk şeflerine bu teşkilat üzerinde üç yetki tanır: teftiş veya denetleme istemek, denetlemek ya da denetlettirmek; yöneticilerden bilgi ve görüş istemek; yöneticileri toplantıya çağırmak. Görevden alma ve atama yetkisi verilmemiştir. Buna karşılık şefler, kendilerine bağlı olarak kurulan yurtdışı teşkilatındaki görevlilerin amiri sıfatıyla amirin bütün yetkilerini kullanır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "515"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurtdisi-teskilati",
+			"misyon-sefi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-bak-021",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bir misyon veya konsolosluk şefinin görevinden geçici ya da sürekli olarak ayrılması hâlinde şefliğe kim vekâlet eder?",
+		"options": [
+			"İlgili ihtisas biriminin yöneticisi",
+			"Cumhurbaşkanlığı Genel Sekreterliğince görevlendirilecek bir personel",
+			"Dışişleri Bakanlığınca belirlenecek bir görevli",
+			"Bulunulan ülkedeki başka bir Türk temsilciliğinin şefi",
+			"Temsilcilikteki en kıdemli memur, başkaca bir işleme gerek olmaksızın"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 517. maddesine göre bir misyon veya konsolosluk şefinin görevinden geçici veya sürekli olarak ayrılması hâlinde misyon veya konsolosluk şefliğine Dışişleri Bakanlığınca belirlenecek bir görevli vekâlet eder.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "517"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurtdisi-teskilati",
+			"vekalet"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-bak-022",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre yurtdışı teşkilatı ile merkez arasındaki yazışmalar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bir misyon şefine bağlı yurtdışı teşkilatı, merkezle yazışmalarını şefi devre dışı bırakarak yapar",
+			"Bütün yazışmalar istisnasız olarak Dışişleri Bakanlığı üzerinden yapılır",
+			"Yurtdışı teşkilatı ile merkez arasındaki haberleşmeye ilişkin diğer hususlar Dışişleri Bakanlığı genelgesiyle belirlenir",
+			"Dış temsilcilik niteliği taşımayan yurtdışı teşkilatı merkezde bağlı bulunduğu kurumla doğrudan yazışabilir; ancak irtibatlı olduğu misyon veya konsolosluk şefini ilgilendiren yazıların birer suretini ona göndermekle yükümlüdür",
+			"Misyon şefleri, ihtisas birimlerinin yazılarını hiçbir şekilde ilgili kamu kurumuna iletemez"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 519. maddesinin birinci fıkrasının (c) bendine göre dış temsilcilik niteliği taşımayan yurtdışı teşkilatı, merkezde bağlı bulunduğu kamu kurum ve kuruluşlarıyla doğrudan yazışabilir; ancak irtibatlı olduğu misyon ve konsolosluk şeflerini ilgilendiren yazıların birer suretini kendilerine göndermek veya vermekle yükümlüdür. (a) bendine göre bir misyon veya konsolosluk şefine bağlı yurtdışı teşkilatının yazışmaları ise şef aracılığıyla yapılır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "519"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurtdisi-teskilati",
+			"yazisma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-bak-023",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir dış temsilcilik bünyesinde aynı kamu kurumuna bağlı birden fazla görevli bulunmaktadır. 1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bunlardan hangisinin ihtisas biriminin yöneticisi olacağı nasıl belirlenir?",
+		"options": [
+			"Cumhurbaşkanlığı Genel Sekreterliğince belirlenir",
+			"Görevliler arasında en kıdemli olan kendiliğinden yönetici olur",
+			"İlgili kamu kurum veya kuruluşunca belirlenir",
+			"Misyon şefi tarafından belirlenir",
+			"Dışişleri Bakanlığınca belirlenir"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 516. maddesinin birinci fıkrasına göre bir dış temsilcilik bünyesinde aynı kamu kurum veya kuruluşuna bağlı birden fazla görevli bulunması hâlinde, bunlardan hangisinin ihtisas biriminin yöneticisi olacağı ilgili kamu kurum veya kuruluşunca belirlenir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "516"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurtdisi-teskilati",
+			"ihtisas-birimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-bak-024",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre diplomatik temsilciliklerde diplomatik statüyü, konsolosluklarda konsolosluk memuru statüsünü haiz personelle ilgili protokol esasları nasıl düzenlenir?",
+		"options": [
+			"Her temsilciliğin kendi iç yönergesiyle",
+			"Dışişleri Bakanlığınca hazırlanacak bir yönetmelikle",
+			"Türkiye Büyük Millet Meclisi kararıyla",
+			"Cumhurbaşkanlığı Genel Sekreterliğince çıkarılacak bir genelgeyle",
+			"Cumhurbaşkanlığı kararnamesiyle"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 518. maddesine göre bu personelle ilgili protokol esasları Dışişleri Bakanlığınca hazırlanacak bir yönetmelikle düzenlenir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "518"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yurtdisi-teskilati",
+			"protokol"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-bak-025",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bakanlıklar, 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu'na ekli hangi cetvelde yer alır?",
+		"options": [
+			"Bakanlıklar 5018 sayılı Kanun'a ekli cetvellerin hiçbirinde yer almaz",
+			"(II) sayılı cetvel",
+			"(III) sayılı cetvel",
+			"(IV) sayılı cetvel",
+			"(I) sayılı cetvel"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 520. maddesine göre bakanlıklar 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu'nun eki (I) sayılı cetvelde yer alır. Bu cetvel genel bütçe kapsamındaki kamu idarelerini gösterir; (II) sayılı cetvel özel bütçeli idareleri kapsar.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "520"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"butce"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-bak-026",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Ekonomik İşler Olağanüstü Hal Koordinasyon Kurulu kimlerden oluşur?",
+		"options": [
+			"Türkiye Cumhuriyet Merkez Bankası Başkanının başkanlığında, ekonomi bürokratlarından",
+			"Cumhurbaşkanının başkanlığında, Cumhurbaşkanınca belirlenen bakanlardan",
+			"Cumhurbaşkanı yardımcısının başkanlığında, Türkiye Büyük Millet Meclisi temsilcilerinden",
+			"Strateji ve Bütçe Başkanının başkanlığında, bakan yardımcılarından",
+			"Hazine ve Maliye Bakanının başkanlığında, ilgili genel müdürlerden"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 522. maddesinin birinci fıkrasının (c) bendine göre Ekonomik İşler Olağanüstü Hal Koordinasyon Kurulu, Cumhurbaşkanının başkanlığında Cumhurbaşkanınca belirlenen bakanlardan oluşur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "522"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"idari-kurullar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-bak-027",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Asgari Ücret Tespit Komisyonu bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"İşçi ve işveren tarafından üçer temsilci yer alır ve Komisyon salt çoğunlukla toplanır",
+			"Komisyona Çalışma ve Sosyal Güvenlik Bakanı başkanlık eder",
+			"En çok işçiyi bulunduran en üst işçi kuruluşundan beş, en çok işvereni bulunduran işveren kuruluşundan beş temsilci yer alır ve Komisyon en az on üyenin katılmasıyla toplanır",
+			"Yalnızca kamu görevlilerinden oluşur; işçi ve işveren temsilcisi bulunmaz",
+			"Komisyon kararlarını oybirliğiyle alır; aksi hâlde ücret Cumhurbaşkanınca belirlenir"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 522. maddesinin birinci fıkrasının (f) bendine göre Asgari Ücret Tespit Komisyonunda, bünyesinde en çok işçiyi bulunduran en üst işçi kuruluşunun değişik işkolları için seçeceği beş ve bünyesinde en çok işvereni bulunduran işveren kuruluşunun seçeceği beş temsilci yer alır; Komisyon en az on üyesinin katılmasıyla toplanır ve kararlarını üye oylarının çoğunluğuyla alır. Komisyona Bakan değil, Bakanlığın tespit edeceği üyelerden biri başkanlık eder.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "522"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"idari-kurullar",
+			"asgari-ucret"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-bak-028",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'nde kuruluşu düzenlenen idari kurul, konsey ve komisyonların görevleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kurulların görevleri her yıl Cumhurbaşkanlığı Genel Sekreterliğince yeniden belirlenir",
+			"Kurullar, ilgili kanunlarla kendilerine verilen görevlerin yanı sıra Cumhurbaşkanınca verilen görevleri de yerine getirir",
+			"Kurullar yalnızca kendi kanunlarında sayılan görevlerle sınırlıdır; başka görev verilemez",
+			"Kurullar, görevlerini yalnızca ilgili bakanın talimatıyla yerine getirir",
+			"Kurullara verilecek ek görevler ancak kanunla düzenlenebilir"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 523. maddesine göre kurullar, ilgili kanunlarla kendilerine verilen görevlerin yanı sıra Cumhurbaşkanınca verilen görevleri de yerine getirir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "523"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"idari-kurullar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-bak-029",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bakanlıklara bağlı, ilgili ve ilişkili kurum ve kuruluşlar hangi hükümlere tabidir?",
+		"options": [
+			"5018 sayılı Kanun'un yalnızca özel bütçeli idarelere ilişkin hükümlerine",
+			"Kendi kanunları ve Cumhurbaşkanlığı kararnamelerindeki hükümlere",
+			"Yalnızca 657 sayılı Devlet Memurları Kanunu hükümlerine",
+			"Cumhurbaşkanlığı Genel Sekreterliğince belirlenen esaslara",
+			"Bağlı oldukları bakanlığın çıkardığı yönergelere"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 524. maddesine göre bakanlıklara bağlı, ilgili ve ilişkili kurum ve kuruluşlar kendi kanunları ve Cumhurbaşkanlığı kararnamelerindeki hükümlere tabidir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "524"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bagli-ilgili-iliskili-kuruluslar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-bak-030",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/bakanliklar-ve-teskilat-yapisi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir bakan, bakanlığının ilgili kuruluşu konumundaki bir kurumun hesaplarını denetlemek istemektedir. 1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bakanın denetim yetkisinin kapsamı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"İlgili ve ilişkili kuruluşlar yalnızca Sayıştay tarafından denetlenebilir; bakanın denetim yetkisi yoktur",
+			"Bakan, bağlı kuruluşların yalnızca faaliyetlerini denetleyebilir; hesapların denetimi Hazine ve Maliye Bakanlığına aittir",
+			"Bakanın denetim yetkisini kullanabilmesi için her defasında Cumhurbaşkanından izin alması gerekir",
+			"Bakanın denetim yetkisi yalnızca bakanlık merkez teşkilatıyla sınırlıdır",
+			"Bakan; bakanlık merkez, taşra ve yurtdışı teşkilatı ile bağlı, ilgili ve ilişkili kuruluşların faaliyetlerini, işlemlerini ve hesaplarını denetlemekle görevli ve yetkilidir"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 503. maddesinin birinci fıkrasına göre bakan, bakanlık kuruluşunun en üst amiri olup bakanlık merkez, taşra ve yurtdışı teşkilatı ile bağlı, ilgili ve ilişkili kuruluşların faaliyetlerini, işlemlerini ve hesaplarını denetlemekle görevli ve yetkilidir. Bakan bu hizmetlerin yürütülmesinden Cumhurbaşkanına karşı sorumludur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "503"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bakan",
+			"denetim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

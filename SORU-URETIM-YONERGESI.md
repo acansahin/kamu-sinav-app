@@ -21,7 +21,7 @@ kaynağı baştan temiz tutmak inceleme adımını çok kısaltır.
 
 ### Hangi konuya yönlendirmelisiniz
 
-Havuz **madde düzeyinde neredeyse doymuş** — 657'de 203, Anayasa'da 156 ayrı
+Havuz **madde düzeyinde neredeyse doymuş** — 657'de 174, Anayasa'da 165 ayrı
 dayanak var, Resmî Yazışma Yönetmeliği'nin 39 maddesinin tamamı kapsanmış.
 Bu yüzden "657'den soru yaz" demek kaçınılmaz olarak tekrar üretir.
 
@@ -29,13 +29,14 @@ Bu yüzden "657'den soru yaz" demek kaçınılmaz olarak tekrar üretir.
 
 | Sıra | Ders / konu | Soru | Neden |
 |---|---|---|---|
-| 1 | **Devlet Teşkilatı** — 7 konunun hepsi | 16'şar | Havuzun en ince yeri; CBK-1'in yalnızca ~23 maddesi kapsanmış |
-| 2 | Resmî Yazışma — *Belgenin Özellikleri*, *Gizlilik/Doğrulama* | 22'şer | Yönetmelik maddeleri dolu, **fıkra düzeyinde** boşluk var |
-| 3 | 657 — *Yasaklar* | 26 | Yalnızca md. 26–31; bent düzeyine inilebilir |
-| 4 | 657 — *Temel İlkeler* | 30 | Yalnızca 6 madde üzerine kurulu |
+| 1 | Resmî Yazışma — *Belgenin Özellikleri*, *Gizlilik/Doğrulama* | 22'şer | Yönetmelik maddeleri dolu, **fıkra düzeyinde** boşluk aranmalı |
+| 2 | Etik — *Etik Davranış İlkeleri*, *Çıkar Çatışması* | 30'ar | Etik Yönetmeliği m.5–24 dolu; 4982 ve 3628'in kapsanmamış maddeleri kaldı |
+| 3 | 657 — *Disiplin*, *Genel Hükümler*, *Memurluğun Sona Ermesi* | 80/50/30 | Yalnızca **fıkra/bent** düzeyinde boşluk var |
 
-Diğer konular (Anayasa, Disiplin, Genel Haklar) **doygun**; oralarda üretilen
-soruların çoğu tekrar çıkacaktır.
+**Doygun sayılması gereken konular** (tekrar üretme riski çok yüksek):
+657 — *Yasaklar* (m.26–31'in her unsuru kullanılmış), *Ödevler* (m.6–16),
+*Temel İlkeler* (m.3/33/36/37/39/45); Anayasa'nın beş konusu; Devlet
+Teşkilatı'nın yedi konusu (Ağustos 2026'da 16'dan 30'a çıkarıldı).
 
 ### Kapsama haritasını yenileme
 
@@ -94,7 +95,7 @@ değil) ve havuzda zaten kapsanmıştır.
 
 ## 2. En önemli kural: TEKRAR ÜRETME
 
-Havuzda hâlihazırda 1053 soru var. Ek-A'da her konu için **hangi maddelerin zaten
+Havuzda hâlihazırda 1240 soru var. Ek-A'da her konu için **hangi maddelerin zaten
 kapsandığı** listelenmiştir.
 
 - Ek-A'da listelenen bir maddeden **madde düzeyinde** soru yazma.
@@ -189,7 +190,7 @@ KAPSAMA NOTU: <Ek-A'da olmayıp bu partide ilk kez ele aldığın maddeler>
 
 # EK-A — Havuzda hâlihazırda kapsanan maddeler
 
-*8 Ağustos 2026 itibarıyla, 1053 soru.*
+*8 Ağustos 2026 itibarıyla, 1240 soru.*
 Aşağıda listelenen maddeler **madde düzeyinde doludur**. Bunlardan ancak
 kapsanmamış bir fıkra/bendi ölçüyorsan soru yaz.
 
@@ -198,38 +199,38 @@ kapsanmamış bir fıkra/bendi ölçüyorsan soru yaz.
 **Genel Hükümler ve Kapsam** (50 soru) — 657 → 1, 2, 4, 5, 36, 43, 48, 53, 59, 78, 109, 146, 147, 149-151, 154, 161, 163, 167, 214, 215-217, 216, 218, 219, 221, 222, 223, 224, 231, 232, Ek 15, Ek 19
 **Temel İlkeler** (30 soru) — 657 → 3, 33, 36, 37, 39, 45
 **Ödevler ve Sorumluluklar** (40 soru) — 657 → 6, 6-17, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 · 3628 → 6
-**Genel Haklar ve İzinler** (71 soru) — 657 → 17, 18, 19, 20, 21, 22, 23, 24, 25, 77, 99, 100, 101, 102, 103, 104, 105, 108, 122, 152, 164, 165, 166, 176, 177, 178, 187, 188, 189, 191, 192, 199, 200, 202, 203, 204, 205, 206, 208, 210, 211-212, Ek 43
+**Genel Haklar ve İzinler** (80 soru) — 657 → 17, 18, 19, 20, 21, 22, 23, 24, 25, 77, 99, 100, 101, 102, 103, 104, 105, 108, 122, 152, 164, 165, 166, 176, 177, 178, 183, 184, 187, 188, 189, 191, 192, 193, 199, 200, 202, 203, 204, 205, 206, 208, 210, 211-212, Ek 43
 **Yasaklar** (26 soru) — 657 → 22, 26, 26-31, 27, 28, 29, 30, 31
-**Disiplin Cezaları** (80 soru) — 657 → 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 137, 138, 139, 140, 141, 142, 143, 144, 145 · Disiplin Yönetmeliği → 2, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 33, 34, 38, 39, 40
-**Atama, Yer Değiştirme ve Görevlendirme** (60 soru) — 657 → 40, 41, 45, 46, 47, 48, 49, 50, 51, 52, 54, 55, 56, 58, 60, 61, 62, 63, 64, 67, 68, 69, 71, 72, 73, 74, 76, 78, 79, 80, 81-82, 84, 85, 86, 87, 88, 89, 90, 91, 158, 159, 169, 170, 171, 174-175, 225, Ek 8, Ek 39
+**Disiplin Cezaları** (80 soru) — 657 → 124–135, 137–145 · Disiplin Yönetmeliği → 2, 5-11, 13-26, 28, 29, 30, 33, 34, 38, 39, 40
+**Atama, Yer Değiştirme ve Görevlendirme** (70 soru) — 657 → 40, 41, 45, 46, 47, 48, 49, 50, 51, 52, 54, 55, 56, 58, 60, 61, 62, 63, 64, 67, 68, 69, 71, 72, 73, 74, 76, 78, 79, 80, 81-82, 84, 85, 86, 87, 88, 89, 90, 91, 158, 159, 169, 170, 171, 174-175, 225, Ek 8, Ek 39
 **Memurluğun Sona Ermesi** (30 soru) — 657 → 56, 83, 92, 93, 94, 95, 96, 97, 98, 108 · 5434 → 40
 
 ### Türkiye Cumhuriyeti Anayasası (`anayasa`)
 
-**Genel Esaslar ve Cumhuriyetin Nitelikleri** (40 soru) — 2709 → 1, 2, 3, 4, 5, 6, 6-11, 7, 7-9, 8, 9, 10, 11, 174, 175, 176 · ayrıca anayasa tarihi (1876 Kanun-i Esasî, 1921 ve 1924 Teşkilât-ı Esasiye)
-**Temel Hak ve Ödevler** (80 soru) — 2709 → 12–61 arasının tamamı (52 hariç), 63, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74
-**Yasama — TBMM** (60 soru) — 2709 → 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 92, 93, 94, 95, 96, 97, 98, 161, 165, 166, 167, 168, 169, 170, 171, 172
-**Yürütme — Cumhurbaşkanı ve İdare** (50 soru) — 2709 → 101, 103, 104, 105, 106, 108, 116, 117, 118, 119, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137
-**Yargı ve Yüksek Mahkemeler** (40 soru) — 2709 → 138, 139, 140, 141, 142, 144, 146, 146-160, 147, 148, 149, 150, 151, 152, 153, 154, 155, 158, 159, 160
+**Genel Esaslar ve Cumhuriyetin Nitelikleri** (50 soru) — 2709 → Başlangıç, 1–11, 174, 175, 176 · ayrıca anayasa tarihi (1876 Kanun-i Esasî, 1921, 1924 ve 1961 Anayasaları, 1982'nin kabulü)
+**Temel Hak ve Ödevler** (90 soru) — 2709 → 12–74 arasının tamamı (52 hariç)
+**Yasama — TBMM** (70 soru) — 2709 → 74–98 (91, 99, 100 mülga), 161, 165–173
+**Yürütme — Cumhurbaşkanı ve İdare** (60 soru) — 2709 → 101, 103, 104, 105, 106, 108, 116, 117, 118, 119, 123–137
+**Yargı ve Yüksek Mahkemeler** (50 soru) — 2709 → 138–142, 144, 146–155, 158, 159, 160
 
-### Devlet Teşkilatı ile İlgili Mevzuat (`devlet-teskilati`) — **ÖNCELİKLİ**
+### Devlet Teşkilatı ile İlgili Mevzuat (`devlet-teskilati`)
 
-**Cumhurbaşkanlığı Teşkilatı** (16 soru) — CBK-1 → 1, 2, 3, 4, 4/A, 5, 6, 7, 17, 18
-**Politika Kurulları ve Bağlı Kuruluşlar** (16 soru) — CBK-1 → 20, 21, 22, 37, 525
-**Bakanlıklar ve Teşkilat Yapısı** (16 soru) — CBK-1 → 503, 504, 505, 506, 507, 508, 509, 510
-**Üst Kademe Kamu Yöneticileri** (16 soru) — CBK-3 → 1, 2, 3, 4, 5, 6
-**İl İdaresi ve Taşra Teşkilatı** (16 soru) — 5442 → 1, 4, 5, 9, 11, 27, 31, 57
-**Mahalli İdareler** (16 soru) — 442 → 1, 7, 20 · 5216 → 4, 12 · 5302 → 3, 25 · 5393 → 3, 20, 24, 25, 33
-**Kamu İktisadi Teşebbüsleri** (16 soru) — 233 → 2, 3, 4, 5, 6, 7, 8
+**Cumhurbaşkanlığı Teşkilatı** (30 soru) — CBK-1 → 1–14, 16, 17, 18 (10/A ve 4/A dâhil)
+**Politika Kurulları ve Bağlı Kuruluşlar** (30 soru) — CBK-1 → 20, 21, 22, 23, 26, 27, 32, 33, 34, 35, 37, 525, 527/F, 528, 529, 532
+**Bakanlıklar ve Teşkilat Yapısı** (30 soru) — CBK-1 → 503–512, 514–520, 522, 523, 524
+**Üst Kademe Kamu Yöneticileri** (30 soru) — CBK-3 → 1–7, 13, (I) ve (III) sayılı cetveller · CBK-2 → 3, 5, 6, 9, 11
+**İl İdaresi ve Taşra Teşkilatı** (30 soru) — 5442 → 1, 2, 3, 4, 5, 9, 11, 13, 16, 17, 20, 21, 23, 24, 25, 26, 27, 28, 31, 57, 58, 61
+**Mahalli İdareler** (30 soru) — 442 → 1, 7, 12, 20, 42 · 5216 → 3, 4, 12, 14 · 5302 → 3, 10, 25, 29 · 5393 → 3, 4, 9, 20, 22, 23, 24, 25, 33, 40, 47, 76, 78
+**Kamu İktisadi Teşebbüsleri** (30 soru) — 233 → 2–11, 15, 17, 18, 20, 22, 23, 24, 54, 56, 57
 
 ### Etik Davranış İlkeleri (`etik`)
 
-**Kamu Görevlileri Etik Kurulu ve Mevzuatı** (30 soru) — 5176 → 1, 2, 3, 4, 5, 6 · 3628 → 5, 9 · Etik Yönetmeliği → 25, 26, 30, 32, 33, 34, 36, 38 · 657 → 29
-**Etik Davranış İlkeleri** (30 soru) — 5176 → 1, 3, 4, 7 · Etik Yönetmeliği → 5, 6, 7, 8, 9, 10, 11, 12, 14, 16-17, 18, 19, 20, 21, 23, 24 · 657 → 126
+**Kamu Görevlileri Etik Kurulu ve Mevzuatı** (40 soru) — 5176 → 1–6 · 3628 → 5, 9, 16 · Etik Yönetmeliği → 25–38 · 657 → 29
+**Etik Davranış İlkeleri** (30 soru) — 5176 → 1, 3, 4, 7 · Etik Yönetmeliği → 5–12, 14, 16-17, 18, 19, 20, 21, 23, 24 · 657 → 126
 **Çıkar Çatışması ve Hediye Alma Yasağı** (30 soru) — 3628 → 2, 3, 4, 6, 8, 10, 11, 12-15, 17, 18, 19, 20 · Etik Yönetmeliği → 15, 22 · 657 → 29
-**Saydamlık ve Hesap Verebilirlik** (30 soru) — 4982 → 5, 6, 7, 8, 9-10, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 27, 30 · 2577 → 10 · 2709 → 74 · 5176 → 1
+**Saydamlık ve Hesap Verebilirlik** (40 soru) — 4982 → 2–12, 14–30 · 2577 → 10 · 2709 → 74 · 5176 → 1
 
-### Resmî Yazışma Kuralları (`resmi-yazisma`)
+### Resmî Yazışma Kuralları (`resmi-yazisma`) — **ÖNCELİKLİ**
 
 Yönetmeliğin **39 maddesinin tamamı** kapsanmıştır. Burada yalnızca
 **fıkra/bent düzeyinde** boşluk aranabilir.
@@ -239,4 +240,4 @@ Yönetmeliğin **39 maddesinin tamamı** kapsanmıştır. Burada yalnızca
 **Belgenin Bölümleri — Başlıktan Metne** (30 soru) — m. 10, 11, 12, 13, 14, 15, 16
 **İmza, Ek, Dağıtım, Olur ve Paraf** (30 soru) — m. 17, 18, 19, 20, 21, 22
 **Gizlilik, Doğrulama ve Üstveri** (22 soru) — m. 23, 24, 25, 26, 27, 28
-**Belgenin Gönderilmesi, Alınması ve Süreler** (30 soru) — m. 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39
+**Belgenin Gönderilmesi, Alınması ve Süreler** (30 soru) — m. 29–39 ve geçici m.1

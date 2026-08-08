@@ -2021,5 +2021,352 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-atama-061",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 68. maddesinin (B) bendine göre, birinci dereceli kadrolardan ek göstergesi 5300 ve daha yukarıda olanlara daha aşağı derecelerden atama yapılabilmesi için ilgilinin en az kaç yıl hizmetinin bulunması gerekir?",
+		"options": [
+			"15",
+			"6",
+			"8",
+			"10",
+			"12"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 68/B maddesine göre bu şekilde bir atamanın yapılabilmesi için ilgilinin; birinci dereceli kadrolardan ek göstergesi 5300 ve daha yukarıda olanlar için en az 12 yıl, birinci ve ikinci dereceli kadrolardan ek göstergesi 5300'den az olanlar için en az 10 yıl, üçüncü ve dördüncü dereceli kadrolar için en az 8 yıl hizmetinin bulunması ve yükseköğrenim görmüş olması şarttır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "68",
+			"clause": "B"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"derece-yukselmesi",
+			"ust-derece-kadro"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-atama-062",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 68. maddesinin (B) bendindeki hizmet sürelerinin hesabında, dört yıldan az süreli yükseköğrenim görenler bakımından nasıl bir kural uygulanır?",
+		"options": [
+			"Bu kişiler hiçbir şekilde bu kadrolara atanamaz",
+			"Bu sürelere bir yıl ilave edilir",
+			"Bu sürelere iki yıl ilave edilir",
+			"Süreler değişmez; öğrenim süresinin bir etkisi yoktur",
+			"Bu süreler iki yıl azaltılır"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 68/B maddesine göre 12, 10 ve 8 yıllık hizmet sürelerinin hesabında dört yıldan az süreli yükseköğrenim görenler için bu sürelere iki yıl ilave edilir. Ayrıca bu sürelerin hesabında muvazzaf askerlikte, yasama organı üyeliğinde, belediye başkanlığında ve uluslararası kuruluşlarda geçen sürelerin tamamı dikkate alınır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "68",
+			"clause": "B"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"derece-yukselmesi",
+			"ogrenim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-atama-063",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 55. maddesine göre aday memurların tabi tutulduğu eğitimler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Temel eğitim ile hazırlayıcı eğitim aynı kurumda yapılır; eğitim süreleri, programları ve değerlendirme esasları Cumhurbaşkanınca hazırlanacak yönetmelikle düzenlenir",
+			"Eğitim programları Türkiye Büyük Millet Meclisince onaylanır",
+			"Eğitim süreleri her kurum tarafından serbestçe belirlenir",
+			"Temel eğitim ile hazırlayıcı eğitim farklı kurumlarda yapılmak zorundadır",
+			"Aday memurlar yalnızca staja tabi tutulur; ayrıca eğitim öngörülmemiştir"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 55. maddesine göre aday memurlar önce bütün memurların ortak vasıflarıyla ilgili temel eğitime, sonra sınıflarıyla ilgili hazırlayıcı eğitime ve staja tabi tutulur; temel eğitim ile hazırlayıcı eğitim aynı kurumda yapılır ve eğitim süreleri, programları, değerlendirme esasları ile hangi kurumların sorumluluğunda yapılacağı Cumhurbaşkanınca hazırlanacak bir yönetmelikle düzenlenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "55"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"adaylik",
+			"egitim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-atama-064",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 62. maddesine göre, kanuni izin kullanmakta iken başka bir göreve atanan bir memur bakımından işe başlama süresi ne zaman başlar?",
+		"options": [
+			"Yeni görev yerine hareket ettiği tarihte",
+			"İzin bitiminden itibaren bir ay sonra",
+			"Atama emrinin tebliğ edildiği tarihte",
+			"İznin bitimi tarihinde",
+			"Atama emrinin yayımlandığı tarihte"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 62. maddesine göre işe başlama süreleri; kanuni izinlerin kullanılması veya geçici bir görevin yapılması sırasında başka bir göreve atanan memurlar için iznin veya geçici görevin bitimi, hesaplarını devretmek zorunda olan sayman ve sayman mutemetleri için devrin sona ermesi, eski görevlerine devamları yazılı olarak tebliğ edilenler için ise yerlerine atananın gelmesi tarihinde başlar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "62"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ise-baslama",
+			"sureler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-atama-065",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 62. maddesine göre yer değiştirme suretiyle yapılan atamalarda memurların yollukları nasıl ödenir?",
+		"options": [
+			"Yolluk, memurun ilk maaşıyla birlikte ödenir",
+			"Memur yeni görevine başladıktan sonra talebi üzerine ödenir",
+			"Atama emirleri tebliğ edilince, ödeme emri aranmaksızın saymanlıklarca derhâl ödenir",
+			"Ancak ödeme emri düzenlendikten sonra ödenir",
+			"Yolluk ödenmesi kurumun takdirindedir"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 62. maddesine göre yer değiştirme suretiyle yapılan atamalarda memurlara atama emirleri tebliğ edilince yollukları, ödeme emri aranmaksızın saymanlıklarca derhâl ödenir. Memurun izinli veya raporlu olması tebligata engel değildir; ancak işe başlama süreleri izin veya rapor süresinin bitiminde başlar.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "62"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yolluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-atama-066",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 72. maddesine göre kurumlarda yer değiştirme suretiyle atanmalar hangi esasa göre yapılır?",
+		"options": [
+			"Hizmetlerin gereklerine ve özelliklerine, Türkiye'nin ekonomik, sosyal, kültürel ve ulaşım şartları yönünden benzerlik ve yakınlık gösteren iller gruplandırılarak tespit edilen bölgeler arasında adil ve dengeli bir sistem içinde",
+			"İllerin nüfus büyüklüğüne göre",
+			"Her kurumun kendi belirleyeceği serbest ölçütlere göre",
+			"Yalnızca memurun talebi üzerine ve talebin geldiği sırayla",
+			"Memurların kıdem sırasına göre"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 72. maddesinin birinci fıkrasına göre kurumlarda yer değiştirme suretiyle atanmalar; hizmetlerin gereklerine ve özelliklerine, Türkiye'nin ekonomik, sosyal, kültürel ve ulaşım şartları yönünden benzerlik ve yakınlık gösteren iller gruplandırılarak tespit edilen bölgeler arasında adil ve dengeli bir sistem içinde yapılır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "72"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yer-degistirme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-atama-067",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 71. maddesine göre sınıf değiştiren bir memurun eski sınıfında elde ettiği kademelerde geçirdiği süreler ne olur?",
+		"options": [
+			"Tamamen geçersiz sayılır ve yeni sınıfta yeniden başlanır",
+			"Yalnızca yarısı dikkate alınır",
+			"Yeni sınıftaki derecesinde dikkate alınır",
+			"Kurumun takdirine göre dikkate alınır veya alınmaz",
+			"Yalnızca aynı derecede sınıf değiştirilmesi hâlinde dikkate alınır"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 71. maddesine göre memurların eşit dereceler arasında veya derece yükselmesi suretiyle sınıf değiştirmeleri caizdir ve bu durumda sınıfları değişenlerin eski sınıflarının derecesinde elde ettikleri kademelerde geçirdikleri süreler yeni sınıflardaki derecelerinde dikkate alınır. Sınıf değiştirmek için yeni sınıf ve görev için öngörülen niteliklere sahip olmak şarttır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "71"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sinif-degistirme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-atama-068",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Eski sınıfında, geçeceği yeni sınıfa göre memuriyete daha yüksek bir derece ve kademeden başlamış olan bir memur sınıf değiştirmiştir. 657 sayılı Kanun'un 71. maddesine göre bu memurun durumu ne olur?",
+		"options": [
+			"Yeni görevindeki ilk ilerleme süresi, eski sınıfında kazandığı derece ve kademelere tekabül eden süre kadar uzatılır ve bu süre tamamlanıncaya kadar kademe ilerlemesi verilmez",
+			"Yeni sınıfta bir üst dereceye yükseltilir",
+			"Eski sınıfındaki derece ve kademesi tamamen iptal edilir",
+			"Yeni sınıfta hiçbir kısıtlama olmaksızın normal ilerleme süresine tabi olur",
+			"Sınıf değiştirmesi mümkün değildir"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 71. maddesinin son fıkrasına göre eski sınıflarında, görev alacakları yeni sınıfa göre memurluğa daha yüksek bir derece ve kademeden başlamış olup da sınıf değiştirenlerin yeni görevlerindeki ilk ilerleme süreleri, eski sınıflarında kazandıkları derece ve kademelere tekabül eden süre kadar uzatılır ve bu süre tamamlanıncaya kadar kendilerine sınıf değiştirmeleri sırasında bulundukları derecede kademe ilerlemesi verilmez.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "71"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sinif-degistirme",
+			"kademe-ilerlemesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-atama-069",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 86. maddesine göre memurların hangi sebeplerle işlerinden geçici olarak ayrılmaları hâlinde yerlerine vekil atanabilir?",
+		"options": [
+			"Yalnızca askerlik hizmeti",
+			"Yalnızca aylıksız izin",
+			"Yalnızca kanuni izin ve hastalık",
+			"Kanuni izin, geçici görev, disiplin cezası uygulaması veya görevden uzaklaştırma",
+			"Yalnızca görevden uzaklaştırma"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 86. maddesinin birinci fıkrasına göre memurların kanuni izin, geçici görev, disiplin cezası uygulaması veya görevden uzaklaştırma nedenleriyle işlerinden geçici olarak ayrılmaları hâlinde yerlerine kurum içinden, diğer kurumlardan veya açıktan vekil atanabilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "86"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vekalet"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-atama-070",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/atama-ve-yer-degistirme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 86. maddesine göre aynı kurumdan ayrılmalar dolayısıyla atanan vekil memurlara vekâlet aylığı hangi süre için ödenir?",
+		"options": [
+			"Vekâlet görevinin bir aydan fazla devam eden süresi için",
+			"Vekâlet görevinin altı aydan fazla devam eden süresi için",
+			"Göreve başladıkları tarihten itibaren tamamı için",
+			"Vekâlet aylığı yalnızca açıktan atanan vekillere ödenir; kurum içinden atananlara hiç ödenmez",
+			"Vekâlet görevinin üç aydan fazla devam eden süresi için"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 86. maddesine göre aynı kurumdan ayrılmalar dolayısıyla atanan vekil memurlara vekâlet görevinin üç aydan fazla devam eden süresi için vekâlet aylığı ödenir; kurum dışından veya açıktan atananlarla kurum içinden ilkokul öğretmenliğine atanan öğretmenlere ve veznedarlık görevine atananlara ise göreve başladıkları tarihten itibaren ödenir. Kural olarak bir görevin memurlar eliyle vekâleten yürütülmesinde aylıksız vekâlet asıldır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "86"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"vekalet-ayligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

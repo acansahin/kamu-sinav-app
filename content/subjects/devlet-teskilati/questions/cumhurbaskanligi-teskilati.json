@@ -549,5 +549,488 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-cb-017",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Cumhurbaşkanına vekâlet işlemleri, Cumhurbaşkanı yardımcıları ile bakanların atanma ve görevden alınma işlemleri ve Türkiye Büyük Millet Meclisi üyelerinin dokunulmazlıklarının kaldırılmasına ait işlemler, Cumhurbaşkanlığı Genel Sekreterliğinin hangi biriminin görevidir?",
+		"options": [
+			"Hukuk ve Mevzuat Genel Müdürlüğü",
+			"Destek ve Mali Hizmetler Genel Müdürlüğü",
+			"Güvenlik İşleri Genel Müdürlüğü",
+			"Koruma Hizmetleri Genel Müdürlüğü",
+			"Personel ve Prensipler Genel Müdürlüğü"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 8. maddesinde Personel ve Prensipler Genel Müdürlüğünün görevleri sayılırken (b) bendinde Cumhurbaşkanına vekâlet, (c) bendinde Cumhurbaşkanı yardımcıları ile bakan atanmaları ve görevden alınma işlemleri, (ç) bendinde TBMM üyelerinin dokunulmazlıklarının kaldırılmasına ait işlemler açıkça bu birime verilmiştir. Aynı maddenin (d) bendi TBMM seçimlerinin yenilenmesine ilişkin işlemleri de bu birime bırakır. Hukuk ve Mevzuat Genel Müdürlüğü ise kanunların incelenmesi ve Resmî Gazete gibi mevzuat işleriyle görevlidir (m.7).",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "8"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"genel-sekreterlik",
+			"personel-ve-prensipler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-cb-018",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi 1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Güvenlik İşleri Genel Müdürlüğünün görevlerinden biri değildir?",
+		"options": [
+			"Belirlenen güvenlik politikalarının uygulanmasını izlemek, değerlendirmek ve raporlamak",
+			"Devletin güvenlik politika ve stratejileri ile ilgili kamu kurum ve kuruluşları arasında koordinasyonu sağlamak",
+			"Olağanüstü hâl ilan edilen bölgelerde, olağanüstü hâl ilanına esas olan konularda bilgileri derlemek ve değerlendirmek",
+			"Cumhurbaşkanlığı Merkez Teşkilatının genel evrak ve arşiv faaliyetlerini düzenlemek ve yürütmek",
+			"Görevleri ile ilgili konularda kamuoyunu bilgilendirici çalışmalar yapmak"
+		],
+		"correctIndex": 3,
+		"explanation": "Genel evrak ve arşiv faaliyetlerini düzenlemek ve yürütmek, Kararnamenin 10. maddesine göre Destek ve Mali Hizmetler Genel Müdürlüğünün görevidir. Diğer dört seçenek 9. maddede Güvenlik İşleri Genel Müdürlüğünün görevleri arasında sayılmıştır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"guvenlik-isleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-cb-019",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Cumhurbaşkanlığı Koruma Hizmetleri Genel Müdürünün bağlılığı 1 sayılı Cumhurbaşkanlığı Kararnamesi'nde nasıl düzenlenmiştir?",
+		"options": [
+			"Hizmet yönünden Cumhurbaşkanına, idari yönden Genel Sekretere bağlıdır",
+			"Hizmet yönünden Genel Sekretere, idari yönden Emniyet Genel Müdürüne bağlıdır",
+			"Hem hizmet hem idari yönden yalnızca Genel Sekretere bağlıdır",
+			"Hem hizmet hem idari yönden doğrudan Cumhurbaşkanına bağlıdır",
+			"Hizmet yönünden İçişleri Bakanına, idari yönden Cumhurbaşkanına bağlıdır"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 10/A maddesinin ikinci fıkrasına göre Koruma Hizmetleri Genel Müdürü hizmet yönünden Cumhurbaşkanına, idari yönden Genel Sekretere bağlıdır. Genel Müdür ayrıca koruma personeli bakımından, bu personelin kadrosunun bulunduğu teşkilatın en üst amirine mevzuatla verilen yetkileri kullanır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "10/A"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koruma-hizmetleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-cb-020",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Koruma Hizmetleri Genel Müdürlüğü personeli nasıl temin edilir?",
+		"options": [
+			"Cumhurbaşkanlığı Genel Sekreterliğince açıktan atama yoluyla doğrudan istihdam edilir",
+			"Millî Savunma Bakanlığının teklifi üzerine Türk Silahlı Kuvvetleri personeli arasından Cumhurbaşkanınca atanır",
+			"Adalet Bakanlığının uygun görüşü alınarak Emniyet Genel Müdürlüğünce sözleşmeli olarak istihdam edilir",
+			"Genel Sekreterliğin talebi üzerine, Emniyet, Jandarma veya Sahil Güvenlik Hizmetleri sınıflarına mensup olanlar arasından İçişleri Bakanlığınca görevlendirilir",
+			"Millî İstihbarat Teşkilatı Başkanlığınca kendi personeli arasından görevlendirilir"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 12. maddesinin birinci fıkrasına 27 sayılı Cumhurbaşkanlığı Kararnamesi ile eklenen cümleye göre Koruma Hizmetleri Genel Müdürlüğü personeli, Genel Sekreterliğin talebi üzerine Emniyet, Jandarma veya Sahil Güvenlik Hizmetleri sınıflarına mensup olanlar arasından İçişleri Bakanlığınca görevlendirilir. Bu personel görevini Genel Müdürün emri ve gözetiminde yerine getirir (m.10/A).",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koruma-hizmetleri",
+			"gorevlendirme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-cb-021",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Cumhurbaşkanlığı Merkez Teşkilatı hangi birimlerden oluşur ve bu teşkilatın kadroları nasıl belirlenir?",
+		"options": [
+			"Cumhurbaşkanlığı Makamı, Genel Sekreterlik ve Cumhurbaşkanı Yardımcılıklarından oluşur; kadroları Strateji ve Bütçe Başkanlığınca belirlenir",
+			"Genel Sekreterlik, Politika Kurulları ve Yatırım ve Finans Ofisinden oluşur; kadroları Genel Sekreterlikçe belirlenir",
+			"Cumhurbaşkanlığı Makamı, Genel Sekreterlik ve bağlı kuruluşlardan oluşur; kadroları Türkiye Büyük Millet Meclisince kanunla belirlenir",
+			"Cumhurbaşkanlığı Makamı, Genel Sekreterlik, Cumhurbaşkanı Yardımcılıkları ve Politika Kurullarından oluşur; kadroları Cumhurbaşkanı kararıyla belirlenir",
+			"Yalnızca Cumhurbaşkanlığı Makamı ile Genel Sekreterlikten oluşur; kadroları Cumhurbaşkanlığı kararnamesiyle belirlenir"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 11. maddesinin birinci fıkrasına göre Cumhurbaşkanlığı Makamı, Cumhurbaşkanlığı Genel Sekreterliği, Cumhurbaşkanı Yardımcılıkları ve Cumhurbaşkanlığı Politika Kurullarından oluşan Cumhurbaşkanlığı Merkez Teşkilatının kadroları Cumhurbaşkanı kararıyla belirlenir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"merkez-teskilati",
+			"kadro"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-cb-022",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Cumhurbaşkanlığı Merkez Teşkilatında boş bulunan bir kadronun unvanının değiştirilmesi ile dolu bir kadronun derecesinin değiştirilmesi istenmektedir. 1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bu iki işlem bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Genel Sekreter yalnızca boş kadrolarda derece değişikliği yapabilir; unvan değişikliği Cumhurbaşkanına aittir",
+			"Genel Sekreter her iki işlemi de yapabilir; boş ve dolu kadro ayrımı gözetilmez",
+			"Genel Sekreter, boş kadrolarda sınıf, unvan ve derece değişikliğine; dolu kadrolarda ise yalnızca derece değişikliğine yetkilidir",
+			"Her iki işlem de yalnızca Cumhurbaşkanı kararıyla yapılabilir",
+			"Dolu kadrolarda sınıf ve unvan, boş kadrolarda ise yalnızca derece değişikliği yapılabilir"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 11. maddesinin ikinci fıkrasına göre Genel Sekreter, dolu kadrolarda derece değişikliğine, boş kadrolarda ise sınıf, unvan ve derece değişikliğine yetkilidir. Ayrım bilinçlidir: dolu kadroda unvan veya sınıf değiştirmek görevdeki personelin statüsünü etkileyeceğinden bu yetki yalnızca boş kadrolar için tanınmıştır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kadro",
+			"genel-sekreterlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-cb-023",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Cumhurbaşkanlığı Merkez Teşkilatında atama ve görevlendirme yetkisi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bütün personel istisnasız olarak Cumhurbaşkanı tarafından atanır",
+			"Başdanışman ve danışmanlar Genel Sekreterce, genel müdürler ise Personel ve Prensipler Genel Müdürünce atanır",
+			"Genel Sekreter Cumhurbaşkanınca, diğer bütün personel Cumhurbaşkanı Yardımcısınca atanır",
+			"Genel müdürler dâhil bütün personel Genel Sekreter tarafından atanır",
+			"Genel Sekreter, Özel Kalem Müdürü, başdanışmanlar, danışmanlar ve genel müdürler Cumhurbaşkanınca; diğer personel Genel Sekreterce atanır veya görevlendirilir"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 12. maddesinin birinci fıkrasına göre Genel Sekreter, Cumhurbaşkanlığı Özel Kalem Müdürü, başdanışmanlar, danışmanlar ve genel müdürler Cumhurbaşkanı tarafından; diğer personel ise Genel Sekreter tarafından atanır veya görevlendirilir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"atama"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-cb-024",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdakilerden hangisi 1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Cumhurbaşkanlığı Merkez Teşkilatında görev yapan personel türlerinden biri değildir?",
+		"options": [
+			"Geçici işçi statüsündeki personel",
+			"Kadroya bağlı süreli personel",
+			"Kadrolu personel",
+			"Sözleşmeli personel",
+			"Kısmi zamanlı personel"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 13. maddesinin birinci fıkrasında Merkez Teşkilatında görev yapacak personel beş başlık altında sayılmıştır: kadrolu personel, kadroya bağlı süreli personel, kadroya bağlı olmayan süreli personel, kısmi zamanlı personel ve sözleşmeli personel. Geçici işçi statüsü bu listede yer almaz.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"personel-statusu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-cb-025",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Cumhurbaşkanlığı Genel Sekreterliğinin kadrolu personeli bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca naklen atanabilir; açıktan atama yoluyla kadrolu personel alınamaz",
+			"İstisnai memuriyet statüsünde 657 sayılı Kanun'a tâbi kadrolara naklen veya açıktan atanan personeldir; herhangi bir sosyal güvenlik kurumundan emeklilik veya yaşlılık aylığı alanlar kadrolu olarak atanamaz",
+			"Emeklilik veya yaşlılık aylığı alanlar da kadrolu olarak atanabilir; bu durumda aylıkları kesilmez",
+			"Kadrolu personel, kariyer meslek sınavını kazanmış olmak şartıyla yalnızca sınavla atanabilir",
+			"657 sayılı Kanun'un hiçbir hükmüne tâbi olmayan, tamamen kendine özgü bir statüde çalışan personeldir"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 13. maddesinin ikinci fıkrasına göre kadrolu personel, istisnai memuriyet statüsünde 657 sayılı Devlet Memurları Kanunu'na tâbi Genel Sekreterlik kadrolarına naklen veya açıktan atanan personeldir ve herhangi bir sosyal güvenlik kurumundan emeklilik veya yaşlılık aylığı alanlar kadrolu olarak atanamaz.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"personel-statusu",
+			"istisnai-memurluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-cb-026",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir kamu kurumunda çalışan uzman personel, hizmetine ihtiyaç duyulması sebebiyle Cumhurbaşkanlığı Genel Sekreterliği kadrolarında süreli olarak görevlendirilmiştir. 1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bu personelin durumu bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Personel kendi kurumundan izinli sayılır ve Genel Sekreterlikte geçen süreleri kendi kurumunda geçmiş kabul edilir",
+			"Görevlendirme, Genel Sekreterliğin talebi üzerine ve üç yıl süreyle yapılır",
+			"Her türlü özlük hakları kendi kurum veya kuruluşunda saklı kalır",
+			"Süresi bitenlerin aynı usulle yeniden görevlendirilmeleri mümkündür",
+			"Görevlendirme süresi en çok bir yıldır ve hiçbir şekilde uzatılamaz"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 13. maddesinin üçüncü fıkrasına göre görevlendirme üç yıl süreyle yapılır ve süresi bitenler aynı usulle yeniden görevlendirilebilir; bir yıllık bir sınır ya da uzatma yasağı yoktur. Fıkra ayrıca personelin kendi kurumundan izinli sayılacağını, bu sürelerin kendi kurumunda geçmiş kabul edileceğini ve özlük haklarının saklı kalacağını düzenler.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorevlendirme",
+			"sureli-personel"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-cb-027",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Cumhurbaşkanlığı Genel Sekreterliğinde haftanın belirli günlerinde veya günün belirli saatlerinde kısmî zamanlı olarak çalıştırılabilecek personel aşağıdakilerden hangisidir?",
+		"options": [
+			"Koruma ve güvenlik görevlileri",
+			"Doktor, mühendis ve mimarlar ile diğer sağlık personeli ve teknik personel",
+			"Yalnızca yabancı dil bilen mütercim ve tercümanlar",
+			"Yalnızca hukuk müşavirleri ve avukatlar",
+			"Yalnızca basın ve halkla ilişkiler personeli"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 13. maddesinin beşinci fıkrası, doktor, mühendis ve mimarlar ile diğer sağlık personeli ve teknik personelin haftanın belirli günlerinde veya günün belirli saatlerinde kısmî zamanlı olarak çalıştırılabileceğini düzenler.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kismi-zamanli-personel"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-cb-028",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Cumhurbaşkanlığı Genel Sekreterliğinin araştırma, inceleme ve çalışma yaptırmak amacıyla kuracağı komisyon, danışma kurulu ve çalışma grupları bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Komisyonlarda görevlendirilenler çalışmaları ile ilgili gizli bilgileri açıklayamaz",
+			"Bu komisyonlarda yalnızca kamu kurum ve kuruluşlarında çalışan personel görevlendirilebilir",
+			"Genel Sekreterlik, Kararnamede sayılan istihdam şekilleriyle bağlı olmaksızın bu kurulları kurmaya yetkilidir",
+			"Komisyonlar kamu kurum ve kuruluşlarında çalışan uzman personelden oluşturulabilir",
+			"Serbest veya özel sektörde çalışan uzman kişilere de bu komisyonlarda görev verilebilir"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 13. maddesinin altıncı fıkrası, serbest veya özel sektörde çalışan uzman kişilere de bu komisyonlarda görev verilebileceğini açıkça öngörür; dolayısıyla üyelik kamu personeliyle sınırlı değildir. Fıkra ayrıca görevlendirilenlerin çalışmalarıyla ilgili gizli bilgileri açıklayamayacağını düzenler.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"calisma-gruplari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-cb-029",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Cumhurbaşkanlığı Genel Sekreterliğinde çalıştırılacak sözleşmeli personelle sözleşme yapmaya kim yetkilidir?",
+		"options": [
+			"Cumhurbaşkanı",
+			"Genel Sekreter",
+			"Cumhurbaşkanı Özel Kalem Müdürü",
+			"Destek ve Mali Hizmetler Genel Müdürü",
+			"Personel ve Prensipler Genel Müdürü"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 14. maddesinin ikinci fıkrasına göre sözleşme yapmaya Genel Sekreter yetkilidir. Aynı maddenin birinci fıkrası, Kararnamede düzenlenmeyen ve sözleşmede yer almayan hususlarda sözleşmeli personel çalıştırılmasına ilişkin mevzuat hükümlerinin uygulanacağını belirtir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "14"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sozlesmeli-personel"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-cb-030",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/cumhurbaskanligi-teskilati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'nin Cumhurbaşkanlığı Genel Sekreterliği yöneticilerine ilişkin hükümlerine göre yetki devri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yetki devri, yetkiyi devreden amirin sorumluluğunu kaldırmaz",
+			"Genel Sekreterlik yöneticileri hiçbir şekilde yetki devrinde bulunamaz",
+			"Yetki devri sözlü olarak da yapılabilir; yazılı olma şartı aranmaz",
+			"Yetki devriyle birlikte devredilen konudaki sorumluluk da tamamen astın üzerine geçer",
+			"Yetki devri yalnızca Genel Sekreterin onayıyla ve en fazla bir yıl süreyle yapılabilir"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 16. maddesine göre Genel Sekreterliğin her kademedeki yöneticileri, gerektiğinde sınırlarını yazılı olarak açıkça belirtmek şartıyla yetkilerinden bir kısmını astlarına devredebilir; maddenin üçüncü fıkrası ise yetki devrinin, yetki devreden amirin sorumluluğunu kaldırmayacağını açıkça hükme bağlar. Yöneticiler yükümlü oldukları hizmetleri yürütmekten bir üst yöneticiye karşı sorumludur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "16"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yetki-devri",
+			"sorumluluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

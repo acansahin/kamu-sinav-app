@@ -2400,5 +2400,324 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-hak-072",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'a 22/4/2026 tarihli ve 7578 sayılı Kanun'la eklenen hükme göre, bir veya daha fazla çocuğa koruyucu aile olan memura çocuğun teslim edildiği tarihten sonra isteği üzerine kaç gün izin verilir?",
+		"options": [
+			"15",
+			"8 hafta",
+			"30",
+			"7",
+			"10"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 104. maddesinin (A) fıkrasına 22/4/2026 tarihli ve 7578 sayılı Kanun'la eklenen cümleye göre, bir veya daha fazla çocuğa eşiyle birlikte veya münferit olarak koruyucu aile olan memura, çocuğun koruyucu aile yanına teslim edildiği tarihten sonra isteği üzerine on gün izin verilir. Bu izin, evlat edinme hâlinde verilen sekiz haftalık izinden farklıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104",
+			"clause": "A"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"izin",
+			"koruyucu-aile"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-hak-073",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 104. maddesine göre, doğumda veya doğum sonrasında analık izni kullanılırken annenin ölmesi hâlinde ne olur?",
+		"options": [
+			"İsteği üzerine memur olan babaya, anne için öngörülen süre kadar izin verilir",
+			"Memur olan babaya yalnızca on günlük babalık izni verilir",
+			"Kalan analık izni kendiliğinden sona erer; babaya izin verilmez",
+			"Kalan süre babanın yıllık izninden düşülerek kullandırılır",
+			"Babaya en çok iki ay aylıksız izin verilebilir"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 104. maddesinin (A) fıkrasına göre doğumda veya doğum sonrasında analık izni kullanılırken annenin ölümü hâlinde, isteği üzerine memur olan babaya anne için öngörülen süre kadar izin verilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104",
+			"clause": "A"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"analik-izni",
+			"babaya-izin"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-hak-074",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 104. maddesine göre üç yaşını doldurmamış bir çocuğu evlat edinen memura, çocuğun teslim edildiği tarihten itibaren ne kadar izin verilir?",
+		"options": [
+			"Bir ay",
+			"On gün",
+			"Sekiz hafta",
+			"Yirmi dört hafta",
+			"On altı hafta"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 104. maddesinin (A) fıkrasına göre üç yaşını doldurmamış bir çocuğu eşiyle birlikte veya münferit olarak evlat edinen memurlar ile memur olmayan eşin münferit olarak evlat edinmesi hâlinde memur olan eşlerine, çocuğun teslim edildiği tarihten itibaren sekiz hafta süre ile izin verilir; bu izin, evlatlık kararı verilmeden önce çocuğun fiilen teslim edildiği durumlarda da uygulanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104",
+			"clause": "A"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"evlat-edinme",
+			"izin"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-hak-075",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 104. maddesine göre, doğum öncesi analık izninin başlaması gereken tarihten önce gerçekleşen doğumlarda nasıl bir işlem yapılır?",
+		"options": [
+			"Doğum tarihi ile analık izninin başlaması gereken tarih arasındaki süre doğum sonrası analık iznine ilave edilir",
+			"Doğum öncesi izin hakkı tamamen düşer",
+			"Doğum sonrası izin süresi bu kadar kısaltılır",
+			"Aradaki süre memurun yıllık izninden düşülür",
+			"Aradaki süre için aylıksız izin verilir"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 104. maddesinin (A) fıkrasına 2016 yılında eklenen cümleye göre, doğum öncesi analık izninin başlaması gereken tarihten önce gerçekleşen doğumlarda doğum tarihi ile analık izninin başlaması gereken tarih arasındaki süre doğum sonrası analık iznine ilave edilir. Aynı fıkra, doğumun erken gerçekleşmesi sebebiyle kullanılamayan doğum öncesi iznin de doğum sonrasına ekleneceğini düzenler.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104",
+			"clause": "A"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"analik-izni",
+			"erken-dogum"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-hak-076",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 104. maddesinin (C) fıkrasına göre mazeret izni vermeye yetkili makamlar aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"Yalnızca atamaya yetkili amir; taşrada bu yetki devredilemez",
+			"Merkezde Cumhurbaşkanı, taşrada valiler",
+			"Merkezde atamaya yetkili amir, ilde vali, ilçede kaymakam, yurt dışında diplomatik misyon şefi",
+			"Merkezde bakan, ilde il müdürü, ilçede belediye başkanı",
+			"Yalnızca memurun birim amiri"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 104. maddesinin (C) fıkrasına göre (A) ve (B) fıkralarındaki hâller dışında; merkezde atamaya yetkili amir, ilde vali, ilçede kaymakam ve yurt dışında diplomatik misyon şefi tarafından, birim amirinin muvafakati ile bir yıl içinde toptan veya bölümler hâlinde memurlara on gün mazeret izni verilebilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104",
+			"clause": "C"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mazeret-izni"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-hak-077",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 104. maddesinin (E) fıkrasına göre, en az yüzde 70 oranında engelli ya da süreğen hastalığı olan çocuğunun hastalanması hâlinde memura verilecek izin bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"İzin için hastalık raporu aranmaz; memurun beyanı yeterlidir",
+			"Hastalık raporuna dayalı olarak, ana veya babadan sadece biri tarafından kullanılmak kaydıyla bir yıl içinde toptan veya bölümler hâlinde on güne kadar mazeret izni verilir",
+			"Ana ve babanın her ikisine de ayrı ayrı on gün izin verilir",
+			"İzin süresi bir yıl içinde en çok üç gündür",
+			"Bu hâlde yalnızca aylıksız izin verilebilir"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 104. maddesinin (E) fıkrasına göre en az yüzde 70 oranında engelli ya da süreğen hastalığı olan çocuğunun hastalanması hâlinde, hastalık raporuna dayalı olarak ana veya babadan sadece biri tarafından kullanılması kaydıyla bir yıl içinde toptan veya bölümler hâlinde on güne kadar mazeret izni verilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "104",
+			"clause": "E"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mazeret-izni",
+			"engelli-cocuk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-hak-078",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 183. maddesine göre, hazarda muvazzaflık hizmeti dışında eğitim ve manevra maksadıyla silah altına alınan Devlet memurlarının aylıkları nasıl ödenir?",
+		"options": [
+			"Millî Savunma Bakanlığınca ödenir; kurumları hiçbir ödeme yapmaz",
+			"Kendi kurumlarınca tam olarak ödenir",
+			"Aylıkları terhis tarihinden sonra toplu olarak ödenir",
+			"Aylıklarının yarısı kurumlarınca ödenir",
+			"Silah altında bulundukları sürece aylıkları kesilir"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 183. maddesine göre hazarda muvazzaflık hizmeti dışında eğitim ve manevra maksadıyla silah altına alınan Devlet memurlarının aylıkları kendi kurumlarınca tam olarak ödenir. Rütbeli olanların rütbe aylığı kurumlarından aldıkları aylıktan fazlaysa aradaki fark Millî Savunma Bakanlığınca ödenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "183"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"silah-alti",
+			"aylik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-hak-079",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 184. maddesine göre, seferde muvazzaflık hizmeti dışında silah altına alınan ve yedek subay olan Devlet memurlarının aylıkları nasıl ödenir?",
+		"options": [
+			"Rütbelerine ait aylıkları Millî Savunma Bakanlığınca ödenir; bu tutar kurumlarından aldıkları aylıktan eksikse aradaki fark kurumlarınca ödenir",
+			"Aylıklarının yarısı kurumlarınca, yarısı Millî Savunma Bakanlığınca ödenir",
+			"Aylıklarının tamamı kurumlarınca ödenir",
+			"Aylıklarının tamamı Millî Savunma Bakanlığınca ödenir; kurumlarınca hiçbir ödeme yapılmaz",
+			"Silah altında bulundukları sürece hiçbir aylık ödenmez"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 184. maddesinin (A) bendine göre yedek subay, yedek askerî memur ve yedek astsubay olanların rütbelerine ait aylıkları Millî Savunma Bakanlığınca ödenir; bu aylıklar bağlı bulundukları kurumdan aldıkları aylık tutarından eksikse aradaki fark kurumlarınca ödenir. (B) bendine göre bunun dışında kalan rütbesiz memurların aylıklarının tamamı kurumlarınca ödenir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "184"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"silah-alti",
+			"aylik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-hak-080",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "657 sayılı Kanun'un 193. maddesine göre Devlet memurlarının lüzum ve zaruret görülen yerlerdeki kiralık konut ihtiyaçları nasıl karşılanır?",
+		"options": [
+			"Doğrudan Toplu Konut İdaresi tarafından karşılanır",
+			"Cumhurbaşkanınca onanacak programlar gereğince, bütçelere her yıl konulacak ödeneklerle tesis edilecek fondan karşılanır",
+			"Memurların kendi imkânlarıyla karşılanır; Kanun'da bir düzenleme yoktur",
+			"Yalnızca mahrumiyet yerlerinde ve valilik bütçesinden karşılanır",
+			"Belediyelerce tahsis edilen konutlarla karşılanır"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 193. maddesine göre Devlet memurlarının lüzum ve zaruret görülen yerlerle kiralık konut ihtiyaçları, Cumhurbaşkanınca onanacak programlar gereğince bütçelere her yıl konulacak ödeneklerle tesis edilecek fondan karşılanır; madde hükmünün özel kanunlarla düzenleneceği de belirtilmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "193"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"konut"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

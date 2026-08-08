@@ -1687,5 +1687,352 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yurutme-052",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 116. maddesine göre, ikinci döneminde bulunan bir Cumhurbaşkanının yeniden aday olabilmesi hangi şarta bağlıdır?",
+		"options": [
+			"Cumhurbaşkanının kendisinin seçimlerin yenilenmesine karar vermesi",
+			"Türkiye Büyük Millet Meclisinin üye tamsayısının üçte iki çoğunluğuyla izin vermesi",
+			"Anayasa'da böyle bir imkân yoktur; bir kimse hiçbir şartla üçüncü defa aday olamaz",
+			"Cumhurbaşkanının ikinci döneminde Meclis tarafından seçimlerin yenilenmesine karar verilmesi",
+			"Yüksek Seçim Kurulunun bu yönde karar alması"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 116. maddesinin üçüncü fıkrasına göre Cumhurbaşkanının ikinci döneminde Meclis tarafından seçimlerin yenilenmesine karar verilmesi hâlinde Cumhurbaşkanı bir defa daha aday olabilir. Belirleyici olan yenileme kararını kimin aldığıdır: karar Meclisten gelmelidir; Cumhurbaşkanının kendi kararıyla seçimleri yenilemesi bu imkânı doğurmaz.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "116"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhurbaskani",
+			"secimlerin-yenilenmesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yurutme-053",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 104. maddesine göre Cumhurbaşkanlığı kararnamesiyle düzenlenemeyecek alanlar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bütün temel hak ve hürriyetler Cumhurbaşkanlığı kararnamesiyle düzenlenebilir",
+			"Anayasa'nın ikinci kısmının birinci ve ikinci bölümlerinde yer alan temel haklar, kişi hakları ve ödevleriyle dördüncü bölümde yer alan siyasi haklar ve ödevler kararnameyle düzenlenemez",
+			"Yalnızca sosyal ve ekonomik haklar kararnameyle düzenlenemez",
+			"Kararname çıkarma yasağı yalnızca Anayasa'da münhasıran kanunla düzenlenmesi öngörülen konularla sınırlıdır",
+			"Siyasi haklar ve ödevler kararnameyle düzenlenebilir; yalnızca kişi hakları düzenlenemez"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 104. maddesinin on yedinci fıkrasına göre Anayasa'nın ikinci kısmının birinci ve ikinci bölümlerinde yer alan temel haklar, kişi hakları ve ödevleriyle dördüncü bölümde yer alan siyasi haklar ve ödevler Cumhurbaşkanlığı kararnamesiyle düzenlenemez. Sosyal ve ekonomik haklar ve ödevleri düzenleyen üçüncü bölüm bu yasağın dışındadır. Ayrıca Anayasa'da münhasıran kanunla düzenlenmesi öngörülen konularda ve kanunda açıkça düzenlenen konularda da kararname çıkarılamaz.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "104"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhurbaskanligi-kararnamesi",
+			"temel-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yurutme-054",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 105. maddesine göre Cumhurbaşkanı hakkında yürütülen soruşturmada kurulacak komisyon ve raporu bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Dokuz kişilik komisyon kurulur ve raporunu bir ay içinde sunar; ek süre verilemez",
+			"On beş kişilik komisyon kurulur ve rapor süresi altı aydır; süre bir defa üç ay uzatılabilir",
+			"Yirmi kişilik komisyon kurulur ve rapor süresi Meclis Başkanınca belirlenir",
+			"Komisyon kurulmaz; soruşturmayı doğrudan Genel Kurul yürütür",
+			"On beş kişilik komisyon kurulur ve komisyon raporunu iki ay içinde Meclis Başkanlığına sunar; bu sürede bitirilemezse bir aylık yeni ve kesin süre verilir"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa'nın 105. maddesinin ikinci fıkrasına göre soruşturma, siyasi partilerin güçleri oranında verebilecekleri üye sayısının üç katı olarak gösterecekleri adaylar arasından ad çekme suretiyle kurulacak on beş kişilik bir komisyon tarafından yapılır; komisyon raporunu iki ay içinde Meclis Başkanlığına sunar, soruşturma bu sürede bitirilemezse komisyona bir aylık yeni ve kesin bir süre verilir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "105"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhurbaskani",
+			"cezai-sorumluluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yurutme-055",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Anayasa'nın 105. maddesine göre Cumhurbaşkanının Yüce Divana sevki ve sonrasındaki süreç bakımından aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Hakkında soruşturma açılmasına karar verilen Cumhurbaşkanı, seçimlerin yenilenmesi kararı alabilir",
+			"Cumhurbaşkanının görevde bulunduğu sürede işlediği iddia edilen suçlar için görevi bittikten sonra da bu madde hükmü uygulanır",
+			"Yüce Divan yargılaması üç ay içinde tamamlanır; tamamlanamazsa bir defaya mahsus üç aylık ek süre verilir",
+			"Yüce Divana sevk kararı, üye tamsayısının üçte ikisinin gizli oyuyla alınır",
+			"Yüce Divanda seçilmeye engel bir suçtan mahkûm edilen Cumhurbaşkanının görevi sona erer"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 105. maddesine göre hakkında soruşturma açılmasına karar verilen Cumhurbaşkanı seçim kararı alamaz. Diğer seçenekler maddenin lafzına uygundur: Yüce Divana sevk üye tamsayısının üçte ikisinin gizli oyuyla olur, yargılama üç ayda tamamlanır ve bir defaya mahsus üç aylık ek süre verilebilir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "105"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhurbaskani",
+			"yuce-divan"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yurutme-056",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 108. maddesine göre Devlet Denetleme Kurulunun Başkan ve üyeleri ile Kurulun işleyişi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Başkan ve üyeler Cumhurbaşkanınca atanır; Kurulun işleyişi, üyelerinin görev süresi ve diğer özlük işleri Cumhurbaşkanlığı kararnamesiyle düzenlenir",
+			"Başkan ve üyeler Hâkimler ve Savcılar Kurulunca atanır",
+			"Başkan Cumhurbaşkanınca, üyeler Danıştayca seçilir",
+			"Kurulun işleyişi Cumhurbaşkanlığı Genel Sekreterliğinin yönergesiyle belirlenir",
+			"Başkan ve üyeler Türkiye Büyük Millet Meclisince seçilir; işleyiş kanunla düzenlenir"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 108. maddesine göre Devlet Denetleme Kurulunun Başkan ve üyeleri Cumhurbaşkanınca atanır; Kurulun işleyişi, üyelerinin görev süresi ve diğer özlük işleri Cumhurbaşkanlığı kararnamesiyle düzenlenir. Kurul, Cumhurbaşkanının isteği üzerine denetim yapar ve yargı organları görev alanı dışındadır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "108"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"devlet-denetleme-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yurutme-057",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 117. maddesine göre Genelkurmay Başkanı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Cumhurbaşkanınca atanır; Silahlı Kuvvetlerin komutanı olup savaşta Başkomutanlık görevlerini Cumhurbaşkanlığı namına yerine getirir",
+			"Millî Güvenlik Kurulunca belirlenir ve savaşta Başkomutandır",
+			"Millî Savunma Bakanınca atanır ve Bakana karşı sorumludur",
+			"Kuvvet komutanları arasından kıdem esasına göre kendiliğinden belirlenir",
+			"Türkiye Büyük Millet Meclisince seçilir ve Meclise karşı sorumludur"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 117. maddesinin üçüncü fıkrasına göre Cumhurbaşkanınca atanan Genelkurmay Başkanı, Silahlı Kuvvetlerin komutanı olup savaşta Başkomutanlık görevlerini Cumhurbaşkanlığı namına yerine getirir. Başkomutanlık ise Türkiye Büyük Millet Meclisinin manevi varlığından ayrılamaz ve Cumhurbaşkanı tarafından temsil olunur.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "117"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"milli-savunma",
+			"genelkurmay"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yurutme-058",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 119. maddesine göre olağanüstü hâl ilanı kararı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Karar Meclisin onayına sunulmaz; yalnızca Resmî Gazetede yayımlanır",
+			"Karar, verildiği tarihten itibaren on beş gün içinde Meclisin onayına sunulur",
+			"Karar, Anayasa Mahkemesinin uygun görüşü alındıktan sonra yürürlüğe girer",
+			"Karar, verildiği gün Resmî Gazetede yayımlanır ve aynı gün Türkiye Büyük Millet Meclisinin onayına sunulur; Meclis tatilde ise derhâl toplantıya çağrılır",
+			"Karar önce Millî Güvenlik Kurulunda görüşülür, sonra Meclise sunulur"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 119. maddesinin ikinci ve üçüncü fıkralarına göre olağanüstü hâl ilanı kararı, verildiği gün Resmî Gazetede yayımlanır ve aynı gün Türkiye Büyük Millet Meclisinin onayına sunulur; Meclis tatilde ise derhâl toplantıya çağrılır. Meclis gerekli görürse süreyi kısaltabilir, uzatabilir veya olağanüstü hâli kaldırabilir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "119"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"olaganustu-hal"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yurutme-059",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 119. maddesine göre olağanüstü hâl sırasında çıkarılan Cumhurbaşkanlığı kararnameleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu kararnameler yalnızca Anayasa Mahkemesinin onayından sonra yürürlüğe girer",
+			"Bu kararnameler için 104. maddedeki bütün sınırlamalar aynen geçerlidir",
+			"Resmî Gazetede yayımlanır ve aynı gün Meclis onayına sunulur; savaş ve mücbir sebeplerle Meclisin toplanamaması hâli hariç, üç ay içinde Mecliste görüşülüp karara bağlanır",
+			"Olağanüstü hâl süresince Meclis onayına sunulmaz; hâl sona erdiğinde kendiliğinden yürürlükten kalkar",
+			"Bu kararnameler Meclise sunulmaz; yalnızca altı ay içinde kanunla değiştirilebilir"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 119. maddesine göre olağanüstü hâllerde Cumhurbaşkanı, olağanüstü hâlin gerekli kıldığı konularda 104. maddenin on yedinci fıkrasının ikinci cümlesindeki sınırlamalara tabi olmaksızın kararname çıkarabilir; bu kararnameler Resmî Gazetede yayımlanır, aynı gün Meclis onayına sunulur ve savaş ile mücbir sebeplerle Meclisin toplanamaması hâli hariç üç ay içinde Mecliste görüşülüp karara bağlanır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "119"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"olaganustu-hal",
+			"cumhurbaskanligi-kararnamesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yurutme-060",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 125. maddesine göre idari eylem ve işlemler üzerindeki yargı denetiminin sınırı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yargı denetimi yalnızca şekil unsuruyla sınırlıdır",
+			"Yargı yetkisi hukuka uygunluk denetimi ile sınırlıdır; hiçbir surette yerindelik denetimi şeklinde kullanılamaz ve takdir yetkisini kaldıracak biçimde karar verilemez",
+			"İdari işlemin yerindeliği, idari yargı yerince her zaman denetlenebilir; sınır yalnızca yürütmenin durdurulması bakımından geçerlidir",
+			"Yargı yerleri, idari işlem niteliğinde karar vererek idarenin yerine geçebilir",
+			"Yargı yerleri, idarenin takdir yetkisini yerindelik bakımından da denetleyebilir"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 125. maddesine göre yargı yetkisi, idarî eylem ve işlemlerin hukuka uygunluğunun denetimi ile sınırlı olup hiçbir surette yerindelik denetimi şeklinde kullanılamaz; yürütme görevinin kanunlarda gösterilen şekil ve esaslara uygun olarak yerine getirilmesini kısıtlayacak, idari eylem ve işlem niteliğinde veya takdir yetkisini kaldıracak biçimde yargı kararı verilemez. Aynı madde, idari işlemlere karşı açılacak davalarda sürenin yazılı bildirim tarihinden başlayacağını da düzenler.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "125"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yargi-yolu",
+			"yerindelik-denetimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yurutme-061",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 133. maddesine göre radyo ve televizyon alanına ilişkin aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Devletçe kurulan radyo ve televizyon kurumu, yayın politikasını Cumhurbaşkanlığından alır",
+			"Radyo ve televizyon istasyonu kurmak hiçbir şarta bağlı olmaksızın tamamen serbesttir",
+			"Radyo ve televizyon istasyonu kurmak yalnızca Devlete aittir; özel yayıncılık yasaktır",
+			"Kamu tüzelkişilerinden yardım gören haber ajanslarının tarafsızlığı Anayasa'da güvence altına alınmamıştır",
+			"Radyo ve televizyon istasyonları kurmak ve işletmek kanunla düzenlenecek şartlar çerçevesinde serbesttir; Devletçe kamu tüzelkişiliği olarak kurulan tek radyo ve televizyon kurumunun özerkliği ve yayınlarının tarafsızlığı esastır"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa'nın 133. maddesine göre radyo ve televizyon istasyonları kurmak ve işletmek kanunla düzenlenecek şartlar çerçevesinde serbesttir; Devletçe kamu tüzelkişiliği olarak kurulan tek radyo ve televizyon kurumu ile kamu tüzelkişilerinden yardım gören haber ajanslarının özerkliği ve yayınlarının tarafsızlığı esastır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "133"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"radyo-televizyon"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

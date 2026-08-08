@@ -336,12 +336,12 @@
 		"options": [
 			"İçişleri Bakanlığı",
 			"Devlet Arşivleri Başkanlığı",
-			"Cumhurbaşkanlığı İdari İşler Başkanlığı",
+			"Cumhurbaşkanlığı Genel Sekreterliği (Yönetmelik metnindeki adıyla Cumhurbaşkanlığı İdari İşler Başkanlığı)",
 			"Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı",
 			"Dijital Dönüşüm Ofisi Başkanlığı"
 		],
 		"correctIndex": 2,
-		"explanation": "Yönetmelik m.36/1: CUMHURBAŞKANLIĞI İDARİ İŞLER BAŞKANLIĞINCA, Yönetmeliğin UYGULAMA BİRLİĞİNİN SAĞLANMASI ve idari işleyişin verimli yürütülebilmesi amacıyla “Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik Kılavuzu” HAZIRLANIR VE DUYURULUR. Dijital Dönüşüm Ofisi ise DETSİS ve e-Yazışma Teknik Rehberi'nden sorumludur.",
+		"explanation": "Yönetmelik m.36/1: CUMHURBAŞKANLIĞI İDARİ İŞLER BAŞKANLIĞINCA, Yönetmeliğin UYGULAMA BİRLİĞİNİN SAĞLANMASI ve idari işleyişin verimli yürütülebilmesi amacıyla “Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik Kılavuzu” HAZIRLANIR VE DUYURULUR. Dijital Dönüşüm Ofisi ise DETSİS ve e-Yazışma Teknik Rehberi'nden sorumludur. Not: Yönetmelik metni bu birimi Cumhurbaşkanlığı İdari İşler Başkanlığı olarak anar; 28/12/2024 tarihli ve 174 sayılı Cumhurbaşkanlığı Kararnamesi ile birimin adı Cumhurbaşkanlığı Genel Sekreterliği olmuş ve 1 sayılı Cumhurbaşkanlığı Kararnamesinin geçici 2. maddesiyle mevzuatta İdari İşler Başkanlığına yapılan atıfların Genel Sekreterliğe yapılmış sayılacağı hükme bağlanmıştır.",
 		"legalRef": {
 			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
 			"article": "36"
@@ -357,8 +357,8 @@
 			"kilavuz",
 			"idari-isler-baskanligi"
 		],
-		"version": 1,
-		"updatedAt": "2026-08-02"
+		"version": 2,
+		"updatedAt": "2026-08-08"
 	},
 	{
 		"id": "yazisma-gonderme-012",
@@ -496,14 +496,14 @@
 		"difficulty": "orta",
 		"stem": "Yönetmelikle ilgili eğitim stratejilerini belirlemeye, ortaya çıkabilecek tereddütleri gidermeye ve uygulamaya yönelik esasları düzenlemeye kim yetkilidir?",
 		"options": [
-			"Cumhurbaşkanlığı İdari İşler Başkanlığı",
+			"Cumhurbaşkanlığı Genel Sekreterliği (Yönetmelik metnindeki adıyla Cumhurbaşkanlığı İdari İşler Başkanlığı)",
 			"Her idare kendi bakımından yetkilidir",
 			"Dijital Dönüşüm Ofisi Başkanlığı",
 			"Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı",
 			"Devlet Arşivleri Başkanlığı"
 		],
 		"correctIndex": 0,
-		"explanation": "Yönetmelik m.36/3: bu Yönetmelik ile ilgili EĞİTİM STRATEJİLERİNİ BELİRLEMEYE VE KOORDİNASYONU SAĞLAMAYA, ORTAYA ÇIKABİLECEK TEREDDÜTLERİ GİDERMEYE ve gerektiğinde UYGULAMAYA YÖNELİK ESASLARI DÜZENLEMEYE CUMHURBAŞKANLIĞI İDARİ İŞLER BAŞKANLIĞI YETKİLİDİR. Aynı Başkanlık Yönetmelik Kılavuzunu da hazırlar.",
+		"explanation": "Yönetmelik m.36/3: bu Yönetmelik ile ilgili EĞİTİM STRATEJİLERİNİ BELİRLEMEYE VE KOORDİNASYONU SAĞLAMAYA, ORTAYA ÇIKABİLECEK TEREDDÜTLERİ GİDERMEYE ve gerektiğinde UYGULAMAYA YÖNELİK ESASLARI DÜZENLEMEYE CUMHURBAŞKANLIĞI İDARİ İŞLER BAŞKANLIĞI YETKİLİDİR. Aynı Başkanlık Yönetmelik Kılavuzunu da hazırlar. Not: Yönetmelik metni bu birimi Cumhurbaşkanlığı İdari İşler Başkanlığı olarak anar; 28/12/2024 tarihli ve 174 sayılı Cumhurbaşkanlığı Kararnamesi ile birimin adı Cumhurbaşkanlığı Genel Sekreterliği olmuş ve 1 sayılı Cumhurbaşkanlığı Kararnamesinin geçici 2. maddesiyle mevzuatta İdari İşler Başkanlığına yapılan atıfların Genel Sekreterliğe yapılmış sayılacağı hükme bağlanmıştır.",
 		"legalRef": {
 			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
 			"article": "36"
@@ -519,8 +519,8 @@
 			"tereddutlerin-giderilmesi",
 			"egitim"
 		],
-		"version": 1,
-		"updatedAt": "2026-08-02"
+		"version": 2,
+		"updatedAt": "2026-08-08"
 	},
 	{
 		"id": "yazisma-gonderme-017",

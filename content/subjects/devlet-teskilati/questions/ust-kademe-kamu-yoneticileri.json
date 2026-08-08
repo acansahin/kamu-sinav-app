@@ -551,5 +551,486 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-uk-001",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "19/2/2026 tarihli ve 194 sayılı Cumhurbaşkanlığı Kararnamesi ile getirilen düzenlemeye göre, 3 sayılı Cumhurbaşkanlığı Kararnamesi'ne ekli (II) sayılı cetvelde yer alan kadro, pozisyon ve görevler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Atama usûlü ve atamaya yetkili makam 2. madde ile belirlendiğinden, bunlar hakkında Kararnamenin diğer hükümleri uygulanmaz",
+			"Bunlar hakkında yalnızca görev süresine ilişkin hükümler uygulanmaz",
+			"Bunlara atama yapılabilmesi için Türkiye Büyük Millet Meclisinin onayı gerekir",
+			"Bunlar üst kademe kamu yöneticisi sayılmaz ve atamaları ilgili kurumun disiplin amirince yapılır",
+			"Bunlar hakkında da görev süresi, sözleşme ve atama şartlarına ilişkin bütün hükümler aynen uygulanır"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 2. maddesine 180 sayılı Cumhurbaşkanlığı Kararnamesi ile eklenen ve 194 sayılı Kararname ile değiştirilen üçüncü fıkraya göre, atama usûlü ve atamaya yetkili makamı bu madde ile belirlenen (II) sayılı cetvelde yer alan kadro, pozisyon ve görevler hakkında Kararnamenin diğer hükümleri uygulanmaz. (I) ve (II) sayılı cetvellerdeki kadro, pozisyon ve görevlere Cumhurbaşkanı kararıyla atama yapılır.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"atama-usulu",
+			"cetvel"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-uk-002",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "3 sayılı Cumhurbaşkanlığı Kararnamesi'ne ekli (I) sayılı cetvelde yer alan kadro, pozisyon ve görevlere atanacaklarda aranan şartlardan biri de aşağıdakilerden hangisidir?",
+		"options": [
+			"Yabancı dil sınavından en az (C) düzeyinde puan almış olmak",
+			"Lisansüstü öğrenimini tamamlamış olmak",
+			"657 sayılı Devlet Memurları Kanunu'nun 48. maddesinde sayılan genel şartları taşımak",
+			"Kamu Personel Seçme Sınavı'ndan asgari puanı almış olmak",
+			"Kamu kurumlarında en az on yıl yöneticilik yapmış olmak"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 3. maddesinin birinci fıkrası üç şart öngörür: 657 sayılı Kanun'un 48. maddesinde sayılan genel şartları taşımak, en az dört yıllık yükseköğrenim mezunu olmak ve kamuda ve/veya sosyal güvenlik kurumlarına tabi olmak kaydıyla uluslararası kuruluşlar ile özel sektörde veya serbest olarak en az beş yıl çalışmış olmak. Yabancı dil, KPSS veya lisansüstü öğrenim şartı aranmaz.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"atama-sartlari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-uk-003",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 59. maddesine göre istisnai memurluklara yapılacak atamalarda, 3 sayılı Cumhurbaşkanlığı Kararnamesi'nin atama şartlarına ilişkin hükümleri nasıl uygulanır?",
+		"options": [
+			"Hiçbir şart aranmaz; istisnai memurluklara serbestçe atama yapılır",
+			"Yalnızca en az beş yıl çalışmış olma şartı aranır",
+			"Bu atamalarda Yükseköğretim Kurulunun uygun görüşü aranır",
+			"Atama şartlarını düzenleyen madde hükümlerinin tamamı aynen uygulanır",
+			"657 sayılı Kanun'un 48. maddesindeki genel şartlara ilişkin bent hariç, atama şartlarını düzenleyen madde hükümleri uygulanmaz"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 3. maddesinin dördüncü fıkrasına göre 657 sayılı Kanun'un 59. maddesine göre yapılacak atamalarda, birinci ve ikinci fıkraların (a) bentleri — yani 657 sayılı Kanun'un 48. maddesindeki genel şartlar — hariç, bu madde hükümleri uygulanmaz. Yani istisnai memurluk atamalarında dört yıllık yükseköğrenim ve beş yıllık çalışma şartı aranmaz, ancak memuriyetin genel şartları aranır.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"istisnai-memurluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-uk-004",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "3 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre görev süresi sona eren veya görevden alınan üst kademe kamu yöneticisinin durumu ne olur?",
+		"options": [
+			"Görevi ile ilişiği kesilir ve sözleşmesi feshedilmiş sayılır",
+			"Sözleşmesinin feshi için ayrıca Cumhurbaşkanı kararı alınması gerekir",
+			"Sözleşmesi kendiliğinden bir yıl daha uzar",
+			"Sözleşme süresi görev süresinden bağımsız olduğundan sözleşme aynen devam eder",
+			"Kadrosu saklı kalmak üzere aynı kurumda müşavir olarak görevlendirilmesi zorunludur"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 5. maddesinin beşinci fıkrasına göre görev süresi sona eren veya görevden alınan üst kademe kamu yöneticisinin görevi ile ilişiği kesilir ve sözleşmesi feshedilmiş sayılır. Aynı maddenin dördüncü fıkrası sözleşme süresinin, üst kademe kamu yöneticisinin görev süresi ile sınırlı olduğunu belirtir.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sozlesme",
+			"gorev-sonu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-uk-005",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "3 sayılı Cumhurbaşkanlığı Kararnamesi'ne ekli (I) sayılı cetvelde yer alan kadro, pozisyon ve görevlere atananların çalıştırılma biçimi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca kadro karşılığı ve memur statüsünde çalıştırılabilirler",
+			"Yalnızca sözleşmeli olarak çalıştırılabilirler; kadro karşılığı istihdam mümkün değildir",
+			"Atandıkları kadro, pozisyon ve görevlerde sözleşmeli olarak da çalıştırılabilirler",
+			"İşçi statüsünde çalıştırılmaları esastır",
+			"Çalıştırılma biçimi her yıl Türkiye Büyük Millet Meclisince belirlenir"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 5. maddesinin birinci fıkrasına göre (I) sayılı cetvelde yer alan kadro, pozisyon ve görevlere atananlar, atandıkları kadro, pozisyon ve görevlerde sözleşmeli olarak da çalıştırılabilir. İkinci fıkraya göre bu kişilerin hizmet sözleşmelerini idare adına imzalayacaklar Cumhurbaşkanınca belirlenir.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sozlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-uk-006",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "3 sayılı Cumhurbaşkanlığı Kararnamesi'ne ekli (III) sayılı cetvelde yer alan kadro, pozisyon ve görevler bakımından görev süresi nasıl belirlenir?",
+		"options": [
+			"Bunlar hakkında görev süresini düzenleyen 4. madde uygulanmaz; görev süreleri (III) sayılı cetvelde gösterilmiştir",
+			"Bunların görev süresi de Cumhurbaşkanının görev süresiyle sınırlıdır",
+			"Bunlar için görev süresi öngörülmemiştir; süresiz olarak görev yaparlar",
+			"Bunların görev süresi ilgili bakanın teklifiyle uzatılabilir",
+			"Bunların görev süresi her atamada Cumhurbaşkanınca ayrıca belirlenir"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 7. maddesine göre görev süresini düzenleyen 4. madde hükümleri (III) sayılı cetvelde yer alanlar hakkında uygulanmaz; bunların görev süreleri (III) sayılı cetvelde ayrı ayrı gösterilmiştir. Bu, üst kademe yöneticilerinde kural olan 'görev süresi Cumhurbaşkanının görev süresini geçemez' esasının istisnasıdır.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorev-suresi",
+			"cetvel"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-uk-007",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "3 sayılı Cumhurbaşkanlığı Kararnamesi'ne ekli (III) sayılı cetvele göre Türkiye Cumhuriyet Merkez Bankası Başkanının görev süresi kaç yıldır?",
+		"options": [
+			"5",
+			"6",
+			"4",
+			"3",
+			"2"
+		],
+		"correctIndex": 2,
+		"explanation": "(III) sayılı cetvelde Türkiye Cumhuriyet Merkez Bankası Başkanının görev süresi dört yıl olarak gösterilmiştir. Aynı cetvelde Merkez Bankası Para Politikası Kurulu üyeleri için öngörülen süre ise beş yıldır; ikisinin karıştırılmaması gerekir.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "(III) sayılı cetvel"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gorev-suresi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-uk-008",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi 3 sayılı Cumhurbaşkanlığı Kararnamesi'ne ekli (I) sayılı cetvelde yer alan kadro, pozisyon ve görevlerden biri değildir?",
+		"options": [
+			"Bakanlık il müdürleri",
+			"Diyanet İşleri Başkanı",
+			"Düzenleyici ve denetleyici kurumların başkan ve üyeleri",
+			"Millî İstihbarat Teşkilatı Başkanı",
+			"Bakan yardımcıları"
+		],
+		"correctIndex": 0,
+		"explanation": "Bakanlık il müdürleri (II) sayılı cetvelde yer alır; defterdarlar ve bölge müdürleri de aynı cetveldedir. Diğer seçenekler (I) sayılı cetvelde sayılmıştır. Ayrım önemlidir: (I) sayılı cetveldekiler hakkında Kararnamenin görev süresi, atama şartları ve sözleşmeye ilişkin hükümleri uygulanırken, (II) sayılı cetveldekiler hakkında yalnızca atama usulüne ilişkin 2. madde uygulanır.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "(I) sayılı cetvel"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cetvel"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-uk-009",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "3 sayılı Cumhurbaşkanlığı Kararnamesi'nin uygulanmasında ortaya çıkabilecek tereddütleri gidermeye kim yetkilidir?",
+		"options": [
+			"Danıştay",
+			"İlgili bakan",
+			"Strateji ve Bütçe Başkanı",
+			"Cumhurbaşkanı",
+			"Cumhurbaşkanlığı Genel Sekreteri"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 13. maddesine göre Kararnamenin uygulanmasında ortaya çıkabilecek tereddütleri gidermeye Cumhurbaşkanı yetkilidir.",
+		"legalRef": {
+			"law": "3 sayılı Üst Kademe Kamu Yöneticileri ile Kamu Kurum ve Kuruluşlarında Atama Usûllerine Dair Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-3",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tereddutlerin-giderilmesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-uk-010",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "2 sayılı Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi hükümleri aşağıdakilerden hangisi hakkında uygulanmaz?",
+		"options": [
+			"Bakanlıkların merkez teşkilatı kadroları",
+			"Kefalet sandıklarının kadroları",
+			"Bakanlıklara bağlı döner sermayeli kuruluşların kadroları",
+			"Türkiye Büyük Millet Meclisi Başkanlığı İdari Teşkilatı personelinin kadro ve pozisyonları",
+			"Cumhurbaşkanlığı kararnameleriyle kurulan idarelerin kadroları"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 3. maddesine göre hükümleri; Cumhurbaşkanlığı Genel Sekreterliği ile Türkiye Büyük Millet Meclisi Başkanlığı İdari Teşkilatı personelinin kadro ve pozisyonları ve millî güvenlik sebebiyle gizli kalması gereken kadro ve pozisyonlar hakkında uygulanmaz. Diğer seçenekler 2. maddedeki kapsam içindedir.",
+		"legalRef": {
+			"law": "2 sayılı Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-2",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kadro",
+			"istisna"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-uk-011",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "2 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre kapsama giren kurum ve kuruluşların kadroları nasıl ihdas edilir?",
+		"options": [
+			"Türkiye Büyük Millet Meclisinin kararıyla",
+			"İlgili bakanlığın onayıyla",
+			"Cumhurbaşkanlığı kararnamesiyle",
+			"Strateji ve Bütçe Başkanlığının genelgesiyle",
+			"Kurumun kendi yönetim kurulu kararıyla"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 5. maddesine göre kapsama giren kurum ve kuruluşların kadroları Cumhurbaşkanlığı kararnamesiyle ihdas edilir. 2018 öncesindeki 190 sayılı Kanun Hükmünde Kararname düzeninde bu işlem kanun ve Bakanlar Kurulu kararlarıyla yapılıyordu.",
+		"legalRef": {
+			"law": "2 sayılı Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-2",
+			"article": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kadro-ihdasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-uk-012",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "2 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre kuruma eklenen kadroların dağılımı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Dağılımdan sonra kadrolarda yapılacak birim değişiklikleri hiçbir onaya tabi değildir",
+			"Dağılım için süre öngörülmemiştir; kadrolar ihdas edildiği anda kullanılmaya başlanır",
+			"Dağılım altı ay içinde yapılır ve onaya gerek olmaksızın kullanılabilir",
+			"Dağılım, kadroların eklendiği tarihten itibaren bir ay içinde yapılır ve kadrolar ancak dağılımın Cumhurbaşkanlığınca onaylanmasından sonra kullanılabilir",
+			"Dağılımı doğrudan Strateji ve Bütçe Başkanlığı yapar; kurumun yetkisi yoktur"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 6. maddesine göre eklenen kadroların dağılımı, eklendikleri tarihten itibaren bir ay içinde ilgili kurum ve kuruluşlarca unvan, sınıf, derece ve adet belirtilerek yapılır; dağılım kamu personeli bilgi sisteminin ilgili alanına kaydedilir ve kadrolar bu dağılımların Cumhurbaşkanlığınca onaylanmasını müteakip kullanılabilir. Dağılımdan sonraki birim değişikliklerinde de aynı usule uyulur.",
+		"legalRef": {
+			"law": "2 sayılı Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-2",
+			"article": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kadro-dagilimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-uk-013",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "2 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre kadro ve pozisyon unvanları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Unvan belirleme yetkisi tamamen Strateji ve Bütçe Başkanlığına aittir",
+			"Unvanlar yalnızca taşra teşkilatı bakımından sınırlandırılmıştır",
+			"Cetvelde yer almayan unvanlar, ilgili bakanın onayıyla kullanılabilir",
+			"Kararnameye ekli cetvellerde yer almayan kadro ve pozisyon unvanları kullanılamaz",
+			"Kurumlar ihtiyaç duydukları yeni unvanları kendi yönetmelikleriyle belirleyebilir"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 9. maddesi açıktır: Kararnameye ekli cetvellerde yer almayan kadro ve pozisyon unvanları kullanılamaz. Bu hüküm, kamu kurumlarında unvan standardizasyonunu sağlayan temel kuraldır.",
+		"legalRef": {
+			"law": "2 sayılı Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-2",
+			"article": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kadro-unvanlari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-uk-014",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/ust-kademe-kamu-yoneticileri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir bakanlık, 657 sayılı Kanun'un 59. maddesi uyarınca bir istisnai memurluğa açıktan atama yapmak istemektedir. 2 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bu atama bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"İzin, Yükseköğretim Kurulundan alınır",
+			"İstisnai memurluk atamaları hiçbir izne tabi değildir",
+			"Atama sayısı sınırlaması bulunduğundan bu atamalar hiçbir şekilde yapılamaz",
+			"İzin, yalnızca nakil suretiyle yapılan atamalar için aranır",
+			"657 sayılı Kanun'un 59 ve 92. maddeleri uyarınca yapılabilecek açıktan atamalar için Cumhurbaşkanlığından izin alınması zorunludur"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 11. maddesinin ikinci fıkrasına göre kapsama giren kurum ve kuruluşlarca 657 sayılı Kanun'un 59. (istisnai memurluklar) ve 92. (memurluğa yeniden atanma) maddeleri uyarınca yapılabilecek açıktan atamalar için Cumhurbaşkanlığından izin alınması zorunludur. Aynı maddenin birinci fıkrası, kurumların yıllık açıktan ve nakil suretiyle atama sayısının Cumhurbaşkanınca belirleneceğini düzenler.",
+		"legalRef": {
+			"law": "2 sayılı Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-2",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"aciktan-atama",
+			"izin"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

@@ -554,5 +554,487 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-04"
+	},
+	{
+		"id": "dt-pk-017",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre müşterek alanlardaki görev ve faaliyetlere ilişkin koordinasyon toplantılarına kim başkanlık eder?",
+		"options": [
+			"Toplantıya katılan bakanlar arasından en kıdemli olan",
+			"Cumhurbaşkanlığı Genel Sekreteri",
+			"İlgili politika kurulunun üyeleri arasından seçilen bir üye",
+			"Yalnızca Cumhurbaşkanı; bu yetki hiçbir şekilde devredilemez",
+			"Cumhurbaşkanı veya görevlendireceği politika kurulu başkanvekili ya da bakan"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 32. maddesinin ikinci fıkrasına göre koordinasyon toplantılarına Cumhurbaşkanı veya görevlendireceği politika kurulu başkanvekili ya da bakan başkanlık eder. Bu toplantılarda tespit edilen esaslar Cumhurbaşkanına sunulur; toplantılara ilişkin bütün iş ve işlemler ise ilgili politika kurulunca yerine getirilir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "32"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koordinasyon-toplantilari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-pk-018",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Cumhurbaşkanlığı politika kurullarının çalışma biçimi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kurullar, görev alanlarına giren konularda ilgili bakanlığa bağlı olarak çalışır",
+			"Kurullar yalnızca Cumhurbaşkanlığı Genel Sekreterliği aracılığıyla Cumhurbaşkanı ile iletişim kurabilir",
+			"Kurullar, alanlarında doğrudan Cumhurbaşkanı ile çalışır ve Cumhurbaşkanının talimatlarını yerine getirir",
+			"Kurullar, Türkiye Büyük Millet Meclisi ihtisas komisyonlarıyla birlikte çalışmak zorundadır",
+			"Kurullar, kamu iktisadi teşebbüsleriyle hiçbir şekilde temas kuramaz"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 33. maddesinin birinci fıkrasına göre kurullar alanlarında doğrudan Cumhurbaşkanı ile çalışır ve Cumhurbaşkanının talimatlarını yerine getirir. İkinci fıkra ise kurulların bakanlıklar, kamu kurum ve kuruluşları, kamu iktisadi teşebbüsleri ve kamu kurumu niteliğindeki kuruluşlarla yakın işbirliği içinde bulunacağını düzenler.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "33"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"calisma-usulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-pk-019",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Cumhurbaşkanlığı politika kurullarının toplantı ve çalışmaları bakımından 1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre aşağıdakilerden hangisi yanlıştır?",
+		"options": [
+			"Birden fazla kurulun görev alanına giren hususlar genişletilmiş kurul toplantılarında müştereken çalışılır",
+			"Kurullar, görev alanlarına giren konularla ilgili olarak çalışma grupları oluşturabilir",
+			"Toplantı ve çalışmalara sivil toplum ile özel sektör temsilcileri davet edilebilir",
+			"Kurulların toplantılarına yabancı uzmanlar hiçbir şekilde davet edilemez",
+			"Toplantı ve çalışmalara akademisyenler davet edilebilir"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 33. maddesinin dördüncü fıkrası, kurulların toplantı ve çalışmalarına bakanlıklar, kamu kurum ve kuruluşları, sivil toplum ile özel sektör temsilcileri, akademisyenler ve yerli veya yabancı uzmanların davet edilebileceğini açıkça öngörür. Yabancı uzmanların davetini yasaklayan bir hüküm yoktur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "33"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"calisma-usulu",
+			"calisma-gruplari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-pk-020",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Cumhurbaşkanlığı politika kurullarının sekretarya hizmetleri ile kurul personelinin özlük işlemleri hangi birim tarafından yürütülür?",
+		"options": [
+			"Cumhurbaşkanlığı Genel Sekreterliği",
+			"Cumhurbaşkanı Özel Kalem Müdürlüğü",
+			"Strateji ve Bütçe Başkanlığı",
+			"İlgili bakanlığın personel genel müdürlüğü",
+			"Her kurulun kendi başkanvekilliği"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 34. maddesine göre her kurulun sekretarya hizmetleri Cumhurbaşkanlığı Genel Sekreterliği tarafından yerine getirilir ve kurul personelinin özlük işlemleri de aynı birimce yürütülür. Kurulda görevlendirilen personele yapılacak ödemeler Cumhurbaşkanlığı bütçesinden karşılanır; görevlendirme yazıları bilgi ve gereği için Genel Sekreterliğe gönderilir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "34"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sekretarya",
+			"personel"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-pk-021",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Cumhurbaşkanlığı politika kurullarının giderleri nasıl karşılanır?",
+		"options": [
+			"Görev alanına giren bakanlıkların bütçelerinden eşit oranda karşılanır",
+			"Türkiye Büyük Millet Meclisi bütçesinden karşılanır",
+			"Kurulların kendi özel bütçelerinden karşılanır",
+			"Strateji ve Bütçe Başkanlığının döner sermaye gelirlerinden karşılanır",
+			"Her yıl Cumhurbaşkanlığı bütçesine konulan ödenekten karşılanır"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 35. maddesinin birinci fıkrasına göre kurulların giderleri için her yıl Cumhurbaşkanlığı bütçesine yeterli ödenek konulur. Politika kurullarının ayrı bir tüzel kişiliği ve bütçesi yoktur.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "35"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mali-hukumler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-pk-022",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye'nin göç politika ve stratejilerini belirlemek, uygulanmasını takip etmek ve göç alanındaki bölgesel ve uluslararası gelişmeleri değerlendirerek raporlamak görevi hangi Cumhurbaşkanlığı politika kuruluna aittir?",
+		"options": [
+			"Sosyal ve Gençlik Politikaları Kurulu",
+			"Güvenlik ve Dış Politikalar Kurulu",
+			"Yerel Yönetim ve Afet Politikaları Kurulu",
+			"Hukuk Politikaları Kurulu",
+			"Ekonomi Politikaları Kurulu"
+		],
+		"correctIndex": 1,
+		"explanation": "Kararnamenin 26. maddesinin birinci fıkrasının (e) bendi göç politika ve stratejilerinin belirlenmesi, uygulamanın izlenmesi ve alandaki gelişmelerin raporlanması görevini Güvenlik ve Dış Politikalar Kuruluna vermiştir. Aynı madde sivil havacılık güvenliği, siber güvenlik ve trafik güvenliğine ilişkin politika önerilerini de bu kurulun görevleri arasında sayar.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "26"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"guvenlik-ve-dis-politikalar-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-pk-023",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Kadınlara ve çocuklara karşı şiddet, aile içi şiddet ve çocuk istismarını önlemek amacıyla araştırma ve çalışmalar yapmak görevi, 1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre hangi politika kuruluna verilmiştir?",
+		"options": [
+			"Eğitim ve Öğretim Politikaları Kurulu",
+			"Sağlık Politikaları Kurulu",
+			"Güvenlik ve Dış Politikalar Kurulu",
+			"Hukuk Politikaları Kurulu",
+			"Sosyal ve Gençlik Politikaları Kurulu"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 27. maddesinin birinci fıkrasının (e) bendi bu görevi Hukuk Politikaları Kuruluna vermiştir. Aynı madde suç oranlarının azaltılmasına yönelik araştırmaları, yargı sisteminin adil, hızlı ve etkin işlemesine ve hak ihlallerinin önlenmesine ilişkin politika önerilerini de bu kurulun görevleri arasında sayar. Konunun sosyal içerikli görünmesi sebebiyle Sosyal ve Gençlik Politikaları Kurulu sık yapılan yanlıştır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "27"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hukuk-politikalari-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-pk-024",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi 1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Bilim, Teknoloji ve Yenilik Politikaları Kurulunun görev ve yetkilerinden biri değildir?",
+		"options": [
+			"Girişimcilik kültürünün yaygınlaştırılması için araştırmalar yapmak ve öneriler oluşturmak",
+			"Ar-Ge çalışmalarının özendirilmesi ve sonuçların ürünleştirilmesi için politika önerilerinde bulunmak",
+			"Serbest bölgelerde yapılan faaliyetleri değerlendirmek ve bu bölgelerin geliştirilmesine ilişkin önerilerde bulunmak",
+			"Devlet desteklerinin ilke ve esaslarının belirlenmesi amacıyla politika önerileri geliştirmek",
+			"Stratejik önemi haiz teknoloji alanlarını belirlemek için araştırmalar yapmak"
+		],
+		"correctIndex": 3,
+		"explanation": "Devlet desteklerinin ilke ve esaslarının belirlenmesi amacıyla politika önerileri geliştirmek, Kararnamenin 25. maddesine göre Ekonomi Politikaları Kurulunun görevidir. Diğer dört seçenek 23. maddede Bilim, Teknoloji ve Yenilik Politikaları Kurulunun görevleri arasında sayılmıştır; serbest bölgelerin ekonomik bir konu gibi görünmesine rağmen bu kurula verilmiş olması maddenin ayırt edici yönüdür.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "23"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilim-teknoloji-ve-yenilik-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-pk-025",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdakilerden hangisi 1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Yatırım ve Finans Ofisinin görevlerinden biri değildir?",
+		"options": [
+			"Türkiye'de yatırım yapılmasını özendirmeye yönelik çalışmalar yapmak",
+			"Yatırımcıların karşılaşabilecekleri engel ve sorunları tespit ederek çözümü için ilgili merciler nezdinde girişimde bulunmak",
+			"Ulusal düzeyde yatırım destek ve tanıtım stratejisini belirlemek ve uygulanmasını takip etmek",
+			"Kamu kurumlarının kadro ihdas ve iptal işlemlerini yürütmek",
+			"Ulusal ve uluslararası bankacılık ve finans sektörünü izlemek ve analizler yaparak raporlamak"
+		],
+		"correctIndex": 3,
+		"explanation": "Kadro ihdas ve iptal işlemleri Yatırım ve Finans Ofisinin değil, 2 sayılı Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi çerçevesinde Cumhurbaşkanlığı Genel Sekreterliği Personel ve Prensipler Genel Müdürlüğünün görev alanındadır. Diğer seçenekler Ofisin görevleri arasında sayılmıştır; bankacılık ve finans sektörünün izlenmesi görevi 2025 yılında 183 sayılı Cumhurbaşkanlığı Kararnamesi ile eklenmiştir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "527/F"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yatirim-ve-finans-ofisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-pk-026",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Yatırım ve Finans Ofisi Başkanının konumu ve sorumluluğu bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Başkan, ofisin genel yönetiminden Cumhurbaşkanlığı Genel Sekreterine karşı sorumludur",
+			"Başkan yalnızca malî işlemlerden sorumludur; idari sorumluluk başkan yardımcılarına aittir",
+			"Ofisin temsil yetkisi Başkanda değil, ofis yönetim kurulundadır",
+			"Başkan, ofisin temsilinden Hazine ve Maliye Bakanına karşı sorumludur",
+			"Başkan ofisin en üst amiri olup ofisin genel yönetim ve temsilinden Cumhurbaşkanına karşı sorumludur"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 528. maddesinin birinci fıkrasına göre Başkan, ofisin en üst amiri olup ofisin genel yönetim ve temsilinden Cumhurbaşkanına karşı sorumludur. Başkan, Cumhurbaşkanı tarafından belirlenen amaç, politika ve stratejilere uygun olarak yönetir ve ofisin bütçe teklifini hazırlar.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "528"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yatirim-ve-finans-ofisi",
+			"sorumluluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-pk-027",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Yatırım ve Finans Ofisinin diğer kamu kurum ve kuruluşlarıyla ilişkisi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Ofis, kamu iktisadi teşebbüsleriyle doğrudan temas kuramaz",
+			"Ofisin koordinasyon yetkisi yalnızca Hazine ve Maliye Bakanlığı ile sınırlıdır",
+			"Ofis, uluslararası alandaki çalışmalara katılamaz ve ülkeyi temsil edemez",
+			"Ofis, görev alanına giren hususlarda tüm kamu kurum ve kuruluşlarını koordine etmekle görevli ve yetkilidir",
+			"Ofis yalnızca kendisine bağlı birimler üzerinde koordinasyon yetkisine sahiptir"
+		],
+		"correctIndex": 3,
+		"explanation": "Kararnamenin 528. maddesinin yedinci fıkrasına göre Ofis; görev alanına giren hususlarda tüm kamu kurum ve kuruluşlarını koordine etmek, bakanlıklar, kamu kurum ve kuruluşları, kamu iktisadi teşebbüsleri ve kamu kurumu niteliğindeki kuruluşlarla yakın işbirliği içinde çalışmak, uluslararası alanda yapılan çalışmalara iştirak etmek ve ülkemizi temsil etmekle görevli ve yetkilidir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "528"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yatirim-ve-finans-ofisi",
+			"koordinasyon"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-pk-028",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Yatırım ve Finans Ofisinde uzman personel olarak istihdam edilebilmek için aranan öğrenim şartı nedir?",
+		"options": [
+			"En az dört yıllık eğitim veren yükseköğretim kurumlarından veya denkliği Yükseköğretim Kurulunca kabul edilen yurtdışındaki kurumlardan mezun olmak",
+			"Lisansüstü eğitimini tamamlamış olmak",
+			"Yükseköğrenim şartı aranmaz; mesleki tecrübe yeterlidir",
+			"En az iki yıllık yükseköğretim kurumlarından mezun olmak",
+			"Yalnızca hukuk, iktisat veya işletme fakültelerinden mezun olmak"
+		],
+		"correctIndex": 0,
+		"explanation": "Kararnamenin 529. maddesinin ikinci fıkrasına göre uzman personel, en az dört yıllık eğitim veren yükseköğretim kurumlarından veya bunlara denkliği Yükseköğretim Kurulunca kabul edilen yurtdışındaki yükseköğretim kurumlarından mezun olmuş adaylar arasından istihdam edilir. Mezun olunacak fakülte bakımından bir sınırlama getirilmemiştir.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "529"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yatirim-ve-finans-ofisi",
+			"personel"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-pk-029",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Yatırım ve Finans Ofisinin kadroları nasıl belirlenir?",
+		"options": [
+			"Türkiye Büyük Millet Meclisi kararı ile",
+			"Cumhurbaşkanlığı Genel Sekreterliğinin teklifi üzerine ilgili bakanlıkça",
+			"Hazine ve Maliye Bakanlığının teklifi üzerine Strateji ve Bütçe Başkanlığınca",
+			"Ofis Başkanının onayı ile",
+			"Cumhurbaşkanı kararı ile"
+		],
+		"correctIndex": 4,
+		"explanation": "Kararnamenin 532. maddesine göre Ofisin kadroları Cumhurbaşkanı kararı ile belirlenir. Aynı yöntem, Kararnamenin 11. maddesinde Cumhurbaşkanlığı Merkez Teşkilatı kadroları için de öngörülmüştür.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "532"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yatirim-ve-finans-ofisi",
+			"kadro"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "dt-pk-030",
+		"subjectId": "devlet-teskilati",
+		"topicId": "devlet-teskilati/politika-kurullari-ve-bagli-kuruluslar",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Kamuda dijital dönüşümün eğitim müfredatına yansıtılması konusu, hem Bilim, Teknoloji ve Yenilik Politikaları Kurulunun hem de Eğitim ve Öğretim Politikaları Kurulunun görev alanına girmektedir. 1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre bu konuda nasıl hareket edilir?",
+		"options": [
+			"Birden fazla kurulun görev alanına giren konularda kurullar yetkisiz sayılır; konu doğrudan ilgili bakanlığa devredilir",
+			"Konu hakkında hangi kurulun yetkili olduğuna Cumhurbaşkanlığı Genel Sekreteri karar verir",
+			"Konu genişletilmiş kurul toplantılarında ilgili kurullar tarafından müştereken çalışılır ve görüşler müştereken oluşturulur",
+			"Konu, kurulların kuruluş sırasına göre önce gelen kurul tarafından tek başına sonuçlandırılır",
+			"Her iki kurul ayrı ayrı rapor hazırlar; raporlar arasındaki farkı ilgili bakanlık giderir"
+		],
+		"correctIndex": 2,
+		"explanation": "Kararnamenin 33. maddesinin altıncı fıkrasına göre birden fazla kurulun görev alanına giren hususlar, genişletilmiş kurul toplantılarında ilgili kurullar tarafından müştereken çalışılır ve görüşler müştereken oluşturulur. Genişletilmiş kurul toplantısı yapmak, 22. maddede kurulların genel görev ve yetkileri arasında da sayılmıştır.",
+		"legalRef": {
+			"law": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi",
+			"lawId": "CBK-1",
+			"article": "33"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"genisletilmis-kurul-toplantisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

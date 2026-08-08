@@ -2024,5 +2024,351 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yasama-061",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 92. maddesine göre, milletlerarası hukukun meşru saydığı hâllerde savaş hâli ilanına ve Türk Silahlı Kuvvetlerinin yabancı ülkelere gönderilmesine izin verme yetkisi kime aittir?",
+		"options": [
+			"Millî Güvenlik Kuruluna",
+			"Cumhurbaşkanı ile Türkiye Büyük Millet Meclisine birlikte",
+			"Türkiye Büyük Millet Meclisine",
+			"Cumhurbaşkanına",
+			"Genelkurmay Başkanlığına"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 92. maddesinin birinci fıkrasına göre bu yetki Türkiye Büyük Millet Meclisinindir; yabancı silahlı kuvvetlerin Türkiye'de bulunmasına izin verme yetkisi de Meclise aittir. İkinci fıkra istisnadır: Meclis tatilde veya ara vermede iken ülkenin ani bir silahlı saldırıya uğraması ve silahlı kuvvet kullanılmasına derhâl karar verilmesinin kaçınılmaz olması hâlinde Cumhurbaşkanı da karar verebilir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "92"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"savas-hali",
+			"silahli-kuvvetler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yasama-062",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 93. maddesine göre Türkiye Büyük Millet Meclisinin ara verme veya tatil sırasında toplantıya çağrılması bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Meclisi yalnızca Meclis Başkanı ve ancak üyelerin salt çoğunluğunun istemi üzerine toplantıya çağırabilir",
+			"Meclisi toplantıya çağırma yetkisi siyasi parti gruplarına aittir",
+			"Meclis Cumhurbaşkanınca toplantıya çağrılır; Meclis Başkanı da doğrudan doğruya veya üyelerin beşte birinin yazılı istemi üzerine Meclisi toplantıya çağırır",
+			"Ara verme veya tatil sırasında Meclis hiçbir şekilde toplanamaz",
+			"Meclisi yalnızca Cumhurbaşkanı toplantıya çağırabilir"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 93. maddesine göre Meclis, ara verme veya tatil sırasında Cumhurbaşkanınca toplantıya çağrılır; Meclis Başkanı da doğrudan doğruya veya üyelerin beşte birinin yazılı istemi üzerine Meclisi toplantıya çağırır. Ara verme veya tatil sırasında toplanan Mecliste, öncelikle bu toplantıyı gerektiren konu görüşülmeden ara verme veya tatile devam edilemez.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "93"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tbmm-toplanma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yasama-063",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 94. maddesine göre Türkiye Büyük Millet Meclisi Başkanlığı için adaylık ve seçim süreleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Başkan adayları Meclisin toplandığı günden itibaren beş gün içinde Başkanlık Divanına bildirilir; Başkan seçimi aday gösterme süresinin bitiminden itibaren beş gün içinde tamamlanır",
+			"Adaylık ve seçim için Anayasa'da süre öngörülmemiştir; süreler İçtüzükle belirlenir",
+			"Başkan adayları on beş gün içinde bildirilir; seçim otuz gün içinde tamamlanır",
+			"Başkan adayları on gün içinde bildirilir; seçim yasama yılı içinde herhangi bir zamanda yapılabilir",
+			"Başkan adayları üç gün içinde bildirilir; seçim aynı gün tamamlanır"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 94. maddesine göre Başkan adayları, Meclis üyeleri içinden Meclisin toplandığı günden itibaren beş gün içinde Başkanlık Divanına bildirilir ve Başkan seçimi gizli oyla yapılır; seçim, aday gösterme süresinin bitiminden itibaren beş gün içinde tamamlanır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "94"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"meclis-baskani",
+			"sureler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yasama-064",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 94. maddesine göre Türkiye Büyük Millet Meclisi Başkanı ve Başkanvekillerinin tarafsızlığı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Başkan ve Başkanvekilleri her oylamada oy kullanır; yalnızca parti faaliyetlerine katılamazlar",
+			"Üyesi bulundukları partinin veya parti grubunun Meclis içindeki ve dışındaki faaliyetlerine, görevlerinin gereği olan hâller dışında Meclis tartışmalarına katılamazlar; Başkan ve oturumu yöneten Başkanvekili oy kullanamaz",
+			"Başkan yalnızca gizli oylamalarda oy kullanamaz",
+			"Tarafsızlık yükümlülüğü yalnızca Meclis Başkanı için geçerlidir; Başkanvekilleri parti faaliyetlerine katılabilir",
+			"Meclis Başkanı seçildikten sonra partisinden istifa etmek zorundadır"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 94. maddesinin son fıkrasına göre Meclis Başkanı ve Başkanvekilleri, üyesi bulundukları siyasi partinin veya parti grubunun Meclis içindeki veya dışındaki faaliyetlerine ve görevlerinin gereği olan hâller dışında Meclis tartışmalarına katılamaz; Başkan ve oturumu yöneten Başkanvekili oy kullanamaz. Madde partiden istifayı öngörmez.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "94"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"meclis-baskani",
+			"tarafsizlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yasama-065",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 95. maddesine göre Türkiye Büyük Millet Meclisinin bütün bina, tesis, eklenti ve arazisindeki kolluk ve yönetim hizmetleri nasıl yürütülür?",
+		"options": [
+			"Ankara Valiliğince görevlendirilen kolluk birimlerince yürütülür",
+			"Meclis Başkanlığı eliyle düzenlenir ve yürütülür; emniyet ve diğer kolluk hizmetleri için yeteri kadar kuvvet ilgili makamlarca Meclis Başkanlığına tahsis edilir",
+			"Millî Savunma Bakanlığınca görevlendirilen askerî birliklerce yürütülür",
+			"İçişleri Bakanlığına bağlı birimlerce doğrudan yürütülür",
+			"Cumhurbaşkanlığı Genel Sekreterliğince yürütülür"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 95. maddesinin üçüncü fıkrasına göre Türkiye Büyük Millet Meclisinin bütün bina, tesis, eklenti ve arazisinde kolluk ve yönetim hizmetleri Meclis Başkanlığı eliyle düzenlenir ve yürütülür; emniyet ve diğer kolluk hizmetleri için yeteri kadar kuvvet ilgili makamlarca Meclis Başkanlığına tahsis edilir. Bu hüküm yasama organının bağımsızlığının bir güvencesidir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "95"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ictuzuk",
+			"kolluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yasama-066",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 95. maddesine göre Türkiye Büyük Millet Meclisi İçtüzük hükümleri hangi ölçüte göre düzenlenir?",
+		"options": [
+			"Anayasa Mahkemesinin belirleyeceği esaslara göre",
+			"İktidar partisi grubuna öncelik tanıyacak yolda",
+			"Siyasi parti gruplarının Meclisin bütün faaliyetlerine üye sayısı oranında katılmalarını sağlayacak yolda",
+			"Bütün siyasi parti gruplarının eşit sayıda temsil edilmesini sağlayacak yolda",
+			"Cumhurbaşkanının onayına sunulacak biçimde"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 95. maddesinin ikinci fıkrasına göre İçtüzük hükümleri, siyasi parti gruplarının Meclisin bütün faaliyetlerine üye sayısı oranında katılmalarını sağlayacak yolda düzenlenir. Aynı fıkra siyasi parti gruplarının en az yirmi üyeden meydana geleceğini de belirtir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "95"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ictuzuk",
+			"siyasi-parti-gruplari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yasama-067",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 84. maddesine göre istifa eden bir milletvekilinin milletvekilliğinin düşmesi nasıl gerçekleşir?",
+		"options": [
+			"Meclis Başkanının onayıyla gerçekleşir",
+			"İstifa dilekçesinin Meclis Başkanlığına verilmesiyle kendiliğinden gerçekleşir",
+			"Yüksek Seçim Kurulunun kararıyla gerçekleşir",
+			"İstifanın geçerli olduğu Meclis Başkanlık Divanınca tespit edildikten sonra Genel Kurulca kararlaştırılır",
+			"Anayasa Mahkemesinin tespitiyle gerçekleşir"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 84. maddesinin birinci fıkrasına göre istifa eden milletvekilinin milletvekilliğinin düşmesi, istifanın geçerli olduğu Meclis Başkanlık Divanınca tespit edildikten sonra Genel Kurulca kararlaştırılır. Kesin hüküm giyme veya kısıtlanma hâlinde düşme ise kesin mahkeme kararının Genel Kurula bildirilmesiyle olur; bu ikisi karıştırılmamalıdır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "84"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"uyeligin-dusmesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yasama-068",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 98. maddesine göre Meclis soruşturması aşağıdakilerden hangisini ifade eder?",
+		"options": [
+			"Bir bakan hakkında güvensizlik oyu verilerek görevden düşürülmesini",
+			"Milletvekillerinin bakanlara yazılı olarak soru sormasını",
+			"Belli bir konuda bilgi edinmek için yapılan incelemeyi",
+			"Cumhurbaşkanı yardımcıları ve bakanlar hakkında 106. maddenin beşinci, altıncı ve yedinci fıkraları uyarınca yapılan soruşturmayı",
+			"Toplumu ve Devlet faaliyetlerini ilgilendiren belli bir konunun Genel Kurulda görüşülmesini"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 98. maddesine göre Meclis soruşturması, Cumhurbaşkanı yardımcıları ve bakanlar hakkında 106. maddenin beşinci, altıncı ve yedinci fıkraları uyarınca yapılan soruşturmadan ibarettir. Belli bir konuda bilgi edinmek için yapılan inceleme Meclis araştırması, belli bir konunun Genel Kurulda görüşülmesi ise genel görüşmedir. Gensoru 2017 değişikliğiyle Anayasa'dan çıkarılmıştır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "98"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"denetim-yollari",
+			"meclis-sorusturmasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yasama-069",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 161. maddesine göre bütçe kanununun içeriği bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bütçe kanununa, bütçe ile ilgili hükümler dışında hiçbir hüküm konulamaz; harcanabilecek tutarın Cumhurbaşkanlığı kararnamesiyle aşılabileceğine dair hüküm de konulamaz",
+			"Bütçe kanununa hüküm konulmasının sınırı Meclis İçtüzüğüyle belirlenir",
+			"Bütçe kanununa yalnızca vergi ve harçlara ilişkin hükümler konulabilir",
+			"Bütçe kanununa, kabul edildiği yıl içinde uygulanmak şartıyla her konuda hüküm konulabilir",
+			"Harcanabilecek tutarın Cumhurbaşkanlığı kararnamesiyle aşılabileceği bütçe kanununda düzenlenebilir"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 161. maddesine göre bütçe kanununa, bütçe ile ilgili hükümler dışında hiçbir hüküm konulamaz. Aynı madde, merkezî yönetim bütçesiyle verilen ödeneğin harcanabilecek tutarın sınırını gösterdiğini ve bu tutarın Cumhurbaşkanlığı kararnamesiyle aşılabileceğine dair bütçe kanununa hüküm konulamayacağını açıkça belirtir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "161"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"butce"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yasama-070",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yasama",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın 173. maddesine göre Devletin esnaf ve sanatkâra ilişkin ödevi aşağıdakilerden hangisidir?",
+		"options": [
+			"Esnaf ve sanatkârların faaliyetlerini merkezî planlamaya bağlamak",
+			"Esnaf ve sanatkârların kooperatif kurmasını zorunlu tutmak",
+			"Esnaf ve sanatkârı koruyucu ve destekleyici tedbirleri almak",
+			"Esnaf ve sanatkârlara asgari ücret güvencesi sağlamak",
+			"Esnaf ve sanatkârları vergiden tamamen muaf tutmak"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 173. maddesi tek cümledir: Devlet, esnaf ve sanatkârı koruyucu ve destekleyici tedbirleri alır. Kooperatifçiliğin geliştirilmesi 171., tüketicilerin korunması ise 172. maddede düzenlenmiştir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "173"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"esnaf-ve-sanatkarlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

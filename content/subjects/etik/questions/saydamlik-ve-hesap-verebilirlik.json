@@ -1014,5 +1014,350 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-saydam-031",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "4982 sayılı Bilgi Edinme Hakkı Kanunu'na göre Türkiye'de ikamet eden yabancılar ile Türkiye'de faaliyette bulunan yabancı tüzel kişiler bu Kanun'dan hangi şartla yararlanır?",
+		"options": [
+			"Yalnızca Dışişleri Bakanlığının izniyle",
+			"Yabancılar bu Kanun'dan hiçbir şekilde yararlanamaz",
+			"İsteyecekleri bilgi kendileriyle veya faaliyet alanlarıyla ilgili olmak kaydıyla ve karşılıklılık ilkesi çerçevesinde",
+			"Yalnızca Türkiye'de en az beş yıldır ikamet ediyorlarsa",
+			"Hiçbir şart aranmaksızın, Türk vatandaşlarıyla tamamen aynı şekilde"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 4. maddesine göre herkes bilgi edinme hakkına sahiptir; Türkiye'de ikamet eden yabancılar ile Türkiye'de faaliyette bulunan yabancı tüzel kişiler ise isteyecekleri bilgi kendileriyle veya faaliyet alanlarıyla ilgili olmak kaydıyla ve karşılıklılık ilkesi çerçevesinde bu Kanun hükümlerinden yararlanır.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme-hakki",
+			"yabancilar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-saydam-032",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "4982 sayılı Kanun'un uygulama alanı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kanun, dilekçe hakkına ilişkin düzenlemeleri tamamen yürürlükten kaldırmıştır",
+			"Kanun yalnızca merkezî idare kuruluşlarında uygulanır",
+			"Kanun yalnızca özel hukuk tüzel kişilerinin faaliyetlerinde uygulanır",
+			"Kanun, kamu kurumu niteliğindeki meslek kuruluşlarını kapsam dışında bırakmıştır",
+			"Kanun, kamu kurum ve kuruluşları ile kamu kurumu niteliğindeki meslek kuruluşlarının faaliyetlerinde uygulanır; 3071 sayılı Dilekçe Hakkının Kullanılmasına Dair Kanun hükümleri saklıdır"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 2. maddesine göre bu Kanun; kamu kurum ve kuruluşları ile kamu kurumu niteliğindeki meslek kuruluşlarının faaliyetlerinde uygulanır ve 3071 sayılı Dilekçe Hakkının Kullanılmasına Dair Kanun hükümleri saklıdır.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kapsam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-saydam-033",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "4982 sayılı Kanun'a göre erişim için gereken maliyet tutarının idarece başvuru sahibine bildirilmesinin süreye etkisi nedir?",
+		"options": [
+			"Süre durmaz; idare ücret ödenmese de bilgiyi vermek zorundadır",
+			"Süre otuz iş gününe uzar ve ücret ödenmese dahi başvuru işleme devam eder",
+			"Süre kesilmez; ancak ücret ödenmezse başvuru Bilgi Edinme Değerlendirme Kuruluna gönderilir",
+			"Başvuru derhâl reddedilmiş sayılır",
+			"On beş iş günlük süre kesilir; başvuru sahibi on beş iş günü içinde ücreti ödemezse talebinden vazgeçmiş sayılır"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 11. maddesinin ikinci fıkrasına göre 10. maddede belirtilen bilgi veya belgelere erişim için gereken maliyet tutarının idare tarafından başvuru sahibine bildirilmesiyle on beş iş günlük süre kesilir; başvuru sahibi on beş iş günü içinde ücreti ödemezse talebinden vazgeçmiş sayılır.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "11"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"erisim-suresi",
+			"maliyet"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-saydam-034",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "4982 sayılı Kanun'a göre bilgi edinme başvurusunun reddedilmesi hâlinde idare kararında neleri belirtmek zorundadır?",
+		"options": [
+			"Kararın gerekçesini ve buna karşı başvuru yollarını",
+			"Yalnızca ret kararının tarihini ve sayısını",
+			"Ret kararında herhangi bir açıklama yapılması zorunlu değildir",
+			"Yalnızca hangi kanun maddesine dayanıldığını",
+			"Yalnızca başvurunun hangi birimce incelendiğini"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 12. maddesine göre kurum ve kuruluşlar bilgi edinme başvurularıyla ilgili cevaplarını yazılı olarak veya elektronik ortamda başvuru sahibine bildirir; başvurunun reddedilmesi hâlinde bu kararın gerekçesi ve buna karşı başvuru yolları belirtilir. Bu hüküm, Anayasa'nın 40. maddesindeki 'başvurulacak kanun yolları ve sürelerin gösterilmesi' yükümlülüğünün bilgi edinme alanındaki uygulamasıdır.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "12"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"basvurunun-cevaplandirilmasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-saydam-035",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "4982 sayılı Bilgi Edinme Hakkı Kanunu'ndaki tanımlara göre “bilgi veya belgeye erişim” kavramı öncelikle neyi ifade eder?",
+		"options": [
+			"Yalnızca bilgi veya belgenin aslının başvuru sahibine teslim edilmesini",
+			"Belgenin yalnızca ilgili kamu görevlisince incelenmesini",
+			"İstenen bilgi veya belgenin bir kopyasının başvuru sahibine verilmesini; kopya verilmesinin mümkün olmadığı hâllerde ise aslının incelenmesine imkân tanınmasını",
+			"Belgenin kurumun internet sitesinde yayımlanmasını",
+			"Bilgi veya belgenin içeriğinin sözlü olarak açıklanmasını"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 3. maddesinin (e) bendine göre bilgi veya belgeye erişim; istenen bilgi veya belgenin niteliğine göre başvuru sahibine bir kopyasının verilmesini, kopya verilmesinin mümkün olmadığı hâllerde ise başvuru sahibinin bilgi veya belgenin aslını inceleyip not alabilmesini ifade eder. Aynı madde “bilgi”, “belge” ve “başvuru sahibi” kavramlarını da tanımlar.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tanimlar",
+			"bilgiye-erisim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-saydam-036",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "4982 sayılı Kanun'a göre Bilgi Edinme Değerlendirme Kurulu kaç üyeden oluşur ve üyeleri kim tarafından seçilir?",
+		"options": [
+			"Beş üyeden oluşur ve üyeleri kendi aralarından seçilir",
+			"Dokuz üyeden oluşur ve üyeleri Danıştay Genel Kurulunca seçilir",
+			"Yedi üyeden oluşur ve üyeleri Adalet Bakanınca atanır",
+			"Dokuz üyeden oluşur ve üyeleri Cumhurbaşkanınca seçilir",
+			"On bir üyeden oluşur ve üyeleri Türkiye Büyük Millet Meclisince seçilir"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 14. maddesine göre Bilgi Edinme Değerlendirme Kurulu, Yargıtay ve Danıştay genel kurullarının önereceği adaylar, ceza, idare ve anayasa hukuku alanında profesör veya doçent unvanlı kişiler, Türkiye Barolar Birliğinin göstereceği adaylar, en az genel müdür düzeyinde görev yapanlar ve Adalet Bakanının önerisi üzerine Bakanlıkta idarî görevlerde çalışan hâkimler arasından Cumhurbaşkanınca seçilecek dokuz üyeden oluşur. Kurul Başkanı, üyelerce kendi aralarından seçilir.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "14"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-edinme-degerlendirme-kurulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-saydam-037",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "4982 sayılı Kanun'a göre haberleşmenin gizliliği esasını ihlal edecek bilgi veya belgeler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu bilgi ve belgeler on beş iş günü içinde verilmek zorundadır",
+			"Bu bilgi ve belgeler ilgilinin rızasıyla verilebilir",
+			"Bu bilgi ve belgeler yalnızca mahkeme kararıyla verilir",
+			"Bu bilgi ve belgelere erişim Bilgi Edinme Değerlendirme Kurulunun iznine bağlıdır",
+			"Bu bilgi ve belgeler Kanun kapsamı dışındadır"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 22. maddesine göre haberleşmenin gizliliği esasını ihlal edecek bilgi veya belgeler bu Kanun kapsamı dışındadır. Bu, Kanun'un 'Bilgi Edinme Hakkının Sınırları' bölümünde yer alan mutlak nitelikli istisnalardan biridir.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "22"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"istisnalar",
+			"haberlesme-gizliligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-saydam-038",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "4982 sayılı Kanun'a göre fikir ve sanat eserlerine ilişkin yapılacak bilgi edinme başvuruları hakkında ne uygulanır?",
+		"options": [
+			"Başvurular Kültür ve Turizm Bakanlığına devredilir",
+			"Bu başvurular otuz iş günü içinde cevaplandırılır",
+			"İlgili kanun hükümleri uygulanır",
+			"Başvurular hiçbir şekilde işleme konulmaz",
+			"Bu başvurular yalnızca eser sahibinin izniyle cevaplandırılır"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 24. maddesine göre fikir ve sanat eserlerine ilişkin olarak yapılacak bilgi edinme başvuruları hakkında ilgili kanun hükümleri uygulanır. Bu, 5846 sayılı Fikir ve Sanat Eserleri Kanunu'na yapılan bir yollamadır.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "24"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"istisnalar",
+			"fikri-haklar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-saydam-039",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "4982 sayılı Kanun'a göre gizliliği kaldırılmış olan bilgi veya belgelerin durumu nedir?",
+		"options": [
+			"Kanunda belirtilen diğer istisnalar kapsamına girmiyorsa bilgi edinme başvurularına açık hâle gelir",
+			"Gizliliği kaldırılsa dahi hiçbir şekilde bilgi edinme başvurusuna konu olamaz",
+			"Yalnızca kamu görevlilerinin başvurularına açık hâle gelir",
+			"Yalnızca gizliliği kaldıran makamın izniyle verilebilir",
+			"Gizliliğin kaldırılmasından itibaren beş yıl geçmedikçe verilemez"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 28. maddesine göre gizliliği kaldırılmış olan bilgi veya belgeler, bu Kanunda belirtilen diğer istisnalar kapsamına girmiyorsa bilgi edinme başvurularına açık hâle gelir. Gizliliğin kaldırılması tek başına yeterli değildir; belgenin başka bir istisna kapsamında olmaması da gerekir.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "28"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gizlilik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-saydam-040",
+		"subjectId": "etik",
+		"topicId": "etik/saydamlik-ve-hesap-verebilirlik",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "4982 sayılı Kanun'un uygulanmasında ihmali, kusuru veya kastı bulunan kamu görevlileri ile bu Kanunla erişilen bilgi ve belgeler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kanunda kamu görevlileri için herhangi bir yaptırım öngörülmemiştir",
+			"Disiplin cezası uygulanabilmesi için önce ceza mahkûmiyeti gerekir",
+			"Erişilen bilgi ve belgeler her amaçla serbestçe çoğaltılabilir",
+			"İlgililer hakkında yalnızca idarî para cezası uygulanır ve belgeler serbestçe kullanılabilir",
+			"İlgililer hakkında tabi oldukları mevzuattaki disiplin cezaları uygulanır ve erişilen bilgi ve belgeler ticarî amaçla çoğaltılamaz ve kullanılamaz"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 29. maddesine göre bu Kanun'un uygulanmasında ihmali, kusuru veya kastı bulunan memurlar ve diğer kamu görevlileri hakkında, fiillerinin genel hükümler çerçevesinde ceza kovuşturması gerektirmesi hususu saklı kalmak kaydıyla tabi oldukları mevzuatta yer alan disiplin cezaları uygulanır; ayrıca bu Kanunla erişilen bilgi ve belgeler ticarî amaçla çoğaltılamaz ve kullanılamaz.",
+		"legalRef": {
+			"law": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+			"lawId": "4982",
+			"article": "29"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ceza-hukumleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

@@ -1351,5 +1351,352 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-yargi-042",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 139. maddesine göre bir mahkemenin veya kadronun kaldırılması hâlinde hâkim ve savcılar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bir mahkemenin veya kadronun kaldırılması sebebiyle de olsa aylık, ödenek ve diğer özlük haklarından yoksun kılınamazlar",
+			"Bu durumda özlük hakları, Hâkimler ve Savcılar Kurulunun takdirine göre belirlenir",
+			"Kadro kaldırılması hâlinde hâkim ve savcı kendiliğinden emekliye sevk edilir",
+			"Kadrosu kaldırılan hâkim ve savcının aylığı, yeni bir göreve atanıncaya kadar kesilir",
+			"Kadro kaldırılması, hâkimlik teminatının istisnalarından biri olarak Anayasa'da sayılmıştır"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 139. maddesinin birinci fıkrasına göre hâkimler ve savcılar azlolunamaz, kendileri istemedikçe Anayasa'da gösterilen yaştan önce emekliye ayrılamaz ve bir mahkemenin veya kadronun kaldırılması sebebiyle de olsa aylık, ödenek ve diğer özlük haklarından yoksun kılınamaz. İkinci fıkradaki istisnalar meslekten çıkarılmayı gerektiren suçtan hüküm giyme, sağlık durumu ve meslekte kalmanın uygun olmadığına karar verilmesi hâlleridir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "139"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hakimlik-teminati"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yargi-043",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 147. maddesine göre Anayasa Mahkemesi üyeliğinin sona ermesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Her iki hâlde de üyelik kendiliğinden sona erer",
+			"Üyelik yalnızca görev süresinin dolmasıyla sona erer; başka bir sona erme hâli yoktur",
+			"Sağlık sebebiyle sona erme için üye tamsayısının üçte iki çoğunluğu aranır",
+			"Hâkimlik mesleğinden çıkarılmayı gerektiren bir suçtan hüküm giyilmesi hâlinde kendiliğinden; görevin sağlık bakımından yerine getirilemeyeceğinin kesin olarak anlaşılması hâlinde üye tamsayısının salt çoğunluğunun kararıyla sona erer",
+			"Her iki hâlde de üyelik ancak Türkiye Büyük Millet Meclisinin kararıyla sona erer"
+		],
+		"correctIndex": 3,
+		"explanation": "Anayasa'nın 147. maddesinin ikinci fıkrasına göre Anayasa Mahkemesi üyeliği, bir üyenin hâkimlik mesleğinden çıkarılmayı gerektiren bir suçtan dolayı hüküm giymesi hâlinde kendiliğinden; görevini sağlık bakımından yerine getiremeyeceğinin kesin olarak anlaşılması hâlinde ise Anayasa Mahkemesi üye tamsayısının salt çoğunluğunun kararı ile sona erer. Üyeler on iki yıl için seçilir ve altmış beş yaşını doldurunca emekliye ayrılır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "147"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-mahkemesi",
+			"uyeligin-sona-ermesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yargi-044",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 149. maddesine göre Anayasa Mahkemesinin çalışma düzeni bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Mahkeme yalnızca Genel Kurul hâlinde çalışır; bölüm veya daire bulunmaz",
+			"Bireysel başvuruların kabul edilebilirlik incelemesi için komisyon oluşturulamaz",
+			"Bölümler yedi üyeyle, Genel Kurul ise on beş üyenin tamamıyla toplanır",
+			"Genel Kurul en az on iki üye ile toplanır ve kararlarını üçte iki çoğunlukla alır",
+			"Mahkeme iki bölüm ve Genel Kurul hâlinde çalışır; bölümler başkanvekili başkanlığında dört üyenin katılımıyla, Genel Kurul ise Başkanın veya belirleyeceği başkanvekilinin başkanlığında en az on üye ile toplanır"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa'nın 149. maddesine göre Anayasa Mahkemesi iki bölüm ve Genel Kurul hâlinde çalışır; bölümler başkanvekili başkanlığında dört üyenin katılımıyla, Genel Kurul ise Mahkeme Başkanının veya Başkanın belirleyeceği başkanvekilinin başkanlığında en az on üye ile toplanır. Bölümler ve Genel Kurul kararlarını salt çoğunlukla alır; bireysel başvuruların kabul edilebilirlik incelemesi için komisyonlar oluşturulabilir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "149"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-mahkemesi",
+			"calisma-usulu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yargi-045",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 149. maddesine göre aşağıdaki kararlardan hangisinin verilebilmesi için toplantıya katılan üyelerin üçte iki oy çokluğu şarttır?",
+		"options": [
+			"Kanunların iptaline karar verilmesi",
+			"Bireysel başvurularda hak ihlali kararı verilmesi",
+			"Anayasa değişikliğinde iptale, siyasi partilerin kapatılmasına ya da Devlet yardımından yoksun bırakılmasına karar verilmesi",
+			"Cumhurbaşkanlığı kararnamelerinin iptaline karar verilmesi",
+			"Yüce Divan sıfatıyla mahkûmiyet kararı verilmesi"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 149. maddesinin son fıkrasına göre Anayasa değişikliğinde iptale, siyasi partilerin kapatılmasına ya da Devlet yardımından yoksun bırakılmasına karar verilebilmesi için toplantıya katılan üyelerin üçte iki oy çokluğu şarttır. Bunun dışındaki kararlar salt çoğunlukla alınır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "149"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-mahkemesi",
+			"nitelikli-cogunluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yargi-046",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 153. maddesine göre Anayasa Mahkemesinin iptal kararlarının niteliği bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"İptal kararları gerekçesi yazılmadan da açıklanabilir",
+			"Mahkeme, bir kanunun veya Cumhurbaşkanlığı kararnamesinin tamamını ya da bir hükmünü iptal ederken kanun koyucu gibi hareketle yeni bir uygulamaya yol açacak biçimde hüküm tesis edemez",
+			"Mahkeme iptal ettiği hükmün yerine geçecek yeni bir düzenleme yapabilir",
+			"İptal kararları, kararın verildiği tarihten itibaren geriye yürür",
+			"İptal kararları yalnızca yargı organlarını bağlar; idare makamlarını bağlamaz"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 153. maddesine göre Anayasa Mahkemesi, bir kanun veya Cumhurbaşkanlığı kararnamesinin tamamını veya bir hükmünü iptal ederken kanun koyucu gibi hareketle yeni bir uygulamaya yol açacak biçimde hüküm tesis edemez. Aynı madde kararların kesin olduğunu, iptal kararlarının gerekçesi yazılmadan açıklanamayacağını, geriye yürümeyeceğini ve kararların yasama, yürütme ve yargı organları ile idare makamlarını, gerçek ve tüzelkişileri bağlayacağını belirtir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "153"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-mahkemesi",
+			"iptal-karari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yargi-047",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 153. maddesine göre Anayasa Mahkemesi iptal hükmünün yürürlüğe gireceği tarihi ayrıca kararlaştırdığında bu tarih en çok ne kadar sonrası olabilir?",
+		"options": [
+			"Kararın Resmî Gazetede yayımlandığı günden başlayarak doksan gün",
+			"Süre sınırı yoktur; erteleme süresini Mahkeme serbestçe belirler",
+			"Kararın Resmî Gazetede yayımlandığı günden başlayarak bir yıl",
+			"Kararın Resmî Gazetede yayımlandığı günden başlayarak altı ay",
+			"Kararın verildiği tarihten başlayarak iki yıl"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 153. maddesine göre gereken hâllerde Anayasa Mahkemesi iptal hükmünün yürürlüğe gireceği tarihi ayrıca kararlaştırabilir; bu tarih, kararın Resmî Gazetede yayımlandığı günden başlayarak bir yılı geçemez. Erteleme hâlinde Türkiye Büyük Millet Meclisi, doğan hukuki boşluğu dolduracak kanun teklifini öncelikle görüşüp karara bağlar.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "153"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-mahkemesi",
+			"yururluk"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yargi-048",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 154. maddesine göre Yargıtay Birinci Başkanı, birinci başkanvekilleri ve daire başkanları nasıl seçilir?",
+		"options": [
+			"Hâkimler ve Savcılar Kurulunca beş yıl için seçilir",
+			"Kendi üyeleri arasından Yargıtay Genel Kurulunca üye tamsayısının salt çoğunluğu ve gizli oyla dört yıl için seçilir",
+			"Cumhurbaşkanınca doğrudan atanır",
+			"Kıdem sırasına göre kendiliğinden belirlenir",
+			"Türkiye Büyük Millet Meclisince gizli oyla seçilir"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 154. maddesine göre Yargıtay Birinci Başkanı, birinci başkanvekilleri ve daire başkanları kendi üyeleri arasından Yargıtay Genel Kurulunca üye tamsayısının salt çoğunluğu ve gizli oyla dört yıl için seçilir; süresi bitenler yeniden seçilebilir. Yargıtay üyeleri ise Hâkimler ve Savcılar Kurulunca seçilir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "154"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yargitay"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yargi-049",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 154. maddesine göre Yargıtay Cumhuriyet Başsavcısı ve Cumhuriyet Başsavcıvekili nasıl seçilir?",
+		"options": [
+			"Türkiye Büyük Millet Meclisince gösterilen adaylar arasından Cumhurbaşkanınca seçilir",
+			"Yargıtay Genel Kurulunun kendi üyeleri arasından gizli oyla belirleyeceği beşer aday arasından Cumhurbaşkanı tarafından dört yıl için seçilir",
+			"Doğrudan Hâkimler ve Savcılar Kurulunca beş yıl için seçilir",
+			"Yargıtay Genel Kurulunca kendi üyeleri arasından altı yıl için seçilir",
+			"Adalet Bakanının teklifi üzerine Cumhurbaşkanınca süresiz olarak atanır"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 154. maddesine göre Yargıtay Cumhuriyet Başsavcısı ve Cumhuriyet Başsavcıvekili, Yargıtay Genel Kurulunun kendi üyeleri arasından gizli oyla belirleyeceği beşer aday arasından Cumhurbaşkanı tarafından dört yıl için seçilir; süresi bitenler yeniden seçilebilir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "154"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yargitay",
+			"bassavci"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yargi-050",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 155. maddesine göre Danıştay, kamu hizmetleri ile ilgili imtiyaz şartlaşma ve sözleşmeleri hakkında düşüncesini hangi süre içinde bildirir?",
+		"options": [
+			"Bir ay",
+			"On beş gün",
+			"İki ay",
+			"Üç ay",
+			"Altı ay"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 155. maddesinin ikinci fıkrasına göre Danıştay; davaları görmek, kamu hizmetleri ile ilgili imtiyaz şartlaşma ve sözleşmeleri hakkında iki ay içinde düşüncesini bildirmek, idari uyuşmazlıkları çözmek ve kanunla gösterilen diğer işleri yapmakla görevlidir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "155"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"danistay"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-yargi-051",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/yargi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 155. maddesine göre Danıştay Başkanı, Başsavcı, başkanvekilleri ve daire başkanlarının seçimi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Cumhurbaşkanınca beş yıl için atanır",
+			"Hâkimler ve Savcılar Kurulunca dört yıl için seçilir",
+			"Kendi üyeleri arasından Danıştay Genel Kurulunca üye tamsayısının salt çoğunluğu ve gizli oyla dört yıl için seçilir",
+			"Danıştay üyelerinin tamamı gibi dörtte üçü Kurulca, dörtte biri Cumhurbaşkanınca seçilir",
+			"Adalet Bakanının teklifi üzerine Türkiye Büyük Millet Meclisince seçilir"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın 155. maddesine göre Danıştay Başkanı, Başsavcı, başkanvekilleri ve daire başkanları kendi üyeleri arasından Danıştay Genel Kurulunca üye tamsayısının salt çoğunluğu ve gizli oyla dört yıl için seçilir. Danıştay üyelerinin dörtte üçü Hâkimler ve Savcılar Kurulunca, dörtte biri ise Cumhurbaşkanınca seçilir; bu iki husus karıştırılmamalıdır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "155"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"danistay",
+			"uye-secimi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

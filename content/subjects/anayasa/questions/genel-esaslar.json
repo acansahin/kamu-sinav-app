@@ -1346,5 +1346,349 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "anayasa-genel-041",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın Başlangıç kısmına göre kuvvetler ayrımı nasıl nitelendirilmiştir?",
+		"options": [
+			"Organlar arasında kesin bir ayrılığı ve hiçbir şekilde işbirliği yapılamamasını ifade eder",
+			"Devlet organları arasında üstünlük sıralaması anlamına gelmeyip, belli Devlet yetki ve görevlerinin kullanılmasından ibaret ve bununla sınırlı medeni bir işbölümü ve işbirliğidir; üstünlük ancak Anayasa ve kanunlardadır",
+			"Yürütmenin diğer organlar üzerindeki önceliğini ifade eder",
+			"Yargı organının diğer iki organ üzerindeki denetim üstünlüğünü ifade eder",
+			"Yasama organının diğer organlar karşısındaki üstünlüğünü ifade eder"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın Başlangıç kısmında kuvvetler ayrımının, Devlet organları arasında üstünlük sıralaması anlamına gelmeyip belli Devlet yetki ve görevlerinin kullanılmasından ibaret ve bununla sınırlı medeni bir işbölümü ve işbirliği olduğu, üstünlüğün ancak Anayasa ve kanunlarda bulunduğu belirtilmiştir. 176. maddeye göre Başlangıç kısmı Anayasa metnine dâhildir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "Başlangıç"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"baslangic",
+			"kuvvetler-ayriligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-genel-042",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın Başlangıç kısmında laiklik ilkesinin gereği olarak aşağıdakilerden hangisi belirtilmiştir?",
+		"options": [
+			"Dini kurumların Devlet bütçesinden desteklenemeyeceği",
+			"Devletin resmî bir dininin bulunduğu",
+			"Din görevlilerinin siyasi partilere üye olabileceği",
+			"Din eğitiminin tamamen serbest bırakıldığı",
+			"Kutsal din duygularının Devlet işlerine ve politikaya kesinlikle karıştırılamayacağı"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa'nın Başlangıç kısmında, laiklik ilkesinin gereği olarak kutsal din duygularının Devlet işlerine ve politikaya kesinlikle karıştırılamayacağı ifade edilmiştir. Aynı paragraf hiçbir faaliyetin Türk millî menfaatlerinin, Türk varlığının ve Atatürk milliyetçiliği ile ilke ve inkılaplarının karşısında korunma göremeyeceğini de belirtir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "Başlangıç"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"baslangic",
+			"laiklik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-genel-043",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Anayasa'nın Başlangıç kısmında yer alan ve Türk dış politikasının temel ilkelerinden biri sayılan Atatürk'e ait söz aşağıdakilerden hangisidir?",
+		"options": [
+			"Hayatta en hakiki mürşit ilimdir",
+			"Egemenlik kayıtsız şartsız Milletindir",
+			"Yurtta sulh, cihanda sulh",
+			"Ne mutlu Türküm diyene",
+			"Türkiye Cumhuriyeti şeyhler, dervişler ülkesi olamaz"
+		],
+		"correctIndex": 2,
+		"explanation": "Anayasa'nın Başlangıç kısmında, Türk vatandaşlarının 'Yurtta sulh, cihanda sulh' arzu ve inancı içinde huzurlu bir hayat talebine hakları bulunduğu belirtilmiştir. Bu ibare doğrudan Başlangıç metninde geçer ve Başlangıç, 176. maddeye göre Anayasa metnine dâhildir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "Başlangıç"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"baslangic"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-genel-044",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 174. maddesindeki koruma, inkılap kanunlarının hangi hükümleri bakımından geçerlidir?",
+		"options": [
+			"Anayasanın halkoyu ile kabul edildiği tarihte yürürlükte bulunan hükümleri bakımından",
+			"Bu kanunların kabul edildikleri tarihteki ilk hâlleri bakımından",
+			"Yalnızca laiklikle doğrudan ilgili hükümleri bakımından",
+			"Bu kanunların bugün yürürlükte olan bütün hükümleri bakımından",
+			"Türkiye Büyük Millet Meclisinin belirleyeceği hükümler bakımından"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 174. maddesine göre Anayasanın hiçbir hükmü, maddede sayılan inkılap kanunlarının 'Anayasanın halkoyu ile kabul edildiği tarihte yürürlükte bulunan hükümlerinin' Anayasaya aykırı olduğu şeklinde anlaşılamaz ve yorumlanamaz. Koruma bu tarihe göre dondurulmuştur; sonradan yapılan değişiklikler bu korumadan yararlanmaz.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "174"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"inkilap-kanunlari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-genel-045",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Anayasa'nın 175. maddesine göre Cumhurbaşkanının geri gönderdiği bir Anayasa değişikliği kanunu Meclisçe aynen kabul edilirse ne olur?",
+		"options": [
+			"Meclis, geri gönderilen kanunu üye tamsayısının üçte iki çoğunluğu ile aynen kabul ederse Cumhurbaşkanı bu kanunu halkoyuna sunabilir",
+			"Kanun kendiliğinden halkoyuna sunulur; Cumhurbaşkanının takdir yetkisi yoktur",
+			"Kanun doğrudan yürürlüğe girer; Cumhurbaşkanının başka bir yetkisi kalmaz",
+			"Cumhurbaşkanı kanunu bir kez daha geri gönderebilir",
+			"Kanun, Anayasa Mahkemesinin onayına sunulur"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 175. maddesine göre Cumhurbaşkanı Anayasa değişikliklerine ilişkin kanunları bir daha görüşülmek üzere Meclise geri gönderebilir; Meclis geri gönderilen kanunu üye tamsayısının üçte iki çoğunluğu ile aynen kabul ederse Cumhurbaşkanı bu kanunu halkoyuna sunabilir. Beşte üç ile üçte ikiden az oyla kabul edilen kanun ise iade edilmediği takdirde halkoyuna sunulmak üzere Resmî Gazetede yayımlanır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "175"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-degisikligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-genel-046",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 175. maddesine göre halkoyuna sunulan bir Anayasa değişikliği kanununun yürürlüğe girebilmesi için aranan çoğunluk nedir?",
+		"options": [
+			"Kullanılan geçerli oyların beşte üçünün kabul oyu olması",
+			"Halkoylamasında kullanılan geçerli oyların yarısından çoğunun kabul oyu olması",
+			"Seçmen sayısının salt çoğunluğunun kabul oyu olması",
+			"Halkoylamasına katılım oranının en az yüzde altmış olması ve kabul oylarının çoğunlukta olması",
+			"Kullanılan geçerli oyların üçte ikisinin kabul oyu olması"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 175. maddesine göre halkoyuna sunulan Anayasa değişikliklerine ilişkin kanunların yürürlüğe girmesi için halkoylamasında kullanılan geçerli oyların yarısından çoğunun kabul oyu olması gerekir. Katılım oranı bakımından bir asgari şart öngörülmemiştir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "175"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-degisikligi",
+			"halkoylamasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-genel-047",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 175. maddesine göre bir Anayasa değişikliği kanununun halkoylamasına sunulması hâlinde, değiştirilen hükümlerden hangilerinin birlikte hangilerinin ayrı ayrı oylanacağına kim karar verir?",
+		"options": [
+			"Cumhurbaşkanı, halkoyuna sunma kararıyla birlikte belirler",
+			"Türkiye Büyük Millet Meclisi, kanunun kabulü sırasında karara bağlar",
+			"Anayasa Mahkemesi belirler",
+			"Yüksek Seçim Kurulu belirler",
+			"Meclis Başkanlık Divanı belirler"
+		],
+		"correctIndex": 1,
+		"explanation": "Anayasa'nın 175. maddesine göre Türkiye Büyük Millet Meclisi, Anayasa değişikliklerine ilişkin kanunların kabulü sırasında, bu kanunun halkoylamasına sunulması hâlinde değiştirilen hükümlerden hangilerinin birlikte hangilerinin ayrı ayrı oylanacağını da karara bağlar.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "175"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-degisikligi",
+			"halkoylamasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-genel-048",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Anayasa'nın 2. maddesindeki Cumhuriyetin nitelikleri sayılırken Başlangıç kısmına yapılan atıf bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Türkiye Cumhuriyeti, Atatürk milliyetçiliğine bağlı ve Başlangıçta belirtilen temel ilkelere dayanan bir devlettir",
+			"2. madde Başlangıç kısmını yalnızca dış politika bakımından esas alır",
+			"Başlangıçta belirtilen ilkeler yalnızca yorum aracıdır; 2. madde bunlara dayanmaz",
+			"Başlangıç kısmına yapılan atıf yalnızca laiklik ilkesiyle sınırlıdır",
+			"Başlangıç kısmı 2. maddede anılmaz; yalnızca 176. maddede geçer"
+		],
+		"correctIndex": 0,
+		"explanation": "Anayasa'nın 2. maddesine göre Türkiye Cumhuriyeti; toplumun huzuru, millî dayanışma ve adalet anlayışı içinde, insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, Başlangıçta belirtilen temel ilkelere dayanan demokratik, laik ve sosyal bir hukuk devletidir. Başlangıç kısmı 176. maddeye göre Anayasa metnine dâhil olduğundan bu atıf hukuki bağlayıcılık taşır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhuriyetin-nitelikleri",
+			"baslangic"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-genel-049",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1961 Anayasası ile Türk anayasa düzenine getirilen yenilikler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Cumhuriyet Senatosu 1982 Anayasası ile kurulmuştur",
+			"Anayasa Mahkemesi ilk kez 1924 Anayasası ile kurulmuştur",
+			"1961 Anayasası halkoylamasına sunulmadan yürürlüğe girmiştir",
+			"Yasama organı tek meclisli olarak korunmuş, Anayasa Mahkemesi ise kurulmamıştır",
+			"Yasama organı Millet Meclisi ve Cumhuriyet Senatosu olmak üzere iki meclisli hâle getirilmiş ve Anayasa Mahkemesi ilk kez kurulmuştur"
+		],
+		"correctIndex": 4,
+		"explanation": "1961 Anayasası, yasama organını Millet Meclisi ve Cumhuriyet Senatosundan oluşan iki meclisli bir yapıya kavuşturmuş; anayasa yargısını Türk hukukuna kazandırarak Anayasa Mahkemesini ilk kez kurmuştur. Cumhuriyet Senatosu 1982 Anayasası ile kaldırılmış ve tek meclisli yapıya dönülmüştür.",
+		"legalRef": {
+			"law": "1961 Anayasası (334 sayılı Türkiye Cumhuriyeti Anayasası)",
+			"lawId": "2709"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-tarihi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "anayasa-genel-050",
+		"subjectId": "anayasa",
+		"topicId": "anayasa/genel-esaslar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1982 Anayasası'nın kabul süreci bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Türkiye Büyük Millet Meclisince kabul edilmiş ve halkoylamasına sunulmadan yürürlüğe girmiştir",
+			"Kurucu Meclis tarafından halkoylamasına sunulmak üzere kabul edilmiş ve 7 Kasım 1982'de yapılan halkoylaması sonucunda kabul edilmiştir",
+			"1980 yılında yapılan halkoylamasıyla kabul edilmiştir",
+			"Cumhurbaşkanınca kararname ile yürürlüğe konulmuştur",
+			"Danışma Meclisi tarafından hazırlanmış ancak halkoylamasında reddedilmiş, ikinci oylamada kabul edilmiştir"
+		],
+		"correctIndex": 1,
+		"explanation": "1982 Anayasası, Kurucu Meclis tarafından 18/10/1982 tarihinde halkoylamasına sunulmak üzere kabul edilmiş, 20/10/1982 tarihli Resmî Gazete'de yayımlanmış ve 7/11/1982'de halkoylamasına sunulduktan sonra 9/11/1982 tarihli Mükerrer Resmî Gazete'de yeniden yayımlanmıştır. 1987, 2010 ve 2017 yıllarındaki kapsamlı değişiklikler de halkoylamasıyla kabul edilmiştir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "Başlangıç"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-tarihi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]
