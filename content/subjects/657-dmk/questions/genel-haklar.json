@@ -2365,5 +2365,40 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-hak-071",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-haklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 122. maddesine göre, somut olaylara ve verilere dayalı olarak katkı sağladığı tespit edilen memurlara başarı belgesi vermeye yetkili merciler aşağıdakilerin hangisinde birlikte ve doğru olarak verilmiştir?",
+		"options": [
+			"Yalnızca memurun atamaya yetkili amiri",
+			"Merkezde Cumhurbaşkanı, illerde valiler, ilçelerde kaymakamlar",
+			"Merkezde bağlı veya ilgili bakan; illerde ve ilçelerde ise yalnızca kurumun en üst amiri",
+			"Yalnızca merkezde bağlı veya ilgili bakan",
+			"Merkezde bağlı veya ilgili bakan, illerde valiler, ilçelerde kaymakamlar"
+		],
+		"correctIndex": 4,
+		"explanation": "122. maddeye göre başarı belgesi; merkezde bağlı veya ilgili bakan, illerde valiler, ilçelerde kaymakamlar tarafından verilebilir. Yetki bu üç merci ile sınırlıdır — atamaya yetkili amir sıfatı tek başına başarı belgesi verme yetkisi doğurmaz ve yetki yalnızca merkezle sınırlı değildir. Üç defa başarı belgesi alanlara üstün başarı belgesi verilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "122"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (madde boşluğu)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"odul",
+			"basari-belgesi",
+			"madde-122"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

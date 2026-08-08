@@ -1320,5 +1320,40 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-odev-040",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/odevler-ve-sorumluluklar",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 'Ödevler ve Sorumluluklar' kısmında düzenlenen konular ile 'Genel Haklar' kısmında düzenlenen konular birbirinden farklıdır. Aşağıdakilerden hangisi memurun bir ödevi olarak değil, bir genel hakkı olarak düzenlenmiştir?",
+		"options": [
+			"Uygulamayı isteme",
+			"Sadakat",
+			"Davranış ve işbirliği",
+			"Mal bildirimi",
+			"Basına bilgi veya demeç verme"
+		],
+		"correctIndex": 0,
+		"explanation": "Sadakat (md. 6), davranış ve işbirliği (md. 8), mal bildirimi (md. 14) ile basına bilgi veya demeç verme (md. 15) Kanun'un Ödevler ve Sorumluluklar kısmında yer alan yükümlülüklerdir. Uygulamayı isteme ise 17. maddede Genel Haklar kısmında düzenlenmiştir: Devlet memurları, bu Kanun ve bu Kanuna dayanılarak yayımlanan tüzük ve yönetmeliklere göre tayin ve tespit olunup yürürlükte bulunan hükümlerin kendileri hakkında aynen uygulanmasını isteme hakkına sahiptir. Yükümlülük değil, memurun idareye karşı ileri sürebileceği bir haktır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "6-17"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı (ödev-hak sınırı)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"odevler",
+			"genel-haklar",
+			"madde-17"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]
