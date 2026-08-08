@@ -251,6 +251,21 @@ export function konusmaMetni(ham: string): string {
 		`$1${DURAK_ISARETI}`,
 	);
 
+	// 14c — BOŞLUKLU düz tire: "istihdam şekli üçtür - 4/A memur".
+	//
+	//       En sık karşılaşılan biçim BUYDU ve uzun süre hiçbir kural onu
+	//       yakalamıyordu: 8. adım iki yanında da RAKAM, 14b iki yanında da
+	//       BOŞLUKSUZ HARF arıyor. Harf–boşluk–tire–boşluk–rakam ikisine de
+	//       uymuyordu, dolayısıyla tire olduğu gibi motora gidiyordu.
+	//
+	//       İki yanındaki boşluk bu tireyi tek başına belirsizlikten çıkarır:
+	//       boşlukla ayrılmış bir tire birleşik sözcük olamaz, her zaman
+	//       noktalamadır. Bu yüzden kural geniş tutulabilir.
+	//
+	//       8. adımdan SONRA olmalı: "2.000 - 20.000" bir aralıktır ve "ila"
+	//       okunmalıdır, duraklama değil.
+	metin = metin.replace(/\s+-\s+/g, DURAK_ISARETI);
+
 	// 15 — Parantez içindeki fıkra/bent harfleri.
 	//
 	//      İki biçim var ve ikisi de gerçek içerikten: "(C) fıkrası" ve

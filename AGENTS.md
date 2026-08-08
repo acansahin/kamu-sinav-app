@@ -335,6 +335,16 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   Ölçek bu kuralı güvenli kılar: ölçüldü, 30 özette 159 durak = özet başına
   ortalama 5,3.
 
+  Üç biçim üç ayrı kural ister ve **en sık olanı en son fark edildi**:
+  rakam–rakam aralıktır ("ila", 8. adım), boşluksuz harf–harf birleşik
+  sözcüktür (14b), **boşluklu tire** ise noktalamadır (14c). Sonuncusu uzun
+  süre hiçbir kurala uymadı — "üçtür - 4/A" harf–boşluk–tire–boşluk–rakam
+  olduğu için ilk ikisi de kaçırıyordu ve tire olduğu gibi motora gidiyordu.
+
+  ⚠️ **`keyPoints` DE seslendirilir.** "Bir bakışta" kartı frontmatter'dan
+  gelir; içeriği tarayan bir betik frontmatter'ı atarsa bu metni hiç görmez.
+  Kaçırılan tirelerin çoğu tam olarak orada duruyordu.
+
   ⚠️ Harf kuralında **solda en az iki harf şartı ZORUNLU**: "e-posta" ve
   "e-Yazışma" tek harfli öneklerdir ve kural onlara uygulanırsa "e, posta" diye
   okunurlar — düzeltilenden fazlası bozulur. `TURKCE_HARF` sınıfında şapkalı

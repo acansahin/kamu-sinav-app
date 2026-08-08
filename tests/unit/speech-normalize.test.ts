@@ -110,6 +110,27 @@ describe("kesirler ve aralıklar", () => {
 		expect(konusmaMetni("maddeler 503-510")).toBe("maddeler 503 ila 510");
 	});
 
+	/**
+	 * REGRESYON — en sık biçim BUYDU ve uzun süre hiçbir kural yakalamıyordu.
+	 *
+	 * `657-dmk/genel-hukumler.mdx` keyPoints'ten (cihazda bildirilen örnek).
+	 * 8. adım iki yanında da RAKAM, 14b iki yanında da BOŞLUKSUZ HARF arıyor;
+	 * harf–boşluk–tire–boşluk–rakam ikisine de uymuyor ve tire olduğu gibi
+	 * motora gidiyordu.
+	 */
+	it("boşluklu tire ayrı parça doğurur", () => {
+		expect(
+			seslendirmeParcalari("istihdam şekli üçtür - 4/A memur"),
+		).toEqual(["istihdam şekli üçtür", "4 a memur"]);
+	});
+
+	/** Boşluklu tire ARALIK ise duraklama değil "ila" olmalı — 8. adım önce. */
+	it("boşluklu tire rakamlar arasındaysa aralık kalır", () => {
+		expect(seslendirmeParcalari("Kasaba 2.000 - 20.000 arası")).toEqual([
+			"Kasaba 2.000 ila 20.000 arası",
+		]);
+	});
+
 	it("birleşik sözcük tiresi de ayrı parça doğurur", () => {
 		expect(seslendirmeParcalari("Valinin giriş-çıkış sınırlaması")).toEqual([
 			"Valinin giriş",
