@@ -28,9 +28,19 @@ export interface DataController {
 	verbis?: string;
 }
 
+/*
+ * Hesap özelliği kapalı yayımlandığı için yalnızca `email` doldurulmuştur;
+ * `isPrivacyNoticePublishable` bu derlemede fazlasını istemez. Ad ve tebligat
+ * adresi bilinçli olarak boştur — Supabase anahtarı eklenip hesap açıldığı
+ * gün /gizlilik sayfası uyarıyı kendiliğinden geri getirir ve ikisi o zaman
+ * doldurulur.
+ *
+ * Bu adres aynı zamanda Play Console'daki geliştirici iletişim e-postasıdır;
+ * ikisi ayrışmamalıdır (store/README.md, "Console'da elle yapılacaklar" §2).
+ */
 export const DATA_CONTROLLER: DataController = {
 	name: "",
-	email: "",
+	email: "kamusinavakademi@gmail.com",
 	address: "",
 };
 
