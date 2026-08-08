@@ -94,8 +94,26 @@ Kabul kriteri olan senaryolar:
 ### Manifest ve boyut kontrolü
 
 - `com.android.vending.BILLING` izni depodaki manifestte yazılı değildir;
-  Billing AAR'ından manifest merge ile gelir. Derlemeden sonra
-  `android/app/build/outputs/logs/manifest-merger-release-report.txt` içinde
-  doğrulanmalıdır — `data-safety.md`'deki izin beyanının dayanağı budur.
+  Billing AAR'ından manifest merge ile gelir. **Merger raporuna bakmayın** —
+  `android/app/build/outputs/logs/` runner'da kalır, artifact olarak
+  yüklenmez. İzinler indirilen AAB'den okunur:
+
+  ```bash
+  unzip -q app-release.aab -d x && grep -a -o "android.permission.[A-Z_]*\|com.android.vending.[A-Z_]*" x/base/manifest/AndroidManifest.xml | sort -u
+  ```
+
+  Çıkan liste `data-safety.md`'deki izin tablosuyla birebir tutmalıdır;
+  tutmuyorsa önce o tablo güncellenir, sonra Console formu doldurulur.
+- İmzanın gerçekten atıldığı da AAB'den doğrulanır. Gradle, keystore yoksa
+  imzasız paketi **sessizce** üretir ve bu ancak Play yüklemeyi reddedince
+  fark edilir:
+
+  ```bash
+  jarsigner -verify -verbose:summary app-release.aab
+  ```
+
+  `jar verified.` görmeniz gerekir; çıktının sonundaki sertifika bitiş tarihi
+  de Google'ın eşiği olan 2033'ün ötesinde olmalıdır.
 - `minifyEnabled false` olduğu için `billing:8.3.0` + `guava` budanmadan girer.
-  AAB boyutunu satın alma öncesi/sonrası karşılaştırın.
+  AAB boyutunu satın alma öncesi/sonrası karşılaştırın. Ölçüm: ilk imzalı
+  AAB **16,2 MB** (8 Ağustos 2026, run 31273321559).

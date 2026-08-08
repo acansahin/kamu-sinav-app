@@ -38,14 +38,36 @@ Billing kütüphanesini kullanır. Play'in veri güvenliği tanımına göre bu
 
 ## Beyanı destekleyen olgular
 
-- **Ağ izni:** `AndroidManifest.xml` yalnızca `android.permission.INTERNET`
-  ister. Kamera, konum, rehber, depolama, bildirim izni yoktur.
-- **Faturalandırma izni:** `com.android.vending.BILLING` izni depodaki manifest
-  dosyasında yazılı değildir; Play Billing kütüphanesinin AAR'ından **manifest
-  merge** ile gelir. Yayın derlemesinden sonra
-  `android/app/build/outputs/logs/manifest-merger-release-report.txt` içinde
-  doğrulanmalıdır. Bu izin ödeme akışı için gereklidir ve kişisel veriye
-  erişim sağlamaz.
+- **İzinler:** Depodaki `AndroidManifest.xml` yalnızca
+  `android.permission.INTERNET` ister, ama Console'a beyan edilen liste
+  **birleşmiş** manifesttir; kütüphaneler kendi izinlerini merge ile ekler.
+  8 Ağustos 2026'da üretilen ilk imzalı AAB'de (run 31273321559) bulunan tam
+  liste:
+
+  | İzin | Nereden | Neden zararsız |
+  |---|---|---|
+  | `INTERNET` | depodaki manifest | Uygulama çevrimdışı çalışır; ağ yalnızca Play Billing ve içerik indirmesi içindir. |
+  | `ACCESS_NETWORK_STATE` | Play Billing / Play Services | Bağlantı durumunu okur, veri toplamaz. |
+  | `BIND_JOB_SERVICE` | Play Services datatransport | Sistemin JobScheduler'a bağlanmasını sağlar; uygulama iş planlamaz. |
+  | `DUMP` | Play Services | Normal uygulamalara **verilmez** (imza/ayrıcalık düzeyi); beyan edilmiş olması erişim doğurmaz. |
+  | `com.android.vending.BILLING` | Play Billing AAR | Ödeme akışı için gerekli; kişisel veriye erişim sağlamaz. |
+
+  **Kamera, konum, mikrofon, rehber, depolama ve bildirim izni yoktur.**
+
+- **Konum kütüphanesi var, konum erişimi yok:** Pakette Billing'in geçişli
+  bağımlılıkları olarak `play-services-location` 19.0.0 ve
+  `play-services-places-placereport` 17.0.0 bulunur. Kütüphanenin **pakette
+  bulunması** ile konuma **erişebilmesi** ayrı şeylerdir: konum izni
+  istenmediği için Android bu kütüphanelere hiçbir konum vermez. Formdaki
+  "konum toplanmıyor" cevabı bu yüzden doğrudur. Denetim gelirse dayanak
+  budur; kütüphaneleri kaldırmak Billing'i kırar.
+
+  Doğrulama, merger raporuna değil **paketin kendisine** bakılarak yapılır —
+  rapor CI artifact'i olarak yüklenmiyor, AAB ise yükleniyor:
+
+  ```bash
+  unzip -q app-release.aab -d x && grep -a -o "android.permission.[A-Z_]*\|com.android.vending.[A-Z_]*" x/base/manifest/AndroidManifest.xml | sort -u
+  ```
 - **Analiz aracı yok:** Depoda Firebase, Google Analytics, Crashlytics, Sentry
   veya benzeri bir bağımlılık bulunmaz. `google-services.json` dosyası yoktur.
 - **Reklam yok:** Reklam SDK'sı bulunmaz, reklam kimliği okunmaz.
