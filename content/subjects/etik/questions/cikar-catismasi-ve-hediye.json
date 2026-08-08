@@ -1001,5 +1001,352 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-cikar-031",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir kamu görevlisinin, akrabası lehine menfaat sağlanması için başka bir birim nezdinde aracılık yapması Etik Davranış İlkeleri Yönetmeliği bakımından nasıl değerlendirilir?",
+		"options": [
+			"Bu davranış yalnızca disiplin hukukunu ilgilendirir; etik ilkelerde karşılığı yoktur",
+			"Menfaati kendisi sağlamadığı için ilkeye aykırılık yoktur",
+			"Kamu görevlileri kendileri, yakınları veya üçüncü kişiler lehine menfaat sağlayamayacağı gibi bu konuda aracılıkta da bulunamaz; akraba kayırmacılığı açıkça yasaklanmıştır",
+			"Aracılık, yalnızca maddi bir çıkar elde edilmişse yasaktır",
+			"Yakınlar lehine aracılık, amire bildirilmesi şartıyla serbesttir"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmeliğin 14. maddesinin birinci fıkrasına göre kamu görevlileri; görev, unvan ve yetkilerini kullanarak kendileri, yakınları veya üçüncü kişiler lehine menfaat sağlayamaz ve aracılıkta bulunamaz, akraba, eş, dost ve hemşehri kayırmacılığı, siyasal kayırmacılık veya herhangi bir nedenle ayrımcılık veya kayırmacılık yapamazlar. Menfaatin kimin lehine sağlandığı ve bir çıkar elde edilip edilmediği sonucu değiştirmez.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "14",
+			"clause": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kayirmacilik",
+			"menfaat"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-cikar-032",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'ne göre kamu görevlilerinin görev, unvan ve yetkilerini kullanarak yapamayacakları işler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kendilerinin veya başkalarının kitap, dergi, kaset, CD ve benzeri ürünlerinin satış ve dağıtımını yaptıramaz; herhangi bir kurum, vakıf, dernek veya spor kulübüne yardım, bağış ve benzeri nitelikte menfaat sağlayamazlar",
+			"Yalnızca kendi ürünlerinin satışını yaptıramazlar; başkalarının ürünleri bu kapsamda değildir",
+			"Spor kulüplerine yapılan yardımlar, kurum bütçesinden karşılanmamak şartıyla serbesttir",
+			"Kamu yararına çalışan derneklere bağış sağlanması bu yasağın dışındadır",
+			"Bu konuda Yönetmelikte bir sınırlama yoktur; konu 657 sayılı Kanun'a bırakılmıştır"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmeliğin 14. maddesinin ikinci fıkrasına göre kamu görevlileri, görev, unvan ve yetkilerini kullanarak kendilerinin veya başkalarının kitap, dergi, kaset, CD ve benzeri ürünlerinin satışını ve dağıtımını yaptıramaz; herhangi bir kurum, vakıf, dernek veya spor kulübüne yardım, bağış ve benzeri nitelikte menfaat sağlayamazlar. Fıkrada kamu yararına çalışan kuruluşlar için bir istisna öngörülmemiştir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "14",
+			"clause": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"menfaat",
+			"bagis"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-cikar-033",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'ne göre kamu görevlilerinin görevleri sırasında veya bu görevlerin sonucu olarak elde ettikleri resmî veya gizli nitelikteki bilgiler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu bilgileri yakınlarına açıklamaları yasağın dışındadır",
+			"Yasak yalnızca gizlilik derecesi taşıyan belgeler için geçerlidir",
+			"Bu bilgileri yalnızca ekonomik menfaat için kullanamazlar; siyasal veya sosyal menfaat bu kapsamda değildir",
+			"Görevden ayrıldıktan sonra bu bilgileri serbestçe açıklayabilirler",
+			"Bu bilgileri menfaat elde etmek için kullanamaz; görevdeyken ve görevden ayrıldıktan sonra yetkili makamlar dışında hiçbir kurum, kuruluş veya kişiye açıklayamazlar"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 14. maddesinin üçüncü fıkrasına göre kamu görevlileri, görevlerinin ifası sırasında ya da bu görevlerin sonucu olarak elde ettikleri resmî veya gizli nitelikteki bilgileri kendilerine, yakınlarına veya üçüncü kişilere doğrudan veya dolaylı olarak ekonomik, siyasal veya sosyal nitelikte bir menfaat elde etmek için kullanamaz; görevdeyken ve görevden ayrıldıktan sonra yetkili makamlar dışında hiçbir kurum, kuruluş veya kişiye açıklayamazlar.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "14",
+			"clause": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gizli-bilgi",
+			"menfaat"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-cikar-034",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'nin hediye alma ve menfaat sağlama yasağını düzenleyen maddesinde yer alan temel ilke aşağıdakilerden hangisidir?",
+		"options": [
+			"Kamu görevlilerinin hediye almaması, kamu görevlisine hediye verilmemesi ve görev sebebiyle çıkar sağlanmaması",
+			"Ekonomik değeri düşük hediyelerin serbestçe kabul edilebilmesi",
+			"Hediyenin kurum demirbaşına kaydedilmesi şartıyla kabul edilebilmesi",
+			"Hediyenin yalnızca görev sırasında verilmiş olması hâlinde yasak sayılması",
+			"Hediyenin, amire bildirilmesi şartıyla kabul edilebilmesi"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmeliğin 15. maddesinin ikinci fıkrasına göre kamu görevlilerinin hediye almaması, kamu görevlisine hediye verilmemesi ve görev sebebiyle çıkar sağlanmaması temel ilkedir. Maddenin birinci fıkrası hediyeyi, görevlinin tarafsızlığını, performansını, kararını veya görevini yapmasını etkileyen ya da etkileme ihtimali bulunan, ekonomik değeri olan ya da olmayan her türlü eşya ve menfaat olarak tanımlar.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "15",
+			"clause": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hediye"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-cikar-035",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'ne göre halka açık yarışmalarda, kampanyalarda veya etkinliklerde kazanılan ödül ve hediyelerin durumu nedir?",
+		"options": [
+			"Yalnızca amirin izniyle kabul edilebilir",
+			"Hediye alma yasağı kapsamı dışındadır",
+			"Hediye alma yasağı kapsamındadır",
+			"Yalnızca kurum demirbaşına kaydedilmek şartıyla kabul edilebilir",
+			"Yalnızca ekonomik değeri bulunmuyorsa yasak kapsamı dışındadır"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğin 15. maddesinin altıncı fıkrasının (c) bendine göre halka açık yarışmalarda, kampanyalarda veya etkinliklerde kazanılan ödül veya hediyeler yasak kapsamı dışındadır. Aynı fıkrada kitap, dergi, takvim ve CD gibi yayınlar, herkese açık etkinliklerde verilen hatıra niteliğindeki hediyeler ve finans kurumlarından piyasa koşullarına göre alınan krediler de istisna olarak sayılmıştır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "15",
+			"clause": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hediye",
+			"istisna"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-cikar-036",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'ne göre aşağıdakilerden hangisi hediye alma yasağının kapsamı DIŞINDADIR?",
+		"options": [
+			"Hizmetten yararlananların vereceği gıda türü hediyeler",
+			"Görev yapılan kurumla iş ilişkisi içinde bulunanlardan alınan hediye çekleri",
+			"Kurumla çıkar ilişkisi içinde bulunanlardan alınan veda ve kutlama hediyeleri",
+			"Görev yapılan kurumla hizmet ilişkisi içinde olanlardan alınan borç ve krediler",
+			"Tanıtım amacına yönelik, herkese dağıtılan ve sembolik değeri bulunan reklam ve el sanatları ürünleri"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 15. maddesinin altıncı fıkrasının (e) bendine göre tanıtım amacına yönelik, herkese dağıtılan ve sembolik değeri bulunan reklam ve el sanatları ürünleri yasak kapsamı dışındadır. Diğer dört seçenek ise yedinci fıkrada açıkça yasak kapsamında sayılmıştır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "15",
+			"clause": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hediye",
+			"istisna"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-cikar-037",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir kamu görevlisi, görev yaptığı kurumla iş ilişkisi bulunan bir firmadan piyasa fiyatının çok altında bir bedelle taşınmaz kiralamıştır. Etik Davranış İlkeleri Yönetmeliği'ne göre bu işlem nasıl değerlendirilir?",
+		"options": [
+			"Bedelin piyasa fiyatının altında olması, taraflar anlaştığı sürece serbesttir",
+			"Taşınır veya taşınmaz mal ya da hizmet alım, satım ve kiralamalarında piyasa fiyatına göre makul olmayan bedeller üzerinden yapılan işlemler yasak kapsamındadır",
+			"İşlem yalnızca kurum demirbaşına kaydedilmemişse yasak sayılır",
+			"Kiralama bir hediye olmadığından yasak kapsamı dışındadır",
+			"Yalnızca satın alma işlemleri yasak kapsamındadır; kiralama serbesttir"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğin 15. maddesinin yedinci fıkrasının (b) bendine göre taşınır veya taşınmaz mal veya hizmet satın alırken, satarken ya da kiralarken piyasa fiyatına göre makul olmayan bedeller üzerinden yapılan işlemler hediye alma yasağı kapsamındadır. Bu bent, hediyenin görünmez biçimde, fiyat farkı üzerinden sağlanmasını da yasak kapsamına alır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "15",
+			"clause": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hediye",
+			"yasak-kapsami"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-cikar-038",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu'nun amacı bakımından aşağıdakilerden hangisi Kanun'da SAYILMAMIŞTIR?",
+		"options": [
+			"Mal edinmelerin denetimini düzenlemek",
+			"Kanunda belirlenen suçlarla bazı suçlardan dolayı kamu görevlileri ve suç ortakları hakkında takip ve muhakeme usulünü düzenlemek",
+			"Kanunda sayılanların mal bildiriminde bulunmalarını ve bildirimlerin yenilenmesini düzenlemek",
+			"Haksız mal edinme veya gerçeğe aykırı bildirimde bulunma hâlinde uygulanacak hükümleri düzenlemek",
+			"Kamu görevlilerinin uyacağı etik davranış ilkelerini belirlemek"
+		],
+		"correctIndex": 4,
+		"explanation": "3628 sayılı Kanun'un 1. maddesinde amaç; rüşvet ve yolsuzluklarla mücadele cümlesinden olarak mal bildiriminde bulunma ve bildirimlerin yenilenmesi, mal edinmelerin denetimi, haksız mal edinme veya gerçeğe aykırı bildirim hâlinde uygulanacak hükümler ile takip ve muhakeme usulünü düzenlemek olarak sayılmıştır. Etik davranış ilkelerini belirlemek 5176 sayılı Kanun'un ve Etik Davranış İlkeleri Yönetmeliği'nin konusudur.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"amac"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-cikar-039",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "3628 sayılı Kanun'a göre haksız edinilmiş malların zoralımının mümkün olmadığı hâllerde ne yapılır?",
+		"options": [
+			"Malın bedeli, ilgilinin emekli ikramiyesinden mahsup edilir",
+			"Bedel, ilgilinin aylığından en çok üçte bir oranında kesilir",
+			"Haksız edinilen değere eşit bedelin hazineye ödenmesine karar verilir; bu bedel Amme Alacaklarının Tahsil Usulü Hakkında Kanun hükümlerine göre tahsil olunur",
+			"Zoralım kararı verilemez ve dava düşer",
+			"Bedel yalnızca genel hükümlere göre açılacak bir tazminat davasıyla istenebilir"
+		],
+		"correctIndex": 2,
+		"explanation": "3628 sayılı Kanun'un 14. maddesine göre haksız edinilmiş olan malların zoralımına hükmolunur; bu malların elde edilememesi veya bir malın tümünün haksız mal edinme konusu teşkil etmemesi sebebiyle zoralımın mümkün olmadığı hâllerde haksız edinilen değere eşit bedelin hazineye ödenmesine karar verilir ve bu bedel Amme Alacaklarının Tahsil Usulü Hakkında Kanun hükümlerine göre tahsil olunur.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "14"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"zoralim",
+			"haksiz-mal"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-cikar-040",
+		"subjectId": "etik",
+		"topicId": "etik/cikar-catismasi-ve-hediye",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "3628 sayılı Kanun'a göre mal bildiriminin şekli, düzenleniş biçimi, neleri kapsayacağı ve merciine nasıl ulaştırılacağı hangi düzenlemeyle belirlenir?",
+		"options": [
+			"Doğrudan Kanun'un ekinde yer alan cetvelle",
+			"Her kurumun kendi yönergesiyle",
+			"Kamu Görevlileri Etik Kurulunun kararıyla",
+			"Adalet Bakanlığının tebliğiyle",
+			"Cumhurbaşkanı tarafından çıkarılacak ve Resmî Gazete'de yayımlanacak bir yönetmelikle"
+		],
+		"correctIndex": 4,
+		"explanation": "3628 sayılı Kanun'un 22. maddesine göre mal bildiriminin şekli, düzenleniş biçimi, sayısı, neleri kapsayacağı ve merciine nasıl ulaştırılacağı ile Kanun'un uygulanması bakımından gerekli görülecek diğer konular, Cumhurbaşkanı tarafından çıkarılacak bir yönetmelikle düzenlenir ve bu yönetmelik Resmî Gazete'de yayımlanır.",
+		"legalRef": {
+			"law": "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+			"lawId": "3628",
+			"article": "22"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yonetmelik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

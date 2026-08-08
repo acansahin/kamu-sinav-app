@@ -993,5 +993,344 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "etik-ilke-031",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'nin amacı bakımından aşağıdakilerden hangisi Yönetmelikte SAYILMAMIŞTIR?",
+		"options": [
+			"Toplumu, kamu görevlilerinden beklemeye hakkı olduğu davranışlar konusunda bilgilendirmek",
+			"Kurula başvuru usul ve esaslarını düzenlemek",
+			"Kamuda etik kültürünü yerleştirmek ve kamu görevlilerinin uymaları gereken etik davranış ilkelerini belirlemek",
+			"Etik ilkelere aykırı davranan kamu görevlilerine uygulanacak disiplin cezalarını belirlemek",
+			"Adalet, dürüstlük, saydamlık ve tarafsızlık ilkelerine zarar veren ve toplumda güvensizlik yaratan durumları ortadan kaldırmak"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmeliğin 1. maddesinde amaç sayılırken disiplin cezası belirlemekten söz edilmez; Kamu Görevlileri Etik Kurulu ve etik komisyonları disiplin cezası veremez. Maddede sayılanlar; etik kültürünü yerleştirmek, etik davranış ilkelerini belirlemek, güvensizlik yaratan durumları ortadan kaldırarak kamu yönetimine halkın güvenini artırmak, toplumu beklemeye hakkı olduğu davranışlar konusunda bilgilendirmek ve Kurula başvuru usul ve esaslarını düzenlemektir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"amac"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-ilke-032",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'nin kapsamı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kamu iktisadi teşebbüsleri ile döner sermayeli kuruluşlar kapsam dışındadır",
+			"Yalnızca 657 sayılı Kanun'a tabi memurları kapsar",
+			"Kurul ve üst kurul başkan ve üyeleri kapsam dışındadır",
+			"Mahalli idareler ve bunların birlikleri kapsam dışındadır",
+			"Kapsamdaki kurumlarda çalışan, yönetim ve denetim kurulu ile kurul ve üst kurul başkan ve üyeleri dâhil tüm personeli kapsar"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 2. maddesine göre Yönetmelik; genel bütçeye dâhil daireler, katma bütçeli idareler, kamu iktisadi teşebbüsleri, döner sermayeli kuruluşlar, mahalli idareler ve bunların birlikleri ile kamu tüzel kişiliğini haiz kurul, üst kurul, kurum, enstitü, teşebbüs, fon ve benzeri adlarla kurulmuş bütün kamu kurum ve kuruluşlarında çalışan; yönetim ve denetim kurulu ile kurul ve üst kurul başkan ve üyeleri dâhil tüm personeli kapsar. Cumhurbaşkanı, TBMM üyeleri, Bakanlar Kurulu üyeleri, Türk Silahlı Kuvvetleri, yargı mensupları ve üniversiteler ise kapsam dışındadır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kapsam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-ilke-033",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği hangi düzenlemeye dayanılarak hazırlanmıştır?",
+		"options": [
+			"3628 sayılı Kanun'un 22. maddesi",
+			"5176 sayılı Kanun'un 3 ve 7. maddeleri",
+			"657 sayılı Kanun'un 125. maddesi",
+			"1 sayılı Cumhurbaşkanlığı Kararnamesi'nin 6. maddesi",
+			"4982 sayılı Kanun'un 30. maddesi"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğin 3. maddesine göre Yönetmelik, 25/5/2004 tarihli ve 5176 sayılı Kamu Görevlileri Etik Kurulu Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun'un 3 ve 7. maddelerine dayanılarak hazırlanmıştır. 5176'nın 3. maddesi Kurulun görevlerini, 7. maddesi ise yönetmelik çıkarma yetkisini düzenler.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dayanak"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-ilke-034",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Kamu Görevlileri Etik Davranış İlkeleri Yönetmeliği'ndeki tanıma göre “başvuru sahibi” kimdir?",
+		"options": [
+			"Kurula başvuran gerçek ve tüzel kişiler",
+			"Yalnızca etik komisyonları",
+			"Yalnızca hakkında etik ihlali iddiası bulunan kamu görevlisinin bağlı olduğu kurum",
+			"Yalnızca kamu görevlileri",
+			"Kanun kapsamında başvuru hakkını kullanarak Kurula veya yetkili disiplin kurullarına başvuran gerçek kişiler"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 4. maddesinin (f) bendine göre başvuru sahibi; Kanun kapsamında başvuru hakkını kullanarak Kurula veya yetkili disiplin kurullarına başvuran **gerçek kişileri** ifade eder. Tüzel kişiler bu tanımın dışındadır; 31. madde de başvuru hakkını gerçek kişilere tanır.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tanimlar",
+			"basvuru-sahibi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-ilke-035",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'nin “dürüstlük ve tarafsızlık” ilkesinin birinci fıkrasına göre kamu görevlileri hangi ilkeler doğrultusunda hareket eder?",
+		"options": [
+			"Yerindelik, takdir ve serbestlik",
+			"Yasallık, adalet, eşitlik ve dürüstlük",
+			"Verimlilik, kârlılık ve rekabet",
+			"Hiyerarşi, gizlilik ve süreklilik",
+			"Kanunilik, kamu düzeni ve otorite"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğin 9. maddesinin birinci fıkrasına göre kamu görevlileri tüm eylem ve işlemlerinde yasallık, adalet, eşitlik ve dürüstlük ilkeleri doğrultusunda hareket eder; görevlerini yerine getirirken ve hizmetlerden yararlandırmada dil, din, felsefi inanç, siyasi düşünce, ırk, cinsiyet ve benzeri sebeplerle ayrım yapamaz, fırsat eşitliğini engelleyici davranışlarda bulunamazlar.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "9",
+			"clause": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"durustluk-ve-tarafsizlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-ilke-036",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'nin “yetkili makamlara bildirim” ilkesine göre kamu görevlisinin durumu yetkili makamlara bildirme yükümlülüğü hangi hâllerde doğar?",
+		"options": [
+			"Yalnızca olay hakkında adli soruşturma başlatıldığında",
+			"Yalnızca kendisi zarar gördüğünde",
+			"Yalnızca amiri tarafından yazılı bir emir verildiğinde",
+			"Yalnızca kendisinden yasa dışı bir iş yapması istendiğinde",
+			"Etik davranış ilkeleriyle bağdaşmayan veya yasa dışı iş ve eylemlerde bulunması talep edildiğinde ya da hizmetlerini yürütürken böyle bir eylemden haberdar olduğunda veya gördüğünde"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 12. maddesinin birinci fıkrasına göre kamu görevlileri; etik davranış ilkeleriyle bağdaşmayan veya yasa dışı iş ve eylemlerde bulunmalarının talep edilmesi hâlinde ya da hizmetlerini yürütürken bu tür bir eylem veya işlemden haberdar olduklarında veya gördüklerinde durumu yetkili makamlara bildirir. İkinci fıkra ise ihbarda bulunanın kimliğinin gizli tutulmasını düzenler.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "12",
+			"clause": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yetkili-makamlara-bildirim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-ilke-037",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'nin “bilgi verme, saydamlık ve katılımcılık” ilkesinin birinci fıkrasına göre kamu görevlileri, istenen bilgi veya belgeleri hangi çerçevede verir?",
+		"options": [
+			"Yalnızca talep sahibinin menfaatinin bulunduğunu ispatlaması hâlinde",
+			"Yalnızca kamu görevlilerinden gelen taleplerde",
+			"4982 sayılı Bilgi Edinme Hakkı Kanunu'nda belirlenen istisnalar dışında, usulüne uygun olarak",
+			"Yalnızca amirin uygun görmesi hâlinde",
+			"Hiçbir istisna gözetmeksizin, talep edilen her bilgi ve belgeyi"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmeliğin 19. maddesinin birinci fıkrasına göre kamu görevlileri halkın bilgi edinme hakkını kullanmasına yardımcı olur ve gerçek ve tüzel kişilerin talebi hâlinde istenen bilgi veya belgeleri, 4982 sayılı Bilgi Edinme Hakkı Kanunu'nda belirlenen istisnalar dışında usulüne uygun olarak verir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "19",
+			"clause": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bilgi-verme",
+			"saydamlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-ilke-038",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'nin katılımcılığa ilişkin hükmüne göre kamu görevlileri, kamu hizmetleriyle ilgili temel kararların hazırlanması ve uygulanması aşamalarında neye dikkat eder?",
+		"options": [
+			"Yalnızca ilgili meslek kuruluşlarının görüşünün alınmasına",
+			"Kararların alınmasından sonra kamuoyunun bilgilendirilmesine",
+			"Karar süreçlerinin tamamen gizli yürütülmesine",
+			"Kararların yalnızca üst yöneticiler tarafından alınmasına",
+			"Aksine yasal bir hüküm olmadıkça, o karardan doğrudan ya da dolaylı olarak etkilenecek olanların katkıda bulunmasını sağlamaya"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 19. maddesinin üçüncü fıkrasına göre kamu görevlileri; temel kararların hazırlanması, olgunlaştırılması, alınması ve uygulanması aşamalarının birine, birkaçına veya tamamına, aksine yasal bir hüküm olmadıkça o karardan doğrudan ya da dolaylı olarak etkilenecek olanların katkıda bulunmasını sağlamaya dikkat eder.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "19",
+			"clause": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"katilimcilik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-ilke-039",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'ne göre yönetici kamu görevlileri, kurumlarının amaç ve politikalarına uygun olmayan işlem veya eylemler karşısında ne yapmakla yükümlüdür?",
+		"options": [
+			"Bunları engellemek için görev ve yetkilerinin gerektirdiği önlemleri zamanında almak",
+			"Personel hakkında derhâl disiplin cezası uygulamak",
+			"Konuyu doğrudan Kamu Görevlileri Etik Kuruluna havale etmek",
+			"Durumu yalnızca yıllık faaliyet raporunda belirtmek",
+			"İşlemi onaylayıp sorumluluğu işlemi yapan personele bırakmak"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmeliğin 20. maddesinin ikinci fıkrasına göre yönetici kamu görevlileri, kurumlarının amaç ve politikalarına uygun olmayan işlem veya eylemleri engellemek için görev ve yetkilerinin gerektirdiği önlemleri zamanında alır. Maddenin diğer fıkraları hesap verebilirliği, yolsuzluğun önlenmesine yönelik tedbirleri ve personele etik eğitimi sağlama yükümlülüğünü düzenler.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "20",
+			"clause": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hesap-verebilirlik",
+			"yoneticiler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "etik-ilke-040",
+		"subjectId": "etik",
+		"topicId": "etik/etik-davranis-ilkeleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Etik Davranış İlkeleri Yönetmeliği'ne göre kapsamdaki kamu görevlileri “Etik Sözleşme” belgesini hangi süre içinde imzalamakla yükümlüdür?",
+		"options": [
+			"Üç ay içinde",
+			"Bir hafta içinde",
+			"Bir ay içinde",
+			"Altı ay içinde",
+			"Göreve başladığı gün"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmeliğin 23. maddesinin ikinci fıkrasına göre kapsamdaki kamu görevlileri bir ay içinde Ek-1'de yer alan “Etik Sözleşme” belgesini imzalamakla yükümlüdür ve bu belge personelin özlük dosyasına konur. Aynı maddenin birinci fıkrası, etik davranış ilkelerinin kamu görevlilerinin istihdamını düzenleyen mevzuat hükümlerinin bir parçasını oluşturduğunu belirtir.",
+		"legalRef": {
+			"law": "Kamu Görevlileri Etik Davranış İlkeleri ile Başvuru Usul ve Esasları Hakkında Yönetmelik",
+			"article": "23",
+			"clause": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"etik-sozlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

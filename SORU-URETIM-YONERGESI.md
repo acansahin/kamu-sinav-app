@@ -25,17 +25,18 @@ Havuz **madde düzeyinde neredeyse doymuş** — 657'de 174, Anayasa'da 165 ayr�
 dayanak var, Resmî Yazışma Yönetmeliği'nin 39 maddesinin tamamı kapsanmış.
 Bu yüzden "657'den soru yaz" demek kaçınılmaz olarak tekrar üretir.
 
-Öncelik sırası (en aç olandan):
-
-| Sıra | Ders / konu | Soru | Neden |
-|---|---|---|---|
-| 1 | Etik — *Etik Davranış İlkeleri*, *Çıkar Çatışması* | 30'ar | Etik Yönetmeliği m.5–24 dolu; 3628 ve 4982'nin kapsanmamış maddeleri kaldı |
+**Şu anda madde düzeyinde aç bir konu kalmamıştır.** Havuzun beş dersinin
+otuz konusunun tamamı, dayandığı mevzuatın kapsanmamış madde ve fıkraları
+tüketilerek dolduruldu. Yeni soru ancak (a) mevzuat değişince, (b) yeni bir
+ders açılınca ya da (c) kapsanan bir maddenin gözden kaçmış bir bendi
+bulunursa üretilebilir.
 
 **Doygun sayılması gereken konular** (tekrar üretme riski çok yüksek):
 657 — *Yasaklar* (m.26–31'in her fıkra ve bendi kullanılmış), *Ödevler*
 (m.6–16), *Memurluğun Sona Ermesi* (m.92–98); Resmî Yazışma — *Genel
-Hükümler ve Tanımlar* (m.1–3) ve *Belgenin Özellikleri* (m.4–9); Anayasa'nın
-beş konusu; Devlet Teşkilatı'nın yedi konusu.
+Hükümler ve Tanımlar* (m.1–3) ve *Belgenin Özellikleri* (m.4–9); Etik'in
+dört konusu (5176, 3628, 4982 ve Etik Yönetmeliği'nin tamamı taranmış);
+Anayasa'nın beş konusu; Devlet Teşkilatı'nın yedi konusu.
 
 ### Kapsama haritasını yenileme
 
@@ -94,7 +95,7 @@ değil) ve havuzda zaten kapsanmıştır.
 
 ## 2. En önemli kural: TEKRAR ÜRETME
 
-Havuzda hâlihazırda 1302 soru var. Ek-A'da her konu için **hangi maddelerin zaten
+Havuzda hâlihazırda 1322 soru var. Ek-A'da her konu için **hangi maddelerin zaten
 kapsandığı** listelenmiştir.
 
 - Ek-A'da listelenen bir maddeden **madde düzeyinde** soru yazma.
@@ -189,7 +190,7 @@ KAPSAMA NOTU: <Ek-A'da olmayıp bu partide ilk kez ele aldığın maddeler>
 
 # EK-A — Havuzda hâlihazırda kapsanan maddeler
 
-*8 Ağustos 2026 itibarıyla, 1302 soru.*
+*8 Ağustos 2026 itibarıyla, 1322 soru.*
 Aşağıda listelenen maddeler **madde düzeyinde doludur**. Bunlardan ancak
 kapsanmamış bir fıkra/bendi ölçüyorsan soru yaz.
 
@@ -225,8 +226,8 @@ kapsanmamış bir fıkra/bendi ölçüyorsan soru yaz.
 ### Etik Davranış İlkeleri (`etik`)
 
 **Kamu Görevlileri Etik Kurulu ve Mevzuatı** (40 soru) — 5176 → 1–6 · 3628 → 5, 9, 16 · Etik Yönetmeliği → 25–38 · 657 → 29
-**Etik Davranış İlkeleri** (30 soru) — 5176 → 1, 3, 4, 7 · Etik Yönetmeliği → 5–12, 14, 16-17, 18, 19, 20, 21, 23, 24 · 657 → 126
-**Çıkar Çatışması ve Hediye Alma Yasağı** (30 soru) — 3628 → 2, 3, 4, 6, 8, 10, 11, 12-15, 17, 18, 19, 20 · Etik Yönetmeliği → 15, 22 · 657 → 29
+**Etik Davranış İlkeleri** (40 soru) — 5176 → 1, 3, 4, 7 · Etik Yönetmeliği → 1, 2, 3, 4, 5–12, 14, 16-17, 18, 19, 20, 21, 23, 24 · 657 → 126
+**Çıkar Çatışması ve Hediye Alma Yasağı** (40 soru) — 3628 → 1, 2, 3, 4, 6, 8, 10, 11, 12-15, 14, 17, 18, 19, 20, 22 · Etik Yönetmeliği → 13, 14, 15, 22 · 657 → 29
 **Saydamlık ve Hesap Verebilirlik** (40 soru) — 4982 → 2–12, 14–30 · 2577 → 10 · 2709 → 74 · 5176 → 1
 
 ### Resmî Yazışma Kuralları (`resmi-yazisma`) — **ÖNCELİKLİ**
