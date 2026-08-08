@@ -19,7 +19,33 @@ export interface SpeechChunk {
 	text: string;
 	/** Bu parça okunurken vurgulanacak eleman. */
 	el: HTMLElement;
+	/**
+	 * Bu parçadan SONRA sessizlik bekletilsin mi? Tirenin bıraktığı duraklama.
+	 * Bkz. `DURAK_SURESI_MS`.
+	 */
+	duraklat?: boolean;
 }
+
+/**
+ * Tireden sonra beklenecek sessizlik (ms).
+ *
+ * ⚠️ **Duraklama motordan ALINAMIYOR; burada üretiliyor.** Cihazda sırayla üç
+ * yol denendi ve üçü de duyulmadı:
+ *   1. Virgül — motor cümle içi noktalamayı prosodiye çevirmiyor.
+ *   2. Noktalı virgül — aynı sonuç.
+ *   3. Ayrı `speak()` çağrısı — bu eklenti sürümünde kuyruk KESİNTİSİZ
+ *      işleniyor, çağrılar arasında duyulur bir boşluk kalmıyor.
+ *
+ * (3) özellikle yanıltıcıydı: bu dosyanın eski notu "her `speak()` motoru
+ * durdurup baştan yapılandırır, arada boşluk kalır" diyordu ve o varsayıma
+ * dayanıldı. Paketteki JS incelenip bölmenin gerçekten çalıştığı doğrulandı,
+ * yani varsayımın kendisi yanlıştı.
+ *
+ * Bu yüzden sessizlik okuma döngüsünde AÇIKÇA bekleniyor
+ * (`use-speech-reader.ts`). Motorun davranışından bağımsız, dolayısıyla
+ * güvenilir. Süre virgül hissi verecek kadar; tam durak kadar uzun değil.
+ */
+export const DURAK_SURESI_MS = 280;
 
 /**
  * Bir bloğun hedeflenen üst karakter sınırı.

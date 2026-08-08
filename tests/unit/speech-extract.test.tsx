@@ -24,6 +24,43 @@ function kok(html: string): HTMLElement {
 
 const metinleri = (html: string) => cikar(kok(html)).map((p) => p.text);
 
+/**
+ * Tirenin duraklaması.
+ *
+ * Ölçülen şey metin DEĞİL, `duraklat` bayrağıdır: sessizliği okuma döngüsü
+ * üretiyor (`use-speech-reader.ts`), çünkü motordan alınamadı — virgül,
+ * noktalı virgül ve ayrı `speak()` çağrısı sırayla denendi ve üçü de cihazda
+ * duyulmadı (bkz. `types.ts` → DURAK_SURESI_MS).
+ */
+describe("tire duraklaması", () => {
+	it("bileşik sözcük tiresinde parçayı duraklatma işaretler", () => {
+		const parcalar = cikar(kok("<p>Valinin giriş-çıkış sınırlaması.</p>"));
+
+		expect(parcalar.map((p) => p.text)).toEqual([
+			"Valinin giriş",
+			"çıkış sınırlaması.",
+		]);
+		// Duraklama İLK parçadan sonra gelir, sonuncudan sonra değil.
+		expect(parcalar[0].duraklat).toBe(true);
+		expect(parcalar[1].duraklat).toBeUndefined();
+	});
+
+	it("tablo satırındaki tireyi de duraklatır", () => {
+		const parcalar = cikar(
+			kok(
+				"<table><tbody><tr><td>Mülga</td><td>ast-üstten</td></tr></tbody></table>",
+			),
+		);
+		const duraklayan = parcalar.filter((p) => p.duraklat === true);
+		expect(duraklayan.length).toBeGreaterThan(0);
+	});
+
+	it("tiresiz metinde hiç duraklama işareti olmaz", () => {
+		const parcalar = cikar(kok("<p>Sıradan bir paragraf.</p>"));
+		expect(parcalar.every((p) => p.duraklat === undefined)).toBe(true);
+	});
+});
+
 describe("blok üretimi", () => {
 	it("paragrafları ayrı bloklara ayırır", () => {
 		const parcalar = cikar(kok("<p>Birinci paragraf.</p><p>İkinci paragraf.</p>"));

@@ -176,14 +176,36 @@ function blokSonunuNoktala(metin: string): string {
  * böyle; bu davranış testle sabitlenmiştir.
  */
 /**
- * Tablo dalının parçalayıcısı.
+ * Metni parçalara ayırır ve DURAK SINIRLARINI işaretler.
  *
- * Tablo satırları `bloklaraAyir`dan GEÇMEZ (cümle paketlemesi tablo için
- * yanlış), ama durak işaretinin motora ulaşmaması aynı derecede zorunludur —
- * bu yüzden `duraklardanBol` burada da uygulanır.
+ * Durak işaretinden bölünen her bölümün SON parçası `duraklat: true` alır;
+ * okuma döngüsü o parçadan sonra sessizlik bekler. Sessizliği motordan almak
+ * mümkün olmadı (gerekçe: `types.ts` → DURAK_SURESI_MS).
+ *
+ * @param bol Bölümü kendi içinde parçalara ayıran işlev. Düz bloklarda cümle
+ *   paketlemesi (`bloklaraAyir`), tablo satırlarında yalnızca motor tavanı —
+ *   cümle paketlemesi tablo satırı için yanlış.
  */
-function parcala(metin: string): string[] {
-	return duraklardanBol(metin).flatMap(motorTavaniniUygula);
+function isaretle(
+	metin: string,
+	bol: (bolum: string) => string[],
+): { text: string; duraklat?: boolean }[] {
+	const bolumler = duraklardanBol(metin);
+	const sonuc: { text: string; duraklat?: boolean }[] = [];
+
+	bolumler.forEach((bolum, i) => {
+		const sonBolum = i === bolumler.length - 1;
+		const parcalar = bol(bolum);
+
+		parcalar.forEach((text, j) => {
+			const sonParca = j === parcalar.length - 1;
+			sonuc.push(
+				!sonBolum && sonParca ? { text, duraklat: true } : { text },
+			);
+		});
+	});
+
+	return sonuc;
 }
 
 export function cikar(kok: HTMLElement): SpeechChunk[] {
@@ -204,10 +226,9 @@ export function cikar(kok: HTMLElement): SpeechChunk[] {
 			? hazir
 			: blokSonunuNoktala(hazir);
 
-		const bolumler = bloklaraAyir(kapali);
-		if (bolumler.length === 0) return;
-
-		for (const bolum of bolumler) parcalar.push({ text: bolum, el });
+		for (const parca of isaretle(kapali, bloklaraAyir)) {
+			parcalar.push({ ...parca, el });
+		}
 	}
 
 	function gez(dugum: Node): void {
@@ -241,16 +262,16 @@ export function cikar(kok: HTMLElement): SpeechChunk[] {
 			// <tr>'lerinde: 8 satırlık bir tabloyu 40 saniye tek blok olarak
 			// vurgulamak dinleyiciyi kaybettirirdi.
 			if (okuma.giris.length > 0) {
-				for (const bolum of parcala(okuma.giris)) {
-					parcalar.push({ text: bolum, el });
+				for (const parca of isaretle(okuma.giris, motorTavaniniUygula)) {
+					parcalar.push({ ...parca, el });
 				}
 			}
 			okuma.satirlar.forEach((satir, i) => {
 				if (satir.length === 0) return;
 				// Tablo satırı zaten `tabloyuOku` tarafından noktalanmış geliyor;
 				// yalnızca durak ayrımı ve motor tavanı uygulanır.
-				for (const bolum of parcala(satir)) {
-					parcalar.push({ text: bolum, el: satirElemanlari[i].el });
+				for (const parca of isaretle(satir, motorTavaniniUygula)) {
+					parcalar.push({ ...parca, el: satirElemanlari[i].el });
 				}
 			});
 			return;

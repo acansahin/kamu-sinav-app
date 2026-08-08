@@ -7,7 +7,11 @@ import {
 	getSpeechProvider,
 	yetenegiYokla,
 } from "@/lib/speech/speech.provider";
-import { HIZ_DEGERLERI, type SpeechChunk } from "@/lib/speech/types";
+import {
+	DURAK_SURESI_MS,
+	HIZ_DEGERLERI,
+	type SpeechChunk,
+} from "@/lib/speech/types";
 import { progressRepository } from "@/lib/repositories/progress.repository";
 import { usePreferences } from "@/lib/stores/preferences";
 
@@ -191,6 +195,22 @@ export function useSpeechReader({
 				}
 
 				if (jeton !== kosuRef.current) return;
+
+				/*
+				 * Tirenin duraklaması BURADA üretiliyor.
+				 *
+				 * Motordan alınamıyor: virgül, noktalı virgül ve ayrı `speak()`
+				 * çağrısı sırayla denendi, üçü de cihazda duyulmadı — eklenti
+				 * kuyruğu kesintisiz işliyor (gerekçe: `types.ts` →
+				 * DURAK_SURESI_MS). Açık bekleme motorun davranışından bağımsız.
+				 *
+				 * Jeton beklemeden SONRA da kontrol edilir: kullanıcı tam bu
+				 * aralıkta duraklatırsa okuma devam etmemeli.
+				 */
+				if (parcalar[i].duraklat === true) {
+					await new Promise((coz) => setTimeout(coz, DURAK_SURESI_MS));
+					if (jeton !== kosuRef.current) return;
+				}
 			}
 
 			await bitti();

@@ -316,15 +316,24 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   olduğu gibi ulaştığı doğrulandı (APK paketindeki JS incelendi), yani sorun
   dönüşümde değil motorun cümle içi noktalamayı prosodiye çevirmemesinde.
 
-  Bu motorda duraklama üreten tek güvenilir mekanizma **ayrı bir `speak()`
-  çağrısıdır** — yukarıda "sorun" diye anlatılan durdur-yapılandır döngüsünün
-  kendisi. Tire bu yüzden `DURAK_ISARETI` (`types.ts`) üretir ve
-  `duraklardanBol` onu parça sınırına çevirir. İşaret motora ASLA ulaşmaz;
-  `speak()`e giden her yol o fonksiyondan geçmek zorundadır (`bloklaraAyir`
-  **ve** `extract.ts`in tablo dalı — tablo `bloklaraAyir`dan geçmez).
+  Ayrı bir `speak()` çağrısı da denendi ve **o da duyulmadı**: bu eklenti
+  sürümünde kuyruk kesintisiz işleniyor. Bu dosyanın eski notu "her `speak()`
+  motoru durdurup baştan yapılandırır, arada boşluk kalır" diyordu ve o
+  varsayıma dayanıldı; paketteki JS incelenip bölmenin gerçekten çalıştığı
+  doğrulandıktan sonra varsayımın yanlış olduğu anlaşıldı.
+
+  **Duraklama bu yüzden okuma döngüsünde AÇIKÇA bekleniyor**
+  (`use-speech-reader.ts`, `DURAK_SURESI_MS`). Motorun davranışından bağımsız
+  olduğu için güvenilir olan tek yol bu. Tire `DURAK_ISARETI` üretir,
+  `extract.ts` bunu parça sınırına çevirip son parçayı `duraklat: true` ile
+  işaretler, döngü o parçadan sonra bekler. İşaret motora ASLA ulaşmaz.
+
+  ⚠️ `speak()`e giden **iki** yol var ve ikisi de işaretlenmek zorunda:
+  `bloklaraAyir` (düz bloklar) **ve** `extract.ts`in tablo dalı — tablo
+  satırları `bloklaraAyir`dan geçmez.
 
   Ölçek bu kuralı güvenli kılar: ölçüldü, 30 özette 159 durak = özet başına
-  ortalama 5,3. Kesik okumaya yol açan ~120 ile kıyaslanamaz.
+  ortalama 5,3.
 
   ⚠️ Harf kuralında **solda en az iki harf şartı ZORUNLU**: "e-posta" ve
   "e-Yazışma" tek harfli öneklerdir ve kural onlara uygulanırsa "e, posta" diye
