@@ -983,5 +983,354 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gonderme-031",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre idareler için oluşturulan elektronik şifreleme sertifikaları nerede paylaşılır ve idarelerin yükümlülüğü nedir?",
+		"options": [
+			"İdareler şifreli belge kabul etmek zorunda değildir; şifreli belgeler reddedilir",
+			"Sertifikalar DETSİS üzerinden paylaşılır; şifreleme sertifikasına sahip idareler, kendilerine gönderilen ve Rehber'e uygun şifrelenmiş belgeleri kabul etmekle yükümlüdür",
+			"Sertifikalar e-Devlet üzerinden paylaşılır ve şifreli belgeleri kabul etmek ihtiyaridir",
+			"Sertifikalar Devlet Arşivleri Başkanlığı tarafından yayımlanır",
+			"Sertifikalar yalnızca taraflar arasında elden teslim edilir"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğin 30. maddesinin altıncı fıkrasına göre idareler için oluşturulan elektronik şifreleme sertifikaları DETSİS üzerinden paylaşılır ve idareler, elektronik şifreleme sertifikasına sahip olmak şartıyla diğer idarelerden gönderilen ve e-Yazışma Teknik Rehberi'ne uygun şekilde şifrelenmiş belgeleri kabul etmekle yükümlüdür.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "30",
+			"clause": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sifreleme",
+			"detsis"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-gonderme-032",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre idareler, e-Yazışma Teknik Rehberi'nde tanımlanandan farklı bir şifreleme mekanizmasını hangi şartla kullanabilir?",
+		"options": [
+			"Karşılıklı olarak üzerinde anlaşmak koşuluyla",
+			"Dijital Dönüşüm Ofisi Başkanlığının izniyle",
+			"Yalnızca gizlilik dereceli belgelerde ve valilik onayıyla",
+			"Cumhurbaşkanlığı Genel Sekreterliğinin onayıyla",
+			"Hiçbir şartla kullanamaz; Rehber'deki mekanizma zorunludur"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmeliğin 30. maddesinin altıncı fıkrasının son cümlesine göre idareler, karşılıklı olarak üzerinde anlaşmak koşuluyla e-Yazışma Teknik Rehberi'nde tanımlanan şifreleme mekanizmasından farklı şifreleme mekanizmaları kullanabilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "30",
+			"clause": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sifreleme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-gonderme-033",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir idareye e-Yazışma Teknik Rehberi'ne göre şifrelenmiş bir belge gönderilmiş; ancak idare belgenin şifresini açamamıştır. Yönetmeliğe göre idare bildirimde bulunmazsa sonuç ne olur?",
+		"options": [
+			"Belge kendiliğinden reddedilmiş sayılır",
+			"Belge, gönderen idareye iade edilmiş sayılır",
+			"Gönderilen şifreli belge açılmış, içeriğine erişilmiş ve belgenin Rehber'e uygun hazırlandığı kabul edilmiş sayılır",
+			"Bildirim süresi yeniden başlar ve idareye ek beş iş günü verilir",
+			"Belge gönderilmemiş sayılır ve süreç baştan işletilir"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmeliğin 30. maddesinin yedinci fıkrasına göre idare, şifresini açamadığı veya Rehber'de tanımlanan özellikleri taşımadığını belirlediği belgeyi reddeder ve durumu, belgenin kendisine ulaştığı günü takip eden ikinci iş gününün sonuna kadar gönderen idareye bildirir. İdarenin bildirimde bulunmaması hâlinde gönderilen şifreli belge açılmış, içeriğine erişilmiş ve bu belgenin Rehber'e uygun şekilde hazırlandığı kabul edilmiş sayılır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "30",
+			"clause": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sifreleme",
+			"ret",
+			"sureler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-gonderme-034",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre idareler arasında güvenli elektronik imzalı belgelerin gönderilmesi ve alınması, yetki verilmiş üçüncü taraf dışında başka bir yolla yapılabilir mi?",
+		"options": [
+			"Hiçbir şekilde yapılamaz; yalnızca yetki verilmiş üçüncü taraf kullanılabilir",
+			"Yapılabilir; kayıt tutulması gerekmez",
+			"Yalnızca gizlilik dereceli belgelerde yapılabilir",
+			"Taraflarca yapılacak anlaşmalar çerçevesinde ve kayıt altına alınmak kaydıyla başka bir iletim mekanizmasıyla da yapılabilir",
+			"Yalnızca Dijital Dönüşüm Ofisi Başkanlığının izniyle yapılabilir"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmeliğin 30. maddesinin birinci fıkrasına göre bu işlemlerin ilgili mevzuatla yetki verilmiş üçüncü bir taraf aracılığıyla kayıt altına alınarak yapılması esastır; ancak idareler arasında bu işlemler, taraflarca yapılacak anlaşmalar çerçevesinde ve kayıt altına alınmak kaydıyla başka bir iletim mekanizmasıyla da yapılabilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "30",
+			"clause": "1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gonderme",
+			"iletim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-gonderme-035",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre idareye fiziksel ortamda gelen bir belge bakımından hangi bilgiler kayda geçirilir?",
+		"options": [
+			"Fiziksel ortamda gelen belgeler için kayıt tutulmaz",
+			"Belgenin yalnızca üstverisi kaydedilir; alındığı tarih kaydedilmez",
+			"Belgenin alındığı tarih ile belgeye ait üstveriler EBYS'ye veya kurumsal belge kayıt sistemine kaydedilir",
+			"Yalnızca belgenin muhatabı ve konusu kaydedilir",
+			"Yalnızca belgenin tarihi ve sayısı bir deftere yazılır"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmeliğin 31. maddesinin dördüncü fıkrasına göre idareye fiziksel ortamda gelen belgenin alındığı tarih ile belgeye ait üstveriler EBYS'ye veya kurumsal belge kayıt sistemine kaydedilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "31",
+			"clause": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fiziksel-ortam",
+			"kayit"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-gonderme-036",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre fiziksel ortamda alınan belgeler için gelen belge kaydında kullanılan etiket veya kaşe nereye basılır?",
+		"options": [
+			"Üst yazının ilk sayfasının ön veya arka yüzüne",
+			"Eklerin ilk sayfasına",
+			"Belgenin son sayfasının arka yüzüne",
+			"Belgenin idarede kalacak nüshasının arkasına",
+			"Yalnızca belgenin zarfının üzerine"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmeliğin 31. maddesinin beşinci fıkrasına göre idareler, fiziksel ortamda alınan belgeler için gelen belge kaydında kullanacakları etikette/kaşede en az Örnek 23'te belirtilen unsurlara yer verir ve etiket/kaşe, üst yazının ilk sayfasının ön veya arka yüzüne basılır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "31",
+			"clause": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fiziksel-ortam",
+			"etiket"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-gonderme-037",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre birime fiziksel ortamda gelen belgelerle ilgili havale ve talimat işlemleri için kullanılacak kaşenin şekli kim tarafından belirlenir?",
+		"options": [
+			"Dijital Dönüşüm Ofisi Başkanlığı tarafından",
+			"Devlet Arşivleri Başkanlığı tarafından",
+			"İlgili birimler tarafından",
+			"Kaşe kullanılamaz; havale yalnızca ayrı bir yazıyla yapılır",
+			"Cumhurbaşkanlığı Genel Sekreterliği tarafından"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmeliğin 31. maddesinin altıncı fıkrasına göre birime fiziksel ortamda gelen belgelerle ilgili havale, talimat ve benzeri işlemler üst yazının ilk sayfasının ön veya arka yüzüne kaşe basılarak belge üzerinde gösterilebilir ve bu kaşenin şekli ilgili birimler tarafından belirlenir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "31",
+			"clause": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"havale",
+			"kase"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-gonderme-038",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre kişiler tarafından idareye yazılan bir dilekçenin “… arz ederim.” şeklinde bitirilmemesi veya “… rica ederim.” ibaresiyle bitirilmesi hâlinde ne olur?",
+		"options": [
+			"Dilekçe yalnızca bilgi amaçlı kaydedilir; cevap verilmez",
+			"Dilekçe sahibine iade edilir ve düzeltmesi istenir",
+			"Dilekçenin işleme alınması idarenin takdirindedir",
+			"Dilekçe usulüne aykırı olduğundan işleme alınmaz",
+			"Bu durum dilekçenin işleme alınmasına engel değildir"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 31. maddesinin yedinci fıkrasına göre kişiler tarafından idareye yazılan dilekçelerin “… arz ederim.” şeklinde bitirilmemesi veya “… rica ederim.” ibaresiyle ya da başka ibarelerle bitirilmesi, dilekçenin işleme alınmasına engel değildir. Arz–rica ayrımı idareler arasındaki hiyerarşiye ilişkin bir kuraldır (m.16/12).",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "31",
+			"clause": "7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dilekce"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-gonderme-039",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre “ASLI GİBİDİR” ibaresi konularak çoğaltılan bir belge bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca kaşe basılması yeterlidir; imza aranmaz",
+			"Bu ibare elektronik ortamda hazırlanan belgelerin çıktılarında kullanılır",
+			"Yetkilendirilmiş görevli tarafından ad, soyad, unvan ve tarih belirtilerek imzalanır ve bu şekilde çoğaltılan belge asıl belge gibi kabul edilir",
+			"Belgeyi yalnızca idarenin en üst yöneticisi onaylayabilir",
+			"Çoğaltılan belge hiçbir şekilde asıl belge yerine geçmez"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmeliğin 29. maddesinin ikinci fıkrasına göre zorunlu hâllerde, olağanüstü durumlarda ya da Yönetmeliğin yürürlüğünden önce fiziksel ortamda hazırlanan bir belgeden örnek çıkartılması hâlinde çoğaltılan belgenin uygun bir yerine “ASLI GİBİDİR” ibaresi konulur, yetkilendirilmiş görevli tarafından ad, soyad, unvan ve tarih belirtilerek imzalanır ve bu belge asıl belge gibi kabul edilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "29",
+			"clause": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cogaltma",
+			"asli-gibidir"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-gonderme-040",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gonderme-alma-ve-sureler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre resmî yazışma kapsamında idare dışına gönderilen belgelerin şifrelenmesinde kullanılacak şifreleme sertifikaları nereden temin edilir?",
+		"options": [
+			"Devlet Arşivleri Başkanlığından",
+			"Kayıtlı elektronik posta (KEP) hizmet sağlayıcısından",
+			"Doğrudan Dijital Dönüşüm Ofisi Başkanlığından",
+			"İdarenin kendi bilgi işlem biriminden",
+			"Yetkili elektronik sertifika hizmet sağlayıcılarından"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 30. maddesinin beşinci fıkrasına göre idare dışına gönderilen güvenli elektronik imzalı belgeler gerekli hâllerde elektronik olarak şifrelenir, şifreleme işlemi e-Yazışma Teknik Rehberi'nde tanımlandığı şekilde yapılır ve kullanılacak şifreleme sertifikaları yetkili elektronik sertifika hizmet sağlayıcılarından temin edilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "30",
+			"clause": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sifreleme",
+			"sertifika"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

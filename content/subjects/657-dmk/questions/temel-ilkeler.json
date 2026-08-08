@@ -1016,5 +1016,365 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-ilke-032",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler'e göre, dört yıl süreli yükseköğrenimi bitirenlerden yüksek mühendis, mühendis, yüksek mimar veya mimar sıfatını almış olanlar hizmete nasıl alınır?",
+		"options": [
+			"Bir üst öğrenim düzeyi için öngörülen giriş derecesinden",
+			"Öğrenimlerine göre tespit edilen giriş derece ve kademelerine bir derece eklenerek",
+			"Öğrenimlerine göre tespit edilen giriş derece ve kademelerine iki kademe eklenerek",
+			"Öğrenimlerine göre tespit edilen giriş derece ve kademelerine iki derece eklenerek",
+			"Öğrenimlerine göre tespit edilen giriş derece ve kademesinden, herhangi bir ilave yapılmaksızın"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 36. maddesindeki Ortak Hükümler'in 2 numaralı bendine göre dört yıl süreli yükseköğrenimi bitirenlerden yüksek mühendis, mühendis, yüksek mimar, mimar sıfatını almış olanlar ile bunlardan öğretmenlik hizmetinde çalışanlara, öğrenimlerine göre tespit edilen giriş derece ve kademelerine bir derece eklenir. Beş yıl ve daha fazla süreli yükseköğrenim görenler için de 3 numaralı bentte aynı kural öngörülmüştür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36",
+			"clause": "Ortak Hükümler-2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"giris-derecesi",
+			"muhendis-mimar"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-ilke-033",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler'in 4 numaralı bendine göre jeolog, kimyager, fizikçi, matematikçi ve teknikerlerin giriş derecelerine bir derece eklenmesi hangi şarta bağlıdır?",
+		"options": [
+			"Görevde yükselme sınavını kazanmış olmak",
+			"En az beş yıl kamu hizmeti bulunmak",
+			"Lisansüstü öğrenimini tamamlamış olmak",
+			"Teknik hizmetler sınıfında görev almak",
+			"Mesleki bir kursu başarıyla bitirmiş olmak"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 36. maddesindeki Ortak Hükümler'in 4 numaralı bendine göre jeolog, jeofizikçi, hidrojeolog, kimyager, fizikçi, matematikçi, istatistikçi, teknikerler ve benzeri fen bilimleri ile teknik bilimler lisansiyerleri, **teknik hizmetler sınıfında görev almak şartıyla** öğrenimlerine göre tespit edilen giriş derece ve kademelerine bir derece eklenerek hizmete alınır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36",
+			"clause": "Ortak Hükümler-4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"giris-derecesi",
+			"teknik-hizmetler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-ilke-034",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler'e göre tabip, diş tabibi, veteriner hekim ve eczacılar hizmete hangi derece ve kademeden alınır?",
+		"options": [
+			"Giriş derece ve kademelerine iki derece eklenmek suretiyle",
+			"Öğrenim durumlarına göre tespit edilen giriş derecesinden, ilave yapılmaksızın",
+			"Giriş derece ve kademelerine bir kademe eklenmek suretiyle",
+			"Doğrudan 8. derecenin birinci kademesinden",
+			"Giriş derece ve kademelerine bir derece eklenmek suretiyle bulunacak derece ve kademeden"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 36. maddesindeki Ortak Hükümler'in 5 numaralı bendine göre dört yıl ve daha fazla süreli yükseköğrenim görenlerden tabip, diş tabibi, veteriner hekim, eczacı ile benzeri sağlık bilimleri lisansiyerleri (hayvan sağlığı dâhil) giriş derece ve kademelerine bir derece eklenmek suretiyle bulunacak derece ve kademelerden hizmete alınır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36",
+			"clause": "Ortak Hükümler-5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"giris-derecesi",
+			"saglik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-ilke-035",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler'e göre, ortaokul veya lise dengi okulların normal öğrenim süresinden fazla olması hâlinde nasıl bir uygulama yapılır?",
+		"options": [
+			"Başarılı her öğrenim yılı için bir kademe ilerlemesi uygulanır; teknik öğretim okulları mezunlarına meslekleriyle ilgili görevlerde çalışmaları hâlinde ayrıca bir kademe ilerlemesi daha verilir",
+			"Yalnızca teknik öğretim okulu mezunlarına bir kademe verilir",
+			"Fazla öğrenim süresinin tamamı için toplam bir kademe verilir",
+			"Fazla öğrenim süresi dikkate alınmaz",
+			"Başarılı her öğrenim yılı için bir derece yükselmesi uygulanır"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 36. maddesindeki Ortak Hükümler'in 6/b bendine göre ortaokul ve dengi ile lise ve dengi okulların normal öğrenim süresinden fazla olması hâlinde başarılı her öğrenim yılı için bir kademe ilerlemesi uygulanır; bunlardan teknik öğretim okulları mezunlarına, meslekleri ile ilgili görevlerde çalışmaları hâlinde ayrıca bir kademe ilerlemesi daha verilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36",
+			"clause": "Ortak Hükümler-6/b"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kademe-ilerlemesi",
+			"ogrenim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-ilke-036",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler'e göre, lise ve dengi okul mezunu olup özel kanunları gereğince sınava tabi tutularak orta dereceli okul öğretmenliği ehliyetini alanlar hangi derece ve kademeden hizmete alınır?",
+		"options": [
+			"10. derecenin birinci kademesinden",
+			"12. derecenin ikinci kademesinden",
+			"13. derecenin üçüncü kademesinden",
+			"11. derecenin birinci kademesinden",
+			"9. derecenin birinci kademesinden"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 36. maddesindeki Ortak Hükümler'in 6/a bendine göre lise ve dengi okul mezunu olup özel kanunları gereğince sınava tabi tutularak orta dereceli okul öğretmenliği ehliyetini alanlar, eğitim müfettişliği unvanını kazananlar ve mesleki-teknik öğretim okullarında meslek, atölye veya kurs öğretmenliğinde görevlendirilenler 11. derecenin birinci kademesinden hizmete alınır. Liseyi bitirenlerin normal giriş derecesi ise 13/3'tür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36",
+			"clause": "Ortak Hükümler-6/a"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"giris-derecesi",
+			"ogretmenlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-ilke-037",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler'e göre, bir kısım görevlere atanmada kanuni nitelik olarak şart koşulan kursları memurluğa girmeden önce başarıyla bitirenlere en fazla kaç kademe ilerlemesi uygulanabilir?",
+		"options": [
+			"4",
+			"3",
+			"2",
+			"5",
+			"1"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 36. maddesindeki Ortak Hükümler'in 7/a bendine göre kurumlarınca açılan ve bir kısım görevlere atanmada kanuni nitelik olarak şart koşulan kursları memurluğa girmeden önce başarıyla bitirenler hakkında, bu meslekleriyle ilgili görevlerde çalışmış olmak ve **3 kademeyi geçmemek** şartıyla, kurslarda geçirdikleri başarılı sürelerin her yılı için bir kademe ilerlemesi uygulanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36",
+			"clause": "Ortak Hükümler-7/a"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kademe-ilerlemesi",
+			"kurs"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-ilke-038",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler'e göre, hafız oldukları belirlenen Diyanet İşleri Başkanlığı personeline verilen bir derece yükselmesi bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu derece yükselmesi iki derece olarak uygulanır",
+			"Bu derece yükselmesi yalnızca yeni göreve atanacaklara verilir",
+			"Lisansüstü eğitim sebebiyle verilen derece ve kademe ilerlemesi ile birlikte uygulanamaz",
+			"Bu ilerleme yalnızca kademe ilerlemesi olarak uygulanır",
+			"Lisansüstü eğitim sebebiyle verilen ilerlemeyle birlikte uygulanır"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 36. maddesindeki Ortak Hükümler'in 7/b bendine göre Diyanet İşleri Başkanlığı kuruluşunda görevli bulunanlarla yeniden göreve atanacaklardan hafız oldukları belirlenenlere bir derece yükselmesi verilir; ancak lisansüstü eğitim sebebiyle verilen derece ve kademe ilerlemesi bu bent gereğince verilen derece ilerlemesiyle birlikte uygulanamaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36",
+			"clause": "Ortak Hükümler-7/b"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"derece-yukselmesi",
+			"hafizlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-ilke-039",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler'e göre emniyet hizmetleri sınıfına girenlerden ilkokul ve ortaokulu bitirenlerin giriş derecelerine ne kadar ilave yapılır?",
+		"options": [
+			"Bir derece bir kademe",
+			"İlave yapılmaz",
+			"Bir derece",
+			"İki derece",
+			"İki kademe"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 36. maddesindeki Ortak Hükümler'in 8/a bendine göre emniyet hizmetleri sınıfına girenlerden ilkokul ve ortaokulu bitirenlerin giriş derecelerine iki derece; lise ve dengi okulları bitirenlere bir derece bir kademe; yükseköğrenimi bitirenlere ise bir derece ilave edilir. Üç farklı öğrenim düzeyi için üç farklı ilave öngörülmesi bu bendin ayırt edici yönüdür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36",
+			"clause": "Ortak Hükümler-8/a"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"giris-derecesi",
+			"emniyet-hizmetleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-ilke-040",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler'e göre Genel İdare Hizmetleri sınıfına girenlerden orman muhafaza memuru ve başmemuru ile gümrük muhafaza memur ve amirlerine öğrenim durumlarına göre tespit edilen giriş derece ve kademelerine ne kadar ilave yapılır?",
+		"options": [
+			"Bir kademe",
+			"Bir derece",
+			"İki kademe",
+			"İki derece",
+			"İlave yapılmaz"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 36. maddesindeki Ortak Hükümler'in 8/b bendine göre Genel İdare Hizmetleri sınıfına girenlerden orman muhafaza memuru ve başmemuru ile gümrük muhafaza memur ve amirlerine, ilkokul, ortaokul ve lise öğrenimleri için Kanun'da tespit edilen giriş derece ve kademelerine bir derece ilave edilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36",
+			"clause": "Ortak Hükümler-8/b"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"giris-derecesi",
+			"muhafaza-memurlari"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-ilke-041",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/temel-ilkeler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Yükseköğrenim üstü master derecesi alarak bir kademe ilerlemesinden yararlanan bir memur, daha sonra mesleğiyle ilgili öğrenim dalında doktora yapmıştır. 657 sayılı Kanun'un 36. maddesindeki Ortak Hükümler'e göre bu memura ne uygulanır?",
+		"options": [
+			"Daha önce verilen kademe geri alınır ve bir derece verilir",
+			"Hiçbir ilave yapılmaz; master ilerlemesi yeterli sayılır",
+			"İki kademe ilerlemesi uygulanır",
+			"Ayrıca bir derece yükselmesi uygulanır",
+			"Üç kademe ilerlemesi uygulanır"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 36. maddesindeki Ortak Hükümler'in 9 numaralı bendinin ikinci paragrafına göre master derecesini alıp bir kademe ilerlemesinden yararlanan memura, mesleği ile ilgili öğrenim dalında doktora yaptığı takdirde iki kademe ilerlemesi uygulanır. Doktorayı doğrudan yapanlara ise bir derece yükselmesi verilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "36",
+			"clause": "Ortak Hükümler-9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kademe-ilerlemesi",
+			"lisansustu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

@@ -982,5 +982,351 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-bolum-031",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik'e göre bağlı veya ilgili idarelerde başlık (antet) kaç satır hâlinde ve nasıl yazılabilir?",
+		"options": [
+			"Üç satır hâlinde; bağlı olunan idarenin adına başlıkta yer verilmez",
+			"Dört satır hâlinde: “T.C.”, bağlı veya ilgili olunan idarenin adı büyük harflerle, idarenin adı ve birimin adı ilk harfleri büyük diğerleri küçük harflerle",
+			"İki satır hâlinde: yalnızca “T.C.” ve idarenin adı",
+			"Bağlı ve ilgili idarelerde başlık kullanılmaz",
+			"Beş satır hâlinde; son satıra bağlı olunan bakanın adı yazılır"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğin 10. maddesinin ikinci fıkrasına göre bağlı veya ilgili idarelerde ilk satıra “T.C.” kısaltması, ikinci satıra bağlı veya ilgili olunan idarenin adı büyük harflerle, üçüncü satıra idarenin adı ilk harfleri büyük diğerleri küçük harflerle ve dördüncü satıra da birimin adı ilk harfleri büyük diğerleri küçük harflerle ortalanarak yazılabilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "10",
+			"clause": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"baslik",
+			"bagli-idareler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-bolum-032",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre bölge müdürlükleri ile doğrudan merkezî teşkilata bağlı taşra birimlerinin başlıkları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Her ikisi de il ve ilçe teşkilatı gibi mülki idarenin adıyla başlar",
+			"Her ikisinde de yalnızca bulunulan ilin adı yazılır",
+			"Bölge müdürlüklerinde bölge adı yazılmaz; yalnızca idarenin adı yazılır",
+			"Doğrudan merkeze bağlı taşra birimlerinde yalnızca taşra teşkilatının adı yazılır",
+			"Bölge müdürlüklerinde hangi bölge teşkilatı olduğu yazılır; doğrudan merkezî teşkilata bağlı taşra birimlerinde başlıkta hem merkezî teşkilat hem taşra teşkilatı adlarına yer verilir"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 10. maddesinin dördüncü fıkrasına göre bölge müdürlüklerinde hangi bölge teşkilatı olduğu yazılır; beşinci fıkraya göre doğrudan merkezî teşkilata bağlı taşra birimlerinde başlıkta merkezî teşkilat ve taşra teşkilatı adlarına yer verilir. İl ve ilçe teşkilatlarındaki başlık ise 5442 sayılı Kanun'a uygun olarak mülki idarenin adıyla yazılır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "10",
+			"clause": "4-5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"baslik",
+			"tasra-teskilati"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-bolum-033",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre “Konu:” bölümünün yazımı bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Konu, yazı alanının dikey orta hizasını geçmeyecek biçimde yazılır; bir satırı geçerse ikinci ve devamındaki satırlar “Konu:” yan başlığının altı boş bırakılarak yazılır",
+			"Konu bir satırı geçerse ikinci satır “Konu:” yan başlığının tam altından başlar",
+			"Konu bölümü yalnızca dağıtımlı belgelerde kullanılır",
+			"Konu, yazı alanının tamamını kullanacak biçimde tek satırda yazılmak zorundadır",
+			"Konu bölümü yazı alanının sağında yer alır"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmeliğin 13. maddesine göre belgenin konusu, yazı alanının dikey orta hizasını geçmeyecek biçimde ve kelimelerin baş harfleri büyük olarak sonuna noktalama işareti konulmaksızın yazılır; konu bir satırı geçerse ikinci ve devamındaki satırlar “Konu:” yan başlığının altı boş bırakılarak yazılır. Konu, belgenin içeriği hakkında kısa ve öz bilgi barındırır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "13"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"konu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-bolum-034",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre Cumhurbaşkanı Yardımcısı'nın muhatap olduğu ve birden fazla Cumhurbaşkanı Yardımcısı bulunan durumlarda muhatap bölümü nasıl yazılır?",
+		"options": [
+			"Muhatap bölümüne “Sayın Cumhurbaşkanı Yardımcısı” ibaresi tek satır hâlinde yazılır",
+			"İlk satıra adı ve soyadı, ikinci satıra unvanı yazılır",
+			"Birden fazla Cumhurbaşkanı Yardımcısı bulunması hâlinde belge dağıtımlı olarak hazırlanır",
+			"İlk satıra “CUMHURBAŞKANI YARDIMCISINA” ibaresi, bir alt satıra parantez içinde “Sayın” ibaresinden sonra adı ilk harfi büyük, soyadı büyük harflerle yazılır",
+			"Yalnızca “CUMHURBAŞKANLIĞINA” ibaresi yazılır"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmeliğin 14. maddesinin ikinci fıkrasına göre Cumhurbaşkanı Yardımcısı'nın muhatap olduğu belgelerde “CUMHURBAŞKANI YARDIMCISINA” ibaresi yazılır; Cumhurbaşkanı Yardımcısı'nın birden fazla olması hâlinde ilk satıra bu ibare, bir alt satıra ise parantez içinde “Sayın” ibaresinden sonra adı ilk harfi büyük diğerleri küçük, soyadı büyük harflerle yazılır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "14",
+			"clause": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"muhatap"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-bolum-035",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Yönetmeliğe göre aynı mülki idareye veya dış temsilciliğe bağlı birimler arasında yapılan yazışmalarda belge nasıl gönderilir?",
+		"options": [
+			"Belge doğrudan gönderilemez; önce valilik onayı alınır",
+			"Belge yalnızca dış temsilcilik şefinin imzasıyla gönderilebilir",
+			"Belge her hâlükârda bağlı olunan mülki idare aracılığıyla gönderilir",
+			"Bağlı olunan mülki idarenin veya dış temsilciliğin bilgi sahibi olmasının gerekli görüldüğü durumlar hariç, belge doğrudan muhatap birime gönderilir",
+			"Bu birimler arasında yazışma yapılamaz; işlemler sözlü yürütülür"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmeliğin 14. maddesinin beşinci fıkrasına göre mülki idareye veya dış temsilciliğe bağlı teşkilatlarda muhatap ilk satıra bağlı olunan mülki idarenin veya dış temsilciliğin adı büyük harflerle yazılır; ancak aynı mülki idareye veya dış temsilciliğe bağlı birimler arasındaki yazışmalarda, bağlı olunanın bilgi sahibi olmasının gerekli görüldüğü durumlar haricinde belge doğrudan muhatap birime gönderilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "14",
+			"clause": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"muhatap",
+			"mulki-idare"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-bolum-036",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre birden fazla muhataba iletilecek dağıtımlı belgelerin muhatap bölümüne hangi ibare yazılır?",
+		"options": [
+			"GEREĞİ VE BİLGİ İÇİN",
+			"İLGİLİ MAKAMLARA",
+			"DAĞITIM YERLERİNE",
+			"TÜM BİRİMLERE",
+			"DAĞITIM LİSTESİNE"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmeliğin 14. maddesinin altıncı fıkrasına göre birden fazla muhataba iletilecek dağıtımlı belgelerin muhatap bölümüne “DAĞITIM YERLERİNE” ibaresi yazılır. “DAĞITIM LİSTESİ” ibaresi ise 19. maddeye göre dağıtım bölümü yazı alanına sığmadığında ayrı sayfada kullanılan başlıktır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "14",
+			"clause": "6"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"muhatap",
+			"dagitim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-bolum-037",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre birden fazla ilginin sıralanmasında hangi işaretleme kullanılır?",
+		"options": [
+			"Herhangi bir işaretleme yapılmaz; ilgiler alt alta yazılır",
+			"Türk alfabesinde yer alan bütün küçük harfler, kendilerinden sonra kapama parantez işareti “)” konularak kullanılır",
+			"Büyük harfler, kendilerinden sonra nokta konularak kullanılır",
+			"Arap rakamları, kendilerinden sonra kısa çizgi konularak kullanılır",
+			"Roma rakamları kullanılır"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğin 15. maddesinin beşinci fıkrasına göre ilginin birden fazla olması durumunda belgeler önceki tarihli olandan başlanarak sıralanır ve sıralamada Türk alfabesinde yer alan bütün küçük harfler, kendilerinden sonra kapama parantez işareti “)” konularak kullanılır. Aynı işaretleme usulü metin içindeki harfli maddelendirmede de geçerlidir (m.16/10).",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "15",
+			"clause": "5"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilgi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-bolum-038",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre metin başlangıcından önce bırakılacak boşluk bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"“İlgi” ile metin arasında üç satır, muhatap ile metin arasında bir satır boşluk bulunur",
+			"Boşluk miktarı idarenin takdirine bırakılmıştır",
+			"Her iki durumda da iki satır boşluk bulunur",
+			"“İlgi” ile metin başlangıcı arasında bir satır, “İlgi” yoksa muhatap ile metin başlangıcı arasında iki satır boşluk bulunur",
+			"Her iki durumda da bir satır boşluk bulunur"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmeliğin 16. maddesinin ikinci fıkrasına göre “İlgi” ile metin başlangıcı arasında bir satır, “İlgi” yoksa belgenin muhatabı ile metin başlangıcı arasında iki satır boşluk bulunur. Metin alanı, “Muhatap” veya varsa “İlgi” ile “İmza” arasındaki kısımdır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "16",
+			"clause": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"metin",
+			"yerlesim"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-bolum-039",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre metin içinde yer alan alıntılar nasıl gösterilebilir?",
+		"options": [
+			"Yalnızca büyük harflerle",
+			"Altı çizilerek ve kırmızı renkte",
+			"Yalnızca koyu (kalın) olarak",
+			"Alıntılara metin içinde yer verilemez; yalnızca ek olarak gösterilir",
+			"Tırnak içinde ve/veya eğik (italik) olarak"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 16. maddesinin dokuzuncu fıkrasına göre metin içinde yer alan alıntılar tırnak içinde ve/veya eğik (italik) olarak yazılabilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "16",
+			"clause": "9"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"metin",
+			"alinti"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-bolum-040",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/belgenin-bolumleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Yönetmeliğe göre metindeki kelime araları ve noktalama işaretleri bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu hususlarda Yönetmelikte bir kural bulunmaz; Yazım Kılavuzu esas alınır",
+			"Kelime aralarında ve noktalama işaretlerinden sonra bir karakter boşluk bırakılır; noktalama işaretleri kendinden önce gelen harfe bitişik yazılır",
+			"Kelime aralarında iki karakter boşluk bırakılır",
+			"Noktalama işaretleri kendinden sonra gelen harfe bitişik yazılır",
+			"Noktalama işaretlerinden önce ve sonra birer karakter boşluk bırakılır"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğin 16. maddesinin üçüncü fıkrasına göre metindeki kelime aralarında ve noktalama işaretlerinden sonra bir karakter boşluk bırakılır; noktalama işaretleri kendinden önce gelen harfe bitişik yazılır.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "16",
+			"clause": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"metin",
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

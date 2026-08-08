@@ -2677,5 +2677,363 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-disiplin-081",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Eşinin kazanç getiren sürekli bir faaliyetini belirlenen sürede kurumuna bildirmeyen memura 657 sayılı Kanun'a göre hangi disiplin cezası verilir?",
+		"options": [
+			"Aylıktan kesme",
+			"Uyarma",
+			"Devlet memurluğundan çıkarma",
+			"Kademe ilerlemesinin durdurulması",
+			"Kınama"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 125. maddesinin (B) fıkrasının (b) bendine göre eşlerinin, reşit olmayan veya mahcur olan çocuklarının kazanç getiren sürekli faaliyetlerini belirlenen sürede kurumuna bildirmemek kınama cezasını gerektirir. Bildirim yükümlülüğünün kendisi 28. maddede düzenlenmiştir ve süresi on beş gündür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125",
+			"clause": "B-b"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kinama",
+			"bildirim-yukumlulugu"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-disiplin-082",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'a göre Devlete ait resmî belge, araç ve gereci KAYBETMEK ile bunları ÖZEL MENFAAT SAĞLAMAK İÇİN KULLANMAK fiillerinin cezaları aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"Kaybetmek: uyarma — Özel menfaat sağlamak için kullanmak: kınama",
+			"Kaybetmek: aylıktan kesme — Özel menfaat sağlamak için kullanmak: kademe ilerlemesinin durdurulması",
+			"Her ikisi de kınama",
+			"Kaybetmek: kınama — Özel menfaat sağlamak için kullanmak: aylıktan kesme",
+			"Her ikisi de aylıktan kesme"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 125. maddesinin (B) fıkrasının (f) bendine göre Devlete ait resmî belge, araç, gereç ve benzeri eşyayı kaybetmek kınama; (C) fıkrasının (c) bendine göre bunları özel menfaat sağlamak için kullanmak ise aylıktan kesme cezasını gerektirir. Aynı eşyanın yalnızca özel işlerde kullanılması (B/e) kınama cezasını gerektirir; üç bendin birbirine karıştırılmaması gerekir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125",
+			"clause": "B-f / C-c"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kinama",
+			"aylıktan-kesme",
+			"devlet-mali"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-disiplin-083",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'a göre “verilen emirlere itiraz etmek” ile “verilen görev ve emirleri kasten yapmamak” fiillerine uygulanacak cezalar aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"İtiraz etmek: uyarma — Kasten yapmamak: aylıktan kesme",
+			"Her ikisi de kınama",
+			"Her ikisi de kademe ilerlemesinin durdurulması",
+			"İtiraz etmek: aylıktan kesme — Kasten yapmamak: Devlet memurluğundan çıkarma",
+			"İtiraz etmek: kınama — Kasten yapmamak: kademe ilerlemesinin durdurulması"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 125. maddesinin (B) fıkrasının (j) bendine göre verilen emirlere itiraz etmek kınama; (D) fıkrasının (n) bendine göre verilen görev ve emirleri kasten yapmamak kademe ilerlemesinin durdurulması cezasını gerektirir. Emirlerin tam ve zamanında yapılmasında kayıtsızlık uyarma (A/a), kusurlu davranmak kınama (B/a), kasıtlı olarak yapmamak ise aylıktan kesme (C/a) cezasını gerektirir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125",
+			"clause": "B-j / D-n"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kinama",
+			"kademe-durdurma",
+			"emir"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-disiplin-084",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yetkili olmadığı hâlde basına, haber ajanslarına veya radyo ve televizyon kurumlarına bilgi veya demeç veren memura hangi disiplin cezası verilir?",
+		"options": [
+			"Kademe ilerlemesinin durdurulması",
+			"Uyarma",
+			"Kınama",
+			"Devlet memurluğundan çıkarma",
+			"Aylıktan kesme"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 125. maddesinin (B) fıkrasına 2004 yılında eklenen (m) bendine göre yetkili olmadığı hâlde basına, haber ajanslarına veya radyo ve televizyon kurumlarına bilgi veya demeç vermek kınama cezasını gerektirir. Bu yetkinin kime ait olduğu ise Kanun'un 15. maddesinde düzenlenmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125",
+			"clause": "B-m"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kinama",
+			"basina-bilgi-verme"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-disiplin-085",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'a göre özürsüz olarak bir veya iki gün göreve gelmemek ile özürsüz ve kesintisiz 3-9 gün göreve gelmemek fiillerinin cezaları aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"1-2 gün: kınama — 3-9 gün: aylıktan kesme",
+			"Her ikisi de aylıktan kesme",
+			"1-2 gün: uyarma — 3-9 gün: kınama",
+			"1-2 gün: kademe ilerlemesinin durdurulması — 3-9 gün: Devlet memurluğundan çıkarma",
+			"1-2 gün: aylıktan kesme — 3-9 gün: kademe ilerlemesinin durdurulması"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 125. maddesinin (C) fıkrasının (b) bendine göre özürsüz olarak bir veya iki gün göreve gelmemek aylıktan kesme; (D) fıkrasının (b) bendine göre özürsüz ve kesintisiz 3-9 gün göreve gelmemek kademe ilerlemesinin durdurulması cezasını gerektirir. Kesintisiz on gün göreve gelmemek ise 94. maddeye göre çekilmiş sayılma sonucunu doğurur.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125",
+			"clause": "C-b / D-b"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"devamsizlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-disiplin-086",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'a göre görev sırasında amire “hâl ve hareketi ile saygısız davranmak” ile “sözle saygısızlık etmek” fiillerinin cezaları aşağıdakilerden hangisinde doğru verilmiştir?",
+		"options": [
+			"Her ikisi de kınama",
+			"Hâl ve hareketle saygısızlık: uyarma — Sözle saygısızlık: kınama",
+			"Hâl ve hareketle saygısızlık: aylıktan kesme — Sözle saygısızlık: kınama",
+			"Her ikisi de aylıktan kesme",
+			"Hâl ve hareketle saygısızlık: kınama — Sözle saygısızlık: aylıktan kesme"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 125. maddesinin (B) fıkrasının (c) bendine göre görev sırasında amire hâl ve hareketi ile saygısız davranmak kınama; (C) fıkrasının (e) bendine göre görev sırasında amirine sözle saygısızlık etmek aylıktan kesme cezasını gerektirir. Amire hakaret veya tehdit ise (D/l) kademe ilerlemesinin durdurulması cezasını gerektirir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125",
+			"clause": "B-c / C-e"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"amire-saygisizlik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-disiplin-087",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'a göre Devlet memurunun itibar ve güven duygusunu sarsacak nitelikteki davranışlar bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Her iki hâlde de kademe ilerlemesinin durdurulması cezası verilir",
+			"Hizmet içinde bulunmak kınama, hizmet dışında bulunmak aylıktan kesme cezasını gerektirir",
+			"Hizmet dışında bu nitelikte davranışta bulunmak kınama, hizmet içinde bulunmak aylıktan kesme cezasını gerektirir",
+			"Her iki hâlde de kınama cezası verilir",
+			"Hizmet dışındaki davranışlar disiplin cezasına konu olamaz"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 125. maddesinin (B) fıkrasının (d) bendine göre hizmet dışında Devlet memurunun itibar ve güven duygusunu sarsacak nitelikte davranışlarda bulunmak kınama; (C) fıkrasının (ı) bendine göre hizmet içinde aynı nitelikteki davranışlarda bulunmak ise aylıktan kesme cezasını gerektirir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125",
+			"clause": "B-d / C-ı"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"itibar-ve-guven"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-disiplin-088",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Belirlenen durum ve sürelerde mal bildiriminde bulunmayan memura 657 sayılı Kanun'a göre hangi disiplin cezası verilir?",
+		"options": [
+			"Kınama",
+			"Devlet memurluğundan çıkarma",
+			"Kademe ilerlemesinin durdurulması",
+			"Aylıktan kesme",
+			"Uyarma"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 125. maddesinin (D) fıkrasının (j) bendine göre belirlenen durum ve sürelerde mal bildiriminde bulunmamak kademe ilerlemesinin durdurulması cezasını gerektirir. Mal bildirimi yükümlülüğü 14. maddede ve 3628 sayılı Kanun'da düzenlenmiştir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125",
+			"clause": "D-j"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mal-bildirimi",
+			"kademe-durdurma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-disiplin-089",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdakilerden hangisi 657 sayılı Kanun'a göre uyarma cezasını gerektiren fiil ve hâllerden biri değildir?",
+		"options": [
+			"Görev sırasında amire hâl ve hareketi ile saygısız davranmak",
+			"Usulsüz müracaat veya şikâyette bulunmak",
+			"Belirlenen kılık ve kıyafet hükümlerine aykırı davranmak",
+			"Görevin işbirliği içinde yapılması ilkesine aykırı davranışlarda bulunmak",
+			"Devlet memuru vakarına yakışmayan tutum ve davranışta bulunmak"
+		],
+		"correctIndex": 0,
+		"explanation": "Görev sırasında amire hâl ve hareketi ile saygısız davranmak, 125. maddenin (B) fıkrasının (c) bendine göre kınama cezasını gerektirir. Diğer dört seçenek (A) fıkrasında uyarma cezasını gerektiren fiiller arasında sayılmıştır; (A) fıkrasında ayrıca özürsüz göreve geç gelmek, tasarruf tedbirlerine uymamak ve iş sahiplerine kayıtsızlık göstermek de yer alır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "125",
+			"clause": "A"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"uyarma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-disiplin-090",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/disiplin-cezalari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Devlet Memurları Disiplin Yönetmeliği'ne göre Devlet memurluğundan çıkarma cezasına ilişkin soruşturma dosyası, yüksek disiplin kuruluna tevdi edildiği tarihten itibaren en geç ne kadar sürede karara bağlanır?",
+		"options": [
+			"Otuz gün",
+			"Altı ay",
+			"Bir yıl",
+			"Üç ay",
+			"On beş gün"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğin 31. maddesinin üçüncü fıkrasına göre Devlet memurluğundan çıkarma cezası için disiplin amirleri tarafından yaptırılan soruşturmaya ait dosya, memurun bağlı bulunduğu kamu idaresinin yüksek disiplin kuruluna tevdiinden itibaren azami altı ay içinde bu kurulca karara bağlanır. Bu süre, 657 sayılı Kanun'un 127. maddesindeki altı aylık kovuşturma zamanaşımıyla karıştırılmamalıdır.",
+		"legalRef": {
+			"law": "Devlet Memurları Disiplin Yönetmeliği",
+			"lawId": "657",
+			"article": "31",
+			"clause": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"karar-suresi",
+			"memurluktan-cikarma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

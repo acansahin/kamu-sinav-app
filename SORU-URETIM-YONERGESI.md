@@ -29,14 +29,13 @@ Bu yüzden "657'den soru yaz" demek kaçınılmaz olarak tekrar üretir.
 
 | Sıra | Ders / konu | Soru | Neden |
 |---|---|---|---|
-| 1 | Resmî Yazışma — *Belgenin Özellikleri*, *Gizlilik/Doğrulama* | 22'şer | Yönetmelik maddeleri dolu, **fıkra düzeyinde** boşluk aranmalı |
-| 2 | Etik — *Etik Davranış İlkeleri*, *Çıkar Çatışması* | 30'ar | Etik Yönetmeliği m.5–24 dolu; 4982 ve 3628'in kapsanmamış maddeleri kaldı |
-| 3 | 657 — *Disiplin*, *Genel Hükümler*, *Memurluğun Sona Ermesi* | 80/50/30 | Yalnızca **fıkra/bent** düzeyinde boşluk var |
+| 1 | Etik — *Etik Davranış İlkeleri*, *Çıkar Çatışması* | 30'ar | Etik Yönetmeliği m.5–24 dolu; 3628 ve 4982'nin kapsanmamış maddeleri kaldı |
 
 **Doygun sayılması gereken konular** (tekrar üretme riski çok yüksek):
-657 — *Yasaklar* (m.26–31'in her unsuru kullanılmış), *Ödevler* (m.6–16),
-*Temel İlkeler* (m.3/33/36/37/39/45); Anayasa'nın beş konusu; Devlet
-Teşkilatı'nın yedi konusu (Ağustos 2026'da 16'dan 30'a çıkarıldı).
+657 — *Yasaklar* (m.26–31'in her fıkra ve bendi kullanılmış), *Ödevler*
+(m.6–16), *Memurluğun Sona Ermesi* (m.92–98); Resmî Yazışma — *Genel
+Hükümler ve Tanımlar* (m.1–3) ve *Belgenin Özellikleri* (m.4–9); Anayasa'nın
+beş konusu; Devlet Teşkilatı'nın yedi konusu.
 
 ### Kapsama haritasını yenileme
 
@@ -95,7 +94,7 @@ değil) ve havuzda zaten kapsanmıştır.
 
 ## 2. En önemli kural: TEKRAR ÜRETME
 
-Havuzda hâlihazırda 1240 soru var. Ek-A'da her konu için **hangi maddelerin zaten
+Havuzda hâlihazırda 1302 soru var. Ek-A'da her konu için **hangi maddelerin zaten
 kapsandığı** listelenmiştir.
 
 - Ek-A'da listelenen bir maddeden **madde düzeyinde** soru yazma.
@@ -190,18 +189,18 @@ KAPSAMA NOTU: <Ek-A'da olmayıp bu partide ilk kez ele aldığın maddeler>
 
 # EK-A — Havuzda hâlihazırda kapsanan maddeler
 
-*8 Ağustos 2026 itibarıyla, 1240 soru.*
+*8 Ağustos 2026 itibarıyla, 1302 soru.*
 Aşağıda listelenen maddeler **madde düzeyinde doludur**. Bunlardan ancak
 kapsanmamış bir fıkra/bendi ölçüyorsan soru yaz.
 
 ### 657 Sayılı Devlet Memurları Kanunu (`657-dmk`)
 
-**Genel Hükümler ve Kapsam** (50 soru) — 657 → 1, 2, 4, 5, 36, 43, 48, 53, 59, 78, 109, 146, 147, 149-151, 154, 161, 163, 167, 214, 215-217, 216, 218, 219, 221, 222, 223, 224, 231, 232, Ek 15, Ek 19
-**Temel İlkeler** (30 soru) — 657 → 3, 33, 36, 37, 39, 45
+**Genel Hükümler ve Kapsam** (60 soru) — 657 → 1, Ek 41, Ek 44, 2, 4, 5, 36, 43, 48, 53, 59, 78, 109, 146, 147, 149-151, 154, 161, 163, 167, 214, 215-217, 216, 218, 219, 221, 222, 223, 224, 231, 232, Ek 15, Ek 19
+**Temel İlkeler** (40 soru) — 657 → 3, 33, 36 (Ortak Hükümler bentleri dâhil), 37, 39, 45
 **Ödevler ve Sorumluluklar** (40 soru) — 657 → 6, 6-17, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 · 3628 → 6
 **Genel Haklar ve İzinler** (80 soru) — 657 → 17, 18, 19, 20, 21, 22, 23, 24, 25, 77, 99, 100, 101, 102, 103, 104, 105, 108, 122, 152, 164, 165, 166, 176, 177, 178, 183, 184, 187, 188, 189, 191, 192, 193, 199, 200, 202, 203, 204, 205, 206, 208, 210, 211-212, Ek 43
 **Yasaklar** (26 soru) — 657 → 22, 26, 26-31, 27, 28, 29, 30, 31
-**Disiplin Cezaları** (80 soru) — 657 → 124–135, 137–145 · Disiplin Yönetmeliği → 2, 5-11, 13-26, 28, 29, 30, 33, 34, 38, 39, 40
+**Disiplin Cezaları** (90 soru) — 657 → 124–135, 137–145 · Disiplin Yönetmeliği → 2, 5-11, 13-26, 28, 29, 30, 33, 34, 38, 39, 40
 **Atama, Yer Değiştirme ve Görevlendirme** (70 soru) — 657 → 40, 41, 45, 46, 47, 48, 49, 50, 51, 52, 54, 55, 56, 58, 60, 61, 62, 63, 64, 67, 68, 69, 71, 72, 73, 74, 76, 78, 79, 80, 81-82, 84, 85, 86, 87, 88, 89, 90, 91, 158, 159, 169, 170, 171, 174-175, 225, Ek 8, Ek 39
 **Memurluğun Sona Ermesi** (30 soru) — 657 → 56, 83, 92, 93, 94, 95, 96, 97, 98, 108 · 5434 → 40
 
@@ -237,7 +236,7 @@ Yönetmeliğin **39 maddesinin tamamı** kapsanmıştır. Burada yalnızca
 
 **Genel Hükümler ve Tanımlar** (30 soru) — m. 1, 2, 3
 **Belgenin Özellikleri ve Yazı Alanı** (22 soru) — m. 4, 5, 6, 7, 8, 9
-**Belgenin Bölümleri — Başlıktan Metne** (30 soru) — m. 10, 11, 12, 13, 14, 15, 16
-**İmza, Ek, Dağıtım, Olur ve Paraf** (30 soru) — m. 17, 18, 19, 20, 21, 22
-**Gizlilik, Doğrulama ve Üstveri** (22 soru) — m. 23, 24, 25, 26, 27, 28
-**Belgenin Gönderilmesi, Alınması ve Süreler** (30 soru) — m. 29–39 ve geçici m.1
+**Belgenin Bölümleri — Başlıktan Metne** (40 soru) — m. 10, 11, 12, 13, 14, 15, 16
+**İmza, Ek, Dağıtım, Olur ve Paraf** (40 soru) — m. 17, 18, 19, 20, 21, 22
+**Gizlilik, Doğrulama ve Üstveri** (24 soru) — m. 23, 24, 25, 26, 27, 28
+**Belgenin Gönderilmesi, Alınması ve Süreler** (40 soru) — m. 29–39 ve geçici m.1

@@ -1695,5 +1695,355 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "657-genel-052",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 1. maddesinin üçüncü fıkrasında sayılan hâkimlik ve savcılık mesleklerinde bulunanlar, Danıştay ve Sayıştay meslek mensupları ile üniversitelerin öğretim üye ve yardımcıları hangi hükümlere tabidir?",
+		"options": [
+			"Özel kanunları hükümlerine tabidir",
+			"657 sayılı Kanun'un yalnızca disiplin hükümlerine tabidir",
+			"Cumhurbaşkanlığı kararnameleriyle belirlenecek hükümlere tabidir",
+			"657 sayılı Kanun'un tamamına tabidir",
+			"İş Kanunu hükümlerine tabidir"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 1. maddesinin üçüncü fıkrasına göre Anayasa Mahkemesi üye ve yedek üyeleri ile raportörleri, hâkimlik ve savcılık mesleklerinde veya bu mesleklerden sayılan görevlerde bulunanlar, Danıştay ve Sayıştay meslek mensupları ile Sayıştay savcı ve yardımcıları, üniversitelerin öğretim üye ve yardımcıları ve maddede sayılan diğer görevliler özel kanunları hükümlerine tabidir. Bu kişiler hakkında 657 sayılı Kanun uygulanmaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "1",
+			"clause": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kapsam"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-genel-053",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 146. maddesine göre memurlara, kanun ve yönetmeliklerin ve amirlerin tayin ettiği görevler karşılığında yapılacak ödemeler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Ek ödemeler kurumun yönetmeliğiyle serbestçe belirlenir",
+			"Amirin uygun görmesi hâlinde ilave ücret ödenebilir",
+			"Hizmetle ilgili her çeşit ödeme, kurumun döner sermayesinden karşılanabilir",
+			"Kurumlar kendi bütçelerinden ek ödeme yapmakta serbesttir",
+			"Bu Kanun'la sağlanan haklar dışında ücret ödenemez ve hiçbir yarar sağlanamaz"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 146. maddesinin ikinci fıkrasına göre memurlara kanun, Cumhurbaşkanlığı kararnamesi ve yönetmeliklerin ve amirlerin tayin ettiği görevler karşılığında bu Kanun'la sağlanan haklar dışında ücret ödenemez, hiçbir yarar sağlanamaz. Bu hüküm, kamu personel rejiminde malî hakların kanunîliği ilkesinin karşılığıdır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "146",
+			"clause": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mali-hukumler"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-genel-054",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un 154. maddesine göre aylık ve taban aylık katsayılarında yapılan değişikliklerin niteliği nedir?",
+		"options": [
+			"Katsayılardaki her değişiklik aylıkta artış sayılır ve kazanılmış hak oluşturur",
+			"Katsayı değişikliği aylıklara ancak izleyen malî yılda yansıtılır",
+			"Katsayı değişikliği yalnızca ek gösterge bakımından artış sayılır",
+			"Katsayılardaki değişiklik aylıklarda artış veya eksiliş sayılmaz",
+			"Katsayı değişikliği memurun derecesinde bir yükselme sayılır"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 154. maddesine göre aylık katsayısı ile taban aylık katsayısı Genel Bütçe Kanunu ile tespit olunur, malî yılın ikinci yarısında Cumhurbaşkanı bu katsayıları değiştirmeye yetkilidir ve katsayılardaki değişiklik aylıklarda artış veya eksiliş sayılmaz.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "154",
+			"clause": "2"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"katsayi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-genel-055",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un Ek 41. maddesine göre uzman yardımcılığı giriş sınavında, yalnızca sözlü sınav yapılması hâlinde sözlü sınava çağrılacak aday sayısı en çok ne kadar olabilir?",
+		"options": [
+			"Giriş sınavı duyurusunda belirtilen kadronun iki katı",
+			"Sınırlama yoktur; başvuran bütün adaylar çağrılır",
+			"Giriş sınavı duyurusunda belirtilen kadronun dört katı",
+			"Giriş sınavı duyurusunda belirtilen kadronun on katı",
+			"Giriş sınavı duyurusunda belirtilen kadronun yirmi katı"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un Ek 41. maddesine göre giriş sınavına çağrılacak aday sayısı, atama yapılacak kadro sayısının yirmi katından; yalnızca sözlü sınav yapılması hâlinde sözlü sınava çağrılacak aday sayısı ise giriş sınavı duyurusunda belirtilen kadronun dört katından fazla olamaz. Yazılı sınav yapılması hâlinde de yetmiş puandan az olmamak üzere kadronun dört katına kadar aday sözlü sınava çağrılır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "Ek 41"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"uzmanlik",
+			"yarisma-sinavi"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-genel-056",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un Ek 41. maddesine göre uzman yardımcılığına atananların yeterlik sınavına girmeye hak kazanabilmeleri için aranan şartlar aşağıdakilerden hangisidir?",
+		"options": [
+			"En az üç yıl çalışmak; tez şartı 2024 yılında kaldırılmıştır",
+			"En az iki yıl çalışmak ve hizmet içi eğitimi tamamlamak",
+			"En az beş yıl çalışmak ve yabancı dil belgesini ibraz etmek",
+			"En az üç yıl çalışmak ve hazırlayacakları uzmanlık tezinin tez jürisi tarafından kabul edilmesi",
+			"Yalnızca kurumca açılacak hazırlayıcı eğitimi tamamlamak"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un Ek 41. maddesine göre (25/12/2024 tarihli ve 7537 sayılı Kanun'la değişik birinci cümle) uzman yardımcılığına atananlar, en az üç yıl çalışmak ve istihdam edildikleri birimlerce belirlenecek konularda hazırlayacakları uzmanlık tezi oluşturulacak tez jürisince kabul edilmek kaydıyla yeterlik sınavına girmeye hak kazanır. Tezini süresinde sunmayan veya tezi kabul edilmeyenlere altı ayı aşmamak üzere ilave süre verilir.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "Ek 41"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"uzmanlik",
+			"tez"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-genel-057",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Yeterlik sınavında başarılı olan bir uzman yardımcısının uzman kadrosuna atanabilmesi, 657 sayılı Kanun'un Ek 41. maddesine göre hangi şarta bağlıdır?",
+		"options": [
+			"Lisansüstü öğrenimini tamamlamış olmak",
+			"Atamadan önce asgari (B) düzeyinde yabancı dil belgesine sahip olmak",
+			"Yabancı dil şartı aranmaz; yeterlik sınavı yeterlidir",
+			"Yeterlik sınavından itibaren en geç iki yıl içinde Kamu Personeli Yabancı Dil Bilgisi Seviye Tespit Sınavından asgari (C) düzeyinde belgeye sahip olmak",
+			"Yeterlik sınavından itibaren en geç bir yıl içinde asgari (A) düzeyinde belge almak"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un Ek 41. maddesine göre yeterlik sınavında başarılı olanların uzman kadrolarına atanabilmeleri, Kamu Personeli Yabancı Dil Bilgisi Seviye Tespit Sınavından asgari (C) — Dışişleri Uzmanlığı için asgari (B) — düzeyinde veya denk kabul edilen bir belgeye yeterlik sınavından itibaren en geç iki yıl içinde sahip olma şartına bağlıdır. Bu şartı süresinde yerine getirmeyenler uzman yardımcısı unvanını kaybeder ve durumlarına uygun memur kadrolarına atanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "Ek 41"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"uzmanlik",
+			"yabanci-dil"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-genel-058",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un Ek 41. maddesine göre uzman yardımcılığı sözlü sınavında adayın “sınav konularına ilişkin bilgi düzeyi” kaç puan üzerinden değerlendirilir?",
+		"options": [
+			"20",
+			"50",
+			"70",
+			"10",
+			"100"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un Ek 41. maddesine göre adaylar, sözlü sınavda sınav konularına ilişkin bilgi düzeyi bakımından elli puan; kavrayıp özetleme ve ifade yeteneği, liyakat ve temsil kabiliyeti, özgüven ve ikna kabiliyeti, genel yetenek ve genel kültür ile bilimsel ve teknolojik gelişmelere açıklık bakımlarından ise her biri onar puan üzerinden değerlendirilir. Sözlü sınavda başarılı sayılmak için puanların aritmetik ortalamasının en az yetmiş olması şarttır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "Ek 41"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"uzmanlik",
+			"sozlu-sinav"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-genel-059",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un Ek 44. maddesine göre taşra teşkilatlarında istihdam edilen uzman ve uzman yardımcıları bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu kadrolara sınavsız atama yapılabilir",
+			"Ek 41. maddenin hükümleri kıyasen uygulanır; ancak yabancı dil ve tez hazırlama şartı aranmaz",
+			"Yalnızca yabancı dil şartı aranır, tez şartı aranmaz",
+			"Ek 41. maddedeki bütün şartlar aynen uygulanır",
+			"Taşra teşkilatlarında uzman istihdam edilemez"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un Ek 44. maddesine göre (8/5/2025 tarihli ve 7547 sayılı Kanun'la değişik) bakanlıklar ile diğer kamu kurum ve kuruluşlarının teşkilatlanmasına ilişkin Cumhurbaşkanlığı kararnamelerinde öngörülmesi kaydıyla taşra teşkilatlarında uzman ve uzman yardımcısı istihdam edilebilir; bu istihdamda Ek 41. maddenin ilgili fıkraları, yabancı dil ve tez hazırlama şartı hariç olmak üzere kıyasen uygulanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "Ek 44"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"uzmanlik",
+			"tasra-teskilati"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-genel-060",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "657 sayılı Kanun'un Ek 44. maddesine göre taşra teşkilatındaki uzman ve uzman yardımcılarına teftiş, denetim, inceleme ve soruşturma yaptırılması hâlinde bu kişiler bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Bu görevler yalnızca müfettişlere verilebilir",
+			"Bu görevlendirme için Cumhurbaşkanı onayı gerekir",
+			"Bu kişiler görevlendirme süresince kadrolarından istifa etmiş sayılır",
+			"Bu kişiler yer değiştirmeye tabi tutulamaz",
+			"Bu şekilde görevlendirilenler yer değiştirme suretiyle atamaya tabi tutulur"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un Ek 44. maddesine göre teşkilatlanmaya ilişkin Cumhurbaşkanlığı kararnamelerinde öngörülmesi kaydıyla bu uzmanlara teftiş, denetim, inceleme ve soruşturma yaptırılabilir; ancak bu şekilde görevlendirilenler yer değiştirme suretiyle atamaya tabi tutulur ve görevlendirmelerinde 6245 sayılı Kanun'un 33. maddesinin (b) fıkrası uygulanır.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "Ek 44"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"uzmanlik",
+			"teftis"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "657-genel-061",
+		"subjectId": "657-dmk",
+		"topicId": "657-dmk/genel-hukumler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "657 sayılı Kanun'un 147. maddesindeki tanıma göre “aylık” nedir?",
+		"options": [
+			"Kadroya bağlı olmaksızın sözleşme ile belirlenen ödeme",
+			"Yolluk, tazminat ve sosyal yardımların toplamı",
+			"Kanuna tabi kurumlarda görevlendirilen memurlara hizmetlerinin karşılığında, kadroya dayanılarak ay itibarıyla ödenen para",
+			"Memurun fazla çalışma karşılığında aldığı ek ödeme",
+			"Memurun bir yıllık hizmeti karşılığında ödenen toplam ücret"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 147. maddesinin (A) bendine göre aylık; bu Kanun'a tabi kurumlarda görevlendirilen memurlara hizmetlerinin karşılığında, kadroya dayanılarak ay itibarıyla ödenen parayı ifade eder. Kadroya dayanma unsuru, aylığı sözleşme ücretinden ayıran temel ölçüttür.",
+		"legalRef": {
+			"law": "657 sayılı Devlet Memurları Kanunu",
+			"lawId": "657",
+			"article": "147"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tanimlar",
+			"aylik"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]

@@ -722,5 +722,73 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-08-02"
+	},
+	{
+		"id": "yazisma-gizlilik-001",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre birden fazla sayfadan oluşan süreli bir belgede “ACELE” veya “GÜNLÜDÜR” ibaresi hangi sayfalarda belirtilir?",
+		"options": [
+			"İlk ve son sayfada",
+			"Yalnızca ekleri bulunan sayfalarda",
+			"Sadece birinci sayfada",
+			"Sadece son sayfada",
+			"Her sayfada"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmeliğin 26. maddesinin üçüncü fıkrasına göre süreli belgelerde “ACELE” veya “GÜNLÜDÜR” ibaresi yazı alanının sağ üst köşesinde kırmızı renkli olarak belirtilir ve birden fazla sayfalı belgelerde bu ibare sadece birinci sayfada gösterilir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "26",
+			"clause": "3"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sureli-yazisma"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
+	},
+	{
+		"id": "yazisma-gizlilik-002",
+		"subjectId": "resmi-yazisma",
+		"topicId": "resmi-yazisma/gizlilik-dogrulama-ustveri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre “KİŞİYE ÖZEL” ibaresi neyi ifade eder?",
+		"options": [
+			"Belgenin süreli olduğunu ve derhâl cevaplanması gerektiğini",
+			"Belgenin ilgilisine teslim edilmesini ve sonrasında yürütülecek süreci",
+			"Belgenin yalnızca fiziksel ortamda hazırlanacağını",
+			"Belgenin gizlilik derecesinin “Özel” olduğunu",
+			"Belgenin hiçbir şekilde kayda alınmayacağını"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmeliğin 26. maddesinin dördüncü fıkrasına göre “KİŞİYE ÖZEL” ibaresi, belgenin ilgilisine teslim edilmesini ve sonrasında yürütülecek süreci ifade eder. Bu ibare bir gizlilik derecesi değildir; gizlilik dereceleri 25. maddede düzenlenmiştir.",
+		"legalRef": {
+			"law": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"article": "26",
+			"clause": "4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Mevzuat metninden özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kisiye-ozel"
+		],
+		"version": 1,
+		"updatedAt": "2026-08-08"
 	}
 ]
