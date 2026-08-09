@@ -34,7 +34,7 @@ DERSLER
 • Resmî Yazışmalarda Uygulanacak Usul ve Esaslar
 • Devlet Teşkilatı ile İlgili Mevzuat
 
-Toplam 30 konu, 30 konu özeti ve 1000'in üzerinde soru.
+Toplam 30 konu, 30 konu özeti ve 1300'ün üzerinde soru.
 
 NASIL ÇALIŞIRSINIZ
 
@@ -69,10 +69,14 @@ Bu uygulama resmî değildir. Hiçbir bakanlık, kurum, kuruluş veya sınav mer
 Karakter sayısı: yaklaşık 1.900 — sınırın oldukça altında, ders ve konu sayısı
 büyüdükçe genişletilebilir.
 
-> **Sayılar içerikle birlikte değişir.** “30 konu” ve “1000'in üzerinde soru”
+> **Sayılar içerikle birlikte değişir.** “30 konu” ve “1300'ün üzerinde soru”
 > ifadeleri `npm run content:build` çıktısındaki toplamlardan gelir; ders
 > eklendiğinde bu metin de güncellenmelidir. Uygulama içindeki `/hakkinda`
 > sayfası aynı sayıları içerikten türeterek gösterir, elle yazmaz.
+>
+> Aşağı yuvarlanır ve **asla yukarı yuvarlanmaz**: mağaza metni içerikten
+> türemediği için havuz küçülmedikçe doğru kalmalıdır. 9 Ağustos 2026
+> ölçümü 1322 soru; “1300'ün üzerinde” ifadesi 1300'e inene kadar geçerli.
 
 ## Sürüm notları (en çok 500 karakter)
 
@@ -81,7 +85,7 @@ büyüdükçe genişletilebilir.
 ```
 İlk sürüm.
 
-• 5 ders, 30 konu, 1000'in üzerinde soru
+• 5 ders, 30 konu, 1300'ün üzerinde soru
 • Konu özetleri, 10 soruluk konu testleri ve süreli deneme sınavları
 • Her soruda mevzuat dayanağı ve açıklama
 • Yanlışlarınız için aralıklı tekrar planı
