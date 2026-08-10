@@ -58,7 +58,8 @@ Bunlar depoda tutulamaz; Play Console hesabında yapılır:
    seçilmesi önerilir.
 6. **Ödeme profili (merchant account)** — uygulama içi ürün oluşturmanın
    önkoşuludur.
-7. **Uygulama içi ürün** — Monetize → Products → In-app products:
+7. **Uygulama içi ürün** — Kazanç sağlayın → Ürünler → Uygulama içi ürünler
+   (Monetize → Products → In-app products):
    - Ürün kimliği: **`tam_erisim`** (`src/lib/billing/products.ts` ile birebir
      aynı olmalı). **Oluşturulduktan sonra değiştirilemez, silinirse yeniden
      kullanılamaz.**
@@ -67,21 +68,39 @@ Bunlar depoda tutulamaz; Play Console hesabında yapılır:
      kullanıcıya vergi dâhil görünür (Console'daki vergi ayarından doğrulayın).
    - Durum: **Aktif**. Yayılması birkaç saat sürebilir; ürün pasifken
      `getProduct()` null döner ve bu bir kod hatası sanılır.
-8. **Lisans testi** — Setup → License testing'e test Gmail adresleri eklenir.
+8. **Lisans testi** — Kurulum → Lisans testi (Setup → License testing) altına
+   test Gmail adresleri eklenir. Atlanırsa test satın almalarından **gerçek
+   para** çekilir.
 
 ## Yükleme
 
 `.aab` dosyası `.github/workflows/android-release.yml` iş akışıyla üretilir ve
-iş çıktısı olarak indirilir. İlk yüklemenin **iç test** kanalına yapılması
+iş çıktısı olarak indirilir. İlk yüklemenin **Dahili test** kanalına yapılması
 önerilir; üretime çıkmadan önce imzalı paketin gerçek cihazda açıldığı
 doğrulanmalıdır.
+
+Kanal adları burada Console'un **Türkçe** arayüzündeki hâliyle yazılır —
+belge Console'da ilerlerken okunuyor ve çeviri farkı tereddüt üretiyordu
+(İngilizce arayüzdeki karşılıkları parantezde):
+
+| Console | İngilizce | Kim kurabilir |
+|---|---|---|
+| **Dahili test** | Internal testing | Listelenen en fazla 100 adres |
+| Kapalı test | Closed testing | Davet edilen gruplar |
+| Açık test | Open testing | Herkes, mağazada erken erişim olarak |
+| Üretim | Production | Herkes |
+
+⚠️ **"Dahili uygulama paylaşımı" (Internal app sharing) bu kanallardan biri
+değildir.** Derlemeyi bağlantıyla paylaşmaya yarayan ayrı bir özelliktir ve
+kanal listesinde görünmez; satın alma testi için kanal olan Dahili test
+kullanılır.
 
 ### Satın alma nasıl test edilir
 
 ⚠️ **Uygulama içi satın alma, `android.yml` iş akışının ürettiği debug APK ile
 test EDİLEMEZ.** Play Billing yalnızca Play tarafından dağıtılan bir pakette
-çalışır; debug APK'da `getProduct()` boş döner. Test için AAB'yi **iç test**
-kanalına yükleyip cihaza Play üzerinden kurun.
+çalışır; debug APK'da `getProduct()` boş döner. Test için AAB'yi **Dahili
+test** kanalına yükleyip cihaza Play üzerinden kurun.
 
 Kabul kriteri olan senaryolar:
 
