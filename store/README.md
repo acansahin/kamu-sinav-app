@@ -6,6 +6,7 @@ metin bir sonraki sürümde kaybolur.
 
 | Dosya | Ne için |
 |---|---|
+| [yukleme-kilavuzu.md](yukleme-kilavuzu.md) | İlk yüklemenin sıralı adımları (Console yürüyüşü) |
 | [listing-tr.md](listing-tr.md) | Kısa/uzun açıklama, sürüm notları |
 | [data-safety.md](data-safety.md) | Veri güvenliği formu cevapları |
 | [content-rating.md](content-rating.md) | İçerik derecelendirme anketi cevapları |
