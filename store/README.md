@@ -44,7 +44,13 @@ npm run store:screenshots
 
 ## Console'da elle yapılacaklar
 
-Bunlar depoda tutulamaz; Play Console hesabında yapılır:
+Bunlar depoda tutulamaz; Play Console hesabında yapılır.
+
+> **Menü yolları Console'un Türkçe arayüzünden birebir alınmıştır** (kaynak:
+> Play Console Yardım, Ağustos 2026). Google bu adları zaman zaman
+> değiştiriyor; tutmadığını görürseniz uydurmayın, yardım merkezinden
+> doğrulayıp burayı güncelleyin. Bir kez tahminle yazıldı ve Console'da
+> karşılığı çıkmadı.
 
 1. **Gizlilik politikası URL'i** — zorunlu. `pages.yml` iş akışı elle
    tetiklendikten sonra `https://<kullanıcı>.github.io/kamu-sinav-app/gizlilik/`
@@ -52,14 +58,16 @@ Bunlar depoda tutulamaz; Play Console hesabında yapılır:
    havuzunun tamamı herkese açık hâle gelir (bkz. AGENTS.md).
 2. **Geliştirici iletişim e-postası** — zorunlu ve mağaza sayfasında herkese
    görünür. `src/lib/legal/data-controller.ts` içindeki adresle aynı olmalıdır.
+   Gizlilik politikası alanı dâhil aşağıdaki beyanların tamamı
+   **Politika ve programlar → Uygulama içeriği** altındadır.
 3. **İçerik derecelendirme anketi** — cevaplar `content-rating.md` içinde.
 4. **Veri güvenliği formu** — cevaplar `data-safety.md` içinde.
 5. **Ülke/bölge seçimi** — içerik Türkiye mevzuatına özgüdür; yalnızca Türkiye
    seçilmesi önerilir.
-6. **Ödeme profili (merchant account)** — uygulama içi ürün oluşturmanın
-   önkoşuludur.
-7. **Uygulama içi ürün** — Kazanç sağlayın → Ürünler → Uygulama içi ürünler
-   (Monetize → Products → In-app products):
+6. **Ödeme profili (merchant account)** — Ayarlar → Ödeme profili. Uygulama
+   içi ürün oluşturmanın önkoşuludur.
+7. **Uygulama içi ürün** — Play ile para kazanın → Ürünler → Uygulama içi
+   ürünler (Monetize → Products → In-app products):
    - Ürün kimliği: **`tam_erisim`** (`src/lib/billing/products.ts` ile birebir
      aynı olmalı). **Oluşturulduktan sonra değiştirilemez, silinirse yeniden
      kullanılamaz.**
@@ -68,9 +76,13 @@ Bunlar depoda tutulamaz; Play Console hesabında yapılır:
      kullanıcıya vergi dâhil görünür (Console'daki vergi ayarından doğrulayın).
    - Durum: **Aktif**. Yayılması birkaç saat sürebilir; ürün pasifken
      `getProduct()` null döner ve bu bir kod hatası sanılır.
-8. **Lisans testi** — Kurulum → Lisans testi (Setup → License testing) altına
-   test Gmail adresleri eklenir. Atlanırsa test satın almalarından **gerçek
-   para** çekilir.
+8. **Lisans testi** — Ayarlar → Lisans testi (Settings → License testing)
+   altına test Gmail adresleri eklenir. Ayar **hesap düzeyindedir**, uygulama
+   düzeyinde değil; bir kez eklenen adres bütün uygulamalarda geçerlidir.
+   Atlanırsa test satın almalarından **gerçek para** çekilir.
+9. **Mağaza sayfası metin ve görselleri** — Kullanıcı sayısını artırın →
+   Google Play Store'daki varlığı → Ana mağaza girişi. Metinler
+   `listing-tr.md`, görseller `assets/` altındadır.
 
 ## Yükleme
 
