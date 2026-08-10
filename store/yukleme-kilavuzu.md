@@ -104,12 +104,18 @@ vermeden önce sitenin güncel olduğundan emin olun. `data-controller.ts`
 içindeki e-posta boşsa sayfa "bu metin henüz yayına hazır değil" uyarısı
 gösterir ve inceleme ekibi tam olarak onu görür.
 
-**Uygulama erişimi bölümünü boş geçmeyin.** Uygulama giriş istemez, bu yüzden
-"tüm işlevler erişilebilir" demek gelir içinizden — ama içeriğin çoğu ödeme
-duvarının arkasındadır. İnceleyiciye ücretsiz kapsamın ne olduğunu
-(`FREE_SUBJECT_ID` / `FREE_TOPIC_SLUG` / `FREE_TEST_SLUG`) ve gerisinin
-`tam_erisim` ile açıldığını yazın. Yazılmazsa inceleyici ücretli içeriği
-göremeyip reddedebilir.
+**Uygulama erişimi: "Hayır — kısıtlanmış bölüm yok" seçilir.** İçeriğin çoğu
+ödeme duvarının arkasında olduğu için "Var" demek ve inceleyiciye ücretsiz
+kapsamı anlatan bir not bırakmak mantıklı görünür — **denendi, olmuyor**:
+"Var" seçildiğinde açılan talimat formu kullanıcı adı ve şifreyi **zorunlu**
+tutuyor, boş geçilemiyor. Uygulamada hesap olmadığı için girilecek bir şey
+yok ve uydurulan kimlik bilgisi inceleyici denediğinde başarısız olur; bu
+kesin ret sebebidir.
+
+Bölümün kapsamı zaten **kimlik doğrulamayla** kısıtlamadır (giriş, üyelik,
+konum); satın almayla kilit buraya girmez. Ücretsiz kapsamın inceleyiciye
+anlatılması `listing-tr.md`'deki "ÜCRETSİZ KULLANIM VE TAM ERİŞİM"
+bölümüyle olur — o paragraf bu yüzden metinden çıkarılmamalıdır.
 
 ## 5. Ödeme profili ve ürün
 
