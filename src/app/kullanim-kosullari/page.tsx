@@ -93,9 +93,8 @@ export default function TermsPage() {
 
 				<h2>3. Tam erişim ve uygulama içi satın alma</h2>
 				<p>
-					<strong>Ücretsiz kapsam.</strong> 657 sayılı Devlet Memurları
-					Kanunu&rsquo;nun &ldquo;Genel Hükümler&rdquo; konusunun özeti ve ilk
-					testi satın alma olmadan kullanılabilir. İlerleme takibi,
+					<strong>Ücretsiz kapsam.</strong> Her dersin ilk konusunun özeti ve o
+					konunun ilk testi satın alma olmadan kullanılabilir. İlerleme takibi,
 					istatistikler, tekrar planı ve konu araması da her zaman ücretsizdir.
 				</p>
 				<p>

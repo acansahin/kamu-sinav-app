@@ -46,7 +46,7 @@ NASIL ÇALIŞIRSINIZ
 
 ÜCRETSİZ KULLANIM VE TAM ERİŞİM
 
-Uygulama ücretsiz indirilir. 657 sayılı Devlet Memurları Kanunu'nun "Genel Hükümler" konusunun özeti ve ilk testi (10 soru) satın alma olmadan açıktır; ilerleme takibi, istatistikler, tekrar planı ve konu araması her zaman ücretsizdir.
+Uygulama ücretsiz indirilir. Beş dersin her birinde ilk konunun özeti ve ilk testi (10 soru) satın alma olmadan açıktır — yani satın almadan önce her dersi deneyebilirsiniz. İlerleme takibi, istatistikler, tekrar planı ve konu araması her zaman ücretsizdir.
 
 Tüm konu özetleri, soru havuzunun tamamı ve deneme sınavları için tek seferlik bir uygulama içi satın alma gerekir. Abonelik değildir: bir kez ödenir, kalıcıdır, yenilenmez.
 
@@ -89,7 +89,7 @@ büyüdükçe genişletilebilir.
 • Konu özetleri, 10 soruluk konu testleri ve süreli deneme sınavları
 • Her soruda mevzuat dayanağı ve açıklama
 • Yanlışlarınız için aralıklı tekrar planı
-• Ücretsiz deneyin: 657 DMK Genel Hükümler konusu ve ilk testi açık
+• Ücretsiz deneyin: her dersin ilk konusu ve ilk testi açık
 • Tam erişim tek seferlik satın almayla; abonelik yok
 • Çevrimdışı çalışır, hesap gerektirmez, reklam içermez
 ```

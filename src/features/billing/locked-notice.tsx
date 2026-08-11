@@ -31,8 +31,8 @@ export function LockedNotice({
 			</div>
 
 			<p className="mt-4 text-sm text-fg-subtle">
-				657 sayılı Kanun&rsquo;un Genel Hükümler konusu — özeti ve ilk testi —
-				satın alma olmadan açıktır.
+				Her dersin ilk konusu — özeti ve ilk testi — satın alma olmadan
+				açıktır.
 			</p>
 		</Card>
 	);

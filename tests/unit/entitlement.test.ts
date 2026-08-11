@@ -1,9 +1,8 @@
 import { describe, expect, it } from "vitest";
 import {
 	type Entitlement,
-	FREE_SUBJECT_ID,
 	FREE_TEST_SLUG,
-	FREE_TOPIC_SLUG,
+	FREE_TOPIC_BY_SUBJECT,
 	OPEN_ENTITLEMENT,
 	isExamUnlocked,
 	isQuestionSearchUnlocked,
@@ -25,6 +24,15 @@ import {
 const WEB: Entitlement = { paywallActive: false, fullAccess: false };
 const PAID: Entitlement = { paywallActive: true, fullAccess: true };
 const FREE: Entitlement = { paywallActive: true, fullAccess: false };
+
+/**
+ * Ücretsiz çiftler haritadan türetilir, elle tekrarlanmaz.
+ *
+ * Elle yazılsaydı ders eklenince buraya satır eklemek unutulur ve yeni dersin
+ * ücretsiz konusu hiç sınanmazdı. Haritanın içeriğinin İÇERİKLE tuttuğunu
+ * `content-integrity` doğrular; burada yalnızca kilit mantığı sınanır.
+ */
+const FREE_PAIRS: [string, string][] = [...FREE_TOPIC_BY_SUBJECT];
 
 /** Kilitlenebilir her yüzeyin tek argümanlı sorgusu. */
 const SURFACES: [string, (e: Entitlement) => boolean][] = [
@@ -58,30 +66,33 @@ describe("kilit yok sayılan hâller", () => {
 });
 
 describe("ücretsiz ön gösterim", () => {
-	it("ücretsiz konunun özeti açıktır", () => {
-		expect(isTopicUnlocked(FREE_SUBJECT_ID, FREE_TOPIC_SLUG, FREE)).toBe(true);
+	it("her dersin bir ücretsiz konusu tanımlıdır", () => {
+		// Harita boşalırsa aşağıdaki it.each'ler HİÇ çalışmaz ve testler yeşil
+		// kalırken paywall her şeyi kilitler.
+		expect(FREE_PAIRS.length).toBeGreaterThan(0);
 	});
 
-	it("ücretsiz konunun ilk testi açıktır", () => {
-		expect(
-			isTestSetUnlocked(FREE_SUBJECT_ID, FREE_TOPIC_SLUG, FREE_TEST_SLUG, FREE),
-		).toBe(true);
+	it.each(FREE_PAIRS)("“%s/%s” konusunun özeti açıktır", (subject, topic) => {
+		expect(isTopicUnlocked(subject, topic, FREE)).toBe(true);
 	});
 
-	it("ücretsiz konunun sonraki testleri kilitlidir", () => {
-		expect(
-			isTestSetUnlocked(FREE_SUBJECT_ID, FREE_TOPIC_SLUG, "test-2", FREE),
-		).toBe(false);
-		expect(
-			isTestSetUnlocked(FREE_SUBJECT_ID, FREE_TOPIC_SLUG, "test-5", FREE),
-		).toBe(false);
+	it.each(FREE_PAIRS)("“%s/%s” konusunun ilk testi açıktır", (subject, topic) => {
+		expect(isTestSetUnlocked(subject, topic, FREE_TEST_SLUG, FREE)).toBe(true);
 	});
+
+	it.each(FREE_PAIRS)(
+		"“%s/%s” konusunun sonraki testleri kilitlidir",
+		(subject, topic) => {
+			expect(isTestSetUnlocked(subject, topic, "test-2", FREE)).toBe(false);
+			expect(isTestSetUnlocked(subject, topic, "test-5", FREE)).toBe(false);
+		},
+	);
 
 	/**
-	 * Ücretsiz derste bile kapalı: yazdırma sayfası dersin TÜM konu özetlerini
-	 * tek belgede basar, yani kilitli olanları da içerir.
+	 * Her derste kapalı: yazdırma sayfası dersin TÜM konu özetlerini tek belgede
+	 * basar, yani ücretsiz ilk konunun yanında kilitli olanları da içerir.
 	 */
-	it("ücretsiz dersin yazdırma sayfası da kilitlidir", () => {
+	it("dersin yazdırma sayfası her derste kilitlidir", () => {
 		expect(isSubjectPrintUnlocked(FREE)).toBe(false);
 	});
 
@@ -93,13 +104,14 @@ describe("ücretsiz ön gösterim", () => {
 
 describe("kilitli yakın-kaçırmalar", () => {
 	/**
-	 * Ders ve konu AYRI AYRI eşleşmek zorunda. Bir zamanlar bunlar tek bir
-	 * dizede birleştirilse ya da yalnızca konu slug'ına bakılsa, aşağıdaki
-	 * çiftlerin bir kısmı sessizce açılırdı.
+	 * Ders ve konu AYRI AYRI eşleşmek zorunda. Ücretsiz konu artık ders başına
+	 * tanımlı olduğu için asıl risk ÇAPRAZ eşleşmedir: bir dersin ücretsiz
+	 * slug'ı başka bir derste de geçerli sayılırsa kapı sessizce genişler.
 	 */
 	it.each([
-		["başka derste aynı konu slug'ı", "anayasa", FREE_TOPIC_SLUG],
-		["aynı derste başka konu", FREE_SUBJECT_ID, "disiplin-cezalari"],
+		["başka dersin ücretsiz konusu", "anayasa", "genel-hukumler"],
+		["başka dersin ücretsiz konusu (ters yön)", "657-dmk", "genel-esaslar"],
+		["aynı derste başka konu", "657-dmk", "disiplin-cezalari"],
 		["ikisi de farklı", "etik", "etik-davranis-ilkeleri"],
 	])("%s kilitlidir", (_ad, subjectId, topicSlug) => {
 		expect(isTopicUnlocked(subjectId, topicSlug, FREE)).toBe(false);
@@ -109,31 +121,32 @@ describe("kilitli yakın-kaçırmalar", () => {
 	});
 
 	/**
-	 * GERÇEK çakışma riski: `resmi-yazisma` dersinin ilk konusu
-	 * "genel-hukumler-ve-tanimlar". Ücretsiz konu slug'ı bunun ÖN EKİDİR —
-	 * `startsWith` ile yazılmış bir karşılaştırma bu konuyu bedavaya açardı.
+	 * Ön ek tuzağı: `657-dmk` dersinin ücretsiz konusu "genel-hukumler" ve bu,
+	 * `resmi-yazisma` dersinin ücretsiz konusu olan "genel-hukumler-ve-tanimlar"
+	 * ifadesinin ÖN EKİDİR. `startsWith` ile yazılmış bir karşılaştırma
+	 * 657 dersindeki her "genel-hukumler…" konusunu bedavaya açardı.
+	 *
+	 * Karşılaştırmanın birebir kaldığını pinliyoruz; iki slug gerçek içerikten
+	 * geldiği için bu ilişki uydurma değildir.
 	 */
-	it("ücretsiz slug'ın ön eki olduğu gerçek konu kilitlidir", () => {
-		expect(
-			isTopicUnlocked("resmi-yazisma", "genel-hukumler-ve-tanimlar", FREE),
-		).toBe(false);
-		expect(
-			isTestSetUnlocked(
-				"resmi-yazisma",
-				"genel-hukumler-ve-tanimlar",
-				FREE_TEST_SLUG,
-				FREE,
-			),
-		).toBe(false);
+	it.each([
+		["657-dmk", "genel-hukumler-ve-tanimlar"],
+		["resmi-yazisma", "genel-hukumler"],
+	])("“%s/%s” ön ek yakınlığına rağmen kilitlidir", (subjectId, topicSlug) => {
+		expect(isTopicUnlocked(subjectId, topicSlug, FREE)).toBe(false);
+		expect(isTestSetUnlocked(subjectId, topicSlug, FREE_TEST_SLUG, FREE)).toBe(
+			false,
+		);
 	});
 
 	/** Test slug'ı da birebir eşleşir; biçim varyantları kabul edilmez. */
 	it.each(["", "test-01", "TEST-1", "test-1 ", "test-10", "1"])(
 		"“%s” geçerli bir ücretsiz test slug'ı değildir",
 		(testSlug) => {
-			expect(
-				isTestSetUnlocked(FREE_SUBJECT_ID, FREE_TOPIC_SLUG, testSlug, FREE),
-			).toBe(false);
+			const [subjectId, topicSlug] = FREE_PAIRS[0];
+			expect(isTestSetUnlocked(subjectId, topicSlug, testSlug, FREE)).toBe(
+				false,
+			);
 		},
 	);
 
@@ -150,9 +163,9 @@ describe("arama parçacığı", () => {
 	 * ayrışması sessiz bir sızıntı olurdu.
 	 */
 	it("özetle aynı kararı verir", () => {
-		expect(isTopicSnippetUnlocked(FREE_SUBJECT_ID, FREE_TOPIC_SLUG, FREE)).toBe(
-			true,
-		);
+		for (const [subjectId, topicSlug] of FREE_PAIRS) {
+			expect(isTopicSnippetUnlocked(subjectId, topicSlug, FREE)).toBe(true);
+		}
 		expect(isTopicSnippetUnlocked("anayasa", "yasama", FREE)).toBe(false);
 		expect(isTopicSnippetUnlocked("anayasa", "yasama", WEB)).toBe(true);
 	});

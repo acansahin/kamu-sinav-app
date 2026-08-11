@@ -38,24 +38,41 @@ export const OPEN_ENTITLEMENT: Entitlement = {
 };
 
 /**
- * Ücretsiz ön gösterim: tek bir konu.
+ * Ücretsiz ön gösterim: HER DERSİN ilk konusu.
  *
- * Bu konunun özeti ve ilk testi satın alma olmadan açıktır. Kullanıcı ürünün
+ * Bu konuların özeti ve ilk testi satın alma olmadan açıktır. Kullanıcı ürünün
  * özet biçimini, soru kalitesini ve mevzuat dayanağı sunumunu gerçek içerikle
  * görür; kalanı satın alma kararına kalır.
  *
+ * Tek bir derste tek konu açmak yetmiyordu: kullanıcı yalnızca 657'yi
+ * görüyordu ve diğer dört dersin hiçbir örneğini görmeden karar vermesi
+ * gerekiyordu. Ders başına bir konu, havuzun %0,8'i yerine yaklaşık %4'ünü
+ * açar ve her dersin biçimini tanıtır (bkz. store/fiyatlandirma-analizi.md §5).
+ *
  * ⚠️ Bu slug'lar `content/subjects/**` altındaki gerçek kimliklerdir. Konu
  * yeniden adlandırılırsa ücretsiz kapsam SESSİZCE sıfıra düşer ve uygulama
- * "hiçbir şey ücretsiz değil" hâline gelir. `tests/unit/content-integrity`
- * bu eşleşmeyi derleme kapısı olarak doğrular.
+ * "hiçbir şey ücretsiz değil" hâline gelir. Aynı şey YENİ BİR DERS eklenince
+ * de olur: haritaya girmeyen ders bütünüyle kilitli doğar.
+ * `tests/unit/content-integrity` ikisini de derleme kapısı olarak doğrular —
+ * her dersin haritada karşılığı olduğunu VE karşılığın dersin gerçekten ilk
+ * (`order` en küçük) konusu olduğunu.
+ *
+ * Düz nesne değil `Map`: anahtarlar rotadan gelen dizelerdir ve düz nesnede
+ * `constructor` gibi bir slug prototip zincirine düşerdi.
  */
-export const FREE_SUBJECT_ID = "657-dmk";
-export const FREE_TOPIC_SLUG = "genel-hukumler";
+export const FREE_TOPIC_BY_SUBJECT: ReadonlyMap<string, string> = new Map([
+	["657-dmk", "genel-hukumler"],
+	["anayasa", "genel-esaslar"],
+	["etik", "etik-kurul-ve-mevzuat"],
+	["resmi-yazisma", "genel-hukumler-ve-tanimlar"],
+	["devlet-teskilati", "cumhurbaskanligi-teskilati"],
+]);
+
 export const FREE_TEST_SLUG = "test-1";
 
 /** Ücretsiz konu mu? Karşılaştırma birebir dizedir — `toLowerCase()` YOK. */
 function isFreeTopic(subjectId: string, topicSlug: string): boolean {
-	return subjectId === FREE_SUBJECT_ID && topicSlug === FREE_TOPIC_SLUG;
+	return FREE_TOPIC_BY_SUBJECT.get(subjectId) === topicSlug;
 }
 
 /**
@@ -92,8 +109,8 @@ export function isTestSetUnlocked(
 /**
  * Dersin tamamını yazdırma sayfası açık mı?
  *
- * Ücretsiz derste bile kapalıdır: sayfa dersin TÜM konu özetlerini tek belgede
- * basar, yani ücretsiz konunun yanında kilitli olanları da içerir.
+ * Her derste kapalıdır: sayfa dersin TÜM konu özetlerini tek belgede basar,
+ * yani dersin ücretsiz ilk konusunun yanında kilitli olanları da içerir.
  */
 export function isSubjectPrintUnlocked(entitlement: Entitlement): boolean {
 	return !restricted(entitlement);
@@ -102,8 +119,9 @@ export function isSubjectPrintUnlocked(entitlement: Entitlement): boolean {
 /**
  * Deneme sınavı açık mı?
  *
- * Ücretsiz dilim tanımlanamaz: deneme havuzun tamamından çeker ve en küçük
- * şablon 20 sorudur — ücretsiz kapsamın iki katı.
+ * Ücretsiz dilim tanımlanamaz: deneme, konu ayrımı gözetmeden havuzun
+ * TAMAMINDAN çeker. Ücretsiz konularla sınırlanmış bir deneme, denemenin
+ * ölçtüğü şeyi (dersler arası karışık, sınav düzeninde bir set) ölçmezdi.
  */
 export function isExamUnlocked(entitlement: Entitlement): boolean {
 	return !restricted(entitlement);

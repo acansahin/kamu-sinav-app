@@ -246,9 +246,11 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   tarayıcıda `OpenBillingProvider`a düşer — **webde hiçbir kilit yoktur**.
   `authProvider`dan farkı budur: o `isAccountConfigured()` ile derleme anında seçilir.
   Kilit kararları `lib/billing/entitlement.ts` içinde saf fonksiyonlardır; ücretsiz
-  kapsam `FREE_SUBJECT_ID`/`FREE_TOPIC_SLUG`/`FREE_TEST_SLUG` sabitleriyle tanımlıdır
-  ve `content-integrity` testi bu slug'ların içerikte gerçekten var olduğunu doğrular
-  (yeniden adlandırılırsa ücretsiz kapsam sessizce sıfıra düşerdi).
+  kapsam `FREE_TOPIC_BY_SUBJECT` haritası (ders → o dersin ilk konusu) ve
+  `FREE_TEST_SLUG` ile tanımlıdır. `content-integrity` testi bunu **iki yönlü**
+  doğrular: slug'lar içerikte gerçekten var mı, ve içerikteki **her ders**
+  haritada var mı. İkincisi olmadan yeni eklenen bir ders bütünüyle kilitli
+  doğardı — hata vermeden, yalnızca satmayan bir ders olarak.
 - **Hak Dexie'de DEĞİL, localStorage'da.** Üç gerekçe: (1) `exportAll`/`importAll`
   tüm Dexie tablolarını JSON'a yazıp geri okuduğu için yedek dosyası çalışan bir
   lisans anahtarına dönüşürdü; (2) IndexedDB açılamazsa ödemiş kullanıcı kilitli

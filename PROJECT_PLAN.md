@@ -59,7 +59,7 @@ formatında deneme sınavları** — üçü de kişisel ilerleme takibiyle bağl
 | MVP içerik kapsamı | Yalnızca **ortak konular**; ilk sürümde **3 ders** (657 DMK, Anayasa, Etik) |
 | İçerik kaynağı | Resmî çıkmış sınav soruları + derleme → sonraki fazda AI destekli üretim + insan onayı |
 | Üyelik | MVP'de yok; veri modeli ve katmanlar baştan çoklu kullanıcıya hazır |
-| Gelir modeli | **Freemium, reklamsız.** Uygulama ücretsiz indirilir; 657 DMK / Genel Hükümler konusunun özeti ve ilk testi ücretsizdir, içeriğin tamamı **tek seferlik** uygulama içi satın almayla açılır (`tam_erisim`). Abonelik yok |
+| Gelir modeli | **Freemium, reklamsız.** Uygulama ücretsiz indirilir; **her dersin ilk konusunun** özeti ve ilk testi ücretsizdir, içeriğin tamamı **tek seferlik** uygulama içi satın almayla açılır (`tam_erisim`). Abonelik yok. Fiyat gerekçesi: `store/fiyatlandirma-analizi.md` |
 
 ### Android kararının mimari sonucu
 
@@ -1275,8 +1275,8 @@ Mobil paketleme (Capacitor) ✅, ücretlendirme ✅, sosyal/liderlik, push bildi
 kurumlara yönelik panel.
 
 **Ücretlendirme — yapılan (Faz 6.1).** Google Play tek seferlik ürün
-(`tam_erisim`, managed product). Ücretsiz ön gösterim: 657 DMK / Genel Hükümler
-konusunun özeti ve ilk testi. Kilit mantığı `src/lib/billing/entitlement.ts`
+(`tam_erisim`, managed product). Ücretsiz ön gösterim: **her dersin ilk
+konusunun** özeti ve ilk testi. Kilit mantığı `src/lib/billing/entitlement.ts`
 içinde saf ve testlidir; hak `Capacitor.isNativePlatform()` ile **yalnızca
 Android paketinde** uygulanır, web sürümü tamamen açık kalır.
 

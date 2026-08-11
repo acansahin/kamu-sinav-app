@@ -193,10 +193,10 @@ export function PurchasePanel({ totals }: { totals: CatalogTotals }) {
 			<Card className="bg-surface-sunken">
 				<h3 className="font-semibold">Satın almadan da kullanabilirsiniz</h3>
 				<p className="mt-2 text-sm text-fg-muted">
-					657 sayılı Devlet Memurları Kanunu&rsquo;nun{" "}
-					<strong>Genel Hükümler</strong> konusu — özeti ve ilk testi — ücretsiz
-					açıktır. İlerleme takibi, istatistikler, tekrar planı ve konu arama da
-					her zaman ücretsizdir.
+					<strong>Her dersin ilk konusu</strong> — özeti ve ilk testi — ücretsiz
+					açıktır; {totals.subjects} dersin hepsini satın almadan
+					deneyebilirsiniz. İlerleme takibi, istatistikler, tekrar planı ve konu
+					arama da her zaman ücretsizdir.
 				</p>
 			</Card>
 
