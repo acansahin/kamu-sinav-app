@@ -342,6 +342,30 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   sözcüktür (14b), **boşluklu tire** ise noktalamadır (14c). Sonuncusu uzun
   süre hiçbir kurala uymadı — "üçtür - 4/A" harf–boşluk–tire–boşluk–rakam
   olduğu için ilk ikisi de kaçırıyordu ve tire olduğu gibi motora gidiyordu.
+- **Eklentiye AYNI ANDA İKİ ÇAĞRI GİTMEZ.** `@capgo/native-purchases`in Android
+  tarafında tek bir `BillingClient` alanı vardır: her çağrı başlarken alanın
+  üzerine yeni bir istemci yazar, biterken `closeBillingClient()` ile bağlantıyı
+  kapatır. Üst üste binen iki çağrıdan önce biten, diğerinin **hâlâ uçuştaki**
+  sorgusunu düşürür ve eklenti bunu hata olarak değil **boş listeyle** çözer —
+  yani "satın alma yok" gibi görünür. Cihazda görülen sonuç şuydu: satın almış
+  kullanıcı uygulamayı kapatıp açtığında erişimini kaybediyor, yanlış cevap
+  önbelleğe yazıldığı için de bir daha geri gelmiyordu. Bu yüzden tüm çağrılar
+  `native.provider.ts` içindeki `sirala` kuyruğundan geçer ve onay süpürmesi
+  ayrı bir çağrı değil, hak sorgusunun **aynı listesinden** yürür. Yeni bir
+  faturalandırma çağrısı eklerken kuyruğu atlamayın; kuyruğun içinden başka bir
+  genel metodu çağırmayın (kilitlenir — `restore` bu yüzden `sorgula`yı
+  doğrudan kullanır). Yarış zamanlamaya bağlıdır: hata bazı cihazlarda hiç
+  görünmez.
+- **Bir olumsuz Play cevabı tek başına hakkı kaldırmaz.** Yukarıdaki boş-liste
+  davranışı yüzünden `false`, "sorgu düştü" anlamına da gelebiliyor. Önbellekte
+  hak varken gelen olumsuz cevap bu yüzden bir kez daha doğrulanır
+  (`needsLossConfirmation`); hakkı olmayan kullanıcı — yaygın hâl — fazladan
+  sorgu üretmez ve gerçek iade ikinci sorguda da olumsuz döndüğü için yine
+  geri alınır.
+- **Android'de `PENDING` 2'dir, 0 değil** (`0` = `UNSPECIFIED_STATE`). Kod bir
+  süre 0'ı beklemede saydı ve o kontrol hiç çalışmadı. Karşılaştırmalar
+  "`PURCHASED` (`"1"`) değilse hak yoktur" yönünde kurulur: bilinmeyen bir
+  durumda erişim açmak, gereksiz bekleme mesajından çok daha kötüdür.
 
   ⚠️ **`keyPoints` DE seslendirilir.** "Bir bakışta" kartı frontmatter'dan
   gelir; içeriği tarayan bir betik frontmatter'ı atarsa bu metni hiç görmez.

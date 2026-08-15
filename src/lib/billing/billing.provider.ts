@@ -32,21 +32,18 @@ export interface IBillingProvider {
 	 * `null`         → sorgu yapılamadı (çevrimdışı, Play yok). Çağıran taraf
 	 *                  bu üçüncü hâli önbelleğe düşmek için kullanır; `false`
 	 *                  ile karıştırılırsa çevrimdışı kullanıcı hakkını kaybeder.
+	 *
+	 * Onaylanmamış satın almaların süpürülmesi de BU çağrının içindedir: Play,
+	 * 3 gün içinde acknowledge edilmeyen satın almayı otomatik iade eder ve
+	 * eklentinin akış sonundaki onayı, uygulama satın almadan hemen sonra
+	 * öldürülürse hiç çalışmaz. Ayrı bir metot olduğunda açılışta iki Play
+	 * çağrısı üst üste biniyordu (bkz. `native.provider.ts` içindeki `sirala`).
 	 */
 	queryEntitlement(): Promise<boolean | null>;
 	/** Satın alma akışını başlatır. Hata hâlinde tipli exception fırlatır. */
 	purchaseFullAccess(): Promise<void>;
 	/** Önceki satın almaları geri yükler; hak bulunduysa `true`. */
 	restore(): Promise<boolean>;
-	/**
-	 * Onaylanmamış satın almaları kapatır.
-	 *
-	 * Play, 3 gün içinde acknowledge edilmeyen satın almayı OTOMATİK İADE EDER.
-	 * Eklenti varsayılan olarak onaylıyor, ama kullanıcı satın almayı uygulama
-	 * arka planda öldürülmüşken tamamlarsa (nakit ödeme onayı) o yol hiç
-	 * çalışmaz. Bu yüzden her açılışta bir süpürme yapılır.
-	 */
-	sweepAcknowledgements(): Promise<void>;
 }
 
 /**
@@ -77,10 +74,6 @@ class OpenBillingProvider implements IBillingProvider {
 
 	async restore(): Promise<boolean> {
 		return false;
-	}
-
-	async sweepAcknowledgements(): Promise<void> {
-		/* mağaza yok, süpürülecek bir şey de yok */
 	}
 }
 

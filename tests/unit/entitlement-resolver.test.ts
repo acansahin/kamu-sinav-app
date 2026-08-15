@@ -4,7 +4,10 @@ import {
 	entitlementFromCache,
 	parseCachedEntitlement,
 } from "@/lib/billing/entitlement-cache";
-import { resolveEntitlement } from "@/lib/billing/entitlement-resolver";
+import {
+	needsLossConfirmation,
+	resolveEntitlement,
+} from "@/lib/billing/entitlement-resolver";
 
 /**
  * Play cevabı ile önbelleğin uzlaştırılması.
@@ -90,6 +93,27 @@ describe("resolveEntitlement", () => {
 			NOW,
 		);
 		expect(entitlement).toEqual({ paywallActive: true, fullAccess: false });
+	});
+});
+
+/**
+ * Eklenti, düşen bir Play sorgusunu hata olarak değil BOŞ LİSTEYLE çözebiliyor;
+ * yani `false` her zaman "satın alma yok" demek değil. Hakkı olan kullanıcıdan
+ * onu almadan önce bir kez daha sormanın sebebi bu.
+ */
+describe("needsLossConfirmation", () => {
+	it("önbellekte hak varken gelen olumsuz cevabı doğrulatır", () => {
+		expect(needsLossConfirmation(cache(true), false)).toBe(true);
+	});
+
+	it("önbellekte hak yoksa fazladan sorgu yaptırmaz", () => {
+		expect(needsLossConfirmation(cache(false), false)).toBe(false);
+		expect(needsLossConfirmation(null, false)).toBe(false);
+	});
+
+	it("olumlu veya yapılamamış sorguyu doğrulatmaz", () => {
+		expect(needsLossConfirmation(cache(true), true)).toBe(false);
+		expect(needsLossConfirmation(cache(true), null)).toBe(false);
 	});
 });
 

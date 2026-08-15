@@ -27,6 +27,30 @@ export interface ResolveOutput {
 	cacheUpdate: CachedEntitlement | null;
 }
 
+/**
+ * Hakkın KAYBEDİLDİĞİ cevabı bir kez daha doğrulamalı mıyız?
+ *
+ * Eklentinin Android tarafı `queryPurchasesAsync` başarısız olduğunda çağrıyı
+ * reddetmez, BOŞ LİSTEYLE çözer (`NativePurchasesPlugin.java`, `getPurchases`).
+ * Yani "sorgu yapılamadı = `null`" sözleşmesi yalnızca bağlantı hiç
+ * kurulamadığında işler; bağlantı kurulup sorgu düşerse cevap `false` gibi
+ * görünür. `resolveEntitlement` bunu otorite sayar, önbellekteki `true`yu siler
+ * ve satın almış kullanıcı erişimini kalıcı olarak kaybeder.
+ *
+ * Asıl önlem `native.provider.ts` içindeki sıralamadır (yarışı ortadan
+ * kaldırır); bu ikinci savunma hattıdır: hakkı OLAN bir kullanıcıdan onu
+ * almadan önce bir kez daha sorulur. Bedeli yalnızca bu dar durumda fazladan
+ * tek bir Play çağrısıdır — hakkı olmayan kullanıcı (asıl yaygın hâl) ikinci
+ * sorguyu hiç tetiklemez. İade gerçekten yapılmışsa ikinci sorgu da `false`
+ * döner ve hak yine kaldırılır.
+ */
+export function needsLossConfirmation(
+	cached: CachedEntitlement | null,
+	playResult: boolean | null,
+): boolean {
+	return playResult === false && cached?.fullAccess === true;
+}
+
 export function resolveEntitlement(
 	input: ResolveInput,
 	now: Date = new Date(),

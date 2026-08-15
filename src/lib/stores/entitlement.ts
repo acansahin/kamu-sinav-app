@@ -7,7 +7,10 @@ import {
 	readEntitlementCache,
 	writeEntitlementCache,
 } from "@/lib/billing/entitlement-cache";
-import { resolveEntitlement } from "@/lib/billing/entitlement-resolver";
+import {
+	needsLossConfirmation,
+	resolveEntitlement,
+} from "@/lib/billing/entitlement-resolver";
 import {
 	getBillingProvider,
 	isNativeRuntime,
@@ -115,11 +118,22 @@ async function refresh(): Promise<void> {
 
 	const native = await isNativeRuntime();
 	const provider = await getBillingProvider();
-	const playResult = native ? await provider.queryEntitlement() : null;
+	const cached = readEntitlementCache();
+
+	let playResult = native ? await provider.queryEntitlement() : null;
+
+	/*
+	 * Hakkı olan kullanıcıdan onu almadan önce bir kez daha sor. Gerekçe
+	 * `needsLossConfirmation` içinde: eklenti, düşen bir sorguyu boş listeyle
+	 * (yani `false` gibi) çözebiliyor.
+	 */
+	if (needsLossConfirmation(cached, playResult)) {
+		playResult = await provider.queryEntitlement();
+	}
 
 	const { entitlement: next, cacheUpdate } = resolveEntitlement({
 		native,
-		cached: readEntitlementCache(),
+		cached,
 		playResult,
 	});
 
@@ -156,13 +170,13 @@ export function useResolveEntitlement(): void {
 		run();
 
 		/*
-		 * Onaylanmamış satın almaların süpürülmesi. Play 3 gün içinde
-		 * acknowledge edilmeyeni otomatik iade eder; eklentinin otomatik onayı
-		 * uygulama satın almadan hemen sonra öldürülürse hiç çalışmaz.
+		 * ⚠️ Buraya İKİNCİ bir Play çağrısı EKLEMEYİN. Onaylanmamış satın
+		 * almaların süpürülmesi bir zamanlar burada ayrı bir çağrıydı ve hak
+		 * sorgusuyla üst üste biniyordu: eklentinin tek `BillingClient`ini önce
+		 * biten çağrı kapatıyor, diğerinin sorgusu boş listeyle dönüyor ve
+		 * satın almış kullanıcı erişimini kaybediyordu. Süpürme artık sorgunun
+		 * içindedir (`native.provider.ts`).
 		 */
-		void getBillingProvider()
-			.then((provider) => provider.sweepAcknowledgements())
-			.catch(() => {});
 
 		let remove: (() => void) | undefined;
 		void (async () => {

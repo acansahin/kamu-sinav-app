@@ -58,10 +58,7 @@ describe("bayrak açıkken hak çözümlemesi", () => {
 		const writeEntitlementCache = vi.fn();
 
 		vi.doMock("@/lib/billing/billing.provider", () => ({
-			getBillingProvider: async () => ({
-				queryEntitlement,
-				sweepAcknowledgements: async () => {},
-			}),
+			getBillingProvider: async () => ({ queryEntitlement }),
 			isNativeRuntime: async () => true,
 		}));
 		vi.doMock("@/lib/billing/entitlement-cache", () => ({
