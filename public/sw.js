@@ -16,6 +16,15 @@
  * strateji için gereksiz ağırlık olurdu.
  */
 
+/*
+ * ⚠️ Bu değer DERLEME ANINDA değiştirilir — `scripts/build-precache-manifest.ts`
+ * içindeki `stampServiceWorker` çıktının parmak izini buraya yazar. Depodaki
+ * "v1" yalnızca yer tutucudur; elle artırılmaz.
+ *
+ * Sabit kalırsa şu olur: tarayıcı `sw.js`i bayt bayt karşılaştırır, aynı
+ * bulunca güncellenmiş saymaz, `activate` hiç çalışmaz ve eski önbellek
+ * silinmez. Sonuç, aşağıdaki fetch dalında görülür.
+ */
 const VERSION = "v1";
 const CACHE = `kamu-sinav-${VERSION}`;
 
@@ -80,8 +89,16 @@ self.addEventListener("fetch", (event) => {
 	}
 
 	/*
-	 * Varlıklar (JS, CSS, ikon, RSC yükü) içerik adresli olduğu için önce
-	 * önbellekten verilir; ağ yalnızca ilk seferde kullanılır.
+	 * Varlıklar önce önbellekten verilir; ağ yalnızca ilk seferde kullanılır.
+	 *
+	 * ⚠️ Bunların HEPSİ içerik adresli DEĞİLDİR. JS ve CSS parça adları içerik
+	 * hash'i taşır, yani yeni derleme yeni ad demektir ve tazelik kendiliğinden
+	 * gelir. Ama RSC yükleri (`konular/index.txt`) ve içerik JSON'ları SABİT
+	 * adlıdır: aynı URL her derlemede farklı içerik döndürür. Onların
+	 * tazelenmesi tamamen önbellek adının derleme başına değişmesine bağlıdır
+	 * (yukarıdaki VERSION). O damga çalışmazsa bu dal eski derlemenin RSC
+	 * yükünü süresiz servis eder ve `<Link>` gezinmeleri artık var olmayan
+	 * parça adlarını isteyip sessizce düşer.
 	 */
 	event.respondWith(
 		caches.match(event.request).then((cached) => {

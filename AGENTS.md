@@ -498,6 +498,26 @@ Anahtar veya şekil değişirse o betiği de güncelleyin.
   1233 kayıt / neredeyse hiç `.txt`. İkisinde de sayfalar açıldığı için fark
   yalnızca bu sayıdan anlaşılır.
 
+- **Service worker önbellek adı DERLEME ANINDA damgalanır, elle artırılmaz.**
+  `public/sw.js` içindeki `VERSION` yalnızca yer tutucudur; `postbuild`
+  (`scripts/build-precache-manifest.ts` → `stampServiceWorker`) onu çıktının
+  parmak iziyle değiştirir. Damga olmazsa `sw.js` her derlemede bayt bayt aynı
+  kalır, tarayıcı onu güncellenmiş saymaz, `activate` hiç çalışmaz ve eski
+  önbellek silinmez.
+
+  Sonuç yalnızca **güncelleme yapan** kullanıcıda görülür: varlık dalı
+  önbellek-önceliklidir ve JS parçaları içerik adresli olduğu için tazelenir,
+  ama **RSC yükleri (`konular/index.txt`) ve içerik JSON'ları SABİT adlıdır** —
+  eski derlemeden servis edilirler, artık pakette olmayan parça adlarına
+  referans verirler ve `<Link>` gezinmeleri sessizce düşer. Cihazda görülen
+  belirti şuydu: alt menüde "Konular" ve "Testler" bazen açıyor, bazen
+  açmıyordu — rotanın yükü güncellemeden önce önbelleğe girmişse açmıyor.
+
+  Parmak izi dosya adlarından değil **içeriğinden** hesaplanır: yalnızca soru
+  veya özet metni değişen bir derlemede tüm adlar aynı kalır ve ada bakan bir
+  damga önbelleği tazelemezdi. Sabit bulunamazsa betik build'i kırar; sessizce
+  damgasız geçmek hatayı aynen geri getirirdi.
+
 - **Capacitor eklenti nesnesini `async` fonksiyondan DÖNDÜRMEYİN.** `registerPlugin`
   her özellik erişimini köprüye çeviren bir Proxy üretir ve `then` de bir özelliktir.
   Proxy doğrudan bir `async` fonksiyondan döndürülürse JavaScript onu "thenable" sanıp
