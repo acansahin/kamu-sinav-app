@@ -123,13 +123,15 @@ Kabul kriteri olan senaryolar:
 1. Satın al → uygulamayı kapat/aç → erişim kalıcı.
 2. Uygulama verisini sil → "Satın alımları geri yükle" → erişim geri gelir.
 3. Uçak moduna al → erişim korunur (önbellek).
-4. ~~Console'dan iade et → uygulamayı aç → kilit geri gelir.~~
-   **Bu senaryo GEÇERSİZDİR ve denenmemelidir.** Ölçüldü (29 Ağustos 2026):
-   geri ödeme sonrası `getPurchases()` satın almayı döndürmeye devam ediyor,
-   dolayısıyla kilit geri gelmiyor — Play'de geri ödeme ile yetki iptali ayrı
-   işlemler ve iptal sunucu gerektiriyor (bkz. AGENTS.md). Hak kaybı yolu
-   birim testleriyle kapalıdır (`entitlement-resolver`); cihazda
-   doğrulanamaz.
+4. **Console'dan iade et → uygulamayı aç → kilit geri gelir.** En çok atlanan
+   senaryodur ve iade akışının tek doğrulamasıdır.
+
+   ⚠️ Geri ödeme diyaloğunda **"Yetkiyi kaldır" kutusunu İŞARETLEYİN.** Play'de
+   geri ödeme ile yetki iptali ayrı işlemlerdir (`orders.refund`'ın `revoke`
+   parametresi opsiyoneldir); kutu işaretlenmezse kullanıcı parayı geri alır
+   ama erişimi korur ve senaryo "başarısız" görünür — oysa uygulama doğru
+   davranmıştır. 29 Ağustos 2026'da tam olarak bu yaşandı. Unutulursa sonradan
+   iptal edilemez; yeni bir test satın alması gerekir.
 
 ### Manifest ve boyut kontrolü
 

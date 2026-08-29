@@ -259,19 +259,19 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   kaynak her zaman Play'in `getPurchases()` cevabıdır ve her başarılı sorguda
   (`false` bile olsa) üzerine yazılır.
 
-  ⚠️ **Ama İADE, tek seferlik üründe erişimi GERİ ALMAZ.** Cihazda ölçüldü
-  (29 Ağustos 2026): Console'dan geri ödeme yapıldı, sipariş "Geri ödeme
-  yapıldı"ya döndü, uygulama tamamen kapatılıp açıldı — `getPurchases()` hâlâ
-  satın almayı döndürdüğü için erişim açık kaldı. Play'de **geri ödeme ile
-  yetki iptali ayrı işlemlerdir**; Console tek seferlik üründe yalnızca geri
-  ödeme sunar, iptal sunucu tarafındaki Voided Purchases API ile yapılır ve
-  `output: "export"` altında sunucumuz yoktur.
+  ⚠️ **Geri ödeme, yetkiyi TEK BAŞINA kaldırmaz.** Play'de ikisi ayrı
+  işlemdir: `orders.refund` API'sinin `revoke` parametresi **opsiyoneldir**,
+  Console'da da geri ödeme diyaloğundaki **"Yetkiyi kaldır"** onay kutusuna
+  karşılık gelir. İşaretlenmezse kullanıcı parayı geri alır ama ürüne sahip
+  kalır; `getPurchases()` satın almayı döndürmeye devam eder ve uygulama —
+  doğru biçimde — erişimi açık tutar.
 
-  Bu bilinçli olarak kabul edilmiştir: kilitler zaten bir **görünürlük**
-  kararıdır, güvenlik sınırı değil (içerik statik export'ta pakete gömülü).
-  İade edip erişimi koruyan kullanıcı, APK'yı açan kullanıcıdan fazlasını elde
-  etmez. Kodda değiştirilecek bir şey YOKTUR — Play "satın alınmış" derken
-  kilitlemek yanlış olurdu.
+  Cihazda ölçüldü (29 Ağustos 2026): kutu işaretlenmeden yapılan geri ödemeden
+  sonra sipariş "Geri ödeme yapıldı"ya döndü, uygulama tamamen kapatılıp
+  açıldı ve erişim açık kaldı. **Bu bir uygulama hatası değildir.** Test
+  ederken kutuyu işaretlemeyi unutmayın; unutulduğunda sonradan Console'dan
+  iptal etmenin bilinen bir yolu yoktur (geri ödeme düğmesi pasifleşir), yeni
+  bir test satın alması gerekir.
 - **Test APK'sı için `NEXT_PUBLIC_TEST_FULL_ACCESS=1`.** Cihazda tüm konuları
   kilitsiz denemek için `lib/billing/test-build.ts` bayrağı hakkı sabitler
   (`paywallActive: true, fullAccess: true` — kilitleri kaldırmaz, **satın almış
