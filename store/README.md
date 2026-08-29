@@ -10,6 +10,7 @@ metin bir sonraki sürümde kaybolur.
 | [listing-tr.md](listing-tr.md) | Kısa/uzun açıklama, sürüm notları |
 | [data-safety.md](data-safety.md) | Veri güvenliği formu cevapları |
 | [content-rating.md](content-rating.md) | İçerik derecelendirme anketi cevapları |
+| [fiyatlandirma-analizi.md](fiyatlandirma-analizi.md) | `tam_erisim` fiyatının rakip analiziyle gerekçesi |
 | `assets/icon-512.png` | Mağaza kartı ikonu (512×512) |
 | `assets/feature-graphic.png` | Öne çıkan görsel (1024×500) |
 | `assets/screenshots/` | Telefon ekran görüntüleri (1080×2400) |
@@ -75,6 +76,8 @@ Bunlar depoda tutulamaz; Play Console hesabında yapılır.
    - Tür: tek seferlik (managed product). Abonelik değildir.
    - Fiyat: TRY. Google Play Türkiye'de **kayıtlı satıcıdır**; girilen fiyat
      kullanıcıya vergi dâhil görünür (Console'daki vergi ayarından doğrulayın).
+     Tutar ve gerekçesi [fiyatlandirma-analizi.md](fiyatlandirma-analizi.md)
+     içindedir — fiyat kodda tutulmaz, yalnızca orada kayıtlıdır.
    - Durum: **Aktif**. Yayılması birkaç saat sürebilir; ürün pasifken
      `getProduct()` null döner ve bu bir kod hatası sanılır.
 8. **Lisans testi** — Ayarlar → Lisans testi (Settings → License testing)
@@ -120,8 +123,13 @@ Kabul kriteri olan senaryolar:
 1. Satın al → uygulamayı kapat/aç → erişim kalıcı.
 2. Uygulama verisini sil → "Satın alımları geri yükle" → erişim geri gelir.
 3. Uçak moduna al → erişim korunur (önbellek).
-4. **Console'dan iade et → uygulamayı aç → kilit geri gelir.** En çok atlanan
-   senaryodur ve iade akışının tek doğrulaması budur.
+4. ~~Console'dan iade et → uygulamayı aç → kilit geri gelir.~~
+   **Bu senaryo GEÇERSİZDİR ve denenmemelidir.** Ölçüldü (29 Ağustos 2026):
+   geri ödeme sonrası `getPurchases()` satın almayı döndürmeye devam ediyor,
+   dolayısıyla kilit geri gelmiyor — Play'de geri ödeme ile yetki iptali ayrı
+   işlemler ve iptal sunucu gerektiriyor (bkz. AGENTS.md). Hak kaybı yolu
+   birim testleriyle kapalıdır (`entitlement-resolver`); cihazda
+   doğrulanamaz.
 
 ### Manifest ve boyut kontrolü
 

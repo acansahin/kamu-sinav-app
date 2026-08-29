@@ -257,7 +257,21 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   kalırdı; (3) satın alma Google hesabına bağlıdır, uygulamanın `userId`sine değil —
   senkron geldiğinde sunucuya gitmemelidir. Yerel kayıt yalnızca **önbellektir**;
   kaynak her zaman Play'in `getPurchases()` cevabıdır ve her başarılı sorguda
-  (`false` bile olsa) üzerine yazılır, böylece iade kendiliğinden geri alınır.
+  (`false` bile olsa) üzerine yazılır.
+
+  ⚠️ **Ama İADE, tek seferlik üründe erişimi GERİ ALMAZ.** Cihazda ölçüldü
+  (29 Ağustos 2026): Console'dan geri ödeme yapıldı, sipariş "Geri ödeme
+  yapıldı"ya döndü, uygulama tamamen kapatılıp açıldı — `getPurchases()` hâlâ
+  satın almayı döndürdüğü için erişim açık kaldı. Play'de **geri ödeme ile
+  yetki iptali ayrı işlemlerdir**; Console tek seferlik üründe yalnızca geri
+  ödeme sunar, iptal sunucu tarafındaki Voided Purchases API ile yapılır ve
+  `output: "export"` altında sunucumuz yoktur.
+
+  Bu bilinçli olarak kabul edilmiştir: kilitler zaten bir **görünürlük**
+  kararıdır, güvenlik sınırı değil (içerik statik export'ta pakete gömülü).
+  İade edip erişimi koruyan kullanıcı, APK'yı açan kullanıcıdan fazlasını elde
+  etmez. Kodda değiştirilecek bir şey YOKTUR — Play "satın alınmış" derken
+  kilitlemek yanlış olurdu.
 - **Test APK'sı için `NEXT_PUBLIC_TEST_FULL_ACCESS=1`.** Cihazda tüm konuları
   kilitsiz denemek için `lib/billing/test-build.ts` bayrağı hakkı sabitler
   (`paywallActive: true, fullAccess: true` — kilitleri kaldırmaz, **satın almış
@@ -360,8 +374,8 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   davranışı yüzünden `false`, "sorgu düştü" anlamına da gelebiliyor. Önbellekte
   hak varken gelen olumsuz cevap bu yüzden bir kez daha doğrulanır
   (`needsLossConfirmation`); hakkı olmayan kullanıcı — yaygın hâl — fazladan
-  sorgu üretmez ve gerçek iade ikinci sorguda da olumsuz döndüğü için yine
-  geri alınır.
+  sorgu üretmez. (Play gerçekten olumsuz dönerse hak kaldırılır; iadenin tek
+  başına bunu tetiklemediği için yukarıdaki nota bakın.)
 - **Android'de `PENDING` 2'dir, 0 değil** (`0` = `UNSPECIFIED_STATE`). Kod bir
   süre 0'ı beklemede saydı ve o kontrol hiç çalışmadı. Karşılaştırmalar
   "`PURCHASED` (`"1"`) değilse hak yoktur" yönünde kurulur: bilinmeyen bir
