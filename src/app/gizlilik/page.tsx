@@ -9,7 +9,7 @@ import {
 } from "@/lib/legal/data-controller";
 
 export const metadata: Metadata = {
-	title: "Kişisel Verilerin Korunması",
+	title: "Gizlilik Politikası",
 	description:
 		"6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında aydınlatma metni: hangi veriler işleniyor, neden, kimlere aktarılıyor ve haklarınız neler.",
 };
@@ -37,7 +37,7 @@ export default function PrivacyPage() {
 
 	return (
 		<div>
-			<h1 className="mb-1 text-2xl font-bold">Kişisel Verilerin Korunması</h1>
+			<h1 className="mb-1 text-2xl font-bold">Gizlilik Politikası</h1>
 			<p className="mb-6 text-fg-muted">
 				6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) m.10 kapsamında
 				aydınlatma metni · Son güncelleme:{" "}
