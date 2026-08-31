@@ -272,6 +272,50 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   ederken kutuyu işaretlemeyi unutmayın; unutulduğunda sonradan Console'dan
   iptal etmenin bilinen bir yolu yoktur (geri ödeme düğmesi pasifleşir), yeni
   bir test satın alması gerekir.
+- **Erişim kodu hakkı, hak ÖNBELLEĞİNDEN AYRI bir anahtarda durur.** Tam erişim
+  ödeme olmadan da açılabilir (`lib/billing/redeem.ts`): kurum, kurs ve tanıtım
+  dağıtımı için. Kayıt `localStorage`ta `kamu-sinav-kod` anahtarındadır ve
+  `kamu-sinav-erisim`e **yazılamaz** — `resolveEntitlement` hak önbelleğinin
+  üzerine her başarılı Play sorgusunda yazıyor (`false` bile olsa; iade böyle
+  geri alınıyor), yani kod hakkı oraya karışsaydı ilk `getPurchases()` cevabı
+  kodu sessizce siler ve kullanıcı erişimini uygulamayı bir kez kapatıp
+  açtıktan sonra kaybederdi. İkinci gerekçe: `needsLossConfirmation` önbellekteki
+  `true`ya bakıp fazladan bir Play sorgusu tetikliyor. VEYA'lama bu yüzden
+  yalnızca çözümleyicinin **çıktısındadır**, önbelleğinde değil.
+
+  **Kodun kendisi pakete girmez, SHA-256 özeti girer**
+  (`lib/billing/redeem-codes.ts` — üretilmiş dosya). Depo herkese açık; düz
+  metin liste commit edilseydi kodlar ilk günden bilinirdi. Gizli anahtar da
+  yoktur: HMAC gömülseydi paketi açan herkes sınırsız kod basabilirdi, özet
+  listesinde ise sızıntının yarıçapı sızan kodla sınırlıdır.
+
+  Yeni kod: `npm run codes:generate -- 20 --etiket "grup-adi"`. Kodlar
+  **yalnızca o çıktıda** görünür ve geri getirilemez. İptal: özet satırını
+  dosyadan silin — uygulama kayıtlı kodu her açılışta listeye karşı yeniden
+  doğrular (`isRedemptionValid`), yani kod kullanılmış cihazlarda da hükümsüz
+  kalır. Her iki işlem de bir sürüm yayımlamayı gerektirir; doğrulama tamamen
+  yereldir ve çevrimdışı çalışır.
+
+  ⚠️ **SHA-256 elle yazılmıştır** (`lib/billing/sha256.ts`), `crypto.subtle`
+  kullanılmaz: o asenkrondur ve kilit kararı ilk boyamadan önce **senkron**
+  verilmek zorundadır (`entitlement-cache.ts` ile aynı gerekçe); ayrıca yalnızca
+  güvenli bağlamda vardır, yani `androidScheme` değişirse hata "kod geçersiz"
+  diye yanlış bir mesajla APK'da görünürdü. Uygulama Node'un referansına karşı
+  test edilir.
+
+  ⚠️ Kodun kanonik biçime indirgenmesinde **`toUpperCase()` KULLANILMAZ** —
+  Türkçe yerel ayarda "i" → "İ" olur ve varsayılan yerel ayar makineye göre
+  değişir; aynı kod bir cihazda çalışır, diğerinde çalışmazdı. Büyütme ASCII
+  üzerinde elle yapılır (`toLowerCase()` yasağının ters yönü). Alfabe Crockford
+  base32'dir (I, L, O, U yok); yanlış yazılan `O`, `I`, `l`, `İ`, `ı` rakama
+  çevrilir, yabancı karakter ise kodu reddeder.
+
+  Kutu yalnızca kilit **uygulanan ve henüz açılmamış** hâlde görünür
+  (`features/billing/redeem-panel.tsx`): tarayıcıda kilit zaten yoktur ve
+  olmayan bir kilidin çaresini sunmak, satın alma butonunun gizlenmesiyle aynı
+  gerekçeyle yanlıştır. Kutu satın alma panelinin **altındadır** — asıl yol
+  ödemedir, kod istisnadır.
+
 - **Test APK'sı için `NEXT_PUBLIC_TEST_FULL_ACCESS=1`.** Cihazda tüm konuları
   kilitsiz denemek için `lib/billing/test-build.ts` bayrağı hakkı sabitler
   (`paywallActive: true, fullAccess: true` — kilitleri kaldırmaz, **satın almış

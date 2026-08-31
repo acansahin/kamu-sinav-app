@@ -26,7 +26,7 @@ function cache(fullAccess: boolean, native = true): CachedEntitlement {
 describe("resolveEntitlement", () => {
 	it("tarayıcıda paywall'ı kapatır", () => {
 		const { entitlement } = resolveEntitlement(
-			{ native: false, cached: null, playResult: null },
+			{ native: false, cached: null, playResult: null, promo: false },
 			NOW,
 		);
 		expect(entitlement).toEqual({ paywallActive: false, fullAccess: false });
@@ -39,7 +39,7 @@ describe("resolveEntitlement", () => {
 	 */
 	it("tarayıcıda eski native önbelleği kilit doğurmaz", () => {
 		const { entitlement, cacheUpdate } = resolveEntitlement(
-			{ native: false, cached: cache(true), playResult: null },
+			{ native: false, cached: cache(true), playResult: null, promo: false },
 			NOW,
 		);
 		expect(entitlement.paywallActive).toBe(false);
@@ -48,7 +48,7 @@ describe("resolveEntitlement", () => {
 
 	it("başarılı sorgu hak verir ve önbelleğe yazar", () => {
 		const { entitlement, cacheUpdate } = resolveEntitlement(
-			{ native: true, cached: null, playResult: true },
+			{ native: true, cached: null, playResult: true, promo: false },
 			NOW,
 		);
 		expect(entitlement).toEqual({ paywallActive: true, fullAccess: true });
@@ -66,7 +66,7 @@ describe("resolveEntitlement", () => {
 	 */
 	it("sorgu hak vermiyorsa önbellekteki hakkı KALDIRIR", () => {
 		const { entitlement, cacheUpdate } = resolveEntitlement(
-			{ native: true, cached: cache(true), playResult: false },
+			{ native: true, cached: cache(true), playResult: false, promo: false },
 			NOW,
 		);
 		expect(entitlement.fullAccess).toBe(false);
@@ -80,7 +80,7 @@ describe("resolveEntitlement", () => {
 	 */
 	it("sorgu yapılamazsa önbellekteki hakkı korur ve önbelleğe dokunmaz", () => {
 		const { entitlement, cacheUpdate } = resolveEntitlement(
-			{ native: true, cached: cache(true), playResult: null },
+			{ native: true, cached: cache(true), playResult: null, promo: false },
 			NOW,
 		);
 		expect(entitlement).toEqual({ paywallActive: true, fullAccess: true });
@@ -89,7 +89,7 @@ describe("resolveEntitlement", () => {
 
 	it("sorgu yapılamaz ve önbellek yoksa kısıtlı kalır", () => {
 		const { entitlement } = resolveEntitlement(
-			{ native: true, cached: null, playResult: null },
+			{ native: true, cached: null, playResult: null, promo: false },
 			NOW,
 		);
 		expect(entitlement).toEqual({ paywallActive: true, fullAccess: false });
@@ -164,5 +164,60 @@ describe("entitlementFromCache", () => {
 			paywallActive: true,
 			fullAccess: true,
 		});
+	});
+});
+
+/**
+ * Erişim kodu hakkı.
+ *
+ * ASIL TUZAK: kod hakkı Play önbelleğine yazılırsa iade tespiti bozulur ve
+ * `needsLossConfirmation` her açılışta gereksiz ikinci bir sorgu tetikler.
+ * Bu yüzden VEYA yalnızca ÇIKTIDA yapılır, önbellekte değil.
+ */
+describe("resolveEntitlement — erişim kodu", () => {
+	it("olumsuz Play cevabına rağmen hak verir", () => {
+		const { entitlement } = resolveEntitlement(
+			{ native: true, cached: null, playResult: false, promo: true },
+			NOW,
+		);
+		expect(entitlement).toEqual({ paywallActive: true, fullAccess: true });
+	});
+
+	it("kod hakkını Play önbelleğine YAZMAZ", () => {
+		const { cacheUpdate } = resolveEntitlement(
+			{ native: true, cached: null, playResult: false, promo: true },
+			NOW,
+		);
+		expect(cacheUpdate?.fullAccess).toBe(false);
+	});
+
+	it("çevrimdışı da hak verir", () => {
+		const { entitlement, cacheUpdate } = resolveEntitlement(
+			{ native: true, cached: null, playResult: null, promo: true },
+			NOW,
+		);
+		expect(entitlement.fullAccess).toBe(true);
+		expect(cacheUpdate).toBeNull();
+	});
+
+	/**
+	 * Tarayıcıda kilit zaten yoktur; kod hakkı `fullAccess`i açsaydı arayüz
+	 * "tam erişiminiz etkin" rozetini satın almamış kullanıcıya gösterirdi.
+	 */
+	it("tarayıcıda hiçbir şeyi değiştirmez", () => {
+		const { entitlement } = resolveEntitlement(
+			{ native: false, cached: null, playResult: null, promo: true },
+			NOW,
+		);
+		expect(entitlement).toEqual({ paywallActive: false, fullAccess: false });
+	});
+
+	/**
+	 * Kod hakkı, olumsuz cevabın ikinci kez doğrulanmasını TETİKLEMEZ:
+	 * `needsLossConfirmation` yalnızca önbelleğe bakar ve önbellek saf Play
+	 * cevabıdır.
+	 */
+	it("kod hakkı ikinci Play sorgusunu tetiklemez", () => {
+		expect(needsLossConfirmation(cache(false), false)).toBe(false);
 	});
 });

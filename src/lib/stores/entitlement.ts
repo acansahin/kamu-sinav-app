@@ -15,6 +15,11 @@ import {
 	getBillingProvider,
 	isNativeRuntime,
 } from "@/lib/billing/billing.provider";
+import { type RedeemResult, verifyRedeemCode } from "@/lib/billing/redeem";
+import {
+	hasValidRedemption,
+	writeRedeemRecord,
+} from "@/lib/billing/redeem-store";
 import { TEST_FULL_ACCESS } from "@/lib/billing/test-build";
 
 /**
@@ -31,6 +36,16 @@ import { TEST_FULL_ACCESS } from "@/lib/billing/test-build";
 
 let entitlement: Entitlement | undefined;
 const listeners = new Set<() => void>();
+
+/**
+ * Kaydedilemeyen ama girilmiş kod.
+ *
+ * `writeRedeemRecord` başarısız olduğunda (gizli mod, dolu kota) hak yalnızca
+ * bellekte durur; bu bayrak olmasaydı hemen ardından çalışan `refresh()`
+ * depoyu okuyup hakkı geri alır ve kullanıcı geçerli bir kod girdiği hâlde
+ * kilitli kalırdı.
+ */
+let sessionPromo = false;
 
 function emit(): void {
 	for (const listener of listeners) listener();
@@ -69,6 +84,16 @@ function getServerSnapshot(): Entitlement | undefined {
 }
 
 /**
+ * Kilit kararının React DIŞINDAN okunması. `undefined` = henüz çözülmedi.
+ *
+ * Abonelik kurmaz; anlık bir okumadır. Bileşenler `useEntitlement()`
+ * kullanmalıdır — bu getter render sırasında çağrılırsa değişimi kaçırır.
+ */
+export function getEntitlement(): Entitlement | undefined {
+	return entitlement;
+}
+
+/**
  * Kilit kararı. `undefined` = henüz çözülmedi.
  *
  * Okuyan her bileşen bu üç hâli de karşılamak zorundadır; `AccessGate` ve
@@ -96,7 +121,15 @@ function hydrateFromCache(): void {
 		return;
 	}
 	const cached = entitlementFromCache(readEntitlementCache());
-	if (cached) setEntitlement(cached);
+	if (!cached) return;
+
+	/*
+	 * Kod hakkı önbellekte DEĞİL, ayrı bir kayıtta durur (`redeem-store.ts`);
+	 * bu yüzden burada VEYA'lanır. `paywallActive` kontrolü tarayıcı içindir:
+	 * orada zaten kilit yoktur ve kod hakkı göstermek yanıltıcı olurdu.
+	 */
+	const promo = cached.paywallActive && hasValidRedemption();
+	setEntitlement({ ...cached, fullAccess: cached.fullAccess || promo });
 }
 
 /**
@@ -135,6 +168,7 @@ async function refresh(): Promise<void> {
 		native,
 		cached,
 		playResult,
+		promo: hasValidRedemption() || sessionPromo,
 	});
 
 	if (cacheUpdate) writeEntitlementCache(cacheUpdate);
@@ -144,6 +178,36 @@ async function refresh(): Promise<void> {
 /** Satın alma veya geri yükleme sonrası hakkı yeniden okur. */
 export async function refreshEntitlement(): Promise<void> {
 	await refresh();
+}
+
+/**
+ * Erişim kodunun kullanılması.
+ *
+ * `depo` hâli sessizce geçilemez: kod kaydı yazılamazsa (gizli mod, dolu kota)
+ * hak yalnızca bu oturum boyunca durur ve uygulama kapanınca kaybolur. Play
+ * hakkından farkı budur — geri düşülecek bir kaynak yoktur, tekrar
+ * sorulamaz. Arayüz bunu kullanıcıya söylemek zorunda.
+ */
+export type RedeemOutcome = RedeemResult | { ok: false; reason: "depo" };
+
+export async function redeemAccessCode(raw: string): Promise<RedeemOutcome> {
+	const result = verifyRedeemCode(raw);
+	if (!result.ok) return result;
+
+	const written = writeRedeemRecord({
+		hash: result.hash,
+		redeemedAt: new Date().toISOString(),
+	});
+
+	/*
+	 * Yazma başarısız olsa bile hak bu oturumda AÇILIR: kullanıcı geçerli bir
+	 * kod girdi ve kilitli kalması en kötü sonuçtur. Kalıcı olmadığı ayrıca
+	 * bildirilir.
+	 */
+	sessionPromo = true;
+	await refresh().catch(() => {});
+
+	return written ? result : { ok: false, reason: "depo" };
 }
 
 /**

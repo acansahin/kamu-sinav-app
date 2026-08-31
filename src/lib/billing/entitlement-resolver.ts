@@ -19,6 +19,15 @@ export interface ResolveInput {
 	 *   `null`         → sorgu yapılamadı (çevrimdışı, Play yok, hata)
 	 */
 	playResult: boolean | null;
+	/**
+	 * Cihazda geçerli bir erişim kodu kayıtlı mı? (`lib/billing/redeem.ts`)
+	 *
+	 * Play cevabıyla VEYA'lanır ama önbelleğe ASLA yazılmaz — gerekçesi
+	 * `redeem-store.ts` başlığında: hak önbelleği her sorguda üzerine
+	 * yazıldığı için kod hakkı oraya girseydi ilk `getPurchases()` cevabı
+	 * onu silerdi.
+	 */
+	promo: boolean;
 }
 
 export interface ResolveOutput {
@@ -55,7 +64,7 @@ export function resolveEntitlement(
 	input: ResolveInput,
 	now: Date = new Date(),
 ): ResolveOutput {
-	const { native, cached, playResult } = input;
+	const { native, cached, playResult, promo } = input;
 
 	// Tarayıcı: paywall yok. Önbellekteki eski bir `true` bile kilitleri
 	// etkilemez, ama `native: false` olarak tazelenir ki sonraki açılışta
@@ -76,8 +85,10 @@ export function resolveEntitlement(
 	// aksi hâlde iade edilen kullanıcı süresiz erişim korurdu.
 	if (playResult !== null) {
 		return {
-			entitlement: { paywallActive: true, fullAccess: playResult },
+			entitlement: { paywallActive: true, fullAccess: playResult || promo },
 			cacheUpdate: {
+				// Önbellek YALNIZCA Play'in cevabını taşır; kod hakkı buraya
+				// karışırsa iade tespiti ve `needsLossConfirmation` bozulur.
 				fullAccess: playResult,
 				native: true,
 				checkedAt: now.toISOString(),
@@ -89,7 +100,10 @@ export function resolveEntitlement(
 	// aldığı erişimi kaybetmemesi, iade edilmiş bir hakkın bir süre daha
 	// açık kalmasından daha önemlidir.
 	return {
-		entitlement: { paywallActive: true, fullAccess: cached?.fullAccess ?? false },
+		entitlement: {
+			paywallActive: true,
+			fullAccess: (cached?.fullAccess ?? false) || promo,
+		},
 		cacheUpdate: null,
 	};
 }

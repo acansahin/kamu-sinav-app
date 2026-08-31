@@ -13,6 +13,7 @@
     "build": "next build",
     "postbuild": "tsx scripts/build-precache-manifest.ts",
     "icons:build": "tsx scripts/generate-icons.ts",
+    "codes:generate": "tsx scripts/generate-redeem-codes.ts",
     "store:screenshots": "tsx scripts/capture-store-screenshots.ts",
     "start": "next start",
     "lint": "eslint",

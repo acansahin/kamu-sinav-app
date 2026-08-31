@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PurchasePanel } from "@/features/billing/purchase-panel";
+import { RedeemPanel } from "@/features/billing/redeem-panel";
 import { contentRepository } from "@/lib/repositories/content.repository";
 
 export const metadata: Metadata = {
@@ -35,6 +36,16 @@ export default async function FullAccessPage() {
 					questions: manifest.totals.publishedQuestions,
 				}}
 			/>
+
+			{/*
+			 * Kod kutusu satın alma panelinin ALTINDA: asıl yol ödemedir, kod
+			 * istisnadır. Üste konsaydı ödeme yapacak kullanıcı da önce kod
+			 * arardı. Kutu, kilit uygulanmayan ortamda (tarayıcı) ve hak zaten
+			 * açıkken kendini hiç göstermez.
+			 */}
+			<div className="mt-6">
+				<RedeemPanel />
+			</div>
 		</div>
 	);
 }

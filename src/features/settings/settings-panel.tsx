@@ -55,7 +55,8 @@ function FullAccessSection() {
 			) : (
 				<p className="text-sm text-fg-muted">
 					İçeriğin tamamı tek seferlik bir ödemeyle kalıcı olarak açılır.
-					Daha önce satın aldıysanız geri yükleyebilirsiniz.
+					Daha önce satın aldıysanız geri yükleyebilirsiniz. Erişim kodunuz
+					varsa aynı sayfada kullanabilirsiniz.
 				</p>
 			)}
 
