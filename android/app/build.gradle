@@ -52,6 +52,29 @@ android {
         }
     }
     buildTypes {
+        /*
+         * Debug derlemesi AYRI BİR PAKET ADIYLA kurulur.
+         *
+         * Sebep ölçüldü (31 Ağustos 2026): Play Store hakları paket adı +
+         * Google hesabı ikilisine göre veriyor, İMZAYA BAKMIYOR. Yayımlanmış
+         * uygulamayla aynı `applicationId`yi taşıyan debug APK, geliştiricinin
+         * hesabındaki `tam_erisim` satın almasını Play'den aynen alıyordu —
+         * yani kilitli durumu (paywall, erişim kodu kutusu, satın alma ekranı)
+         * denemek İMKÂNSIZDI: her cihazda her şey açık geliyordu.
+         *
+         * `.test` ekiyle Play böyle bir uygulama tanımaz, sorgu boş döner ve
+         * derleme kilitli açılır. İkinci faydası: Play'den kurulu gerçek
+         * uygulamanın YANINA kurulur, kendi deposu olur — test için Play
+         * sürümünü kaldırmak ve ilerleme kaydını kaybetmek gerekmez.
+         *
+         * ⚠️ Yalnızca `debug` buildType'ındadır. `release` DOKUNULMAZ: yayın
+         * paketinin `applicationId`si Play'de kalıcıdır ve değiştirilemez.
+         */
+        debug {
+            applicationIdSuffix ".test"
+            // Hakkında sayfasındaki sürüm iki kurulumu ayırt etsin.
+            versionNameSuffix "-test"
+        }
         release {
             if (keystorePropsFile.exists()) {
                 signingConfig signingConfigs.release

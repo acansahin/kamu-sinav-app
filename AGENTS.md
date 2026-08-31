@@ -325,6 +325,22 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   gösterirdi. Bayrağı yalnızca `android.yml`in elle tetiklenen dalı geçer;
   `android-release.yml`e **eklemeyin** — imzalı AAB'de tüm içerik ücretsiz
   açılırdı ve hata ancak Play'e yüklendikten sonra görülürdü.
+- **KİLİTLİ durumu denemek için debug paketi `.test` ekiyle kurulur.** Ters
+  yöndeki ihtiyaç — paywall'ı, satın alma ekranını ve erişim kodu kutusunu
+  cihazda görmek — bir bayrakla çözülemez, çünkü sorun uygulamada değil
+  Play'dedir: **Play Store hakları paket adı + Google hesabı ikilisine göre
+  verir, İMZAYA BAKMAZ.** Ölçüldü (31 Ağustos 2026): yayımlanmış uygulamayla
+  aynı `applicationId`yi taşıyan debug APK, geliştiricinin hesabındaki
+  `tam_erisim` satın almasını Play'den aynen aldı ve her şey açık geldi.
+  Uygulamayı kaldırıp yeniden kurmak da işe yaramaz — hak cihazda değil
+  hesapta durur.
+
+  Bu yüzden `android/app/build.gradle` içinde `debug` buildType'ı
+  `applicationIdSuffix ".test"` taşır: Play böyle bir uygulama tanımaz, sorgu
+  boş döner, derleme kilitli açılır. Yan faydası, Play'den kurulu gerçek
+  uygulamanın YANINA kurulabilmesidir — test için onu kaldırmak ve ilerleme
+  kaydını kaybetmek gerekmez. `release` buildType'ına **eklemeyin**: yayın
+  paketinin `applicationId`si Play'de kalıcıdır.
 - **Kilit sarmalayıcıdır, koşucunun içinde değil.** `QuizGate` kilitliyken
   `QuizRunner`ı hiç mount etmez; koşucu monte edilir edilmez bir `testSessions`
   satırı yazdığı için kilidi içeriden uygulamak kilitli testlere oturum kaydı
