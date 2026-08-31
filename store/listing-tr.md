@@ -80,6 +80,19 @@ büyüdükçe genişletilebilir.
 
 ## Sürüm notları (en çok 500 karakter)
 
+### 1.1.0 — erişim kodu
+
+```
+• Erişim kodu desteği: kurum, kurs ve tanıtım kapsamında verilen kod, tam
+  erişimi ödeme olmadan kalıcı olarak açar. Kod kutusu Tam Erişim
+  sayfasındadır; doğrulama cihazda yapılır, internet gerekmez.
+• Küçük düzeltmeler.
+```
+
+⚠️ Kod kutusu mağazada **aranacak bir şey değildir**: kodlar hedefli olarak
+dağıtılır. Not bilinçli olarak "kodunuz varsa" tonundadır; "kod alın" demez,
+yoksa kod avı ve karşılıksız destek talebi doğar.
+
 ### 1.0.0 — ilk sürüm
 
 ```
