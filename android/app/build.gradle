@@ -72,7 +72,12 @@ android {
          */
         debug {
             applicationIdSuffix ".test"
-            // Hakkında sayfasındaki sürüm iki kurulumu ayırt etsin.
+            /*
+             * İki kurulum launcher'da aynı adı ve ikonu taşır; uygulama
+             * kendi sürümünü hiçbir ekranda göstermiyor. Ek, yalnızca
+             * Android > Ayarlar > Uygulamalar listesinde görünür ve
+             * hangisinin test kurulumu olduğunu oradan ayırt ettirir.
+             */
             versionNameSuffix "-test"
         }
         release {
