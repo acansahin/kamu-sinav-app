@@ -86,7 +86,7 @@ export function QuizGate({
 	return frame(
 		<LockedNotice
 			title={`Test ${setNumber} tam erişime dahil`}
-			description="Beş dersin bütün konu testleri, tek seferlik satın alma ile kalıcı olarak açılır."
+			description="Bütün derslerin konu testleri, tek seferlik satın alma ile kalıcı olarak açılır."
 		/>,
 	);
 }

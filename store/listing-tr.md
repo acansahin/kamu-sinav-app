@@ -33,8 +33,9 @@ DERSLER
 • Etik Davranış İlkeleri
 • Resmî Yazışmalarda Uygulanacak Usul ve Esaslar
 • Devlet Teşkilatı ile İlgili Mevzuat
+• Güvenlik Soruşturması ve Arşiv Araştırması (7315 sayılı Kanun) — bazı kurumların alan bilgisi bölümünde çıkar
 
-Toplam 30 konu, 30 konu özeti ve 1300'ün üzerinde soru.
+Toplam 33 konu, 33 konu özeti ve 1400'ün üzerinde soru.
 
 NASIL ÇALIŞIRSINIZ
 
@@ -46,7 +47,7 @@ NASIL ÇALIŞIRSINIZ
 
 ÜCRETSİZ KULLANIM VE TAM ERİŞİM
 
-Uygulama ücretsiz indirilir. Beş dersin her birinde ilk konunun özeti ve ilk testi (10 soru) satın alma olmadan açıktır — yani satın almadan önce her dersi deneyebilirsiniz. İlerleme takibi, istatistikler, tekrar planı ve konu araması her zaman ücretsizdir.
+Uygulama ücretsiz indirilir. Her dersin ilk konusunun özeti ve ilk testi (10 soru) satın alma olmadan açıktır — yani satın almadan önce her dersi deneyebilirsiniz. İlerleme takibi, istatistikler, tekrar planı ve konu araması her zaman ücretsizdir.
 
 Tüm konu özetleri, soru havuzunun tamamı ve deneme sınavları için tek seferlik bir uygulama içi satın alma gerekir. Abonelik değildir: bir kez ödenir, kalıcıdır, yenilenmez.
 
@@ -69,16 +70,33 @@ Bu uygulama resmî değildir. Hiçbir bakanlık, kurum, kuruluş veya sınav mer
 Karakter sayısı: yaklaşık 1.900 — sınırın oldukça altında, ders ve konu sayısı
 büyüdükçe genişletilebilir.
 
-> **Sayılar içerikle birlikte değişir.** “30 konu” ve “1300'ün üzerinde soru”
+> **Sayılar içerikle birlikte değişir.** “33 konu” ve “1400'ün üzerinde soru”
 > ifadeleri `npm run content:build` çıktısındaki toplamlardan gelir; ders
 > eklendiğinde bu metin de güncellenmelidir. Uygulama içindeki `/hakkinda`
 > sayfası aynı sayıları içerikten türeterek gösterir, elle yazmaz.
 >
 > Aşağı yuvarlanır ve **asla yukarı yuvarlanmaz**: mağaza metni içerikten
-> türemediği için havuz küçülmedikçe doğru kalmalıdır. 9 Ağustos 2026
-> ölçümü 1322 soru; “1300'ün üzerinde” ifadesi 1300'e inene kadar geçerli.
+> türemediği için havuz küçülmedikçe doğru kalmalıdır. 4 Eylül 2026
+> ölçümü 1412 soru; “1400'ün üzerinde” ifadesi 1400'e inene kadar geçerli.
+>
+> **Ders listesindeki altıncı satır bilinçli olarak nitelenmiştir.** Güvenlik
+> Soruşturması ortak konu değildir; niteleme kaldırılırsa mağaza metni
+> uygulamanın kapsamı hakkında yanlış bir izlenim verir.
 
 ## Sürüm notları (en çok 500 karakter)
+
+### 1.2.0 — güvenlik soruşturması dersi
+
+```
+• Yeni ders: Güvenlik Soruşturması ve Arşiv Araştırması. 7315 sayılı Kanun ve
+  bağlı Yönetmelik; 3 konu özeti ve 90 yeni soru.
+• Bu ders bazı kurumların alan bilgisi bölümünde çıkar; ortak konu olmadığı
+  için deneme sınavlarının soru dağılımına dahil edilmemiştir.
+• Küçük düzeltmeler.
+```
+
+⚠️ İkinci madde **çıkarılmamalıdır**: ders listesinde görünüp denemelerde
+çıkmayan bir konu, açıklanmazsa eksiklik olarak bildirilir.
 
 ### 1.1.0 — erişim kodu
 
