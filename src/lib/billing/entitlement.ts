@@ -66,6 +66,7 @@ export const FREE_TOPIC_BY_SUBJECT: ReadonlyMap<string, string> = new Map([
 	["etik", "etik-kurul-ve-mevzuat"],
 	["resmi-yazisma", "genel-hukumler-ve-tanimlar"],
 	["devlet-teskilati", "cumhurbaskanligi-teskilati"],
+	["guvenlik-sorusturmasi", "kapsam-tanimlar-ve-arastirma-turleri"],
 ]);
 
 export const FREE_TEST_SLUG = "test-1";

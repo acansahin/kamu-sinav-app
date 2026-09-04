@@ -17,8 +17,9 @@ export default async function SubjectsPage() {
 		<div>
 			<h1 className="mb-1 text-2xl font-bold">Konu Özetleri</h1>
 			<p className="mb-6 text-fg-muted">
-				Ortak konular — tüm kurumların görevde yükselme ve unvan değişikliği
-				sınavlarında geçerlidir.
+				Ortak konular tüm kurumların görevde yükselme ve unvan değişikliği
+				sınavlarında geçerlidir; alan bilgisi dersleri yalnızca ilgili kurumların
+				sınavlarında çıkar.
 			</p>
 
 			{/* Yer imi yoksa hiç render edilmez */}

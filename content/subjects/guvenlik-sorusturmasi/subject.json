@@ -1,0 +1,32 @@
+{
+	"id": "guvenlik-sorusturmasi",
+	"name": "Güvenlik Soruşturması ve Arşiv Araştırması",
+	"shortName": "Güvenlik Soruşturması",
+	"description": "7315 sayılı Kanun ve 5649 sayılı Cumhurbaşkanı Kararı ile yürürlüğe konulan Yönetmelik çerçevesinde arşiv araştırması ile güvenlik soruşturmasının kapsamı, yetkili birimler, süreler, Değerlendirme Komisyonu ve kişisel verilerin korunması.",
+	"scope": "alan",
+	"order": 6,
+	"icon": "ShieldAlert",
+	"topics": [
+		{
+			"id": "guvenlik-sorusturmasi/kapsam-tanimlar-ve-arastirma-turleri",
+			"slug": "kapsam-tanimlar-ve-arastirma-turleri",
+			"name": "Kapsam, Tanımlar ve Araştırma Türleri",
+			"order": 1,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "guvenlik-sorusturmasi/yetkili-birimler-yontem-ve-sureler",
+			"slug": "yetkili-birimler-yontem-ve-sureler",
+			"name": "Yetkili Birimler, Yöntem ve Süreler",
+			"order": 2,
+			"estimatedMinutes": 11
+		},
+		{
+			"id": "guvenlik-sorusturmasi/degerlendirme-komisyonu-ve-kisisel-veriler",
+			"slug": "degerlendirme-komisyonu-ve-kisisel-veriler",
+			"name": "Değerlendirme Komisyonu ve Kişisel Veriler",
+			"order": 3,
+			"estimatedMinutes": 10
+		}
+	]
+}
