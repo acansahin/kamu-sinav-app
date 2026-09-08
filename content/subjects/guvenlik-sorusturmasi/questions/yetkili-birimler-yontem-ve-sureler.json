@@ -1092,5 +1092,446 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-04"
+	},
+	{
+		"id": "gsa-birim-031",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/yetkili-birimler-yontem-ve-sureler",
+		"scope": "alan",
+		"difficulty": "orta",
+		"stem": "Üst kademe kamu yöneticisi olarak atanacak bir kişinin güvenlik soruşturması Yönetmeliğe göre nasıl yürütülür?",
+		"options": [
+			"Talep Cumhurbaşkanlığına iletilir ve güvenlik soruşturması Millî İstihbarat Teşkilatı Başkanlığı ve/veya Emniyet Genel Müdürlüğüne yaptırılır",
+			"Doğrudan talep üzerine Emniyet Genel Müdürlüğü ve/veya mahallî mülki idare amirliklerince gerçekleştirilir",
+			"Atamanın yapılacağı kurumun Değerlendirme Komisyonunca yürütülür",
+			"Yalnızca Millî İstihbarat Teşkilatı Başkanlığınca ve Cumhurbaşkanlığına bildirilmeksizin yürütülür",
+			"İlgilinin ikametgâhının bulunduğu valilikçe yürütülür"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmelik'in 11 inci maddesinin dördüncü fıkrasında sayılanlar bakımından talep Cumhurbaşkanlığına iletilir ve güvenlik soruşturması MİT Başkanlığı ve/veya Emniyet Genel Müdürlüğüne yaptırılır; üst kademe kamu yöneticileri bu fıkrada açıkça sayılmıştır. Doğrudan talep üzerine yürütülen hâller üçüncü fıkrada düzenlenmiştir. Değerlendirme Komisyonu ise araştırmayı yapmaz; sonucu göreve atanma yönünden değerlendirir.",
+		"legalRef": {
+			"law": "Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik",
+			"lawId": "5649",
+			"article": "11",
+			"clause": "4/c",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/21.5.5649.pdf"
+		},
+		"source": {
+			"kind": "ai-draft",
+			"origin": "Konu özeti ve mevzuat metninden fıkra/bent boşluğu partisi",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "review",
+		"tags": [
+			"yetkili-birimler",
+			"ust-kademe-yonetici"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-birim-032",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/yetkili-birimler-yontem-ve-sureler",
+		"scope": "alan",
+		"difficulty": "zor",
+		"stem": "Yönetmelik'in 11 inci maddesinin dördüncü fıkrasına göre, güvenlik soruşturması talebi Cumhurbaşkanlığına iletilecekler arasında sayılan savunma sanayii güvenliğine ilişkin grup hangi Kanun kapsamında belirlenmiştir?",
+		"options": [
+			"2803 sayılı Jandarma Teşkilat, Görev ve Yetkileri Kanunu",
+			"2692 sayılı Sahil Güvenlik Komutanlığı Kanunu",
+			"5202 sayılı Savunma Sanayii Güvenliği Kanunu",
+			"1325 sayılı Askerî Okullar, Ordu Yardımlaşma Kurumu ve Yedek Subaylar Kanunu",
+			"6004 sayılı Dışişleri Bakanlığı Personeline İlişkin Bazı Düzenlemeler Hakkında Kanun"
+		],
+		"correctIndex": 2,
+		"explanation": "Fıkranın son bendi, 5202 sayılı Savunma Sanayii Güvenliği Kanunu kapsamındakileri sayar; bunların güvenlik soruşturması talebi Cumhurbaşkanlığına iletilir ve MİT Başkanlığı ve/veya Emniyet Genel Müdürlüğüne yaptırılır. 6004 sayılı Kanun aynı fıkrada geçer ancak Dışişleri Bakanlığı personeli bakımındandır. 2803, 2692 ve 1325 sayılı Kanunlar ise 7315 sayılı Kanun'un 13 üncü maddesiyle hükümlerinde değişiklik yapılan kanunlar arasındadır.",
+		"legalRef": {
+			"law": "Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik",
+			"lawId": "5649",
+			"article": "11",
+			"clause": "4/g",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/21.5.5649.pdf"
+		},
+		"source": {
+			"kind": "ai-draft",
+			"origin": "Konu özeti ve mevzuat metninden fıkra/bent boşluğu partisi",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "review",
+		"tags": [
+			"yetkili-birimler",
+			"savunma-sanayii"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-birim-033",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/yetkili-birimler-yontem-ve-sureler",
+		"scope": "alan",
+		"difficulty": "zor",
+		"stem": "Bir belediye, gizlilik dereceli birim ve kısımlarını belirleyerek Çevre, Şehircilik ve İklim Değişikliği Bakanlığına bildirmiştir. Bildirim bundan sonra nasıl işlem görür?",
+		"options": [
+			"Bakanlık bildirimi doğrudan Emniyet Genel Müdürlüğüne gönderir, Cumhurbaşkanlığına iletilmez",
+			"Bakanlığın kabulüyle bildirim kesinleşir, ayrıca bir işlem yapılmaz",
+			"Bildirim belediye meclisinin onayına sunulur ve onaydan sonra geçerlilik kazanır",
+			"Bakanlık bildirimi İçişleri Bakanlığına gönderir, nihai değerlendirmeyi İçişleri Bakanlığı yapar",
+			"Bakanlık inceleme yapar ve uygun bulduğu bildirimleri Cumhurbaşkanlığına iletir; Cumhurbaşkanlığı da uygun gördüklerini İçişleri Bakanlığı, Millî İstihbarat Teşkilatı Başkanlığı ve Emniyet Genel Müdürlüğüne gönderir"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik'in 6 ncı maddesine göre genel kural bildirimin Cumhurbaşkanlığına yapılmasıdır; belediyeler ve bağlı kuruluşları ile belediyelerin üyesi olduğu mahallî idare birlikleri bildirimlerini Çevre, Şehircilik ve İklim Değişikliği Bakanlığına, il özel idareleri ve köylere hizmet götürme birlikleri ise İçişleri Bakanlığına yapar. İlgili bakanlık inceleyip uygun bulduklarını Cumhurbaşkanlığına iletir; nihai değerlendirme Cumhurbaşkanlığındadır ve uygun görülenler İçişleri Bakanlığı, MİT Başkanlığı ve Emniyet Genel Müdürlüğüne gönderilir.",
+		"legalRef": {
+			"law": "Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik",
+			"lawId": "5649",
+			"article": "6",
+			"clause": "3",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/21.5.5649.pdf"
+		},
+		"source": {
+			"kind": "ai-draft",
+			"origin": "Konu özeti ve mevzuat metninden fıkra/bent boşluğu partisi",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "review",
+		"tags": [
+			"gizlilik-dereceli-birim",
+			"mahalli-idareler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-birim-034",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/yetkili-birimler-yontem-ve-sureler",
+		"scope": "alan",
+		"difficulty": "uzman",
+		"stem": "Bir bakanlığın merkez teşkilatındaki bilgi işlem biriminde, şube müdürü dengi ya da üstü olmayan bir kadroda veri hazırlama ve kontrol işletmeni çalıştırılacaktır. Bu kişinin güvenlik soruşturması talebi nasıl karşılanır?",
+		"options": [
+			"Bilgi işlem birimi gizlilik dereceli sayılmadığından yalnızca arşiv araştırması yapılır",
+			"Doğrudan talep üzerine Emniyet Genel Müdürlüğü ve/veya mahallî mülki idare amirliklerince gerçekleştirilir",
+			"Talep Cumhurbaşkanlığına iletilir ve Millî İstihbarat Teşkilatı Başkanlığı ve/veya Emniyet Genel Müdürlüğüne yaptırılır",
+			"Talep bakanlığın Değerlendirme Komisyonunca karara bağlandıktan sonra Cumhurbaşkanlığına iletilir",
+			"Talep yalnızca Millî İstihbarat Teşkilatı Başkanlığınca karşılanır"
+		],
+		"correctIndex": 1,
+		"explanation": "Bilgi işlem birimleri, Yönetmelik'in 6 ncı maddesi gereğince tüm kamu kurum ve kuruluşlarında gizlilik dereceli birim sayıldığından kişi hakkında güvenlik soruşturması ve arşiv araştırması birlikte yapılır. Ancak talebin Cumhurbaşkanlığına iletilmesini gerektiren 11 inci maddenin dördüncü fıkrasının ilk bendi, gizlilik dereceli birimlerde görev yapacaklardan yalnızca merkez teşkilatındaki şube müdürü, dengi ve üstü birim amirleri ile 657 sayılı Kanun'un 36/A-11 bendi ve ek 41 inci maddesinde sayılanları ve mesleğe özel yarışma sınavıyla alınanları kapsar. Bu kadro o kapsama girmediğinden talep, üçüncü fıkra uyarınca doğrudan karşılanır.",
+		"legalRef": {
+			"law": "Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik",
+			"lawId": "5649",
+			"article": "11",
+			"clause": "3",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/21.5.5649.pdf"
+		},
+		"source": {
+			"kind": "ai-draft",
+			"origin": "Konu özeti ve mevzuat metninden fıkra/bent boşluğu partisi",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "review",
+		"tags": [
+			"yetkili-birimler",
+			"gizlilik-dereceli-birim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-birim-035",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/yetkili-birimler-yontem-ve-sureler",
+		"scope": "alan",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki bilgilerden hangisi, arşiv araştırması talebine eklenecek listede yer almadığı hâlde güvenlik soruşturması talebine eklenecek listede yer alır?",
+		"options": [
+			"Adı",
+			"Soyadı",
+			"Kimlik numarası",
+			"Mezun olduğu okul",
+			"Anne ve baba adı"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmelik'in 11 inci maddesine göre arşiv araştırması taleplerine eklenen listede kişinin adı, soyadı ve kimlik numarası yer alır. Güvenlik soruşturması taleplerinde ise bunlara ek olarak güncel adres, iletişim bilgileri, mezun olduğu okul, son çalıştığı işyeri ve unvan bilgileri de bulunur. Anne ve baba adı listelerin hiçbirinde sayılmamıştır.",
+		"legalRef": {
+			"law": "Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik",
+			"lawId": "5649",
+			"article": "11",
+			"clause": "6",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/21.5.5649.pdf"
+		},
+		"source": {
+			"kind": "ai-draft",
+			"origin": "Konu özeti ve mevzuat metninden fıkra/bent boşluğu partisi",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "review",
+		"tags": [
+			"talep-listesi",
+			"yetkili-birimler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-birim-036",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/yetkili-birimler-yontem-ve-sureler",
+		"scope": "alan",
+		"difficulty": "zor",
+		"stem": "Bir kamu kurumu, millî güvenlik açısından stratejik önemi haiz olduğunu ileri sürdüğü bir projede istihdam edilecek kişiler için güvenlik soruşturması talebinde bulunmuş, ancak bu stratejik önemi gerekçelendirmemiştir. Yönetmeliğe göre sonuç ne olur?",
+		"options": [
+			"Talep, eksiklik giderilinceye kadar Değerlendirme Komisyonunda bekletilir",
+			"Talep arşiv araştırmasına dönüştürülerek yerine getirilir",
+			"Talep yetkili birimlerce yerine getirilmez",
+			"Talep, Cumhurbaşkanlığının uygun görmesi hâlinde gerekçe aranmaksızın yerine getirilir",
+			"Talep yerine getirilir; gerekçe sonuç bildirilirken kurumdan istenir"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik'in 11 inci maddesi, stratejik önemi haiz birim, proje, tesis veya hizmetlerde istihdam edileceklere ilişkin taleplerde bu önemin ilgili veya bağlı bulunulan bakanlık ya da kurum tarafından gerekçelendirilerek belirtilmesini arar. Aynı maddenin son fıkrası yaptırımı açıkça düzenler: gizlilik dereceli birim ve kısımlarını 6 ncı madde uyarınca bildirmeyen ya da bu stratejik önemi gerekçelendirmeyen kurum ve kuruluşların talepleri yetkili birimlerce yerine getirilmez.",
+		"legalRef": {
+			"law": "Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik",
+			"lawId": "5649",
+			"article": "11",
+			"clause": "9",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/21.5.5649.pdf"
+		},
+		"source": {
+			"kind": "ai-draft",
+			"origin": "Konu özeti ve mevzuat metninden fıkra/bent boşluğu partisi",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "review",
+		"tags": [
+			"stratejik-onem",
+			"yaptirim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-birim-037",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/yetkili-birimler-yontem-ve-sureler",
+		"scope": "alan",
+		"difficulty": "kolay",
+		"stem": "Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmeliğin atıf yaptığı Gizlilik Dereceli Belgelerde Uygulanacak Usul ve Esaslar Hakkında Yönetmeliğe göre millî gizlilik dereceleri hangileridir?",
+		"options": [
+			"Çok Gizli, Gizli, Özel, Hizmete Özel",
+			"Çok Gizli, Gizli, Tasnif Dışı",
+			"Gizli, Özel, Hizmete Özel",
+			"Çok Gizli, Gizli, Hizmete Özel",
+			"Çok Gizli, Özel, Hizmete Özel, Tasnif Dışı"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmeliğin 4 üncü maddesine göre Çok Gizli, Gizli ve Hizmete Özel olmak üzere üç adet millî gizlilik derecesi bulunur. \"Özel\" ve \"Tasnif Dışı\" bu Yönetmelikte millî gizlilik derecesi olarak sayılmamıştır.",
+		"legalRef": {
+			"law": "Gizlilik Dereceli Belgelerde Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"lawId": "5529",
+			"article": "4",
+			"clause": "1",
+			"url": "https://www.mevzuat.gov.tr/mevzuatmetin/21.5.5529.pdf"
+		},
+		"source": {
+			"kind": "ai-draft",
+			"origin": "7315 ve 5649'un atıf yaptığı mevzuat metninden (6698, 5529) soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "review",
+		"tags": [
+			"gizlilik-dereceleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-birim-038",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/yetkili-birimler-yontem-ve-sureler",
+		"scope": "alan",
+		"difficulty": "kolay",
+		"stem": "İzinsiz açıklanması veya yetkisiz kişilerce öğrenilmesi hâlinde Devletin menfaatlerine, güvenlik, istihbarat ve teknoloji faaliyetlerine zarar verebilecek belgeler için hangi gizlilik derecesi kullanılır?",
+		"options": [
+			"Çok Gizli",
+			"Gizli",
+			"Hizmete Özel",
+			"Özel",
+			"Kişiye Özel"
+		],
+		"correctIndex": 1,
+		"explanation": "Bu tanım Yönetmeliğin 4 üncü maddesinde \"Gizli\" derecesine aittir. \"Çok Gizli\", açıklanması hâlinde Devletin dış ilişkilerine, millî savunmasına, millî güvenliğine ve müttefiklerle olan faaliyetlerine önemli derecede zarar verebilecek belgeler içindir; \"Hizmete Özel\" ise idari bir faaliyete, gerçek veya tüzel kişiye, idari ya da adli soruşturma ve kovuşturmaya zarar verebilecek belgeler içindir.",
+		"legalRef": {
+			"law": "Gizlilik Dereceli Belgelerde Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"lawId": "5529",
+			"article": "4",
+			"clause": "1/b",
+			"url": "https://www.mevzuat.gov.tr/mevzuatmetin/21.5.5529.pdf"
+		},
+		"source": {
+			"kind": "ai-draft",
+			"origin": "7315 ve 5649'un atıf yaptığı mevzuat metninden (6698, 5529) soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "review",
+		"tags": [
+			"gizlilik-dereceleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-birim-039",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/yetkili-birimler-yontem-ve-sureler",
+		"scope": "alan",
+		"difficulty": "zor",
+		"stem": "Bir belgeye Çok Gizli gizlilik derecesini vermeye kim yetkilidir?",
+		"options": [
+			"İdarenin üst yöneticisi; üst yöneticinin oluruyla diğer kademelerdeki yöneticilere yetki devri yapılabilir",
+			"Birim yöneticisi; bu derecede yetki devri yapılamaz",
+			"Yalnızca Cumhurbaşkanlığı",
+			"Birim veya alt birim yöneticisi",
+			"Kurum bünyesindeki Değerlendirme Komisyonu"
+		],
+		"correctIndex": 0,
+		"explanation": "Yönetmeliğin 5 inci maddesinin birinci fıkrasına göre bir belgeye Çok Gizli derecesini vermeye idarenin üst yöneticisi yetkilidir; ancak üst yöneticinin oluruyla diğer kademelerdeki yöneticilere yetki devri yapılabilir. Gizli derecesi birim yöneticisinin, Hizmete Özel derecesi ise birim veya alt birim yöneticisinin yetkisindedir.",
+		"legalRef": {
+			"law": "Gizlilik Dereceli Belgelerde Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"lawId": "5529",
+			"article": "5",
+			"clause": "1",
+			"url": "https://www.mevzuat.gov.tr/mevzuatmetin/21.5.5529.pdf"
+		},
+		"source": {
+			"kind": "ai-draft",
+			"origin": "7315 ve 5649'un atıf yaptığı mevzuat metninden (6698, 5529) soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "review",
+		"tags": [
+			"gizlilik-dereceleri",
+			"yetki"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-birim-040",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/yetkili-birimler-yontem-ve-sureler",
+		"scope": "alan",
+		"difficulty": "orta",
+		"stem": "Bir belgeye Hizmete Özel gizlilik derecesini vermeye kim yetkilidir?",
+		"options": [
+			"Yalnızca idarenin üst yöneticisi",
+			"Yalnızca birim yöneticisi",
+			"İdarenin üst yöneticisi veya onun görevlendireceği bir üst kademe yöneticisi",
+			"Teftiş ve denetim biriminin yöneticisi",
+			"Birim veya alt birim yöneticisi"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmeliğin 5 inci maddesinin üçüncü fıkrasına göre Hizmete Özel derecesini vermeye birim veya alt birim yöneticisi yetkilidir. Üç derecede yetki kademe kademe iner: Çok Gizli — idarenin üst yöneticisi, Gizli — birim yöneticisi (alt birim yöneticilerine devredilebilir), Hizmete Özel — birim veya alt birim yöneticisi.",
+		"legalRef": {
+			"law": "Gizlilik Dereceli Belgelerde Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"lawId": "5529",
+			"article": "5",
+			"clause": "3",
+			"url": "https://www.mevzuat.gov.tr/mevzuatmetin/21.5.5529.pdf"
+		},
+		"source": {
+			"kind": "ai-draft",
+			"origin": "7315 ve 5649'un atıf yaptığı mevzuat metninden (6698, 5529) soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "review",
+		"tags": [
+			"gizlilik-dereceleri",
+			"yetki"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-birim-041",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/yetkili-birimler-yontem-ve-sureler",
+		"scope": "alan",
+		"difficulty": "orta",
+		"stem": "Muhtelif gizlilik derecelerine sahip eki veya ilgisi bulunan bir belgeye hangi gizlilik derecesi verilir?",
+		"options": [
+			"Belgenin kendi metnine bakılarak belirlenen derece",
+			"Eklerin gizlilik derecelerinin ortalaması alınarak belirlenen derece",
+			"En yüksek gizlilik derecesini taşıyan ekin veya ilginin gizlilik derecesi",
+			"En düşük gizlilik derecesini taşıyan ekin gizlilik derecesi",
+			"Her hâlde Çok Gizli"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmeliğin 5 inci maddesinin dördüncü fıkrası, muhtelif gizlilik derecelerine sahip eki veya ilgisi olan belgeye en yüksek gizlilik derecesini taşıyan ekin veya ilginin gizlilik derecesinin verileceğini hükme bağlar. Aynı mantık derece yükseltmede de görülür: tek başına daha düşük dereceli belgeler bir araya geldiğinde kapsadıkları bilgi bakımından daha yüksek derecelendirmeyi gerektirebilir.",
+		"legalRef": {
+			"law": "Gizlilik Dereceli Belgelerde Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"lawId": "5529",
+			"article": "5",
+			"clause": "4",
+			"url": "https://www.mevzuat.gov.tr/mevzuatmetin/21.5.5529.pdf"
+		},
+		"source": {
+			"kind": "ai-draft",
+			"origin": "7315 ve 5649'un atıf yaptığı mevzuat metninden (6698, 5529) soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "review",
+		"tags": [
+			"gizlilik-dereceleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-birim-042",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/yetkili-birimler-yontem-ve-sureler",
+		"scope": "alan",
+		"difficulty": "uzman",
+		"stem": "Gizlilik Dereceli Belgelerde Uygulanacak Usul ve Esaslar Hakkında Yönetmelik hangi düzenlemelere dayanılarak hazırlanmıştır?",
+		"options": [
+			"Yalnızca 7315 sayılı Kanun'un 6 ncı maddesine",
+			"4982 sayılı Bilgi Edinme Hakkı Kanunu ile Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmeliğe",
+			"Yalnızca 1 sayılı Cumhurbaşkanlığı Kararnamesinin 6 ncı maddesine",
+			"7315 sayılı Kanun'un 12 nci maddesi ile 1 sayılı Cumhurbaşkanlığı Kararnamesinin 6 ncı ve 7 nci maddelerine",
+			"6698 sayılı Kişisel Verilerin Korunması Kanunu'nun 12 nci maddesine"
+		],
+		"correctIndex": 3,
+		"explanation": "Yönetmeliğin 2 nci maddesine göre dayanak, 7315 sayılı Güvenlik Soruşturması ve Arşiv Araştırması Kanunu'nun 12 nci maddesi ile 1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesinin 6 ncı ve 7 nci maddeleridir. Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik de aynı 12 nci maddeye dayanır; iki yönetmelik bu yüzden birlikte okunur.",
+		"legalRef": {
+			"law": "Gizlilik Dereceli Belgelerde Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+			"lawId": "5529",
+			"article": "2",
+			"clause": "1",
+			"url": "https://www.mevzuat.gov.tr/mevzuatmetin/21.5.5529.pdf"
+		},
+		"source": {
+			"kind": "ai-draft",
+			"origin": "7315 ve 5649'un atıf yaptığı mevzuat metninden (6698, 5529) soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "review",
+		"tags": [
+			"gizlilik-dereceleri",
+			"dayanak"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
 	}
 ]
