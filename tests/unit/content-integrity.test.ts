@@ -6,6 +6,7 @@ import {
 	FREE_TEST_SLUG,
 	FREE_TOPIC_BY_SUBJECT,
 } from "@/lib/billing/entitlement";
+import { buildExam } from "@/lib/selector/exam-selector";
 import { buildTestSets } from "@/lib/selector/test-sets";
 import {
 	contentManifestSchema,
@@ -266,5 +267,61 @@ describe("questionSchema — şık sayısı kuralları", () => {
 			correctIndex: 0,
 		});
 		expect(result.success).toBe(false);
+	});
+});
+describe("deneme şablonları içerikteki her dersi kapsar", () => {
+	/**
+	 * `build-content.ts` şablonun dağılım toplamını ve saydığı derslerin havuzunu
+	 * doğrular; ama HİÇ SAYILMAYAN dersi göremez. `buildExam` de yalnızca istenen
+	 * kontenjan dolmazsa `shortfalls` üretir — istenmeyen ders eksiklik sayılmaz.
+	 * İki boşluk birleşince ders sessizce denemelerin dışında kalır: fiilen yaşandı,
+	 * güvenlik soruşturması dersi 90 yayımlanmış soruyla hiçbir denemeye girmiyordu.
+	 *
+	 * Bu yüzden kontrol `FREE_TOPIC_BY_SUBJECT` gibi İKİ YÖNLÜDÜR.
+	 */
+	it("her şablonun dağılımında her ders yer alır", async () => {
+		const manifest = await loadManifest();
+
+		for (const template of manifest.examTemplates) {
+			const sayilan = new Set(template.distribution.map((d) => d.subjectId));
+
+			for (const subject of manifest.subjects) {
+				expect(
+					sayilan.has(subject.id),
+					`“${subject.id}” dersi “${template.id}” şablonunda yok — soruları hiçbir denemede çıkmaz`,
+				).toBe(true);
+			}
+		}
+	});
+
+	it("şablonların saydığı her ders içerikte vardır", async () => {
+		const manifest = await loadManifest();
+		const bilinen = new Set(manifest.subjects.map((s) => s.id));
+
+		for (const template of manifest.examTemplates) {
+			for (const slice of template.distribution) {
+				expect(
+					bilinen.has(slice.subjectId),
+					`“${template.id}” şablonu içerikte olmayan “${slice.subjectId}” dersini sayıyor`,
+				).toBe(true);
+			}
+		}
+	});
+
+	it("her şablon mevcut havuzla çözülebilir", async () => {
+		const [manifest, questions] = await Promise.all([
+			loadManifest(),
+			loadAllQuestions(),
+		]);
+
+		for (const template of manifest.examTemplates) {
+			const { shortfalls } = buildExam(template, questions, template.id);
+			expect(
+				shortfalls,
+				`“${template.id}” şablonu çözülemiyor: ${shortfalls
+					.map((s) => `${s.subjectId} ${s.available}/${s.requested}`)
+					.join(", ")}`,
+			).toEqual([]);
+		}
 	});
 });
