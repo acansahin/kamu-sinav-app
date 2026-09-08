@@ -26,6 +26,12 @@
 # dış inceleme için üretilen Markdown — `npm run review:export` üretir
 /review/
 
+# sosyal medya kartları ve plan dosyası — `npm run social:plan` üretir.
+# Kartlar `social-assets` dalına gider (Instagram görseli herkese açık bir
+# adresten çekiyor); `main` üzerinde tutulmazlar. Ledger (`social/ledger.json`)
+# İZLENİR — tekrar önlemenin tek kaynağı odur.
+/social-out/
+
 # Playwright çıktıları
 /test-results/
 /playwright-report/

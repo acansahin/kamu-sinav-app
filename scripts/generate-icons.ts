@@ -13,6 +13,8 @@ import path from "node:path";
 import process from "node:process";
 import sharp from "sharp";
 
+import { CANVAS, COLUMN_PATH } from "./brand-mark";
+
 const ROOT = path.resolve(import.meta.dirname, "..");
 const OUT_DIR = path.join(ROOT, "public", "icons");
 const ANDROID_RES = path.join(ROOT, "android", "app", "src", "main", "res");
@@ -22,66 +24,6 @@ const STORE_DIR = path.join(ROOT, "store", "assets");
 
 /** globals.css içindeki --brand ile aynı olmalı. */
 const BRAND = "#17395e";
-
-/** Tüm ikonların ortak tuval boyu; her çıktı bundan küçültülür. */
-const CANVAS = 512;
-
-/**
- * Yuvarlatılmış dikdörtgeni `pathData` olarak yazar.
- *
- * `<rect rx>` KULLANILMAZ, çünkü aynı geometri Android açılış ekranının
- * VectorDrawable'ına da gidiyor ve o biçim yalnızca `<path>`, `<group>` ve
- * `<clip-path>` tanır — `<rect>` ve `rx` yoktur. Tek dize üretip iki yerde
- * kullanmak, işaretin ikiye ayrılıp sessizce ayrışmasını imkânsız kılar.
- *
- * Virgül/boşluk karışımı bilinçli: hem SVG hem Android'in PathParser'ı okur.
- */
-function roundedRect(
-	x: number,
-	y: number,
-	w: number,
-	h: number,
-	r: number,
-): string {
-	const right = x + w;
-	const bottom = y + h;
-
-	return [
-		`M${x + r},${y}`,
-		`H${right - r}`,
-		`A${r},${r} 0 0 1 ${right},${y + r}`,
-		`V${bottom - r}`,
-		`A${r},${r} 0 0 1 ${right - r},${bottom}`,
-		`H${x + r}`,
-		`A${r},${r} 0 0 1 ${x},${bottom - r}`,
-		`V${y + r}`,
-		`A${r},${r} 0 0 1 ${x + r},${y}`,
-		"Z",
-	].join(" ");
-}
-
-/**
- * Marka işareti: klasik sütun — başlık, üç yiv, taban.
- *
- * Kamu kurumu / hukuk çağrışımı taşır ve önceki tik işaretinin aksine
- * kategoride ayrışır. Tamamı DOLU form: ince bir stroke'un mdpi 48px
- * launcher'da eriyip gitmesi riski yok.
- *
- * Sınır kutusu 104..408 × 119..393, yani merkezi tam (256, 256). Yuvarlak
- * maskede yarı köşegen 205 < 256; maskable'da (0.72 ölçek) 148 < 205; adaptive
- * ön planda (0.9 ölçek) genişlik tuvalin %53'ü, Android'in istediği iç %61'in
- * içinde. Parçaların yönü aynı (saat yönü), nonzero dolgu delik açmaz.
- *
- * Dikey boşluklar bilinçli olarak eşittir (başlık↔yiv ve yiv↔taban = 18):
- * eşit olmayan boşluk küçük boyutta sütunu "kaymış" gösteriyordu.
- */
-const COLUMN_PATH = [
-	roundedRect(124, 119, 264, 44, 14), // başlık
-	roundedRect(161, 181, 38, 146, 19), // yiv
-	roundedRect(237, 181, 38, 146, 19), // yiv
-	roundedRect(313, 181, 38, 146, 19), // yiv
-	roundedRect(104, 345, 304, 48, 14), // taban
-].join(" ");
 
 /**
  * İşareti verilen oranda, tuvalin merkezine göre ölçekler.
