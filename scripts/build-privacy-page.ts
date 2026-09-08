@@ -78,6 +78,23 @@ a.alt { display: block; margin-top: 2rem; color: #fff; opacity: .7; font-size: .
 </html>
 `;
 
+/**
+ * Sayfadaki bir adresi diskteki karşılığına çevirir.
+ *
+ * ⚠️ `basePath` adreslere girer ama diske GİRMEZ: stil bağlantısı
+ * `/kamu-sinav-app/_next/...` iken dosya `out/_next/...` altındadır. Önek
+ * soyulmazsa `out/kamu-sinav-app/_next/...` aranır ve bulunamaz. Bu hata
+ * yalnızca `basePath` ayarlıyken, yani sadece Pages iş akışında görülür —
+ * yerelde iki değişkenden biri eksik kaldığı için gözden kaçtı.
+ */
+function diskYolu(href: string): string {
+	const temiz = href.split("?")[0];
+	const gorece =
+		TABAN && temiz.startsWith(TABAN) ? temiz.slice(TABAN.length) : temiz;
+
+	return path.join(OUT, gorece.replace(/^\//, ""));
+}
+
 /** Dizin içeriğini adlarıyla döndürür; yoksa boş. */
 async function girisler(dir: string): Promise<string[]> {
 	try {
@@ -112,8 +129,7 @@ async function main(): Promise<void> {
 
 		if (!href) continue;
 
-		const dosya = path.join(OUT, href.replace(/^\//, "").split("?")[0]);
-		const css = await readFile(dosya, "utf8");
+		const css = await readFile(diskYolu(href), "utf8");
 		const stil = belge.createElement("style");
 
 		stil.textContent = css;
@@ -142,7 +158,7 @@ async function main(): Promise<void> {
 	for (const bag of belge.querySelectorAll("a[href^='/']")) {
 		const href = bag.getAttribute("href") ?? "";
 
-		if (href.startsWith("/gizlilik")) continue;
+		if (href.startsWith(`${TABAN}/gizlilik`)) continue;
 
 		// Bağlantıyı sökmek yerine metnini bırakıyoruz: gizlilik metninde
 		// geçen bir gönderme cümlenin ortasından kaybolmasın.
