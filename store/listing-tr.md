@@ -76,14 +76,36 @@ büyüdükçe genişletilebilir.
 > sayfası aynı sayıları içerikten türeterek gösterir, elle yazmaz.
 >
 > Aşağı yuvarlanır ve **asla yukarı yuvarlanmaz**: mağaza metni içerikten
-> türemediği için havuz küçülmedikçe doğru kalmalıdır. 4 Eylül 2026
-> ölçümü 1412 soru; “1400'ün üzerinde” ifadesi 1400'e inene kadar geçerli.
+> türemediği için havuz küçülmedikçe doğru kalmalıdır. 8 Eylül 2026
+> ölçümü 1440 soru; “1400'ün üzerinde” ifadesi 1400'e inene kadar geçerli.
 >
 > **Ders listesindeki altıncı satır bilinçli olarak nitelenmiştir.** Güvenlik
 > Soruşturması ortak konu değildir; niteleme kaldırılırsa mağaza metni
 > uygulamanın kapsamı hakkında yanlış bir izlenim verir.
 
 ## Sürüm notları (en çok 500 karakter)
+
+### 1.3.0 — güvenlik soruşturması denemelerde
+
+```
+• Güvenlik Soruşturması dersi artık deneme sınavlarına da dâhil; 20, 50 ve 80
+  soruluk denemelerin soru dağılımında yerini aldı.
+• Bu derse 28 yeni soru eklendi, ders 118 soruya ulaştı. Yeni sorular kişisel
+  verilerin korunması ve gizlilik dereceleri mevzuatını da kapsıyor.
+• Havuz büyüdüğü için bu dersin konu testleri yeniden dağıldı: her konuda artık
+  4 test var. Daha önce çözdüğünüz test numaraları farklı sorular gösterebilir.
+```
+
+⚠️ **Birinci madde, 1.2.0'ın ikinci maddesini geçersiz kılar.** Orada ders,
+ortak konu olmadığı gerekçesiyle deneme dağılımının dışında tutulmuştu; 1.3.0
+bu kararı tersine çevirdi. Bir karar geri alındığında sürüm notunda **açıkça
+söylenmelidir**: kullanıcı önceki notu okumuş olabilir ve sessiz bir dönüş,
+uygulamanın tutarsız davrandığı izlenimi verir.
+
+⚠️ **Üçüncü madde de çıkarılmamalıdır.** Konu testleri havuzdan türetilir
+(`lib/selector/test-sets.ts`), yani konuya soru eklenince setler yeniden
+dağılır ve eski bir "Test 3" artık başka soruları gösterir. Bu bilinçli bir
+ödünçtür ama açıklanmazsa kullanıcı ilerlemesinin bozulduğunu sanır.
 
 ### 1.2.0 — güvenlik soruşturması dersi
 
