@@ -1,0 +1,189 @@
+name: Sosyal medya
+
+# Uygulamayı tanıtan otomatik paylaşımlar: X, Facebook Sayfası ve Instagram.
+#
+# İçerik havuzdan seçilir (`content/subjects/**`), kart koddan üretilir ve
+# paylaşım ledger'a yazılır. Kurulum ve sır listesi: store/social-kurulum.md
+#
+# ⚠️ İki aşama BİLİNÇLİ olarak ayrıdır. Instagram görseli ikili olarak kabul
+# etmez; herkese açık bir HTTPS adresinden kendisi çeker. Bu yüzden kart önce
+# `social-assets` dalına itilir, paylaşım ondan SONRA yapılır. Adımların sırası
+# değiştirilirse Instagram "medya indirilemedi" ile düşer ve hata yalnızca
+# üretimde görülür.
+
+on:
+  schedule:
+    # GitHub cron'u UTC'dir. Türkiye UTC+3 ve yaz saati uygulanmadığı için
+    # kayma sabittir — saatler yıl boyunca aynı yerel saate denk gelir.
+    - cron: "30 6 * * *" # 09:30 TRT — günün sorusu
+    - cron: "30 16 * * *" # 19:30 TRT — aynı sorunun cevabı
+    - cron: "0 10 * * 3,0" # 13:00 TRT, Çarşamba ve Pazar — bilgi kartı
+  workflow_dispatch:
+    inputs:
+      tur:
+        description: "Paylaşım türü"
+        type: choice
+        options: [soru, cevap, bilgi, duyuru]
+        default: soru
+      metin:
+        description: "Duyuru gövdesi (yalnızca tür=duyuru için)"
+        type: string
+        required: false
+      kuru:
+        description: "Kuru çalışma — kart üretilir, paylaşım yapılmaz"
+        type: boolean
+        default: false
+
+# Ledger'a iki koşunun aynı anda yazması, birinin satırını sessizce kaybettirir.
+concurrency:
+  group: sosyal-medya
+  cancel-in-progress: false
+
+jobs:
+  paylas:
+    runs-on: ubuntu-latest
+    permissions:
+      # Ledger `main`e, kart görseli `social-assets` dalına yazılır.
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          # Ledger'ı geri itebilmek için tam geçmiş gerekiyor; ayrıca
+          # `social-assets` dalı buradan fetch edilir.
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # librsvg font bulamazsa metni SESSİZCE atlar — kart üretilir ama
+      # yazısızdır. `card.ts` bunu yoklayıp hata veriyor; bu adım da yoklamanın
+      # geçmesini sağlıyor. Ubuntu imajında genelde kurulu, ama "genelde"
+      # üretimde paylaşılan boş bir kart için yeterli bir güvence değil.
+      - name: Yazı tipini kur
+        run: sudo apt-get install -y --no-install-recommends fonts-dejavu-core
+
+      # Hangi cron tetiklediyse ona karşılık gelen tür seçilir. Elle
+      # tetiklemede girdi kullanılır.
+      - name: Paylaşım türünü belirle
+        id: tur
+        run: |
+          case "${{ github.event.schedule }}" in
+            "30 6 * * *")   TUR=soru ;;
+            "30 16 * * *")  TUR=cevap ;;
+            "0 10 * * 3,0") TUR=bilgi ;;
+            *)              TUR="${{ inputs.tur || 'soru' }}" ;;
+          esac
+          echo "tur=$TUR" >> "$GITHUB_OUTPUT"
+          echo "Tür: $TUR"
+
+      - name: İçeriği seç ve kartı üret
+        env:
+          SOCIAL_APP_URL: ${{ vars.SOCIAL_APP_URL }}
+          SOCIAL_DUYURU: ${{ inputs.metin }}
+        run: npm run social:plan -- --tur ${{ steps.tur.outputs.tur }}
+
+      # Plan dosyası yoksa paylaşılacak içerik yok demektir (ör. cevabı
+      # bekleyen soru yok). Bu bir hata değildir; kalan adımlar atlanır.
+      - name: Plan var mı
+        id: plan
+        run: |
+          if [ -f social-out/plan.json ]; then
+            echo "var=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "var=false" >> "$GITHUB_OUTPUT"
+            echo "Paylaşılacak içerik yok."
+          fi
+
+      # Kartı ayrı bir dala iter. `main` kullanılmaz: günde birkaç görsel
+      # geçmişi şişirir ve her paylaşım CI'ı tetiklerdi.
+      #
+      # Dal yoksa BOŞ AĞAÇTAN bir kök commit'le yaratılır — `checkout --orphan`
+      # çalışma dizinini bozacağı için worktree ile yapılamıyor.
+      - name: Kartı yayımla
+        if: steps.plan.outputs.var == 'true' && !inputs.kuru
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin social-assets >/dev/null 2>&1; then
+            git fetch origin social-assets:social-assets
+          else
+            BOS_AGAC=$(git hash-object -t tree /dev/null)
+            git branch social-assets "$(git commit-tree "$BOS_AGAC" -m 'Sosyal medya kart deposu')"
+          fi
+
+          git worktree add ../kartlar social-assets
+          cp social-out/*.jpg ../kartlar/
+          git -C ../kartlar add -A
+
+          # Aynı gün yeniden çalıştırıldığında kart bayt bayt aynı olabilir;
+          # boş commit `set -e` altında adımı düşürürdü.
+          if git -C ../kartlar diff --cached --quiet; then
+            echo "Kart zaten yayımlanmış."
+          else
+            git -C ../kartlar commit -m "Kart: $(jq -r .gorsel social-out/plan.json)"
+            git -C ../kartlar push origin social-assets
+          fi
+
+          git worktree remove ../kartlar
+
+          # Raw adresi CDN'den servis ediliyor ve ilk istekte gecikebiliyor;
+          # Instagram'ın çekmesi başarısız olmasın diye bir kez ısıtılır.
+          URL=$(jq -r .gorselUrl social-out/plan.json)
+          for i in 1 2 3 4 5; do
+            if curl -sfI "$URL" >/dev/null; then
+              echo "Görsel erişilebilir: $URL"
+              break
+            fi
+            echo "Görsel henüz yayılmadı, bekleniyor ($i)..."
+            sleep 5
+          done
+
+      - name: Paylaş
+        if: steps.plan.outputs.var == 'true' && !inputs.kuru
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          GRAPH_VERSION: ${{ vars.GRAPH_VERSION }}
+        run: npm run social:publish
+
+      # Ledger paylaşımın SONUCUNDAN bağımsız yazılır (başarısızlık da bir
+      # kayıttır), bu yüzden bu adım `always()` ile korunur — paylaşım
+      # kısmen düştüyse de kayıt geri itilmelidir.
+      - name: Ledger'ı kaydet
+        if: always() && steps.plan.outputs.var == 'true' && !inputs.kuru
+        run: |
+          if git diff --quiet -- social/ledger.json; then
+            echo "Ledger değişmedi."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add social/ledger.json
+          git commit -m "Sosyal medya paylasim kaydi: ${{ steps.tur.outputs.tur }} [skip ci]"
+          # Eşzamanlılık grubu yarışı büyük ölçüde engelliyor; yine de araya
+          # elle atılmış bir commit girmişse rebase ile üstüne binilir.
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      # Kuru çalışmada kart yalnızca artifact olarak bırakılır; hiçbir yere
+      # itilmez ve hiçbir platforma gitmez.
+      - name: Kartı artifact olarak bırak
+        if: inputs.kuru
+        uses: actions/upload-artifact@v4
+        with:
+          name: sosyal-kart
+          path: social-out/
+          retention-days: 7

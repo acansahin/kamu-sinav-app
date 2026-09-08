@@ -36,6 +36,7 @@ edilirse `npm run build` değil, Android paketi bozulur — yani hata geç fark 
 | `npm run android:sync` | Build alır ve `out/`u Android projesine kopyalar |
 | `npm run icons:build` | İkonları ve Play mağaza görsellerini koddan üretir |
 | `npm run store:screenshots` | Mağaza ekran görüntülerini gerçek uygulamadan alır |
+| `npm run social:preview` | Sosyal medya kartlarını ve metinlerini üretir (paylaşmaz) |
 
 ## Web yayını (GitHub Pages)
 
@@ -205,6 +206,72 @@ kalite güvencesi olan editoryal adım insanda kalır.
 Kullanım ve emsal kaynaklar (MEB ÖDSGM, Sayıştay vb.) için `scripts/ingest-past-exam.ts`
 başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmayın.
 
+## Sosyal medya hattı
+
+Uygulamayı tanıtan otomatik paylaşımlar (X, Facebook Sayfası, Instagram)
+`scripts/social/` altındadır; `.github/workflows/social.yml` cron ile çalıştırır.
+İçerik havuzdan seçilir, kart koddan üretilir, paylaşım `social/ledger.json`e
+yazılır. Kurulum ve anahtar üretimi: [store/social-kurulum.md](store/social-kurulum.md).
+
+- **Hat İKİ AŞAMALIDIR ve sıra bağlayıcıdır.** Instagram görseli ikili olarak
+  kabul etmez; herkese açık bir HTTPS adresinden kendisi çeker. Bu yüzden
+  `plan` aşaması kartı üretir, iş akışı kartı `social-assets` dalına iter,
+  `yayin` aşaması ondan SONRA paylaşır. Tek aşamaya indirilirse Instagram
+  "medya indirilemedi" ile düşer ve hata yalnızca üretimde görülür.
+  İki aşama arasındaki tek bağ `social-out/plan.json`dur ve şemayla doğrulanır.
+
+- **Ledger append-only.** `attempts` tablosuyla aynı gerekçe: hangi sorunun
+  paylaşıldığı tekrar önlemenin tek kaynağıdır. **Başarısız paylaşımlar da
+  yazılır** — yalnızca başarılıyı yazmak, sürekli düşen bir platformun aynı
+  soruyu her gün yeniden denemesi demekti.
+
+- **Anahtarı olmayan platform sessizce atlanır.** `authProvider`ın Supabase
+  anahtarı yokken yerel sağlayıcıya düşmesiyle aynı kural: tek platformla
+  başlamak, üçünü birden kurmayı beklemekten iyidir. Hiçbiri
+  yapılandırılmamışsa hata verilir.
+
+- **X'te OAuth 2.0 DEĞİL 1.0a kullanılır.** 2.0'ın kullanıcı bağlamı iki
+  saatte dolan bir jeton ve her yenilemede değişen bir yenileme jetonu verir;
+  cron için bu, her koşuda GitHub sırlarını API üzerinden güncellemek demektir
+  ve tek bir kaçırılmış yazma hattı kalıcı olarak kilitler. 1.0a jetonları
+  süresizdir. İmzalama elle yapılır — gövdesi form-urlencoded OLMAYAN
+  isteklerde imza tabanına yalnızca `oauth_*` parametreleri girdiği için görsel
+  multipart, gönderi JSON olarak yollanır.
+
+- **X metni 280 karakteri AŞAMAZ ve bu üretim anında uygulanır.** Aşılırsa API
+  reddeder, hata cron'un içinde kalır. `compose.ts`teki `xeSigdir` payı
+  öncelik sırasına göre dağıtır; payı `asgari`nin altına düşen parça
+  kısaltılmaz, ATILIR (yarım açıklama hiç olmamasından kötüdür). Her esnek
+  parçanın bir `tavan`ı da vardır: havuzda 250 karakterlik tek satırlık şıklar
+  gerçekten var ve tavansız dağıtımda ilk parça kalanın tamamını yutup
+  dayanağı ve etiketleri dışarı itiyordu.
+
+- **Kartta EMOJİ KULLANILMAZ.** Kart `sharp`/librsvg ile çizilir; DejaVu
+  Sans'ta emoji glif'i yoktur ve renkli emoji fontu üretim makinesinde garanti
+  değildir. Bulunamayan glif sessizce boş kutu olur. Paylaşım METNİNDEKİ
+  emojiler sorunsuzdur — onları platform render eder.
+
+- **Font yokluğu sessiz bir hatadır, bu yüzden yoklanır.** librsvg font
+  bulamazsa metni çizmez ama hata da vermez: kart üretilir, sadece yazısızdır.
+  `card.ts` beyaz zemine tek harf çizip koyu piksel arayarak bunu yakalar ve
+  hata verir; iş akışı da ayrıca `fonts-dejavu-core` kurar.
+
+- **SVG metni kendiliğinden sarmaz.** `<text>` tek satırdır ve taşan kısım
+  sessizce kaybolur. Satır kırma ve punto seçimi `card.ts` içinde elle yapılır;
+  genişlik ölçümü yaklaşıktır ve bilinçli olarak GENİŞ tahmin eder — hata
+  taşma değil erken satır kırma yönünde olsun diye. Bir kümenin (şıkların)
+  puntosu **ortak** seçilir: her şıkkı ayrı sığdırmak farklı puntolar üretiyor
+  ve kart bozuk görünüyordu.
+
+- **Marka işaretinin geometrisi `scripts/brand-mark.ts`te.** `generate-icons.ts`
+  modül düzeyinde `main()` çağırdığı için oradan import etmek her paylaşımda
+  ikonları yeniden yazardı; kopyalamak ise logo değişince sessiz ayrışma
+  demekti.
+
+- **Seçim rastgele DEĞİL, tarihten türetilir.** Aynı gün yeniden çalışan iş
+  akışı (yeniden deneme) aynı içeriği seçmek zorundadır; yoksa ilk denemede
+  üretilip yayımlanamamış kart, ikinci denemede farklı bir soruya ait olurdu.
+
 ## Mimari kuralları
 
 - **Dexie'ye doğrudan dokunulmaz.** Tüm ilerleme verisi
@@ -325,6 +392,7 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   gösterirdi. Bayrağı yalnızca `android.yml`in elle tetiklenen dalı geçer;
   `android-release.yml`e **eklemeyin** — imzalı AAB'de tüm içerik ücretsiz
   açılırdı ve hata ancak Play'e yüklendikten sonra görülürdü.
+
 - **KİLİTLİ durumu denemek için debug paketi `.test` ekiyle kurulur.** Ters
   yöndeki ihtiyaç — paywall'ı, satın alma ekranını ve erişim kodu kutusunu
   cihazda görmek — bir bayrakla çözülemez, çünkü sorun uygulamada değil
@@ -349,6 +417,30 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   Statik içe aktarım `@capgo/native-purchases`i tarayıcı paketine sokar; ölçüldü,
   bugün eklenti chunk'ına **hiçbir HTML sayfası referans vermiyor**. Buraya
   `import { NativePurchases }` yazmayın (`supabase-client.ts` ile aynı kural).
+- **Eklentiye AYNI ANDA İKİ ÇAĞRI GİTMEZ.** `@capgo/native-purchases`in Android
+  tarafında tek bir `BillingClient` alanı vardır: her çağrı başlarken alanın
+  üzerine yeni bir istemci yazar, biterken `closeBillingClient()` ile bağlantıyı
+  kapatır. Üst üste binen iki çağrıdan önce biten, diğerinin **hâlâ uçuştaki**
+  sorgusunu düşürür ve eklenti bunu hata olarak değil **boş listeyle** çözer —
+  yani "satın alma yok" gibi görünür. Cihazda görülen sonuç şuydu: satın almış
+  kullanıcı uygulamayı kapatıp açtığında erişimini kaybediyor, yanlış cevap
+  önbelleğe yazıldığı için de bir daha geri gelmiyordu. Bu yüzden tüm çağrılar
+  `native.provider.ts` içindeki `sirala` kuyruğundan geçer ve onay süpürmesi
+  ayrı bir çağrı değil, hak sorgusunun **aynı listesinden** yürür. Yeni bir
+  faturalandırma çağrısı eklerken kuyruğu atlamayın; kuyruğun içinden başka bir
+  genel metodu çağırmayın (kilitlenir — `restore` bu yüzden `sorgula`yı
+  doğrudan kullanır). Yarış zamanlamaya bağlıdır: hata bazı cihazlarda hiç
+  görünmez.
+- **Bir olumsuz Play cevabı tek başına hakkı kaldırmaz.** Yukarıdaki boş-liste
+  davranışı yüzünden `false`, "sorgu düştü" anlamına da gelebiliyor. Önbellekte
+  hak varken gelen olumsuz cevap bu yüzden bir kez daha doğrulanır
+  (`needsLossConfirmation`); hakkı olmayan kullanıcı — yaygın hâl — fazladan
+  sorgu üretmez. (Play gerçekten olumsuz dönerse hak kaldırılır; iadenin tek
+  başına bunu tetiklemediği için yukarıdaki nota bakın.)
+- **Android'de `PENDING` 2'dir, 0 değil** (`0` = `UNSPECIFIED_STATE`). Kod bir
+  süre 0'ı beklemede saydı ve o kontrol hiç çalışmadı. Karşılaştırmalar
+  "`PURCHASED` (`"1"`) değilse hak yoktur" yönünde kurulur: bilinmeyen bir
+  durumda erişim açmak, gereksiz bekleme mesajından çok daha kötüdür.
 - **Sesli okuma tarayıcı API'siyle YAPILAMAZ.** Web Speech API
   (`window.speechSynthesis`) Android WebView'de çalışmaz (Chromium issue 40417848,
   hâlâ açık); Chrome Android'de çalıştığı için tarayıcıda ve testlerde her şey yolunda
@@ -416,30 +508,6 @@ başlığındaki yorumlara bakın. Ücretli/özel kaynaklara **asla** bağlanmay
   sözcüktür (14b), **boşluklu tire** ise noktalamadır (14c). Sonuncusu uzun
   süre hiçbir kurala uymadı — "üçtür - 4/A" harf–boşluk–tire–boşluk–rakam
   olduğu için ilk ikisi de kaçırıyordu ve tire olduğu gibi motora gidiyordu.
-- **Eklentiye AYNI ANDA İKİ ÇAĞRI GİTMEZ.** `@capgo/native-purchases`in Android
-  tarafında tek bir `BillingClient` alanı vardır: her çağrı başlarken alanın
-  üzerine yeni bir istemci yazar, biterken `closeBillingClient()` ile bağlantıyı
-  kapatır. Üst üste binen iki çağrıdan önce biten, diğerinin **hâlâ uçuştaki**
-  sorgusunu düşürür ve eklenti bunu hata olarak değil **boş listeyle** çözer —
-  yani "satın alma yok" gibi görünür. Cihazda görülen sonuç şuydu: satın almış
-  kullanıcı uygulamayı kapatıp açtığında erişimini kaybediyor, yanlış cevap
-  önbelleğe yazıldığı için de bir daha geri gelmiyordu. Bu yüzden tüm çağrılar
-  `native.provider.ts` içindeki `sirala` kuyruğundan geçer ve onay süpürmesi
-  ayrı bir çağrı değil, hak sorgusunun **aynı listesinden** yürür. Yeni bir
-  faturalandırma çağrısı eklerken kuyruğu atlamayın; kuyruğun içinden başka bir
-  genel metodu çağırmayın (kilitlenir — `restore` bu yüzden `sorgula`yı
-  doğrudan kullanır). Yarış zamanlamaya bağlıdır: hata bazı cihazlarda hiç
-  görünmez.
-- **Bir olumsuz Play cevabı tek başına hakkı kaldırmaz.** Yukarıdaki boş-liste
-  davranışı yüzünden `false`, "sorgu düştü" anlamına da gelebiliyor. Önbellekte
-  hak varken gelen olumsuz cevap bu yüzden bir kez daha doğrulanır
-  (`needsLossConfirmation`); hakkı olmayan kullanıcı — yaygın hâl — fazladan
-  sorgu üretmez. (Play gerçekten olumsuz dönerse hak kaldırılır; iadenin tek
-  başına bunu tetiklemediği için yukarıdaki nota bakın.)
-- **Android'de `PENDING` 2'dir, 0 değil** (`0` = `UNSPECIFIED_STATE`). Kod bir
-  süre 0'ı beklemede saydı ve o kontrol hiç çalışmadı. Karşılaştırmalar
-  "`PURCHASED` (`"1"`) değilse hak yoktur" yönünde kurulur: bilinmeyen bir
-  durumda erişim açmak, gereksiz bekleme mesajından çok daha kötüdür.
 
   ⚠️ **`keyPoints` DE seslendirilir.** "Bir bakışta" kartı frontmatter'dan
   gelir; içeriği tarayan bir betik frontmatter'ı atarsa bu metni hiç görmez.
