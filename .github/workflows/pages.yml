@@ -10,6 +10,14 @@ name: GitHub Pages
 # Çalıştırmadan önce depo ayarlarında Pages kaynağı "GitHub Actions" olmalıdır.
 on:
   workflow_dispatch:
+    inputs:
+      kapsam:
+        description: "Yayın kapsamı"
+        type: choice
+        options:
+          - yalnizca-gizlilik
+          - tam-site
+        default: yalnizca-gizlilik
 
 permissions:
   contents: read
@@ -48,6 +56,22 @@ jobs:
       # yok saymasını engeller; Actions dağıtımında zararsızdır.
       - name: .nojekyll ekle
         run: touch out/.nojekyll
+
+      # Uygulama Google Play'de SATILIYOR. Aynı içeriği ücretsiz veren bir web
+      # sürümünü yayında tutmak doğrudan satışın önüne geçiyor — bir kez oldu:
+      # tanıtım postunda adres paylaşıldı ve kullanıcılar ücretsiz sürümü buldu.
+      #
+      # Ama site tümden kaldırılamaz: Play Console'a verilen ZORUNLU gizlilik
+      # politikası adresi buradan servis ediliyor (`/gizlilik/` — bkz.
+      # store/yukleme-kilavuzu.md). O adres 404 verirse politika ihlali doğar.
+      #
+      # Çözüm siteyi kaldırmak değil, İÇERİĞİNİ boşaltmak. Ayrıntı ve gerekçe:
+      # scripts/build-privacy-page.ts
+      - name: Yalnızca gizlilik sayfasını bırak
+        if: inputs.kapsam != 'tam-site'
+        env:
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: npx tsx scripts/build-privacy-page.ts
 
       - uses: actions/upload-pages-artifact@v3
         with:
