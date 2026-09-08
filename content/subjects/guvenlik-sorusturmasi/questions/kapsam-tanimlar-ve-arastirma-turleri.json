@@ -1110,12 +1110,12 @@
 			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.7315.pdf"
 		},
 		"source": {
-			"kind": "ai-draft",
-			"origin": "Konu özeti ve mevzuat metninden fıkra/bent boşluğu partisi",
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
 			"year": 2026,
 			"license": "own-work"
 		},
-		"status": "review",
+		"status": "published",
 		"tags": [
 			"tanimlar",
 			"degerlendirme-komisyonu"
@@ -1146,12 +1146,12 @@
 			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.7315.pdf"
 		},
 		"source": {
-			"kind": "ai-draft",
-			"origin": "Konu özeti ve mevzuat metninden fıkra/bent boşluğu partisi",
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
 			"year": 2026,
 			"license": "own-work"
 		},
-		"status": "review",
+		"status": "published",
 		"tags": [
 			"arsiv-arastirmasi",
 			"kapsam"
@@ -1183,12 +1183,12 @@
 			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.7315.pdf"
 		},
 		"source": {
-			"kind": "ai-draft",
-			"origin": "Konu özeti ve mevzuat metninden fıkra/bent boşluğu partisi",
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
 			"year": 2026,
 			"license": "own-work"
 		},
-		"status": "review",
+		"status": "published",
 		"tags": [
 			"arsiv-arastirmasi",
 			"disiplin"
@@ -1220,12 +1220,12 @@
 			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.7315.pdf"
 		},
 		"source": {
-			"kind": "ai-draft",
-			"origin": "Konu özeti ve mevzuat metninden fıkra/bent boşluğu partisi",
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
 			"year": 2026,
 			"license": "own-work"
 		},
-		"status": "review",
+		"status": "published",
 		"tags": [
 			"guvenlik-sorusturmasi",
 			"kapsam"
@@ -1257,12 +1257,12 @@
 			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/21.5.5649.pdf"
 		},
 		"source": {
-			"kind": "ai-draft",
-			"origin": "Konu özeti ve mevzuat metninden fıkra/bent boşluğu partisi",
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
 			"year": 2026,
 			"license": "own-work"
 		},
-		"status": "review",
+		"status": "published",
 		"tags": [
 			"kapsam",
 			"guvenlik-sorusturmasi"
@@ -1294,12 +1294,12 @@
 			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.7315.pdf"
 		},
 		"source": {
-			"kind": "ai-draft",
-			"origin": "Konu özeti ve mevzuat metninden fıkra/bent boşluğu partisi",
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
 			"year": 2026,
 			"license": "own-work"
 		},
-		"status": "review",
+		"status": "published",
 		"tags": [
 			"arsiv-arastirmasi",
 			"cmk"

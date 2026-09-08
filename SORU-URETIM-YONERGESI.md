@@ -198,7 +198,7 @@ KAPSAMA NOTU: <Ek-A'da olmayıp bu partide ilk kez ele aldığın maddeler>
 
 # EK-A — Havuzda hâlihazırda kapsanan maddeler
 
-*8 Eylül 2026 itibarıyla, 1440 soru (1412'si yayımda, 28'i incelemede).*
+*8 Eylül 2026 itibarıyla, 1440 soru.*
 Aşağıda listelenen maddeler **madde düzeyinde doludur**. Bunlardan ancak
 kapsanmamış bir fıkra/bendi ölçüyorsan soru yaz.
 
