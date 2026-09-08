@@ -26,7 +26,11 @@
 			},
 			{
 				"subjectId": "devlet-teskilati",
-				"count": 2
+				"count": 1
+			},
+			{
+				"subjectId": "guvenlik-sorusturmasi",
+				"count": 1
 			}
 		]
 	},
@@ -41,7 +45,7 @@
 		"distribution": [
 			{
 				"subjectId": "657-dmk",
-				"count": 18
+				"count": 17
 			},
 			{
 				"subjectId": "anayasa",
@@ -53,11 +57,15 @@
 			},
 			{
 				"subjectId": "resmi-yazisma",
-				"count": 5
+				"count": 4
 			},
 			{
 				"subjectId": "devlet-teskilati",
-				"count": 5
+				"count": 4
+			},
+			{
+				"subjectId": "guvenlik-sorusturmasi",
+				"count": 3
 			}
 		]
 	},
@@ -72,15 +80,15 @@
 		"distribution": [
 			{
 				"subjectId": "657-dmk",
-				"count": 29
+				"count": 28
 			},
 			{
 				"subjectId": "anayasa",
-				"count": 21
+				"count": 20
 			},
 			{
 				"subjectId": "etik",
-				"count": 14
+				"count": 13
 			},
 			{
 				"subjectId": "resmi-yazisma",
@@ -88,7 +96,11 @@
 			},
 			{
 				"subjectId": "devlet-teskilati",
-				"count": 8
+				"count": 7
+			},
+			{
+				"subjectId": "guvenlik-sorusturmasi",
+				"count": 4
 			}
 		]
 	}

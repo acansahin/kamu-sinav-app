@@ -1085,5 +1085,226 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-04"
+	},
+	{
+		"id": "gsa-kapsam-031",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/kapsam-tanimlar-ve-arastirma-turleri",
+		"scope": "alan",
+		"difficulty": "orta",
+		"stem": "7315 sayılı Kanun'un tanımlar maddesine göre “Değerlendirme Komisyonu” aşağıdakilerden hangisidir?",
+		"options": [
+			"Güvenlik soruşturması ve arşiv araştırmasını yapmakla görevlendirilen birim",
+			"Gizlilik dereceli birim ve kısımları belirleyerek Cumhurbaşkanlığına bildiren komisyon",
+			"Kamu görevlilerinin disipline aykırı eylemlerini inceleyerek ceza öneren komisyon",
+			"Güvenlik soruşturması ve arşiv araştırması sonucunda elde edilen kişisel verilerin göreve atanma yönünden değerlendirildiği komisyon",
+			"Atamaya yetkili amir adına atama kararını veren komisyon"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 2 nci maddesinde Değerlendirme Komisyonu, elde edilen kişisel verilerin göreve atanma yönünden değerlendirildiği komisyon olarak tanımlanmıştır; aynı tanım Yönetmelik'in 4 üncü maddesinde de tekrarlanır. Araştırmayı yapan birimler (MİT Başkanlığı, Emniyet Genel Müdürlüğü, mahallî mülki idare amirlikleri) ile Komisyon ayrı yapılardır. Komisyon atama kararı da vermez; nesnel ve gerekçeli değerlendirmesini atamaya yetkili amire sunar (m.7/3).",
+		"legalRef": {
+			"law": "7315 sayılı Güvenlik Soruşturması ve Arşiv Araştırması Kanunu",
+			"lawId": "7315",
+			"article": "2",
+			"clause": "a",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.7315.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tanimlar",
+			"degerlendirme-komisyonu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-kapsam-032",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/kapsam-tanimlar-ve-arastirma-turleri",
+		"scope": "alan",
+		"difficulty": "orta",
+		"stem": "7315 sayılı Kanun'un 4 üncü maddesinde arşiv araştırması kapsamında sayılan hususlar ile bentleri eşleştirilmiştir. Aşağıdaki eşleştirmelerden hangisi YANLIŞTIR?",
+		"options": [
+			"(a) — Kişinin adli sicil kaydı",
+			"(b) — Kişinin kolluk kuvvetlerince hâlen aranıp aranmadığı",
+			"(c) — Kişi hakkında herhangi bir tahdit olup olmadığı",
+			"(ç) — Kesinleşmiş mahkeme kararları ile devam eden veya sonuçlanmış soruşturma ya da kovuşturmalardaki olgular",
+			"(d) — Kişinin görevin gerektirdiği niteliklerle ilgili kolluk kuvvetleri ve istihbarat ünitelerindeki olgusal verileri"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanun'un 4 üncü maddesinin (d) bendi, kişi hakkında kamu görevinden çıkarılma ya da kesinleşmiş memurluktan çıkarma cezası olup olmadığını düzenler. Seçenekte (d) bendine bağlanan kolluk kuvvetleri ve istihbarat ünitelerindeki olgusal veriler ise arşiv araştırmasının değil, 5 inci maddedeki güvenlik soruşturmasının (a) bendinin konusudur. Diğer dört eşleştirme maddedeki sıralamaya uygundur.",
+		"legalRef": {
+			"law": "7315 sayılı Güvenlik Soruşturması ve Arşiv Araştırması Kanunu",
+			"lawId": "7315",
+			"article": "4",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.7315.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"arsiv-arastirmasi",
+			"kapsam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-kapsam-033",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/kapsam-tanimlar-ve-arastirma-turleri",
+		"scope": "alan",
+		"difficulty": "zor",
+		"stem": "7315 sayılı Kanun'un 4 üncü maddesinin (d) bendi uyarınca arşiv araştırmasında tespit edilecek husus bakımından aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Kişi hakkında kamu görevinden çıkarılma ya da kesinleşmiş memurluktan çıkarma cezası olup olmadığı mevcut kayıtlardan tespit edilir",
+			"Yalnızca kesinleşmiş memurluktan çıkarma cezaları tespit edilir; kamu görevinden çıkarılma bu bendin dışındadır",
+			"Bu husus yalnızca güvenlik soruşturmasında tespit edilir, arşiv araştırmasının kapsamına girmez",
+			"Kişi hakkında devam eden disiplin soruşturmaları da bu bent kapsamında tespit edilir",
+			"Aylıktan kesme ve kademe ilerlemesinin durdurulması cezaları da bu bent kapsamındadır"
+		],
+		"correctIndex": 0,
+		"explanation": "Bent, kişi hakkında kamu görevinden çıkarılma ya da kesinleşmiş memurluktan çıkarma cezası olup olmadığının mevcut kayıtlardan tespitini öngörür; iki hâl birlikte sayılmıştır ve kesinleşme şartı memurluktan çıkarma cezası bakımından aranır. Bent devam eden disiplin soruşturmalarını ya da daha hafif disiplin cezalarını kapsamaz. Arşiv araştırmasının hususları güvenlik soruşturmasında da geçerlidir; güvenlik soruşturması bunlara üç husus ekler (m.5).",
+		"legalRef": {
+			"law": "7315 sayılı Güvenlik Soruşturması ve Arşiv Araştırması Kanunu",
+			"lawId": "7315",
+			"article": "4",
+			"clause": "d",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.7315.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"arsiv-arastirmasi",
+			"disiplin"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-kapsam-034",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/kapsam-tanimlar-ve-arastirma-turleri",
+		"scope": "alan",
+		"difficulty": "kolay",
+		"stem": "7315 sayılı Kanun'un 5 inci maddesinin (b) bendi uyarınca güvenlik soruşturmasında tespit edilen husus aşağıdakilerden hangisidir?",
+		"options": [
+			"Kişinin adli sicil kaydı",
+			"Kişinin yabancı devlet kurumları ve yabancılarla ilişiği",
+			"Kişinin terör örgütleriyle eylem birliği, irtibat ve iltisak içinde olup olmadığı",
+			"Kişinin görevin gerektirdiği niteliklerle ilgili kolluk kuvvetleri ve istihbarat ünitelerindeki olgusal verileri",
+			"Kişi hakkında herhangi bir tahdit olup olmadığı"
+		],
+		"correctIndex": 1,
+		"explanation": "Güvenlik soruşturması, arşiv araştırmasındaki hususlara ilave olarak üç hususu kapsar: (a) görevin gerektirdiği niteliklerle ilgili kolluk kuvvetleri ve istihbarat ünitelerindeki olgusal veriler, (b) yabancı devlet kurumları ve yabancılarla ilişik, (c) terör örgütleri veya suç işlemek amacıyla kurulan örgütlerle eylem birliği, irtibat ve iltisak. Adli sicil kaydı ile tahdit ise 4 üncü maddedeki arşiv araştırmasının hususlarıdır.",
+		"legalRef": {
+			"law": "7315 sayılı Güvenlik Soruşturması ve Arşiv Araştırması Kanunu",
+			"lawId": "7315",
+			"article": "5",
+			"clause": "b",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.7315.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"guvenlik-sorusturmasi",
+			"kapsam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-kapsam-035",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/kapsam-tanimlar-ve-arastirma-turleri",
+		"scope": "alan",
+		"difficulty": "zor",
+		"stem": "Bir belediyenin bünyesindeki kreşte çalıştırılmak üzere öğretmen istihdam edilecektir. Mevzuata göre bu kişi hakkında ne yapılır?",
+		"options": [
+			"Yalnızca arşiv araştırması yapılır; güvenlik soruşturması sadece Millî Eğitim Bakanlığında çalışacak öğretmenler için yapılır",
+			"Yalnızca güvenlik soruşturması yapılır, ayrıca arşiv araştırması yapılmaz",
+			"Güvenlik soruşturması ve arşiv araştırması birlikte yapılır",
+			"Kişi mahallî idare personeli olacağından her iki araştırma da yapılmaz",
+			"Yalnızca görev yapacağı birim gizlilik dereceli olarak belirlenmişse güvenlik soruşturması yapılır"
+		],
+		"correctIndex": 2,
+		"explanation": "Yönetmelik'in 9 uncu maddesinin ikinci fıkrası, hakkında güvenlik soruşturması ve arşiv araştırması birlikte yapılacaklar arasında kamu kurum ve kuruluşlarında çalışacak öğretmenleri sayar. Ölçüt kurumun Millî Eğitim Bakanlığı olması değil, kişinin bir kamu kurum ve kuruluşunda öğretmen olarak çalışacak olmasıdır. Bu gruplarda güvenlik soruşturması arşiv araştırmasının yerine geçmez; Kanun'un 3 üncü maddesinin ikinci fıkrası uyarınca ikisi birlikte yapılır.",
+		"legalRef": {
+			"law": "Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik",
+			"lawId": "5649",
+			"article": "9",
+			"clause": "2",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/21.5.5649.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kapsam",
+			"guvenlik-sorusturmasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-kapsam-036",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/kapsam-tanimlar-ve-arastirma-turleri",
+		"scope": "alan",
+		"difficulty": "uzman",
+		"stem": "Hakkında hükmün açıklanmasının geri bırakılması kararı verilmiş ve ayrıca henüz sonuçlanmamış bir soruşturması bulunan kişinin arşiv araştırmasında bu kayıtlar ne şekilde ele alınır?",
+		"options": [
+			"Hiçbiri dikkate alınmaz; yalnızca kesinleşmiş mahkeme kararları tespit edilir",
+			"Hükmün açıklanmasının geri bırakılması kararı tespit edilir, devam eden soruşturmadaki olgular tespit edilmez",
+			"Devam eden soruşturmadaki olgular tespit edilir, hükmün açıklanmasının geri bırakılması kararı tespit edilmez",
+			"Her ikisi de tespit edilir; kesinleşme şartı yalnızca mahkeme kararları bakımından aranır",
+			"Her ikisi de yalnızca güvenlik soruşturmasında tespit edilir, arşiv araştırmasında tespit edilmez"
+		],
+		"correctIndex": 3,
+		"explanation": "Bent üç grubu birlikte sayar: kesinleşmiş mahkeme kararları, 5271 sayılı Ceza Muhakemesi Kanunu'nun 171 inci maddesinin beşinci (kamu davasının açılmasının ertelenmesi) ve 231 inci maddesinin on üçüncü (hükmün açıklanmasının geri bırakılması) fıkraları kapsamında alınan kararlar ile devam eden veya sonuçlanmış soruşturma ya da kovuşturmalardaki olgular. Kesinleşme şartı yalnızca mahkeme kararları içindir; bu nedenle devam eden bir soruşturmadaki olgular da tespit edilir. Kayıtları temin eden Komisyon değil, araştırmayı yapan yetkili birimlerdir (m.6/2).",
+		"legalRef": {
+			"law": "7315 sayılı Güvenlik Soruşturması ve Arşiv Araştırması Kanunu",
+			"lawId": "7315",
+			"article": "4",
+			"clause": "ç",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.7315.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"arsiv-arastirmasi",
+			"cmk"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
 	}
 ]

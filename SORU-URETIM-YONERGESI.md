@@ -25,18 +25,26 @@ Havuz **madde düzeyinde neredeyse doymuş** — 657'de 174, Anayasa'da 165 ayr�
 dayanak var, Resmî Yazışma Yönetmeliği'nin 39 maddesinin tamamı kapsanmış.
 Bu yüzden "657'den soru yaz" demek kaçınılmaz olarak tekrar üretir.
 
-**Şu anda madde düzeyinde aç bir konu kalmamıştır.** Havuzun beş dersinin
-otuz konusunun tamamı, dayandığı mevzuatın kapsanmamış madde ve fıkraları
-tüketilerek dolduruldu. Yeni soru ancak (a) mevzuat değişince, (b) yeni bir
-ders açılınca ya da (c) kapsanan bir maddenin gözden kaçmış bir bendi
-bulunursa üretilebilir.
+**Havuzun altı dersinin otuz üç konusu, dayandığı ANA mevzuatın kapsanmamış
+madde ve fıkraları tüketilerek dolduruldu.** Yeni soru ancak (a) mevzuat
+değişince, (b) yeni bir ders açılınca, (c) kapsanan bir maddenin gözden kaçmış
+bir bendi bulunursa ya da (d) bir dersin **atıf yaptığı** mevzuattan
+üretilebilir.
+
+**Tek somut boşluk (d) şıkkındadır:** Güvenlik Soruşturması dersinin atıf
+yaptığı **5529 sayılı Gizlilik Dereceli Belgeler Yönetmeliği** (36 maddesinden
+yalnızca 3'ü kapsandı) ve **6698 sayılı Kanun** (m.4, 17, 18 kapsandı).
+Ayrıntı için Ek-A'nın Güvenlik Soruşturması bölümüne bakın.
 
 **Doygun sayılması gereken konular** (tekrar üretme riski çok yüksek):
 657 — *Yasaklar* (m.26–31'in her fıkra ve bendi kullanılmış), *Ödevler*
 (m.6–16), *Memurluğun Sona Ermesi* (m.92–98); Resmî Yazışma — *Genel
 Hükümler ve Tanımlar* (m.1–3) ve *Belgenin Özellikleri* (m.4–9); Etik'in
 dört konusu (5176, 3628, 4982 ve Etik Yönetmeliği'nin tamamı taranmış);
-Anayasa'nın beş konusu; Devlet Teşkilatı'nın yedi konusu.
+Anayasa'nın beş konusu; Devlet Teşkilatı'nın yedi konusu; Güvenlik
+Soruşturması'nda **7315 sayılı Kanun ile 5649 sayılı Yönetmeliğin tamamı**
+(fıkra/bent düzeyinde taranmış — bu iki metinden soru istemeyin, yalnızca
+atıf yaptıkları mevzuattan isteyin).
 
 ### Kapsama haritasını yenileme
 
@@ -95,7 +103,7 @@ değil) ve havuzda zaten kapsanmıştır.
 
 ## 2. En önemli kural: TEKRAR ÜRETME
 
-Havuzda hâlihazırda 1322 soru var. Ek-A'da her konu için **hangi maddelerin zaten
+Havuzda hâlihazırda 1440 soru var. Ek-A'da her konu için **hangi maddelerin zaten
 kapsandığı** listelenmiştir.
 
 - Ek-A'da listelenen bir maddeden **madde düzeyinde** soru yazma.
@@ -190,7 +198,7 @@ KAPSAMA NOTU: <Ek-A'da olmayıp bu partide ilk kez ele aldığın maddeler>
 
 # EK-A — Havuzda hâlihazırda kapsanan maddeler
 
-*8 Ağustos 2026 itibarıyla, 1322 soru.*
+*8 Eylül 2026 itibarıyla, 1440 soru.*
 Aşağıda listelenen maddeler **madde düzeyinde doludur**. Bunlardan ancak
 kapsanmamış bir fıkra/bendi ölçüyorsan soru yaz.
 
@@ -241,3 +249,47 @@ Yönetmeliğin **39 maddesinin tamamı** kapsanmıştır. Burada yalnızca
 **İmza, Ek, Dağıtım, Olur ve Paraf** (40 soru) — m. 17, 18, 19, 20, 21, 22
 **Gizlilik, Doğrulama ve Üstveri** (24 soru) — m. 23, 24, 25, 26, 27, 28
 **Belgenin Gönderilmesi, Alınması ve Süreler** (40 soru) — m. 29–39 ve geçici m.1
+
+### Güvenlik Soruşturması ve Arşiv Araştırması (`guvenlik-sorusturmasi`)
+
+Dersin **iki ana metni tükenmiştir**: 7315 sayılı Kanun'un **16 maddesinin
+tamamı**, 5649 sayılı Cumhurbaşkanı Kararı ile yürürlüğe konulan Yönetmeliğin
+**18 maddesi ile geçici 1 inci maddesi**. Bu iki metinden artık soru yazma.
+
+**Tek açık alan, bu metinlerin atıf yaptığı mevzuattır** ve oradan da yalnızca
+aşağıda listelenmemiş maddeler kullanılabilir:
+
+- **6698 sayılı Kişisel Verilerin Korunması Kanunu** — 7315 m.8/3 (genel ilkeler)
+  ve m.11 (suç ve kabahat) yoluyla girer. m.4, 17 ve 18 kapsandı; **m.5, 6, 7, 10,
+  11, 12, 15 ve 28 hâlâ açıktır.** ⚠️ 2/3/2024 tarihli **7499 sayılı Kanun** bu
+  Kanun'da geniş değişiklik yaptı (m.6, 9 ve 18 dâhil); güncel metinden çalış.
+- **5529 sayılı Gizlilik Dereceli Belgelerde Uygulanacak Usul ve Esaslar Hakkında
+  Yönetmelik** — 5649 m.5 ve m.14/2 yoluyla girer ve **7315 m.12'ye dayanır**,
+  yani aynı ailedendir. **36 maddesi vardır; yalnızca m.2, 4 ve 5 kapsandı** —
+  süreli gizlilik, derece düşürme/kaldırma, belgelerin hazırlanması, taşınması,
+  saklanması ve imhası **tamamen açıktır.** Bu, dersin en verimli boşluğudur.
+- **5237 sayılı Türk Ceza Kanunu m.135–140** — 6698 m.17 yoluyla girer, hiç
+  kapsanmadı. Buradan yalnızca **atfın kendisiyle sınırlı** soru yaz; ceza
+  hukuku dersi açmıyoruz.
+
+**Kapsam, Tanımlar ve Araştırma Türleri** (36 soru) — 7315 → 1, 2, 3, 4, 5, 13, 14 · 5649 → 1, 2, 3, 4, 9
+**Yetkili Birimler, Yöntem ve Süreler** (42 soru) — 7315 → 6 · 5649 → 5, 6, 10, 11, geçici 1 · 5529 → 2, 4, 5
+**Değerlendirme Komisyonu ve Kişisel Veriler** (40 soru) — 7315 → 7, 8, 9, 10, 11, 12, 13, 15, 16 · 5649 → 12, 14, 15, 16 · 6698 → 4, 17, 18
+
+⚠️ Yönetmeliğin **7, 8, 13, 17 ve 18 inci maddeleri listede yoktur ama boşluk
+değildir**: bunlar sırasıyla Kanun'un 4, 5, 8, 15 ve 16 ncı maddelerini aynen
+tekrarlar ve o hükümler Kanun dayanağıyla zaten ölçülmüştür. Ölçüt madde numarası
+değil, **test edilen hükümdür**.
+
+⚠️ **7551 sayılı Kanun değişikliği işlenmiştir.** Kanun m.7, 18/6/2025 tarihli ve
+7551 sayılı Kanunla değiştirilmiş; Cumhurbaşkanlığında Değerlendirme Komisyonuna
+başkanlık edecek üst kademe yöneticisini görevlendiren makam **Genel Sekreter**
+olmuştur (yürürlük 1/7/2025). **Yönetmelik m.12 hâlâ "İdari İşler Başkanı"
+yazmaktadır ve güncellenmemiştir** — piyasadaki kaynakların çoğu da eski ibareyi
+taşır. Bu ibareden soru yazma; çelişki hâlinde Kanun uygulanır.
+
+⚠️ Mülga metinler karıştırılmamalıdır: **Kanun**, 4045 sayılı Kanunu kaldırır;
+**Yönetmelik**, 2000/284 sayılı Bakanlar Kurulu Kararı ile yürürlüğe konulan eski
+yönetmeliği kaldırır. Ayrıca 657 sayılı Kanun'un **48/A-8 bendi Anayasa
+Mahkemesince iptal edilmiştir**; memuriyete girişte aranan şart artık 7315 sayılı
+Kanun'dadır.

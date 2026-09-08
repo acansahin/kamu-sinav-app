@@ -1081,5 +1081,374 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-04"
+	},
+	{
+		"id": "gsa-komisyon-031",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/degerlendirme-komisyonu-ve-kisisel-veriler",
+		"scope": "alan",
+		"difficulty": "orta",
+		"stem": "7315 sayılı Kanun'a göre yetkili birimler, güvenlik soruşturması ve arşiv araştırması sonucunda elde edilen verilerden hangilerini Değerlendirme Komisyonuna iletir?",
+		"options": [
+			"Elde edilen bütün bilgi ve belgeleri, değerlendirmeyi tümüyle Komisyona bırakarak",
+			"Yalnızca kesinleşmiş mahkeme kararlarına dayanan verileri",
+			"Yalnızca kişinin yazılı muvafakat verdiği verileri",
+			"Memuriyet veya kamu görevlerine uygunluğun değerlendirilmesini sağlayacak, yorum içermeyen olgusal verileri",
+			"Yalnızca istihbarat ünitelerinden temin edilen verileri"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanun'un 7 nci maddesinin ikinci fıkrasına göre yetkili birimler Komisyona, memuriyet veya kamu görevlerine uygunluğun değerlendirilmesini sağlayacak, yorum içermeyen olgusal verileri iletir; aynı hüküm Yönetmelik'in 12 nci maddesinde tekrarlanır. Bu nedenle elde edilen her veri Komisyona gitmez: somut olarak gözlemlenemeyen, doğruluğu denetlenemeyen, iftira ya da kin ve düşmanlık gibi saiklerle verildiği açık olan bilgi ve beyanlar iletilmez ve dikkate alınmaz.",
+		"legalRef": {
+			"law": "7315 sayılı Güvenlik Soruşturması ve Arşiv Araştırması Kanunu",
+			"lawId": "7315",
+			"article": "7",
+			"clause": "2",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.7315.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"degerlendirme-komisyonu",
+			"olgusal-veri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-komisyon-032",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/degerlendirme-komisyonu-ve-kisisel-veriler",
+		"scope": "alan",
+		"difficulty": "zor",
+		"stem": "Değerlendirme Komisyonunun değerlendirmesine esas olan bilgilerin mahkemelere sunulması bakımından 7315 sayılı Kanun'da benimsenen çözüm aşağıdakilerden hangisidir?",
+		"options": [
+			"Bu bilgiler istenildiğinde mahkemelere sunulur",
+			"Bu bilgiler hiçbir hâlde mahkemelere sunulamaz, yalnızca atamaya yetkili amire verilir",
+			"Bu bilgiler ancak Cumhurbaşkanlığının izniyle mahkemelere sunulabilir",
+			"Bu bilgiler yalnızca ceza mahkemelerine sunulabilir, idari yargıya sunulamaz",
+			"Bu bilgiler mahkemelere yalnızca hakkında araştırma yapılan kişinin talebi hâlinde sunulur"
+		],
+		"correctIndex": 0,
+		"explanation": "Kanun'un 7 nci maddesinin üçüncü fıkrası, Komisyonun nesnel ve gerekçeli değerlendirmelerini yazılı olarak atamaya yetkili amire sunacağını, bu bilgilerin istenildiğinde mahkemelere de sunulacağını hükme bağlar. Sunum için ayrıca bir izin ya da ilgilinin talebi aranmaz; yargı kolu bakımından da bir sınırlama getirilmemiştir. Nitekim verilerin silinmesi bakımından da işleme karşı dava açılmışsa karar kesinleşmeden silme ve yok etme yapılamaz (m.10/3).",
+		"legalRef": {
+			"law": "7315 sayılı Güvenlik Soruşturması ve Arşiv Araştırması Kanunu",
+			"lawId": "7315",
+			"article": "7",
+			"clause": "3",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.7315.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"degerlendirme-komisyonu",
+			"yargi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-komisyon-033",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/degerlendirme-komisyonu-ve-kisisel-veriler",
+		"scope": "alan",
+		"difficulty": "orta",
+		"stem": "Yönetmeliğe göre Değerlendirme Komisyonunda başkanın yanında hangi birimlerden üye yer alır?",
+		"options": [
+			"Yalnızca personel ve hukuk birimlerinden",
+			"Strateji geliştirme ve mali hizmetler birimlerinden",
+			"Yalnızca teftiş ve denetim biriminden",
+			"İlgili kurumun bağlı olduğu bakanlığın belirleyeceği birimlerden",
+			"Teftiş ve denetim, personel ve hukuk birimleri ile uygun görülecek diğer birimlerden birer üye"
+		],
+		"correctIndex": 4,
+		"explanation": "Yönetmelik'in 12 nci maddesine göre Komisyon, başkanın yanında teftiş ve denetim, personel ve hukuk birimleri ile uygun görülecek diğer birimlerden birer üyenin katılımıyla, başkan dâhil en az beş kişiden ve tek sayıda olacak şekilde kurulur. Üye sayısının tek olması kararların oy çokluğuyla alınmasıyla bağlantılıdır; Komisyon üye tam sayısıyla toplanır.",
+		"legalRef": {
+			"law": "Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik",
+			"lawId": "5649",
+			"article": "12",
+			"clause": "1",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/21.5.5649.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"degerlendirme-komisyonu",
+			"kurulus"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-komisyon-034",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/degerlendirme-komisyonu-ve-kisisel-veriler",
+		"scope": "alan",
+		"difficulty": "uzman",
+		"stem": "Cumhurbaşkanlığında Değerlendirme Komisyonuna başkanlık edecek üst kademe yöneticisini görevlendirecek makam bakımından Kanun ile Yönetmelik arasındaki durum nedir?",
+		"options": [
+			"Kanun ve Yönetmelik aynı makamı gösterir; aralarında fark yoktur",
+			"Kanun'un 7 nci maddesi 7551 sayılı Kanunla değiştirilerek makam Genel Sekreter olarak belirlenmiş, Yönetmelik metni güncellenmemiştir; çelişki hâlinde Kanun uygulanır",
+			"Yönetmelik değiştirilmiş, Kanun metni eski hâliyle kaldığından Yönetmelik uygulanır",
+			"Kanun bu konuda hüküm içermez, düzenleme yalnızca Yönetmelikte yer alır",
+			"Her iki metin de bu makamı Cumhurbaşkanı yardımcısı olarak belirlemiştir"
+		],
+		"correctIndex": 1,
+		"explanation": "Kanun'un 7 nci maddesi 18/6/2025 tarihli ve 7551 sayılı Kanunla değiştirilmiş, Cumhurbaşkanlığında Komisyona başkanlık edecek üst kademe yöneticisini görevlendirecek makam Genel Sekreter olarak belirlenmiştir; değişiklik 1/7/2025 tarihinde yürürlüğe girmiştir. Yönetmelik'in 12 nci maddesi ise eski ibareyi taşımaya devam etmektedir. Normlar hiyerarşisi gereği çelişki hâlinde kanun hükmü uygulanır.",
+		"legalRef": {
+			"law": "7315 sayılı Güvenlik Soruşturması ve Arşiv Araştırması Kanunu",
+			"lawId": "7315",
+			"article": "7",
+			"clause": "1",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.7315.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"degerlendirme-komisyonu",
+			"mevzuat-degisikligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-komisyon-035",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/degerlendirme-komisyonu-ve-kisisel-veriler",
+		"scope": "alan",
+		"difficulty": "kolay",
+		"stem": "7315 sayılı Güvenlik Soruşturması ve Arşiv Araştırması Kanunu ne zaman yürürlüğe girer?",
+		"options": [
+			"Yayımını izleyen ay başında",
+			"Yayımından altı ay sonra",
+			"Yayımı tarihinde",
+			"Kanuna dayanılarak çıkarılan Yönetmeliğin yürürlüğe girdiği tarihte",
+			"Cumhurbaşkanının ayrıca belirleyeceği tarihte"
+		],
+		"correctIndex": 2,
+		"explanation": "Kanun'un 15 inci maddesi, Kanun'un yayımı tarihinde yürürlüğe gireceğini düzenler; Kanun 17/4/2021 tarihli Resmî Gazete'de yayımlanmıştır. Kanun'un 16 ncı maddesine göre hükümleri Cumhurbaşkanı yürütür. Yönetmelik de aynı biçimde yayımı tarihinde yürürlüğe girmiş ve hükümlerini Cumhurbaşkanı yürütmektedir.",
+		"legalRef": {
+			"law": "7315 sayılı Güvenlik Soruşturması ve Arşiv Araştırması Kanunu",
+			"lawId": "7315",
+			"article": "15",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.7315.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yururluk",
+			"mevzuat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-komisyon-036",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/degerlendirme-komisyonu-ve-kisisel-veriler",
+		"scope": "alan",
+		"difficulty": "zor",
+		"stem": "Yürürlükteki bir kurum düzenlemesinde, 2000/284 sayılı Bakanlar Kurulu Kararı ile yürürlüğe konulan Güvenlik Soruşturması ve Arşiv Araştırması Yönetmeliğine atıf yapılmaktadır. Bu atıf bugün nasıl uygulanır?",
+		"options": [
+			"Atıf yapılan yönetmelik hâlen yürürlükte olduğundan doğrudan uygulanır",
+			"Atıf, Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmeliğe yapılmış sayılır",
+			"Atıf, doğrudan 7315 sayılı Kanuna yapılmış sayılır",
+			"Atıf geçersiz hâle gelmiştir; kurumun düzenlemesini yenilemesi gerekir",
+			"Atıf, 6698 sayılı Kişisel Verilerin Korunması Kanununa yapılmış sayılır"
+		],
+		"correctIndex": 1,
+		"explanation": "Yönetmelik'in 16 ncı maddesi, 14/2/2000 tarihli ve 2000/284 sayılı Bakanlar Kurulu Kararı ile yürürlüğe konulan Güvenlik Soruşturması ve Arşiv Araştırması Yönetmeliğini yürürlükten kaldırmış ve mevzuatta ona yapılan atıfların bu Yönetmeliğe yapılmış sayılacağını hükme bağlamıştır. Benzer biçimde Kanun'un 13 üncü maddesi 4045 sayılı Kanunu yürürlükten kaldırmış, 14 üncü maddesi de o Kanuna yapılan atıfların 7315 sayılı Kanuna yapılmış sayılacağını düzenlemiştir. İki ayrı mülga metin ve iki ayrı atıf hükmü karıştırılmamalıdır.",
+		"legalRef": {
+			"law": "Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik",
+			"lawId": "5649",
+			"article": "16",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/21.5.5649.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Konu özeti ve mevzuat metninden yazılan AI taslağı, insan onayından geçirildi (fıkra/bent boşluğu partisi)",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mulga",
+			"atif"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-komisyon-037",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/degerlendirme-komisyonu-ve-kisisel-veriler",
+		"scope": "alan",
+		"difficulty": "orta",
+		"stem": "7315 sayılı Kanun, güvenlik soruşturması ve arşiv araştırması kapsamında yürütülen iş ve işlemlerde 6698 sayılı Kanun'un 4 üncü maddesindeki genel ilkelere aykırı hareket edilemeyeceğini düzenler. Aşağıdakilerden hangisi bu genel ilkelerden biri DEĞİLDİR?",
+		"options": [
+			"Hukuka ve dürüstlük kurallarına uygun olma",
+			"Doğru ve gerektiğinde güncel olma",
+			"İlgili kişinin açık rızasına dayanma",
+			"İşlendikleri amaçla bağlantılı, sınırlı ve ölçülü olma",
+			"İlgili mevzuatta öngörülen veya işlendikleri amaç için gerekli olan süre kadar muhafaza edilme"
+		],
+		"correctIndex": 2,
+		"explanation": "6698 sayılı Kanun'un 4 üncü maddesinin ikinci fıkrası beş ilke sayar: hukuka ve dürüstlük kurallarına uygun olma; doğru ve gerektiğinde güncel olma; belirli, açık ve meşru amaçlar için işlenme; işlendikleri amaçla bağlantılı, sınırlı ve ölçülü olma; ilgili mevzuatta öngörülen veya işlendikleri amaç için gerekli olan süre kadar muhafaza edilme. Açık rıza bir genel ilke değil, aynı Kanun'un 5 inci maddesindeki işleme şartıdır; nitekim güvenlik soruşturması işlemleri kanunda açıkça öngörüldüğü için rızaya dayanmaz.",
+		"legalRef": {
+			"law": "6698 sayılı Kişisel Verilerin Korunması Kanunu",
+			"lawId": "6698",
+			"article": "4",
+			"clause": "2",
+			"url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Atıf yapılan mevzuat metninden (6698, 5529) yazılan AI taslağı, insan onayından geçirildi",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kisisel-veri",
+			"kvkk"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-komisyon-038",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/degerlendirme-komisyonu-ve-kisisel-veriler",
+		"scope": "alan",
+		"difficulty": "orta",
+		"stem": "Güvenlik soruşturması ve arşiv araştırmasında görevli olanlarca kişisel verilerle ilgili suç işlenmesi hâlinde uygulanacak olan 6698 sayılı Kanun'un 17 nci maddesi, kişisel verilere ilişkin suçlar bakımından hangi düzenlemeye yollama yapar?",
+		"options": [
+			"5237 sayılı Türk Ceza Kanunu'nun 135 ila 140 ıncı madde hükümlerine",
+			"5237 sayılı Türk Ceza Kanunu'nun görevi kötüye kullanmayı düzenleyen 257 nci maddesine",
+			"657 sayılı Devlet Memurları Kanunu'nun disiplin hükümlerine",
+			"5271 sayılı Ceza Muhakemesi Kanunu'nun 171 inci maddesine",
+			"2577 sayılı İdari Yargılama Usulü Kanunu'nun 10 uncu maddesine"
+		],
+		"correctIndex": 0,
+		"explanation": "6698 sayılı Kanun'un 17 nci maddesinin birinci fıkrası, kişisel verilere ilişkin suçlar bakımından 5237 sayılı Türk Ceza Kanunu'nun 135 ila 140 ıncı madde hükümlerinin uygulanacağını düzenler. 7315 sayılı Kanun kendi başına yeni bir suç ihdas etmez; 11 inci maddesiyle 6698 sayılı Kanun'a atıf yapar ve zincir oradan Türk Ceza Kanunu'na uzanır.",
+		"legalRef": {
+			"law": "6698 sayılı Kişisel Verilerin Korunması Kanunu",
+			"lawId": "6698",
+			"article": "17",
+			"clause": "1",
+			"url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Atıf yapılan mevzuat metninden (6698, 5529) yazılan AI taslağı, insan onayından geçirildi",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cezai-hukumler",
+			"kvkk"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-komisyon-039",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/degerlendirme-komisyonu-ve-kisisel-veriler",
+		"scope": "alan",
+		"difficulty": "zor",
+		"stem": "6698 sayılı Kanun'un 17 nci maddesinin ikinci fıkrasına göre, bu Kanunun 7 nci maddesine aykırı olarak kişisel verileri silmeyen veya anonim hâle getirmeyenler hakkında ne yapılır?",
+		"options": [
+			"Yalnızca idari para cezası uygulanır",
+			"Kişisel Verileri Koruma Kurulunca uyarma cezası verilir",
+			"Fiil kabahat sayılır ve 6698 sayılı Kanun'un 18 inci maddesi uygulanır",
+			"Yalnızca disiplin hükümlerine göre işlem yapılır",
+			"5237 sayılı Kanun'un 138 inci maddesine göre cezalandırılır"
+		],
+		"correctIndex": 4,
+		"explanation": "Fıkra, 6698 sayılı Kanun'un 7 nci maddesindeki silme, yok etme veya anonim hâle getirme yükümlülüğüne aykırı davrananların 5237 sayılı Türk Ceza Kanunu'nun 138 inci maddesine göre cezalandırılacağını hükme bağlar. Fiil kabahat değil suçtur; kabahatler 18 inci maddede ayrıca düzenlenmiştir. Bu ayrım 7315 sayılı Kanun'un 11 inci maddesindeki suç–kabahat ayrımıyla birebir örtüşür.",
+		"legalRef": {
+			"law": "6698 sayılı Kişisel Verilerin Korunması Kanunu",
+			"lawId": "6698",
+			"article": "17",
+			"clause": "2",
+			"url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Atıf yapılan mevzuat metninden (6698, 5529) yazılan AI taslağı, insan onayından geçirildi",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cezai-hukumler",
+			"kvkk"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
+	},
+	{
+		"id": "gsa-komisyon-040",
+		"subjectId": "guvenlik-sorusturmasi",
+		"topicId": "guvenlik-sorusturmasi/degerlendirme-komisyonu-ve-kisisel-veriler",
+		"scope": "alan",
+		"difficulty": "uzman",
+		"stem": "Güvenlik soruşturmasında görevli olanlarca kişisel verilerle ilgili kabahat teşkil eden bir fiil, bir kamu kurumu bünyesinde işlenmiştir. 6698 sayılı Kanun'un 18 inci maddesine göre nasıl hareket edilir?",
+		"options": [
+			"İdari para cezası doğrudan fiili işleyen kamu görevlisine uygulanır",
+			"Kişisel Verileri Koruma Kurulunun yapacağı bildirim üzerine ilgili kamu görevlileri hakkında disiplin hükümlerine göre işlem yapılır ve sonucu Kurula bildirilir",
+			"Kamu kurum ve kuruluşları madde kapsamı dışında olduğundan hiçbir işlem yapılamaz",
+			"İdari para cezası her hâlde kurumun üst yöneticisine uygulanır",
+			"Fiil doğrudan suç sayılır ve 6698 sayılı Kanun'un 17 nci maddesi uygulanır"
+		],
+		"correctIndex": 1,
+		"explanation": "6698 sayılı Kanun'un 18 inci maddesinin dördüncü fıkrasına göre, birinci fıkrada sayılan eylemler kamu kurum ve kuruluşları ile kamu kurumu niteliğindeki meslek kuruluşları bünyesinde işlenirse, Kurulun yapacağı bildirim üzerine görevliler hakkında disiplin hükümlerine göre işlem yapılır ve sonuç Kurula bildirilir. Yani kamu görevlisine idari para cezası kesilmez; yaptırım disiplin yoluyla işler.",
+		"legalRef": {
+			"law": "6698 sayılı Kişisel Verilerin Korunması Kanunu",
+			"lawId": "6698",
+			"article": "18",
+			"clause": "4",
+			"url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Atıf yapılan mevzuat metninden (6698, 5529) yazılan AI taslağı, insan onayından geçirildi",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cezai-hukumler",
+			"kvkk",
+			"disiplin"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-08"
 	}
 ]
