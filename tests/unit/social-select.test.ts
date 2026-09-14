@@ -6,8 +6,17 @@ import {
 	satirlaraBol,
 	xmlKacir,
 } from "../../scripts/social/card";
-import type { Havuz, PaylasilabilirSoru } from "../../scripts/social/pool";
-import { bilgiSec, cevapSec, soruSec } from "../../scripts/social/select";
+import {
+	dayanakMetni,
+	type Havuz,
+	type PaylasilabilirSoru,
+} from "../../scripts/social/pool";
+import {
+	bilgiSec,
+	cevapSec,
+	gunlukSoruSec,
+	soruSec,
+} from "../../scripts/social/select";
 import type { LedgerSatiri } from "../../scripts/social/types";
 
 /**
@@ -151,6 +160,106 @@ describe("bilgiSec", () => {
 		const ledger = [satir("bilgi", "etik/a#0")];
 
 		expect(bilgiSec(havuz, ledger, "2026-08-09")?.refId).toBe("anayasa/b#0");
+	});
+});
+
+describe("dayanakMetni", () => {
+	it("kanunu numarasıyla kısaltır", () => {
+		expect(
+			dayanakMetni({
+				law: "657 sayılı Devlet Memurları Kanunu",
+				lawId: "657",
+				article: "125",
+				clause: "D",
+			}),
+		).toBe("657 sayılı Kanun md. 125/D");
+	});
+
+	it("yönetmeliğin kayıt numarasını kanun numarası sanmaz", () => {
+		// Tanıtım kartına "5649 sayılı Kanun" basılmıştı; öyle bir kanun yok.
+		const metin = dayanakMetni({
+			law: "Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik",
+			lawId: "5649",
+			article: "11",
+			clause: "6",
+		});
+
+		expect(metin).not.toContain("sayılı Kanun");
+		expect(metin).toBe(
+			"Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik md. 11/6",
+		);
+	});
+
+	it("Anayasa'yı numarasıyla değil adıyla anar", () => {
+		expect(
+			dayanakMetni({
+				law: "Türkiye Cumhuriyeti Anayasası",
+				lawId: "2709",
+				article: "10",
+			}),
+		).toBe("Türkiye Cumhuriyeti Anayasası md. 10");
+	});
+});
+
+describe("gunlukSoruSec", () => {
+	/*
+	 * Elle paylaşım aracının hafızası yoktu ve 2. gün için aynı soruyu iki kez
+	 * üretti. Bu testler "her gün farklı soru" kuralını kilitliyor.
+	 */
+	function kayitli(id: string, tarih: string): LedgerSatiri {
+		return { ...satir("soru", id), tarih };
+	}
+
+	it("daha önce paylaşılmış soruyu bir daha seçmez", () => {
+		const ledger = [kayitli("etik-1", "2026-09-10")];
+		const secim = gunlukSoruSec(havuz, ledger, "2026-09-14");
+
+		expect(secim?.soru.id).not.toBe("etik-1");
+		expect(secim?.kayitli).toBe(false);
+	});
+
+	it("art arda iki gün iki farklı soru verir", () => {
+		const ledger: LedgerSatiri[] = [];
+		const birinci = gunlukSoruSec(havuz, ledger, "2026-09-14");
+
+		ledger.push(kayitli(birinci?.soru.id ?? "", "2026-09-14"));
+
+		const ikinci = gunlukSoruSec(havuz, ledger, "2026-09-15");
+
+		expect(ikinci?.soru.id).not.toBe(birinci?.soru.id);
+	});
+
+	it("aynı gün yeniden çalışınca o günün sorusunu verir, yeni soru harcamaz", () => {
+		const ledger = [kayitli("anayasa-2", "2026-09-14")];
+		const secim = gunlukSoruSec(havuz, ledger, "2026-09-14");
+
+		expect(secim?.soru.id).toBe("anayasa-2");
+		expect(secim?.kayitli).toBe(true);
+	});
+
+	it("yeni bayrağıyla o günün sorusunu atlar", () => {
+		const ledger = [kayitli("anayasa-2", "2026-09-14")];
+		const secim = gunlukSoruSec(havuz, ledger, "2026-09-14", { yeni: true });
+
+		expect(secim?.soru.id).not.toBe("anayasa-2");
+	});
+
+	it("elle istenen sorunun daha önce paylaşıldığını ve tarihini bildirir", () => {
+		const ledger = [kayitli("etik-1", "2026-09-10")];
+		const secim = gunlukSoruSec(havuz, ledger, "2026-09-14", {
+			soruId: "etik-1",
+		});
+
+		expect(secim?.kayitli).toBe(true);
+		expect(secim?.kayitTarihi).toBe("2026-09-10");
+	});
+
+	it("uygunluk süzgecini uygular", () => {
+		const secim = gunlukSoruSec(havuz, [], "2026-09-14", {
+			uygunMu: (soru) => soru.subjectId === "657-dmk",
+		});
+
+		expect(secim?.soru.id).toBe("dmk-1");
 	});
 });
 

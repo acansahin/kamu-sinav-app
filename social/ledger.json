@@ -1,1 +1,34 @@
-[]
+[
+	{
+		"anahtar": "soru:657-odev-006",
+		"tur": "soru",
+		"refId": "657-odev-006",
+		"tarih": "2026-09-10",
+		"gorsel": "gunluk/2026-09-10/01-soru.jpg",
+		"sonuclar": []
+	},
+	{
+		"anahtar": "cevap:657-odev-006",
+		"tur": "cevap",
+		"refId": "657-odev-006",
+		"tarih": "2026-09-10",
+		"gorsel": "gunluk/2026-09-10/02-cevap.jpg",
+		"sonuclar": []
+	},
+	{
+		"anahtar": "soru:gsa-birim-010",
+		"tur": "soru",
+		"refId": "gsa-birim-010",
+		"tarih": "2026-09-14",
+		"gorsel": "gunluk/2026-09-14/01-soru.jpg",
+		"sonuclar": []
+	},
+	{
+		"refId": "gsa-birim-010",
+		"tarih": "2026-09-14",
+		"sonuclar": [],
+		"anahtar": "cevap:gsa-birim-010",
+		"tur": "cevap",
+		"gorsel": "gunluk/2026-09-14/02-cevap.jpg"
+	}
+]

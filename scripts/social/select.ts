@@ -183,3 +183,73 @@ export function bilgiSec(
 
 	return tohumlaSec(farkliDers.length > 0 ? farkliDers : adaylar, tarih);
 }
+
+export type GunlukSecim = {
+	soru: PaylasilabilirSoru;
+	/** Soru ledger'da zaten var mı — varsa yeniden KAYDEDİLMEZ. */
+	kayitli: boolean;
+	/** Ledger'daki kaydın tarihi; kayıtlı değilse `null`. */
+	kayitTarihi: string | null;
+};
+
+/**
+ * Elle paylaşım (`gunluk.ts`) için günün sorusu.
+ *
+ * ⚠️ Bu fonksiyon yazılmadan önce elle paylaşım aracının hafızası yoktu:
+ * ledger'a yazmıyordu ve seçimi her seferinde havuzun başından yapıyordu.
+ * Sonuç, 2. gün için aynı sorunun iki kez üretilmesiydi. Artık elle
+ * paylaşılan sorular da otomatik hatla AYNI ledger'a yazılıyor; iki yol da
+ * birbirinin paylaştığını bir daha seçmez.
+ *
+ * Sıra:
+ * 1. `soruId` verilmişse o soru (ve ledger'daki durumu) döner.
+ * 2. `yeni` verilmemişse ve o tarih için kayıtlı bir soru varsa O döner —
+ *    aynı günün kartını yeniden üretmek yeni bir soru harcamamalı.
+ * 3. Değilse daha önce hiç paylaşılmamış, kartta iyi duran bir soru seçilir.
+ */
+export function gunlukSoruSec(
+	havuz: Havuz,
+	ledger: LedgerSatiri[],
+	tarih: string,
+	secenek: {
+		soruId?: string;
+		yeni?: boolean;
+		uygunMu?: (soru: PaylasilabilirSoru) => boolean;
+	} = {},
+): GunlukSecim | null {
+	const sorular = new Map(havuz.sorular.map((soru) => [soru.id, soru]));
+	const kayit = (id: string) =>
+		ledger.find((satir) => satir.anahtar === `soru:${id}`) ?? null;
+	const sonuc = (soru: PaylasilabilirSoru): GunlukSecim => {
+		const satir = kayit(soru.id);
+
+		return { soru, kayitli: satir !== null, kayitTarihi: satir?.tarih ?? null };
+	};
+
+	if (secenek.soruId) {
+		const soru = sorular.get(secenek.soruId);
+
+		return soru ? sonuc(soru) : null;
+	}
+
+	if (!secenek.yeni) {
+		for (let i = ledger.length - 1; i >= 0; i -= 1) {
+			const satir = ledger[i];
+
+			if (satir.tur !== "soru" || satir.tarih !== tarih) continue;
+
+			const soru = sorular.get(satir.refId);
+
+			if (soru) return sonuc(soru);
+		}
+	}
+
+	const uygunMu = secenek.uygunMu ?? (() => true);
+	const soru = soruSec(
+		{ ...havuz, sorular: havuz.sorular.filter(uygunMu) },
+		ledger,
+		tarih,
+	);
+
+	return soru ? sonuc(soru) : null;
+}

@@ -12,7 +12,7 @@
  * Çalıştırma: npm run store:screenshots  (önce `npm run build` ve
  * `npx serve out -p 4173` gerekir)
  */
-import { mkdir } from "node:fs/promises";
+import { mkdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import { chromium } from "@playwright/test";
@@ -41,7 +41,28 @@ interface Shot {
 
 const SHOTS: Shot[] = [
 	{ file: "01-ana-sayfa.png", url: "/" },
-	{ file: "02-konu-ozeti.png", url: "/konular/657-dmk/disiplin-cezalari/" },
+	{
+		file: "02-konu-ozeti.png",
+		url: "/konular/657-dmk/disiplin-cezalari/",
+		prepare: async (page) => {
+			/*
+			 * Mevzuat künyesine ("… yürürlükteki hâli · Son doğrulama: …")
+			 * kadar kaydırılır. Bu satır ürünün güven iddiasıdır ve kadrajın
+			 * dışında kalırsa ekran görüntüsü sıradan bir okuma sayfasına
+			 * benzer.
+			 *
+			 * ⚠️ Kaydırma ZORUNLU hâle geldi: sayfaya sonradan "Yer imine
+			 * ekle", "İçindekiler" ve "Sesli oku" blokları eklendi ve künyeyi
+			 * ilk ekranın altına itti. Sabit bir kaydırma miktarı yazılmaz —
+			 * bloklar yine değişir; künyenin yeri okunup ona göre çekilir.
+			 */
+			const kunye = page.getByText(/Son doğrulama/).first();
+			await kunye.waitFor();
+			const kutu = await kunye.boundingBox();
+			if (kutu) await page.mouse.wheel(0, kutu.y - TOP_PADDING * 2);
+			await page.waitForTimeout(400);
+		},
+	},
 	{
 		file: "03-test-cozme.png",
 		url: "/testler/657-dmk/disiplin-cezalari/test-1/",
@@ -51,10 +72,48 @@ const SHOTS: Shot[] = [
 			 * dayanağı ve açıklama" ancak cevap verildikten sonra görünür. Boş
 			 * bir soru ekranı vitrinde bunu göstermez.
 			 */
+			/*
+			 * ⚠️ DOĞRU şık tıklanır — hangisi olduğu İÇERİKTEN okunur.
+			 *
+			 * Önceden koşulsuz olarak ilk şık tıklanıyordu. Şık dağılımı
+			 * düzeltilip doğru cevaplar karıştırıldıktan sonra ilk şık artık
+			 * çoğu soruda yanlış: hem Play mağaza kartı hem tanıtım görselleri
+			 * kırmızı bir "Yanlış" kutusuyla çıkıyordu. Vitrinde kullanıcının
+			 * gördüğü ilk şey bu olmamalı.
+			 *
+			 * Şıkları tek tek deneyip "Doğru" arayan bir döngü de yazıldı ve
+			 * kırılgan çıktı: sonucun çizilmesini beklemek ve "Sonraki"
+			 * düğmesinin erişilebilir adını bilmek gerekiyordu. Bunun yerine
+			 * radio'nun `name` niteliği (`q-<soruId>`) okunup doğru şık
+			 * derlenmiş içerikten alınıyor — tek adım, tahmin yok.
+			 */
+			const soruAdi = await page
+				.locator('input[type="radio"]')
+				.first()
+				.getAttribute("name");
+			const soruId = soruAdi?.replace(/^q-/, "");
+			const sorular = JSON.parse(
+				await readFile(
+					path.join(
+						ROOT,
+						"public/content/questions/657-dmk/disiplin-cezalari.json",
+					),
+					"utf8",
+				),
+			) as Array<{ id: string; correctIndex: number }>;
+			const dogruIndeks = sorular.find((q) => q.id === soruId)?.correctIndex;
+
+			if (dogruIndeks === undefined) {
+				throw new Error(
+					`Ekrandaki soru (${soruId}) içerikte bulunamadı; ` +
+						"doğru şık seçilemiyor.",
+				);
+			}
+
 			await page
 				.locator("label")
 				.filter({ has: page.getByRole("radio") })
-				.first()
+				.nth(dogruIndeks)
 				.click();
 
 			/*

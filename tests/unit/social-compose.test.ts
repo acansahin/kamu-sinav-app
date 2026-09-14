@@ -3,6 +3,7 @@ import { describe, expect, it } from "vitest";
 import {
 	bilgiMetni,
 	cevapMetni,
+	dayanakSigdir,
 	duyuruMetni,
 	kisalt,
 	secenekHarfi,
@@ -80,6 +81,39 @@ describe("xUzunluk", () => {
 
 	it("bağlantısız metinde ham uzunlukla aynıdır", () => {
 		expect(xUzunluk("merhaba")).toBe(7);
+	});
+});
+
+describe("dayanakSigdir", () => {
+	const uzun =
+		"Güvenlik Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik md. 11/6";
+
+	it("sığan künyeye dokunmaz", () => {
+		expect(dayanakSigdir("657 sayılı Kanun md. 13", 86)).toBe(
+			"657 sayılı Kanun md. 13",
+		);
+	});
+
+	it("kısaltırken madde numarasını korur", () => {
+		const sonuc = dayanakSigdir(uzun, 50);
+
+		expect(sonuc.length).toBeLessThanOrEqual(50);
+		expect(sonuc.endsWith(" md. 11/6")).toBe(true);
+		expect(sonuc).toContain("…");
+	});
+
+	it("uzun yönetmelikli cevapta X metni madde numarasını taşır", () => {
+		const metin = cevapMetni(
+			{
+				...kisaSoru,
+				options: ["Eş ve çocuklarının kimlik bilgileri", "B", "C", "D", "E"],
+				dayanak: uzun,
+			},
+			"x",
+		);
+
+		expect(xUzunluk(metin)).toBeLessThanOrEqual(280);
+		expect(metin).toContain("md. 11/6");
 	});
 });
 

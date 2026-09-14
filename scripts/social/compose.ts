@@ -165,6 +165,23 @@ export function xeSigdir(parcalar: XParca[]): string {
 	}
 }
 
+/**
+ * Künyeyi verilen uzunluğa indirir ama MADDE NUMARASINI asla kesmez.
+ *
+ * Yönetmelik ve kararname adları 80–120 karakteri buluyor ("Güvenlik
+ * Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik md. 11/6").
+ * Düz kısaltma sondan kestiği için X metninde "…Yönetmelik md.…" kalıyordu:
+ * künyenin tek işe yarar parçası olan madde numarası kayboluyordu. Kısaltma bu
+ * yüzden metin adından yapılır, " md. …" eki korunur.
+ */
+export function dayanakSigdir(dayanak: string, limit: number): string {
+	if (dayanak.length <= limit) return dayanak;
+
+	const ek = dayanak.match(/ md\. .+$/)?.[0] ?? "";
+
+	return `${kisalt(dayanak.slice(0, dayanak.length - ek.length), limit - ek.length)}${ek}`;
+}
+
 /** Kartta zaten görünen şıkların metin gövdesindeki karşılığı. */
 function siklarMetni(soru: PaylasilabilirSoru): string {
 	return soru.options
@@ -214,7 +231,12 @@ export function cevapMetni(
 		return xeSigdir([
 			{ metin: `✅ Cevap: ${dogru}`, asgari: 30, tavan: 150, oncelik: 0 },
 			{ metin: soru.explanation, asgari: 70, oncelik: 2 },
-			{ metin: `📚 ${soru.dayanak}`, asgari: 25, tavan: 80, oncelik: 1 },
+			{
+				metin: `📚 ${dayanakSigdir(soru.dayanak, 86)}`,
+				asgari: 25,
+				tavan: 90,
+				oncelik: 1,
+			},
 			{ metin: etiketSatiri("x"), sabit: true },
 		]);
 	}
@@ -241,7 +263,12 @@ export function bilgiMetni(
 		return xeSigdir([
 			{ metin: `💡 ${bilgi.konuAdi}`, asgari: 10, tavan: 60, oncelik: 1 },
 			{ metin: bilgi.metin, asgari: 60, tavan: 170, oncelik: 0 },
-			{ metin: `📚 ${bilgi.dayanak}`, asgari: 25, tavan: 80, oncelik: 2 },
+			{
+				metin: `📚 ${dayanakSigdir(bilgi.dayanak, 86)}`,
+				asgari: 25,
+				tavan: 90,
+				oncelik: 2,
+			},
 			{ metin: etiketSatiri("x"), sabit: true },
 		]);
 	}

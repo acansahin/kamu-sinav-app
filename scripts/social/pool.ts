@@ -59,8 +59,15 @@ export type Havuz = {
  *
  * Kanun adı tam hâliyle çok uzun ("5176 sayılı Kamu Görevlileri Etik Kurulu
  * Kurulması ve Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun") ve karta
- * sığmaz; `lawId` varsa kısa biçim tercih edilir. `lawId` yoksa tam ad
- * kullanılır — kısaltma uydurmak yanlış dayanak göstermek olurdu.
+ * sığmaz; kısa biçim ("5176 sayılı Kanun") YALNIZCA metin gerçekten bir
+ * kanunsa kullanılır.
+ *
+ * ⚠️ `lawId` her zaman kanun numarası DEĞİLDİR. Yönetmelik ve kararnamelerde
+ * mevzuat.gov.tr'nin kayıt numarasını taşır: Güvenlik Soruşturması
+ * Yönetmeliği'nin `lawId`si 5649'dur ve ilk sürüm onu "5649 sayılı Kanun" diye
+ * yazıp tanıtım kartına basmıştı — var olmayan bir kanuna atıf. Anayasa da
+ * "2709 sayılı Kanun" değil "Anayasa" diye anılır. Kanun olmayan her metinde
+ * tam ad kullanılır; kısaltma uydurmak yanlış dayanak göstermek olurdu.
  */
 export function dayanakMetni(legalRef: {
 	law: string;
@@ -68,7 +75,11 @@ export function dayanakMetni(legalRef: {
 	article?: string;
 	clause?: string;
 }): string {
-	const ad = legalRef.lawId ? `${legalRef.lawId} sayılı Kanun` : legalRef.law;
+	const kanunMu = /Kanunu?$/.test(legalRef.law.trim());
+	const ad =
+		legalRef.lawId && kanunMu
+			? `${legalRef.lawId} sayılı Kanun`
+			: legalRef.law;
 	const madde = legalRef.article ? ` md. ${legalRef.article}` : "";
 	const fikra = legalRef.clause ? `/${legalRef.clause}` : "";
 

@@ -32,11 +32,19 @@ export const FONT_STACK =
 	"DejaVu Sans, Liberation Sans, Segoe UI, Arial, Helvetica, sans-serif";
 
 /**
- * Kart ölçüsü. Kare seçildi çünkü Instagram'ın kabul ettiği en/boy aralığı
- * (4:5 – 1.91:1) ile X ve Facebook'un akış kırpması KARE'de çakışır; tek
- * görsel üç platforma da kırpılmadan gider.
+ * Kart ölçüsü — **1080×1350 (4:5)**, tüm sosyal görsellerde tek biçim.
+ *
+ * Instagram'ın 2026 önerisi bu: akışta en çok dikey alanı kaplayan biçim ve
+ * profil ızgarasının kırpmasına en az kurban veren biçim. Izgara gözü 3:4'e
+ * kırpıyor; 4:5 bir görselden yanlardan yalnızca ~34 piksel gidiyor.
+ *
+ * ⚠️ **KARE KULLANILMAZ.** 1:1 bir görsel aynı ızgarada iki yanından ~135'er
+ * piksel kaybediyor ve kenara yakın metnin başı kesiliyordu — iki kez
+ * bildirildi. Facebook ve X de 4:5'i kırpmadan gösteriyor, yani tek ölçü üç
+ * platforma birden yetiyor.
  */
-export const KART_BOYUT = 1080;
+export const KART_GEN = 1080;
+export const KART_YUK = 1350;
 
 /**
  * ⚠️ Instagram Content Publishing API **JPEG** ister; PNG kabul edilmez ve
