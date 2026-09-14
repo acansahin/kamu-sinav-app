@@ -1,4 +1,5 @@
 import {
+	DERS_ETIKETLERI,
 	ETIKETLER,
 	INSTAGRAM_KARAKTER_SINIRI,
 	UYGULAMA_URL,
@@ -67,8 +68,27 @@ function birlestir(parcalar: (string | null)[]): string {
 		.trim();
 }
 
-function etiketSatiri(platform: Platform): string {
-	return ETIKETLER[platform].join(" ");
+/**
+ * Platformun ortak etiketleri + dersin ek etiketleri. Instagram etiketleri
+ * küçük harfle yazıldığı için ders etiketi de o platformda küçültülür
+ * (`toLocaleLowerCase("tr")` — varsayılan yerel ayar "I"yı "i" yapar).
+ */
+export function etiketSatiri(platform: Platform, subjectId?: string): string {
+	const ders = subjectId ? (DERS_ETIKETLERI[subjectId] ?? []) : [];
+	const ek =
+		platform === "instagram"
+			? ders.map((e) => e.toLocaleLowerCase("tr"))
+			: platform === "facebook"
+				? ders.slice(0, 1)
+				: [];
+	const tum: string[] = [...ETIKETLER[platform]];
+
+	// Ders etiketi marka etiketinden önce gelsin; marka hep sonda.
+	const marka = tum.findIndex((e) => /kamusınavakademi/i.test(e));
+
+	tum.splice(marka >= 0 ? marka : tum.length, 0, ...ek);
+
+	return [...new Set(tum)].join(" ");
 }
 
 export type XParca = {
@@ -201,7 +221,7 @@ export function soruMetni(
 				metin: "Şıklar görselde. Cevabı akşam paylaşıyoruz 👇",
 				sabit: true,
 			},
-			{ metin: etiketSatiri("x"), sabit: true },
+			{ metin: etiketSatiri("x", soru.subjectId), sabit: true },
 		]);
 	}
 
@@ -211,7 +231,7 @@ export function soruMetni(
 		siklarMetni(soru),
 		"Sen hangisini işaretlerdin? Cevabı ve mevzuat dayanağını akşam paylaşıyoruz.",
 		`Kaynağı belli, mevzuat dayanaklı sorularla hazırlan:\n${UYGULAMA_URL}`,
-		etiketSatiri(platform),
+		etiketSatiri(platform, soru.subjectId),
 	]);
 
 	return platform === "instagram"
@@ -237,7 +257,7 @@ export function cevapMetni(
 				tavan: 90,
 				oncelik: 1,
 			},
-			{ metin: etiketSatiri("x"), sabit: true },
+			{ metin: etiketSatiri("x", soru.subjectId), sabit: true },
 		]);
 	}
 
@@ -247,7 +267,7 @@ export function cevapMetni(
 		soru.explanation,
 		`📚 Dayanak: ${soru.dayanak}`,
 		`Her sorunun mevzuat dayanağı ve açıklaması var:\n${UYGULAMA_URL}`,
-		etiketSatiri(platform),
+		etiketSatiri(platform, soru.subjectId),
 	]);
 
 	return platform === "instagram"
@@ -269,7 +289,7 @@ export function bilgiMetni(
 				tavan: 90,
 				oncelik: 2,
 			},
-			{ metin: etiketSatiri("x"), sabit: true },
+			{ metin: etiketSatiri("x", bilgi.subjectId), sabit: true },
 		]);
 	}
 
@@ -278,7 +298,7 @@ export function bilgiMetni(
 		bilgi.metin,
 		`📚 Dayanak: ${bilgi.dayanak}`,
 		`Konu özetleri, testler ve denemeler:\n${UYGULAMA_URL}`,
-		etiketSatiri(platform),
+		etiketSatiri(platform, bilgi.subjectId),
 	]);
 
 	return platform === "instagram"

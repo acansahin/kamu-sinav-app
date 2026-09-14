@@ -76,31 +76,54 @@ export const UYGULAMA_URL = process.env.SOCIAL_APP_URL ?? PLAY_URL;
 export const MARKA_ADI = "Kamu Sınav Akademi";
 
 /**
- * Etiketler platform başına ayrılır: X'te her karakter 280'den düşer, bu
- * yüzden orada iki etiketle yetinilir. Instagram'da etiket keşfin ana yolu
- * olduğu için liste geniştir.
+ * Etiketler: platforma göre ortak set + paylaşımın dersine göre ek set.
+ *
+ * Platform ayrımı: X'te her karakter 280'den düşer, orada az etiket; Facebook'ta
+ * etiket kalabalığı erişimi düşürür, orada beş etiket; Instagram'da etiket
+ * keşfin ana yolu, orada geniş liste.
+ *
+ * Ders ayrımı: sabit tek liste, Güvenlik Soruşturması sorusuna `#etik` ve
+ * `#anayasa` basıyordu. Her paylaşım kendi dersinin etiketini taşır.
+ *
+ * Instagram'da şapkalı ve şapkasız biçim BİRLİKTE yazılır: iki ayrı etikettir
+ * ve Türkçe karakter kullanmadan arayanlar ikincisini görür.
  */
 export const ETIKETLER = {
-	x: ["#GörevdeYükselme", "#UnvanDeğişikliği"],
+	x: ["#GörevdeYükselme", "#UnvanDeğişikliği", "#İçişleriBakanlığı"],
 	facebook: [
 		"#GörevdeYükselme",
 		"#UnvanDeğişikliği",
-		"#657",
-		"#KamuPersoneli",
+		"#İçişleriBakanlığı",
+		"#KamuSınavAkademi",
 	],
 	instagram: [
-		"#GörevdeYükselme",
-		"#UnvanDeğişikliği",
-		"#GYS",
-		"#657",
-		"#DevletMemurlarıKanunu",
-		"#KamuPersoneli",
-		"#MemurSınavı",
-		"#SınavHazırlık",
-		"#Etik",
-		"#Anayasa",
+		"#görevdeyükselme",
+		"#gorevdeyukselme",
+		"#unvandeğişikliği",
+		"#unvandegisikligi",
+		"#gys",
+		"#içişleribakanlığı",
+		"#icisleribakanligi",
+		"#kamupersoneli",
+		"#kamugörevlisi",
+		"#memursınavı",
+		"#mevzuat",
+		"#kamusınavakademi",
 	],
 } as const;
+
+/**
+ * Dersin ek etiketleri. İlki Facebook'a da girer (tek etiket), tamamı
+ * Instagram'a. X'e girmez — karakter bütçesi yok.
+ */
+export const DERS_ETIKETLERI: Record<string, readonly string[]> = {
+	"657-dmk": ["#657SayılıKanun", "#devletmemurlarıkanunu"],
+	anayasa: ["#Anayasa", "#anayasahukuku"],
+	etik: ["#EtikDavranışİlkeleri", "#kamuetiği"],
+	"resmi-yazisma": ["#ResmiYazışma", "#resmiyazışmakuralları"],
+	"devlet-teskilati": ["#DevletTeşkilatı", "#cumhurbaşkanlığıkararnamesi"],
+	"guvenlik-sorusturmasi": ["#GüvenlikSoruşturması", "#7315sayılıkanun"],
+};
 
 /**
  * X'in gönderi karakter sınırı. Bağlantı ve etiket dâhil sayılır;
