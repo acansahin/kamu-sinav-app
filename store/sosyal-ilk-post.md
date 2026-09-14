@@ -94,8 +94,8 @@ metin yaz. Facebook'ta: görsele tıklayıp "Alternatif metni düzenle".
 | Slayt | Alt metin |
 |---|---|
 | 01-kapak | Kamu Sınav Akademi tanıtım kapağı. "Doğru şıkkı değil, dayandığı maddeyi öğrenin." Altında altı dersin listesi: 657 sayılı Devlet Memurları Kanunu, Anayasa, Etik Davranış İlkeleri, Resmî Yazışma, Devlet Teşkilatı Mevzuatı, Güvenlik Soruşturması. |
-| 02-dayanak | Uygulama ekranı: bir test sorusunun cevabı. Yeşil kutuda "Doğru" başlığı, altında Devlet Memurları Disiplin Yönetmeliği'nin 34. maddesine dayanan açıklama ve mevzuat künyesi. |
-| 03-tarihli-ozet | Uygulama ekranı: "Disiplin Cezaları" konu özeti. Üstte içeriğin 657 sayılı Kanun'un 2026 yılı yürürlükteki hâline dayandığı ve 1 Ağustos 2026'da doğrulandığı yazıyor. |
+| 02-dayanak | Uygulama ekranı: bir test sorusunun cevabı. Yeşil kutuda "Doğru" başlığı, altında kademe ilerlemesinin durdurulması cezasını anlatan açıklama ve mevzuat künyesi: 657 sayılı Devlet Memurları Kanunu, m. 125/D. |
+| 03-tarihli-ozet | Uygulama ekranı: "Disiplin Cezaları" konu özetinin mevzuat künyesi — 657 sayılı Kanun'un 2026 yılı yürürlükteki hâline dayandığı ve son doğrulamanın 1 Ağustos 2026 olduğu yazıyor. |
 | 04-deneme | Uygulama ekranı: Deneme Sınavları. 20 soruluk hızlı deneme, 30 dakika, başarı eşiği 60 ve derslere göre soru dağılımı görünüyor. |
 | 05-ilkeler | Uygulama ana ekranı: "Merhaba — görevde yükselme ve unvan değişikliği sınavlarına hazırlık" ve kaldığı yerden devam kartı. Başlık: reklam yok, hesap yok, internet gerekmez. |
 | 06-cagri | Çağrı slaydı: her dersin ilk konusu ve ilk testi ücretsiz, tam erişim tek seferlik satın almayla. Uygulama Google Play'de: Kamu Sınav Akademi |

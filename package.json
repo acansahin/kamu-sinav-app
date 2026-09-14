@@ -16,6 +16,7 @@
     "icons:build": "tsx scripts/generate-icons.ts",
     "codes:generate": "tsx scripts/generate-redeem-codes.ts",
     "social:preview": "tsx scripts/social/preview.ts",
+    "social:gunluk": "tsx scripts/social/gunluk.ts",
     "social:plan": "tsx scripts/social/run.ts --asama plan",
     "social:publish": "tsx scripts/social/run.ts --asama yayin",
     "social:tanitim": "tsx scripts/social/promo.ts",

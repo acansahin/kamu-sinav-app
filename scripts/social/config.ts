@@ -32,11 +32,19 @@ export const FONT_STACK =
 	"DejaVu Sans, Liberation Sans, Segoe UI, Arial, Helvetica, sans-serif";
 
 /**
- * Kart ölçüsü. Kare seçildi çünkü Instagram'ın kabul ettiği en/boy aralığı
- * (4:5 – 1.91:1) ile X ve Facebook'un akış kırpması KARE'de çakışır; tek
- * görsel üç platforma da kırpılmadan gider.
+ * Kart ölçüsü — **1080×1350 (4:5)**, tüm sosyal görsellerde tek biçim.
+ *
+ * Instagram'ın 2026 önerisi bu: akışta en çok dikey alanı kaplayan biçim ve
+ * profil ızgarasının kırpmasına en az kurban veren biçim. Izgara gözü 3:4'e
+ * kırpıyor; 4:5 bir görselden yanlardan yalnızca ~34 piksel gidiyor.
+ *
+ * ⚠️ **KARE KULLANILMAZ.** 1:1 bir görsel aynı ızgarada iki yanından ~135'er
+ * piksel kaybediyor ve kenara yakın metnin başı kesiliyordu — iki kez
+ * bildirildi. Facebook ve X de 4:5'i kırpmadan gösteriyor, yani tek ölçü üç
+ * platforma birden yetiyor.
  */
-export const KART_BOYUT = 1080;
+export const KART_GEN = 1080;
+export const KART_YUK = 1350;
 
 /**
  * ⚠️ Instagram Content Publishing API **JPEG** ister; PNG kabul edilmez ve
@@ -68,31 +76,54 @@ export const UYGULAMA_URL = process.env.SOCIAL_APP_URL ?? PLAY_URL;
 export const MARKA_ADI = "Kamu Sınav Akademi";
 
 /**
- * Etiketler platform başına ayrılır: X'te her karakter 280'den düşer, bu
- * yüzden orada iki etiketle yetinilir. Instagram'da etiket keşfin ana yolu
- * olduğu için liste geniştir.
+ * Etiketler: platforma göre ortak set + paylaşımın dersine göre ek set.
+ *
+ * Platform ayrımı: X'te her karakter 280'den düşer, orada az etiket; Facebook'ta
+ * etiket kalabalığı erişimi düşürür, orada beş etiket; Instagram'da etiket
+ * keşfin ana yolu, orada geniş liste.
+ *
+ * Ders ayrımı: sabit tek liste, Güvenlik Soruşturması sorusuna `#etik` ve
+ * `#anayasa` basıyordu. Her paylaşım kendi dersinin etiketini taşır.
+ *
+ * Instagram'da şapkalı ve şapkasız biçim BİRLİKTE yazılır: iki ayrı etikettir
+ * ve Türkçe karakter kullanmadan arayanlar ikincisini görür.
  */
 export const ETIKETLER = {
-	x: ["#GörevdeYükselme", "#UnvanDeğişikliği"],
+	x: ["#GörevdeYükselme", "#UnvanDeğişikliği", "#İçişleriBakanlığı"],
 	facebook: [
 		"#GörevdeYükselme",
 		"#UnvanDeğişikliği",
-		"#657",
-		"#KamuPersoneli",
+		"#İçişleriBakanlığı",
+		"#KamuSınavAkademi",
 	],
 	instagram: [
-		"#GörevdeYükselme",
-		"#UnvanDeğişikliği",
-		"#GYS",
-		"#657",
-		"#DevletMemurlarıKanunu",
-		"#KamuPersoneli",
-		"#MemurSınavı",
-		"#SınavHazırlık",
-		"#Etik",
-		"#Anayasa",
+		"#görevdeyükselme",
+		"#gorevdeyukselme",
+		"#unvandeğişikliği",
+		"#unvandegisikligi",
+		"#gys",
+		"#içişleribakanlığı",
+		"#icisleribakanligi",
+		"#kamupersoneli",
+		"#kamugörevlisi",
+		"#memursınavı",
+		"#mevzuat",
+		"#kamusınavakademi",
 	],
 } as const;
+
+/**
+ * Dersin ek etiketleri. İlki Facebook'a da girer (tek etiket), tamamı
+ * Instagram'a. X'e girmez — karakter bütçesi yok.
+ */
+export const DERS_ETIKETLERI: Record<string, readonly string[]> = {
+	"657-dmk": ["#657SayılıKanun", "#devletmemurlarıkanunu"],
+	anayasa: ["#Anayasa", "#anayasahukuku"],
+	etik: ["#EtikDavranışİlkeleri", "#kamuetiği"],
+	"resmi-yazisma": ["#ResmiYazışma", "#resmiyazışmakuralları"],
+	"devlet-teskilati": ["#DevletTeşkilatı", "#cumhurbaşkanlığıkararnamesi"],
+	"guvenlik-sorusturmasi": ["#GüvenlikSoruşturması", "#7315sayılıkanun"],
+};
 
 /**
  * X'in gönderi karakter sınırı. Bağlantı ve etiket dâhil sayılır;

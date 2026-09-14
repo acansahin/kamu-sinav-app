@@ -1,4 +1,5 @@
 import {
+	DERS_ETIKETLERI,
 	ETIKETLER,
 	INSTAGRAM_KARAKTER_SINIRI,
 	UYGULAMA_URL,
@@ -67,8 +68,27 @@ function birlestir(parcalar: (string | null)[]): string {
 		.trim();
 }
 
-function etiketSatiri(platform: Platform): string {
-	return ETIKETLER[platform].join(" ");
+/**
+ * Platformun ortak etiketleri + dersin ek etiketleri. Instagram etiketleri
+ * küçük harfle yazıldığı için ders etiketi de o platformda küçültülür
+ * (`toLocaleLowerCase("tr")` — varsayılan yerel ayar "I"yı "i" yapar).
+ */
+export function etiketSatiri(platform: Platform, subjectId?: string): string {
+	const ders = subjectId ? (DERS_ETIKETLERI[subjectId] ?? []) : [];
+	const ek =
+		platform === "instagram"
+			? ders.map((e) => e.toLocaleLowerCase("tr"))
+			: platform === "facebook"
+				? ders.slice(0, 1)
+				: [];
+	const tum: string[] = [...ETIKETLER[platform]];
+
+	// Ders etiketi marka etiketinden önce gelsin; marka hep sonda.
+	const marka = tum.findIndex((e) => /kamusınavakademi/i.test(e));
+
+	tum.splice(marka >= 0 ? marka : tum.length, 0, ...ek);
+
+	return [...new Set(tum)].join(" ");
 }
 
 export type XParca = {
@@ -165,6 +185,23 @@ export function xeSigdir(parcalar: XParca[]): string {
 	}
 }
 
+/**
+ * Künyeyi verilen uzunluğa indirir ama MADDE NUMARASINI asla kesmez.
+ *
+ * Yönetmelik ve kararname adları 80–120 karakteri buluyor ("Güvenlik
+ * Soruşturması ve Arşiv Araştırması Yapılmasına Dair Yönetmelik md. 11/6").
+ * Düz kısaltma sondan kestiği için X metninde "…Yönetmelik md.…" kalıyordu:
+ * künyenin tek işe yarar parçası olan madde numarası kayboluyordu. Kısaltma bu
+ * yüzden metin adından yapılır, " md. …" eki korunur.
+ */
+export function dayanakSigdir(dayanak: string, limit: number): string {
+	if (dayanak.length <= limit) return dayanak;
+
+	const ek = dayanak.match(/ md\. .+$/)?.[0] ?? "";
+
+	return `${kisalt(dayanak.slice(0, dayanak.length - ek.length), limit - ek.length)}${ek}`;
+}
+
 /** Kartta zaten görünen şıkların metin gövdesindeki karşılığı. */
 function siklarMetni(soru: PaylasilabilirSoru): string {
 	return soru.options
@@ -184,7 +221,7 @@ export function soruMetni(
 				metin: "Şıklar görselde. Cevabı akşam paylaşıyoruz 👇",
 				sabit: true,
 			},
-			{ metin: etiketSatiri("x"), sabit: true },
+			{ metin: etiketSatiri("x", soru.subjectId), sabit: true },
 		]);
 	}
 
@@ -194,7 +231,7 @@ export function soruMetni(
 		siklarMetni(soru),
 		"Sen hangisini işaretlerdin? Cevabı ve mevzuat dayanağını akşam paylaşıyoruz.",
 		`Kaynağı belli, mevzuat dayanaklı sorularla hazırlan:\n${UYGULAMA_URL}`,
-		etiketSatiri(platform),
+		etiketSatiri(platform, soru.subjectId),
 	]);
 
 	return platform === "instagram"
@@ -214,8 +251,13 @@ export function cevapMetni(
 		return xeSigdir([
 			{ metin: `✅ Cevap: ${dogru}`, asgari: 30, tavan: 150, oncelik: 0 },
 			{ metin: soru.explanation, asgari: 70, oncelik: 2 },
-			{ metin: `📚 ${soru.dayanak}`, asgari: 25, tavan: 80, oncelik: 1 },
-			{ metin: etiketSatiri("x"), sabit: true },
+			{
+				metin: `📚 ${dayanakSigdir(soru.dayanak, 86)}`,
+				asgari: 25,
+				tavan: 90,
+				oncelik: 1,
+			},
+			{ metin: etiketSatiri("x", soru.subjectId), sabit: true },
 		]);
 	}
 
@@ -225,7 +267,7 @@ export function cevapMetni(
 		soru.explanation,
 		`📚 Dayanak: ${soru.dayanak}`,
 		`Her sorunun mevzuat dayanağı ve açıklaması var:\n${UYGULAMA_URL}`,
-		etiketSatiri(platform),
+		etiketSatiri(platform, soru.subjectId),
 	]);
 
 	return platform === "instagram"
@@ -241,8 +283,13 @@ export function bilgiMetni(
 		return xeSigdir([
 			{ metin: `💡 ${bilgi.konuAdi}`, asgari: 10, tavan: 60, oncelik: 1 },
 			{ metin: bilgi.metin, asgari: 60, tavan: 170, oncelik: 0 },
-			{ metin: `📚 ${bilgi.dayanak}`, asgari: 25, tavan: 80, oncelik: 2 },
-			{ metin: etiketSatiri("x"), sabit: true },
+			{
+				metin: `📚 ${dayanakSigdir(bilgi.dayanak, 86)}`,
+				asgari: 25,
+				tavan: 90,
+				oncelik: 2,
+			},
+			{ metin: etiketSatiri("x", bilgi.subjectId), sabit: true },
 		]);
 	}
 
@@ -251,7 +298,7 @@ export function bilgiMetni(
 		bilgi.metin,
 		`📚 Dayanak: ${bilgi.dayanak}`,
 		`Konu özetleri, testler ve denemeler:\n${UYGULAMA_URL}`,
-		etiketSatiri(platform),
+		etiketSatiri(platform, bilgi.subjectId),
 	]);
 
 	return platform === "instagram"

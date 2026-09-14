@@ -11,7 +11,8 @@ import {
 	CORRECT,
 	FONT_STACK,
 	JPEG_KALITE,
-	KART_BOYUT,
+	KART_GEN,
+	KART_YUK,
 	MARKA_ADI,
 } from "./config";
 import type { KartIcerigi } from "./types";
@@ -29,8 +30,28 @@ import type { KartIcerigi } from "./types";
  * tahmin edilir, böylece taşma yerine biraz erken satır kırılır.
  */
 
-const PAD = 76;
-const ICERIK_GENISLIGI = KART_BOYUT - PAD * 2;
+/**
+ * Yerleşim ORTALIDIR ve metin kırpmaya karşı dar bir güvenli alanda durur.
+ *
+ * ⚠️ **Instagram profil ızgarası kare görseli YANLARDAN KIRPAR.** Izgara gözü
+ * dikeydir; 1:1 bir görsel gözü doldurmak için yükseklikten ölçeklenir ve iki
+ * yanından yaklaşık %12,5 (≈135 piksel) kesilir. Sola yaslı metnin baştaki
+ * harfleri ızgarada görünmüyordu.
+ *
+ * Önce kenar payı daraltılarak çözülmeye çalışıldı ve bu YANLIŞTI: pay
+ * daraldıkça metin kesilen bölgeye daha çok giriyor. Doğrusu metni ortalamak
+ * ve kırpmanın yetişemeyeceği genişlikte tutmak.
+ */
+const MERKEZ = KART_GEN / 2;
+/*
+ * Izgara 3:4'e kırptığı için 4:5 bir karttan yanlardan yalnızca ~34 piksel
+ * gidiyor. Güvenli genişlik buna göre belirlendi: her yanda 80 piksel pay
+ * bırakıyor, yani kırpmanın iki katından fazlası.
+ */
+const GUVENLI_GENISLIK = 920;
+/** Harf rozetinin yarıçapı ve şık metninin rozetten sonraki girintisi. */
+const ROZET_YARICAP = 20;
+const SIK_GIRINTI = 56;
 /**
  * Gövdenin başladığı y — üstte rozet ve üst bilgi var.
  *
@@ -38,13 +59,13 @@ const ICERIK_GENISLIGI = KART_BOYUT - PAD * 2;
  * alt sınır, uzun bir kanun adının künye şeridine binmesine yol açıyordu.
  */
 const GOVDE_UST = 250;
-const GOVDE_ALT_DAYANAKLI = 852;
-const GOVDE_ALT_SADE = 908;
+const GOVDE_ALT_DAYANAKLI = 1122;
+const GOVDE_ALT_SADE = 1178;
 /** Dayanak satırının üst kenarı ve ona ayrılan yükseklik. */
-const DAYANAK_Y = 862;
+const DAYANAK_Y = 1132;
 const DAYANAK_YUKSEKLIGI = 68;
 /** Künye şeridinin (ayraç + logo + marka adı) başladığı y. */
-const KUNYE_Y = 940;
+const KUNYE_Y = 1210;
 
 /** Satır yüksekliği çarpanı; 1.3 altında Türkçe'de "ğ" ile "İ" çakışıyor. */
 const SATIR_ARALIGI = 1.34;
@@ -276,6 +297,8 @@ type YaziSecenek = {
 	kalin?: boolean;
 	opaklik?: number;
 	harfAraligi?: number;
+	/** true ise `x` metnin ORTASIDIR, sol kenarı değil. */
+	ortala?: boolean;
 };
 
 function yazi(metin: string, o: YaziSecenek): string {
@@ -288,6 +311,7 @@ function yazi(metin: string, o: YaziSecenek): string {
 		o.kalin ? 'font-weight="bold"' : "",
 		o.opaklik !== undefined ? `opacity="${o.opaklik}"` : "",
 		o.harfAraligi ? `letter-spacing="${o.harfAraligi}"` : "",
+		o.ortala ? 'text-anchor="middle"' : "",
 	].filter(Boolean);
 
 	return `<text ${nitelikler.join(" ")}>${xmlKacir(metin)}</text>`;
@@ -330,65 +354,54 @@ export function kartSvg(icerik: KartIcerigi): string {
 	const rozetGenislik = metinGenisligi(icerik.rozet, rozetBoyut, true) + 56;
 
 	parcalar.push(
-		`<path d="${roundedRect(PAD, 84, rozetGenislik, 56, 28)}" fill="#ffffff" opacity="0.16"/>`,
+		`<path d="${roundedRect(MERKEZ - rozetGenislik / 2, 84, rozetGenislik, 56, 28)}" fill="#ffffff" opacity="0.16"/>`,
 		yazi(icerik.rozet, {
-			x: PAD + 28,
+			x: MERKEZ,
 			y: 122,
 			boyut: rozetBoyut,
 			kalin: true,
 			harfAraligi: 1.5,
+			ortala: true,
 		}),
 		yazi(icerik.ustBilgi, {
-			x: PAD,
+			x: MERKEZ,
 			y: 190,
 			boyut: 30,
 			opaklik: 0.72,
+			ortala: true,
 		}),
 	);
 
-	// --- Gövde ---
-	let y = GOVDE_UST;
-	let kalanYukseklik =
-		(icerik.dayanak ? GOVDE_ALT_DAYANAKLI : GOVDE_ALT_SADE) - GOVDE_UST;
+	/*
+	 * --- Gövde ---
+	 *
+	 * Önce TAMAMI ÖLÇÜLÜR, sonra çizilir. 4:5 tuvalde gövde yukarı yaslı
+	 * bırakılınca altta büyük bir boşluk kalıyordu; blok dikeyde ortalanabilsin
+	 * diye toplam yüksekliğin çizimden önce bilinmesi gerekiyor.
+	 */
+	const govdeUst = GOVDE_UST;
+	const govdeAlt = icerik.dayanak ? GOVDE_ALT_DAYANAKLI : GOVDE_ALT_SADE;
+	let kalanYukseklik = govdeAlt - govdeUst;
 
-	if (icerik.vurgu) {
-		// Cevap kartında doğru şık en üstte ve en görünür yerde durur.
-		const vurguKutu = kutuyaSigdir(
-			icerik.vurgu,
-			ICERIK_GENISLIGI - 96,
-			200,
-			[46, 42, 38, 34],
-			true,
-		);
-		const kutuYukseklik = vurguKutu.yukseklik + 64;
+	// Cevap kartında doğru şık en üstte ve en görünür yerde durur.
+	const vurguKutu = icerik.vurgu
+		? kutuyaSigdir(icerik.vurgu, GUVENLI_GENISLIK - 72, 200, [46, 42, 38, 34], true)
+		: null;
+	const vurguYukseklik = vurguKutu ? vurguKutu.yukseklik + 64 : 0;
 
-		parcalar.push(
-			`<path d="${roundedRect(PAD, y, ICERIK_GENISLIGI, kutuYukseklik, 28)}" fill="${CORRECT}"/>`,
-			satirlariYaz(
-				vurguKutu.satirlar,
-				PAD + 48,
-				y + 32,
-				vurguKutu.boyut,
-				{ kalin: true },
-			),
-		);
-
-		y += kutuYukseklik + 44;
-		kalanYukseklik -= kutuYukseklik + 44;
-	}
+	if (vurguKutu) kalanYukseklik -= vurguYukseklik + 44;
 
 	const satirlar = icerik.satirlar ?? [];
-
-	// Şıklar önce ölçülür: sayıları sabit olduğu için sıkıştırılabilirlikleri
-	// düşük. Artan pay başlığa verilir.
 	const SIK_ARALIGI = 22;
 	let sikKutulari: Kutu[] = [];
 	let sikToplam = 0;
 
+	// Şıklar önce ölçülür: sayıları sabit olduğu için sıkıştırılabilirlikleri
+	// düşük. Artan pay başlığa verilir.
 	if (satirlar.length > 0) {
 		const { kutular } = kutulariSigdir(
 			satirlar,
-			ICERIK_GENISLIGI - 76,
+			GUVENLI_GENISLIK - SIK_GIRINTI,
 			kalanYukseklik * 0.62,
 			[34, 32, 30, 28, 26, 24],
 			SIK_ARALIGI,
@@ -407,34 +420,71 @@ export function kartSvg(icerik: KartIcerigi): string {
 	const govdeKalin = !icerik.vurgu;
 	const baslikKutu = kutuyaSigdir(
 		icerik.baslik,
-		ICERIK_GENISLIGI,
+		GUVENLI_GENISLIK,
 		kalanYukseklik - sikToplam - (satirlar.length > 0 ? 36 : 0),
 		govdeKalin ? [54, 50, 46, 42, 38, 34, 30] : [40, 36, 34, 32, 30, 28],
 		govdeKalin,
 	);
 
+	const toplamYukseklik =
+		(vurguKutu ? vurguYukseklik + 44 : 0) +
+		baslikKutu.yukseklik +
+		(satirlar.length > 0 ? 36 + sikToplam - SIK_ARALIGI : 0);
+
+	let y = govdeUst + Math.max(0, (govdeAlt - govdeUst - toplamYukseklik) / 2);
+
+	if (vurguKutu) {
+		parcalar.push(
+			`<path d="${roundedRect(MERKEZ - GUVENLI_GENISLIK / 2, y, GUVENLI_GENISLIK, vurguYukseklik, 28)}" fill="${CORRECT}"/>`,
+			satirlariYaz(vurguKutu.satirlar, MERKEZ, y + 32, vurguKutu.boyut, {
+				kalin: true,
+				ortala: true,
+			}),
+		);
+
+		y += vurguYukseklik + 44;
+	}
+
 	parcalar.push(
-		satirlariYaz(baslikKutu.satirlar, PAD, y, baslikKutu.boyut, {
+		satirlariYaz(baslikKutu.satirlar, MERKEZ, y, baslikKutu.boyut, {
 			kalin: govdeKalin,
 			opaklik: govdeKalin ? undefined : 0.94,
+			ortala: true,
 		}),
 	);
 	y += baslikKutu.yukseklik + 36;
+
+	/*
+	 * Şıklar KÜME olarak ortalanır, her satır ayrı ayrı değil: harf rozetleri
+	 * tek bir dikey hizada durmalı ve şık metinleri ortak bir sol kenardan
+	 * başlamalı. Satırları tek tek ortalamak, çoktan seçmeli bir listeyi
+	 * okunmaz hâle getiriyordu.
+	 */
+	const enGenisSik = sikKutulari.reduce(
+		(en, kutu) =>
+			Math.max(
+				en,
+				...kutu.satirlar.map((satir) => metinGenisligi(satir, kutu.boyut)),
+			),
+		0,
+	);
+	const sikSol = MERKEZ - (SIK_GIRINTI + enGenisSik) / 2;
 
 	sikKutulari.forEach((kutu, index) => {
 		const harf = String.fromCharCode(65 + index);
 		const merkez = y + kutu.boyut * 0.6;
 
 		parcalar.push(
-			`<circle cx="${PAD + 22}" cy="${merkez}" r="22" fill="#ffffff" opacity="0.14"/>`,
+			`<circle cx="${sikSol + ROZET_YARICAP}" cy="${merkez}" r="${ROZET_YARICAP}" fill="#ffffff" opacity="0.14"/>`,
 			yazi(harf, {
-				x: PAD + 22 - metinGenisligi(harf, 24, true) / 2,
+				x: sikSol + ROZET_YARICAP,
 				y: merkez + 8,
 				boyut: 24,
 				kalin: true,
 				opaklik: 0.9,
+				ortala: true,
 			}),
-			satirlariYaz(kutu.satirlar, PAD + 76, y, kutu.boyut, {
+			satirlariYaz(kutu.satirlar, sikSol + SIK_GIRINTI, y, kutu.boyut, {
 				opaklik: 0.95,
 			}),
 		);
@@ -450,25 +500,30 @@ export function kartSvg(icerik: KartIcerigi): string {
 		// emojiler sorunsuzdur — onları platform kendisi render eder.
 		const dayanak = kutuyaSigdir(
 			`Dayanak · ${icerik.dayanak}`,
-			ICERIK_GENISLIGI,
+			GUVENLI_GENISLIK,
 			DAYANAK_YUKSEKLIGI,
 			[26, 24, 22],
 		);
 
 		parcalar.push(
-			satirlariYaz(dayanak.satirlar, PAD, DAYANAK_Y, dayanak.boyut, {
+			satirlariYaz(dayanak.satirlar, MERKEZ, DAYANAK_Y, dayanak.boyut, {
 				opaklik: 0.72,
+				ortala: true,
 			}),
 		);
 	}
 
+	const markaGenislik = metinGenisligi(MARKA_ADI, 30, true);
+	// Logo (52) + logo-metin arası (16) + marka adı = künyenin toplam eni.
+	const kunyeSol = MERKEZ - (52 + 16 + markaGenislik) / 2;
+
 	parcalar.push(
-		`<path d="M${PAD} ${KUNYE_Y} H${KART_BOYUT - PAD}" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"/>`,
-		`<g transform="translate(${PAD} ${KUNYE_Y + 24}) scale(${52 / CANVAS})">
+		`<path d="M${MERKEZ - GUVENLI_GENISLIK / 2} ${KUNYE_Y} H${MERKEZ + GUVENLI_GENISLIK / 2}" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"/>`,
+		`<g transform="translate(${kunyeSol} ${KUNYE_Y + 24}) scale(${52 / CANVAS})">
     <path d="${COLUMN_PATH}" fill="#ffffff"/>
   </g>`,
 		yazi(MARKA_ADI, {
-			x: PAD + 68,
+			x: kunyeSol + 52 + 16,
 			y: KUNYE_Y + 62,
 			boyut: 30,
 			kalin: true,
@@ -476,7 +531,7 @@ export function kartSvg(icerik: KartIcerigi): string {
 		}),
 	);
 
-	return `<svg width="${KART_BOYUT}" height="${KART_BOYUT}" viewBox="0 0 ${KART_BOYUT} ${KART_BOYUT}" xmlns="http://www.w3.org/2000/svg">
+	return `<svg width="${KART_GEN}" height="${KART_YUK}" viewBox="0 0 ${KART_GEN} ${KART_YUK}" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="zemin" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="${BRAND_LIGHT}"/>
@@ -484,9 +539,9 @@ export function kartSvg(icerik: KartIcerigi): string {
       <stop offset="100%" stop-color="${BRAND_DARK}"/>
     </linearGradient>
   </defs>
-  <rect width="${KART_BOYUT}" height="${KART_BOYUT}" fill="url(#zemin)"/>
-  <circle cx="${KART_BOYUT - 60}" cy="-40" r="260" fill="${ACCENT}" opacity="0.10"/>
-  <circle cx="-80" cy="${KART_BOYUT + 60}" r="300" fill="#ffffff" opacity="0.05"/>
+  <rect width="${KART_GEN}" height="${KART_YUK}" fill="url(#zemin)"/>
+  <circle cx="${KART_GEN - 60}" cy="-40" r="280" fill="${ACCENT}" opacity="0.10"/>
+  <circle cx="-80" cy="${KART_YUK + 60}" r="320" fill="#ffffff" opacity="0.05"/>
   ${parcalar.join("\n  ")}
 </svg>`;
 }

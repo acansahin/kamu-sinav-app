@@ -43,12 +43,34 @@ const GEN = 1080;
 const YUK = 1350;
 const PAD = 76;
 const ICERIK = GEN - PAD * 2;
+const MERKEZ = GEN / 2;
+/*
+ * Metin, profil ızgarasının 3:4 kırpmasına karşı ortalanır ve dar tutulur.
+ * Kartlarla (card.ts) aynı kural — akışta tek bir sistem gibi görünsün.
+ */
+const GUVENLI_GENISLIK = 920;
 
-/** Telefon görselinin genişliği ve üst kenarı. */
-const TEL_GEN = 616;
-const TEL_UST = 596;
-/** Ekran görüntüsü 1080×1920; ölçek buradan gelir. */
-const TEL_YUK = Math.round((TEL_GEN * 1920) / 1080);
+/**
+ * Ekran görüntüsünün yerleşimi.
+ *
+ * ⚠️ **Tüm ekranı sığdırmak İŞE YARAMIYOR.** İlk sürümde görsel 1080'den 616
+ * piksele küçülüyordu (%57) ve uygulamanın kendi yazısı Instagram akışında —
+ * kart telefonda ~430 piksele indiği için — 11 piksele denk gelip okunmaz
+ * hâle geliyordu. Kullanıcı bildirdi: "ana sayfada sol taraftaki yazılar
+ * okunmuyor."
+ *
+ * Çözüm: ekranın TAMAMINI göstermeyi bırakmak. Görsel içerik genişliğini
+ * kaplıyor (%86 ölçek) ve dikeyde yalnızca ilgili bölge kırpılıyor. Yazı
+ * neredeyse özgün boyutunda kalıyor.
+ */
+const EKRAN_GEN = ICERIK;
+const EKRAN_UST = 600;
+const EKRAN_YUK = YUK - EKRAN_UST;
+/** Kaynak ekran görüntüsünün ölçüleri. */
+const KAYNAK_GEN = 1080;
+const KAYNAK_YUK = 1920;
+/** Kırpılacak kaynak yüksekliği — hedef kutuyu tam dolduracak kadar. */
+const KAYNAK_KIRPMA = Math.round((EKRAN_YUK * KAYNAK_GEN) / EKRAN_GEN);
 const KOSE = 40;
 
 type Slayt = {
@@ -58,6 +80,12 @@ type Slayt = {
 	alt?: string;
 	/** `store/assets/screenshots/` içindeki dosya adı; yoksa metin slaydı. */
 	gorsel?: string;
+	/**
+	 * Kırpmanın kaynak görselde nereden başlayacağı (0–1 arası oran).
+	 * Her slaytta gösterilmek istenen bölge farklı: cevabın yeşil kutusu
+	 * yukarıda, deneme kartı aşağıda.
+	 */
+	odak?: number;
 	/** Madde listesi — yalnızca metin slaytlarında; telefon varsa yer yok. */
 	liste?: string[];
 	/** Listenin altındaki tek vurgulu satır (adres vb.). */
@@ -86,6 +114,8 @@ const SLAYTLAR: Slayt[] = [
 		baslik: "Her cevapta mevzuat dayanağı ve gerekçe.",
 		alt: "Hangi kanunun hangi maddesi olduğu ekranda yazar. Ezber değil, hüküm.",
 		gorsel: "03-test-cozme.png",
+		// Yeşil "Doğru" kutusu ve mevzuat künyesi ekranın üst yarısında.
+		odak: 0.09,
 	},
 	{
 		dosya: "03-tarihli-ozet.jpg",
@@ -93,6 +123,11 @@ const SLAYTLAR: Slayt[] = [
 		baslik: "Her konu özeti tarihli.",
 		alt: "Hangi mevzuat sürümüne dayandığı ve en son ne zaman doğrulandığı yazar. Mevzuat sık değişir.",
 		gorsel: "02-konu-ozeti.png",
+		/*
+		 * Kaynak görüntü artık künyeye kaydırılmış hâlde çekiliyor
+		 * (capture-store-screenshots.ts), yani ilgili blok en üstte.
+		 */
+		odak: 0.02,
 	},
 	{
 		dosya: "04-deneme.jpg",
@@ -100,6 +135,8 @@ const SLAYTLAR: Slayt[] = [
 		baslik: "Gerçek sınav formatında süreli denemeler.",
 		alt: "Ders dağılımı, süre ve başarı eşiği sınavdaki gibi. Yanlış doğruyu götürmez.",
 		gorsel: "04-deneme-sinavi.png",
+		// Deneme kartı: süre, başarı eşiği ve ders dağılımı.
+		odak: 0.35,
 	},
 	{
 		dosya: "05-ilkeler.jpg",
@@ -107,6 +144,13 @@ const SLAYTLAR: Slayt[] = [
 		baslik: "Reklam yok. Hesap yok. İnternet gerekmez.",
 		alt: "Çalışma verileriniz yalnızca cihazınızda kalır; hiçbir sunucuya gönderilmez.",
 		gorsel: "01-ana-sayfa.png",
+		/*
+		 * Tepeden başlar: uygulama başlığı ve "Merhaba" bloğu açık zeminli,
+		 * kartın koyu gradyanıyla kontrast veriyor. Daha aşağıdan kırpmak
+		 * "kaldığın yerden devam" kartını öne çıkarıyordu; o kart 1.3.0'dan
+		 * beri koyu bir kahraman yüzeyi ve kartın koyu zemininde çamurluyor.
+		 */
+		odak: 0,
 	},
 	{
 		dosya: "06-cagri.jpg",
@@ -126,6 +170,8 @@ type YaziSecenek = {
 	kalin?: boolean;
 	opaklik?: number;
 	harfAraligi?: number;
+	/** true ise `x` metnin ORTASIDIR, sol kenarı değil. */
+	ortala?: boolean;
 };
 
 function yazi(metin: string, o: YaziSecenek): string {
@@ -135,6 +181,7 @@ function yazi(metin: string, o: YaziSecenek): string {
 		o.kalin ? 'font-weight="bold"' : "",
 		o.opaklik !== undefined ? `opacity="${o.opaklik}"` : "",
 		o.harfAraligi ? `letter-spacing="${o.harfAraligi}"` : "",
+		o.ortala ? 'text-anchor="middle"' : "",
 		`>${xmlKacir(metin)}</text>`,
 	]
 		.filter(Boolean)
@@ -164,47 +211,58 @@ function zeminSvg(slayt: Slayt): string {
 	const p: string[] = [];
 	const metinSlaydi = !slayt.gorsel;
 
-	let y = 96;
+	let y = 128;
 
 	if (slayt.rozet) {
 		const rb = 24;
 		const genislik = metinGenisligi(slayt.rozet, rb, true) + 52;
 
 		p.push(
-			`<path d="${roundedRect(PAD, y, genislik, 52, 26)}" fill="#ffffff" opacity="0.16"/>`,
+			`<path d="${roundedRect(MERKEZ - genislik / 2, y, genislik, 52, 26)}" fill="#ffffff" opacity="0.16"/>`,
 			yazi(slayt.rozet, {
-				x: PAD + 26,
+				x: MERKEZ,
 				y: y + 34,
 				boyut: rb,
 				kalin: true,
 				harfAraligi: 1.4,
+				ortala: true,
 			}),
 		);
 		y += 92;
 	}
 
 	// Metin slaydında telefon yok: başlık hem daha büyük hem daha uzun olabilir.
-	const baslikAlani = metinSlaydi ? 520 : TEL_UST - y - 200;
+	const baslikAlani = metinSlaydi ? 520 : EKRAN_UST - y - 200;
 	const baslik = kutuyaSigdir(
 		slayt.baslik,
-		ICERIK,
+		GUVENLI_GENISLIK,
 		baslikAlani,
 		metinSlaydi ? [86, 78, 70, 62, 54] : [64, 58, 52, 46, 40],
 		true,
 	);
 
-	p.push(satirlariYaz(baslik.satirlar, PAD, y, baslik.boyut, { kalin: true }));
+	p.push(
+		satirlariYaz(baslik.satirlar, MERKEZ, y, baslik.boyut, {
+			kalin: true,
+			ortala: true,
+		}),
+	);
 	y += baslik.yukseklik + (metinSlaydi ? 48 : 30);
 
 	if (slayt.alt) {
 		const alt = kutuyaSigdir(
 			slayt.alt,
-			ICERIK,
-			metinSlaydi ? 260 : TEL_UST - y - 36,
+			GUVENLI_GENISLIK,
+			metinSlaydi ? 260 : EKRAN_UST - y - 36,
 			metinSlaydi ? [40, 36, 32, 30] : [32, 30, 28, 26],
 		);
 
-		p.push(satirlariYaz(alt.satirlar, PAD, y, alt.boyut, { opaklik: 0.82 }));
+		p.push(
+			satirlariYaz(alt.satirlar, MERKEZ, y, alt.boyut, {
+				opaklik: 0.82,
+				ortala: true,
+			}),
+		);
 		y += alt.yukseklik + 52;
 	}
 
@@ -219,19 +277,28 @@ function zeminSvg(slayt: Slayt): string {
 
 		// Tek maddede madde imi konmaz: işaret bir listeyi ima eder, liste yok.
 		const imli = slayt.liste.length > 1;
+		const girinti = imli ? 34 : 0;
+		/*
+		 * Liste KÜME olarak ortalanır, satırlar tek tek değil: madde imleri tek
+		 * bir dikey hizada durmalı. `card.ts`teki şıklarla aynı kural.
+		 */
+		const enGenis = Math.max(
+			...slayt.liste.map((madde) => metinGenisligi(madde, boyut)),
+		);
+		const sol = MERKEZ - (girinti + enGenis) / 2;
 
 		slayt.liste.forEach((madde, i) => {
 			const satirY = y + i * 54;
 
 			if (imli) {
 				p.push(
-					`<circle cx="${PAD + 8}" cy="${satirY + boyut * 0.5}" r="6" fill="#ffffff" opacity="0.5"/>`,
+					`<circle cx="${sol + 8}" cy="${satirY + boyut * 0.5}" r="6" fill="#ffffff" opacity="0.5"/>`,
 				);
 			}
 
 			p.push(
 				yazi(madde, {
-					x: imli ? PAD + 34 : PAD,
+					x: sol + girinti,
 					y: satirY + boyut * 0.82,
 					boyut,
 					opaklik: 0.9,
@@ -243,51 +310,58 @@ function zeminSvg(slayt: Slayt): string {
 	}
 
 	if (slayt.vurgu) {
-		const vurgu = kutuyaSigdir(slayt.vurgu, ICERIK, 130, [46, 42, 38, 34], true);
-
-		p.push(satirlariYaz(vurgu.satirlar, PAD, y, vurgu.boyut, { kalin: true }));
-	}
-
-	// Telefon görselinin arkasındaki hafif çerçeve; görsel sonra composite edilir.
-	if (slayt.gorsel) {
-		const x = (GEN - TEL_GEN) / 2;
+		const vurgu = kutuyaSigdir(
+			slayt.vurgu,
+			GUVENLI_GENISLIK,
+			130,
+			[46, 42, 38, 34],
+			true,
+		);
 
 		p.push(
-			`<path d="${roundedRect(x - 10, TEL_UST - 10, TEL_GEN + 20, TEL_YUK + 20, KOSE + 10)}" fill="#ffffff" opacity="0.20"/>`,
+			satirlariYaz(vurgu.satirlar, MERKEZ, y, vurgu.boyut, {
+				kalin: true,
+				ortala: true,
+			}),
 		);
 	}
 
+
 	/*
-	 * Künye telefonlu slaytta sağ ÜSTTE durur (görsel alttan taştığı için alt
-	 * şerit yok), metin slaydında sol ALTTA. Metin slaydında üstte tutmak,
-	 * uzun rozetle çakışmasına yol açıyordu — genişlik ölçümü yaklaşık olduğu
-	 * için çakışma ancak üretilen görselde görülüyor.
+	 * Künye TÜM slaytlarda aynı yerde: en üstte, ortalı.
+	 *
+	 * Önceden telefonlu slaytta sağ üstte, metin slaydında sol alttaydı;
+	 * metin ortalanınca bu iki farklı konum kartı dengesiz gösteriyordu.
+	 * Alta konamıyor: telefon görseli alt kenardan taşıyor.
 	 */
 	const markaGen = metinGenisligi(MARKA_ADI, 26, true);
-	const kunyeX = metinSlaydi ? PAD + 58 : GEN - PAD - markaGen;
-	const kunyeY = metinSlaydi
-		? YUK - PAD - (slayt.not ? 108 : 0) - 30
-		: 122;
+	const kunyeSol = MERKEZ - (42 + 14 + markaGen) / 2;
 
 	p.push(
-		`<g transform="translate(${kunyeX - 58} ${kunyeY - 30}) scale(${42 / CANVAS})">
+		`<g transform="translate(${kunyeSol} 46) scale(${42 / CANVAS})">
     <path d="${COLUMN_PATH}" fill="#ffffff"/>
   </g>`,
 		yazi(MARKA_ADI, {
-			x: kunyeX,
-			y: kunyeY,
+			x: kunyeSol + 42 + 14,
+			y: 76,
 			boyut: 26,
 			kalin: true,
 			opaklik: 0.85,
 		}),
 	);
 
+	/*
+	 * Resmîlik uyarısı en altta. Çağrı slaydında ZORUNLU: uygulamanın resmî
+	 * olmadığı mağaza metninde de yazıyor ve tanıtım görselinde eksik kalması
+	 * yanlış izlenim bırakır.
+	 */
 	if (slayt.not) {
-		const not = kutuyaSigdir(slayt.not, ICERIK, 120, [24, 22, 20]);
+		const not = kutuyaSigdir(slayt.not, GUVENLI_GENISLIK, 120, [24, 22, 20]);
 
 		p.push(
-			satirlariYaz(not.satirlar, PAD, YUK - PAD - not.yukseklik, not.boyut, {
+			satirlariYaz(not.satirlar, MERKEZ, YUK - PAD - not.yukseklik, not.boyut, {
 				opaklik: 0.62,
+				ortala: true,
 			}),
 		);
 	}
@@ -307,17 +381,34 @@ function zeminSvg(slayt: Slayt): string {
 </svg>`;
 }
 
-/** Ekran görüntüsünü ölçekler ve köşelerini yuvarlar. */
-async function telefonGorseli(dosya: string): Promise<Buffer> {
+/**
+ * Ekran görüntüsünün ilgili bölgesini kırpar, kart genişliğine büyütür ve
+ * ÜST köşelerini yuvarlar.
+ *
+ * Alt köşeler yuvarlanmaz: görsel kartın alt kenarına dayanıyor, orada bir
+ * yuvarlama "havada duran" bir kutu izlenimi veriyordu. Maske bu yüzden
+ * hedeften `KOSE` kadar uzun çiziliyor — alttaki yuvarlama görünür alanın
+ * dışında kalıyor.
+ */
+async function telefonGorseli(dosya: string, odak = 0.1): Promise<Buffer> {
 	const ham = await readFile(path.join(SS_DIR, dosya));
+	const ust = Math.round(odak * KAYNAK_YUK);
+	// Kırpma kaynağın dışına taşamaz; taşarsa alt kenara yaslanır.
+	const guvenliUst = Math.min(ust, KAYNAK_YUK - KAYNAK_KIRPMA);
 	const maske = Buffer.from(
-		`<svg width="${TEL_GEN}" height="${TEL_YUK}" xmlns="http://www.w3.org/2000/svg">
-  <path d="${roundedRect(0, 0, TEL_GEN, TEL_YUK, KOSE)}" fill="#ffffff"/>
+		`<svg width="${EKRAN_GEN}" height="${EKRAN_YUK}" xmlns="http://www.w3.org/2000/svg">
+  <path d="${roundedRect(0, 0, EKRAN_GEN, EKRAN_YUK + KOSE, KOSE)}" fill="#ffffff"/>
 </svg>`,
 	);
 
 	return sharp(ham)
-		.resize(TEL_GEN, TEL_YUK, { fit: "fill" })
+		.extract({
+			left: 0,
+			top: Math.max(0, guvenliUst),
+			width: KAYNAK_GEN,
+			height: KAYNAK_KIRPMA,
+		})
+		.resize(EKRAN_GEN, EKRAN_YUK, { fit: "fill" })
 		.composite([{ input: maske, blend: "dest-in" }])
 		.png()
 		.toBuffer();
@@ -335,9 +426,9 @@ async function main(): Promise<void> {
 		const birlesik = slayt.gorsel
 			? sharp(await zemin.png().toBuffer()).composite([
 					{
-						input: await telefonGorseli(slayt.gorsel),
-						top: TEL_UST,
-						left: Math.round((GEN - TEL_GEN) / 2),
+						input: await telefonGorseli(slayt.gorsel, slayt.odak),
+						top: EKRAN_UST,
+						left: Math.round((GEN - EKRAN_GEN) / 2),
 					},
 				])
 			: zemin;
