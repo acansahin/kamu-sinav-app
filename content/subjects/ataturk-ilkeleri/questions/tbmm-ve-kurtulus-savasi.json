@@ -1,0 +1,326 @@
+[
+	{
+		"id": "ataturk-kurtulus-001",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türkiye Büyük Millet Meclisi hangi tarihte açılmıştır?",
+		"options": [
+			"20 Ocak 1921",
+			"29 Ekim 1923",
+			"16 Mart 1920",
+			"23 Nisan 1920",
+			"19 Mayıs 1919"
+		],
+		"correctIndex": 3,
+		"explanation": "İstanbul'un 16 Mart 1920'de resmen işgal edilmesi ve Mebusan Meclisi'nin dağıtılması üzerine Heyet-i Temsiliye Ankara'da olağanüstü yetkilere sahip bir meclis toplanması çağrısı yapmış, TBMM 23 Nisan 1920'de açılmıştır. Meclis Başkanlığına Mustafa Kemal seçilmiştir. 20 Ocak 1921 Teşkilat-ı Esasiye Kanunu'nun, 29 Ekim 1923 Cumhuriyet'in ilan tarihidir.",
+		"reference": {
+			"title": "TBMM Zabıt Ceridesi",
+			"section": "Devre 1, İçtima 1 (23 Nisan 1920)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tbmm"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-kurtulus-002",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Sakarya Meydan Muharebesi'nin kazanılması üzerine TBMM, Mustafa Kemal Paşa'ya aşağıdakilerden hangisini vermiştir?",
+		"options": [
+			"Gazi unvanı ve mareşal rütbesi",
+			"Başkomutanlık yetkisi ve mareşal rütbesi",
+			"Atatürk soyadı ve Gazi unvanı",
+			"Gazi unvanı ve orgeneral rütbesi",
+			"Başkomutanlık yetkisi ve Gazi unvanı"
+		],
+		"correctIndex": 0,
+		"explanation": "23 Ağustos-13 Eylül 1921 tarihleri arasında yapılan Sakarya Meydan Muharebesi'nin kazanılması üzerine TBMM, 19 Eylül 1921'de Mustafa Kemal Paşa'ya mareşal rütbesi ve Gazi unvanı vermiştir. Başkomutanlık yetkisi savaştan önce, 5 Ağustos 1921'de verilmişti; Atatürk soyadı ise 1934'te verilmiştir.",
+		"reference": {
+			"title": "TBMM'nin 19 Eylül 1921 tarihli kararı"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sakarya"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-kurtulus-003",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kurtuluş Savaşı döneminde TBMM Hükûmetinin imzaladığı ilk uluslararası antlaşma aşağıdakilerden hangisidir?",
+		"options": [
+			"Moskova Antlaşması",
+			"Gümrü Antlaşması",
+			"Ankara Antlaşması",
+			"Kars Antlaşması",
+			"Mudanya Ateşkes Antlaşması"
+		],
+		"correctIndex": 1,
+		"explanation": "Doğu Cephesi'nde Kâzım Karabekir Paşa komutasındaki ordunun başarısı üzerine Ermenistan ile 3 Aralık 1920'de imzalanan Gümrü Antlaşması, TBMM'nin ilk askerî ve siyasi başarısı ve imzaladığı ilk uluslararası antlaşmadır. Ermenistan bu antlaşmayla TBMM'yi ve Misak-ı Millî'yi tanıyan ilk devlet olmuştur. Moskova Mart 1921'de, Kars ve Ankara Ekim 1921'de, Mudanya Ekim 1922'de imzalanmıştır.",
+		"reference": {
+			"title": "Gümrü Antlaşması (3 Aralık 1920)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dogu-cephesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-kurtulus-004",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "TBMM'nin 20 Ocak 1921'de kabul ettiği ve millî egemenlik ilkesini \"Hâkimiyet bilâ kayd ü şart milletindir.\" ifadesiyle ortaya koyan belge hangisidir?",
+		"options": [
+			"Hıyanet-i Vataniye Kanunu",
+			"Kanun-i Esasi",
+			"Başkomutanlık Kanunu",
+			"Misak-ı Millî",
+			"Teşkilat-ı Esasiye Kanunu"
+		],
+		"correctIndex": 4,
+		"explanation": "Teşkilat-ı Esasiye Kanunu TBMM'nin kabul ettiği ilk anayasadır. 1. maddesi egemenliğin kayıtsız şartsız millete ait olduğunu ve yönetimin halkın kendi geleceğini bizzat yönetmesi esasına dayandığını belirtir. Kanun güçler birliği ilkesini ve meclis hükûmeti sistemini benimsemiştir. Kanun-i Esasi 1876'da Osmanlı döneminde ilan edilen anayasadır.",
+		"reference": {
+			"title": "Teşkilat-ı Esasiye Kanunu (20 Ocak 1921)",
+			"section": "m. 1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa",
+			"tbmm"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-kurtulus-005",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kütahya-Eskişehir Savaşları'nın ardından 5 Ağustos 1921'de çıkarılan Başkomutanlık Kanunu, Mustafa Kemal Paşa'ya TBMM'nin yetkilerini kullanma hakkını ilk olarak ne kadar süreyle vermiştir?",
+		"options": [
+			"Süresiz olarak",
+			"1 yıl",
+			"3 ay",
+			"6 ay",
+			"1 ay"
+		],
+		"correctIndex": 2,
+		"explanation": "Kütahya-Eskişehir Savaşları'nda ordunun Sakarya'nın doğusuna çekilmesi üzerine çıkarılan Başkomutanlık Kanunu, Mustafa Kemal Paşa'ya Meclisin yetkilerini ordu adına kullanma hakkını üç ay süreyle vermiştir. Süre daha sonra uzatılmış, 1922'de süre kaydı kaldırılmıştır.",
+		"reference": {
+			"title": "Başkomutanlık Kanunu (5 Ağustos 1921)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bati-cephesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-kurtulus-006",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Sakarya Meydan Muharebesi öncesinde ordunun ihtiyaçlarını karşılamak amacıyla halkın elindeki bazı malların belirli oranlarının orduya verilmesini sağlayan düzenleme aşağıdakilerden hangisidir?",
+		"options": [
+			"Teşvik-i Sanayi Kanunu",
+			"Hıyanet-i Vataniye Kanunu",
+			"Firariler Hakkında Kanun",
+			"Tekâlif-i Milliye Emirleri",
+			"Başkomutanlık Kanunu"
+		],
+		"correctIndex": 3,
+		"explanation": "Mustafa Kemal Paşa, Başkomutanlık Kanunu'nun kendisine verdiği yetkiye dayanarak 7-8 Ağustos 1921'de Tekâlif-i Milliye Emirleri'ni yayımlamıştır. Bu emirlerle yiyecek, giyecek, taşıt ve silah gibi ihtiyaçlar halkın katkısıyla karşılanmış ve ordu Sakarya'ya hazırlanmıştır. Teşvik-i Sanayi Kanunu 1927'de çıkarılmış bir ekonomi kanunudur.",
+		"reference": {
+			"title": "Tekâlif-i Milliye Emirleri (7-8 Ağustos 1921)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bati-cephesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-kurtulus-007",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Sevr Antlaşması'nı bazı değişikliklerle kabul ettirmek amacıyla toplanan ve TBMM Hükûmetinin İtilaf Devletlerince ilk kez uluslararası bir toplantıya çağrıldığı konferans aşağıdakilerden hangisidir?",
+		"options": [
+			"Paris Barış Konferansı",
+			"San Remo Konferansı",
+			"Londra Konferansı",
+			"Montrö Konferansı",
+			"Lozan Konferansı"
+		],
+		"correctIndex": 2,
+		"explanation": "Birinci İnönü Savaşı'nın ardından 21 Şubat-12 Mart 1921 tarihleri arasında toplanan Londra Konferansı'na İstanbul Hükûmetiyle birlikte TBMM Hükûmeti de çağrılmıştır. Böylece İtilaf Devletleri TBMM'nin varlığını fiilen kabul etmiş olmuştur. TBMM heyeti Misak-ı Millî'yi esas aldığı için konferanstan sonuç çıkmamıştır. San Remo Konferansı (1920) Sevr'in hazırlandığı konferanstır.",
+		"reference": {
+			"title": "Londra Konferansı (21 Şubat-12 Mart 1921)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"diplomasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-kurtulus-008",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "İtilaf Devletlerinden birinin TBMM Hükûmetini tanıdığı, Güney Cephesi'nde savaşı sona erdiren ve Hatay dışındaki güney sınırını büyük ölçüde belirleyen antlaşma aşağıdakilerden hangisidir?",
+		"options": [
+			"Ankara Antlaşması (20 Ekim 1921)",
+			"Moskova Antlaşması",
+			"Kars Antlaşması",
+			"Gümrü Antlaşması",
+			"Mudanya Ateşkes Antlaşması"
+		],
+		"correctIndex": 0,
+		"explanation": "Sakarya zaferinden sonra Fransa ile imzalanan 20 Ekim 1921 tarihli Ankara Antlaşması'yla Güney Cephesi kapanmış, Fransa TBMM'yi tanıyan ilk İtilaf devleti olmuş ve güney sınırı Hatay dışında belirlenmiştir; Hatay için özel bir yönetim öngörülmüştür. Antlaşma İtilaf cephesinde bir çatlak yaratmıştır. Kars ve Moskova antlaşmaları Sovyet cumhuriyetleriyle imzalanmıştır.",
+		"reference": {
+			"title": "Ankara Antlaşması (20 Ekim 1921)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"guney-cephesi",
+			"diplomasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-kurtulus-009",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdakilerden hangisi 11 Ekim 1922'de imzalanan Mudanya Ateşkes Antlaşması'nın sonuçlarından biridir?",
+		"options": [
+			"Musul meselesinin çözüme kavuşturulması",
+			"Doğu Trakya'nın savaş yapılmadan Türk yönetimine bırakılması",
+			"Hatay'ın Türkiye'ye katılması",
+			"Kapitülasyonların kaldırılması",
+			"Boğazların yönetiminin Türkiye'ye geçmesi"
+		],
+		"correctIndex": 1,
+		"explanation": "Büyük Taarruz'un ardından imzalanan Mudanya Ateşkesi'yle Doğu Trakya Yunan kuvvetlerince boşaltılmış ve savaş yapılmadan Türk yönetimine bırakılmıştır; İstanbul ve Boğazlar da TBMM yönetimine geçmiş, Osmanlı Hükûmetinin varlığı fiilen sona ermiştir. Kapitülasyonlar Lozan'da (1923), Boğazların tam egemenliği Montrö'de (1936) sağlanmış; Musul 1926'da İngiltere lehine sonuçlanmış, Hatay 1939'da Türkiye'ye katılmıştır.",
+		"reference": {
+			"title": "Mudanya Ateşkes Antlaşması (11 Ekim 1922)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mudanya"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-kurtulus-010",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki gelişmelerden hangisi Sakarya Meydan Muharebesi'nden sonra gerçekleşmiştir?",
+		"options": [
+			"Moskova Antlaşması'nın imzalanması",
+			"Teşkilat-ı Esasiye Kanunu'nun kabul edilmesi",
+			"Başkomutanlık Kanunu'nun çıkarılması",
+			"Londra Konferansı'nın toplanması",
+			"Kars Antlaşması'nın imzalanması"
+		],
+		"correctIndex": 4,
+		"explanation": "Sakarya Meydan Muharebesi 23 Ağustos-13 Eylül 1921 tarihleri arasında yapılmıştır. Kars Antlaşması 13 Ekim 1921'de imzalanarak doğu sınırı kesinleşmiştir. Teşkilat-ı Esasiye Kanunu (Ocak 1921), Londra Konferansı (Şubat-Mart 1921), Moskova Antlaşması (Mart 1921) ve Başkomutanlık Kanunu (5 Ağustos 1921) savaştan önceki gelişmelerdir.",
+		"reference": {
+			"title": "Kars Antlaşması (13 Ekim 1921)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kronoloji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

@@ -168,11 +168,38 @@ describe("yayımlanmış sorular", () => {
 		expect(new Set(ids).size).toBe(ids.length);
 	});
 
-	it("her sorunun mevzuat dayanağı vardır", async () => {
-		// Farklılaşma tezi (PROJECT_PLAN.md §4, taahhüt 1): referanssız soru olamaz.
-		const questions = await loadAllQuestions();
+	it("her sorunun dersinin gerektirdiği dayanağı vardır", async () => {
+		// Farklılaşma tezi (PROJECT_PLAN.md §4, taahhüt 1): mevzuat dersinde
+		// referanssız soru olamaz; kaynak dersinde mevzuat ya da kaynak şarttır.
+		const [manifest, questions] = await Promise.all([
+			loadManifest(),
+			loadAllQuestions(),
+		]);
+		const basisBySubject = new Map(
+			manifest.subjects.map((subject) => [subject.id, subject.basis]),
+		);
 		for (const question of questions) {
-			expect(question.legalRef.law.length).toBeGreaterThan(3);
+			const basis = basisBySubject.get(question.subjectId);
+			expect(basis, `${question.id}: dersi manifestte yok`).toBeDefined();
+			if (basis === "mevzuat") {
+				expect(question.legalRef?.law.length ?? 0, question.id).toBeGreaterThan(3);
+			}
+			if (basis === "kaynak") {
+				expect(
+					Boolean(question.legalRef) || Boolean(question.reference),
+					`${question.id}: dayanak yok`,
+				).toBe(true);
+			}
+		}
+	});
+
+	it("mevcut mevzuat derslerinin dayanak kuralı gevşemedi", async () => {
+		// `basis` varsayılanı "mevzuat"tır; bu dersler yanlışlıkla "kaynak" ya
+		// da "serbest"e çevrilirse legalRef zorunluluğu sessizce kalkardı.
+		const manifest = await loadManifest();
+		const legal = ["657-dmk", "anayasa", "etik", "resmi-yazisma", "devlet-teskilati", "guvenlik-sorusturmasi"];
+		for (const id of legal) {
+			expect(manifest.subjects.find((s) => s.id === id)?.basis, id).toBe("mevzuat");
 		}
 	});
 

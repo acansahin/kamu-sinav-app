@@ -1,0 +1,335 @@
+[
+	{
+		"id": "cografya-nufus-001",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Cumhuriyet döneminin ilk genel nüfus sayımı hangi yıl yapılmıştır?",
+		"options": [
+			"1950",
+			"1923",
+			"1927",
+			"1924",
+			"1935"
+		],
+		"correctIndex": 2,
+		"explanation": "Cumhuriyet döneminin ilk genel nüfus sayımı 28 Ekim 1927'de yapılmıştır. Sonraki sayımlar 1935'ten 1990'a kadar genellikle beş yılda bir, 1990 ile 2000 arasında on yıl arayla yapılmış; 2007'den itibaren Adrese Dayalı Nüfus Kayıt Sistemi ile nüfus her yıl belirlenmeye başlanmıştır.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Genel nüfus sayımları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-nufus-002",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türkiye'de nüfusu en kalabalık olan il aşağıdakilerden hangisidir?",
+		"options": [
+			"İstanbul",
+			"Ankara",
+			"Konya",
+			"Bursa",
+			"İzmir"
+		],
+		"correctIndex": 0,
+		"explanation": "İstanbul, sanayi, ticaret, hizmet ve ulaşım olanaklarının yoğunluğu ve aldığı yoğun göç nedeniyle Türkiye'nin en kalabalık ilidir; aynı zamanda aritmetik nüfus yoğunluğunun en yüksek olduğu ildir. Ankara ikinci, İzmir üçüncü sıradadır. Yüz ölçümü en büyük il ise Konya'dır.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Adrese Dayalı Nüfus Kayıt Sistemi sonuçları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-nufus-003",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye nüfusunun ikamet adreslerine göre her yıl belirlenmesini sağlayan Adrese Dayalı Nüfus Kayıt Sistemi sonuçları ilk kez hangi yıl için açıklanmıştır?",
+		"options": [
+			"2011",
+			"2007",
+			"2015",
+			"2000",
+			"1990"
+		],
+		"correctIndex": 1,
+		"explanation": "5490 sayılı Nüfus Hizmetleri Kanunu ile kurulan Adrese Dayalı Nüfus Kayıt Sistemi (ADNKS) sonuçları 2007'den beri her yıl açıklanmaktadır. Böylece nüfusu belirli bir günde herkesin evde kalmasını gerektiren geleneksel sayımlar sona ermiştir; son geleneksel genel nüfus sayımı 2000 yılında yapılmıştır.",
+		"legalRef": {
+			"law": "Nüfus Hizmetleri Kanunu",
+			"lawId": "5490",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5490.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-nufus-004",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Doğu ve Güneydoğu Anadolu'da hayvancılıkla uğraşan ailelerin yaz aylarında kullandığı, köye bağlı geçici kır yerleşmesi aşağıdakilerden hangisidir?",
+		"options": [
+			"Mezra",
+			"Kom",
+			"Divan",
+			"Oba",
+			"Dam"
+		],
+		"correctIndex": 1,
+		"explanation": "Kom, Doğu ve Güneydoğu Anadolu'da hayvancılık amacıyla kurulan, birkaç evden oluşan geçici yerleşmedir. Dam İç Anadolu'da ekili alanlara yakın kurulan geçici yerleşme, divan Batı Karadeniz'de birkaç mahallenin oluşturduğu idari birlik, oba konar-göçer toplulukların çadır yerleşmesi, mezra ise köye bağlı küçük sürekli ya da geçici yerleşmedir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"kom\" ve \"mezra\" maddeleri",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yerlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-nufus-005",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Doğu Karadeniz'de kırsal yerleşmelerin dağınık olmasının temel nedeni aşağıdakilerden hangisidir?",
+		"options": [
+			"Güvenlik ihtiyacının yüksek olması",
+			"Sanayi tesislerinin kırsal alana yayılmış olması",
+			"Geniş düzlüklerde makineli tarım yapılması",
+			"Arazinin engebeli olması ve su kaynaklarının her yerde bulunabilmesi",
+			"Su kaynaklarının kıt olması ve belirli noktalarda toplanması"
+		],
+		"correctIndex": 3,
+		"explanation": "Doğu Karadeniz'de her mevsim yağış olduğu için su hemen her yerde bulunur; engebeli arazide düz tarım alanları küçük parçalar hâlindedir. Aileler kendi arazilerinin yakınına yerleştiği için evler dağınıktır. İç Anadolu'da ise su kaynaklarının kıt olması ve düz arazi, yerleşmelerin su kaynakları çevresinde toplu olmasına yol açar.",
+		"reference": {
+			"title": "Meteoroloji Genel Müdürlüğü",
+			"section": "Karadeniz iklimi ve yağış dağılımı"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yerlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-nufus-006",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Türkiye'den Batı Avrupa'ya yönelik işgücü göçü, 1961 yılında hangi ülkeyle imzalanan anlaşmayla başlamıştır?",
+		"options": [
+			"Belçika",
+			"Hollanda",
+			"Fransa",
+			"Avusturya",
+			"Federal Almanya"
+		],
+		"correctIndex": 4,
+		"explanation": "Türkiye ile Federal Almanya arasında 30 Ekim 1961'de imzalanan işgücü anlaşması, Türkiye'den Batı Avrupa'ya düzenli işçi göçünü başlatmıştır. Benzer anlaşmalar daha sonra Avusturya, Hollanda, Belçika (1964) ve Fransa (1965) gibi ülkelerle de imzalanmıştır. Bu göç, dış göçün en önemli örneğidir.",
+		"reference": {
+			"title": "Türkiye-Federal Almanya İşgücü Anlaşması (30 Ekim 1961)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"goc"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-nufus-007",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Çukurova'da pamuk, Karadeniz'de fındık toplama dönemlerinde yaşanan nüfus hareketleri aşağıdaki göç türlerinden hangisine örnektir?",
+		"options": [
+			"Sürekli iç göç",
+			"Dış göç",
+			"Zorunlu göç",
+			"Mevsimlik işçi göçü",
+			"Beyin göçü"
+		],
+		"correctIndex": 3,
+		"explanation": "Mevsimlik işçi göçü, ekim, bakım veya harman gibi belirli dönemlerde yoğun işgücüne ihtiyaç duyulan yerlere geçici olarak yapılan ve iş bitince geri dönülen göçtür. Çukurova'da pamuk, Karadeniz'de fındık ve çay toplama, turizm bölgelerinde yaz sezonu bunun örnekleridir. Beyin göçü nitelikli insan gücünün yurt dışına gitmesidir.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Göç istatistikleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"goc"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-nufus-008",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Türkiye'de büyükşehir belediyesi bulunan il sayısı bugün kaçtır?",
+		"options": [
+			"29",
+			"16",
+			"14",
+			"81",
+			"30"
+		],
+		"correctIndex": 4,
+		"explanation": "12 Kasım 2012 tarihli 6360 sayılı Kanun on üç ilde büyükşehir belediyesi kurmuş, 2013'te 6447 sayılı Kanunla Ordu da bu maddeye eklenmiştir; Kanun'un adı bu yüzden bugün \"On Dört İlde Büyükşehir Belediyesi...\" biçimindedir. Mevcut on altı büyükşehire bu on dört ilin eklenmesiyle sayı otuz olmuştur. Bu illerde büyükşehir belediyesinin sınırları il mülki sınırlarıdır.",
+		"legalRef": {
+			"law": "On Dört İlde Büyükşehir Belediyesi ve Yirmi Yedi İlçe Kurulması ile Bazı Kanun ve Kanun Hükmünde Kararnamelerde Değişiklik Yapılmasına Dair Kanun",
+			"lawId": "6360",
+			"article": "1",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6360.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yerlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-nufus-009",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Tabanı geniş olan ve yukarı doğru hızla daralan bir nüfus piramidi aşağıdakilerden hangisini gösterir?",
+		"options": [
+			"Doğum oranının yüksek, genç nüfus oranının fazla olduğunu",
+			"Doğum oranının çok düşük olduğunu",
+			"Nüfus artış hızının sıfıra yakın olduğunu",
+			"Ortalama yaşam süresinin uzun olduğunu",
+			"Yaşlı nüfus oranının yüksek olduğunu"
+		],
+		"correctIndex": 0,
+		"explanation": "Nüfus piramidinin tabanı en genç yaş gruplarını gösterir. Tabanın geniş olması doğumların fazla olduğunu, yukarı doğru hızla daralması ise ileri yaşlara ulaşan nüfusun az olduğunu, yani ortalama yaşam süresinin kısa olduğunu gösterir. Bu biçim gelişmekte olan ülkelere özgüdür. Türkiye'de doğurganlık düştükçe piramidin tabanı daralmakta ve nüfus yaşlanmaktadır.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Nüfus piramitleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-nufus-010",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Toplam nüfusun ekili ve dikili alanların toplamına bölünmesiyle hesaplanan nüfus yoğunluğu aşağıdakilerden hangisidir?",
+		"options": [
+			"Kentsel nüfus yoğunluğu",
+			"Agrarik nüfus yoğunluğu",
+			"Fizyolojik nüfus yoğunluğu",
+			"Kırsal nüfus yoğunluğu",
+			"Aritmetik nüfus yoğunluğu"
+		],
+		"correctIndex": 2,
+		"explanation": "Aritmetik nüfus yoğunluğu toplam nüfusun toplam yüz ölçümüne, fizyolojik nüfus yoğunluğu toplam nüfusun ekili-dikili alana, agrarik nüfus yoğunluğu ise yalnızca kırsal (çiftçi) nüfusun ekili-dikili alana bölünmesiyle bulunur. Fizyolojik yoğunluk toprağın beslemek zorunda olduğu nüfus baskısını gösterir.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Nüfus yoğunluğu hesaplamaları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

@@ -1,0 +1,106 @@
+---
+topicId: sayisal-mantik/isci-hiz-ve-zaman-problemleri
+title: İşçi, Hız ve Zaman Problemleri
+legislationVersion: Mevzuata bağlı olmayan içerik — örnek çözümler hesaplanarak doğrulanmıştır
+lastVerifiedAt: "2026-09-16"
+keyPoints:
+  - Bir işi t günde bitiren kişi bir günde işin 1/t'sini yapar; birlikte çalışanların bir günlük işleri toplanır.
+  - Boşaltan musluğun bir saatlik katkısı dolduranınkinden çıkarılır.
+  - Birbirine doğru giden araçlarda hızlar toplanır, aynı yöne giden araçlarda hızların farkı alınır.
+  - Ortalama hız, toplam yolun toplam süreye bölümüdür; hızların aritmetik ortalaması değildir.
+  - Tren bir tünelden tamamen geçerken tünel uzunluğu ile trenin kendi uzunluğunun toplamı kadar yol alır.
+---
+
+Bu konudaki bütün problemler tek bir fikre dayanır: **birim zamanda yapılan iş**. İşçi için "bir
+günde işin ne kadarı", musluk için "bir saatte havuzun ne kadarı", araç için "bir saatte kaç
+kilometre". Birim hızı bulunca problem basit bir toplama ya da çıkarmaya dönüşür.
+
+## İşçi problemleri
+
+<Sayi>t günde bitiren kişi 1 günde işin 1/t'sini yapar</Sayi>
+
+Birlikte çalışanların bir günlük işleri **toplanır**:
+
+- Ahmet 6 günde, Mehmet 12 günde bitiriyorsa birlikte bir günde 1/6 + 1/12 = 1/4 → **4 gün**.
+
+İki kişi için kısa formül: **birlikte süre = (a × b) ÷ (a + b)** → (6 × 12) ÷ 18 = 4.
+
+<Tuzak>
+Birlikte çalışma süresi, **hızlı olanın tek başına süresinden her zaman kısadır**. Sürelerin
+ortalamasını almak (9 gün) ya da toplamak mantıksal olarak imkânsız bir sonuç verir; şıklarda
+böyle bir değer görürseniz eleyin.
+</Tuzak>
+
+### Aynı güçteki işçiler
+
+İşçi sayısı ile süre **ters orantılıdır**. İşin büyüklüğü işçi × gün olarak sabittir:
+
+5 işçi × 12 gün = 60 işçi-gün → 4 işçi **15** günde bitirir.
+
+### Birlikte başlayıp ayrılma
+
+A 10 günde, B 15 günde bitiriyor; birlikte 4 gün çalışıp A ayrılıyor:
+
+1. Birlikte bir günde 1/10 + 1/15 = 1/6
+2. 4 günde 4/6 = 2/3 biter, 1/3 kalır
+3. B kalan 1/3'ü (1/3) ÷ (1/15) = **5 günde** bitirir
+
+## Havuz problemleri
+
+Havuz problemleri işçi problemlerinin aynısıdır; tek fark **boşaltan muslukların eksi işaretli**
+olmasıdır.
+
+- A 4 saatte dolduruyor, B 6 saatte boşaltıyor → bir saatte 1/4 − 1/6 = 1/12 → **12 saatte** dolar.
+
+<Kritik>
+Boşaltan musluk dolduran musluktan daha hızlıysa (bir saatlik farkı eksi çıkarsa) havuz boşken
+açıldığında **hiç dolmaz**. Şıklarda sayısal bir süre varsa önce işaretin artı olduğunu kontrol edin.
+</Kritik>
+
+## Hız problemleri
+
+<Sayi>yol = hız × süre</Sayi>
+
+Süreyi ondalık saate doğru çevirin: 3 saat 30 dakika **3,5 saattir**, 3,3 saat değildir.
+80 km/sa hızla 3 saat 30 dakikada 80 × 3,5 = **280 km** gidilir.
+
+### İki araç
+
+| Durum | Aradaki mesafe her saat | Formül |
+|---|---|---|
+| Birbirine doğru (karşılaşma) | Hızların **toplamı** kadar kapanır | süre = mesafe ÷ (v₁ + v₂) |
+| Aynı yöne (yakalama) | Hızların **farkı** kadar kapanır | süre = aradaki fark ÷ (v₂ − v₁) |
+
+- 360 km aradan 70 ve 50 km/sa hızla birbirine doğru → 360 ÷ 120 = **3 saat**.
+- 50 km/sa araç 2 saat önce çıkmışsa arada 100 km vardır; 75 km/sa araç 100 ÷ 25 = **4 saatte** yakalar.
+
+### Ortalama hız
+
+<Tuzak>
+Gidişte 60, dönüşte 40 km/sa hızla aynı yolu gidip dönen aracın ortalama hızı **50 değildir**.
+Ortalama hız = toplam yol ÷ toplam süre. Yol 120 km alınırsa gidiş 2, dönüş 3 saat sürer:
+240 ÷ 5 = **48 km/sa**. Yavaş gidilen kısımda daha uzun süre geçtiği için ortalama yavaş hıza yaklaşır.
+</Tuzak>
+
+Eşit yollar için kısa formül: **ortalama hız = 2 × v₁ × v₂ ÷ (v₁ + v₂)**.
+
+### Tren ve tünel
+
+Trenin tünele girmeye başladığı andan **tamamen çıktığı** ana kadar aldığı yol:
+
+<Sayi>tünel uzunluğu + tren uzunluğu</Sayi>
+
+200 m tren, 800 m tünelden 50 saniyede geçiyorsa hız (800 + 200) ÷ 50 = **20 m/sn**. Bir direğin ya
+da bir insanın önünden geçerken ise yalnızca trenin kendi uzunluğu kadar yol alınır.
+
+## Saat açıları
+
+- Yelkovan dakikada **6°**, akrep dakikada **0,5°** döner.
+- Saat başında akrep, saat × 30° konumundadır.
+
+3.30'da yelkovan 30 × 6 = 180°'de, akrep 3 × 30 + 30 × 0,5 = 105°'dedir; aradaki açı **75°**'dir.
+
+<Kritik>
+Akrebin dakika ilerledikçe **kendisinin de hareket ettiğini** unutmayın. 3.30'da akrep tam 3'ün
+üzerinde değil, 3 ile 4'ün ortasındadır.
+</Kritik>

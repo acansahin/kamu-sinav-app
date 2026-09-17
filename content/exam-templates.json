@@ -10,19 +10,19 @@
 		"distribution": [
 			{
 				"subjectId": "657-dmk",
-				"count": 8
+				"count": 4
 			},
 			{
 				"subjectId": "anayasa",
-				"count": 5
-			},
-			{
-				"subjectId": "etik",
 				"count": 3
 			},
 			{
-				"subjectId": "resmi-yazisma",
+				"subjectId": "etik",
 				"count": 2
+			},
+			{
+				"subjectId": "resmi-yazisma",
+				"count": 1
 			},
 			{
 				"subjectId": "devlet-teskilati",
@@ -30,6 +30,30 @@
 			},
 			{
 				"subjectId": "guvenlik-sorusturmasi",
+				"count": 1
+			},
+			{
+				"subjectId": "turkce",
+				"count": 2
+			},
+			{
+				"subjectId": "sayisal-mantik",
+				"count": 2
+			},
+			{
+				"subjectId": "ataturk-ilkeleri",
+				"count": 1
+			},
+			{
+				"subjectId": "yakin-tarih",
+				"count": 1
+			},
+			{
+				"subjectId": "cografya",
+				"count": 1
+			},
+			{
+				"subjectId": "edebiyat",
 				"count": 1
 			}
 		]
@@ -45,27 +69,51 @@
 		"distribution": [
 			{
 				"subjectId": "657-dmk",
-				"count": 17
+				"count": 12
 			},
 			{
 				"subjectId": "anayasa",
-				"count": 13
+				"count": 7
 			},
 			{
 				"subjectId": "etik",
-				"count": 9
+				"count": 5
 			},
 			{
 				"subjectId": "resmi-yazisma",
-				"count": 4
+				"count": 3
 			},
 			{
 				"subjectId": "devlet-teskilati",
-				"count": 4
+				"count": 3
 			},
 			{
 				"subjectId": "guvenlik-sorusturmasi",
 				"count": 3
+			},
+			{
+				"subjectId": "turkce",
+				"count": 5
+			},
+			{
+				"subjectId": "sayisal-mantik",
+				"count": 4
+			},
+			{
+				"subjectId": "ataturk-ilkeleri",
+				"count": 2
+			},
+			{
+				"subjectId": "yakin-tarih",
+				"count": 2
+			},
+			{
+				"subjectId": "cografya",
+				"count": 2
+			},
+			{
+				"subjectId": "edebiyat",
+				"count": 2
 			}
 		]
 	},
@@ -80,27 +128,51 @@
 		"distribution": [
 			{
 				"subjectId": "657-dmk",
-				"count": 28
+				"count": 24
 			},
 			{
 				"subjectId": "anayasa",
-				"count": 20
+				"count": 15
 			},
 			{
 				"subjectId": "etik",
-				"count": 13
+				"count": 10
 			},
 			{
 				"subjectId": "resmi-yazisma",
-				"count": 8
+				"count": 7
 			},
 			{
 				"subjectId": "devlet-teskilati",
-				"count": 7
+				"count": 6
 			},
 			{
 				"subjectId": "guvenlik-sorusturmasi",
 				"count": 4
+			},
+			{
+				"subjectId": "turkce",
+				"count": 6
+			},
+			{
+				"subjectId": "ataturk-ilkeleri",
+				"count": 4
+			},
+			{
+				"subjectId": "sayisal-mantik",
+				"count": 1
+			},
+			{
+				"subjectId": "yakin-tarih",
+				"count": 1
+			},
+			{
+				"subjectId": "cografya",
+				"count": 1
+			},
+			{
+				"subjectId": "edebiyat",
+				"count": 1
 			}
 		]
 	}

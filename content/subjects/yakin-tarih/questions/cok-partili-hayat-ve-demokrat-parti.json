@@ -1,0 +1,322 @@
+[
+	{
+		"id": "yakin-dp-001",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Demokrat Parti hangi tarihte kurulmuştur?",
+		"options": [
+			"18 Temmuz 1945",
+			"7 Ocak 1946",
+			"14 Mayıs 1950",
+			"7 Haziran 1945",
+			"21 Temmuz 1946"
+		],
+		"correctIndex": 1,
+		"explanation": "Demokrat Parti 7 Ocak 1946'da Celal Bayar, Adnan Menderes, Refik Koraltan ve Fuat Köprülü tarafından kurulmuş, genel başkanlığına Celal Bayar getirilmiştir. 7 Haziran 1945 Dörtlü Takrir'in verildiği, 18 Temmuz 1945 Millî Kalkınma Partisi'nin kurulduğu, 21 Temmuz 1946 genel seçimlerin yapıldığı, 14 Mayıs 1950 ise DP'nin iktidara geldiği seçimin tarihidir.",
+		"reference": {
+			"title": "Demokrat Parti'nin kuruluşu (7 Ocak 1946)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cok-partili-hayat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-dp-002",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türkiye Kuzey Atlantik Antlaşması Örgütüne (NATO) hangi yıl üye olmuştur?",
+		"options": [
+			"1963",
+			"1945",
+			"1949",
+			"1952",
+			"1955"
+		],
+		"correctIndex": 3,
+		"explanation": "Türkiye, Kore Savaşı'na asker göndermesinin de etkisiyle Yunanistan ile birlikte 18 Şubat 1952'de NATO'ya üye olmuştur. NATO 1949'da kurulmuştur. 1945 Birleşmiş Milletler'in kurulduğu, 1955 Bağdat Paktı'nın imzalandığı, 1963 Ankara Antlaşması'nın imzalandığı yıldır.",
+		"reference": {
+			"title": "Kuzey Atlantik Antlaşması'na katılım (18 Şubat 1952)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-dp-003",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Çiftçiyi Topraklandırma Kanunu'nun görüşmeleri sırasında, 7 Haziran 1945'te CHP Meclis Grubuna verilen ve demokratikleşme taleplerini içeren Dörtlü Takrir'i imzalayanlar arasında aşağıdakilerden hangisi yoktur?",
+		"options": [
+			"Celal Bayar",
+			"Fuat Köprülü",
+			"Refik Koraltan",
+			"İsmet İnönü",
+			"Adnan Menderes"
+		],
+		"correctIndex": 3,
+		"explanation": "Dörtlü Takrir, CHP milletvekilleri Celal Bayar, Adnan Menderes, Refik Koraltan ve Fuat Köprülü tarafından 7 Haziran 1945'te verilmiştir. Önerge Anayasa'nın ve millî egemenlik ilkesinin tam uygulanmasını, parti içi demokrasiyi ve siyasi özgürlükleri istemiş; reddedilince imzacılar partiden ayrılarak Demokrat Parti'yi kurmuştur. İsmet İnönü o sırada Cumhurbaşkanı ve CHP Genel Başkanıdır.",
+		"reference": {
+			"title": "Dörtlü Takrir (7 Haziran 1945)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cok-partili-hayat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-dp-004",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "21 Temmuz 1946 genel seçimlerinde uygulanan oy verme ve sayım yöntemi aşağıdakilerden hangisidir?",
+		"options": [
+			"Açık oy, açık sayım",
+			"İki dereceli seçim",
+			"Gizli oy, açık sayım",
+			"Gizli oy, gizli sayım",
+			"Açık oy, gizli sayım"
+		],
+		"correctIndex": 4,
+		"explanation": "Çok partili dönemin ilk genel seçimi olan 21 Temmuz 1946 seçimleri tek dereceli yapılmış, ancak oylar açık verilip gizli sayılmıştır. Bu yöntem seçimlerin güvenilirliğine ilişkin tartışmalara yol açmıştır. Gizli oy, açık sayım ve yargı denetimi esası 1950 seçim kanunuyla getirilmiştir. İki dereceli seçim sistemi 1946'dan önce uygulanıyordu.",
+		"reference": {
+			"title": "1946 genel seçimleri (21 Temmuz 1946)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"secimler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-dp-005",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Cumhurbaşkanı İsmet İnönü'nün iktidar ile muhalefet partilerine eşit mesafede duracağını açıkladığı belge aşağıdakilerden hangisidir?",
+		"options": [
+			"Dörtlü Takrir",
+			"12 Temmuz Beyannamesi",
+			"Hürriyet Misakı",
+			"Misak-ı İktisadi",
+			"Vatan Cephesi Bildirisi"
+		],
+		"correctIndex": 1,
+		"explanation": "İnönü, iktidar ile muhalefet arasındaki gerginliğin artması üzerine 12 Temmuz 1947'de yayımladığı beyannameyle Cumhurbaşkanı olarak iki partiye de eşit mesafede olacağını açıklamış ve çok partili hayatın sürmesine güvence vermiştir. Hürriyet Misakı DP'nin 1947 kongresinde kabul ettiği bildiridir; Vatan Cephesi 1958'de DP'nin başlattığı kampanyadır.",
+		"reference": {
+			"title": "12 Temmuz Beyannamesi (12 Temmuz 1947)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cok-partili-hayat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-dp-006",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "14 Mayıs 1950 genel seçimlerinden önce 1950'de kabul edilen seçim kanunuyla getirilen esas aşağıdakilerden hangisidir?",
+		"options": [
+			"İki dereceli seçim sistemine dönülmesi",
+			"Millî bakiye sisteminin uygulanması",
+			"Gizli oy, açık sayım ve yargı güvencesi",
+			"Kadınlara seçme ve seçilme hakkı tanınması",
+			"Açık oy, gizli sayım"
+		],
+		"correctIndex": 2,
+		"explanation": "16 Şubat 1950'de kabul edilen seçim kanunu gizli oy, açık sayım ve seçimlerin yargı gözetiminde yapılması esasını getirmiştir. Bu kanunla yapılan 14 Mayıs 1950 seçimlerini Demokrat Parti kazanmış; Celal Bayar Cumhurbaşkanı, Adnan Menderes Başbakan olmuştur. Kadınlara milletvekili seçme ve seçilme hakkı 1934'te tanınmış, millî bakiye sistemi 1965 seçimlerinde uygulanmıştır.",
+		"reference": {
+			"title": "Milletvekilleri Seçimi Kanunu (16 Şubat 1950)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"secimler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-dp-007",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1947'de Sovyet tehdidine karşı Türkiye ve Yunanistan'a askerî ve ekonomik yardım yapılmasını öngören ABD politikası aşağıdakilerden hangisidir?",
+		"options": [
+			"Marshall Planı",
+			"Eisenhower Doktrini",
+			"Nixon Doktrini",
+			"Monroe Doktrini",
+			"Truman Doktrini"
+		],
+		"correctIndex": 4,
+		"explanation": "ABD Başkanı Harry Truman'ın 12 Mart 1947'de Kongre'ye sunduğu Truman Doktrini, komünizmin yayılmasını önlemek amacıyla Türkiye ve Yunanistan'a askerî ve ekonomik yardım yapılmasını öngörmüştür. Marshall Planı (1948) Avrupa ülkelerinin savaş sonrası ekonomik kalkınmasını amaçlayan geniş kapsamlı bir yardım programıdır; Eisenhower Doktrini 1957'de Orta Doğu'ya yöneliktir.",
+		"reference": {
+			"title": "Truman Doktrini (12 Mart 1947)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-dp-008",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1955'te Türkiye ile Irak arasında imzalanan, daha sonra İngiltere, Pakistan ve İran'ın da katıldığı ve Irak'ın ayrılmasından sonra CENTO adını alan pakt aşağıdakilerden hangisidir?",
+		"options": [
+			"Balkan Paktı",
+			"Kuzey Atlantik Antlaşması",
+			"Bağdat Paktı",
+			"Varşova Paktı",
+			"Sadabat Paktı"
+		],
+		"correctIndex": 2,
+		"explanation": "Bağdat Paktı 24 Şubat 1955'te Türkiye ile Irak arasında imzalanmış, aynı yıl İngiltere, Pakistan ve İran katılmıştır. 1958 Irak darbesinin ardından Irak'ın 1959'da ayrılmasıyla örgüt Merkezî Antlaşma Teşkilatı (CENTO) adını almıştır. Sadabat Paktı 1937'de, Balkan Paktı 1953-1954'te imzalanmıştır; Varşova Paktı ise Sovyet Bloku'nun askerî örgütüdür.",
+		"reference": {
+			"title": "Bağdat Paktı (24 Şubat 1955)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-dp-009",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "1953 Ankara Antlaşması ve 1954 Bled Antlaşması ile oluşturulan Balkan Paktı'nın tarafları aşağıdakilerden hangisidir?",
+		"options": [
+			"Türkiye, Yunanistan ve Yugoslavya",
+			"Türkiye, Yunanistan ve Arnavutluk",
+			"Türkiye, Bulgaristan ve Yugoslavya",
+			"Türkiye, Yunanistan, Yugoslavya ve Romanya",
+			"Türkiye, Yunanistan ve Romanya"
+		],
+		"correctIndex": 0,
+		"explanation": "Balkan Paktı, 28 Şubat 1953 tarihli Ankara Antlaşması (dostluk ve iş birliği) ve 9 Ağustos 1954 tarihli Bled Antlaşması (ittifak) ile Türkiye, Yunanistan ve Yugoslavya arasında kurulmuştur. Türkiye, Yunanistan, Yugoslavya ve Romanya'dan oluşan yapı 1934 tarihli Balkan Antantı'dır. Kıbrıs sorunu ve Yugoslavya'nın Sovyetlerle yakınlaşması nedeniyle pakt etkisini yitirmiştir.",
+		"reference": {
+			"title": "Bled Antlaşması (9 Ağustos 1954)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-dp-010",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdakilerden hangisi Demokrat Parti iktidarı döneminde (1950-1960) gerçekleşmemiştir?",
+		"options": [
+			"Köy Enstitülerinin kurulması",
+			"Ezanın yeniden Arapça okunmasının serbest bırakılması",
+			"Halkevlerinin kapatılması",
+			"Atatürk Aleyhine İşlenen Suçlar Hakkında Kanun'un kabul edilmesi",
+			"Kore Savaşı'na asker gönderilmesi"
+		],
+		"correctIndex": 0,
+		"explanation": "Köy Enstitüleri 1940'ta, CHP iktidarı döneminde kurulmuştur. DP döneminde ezanın Arapça okunması serbest bırakılmış (Haziran 1950), Kore Savaşı'na asker gönderilmiş (1950), Halkevleri kapatılmış (1951) ve 25 Temmuz 1951 tarihli 5816 sayılı Atatürk Aleyhine İşlenen Suçlar Hakkında Kanun kabul edilmiştir.",
+		"reference": {
+			"title": "3803 sayılı Köy Enstitüleri Kanunu (17 Nisan 1940)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dp-donemi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

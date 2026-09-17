@@ -1,0 +1,47 @@
+{
+	"id": "ataturk-ilkeleri",
+	"name": "Atatürk İlkeleri ve İnkılap Tarihi",
+	"shortName": "İnkılap Tarihi",
+	"description": "Millî Mücadele'nin hazırlık dönemi, TBMM'nin açılışı ve Kurtuluş Savaşı, Lozan Barış Antlaşması ve siyasi inkılaplar, hukuk-eğitim-toplum-ekonomi alanındaki inkılaplar, Atatürk ilkeleri ve Atatürk dönemi dış politikası.",
+	"scope": "ortak",
+	"basis": "kaynak",
+	"order": 9,
+	"icon": "Flag",
+	"topics": [
+		{
+			"id": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+			"slug": "milli-mucadele-hazirlik-donemi",
+			"name": "Millî Mücadele'nin Hazırlık Dönemi",
+			"order": 1,
+			"estimatedMinutes": 11
+		},
+		{
+			"id": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+			"slug": "tbmm-ve-kurtulus-savasi",
+			"name": "TBMM'nin Açılışı ve Kurtuluş Savaşı",
+			"order": 2,
+			"estimatedMinutes": 11
+		},
+		{
+			"id": "ataturk-ilkeleri/lozan-ve-siyasi-inkilaplar",
+			"slug": "lozan-ve-siyasi-inkilaplar",
+			"name": "Lozan Barış Antlaşması ve Siyasi İnkılaplar",
+			"order": 3,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+			"slug": "hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+			"name": "Hukuk, Eğitim, Toplum ve Ekonomi Alanında İnkılaplar",
+			"order": 4,
+			"estimatedMinutes": 11
+		},
+		{
+			"id": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+			"slug": "ataturk-ilkeleri-ve-dis-politika",
+			"name": "Atatürk İlkeleri ve Atatürk Dönemi Dış Politika",
+			"order": 5,
+			"estimatedMinutes": 10
+		}
+	]
+}

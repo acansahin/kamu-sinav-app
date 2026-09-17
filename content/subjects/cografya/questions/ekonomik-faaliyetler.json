@@ -1,0 +1,334 @@
+[
+	{
+		"id": "cografya-ekonomi-001",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türkiye'de taşkömürü çıkarılan başlıca il aşağıdakilerden hangisidir?",
+		"options": [
+			"Kütahya",
+			"Zonguldak",
+			"Batman",
+			"Kahramanmaraş",
+			"Manisa"
+		],
+		"correctIndex": 1,
+		"explanation": "Türkiye'nin taşkömürü yatakları Zonguldak ve çevresinde (Bartın-Amasra dâhil) toplanmıştır. Kahramanmaraş-Afşin-Elbistan, Manisa-Soma ve Kütahya-Tunçbilek linyit, Batman ise petrol çıkarılan yerlerdir.",
+		"reference": {
+			"title": "Maden Tetkik ve Arama Genel Müdürlüğü",
+			"section": "Kömür yatakları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"madenler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-ekonomi-002",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türkiye'nin dünya rezervleri içinde en büyük paya sahip olduğu maden aşağıdakilerden hangisidir?",
+		"options": [
+			"Bakır",
+			"Demir",
+			"Krom",
+			"Boksit",
+			"Bor"
+		],
+		"correctIndex": 4,
+		"explanation": "Türkiye dünya bor rezervlerinin büyük bölümüne sahiptir. Başlıca bor yatakları Balıkesir (Bigadiç), Kütahya (Emet) ve Eskişehir (Kırka) çevresindedir; üretim Eti Maden tarafından yapılır. Krom Elazığ-Guleman ve Muğla-Fethiye, bakır Artvin-Murgul ve Kastamonu-Küre, demir Sivas-Divriği çevresinde çıkarılır.",
+		"reference": {
+			"title": "Eti Maden İşletmeleri Genel Müdürlüğü",
+			"section": "Bor rezervleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"madenler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-ekonomi-003",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye'nin ilk entegre demir-çelik fabrikası aşağıdaki illerden hangisinde kurulmuştur?",
+		"options": [
+			"Karabük",
+			"Sivas (Divriği)",
+			"Zonguldak (Ereğli)",
+			"Hatay (İskenderun)",
+			"Kırıkkale"
+		],
+		"correctIndex": 0,
+		"explanation": "Türkiye'nin ilk ağır sanayi tesisi olan Karabük Demir-Çelik Fabrikalarının temeli 3 Nisan 1937'de atılmıştır. Yerin seçiminde Zonguldak kömürüne yakınlık ve güvenlik etkili olmuştur. Ereğli (Erdemir) ve İskenderun (İsdemir) demir-çelik fabrikaları daha sonra kurulmuş; Divriği ise fabrika değil demir cevheri çıkarılan yerdir.",
+		"reference": {
+			"title": "Kardemir (Karabük Demir Çelik Fabrikaları)",
+			"section": "Kuruluş, 3 Nisan 1937"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sanayi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-ekonomi-004",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Konya-Seydişehir'deki alüminyum tesislerinde kullanılan başlıca maden aşağıdakilerden hangisidir?",
+		"options": [
+			"Barit",
+			"Bor",
+			"Manganez",
+			"Boksit",
+			"Krom"
+		],
+		"correctIndex": 3,
+		"explanation": "Alüminyumun hammaddesi boksittir. Konya'nın Seydişehir ilçesinde çevredeki boksit yataklarına dayanarak kurulan tesisler, Türkiye'de birincil alüminyum üreten tek kuruluştur. Krom paslanmaz çelik ve alaşımlarda, bor cam, seramik ve temizlik sanayisinde kullanılır.",
+		"reference": {
+			"title": "Maden Tetkik ve Arama Genel Müdürlüğü",
+			"section": "Boksit yatakları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"madenler",
+			"sanayi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-ekonomi-005",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye'nin ilk jeotermal enerji santrali aşağıdaki illerden hangisinde kurulmuştur?",
+		"options": [
+			"Afyonkarahisar",
+			"Aydın",
+			"Kütahya",
+			"Nevşehir",
+			"Denizli"
+		],
+		"correctIndex": 4,
+		"explanation": "Türkiye'nin ilk jeotermal elektrik santrali 1984'te Denizli'nin Sarayköy ilçesindeki Kızıldere'de kurulmuştur. Jeotermal kaynaklar Batı Anadolu'daki fay hatları boyunca yoğunlaşır; bugün Aydın (Germencik) ve Manisa çevresinde de çok sayıda jeotermal santral bulunmaktadır.",
+		"reference": {
+			"title": "Enerji ve Tabii Kaynaklar Bakanlığı",
+			"section": "Jeotermal enerji"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"enerji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-ekonomi-006",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Fırat Nehri üzerinde kurulu olan ve Türkiye'de kurulu gücü en yüksek hidroelektrik santraline sahip baraj aşağıdakilerden hangisidir?",
+		"options": [
+			"Karakaya Barajı",
+			"Hirfanlı Barajı",
+			"Keban Barajı",
+			"Atatürk Barajı",
+			"Ilısu Barajı"
+		],
+		"correctIndex": 3,
+		"explanation": "Güneydoğu Anadolu Projesi kapsamında Şanlıurfa-Adıyaman arasında Fırat üzerinde kurulan Atatürk Barajı, yaklaşık 2.400 MW kurulu gücüyle Türkiye'nin en büyük hidroelektrik santraline sahiptir. Keban ve Karakaya da Fırat üzerindedir; Ilısu Dicle'de, Hirfanlı Kızılırmak'tadır.",
+		"reference": {
+			"title": "Devlet Su İşleri Genel Müdürlüğü",
+			"section": "Atatürk Barajı ve Hidroelektrik Santrali"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"enerji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-ekonomi-007",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Türkiye'nin ilk nükleer güç santrali olan Akkuyu Nükleer Güç Santrali hangi ilde bulunmaktadır?",
+		"options": [
+			"Adana",
+			"Mersin",
+			"Zonguldak",
+			"Kırklareli",
+			"Sinop"
+		],
+		"correctIndex": 1,
+		"explanation": "Akkuyu Nükleer Güç Santrali Mersin'in Gülnar ilçesinde, Akdeniz kıyısında kurulmaktadır. Soğutma suyuna erişim nedeniyle nükleer santraller kıyıya kurulur. Sinop ve Kırklareli (İğneada) nükleer santral için değerlendirilen diğer sahalardır.",
+		"reference": {
+			"title": "Enerji ve Tabii Kaynaklar Bakanlığı",
+			"section": "Nükleer enerji — Akkuyu"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"enerji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-ekonomi-008",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Hazar Denizi havzasındaki petrolü Türkiye üzerinden Akdeniz'e taşıyan ve 2006'da faaliyete geçen boru hattı aşağıdakilerden hangisidir?",
+		"options": [
+			"Trans Anadolu Doğal Gaz Boru Hattı (TANAP)",
+			"Kerkük-Yumurtalık Ham Petrol Boru Hattı",
+			"Bakü-Tiflis-Ceyhan Ham Petrol Boru Hattı",
+			"Mavi Akım Doğal Gaz Boru Hattı",
+			"TürkAkım Doğal Gaz Boru Hattı"
+		],
+		"correctIndex": 2,
+		"explanation": "Bakü-Tiflis-Ceyhan Ham Petrol Boru Hattı Azerbaycan petrolünü Gürcistan ve Türkiye üzerinden Adana'nın Ceyhan limanına taşır ve 2006'da faaliyete geçmiştir. Kerkük-Yumurtalık hattı Irak petrolünü taşır; TANAP, TürkAkım ve Mavi Akım ise petrol değil doğal gaz boru hatlarıdır.",
+		"reference": {
+			"title": "BOTAŞ",
+			"section": "Uluslararası boru hattı projeleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ulasim",
+			"enerji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-ekonomi-009",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Güneydoğu Anadolu Projesi (GAP) hangi iki akarsuyun havzalarını kapsayan bölgesel kalkınma projesidir?",
+		"options": [
+			"Fırat ve Dicle",
+			"Kızılırmak ve Yeşilırmak",
+			"Gediz ve Büyük Menderes",
+			"Seyhan ve Ceyhan",
+			"Aras ve Kura"
+		],
+		"correctIndex": 0,
+		"explanation": "GAP, Fırat ve Dicle havzalarında sulama, enerji üretimi, sanayi, eğitim ve sağlık gibi alanları birlikte ele alan çok sektörlü bir bölgesel kalkınma projesidir. Atatürk, Karakaya ve Ilısu barajları proje kapsamındadır; Şanlıurfa Tüneli ile Harran Ovası sulanmaya başlanmıştır.",
+		"reference": {
+			"title": "GAP Bölge Kalkınma İdaresi Başkanlığı",
+			"section": "Güneydoğu Anadolu Projesi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bolgesel-kalkinma"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-ekonomi-010",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Anadolu'da yapımına başlanan ilk demiryolu hattı aşağıdakilerden hangisidir?",
+		"options": [
+			"Haydarpaşa-İzmit",
+			"Ankara-Sivas",
+			"İzmir-Aydın",
+			"Mersin-Adana",
+			"İstanbul-Edirne"
+		],
+		"correctIndex": 2,
+		"explanation": "Anadolu'daki ilk demiryolu, 1856'da İngiliz bir şirkete verilen imtiyazla yapımına başlanan İzmir-Aydın hattıdır. Hat, Ege'nin verimli ovalarındaki ürünleri İzmir limanına taşımak amacıyla yapılmıştır. Haydarpaşa-İzmit ve Mersin-Adana hatları daha sonra Osmanlı döneminde, Ankara-Sivas hattı ise Cumhuriyet döneminde yapılmıştır.",
+		"reference": {
+			"title": "TCDD — Türkiye demiryolu tarihi",
+			"section": "İzmir-Aydın hattı (1856)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ulasim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

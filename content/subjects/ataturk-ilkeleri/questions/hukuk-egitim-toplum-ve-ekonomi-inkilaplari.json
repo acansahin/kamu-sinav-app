@@ -1,0 +1,344 @@
+[
+	{
+		"id": "ataturk-inkilap-001",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "17 Şubat 1926'da kabul edilen Türk Kanunu Medenisi hangi ülkenin medeni kanunu örnek alınarak hazırlanmıştır?",
+		"options": [
+			"Fransa",
+			"Almanya",
+			"Belçika",
+			"İsviçre",
+			"İtalya"
+		],
+		"correctIndex": 3,
+		"explanation": "743 sayılı Türk Kanunu Medenisi İsviçre Medeni Kanunu esas alınarak hazırlanmış ve 4 Ekim 1926'da yürürlüğe girmiştir. Kanunla resmî nikâh zorunlu hâle gelmiş, tek eşlilik kabul edilmiş, boşanma ve mirasta kadın-erkek eşitliği sağlanmıştır. Aynı yıl Ceza Kanunu İtalya'dan, Ticaret Kanunu Almanya'dan örnek alınmıştır.",
+		"reference": {
+			"title": "743 sayılı Türk Kanunu Medenisi (17 Şubat 1926)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hukuk"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-inkilap-002",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Her Türk'ün öz adından başka bir soyadı taşımasını zorunlu kılan Soyadı Kanunu hangi yıl kabul edilmiştir?",
+		"options": [
+			"1934",
+			"1930",
+			"1937",
+			"1928",
+			"1926"
+		],
+		"correctIndex": 0,
+		"explanation": "2525 sayılı Soyadı Kanunu 21 Haziran 1934'te kabul edilmiştir. 1. maddesi \"Her Türk öz adından başka soy adını da taşımağa mecburdur.\" hükmünü taşır. Aynı yıl 24 Kasım'da 2587 sayılı Kanunla Mustafa Kemal'e \"Atatürk\" soyadı verilmiş, 26 Kasım'da da efendi, bey, paşa gibi lakap ve unvanlar kaldırılmıştır.",
+		"legalRef": {
+			"law": "Soyadı Kanunu",
+			"lawId": "2525",
+			"article": "1",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.2525.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toplum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-inkilap-003",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1 Kasım 1928'de kabul edilen Türk Harflerinin Kabul ve Tatbiki Hakkında Kanun'un ardından halka yeni harflerle okuma yazma öğretmek amacıyla açılan kurumlar hangisidir?",
+		"options": [
+			"Türk Ocakları",
+			"Köy Enstitüleri",
+			"Millet Mektepleri",
+			"Halkevleri",
+			"Darülfünun"
+		],
+		"correctIndex": 2,
+		"explanation": "1353 sayılı Kanunla Latin harflerine dayanan Türk alfabesi kabul edilmiş, yeni harflerin halka öğretilmesi için 1 Ocak 1929'da Millet Mektepleri açılmıştır. Mustafa Kemal bu seferberlikte \"Başöğretmen\" olarak anılmıştır. Halkevleri 1932'de, Köy Enstitüleri 1940'ta açılmış; Türk Ocakları 1912'de kurulmuş, Darülfünun ise Osmanlı'dan kalma yükseköğretim kurumudur.",
+		"legalRef": {
+			"law": "Türk Harflerinin Kabul ve Tatbiki Hakkında Kanun",
+			"lawId": "1353",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.1353.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"egitim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-inkilap-004",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki kanunlardan hangisi Anayasa'nın 174. maddesinde sayılan ve korunan inkılap kanunlarından biri değildir?",
+		"options": [
+			"Türk Harflerinin Kabul ve Tatbiki Hakkında Kanun",
+			"Bazı Kisvelerin Giyilemeyeceğine Dair Kanun",
+			"Şapka İktisası Hakkında Kanun",
+			"Tevhidi Tedrisat Kanunu",
+			"Soyadı Kanunu"
+		],
+		"correctIndex": 4,
+		"explanation": "Anayasa'nın 174. maddesi sekiz inkılap kanununu sayar: 430 sayılı Tevhidi Tedrisat, 671 sayılı Şapka İktisası, 677 sayılı tekke ve zaviyelerin kapatılması, 743 sayılı Medeni Kanun'un medeni nikâh esası ve 110. maddesi, 1288 sayılı uluslararası rakamlar, 1353 sayılı Türk harfleri, 2590 sayılı lakap ve unvanların kaldırılması, 2596 sayılı bazı kisvelerin giyilemeyeceği kanunları. 2525 sayılı Soyadı Kanunu bu listede yer almaz.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "174",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"inkilap-kanunlari"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-inkilap-005",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Cumhuriyet'in ilanından önce toplanarak yeni Türk devletinin ekonomi politikasının esaslarını belirleyen ve Misak-ı İktisadi kararlarını alan kongre aşağıdakilerden hangisidir?",
+		"options": [
+			"İzmir İktisat Kongresi",
+			"Balıkesir Kongresi",
+			"Maarif Kongresi",
+			"Sivas Kongresi",
+			"Erzurum Kongresi"
+		],
+		"correctIndex": 0,
+		"explanation": "İzmir İktisat Kongresi 17 Şubat-4 Mart 1923 tarihleri arasında çiftçi, tüccar, sanayici ve işçi temsilcilerinin katılımıyla toplanmıştır. Kongrede millî ekonominin kurulması, yerli malı kullanımı ve özel teşebbüsün desteklenmesi gibi esasları içeren Misak-ı İktisadi (Ekonomik Ant) kabul edilmiştir. Maarif Kongresi 1921'de eğitim alanında toplanmıştır.",
+		"reference": {
+			"title": "İzmir İktisat Kongresi Kararları — Misak-ı İktisadi (1923)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-inkilap-006",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Köylünün üzerindeki vergi yükünü hafifletmek ve üretimi artırmak amacıyla 17 Şubat 1925'te kaldırılan vergi aşağıdakilerden hangisidir?",
+		"options": [
+			"Kazanç vergisi",
+			"Aşar (öşür) vergisi",
+			"Gümrük vergisi",
+			"Damga vergisi",
+			"Varlık Vergisi"
+		],
+		"correctIndex": 1,
+		"explanation": "Ürünün yaklaşık onda biri oranında ayni olarak alınan aşar vergisi 17 Şubat 1925'te kaldırılmış; köylü üzerindeki ağır yük hafifletilmiş ve Cumhuriyet'in köylüyü destekleyen ekonomi politikasının önemli adımlarından biri atılmıştır. Varlık Vergisi ise İkinci Dünya Savaşı yıllarında, 1942'de çıkarılmıştır.",
+		"reference": {
+			"title": "Aşar Vergisinin Kaldırılmasına Dair Kanun (17 Şubat 1925)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-inkilap-007",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Türkiye limanları arasında yük ve yolcu taşıma ile karasularında gemi işletme hakkını Türk bayraklı gemilere ve Türk vatandaşlarına tanıyan 1926 tarihli kanun aşağıdakilerden hangisidir?",
+		"options": [
+			"Tevhidi Tedrisat Kanunu",
+			"Ölçüler Kanunu",
+			"Kabotaj Kanunu",
+			"Beynelmilel Erkamın Kabulü Hakkında Kanun",
+			"Teşvik-i Sanayi Kanunu"
+		],
+		"correctIndex": 2,
+		"explanation": "19 Nisan 1926'da kabul edilen 815 sayılı Kabotaj Kanunu'nun 1. maddesi, Türkiye sahillerinin bir noktasından diğerine yük ve yolcu taşımayı ve liman hizmetlerini Türk bayrağı taşıyan gemilere bırakmıştır. Kapitülasyonlar döneminde yabancılara tanınan bu ayrıcalığın kaldırılması ekonomik bağımsızlığın simgesidir; 1 Temmuz her yıl Denizcilik ve Kabotaj Bayramı olarak kutlanır.",
+		"legalRef": {
+			"law": "Türkiye Sahillerinde Nakliyatı Bahriye (Kabotaj) ve Limanlarla Kara Suları Dahilinde İcrayı San'at ve Ticaret Hakkında Kanun",
+			"lawId": "815",
+			"article": "1",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.815.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-inkilap-008",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "30 Kasım 1925 tarihli ve 677 sayılı Kanun ile aşağıdakilerden hangisi gerçekleştirilmiştir?",
+		"options": [
+			"Şer'iye ve Evkaf Vekâletinin kaldırılması",
+			"Tekke, zaviye ve türbelerin kapatılması ile şeyhlik, dervişlik gibi unvanların yasaklanması",
+			"Efendi, bey, paşa gibi lakap ve unvanların kaldırılması",
+			"Halifelik makamının kaldırılması",
+			"Din adamlarının mabet dışında dinî kisve giymesinin yasaklanması"
+		],
+		"correctIndex": 1,
+		"explanation": "677 sayılı Kanun'un 1. maddesiyle bütün tekke ve zaviyeler kapatılmış, şeyhlik, dervişlik, müritlik, dedelik, falcılık, büyücülük gibi unvan ve sıfatların kullanılması yasaklanmış, türbeler kapatılmıştır. Halifelik ve Şer'iye ve Evkaf Vekâleti 3 Mart 1924'te; efendi, bey, paşa unvanları 2590 sayılı Kanunla, dinî kisve yasağı 2596 sayılı Kanunla 1934'te kaldırılmıştır.",
+		"legalRef": {
+			"law": "Tekke ve Zaviyelerle Türbelerin Seddine ve Türbedarlıklar ile Bir Takım Unvanların Men ve İlgasına Dair Kanun",
+			"lawId": "677",
+			"article": "1",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.677.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"laiklik",
+			"toplum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-inkilap-009",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "26 Kasım 1934 tarihli ve 2590 sayılı Efendi, Bey, Paşa gibi Lakap ve Unvanların Kaldırılmasına Dair Kanun ile aşağıdakilerden hangisi de kaldırılmıştır?",
+		"options": [
+			"Askerî rütbeler",
+			"Soyadı taşıma zorunluluğu",
+			"Kadınların seçme ve seçilme hakkına ilişkin sınırlamalar",
+			"Harp madalyaları dışındaki sivil ve resmî nişan ve madalyalar",
+			"Harp madalyaları"
+		],
+		"correctIndex": 3,
+		"explanation": "2590 sayılı Kanun'un 1. maddesi ağa, hacı, hafız, hoca, efendi, bey, paşa, hanım gibi lakap ve unvanları kaldırmış; 2. maddesi sivil ve resmî nişan ve madalyaları kaldırmış, harp madalyalarını bundan ayrık tutmuştur. Kanun askerî rütbeleri kaldırmamış, 3. maddesiyle müşür yerine mareşal, ferik ve liva yerine general ve amiral adlarını getirmiştir.",
+		"legalRef": {
+			"law": "Efendi, Bey, Paşa Gibi Lakap ve Unvanların Kaldırılmasına Dair Kanun",
+			"lawId": "2590",
+			"article": "2",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.2590.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toplum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-inkilap-010",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki gelişmelerden hangisi Türk Harflerinin Kabul ve Tatbiki Hakkında Kanun'dan önce gerçekleşmiştir?",
+		"options": [
+			"Türk Tarihi Tetkik Cemiyetinin kurulması",
+			"Soyadı Kanunu'nun kabul edilmesi",
+			"Millet Mekteplerinin açılması",
+			"Üniversite reformunun yapılması",
+			"Uluslararası rakamların kabul edilmesi"
+		],
+		"correctIndex": 4,
+		"explanation": "1288 sayılı Beynelmilel Erkamın Kabulü Hakkında Kanun 20 Mayıs 1928'de, Türk harflerine ilişkin 1353 sayılı Kanun ise 1 Kasım 1928'de kabul edilmiştir. Millet Mektepleri 1929'da açılmış, Türk Tarihi Tetkik Cemiyeti (Türk Tarih Kurumu) 1931'de kurulmuş, üniversite reformu 1933'te yapılmış, Soyadı Kanunu 1934'te kabul edilmiştir.",
+		"legalRef": {
+			"law": "Beynelmilel Erkamın Kabulü Hakkında Kanun",
+			"lawId": "1288",
+			"article": "1",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.1288.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"egitim",
+			"kronoloji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

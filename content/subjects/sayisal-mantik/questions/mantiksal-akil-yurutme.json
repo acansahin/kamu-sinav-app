@@ -1,0 +1,272 @@
+[
+	{
+		"id": "sayisal-mantik-001",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "30 kişilik bir sınıfta 18 öğrenci İngilizce, 15 öğrenci Almanca bilmektedir. Sınıftaki her öğrenci bu iki dilden en az birini bildiğine göre her iki dili de bilen kaç öğrenci vardır?",
+		"options": [
+			"15",
+			"33",
+			"3",
+			"12",
+			"5"
+		],
+		"correctIndex": 2,
+		"explanation": "İki kümenin birleşiminin eleman sayısı s(A ∪ B) = s(A) + s(B) − s(A ∩ B) formülüyle bulunur. Herkes en az bir dil bildiğinden birleşim 30'dur: 30 = 18 + 15 − s(A ∩ B). Buradan her iki dili bilen öğrenci sayısı 33 − 30 = 3'tür.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-mantik-002",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "İçinde 3 kırmızı, 5 mavi ve 2 beyaz top bulunan bir torbadan rastgele bir top çekiliyor. Çekilen topun mavi olma olasılığı kaçtır?",
+		"options": [
+			"1/5",
+			"5/8",
+			"1/2",
+			"3/10",
+			"1/3"
+		],
+		"correctIndex": 2,
+		"explanation": "Olasılık = istenen durum sayısı ÷ tüm durumların sayısıdır. Torbada 3 + 5 + 2 = 10 top vardır ve bunların 5'i mavidir. Olasılık 5/10 = 1/2'dir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-mantik-003",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Ayşe, Burak, Can, Deniz ve Ece bir sırada arka arkaya durmaktadır.\n• Can en baştadır.\n• Deniz en sondadır.\n• Ece, Burak'ın hemen arkasındadır.\n• Ayşe, Can'ın hemen arkasında değildir.\n\nBuna göre baştan üçüncü sırada kim durmaktadır?",
+		"options": [
+			"Ayşe",
+			"Ece",
+			"Burak",
+			"Can",
+			"Deniz"
+		],
+		"correctIndex": 1,
+		"explanation": "Can 1., Deniz 5. sıradadır; Ayşe, Burak ve Ece 2, 3 ve 4. sıraları paylaşır. Ayşe 2. sırada olamaz. Ece Burak'ın hemen arkasında olduğundan Burak-Ece ikilisi ya 2-3 ya da 3-4. sırayı alır. 3-4 olursa Ayşe 2. sıraya düşer, bu da yasaktır. Tek geçerli dizilim Can, Burak, Ece, Ayşe, Deniz'dir; üçüncü sırada Ece vardır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-mantik-004",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir ödülü A, B ve C'den yalnızca biri kazanmıştır. Üçü şu açıklamaları yapmıştır:\nA: \"Ödülü ben kazanmadım.\"\nB: \"Ödülü A kazandı.\"\nC: \"Ödülü ben kazanmadım.\"\n\nBu üç kişiden yalnızca biri doğru söylediğine göre ödülü kim kazanmıştır?",
+		"options": [
+			"Hiçbiri kazanmamıştır.",
+			"B",
+			"Kesin olarak belirlenemez.",
+			"A",
+			"C"
+		],
+		"correctIndex": 4,
+		"explanation": "Her olasılık denenir. A kazandıysa B ve C doğru söylemiş olur (iki doğru). B kazandıysa A ve C doğru söylemiş olur (iki doğru). C kazandıysa yalnızca A doğru söylemiştir; B ve C yalan söylemiştir. Tek doğru şartını yalnızca \"ödülü C kazandı\" durumu sağlar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-mantik-005",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5 kişilik bir komisyonun üyeleri arasından bir başkan ve bir raportör seçilecektir. Aynı kişi iki görevi birden üstlenemeyeceğine göre bu seçim kaç farklı şekilde yapılabilir?",
+		"options": [
+			"25",
+			"10",
+			"120",
+			"20",
+			"60"
+		],
+		"correctIndex": 3,
+		"explanation": "Başkan 5 kişiden biri olarak 5 farklı şekilde seçilir. Raportör kalan 4 kişiden seçilir. Görevler farklı olduğu için sıra önemlidir ve seçim sayısı 5 × 4 = 20'dir. 10 sonucu sıranın önemsiz olduğu iki kişilik grup seçimine aittir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-mantik-006",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "8 kişilik bir ekipten 3 kişilik bir çalışma grubu kaç farklı şekilde oluşturulabilir?",
+		"options": [
+			"336",
+			"24",
+			"28",
+			"112",
+			"56"
+		],
+		"correctIndex": 4,
+		"explanation": "Grupta görev ayrımı olmadığı için sıra önemsizdir ve kombinasyon kullanılır: C(8, 3) = 8 × 7 × 6 ÷ (3 × 2 × 1) = 336 ÷ 6 = 56. 336 sonucu sıranın önemli sayıldığı permütasyondur.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-mantik-007",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir kurumdaki 50 çalışandan 28'inin sürücü belgesi vardır, 22'si yabancı dil bilmektedir. 12 çalışanın hem sürücü belgesi vardır hem de yabancı dil bilmektedir.\n\nBuna göre sürücü belgesi olmayan ve yabancı dil bilmeyen kaç çalışan vardır?",
+		"options": [
+			"22",
+			"12",
+			"10",
+			"38",
+			"0"
+		],
+		"correctIndex": 1,
+		"explanation": "Sürücü belgesi olan veya yabancı dil bilen çalışan sayısı 28 + 22 − 12 = 38'dir (iki kümede de sayılan 12 kişi bir kez çıkarılır). İki özelliğe de sahip olmayanlar 50 − 38 = 12 kişidir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-mantik-008",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "İçinde 4 kırmızı ve 6 mavi kalem bulunan bir kutudan, çekilen kalem geri konulmadan art arda iki kalem çekiliyor.\n\nÇekilen iki kalemin de kırmızı olma olasılığı kaçtır?",
+		"options": [
+			"4/25",
+			"1/5",
+			"2/5",
+			"2/15",
+			"1/15"
+		],
+		"correctIndex": 3,
+		"explanation": "İlk kalemin kırmızı olma olasılığı 4/10'dur. Kalem geri konmadığı için kutuda 3 kırmızı ve toplam 9 kalem kalır; ikincinin kırmızı olma olasılığı 3/9'dur. İki olayın birlikte gerçekleşme olasılığı 4/10 × 3/9 = 12/90 = 2/15'tir. 4/25 sonucu kalemin geri konulduğu durumun olasılığıdır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-mantik-009",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "\"Bütün müfettişler hukuk mezunudur.\"\n\"Bazı hukuk mezunları avukattır.\"\n\nBu iki önerme doğru olduğuna göre aşağıdakilerden hangisi kesinlikle doğrudur?",
+		"options": [
+			"Hukuk mezunu olmayan hiç kimse müfettiş değildir.",
+			"Bazı müfettişler avukattır.",
+			"Bütün avukatlar müfettiştir.",
+			"Hiçbir avukat müfettiş değildir.",
+			"Bütün hukuk mezunları müfettiştir."
+		],
+		"correctIndex": 0,
+		"explanation": "\"Bütün müfettişler hukuk mezunudur\" önermesi, müfettişler kümesinin hukuk mezunları kümesinin içinde olduğunu söyler. Buradan hukuk mezunu olmayan birinin müfettiş olamayacağı kesin olarak çıkar. Avukatların hukuk mezunlarının bir kısmı olduğu bilinir ama müfettişlerle kesişip kesişmediği bilinmez; bu yüzden \"bazı müfettişler avukattır\" da \"hiçbir avukat müfettiş değildir\" de kesin değildir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-mantik-010",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Ali, Berk, Cem ve Duru'nun her biri Ankara, Bursa, İzmir ve Van'dan farklı birinde görev yapmaktadır.\n• Ali ne Ankara'da ne de Bursa'da görev yapmaktadır.\n• Berk İzmir'de görev yapmaktadır.\n• Cem Van'da görev yapmamaktadır.\n• Duru Ankara'da görev yapmamaktadır.\n\nBuna göre Bursa'da kim görev yapmaktadır?",
+		"options": [
+			"Duru",
+			"Ali",
+			"Cem",
+			"Kesin olarak belirlenemez.",
+			"Berk"
+		],
+		"correctIndex": 0,
+		"explanation": "Berk İzmir'dedir. Ali için Ankara ve Bursa yasak, İzmir de dolu olduğundan Ali Van'dadır. Geriye Cem ve Duru için Ankara ile Bursa kalır. Duru Ankara'da olamayacağı için Bursa'dadır; Cem Ankara'dadır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

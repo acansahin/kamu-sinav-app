@@ -12,9 +12,9 @@ import { Card } from "@/components/ui/card";
 import {
 	LICENSE_LABELS,
 	SOURCE_KIND_LABELS,
+	countByBasis,
 	countByLicense,
 	countBySourceKind,
-	countWithLegalRef,
 	summarizeSubjectTrust,
 } from "@/lib/content/about-stats";
 import { getContactEmail } from "@/lib/legal/data-controller";
@@ -67,7 +67,7 @@ export default async function AboutPage() {
 	const trust = summarizeSubjectTrust(subjects, summaries);
 	const sources = countBySourceKind(questions);
 	const licenses = countByLicense(questions);
-	const withLegalRef = countWithLegalRef(questions);
+	const basis = countByBasis(questions);
 
 	return (
 		<div>
@@ -121,11 +121,16 @@ export default async function AboutPage() {
 						derlendi.
 					</li>
 					<li>
-						Her sorunun mevzuat dayanağı var:{" "}
-						<strong>
-							{withLegalRef} / {questions.length}
-						</strong>{" "}
-						soruda kanun ve madde bilgisi yazılı.
+						Her sorunun dayanağı yazılı: <strong>{basis.legalRef}</strong>{" "}
+						soruda kanun ve madde bilgisi, <strong>{basis.reference}</strong>{" "}
+						soruda kaynak (dil bilgisi kuralı, tarihî belge, eser) gösteriliyor.
+						{basis.none > 0 && (
+							<>
+								{" "}
+								<strong>{basis.none}</strong> sayısal mantık sorusunda dayanak
+								yerine adım adım çözüm var.
+							</>
+						)}
 					</li>
 				</ul>
 			</Card>
@@ -184,7 +189,7 @@ export default async function AboutPage() {
 			</div>
 
 			<Card className="mb-6">
-				<h3 className="mb-2 font-bold">Dayanılan mevzuat sürümleri</h3>
+				<h3 className="mb-2 font-bold">Dayanılan mevzuat ve kaynak sürümleri</h3>
 				<ul className="space-y-1.5 text-sm text-fg-muted">
 					{trust.map((row) => (
 						<li key={row.subjectId}>

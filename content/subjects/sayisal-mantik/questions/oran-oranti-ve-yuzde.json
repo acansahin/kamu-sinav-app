@@ -1,0 +1,272 @@
+[
+	{
+		"id": "sayisal-oran-001",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Fiyatı 250 lira olan bir ürüne %20 zam yapılıyor. Ürünün yeni fiyatı kaç liradır?",
+		"options": [
+			"270",
+			"320",
+			"280",
+			"350",
+			"300"
+		],
+		"correctIndex": 4,
+		"explanation": "250 liranın %20'si 250 × 20 / 100 = 50 liradır. Zamlı fiyat 250 + 50 = 300 liradır. Kısa yol: %20 zamlı fiyat eski fiyatın 1,2 katıdır; 250 × 1,2 = 300.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-oran-002",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Ali'nin yaşının Veli'nin yaşına oranı 3/5'tir. İkisinin yaşları toplamı 40 olduğuna göre Ali kaç yaşındadır?",
+		"options": [
+			"15",
+			"25",
+			"20",
+			"12",
+			"18"
+		],
+		"correctIndex": 0,
+		"explanation": "Ali'nin yaşı 3k, Veli'nin yaşı 5k olarak yazılır. Toplam 3k + 5k = 8k = 40, buradan k = 5 bulunur. Ali 3 × 5 = 15, Veli 5 × 5 = 25 yaşındadır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-oran-003",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir fotokopi makinesi 3 dakikada 90 sayfa çoğaltmaktadır. Makine aynı hızla çalışırsa 450 sayfayı kaç dakikada çoğaltır?",
+		"options": [
+			"150",
+			"18",
+			"12",
+			"10",
+			"15"
+		],
+		"correctIndex": 4,
+		"explanation": "Çoğaltılan sayfa sayısı ile süre doğru orantılıdır. Makine dakikada 90 ÷ 3 = 30 sayfa çoğaltır. 450 sayfa için 450 ÷ 30 = 15 dakika gerekir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-oran-004",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir miktar yem 20 hayvana 15 gün yetmektedir. Aynı miktardaki yem 25 hayvana kaç gün yeter?",
+		"options": [
+			"18",
+			"12",
+			"15",
+			"20",
+			"10"
+		],
+		"correctIndex": 1,
+		"explanation": "Hayvan sayısı arttıkça yemin yettiği gün azalır; iki çokluk ters orantılıdır ve çarpımları sabittir. Toplam yem 20 × 15 = 300 hayvan-gündür. 25 hayvana 300 ÷ 25 = 12 gün yeter.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-oran-005",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir kurumda çalışanların %35'i kadındır. Kadın çalışan sayısı 91 olduğuna göre kurumda toplam kaç kişi çalışmaktadır?",
+		"options": [
+			"300",
+			"280",
+			"260",
+			"250",
+			"240"
+		],
+		"correctIndex": 2,
+		"explanation": "Toplam çalışan sayısına x denirse x'in %35'i 91'dir: 35x / 100 = 91. Buradan x = 91 × 100 / 35 = 260 bulunur. Sağlama: 260 × 0,35 = 91.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-oran-006",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir ürünün fiyatına önce %20 indirim, ardından indirimli fiyat üzerinden %20 zam yapılıyor.\n\nÜrünün son fiyatı ilk fiyatına göre nasıl değişmiştir?",
+		"options": [
+			"%2 azalmıştır.",
+			"Değişmemiştir.",
+			"%4 azalmıştır.",
+			"%40 azalmıştır.",
+			"%4 artmıştır."
+		],
+		"correctIndex": 2,
+		"explanation": "İlk fiyat 100 kabul edilir. %20 indirimle fiyat 80 olur. Zam 80 üzerinden yapıldığı için 80'in %20'si olan 16 eklenir ve son fiyat 96 olur. 100'den 96'ya düşen fiyat %4 azalmıştır. İndirim ve zam oranları aynı olsa da farklı tutarlar üzerinden hesaplandığı için birbirini götürmez.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-oran-007",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Tuz oranı %20 olan 40 kilogram tuzlu suya kaç kilogram saf su eklenirse karışımın tuz oranı %16 olur?",
+		"options": [
+			"12",
+			"8",
+			"5",
+			"10",
+			"15"
+		],
+		"correctIndex": 3,
+		"explanation": "Karışımdaki tuz miktarı 40 × 20 / 100 = 8 kilogramdır ve su eklenince değişmez. Yeni karışım 40 + x kilogram olur ve 8 kilogram tuz bunun %16'sı olmalıdır: 8 = (40 + x) × 16 / 100. Buradan 40 + x = 50, x = 10 kilogram bulunur.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-oran-008",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir satıcı maliyeti 400 lira olan bir ürünü %25 kârla satmak istemektedir. Satıcı etiket fiyatı üzerinden %20 indirim yapacağına göre ürünün etiket fiyatı kaç lira olmalıdır?",
+		"options": [
+			"580",
+			"625",
+			"650",
+			"520",
+			"600"
+		],
+		"correctIndex": 1,
+		"explanation": "%25 kârlı satış fiyatı 400 × 1,25 = 500 liradır. İndirimli fiyat etiket fiyatının %80'i olduğundan etiket × 0,80 = 500 olmalıdır; etiket fiyatı 500 ÷ 0,80 = 625 liradır. Sağlama: 625'in %20'si 125, 625 − 125 = 500.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-oran-009",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Özdeş 4 musluk birlikte açıldığında 6 saatte 3 depo doldurmaktadır.\n\nAynı özellikteki 6 musluk birlikte açıldığında 8 saatte kaç depo doldurur?",
+		"options": [
+			"6",
+			"8",
+			"9",
+			"4",
+			"5"
+		],
+		"correctIndex": 0,
+		"explanation": "Doldurulan depo sayısı hem musluk sayısıyla hem süreyle doğru orantılıdır (bileşik orantı). 4 musluk × 6 saat = 24 musluk-saatte 3 depo dolduğuna göre 1 depo 8 musluk-saattir. 6 musluk × 8 saat = 48 musluk-saat, 48 ÷ 8 = 6 depo eder.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-oran-010",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir miktar para A, B ve C arasında 2, 3 ve 5 sayılarıyla doğru orantılı olarak paylaştırılıyor. C'nin aldığı para A'nın aldığı paradan 1.800 lira fazladır.\n\nPaylaştırılan toplam para kaç liradır?",
+		"options": [
+			"9.000",
+			"5.400",
+			"4.800",
+			"6.000",
+			"7.200"
+		],
+		"correctIndex": 3,
+		"explanation": "Paylar 2k, 3k ve 5k'dır. C'nin payı ile A'nın payı arasındaki fark 5k − 2k = 3k = 1.800 liradır, buradan k = 600 bulunur. Toplam para 2k + 3k + 5k = 10k = 6.000 liradır (A: 1.200, B: 1.800, C: 3.000).",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

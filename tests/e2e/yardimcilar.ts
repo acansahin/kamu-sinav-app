@@ -62,10 +62,12 @@ export function mevzuatDayanagiKalibi(
 		`${konuSlug}.json`,
 	);
 	const sorular = JSON.parse(readFileSync(dosya, "utf8")) as {
-		legalRef: { law: string };
+		legalRef?: { law: string };
 	}[];
 
-	const adlar = [...new Set(sorular.map((s) => s.legalRef.law))];
+	const adlar = [
+		...new Set(sorular.flatMap((s) => (s.legalRef ? [s.legalRef.law] : []))),
+	];
 	if (adlar.length === 0) {
 		throw new Error(`${dersId}/${konuSlug} havuzunda soru yok`);
 	}

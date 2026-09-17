@@ -1,0 +1,272 @@
+[
+	{
+		"id": "sayisal-dizi-001",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "3, 7, 11, 15, ?\n\nBu dizide ? yerine hangi sayı gelmelidir?",
+		"options": [
+			"20",
+			"17",
+			"21",
+			"19",
+			"18"
+		],
+		"correctIndex": 3,
+		"explanation": "Dizide her terim bir öncekinden 4 fazladır: 3 + 4 = 7, 7 + 4 = 11, 11 + 4 = 15. Bu yüzden sonraki terim 15 + 4 = 19'dur.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-dizi-002",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "2, 6, 18, 54, ?\n\nDizinin bir sonraki terimi kaçtır?",
+		"options": [
+			"162",
+			"216",
+			"72",
+			"160",
+			"108"
+		],
+		"correctIndex": 0,
+		"explanation": "Her terim bir öncekinin 3 katıdır: 2 × 3 = 6, 6 × 3 = 18, 18 × 3 = 54. Sonraki terim 54 × 3 = 162'dir. Farklar (4, 12, 36) da her adımda 3 katına çıkar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-dizi-003",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "2, 5, 10, 17, 26, ?\n\nKurala göre devam eden dizide boş bırakılan terim aşağıdakilerden hangisidir?",
+		"options": [
+			"39",
+			"37",
+			"36",
+			"35",
+			"38"
+		],
+		"correctIndex": 1,
+		"explanation": "Terimler sırayla 1² + 1, 2² + 1, 3² + 1, 4² + 1, 5² + 1 biçimindedir. Altıncı terim 6² + 1 = 37 olur. Aynı sonuca farklardan da ulaşılır: farklar 3, 5, 7, 9 diye ardışık tek sayılarla artar, sonraki fark 11'dir ve 26 + 11 = 37.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-dizi-004",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "2, 3, 5, 8, 12, 17, ?\n\nArdışık terimler arasındaki ilişki korunursa dizinin yedinci terimi kaç olur?",
+		"options": [
+			"22",
+			"21",
+			"23",
+			"24",
+			"25"
+		],
+		"correctIndex": 2,
+		"explanation": "Ardışık terimler arasındaki farklar 1, 2, 3, 4, 5 biçiminde birer birer artmaktadır. Sonraki fark 6 olacağı için aranan terim 17 + 6 = 23'tür.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-dizi-005",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1, 1, 2, 3, 5, 8, 13, ?\n\nAynı kuralla ilerleyen sayı örüntüsünde sıradaki sayı nedir?",
+		"options": [
+			"24",
+			"20",
+			"21",
+			"18",
+			"26"
+		],
+		"correctIndex": 2,
+		"explanation": "Üçüncü terimden itibaren her terim kendinden önceki iki terimin toplamıdır: 1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8, 5 + 8 = 13. Sonraki terim 8 + 13 = 21'dir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-dizi-006",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5, 11, 23, 47, ?\n\nBelirli bir kurala göre oluşturulan dizide soru işaretiyle gösterilen sayı kaçtır?",
+		"options": [
+			"96",
+			"93",
+			"71",
+			"94",
+			"95"
+		],
+		"correctIndex": 4,
+		"explanation": "Her terim bir öncekinin 2 katının 1 fazlasıdır: 5 × 2 + 1 = 11, 11 × 2 + 1 = 23, 23 × 2 + 1 = 47. Sonraki terim 47 × 2 + 1 = 95'tir. Farklar (6, 12, 24) her adımda ikiye katlanır; sonraki fark 48'dir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-dizi-007",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "3, 10, 6, 20, 12, 40, ?, ?\n\nYukarıdaki sayı dizisinde soru işaretleri yerine, soldan sağa, hangi sayılar gelmelidir?",
+		"options": [
+			"24 ve 80",
+			"20 ve 80",
+			"24 ve 50",
+			"18 ve 80",
+			"24 ve 60"
+		],
+		"correctIndex": 0,
+		"explanation": "Dizi iç içe geçmiş iki diziden oluşur. Tek sıradaki terimler 3, 6, 12 diye her adımda 2 katına çıkar; sonraki terim 24'tür. Çift sıradaki terimler 10, 20, 40 diye yine 2 katına çıkar; sonraki terim 80'dir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-dizi-008",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "İlk terimi 5 olan ve her terimi kendisinden önceki terimden 3 fazla olan bir sayı dizisinin 20. terimi kaçtır?",
+		"options": [
+			"59",
+			"63",
+			"65",
+			"60",
+			"62"
+		],
+		"correctIndex": 4,
+		"explanation": "Ardışık terimleri arasındaki fark sabit olan dizide n. terim = ilk terim + (n − 1) × fark formülüyle bulunur. 20. terim = 5 + 19 × 3 = 5 + 57 = 62'dir. 65 sonucu, farkı 19 yerine 20 kez eklemekten doğan tipik hatadır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-dizi-009",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "1, 2, 6, 24, 120, ?\n\nÖrüntüyü sürdüren sayı aşağıdakilerden hangisidir?",
+		"options": [
+			"600",
+			"840",
+			"480",
+			"720",
+			"144"
+		],
+		"correctIndex": 3,
+		"explanation": "Her terim bir öncekinin artan bir sayıyla çarpımıdır: 1 × 2 = 2, 2 × 3 = 6, 6 × 4 = 24, 24 × 5 = 120. Sonraki çarpan 6 olduğu için aranan terim 120 × 6 = 720'dir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-dizi-010",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "10, 13, 26, 29, 58, 61, ?\n\nDizide bir sonraki sayı kaç olmalıdır?",
+		"options": [
+			"64",
+			"122",
+			"118",
+			"124",
+			"116"
+		],
+		"correctIndex": 1,
+		"explanation": "Dizide iki işlem sırayla uygulanır: önce 3 eklenir, sonra 2 ile çarpılır. 10 + 3 = 13, 13 × 2 = 26, 26 + 3 = 29, 29 × 2 = 58, 58 + 3 = 61. Sıradaki işlem çarpma olduğu için aranan terim 61 × 2 = 122'dir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

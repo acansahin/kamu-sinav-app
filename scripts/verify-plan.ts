@@ -160,6 +160,9 @@ async function main(): Promise<void> {
 
 	for (const entry of all) {
 		const ref = entry.question.legalRef;
+		// Plan MADDE doğrulaması içindir; kaynak dayanaklı ve çözüm soruları
+		// mevzuat maddesine bağlanmaz.
+		if (!ref) continue;
 		const key = `${ref.lawId ?? ref.law}|${ref.article ?? "-"}`;
 
 		const cluster = clusters.get(key) ?? {

@@ -1,0 +1,322 @@
+[
+	{
+		"id": "yakin-inonu-001",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Atatürk'ün 10 Kasım 1938'de vefat etmesinin ardından TBMM tarafından Cumhurbaşkanlığına seçilen kişi aşağıdakilerden hangisidir?",
+		"options": [
+			"Kâzım Karabekir",
+			"Refik Saydam",
+			"Fevzi Çakmak",
+			"Celal Bayar",
+			"İsmet İnönü"
+		],
+		"correctIndex": 4,
+		"explanation": "Atatürk'ün vefatının ertesi günü, 11 Kasım 1938'de TBMM İsmet İnönü'yü Cumhurbaşkanı seçmiştir. İnönü, Aralık 1938'de toplanan CHP olağanüstü kurultayında partinin değişmez genel başkanı olmuş ve \"Millî Şef\" olarak anılmıştır. Celal Bayar 1950'de Cumhurbaşkanı seçilmiştir.",
+		"reference": {
+			"title": "TBMM'nin 11 Kasım 1938 tarihli Cumhurbaşkanı seçimi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"inonu-donemi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-inonu-002",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "İkinci Dünya Savaşı başladıktan sonra Türkiye'nin 19 Ekim 1939'da İngiltere ve Fransa ile imzaladığı antlaşma aşağıdakilerden hangisidir?",
+		"options": [
+			"Türk-Alman Dostluk ve Saldırmazlık Paktı",
+			"Türk-İngiliz-Fransız Karşılıklı Yardım Antlaşması",
+			"Balkan Antantı",
+			"Montrö Boğazlar Sözleşmesi",
+			"Sadabat Paktı"
+		],
+		"correctIndex": 1,
+		"explanation": "19 Ekim 1939'da Ankara'da imzalanan Türk-İngiliz-Fransız Karşılıklı Yardım Antlaşması, Akdeniz'de bir Avrupa devletinin saldırısı hâlinde taraflara karşılıklı yardım yükümlülüğü getirmiştir. Türkiye bu antlaşmaya rağmen hazırlığının yetersiz olduğunu belirterek savaşa girmemiştir. Türk-Alman Paktı 1941'de, Balkan Antantı 1934'te, Sadabat Paktı 1937'de, Montrö 1936'da imzalanmıştır.",
+		"reference": {
+			"title": "Türk-İngiliz-Fransız Karşılıklı Yardım Antlaşması (19 Ekim 1939)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ikinci-dunya-savasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-inonu-003",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Almanya'nın Balkanlara yerleştiği ve Sovyetler Birliği'ne saldırısından birkaç gün önceki dönemde, Türkiye'nin 18 Haziran 1941'de Almanya ile imzaladığı antlaşma aşağıdakilerden hangisidir?",
+		"options": [
+			"Balkan Paktı",
+			"Türk-İngiliz-Fransız Karşılıklı Yardım Antlaşması",
+			"Türk-Alman Dostluk ve Saldırmazlık Paktı",
+			"Kuzey Atlantik Antlaşması",
+			"Bağdat Paktı"
+		],
+		"correctIndex": 2,
+		"explanation": "Almanya'nın Yunanistan ve Bulgaristan üzerinden Türkiye sınırına dayanması üzerine Türkiye, savaş dışı kalma politikası gereği 18 Haziran 1941'de Almanya ile Dostluk ve Saldırmazlık Paktı imzalamıştır. Almanya dört gün sonra, 22 Haziran 1941'de Sovyetler Birliği'ne saldırmıştır. Bu pakt Türkiye'nin İngiltere ve Fransa ile yaptığı antlaşmayı ortadan kaldırmamıştır.",
+		"reference": {
+			"title": "Türk-Alman Dostluk ve Saldırmazlık Paktı (18 Haziran 1941)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ikinci-dunya-savasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-inonu-004",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "İkinci Dünya Savaşı yıllarında olağanüstü kazançları vergilendirmek ve piyasadaki para miktarını azaltmak amacıyla 1942'de çıkarılan ve bir defaya mahsus alınan vergi aşağıdakilerden hangisidir?",
+		"options": [
+			"Varlık Vergisi",
+			"Aşar Vergisi",
+			"Gelir Vergisi",
+			"Kurumlar Vergisi",
+			"Katma Değer Vergisi"
+		],
+		"correctIndex": 0,
+		"explanation": "Varlık Vergisi 11 Kasım 1942 tarihli 4305 sayılı Kanunla, savaş koşullarının yol açtığı karaborsacılık ve enflasyonla mücadele etmek, olağanüstü kazançları vergilendirmek amacıyla bir defaya mahsus olarak alınmıştır. Aşar 1925'te kaldırılmış, Gelir ve Kurumlar vergileri 1950'de, KDV 1985'te yürürlüğe girmiştir.",
+		"reference": {
+			"title": "4305 sayılı Varlık Vergisi Kanunu (11 Kasım 1942)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-inonu-005",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Köylerin öğretmen ve eğitimli insan gücü ihtiyacını karşılamak amacıyla 17 Nisan 1940'ta kanunla kurulan eğitim kurumları aşağıdakilerden hangisidir?",
+		"options": [
+			"Halk Eğitim Merkezleri",
+			"Halkevleri",
+			"Darülmuallimin",
+			"Köy Enstitüleri",
+			"Millet Mektepleri"
+		],
+		"correctIndex": 3,
+		"explanation": "3803 sayılı Köy Enstitüleri Kanunu 17 Nisan 1940'ta kabul edilmiştir. Enstitüler köylerden seçilen öğrencileri öğretmen olarak yetiştirip yeniden köylere göndermeyi amaçlamıştır. 1954'te öğretmen okullarına dönüştürülmüşlerdir. Millet Mektepleri 1929'da, Halkevleri 1932'de açılmıştır.",
+		"reference": {
+			"title": "3803 sayılı Köy Enstitüleri Kanunu (17 Nisan 1940)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"egitim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-inonu-006",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "İkinci Dünya Savaşı sırasında İngiltere Başbakanı Winston Churchill ile Cumhurbaşkanı İsmet İnönü'nün Türkiye topraklarında bir araya gelerek Türkiye'nin savaşa girmesini görüştüğü toplantı aşağıdakilerden hangisidir?",
+		"options": [
+			"Adana Görüşmesi",
+			"Kahire Konferansı",
+			"Tahran Konferansı",
+			"Potsdam Konferansı",
+			"Yalta Konferansı"
+		],
+		"correctIndex": 0,
+		"explanation": "Adana Görüşmesi 30-31 Ocak 1943'te Yenice istasyonunda yapılmıştır. Churchill Türkiye'nin Müttefikler yanında savaşa girmesini istemiş, İnönü ordunun silah ve teçhizat eksikliğini gerekçe göstererek bu talebi kabul etmemiştir. İnönü'nün Roosevelt ve Churchill ile görüştüğü Kahire Konferansı Aralık 1943'te Mısır'da yapılmıştır; Yalta, Potsdam ve Tahran konferanslarına Türkiye katılmamıştır.",
+		"reference": {
+			"title": "Adana Görüşmesi (30-31 Ocak 1943)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ikinci-dunya-savasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-inonu-007",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Türkiye'nin 23 Şubat 1945'te Almanya ve Japonya'ya savaş ilan etmesinin temel amacı aşağıdakilerden hangisidir?",
+		"options": [
+			"Balkan Antantı'ndan doğan yükümlülüğü yerine getirmek",
+			"Almanya'nın Trakya'ya yönelik saldırısını durdurmak",
+			"Kurulacak Birleşmiş Milletler'in kuruluş konferansına katılabilmek",
+			"Hatay'ın Türkiye'ye katılmasını sağlamak",
+			"NATO'ya üyelik başvurusu yapabilmek"
+		],
+		"correctIndex": 2,
+		"explanation": "Yalta Konferansı'nda, 1 Mart 1945'e kadar Mihver devletlerine savaş ilan eden devletlerin San Francisco'da toplanacak Birleşmiş Milletler kuruluş konferansına çağrılması kararlaştırılmıştır. Türkiye bu şartı yerine getirmek için 23 Şubat 1945'te savaş ilan etmiş, fiilen çatışmaya girmemiş ve BM'nin kurucu üyeleri arasında yer almıştır. Hatay 1939'da katılmış, NATO ise 1949'da kurulmuştur.",
+		"reference": {
+			"title": "TBMM'nin 23 Şubat 1945 tarihli savaş ilanı kararı"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ikinci-dunya-savasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-inonu-008",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Sovyetler Birliği'nin 1945'te 1925 tarihli Türk-Sovyet antlaşmasını yenilemeyeceğini bildirmesi ve ardından Kars-Ardahan ile Boğazlarda üs talep etmesi Türkiye'yi aşağıdaki politikalardan hangisine yöneltmiştir?",
+		"options": [
+			"Sovyetler Birliği ile ittifak kurma",
+			"Batı Bloku'na yakınlaşma",
+			"Bağlantısızlar Hareketi'ne katılma",
+			"Balkan Antantı'nı yeniden canlandırma",
+			"Savaş dışı kalma politikasını sürdürme"
+		],
+		"correctIndex": 1,
+		"explanation": "Sovyetler Birliği 19 Mart 1945 tarihli notasıyla 1925 Türk-Sovyet Tarafsızlık ve Saldırmazlık Antlaşması'nı yenilemeyeceğini bildirmiş, ardından Kars ve Ardahan'ın verilmesi ile Boğazlarda üs talebinde bulunmuştur. Bu tehdit Türkiye'yi ABD ve Batı Bloku'na yaklaştırmış; süreç Truman Doktrini (1947), Marshall Planı (1948) ve NATO üyeliği (1952) ile devam etmiştir. Bağlantısızlar Hareketi 1961'de kurulmuş, Türkiye katılmamıştır.",
+		"reference": {
+			"title": "Sovyetler Birliği'nin 19 Mart 1945 tarihli notası"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-inonu-009",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Savaş koşullarında hükûmete fiyatları belirleme, zorunlu çalışma yükümlülüğü getirme ve mallara el koyma gibi olağanüstü yetkiler veren 1940 tarihli kanun aşağıdakilerden hangisidir?",
+		"options": [
+			"Takrir-i Sükûn Kanunu",
+			"Sıkıyönetim Kanunu",
+			"Varlık Vergisi Kanunu",
+			"Millî Korunma Kanunu",
+			"Çiftçiyi Topraklandırma Kanunu"
+		],
+		"correctIndex": 3,
+		"explanation": "18 Ocak 1940 tarihli 3780 sayılı Millî Korunma Kanunu, savaş dışında kalınsa da seferberlik koşullarında ekonomiyi denetlemek için hükûmete fiyat tespiti, zorunlu çalışma ve mallara el koyma gibi olağanüstü yetkiler vermiştir. Takrir-i Sükûn Kanunu 1925'te Şeyh Said İsyanı üzerine, Varlık Vergisi Kanunu 1942'de, Çiftçiyi Topraklandırma Kanunu 1945'te çıkarılmıştır.",
+		"reference": {
+			"title": "3780 sayılı Millî Korunma Kanunu (18 Ocak 1940)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-inonu-010",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdakilerden hangisi İkinci Dünya Savaşı yıllarında (1939-1945) Türkiye'de gerçekleşen gelişmelerden biri değildir?",
+		"options": [
+			"Köy Enstitülerinin kurulması",
+			"Varlık Vergisi'nin uygulanması",
+			"Büyük şehirlerde ekmeğin karneyle dağıtılması",
+			"Millî Korunma Kanunu'nun çıkarılması",
+			"Gelir Vergisi Kanunu'nun yürürlüğe girmesi"
+		],
+		"correctIndex": 4,
+		"explanation": "Savaş yıllarında üretimin düşmesi ve seferberlik nedeniyle 1942'de büyük şehirlerde ekmek karneyle dağıtılmış; Millî Korunma Kanunu (1940), Varlık Vergisi (1942) ve Köy Enstitüleri (1940) bu dönemin gelişmeleridir. Gelir Vergisi Kanunu ise savaş sonrasında kabul edilmiş ve 1950'de yürürlüğe girmiştir.",
+		"reference": {
+			"title": "5421 sayılı Gelir Vergisi Kanunu (1949)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

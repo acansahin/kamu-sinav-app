@@ -313,6 +313,7 @@ describe("SummaryDocument sözleşmesi", () => {
 		legislationVersion: "657 sayılı Kanun — 2026",
 		lastVerifiedAt: "2026-08-01",
 		legalRefs: [],
+		references: [],
 		body: "",
 		readingMinutes: 3,
 	};

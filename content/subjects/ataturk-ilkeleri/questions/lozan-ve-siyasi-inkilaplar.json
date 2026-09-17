@@ -1,0 +1,331 @@
+[
+	{
+		"id": "ataturk-siyasi-001",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/lozan-ve-siyasi-inkilaplar",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Ankara hangi tarihte Türkiye Devleti'nin merkezi (başkenti) olarak kabul edilmiştir?",
+		"options": [
+			"20 Nisan 1924",
+			"13 Ekim 1923",
+			"23 Nisan 1920",
+			"27 Aralık 1919",
+			"29 Ekim 1923"
+		],
+		"correctIndex": 1,
+		"explanation": "Ankara, Lozan Barış Antlaşması'nın imzalanmasından sonra 13 Ekim 1923'te TBMM'nin kabul ettiği kanunla Türkiye Devleti'nin idare merkezi olmuştur. Cumhuriyet bundan iki hafta sonra, 29 Ekim 1923'te ilan edilmiştir. 27 Aralık 1919 Heyet-i Temsiliye'nin Ankara'ya gelişi, 20 Nisan 1924 ise 1924 Anayasası'nın kabul tarihidir.",
+		"reference": {
+			"title": "TBMM'nin 13 Ekim 1923 tarihli Kanunu (Ankara'nın devlet merkezi olması)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhuriyet"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-siyasi-002",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/lozan-ve-siyasi-inkilaplar",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Cumhuriyet'in ilanının ardından ilk Cumhurbaşkanı Mustafa Kemal tarafından hükûmeti kurmakla görevlendirilen ilk Başbakan kimdir?",
+		"options": [
+			"İsmet Paşa (İnönü)",
+			"Celal Bayar",
+			"Rauf Bey (Orbay)",
+			"Kâzım Karabekir Paşa",
+			"Fethi Bey (Okyar)"
+		],
+		"correctIndex": 0,
+		"explanation": "29 Ekim 1923'te Teşkilat-ı Esasiye Kanunu'nda yapılan değişiklikle devletin yönetim şeklinin cumhuriyet olduğu hükme bağlanmış, Mustafa Kemal Paşa oybirliğiyle Cumhurbaşkanı seçilmiş ve İsmet Paşa'yı Başbakan olarak görevlendirmiştir. Fethi Bey Cumhuriyet'ten önceki son İcra Vekilleri Heyeti Reisi, Celal Bayar ise 1937'de Başbakan olmuştur.",
+		"reference": {
+			"title": "Teşkilat-ı Esasiye Kanunu'nun 29 Ekim 1923 tarihli değişikliği"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cumhuriyet"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-siyasi-003",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/lozan-ve-siyasi-inkilaplar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Lozan Barış Antlaşması'nda çözüme kavuşturulamayarak Türkiye ile İngiltere arasında yapılacak ikili görüşmelere bırakılan sorun aşağıdakilerden hangisidir?",
+		"options": [
+			"Türk-Rum nüfus mübadelesi",
+			"Osmanlı borçları",
+			"Irak sınırı (Musul) sorunu",
+			"Kapitülasyonlar",
+			"Savaş tazminatı"
+		],
+		"correctIndex": 2,
+		"explanation": "Lozan'da Irak sınırının (Musul) belirlenmesi Türkiye ile İngiltere arasında yapılacak görüşmelere, anlaşma sağlanamazsa Milletler Cemiyeti'ne bırakılmıştır. Sorun 1926 Ankara Antlaşması'yla İngiltere lehine sonuçlanmıştır. Kapitülasyonlar kaldırılmış, Osmanlı borçları paylaştırılmış, nüfus mübadelesi ayrı bir sözleşmeyle düzenlenmiş, Yunanistan'dan savaş tazminatına karşılık Karaağaç alınmıştır.",
+		"reference": {
+			"title": "Lozan Barış Antlaşması (24 Temmuz 1923)",
+			"section": "Irak sınırı"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"lozan"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-siyasi-004",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/lozan-ve-siyasi-inkilaplar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi 3 Mart 1924 tarihinde TBMM'de kabul edilen kanunlarla gerçekleştirilen değişikliklerden biri değildir?",
+		"options": [
+			"Öğretimin birleştirilmesi",
+			"Halifeliğin kaldırılması",
+			"Şer'iye ve Evkaf Vekâletinin kaldırılması",
+			"Erkân-ı Harbiye-i Umumiye Vekâletinin kaldırılması",
+			"Tekke ve zaviyelerin kapatılması"
+		],
+		"correctIndex": 4,
+		"explanation": "3 Mart 1924'te aynı gün üç kanun kabul edilmiştir: 431 sayılı Kanun ile halifelik kaldırılmış, 430 sayılı Tevhid-i Tedrisat Kanunu ile öğretim birleştirilmiş, üçüncü bir kanunla da Şer'iye ve Evkaf Vekâleti ile Erkân-ı Harbiye-i Umumiye Vekâleti kaldırılmıştır. Tekke ve zaviyeler 30 Kasım 1925 tarihli ve 677 sayılı Kanun ile kapatılmıştır.",
+		"legalRef": {
+			"law": "Hilâfetin İlgasına ve Hanedanı Osmaninin Türkiye Cumhuriyeti Memaliki Haricine Çıkarılmasına Dair Kanun",
+			"lawId": "431",
+			"article": "1",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.431.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"halifelik"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-siyasi-005",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/lozan-ve-siyasi-inkilaplar",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1924 Anayasası'nda 1928 yılında yapılan değişiklikle aşağıdakilerden hangisi gerçekleştirilmiştir?",
+		"options": [
+			"Devletin yönetim şeklinin cumhuriyet olarak belirlenmesi",
+			"Devletin dininin İslam olduğuna ilişkin hükmün anayasadan çıkarılması",
+			"Cumhuriyet Halk Fırkasının altı ilkesinin anayasaya girmesi",
+			"Halifelik makamının kaldırılması",
+			"Kadınlara milletvekili seçme ve seçilme hakkı tanınması"
+		],
+		"correctIndex": 1,
+		"explanation": "1924 Anayasası'nın 2. maddesindeki \"Türkiye Devletinin dini, Din-i İslâmdır\" hükmü 10 Nisan 1928'de çıkarılmış ve laikleşme yolunda önemli bir adım atılmıştır. Kadınlara milletvekili seçme ve seçilme hakkı 1934'te, altı ilke 1937'de anayasaya girmiştir. Yönetim şeklinin cumhuriyet olması 1923'te, halifeliğin kaldırılması 1924'te gerçekleşmiştir.",
+		"reference": {
+			"title": "Teşkilat-ı Esasiye Kanunu (20 Nisan 1924)",
+			"section": "m. 2 — 10 Nisan 1928 değişikliği"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"laiklik",
+			"anayasa"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-siyasi-006",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/lozan-ve-siyasi-inkilaplar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Kapatılmasında Şeyh Said İsyanı'nın etkili olduğu siyasi parti aşağıdakilerden hangisidir?",
+		"options": [
+			"Demokrat Parti",
+			"Millî Kalkınma Partisi",
+			"Hürriyet ve İtilaf Fırkası",
+			"Terakkiperver Cumhuriyet Fırkası",
+			"Serbest Cumhuriyet Fırkası"
+		],
+		"correctIndex": 3,
+		"explanation": "17 Kasım 1924'te Kâzım Karabekir Paşa başkanlığında kurulan Terakkiperver Cumhuriyet Fırkası Türkiye'nin ilk muhalefet partisidir. 1925'te çıkan Şeyh Said İsyanı'nda parti programındaki dinî inançlara saygılı olma ifadesinin istismar edildiği gerekçesiyle Takrir-i Sükûn Kanunu'na dayanılarak 5 Haziran 1925'te kapatılmıştır. Demokrat Parti ve Millî Kalkınma Partisi 1945-1946'da kurulmuştur.",
+		"reference": {
+			"title": "Takrir-i Sükûn Kanunu (4 Mart 1925)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cok-partili-deneme"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-siyasi-007",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/lozan-ve-siyasi-inkilaplar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi Serbest Cumhuriyet Fırkası ile ilgili doğru bir bilgidir?",
+		"options": [
+			"Ali Fethi Okyar tarafından 1930'da kurulmuş ve aynı yıl kendini feshetmiştir.",
+			"Kâzım Karabekir Paşa başkanlığında kurulmuştur.",
+			"1946 genel seçimlerine katılarak Meclise girmiştir.",
+			"Türkiye Cumhuriyeti'nin ilk muhalefet partisidir.",
+			"Şeyh Said İsyanı gerekçe gösterilerek kapatılmıştır."
+		],
+		"correctIndex": 0,
+		"explanation": "Serbest Cumhuriyet Fırkası, Mustafa Kemal'in isteğiyle çok partili hayata geçişi denemek amacıyla 12 Ağustos 1930'da Ali Fethi Okyar tarafından kurulmuştur. Rejim karşıtlarının partinin çevresinde toplanması üzerine 17 Kasım 1930'da kendini feshetmiştir. İlk muhalefet partisi Kâzım Karabekir'in kurduğu Terakkiperver Cumhuriyet Fırkası'dır ve Şeyh Said İsyanı'ndan sonra kapatılan parti odur.",
+		"reference": {
+			"title": "Serbest Cumhuriyet Fırkası (12 Ağustos-17 Kasım 1930)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cok-partili-deneme"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-siyasi-008",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/lozan-ve-siyasi-inkilaplar",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Lozan Barış Antlaşması ve ekindeki Boğazlar Sözleşmesi'ne göre Boğazların durumu aşağıdakilerden hangisidir?",
+		"options": [
+			"Milletler Cemiyeti'nin doğrudan yönetimine verilmesi",
+			"Yalnızca Karadeniz'e kıyısı olan devletlerin gemilerine açılması",
+			"Tamamen Türk egemenliğine bırakılması ve Türkiye'ye silahlandırma hakkı tanınması",
+			"İngiltere'nin askerî denetimine bırakılması",
+			"Başkanı Türk olan uluslararası bir komisyonca yönetilmesi ve çevresinin silahsızlandırılması"
+		],
+		"correctIndex": 4,
+		"explanation": "Lozan'da Boğazlar bölgesinin silahsızlandırılması ve geçişlerin başkanı Türk olan uluslararası bir Boğazlar Komisyonu'nca denetlenmesi kabul edilmiştir. Bu durum Türk egemenliğini sınırladığı için Lozan'ın eksik kalan yönlerinden sayılır. Boğazlar 20 Temmuz 1936 tarihli Montrö Boğazlar Sözleşmesi ile tamamen Türk egemenliğine geçmiş ve Türkiye'ye bölgeyi silahlandırma hakkı tanınmıştır.",
+		"reference": {
+			"title": "Lozan Barış Antlaşması (24 Temmuz 1923)",
+			"section": "Boğazlar Sözleşmesi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"lozan",
+			"bogazlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-siyasi-009",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/lozan-ve-siyasi-inkilaplar",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Türk kadınına belediye seçimlerinde seçme ve seçilme hakkı hangi yıl tanınmıştır?",
+		"options": [
+			"1933",
+			"1926",
+			"1934",
+			"1930",
+			"1935"
+		],
+		"correctIndex": 3,
+		"explanation": "Türk kadını belediye seçimlerinde seçme ve seçilme hakkını 3 Nisan 1930 tarihli 1580 sayılı Belediye Kanunu ile elde etmiştir. Muhtarlık ve ihtiyar heyeti seçimlerinde bu hak 1933'te, milletvekili seçme ve seçilme hakkı 5 Aralık 1934'te tanınmış; kadınlar bu hakkı ilk kez 1935 seçimlerinde kullanmıştır. 1926 Türk Kanunu Medenisi'nin kabul yılıdır.",
+		"reference": {
+			"title": "1580 sayılı Belediye Kanunu (3 Nisan 1930)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kadin-haklari"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-siyasi-010",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/lozan-ve-siyasi-inkilaplar",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Lozan Konferansı'na TBMM Hükûmeti ile birlikte İstanbul Hükûmetinin de davet edilmesinin doğrudan sonucu aşağıdakilerden hangisi olmuştur?",
+		"options": [
+			"Ankara'nın başkent yapılması",
+			"Cumhuriyetin ilan edilmesi",
+			"Saltanatın kaldırılması",
+			"Mudanya Ateşkesi'nin imzalanması",
+			"Halifeliğin kaldırılması"
+		],
+		"correctIndex": 2,
+		"explanation": "İtilaf Devletlerinin Lozan Konferansı'na iki ayrı hükûmeti çağırması, ikiliği sona erdirme ihtiyacını doğurmuştur. TBMM 1 Kasım 1922'de saltanatı halifelikten ayırarak kaldırmış; böylece Lozan'a yalnızca TBMM Hükûmeti katılmıştır. Mudanya Ateşkesi bu davetten önce imzalanmıştı; cumhuriyetin ilanı, Ankara'nın başkent olması ve halifeliğin kaldırılması Lozan'dan sonraki gelişmelerdir.",
+		"reference": {
+			"title": "TBMM'nin 1 Kasım 1922 tarihli kararı (saltanatın kaldırılması)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"saltanat",
+			"lozan"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

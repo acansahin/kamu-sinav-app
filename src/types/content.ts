@@ -18,6 +18,21 @@ export const difficultySchema = z.enum(["kolay", "orta", "zor", "uzman"]);
 export const contentStatusSchema = z.enum(["draft", "review", "published"]);
 export const examKindSchema = z.enum(["gorevde-yukselme", "unvan-degisikligi"]);
 
+/**
+ * Bir dersin sorularında hangi dayanağın ZORUNLU olduğu.
+ *
+ * - `mevzuat`: her soruda `legalRef` (657, Anayasa, Etik…). Varsayılan budur;
+ *   mevcut derslerin kuralı hiç gevşemez.
+ * - `kaynak`: `legalRef` VEYA `reference` (Türkçe, tarih, coğrafya, edebiyat).
+ *   Mevzuata dayanan soru (ör. 677 sayılı Kanun) yine `legalRef` taşır.
+ * - `serbest`: ikisi de aranmaz (Sayısal Mantık). Doğruluğun kanıtı
+ *   açıklamadaki çözüm adımlarıdır; kaynak uydurmak yanlış güven verirdi.
+ *
+ * Kural şemada değil `build-content.ts` içinde uygulanır: soru hangi derse
+ * ait olduğunu bilmez.
+ */
+export const basisSchema = z.enum(["mevzuat", "kaynak", "serbest"]);
+
 /** Mevzuat dayanağı. Sorularda ZORUNLU — farklılaşma tezimizin taşıyıcısı. */
 export const legalRefSchema = z.object({
 	/** Okunabilir ad: "657 sayılı Devlet Memurları Kanunu" */
@@ -28,6 +43,19 @@ export const legalRefSchema = z.object({
 	article: z.string().min(1).optional(),
 	/** Fıkra/bent: "A/a" */
 	clause: z.string().min(1).optional(),
+	url: z.string().url().optional(),
+});
+
+/**
+ * Mevzuat dışı dayanak: dil bilgisi kuralının, tarihî belgenin ya da eserin
+ * kendisi. `source` (sorunun telif kökeni) ile karıştırılmamalı — bu alan
+ * sorunun İÇERİĞİNİN nereden doğrulanacağını söyler.
+ */
+export const referenceSchema = z.object({
+	/** "TDK Yazım Kılavuzu", "Lozan Barış Antlaşması", "Sabahattin Ali — Kürk Mantolu Madonna" */
+	title: z.string().min(3),
+	/** "Noktalama işaretleri — virgül", "m. 3" */
+	section: z.string().min(1).optional(),
 	url: z.string().url().optional(),
 });
 
@@ -68,7 +96,10 @@ export const questionSchema = z.object({
 	]),
 	/** Neden doğru olduğunu anlatan açıklama — ZORUNLU */
 	explanation: z.string().min(20),
-	legalRef: legalRefSchema,
+	/** Mevzuat dayanağı — `mevzuat` dayanaklı derslerde zorunlu (bkz. `basisSchema`). */
+	legalRef: legalRefSchema.optional(),
+	/** Mevzuat dışı dayanak — `kaynak` dayanaklı derslerde `legalRef` yoksa zorunlu. */
+	reference: referenceSchema.optional(),
 	source: questionSourceSchema,
 	status: contentStatusSchema.default("draft"),
 	tags: z.array(z.string()).default([]),
@@ -95,6 +126,7 @@ export const subjectSchema = z.object({
 	shortName: z.string().min(2),
 	description: z.string().min(10),
 	scope: scopeSchema.default("ortak"),
+	basis: basisSchema.default("mevzuat"),
 	order: z.number().int().min(0),
 	/** lucide-react ikon adı */
 	icon: z.string().min(2),
@@ -107,11 +139,15 @@ export const summaryFrontmatterSchema = z.object({
 	title: z.string().min(2),
 	/** "Bir bakışta" kutusundaki maddeler */
 	keyPoints: z.array(z.string().min(5)).min(2),
-	/** İçeriğin dayandığı mevzuatın hangi tarihli hâli olduğu */
+	/**
+	 * İçeriğin dayandığı mevzuatın hangi tarihli hâli olduğu. Mevzuat dışı
+	 * derslerde dayanılan kaynağın sürümü ("TDK Yazım Kılavuzu, çevrimiçi sürüm").
+	 */
 	legislationVersion: z.string().min(4),
 	/** İçeriğin en son ne zaman doğrulandığı — güven rozetinde gösterilir */
 	lastVerifiedAt: isoDate,
 	legalRefs: z.array(legalRefSchema).default([]),
+	references: z.array(referenceSchema).default([]),
 });
 
 export const mockExamTemplateSchema = z.object({
@@ -179,7 +215,9 @@ export type Scope = z.infer<typeof scopeSchema>;
 export type Difficulty = z.infer<typeof difficultySchema>;
 export type ContentStatus = z.infer<typeof contentStatusSchema>;
 export type ExamKind = z.infer<typeof examKindSchema>;
+export type Basis = z.infer<typeof basisSchema>;
 export type LegalRef = z.infer<typeof legalRefSchema>;
+export type Reference = z.infer<typeof referenceSchema>;
 export type QuestionSource = z.infer<typeof questionSourceSchema>;
 export type Question = z.infer<typeof questionSchema>;
 export type Topic = z.infer<typeof topicSchema>;

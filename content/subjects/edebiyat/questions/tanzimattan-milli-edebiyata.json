@@ -1,0 +1,323 @@
+[
+	{
+		"id": "edebiyat-tanzimat-001",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Öğretmen Feride'nin Anadolu'daki hayatını anlatan Çalıkuşu romanının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Refik Halit Karay",
+			"Halide Edip Adıvar",
+			"Yakup Kadri Karaosmanoğlu",
+			"Reşat Nuri Güntekin",
+			"Ömer Seyfettin"
+		],
+		"correctIndex": 3,
+		"explanation": "Çalıkuşu, Reşat Nuri Güntekin'in 1922'de kitap olarak yayımlanan romanıdır. İstanbul'dan Anadolu'ya öğretmen olarak giden Feride'nin gözünden dönemin Anadolu'sunu anlatır. Yazarın diğer bilinen eserleri Yaprak Dökümü, Yeşil Gece ve Acımak'tır.",
+		"reference": {
+			"title": "Reşat Nuri Güntekin — Çalıkuşu (1922)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"milli-edebiyat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-tanzimat-002",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "İstiklal Marşı'nın şairi Mehmet Akif Ersoy'un şiirlerini topladığı eser aşağıdakilerden hangisidir?",
+		"options": [
+			"Göl Saatleri",
+			"Safahat",
+			"Kızılelma",
+			"Kendi Gök Kubbemiz",
+			"Rübab-ı Şikeste"
+		],
+		"correctIndex": 1,
+		"explanation": "Mehmet Akif Ersoy'un şiirleri yedi kitaptan oluşan Safahat adı altında toplanmıştır; toplumsal konuları manzum hikâye tarzında işler. Kendi Gök Kubbemiz Yahya Kemal Beyatlı'nın, Rübab-ı Şikeste Tevfik Fikret'in, Göl Saatleri Ahmet Haşim'in, Kızılelma Ziya Gökalp'in eseridir.",
+		"reference": {
+			"title": "Mehmet Akif Ersoy — Safahat"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"milli-edebiyat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-tanzimat-003",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türk edebiyatında Batılı anlamda yazılmış ilk yerli tiyatro eseri aşağıdakilerden hangisidir?",
+		"options": [
+			"Şair Evlenmesi",
+			"Vatan yahut Silistre",
+			"Zavallı Çocuk",
+			"Finten",
+			"Akif Bey"
+		],
+		"correctIndex": 0,
+		"explanation": "Şinasi'nin 1860'ta yayımlanan tek perdelik komedisi Şair Evlenmesi, görücü usulüyle evlenmeyi eleştiren ve Batılı anlamda yazılmış ilk yerli tiyatro eseridir. Vatan yahut Silistre, Zavallı Çocuk ve Akif Bey Namık Kemal'in, Finten ise Abdülhak Hamit Tarhan'ın oyunlarıdır.",
+		"reference": {
+			"title": "Şinasi — Şair Evlenmesi (1860)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tanzimat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-tanzimat-004",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Alafranga züppe tipini Bihruz Bey karakteriyle işleyen ve Türk edebiyatının ilk realist romanı sayılan Araba Sevdası'nın yazarı kimdir?",
+		"options": [
+			"Namık Kemal",
+			"Sami Paşazade Sezai",
+			"Nabizade Nazım",
+			"Ahmet Mithat Efendi",
+			"Recaizade Mahmut Ekrem"
+		],
+		"correctIndex": 4,
+		"explanation": "Araba Sevdası Recaizade Mahmut Ekrem'in romanıdır ve Batılılaşmayı yanlış anlayan Bihruz Bey'i realist bir bakışla işler. Alafranga züppe tipi ilk kez Ahmet Mithat Efendi'nin Felatun Bey ile Rakım Efendi romanında Felatun Bey karakteriyle işlenmiştir. Sami Paşazade Sezai Sergüzeşt'in, Nabizade Nazım Karabibik ve Zehra'nın yazarıdır.",
+		"reference": {
+			"title": "Recaizade Mahmut Ekrem — Araba Sevdası"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tanzimat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-tanzimat-005",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Servet-i Fünun döneminde yazılan Mai ve Siyah ile Aşk-ı Memnu romanlarının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Hüseyin Cahit Yalçın",
+			"Mehmet Rauf",
+			"Halit Ziya Uşaklıgil",
+			"Tevfik Fikret",
+			"Ahmet Haşim"
+		],
+		"correctIndex": 2,
+		"explanation": "Halit Ziya Uşaklıgil Servet-i Fünun romanının en önemli temsilcisidir. Mai ve Siyah'ta şair Ahmet Cemil'in hayal kırıklıklarını, Aşk-ı Memnu'da yasak aşkı realist bir teknikle işler. Mehmet Rauf Eylül'ün yazarıdır; Tevfik Fikret dönemin şairi, Ahmet Haşim ise Fecr-i Âti şairidir.",
+		"reference": {
+			"title": "Halit Ziya Uşaklıgil — Mai ve Siyah; Aşk-ı Memnu"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"servet-i-funun"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-tanzimat-006",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Millî Edebiyat akımını başlatan \"Yeni Lisan\" makalesinin yayımlandığı dergi aşağıdakilerden hangisidir?",
+		"options": [
+			"Tercüman-ı Ahval",
+			"Varlık",
+			"Servet-i Fünun",
+			"Genç Kalemler",
+			"Dergâh"
+		],
+		"correctIndex": 3,
+		"explanation": "\"Yeni Lisan\" makalesi 1911'de Selanik'te çıkan Genç Kalemler dergisinde yayımlanmış ve Ömer Seyfettin'in kaleme aldığı yazıyla sade Türkçe, konuşma dilinin yazı diline esas alınması savunulmuştur. Servet-i Fünun aynı adlı topluluğun, Dergâh Millî Mücadele yıllarında çıkan bir derginin adıdır; Tercüman-ı Ahval 1860'ta çıkan ilk özel Türk gazetesidir.",
+		"reference": {
+			"title": "Genç Kalemler dergisi (1911)",
+			"section": "Yeni Lisan makalesi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"milli-edebiyat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-tanzimat-007",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Türk edebiyatının ilk yerli romanı kabul edilen Taaşşuk-ı Talat ve Fitnat'ın yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Şemsettin Sami",
+			"Ahmet Mithat Efendi",
+			"Ziya Paşa",
+			"Şinasi",
+			"Namık Kemal"
+		],
+		"correctIndex": 0,
+		"explanation": "Şemsettin Sami'nin 1872'de yayımlanan Taaşşuk-ı Talat ve Fitnat'ı, Türk edebiyatında yazılan ilk yerli roman kabul edilir; görücü usulü evliliğin yol açtığı trajediyi anlatır. Şemsettin Sami ayrıca Kamus-ı Türki sözlüğünün yazarıdır. Namık Kemal İntibah ve Cezmi romanlarını, Ahmet Mithat Efendi çok sayıda popüler roman yazmıştır.",
+		"reference": {
+			"title": "Şemsettin Sami — Taaşşuk-ı Talat ve Fitnat (1872)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tanzimat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-tanzimat-008",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Kurtuluş Savaşı yıllarında bir Anadolu köyüne yerleşen aydın Ahmet Celal'in köylüye yabancılığını anlatan Yaban romanının yazarı kimdir?",
+		"options": [
+			"Refik Halit Karay",
+			"Halide Edip Adıvar",
+			"Ömer Seyfettin",
+			"Reşat Nuri Güntekin",
+			"Yakup Kadri Karaosmanoğlu"
+		],
+		"correctIndex": 4,
+		"explanation": "Yaban, Yakup Kadri Karaosmanoğlu'nun 1932'de yayımlanan romanıdır ve aydın-halk kopukluğunu Ahmet Celal karakteri üzerinden eleştirel bir gözle ele alır. Yazarın Kiralık Konak, Sodom ve Gomore ve Ankara adlı romanları da vardır. Halide Edip Adıvar Ateşten Gömlek'in, Refik Halit Karay Memleket Hikâyeleri'nin yazarıdır.",
+		"reference": {
+			"title": "Yakup Kadri Karaosmanoğlu — Yaban (1932)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"milli-edebiyat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-tanzimat-009",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki eser-yazar eşleştirmelerinden hangisi doğrudur?",
+		"options": [
+			"Göl Saatleri – Tevfik Fikret",
+			"Rübab-ı Şikeste – Tevfik Fikret",
+			"Makber – Ziya Paşa",
+			"Sergüzeşt – Namık Kemal",
+			"Karabibik – Recaizade Mahmut Ekrem"
+		],
+		"correctIndex": 1,
+		"explanation": "Rübab-ı Şikeste (Kırık Saz) Servet-i Fünun şairi Tevfik Fikret'in şiir kitabıdır. Göl Saatleri Ahmet Haşim'in, esaret konulu Sergüzeşt Sami Paşazade Sezai'nin, köy hayatını anlatan Karabibik Nabizade Nazım'ın, eşinin ölümü üzerine yazılan Makber ise Abdülhak Hamit Tarhan'ın eseridir.",
+		"reference": {
+			"title": "Tevfik Fikret — Rübab-ı Şikeste (1900)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"servet-i-funun"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-tanzimat-010",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "\"Kaşağı\", \"Forsa\" ve \"Başını Vermeyen Şehit\" gibi hikâyelerin yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Sait Faik Abasıyanık",
+			"Halide Edip Adıvar",
+			"Ömer Seyfettin",
+			"Refik Halit Karay",
+			"Memduh Şevket Esendal"
+		],
+		"correctIndex": 2,
+		"explanation": "Ömer Seyfettin Millî Edebiyat döneminin en önemli hikâyecisidir; sade dili ve olay örgüsü sağlam hikâyeleriyle tanınır. Kaşağı çocukluk anısını, Forsa ve Başını Vermeyen Şehit tarihî kahramanlık konularını işler. Refik Halit Karay Memleket Hikâyeleri'nin yazarıdır; Sait Faik ve Memduh Şevket Esendal Cumhuriyet döneminin durum hikâyesi yazarlarıdır.",
+		"reference": {
+			"title": "Ömer Seyfettin — Hikâyeler"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"milli-edebiyat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

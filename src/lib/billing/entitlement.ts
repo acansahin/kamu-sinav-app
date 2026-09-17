@@ -67,6 +67,12 @@ export const FREE_TOPIC_BY_SUBJECT: ReadonlyMap<string, string> = new Map([
 	["resmi-yazisma", "genel-hukumler-ve-tanimlar"],
 	["devlet-teskilati", "cumhurbaskanligi-teskilati"],
 	["guvenlik-sorusturmasi", "kapsam-tanimlar-ve-arastirma-turleri"],
+	["turkce", "ses-bilgisi-ve-yazim-kurallari"],
+	["sayisal-mantik", "sayi-dizileri-ve-oruntuler"],
+	["ataturk-ilkeleri", "milli-mucadele-hazirlik-donemi"],
+	["yakin-tarih", "inonu-donemi-ve-ikinci-dunya-savasi"],
+	["cografya", "konum-ve-yer-sekilleri"],
+	["edebiyat", "eski-turk-edebiyati"],
 ]);
 
 export const FREE_TEST_SLUG = "test-1";

@@ -123,6 +123,12 @@ export const DERS_ETIKETLERI: Record<string, readonly string[]> = {
 	"resmi-yazisma": ["#ResmiYazışma", "#resmiyazışmakuralları"],
 	"devlet-teskilati": ["#DevletTeşkilatı", "#cumhurbaşkanlığıkararnamesi"],
 	"guvenlik-sorusturmasi": ["#GüvenlikSoruşturması", "#7315sayılıkanun"],
+	turkce: ["#Türkçe", "#dilbilgisi"],
+	"sayisal-mantik": ["#SayısalMantık", "#genelyetenek"],
+	"ataturk-ilkeleri": ["#AtatürkİlkeleriveİnkılapTarihi", "#inkılaptarihi"],
+	"yakin-tarih": ["#YakınTarih", "#türkiyesiyasitarihi"],
+	cografya: ["#TürkiyeCoğrafyası", "#coğrafya"],
+	edebiyat: ["#Edebiyat", "#genelkültür"],
 };
 
 /**

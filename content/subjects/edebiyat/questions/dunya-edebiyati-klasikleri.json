@@ -1,0 +1,322 @@
+[
+	{
+		"id": "edebiyat-dunya-001",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Şövalye romanlarıyla alay eden ve modern romanın öncüsü sayılan Don Kişot'un yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Johann Wolfgang von Goethe",
+			"Miguel de Cervantes",
+			"Victor Hugo",
+			"Dante Alighieri",
+			"William Shakespeare"
+		],
+		"correctIndex": 1,
+		"explanation": "Don Kişot, İspanyol yazar Miguel de Cervantes'in iki bölüm hâlinde (1605 ve 1615) yayımlanan romanıdır. Şövalye romanlarını okuyarak kendini şövalye sanan Don Kişot ile yardımcısı Sanço Panza'nın maceralarını anlatır ve modern romanın ilk örneklerinden kabul edilir.",
+		"reference": {
+			"title": "Miguel de Cervantes — Don Kişot (1605-1615)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ispanyol-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-dunya-002",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Öğrenci Raskolnikov'un işlediği cinayet ve sonrasında yaşadığı vicdan azabını anlatan Suç ve Ceza romanının yazarı kimdir?",
+		"options": [
+			"Nikolay Gogol",
+			"Aleksandr Puşkin",
+			"Fyodor Dostoyevski",
+			"Lev Tolstoy",
+			"Anton Çehov"
+		],
+		"correctIndex": 2,
+		"explanation": "Suç ve Ceza, Rus yazar Fyodor Dostoyevski'nin 1866'da yayımlanan psikolojik romanıdır. Yazarın Karamazov Kardeşler, Budala ve Yeraltından Notlar adlı eserleri de klasikleşmiştir. Tolstoy Savaş ve Barış ile Anna Karenina'nın, Gogol Ölü Canlar ve Palto'nun yazarıdır.",
+		"reference": {
+			"title": "Fyodor Dostoyevski — Suç ve Ceza (1866)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"rus-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-dunya-003",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Truva Savaşı'nı konu alan İlyada ile Odysseus'un yurduna dönüş yolculuğunu anlatan Odysseia destanları aşağıdakilerden hangisine aittir?",
+		"options": [
+			"Sofokles",
+			"Ovidius",
+			"Vergilius",
+			"Homeros",
+			"Hesiodos"
+		],
+		"correctIndex": 3,
+		"explanation": "İlyada ve Odysseia, antik Yunan şairi Homeros'a atfedilen ve Batı edebiyatının temel metinleri sayılan destanlardır. Vergilius Latin destanı Aeneis'in, Ovidius Dönüşümler'in, Sofokles Kral Oidipus gibi tragedyaların, Hesiodos ise İşler ve Günler'in yazarıdır.",
+		"reference": {
+			"title": "Homeros — İlyada; Odysseia"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"antik-edebiyat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-dunya-004",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Jean Valjean'ın hikâyesi üzerinden 19. yüzyıl Fransa'sında yoksulluk ve adaleti işleyen Sefiller romanının yazarı kimdir?",
+		"options": [
+			"Gustave Flaubert",
+			"Honoré de Balzac",
+			"Stendhal",
+			"Émile Zola",
+			"Victor Hugo"
+		],
+		"correctIndex": 4,
+		"explanation": "Sefiller, Fransız romantizminin önde gelen yazarı Victor Hugo'nun 1862'de yayımlanan romanıdır. Hugo'nun Paris'in Notre-Dame'ı ve Gülen Adam gibi eserleri de vardır. Balzac İnsanlık Komedyası'nın, Flaubert Madam Bovary'nin, Stendhal Kırmızı ve Siyah'ın yazarıdır.",
+		"reference": {
+			"title": "Victor Hugo — Sefiller (1862)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fransiz-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-dunya-005",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Totaliter rejimleri eleştiren 1984 ve Hayvan Çiftliği romanlarının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"George Orwell",
+			"Charles Dickens",
+			"H. G. Wells",
+			"Ray Bradbury",
+			"Aldous Huxley"
+		],
+		"correctIndex": 0,
+		"explanation": "İngiliz yazar George Orwell, alegorik Hayvan Çiftliği (1945) ve distopik 1984 (1949) romanlarında totaliter yönetimleri eleştirir. Aldous Huxley Cesur Yeni Dünya'nın, Ray Bradbury Fahrenheit 451'in, H. G. Wells Zaman Makinesi'nin, Charles Dickens Oliver Twist'in yazarıdır.",
+		"reference": {
+			"title": "George Orwell — Hayvan Çiftliği (1945); 1984 (1949)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ingiliz-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-dunya-006",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Cehennem, Araf ve Cennet bölümlerinden oluşan manzum eser aşağıdakilerden hangisidir?",
+		"options": [
+			"İlahi Komedya",
+			"Decameron",
+			"Canterbury Hikâyeleri",
+			"Faust",
+			"Kayıp Cennet"
+		],
+		"correctIndex": 0,
+		"explanation": "İlahi Komedya, İtalyan şair Dante Alighieri'nin 14. yüzyılın başında yazdığı ve Cehennem, Araf, Cennet bölümlerinden oluşan manzum eseridir; İtalyancanın edebî dil olarak yerleşmesinde büyük rol oynamıştır. Kayıp Cennet John Milton'ın, Faust Goethe'nin, Decameron Boccaccio'nun, Canterbury Hikâyeleri Chaucer'ın eseridir.",
+		"reference": {
+			"title": "Dante Alighieri — İlahi Komedya (14. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"italyan-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-dunya-007",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Taşra hayatından sıkılan Emma'nın hikâyesini anlatan ve realizmin başyapıtlarından sayılan Madam Bovary'nin yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Stendhal",
+			"Gustave Flaubert",
+			"Honoré de Balzac",
+			"Émile Zola",
+			"Guy de Maupassant"
+		],
+		"correctIndex": 1,
+		"explanation": "Madam Bovary, Gustave Flaubert'in 1857'de yayımlanan romanıdır ve nesnel anlatımı, titiz üslubuyla realizmin başyapıtlarından sayılır. Émile Zola natüralizmin, Guy de Maupassant kısa öyküleriyle realizm-natüralizm çizgisinin temsilcisidir; Stendhal Kırmızı ve Siyah'ı, Balzac Goriot Baba'yı yazmıştır.",
+		"reference": {
+			"title": "Gustave Flaubert — Madam Bovary (1857)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fransiz-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-dunya-008",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Gregor Samsa'nın bir sabah dev bir böceğe dönüşmüş olarak uyanmasını anlatan eser ve yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Yabancı – Albert Camus",
+			"Palto – Nikolay Gogol",
+			"Dava – Franz Kafka",
+			"Dönüşüm – Franz Kafka",
+			"Bulantı – Jean-Paul Sartre"
+		],
+		"correctIndex": 3,
+		"explanation": "Dönüşüm, Franz Kafka'nın 1915'te yayımlanan uzun öyküsüdür; bireyin ailesi ve toplum içindeki yabancılaşmasını simgesel bir dille anlatır. Dava da Kafka'nındır ancak Josef K.'nın anlamsız bir yargılanma sürecini anlatır. Yabancı Camus'nün Meursault'sunu, Bulantı Sartre'ın Roquentin'ini anlatır; Palto Gogol'ün öyküsüdür.",
+		"reference": {
+			"title": "Franz Kafka — Dönüşüm (1915)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"alman-dilli-edebiyat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-dunya-009",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "İran'ın efsanevi ve tarihî hükümdarlarını anlatan ve Fars edebiyatının en büyük destanı sayılan Şehname'nin yazarı kimdir?",
+		"options": [
+			"Sadi Şirazi",
+			"Hafız-ı Şirazi",
+			"Firdevsi",
+			"Mevlana Celaleddin Rumi",
+			"Ömer Hayyam"
+		],
+		"correctIndex": 2,
+		"explanation": "Şehname, Firdevsi'nin 11. yüzyılın başında tamamladığı ve yaklaşık altmış bin beyitten oluşan destansı eseridir; Rüstem gibi kahramanların hikâyelerini içerir. Mevlana Mesnevi'nin, Sadi Gülistan ve Bostan'ın, Hafız Divan'ın, Ömer Hayyam ise Rubailer'in şairidir.",
+		"reference": {
+			"title": "Firdevsi — Şehname (11. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fars-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-dunya-010",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Dünya edebiyatının klasikleşmiş eserlerinden hangisi yazarıyla birlikte yanlış verilmiştir?",
+		"options": [
+			"Fareler ve İnsanlar – John Steinbeck",
+			"Yaşlı Adam ve Deniz – Ernest Hemingway",
+			"Faust – Johann Wolfgang von Goethe",
+			"Savaş ve Barış – Lev Tolstoy",
+			"Yüzyıllık Yalnızlık – Ernest Hemingway"
+		],
+		"correctIndex": 4,
+		"explanation": "Macondo kasabasında Buendía ailesinin kuşaklarını anlatan Yüzyıllık Yalnızlık, Kolombiyalı yazar Gabriel García Márquez'in 1967'de yayımlanan ve büyülü gerçekçiliğin başyapıtı sayılan romanıdır. Yaşlı Adam ve Deniz Hemingway'in, Fareler ve İnsanlar Steinbeck'in, Savaş ve Barış Tolstoy'un, Faust Goethe'nin eseridir.",
+		"reference": {
+			"title": "Gabriel García Márquez — Yüzyıllık Yalnızlık (1967)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"latin-amerika-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

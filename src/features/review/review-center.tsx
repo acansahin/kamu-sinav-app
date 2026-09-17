@@ -362,7 +362,7 @@ export function ReviewCenter({
 							return (
 								<li key={entry.questionId}>
 									<Card>
-										<p className="font-medium leading-relaxed">{q.stem}</p>
+										<p className="whitespace-pre-line font-medium leading-relaxed">{q.stem}</p>
 										<div className="mt-2 flex flex-wrap items-center gap-2">
 											<Badge tone="wrong">{entry.lapses} kez unutuldu</Badge>
 											<Badge>

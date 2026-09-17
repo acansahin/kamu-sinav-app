@@ -1,0 +1,322 @@
+[
+	{
+		"id": "edebiyat-cumhuriyet-001",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Kürk Mantolu Madonna romanının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Sait Faik Abasıyanık",
+			"Ahmet Hamdi Tanpınar",
+			"Peyami Safa",
+			"Orhan Kemal",
+			"Sabahattin Ali"
+		],
+		"correctIndex": 4,
+		"explanation": "Kürk Mantolu Madonna, Sabahattin Ali'nin 1943'te kitap olarak yayımlanan romanıdır; Raif Efendi'nin Berlin'de Maria Puder'e duyduğu aşkı anlatır. Yazarın Kuyucaklı Yusuf ve İçimizdeki Şeytan adlı romanları da vardır.",
+		"reference": {
+			"title": "Sabahattin Ali — Kürk Mantolu Madonna (1943)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"roman"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-002",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "2006 yılında Nobel Edebiyat Ödülü'nü kazanan Türk yazar aşağıdakilerden hangisidir?",
+		"options": [
+			"Yaşar Kemal",
+			"Orhan Pamuk",
+			"Nazım Hikmet",
+			"Oğuz Atay",
+			"Ahmet Hamdi Tanpınar"
+		],
+		"correctIndex": 1,
+		"explanation": "Orhan Pamuk 2006'da Nobel Edebiyat Ödülü'nü kazanan ilk Türk yazardır. Benim Adım Kırmızı, Kar, Masumiyet Müzesi ve İstanbul: Hatıralar ve Şehir başlıca eserleridir. Yaşar Kemal ödüle aday gösterilmiş ancak kazanmamıştır.",
+		"reference": {
+			"title": "Nobel Edebiyat Ödülü 2006 — Orhan Pamuk"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"roman"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-003",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Çukurova'da ağalara başkaldıran eşkıya Memed'i anlatan İnce Memed romanının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Yaşar Kemal",
+			"Fakir Baykurt",
+			"Kemal Tahir",
+			"Orhan Kemal",
+			"Tarık Buğra"
+		],
+		"correctIndex": 0,
+		"explanation": "İnce Memed, Yaşar Kemal'in 1955'te yayımlanan ve dört ciltten oluşan romanıdır; Çukurova ve Toroslar'daki köylü hayatını ve ağa baskısını destansı bir anlatımla işler. Orhan Kemal Bereketli Topraklar Üzerinde'nin, Kemal Tahir Devlet Ana'nın, Fakir Baykurt Yılanların Öcü'nün, Tarık Buğra Küçük Ağa'nın yazarıdır.",
+		"reference": {
+			"title": "Yaşar Kemal — İnce Memed (1955)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"roman"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-004",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1941'de yayımlanan Garip kitabıyla şiirde ölçüye, uyağa ve süslü söyleyişe karşı çıkan şairler aşağıdakilerden hangisidir?",
+		"options": [
+			"Orhan Veli Kanık, Oktay Rifat, Melih Cevdet Anday",
+			"Faruk Nafiz Çamlıbel, Enis Behiç Koryürek, Halit Fahri Ozansoy",
+			"Nazım Hikmet, Ahmet Arif, Enver Gökçe",
+			"Cemal Süreya, Turgut Uyar, Edip Cansever",
+			"Sabri Esat Siyavuşgil, Yaşar Nabi Nayır, Ziya Osman Saba"
+		],
+		"correctIndex": 0,
+		"explanation": "Garip (Birinci Yeni) hareketi, Orhan Veli Kanık, Oktay Rifat ve Melih Cevdet Anday'ın 1941'de çıkardığı Garip kitabıyla başlar; şiirde ölçü, uyak ve mecazları reddeder, sokaktaki insanı günlük dille anlatır. Cemal Süreya, Turgut Uyar ve Edip Cansever İkinci Yeni'nin, Faruk Nafiz ve arkadaşları Beş Hececilerin, Sabri Esat ve arkadaşları Yedi Meşalecilerin temsilcileridir.",
+		"reference": {
+			"title": "Orhan Veli Kanık, Oktay Rifat, Melih Cevdet Anday — Garip (1941)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siir"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-005",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Saatleri Ayarlama Enstitüsü ve Huzur romanlarının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Oğuz Atay",
+			"Sait Faik Abasıyanık",
+			"Haldun Taner",
+			"Ahmet Hamdi Tanpınar",
+			"Peyami Safa"
+		],
+		"correctIndex": 3,
+		"explanation": "Ahmet Hamdi Tanpınar, Doğu-Batı arasında kalmışlık ve zaman temalarını işleyen Huzur (1949) ile modernleşmeyi ironik bir dille eleştiren Saatleri Ayarlama Enstitüsü'nün yazarıdır. Beş Şehir adlı deneme kitabı da tanınmış eserleri arasındadır. Peyami Safa Dokuzuncu Hariciye Koğuşu'nun, Oğuz Atay Tutunamayanlar'ın yazarıdır.",
+		"reference": {
+			"title": "Ahmet Hamdi Tanpınar — Huzur; Saatleri Ayarlama Enstitüsü"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"roman"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-006",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Türk edebiyatında modernist ve postmodern romanın öncülerinden sayılan Tutunamayanlar'ın yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Yusuf Atılgan",
+			"Bilge Karasu",
+			"Oğuz Atay",
+			"Orhan Pamuk",
+			"Adalet Ağaoğlu"
+		],
+		"correctIndex": 2,
+		"explanation": "Oğuz Atay'ın 1971-1972'de yayımlanan Tutunamayanlar romanı, toplumun kalıplarına uyum sağlayamayan aydın bireyi parodi, iç monolog ve farklı anlatım teknikleriyle işler; Türk romanında modernist anlatımın dönüm noktası sayılır. Yusuf Atılgan Aylak Adam'ın, Adalet Ağaoğlu Ölmeye Yatmak'ın yazarıdır.",
+		"reference": {
+			"title": "Oğuz Atay — Tutunamayanlar (1971-1972)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"roman"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-007",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Epik tiyatronun Türk edebiyatındaki başarılı örneklerinden Keşanlı Ali Destanı'nın yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Necip Fazıl Kısakürek",
+			"Haldun Taner",
+			"Güngör Dilmen",
+			"Turgut Özakman",
+			"Aziz Nesin"
+		],
+		"correctIndex": 1,
+		"explanation": "Keşanlı Ali Destanı, Haldun Taner'in 1964'te sahnelenen ve gecekondu mahallesinde bir kahramanlık efsanesinin nasıl yaratıldığını anlatan oyunudur. Brecht'in epik tiyatro anlayışını geleneksel Türk tiyatrosu unsurlarıyla birleştirir. Haldun Taner aynı zamanda hikâyeleriyle de tanınır.",
+		"reference": {
+			"title": "Haldun Taner — Keşanlı Ali Destanı (1964)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tiyatro"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-008",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Köy Enstitüsü çıkışlı bir öğretmenin köy gerçeğini gözlemlerine dayanarak anlattığı ve 1950'de kitap olarak yayımlanan Bizim Köy adlı eserin yazarı kimdir?",
+		"options": [
+			"Talip Apaydın",
+			"Fakir Baykurt",
+			"Orhan Kemal",
+			"Yaşar Kemal",
+			"Mahmut Makal"
+		],
+		"correctIndex": 4,
+		"explanation": "Mahmut Makal'ın Bizim Köy'ü, yazarın öğretmenlik yaptığı köyde tuttuğu notlardan oluşur ve 1950'de yayımlanınca köy gerçeğini kamuoyunun gündemine taşımıştır; köy edebiyatının öncü eserlerinden sayılır. Fakir Baykurt (Yılanların Öcü) ve Talip Apaydın (Sarı Traktör) da Köy Enstitüsü çıkışlı yazarlardır.",
+		"reference": {
+			"title": "Mahmut Makal — Bizim Köy (1950)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koy-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-009",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Çile adlı şiir kitabıyla tanınan, şiirlerinde metafizik kaygıları ve iç çatışmayı işleyen şair aşağıdakilerden hangisidir?",
+		"options": [
+			"Cahit Sıtkı Tarancı",
+			"Ahmet Muhip Dıranas",
+			"Necip Fazıl Kısakürek",
+			"Sezai Karakoç",
+			"Asaf Halet Çelebi"
+		],
+		"correctIndex": 2,
+		"explanation": "Necip Fazıl Kısakürek'in şiirleri Çile adlı kitapta toplanmıştır; ilk dönem şiirlerinde ölüm, yalnızlık ve korku, sonraki dönemde metafizik arayış öne çıkar. Sezai Karakoç Monna Rosa'nın, Cahit Sıtkı Tarancı \"Otuz Beş Yaş\" şiirinin yer aldığı Ömrümde Sükût'un şairidir.",
+		"reference": {
+			"title": "Necip Fazıl Kısakürek — Çile"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siir"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-010",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Cumhuriyet dönemi romancı ve şairlerinin kitaplarıyla birlikte verildiği aşağıdaki ikililerden hangisi doğru değildir?",
+		"options": [
+			"Küçük Ağa – Tarık Buğra",
+			"Otuz Beş Yaş – Cahit Sıtkı Tarancı",
+			"Dokuzuncu Hariciye Koğuşu – Peyami Safa",
+			"Devlet Ana – Tarık Buğra",
+			"Kendi Gök Kubbemiz – Yahya Kemal Beyatlı"
+		],
+		"correctIndex": 3,
+		"explanation": "Osmanlı Devleti'nin kuruluşunu anlatan Devlet Ana, Kemal Tahir'in 1967'de yayımlanan romanıdır. Kurtuluş Savaşı'nı Anadolu insanının gözünden anlatan Küçük Ağa Tarık Buğra'nın, Dokuzuncu Hariciye Koğuşu Peyami Safa'nın, \"Otuz Beş Yaş\" şiiri Cahit Sıtkı Tarancı'nın, Kendi Gök Kubbemiz Yahya Kemal Beyatlı'nın eseridir.",
+		"reference": {
+			"title": "Kemal Tahir — Devlet Ana (1967)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"roman"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

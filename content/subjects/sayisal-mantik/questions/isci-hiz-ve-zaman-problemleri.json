@@ -1,0 +1,272 @@
+[
+	{
+		"id": "sayisal-hiz-001",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Saatteki hızı 80 kilometre olan bir otobüs 3 saat 30 dakikada kaç kilometre yol alır?",
+		"options": [
+			"320",
+			"260",
+			"240",
+			"300",
+			"280"
+		],
+		"correctIndex": 4,
+		"explanation": "Alınan yol = hız × süre formülüyle bulunur. 3 saat 30 dakika 3,5 saattir. Yol = 80 × 3,5 = 280 kilometredir. 30 dakikayı 0,30 saat saymak (80 × 3,3 = 264) sık yapılan bir hatadır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-hiz-002",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Ahmet bir işi tek başına 6 günde, Mehmet aynı işi tek başına 12 günde bitirebilmektedir.\n\nİkisi birlikte çalışırsa bu işi kaç günde bitirirler?",
+		"options": [
+			"5",
+			"3",
+			"6",
+			"9",
+			"4"
+		],
+		"correctIndex": 4,
+		"explanation": "Ahmet bir günde işin 1/6'sını, Mehmet 1/12'sini yapar. Birlikte bir günde 1/6 + 1/12 = 2/12 + 1/12 = 3/12 = 1/4'ünü yaparlar. İşin tamamı 4 günde biter. Sürelerin ortalamasını almak (9) yanlıştır; birlikte çalışan iki kişi, hızlı olanın süresinden daha kısa sürede bitirir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-hiz-003",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir havuzu A musluğu tek başına 4 saatte doldurmaktadır. B musluğu ise dolu havuzu tek başına 6 saatte boşaltmaktadır.\n\nHavuz boşken iki musluk birlikte açılırsa havuz kaç saatte dolar?",
+		"options": [
+			"8",
+			"12",
+			"24",
+			"2",
+			"10"
+		],
+		"correctIndex": 1,
+		"explanation": "A bir saatte havuzun 1/4'ünü doldurur, B bir saatte 1/6'sını boşaltır. Birlikte bir saatte 1/4 − 1/6 = 3/12 − 2/12 = 1/12'si dolar. Havuzun tamamı 12 saatte dolar. Boşaltan musluğun katkısı çıkarılır, eklenmez.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-hiz-004",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aralarında 360 kilometre bulunan iki şehirden, saatteki hızları 70 ve 50 kilometre olan iki araç aynı anda birbirine doğru yola çıkıyor.\n\nAraçlar yola çıktıktan kaç saat sonra karşılaşır?",
+		"options": [
+			"3 saat 30 dakika",
+			"18 saat",
+			"3 saat",
+			"4 saat",
+			"2 saat 30 dakika"
+		],
+		"correctIndex": 2,
+		"explanation": "Birbirine doğru giden araçlar arasındaki mesafe her saat hızları toplamı kadar kapanır: 70 + 50 = 120 kilometre. Karşılaşma süresi 360 ÷ 120 = 3 saattir. 18 saat sonucu hızların farkıyla (20 km) bölmekten doğar; o yöntem aynı yöne giden araçlar içindir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-hiz-005",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir işi 5 işçi 12 günde bitirmektedir. Aynı güçteki 4 işçi bu işi kaç günde bitirir?",
+		"options": [
+			"15",
+			"14",
+			"20",
+			"10",
+			"16"
+		],
+		"correctIndex": 0,
+		"explanation": "İşçi sayısı ile süre ters orantılıdır; işin büyüklüğü 5 × 12 = 60 işçi-gündür. 4 işçi bu işi 60 ÷ 4 = 15 günde bitirir. İşçi azaldığı için süre uzar; 10 gün sonucu doğru orantı kurmaktan doğan hatadır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-hiz-006",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir araç iki şehir arasındaki yolu gidişte saatte 60 kilometre, dönüşte saatte 40 kilometre hızla almıştır.\n\nAracın gidiş-dönüş boyunca ortalama hızı saatte kaç kilometredir?",
+		"options": [
+			"52",
+			"45",
+			"50",
+			"48",
+			"55"
+		],
+		"correctIndex": 3,
+		"explanation": "Ortalama hız toplam yolun toplam süreye bölümüdür, hızların aritmetik ortalaması değildir. Yol 120 kilometre kabul edilirse gidiş 120 ÷ 60 = 2 saat, dönüş 120 ÷ 40 = 3 saat sürer. Toplam 240 kilometre 5 saatte alınmıştır: 240 ÷ 5 = 48. Eşit yollarda kısa formül 2 × 60 × 40 ÷ (60 + 40) = 48'dir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-hiz-007",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "A bir işi tek başına 10 günde, B aynı işi tek başına 15 günde bitirebilmektedir. İkisi birlikte 4 gün çalıştıktan sonra A işi bırakıyor.\n\nKalan işi B tek başına kaç günde bitirir?",
+		"options": [
+			"4",
+			"3",
+			"5",
+			"7",
+			"6"
+		],
+		"correctIndex": 2,
+		"explanation": "Birlikte bir günde işin 1/10 + 1/15 = 3/30 + 2/30 = 1/6'sını yaparlar. 4 günde 4/6 = 2/3'ü biter, geriye 1/3'ü kalır. B bir günde 1/15'ini yaptığından kalan 1/3'ü (1/3) ÷ (1/15) = 5 günde bitirir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-hiz-008",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Saatteki hızı 50 kilometre olan bir araç bir noktadan yola çıkıyor. Bu araç yola çıktıktan 2 saat sonra, saatteki hızı 75 kilometre olan ikinci bir araç aynı noktadan aynı yöne doğru hareket ediyor.\n\nİkinci araç, hareketinden kaç saat sonra birinci aracı yakalar?",
+		"options": [
+			"4",
+			"6",
+			"3",
+			"5",
+			"2"
+		],
+		"correctIndex": 0,
+		"explanation": "İkinci araç yola çıktığında birinci araç 50 × 2 = 100 kilometre öndedir. Aynı yöne giden araçlar arasındaki mesafe her saat hızların farkı kadar kapanır: 75 − 50 = 25 kilometre. Aradaki 100 kilometre 100 ÷ 25 = 4 saatte kapanır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-hiz-009",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir duvar saati 3.30'u göstermektedir.\n\nBu anda akrep ile yelkovan arasındaki dar açı kaç derecedir?",
+		"options": [
+			"60",
+			"80",
+			"90",
+			"75",
+			"105"
+		],
+		"correctIndex": 3,
+		"explanation": "Yelkovan her dakikada 6°, akrep her dakikada 0,5° döner. 30. dakikada yelkovan 12'den itibaren 180°'dedir. Akrep saat 3'te 90°'deyken 30 dakikada 15° daha ilerler ve 105°'ye gelir. Aradaki açı 180 − 105 = 75°'dir. Akrebi 3'ün üzerinde sabit saymak 90° sonucunu verir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-hiz-010",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Uzunluğu 200 metre olan bir tren, uzunluğu 800 metre olan bir tünele girmeye başladığı andan tünelden tamamen çıktığı ana kadar 50 saniye yol almaktadır.\n\nTrenin hızı saniyede kaç metredir?",
+		"options": [
+			"25",
+			"20",
+			"24",
+			"12",
+			"16"
+		],
+		"correctIndex": 1,
+		"explanation": "Trenin tünele girmeye başlamasından tamamen çıkmasına kadar lokomotifin aldığı yol, tünelin uzunluğu ile trenin kendi uzunluğunun toplamıdır: 800 + 200 = 1.000 metre. Hız = 1.000 ÷ 50 = 20 metre/saniyedir. Yalnızca tünel uzunluğunu kullanmak 16 sonucunu verir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

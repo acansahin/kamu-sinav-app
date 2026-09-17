@@ -1,0 +1,332 @@
+[
+	{
+		"id": "cografya-iklim-001",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Yazları sıcak ve kurak, kışları ılık ve yağışlı geçen iklim tipi aşağıdakilerden hangisidir?",
+		"options": [
+			"Muson iklimi",
+			"Karadeniz iklimi",
+			"Akdeniz iklimi",
+			"Tundra iklimi",
+			"Karasal iklim"
+		],
+		"correctIndex": 2,
+		"explanation": "Akdeniz ikliminde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır; yağışın büyük kısmı kışın düşer ve kar nadir görülür. Doğal bitki örtüsü makidir. Karadeniz ikliminde her mevsim yağışlıdır; karasal iklimde yazlar sıcak ve kurak, kışlar soğuk ve karlıdır.",
+		"reference": {
+			"title": "Meteoroloji Genel Müdürlüğü",
+			"section": "Türkiye'nin iklim tipleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iklim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-iklim-002",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türkiye'nin yüz ölçümü en büyük gölü aşağıdakilerden hangisidir?",
+		"options": [
+			"Eğirdir Gölü",
+			"Tuz Gölü",
+			"Beyşehir Gölü",
+			"İznik Gölü",
+			"Van Gölü"
+		],
+		"correctIndex": 4,
+		"explanation": "Doğu Anadolu'daki Van Gölü, Türkiye'nin en büyük gölüdür. Nemrut Dağı'ndan çıkan lavların eski bir çöküntü alanının önünü kapatmasıyla oluşmuş bir volkanik set gölüdür; suyu sodalıdır. İkinci büyük göl İç Anadolu'daki tektonik oluşumlu Tuz Gölü'dür.",
+		"reference": {
+			"title": "Devlet Su İşleri Genel Müdürlüğü",
+			"section": "Türkiye'nin gölleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"goller"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-iklim-003",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye'de yıllık ortalama yağış miktarı en fazla olan il aşağıdakilerden hangisidir?",
+		"options": [
+			"İstanbul",
+			"Trabzon",
+			"Rize",
+			"Muğla",
+			"Antalya"
+		],
+		"correctIndex": 2,
+		"explanation": "Doğu Karadeniz'de kıyıya paralel uzanan dağlar denizden gelen nemli hava kütlelerini yükselmeye zorlar ve yamaç (orografik) yağışları oluşur. Bu nedenle Rize Türkiye'nin en çok yağış alan ilidir. Aynı bölgede olsa da Trabzon Rize kadar yağış almaz. En az yağış ise İç Anadolu'da Tuz Gölü çevresinde görülür.",
+		"reference": {
+			"title": "Meteoroloji Genel Müdürlüğü",
+			"section": "Yağış istatistikleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iklim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-iklim-004",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "İlkbaharda yeşerip yazın kuruyan otsu bitkilerden oluşan ve İç Anadolu'da yaygın olan doğal bitki örtüsü aşağıdakilerden hangisidir?",
+		"options": [
+			"Alpin çayır",
+			"Nemli orman",
+			"Psödomaki",
+			"Maki",
+			"Bozkır (step)"
+		],
+		"correctIndex": 4,
+		"explanation": "Bozkır, yağışların yetersiz olduğu karasal iklim alanlarında görülen, ilkbahar yağışlarıyla yeşerip yaz kuraklığında kuruyan otsu bitki topluluğudur; İç Anadolu ve Doğu Anadolu'nun alçak düzlüklerinde yaygındır. Maki Akdeniz ikliminin, alpin çayır yüksek dağların, psödomaki Karadeniz kıyılarındaki geçiş alanlarının bitki örtüsüdür.",
+		"reference": {
+			"title": "Orman Genel Müdürlüğü",
+			"section": "Türkiye'nin bitki örtüsü"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bitki-ortusu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-iklim-005",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Marmara Bölgesi'nde güneybatıdan esen, sıcaklığı artıran ve kıyılarda deniz ulaşımını aksatabilen yerel rüzgâr aşağıdakilerden hangisidir?",
+		"options": [
+			"Keşişleme",
+			"Karayel",
+			"Poyraz",
+			"Lodos",
+			"Yıldız"
+		],
+		"correctIndex": 3,
+		"explanation": "Lodos güneybatıdan esen, ılık ve nemli bir rüzgârdır; Marmara'da sıcaklığı artırır, fırtına şeklinde estiğinde deniz ulaşımını aksatır. Poyraz kuzeydoğudan, karayel kuzeybatıdan, keşişleme güneydoğudan, yıldız ise kuzeyden eser.",
+		"reference": {
+			"title": "Meteoroloji Genel Müdürlüğü",
+			"section": "Yerel rüzgârlar"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iklim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-iklim-006",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "İç Anadolu'da ilkbahar sonu ve yaz başında, öğleden sonra görülen kısa süreli sağanak yağışlar (kırkikindi yağışları) hangi yağış türüne örnektir?",
+		"options": [
+			"Konveksiyonel (yükselim) yağışı",
+			"Çisenti",
+			"Orografik (yamaç) yağışı",
+			"Muson yağışı",
+			"Cephesel yağış"
+		],
+		"correctIndex": 0,
+		"explanation": "Konveksiyonel yağışlar, gün içinde ısınan yerin üzerindeki havanın yükselip soğuması sonucu oluşur ve genellikle öğleden sonra sağanak biçiminde düşer. İç Anadolu'daki kırkikindi yağışları bu türdendir. Orografik yağış nemli havanın dağ yamacı boyunca yükselmesiyle (Doğu Karadeniz), cephesel yağış sıcak ve soğuk hava kütlelerinin karşılaşmasıyla oluşur.",
+		"reference": {
+			"title": "Meteoroloji Genel Müdürlüğü",
+			"section": "Yağış türleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iklim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-iklim-007",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bitlis'teki Nemrut Gölü oluşumu bakımından aşağıdaki göl türlerinden hangisine örnektir?",
+		"options": [
+			"Tektonik göl",
+			"Alüvyal set gölü",
+			"Heyelan set gölü",
+			"Krater gölü",
+			"Karstik göl"
+		],
+		"correctIndex": 3,
+		"explanation": "Nemrut Gölü, Nemrut volkanının zirvesindeki çukurlukta suların birikmesiyle oluşmuş bir krater gölüdür. Tortum Gölü heyelan set gölüne, Tuz Gölü tektonik göle, Salda Gölü karstik göle, Bafa Gölü ise Büyük Menderes'in alüvyonlarının oluşturduğu alüvyal set gölüne örnektir.",
+		"reference": {
+			"title": "Devlet Su İşleri Genel Müdürlüğü",
+			"section": "Türkiye'nin gölleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"goller"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-iklim-008",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki akarsulardan hangisi Karadeniz'e dökülmez?",
+		"options": [
+			"Çoruh",
+			"Gediz",
+			"Yeşilırmak",
+			"Sakarya",
+			"Kızılırmak"
+		],
+		"correctIndex": 1,
+		"explanation": "Sakarya, Kızılırmak ve Yeşilırmak doğrudan Karadeniz'e dökülür; Çoruh ise Gürcistan topraklarında Batum yakınında Karadeniz'e ulaşır. Gediz Nehri Ege Bölgesi'nden geçerek İzmir Körfezi'nin kuzeyinde Ege Denizi'ne dökülür.",
+		"reference": {
+			"title": "Devlet Su İşleri Genel Müdürlüğü",
+			"section": "Türkiye'nin akarsu havzaları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"akarsular"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-iklim-009",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Doğu Karadeniz'de dağlardan kıyıya doğru inerken alçaldıkça ısınan, kış ortasında bile sıcaklığı birden yükselten kuru rüzgâr aşağıdakilerden hangisidir?",
+		"options": [
+			"Fön (föhn)",
+			"Samyeli",
+			"İmbat",
+			"Lodos",
+			"Poyraz"
+		],
+		"correctIndex": 0,
+		"explanation": "Fön, dağ yamacı boyunca alçalan havanın basınç artışıyla ısınıp kuruması sonucu oluşan sıcak ve kuru rüzgârdır. Doğu Karadeniz'de güneyden kıyıya inen fön rüzgârları kışın sıcaklığı kısa sürede artırabilir ve kar erimelerine yol açabilir. İmbat Ege kıyılarında denizden karaya esen meltemdir; samyeli Güneydoğu Anadolu'ya güneyden gelen sıcak ve kuru rüzgârdır.",
+		"reference": {
+			"title": "Meteoroloji Genel Müdürlüğü",
+			"section": "Yerel rüzgârlar"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iklim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-iklim-010",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Doğu Karadeniz'de kıyıdan yükseklere doğru çıkıldıkça görülen doğal bitki örtüsü sıralaması aşağıdakilerden hangisidir?",
+		"options": [
+			"Maki – geniş yapraklı orman – ibreli orman – bozkır",
+			"Geniş yapraklı orman – karışık orman – ibreli orman – alpin çayır",
+			"Alpin çayır – ibreli orman – karışık orman – geniş yapraklı orman",
+			"İbreli orman – karışık orman – geniş yapraklı orman – alpin çayır",
+			"Geniş yapraklı orman – ibreli orman – bozkır – alpin çayır"
+		],
+		"correctIndex": 1,
+		"explanation": "Yükselti arttıkça sıcaklık düştüğü için bitki örtüsü basamaklanır. Doğu Karadeniz'de kıyıdan itibaren nemcil geniş yapraklı ormanlar, ardından geniş yapraklı ve ibreli türlerin birlikte bulunduğu karışık ormanlar, daha yükseklerde soğuğa dayanıklı ibreli ormanlar yer alır. Orman üst sınırının üzerinde ise alpin çayırlar görülür.",
+		"reference": {
+			"title": "Orman Genel Müdürlüğü",
+			"section": "Türkiye'nin orman kuşakları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bitki-ortusu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

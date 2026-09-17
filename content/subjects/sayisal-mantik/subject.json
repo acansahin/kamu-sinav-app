@@ -1,0 +1,47 @@
+{
+	"id": "sayisal-mantik",
+	"name": "Sayısal Mantık",
+	"shortName": "Sayısal Mantık",
+	"description": "Sayı dizileri ve örüntüler, temel sayı problemleri, oran-orantı ve yüzde, işçi-hız-zaman problemleri ile mantıksal akıl yürütme. Her sorunun açıklaması adım adım çözümdür.",
+	"scope": "ortak",
+	"basis": "serbest",
+	"order": 8,
+	"icon": "Calculator",
+	"topics": [
+		{
+			"id": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+			"slug": "sayi-dizileri-ve-oruntuler",
+			"name": "Sayı Dizileri ve Örüntüler",
+			"order": 1,
+			"estimatedMinutes": 9
+		},
+		{
+			"id": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+			"slug": "sayilar-ve-sayi-problemleri",
+			"name": "Sayılar, Bölünebilme ve Sayı Problemleri",
+			"order": 2,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "sayisal-mantik/oran-oranti-ve-yuzde",
+			"slug": "oran-oranti-ve-yuzde",
+			"name": "Oran-Orantı, Yüzde ve Karışım",
+			"order": 3,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+			"slug": "isci-hiz-ve-zaman-problemleri",
+			"name": "İşçi, Hız ve Zaman Problemleri",
+			"order": 4,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "sayisal-mantik/mantiksal-akil-yurutme",
+			"slug": "mantiksal-akil-yurutme",
+			"name": "Mantıksal Akıl Yürütme, Kümeler ve Olasılık",
+			"order": 5,
+			"estimatedMinutes": 11
+		}
+	]
+}
