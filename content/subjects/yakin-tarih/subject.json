@@ -1,0 +1,40 @@
+{
+	"id": "yakin-tarih",
+	"name": "Yakın Türkiye Siyasi Tarihi",
+	"shortName": "Yakın Tarih",
+	"description": "İkinci Dünya Savaşı yıllarından günümüze Türkiye: çok partili hayata geçiş, askerî müdahaleler ve anayasalar, Kıbrıs meselesi, NATO ve Avrupa Birliği ilişkileri, 1980 sonrası siyasi gelişmeler.",
+	"scope": "ortak",
+	"basis": "kaynak",
+	"order": 10,
+	"icon": "History",
+	"topics": [
+		{
+			"id": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+			"slug": "inonu-donemi-ve-ikinci-dunya-savasi",
+			"name": "İnönü Dönemi ve İkinci Dünya Savaşı (1938-1945)",
+			"order": 1,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+			"slug": "cok-partili-hayat-ve-demokrat-parti",
+			"name": "Çok Partili Hayat ve Demokrat Parti Dönemi (1945-1960)",
+			"order": 2,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+			"slug": "askeri-mudahaleler-ve-kibris",
+			"name": "1960-1980: Askerî Müdahaleler, Anayasa ve Kıbrıs",
+			"order": 3,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "yakin-tarih/1980-sonrasi-turkiye",
+			"slug": "1980-sonrasi-turkiye",
+			"name": "1980 Sonrası Türkiye",
+			"order": 4,
+			"estimatedMinutes": 10
+		}
+	]
+}

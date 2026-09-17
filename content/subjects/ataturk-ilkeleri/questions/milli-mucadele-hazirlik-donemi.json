@@ -1,0 +1,326 @@
+[
+	{
+		"id": "ataturk-hazirlik-001",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Birinci Dünya Savaşı'nda Osmanlı Devleti ile İtilaf Devletleri arasında imzalanan ve Osmanlı Devleti'ni fiilen sona erdiren ateşkes antlaşması aşağıdakilerden hangisidir?",
+		"options": [
+			"Mondros Ateşkes Antlaşması",
+			"Gümrü Antlaşması",
+			"Brest-Litovsk Antlaşması",
+			"Mudanya Ateşkes Antlaşması",
+			"Sevr Antlaşması"
+		],
+		"correctIndex": 0,
+		"explanation": "Mondros Ateşkes Antlaşması 30 Ekim 1918'de Limni adasının Mondros limanında imzalanmıştır. Osmanlı ordusunun terhisini, boğazların açılmasını ve İtilaf Devletlerine geniş işgal hakları tanınmasını öngörür. Mudanya Ateşkesi 1922'de Kurtuluş Savaşı sonunda, Sevr 1920'de, Gümrü 1920'de Ermenistan ile imzalanmıştır.",
+		"reference": {
+			"title": "Mondros Ateşkes Antlaşması (30 Ekim 1918)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mondros"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-hazirlik-002",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Mustafa Kemal 19 Mayıs 1919'da Samsun'a hangi görevle çıkmıştır?",
+		"options": [
+			"Başkomutan",
+			"TBMM Başkanı",
+			"9. Ordu Müfettişi",
+			"Heyet-i Temsiliye Başkanı",
+			"20. Kolordu Komutanı"
+		],
+		"correctIndex": 2,
+		"explanation": "Mustafa Kemal, İstanbul Hükûmetince 9. Ordu Müfettişi olarak görevlendirilmiş ve bu sıfatla 19 Mayıs 1919'da Samsun'a çıkmıştır. Görev kendisine geniş askerî ve mülki yetkiler tanıyordu. Heyet-i Temsiliye başkanlığına Erzurum Kongresi'nde, TBMM başkanlığına 1920'de, başkomutanlığa 1921'de getirilmiştir.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "Giriş — Samsun'a çıkış"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"samsun"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-hazirlik-003",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Mondros Ateşkes Antlaşması'nın, İtilaf Devletlerine güvenliklerini tehdit eden bir durum ortaya çıkması hâlinde herhangi bir stratejik noktayı işgal etme hakkı tanıyan maddesi hangisidir?",
+		"options": [
+			"5. madde",
+			"24. madde",
+			"7. madde",
+			"1. madde",
+			"16. madde"
+		],
+		"correctIndex": 2,
+		"explanation": "Mondros'un 7. maddesi İtilaf Devletlerine güvenliklerini tehdit eden bir durumda herhangi bir stratejik noktayı işgal hakkı tanır; madde belirsiz bırakıldığı için Anadolu'nun işgaline zemin hazırlamıştır. İtalya bu maddeyi gerekçe göstererek Antalya'ya asker çıkarmıştır. 24. madde ise altı vilayette karışıklık çıkması hâlinde bu vilayetlerin işgalini öngörür; 1. madde boğazların açılmasına ilişkindir.",
+		"reference": {
+			"title": "Mondros Ateşkes Antlaşması (30 Ekim 1918)",
+			"section": "m. 7"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mondros"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-hazirlik-004",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "\"Milletin istiklalini yine milletin azim ve kararı kurtaracaktır.\" ilkesi ilk kez aşağıdaki belgelerin hangisinde yer almıştır?",
+		"options": [
+			"Sivas Kongresi Beyannamesi",
+			"Erzurum Kongresi Beyannamesi",
+			"Misak-ı Millî",
+			"Havza Genelgesi",
+			"Amasya Genelgesi"
+		],
+		"correctIndex": 4,
+		"explanation": "22 Haziran 1919 tarihli Amasya Genelgesi Kurtuluş Savaşı'nın gerekçesini (vatanın bütünlüğü ve milletin bağımsızlığı tehlikededir), amacını ve yöntemini (milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır) ilk kez ortaya koymuş; İstanbul Hükûmetinin görevini yapamadığını belirtmiş ve Sivas'ta millî bir kongre toplanmasını kararlaştırmıştır.",
+		"reference": {
+			"title": "Amasya Genelgesi (22 Haziran 1919)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"amasya-genelgesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-hazirlik-005",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Toplanış biçimi bakımından bölgesel olmasına rağmen aldığı kararlar bakımından ulusal nitelik taşıyan kongre aşağıdakilerden hangisidir?",
+		"options": [
+			"Alaşehir Kongresi",
+			"Balıkesir Kongresi",
+			"Sivas Kongresi",
+			"Erzurum Kongresi",
+			"Pozantı Kongresi"
+		],
+		"correctIndex": 3,
+		"explanation": "Erzurum Kongresi (23 Temmuz-7 Ağustos 1919) Doğu Anadolu'daki cemiyetlerin temsilcileriyle toplandığı için bölgeseldir. Ancak \"millî sınırlar içinde vatan bir bütündür\", \"manda ve himaye kabul olunamaz\" gibi kararları bütün yurdu ilgilendirdiği için ulusal niteliktedir. Sivas Kongresi hem toplanış hem kararlar bakımından ulusaldır; Balıkesir, Alaşehir ve Pozantı kongreleri bölgeseldir.",
+		"reference": {
+			"title": "Erzurum Kongresi Kararları (23 Temmuz-7 Ağustos 1919)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"erzurum-kongresi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-hazirlik-006",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Vatansever cemiyetlerin \"Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti\" adı altında birleştirilmesi kararı aşağıdakilerin hangisinde alınmıştır?",
+		"options": [
+			"Sivas Kongresi",
+			"Erzurum Kongresi",
+			"Havza Genelgesi",
+			"Son Osmanlı Mebusan Meclisi",
+			"Amasya Görüşmeleri"
+		],
+		"correctIndex": 0,
+		"explanation": "4-11 Eylül 1919'da toplanan Sivas Kongresi, bütün millî cemiyetleri \"Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti\" adı altında birleştirmiş; Erzurum'da seçilen Heyet-i Temsiliye'yi bütün yurdu temsil eden bir kurula dönüştürmüş ve İrade-i Milliye gazetesinin çıkarılmasına karar vermiştir. Erzurum Kongresi yalnızca doğu illerindeki cemiyetleri birleştirmişti.",
+		"reference": {
+			"title": "Sivas Kongresi Kararları (4-11 Eylül 1919)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sivas-kongresi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-hazirlik-007",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Misak-ı Millî aşağıdakilerden hangisi tarafından kabul edilmiştir?",
+		"options": [
+			"Heyet-i Temsiliye",
+			"Son Osmanlı Mebusan Meclisi",
+			"Türkiye Büyük Millet Meclisi",
+			"Osmanlı Heyet-i Vükelası",
+			"Sivas Kongresi"
+		],
+		"correctIndex": 1,
+		"explanation": "Misak-ı Millî, Erzurum ve Sivas kongrelerinin kararları esas alınarak hazırlanmış ve 28 Ocak 1920'de İstanbul'da toplanan Son Osmanlı Mebusan Meclisi tarafından kabul edilmiştir. İtilaf Devletleri buna tepki olarak 16 Mart 1920'de İstanbul'u resmen işgal etmiş ve meclisi dağıtmıştır. TBMM 23 Nisan 1920'de açıldığı için Misak-ı Millî'yi kabul eden kurul değildir.",
+		"reference": {
+			"title": "Misak-ı Millî (28 Ocak 1920)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"misak-i-milli"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-hazirlik-008",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "İstanbul Hükûmetinin Heyet-i Temsiliye'yi ve Anadolu'daki millî hareketi resmen tanıdığı ilk gelişme aşağıdakilerden hangisidir?",
+		"options": [
+			"Misak-ı Millî'nin kabulü",
+			"Sivas Kongresi",
+			"Londra Konferansı",
+			"Havza Genelgesi",
+			"Amasya Görüşmeleri"
+		],
+		"correctIndex": 4,
+		"explanation": "20-22 Ekim 1919'da Heyet-i Temsiliye ile İstanbul Hükûmetini temsilen Bahriye Nazırı Salih Paşa arasında yapılan Amasya Görüşmeleri'nde İstanbul Hükûmeti Heyet-i Temsiliye'yi muhatap kabul etmiş ve böylece onu resmen tanımıştır. Görüşmelerde Mebusan Meclisi'nin İstanbul dışında toplanması da istenmiş, ancak bu şart uygulanmamıştır.",
+		"reference": {
+			"title": "Amasya Protokolü (20-22 Ekim 1919)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"amasya-gorusmeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-hazirlik-009",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cemiyetlerden hangisi Millî Mücadele'ye karşı faaliyet gösteren cemiyetlerden biridir?",
+		"options": [
+			"Trakya-Paşaeli Müdafaa-i Heyeti Osmaniyesi",
+			"İngiliz Muhipler Cemiyeti",
+			"Vilâyât-ı Şarkiye Müdafaa-i Hukuk-ı Milliye Cemiyeti",
+			"İzmir Müdafaa-i Hukuk-ı Osmaniye Cemiyeti",
+			"Kilikyalılar Cemiyeti"
+		],
+		"correctIndex": 1,
+		"explanation": "İngiliz Muhipler (Sevenler) Cemiyeti, İngiliz himayesini savunan ve Millî Mücadele'ye karşı çalışan cemiyetlerdendir. Kilikyalılar Cemiyeti, Trakya-Paşaeli Müdafaa-i Heyeti, İzmir Müdafaa-i Hukuk-ı Osmaniye Cemiyeti ve Vilâyât-ı Şarkiye Müdafaa-i Hukuk-ı Milliye Cemiyeti ise bölgelerini işgale karşı savunmak için kurulan millî (yararlı) cemiyetlerdir.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "Giriş — cemiyetler"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cemiyetler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-hazirlik-010",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Sivas Kongresi'nde, Erzurum Kongresi'nde alınan kararlarda yapılan değişiklik aşağıdakilerden hangisidir?",
+		"options": [
+			"Mebusan Meclisi'nin toplanmasının ilk kez istenmesi",
+			"Manda ve himayenin ilk kez reddedilmesi",
+			"Kuva-yi Milliye'nin âmil, millî iradenin hâkim kılınmasının ilk kez esas alınması",
+			"Doğu Anadolu için alınan kararların bütün yurdu kapsayacak biçimde genişletilmesi",
+			"Heyet-i Temsiliye'nin ilk kez oluşturulması"
+		],
+		"correctIndex": 3,
+		"explanation": "Sivas Kongresi, Erzurum Kongresi kararlarını büyük ölçüde aynen kabul etmiş; yalnızca doğu illeri için alınan kararları bütün yurdu kapsayacak biçimde genişletmiş, cemiyetleri tek çatıda birleştirmiş ve Heyet-i Temsiliye'yi bütün yurdu temsil eden kurul yapmıştır. Manda ve himayenin reddi, Heyet-i Temsiliye'nin kurulması, meclisin toplanması talebi ve Kuva-yi Milliye'yi âmil kılma ilkesi ilk kez Erzurum Kongresi'nde yer almıştır.",
+		"reference": {
+			"title": "Sivas Kongresi Kararları (4-11 Eylül 1919)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sivas-kongresi",
+			"erzurum-kongresi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

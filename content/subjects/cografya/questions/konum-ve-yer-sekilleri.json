@@ -1,0 +1,331 @@
+[
+	{
+		"id": "cografya-konum-001",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türkiye matematik konum bakımından hangi paraleller arasında yer alır?",
+		"options": [
+			"36° ve 42° kuzey paralelleri",
+			"36° ve 42° güney paralelleri",
+			"26° ve 45° kuzey paralelleri",
+			"30° ve 36° kuzey paralelleri",
+			"42° ve 48° kuzey paralelleri"
+		],
+		"correctIndex": 0,
+		"explanation": "Türkiye 36° ile 42° kuzey paralelleri ve 26° ile 45° doğu meridyenleri arasında yer alır. Kuzey Yarım Küre'de ve orta kuşakta bulunması, dört mevsimin belirgin yaşanmasına ve güneye bakan yamaçların daha fazla güneş almasına yol açar. 26° ve 45° değerleri paralel değil meridyen aralığıdır.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Türkiye'nin matematik konumu"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"konum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-konum-002",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türkiye'nin en yüksek dağı aşağıdakilerden hangisidir?",
+		"options": [
+			"Kaçkar Dağı",
+			"Erciyes Dağı",
+			"Ağrı Dağı",
+			"Uludağ",
+			"Süphan Dağı"
+		],
+		"correctIndex": 2,
+		"explanation": "Doğu Anadolu Bölgesi'nde Ağrı ilinde bulunan Ağrı Dağı yaklaşık 5.137 metre yükseltisiyle Türkiye'nin en yüksek dağıdır ve volkanik oluşumludur. Erciyes İç Anadolu'nun, Kaçkar Karadeniz Bölgesi'nin en yüksek dağıdır.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Türkiye'nin yükseltileri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yer-sekilleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-konum-003",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye'nin en doğusu ile en batısı arasındaki yerel saat farkı yaklaşık kaç dakikadır?",
+		"options": [
+			"64",
+			"60",
+			"72",
+			"76",
+			"84"
+		],
+		"correctIndex": 3,
+		"explanation": "Dünya 360°'lik dönüşünü 24 saatte tamamladığı için her meridyen arasında 4 dakikalık yerel saat farkı vardır. Türkiye 26° ile 45° doğu meridyenleri arasında uzandığından aradaki fark 45 − 26 = 19 meridyendir: 19 × 4 = 76 dakika. Türkiye'nin doğusunda güneş batısından yaklaşık 76 dakika önce doğar.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Türkiye'nin matematik konumu"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"konum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-konum-004",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye'nin kara sınırı en uzun olan komşusu aşağıdakilerden hangisidir?",
+		"options": [
+			"Gürcistan",
+			"Bulgaristan",
+			"Irak",
+			"İran",
+			"Suriye"
+		],
+		"correctIndex": 4,
+		"explanation": "Türkiye'nin sekiz kara komşusu vardır: Yunanistan, Bulgaristan, Gürcistan, Ermenistan, Azerbaycan (Nahçıvan), İran, Irak ve Suriye. En uzun kara sınırı yaklaşık 880 kilometreyle Suriye, en kısa kara sınırı ise Azerbaycan'ın Nahçıvan Özerk Cumhuriyeti iledir.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Türkiye'nin kara sınırları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"konum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-konum-005",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki dağlardan hangisi volkanik oluşumlu değildir?",
+		"options": [
+			"Hasan Dağı",
+			"Uludağ",
+			"Erciyes Dağı",
+			"Nemrut Dağı (Bitlis)",
+			"Süphan Dağı"
+		],
+		"correctIndex": 1,
+		"explanation": "Erciyes ve Hasan dağları İç Anadolu'da, Süphan ve Nemrut dağları Van Gölü çevresinde yer alan volkanik dağlardır. Bursa'daki Uludağ ise kırılma sonucu yükselmiş bir horst (kırıklı dağ) kütlesidir ve volkanik değildir.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Türkiye'nin dağları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yer-sekilleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-konum-006",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Ege Bölgesi'nde dağların kıyıya dik uzanması ve horst-graben yapısı nedeniyle oluşan, girintili çıkıntılı kıyı tipi aşağıdakilerden hangisidir?",
+		"options": [
+			"Enine kıyı",
+			"Fiyort kıyı",
+			"Boyuna kıyı",
+			"Lagün kıyı",
+			"Ria kıyı"
+		],
+		"correctIndex": 0,
+		"explanation": "Ege'de dağlar ve aralarındaki çöküntü ovaları (grabenler) kıyıya dik uzanır. Bu yüzden kıyı çizgisi girintili çıkıntılıdır; körfezler grabenlerin, yarımadalar horstların devamıdır. Buna enine kıyı denir. Karadeniz ve Akdeniz'de dağlar kıyıya paralel uzandığı için boyuna kıyı görülür. Fiyort buzul vadilerinin sular altında kalmasıyla oluşur ve Türkiye'de yoktur.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Türkiye'nin kıyı tipleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kiyilar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-konum-007",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Akarsu vadilerinin deniz suları altında kalmasıyla oluşan ve İstanbul Boğazı ile Haliç'in örnek gösterildiği kıyı tipi aşağıdakilerden hangisidir?",
+		"options": [
+			"Fiyort kıyı",
+			"Enine kıyı",
+			"Dalmaçya kıyı",
+			"Delta kıyı",
+			"Ria kıyı"
+		],
+		"correctIndex": 4,
+		"explanation": "Ria tipi kıyılar, akarsuların oluşturduğu vadilerin deniz seviyesinin yükselmesiyle sular altında kalması sonucu oluşur. İstanbul Boğazı ve Haliç Türkiye'deki en bilinen örneklerdir. Fiyort buzul vadilerinin, Dalmaçya tipi kıyıya paralel dağların sular altında kalmasıyla oluşur; delta ise akarsuların ağızlarında biriktirdiği alüvyonlarla meydana gelir.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Türkiye'nin kıyı tipleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kiyilar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-konum-008",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Denizli'deki Pamukkale'de kalsiyum karbonatlı sıcak suların yüzeyde çökelmesiyle oluşan karstik şekil aşağıdakilerden hangisidir?",
+		"options": [
+			"Polye",
+			"Lapya",
+			"Peribacası",
+			"Traverten",
+			"Obruk"
+		],
+		"correctIndex": 3,
+		"explanation": "Kalsiyum karbonat bakımından zengin sular yüzeye çıkıp karbondioksitini kaybedince içerdiği kireç çökelir ve basamaklı traverten şekilleri oluşur; Pamukkale en bilinen örnektir. Obruk (Konya-Karapınar), polye ve lapya kalkerin çözünmesiyle oluşan erime şekilleridir; peribacası ise volkanik tüflerin aşınmasıyla oluşur.",
+		"reference": {
+			"title": "Maden Tetkik ve Arama Genel Müdürlüğü",
+			"section": "Karstik şekiller"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yer-sekilleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-konum-009",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Nevşehir ve çevresindeki peribacalarının oluşumunda aşağıdaki süreçlerden hangisi temel olarak etkili olmuştur?",
+		"options": [
+			"Kalker tabakalarının suda kimyasal olarak çözünmesi",
+			"Rüzgârın taşıdığı kumların kum tepeleri oluşturması",
+			"Volkanik tüflerin yağış ve sel sularıyla farklı hızlarda aşınması",
+			"Buzulların taşıyıp biriktirdiği malzemelerin birikmesi",
+			"Deniz dalgalarının kıyıyı aşındırması"
+		],
+		"correctIndex": 2,
+		"explanation": "Erciyes, Hasan ve Göllüdağ gibi volkanların püskürttüğü külün birikmesiyle oluşan tüf tabakaları, yağış ve sel sularıyla aşınmıştır. Üstte daha dayanıklı bir kaya bulunan kesimler yavaş aşındığı için şapkalı sütunlar, yani peribacaları ortaya çıkmıştır. Kalkerin çözünmesi karstik şekiller, buzullar sirk ve moren, rüzgâr kum tepeleri oluşturur.",
+		"reference": {
+			"title": "Maden Tetkik ve Arama Genel Müdürlüğü",
+			"section": "Volkanik tüf ve peribacaları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yer-sekilleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-konum-010",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Türkiye'nin yedi coğrafi bölgeye ayrılmasına hangi toplantıda karar verilmiştir?",
+		"options": [
+			"1937 yılında toplanan İkinci Türk Tarih Kongresi",
+			"1941 yılında Ankara'da toplanan Birinci Coğrafya Kongresi",
+			"1932 yılında toplanan Birinci Türk Dil Kurultayı",
+			"1923 yılında toplanan İzmir İktisat Kongresi",
+			"1932 yılında toplanan Birinci Türk Tarih Kongresi"
+		],
+		"correctIndex": 1,
+		"explanation": "6-21 Haziran 1941 tarihlerinde Ankara'da toplanan Birinci Coğrafya Kongresi, Türkiye'yi iklim, yer şekilleri, bitki örtüsü ve ekonomik özellikleri esas alarak yedi coğrafi bölgeye ve bu bölgeleri de bölümlere ayırmıştır. Kongre ayrıca coğrafya öğretimi ve coğrafi terimlerin belirlenmesi konularında kararlar almıştır.",
+		"reference": {
+			"title": "Birinci Coğrafya Kongresi Kararları (6-21 Haziran 1941)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bolgeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

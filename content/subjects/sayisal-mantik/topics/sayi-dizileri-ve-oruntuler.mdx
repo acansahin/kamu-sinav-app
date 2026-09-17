@@ -1,0 +1,91 @@
+---
+topicId: sayisal-mantik/sayi-dizileri-ve-oruntuler
+title: Sayı Dizileri ve Örüntüler
+legislationVersion: Mevzuata bağlı olmayan içerik — örnek çözümler hesaplanarak doğrulanmıştır
+lastVerifiedAt: "2026-09-16"
+keyPoints:
+  - İlk adım her zaman ardışık terimler arasındaki farklara bakmaktır; farklar sabitse dizi aritmetiktir.
+  - Farklar sabit değilse farkların farkına ya da ardışık terimlerin oranına bakılır.
+  - Aritmetik dizide n. terim = ilk terim + (n − 1) × fark; farkı n kez değil n − 1 kez ekleyin.
+  - Tek ve çift sıradaki terimler ayrı kurallarla ilerliyorsa dizi iç içe geçmiş iki dizidir.
+  - İki işlem sırayla uygulanıyorsa (+3, ×2, +3, ×2) sıradaki işlemin hangisi olduğunu atlamayın.
+---
+
+Sayı dizisi sorularında formül ezberlemekten çok **sistemli denemek** kazandırır. Aşağıdaki sırayı
+her soruda aynı biçimde uygulayın; kurallar çoğunlukla ilk üç adımda ortaya çıkar.
+
+## Kural bulma sırası
+
+1. **Farklara bak.** Ardışık terimleri birbirinden çıkarın.
+2. **Farkların farkına bak.** Farklar sabit değilse onların da farkını alın.
+3. **Oranlara bak.** Terimler hızla büyüyorsa ardışık terimleri birbirine bölün.
+4. **Sıra numarasıyla ilişki ara.** Terimler n², n³, n² + 1 gibi sıra numarasına bağlı olabilir.
+5. **Tek ve çift sıraları ayır.** Dizi zikzak çiziyorsa iç içe iki dizi olabilir.
+6. **İki önceki terimi topla.** Fibonacci benzeri dizilerde her terim önceki iki terimin toplamıdır.
+
+## Dizi türleri
+
+| Tür | Kural | Örnek | Sonraki |
+|---|---|---|---|
+| Sabit farklı (aritmetik) | Her terime aynı sayı eklenir | 3, 7, 11, 15 | 19 |
+| Sabit oranlı (geometrik) | Her terim aynı sayıyla çarpılır | 2, 6, 18, 54 | 162 |
+| Artan farklı | Farklar 1, 2, 3, 4... | 2, 3, 5, 8, 12, 17 | 23 |
+| Kare tabanlı | n² + 1 | 2, 5, 10, 17, 26 | 37 |
+| Fibonacci | Önceki iki terimin toplamı | 1, 1, 2, 3, 5, 8, 13 | 21 |
+| Artan çarpanlı | ×2, ×3, ×4, ×5... | 1, 2, 6, 24, 120 | 720 |
+| Karma işlemli | 2 katının 1 fazlası | 5, 11, 23, 47 | 95 |
+| Sırayla iki işlem | +3, ×2, +3, ×2... | 10, 13, 26, 29, 58, 61 | 122 |
+
+<Kritik>
+Kare tabanlı dizilerde farklar **ardışık tek sayılardır**: 2, 5, 10, 17, 26 dizisinin farkları
+3, 5, 7, 9'dur. Farklar düzenli artıyorsa dizinin n² ile ilişkili olabileceğini düşünün.
+</Kritik>
+
+## Aritmetik dizinin genel terimi
+
+Ardışık terimleri arasındaki fark sabit olan dizide:
+
+<Sayi>n. terim = ilk terim + (n − 1) × fark</Sayi>
+
+Örnek: ilk terimi 5, farkı 3 olan dizinin 20. terimi 5 + 19 × 3 = **62**'dir.
+
+<Tuzak>
+En sık yapılan hata farkı **n kez** eklemektir (5 + 20 × 3 = 65). Birinci terimden yirminci terime
+giderken **19 adım** atılır; fark 19 kez eklenir.
+</Tuzak>
+
+Bu formülden terim sayısı da bulunur:
+
+<Sayi>terim sayısı = (son terim − ilk terim) ÷ fark + 1</Sayi>
+
+Örnek: 7, 11, 15, ..., 83 dizisinde (83 − 7) ÷ 4 + 1 = 20 terim vardır.
+
+## İç içe diziler
+
+Dizi bir büyüyüp bir küçülüyorsa terimleri **tek sıra** ve **çift sıra** diye ikiye ayırın:
+
+3, **10**, 6, **20**, 12, **40**, ?, ?
+
+- Tek sıradakiler: 3, 6, 12 → her adımda 2 katı → sonraki **24**
+- Çift sıradakiler: 10, 20, 40 → her adımda 2 katı → sonraki **80**
+
+<Tuzak>
+Soruda iki soru işareti varsa hangisinin hangi alt diziye ait olduğunu karıştırmayın. Yedinci
+terim tek sıradadır ve ilk alt dizinin devamıdır; sekizinci terim ikinci alt diziye aittir.
+</Tuzak>
+
+## Sırayla iki işlem uygulanan diziler
+
+Bazı dizilerde tek bir kural yoktur; iki işlem **sırayla** uygulanır:
+
+10 → (+3) → 13 → (×2) → 26 → (+3) → 29 → (×2) → 58 → (+3) → 61 → (×2) → **122**
+
+Bu dizilerde son terime hangi işlemin uygulandığını belirlemek için baştan işlem sırasını sayın.
+Son adımda +3 yapıldıysa sıradaki işlem ×2'dir.
+
+## Hızlı kontrol
+
+Bulduğunuz kuralı dizinin **bütün** terimlerinde deneyin. Kural yalnızca ilk iki üç terimde
+çalışıyorsa yanlış kuraldır. 1, 2, 4 terimleri hem "her terim 2 katı" hem "farklar 1, 2, 3..."
+diye okunabilir; dördüncü terim 8 ise birinci kural, 7 ise ikinci kural geçerlidir. Soruda yeterli
+terim verilmişse hepsini kullanın.

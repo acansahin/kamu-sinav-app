@@ -1,0 +1,326 @@
+[
+	{
+		"id": "yakin-1960-001",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "27 Mayıs 1960 askerî müdahalesinden sonra yönetimi üstlenen Millî Birlik Komitesinin başkanı aşağıdakilerden hangisidir?",
+		"options": [
+			"Nihat Erim",
+			"Cemal Gürsel",
+			"Kenan Evren",
+			"Cevdet Sunay",
+			"Fahri Korutürk"
+		],
+		"correctIndex": 1,
+		"explanation": "27 Mayıs 1960'ta Demokrat Parti iktidarına son veren askerî müdahalenin ardından yönetimi Orgeneral Cemal Gürsel başkanlığındaki Millî Birlik Komitesi üstlenmiştir. Gürsel 1961 seçimlerinden sonra Cumhurbaşkanı seçilmiştir. Kenan Evren 12 Eylül 1980'den sonra Millî Güvenlik Konseyi Başkanı olmuştur.",
+		"reference": {
+			"title": "Millî Birlik Komitesi (27 Mayıs 1960)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"27-mayis"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1960-002",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1961 Anayasası ile Türkiye'de yasama organı nasıl bir yapıya kavuşturulmuştur?",
+		"options": [
+			"Temsilciler Meclisi ve Millî Birlik Komitesinden oluşan yapı",
+			"Millî Güvenlik Konseyi ve Danışma Meclisinden oluşan yapı",
+			"Yalnızca Türkiye Büyük Millet Meclisinden oluşan tek meclisli yapı",
+			"Millet Meclisi ve Cumhuriyet Senatosundan oluşan çift meclisli yapı",
+			"Heyet-i Âyan ve Heyet-i Mebusandan oluşan yapı"
+		],
+		"correctIndex": 3,
+		"explanation": "1961 Anayasası'na göre Türkiye Büyük Millet Meclisi, Millet Meclisi ve Cumhuriyet Senatosundan oluşan çift meclisli bir yapıya sahiptir. Bu yapı 1982 Anayasası ile sona ermiştir. Heyet-i Âyan ve Heyet-i Mebusan Osmanlı Meclis-i Umumisinin kanatlarıdır; Temsilciler Meclisi ve Millî Birlik Komitesi 1961 Anayasası'nı hazırlayan Kurucu Meclisi, Danışma Meclisi ve Millî Güvenlik Konseyi ise 1982 Anayasası'nı hazırlayan Kurucu Meclisi oluşturmuştur.",
+		"reference": {
+			"title": "1961 Türkiye Cumhuriyeti Anayasası",
+			"section": "Yasama — Türkiye Büyük Millet Meclisi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"1961-anayasasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1960-003",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türk anayasa tarihinde Anayasa Mahkemesi ilk kez hangi anayasa ile kurulmuştur?",
+		"options": [
+			"1924 Teşkilat-ı Esasiye Kanunu",
+			"1921 Teşkilat-ı Esasiye Kanunu",
+			"1876 Kanun-i Esasi",
+			"1961 Anayasası",
+			"1982 Anayasası"
+		],
+		"correctIndex": 3,
+		"explanation": "Kanunların anayasaya uygunluğunun yargısal denetimi Türkiye'de ilk kez 1961 Anayasası ile getirilmiş ve Anayasa Mahkemesi kurulmuştur. Mahkeme 1962'de çalışmaya başlamıştır. 1982 Anayasası Anayasa Mahkemesini korumuş, yapısını ve yetkilerini yeniden düzenlemiştir.",
+		"reference": {
+			"title": "1961 Türkiye Cumhuriyeti Anayasası",
+			"section": "Anayasa Mahkemesi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"1961-anayasasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1960-004",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "ABD Başkanı Lyndon Johnson'ın 1964'te Başbakan İsmet İnönü'ye gönderdiği ve Türkiye'nin Kıbrıs'a müdahale etmesi hâlinde ABD'den alınan silahların kullanılamayacağını bildirdiği belge aşağıdakilerden hangisidir?",
+		"options": [
+			"Acheson Planı",
+			"Eisenhower Doktrini",
+			"Johnson Mektubu",
+			"Marshall Planı",
+			"Truman Doktrini"
+		],
+		"correctIndex": 2,
+		"explanation": "5 Haziran 1964 tarihli Johnson Mektubu, Kıbrıs'taki çatışmalar üzerine müdahaleye hazırlanan Türkiye'ye, ABD silahlarının bu amaçla kullanılamayacağını ve Sovyetler Birliği'nin müdahalesi hâlinde NATO desteğinin tartışmaya açılabileceğini bildirmiştir. Mektup Türk kamuoyunda ABD'ye güveni sarsmış ve Türkiye'nin çok yönlü dış politika arayışını hızlandırmıştır. Acheson Planı aynı yıl Kıbrıs için önerilen bir çözüm planıdır.",
+		"reference": {
+			"title": "Johnson Mektubu (5 Haziran 1964)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kibris",
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1960-005",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye ile Avrupa Ekonomik Topluluğu arasındaki ortaklık ilişkisini başlatan 12 Eylül 1963 tarihli antlaşma aşağıdakilerden hangisidir?",
+		"options": [
+			"Maastricht Antlaşması",
+			"Lizbon Antlaşması",
+			"Ankara Antlaşması",
+			"Katma Protokol",
+			"Roma Antlaşması"
+		],
+		"correctIndex": 2,
+		"explanation": "Türkiye 1959'da Avrupa Ekonomik Topluluğuna ortaklık başvurusu yapmış, 12 Eylül 1963'te imzalanan Ankara Antlaşması ile ortaklık ilişkisi kurulmuştur. Antlaşma hazırlık, geçiş ve son dönem olmak üzere üç aşama öngörmüş; geçiş döneminin esasları 1970 tarihli Katma Protokol ile belirlenmiştir. Roma Antlaşması 1957'de AET'yi kuran antlaşmadır.",
+		"reference": {
+			"title": "Türkiye-AET Ortaklık Antlaşması (Ankara Antlaşması, 12 Eylül 1963)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"avrupa-birligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1960-006",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "12 Mart 1971 Muhtırası'nın ardından kurulan ve partiler üstü nitelik taşıyan ilk hükûmetin başbakanı aşağıdakilerden hangisidir?",
+		"options": [
+			"İsmet İnönü",
+			"Nihat Erim",
+			"Sadi Irmak",
+			"Süleyman Demirel",
+			"Bülent Ecevit"
+		],
+		"correctIndex": 1,
+		"explanation": "12 Mart 1971'de Genelkurmay Başkanı ve kuvvet komutanlarının verdiği muhtıra üzerine Süleyman Demirel hükûmeti istifa etmiştir. CHP'den istifa eden Kocaeli milletvekili Nihat Erim 26 Mart 1971'de partiler üstü bir \"reform hükûmeti\" kurmuştur. Sadi Irmak 1974-1975'te seçim hükûmetine başkanlık etmiştir.",
+		"reference": {
+			"title": "12 Mart 1971 Muhtırası"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"12-mart"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1960-007",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Türkiye'nin 20 Temmuz 1974'te başlattığı Kıbrıs Barış Harekâtı'nın uluslararası hukuktaki dayanağı aşağıdakilerden hangisidir?",
+		"options": [
+			"Lozan Barış Antlaşması",
+			"Ankara Antlaşması (1963)",
+			"Montrö Boğazlar Sözleşmesi",
+			"Kuzey Atlantik Antlaşması",
+			"1960 tarihli Garanti Antlaşması"
+		],
+		"correctIndex": 4,
+		"explanation": "1959 Zürih ve Londra antlaşmalarıyla kurulan Kıbrıs Cumhuriyeti'nin 1960 tarihli Garanti Antlaşması'nda Türkiye, Yunanistan ve İngiltere garantör devlet olarak yer almıştır. Antlaşmanın 4. maddesi, anlaşma hükümlerinin ihlali hâlinde garantör devletlere kurulan düzeni yeniden tesis etmek amacıyla harekete geçme hakkı tanır. Türkiye, 15 Temmuz 1974 darbesi üzerine bu hakka dayanarak harekâtı başlatmıştır.",
+		"reference": {
+			"title": "Kıbrıs Garanti Antlaşması (16 Ağustos 1960)",
+			"section": "m. 4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kibris"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1960-008",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Kıbrıs Barış Harekâtı'nın ardından Kıbrıs Türklerinin 13 Şubat 1975'te kurduğu yönetim aşağıdakilerden hangisidir?",
+		"options": [
+			"Kıbrıs Türk Federe Devleti",
+			"Geçici Kıbrıs Türk Yönetimi",
+			"Otonom Kıbrıs Türk Yönetimi",
+			"Kıbrıs Cumhuriyeti",
+			"Kuzey Kıbrıs Türk Cumhuriyeti"
+		],
+		"correctIndex": 0,
+		"explanation": "1974'te kurulan Otonom Kıbrıs Türk Yönetimi'nin meclisi 13 Şubat 1975'te Kıbrıs Türk Federe Devleti'nin kurulduğunu ilan etmiştir. Kuzey Kıbrıs Türk Cumhuriyeti 15 Kasım 1983'te, Kıbrıs Cumhuriyeti 1960'ta kurulmuştur; Geçici Kıbrıs Türk Yönetimi ise 1967'de oluşturulmuştur.",
+		"reference": {
+			"title": "Kıbrıs Türk Federe Devleti'nin ilanı (13 Şubat 1975)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kibris"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1960-009",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Dışa açık ve serbest piyasa ekonomisine geçişi hedefleyen, 12 Eylül 1980 askerî müdahalesinden birkaç ay önce ilan edilen ekonomik istikrar kararları aşağıdakilerden hangisidir?",
+		"options": [
+			"24 Ocak Kararları",
+			"Katma Protokol",
+			"5 Nisan Kararları",
+			"Marshall Planı",
+			"Birinci Beş Yıllık Kalkınma Planı"
+		],
+		"correctIndex": 0,
+		"explanation": "24 Ocak 1980'de Süleyman Demirel hükûmeti döneminde ilan edilen kararlar ithal ikameci modelden ihracata dayalı, dışa açık ve serbest piyasa ekonomisine geçişi hedeflemiştir. Kararlar 12 Eylül 1980'den sonra da uygulanmıştır. 5 Nisan Kararları 1994 ekonomik krizinden sonra alınmış; Birinci Beş Yıllık Kalkınma Planı 1963'te uygulamaya konmuştur.",
+		"reference": {
+			"title": "24 Ocak 1980 Ekonomik İstikrar Kararları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1960-010",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdakilerden hangisi 1961 Anayasası ile ilgili yanlış bir bilgidir?",
+		"options": [
+			"Temel hak ve özgürlükleri geniş biçimde düzenlemiştir.",
+			"Halkoylamasıyla kabul edilmiştir.",
+			"Millî Güvenlik Kurulunu anayasal bir kurum olarak düzenlemiştir.",
+			"Üniversitelere özerklik tanımıştır.",
+			"Kurucu Meclis tarafından hazırlanmadan doğrudan Millî Birlik Komitesince yürürlüğe konulmuştur."
+		],
+		"correctIndex": 4,
+		"explanation": "1961 Anayasası, Millî Birlik Komitesi ile Temsilciler Meclisinden oluşan Kurucu Meclis tarafından hazırlanmış ve 9 Temmuz 1961'de halkoylamasıyla kabul edilmiştir. Temel hak ve özgürlükleri geniş biçimde düzenlemiş, üniversitelere özerklik tanımış, Millî Güvenlik Kurulunu anayasal kurum hâline getirmiştir. Türkiye'de halkoylamasına sunulan ilk anayasadır.",
+		"reference": {
+			"title": "1961 Türkiye Cumhuriyeti Anayasası (9 Temmuz 1961 halkoylaması)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"1961-anayasasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

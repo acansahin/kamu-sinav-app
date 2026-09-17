@@ -16,6 +16,7 @@ import path from "node:path";
 import process from "node:process";
 import matter from "gray-matter";
 import {
+	type Basis,
 	type CompiledSubject,
 	type CompiledTopic,
 	DIFFICULTY_ORDER,
@@ -109,6 +110,23 @@ function checkLicense(question: Question, where: string): void {
 	}
 }
 
+/**
+ * DAYANAK KAPISI — farklılaşma tezinin (PROJECT_PLAN.md §4, taahhüt 1) derleme
+ * zamanındaki karşılığı.
+ *
+ * Şema `legalRef`i opsiyonel tutar çünkü soru hangi derse ait olduğunu bilmez;
+ * zorunluluk dersin `basis` alanından burada okunur. Mevzuat derslerinde kural
+ * eskisi kadar sıkıdır: `legalRef` yoksa build kırılır.
+ */
+function checkBasis(question: Question, basis: Basis, where: string): void {
+	if (basis === "mevzuat" && !question.legalRef) {
+		fail(where, "mevzuat dayanağı (legalRef) zorunludur");
+	}
+	if (basis === "kaynak" && !question.legalRef && !question.reference) {
+		fail(where, "dayanak zorunludur: legalRef veya reference verilmelidir");
+	}
+}
+
 interface SubjectBundle {
 	subject: CompiledSubject;
 	questionsByTopic: Map<string, Question[]>;
@@ -185,6 +203,7 @@ async function buildSubject(subjectDir: string): Promise<SubjectBundle | null> {
 			}
 
 			checkLicense(question, where);
+			checkBasis(question, subject.basis, where);
 
 			const list = questionsByTopic.get(question.topicId) ?? [];
 			list.push(question);

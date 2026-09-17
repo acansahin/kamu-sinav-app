@@ -1,0 +1,323 @@
+[
+	{
+		"id": "edebiyat-eski-001",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Karahanlılar döneminde yazılan ve Türk edebiyatının ilk siyasetnamesi kabul edilen Kutadgu Bilig'in yazarı kimdir?",
+		"options": [
+			"Yunus Emre",
+			"Yusuf Has Hacib",
+			"Kaşgarlı Mahmud",
+			"Hoca Ahmet Yesevi",
+			"Edip Ahmet Yükneki"
+		],
+		"correctIndex": 1,
+		"explanation": "Kutadgu Bilig (\"Mutluluk Veren Bilgi\") 1069-1070 yılında Yusuf Has Hacib tarafından yazılmış ve Karahanlı hükümdarına sunulmuştur. Aruz ölçüsüyle ve mesnevi biçiminde yazılan eser, devlet yönetimine ilişkin öğütler verdiği için ilk siyasetname sayılır. Kaşgarlı Mahmud Divanü Lügati't-Türk'ün, Edip Ahmet Atabetü'l-Hakayık'ın yazarıdır.",
+		"reference": {
+			"title": "Yusuf Has Hacib — Kutadgu Bilig (1069-1070)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"islami-donem"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-eski-002",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Araplara Türkçe öğretmek amacıyla yazılan ve Türkçenin ilk sözlüğü kabul edilen eser aşağıdakilerden hangisidir?",
+		"options": [
+			"Codex Cumanicus",
+			"Kutadgu Bilig",
+			"Divanü Lügati't-Türk",
+			"Divan-ı Hikmet",
+			"Atabetü'l-Hakayık"
+		],
+		"correctIndex": 2,
+		"explanation": "Kaşgarlı Mahmud'un 11. yüzyılda Arapça açıklamalarla yazdığı Divanü Lügati't-Türk, Araplara Türkçe öğretmeyi ve Türkçenin Arapça kadar zengin olduğunu göstermeyi amaçlar. Türk dilinin ilk sözlüğü olmasının yanında Türk boyları, gelenekleri ve sözlü edebiyat örnekleri (sav, koşuk, sagu) hakkında bilgi verir. Codex Cumanicus 14. yüzyılda Avrupalıların hazırladığı bir Kıpçakça sözlüktür.",
+		"reference": {
+			"title": "Kaşgarlı Mahmud — Divanü Lügati't-Türk (11. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"islami-donem"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-eski-003",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Göktürk alfabesiyle yazılmış Orhun Yazıtlarını 1893'te çözerek okunmasını sağlayan bilim insanı aşağıdakilerden hangisidir?",
+		"options": [
+			"Vilhelm Thomsen",
+			"Ahmet Caferoğlu",
+			"Max Müller",
+			"Wilhelm Radloff",
+			"Fuad Köprülü"
+		],
+		"correctIndex": 0,
+		"explanation": "8. yüzyılda dikilen Kül Tigin, Bilge Kağan ve Tonyukuk yazıtları Türk adının geçtiği ilk Türkçe metinlerdir. Danimarkalı dil bilimci Vilhelm Thomsen yazıtlardaki alfabeyi 1893'te çözmüştür. Wilhelm Radloff yazıtların metinleri üzerinde çalışmış önemli bir Türkologdur ancak çözümü yapan Thomsen'dir.",
+		"reference": {
+			"title": "Orhun Yazıtları (8. yüzyıl)",
+			"section": "Vilhelm Thomsen'in çözümü (1893)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"islamiyet-oncesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-eski-004",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Oğuz Türklerinin destan döneminden yerleşik hayata geçişini yansıtan ve Dresden nüshasında on iki hikâyeden oluşan eser aşağıdakilerden hangisidir?",
+		"options": [
+			"Manas Destanı",
+			"Dede Korkut Hikâyeleri",
+			"Battalname",
+			"Danişmendname",
+			"Oğuz Kağan Destanı"
+		],
+		"correctIndex": 1,
+		"explanation": "Dede Korkut Hikâyeleri, Oğuzların kahramanlıklarını ve toplum yaşamını anlatan, destandan halk hikâyesine geçiş özellikleri taşıyan eserdir. Dresden nüshasında on iki, Vatikan nüshasında altı hikâye bulunur. Manas Kırgızların destanıdır; Battalname ve Danişmendname Anadolu'nun fethini konu alan dinî-destani eserlerdir.",
+		"reference": {
+			"title": "Kitab-ı Dedem Korkut — Dresden nüshası"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gecis-donemi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-eski-005",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki eserlerden hangisi Yunus Emre'ye aittir?",
+		"options": [
+			"Garipname",
+			"Divan-ı Hikmet",
+			"Mesnevi",
+			"Vesiletü'n-Necat",
+			"Risaletü'n-Nushiyye"
+		],
+		"correctIndex": 4,
+		"explanation": "Yunus Emre'nin Divan'ı dışındaki eseri, öğüt verici nitelikteki mesnevisi Risaletü'n-Nushiyye'dir. Garipname Âşık Paşa'nın, Farsça Mesnevi Mevlana'nın, Divan-ı Hikmet Hoca Ahmet Yesevi'nin, halk arasında Mevlid olarak bilinen Vesiletü'n-Necat ise Süleyman Çelebi'nin eseridir.",
+		"reference": {
+			"title": "Yunus Emre — Risaletü'n-Nushiyye (1307)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tekke-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-eski-006",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Leyla ile Mecnun mesnevisini Azerbaycan Türkçesiyle yazan ve lirizmiyle tanınan 16. yüzyıl divan şairi aşağıdakilerden hangisidir?",
+		"options": [
+			"Nedim",
+			"Şeyh Galip",
+			"Nefi",
+			"Fuzuli",
+			"Baki"
+		],
+		"correctIndex": 3,
+		"explanation": "Fuzuli, 16. yüzyılda Bağdat çevresinde yaşamış, Türkçe, Arapça ve Farsça eserler vermiştir. Leyla ile Mecnun mesnevisi aşk acısını tasavvufi bir derinlikle işleyen başyapıtıdır. Baki \"Sultanü'ş-şuara\" olarak anılan 16. yüzyıl şairi, Nedim Lale Devri şairi, Nefi kasideleri ve hicivleriyle tanınan 17. yüzyıl şairi, Şeyh Galip ise Hüsn ü Aşk'ın yazarıdır.",
+		"reference": {
+			"title": "Fuzuli — Leyla ile Mecnun (16. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"divan-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-eski-007",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Divan ve halk edebiyatına ait eserlerin şairleriyle eşleştirildiği seçeneklerden hangisi hatalıdır?",
+		"options": [
+			"Hüsn ü Aşk – Şeyh Galip",
+			"Harname – Şeyhi",
+			"Vesiletü'n-Necat (Mevlid) – Süleyman Çelebi",
+			"Hayriye – Fuzuli",
+			"Seyahatname – Evliya Çelebi"
+		],
+		"correctIndex": 3,
+		"explanation": "Hayriye, 17. ve 18. yüzyıl şairi Nabi'nin oğluna öğütler vermek için yazdığı didaktik mesnevisidir. Hüsn ü Aşk Şeyh Galip'in sembolik mesnevisi, Seyahatname Evliya Çelebi'nin on ciltlik gezi eseri, Mevlid Süleyman Çelebi'nin, Harname ise hiciv türündeki mesnevisiyle tanınan Şeyhi'nin eseridir.",
+		"reference": {
+			"title": "Nabi — Hayriye (1701)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"divan-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-eski-008",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Âşık edebiyatında doğa, aşk ve gurbet temalı koşmalarıyla tanınan 17. yüzyıl halk şairi aşağıdakilerden hangisidir?",
+		"options": [
+			"Karacaoğlan",
+			"Yunus Emre",
+			"Âşık Veysel",
+			"Pir Sultan Abdal",
+			"Kaygusuz Abdal"
+		],
+		"correctIndex": 0,
+		"explanation": "Karacaoğlan, 17. yüzyılda yaşamış, Güney Anadolu ve Toroslar çevresinde dolaşmış âşık tarzı halk şairidir; sade dili, doğa ve aşk temalı koşmalarıyla tanınır. Yunus Emre ve Kaygusuz Abdal tekke-tasavvuf şairleri, Pir Sultan Abdal 16. yüzyılın Alevi-Bektaşi şairi, Âşık Veysel ise 20. yüzyıl halk şairidir.",
+		"reference": {
+			"title": "Karacaoğlan — Koşmalar (17. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"halk-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-eski-009",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Osmanlı döneminde yazılan bibliyografya eseri Keşfü'z-Zunun ile coğrafya eseri Cihannüma'nın yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Naima",
+			"Piri Reis",
+			"Kâtip Çelebi",
+			"Evliya Çelebi",
+			"Nabi"
+		],
+		"correctIndex": 2,
+		"explanation": "17. yüzyıl Osmanlı bilgini Kâtip Çelebi, İslam dünyasındaki kitapları alfabetik olarak tanıtan Keşfü'z-Zunun'u ve dünya coğrafyasını anlatan Cihannüma'yı yazmıştır. Evliya Çelebi Seyahatname'nin, Naima kendi adıyla anılan tarihin, Piri Reis denizcilik kitabı Kitab-ı Bahriye'nin yazarıdır.",
+		"reference": {
+			"title": "Kâtip Çelebi — Keşfü'z-Zunun ve Cihannüma (17. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"divan-nesri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-eski-010",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Karahanlılar döneminde yazılan ve dörtlüklerle ahlak öğütleri veren Atabetü'l-Hakayık'ın yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Hoca Ahmet Yesevi",
+			"Yusuf Has Hacib",
+			"Süleyman Hakim Ata",
+			"Kaşgarlı Mahmud",
+			"Edip Ahmet Yükneki"
+		],
+		"correctIndex": 4,
+		"explanation": "Atabetü'l-Hakayık (\"Hakikatlerin Eşiği\") 12. yüzyılda Edip Ahmet Yükneki tarafından yazılmıştır. Bilginin faydası, cömertlik, alçakgönüllülük gibi konularda öğütler veren didaktik bir eserdir ve büyük bölümü dörtlüklerden oluşur. Hoca Ahmet Yesevi hikmetleriyle Divan-ı Hikmet'in, Hakim Ata ise Yesevi geleneğini sürdüren hikmet şiirlerinin yazarıdır.",
+		"reference": {
+			"title": "Edip Ahmet Yükneki — Atabetü'l-Hakayık (12. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"islami-donem"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

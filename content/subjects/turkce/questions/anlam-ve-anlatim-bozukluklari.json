@@ -1,0 +1,343 @@
+[
+	{
+		"id": "turkce-anlam-001",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki kelime çiftlerinden hangisi eş anlamlıdır?",
+		"options": [
+			"ileri – geri",
+			"tahmin – kesinlik",
+			"somut – soyut",
+			"istifade – yararlanma",
+			"dar – geniş"
+		],
+		"correctIndex": 3,
+		"explanation": "Eş anlamlı (anlamdaş) kelimeler anlamları aynı veya birbirine çok yakın olan kelimelerdir. TDK Güncel Türkçe Sözlük \"istifade\" maddesini \"yararlanma\" maddesine gönderir. \"İleri – geri\", \"somut – soyut\" ve \"dar – geniş\" karşıt anlamlıdır; \"tahmin\" yaklaşık değerlendirme olduğu için \"kesinlik\"in karşıtına yakındır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"istifade\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcükte-anlam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-anlam-002",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "\"Ağzı kulaklarına varmak\" deyiminin anlamı aşağıdakilerden hangisidir?",
+		"options": [
+			"Çok şaşırmak",
+			"Çok konuşmak",
+			"Herkesin sözünü dinlemek",
+			"Sır saklayamamak",
+			"Çok sevinmek"
+		],
+		"correctIndex": 4,
+		"explanation": "Deyim, genellikle gerçek anlamından az çok ayrı, kendine özgü anlam taşıyan kalıplaşmış söz öbeğidir. TDK Güncel Türkçe Sözlük'e göre \"ağzı kulaklarına varmak\" çok sevinmek anlamındadır: \"Terfi haberini alınca ağzı kulaklarına vardı.\"",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"ağzı kulaklarına varmak\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"deyim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-anlam-003",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde \"yüz\" kelimesi diğerlerinden farklı kökenli, sesteş bir kelime olarak kullanılmıştır?",
+		"options": [
+			"Salona yüz kişi alındı.",
+			"Bunu sana yüz kere söyledim.",
+			"Aidat için yüz lira ödedi.",
+			"Soğuk rüzgâr yüzünü yakıyordu.",
+			"Kurumun yüz yıllık arşivi dijital ortama aktarıldı."
+		],
+		"correctIndex": 3,
+		"explanation": "Sesteş (eş sesli) kelimeler söylenişleri aynı, anlam ve kökleri ayrı olan kelimelerdir. Sözlükte \"yüz\" iki ayrı madde olarak yer alır: sayı adı olan \"yüz\" ve başın ön bölümünü karşılayan \"yüz\". \"Yüzünü yakıyordu\" cümlesinde ikincisi, diğer cümlelerde sayı adı (\"yüz kere\"de abartı bildiren kullanımıyla) vardır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"sesteş\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcükte-anlam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-anlam-004",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde tırnak içindeki kelime mecaz anlamda kullanılmıştır?",
+		"options": [
+			"Masada \"sıcak\" bir fincan çay duruyordu.",
+			"\"Ağır\" bavulu tek başına taşıyamadı.",
+			"Yemekten sonra \"soğuk\" su içmek istedi.",
+			"Kış bu yıl oldukça \"soğuk\" geçti.",
+			"Bu \"soğuk\" tavırları hepimizi çok kırdı."
+		],
+		"correctIndex": 4,
+		"explanation": "Mecaz, bir ilgi veya benzetme sonucu gerçek anlamından başka anlamda kullanılan sözdür. \"Soğuk tavır\" ifadesinde kelime sıcaklık bildirmez; ilgisiz, mesafeli davranışı anlatır. Diğer cümlelerde \"soğuk\", \"sıcak\" ve \"ağır\" duyularla algılanan gerçek anlamlarıyla kullanılmıştır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"mecaz\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcükte-anlam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-anlam-005",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde gereksiz sözcük kullanımından kaynaklanan bir anlatım bozukluğu vardır?",
+		"options": [
+			"Toplantı iki saati aşkın sürdü.",
+			"Kusurlu ürünü satıcıya geri iade etti.",
+			"Soruları tahmin yürüterek cevapladı.",
+			"Bu, sorun için en uygun çözümdü.",
+			"Kusurlu ürünü satıcıya iade etti."
+		],
+		"correctIndex": 1,
+		"explanation": "TDK Güncel Türkçe Sözlük'e göre \"iade\" alınmış bir şeyi geri verme demektir; anlamında \"geri\" zaten bulunduğu için \"geri iade etmek\" söyleyişinde \"geri\" sözcüğü gereksizdir. Aynı anlamı taşıyan iki sözcüğün bir arada kullanılması anlatım bozukluğudur.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"iade\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-anlam-006",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu yoktur?",
+		"options": [
+			"Salonda yaklaşık iki yüz kişi kadar vardı.",
+			"Bu yöntem en optimum sonucu verdi.",
+			"Salonda yaklaşık iki yüz kişi vardı.",
+			"Kesinlikle bu işi mutlaka bitireceğim.",
+			"Kurum başvuruları inceledi ve olumlu karşılandı."
+		],
+		"correctIndex": 2,
+		"explanation": "\"Yaklaşık\" aşağı yukarı bir değer bildirdiği için yanında \"kadar\" gereksizdir. \"Optimum\" zaten \"en uygun\" demektir, \"en\" fazladır. \"Kesinlikle\" ile \"mutlaka\" aynı anlamı tekrar eder. \"Kurum... inceledi ve olumlu karşılandı\" cümlesinde etken ve edilgen yüklem aynı özneye bağlanmıştır; özne-yüklem uyumsuzluğu vardır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"optimum\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-anlam-007",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde özne ile yüklem arasında kişi bakımından uyumsuzluk vardır?",
+		"options": [
+			"Ben ve arkadaşlarım yarınki toplantıya katılacaklar.",
+			"Sen ve ben bu işi birlikte bitireceğiz.",
+			"Çocuklar bahçede oyun oynuyor.",
+			"Siz ve ekibiniz bu projeyi başarıyla tamamladınız.",
+			"Kurul üyeleri toplantıda uzlaştı."
+		],
+		"correctIndex": 0,
+		"explanation": "Özne farklı kişilerden oluştuğunda yüklem, öncelik sırasına göre birinci, sonra ikinci kişiye uyar. \"Ben ve arkadaşlarım\" öznesi \"biz\" anlamı taşıdığı için yüklem \"katılacağız\" olmalıdır. \"Siz ve ekibiniz → tamamladınız\" ile \"sen ve ben → bitireceğiz\" doğru uyumdur; üçüncü çoğul kişi öznelerde yüklemin teklik kalması da yanlış değildir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"yüklem\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-anlam-008",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde ortak kullanılan bir ögenin ek uyumsuzluğundan kaynaklanan anlatım bozukluğu vardır?",
+		"options": [
+			"Kurumumuza güveniyor ve destekliyoruz.",
+			"Bu kitabı okudum ve çok beğendim.",
+			"Toplantıya katıldı ve görüşlerini paylaştı.",
+			"Kurumumuza güveniyor ve onu destekliyoruz.",
+			"Başvuruları inceledik ve kısa sürede sonuçlandırdık."
+		],
+		"correctIndex": 0,
+		"explanation": "İki yüklem ortak bir ögeye bağlandığında öge her iki yüklemin istediği eki karşılamalıdır. \"Güvenmek\" yönelme durumu (kurumumuza), \"desteklemek\" belirtili nesne (kurumumuzu) ister; tek ögeyle ikisi karşılanamaz. \"Kitabı okudum ve beğendim\" ile \"başvuruları inceledik ve sonuçlandırdık\" cümlelerinde iki yüklem de aynı eki istediği için bozukluk yoktur.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"nesne\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-anlam-009",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde bir sıfatın yerinden kaynaklanan anlam belirsizliği vardır?",
+		"options": [
+			"Kırmızı kazaklı çocuk koşarak geldi.",
+			"Yaşlı kadının eşine bir hediye aldı.",
+			"Kadının yaşlı eşine bir hediye aldı.",
+			"Toplantı notlarını dikkatle okudu.",
+			"Bu yıl açılan kütüphaneye sık sık gidiyor."
+		],
+		"correctIndex": 1,
+		"explanation": "\"Yaşlı kadının eşi\" söyleyişinde \"yaşlı\" sıfatının kadını mı eşi mi nitelediği anlaşılmaz. Eşin yaşlı olduğu kastediliyorsa sıfat nitelediği adın önüne alınmalıdır: \"kadının yaşlı eşi\". Sıfatın yanlış yerde kullanılması cümlede anlam belirsizliğine yol açan bir anlatım bozukluğudur.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"sıfat\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-anlam-010",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde deyim, sözlükteki anlamına uygun kullanılmamıştır?",
+		"options": [
+			"Sorunu çözmeye çalışırken kaş yapayım derken göz çıkardı.",
+			"Tatildeyken komşumuz evimize göz kulak oldu.",
+			"Sınavı kazandığını duyunca sevinçten etek öptü.",
+			"Yeni çalışanlar iş temposuna kısa sürede ayak uydurdu.",
+			"Terfi haberini alınca ağzı kulaklarına vardı."
+		],
+		"correctIndex": 2,
+		"explanation": "TDK Güncel Türkçe Sözlük'e göre \"etek öpmek\" yaltaklanmak, dalkavukluk etmek anlamındadır; sevinç bildiren bir bağlamda kullanılamaz. \"Ağzı kulaklarına varmak\" çok sevinmek, \"göz kulak olmak\" gözetmek ve korumak, \"ayak uydurmak\" davranışını başkasınınkine benzetmek anlamında doğru kullanılmıştır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"etek öpmek\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"deyim",
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

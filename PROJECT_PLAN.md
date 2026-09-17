@@ -189,7 +189,7 @@ Altı taahhüt. Bunlar pazarlama sloganı değil; **veri modeli ve mimari bunlar
 
 | # | Taahhüt | Teknik karşılığı |
 |---|---|---|
-| 1 | Her sorunun mevzuat dayanağı görünür | `Question.legalRef` **zorunlu alan**; Zod doğrulaması boş bırakılırsa build kırılır |
+| 1 | Her sorunun mevzuat dayanağı görünür | Mevzuat derslerinde `Question.legalRef` **zorunlu**, derleme kapısı boş bırakılırsa build'i kırar. Mevzuat dışı genel kültür ve dil derslerinde (Eylül 2026) `reference` kaynak dayanağı zorunludur; yalnızca Sayısal Mantık'ta dayanak yerine çözüm adımları gösterilir (`Subject.basis`) |
 | 2 | Her sorunun kaynağı ve lisansı izlenebilir | `Question.source` zorunlu; telif denetimi mümkün |
 | 3 | Kullanıcı hata bildirebilir, sonucu görebilir | `QuestionReport` varlığı + içerik değişiklik günlüğü |
 | 4 | İçerik mevzuat sürümüyle damgalı | `TopicSummary.legislationVersion` + `lastVerifiedAt`; arayüzde rozet |

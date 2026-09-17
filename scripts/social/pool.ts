@@ -86,6 +86,13 @@ export function dayanakMetni(legalRef: {
 	return `${ad}${madde}${fikra}`;
 }
 
+/** Mevzuat dışı dayanağı ("TDK Yazım Kılavuzu — Virgül") tek satıra indirir. */
+export function kaynakMetni(reference: { title: string; section?: string }): string {
+	return reference.section
+		? `${reference.title} — ${reference.section}`
+		: reference.title;
+}
+
 /** Dizin var mı diye sormak yerine okumayı dener; yoksa boş döner. */
 async function klasorleriOku(dir: string): Promise<string[]> {
 	try {
@@ -127,6 +134,16 @@ export async function havuzuOku(): Promise<Havuz> {
 					// incelemedeki sorular kaynak klasörde de duruyor.
 					if (soru.status !== "published") continue;
 
+					// Kart ve metin "Dayanak · …" satırını her soruda basıyor.
+					// Dayanaksız soru (sayısal mantık) paylaşılmaz: çözümü
+					// karta sığmaz, boş dayanak satırı da tezle çelişir.
+					const dayanak = soru.legalRef
+						? dayanakMetni(soru.legalRef)
+						: soru.reference
+							? kaynakMetni(soru.reference)
+							: null;
+					if (!dayanak) continue;
+
 					sorular.push({
 						id: soru.id,
 						subjectId: subject.id,
@@ -136,7 +153,7 @@ export async function havuzuOku(): Promise<Havuz> {
 						options: soru.options,
 						correctIndex: soru.correctIndex,
 						explanation: soru.explanation,
-						dayanak: dayanakMetni(soru.legalRef),
+						dayanak,
 					});
 				}
 			} catch (hata) {
@@ -154,7 +171,9 @@ export async function havuzuOku(): Promise<Havuz> {
 				);
 				const ozetDayanak = frontmatter.legalRefs[0]
 					? dayanakMetni(frontmatter.legalRefs[0])
-					: subject.name;
+					: frontmatter.references[0]
+						? kaynakMetni(frontmatter.references[0])
+						: subject.name;
 
 				frontmatter.keyPoints.forEach((metin, index) => {
 					bilgiler.push({

@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, Scale, X } from "lucide-react";
+import { BookOpen, Check, Scale, X } from "lucide-react";
 import { QuestionReportButton } from "@/features/report/question-report-button";
 import type { Question } from "@/types/content";
 import type { AnswerIndex } from "@/types/progress";
@@ -40,7 +40,12 @@ export function QuestionCard({
 			</p>
 
 			<fieldset disabled={revealed}>
-				<legend className="mb-5 text-lg font-semibold leading-relaxed text-fg">
+				{/*
+				 * `whitespace-pre-line`: sayısal mantık ve dil bilgisi sorularında
+				 * öncüller ve numaralı cümleler ayrı satırda durur. Tek satırlık
+				 * gövdelerde hiçbir şey değiştirmez.
+				 */}
+				<legend className="mb-5 whitespace-pre-line text-lg font-semibold leading-relaxed text-fg">
 					{question.stem}
 				</legend>
 
@@ -131,15 +136,25 @@ export function QuestionCard({
 					<p className="leading-relaxed text-fg">{question.explanation}</p>
 
 					{/*
-					 * Mevzuat referansı — ürünün farklılaşma tezi.
-					 * Her soruda görünür olması şema düzeyinde zorunlu tutulmuştur.
+					 * Dayanak — ürünün farklılaşma tezi. Mevzuat derslerinde
+					 * `legalRef` derleme kapısında zorunludur; dil ve genel kültür
+					 * derslerinde kaynak gösterilir. Sayısal mantıkta ikisi de
+					 * yoktur: açıklama çözümün kendisidir.
 					 */}
-					<p className="mt-3 flex items-center gap-1.5 text-sm font-medium text-fg-muted">
-						<Scale aria-hidden size={14} className="shrink-0" />
-						{question.legalRef.law}
-						{question.legalRef.article && `, m. ${question.legalRef.article}`}
-						{question.legalRef.clause && `/${question.legalRef.clause}`}
-					</p>
+					{question.legalRef ? (
+						<p className="mt-3 flex items-center gap-1.5 text-sm font-medium text-fg-muted">
+							<Scale aria-hidden size={14} className="shrink-0" />
+							{question.legalRef.law}
+							{question.legalRef.article && `, m. ${question.legalRef.article}`}
+							{question.legalRef.clause && `/${question.legalRef.clause}`}
+						</p>
+					) : question.reference ? (
+						<p className="mt-3 flex items-center gap-1.5 text-sm font-medium text-fg-muted">
+							<BookOpen aria-hidden size={14} className="shrink-0" />
+							{question.reference.title}
+							{question.reference.section && ` — ${question.reference.section}`}
+						</p>
+					) : null}
 
 					<QuestionReportButton questionId={question.id} />
 				</div>

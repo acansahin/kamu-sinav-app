@@ -1,0 +1,97 @@
+---
+topicId: sayisal-mantik/mantiksal-akil-yurutme
+title: Mantıksal Akıl Yürütme, Kümeler ve Olasılık
+legislationVersion: Mevzuata bağlı olmayan içerik — örnek çözümler hesaplanarak doğrulanmıştır
+lastVerifiedAt: "2026-09-16"
+keyPoints:
+  - İki kümenin birleşimi s(A ∪ B) = s(A) + s(B) − s(A ∩ B); kesişim iki kez sayıldığı için bir kez çıkarılır.
+  - Sıralama ve eşleştirme sorularında önce kesin bilgiler yerleştirilir, sonra yasaklarla kalan seçenekler elenir.
+  - Görev ayrımı olan seçimlerde permütasyon (sıra önemli), olmayan seçimlerde kombinasyon (sıra önemsiz) kullanılır.
+  - Geri konulmayan çekilişlerde her çekilişten sonra hem istenen hem toplam sayı bir azalır.
+  - Bütün A'lar B ise B olmayan hiçbir şeyin A olmadığı kesin olarak çıkar; bütün B'lerin A olduğu çıkmaz.
+---
+
+Mantıksal akıl yürütme soruları hesap gerektirmez, **düzen** gerektirir. Verilen bilgileri bir
+tabloya ya da sıraya dökmeden kafada çözmeye çalışmak hataya en açık yoldur.
+
+## Kümeler
+
+<Sayi>s(A ∪ B) = s(A) + s(B) − s(A ∩ B)</Sayi>
+
+- 30 kişide 18 İngilizce, 15 Almanca biliyor ve herkes en az birini biliyorsa: 30 = 18 + 15 − x →
+  ikisini de bilen **3** kişi.
+- 50 çalışanda 28 sürücü belgeli, 22 yabancı dil bilen, 12 ikisi birden: en az birine sahip olan
+  28 + 22 − 12 = 38 → **hiçbirine sahip olmayan 12** kişi.
+
+<Tuzak>
+Soru "yalnızca İngilizce bilen" derse kesişim çıkarılır: 18 − 3 = 15. "İngilizce bilen" derse
+kesişim dâhildir: 18. Sorudaki "yalnızca", "en az biri", "hiçbiri" kelimelerinin altını çizin.
+</Tuzak>
+
+## Sıralama ve eşleştirme
+
+Yöntem her zaman aynıdır:
+
+1. **Kesin bilgileri** yerleştir (Can en başta, Deniz en sonda, Berk İzmir'de).
+2. **Bağlı bilgileri** blok olarak düşün (Ece Burak'ın hemen arkasında → "Burak-Ece" tek parça).
+3. **Yasakları** kullanarak kalan olasılıkları ele.
+4. Tek bir dizilim kalana kadar devam et; birden çok kalırsa soru "kesin olarak" diyorsa ortak olanı ara.
+
+Örnek: 4 kişi, 4 şehir. Berk İzmir'de. Ali ne Ankara'da ne Bursa'da → Ali Van'da. Duru Ankara'da
+değil → Duru Bursa'da, Cem Ankara'da. Tablo:
+
+| | Ankara | Bursa | İzmir | Van |
+|---|---|---|---|---|
+| Ali | ✗ | ✗ | ✗ | ✓ |
+| Berk | ✗ | ✗ | ✓ | ✗ |
+| Cem | ✓ | ✗ | ✗ | ✗ |
+| Duru | ✗ | ✓ | ✗ | ✗ |
+
+## Doğru söyleyen - yalan söyleyen
+
+"Yalnızca biri doğru söylüyor" türündeki sorularda **her olasılığı tek tek dene**: ödülü A kazandıysa
+kaç kişi doğru söylemiş olur, B kazandıysa kaç kişi... Şartı sağlayan tek durum cevaptır.
+
+<Kritik>
+Birbiriyle çelişen iki ifade ("A kazandı" ve "A kazanmadı") varsa bunlardan **tam olarak biri**
+doğrudur. Bu gözlem çoğu zaman diğer kişilerin yalan söylediğini hemen gösterir ve denemeyi kısaltır.
+</Kritik>
+
+## Önermeler ve çıkarım
+
+| Önerme | Kesin çıkan | Kesin çıkmayan |
+|---|---|---|
+| Bütün A'lar B'dir | B olmayan hiçbir şey A değildir | Bütün B'ler A'dır |
+| Hiçbir A B değildir | Hiçbir B A değildir | — |
+| Bazı A'lar B'dir | Bazı B'ler A'dır | Bütün A'lar B'dir |
+
+"Bütün müfettişler hukuk mezunu" ve "bazı hukuk mezunları avukat" önermelerinden **müfettişlerle
+avukatlar hakkında kesin bir şey çıkmaz**: avukat olan hukuk mezunları müfettişlerin içinde de
+olabilir, dışında da.
+
+## Permütasyon ve kombinasyon
+
+| Durum | Sıra | Hesap | Örnek |
+|---|---|---|---|
+| Başkan ve raportör seçmek | Önemli (görevler farklı) | n × (n − 1) | 5 kişiden 5 × 4 = **20** |
+| 3 kişilik grup oluşturmak | Önemsiz | C(n, r) = n! ÷ (r! × (n − r)!) | C(8, 3) = **56** |
+
+<Tuzak>
+Grupta **görev ayrımı yoksa** sıra önemsizdir; 8 × 7 × 6 = 336 sonucu aynı üç kişiyi 6 farklı
+sırayla ayrı ayrı sayar. Kombinasyon için 336 ÷ 3! = 56.
+</Tuzak>
+
+## Olasılık
+
+<Sayi>olasılık = istenen durum sayısı ÷ tüm durumların sayısı</Sayi>
+
+- 3 kırmızı, 5 mavi, 2 beyaz toptan mavi çekme: 5 ÷ 10 = **1/2**.
+- İki olayın **birlikte** gerçekleşmesi: olasılıklar **çarpılır**.
+
+Geri konulmadan art arda iki kırmızı kalem (4 kırmızı, 6 mavi):
+4/10 × 3/9 = 12/90 = **2/15**. Geri konulsaydı 4/10 × 4/10 = 4/25 olurdu.
+
+<Kritik>
+"Geri konulmadan" ifadesi ikinci çekilişte **hem kırmızı sayısını hem toplamı** bir azaltır.
+Yalnızca birini azaltmak en sık yapılan hatadır.
+</Kritik>

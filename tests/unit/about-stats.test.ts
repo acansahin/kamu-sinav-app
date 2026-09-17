@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 import {
+	countByBasis,
 	countByLicense,
 	countBySourceKind,
-	countWithLegalRef,
 	summarizeSubjectTrust,
 } from "@/lib/content/about-stats";
 import type {
@@ -41,6 +41,7 @@ function subject(id: string, topics: CompiledTopic[]): CompiledSubject {
 		shortName: id,
 		description: "Deneme dersi açıklaması",
 		scope: "ortak",
+		basis: "mevzuat",
 		order: 1,
 		icon: "Scale",
 		topics: topics.map((t) => ({ ...t, subjectId: id })),
@@ -62,6 +63,7 @@ function summary(
 		legislationVersion,
 		lastVerifiedAt,
 		legalRefs: [],
+		references: [],
 		body: "gövde",
 		readingMinutes: 5,
 	};
@@ -178,7 +180,17 @@ describe("kaynak ve lisans sayımı", () => {
 		expect(countByLicense([])).toEqual([]);
 	});
 
-	it("mevzuat dayanağı olan soruları sayar", () => {
-		expect(countWithLegalRef(questions)).toBe(3);
+	it("dayanakları türüne göre sayar", () => {
+		expect(countByBasis(questions)).toEqual({ legalRef: 3, reference: 0, none: 0 });
+	});
+
+	it("kaynak dayanaklı ve dayanaksız soruları ayırır", () => {
+		const [ilk, ikinci] = questions;
+		const karisik = [
+			ilk,
+			{ ...ikinci, legalRef: undefined, reference: { title: "TDK Yazım Kılavuzu" } },
+			{ ...ikinci, id: "cozum", legalRef: undefined },
+		];
+		expect(countByBasis(karisik)).toEqual({ legalRef: 1, reference: 1, none: 1 });
 	});
 });

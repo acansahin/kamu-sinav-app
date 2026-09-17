@@ -87,14 +87,25 @@ export function countByLicense(
 }
 
 /**
- * Mevzuat dayanağı olan soru oranı.
+ * Dayanak türüne göre soru sayıları.
  *
- * Şema `legalRef`i zaten zorunlu kılar, yani sağlıklı bir havuzda bu sayı
- * soru sayısına eşittir. Yine de sayılır: iddia "her soruda dayanak var" ise
- * kullanıcı onu bir rakam olarak görebilmelidir.
+ * Derleme kapısı dayanağı dersin `basis` alanına göre zorunlu kılar; yine de
+ * sayılır: iddia "her soruda dayanak var" ise kullanıcı onu bir rakam olarak
+ * görebilmelidir. `none` yalnızca sayısal mantık gibi çözümün kendisinin
+ * kanıt olduğu derslerde sıfırdan büyüktür.
  */
-export function countWithLegalRef(questions: readonly Question[]): number {
-	return questions.filter((q) => q.legalRef.law.length > 0).length;
+export function countByBasis(questions: readonly Question[]): {
+	legalRef: number;
+	reference: number;
+	none: number;
+} {
+	let legalRef = 0;
+	let reference = 0;
+	for (const q of questions) {
+		if (q.legalRef && q.legalRef.law.length > 0) legalRef += 1;
+		else if (q.reference) reference += 1;
+	}
+	return { legalRef, reference, none: questions.length - legalRef - reference };
 }
 
 export const SOURCE_KIND_LABELS: Record<SourceKind, string> = {

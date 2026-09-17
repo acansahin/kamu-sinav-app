@@ -1,0 +1,40 @@
+{
+	"id": "cografya",
+	"name": "Türkiye Coğrafyası",
+	"shortName": "Coğrafya",
+	"description": "Türkiye'nin coğrafi konumu ve yer şekilleri, iklim ve bitki örtüsü, akarsu ve göller, nüfus ve yerleşme ile madenler, enerji, sanayi ve ulaşım.",
+	"scope": "ortak",
+	"basis": "kaynak",
+	"order": 11,
+	"icon": "Map",
+	"topics": [
+		{
+			"id": "cografya/konum-ve-yer-sekilleri",
+			"slug": "konum-ve-yer-sekilleri",
+			"name": "Coğrafi Konum ve Yer Şekilleri",
+			"order": 1,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+			"slug": "iklim-bitki-ortusu-ve-su-kaynaklari",
+			"name": "İklim, Bitki Örtüsü ve Su Kaynakları",
+			"order": 2,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "cografya/nufus-ve-yerlesme",
+			"slug": "nufus-ve-yerlesme",
+			"name": "Nüfus ve Yerleşme",
+			"order": 3,
+			"estimatedMinutes": 9
+		},
+		{
+			"id": "cografya/ekonomik-faaliyetler",
+			"slug": "ekonomik-faaliyetler",
+			"name": "Ekonomik Faaliyetler: Madenler, Enerji, Sanayi ve Ulaşım",
+			"order": 4,
+			"estimatedMinutes": 10
+		}
+	]
+}

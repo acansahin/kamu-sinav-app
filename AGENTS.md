@@ -160,7 +160,19 @@ gövdesi neredeyse aynı iki soru farklı hükmü ölçüyor olabilir (657 md.77
 
 Bunlar ürünün farklılaşma tezidir (PROJECT_PLAN.md §4); şema düzeyinde zorunludur:
 
-1. Her soruda `legalRef` (mevzuat dayanağı) ve `explanation` (açıklama) **zorunlu**.
+1. Her soruda `explanation` (açıklama) **zorunlu**. Dayanak zorunluluğu dersin `basis`
+   alanından okunur ve `build-content.ts` içinde uygulanır (soru hangi derse ait olduğunu
+   bilmediği için şemada `legalRef` opsiyoneldir):
+   - `mevzuat` (varsayılan; 657, Anayasa, Etik…): `legalRef` **zorunlu**.
+   - `kaynak` (Türkçe, İnkılap Tarihi, Yakın Tarih, Coğrafya, Edebiyat): `legalRef` **veya**
+     `reference` zorunlu. Kanuna dayanan olgu (677 sayılı Kanun, Anayasa m.174) yine
+     `legalRef` taşır; `reference` TDK Yazım Kılavuzu, tarihî belge, eser künyesi gibi
+     doğrulanabilir kaynaktır — **uydurma sayfa numarası, kanun numarası yazılmaz**.
+   - `serbest` (yalnızca Sayısal Mantık): ikisi de aranmaz; açıklama çözüm adımlarıdır.
+     Kaynak uydurmak yanlış güven verirdi. Dayanaksız sorular sosyal hatta paylaşılmaz.
+
+   Mevcut mevzuat derslerinin `basis`i yanlışlıkla gevşetilirse
+   `content-integrity` testi kırılır. Yeni mevzuat dersi eklerken alanı boş bırakın.
 2. Her soruda `source` + `license` **zorunlu**. `license: "unknown"` olan bir soru
    `status: "published"` yapılamaz — build kırılır.
 3. `source.kind: "ai-draft"` olan soru insan onayından geçmeden yayımlanamaz — build kırılır.

@@ -1,0 +1,343 @@
+[
+	{
+		"id": "turkce-yazim-001",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki Türkçe kelimelerden hangisi büyük ünlü uyumuna uymaz?",
+		"options": [
+			"bilezik",
+			"kardeş",
+			"kırlangıç",
+			"gözlük",
+			"boyunduruk"
+		],
+		"correctIndex": 1,
+		"explanation": "Büyük ünlü uyumunda ilk hecede kalın ünlü varsa sonraki heceler de kalın, ince ünlü varsa ince olur. \"Kardeş\" kelimesinde kalın \"a\"dan sonra ince \"e\" gelir; TDK Yazım Kılavuzu bu kelimeyi anne, elma, hangi, şişman ile birlikte uyuma aykırı Türkçe kelimeler arasında sayar. Bilezik ve gözlük ince, boyunduruk ve kırlangıç kalın ünlülerle kuralı korur.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Büyük Ünlü Uyumu",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/buyuk-unlu-uyumu/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ses-bilgisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-yazim-002",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki cümlelerin hangisinde \"de\" sözcüğünün yazımı yanlıştır?",
+		"options": [
+			"Sen de mi bu kararı destekliyorsun?",
+			"Dosyayı masanın üzerinde unutmuşum.",
+			"Toplantıda yeni bütçe görüşüldü.",
+			"Kardeşimde bu akşam toplantıya katılacak.",
+			"Gidip de görmemek olmaz."
+		],
+		"correctIndex": 3,
+		"explanation": "\"Dahi, bile\" anlamındaki bağlaç olan da/de ayrı yazılır: \"Kardeşim de bu akşam toplantıya katılacak.\" Bulunma durumu eki -da/-de ise kelimeye bitişik yazılır (üzerinde, toplantıda). Bağlaç hiçbir zaman ta/te biçimine girmez ve kendinden önceki kelimeden kesme işaretiyle de ayrılmaz.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Bağlaç Olan da, de'nin Yazılışı",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/baglac-olan-da-denin-yazilisi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-yazim-003",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki kelimelerin hangisi ünlüyle başlayan bir ek aldığında ikinci hecesindeki dar ünlü düşer?",
+		"options": [
+			"yaprak",
+			"orman",
+			"kalem",
+			"burun",
+			"tabak"
+		],
+		"correctIndex": 3,
+		"explanation": "İki heceli bazı kelimeler ünlüyle başlayan ek aldıklarında ikinci hecedeki dar ünlüyü (ı, i, u, ü) düşürür: burun → burnu, ağız → ağzı, oğul → oğlu, gönül → gönlü. \"Yaprak → yaprağı\" ve \"tabak → tabağı\" örneklerinde ünlü düşmez, sondaki ünsüz yumuşar; \"kalem\" ve \"orman\" ise ek aldığında hiçbir ses değişikliğine uğramaz.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ünlü Düşmesi",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/unlu-dusmesi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ses-bilgisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-yazim-004",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki kelimelerin hangisi ünlüyle başlayan bir ek aldığında sonundaki ünsüz ikizleşir?",
+		"options": [
+			"renk",
+			"his",
+			"ağız",
+			"kitap",
+			"gönül"
+		],
+		"correctIndex": 1,
+		"explanation": "Arapçada sonu ikiz ünsüzlü olan bazı kelimeler Türkçede tek ünsüzle kullanılır; ünlüyle başlayan ek veya yardımcı fiil geldiğinde ikiz ünsüz geri döner: his → hissi, hissetmek; hak → hakkı; ret → reddi; zam → zammı. Renk → rengi ve kitap → kitabı ünsüz yumuşaması, ağız → ağzı ve gönül → gönlü ünlü düşmesidir.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ünsüz Türemesi",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/unsuz-turemesi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ses-bilgisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-yazim-005",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde soru ekinin yazımı yanlıştır?",
+		"options": [
+			"Yarınki sunuma siz de katılacakmısınız?",
+			"Güzel mi güzel bir sabahtı.",
+			"Okuyor muyuz, yoksa sadece bakıyor muyuz?",
+			"Raporu teslim ettin mi?",
+			"Bu kararınızdan vaz mı geçtiniz?"
+		],
+		"correctIndex": 0,
+		"explanation": "Soru eki mı/mi/mu/mü gelenekleşmiş olarak ayrı yazılır; kendisinden sonra gelen ekler ise soru ekine bitişir: \"katılacak mısınız?\". Ek, pekiştirme gibi soru dışı görevlerde de ayrı yazılır (güzel mi güzel). Birleşik fiillerde iki kelimenin arasına girebilir: vaz mı geçtiniz.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Soru Eki mı, mi, mu, mü'nün Yazılışı",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/soru-eki-mi-mi-mu-munun-yazilisi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-yazim-006",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerin hangisinin yazımı yanlıştır?",
+		"options": [
+			"diyip",
+			"başlıyor",
+			"yiyecek",
+			"diyerek",
+			"deyince"
+		],
+		"correctIndex": 0,
+		"explanation": "Şimdiki zaman ekinden önce a/e ünlüsü hem söyleyişte hem yazımda daralır (başla-yor → başlıyor). Tek heceli \"demek\" ve \"yemek\" fiillerinde söyleyişteki i yazıya da geçer: diyen, diyerek, diyecek, yiyecek. TDK Yazım Kılavuzu'nun istisnası: \"deyince\" ve \"deyip\" biçimlerinde e korunur. Doğru yazım \"deyip\"tir.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ünlü Daralması",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/unlu-daralmasi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ses-bilgisi",
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-yazim-007",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki seçeneklerin hangisinde kelimelerin tamamı doğru yazılmıştır?",
+		"options": [
+			"birtakım, her hangi, hiçbiri",
+			"hiç bir, birtakım, birkaç",
+			"birçoğu, hiçbir, herhangi",
+			"bir çok, biraz, herhangi",
+			"biraz, birkaçı, hiç biri"
+		],
+		"correctIndex": 2,
+		"explanation": "TDK Yazım Kılavuzu'na göre biraz, birçok, birçoğu, birkaç, birkaçı, birtakım, herhangi, hiçbir ve hiçbiri belirsizlik sıfat ve zamirleri gelenekleşmiş olarak bitişik yazılır. \"Hiç bir\", \"bir çok\", \"her hangi\" ve \"hiç biri\" biçimleri yanlıştır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Bitişik Yazılan Birleşik Kelimeler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/bitisik-yazilan-birlesik-kelimeler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-yazim-008",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde büyük harflerin kullanımıyla ilgili bir yanlışlık vardır?",
+		"options": [
+			"Kurul 23 Nisan'da olağanüstü toplanacak.",
+			"Van kedisi koruma altına alınan türlerdendir.",
+			"Okullar her yıl genellikle Eylül ayının ikinci haftasında açılır.",
+			"Konya ili sınırlarında yeni bir baraj yapılacak.",
+			"Bursa'nın doğusunda sağanak yağış bekleniyor."
+		],
+		"correctIndex": 2,
+		"explanation": "Belirli bir tarih bildiren ay ve gün adları büyük harfle başlar (23 Nisan'da), belirli bir tarihi belirtmeyen ay adları ise küçük yazılır: \"eylül ayının ikinci haftasında\". Yön bildiren doğu/batı sözleri küçük yazılır; özel ada dâhil olmayan il, ilçe, köy sözleri küçük başlar; yer adıyla kurulan birleşik kelimelerde yalnızca özel ad büyük yazılır (Van kedisi).",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Büyük Harflerin Kullanıldığı Yerler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/buyuk-harflerin-kullanildigi-yerler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-yazim-009",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde birleşik kelimenin yazımı yanlıştır?",
+		"options": [
+			"Yasa dışı yapılaşmaya izin verilmeyecek.",
+			"Üyeler olağanüstü toplantıya çağrıldı.",
+			"Başhekim yeni poliklinik saatlerini duyurdu.",
+			"Hafta sonu nöbet listesi panoya asıldı.",
+			"Kurumlar arasındaki işbirliği protokolü dün imzalandı."
+		],
+		"correctIndex": 4,
+		"explanation": "Durum, olgu ve olay bildiren sözlerle kurulan birleşik kelimeler ayrı yazılır: iş birliği, iş bölümü, güç birliği. Somut yer bildirmeyen \"üstü\" ile kurulanlar bitişik (olağanüstü), \"dışı\" ile kurulanlar ayrı (yasa dışı), \"baş\" ile kurulan gelenekleşmiş sıfat tamlamaları bitişik (başhekim), zamanla ilgili birleşik kelimeler ayrı (hafta sonu) yazılır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ayrı Yazılan Birleşik Kelimeler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/ayri-yazilan-birlesik-kelimeler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-yazim-010",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde düzeltme işareti, nispet ekini belirtme durumu veya iyelik ekinden ayırt etmek için kullanılmıştır?",
+		"options": [
+			"Dükkânın önü sabahtan beri kalabalıktı.",
+			"Bu yörenin düğün âdetleri oldukça ilginçtir.",
+			"Kâğıtları imzalatıp dosyaya kaldırdı.",
+			"Başvurunuz hâlâ sonuçlanmadı.",
+			"Resmî törene kurumun bütün personeli katıldı."
+		],
+		"correctIndex": 4,
+		"explanation": "Düzeltme işareti üç amaçla kullanılır. Nispet eki -î'yi belirtme durumu veya iyelik ekinden ayırmak için: resmî (tören) / (Atatürk'ün) resmi. Yazılışı aynı, anlamı farklı kelimeleri ayırmak için: hâlâ / hala, âdet / adet. İnce g, k, l'den sonra gelen a ve u için: dükkân, kâğıt.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Düzeltme İşareti",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/duzeltme-isareti/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

@@ -1,0 +1,47 @@
+{
+	"id": "turkce",
+	"name": "Türkçe ve Dil Bilgisi",
+	"shortName": "Türkçe",
+	"description": "TDK Yazım Kılavuzu esas alınarak ses bilgisi ve yazım kuralları, noktalama işaretleri, sözcük yapısı ve türleri, cümle bilgisi, sözcükte anlam ve anlatım bozuklukları.",
+	"scope": "ortak",
+	"basis": "kaynak",
+	"order": 7,
+	"icon": "Languages",
+	"topics": [
+		{
+			"id": "turkce/ses-bilgisi-ve-yazim-kurallari",
+			"slug": "ses-bilgisi-ve-yazim-kurallari",
+			"name": "Ses Bilgisi ve Yazım Kuralları",
+			"order": 1,
+			"estimatedMinutes": 11
+		},
+		{
+			"id": "turkce/noktalama-isaretleri",
+			"slug": "noktalama-isaretleri",
+			"name": "Noktalama İşaretleri",
+			"order": 2,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "turkce/sozcuk-yapisi-ve-sozcuk-turleri",
+			"slug": "sozcuk-yapisi-ve-sozcuk-turleri",
+			"name": "Sözcük Yapısı ve Sözcük Türleri",
+			"order": 3,
+			"estimatedMinutes": 11
+		},
+		{
+			"id": "turkce/cumle-bilgisi",
+			"slug": "cumle-bilgisi",
+			"name": "Cümlenin Öğeleri ve Cümle Türleri",
+			"order": 4,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "turkce/anlam-ve-anlatim-bozukluklari",
+			"slug": "anlam-ve-anlatim-bozukluklari",
+			"name": "Sözcükte Anlam ve Anlatım Bozuklukları",
+			"order": 5,
+			"estimatedMinutes": 10
+		}
+	]
+}

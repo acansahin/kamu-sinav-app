@@ -1,0 +1,272 @@
+[
+	{
+		"id": "sayisal-sayi-001",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bir sayının 3 katının 7 fazlası 40'tır. Bu sayı kaçtır?",
+		"options": [
+			"12",
+			"10",
+			"9",
+			"13",
+			"11"
+		],
+		"correctIndex": 4,
+		"explanation": "Sayıya x denirse 3x + 7 = 40 olur. Her iki taraftan 7 çıkarılır: 3x = 33. İki taraf 3'e bölünür: x = 11. Sağlama: 3 × 11 + 7 = 40.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-sayi-002",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "36 ile 48 sayılarının en büyük ortak böleni (EBOB) kaçtır?",
+		"options": [
+			"4",
+			"144",
+			"12",
+			"24",
+			"6"
+		],
+		"correctIndex": 2,
+		"explanation": "36 = 2² × 3², 48 = 2⁴ × 3'tür. EBOB, ortak asal çarpanların en küçük üslüleri çarpılarak bulunur: 2² × 3 = 12. 144 ise iki sayının en küçük ortak katıdır (EKOK).",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-sayi-003",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir memur 6 günde bir, diğer memur 8 günde bir nöbet tutmaktadır. İki memur bugün birlikte nöbet tuttuğuna göre en az kaç gün sonra yeniden birlikte nöbet tutarlar?",
+		"options": [
+			"48",
+			"16",
+			"12",
+			"24",
+			"14"
+		],
+		"correctIndex": 3,
+		"explanation": "İki memurun yeniden aynı gün nöbet tutması için geçen gün sayısı hem 6'nın hem 8'in katı olmalıdır. En az süre EKOK(6, 8)'dir: 6 = 2 × 3, 8 = 2³ olduğundan EKOK = 2³ × 3 = 24 gündür. 48 ortak bir kattır ama en küçüğü değildir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-sayi-004",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Dört basamaklı 52A4 sayısı 9 ile tam bölünebildiğine göre A rakamı kaçtır?",
+		"options": [
+			"2",
+			"7",
+			"8",
+			"5",
+			"6"
+		],
+		"correctIndex": 1,
+		"explanation": "Bir sayı, rakamları toplamı 9'un katıysa 9 ile tam bölünür. 5 + 2 + A + 4 = 11 + A toplamı 9'un katı olmalıdır. A bir rakam olduğundan (0-9) toplam ancak 18 olabilir: 11 + A = 18, A = 7. Sağlama: 5274 ÷ 9 = 586.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-sayi-005",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Ardışık üç tek sayının toplamı 75'tir. Bu sayılardan en büyüğü kaçtır?",
+		"options": [
+			"23",
+			"29",
+			"26",
+			"25",
+			"27"
+		],
+		"correctIndex": 4,
+		"explanation": "Ardışık tek sayılar ikişer artar; ortadaki sayıya x denirse sayılar x − 2, x ve x + 2 olur. Toplamları 3x = 75, yani x = 25'tir. Sayılar 23, 25 ve 27'dir; en büyüğü 27'dir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-sayi-006",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir babanın bugünkü yaşı oğlunun yaşının 4 katıdır. 5 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacaktır.\n\nBuna göre babanın bugünkü yaşı kaçtır?",
+		"options": [
+			"45",
+			"44",
+			"40",
+			"32",
+			"36"
+		],
+		"correctIndex": 2,
+		"explanation": "Oğlun yaşı x ise babanın yaşı 4x'tir. 5 yıl sonra ikisinin yaşı da 5 artar: 4x + 5 = 3(x + 5). Parantez açılır: 4x + 5 = 3x + 15, buradan x = 10 bulunur. Babanın yaşı 4 × 10 = 40'tır. Sağlama: 5 yıl sonra 45 ve 15; 45 = 3 × 15.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-sayi-007",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir sayı 5'e bölündüğünde 3, 7'ye bölündüğünde yine 3 kalanını vermektedir.\n\nBu koşulu sağlayan iki basamaklı en büyük sayı kaçtır?",
+		"options": [
+			"73",
+			"88",
+			"98",
+			"68",
+			"38"
+		],
+		"correctIndex": 0,
+		"explanation": "Sayıdan 3 çıkarılırsa hem 5'e hem 7'ye tam bölünür; yani sayı − 3, EKOK(5, 7) = 35'in katıdır. Sayı 35k + 3 biçimindedir: 3, 38, 73, 108... İki basamaklı olanlar 38 ve 73'tür; en büyüğü 73'tür.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-sayi-008",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir su deposundaki suyun önce 1/3'ü, ardından kalan suyun 1/4'ü kullanılıyor. Depoda 60 litre su kaldığına göre depodaki suyun başlangıçtaki miktarı kaç litredir?",
+		"options": [
+			"120",
+			"90",
+			"150",
+			"240",
+			"180"
+		],
+		"correctIndex": 0,
+		"explanation": "1/3'ü kullanılınca 2/3'ü kalır. Kalanın 1/4'ü kullanılınca kalanın 3/4'ü kalır: 2/3 × 3/4 = 1/2. Depoda başlangıçtaki suyun yarısı kalmıştır; yarısı 60 litre ise tamamı 120 litredir. \"1/3 + 1/4 = 7/12 kullanıldı\" diye hesaplamak hatalıdır, çünkü ikinci oran kalan su üzerinden verilmiştir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-sayi-009",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir sınıftaki öğrenciler dörderli gruplara ayrıldığında 3, beşerli gruplara ayrıldığında 4, altışarlı gruplara ayrıldığında 5 öğrenci artmaktadır.\n\nSınıf mevcudu 100'den az olduğuna göre sınıfta kaç öğrenci vardır?",
+		"options": [
+			"57",
+			"61",
+			"60",
+			"59",
+			"119"
+		],
+		"correctIndex": 3,
+		"explanation": "Her durumda artan öğrenci sayısı grup büyüklüğünden 1 eksiktir. Sınıfa 1 öğrenci eklenseydi öğrenciler dörderli, beşerli ve altışarlı gruplara tam bölünürdü; yani mevcut + 1, EKOK(4, 5, 6) = 60'ın katıdır. Mevcut 60k − 1 biçimindedir: 59, 119... 100'den küçük olan tek değer 59'dur.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-sayi-010",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "İki basamaklı AB sayısı ile rakamlarının yerleri değiştirilerek elde edilen BA sayısının toplamı 132'dir.\n\nA > B olduğuna göre AB sayısı en çok kaç olabilir?",
+		"options": [
+			"96",
+			"93",
+			"87",
+			"84",
+			"75"
+		],
+		"correctIndex": 1,
+		"explanation": "AB = 10A + B ve BA = 10B + A'dır. Toplam 11A + 11B = 11(A + B) = 132 olduğundan A + B = 12 bulunur. A > B şartıyla rakam çiftleri (9, 3), (8, 4), (7, 5)'tir. AB'nin en büyük değeri A = 9, B = 3 için 93'tür.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

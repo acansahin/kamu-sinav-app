@@ -159,13 +159,18 @@ function renderQuestion(question: Question, index: number): string {
 		})
 		.join("\n");
 
-	const ref = [
-		question.legalRef.law,
-		question.legalRef.article && `m. ${question.legalRef.article}`,
-		question.legalRef.clause && `fıkra/bent ${question.legalRef.clause}`,
-	]
-		.filter(Boolean)
-		.join(", ");
+	const { legalRef, reference } = question;
+	const ref = legalRef
+		? `**Mevzuat dayanağı:** ${[
+				legalRef.law,
+				legalRef.article && `m. ${legalRef.article}`,
+				legalRef.clause && `fıkra/bent ${legalRef.clause}`,
+			]
+				.filter(Boolean)
+				.join(", ")}`
+		: reference
+			? `**Kaynak dayanağı:** ${[reference.title, reference.section].filter(Boolean).join(" — ")}`
+			: "**Dayanak:** — (çözüm sorusu; doğruluk açıklamadaki adımlardan denetlenir)";
 
 	return `### ${index}. \`${question.id}\` · ${question.difficulty}
 
@@ -176,7 +181,7 @@ ${options}
 **Açıklama (uygulamada kullanıcıya gösteriliyor):**
 ${question.explanation}
 
-**Mevzuat dayanağı:** ${ref}
+${ref}
 **Kaynak:** ${question.source.kind} · ${question.source.origin}
 **Son güncelleme:** ${question.updatedAt}
 `;

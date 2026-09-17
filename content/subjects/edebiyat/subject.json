@@ -1,0 +1,40 @@
+{
+	"id": "edebiyat",
+	"name": "Türk ve Dünya Edebiyatında Klasikleşmiş Eserler",
+	"shortName": "Edebi Eserler",
+	"description": "İslamiyet öncesinden Cumhuriyet dönemine Türk edebiyatının ve dünya edebiyatının klasikleşmiş eserleri ile yazarları.",
+	"scope": "ortak",
+	"basis": "kaynak",
+	"order": 12,
+	"icon": "BookOpen",
+	"topics": [
+		{
+			"id": "edebiyat/eski-turk-edebiyati",
+			"slug": "eski-turk-edebiyati",
+			"name": "İslamiyet Öncesi ve İslami Dönem Türk Edebiyatı",
+			"order": 1,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "edebiyat/tanzimattan-milli-edebiyata",
+			"slug": "tanzimattan-milli-edebiyata",
+			"name": "Tanzimat'tan Millî Edebiyata",
+			"order": 2,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "edebiyat/cumhuriyet-donemi-edebiyati",
+			"slug": "cumhuriyet-donemi-edebiyati",
+			"name": "Cumhuriyet Dönemi Türk Edebiyatı",
+			"order": 3,
+			"estimatedMinutes": 10
+		},
+		{
+			"id": "edebiyat/dunya-edebiyati-klasikleri",
+			"slug": "dunya-edebiyati-klasikleri",
+			"name": "Dünya Edebiyatının Klasikleri",
+			"order": 4,
+			"estimatedMinutes": 9
+		}
+	]
+}

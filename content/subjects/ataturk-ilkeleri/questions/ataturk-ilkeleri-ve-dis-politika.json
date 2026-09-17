@@ -1,0 +1,331 @@
+[
+	{
+		"id": "ataturk-ilke-001",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Atatürk ilkeleri hangi yıl Anayasa'ya girmiştir?",
+		"options": [
+			"1934",
+			"1937",
+			"1928",
+			"1924",
+			"1931"
+		],
+		"correctIndex": 1,
+		"explanation": "Cumhuriyetçilik, milliyetçilik, halkçılık, devletçilik, laiklik ve inkılapçılık ilkeleri 1931'de Cumhuriyet Halk Fırkası programına \"altı ok\" olarak girmiş, 5 Şubat 1937'de 1924 Anayasası'nın 2. maddesine eklenerek anayasal nitelik kazanmıştır. 1924 Anayasa'nın kabul edildiği, 1928 ise \"devletin dini\" hükmünün çıkarıldığı yıldır.",
+		"reference": {
+			"title": "Teşkilat-ı Esasiye Kanunu (1924)",
+			"section": "m. 2 — 5 Şubat 1937 değişikliği"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilkeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-ilke-002",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türkiye 1932 yılında aşağıdaki uluslararası kuruluşlardan hangisine üye olmuştur?",
+		"options": [
+			"Birleşmiş Milletler",
+			"Avrupa Konseyi",
+			"Milletler Cemiyeti",
+			"Ekonomik İşbirliği Teşkilatı",
+			"NATO"
+		],
+		"correctIndex": 2,
+		"explanation": "Türkiye, Milletler Cemiyeti'ne üye devletlerin daveti üzerine 18 Temmuz 1932'de üye olmuştur. Bu gelişme Türkiye'nin barışçı dış politikasının uluslararası alanda kabul gördüğünü gösterir. Birleşmiş Milletler'e 1945'te kurucu üye olarak, Avrupa Konseyi'ne 1949'da, NATO'ya 1952'de katılmıştır.",
+		"reference": {
+			"title": "Milletler Cemiyeti'ne üyelik (18 Temmuz 1932)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-ilke-003",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Toplumda hiçbir kişiye, aileye veya sınıfa ayrıcalık tanınmamasını ve herkesin kanun önünde eşit olmasını esas alan Atatürk ilkesi aşağıdakilerden hangisidir?",
+		"options": [
+			"Laiklik",
+			"Halkçılık",
+			"Milliyetçilik",
+			"Devletçilik",
+			"İnkılapçılık"
+		],
+		"correctIndex": 1,
+		"explanation": "Halkçılık, egemenliğin halka ait olmasını ve toplumda hiçbir kişi, aile, sınıf veya zümreye ayrıcalık tanınmamasını, herkesin kanun önünde eşit sayılmasını öngörür. Soyadı Kanunu ve lakap-unvanların kaldırılması bu ilkeyle ilgilidir. Devletçilik ekonomiye, laiklik din-devlet ilişkisine, inkılapçılık yeniliklerin korunmasına ilişkindir.",
+		"reference": {
+			"title": "Cumhuriyet Halk Fırkası Programı (1931)",
+			"section": "Halkçılık"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilkeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-ilke-004",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1929 Dünya Ekonomik Krizi'nin etkisiyle ekonomide devletin yatırımcı ve düzenleyici rolünü öne çıkaran Atatürk ilkesi aşağıdakilerden hangisidir?",
+		"options": [
+			"Halkçılık",
+			"İnkılapçılık",
+			"Laiklik",
+			"Devletçilik",
+			"Cumhuriyetçilik"
+		],
+		"correctIndex": 3,
+		"explanation": "Devletçilik, özel teşebbüsün yetersiz kaldığı alanlarda devletin ekonomiye yatırımcı ve düzenleyici olarak girmesini öngörür. 1929 Dünya Ekonomik Krizi'nden sonra benimsenmiş; Sümerbank (1933), Etibank (1935) ve I. Beş Yıllık Sanayi Planı (1934) bu ilkenin uygulamalarıdır. İlke özel teşebbüsü ortadan kaldırmayı değil, desteklemeyi amaçlar.",
+		"reference": {
+			"title": "Cumhuriyet Halk Fırkası Programı (1931)",
+			"section": "Devletçilik"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilkeler",
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-ilke-005",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye, Yunanistan, Yugoslavya ve Romanya arasında 9 Şubat 1934'te imzalanan ve Balkanlarda barışı korumayı amaçlayan anlaşma aşağıdakilerden hangisidir?",
+		"options": [
+			"Balkan Antantı",
+			"Montrö Boğazlar Sözleşmesi",
+			"Briand-Kellogg Paktı",
+			"Sadabat Paktı",
+			"Bağdat Paktı"
+		],
+		"correctIndex": 0,
+		"explanation": "Balkan Antantı, İtalya'nın yayılmacı politikasına karşı Balkan devletlerinin sınırlarını karşılıklı olarak güvence altına almak amacıyla 9 Şubat 1934'te Atina'da imzalanmıştır. Bulgaristan ve Arnavutluk katılmamıştır. Sadabat Paktı 1937'de Orta Doğu devletleriyle, Bağdat Paktı ise 1955'te Atatürk döneminden sonra imzalanmıştır.",
+		"reference": {
+			"title": "Balkan Antantı (9 Şubat 1934)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-ilke-006",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki devletlerden hangisi 1937'de imzalanan Sadabat Paktı'nın taraflarından biri değildir?",
+		"options": [
+			"Irak",
+			"İran",
+			"Afganistan",
+			"Suriye",
+			"Türkiye"
+		],
+		"correctIndex": 3,
+		"explanation": "Sadabat Paktı, 8 Temmuz 1937'de Tahran'daki Sadabat Sarayı'nda Türkiye, İran, Irak ve Afganistan arasında imzalanmıştır. Pakt, İtalya'nın Orta Doğu'daki yayılmacı politikasına karşı bölgesel güvenliği ve sınırların korunmasını amaçlamıştır. Suriye o tarihte Fransız mandası altındaydı ve paktın tarafı değildir.",
+		"reference": {
+			"title": "Sadabat Paktı (8 Temmuz 1937)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-ilke-007",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi 20 Temmuz 1936 tarihli Montrö Boğazlar Sözleşmesi ile ilgili doğru bir bilgidir?",
+		"options": [
+			"Boğazların yönetimi Milletler Cemiyeti'ne bırakılmıştır.",
+			"Türkiye tarafsızken savaşan devletlerin savaş gemilerinin geçişi serbest bırakılmıştır.",
+			"Boğazlar bölgesinin silahsızlandırılması kararlaştırılmıştır.",
+			"Sözleşme Lozan Konferansı sırasında imzalanmıştır.",
+			"Boğazlar Komisyonu kaldırılmış ve yetkileri Türkiye'ye devredilmiştir."
+		],
+		"correctIndex": 4,
+		"explanation": "Montrö Boğazlar Sözleşmesi ile Lozan'da kurulan uluslararası Boğazlar Komisyonu kaldırılmış, yetkileri Türkiye'ye devredilmiş ve Türkiye'ye Boğazlar bölgesini silahlandırma hakkı tanınmıştır. Silahsızlandırma Lozan'ın hükmüydü. Savaş zamanında Türkiye tarafsızsa savaşan devletlerin savaş gemileri Boğazlardan geçemez.",
+		"reference": {
+			"title": "Montrö Boğazlar Sözleşmesi (20 Temmuz 1936)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika",
+			"bogazlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-ilke-008",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5 Haziran 1926'da Türkiye, İngiltere ve Irak arasında imzalanan Ankara Antlaşması'nın sonucu aşağıdakilerden hangisidir?",
+		"options": [
+			"Musul'un Irak'a bırakılması",
+			"Türk-Rum nüfus mübadelesinin başlaması",
+			"Kapitülasyonların kaldırılması",
+			"Hatay'ın Türkiye'ye katılması",
+			"Boğazların Türk egemenliğine geçmesi"
+		],
+		"correctIndex": 0,
+		"explanation": "Lozan'da çözülemeyen Musul sorunu Milletler Cemiyeti'ne götürülmüş, cemiyetin İngiltere lehine kararından sonra 5 Haziran 1926 tarihli Ankara Antlaşması imzalanmıştır. Musul Irak'a bırakılmış, buna karşılık Türkiye'ye 25 yıl süreyle Musul petrol gelirlerinden %10 pay verilmesi kararlaştırılmıştır. Hatay 1939'da katılmış, Boğazlar 1936'da Montrö ile Türk egemenliğine geçmiştir.",
+		"reference": {
+			"title": "Ankara Antlaşması (5 Haziran 1926)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika",
+			"musul"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-ilke-009",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Hatay'ın Türkiye'ye katılma sürecindeki aşağıdaki gelişmelerden hangisi Atatürk'ün vefatından sonra gerçekleşmiştir?",
+		"options": [
+			"Fransa'nın Suriye'ye bağımsızlık vermeyi kabul etmesi",
+			"Milletler Cemiyeti'nin Hatay için ayrı bir statü kabul etmesi",
+			"Sadabat Paktı'nın imzalanması",
+			"Hatay Devleti'nin kurulması",
+			"Hatay Millet Meclisi'nin Türkiye'ye katılma kararı alması"
+		],
+		"correctIndex": 4,
+		"explanation": "Atatürk 10 Kasım 1938'de vefat etmiştir. Fransa'nın Suriye'ye bağımsızlık vermeyi kabul etmesi 1936'da, Milletler Cemiyeti'nin Hatay'a ayrı statü tanıması 1937'de, Hatay Devleti'nin kurulması 2 Eylül 1938'de gerçekleşmiştir. Hatay Millet Meclisi 29 Haziran 1939'da Türkiye'ye katılma kararı almış; Atatürk bu sonucu görememiştir.",
+		"reference": {
+			"title": "Hatay Millet Meclisi'nin 29 Haziran 1939 tarihli kararı"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika",
+			"hatay"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-ilke-010",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki düzenlemelerden hangisi doğrudan laiklik ilkesi doğrultusunda gerçekleştirilen düzenlemelerden biri değildir?",
+		"options": [
+			"Tekke ve zaviyelerin kapatılması",
+			"Devletin dininin İslam olduğuna ilişkin hükmün Anayasa'dan çıkarılması",
+			"Soyadı Kanunu'nun kabul edilmesi",
+			"Halifeliğin kaldırılması",
+			"Tevhid-i Tedrisat Kanunu'nun kabul edilmesi"
+		],
+		"correctIndex": 2,
+		"explanation": "Laiklik din ve devlet işlerinin birbirinden ayrılmasını öngörür. Halifeliğin kaldırılması, eğitimin birleştirilerek medreselerin kapatılması, tekke ve zaviyelerin kapatılması ve 1928'de devletin resmî dini hükmünün anayasadan çıkarılması bu ilkenin uygulamalarıdır. Soyadı Kanunu ise toplumsal eşitliği ve kimlik düzenini amaçladığı için halkçılık ve milliyetçilik ilkeleriyle ilgilidir.",
+		"reference": {
+			"title": "Cumhuriyet Halk Fırkası Programı (1931)",
+			"section": "Laiklik"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilkeler",
+			"laiklik"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

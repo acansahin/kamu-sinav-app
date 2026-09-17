@@ -1,0 +1,331 @@
+[
+	{
+		"id": "yakin-1980-001",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1982 Anayasası halkoylamasıyla hangi tarihte kabul edilmiştir?",
+		"options": [
+			"9 Temmuz 1961",
+			"12 Eylül 1980",
+			"6 Eylül 1987",
+			"6 Kasım 1983",
+			"7 Kasım 1982"
+		],
+		"correctIndex": 4,
+		"explanation": "Danışma Meclisi ve Millî Güvenlik Konseyinden oluşan Kurucu Meclisin hazırladığı 2709 sayılı Türkiye Cumhuriyeti Anayasası 7 Kasım 1982'de halkoylamasıyla kabul edilmiş ve 9 Kasım 1982'de Resmî Gazete'de yayımlanmıştır. Geçici 1. maddeye göre Millî Güvenlik Konseyi Başkanı Kenan Evren yedi yıllık dönem için Cumhurbaşkanı sıfatını kazanmıştır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "Geçici 1",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"1982-anayasasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1980-002",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Kuzey Kıbrıs Türk Cumhuriyeti hangi yıl kurulmuştur?",
+		"options": [
+			"1975",
+			"1987",
+			"1974",
+			"1983",
+			"1960"
+		],
+		"correctIndex": 3,
+		"explanation": "Kuzey Kıbrıs Türk Cumhuriyeti 15 Kasım 1983'te Kıbrıs Türk Federe Devleti Meclisinin kararıyla bağımsızlığını ilan etmiştir. İlk Cumhurbaşkanı Rauf Denktaş'tır. 1960 Kıbrıs Cumhuriyeti'nin, 1974 Kıbrıs Barış Harekâtı'nın, 1975 Kıbrıs Türk Federe Devleti'nin kuruluş yılıdır.",
+		"reference": {
+			"title": "Kuzey Kıbrıs Türk Cumhuriyeti'nin ilanı (15 Kasım 1983)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kibris"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1980-003",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "12 Eylül 1980 askerî müdahalesinden sonra yapılan 6 Kasım 1983 genel seçimlerini kazanarak tek başına iktidara gelen parti aşağıdakilerden hangisidir?",
+		"options": [
+			"Sosyaldemokrasi Partisi",
+			"Doğru Yol Partisi",
+			"Milliyetçi Demokrasi Partisi",
+			"Anavatan Partisi",
+			"Halkçı Parti"
+		],
+		"correctIndex": 3,
+		"explanation": "6 Kasım 1983 seçimlerine yalnızca Millî Güvenlik Konseyinin izin verdiği Anavatan Partisi, Halkçı Parti ve Milliyetçi Demokrasi Partisi katılabilmiştir. Seçimi Turgut Özal'ın genel başkanı olduğu Anavatan Partisi kazanmış ve Özal Başbakan olmuştur. Doğru Yol Partisi ve Sosyaldemokrasi Partisi bu seçime katılamamıştır.",
+		"reference": {
+			"title": "1983 milletvekili genel seçimleri (6 Kasım 1983)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"secimler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1980-004",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye'nin Avrupa Birliğine aday ülke olarak kabul edildiği zirve aşağıdakilerden hangisidir?",
+		"options": [
+			"Lüksemburg Zirvesi (1997)",
+			"Helsinki Zirvesi (1999)",
+			"Kopenhag Zirvesi (2002)",
+			"Brüksel Zirvesi (2004)",
+			"Nice Zirvesi (2000)"
+		],
+		"correctIndex": 1,
+		"explanation": "Türkiye, 10-11 Aralık 1999'da toplanan Helsinki Zirvesi'nde Avrupa Birliğine aday ülke olarak kabul edilmiştir. 1997 Lüksemburg Zirvesi'nde Türkiye genişleme sürecinin dışında bırakılmış; 17 Aralık 2004 Brüksel Zirvesi'nde müzakerelerin başlatılmasına karar verilmiş ve müzakereler 3 Ekim 2005'te başlamıştır.",
+		"reference": {
+			"title": "Avrupa Konseyi Helsinki Zirvesi Sonuç Bildirgesi (10-11 Aralık 1999)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"avrupa-birligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1980-005",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye ile Avrupa Birliği arasında Gümrük Birliği hangi tarihte yürürlüğe girmiştir?",
+		"options": [
+			"14 Nisan 1987",
+			"10 Aralık 1999",
+			"12 Eylül 1963",
+			"3 Ekim 2005",
+			"1 Ocak 1996"
+		],
+		"correctIndex": 4,
+		"explanation": "Türkiye-AT Ortaklık Konseyi'nin 6 Mart 1995 tarihli ve 1/95 sayılı kararıyla sanayi ürünlerinde Gümrük Birliği'nin tamamlanması kararlaştırılmış, Gümrük Birliği 1 Ocak 1996'da yürürlüğe girmiştir. 12 Eylül 1963 Ankara Antlaşması'nın, 14 Nisan 1987 tam üyelik başvurusunun, 3 Ekim 2005 katılım müzakerelerinin başlangıç tarihidir.",
+		"reference": {
+			"title": "Türkiye-AT Ortaklık Konseyi'nin 1/95 sayılı Kararı (6 Mart 1995)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"avrupa-birligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1980-006",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "6 Eylül 1987'de yapılan halkoylamasının konusu aşağıdakilerden hangisidir?",
+		"options": [
+			"Seçmen yaşının 18'e indirilmesi",
+			"Ölüm cezasının Anayasa'dan çıkarılması",
+			"Eski siyasetçilere getirilen siyasi yasakların kaldırılması",
+			"Hâkimler ve Savcılar Yüksek Kurulunun yapısının değiştirilmesi",
+			"1982 Anayasası'nın kabul edilmesi"
+		],
+		"correctIndex": 2,
+		"explanation": "1982 Anayasası'nın geçici 4. maddesi, 12 Eylül 1980 öncesi siyasi parti yöneticilerine siyasi yasaklar getirmişti. Madde 17 Mayıs 1987 tarihli 3361 sayılı Kanunla kaldırılmış, değişiklik 6 Eylül 1987 halkoylamasıyla kabul edilmiştir. HSYK'nın yapısı 2010 halkoylamasıyla değişmiş; seçmen yaşı 1995'te, ölüm cezası 2004'te TBMM'nin kabul ettiği değişikliklerle düzenlenmiştir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "Geçici 4",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-degisiklikleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1980-007",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Cumhurbaşkanının halk tarafından seçilmesini öngören Anayasa değişikliği hangi yıl halkoylamasıyla kabul edilmiştir?",
+		"options": [
+			"2001",
+			"2017",
+			"2007",
+			"2014",
+			"2010"
+		],
+		"correctIndex": 2,
+		"explanation": "31 Mayıs 2007 tarihli 5678 sayılı Kanunla yapılan ve Cumhurbaşkanının halk tarafından seçilmesini öngören Anayasa değişikliği 21 Ekim 2007 halkoylamasıyla kabul edilmiştir. Bu değişiklik ilk kez 10 Ağustos 2014 Cumhurbaşkanı seçiminde uygulanmıştır. 2010 ve 2017 yıllarında başka konularda Anayasa değişikliği halkoylamaları yapılmıştır.",
+		"reference": {
+			"title": "5678 sayılı Türkiye Cumhuriyeti Anayasasının Bazı Maddelerinde Değişiklik Yapılmasına Dair Kanun (31 Mayıs 2007)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-degisiklikleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1980-008",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Karadeniz'e kıyısı olan ve bölgedeki ülkeler arasında ekonomik iş birliğini geliştirmek amacıyla 25 Haziran 1992'de İstanbul'da imzalanan zirve bildirgesiyle kurulan oluşum aşağıdakilerden hangisidir?",
+		"options": [
+			"İslam İşbirliği Teşkilatı",
+			"Karadeniz Ekonomik İşbirliği",
+			"Gelişen Sekiz Ülke (D-8)",
+			"Ekonomik İşbirliği Teşkilatı",
+			"Türk Devletleri Teşkilatı"
+		],
+		"correctIndex": 1,
+		"explanation": "Karadeniz Ekonomik İşbirliği, Türkiye'nin öncülüğünde 25 Haziran 1992'de İstanbul'da imzalanan zirve bildirgesiyle kurulmuş, 1999'da uluslararası örgüt statüsü kazanmıştır; merkezi İstanbul'dadır. Ekonomik İşbirliği Teşkilatı Türkiye, İran ve Pakistan'ın 1985'te kurduğu örgüttür; D-8 1997'de kurulmuştur.",
+		"reference": {
+			"title": "Karadeniz Ekonomik İşbirliği Zirve Bildirgesi (25 Haziran 1992)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1980-009",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "16 Nisan 2017 halkoylamasıyla kabul edilen Anayasa değişikliğiyle aşağıdakilerden hangisi gerçekleştirilmiştir?",
+		"options": [
+			"Cumhurbaşkanlığı Hükümet Sistemine geçilmesi",
+			"Anayasa Mahkemesine bireysel başvuru hakkının getirilmesi",
+			"Seçmen yaşının 18'e indirilmesi",
+			"Devlet Güvenlik Mahkemelerinin kaldırılması",
+			"Ölüm cezasının Anayasa'dan tamamen çıkarılması"
+		],
+		"correctIndex": 0,
+		"explanation": "21 Ocak 2017 tarihli 6771 sayılı Kanunla yapılan değişiklik 16 Nisan 2017 halkoylamasıyla kabul edilmiş ve Cumhurbaşkanlığı Hükümet Sistemi getirilmiştir; Bakanlar Kurulu kaldırılmış, yürütme yetkisi Cumhurbaşkanına verilmiştir. Sistem 24 Haziran 2018 seçimleriyle yürürlüğe girmiştir. Bireysel başvuru 2010'da, seçmen yaşının 18'e indirilmesi 1995'te, ölüm cezası ve DGM'lerin kaldırılması 2004'te gerçekleşmiştir.",
+		"reference": {
+			"title": "6771 sayılı Türkiye Cumhuriyeti Anayasasında Değişiklik Yapılmasına Dair Kanun (21 Ocak 2017)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-degisiklikleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1980-010",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Türkiye'de Cumhurbaşkanı ilk kez hangi yıl doğrudan halkın oylarıyla seçilmiştir?",
+		"options": [
+			"2014",
+			"2007",
+			"2017",
+			"2018",
+			"2010"
+		],
+		"correctIndex": 0,
+		"explanation": "Cumhurbaşkanının halk tarafından seçilmesini öngören Anayasa değişikliği 2007'de halkoylamasıyla kabul edilmiş, bu usul ilk kez 10 Ağustos 2014 Cumhurbaşkanı seçiminde uygulanmıştır. 2018 seçimleri ise Cumhurbaşkanlığı Hükümet Sistemi'nin yürürlüğe girdiği ve Cumhurbaşkanı ile milletvekili seçimlerinin aynı gün yapıldığı ilk seçimdir.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "101",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"secimler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]

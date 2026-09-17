@@ -1,0 +1,342 @@
+[
+	{
+		"id": "turkce-sozcuk-001",
+		"subjectId": "turkce",
+		"topicId": "turkce/sozcuk-yapisi-ve-sozcuk-turleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "\"Gözlükçü\" kelimesinin kökü aşağıdakilerden hangisidir?",
+		"options": [
+			"gözle-",
+			"gözlük",
+			"göz",
+			"gözlükçü",
+			"gö-"
+		],
+		"correctIndex": 2,
+		"explanation": "Kök, kelimenin ekleri çıkarıldıktan sonra kalan anlamlı bölümüdür. \"Gözlükçü\" kelimesi göz + -lük + -çü biçiminde çözümlenir; \"göz\" köktür. \"Gözlük\" ise kökten yapım ekiyle türetilmiş bir gövdedir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"kök\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcük-yapısı"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-sozcuk-002",
+		"subjectId": "turkce",
+		"topicId": "turkce/sozcuk-yapisi-ve-sozcuk-turleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki cümlelerin hangisinde tırnak içindeki kelime zarf olarak kullanılmıştır?",
+		"options": [
+			"Bugün toplantıya \"erken\" geldi.",
+			"\"Ah\", ne kadar yorulmuşum!",
+			"Hafta sonu \"güzel\" bir gezi yaptık.",
+			"Bu \"iş\" düşündüğümüzden zor çıktı.",
+			"\"Erken\" saatler çalışmak için daha verimlidir."
+		],
+		"correctIndex": 0,
+		"explanation": "Zarf; fiilin, sıfatın veya başka bir zarfın anlamını zaman, durum, yer, ölçü, nitelik ve soru bakımından belirleyen kelimedir. \"Erken geldi\"de kelime fiili zaman yönünden belirler. \"Erken saatler\" ve \"güzel bir gezi\"de kelimeler bir adı nitelediği için sıfattır; \"iş\" isim, \"ah\" ünlemdir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"zarf\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcük-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-sozcuk-003",
+		"subjectId": "turkce",
+		"topicId": "turkce/sozcuk-yapisi-ve-sozcuk-turleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki kelimelerin hangisinde yapım eki yoktur?",
+		"options": [
+			"taşlık",
+			"sevgili",
+			"evlerimizde",
+			"yazıcı",
+			"gözlükçü"
+		],
+		"correctIndex": 2,
+		"explanation": "Yapım eki yeni bir kavram karşılamak üzere kelimeye eklenir (göz-lük, sev-gi); çekim eki ise kelimenin anlamını değiştirmeden durum, iyelik, çokluk, zaman ve kişi bildirir. \"Ev-ler-imiz-de\" kelimesindeki çokluk, iyelik ve bulunma durumu eklerinin hepsi çekim ekidir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"yapım eki\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcük-yapısı"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-sozcuk-004",
+		"subjectId": "turkce",
+		"topicId": "turkce/sozcuk-yapisi-ve-sozcuk-turleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde sıfat-fiil (ortaç) vardır?",
+		"options": [
+			"Koşarak son otobüse yetişti.",
+			"Okunan dilekçeler dosyaya kaldırıldı.",
+			"Kitap okumayı çok sever.",
+			"Eve gelince seni aradım.",
+			"Yüzmek sağlığa yararlıdır."
+		],
+		"correctIndex": 1,
+		"explanation": "Sıfat-fiil fiilden -an, -acak, -ası, -dık, -maz, -mış, -r ekleriyle yapılır ve sıfat olarak kullanılır: \"okun-an dilekçeler\". \"Koşarak\" ve \"gelince\" zarf-fiil (ulaç), \"okumayı\" ve \"yüzmek\" ad-fiildir (isim-fiil).",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"sıfat-fiil\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fiilimsi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-sozcuk-005",
+		"subjectId": "turkce",
+		"topicId": "turkce/sozcuk-yapisi-ve-sozcuk-turleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde dönüşlülük zamiri kullanılmıştır?",
+		"options": [
+			"Bu kadar erken kim geldi?",
+			"Onlar da toplantıya katılacak.",
+			"Bunu daha önce de söylemiştim.",
+			"Raporu kendisi hazırladığını söyledi.",
+			"Kimse bu kararı beklemiyordu."
+		],
+		"correctIndex": 3,
+		"explanation": "Dönüşlülük zamiri, yapılan işin yapana döndüğünü gösteren ve kişi kavramını pekiştiren \"kendi\" sözüdür (kendim, kendin, kendisi). \"Kimse\" belgisiz zamir, \"bunu\" işaret zamiri, \"kim\" soru zamiri, \"onlar\" kişi zamiridir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"dönüşlülük zamiri\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcük-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-sozcuk-006",
+		"subjectId": "turkce",
+		"topicId": "turkce/sozcuk-yapisi-ve-sozcuk-turleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde \"ile\" bağlaç görevinde kullanılmıştır?",
+		"options": [
+			"Müdür ile şef yeni projeyi değerlendirdi.",
+			"Arkadaşı ile uzun uzun konuştu.",
+			"Haberi büyük bir sevinç ile karşıladı.",
+			"Evrakı kurye ile gönderdiler.",
+			"Mürekkepli kalem ile doldurulan formlar kabul edildi."
+		],
+		"correctIndex": 0,
+		"explanation": "Bağlaç eş görevli kelimeleri birbirine bağlar; \"ile\" yerine \"ve\" getirilebiliyorsa bağlaçtır: \"Müdür ve şef yeni projeyi değerlendirdi.\" Diğer cümlelerde \"ile\" araç (kurye ile, kalem ile), durum (sevinç ile) ve birliktelik (arkadaşı ile) ilgisi kuran bir edattır; \"ve\" ile değiştirildiğinde cümle bozulur.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"bağlaç\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcük-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-sozcuk-007",
+		"subjectId": "turkce",
+		"topicId": "turkce/sozcuk-yapisi-ve-sozcuk-turleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde tırnak içindeki kelime belirtme sıfatıdır?",
+		"options": [
+			"\"Yorgun\" memurlar mesaiden çıktı.",
+			"Dosyayı \"hızlı\" bir şekilde inceledi.",
+			"\"Bazıları\" toplantıya katılmadı.",
+			"\"Bazı\" başvurular süresi geçtiği için reddedildi.",
+			"\"Kırmızı\" kalemle düzeltme yapıldı."
+		],
+		"correctIndex": 3,
+		"explanation": "Belirtme sıfatı bir adı gösterme, soru, sayı veya belirsizlik yönüyle tanımlar: bu (kapı), hangi (ev), üç (çocuk), bazı (öğrenciler). \"Bazı başvurular\"da kelime adın önünde belirsizlik bildirir. \"Bazıları\" adın yerini tuttuğu için belgisiz zamirdir; \"yorgun\", \"hızlı\" ve \"kırmızı\" adı durum, biçim, renk bakımından niteleyen niteleme sıfatlarıdır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"belirtme sıfatı\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcük-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-sozcuk-008",
+		"subjectId": "turkce",
+		"topicId": "turkce/sozcuk-yapisi-ve-sozcuk-turleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdakilerden hangisi yardımcı fiille kurulmuş bir birleşik fiil değildir?",
+		"options": [
+			"yok olmak",
+			"namaz kılmak",
+			"hissetmek",
+			"kabul etmek",
+			"düşeyazmak"
+		],
+		"correctIndex": 4,
+		"explanation": "Yardımcı fiiller (etmek, eylemek, kılmak, olmak) ad soylu kelimelerle birleşik fiil kurar: namaz kılmak, kabul etmek, yok olmak; ses türemesiyle bitişen \"hissetmek\" de bu türdendir. \"Düşeyazmak\" ise -e zarf-fiil ekiyle \"yazmak\" fiilinden kurulan bir tasvir fiilidir; birleşik fiildir ama yardımcı fiille kurulmamıştır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"yardımcı fiil\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fiil"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-sozcuk-009",
+		"subjectId": "turkce",
+		"topicId": "turkce/sozcuk-yapisi-ve-sozcuk-turleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki kelimelerin hangisi fiil kökünden isim yapım ekiyle türetilmiş bir gövdedir?",
+		"options": [
+			"gözlük",
+			"inanç",
+			"evli",
+			"sevdirmek",
+			"sulamak"
+		],
+		"correctIndex": 1,
+		"explanation": "Gövde, ad ve fiil köklerinden eklerle türetilmiş kelimedir. \"İnanç\" (inan- + -ç) fiilden isim türetmiştir. \"Evli\" ve \"gözlük\" isimden isim, \"sulamak\" (su + -la-) isimden fiil, \"sevdirmek\" (sev- + -dir-) fiilden fiil türetilmiş gövdelerdir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"gövde\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcük-yapısı"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-sozcuk-010",
+		"subjectId": "turkce",
+		"topicId": "turkce/sozcuk-yapisi-ve-sozcuk-turleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde yüklem, geçişsiz bir fiile ettirgenlik eki getirilerek geçişli hâle getirilmiştir?",
+		"options": [
+			"Yeni gelen memur aceleyle giyindi.",
+			"Küs kardeşler bayramda barıştı.",
+			"Raporu yeni gelen memura yazdırdı.",
+			"Dosyalar dün akşam teslim edildi.",
+			"Anlattığı olay salondaki herkesi güldürdü."
+		],
+		"correctIndex": 4,
+		"explanation": "Geçişli fiil nesne alır, geçişsiz fiil almaz. \"Gülmek\" geçişsizdir; -dür ettirgenlik ekiyle \"güldürmek\" olur ve nesne alır (herkesi güldürdü). \"Yazdırmak\" zaten geçişli olan \"yazmak\"tan türemiştir; \"teslim edildi\" edilgen, \"barıştı\" işteş, \"giyindi\" dönüşlü fiildir ve üçü de nesne almaz.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"geçişsiz\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fiil"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-16"
+	}
+]
