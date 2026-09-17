@@ -24,11 +24,43 @@
 		"sonuclar": []
 	},
 	{
-		"refId": "gsa-birim-010",
-		"tarih": "2026-09-14",
-		"sonuclar": [],
 		"anahtar": "cevap:gsa-birim-010",
 		"tur": "cevap",
-		"gorsel": "gunluk/2026-09-14/02-cevap.jpg"
+		"refId": "gsa-birim-010",
+		"tarih": "2026-09-14",
+		"gorsel": "gunluk/2026-09-14/02-cevap.jpg",
+		"sonuclar": []
+	},
+	{
+		"anahtar": "soru:etik-ilke-006",
+		"tur": "soru",
+		"refId": "etik-ilke-006",
+		"tarih": "2026-09-15",
+		"gorsel": "gunluk/2026-09-15/01-soru.jpg",
+		"sonuclar": []
+	},
+	{
+		"anahtar": "cevap:etik-ilke-006",
+		"tur": "cevap",
+		"refId": "etik-ilke-006",
+		"tarih": "2026-09-15",
+		"gorsel": "gunluk/2026-09-15/02-cevap.jpg",
+		"sonuclar": []
+	},
+	{
+		"anahtar": "soru:657-genel-005",
+		"tur": "soru",
+		"refId": "657-genel-005",
+		"tarih": "2026-09-16",
+		"gorsel": "gunluk/2026-09-16/01-soru.jpg",
+		"sonuclar": []
+	},
+	{
+		"anahtar": "cevap:657-genel-005",
+		"tur": "cevap",
+		"refId": "657-genel-005",
+		"tarih": "2026-09-16",
+		"gorsel": "gunluk/2026-09-16/02-cevap.jpg",
+		"sonuclar": []
 	}
 ]
