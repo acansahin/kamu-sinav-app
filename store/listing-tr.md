@@ -100,6 +100,24 @@ artık boşluk sınırsız değil; yeni ders eklerken yeniden sayın.
 
 ## Sürüm notları (en çok 500 karakter)
 
+### 1.4.0 — genel kültür ve genel yetenek dersleri
+
+```
+• 6 yeni ders: Türkçe, Sayısal Mantık, Atatürk İlkeleri ve İnkılap Tarihi,
+  Yakın Türkiye Siyasi Tarihi, Türkiye Coğrafyası ve Klasikleşmiş Edebî
+  Eserler. 27 konu özeti ve 270 yeni soru; havuz 1710 soruya ulaştı.
+• Deneme sınavları artık 12 dersin hepsinden soru içeriyor; bu yüzden mevzuat
+  derslerinin denemedeki soru sayısı azaldı.
+• Yeni derslerde cevabın altında kaynak, sayısal mantıkta adım adım çözüm yer
+  alır. Her yeni dersin ilk konusu ücretsiz.
+```
+
+⚠️ **İkinci madde çıkarılmamalıdır.** Aynı 50 soruluk denemede 657 DMK
+17 sorudan 12'ye indi. Duyurulmazsa mevzuata çalışan kullanıcı denemenin
+"hafiflediğini" ya da bozulduğunu düşünür. Mevcut derslerin konu testleri
+DEĞİŞMEDİ (havuzları aynı kaldı), bu yüzden test numaralarına dair bir uyarı
+yoktur.
+
 ### 1.3.0 — güvenlik soruşturması denemelerde
 
 ```
