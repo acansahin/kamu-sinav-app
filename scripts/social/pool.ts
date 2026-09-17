@@ -37,6 +37,13 @@ export type PaylasilabilirSoru = {
 	explanation: string;
 	/** "657 sayılı Kanun md. 125/A-a" biçiminde tek satıra indirilmiş dayanak */
 	dayanak: string;
+	/**
+	 * `dayanak` bir kanun maddesi mi (`legalRef`), yoksa TDK kılavuzu, antlaşma,
+	 * eser gibi bir kaynak mı (`reference`). Paylaşım metni "mevzuat dayanaklı"
+	 * iddiasını yalnızca ilkinde kurar; Türkçe veya edebiyat sorusunda bu iddia
+	 * yanlış olurdu.
+	 */
+	dayanakTuru: "mevzuat" | "kaynak";
 };
 
 export type PaylasilabilirBilgi = {
@@ -154,6 +161,7 @@ export async function havuzuOku(): Promise<Havuz> {
 						correctIndex: soru.correctIndex,
 						explanation: soru.explanation,
 						dayanak,
+						dayanakTuru: soru.legalRef ? "mevzuat" : "kaynak",
 					});
 				}
 			} catch (hata) {

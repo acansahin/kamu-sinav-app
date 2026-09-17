@@ -22,12 +22,13 @@ Kamu Sınav Akademi, Görevde Yükselme ve Unvan Değişikliği sınavlarına ha
 
 NEYİ FARKLI YAPAR
 
-Her sorunun mevzuat dayanağı var. Cevabı gördüğünüzde yalnızca doğru şıkkı değil, hangi kanunun hangi maddesine dayandığını ve nedenini de görürsünüz. Ezber yerine hükmü öğrenirsiniz.
+Her cevabın gerekçesi yazılı. Mevzuat sorularında yalnızca doğru şıkkı değil, hangi kanunun hangi maddesine dayandığını ve nedenini de görürsünüz. Türkçe, tarih, coğrafya ve edebiyat sorularında kaynak (TDK Yazım Kılavuzu, antlaşma, eser) gösterilir; sayısal mantık sorularında adım adım çözüm vardır. Ezber yerine gerekçeyi öğrenirsiniz.
 
-Her konu özeti tarihli. Hangi mevzuat sürümüne dayandığı ve en son ne zaman doğrulandığı ekranda yazar. Mevzuat sık değişir; neye güvendiğinizi bilmelisiniz.
+Her konu özeti tarihli. Hangi mevzuat sürümüne ya da kaynağa dayandığı ve en son ne zaman doğrulandığı ekranda yazar. Mevzuat sık değişir; neye güvendiğinizi bilmelisiniz.
 
 DERSLER
 
+Mevzuat
 • 657 sayılı Devlet Memurları Kanunu
 • Anayasa
 • Etik Davranış İlkeleri
@@ -35,7 +36,15 @@ DERSLER
 • Devlet Teşkilatı ile İlgili Mevzuat
 • Güvenlik Soruşturması ve Arşiv Araştırması (7315 sayılı Kanun) — bazı kurumların alan bilgisi bölümünde çıkar
 
-Toplam 33 konu, 33 konu özeti ve 1400'ün üzerinde soru.
+Genel kültür ve genel yetenek
+• Türkçe ve Dil Bilgisi
+• Sayısal Mantık
+• Atatürk İlkeleri ve İnkılap Tarihi
+• Yakın Türkiye Siyasi Tarihi
+• Türkiye Coğrafyası
+• Türk ve Dünya Edebiyatında Klasikleşmiş Eserler
+
+Toplam 12 ders, 60 konu, 60 konu özeti ve 1700'ün üzerinde soru.
 
 NASIL ÇALIŞIRSINIZ
 
@@ -67,17 +76,23 @@ Hedef kitlenin yaş profili gözetilerek tasarlandı: büyük dokunma hedefleri,
 Bu uygulama resmî değildir. Hiçbir bakanlık, kurum, kuruluş veya sınav merkeziyle bağlantılı değildir ve onlar tarafından onaylanmamıştır. İçerik bilgi amaçlıdır, hukuki tavsiye değildir. Bağlayıcı olan tek metin Resmî Gazete'de yayımlanan mevzuatın yürürlükteki hâlidir. Sorular gerçek sınav soruları değildir; bu uygulama için hazırlanmıştır ve sınavda çıkacak soruları göstermez.
 ```
 
-Karakter sayısı: yaklaşık 1.900 — sınırın oldukça altında, ders ve konu sayısı
-büyüdükçe genişletilebilir.
+Karakter sayısı: 3.010 (17 Eylül 2026 ölçümü) — 4000 sınırının altında ama
+artık boşluk sınırsız değil; yeni ders eklerken yeniden sayın.
 
-> **Sayılar içerikle birlikte değişir.** “33 konu” ve “1400'ün üzerinde soru”
-> ifadeleri `npm run content:build` çıktısındaki toplamlardan gelir; ders
-> eklendiğinde bu metin de güncellenmelidir. Uygulama içindeki `/hakkinda`
-> sayfası aynı sayıları içerikten türeterek gösterir, elle yazmaz.
+> **Sayılar içerikle birlikte değişir.** “12 ders, 60 konu” ve “1700'ün
+> üzerinde soru” ifadeleri `npm run content:build` çıktısındaki toplamlardan
+> gelir; ders eklendiğinde bu metin de güncellenmelidir. Uygulama içindeki
+> `/hakkinda` sayfası aynı sayıları içerikten türeterek gösterir, elle yazmaz.
 >
 > Aşağı yuvarlanır ve **asla yukarı yuvarlanmaz**: mağaza metni içerikten
-> türemediği için havuz küçülmedikçe doğru kalmalıdır. 8 Eylül 2026
-> ölçümü 1440 soru; “1400'ün üzerinde” ifadesi 1400'e inene kadar geçerli.
+> türemediği için havuz küçülmedikçe doğru kalmalıdır. 17 Eylül 2026
+> ölçümü 1710 soru; “1700'ün üzerinde” ifadesi 1700'e inene kadar geçerli.
+>
+> ⚠️ **“Her sorunun mevzuat dayanağı var” artık YAZILMAZ.** 1.0.0'dan beri
+> doğruydu; genel kültür ve genel yetenek dersleri eklenince yanlış oldu:
+> Türkçe, tarih, coğrafya ve edebiyat soruları kaynağa, sayısal mantık
+> soruları çözüme dayanıyor. Mevzuat vurgusu yalnızca mevzuat soruları için
+> kurulur; genel iddia “her cevabın gerekçesi” düzeyinde kalır.
 >
 > **Ders listesindeki altıncı satır bilinçli olarak nitelenmiştir.** Güvenlik
 > Soruşturması ortak konu değildir; niteleme kaldırılırsa mağaza metni

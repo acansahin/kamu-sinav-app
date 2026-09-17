@@ -229,8 +229,12 @@ export function soruMetni(
 		`📌 GÜNÜN SORUSU · ${soru.subjectAdi} — ${soru.konuAdi}`,
 		soru.stem,
 		siklarMetni(soru),
-		"Sen hangisini işaretlerdin? Cevabı ve mevzuat dayanağını akşam paylaşıyoruz.",
-		`Kaynağı belli, mevzuat dayanaklı sorularla hazırlan:\n${UYGULAMA_URL}`,
+		soru.dayanakTuru === "mevzuat"
+			? "Sen hangisini işaretlerdin? Cevabı ve mevzuat dayanağını akşam paylaşıyoruz."
+			: "Sen hangisini işaretlerdin? Cevabı ve kaynağını akşam paylaşıyoruz.",
+		soru.dayanakTuru === "mevzuat"
+			? `Kaynağı belli, mevzuat dayanaklı sorularla hazırlan:\n${UYGULAMA_URL}`
+			: `Kaynağı belli, açıklamalı sorularla hazırlan:\n${UYGULAMA_URL}`,
 		etiketSatiri(platform, soru.subjectId),
 	]);
 
@@ -266,7 +270,11 @@ export function cevapMetni(
 		`Soru: ${soru.stem}`,
 		soru.explanation,
 		`📚 Dayanak: ${soru.dayanak}`,
-		`Her sorunun mevzuat dayanağı ve açıklaması var:\n${UYGULAMA_URL}`,
+		// "Her sorunun mevzuat dayanağı var" artık doğru değil: Türkçe ve genel
+		// kültür soruları kaynağa, sayısal mantık çözüme dayanıyor.
+		soru.dayanakTuru === "mevzuat"
+			? `Mevzuat sorularının her birinde madde dayanağı ve açıklama var:\n${UYGULAMA_URL}`
+			: `Açıklamalı, kaynağı belli sorularla hazırlan:\n${UYGULAMA_URL}`,
 		etiketSatiri(platform, soru.subjectId),
 	]);
 

@@ -39,6 +39,7 @@ function soru(id: string, subjectId: string): PaylasilabilirSoru {
 		correctIndex: 1,
 		explanation: "Açıklama metni yeterince uzun olmalı.",
 		dayanak: "657 sayılı Kanun md. 1",
+		dayanakTuru: "mevzuat",
 	};
 }
 
