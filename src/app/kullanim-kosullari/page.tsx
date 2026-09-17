@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 /** Metnin en son ne zaman gözden geçirildiği. */
-const TERMS_UPDATED_AT = "2026-08-05";
+const TERMS_UPDATED_AT = "2026-09-17";
 
 /**
  * Kullanım koşulları.
@@ -134,9 +134,10 @@ export default function TermsPage() {
 
 				<h2>4. İçeriğin doğruluğu ve sorumluluk reddi</h2>
 				<p>
-					İçerik, mevzuat metinlerinden özenle hazırlanır; her konu özetinde
-					dayanılan mevzuat sürümü ve son doğrulama tarihi kullanıcıya
-					gösterilir. Buna rağmen:
+					İçerik, mevzuat metinlerinden ve doğrulanabilir kaynaklardan (TDK Yazım
+					Kılavuzu, tarihî belgeler, eserler) özenle hazırlanır; her konu
+					özetinde dayanılan mevzuat ya da kaynak sürümü ve son doğrulama tarihi
+					kullanıcıya gösterilir. Buna rağmen:
 				</p>
 				<ul>
 					<li>

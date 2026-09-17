@@ -32,7 +32,7 @@ const COPY: Record<GateRule["kind"], { title: string; description: string }> = {
 	topic: {
 		title: "Bu konu özeti tam erişime dahil",
 		description:
-			"Mevzuat dayanaklı konu özetlerinin tamamı, tek seferlik satın alma ile kalıcı olarak açılır.",
+			"Tüm derslerin konu özetleri, tek seferlik satın alma ile kalıcı olarak açılır.",
 	},
 	print: {
 		title: "Yazdırma tam erişime dahil",

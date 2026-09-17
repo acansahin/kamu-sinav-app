@@ -97,22 +97,29 @@ const SLAYTLAR: Slayt[] = [
 	{
 		dosya: "01-kapak.jpg",
 		rozet: "GÖREVDE YÜKSELME · UNVAN DEĞİŞİKLİĞİ",
-		baslik: "Doğru şıkkı değil, dayandığı maddeyi öğrenin.",
-		alt: "Kamu Sınav Akademi — 6 ders, 33 konu, 1400'ün üzerinde soru.",
+		baslik: "Doğru şıkkı değil, gerekçesini öğrenin.",
+		alt: "Kamu Sınav Akademi — 12 ders, 60 konu, 1700'ün üzerinde soru.",
+		/*
+		 * Ders adları KISA ve ikişerli. Liste sabit 34 punto ve satır kırmaz;
+		 * on iki tam adı alt alta yazmak kapağın altından taşıyordu. İkişerli
+		 * altı satır, altı derslik eski listeyle aynı yüksekliği kaplar.
+		 */
 		liste: [
-			"657 sayılı Devlet Memurları Kanunu",
-			"Türkiye Cumhuriyeti Anayasası",
-			"Etik Davranış İlkeleri",
-			"Resmî Yazışmalarda Usul ve Esaslar",
-			"Devlet Teşkilatı ile İlgili Mevzuat",
-			"Güvenlik Soruşturması ve Arşiv Araştırması",
+			"657 DMK · Anayasa",
+			"Etik · Resmî Yazışma",
+			"Devlet Teşkilatı · Güvenlik Soruşturması",
+			"Türkçe · Sayısal Mantık",
+			"İnkılap Tarihi · Yakın Tarih",
+			"Türkiye Coğrafyası · Edebî Eserler",
 		],
 	},
 	{
 		dosya: "02-dayanak.jpg",
 		rozet: "NEYİ FARKLI YAPAR",
-		baslik: "Her cevapta mevzuat dayanağı ve gerekçe.",
-		alt: "Hangi kanunun hangi maddesi olduğu ekranda yazar. Ezber değil, hüküm.",
+		// Genel iddia "mevzuat dayanağı" OLAMAZ: genel kültür soruları kaynağa,
+		// sayısal mantık çözüme dayanıyor. Görseldeki soru bir mevzuat sorusu.
+		baslik: "Her cevapta dayanak ve gerekçe.",
+		alt: "Mevzuat sorularında hangi kanunun hangi maddesi olduğu ekranda yazar.",
 		gorsel: "03-test-cozme.png",
 		// Yeşil "Doğru" kutusu ve mevzuat künyesi ekranın üst yarısında.
 		odak: 0.09,

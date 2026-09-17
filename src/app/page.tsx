@@ -90,11 +90,12 @@ export default async function HomePage() {
 			<Card className="flex gap-3">
 				<ShieldCheck aria-hidden size={20} className="mt-0.5 shrink-0 text-correct" />
 				<div>
-					<h3 className="font-semibold">Her sorunun dayanağı görünür</h3>
+					<h3 className="font-semibold">Her cevabın gerekçesi görünür</h3>
 					<p className="mt-1 text-sm text-fg-muted">
-						Her soruda hangi kanunun hangi maddesine dayandığı yazar; her konu
-						özetinde hangi mevzuat sürümüne göre hazırlandığı ve en son ne zaman
-						doğrulandığı belirtilir. Reklam yok. Açtığın sayfalar internet
+						Mevzuat sorularında hangi kanunun hangi maddesine dayandığı, Türkçe ve
+						genel kültür sorularında kaynağı yazar; sayısal mantıkta adım adım
+						çözüm vardır. Her konu özetinde neye göre hazırlandığı ve en son ne
+						zaman doğrulandığı belirtilir. Reklam yok. Açtığın sayfalar internet
 						olmadan da çalışır; istersen tümünü Ayarlar&apos;dan indirebilirsin.
 					</p>
 				</div>

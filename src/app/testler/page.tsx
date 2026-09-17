@@ -17,7 +17,7 @@ export default async function TestsPage() {
 			<p className="mb-6 text-fg-muted">
 				Konu seç, numaralı testlerden birini aç ve çözmeye başla. Her test{" "}
 				{TEST_SIZE} sorudur, kolaydan uzmana dört seviyeyi birlikte içerir; her
-				sorunun açıklaması ve mevzuat dayanağı gösterilir.
+				sorunun açıklaması ve dayanağı (sayısal mantıkta çözümü) gösterilir.
 			</p>
 
 			{withQuestions.length === 0 ? (

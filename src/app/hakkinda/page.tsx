@@ -248,9 +248,12 @@ export default async function AboutPage() {
 						</strong>{" "}
 						çıkmış sınav soruları ve cevap anahtarları (kaynak gösterilerek), ve{" "}
 						<strong className="text-fg">
-							mevzuat metninden üretilen özgün sorular
+							mevzuat metninden ya da doğrulanabilir kaynaklardan yazılan özgün
+							sorular
 						</strong>
-						. Mevzuat metinleri mevzuat.gov.tr ve Resmî Gazete&rsquo;dendir.
+						. Mevzuat metinleri mevzuat.gov.tr ve Resmî Gazete&rsquo;den, dil
+						bilgisi kuralları TDK Yazım Kılavuzu&rsquo;ndandır; sayısal mantık
+						soruları kaynak gerektirmeyen özgün problemlerdir.
 						Yukarıdaki köken tablosu, havuzun bugünkü dağılımını gösterir.
 					</p>
 					<p>

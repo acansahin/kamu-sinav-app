@@ -29,7 +29,15 @@ jobs:
           distribution: temurin
           java-version: 21
 
+      # `packages` AÇIKÇA verilir. Eylemin varsayılanı "tools platform-tools";
+      # Google eski `tools` paketini 15 Eylül 2026'da sunmayı bıraktı ve
+      # sdkmanager "Failed to find package 'tools'" ile derlemeyi APK'ya
+      # gelmeden düşürdü (android-actions/setup-android#537). v4'ün varsayılanı
+      # da aynı; sürüm yükseltmek çözmez. Platform ve build-tools'u Gradle
+      # kendisi indirir.
       - uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
 
       - run: npm ci
 

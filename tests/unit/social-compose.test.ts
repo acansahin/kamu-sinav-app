@@ -44,6 +44,21 @@ const kisaSoru: PaylasilabilirSoru = {
 	explanation:
 		"5176 sayılı Kanun'a göre Kurul, biri Başkan olmak üzere 11 üyeden oluşur.",
 	dayanak: "5176 sayılı Kanun md. 3",
+	dayanakTuru: "mevzuat",
+};
+
+const kaynakSoru: PaylasilabilirSoru = {
+	...kisaSoru,
+	id: "turkce-yazim-001",
+	subjectId: "turkce",
+	subjectAdi: "Türkçe",
+	konuAdi: "Ses Bilgisi ve Yazım Kuralları",
+	stem: "Aşağıdakilerin hangisinde sayının yazılışı yanlıştır?",
+	options: ["on beş", "yüzelli", "iki bin", "dört yüz", "altmış"],
+	correctIndex: 1,
+	explanation: "Sayılar ayrı yazılır: yüz elli.",
+	dayanak: "TDK Yazım Kılavuzu — Sayıların Yazılışı",
+	dayanakTuru: "kaynak",
 };
 
 const uzunSoru: PaylasilabilirSoru = {
@@ -218,6 +233,26 @@ describe("uzun biçim metinleri", () => {
 	it("Instagram başlığı 2200 karakteri aşmaz", () => {
 		expect(soruMetni(uzunSoru, "instagram").length).toBeLessThanOrEqual(2200);
 		expect(cevapMetni(uzunSoru, "instagram").length).toBeLessThanOrEqual(2200);
+	});
+
+	it("mevzuat sorusunda mevzuat dayanağı vurgusu korunur", () => {
+		expect(soruMetni(kisaSoru, "facebook")).toContain("mevzuat dayanaklı");
+		expect(cevapMetni(kisaSoru, "facebook")).toContain("madde dayanağı");
+	});
+
+	it("kaynak dayanaklı soruda mevzuat iddiası kurulmaz", () => {
+		// Ortak #mevzuat etiketi her paylaşımda durur; o bir iddia değil,
+		// erişim etiketi. Ölçülen, metnin dayanak hakkında söylediği.
+		const iddia = /mevzuat dayana|madde dayana/i;
+
+		for (const platform of ["facebook", "instagram"] as const) {
+			const soru = soruMetni(kaynakSoru, platform);
+			const cevap = cevapMetni(kaynakSoru, platform);
+
+			expect(soru).not.toMatch(iddia);
+			expect(cevap).not.toMatch(iddia);
+			expect(cevap).toContain("Dayanak: TDK Yazım Kılavuzu");
+		}
 	});
 });
 
