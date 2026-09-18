@@ -44,7 +44,7 @@ Genel kültür ve genel yetenek
 • Türkiye Coğrafyası
 • Türk ve Dünya Edebiyatında Klasikleşmiş Eserler
 
-Toplam 12 ders, 60 konu, 60 konu özeti ve 1700'ün üzerinde soru.
+Toplam 12 ders, 60 konu, 60 konu özeti ve 2000'in üzerinde soru.
 
 NASIL ÇALIŞIRSINIZ
 
@@ -79,15 +79,15 @@ Bu uygulama resmî değildir. Hiçbir bakanlık, kurum, kuruluş veya sınav mer
 Karakter sayısı: 3.010 (17 Eylül 2026 ölçümü) — 4000 sınırının altında ama
 artık boşluk sınırsız değil; yeni ders eklerken yeniden sayın.
 
-> **Sayılar içerikle birlikte değişir.** “12 ders, 60 konu” ve “1700'ün
+> **Sayılar içerikle birlikte değişir.** “12 ders, 60 konu” ve “2000'in
 > üzerinde soru” ifadeleri `npm run content:build` çıktısındaki toplamlardan
 > gelir; ders eklendiğinde bu metin de güncellenmelidir. Uygulama içindeki
 > `/hakkinda` sayfası aynı sayıları içerikten türeterek gösterir, elle yazmaz.
 >
 > Aşağı yuvarlanır ve **asla yukarı yuvarlanmaz**: mağaza metni içerikten
 > türemediği için havuz küçülmedikçe doğru kalmalıdır. 17 Eylül 2026
-> ölçümü 2275 soru (genel kültür konuları 20-30, Türkçe ve sayısal mantık konuları 40 soruya çıkarıldı); “1700'ün
-> üzerinde” doğru kalıyor, bir sonraki metin güncellemesinde “2000'in üzerinde” yazılabilir.
+> ölçümü 2275 soru (genel kültür konuları 20-30, Türkçe ve sayısal mantık konuları 40 soruya çıkarıldı);
+> metin 1.5.0 ile “2000'in üzerinde”ye güncellendi (18 Eylül 2026).
 >
 > ⚠️ **“Her sorunun mevzuat dayanağı var” artık YAZILMAZ.** 1.0.0'dan beri
 > doğruydu; genel kültür ve genel yetenek dersleri eklenince yanlış oldu:
