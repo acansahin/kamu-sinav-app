@@ -3,7 +3,7 @@
 Türkiye'deki kamu kurumlarında yapılan **Görevde Yükselme** ve **Unvan Değişikliği**
 sınavlarına hazırlık uygulaması. Web tabanlı, çevrimdışı çalışır, reklamsız.
 
-> **Durum:** Faz 2 tamamlandı; Faz 3 sürüyor. 12 ders, **60 konu özeti**, **1710 soru**;
+> **Durum:** Faz 2 tamamlandı; Faz 3 sürüyor. 12 ders, **60 konu özeti**, **2275 soru**;
 > konu testleri, 20/50/80 soruluk deneme sınavları, aralıklı tekrar ve arama çalışıyor.
 > Hesap özelliği isteğe bağlı olarak açılabilir (aşağıda); çoklu cihaz senkronu henüz yok.
 > Android paketleme CI'da hazır.

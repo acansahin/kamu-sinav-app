@@ -327,5 +327,493 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-konum-011",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Tamamen Türkiye toprakları içinde kalan ve Türk Boğazları aracılığıyla Karadeniz'i Ege Denizi'ne bağlayan iç deniz aşağıdakilerden hangisidir?",
+		"options": [
+			"Marmara Denizi",
+			"Hazar Denizi",
+			"Karadeniz",
+			"Ege Denizi",
+			"Akdeniz"
+		],
+		"correctIndex": 0,
+		"explanation": "Marmara Denizi tamamen Türkiye sınırları içinde kalan bir iç denizdir. Kuzeyde İstanbul Boğazı ile Karadeniz'e, güneybatıda Çanakkale Boğazı ile Ege Denizi'ne bağlanır. Türkiye'nin üç tarafı Karadeniz, Ege Denizi ve Akdeniz ile çevrilidir; Hazar Denizi ise Türkiye'ye kıyısı olmayan kapalı bir denizdir.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Türkiye'nin coğrafi konumu"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ozel-konum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-konum-012",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türkiye'nin kara sınırı en kısa olan komşusu aşağıdakilerden hangisidir?",
+		"options": [
+			"Gürcistan",
+			"Ermenistan",
+			"Yunanistan",
+			"Bulgaristan",
+			"Azerbaycan (Nahçıvan)"
+		],
+		"correctIndex": 4,
+		"explanation": "Türkiye'nin sekiz kara komşusu vardır: Yunanistan, Bulgaristan, Gürcistan, Ermenistan, Azerbaycan (Nahçıvan), İran, Irak ve Suriye. Bunlar arasında en kısa kara sınırı Azerbaycan'a bağlı Nahçıvan Özerk Cumhuriyeti iledir. En uzun kara sınırı ise Suriye iledir.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Türkiye'nin kara sınırları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ozel-konum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-konum-013",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kızılırmak'ın Karadeniz'e döküldüğü yerde taşıdığı alüvyonları biriktirmesiyle oluşan ova aşağıdakilerden hangisidir?",
+		"options": [
+			"Konya Ovası",
+			"Silifke Ovası",
+			"Bafra Ovası",
+			"Erzurum Ovası",
+			"Çukurova"
+		],
+		"correctIndex": 2,
+		"explanation": "Deltalar akarsuların denize döküldükleri yerde taşıdıkları alüvyonları biriktirmesiyle oluşur. Bafra Ovası Kızılırmak'ın deltasıdır. Çukurova Seyhan ve Ceyhan'ın, Silifke Ovası Göksu'nun Akdeniz'de oluşturduğu deltalardır. Konya ve Erzurum ovaları ise kıyıda bulunmadıkları için delta ovası değildir.",
+		"reference": {
+			"title": "Türkiye'nin kıyı tipleri ve delta ovaları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kiyilar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-konum-014",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Konya'nın Karapınar ilçesi çevresinde görülen, yer altındaki boşlukların tavanının çökmesiyle oluşan derin ve dik kenarlı karstik çukurlar aşağıdakilerden hangisidir?",
+		"options": [
+			"Krater",
+			"Traverten",
+			"Peribacası",
+			"Kanyon",
+			"Obruk"
+		],
+		"correctIndex": 4,
+		"explanation": "Obruklar kalker, jips gibi kolay çözünen kayaçların bulunduğu alanlarda yer altında oluşan boşlukların tavanının çökmesiyle meydana gelen karstik çukurlardır; Konya-Karapınar çevresi obruklarıyla tanınır. Traverten kalsiyum karbonatlı suların çökelmesiyle, peribacaları volkanik tüflerin aşınmasıyla, krater ise volkanik patlamalarla oluşur.",
+		"reference": {
+			"title": "Türkiye'de karstik şekiller"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yer-sekilleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-konum-015",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Alp orojenezi sırasında tortul tabakaların kıvrılmasıyla oluşan ve Türkiye'nin kuzeyinde ve güneyinde kıyıya paralel uzanan dağlar aşağıdakilerden hangisidir?",
+		"options": [
+			"Erciyes ve Hasan dağları",
+			"Kuzey Anadolu Dağları ve Toroslar",
+			"Uludağ ve Kaz Dağı",
+			"Madra ve Bozdağlar",
+			"Ağrı ve Süphan dağları"
+		],
+		"correctIndex": 1,
+		"explanation": "Kuzey Anadolu Dağları ve Toroslar kıvrım dağlarıdır; Alp orojenezinde tortul tabakaların kıvrılmasıyla oluşmuş ve kıyıya paralel uzanmışlardır. Ağrı, Süphan, Erciyes ve Hasan volkanik; Uludağ, Kaz, Madra ve Bozdağlar ise fay hatları boyunca yükselmiş kırıklı (horst) dağlardır.",
+		"reference": {
+			"title": "Türkiye'nin dağları — oluşum türleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yer-sekilleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-konum-016",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Ege Bölgesi'nde fay hatları boyunca yükselen horstların arasında kalan ve Gediz, Büyük Menderes gibi akarsuların aktığı çöküntü alanlarına ne ad verilir?",
+		"options": [
+			"Polye",
+			"Graben",
+			"Moren",
+			"Kanyon",
+			"Delta"
+		],
+		"correctIndex": 1,
+		"explanation": "Ege'de fay hatları boyunca yükselen kütleler horst (Kaz, Madra, Bozdağlar, Aydın Dağları), aralarında çöken alanlar ise grabendir. Bakırçay, Gediz, Küçük Menderes ve Büyük Menderes vadileri bu grabenlerde yer alır ve verimli ovalar oluşturur. Polye karstik bir çukur, moren buzulun biriktirdiği malzemedir.",
+		"reference": {
+			"title": "Ege Bölgesi'nin horst-graben yapısı"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yer-sekilleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-konum-017",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Buzul vadilerinin deniz suları altında kalmasıyla oluşan ve Türkiye kıyılarında görülmeyen kıyı tipi aşağıdakilerden hangisidir?",
+		"options": [
+			"Fiyort kıyı",
+			"Enine kıyı",
+			"Ria kıyı",
+			"Boyuna kıyı",
+			"Delta kıyı"
+		],
+		"correctIndex": 0,
+		"explanation": "Fiyort kıyılar buzulların oyduğu derin vadilerin deniz suları altında kalmasıyla oluşur; Norveç kıyıları tipik örnektir ve Türkiye'de fiyort yoktur. Ria kıyı ise akarsu vadilerinin sular altında kalmasıyla oluşur; İstanbul Boğazı ve Haliç Türkiye'deki örnekleridir. Enine kıyı Ege'de, boyuna kıyı Karadeniz ve Akdeniz'de görülür.",
+		"reference": {
+			"title": "Türkiye'nin kıyı tipleri ve delta ovaları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kiyilar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-konum-018",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Karstik alanlarda oluşan, tabanı düz ve geniş olduğu için ekime elverişli kapalı çukurlar aşağıdakilerden hangisidir ve Türkiye'de en yaygın olarak hangi bölgede görülür?",
+		"options": [
+			"Obruk – Karadeniz Bölgesi",
+			"Delta – İç Anadolu Bölgesi",
+			"Graben – Doğu Anadolu Bölgesi",
+			"Polye – Akdeniz Bölgesi (Teke ve Taşeli platoları)",
+			"Traverten – Güneydoğu Anadolu Bölgesi"
+		],
+		"correctIndex": 3,
+		"explanation": "Polyeler karstik arazide oluşan, tabanı düz ve geniş kapalı çukurlardır; tabanları alüvyonla örtülü olduğu için ekime elverişlidir. Karstik şekiller kalkerin yaygın olduğu Akdeniz Bölgesi'nde, özellikle Teke ve Taşeli platolarında yaygındır. Obruklar ise daha çok İç Anadolu'da (Konya-Karapınar) görülür.",
+		"reference": {
+			"title": "Türkiye'de karstik şekiller"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yer-sekilleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-konum-019",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdakilerden hangisi Türkiye'nin özel konumunun değil, matematik konumunun sonucudur?",
+		"options": [
+			"Üç tarafının denizlerle çevrili olması",
+			"Türk Boğazları sayesinde önemli bir deniz ulaşım yolu üzerinde bulunması",
+			"Yükseltinin genel olarak batıdan doğuya doğru artması",
+			"Güneye bakan yamaçların kuzeye bakan yamaçlardan daha sıcak olması",
+			"Asya ile Avrupa arasında köprü konumunda bulunması"
+		],
+		"correctIndex": 3,
+		"explanation": "Matematik konum bir yerin paralel ve meridyenlere göre konumudur. Türkiye Kuzey Yarım Küre'de orta kuşakta yer aldığı için güneş ışınları güney yamaçlara daha dik açıyla düşer ve bu yamaçlar daha sıcaktır. Boğazlar, denizlerle çevrili olma, kıtalar arası köprü konumu ve yükseltinin dağılışı ise Türkiye'ye özgü özel konum özellikleridir.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Türkiye'nin coğrafi konumu"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"matematik-konum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-konum-020",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Karadeniz ve Akdeniz kıyılarında dağların kıyıya paralel uzanmasının doğal sonuçlarından biri aşağıdakilerden hangisidir?",
+		"options": [
+			"Kıyı çizgisinin çok girintili çıkıntılı olması",
+			"Deniz etkisinin vadiler boyunca iç kesimlere kadar sokulması",
+			"Deniz etkisinin iç kesimlere sokulamaması ve kıyı ile iç kesimler arasında ulaşımın zorlaşması",
+			"Kıyıda çok sayıda koy, körfez ve yarımada bulunması",
+			"Kıyı boyunca buzul vadilerinden oluşan fiyortlar görülmesi"
+		],
+		"correctIndex": 2,
+		"explanation": "Dağların kıyıya paralel uzandığı boyuna kıyılarda kıyı çizgisi az girintilidir, dağlar deniz etkisinin iç kesimlere sokulmasını engeller ve kıyı ile iç kesimler arasında ulaşım zorlaşır. Girintili çıkıntılı kıyı, çok sayıda koy ve körfez ile deniz etkisinin iç kesimlere sokulması dağların kıyıya dik uzandığı Ege'deki enine kıyının özellikleridir. Türkiye'de fiyort yoktur.",
+		"reference": {
+			"title": "Türkiye'nin kıyı tipleri ve delta ovaları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kiyilar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-konum-021",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türkiye'nin kaç kara komşusu vardır?",
+		"options": [
+			"10",
+			"9",
+			"7",
+			"8",
+			"6"
+		],
+		"correctIndex": 3,
+		"explanation": "Türkiye'nin sekiz kara komşusu vardır: Yunanistan, Bulgaristan, Gürcistan, Ermenistan, Azerbaycan (Nahçıvan), İran, Irak ve Suriye. En uzun kara sınırı Suriye, en kısa kara sınırı Azerbaycan-Nahçıvan iledir.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Türkiye'nin kara sınırları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ozel-konum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-konum-022",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Mersin'in Silifke ilçesinde Akdeniz kıyısında yer alan delta ovası, hangi akarsuyun biriktirdiği alüvyonlarla oluşmuştur?",
+		"options": [
+			"Yeşilırmak",
+			"Göksu",
+			"Ceyhan",
+			"Seyhan",
+			"Kızılırmak"
+		],
+		"correctIndex": 1,
+		"explanation": "Silifke Deltası Göksu'nun, Çukurova Seyhan ve Ceyhan'ın, Bafra Ovası Kızılırmak'ın, Çarşamba Ovası ise Yeşilırmak'ın denize döküldüğü yerde biriktirdiği alüvyonlarla oluşmuştur.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Türkiye'nin kıyıları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kiyilar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-konum-023",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi Ege Bölgesi'nde fay hatları boyunca yükselmiş kırıklı (horst) dağlardan biridir?",
+		"options": [
+			"Bozdağlar",
+			"Toroslar",
+			"Hasan Dağı",
+			"Erciyes",
+			"Ağrı Dağı"
+		],
+		"correctIndex": 0,
+		"explanation": "Ege'de fay hatları boyunca yükselen kırıklı dağlar (horstlar) arasında Kaz, Madra, Bozdağlar ve Aydın Dağları sayılır; aralarındaki çöküntü alanları (graben) Gediz ve Büyük Menderes gibi akarsuların vadileridir. Erciyes, Hasan ve Ağrı volkanik dağlardır; Toroslar ise kıvrımlı dağlardır.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Türkiye'nin dağları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yer-sekilleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-konum-024",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aynı paralel üzerindeki iki yerden 30° doğu meridyeninde bulunanında yerel saat 12.00'dir.\n\nBuna göre 42° doğu meridyeninde bulunan yerde yerel saat kaçtır?",
+		"options": [
+			"12.24",
+			"11.12",
+			"12.52",
+			"12.12",
+			"12.48"
+		],
+		"correctIndex": 4,
+		"explanation": "Dünya 360°'lik dönüşünü 1.440 dakikada tamamladığı için her meridyen arasında 4 dakikalık yerel saat farkı vardır. İki yer arasında 42 − 30 = 12 meridyen farkı bulunur; 12 × 4 = 48 dakika. Güneş doğudaki yeri daha önce aydınlattığı için doğudaki yerin saati ileridir: 12.00 + 48 dakika = 12.48. 11.12 cevabı farkı ters yönde uygulamaktan, 12.52 cevabı iki uçtaki meridyenleri de sayıp 13 meridyen farkı almaktan doğar.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Türkiye'nin matematik konumu"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"matematik-konum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-konum-025",
+		"subjectId": "cografya",
+		"topicId": "cografya/konum-ve-yer-sekilleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Karstik arazilerde yan yana gelişen dolinlerin birleşmesiyle oluşan daha büyük çukurlara ne ad verilir?",
+		"options": [
+			"Obruk",
+			"Traverten",
+			"Uvala",
+			"Lapya",
+			"Polye"
+		],
+		"correctIndex": 2,
+		"explanation": "Kalkerin çözünmesiyle oluşan küçük çukurlar dolin, dolinlerin birleşmesiyle oluşan daha büyük çukurlar uvala, uvalaların birleşmesiyle oluşan tabanı düz geniş çukurlar polyedir. Lapya yüzeydeki oluklu çözünme şekli, obruk tavanı çöken derin çukur, traverten ise kalsiyum karbonatlı suların çökelmesiyle oluşan birikim şeklidir.",
+		"reference": {
+			"title": "Harita Genel Müdürlüğü",
+			"section": "Karstik şekiller"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yer-sekilleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

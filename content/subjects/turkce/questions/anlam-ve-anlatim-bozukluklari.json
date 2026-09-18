@@ -339,5 +339,1026 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-anlam-011",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki kelime çiftlerinden hangisi karşıt (zıt) anlamlıdır?",
+		"options": [
+			"sınav – imtihan",
+			"cimri – cömert",
+			"yoksul – fakir",
+			"ak – beyaz",
+			"ırak – uzak"
+		],
+		"correctIndex": 1,
+		"explanation": "Karşıt anlamlı kelimelerin anlamları birbirinin karşıtıdır. TDK Güncel Türkçe Sözlük'e göre \"cimri\" elindeki parayı harcamaya kıyamayan, \"cömert\" ise para ve malını esirgemeden veren kişidir. Yoksul-fakir, ak-beyaz, ırak-uzak ve sınav-imtihan çiftleri ise eş anlamlıdır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"karşıt anlamlı\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcükte-anlam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-012",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki cümlelerin hangisinde \"açı\" kelimesi bir bilim dalına ait terim anlamıyla kullanılmıştır?",
+		"options": [
+			"Üçgenin iç açılarının toplamı 180 derecedir.",
+			"Sorunu yeni bir açıdan ele aldı.",
+			"Yazar olaylara iyimser bir açıdan yaklaşıyor.",
+			"Bu konuyu farklı bir açıdan düşünmelisin.",
+			"Olaya bir de onun açısından bakalım."
+		],
+		"correctIndex": 0,
+		"explanation": "Terim, bir bilim veya meslek dalında özel bir kavramı karşılayan kelimedir. \"Açı\" matematikte aynı noktadan çıkan iki yarım doğrunun oluşturduğu geometrik biçimdir; \"üçgenin iç açıları\" bu terim anlamıdır. Diğer cümlelerde kelime \"görüş, bakım, anlayış biçimi\" anlamında mecaz olarak kullanılmıştır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"açı\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcükte-anlam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-013",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "\"Damlaya damlaya göl olur.\" atasözünün anlamı aşağıdakilerden hangisidir?",
+		"options": [
+			"Aceleyle yapılan işlerden iyi sonuç alınmaz.",
+			"İnsanlar küçük yaşta daha kolay eğitilir.",
+			"Birlikte olan kimseler zamanla birbirine benzer.",
+			"Gereksiz görülen bir şey ileride işe yarayabilir.",
+			"Azar azar biriken şeyler zamanla önemli bir miktara ulaşır; bu yüzden küçümsenmemelidir."
+		],
+		"correctIndex": 4,
+		"explanation": "TDK Güncel Türkçe Sözlük'e göre bu atasözü \"azar azar olagelen şeyler birikerek önemli bir niceliğe ulaşacağı için küçümsenmemelidir\" anlamında kullanılır. Diğer seçenekler başka atasözlerinin anlamlarıdır: aceleyle yapılan işin kötü sonucunu \"Acele işe şeytan karışır.\", küçük yaşta eğitimi \"Ağaç yaşken eğilir.\", birlikte olanların benzeşmesini \"Üzüm üzüme baka baka kararır.\", gereksiz görülenin sonradan işe yaramasını \"Sakla samanı, gelir zamanı.\" anlatır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"damlaya damlaya göl olur\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"atasözü"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-014",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "\"Kulak asmak\" deyiminin TDK Güncel Türkçe Sözlük'teki anlamı aşağıdakilerden hangisidir?",
+		"options": [
+			"Bir sesi uzaktan duymak",
+			"Birinin sözünü kesmek",
+			"Birine öğüt vermek",
+			"Söylenenleri başkalarına yetiştirmek",
+			"Önem vermek, dinlemek"
+		],
+		"correctIndex": 4,
+		"explanation": "Sözlükte \"kulak asmak\" deyimi \"önem vermek, dinlemek\" olarak tanımlanır. Deyim çoğunlukla olumsuz biçimiyle kullanılır: \"Uyarılara kulak asmadı.\" cümlesi uyarıları önemsemediğini, dinlemediğini anlatır. Deyimler kalıplaşmış olduğu için kelimelerin gerçek anlamlarından yola çıkılarak (kulağa bir şey asmak) yorumlanamaz.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"kulak asmak\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"deyim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-015",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde kişisel görüşten bağımsız, doğruluğu kanıtlanabilir nesnel bir yargı vardır?",
+		"options": [
+			"Yazarın üslubu oldukça sade ve akıcı.",
+			"Bu kitap okuduğum en etkileyici eserdi.",
+			"Türkiye Büyük Millet Meclisi 23 Nisan 1920'de açıldı.",
+			"Şehrin en güzel mevsimi sonbahardır.",
+			"Toplantı gereksiz yere uzun sürdü."
+		],
+		"correctIndex": 2,
+		"explanation": "Nesnel yargı bireyin kişisel görüşünden bağımsızdır ve doğruluğu belgelerle kanıtlanabilir: Meclisin açılış tarihi böyle bir bilgidir. \"En etkileyici\", \"en güzel\", \"gereksiz yere\", \"sade ve akıcı\" gibi değerlendirmeler ise kişiden kişiye değişebilen öznel yargılardır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"nesnel\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümlede-anlam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-016",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde bir yargı, gerçekleşmiş bir durumun doğal sonucu olarak verilmiştir (neden-sonuç)?",
+		"options": [
+			"Bu yıl başvuru sayısı geçen yıldan fazlaydı.",
+			"Kitabı bitirmek üzereyken elektrikler kesildi.",
+			"Sınavı kazanmak için her gün düzenli çalışıyor.",
+			"Erken çıkarsan trafiğe takılmazsın.",
+			"Yollar buz tuttuğu için servisler sefere çıkamadı."
+		],
+		"correctIndex": 4,
+		"explanation": "Neden-sonuç cümlesinde bir yargı gerçekleşmiş bir olayın sonucu olarak bildirilir: yolların buz tutması, servislerin sefere çıkamamasına yol açmıştır. \"Kazanmak için\" cümlesinde de \"için\" vardır, ancak henüz gerçekleşmemiş bir hedef anlatıldığı için bu amaç-sonuç ilişkisidir. Diğer cümlelerde koşul, karşılaştırma ve zaman ilişkisi vardır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"yüzünden\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümlede-anlam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-017",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde yüklemin bildirdiği yargının gerçekleşmesi bir şarta bağlanmıştır?",
+		"options": [
+			"Uçaklar havanın açmasını bekledi.",
+			"Hava açtığı için uçaklar kalktı.",
+			"Hava açmasına rağmen uçaklar kalkmadı.",
+			"Hava açarsa uçaklar kalkış yapabilecek.",
+			"Uçaklar kalkmadan önce hava açtı."
+		],
+		"correctIndex": 3,
+		"explanation": "\"Hava açarsa\" sözündeki -sa şart eki, uçakların kalkmasını havanın açması şartına bağlar; koşul henüz gerçekleşmemiştir. \"Açtığı için\" neden-sonuç, \"kalkmadan önce\" zaman, \"açmasına rağmen\" ise beklenenin tersine bir sonuç bildirir. \"Havanın açmasını bekledi\" cümlesinde bir şart ilişkisi kurulmamıştır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"şart\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümlede-anlam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-018",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde aynı anlamı taşıyan iki sözün bir arada kullanılmasından doğan bir anlatım bozukluğu vardır?",
+		"options": [
+			"Kurum, başvuruları yeniden değerlendirdi.",
+			"Bu sorunu mutlaka çözmeliyiz.",
+			"Rapor, belirlenen süre içinde teslim edildi.",
+			"Bu sorunu kesinlikle mutlaka çözmeliyiz.",
+			"Salon birkaç dakika içinde tamamen boşaldı."
+		],
+		"correctIndex": 3,
+		"explanation": "\"Kesinlikle\" ve \"mutlaka\" kelimelerinin ikisi de kesinlik bildirir; aynı cümlede birlikte kullanılmaları gereksiz tekrara yol açar. Cümlenin doğrusu \"Bu sorunu kesinlikle çözmeliyiz.\" ya da \"Bu sorunu mutlaka çözmeliyiz.\" biçimindedir. \"Yeniden değerlendirdi\" ve \"tamamen boşaldı\" sözlerinde anlam tekrarı yoktur.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"mutlaka\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-019",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde bir kelimenin sözlük anlamına uymayan bir özneyle kullanılması anlatım bozukluğuna yol açmıştır?",
+		"options": [
+			"Bu yıl sebze fiyatları çok ucuzladı.",
+			"Bu yıl sebzeler çok ucuzladı.",
+			"Bu yıl sebze fiyatları çok düştü.",
+			"Bu yıl sebzeler oldukça pahalıydı.",
+			"Bu yıl sebze fiyatları hızla yükseldi."
+		],
+		"correctIndex": 0,
+		"explanation": "TDK Güncel Türkçe Sözlük'e göre \"ucuzlamak\" fiyatı inmek, \"pahalı\" fiyatı yüksek olan demektir. Ucuzlayan veya pahalanan şey fiyat değil, maldır: \"sebzeler ucuzladı\", \"fiyatlar düştü\". \"Fiyatlar ucuzladı\" söyleyişi \"fiyatın fiyatı indi\" anlamına geldiği için yanlıştır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"ucuzlamak\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-020",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde kesinlik bildiren bir sözle olasılık bildiren bir yüklem bir arada kullanıldığı için anlatım bozukluğu vardır?",
+		"options": [
+			"Toplantıya büyük olasılıkla katılacak.",
+			"Toplantıya belki ben de katılırım.",
+			"Toplantıya kesinlikle katılacağım.",
+			"Toplantıya kesinlikle katılacağını sanıyorum.",
+			"Toplantıya katılacağını sanıyorum."
+		],
+		"correctIndex": 3,
+		"explanation": "\"Kesinlikle\" kesin bir bilgiyi, \"sanıyorum\" ise tahmini ve olasılığı bildirir. İki söz aynı yargıda anlamca çeliştiği için cümle bozuktur. \"Kesinlikle katılacağım\" kesinlik, \"büyük olasılıkla katılacak\" ve \"belki katılırım\" olasılık bildirir ve her biri kendi içinde tutarlıdır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"kesinlikle\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-021",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde çoğul ekli yüklem, dil bilgisi bakımından tekil sayılan bir sözcüğe bağlandığı için yanlış kullanılmıştır?",
+		"options": [
+			"Öğrenciler toplantıya zamanında katıldı.",
+			"Kuşlar sonbaharda güneye göç eder.",
+			"Herkes toplantıya zamanında katıldılar.",
+			"Kimse toplantıya geç kalmadı.",
+			"Bütün katılımcılar salona alındı."
+		],
+		"correctIndex": 2,
+		"explanation": "\"Herkes\" insanların bütününü anlatsa da dil bilgisi bakımından tekil bir zamirdir ve yüklemi de tekil olmalıdır: \"Herkes toplantıya zamanında katıldı.\" Çoğul insan öznelerde yüklem tekil de çoğul da olabilir (öğrenciler katıldı / katıldılar). \"Kimse\" tekil yüklem almıştır; bitki, hayvan ve cansız çoğul öznelerle de yüklem genellikle tekildir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"herkes\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-022",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde iki yargıda ortak kullanılan yüklem, yargılardan birine uymadığı için anlatım bozukluğu vardır?",
+		"options": [
+			"Bu konuda ne bilgisi var ne de araştırma yapmış.",
+			"Raporu dikkatle okudu ve onayladı.",
+			"Hem bilgili hem de deneyimli bir uzmandı.",
+			"Toplantıya ne müdür ne de yardımcısı katıldı.",
+			"Bu konuda ne bir bilgisi ne de araştırma yapmış."
+		],
+		"correctIndex": 4,
+		"explanation": "\"Yapmış\" yüklemi \"araştırma yapmış\" sözüne uyar, ancak \"bilgisi yapmış\" söylenemez; birinci yargının yüklemi eksik kalmıştır. Doğrusu \"ne bilgisi var ne de araştırma yapmış\" biçimindedir. \"Ne müdür ne de yardımcısı katıldı\" cümlesinde ise \"katıldı\" iki özneye de uyduğu için ortak kullanılabilir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"yüklem\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-023",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde ek-fiil eksikliğinden kaynaklanan bir anlatım bozukluğu vardır?",
+		"options": [
+			"Bu ürün hem kaliteli hem de herkes tarafından tercih ediliyor.",
+			"Bu ürün hem kalitelidir hem de herkes tarafından tercih ediliyor.",
+			"Ürün kaliteliydi ama biraz pahalıydı.",
+			"Ürün hem ucuz hem de kaliteliydi.",
+			"Bu ürün kaliteli olduğu için herkes tarafından tercih ediliyor."
+		],
+		"correctIndex": 0,
+		"explanation": "Bağlaçla birleştirilen iki yargının yüklemleri farklı türdense her biri kendi ekini almalıdır. \"Kaliteli\" ad soylu bir kelimedir ve \"tercih ediliyor\" fiil yükleminin ekini ortak kullanamaz; ek-fiil almalıdır: \"hem kalitelidir hem de ... tercih ediliyor\". \"Hem ucuz hem de kaliteliydi\" cümlesinde iki ad soylu kelime aynı ek-fiili ortak kullanabilir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"ek-fiil\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-024",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde \"senin\" sözünün kullanılmaması, sözün kime ait olduğu konusunda bir anlam belirsizliğine yol açmıştır?",
+		"options": [
+			"Onun kardeşi arkadaşını da toplantıya çağırdı.",
+			"Ayşe'nin arkadaşını da toplantıya çağırdı.",
+			"Kardeşin arkadaşını da toplantıya çağırdı.",
+			"Kardeşimin arkadaşını da toplantıya çağırdı.",
+			"Senin kardeşin arkadaşını da toplantıya çağırdı."
+		],
+		"correctIndex": 2,
+		"explanation": "Cümle iki biçimde okunabilir. \"Kardeşin\" sözündeki -in iyelik eki olarak düşünülürse cümle \"Senin kardeşin, arkadaşını da toplantıya çağırdı.\" anlamına gelir ve \"kardeşin\" öznedir. -in ilgi eki olarak düşünülürse \"(O) kardeşin arkadaşını da çağırdı.\" anlamına gelir ve \"kardeşin arkadaşını\" nesnedir. \"Senin\" sözü eklendiğinde ilk anlam kesinleşir; diğer cümlelerde ekler tek anlama izin verir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"iyelik eki\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-025",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde virgül kullanılmadığı için cümle iki farklı biçimde anlaşılabilmektedir?",
+		"options": [
+			"Genç adam, onu görünce birden durdu.",
+			"Genç adamı görünce birden durdu.",
+			"Yaşlı adam onu görünce birden durdu.",
+			"Adamı gören genç birden durdu.",
+			"Genç, adamı görünce birden durdu."
+		],
+		"correctIndex": 1,
+		"explanation": "\"Genç adamı görünce birden durdu.\" cümlesinde \"genç\" sıfat olarak \"adam\"ı niteleyebilir (biri genç bir adamı gördü) ya da cümlenin öznesi olabilir (genç, adamı gördü). Özne kastediliyorsa \"Genç, adamı görünce birden durdu.\" yazılmalıdır. Diğer cümlelerde virgül, sözcük sırası veya zamir tek anlama izin vermektedir.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Virgül",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-026",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "\"(Birinin) gözüne girmek\" deyimi aşağıdaki cümlelerin hangisinde sözlükteki anlamına uygun kullanılmıştır?",
+		"options": [
+			"Bu hatası yüzünden bütün arkadaşlarının gözüne girdi.",
+			"Tembelliğiyle patronunun gözüne girdi ve işten çıkarıldı.",
+			"Yalan söylediği anlaşılınca herkesin gözüne girdi.",
+			"Çalışkanlığıyla kısa sürede müdürünün gözüne girdi.",
+			"Kaba davranışları yüzünden komşularının gözüne girdi."
+		],
+		"correctIndex": 3,
+		"explanation": "TDK Güncel Türkçe Sözlük'e göre \"gözüne girmek\" birinin sevgi ve ilgisini kazanmak demektir; olumlu bir anlam taşır. Çalışkanlığıyla müdürünün sevgisini kazanan kişi için doğru kullanılmıştır. Hata, tembellik, yalan ve kabalık gibi olumsuz davranışların sonucunu anlatan bağlamlarda deyim anlamına aykırı düşer.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"gözüne girmek\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"deyim",
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-027",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde zaman bildiren sözle yüklemin zamanı uyuşmadığı için anlatım bozukluğu vardır?",
+		"options": [
+			"Gelecek hafta yeni bir projeye başlayacağız.",
+			"Geçen hafta yeni bir projeye başlayacağız.",
+			"Geçen hafta yeni bir projeye başladık.",
+			"Birkaç gün önce yeni bir projeye başlamıştık.",
+			"Yarın yeni bir projeye başlıyoruz."
+		],
+		"correctIndex": 1,
+		"explanation": "\"Geçen hafta\" geçmişte kalmış bir zamanı, \"başlayacağız\" ise gelecekte yapılacak bir işi bildirir; iki söz aynı yargıda çelişir. Doğrusu \"Geçen hafta başladık\" ya da \"Gelecek hafta başlayacağız\"dır. \"Yarın başlıyoruz\" cümlesinde şimdiki zaman eki yakın gelecek anlamında kullanıldığı için bozukluk yoktur.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"yüklem\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-028",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "\"Bugün işe yaramaz görünen bir şey ileride gerekli olabilir; bu yüzden hemen elden çıkarılmamalıdır.\" düşüncesini en iyi karşılayan atasözü aşağıdakilerden hangisidir?",
+		"options": [
+			"Sakla samanı, gelir zamanı.",
+			"Acele işe şeytan karışır.",
+			"Üzüm üzüme baka baka kararır.",
+			"Damlaya damlaya göl olur.",
+			"Ağaç yaşken eğilir."
+		],
+		"correctIndex": 0,
+		"explanation": "TDK Güncel Türkçe Sözlük'e göre \"Sakla samanı, gelir zamanı.\" \"gereksiz görülen şey ileride gerekli olabilir\" anlamında kullanılır. \"Damlaya damlaya göl olur\" birikimin önemini, \"acele işe şeytan karışır\" düşünmeden yapılan işin kötü sonucunu, \"ağaç yaşken eğilir\" küçük yaşta eğitimin kolaylığını, \"üzüm üzüme baka baka kararır\" birlikte olanların birbirine benzediğini anlatır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"sakla samanı, gelir zamanı\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"atasözü"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-029",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde gerçekleşmemiş bir durum gerçekleşmiş gibi kabul edilerek bir varsayımda bulunulmuştur?",
+		"options": [
+			"Sınavı kazandığı için bu şehre taşındı.",
+			"Sınavı kazanırsan bu şehre taşınacağız.",
+			"Diyelim ki sınavı kazandın, hangi şehri tercih edersin?",
+			"Keşke sınavı ben de kazansaydım.",
+			"Sınavı kazanmak için gece gündüz çalıştı."
+		],
+		"correctIndex": 2,
+		"explanation": "Varsayım cümlesinde henüz gerçekleşmemiş bir durum gerçekleşmiş sayılarak düşünce yürütülür; \"diyelim ki, farz edelim ki, tut ki\" gibi sözler bunu gösterir. \"Kazanırsan taşınacağız\" bir koşul, \"kazandığı için\" neden-sonuç, \"kazanmak için\" amaç, \"keşke kazansaydım\" ise gerçekleşmemiş bir dileği ve pişmanlığı bildirir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"varsayım\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümlede-anlam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-030",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde aynı özneye hem edilgen hem etken yüklem bağlandığı için anlatım bozukluğu vardır?",
+		"options": [
+			"Yazarın son romanı çok beğenildi ve birçok dile çevrildi.",
+			"Yazarın son romanı çok beğenildi ve birçok dile çevirdi.",
+			"Yazar son romanını çok beğendi ve birçok dile çevirtti.",
+			"Yazarın son romanı birçok dile çevrilmişti.",
+			"Okurlar yazarın son romanını çok beğendi."
+		],
+		"correctIndex": 1,
+		"explanation": "\"Yazarın son romanı\" sözü edilgen \"beğenildi\" yükleminin sözde öznesidir; aynı öge etken \"çevirdi\" yükleminin öznesi olamaz, çünkü roman bir şeyi çeviremez. İki yüklem de edilgen olmalıdır: \"beğenildi ve birçok dile çevrildi\". Etken-edilgen çatışması denen bu bozuklukta ikinci yargı ya kendi öznesini almalı ya da çatıya uydurulmalıdır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"sözde özne\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anlatım-bozukluğu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-031",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "\"Acele işe şeytan karışır.\" atasözünün anlamı aşağıdakilerden hangisidir?",
+		"options": [
+			"Küçük birikimler zamanla büyük bir değere ulaşır.",
+			"İşe erken başlayan, işini zamanında bitirir.",
+			"Gereksiz görünen şeyler ileride işe yarayabilir.",
+			"Birlikte olan kişiler zamanla birbirine benzer.",
+			"Düşünüp taşınmadan aceleyle yapılan işten iyi sonuç alınmaz."
+		],
+		"correctIndex": 4,
+		"explanation": "TDK Güncel Türkçe Sözlük'e göre \"Acele işe şeytan karışır.\" atasözü, düşünüp taşınmadan ivedi olarak yapılan işten iyi sonuç alınamayacağını anlatır. Küçük birikimlerin değeri \"Damlaya damlaya göl olur.\", birlikte olanların benzeşmesi \"Üzüm üzüme baka baka kararır.\", gereksiz görünenin işe yaraması \"Sakla samanı, gelir zamanı.\" atasözleriyle anlatılır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"acele işe şeytan karışır\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"atasözü"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-032",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "\"Göz kulak olmak\" deyiminin mecaz anlamı aşağıdakilerden hangisidir?",
+		"options": [
+			"Önem vermek, dinlemek",
+			"Yaltaklanmak, dalkavukluk etmek",
+			"Gözetmek, korumak, bakmak",
+			"Çok sevinmek",
+			"Davranışını başkasınınkine benzetmek"
+		],
+		"correctIndex": 2,
+		"explanation": "TDK Güncel Türkçe Sözlük'te \"göz kulak olmak\" deyiminin mecaz anlamı \"gözetmek, korumak, bakmak\"tır: Tatildeyken komşumuz evimize göz kulak oldu. \"Önem vermek, dinlemek\" kulak asmak; \"çok sevinmek\" ağzı kulaklarına varmak; \"yaltaklanmak\" etek öpmek; \"davranışını başkasınınkine benzetmek\" ayak uydurmak deyiminin anlamıdır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"göz kulak olmak\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"deyim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-033",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde eylem, henüz gerçekleşmemiş bir hedefe ulaşmak için yapılmaktadır (amaç-sonuç ilişkisi)?",
+		"options": [
+			"Sınavı kazanmak için her gün düzenli çalışıyor.",
+			"Yollar buz tuttuğu için seferler iptal edildi.",
+			"Hava açarsa uçaklar kalkış yapabilecek.",
+			"Diyelim ki sınavı kazandın, hangi şehri seçersin?",
+			"Toplantı uzadığı için eve geç kaldı."
+		],
+		"correctIndex": 0,
+		"explanation": "Amaç-sonuç ilişkisinde eylem henüz gerçekleşmemiş bir hedef için yapılır: \"kazanmak için çalışıyor\". \"İçin\" neden de bildirebilir; \"buz tuttuğu için\" ve \"uzadığı için\" gerçekleşmiş bir durumun sonucunu bildirdiğinden neden-sonuç ilişkisidir. \"Hava açarsa\" koşul, \"Diyelim ki\" ise varsayım bildirir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"amaç\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümlede-anlam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-034",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde insana özgü bir davranış, insan dışındaki bir varlığa verilmiştir?",
+		"options": [
+			"Rüzgâr bütün gece pencereleri sarstı.",
+			"Bütün mahalle düğüne katıldı.",
+			"Sana bu konuyu bin kere anlattım.",
+			"Sonbahar rüzgârı bütün gece pencerelerde ağladı.",
+			"Kardeşi aslan gibi güçlü bir adamdı."
+		],
+		"correctIndex": 3,
+		"explanation": "Kişileştirme, cansız varlıkları veya hayvanları insanmış gibi gösterme sanatıdır: rüzgârın \"ağlaması\" insana özgü bir davranıştır. \"Aslan gibi güçlü\" benzetme, \"bütün mahalle\" (mahalledekiler) ad aktarması, \"bin kere\" abartmadır. \"Rüzgâr pencereleri sarstı\" cümlesinde ise kelimeler gerçek anlamıyla kullanılmıştır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"kişileştirme\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcükte-anlam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-035",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "\"Her zaman bir arada bulunan, arkadaşlık eden kimseler zamanla birbirlerine huy aşılar.\" düşüncesini anlatan atasözü aşağıdakilerden hangisidir?",
+		"options": [
+			"Damlaya damlaya göl olur.",
+			"Sakla samanı, gelir zamanı.",
+			"Acele işe şeytan karışır.",
+			"Üzüm üzüme baka baka kararır.",
+			"Ağaç yaşken eğilir."
+		],
+		"correctIndex": 3,
+		"explanation": "TDK Güncel Türkçe Sözlük'e göre \"Üzüm üzüme baka baka kararır.\" atasözü, her zaman bir arada bulunan ve arkadaşlık eden kimselerin birbirlerine huy aşıladığını anlatır. \"Ağaç yaşken eğilir.\" küçük yaşta eğitimin kolaylığını, \"Damlaya damlaya göl olur.\" küçük birikimlerin değerini anlatır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"üzüm üzüme baka baka kararır\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"atasözü"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-036",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde bir söz, benzetme amacı olmadan yakın ilgili olduğu başka bir kavramın yerine kullanılmıştır (ad aktarması)?",
+		"options": [
+			"Salon kısa sürede insanlarla doldu.",
+			"Bütün salon konuşmacıyı ayakta alkışladı.",
+			"Dünya kadar işim var.",
+			"Çocuk kuş gibi hafif adımlarla yürüyordu.",
+			"Dağlar sabahın ilk ışıklarıyla uyandı."
+		],
+		"correctIndex": 1,
+		"explanation": "Ad aktarmasında (mecazımürsel) bir söz, benzetme ilgisi olmadan, yer-içindekiler ya da neden-sonuç gibi bir ilgiyle başka bir sözün yerine kullanılır: \"salon\" sözü salondaki insanları karşılar. Dağların \"uyanması\" kişileştirme, \"kuş gibi hafif\" benzetme, \"dünya kadar\" abartmadır; \"salon insanlarla doldu\" cümlesinde ise \"salon\" gerçek anlamındadır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"mecazımürsel\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcükte-anlam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-037",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi \"Ağaç yaşken eğilir.\" atasözüyle anlatılan düşünceye en uygun örnektir?",
+		"options": [
+			"Her ay biraz para biriktirerek ev alan bir aile",
+			"Öğrencilerine iyi alışkanlıkları ilkokul çağında kazandırmaya çalışan bir öğretmen",
+			"Bahçesindeki yaşlı ağacı her kış budayan bir çiftçi",
+			"Aceleyle karar verip sonradan pişman olan bir yönetici",
+			"Emekli olduktan sonra resim yapmayı öğrenen bir memur"
+		],
+		"correctIndex": 1,
+		"explanation": "TDK Güncel Türkçe Sözlük'e göre \"Ağaç yaşken eğilir.\" atasözü, insanların küçük yaşta kolay eğitildiğini anlatır; bu yüzden iyi alışkanlıkları erken yaşta kazandırmaya çalışan öğretmen en uygun örnektir. Ağaç budayan çiftçi atasözünü gerçek anlamıyla karşılar; birikim yapan aile \"Damlaya damlaya göl olur.\", aceleyle karar veren yönetici \"Acele işe şeytan karışır.\" atasözüne uyar.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"ağaç yaşken eğilir\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"atasözü"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-038",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde sözün etkisini artırmak için bir durum olduğundan çok daha büyük gösterilmiştir?",
+		"options": [
+			"Gözleri yıldız gibi parlıyordu.",
+			"Onu beklerken biraz duygulandım.",
+			"Deniz öfkeyle kıyıları dövüyordu.",
+			"Ankara bu konuda henüz bir açıklama yapmadı.",
+			"Onu beklerken gözlerimden yaşlar sel olup aktı."
+		],
+		"correctIndex": 4,
+		"explanation": "Abartma (mübalağa), sözün etkisini artırmak için bir şeyi olamayacağı biçimde ya da olduğundan çok veya az gösterme sanatıdır: gözyaşlarının \"sel olup akması\" abartmadır. Denizin \"öfkeyle dövmesi\" kişileştirme, \"Ankara\"nın hükûmet yerine kullanılması ad aktarması, \"yıldız gibi parlamak\" benzetmedir; \"biraz duygulandım\" ise abartısız bir anlatımdır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"mübalağa\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sözcükte-anlam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-039",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde deyimin kalıbı değiştirildiği için bir anlatım bozukluğu vardır?",
+		"options": [
+			"Müdürün gözüne girmek için çok çalıştı.",
+			"Tatil boyunca kardeşine göz kulak oldu.",
+			"Söylediklerimi hiç kulağa asmadı.",
+			"Yeni çalışma düzenine kısa sürede ayak uydurdu.",
+			"Terfi haberini duyunca ağzı kulaklarına vardı."
+		],
+		"correctIndex": 2,
+		"explanation": "Deyimler kalıplaşmış söz öbekleridir; kelimeleri ve ekleri değiştirilemez. TDK Güncel Türkçe Sözlük'teki kalıp \"kulak asmak\"tır (önem vermek, dinlemek); \"kulağa asmak\" biçimi deyimin kalıbını bozar. Doğrusu: \"Söylediklerime hiç kulak asmadı.\" Diğer cümlelerdeki deyimler sözlükteki kalıp ve anlamlarıyla kullanılmıştır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"kulak asmak\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"deyim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-anlam-040",
+		"subjectId": "turkce",
+		"topicId": "turkce/anlam-ve-anlatim-bozukluklari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde kanıtlanamayan, kişiden kişiye değişebilen öznel bir yargı vardır?",
+		"options": [
+			"Ağrı Dağı'nın en etkileyici görüntüsü sabah saatlerinde görülür.",
+			"Türkiye'nin en yüksek dağı Ağrı Dağı'dır.",
+			"Van Gölü Türkiye'nin en büyük gölüdür.",
+			"Türkiye Büyük Millet Meclisi 23 Nisan 1920'de açıldı.",
+			"Toplantıya 45 kişi katıldı."
+		],
+		"correctIndex": 0,
+		"explanation": "Öznel yargı nesnelerin gerçeğine değil bireyin düşünce ve duygularına dayanır; bir görüntünün \"en etkileyici\" olduğu kişiden kişiye değişir. \"En\" sözü tek başına yargıyı öznel yapmaz: Ağrı Dağı'nın en yüksek, Van Gölü'nün en büyük olması ölçülebilir ve kanıtlanabilir olduğu için nesnel yargıdır. Katılımcı sayısı ve tarih de nesneldir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"öznel\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümlede-anlam"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

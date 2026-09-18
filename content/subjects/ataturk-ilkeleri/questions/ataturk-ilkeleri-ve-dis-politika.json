@@ -327,5 +327,496 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-ilke-011",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Saltanatın kaldırılması ve cumhuriyetin ilan edilmesi doğrudan hangi Atatürk ilkesinin uygulamalarıdır?",
+		"options": [
+			"Laiklik",
+			"Halkçılık",
+			"Cumhuriyetçilik",
+			"İnkılapçılık",
+			"Devletçilik"
+		],
+		"correctIndex": 2,
+		"explanation": "Cumhuriyetçilik, egemenliğin millete ait olmasını ve yöneticilerin seçimle belirlenmesini esas alır. Saltanatın kaldırılması, cumhuriyetin ilanı ve çok partili hayata geçiş denemeleri bu ilkenin başlıca uygulamalarıdır. Devletçilik ekonomiyle, laiklik din ve devlet işlerinin ayrılmasıyla, halkçılık ise ayrıcalıkların kaldırılmasıyla ilgilidir.",
+		"reference": {
+			"title": "Cumhuriyet Halk Fırkası Programı (1931)",
+			"section": "Cumhuriyetçilik"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilkeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-ilke-012",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Atatürk döneminde izlenen barışçı dış politikanın temel anlayışını özetleyen söz aşağıdakilerden hangisidir?",
+		"options": [
+			"Ne mutlu Türk'üm diyene!",
+			"Yurtta sulh, cihanda sulh.",
+			"Hattı müdafaa yoktur, sathı müdafaa vardır.",
+			"Hayatta en hakiki mürşit ilimdir.",
+			"Egemenlik kayıtsız şartsız milletindir."
+		],
+		"correctIndex": 1,
+		"explanation": "\"Yurtta sulh, cihanda sulh\" sözü, iç barışın korunmasını ve dünya barışına katkıda bulunulmasını esas alan dış politika anlayışını özetler. Bu anlayışla Lozan'dan kalan sorunlar barışçı yollarla çözülmüş, Balkan Antantı ve Sadabat Paktı gibi bölgesel iş birlikleri kurulmuştur. Diğer sözler bilim, millî kimlik, millî egemenlik ve Sakarya savunmasıyla ilgilidir.",
+		"reference": {
+			"title": "Atatürk'ün Söylev ve Demeçleri",
+			"section": "Yurtta sulh, cihanda sulh"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-ilke-013",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki gelişmelerden hangisi milliyetçilik ilkesiyle en doğrudan ilişkilidir?",
+		"options": [
+			"Saltanatın kaldırılması",
+			"Aşar vergisinin kaldırılması",
+			"Halifeliğin kaldırılması",
+			"Sümerbank'ın kurulması",
+			"Türk Tarih ve Türk Dil kurumlarının kurulması"
+		],
+		"correctIndex": 4,
+		"explanation": "Milliyetçilik ilkesi millî birlik ve beraberliği, millî kültürün ve bağımsızlığın korunmasını esas alır; Türk tarihinin ve Türk dilinin bilimsel olarak incelenmesi için kurulan Türk Tarih ve Türk Dil kurumları bu ilkenin uygulamalarıdır. Aşarın kaldırılması halkçılıkla, halifeliğin kaldırılması laiklikle, Sümerbank devletçilikle, saltanatın kaldırılması cumhuriyetçilikle ilişkilidir.",
+		"reference": {
+			"title": "Cumhuriyet Halk Fırkası Programı (1931)",
+			"section": "Milliyetçilik"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilkeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-ilke-014",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yapılan inkılapların korunmasını ve toplumun ihtiyaçlarına göre yeni yeniliklerin yapılmasını esas alan Atatürk ilkesi aşağıdakilerden hangisidir?",
+		"options": [
+			"Cumhuriyetçilik",
+			"Milliyetçilik",
+			"Devletçilik",
+			"İnkılapçılık",
+			"Halkçılık"
+		],
+		"correctIndex": 3,
+		"explanation": "İnkılapçılık, gerçekleştirilen inkılapların benimsenip korunmasını ve çağın gereklerine göre yeni inkılaplar yapılmasını öngörür; diğer ilkelerin sürekliliğini güvence altına alan ilke olarak değerlendirilir. Devletçilik ile birlikte 1931'de Cumhuriyet Halk Fırkası programına eklenmiştir.",
+		"reference": {
+			"title": "Cumhuriyet Halk Fırkası Programı (1931)",
+			"section": "İnkılapçılık"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilkeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-ilke-015",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "9 Şubat 1934'te imzalanan Balkan Antantı'nın kurulmasında aşağıdaki devletlerden hangisinin Balkanlar ve Akdeniz'deki yayılmacı politikası etkili olmuştur?",
+		"options": [
+			"İtalya",
+			"İngiltere",
+			"Sovyet Rusya",
+			"Fransa",
+			"Yunanistan"
+		],
+		"correctIndex": 0,
+		"explanation": "1930'lu yıllarda İtalya'nın Akdeniz ve Balkanlarda genişleme çabası bölge devletlerini kaygılandırmıştır. Bu tehlike karşısında Türkiye, Yunanistan, Yugoslavya ve Romanya 9 Şubat 1934'te Atina'da Balkan Antantı'nı imzalamış ve Balkan sınırlarını karşılıklı güvence altına almıştır. Yunanistan antlaşmanın taraflarından biridir.",
+		"reference": {
+			"title": "Balkan Antantı (9 Şubat 1934)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-ilke-016",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1927'de Cumhuriyet Halk Fırkası programında yer alan dört ilkeye 1931 kongresinde eklenen iki ilke aşağıdakilerden hangisidir?",
+		"options": [
+			"Devletçilik ve inkılapçılık",
+			"Laiklik ve devletçilik",
+			"Cumhuriyetçilik ve laiklik",
+			"Milliyetçilik ve halkçılık",
+			"Halkçılık ve inkılapçılık"
+		],
+		"correctIndex": 0,
+		"explanation": "1927'de cumhuriyetçilik, milliyetçilik, halkçılık ve laiklik olmak üzere dört ilke tanımlanmıştır. 10-18 Mayıs 1931'deki Cumhuriyet Halk Fırkası 3. Kongresi'nde devletçilik ve inkılapçılık eklenerek altı ilke (altı ok) kavramı oluşmuştur. Altı ilke 5 Şubat 1937'de Anayasa'ya girmiştir.",
+		"reference": {
+			"title": "Cumhuriyet Halk Fırkası Programı (1931)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilkeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-ilke-017",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Türkiye'nin 1936'da Hatay (İskenderun Sancağı) meselesini gündeme getirmesinin doğrudan nedeni aşağıdakilerden hangisidir?",
+		"options": [
+			"Hatay Millet Meclisi'nin Türkiye'ye katılma kararı alması",
+			"Milletler Cemiyeti'nin Hatay'ı Suriye'ye bağlaması",
+			"Lozan'da Hatay'ın Türkiye'ye bırakılması",
+			"Fransa'nın Suriye'ye bağımsızlık verirken sancak üzerindeki yetkilerini Suriye'ye bırakması",
+			"İtalya'nın Hatay kıyılarına asker çıkarması"
+		],
+		"correctIndex": 3,
+		"explanation": "Fransa 1936'da Suriye'ye bağımsızlık veren ve Suriye ile ittifak kuran anlaşmada İskenderun Sancağı hakkında bir hüküm koymamış, çekilirken sancak üzerindeki yetkilerini Suriye'ye bırakmıştır. Türkiye bunu kabul etmemiş, 9 Ekim 1936'da Fransa'ya nota vererek sancağa da bağımsızlık verilmesini istemiş ve meseleyi Milletler Cemiyeti'ne götürmüştür. Hatay Millet Meclisi'nin katılma kararı ise 1939'da alınmıştır.",
+		"reference": {
+			"title": "Hatay Sorunu (1936-1939)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika",
+			"hatay"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-ilke-018",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "20 Temmuz 1936 tarihli Montrö Boğazlar Sözleşmesi, Lozan'daki Boğazlar hükümlerine göre Türkiye'ye aşağıdaki haklardan hangisini kazandırmıştır?",
+		"options": [
+			"Karadeniz'e kıyısı olmayan devletlerin savaş gemilerini sınırsız süre ağırlama hakkı",
+			"Boğazlardan geçen gemilerden serbestçe vergi alma hakkı",
+			"Boğazlar bölgesini silahlandırabilme hakkı",
+			"Boğazlarda barış zamanında ticaret gemilerinin geçişini yasaklama hakkı",
+			"Boğazların uluslararası bir komisyonca yönetilmesi hakkı"
+		],
+		"correctIndex": 2,
+		"explanation": "Lozan'da Boğazlar çevresi silahsızlandırılmış ve başkanı Türk olan uluslararası bir komisyona bırakılmıştı. Montrö ile komisyon kaldırılmış, yetkileri Türkiye'ye geçmiş ve Türkiye Boğazlar bölgesini yeniden silahlandırma hakkı kazanmıştır. Ticaret gemileri barış zamanında geçiş serbestliğinden yararlanmaya devam etmiştir; kıyıdaş olmayan devletlerin savaş gemilerinin Karadeniz'de kalma süresi de sınırlandırılmıştır.",
+		"reference": {
+			"title": "Montrö Boğazlar Sözleşmesi (20 Temmuz 1936)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika",
+			"bogazlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-ilke-019",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdakilerden hangisi Atatürk'ün altı temel ilkesinden biri değil, tamamlayıcı ilkelerinden biridir?",
+		"options": [
+			"İnkılapçılık",
+			"Devletçilik",
+			"Laiklik",
+			"Halkçılık",
+			"Millî egemenlik"
+		],
+		"correctIndex": 4,
+		"explanation": "Atatürk'ün temel ilkeleri cumhuriyetçilik, milliyetçilik, halkçılık, devletçilik, laiklik ve inkılapçılıktır; bu altı ilke 1937'de Anayasa'ya girmiştir. Millî egemenlik, millî bağımsızlık, millî birlik ve beraberlik, yurtta sulh cihanda sulh, çağdaşlaşma, bilimsellik ve akılcılık ile insan ve insanlık sevgisi ise temel ilkeleri destekleyen tamamlayıcı ilkeler arasında sayılır.",
+		"reference": {
+			"title": "Cumhuriyet Halk Fırkası Programı (1931)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilkeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-ilke-020",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Atatürk döneminde uygulanan devletçilik anlayışıyla ilgili aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yalnızca ticaret alanını kapsar, sanayiyi kapsamaz.",
+			"Özel teşebbüsün yetersiz kaldığı alanlarda devletin ekonomiye girmesini öngörür; özel teşebbüsü ortadan kaldırmaz.",
+			"1923'ten itibaren ekonomi politikasının temelini oluşturmuştur.",
+			"Bütün üretim araçlarının devletleştirilmesini öngörür.",
+			"Özel teşebbüsün sanayi yatırımı yapmasını yasaklar."
+		],
+		"correctIndex": 1,
+		"explanation": "Devletçilik, özel sermayenin yetersiz kaldığı alanlarda devletin yatırımcı ve düzenleyici olarak ekonomiye girmesini öngörür; özel teşebbüsü ortadan kaldırmayı amaçlamaz. 1923-1929 arasında özel teşebbüs desteklenmiş, devletçilik 1929 Dünya Ekonomik Krizi'nden sonra öne çıkmıştır. Sümerbank, Etibank ve I. Beş Yıllık Sanayi Planı devletçiliğin sanayi alanındaki uygulamalarıdır.",
+		"reference": {
+			"title": "Cumhuriyet Halk Fırkası Programı (1931)",
+			"section": "Devletçilik"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ilkeler",
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-ilke-021",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Lozan Barış Antlaşması'yla Türkiye'nin payına düşen Osmanlı borçlarının ödeme planı hangi anlaşmayla belirlenmiştir?",
+		"options": [
+			"1928 Paris Anlaşması",
+			"1937 Sadabat Paktı",
+			"1934 Balkan Antantı",
+			"1936 Montrö Boğazlar Sözleşmesi",
+			"1926 Ankara Antlaşması"
+		],
+		"correctIndex": 0,
+		"explanation": "Lozan'da Osmanlı borçları, imparatorluktan ayrılan devletler arasında paylaştırılmış; Türkiye'ye düşen payın ödeme planı 1928 Paris Anlaşması'yla belirlenmiştir. Taksitler 1954'te tamamlanmıştır. 1926 Ankara Antlaşması Musul, Montrö Boğazlar, Balkan Antantı ve Sadabat Paktı ise bölgesel güvenlikle ilgilidir.",
+		"reference": {
+			"title": "1928 Paris Anlaşması (Osmanlı borçları)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-ilke-022",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "5 Haziran 1926 tarihli Ankara Antlaşması'yla Musul'un Irak'a bırakılması karşılığında Türkiye'ye, yirmi beş yıl süreyle Musul petrol gelirinin yüzde kaçının verilmesi kararlaştırılmıştır?",
+		"options": [
+			"25",
+			"20",
+			"15",
+			"5",
+			"10"
+		],
+		"correctIndex": 4,
+		"explanation": "Milletler Cemiyeti'nin Musul konusunda İngiltere lehine karar vermesinin ardından imzalanan 5 Haziran 1926 tarihli Ankara Antlaşması'yla Musul Irak'a bırakılmış, karşılığında Türkiye'ye yirmi beş yıl boyunca Musul petrol gelirinin yüzde onunun verilmesi kabul edilmiştir.",
+		"reference": {
+			"title": "Ankara Antlaşması (5 Haziran 1926)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika",
+			"musul"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-ilke-023",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Lozan'dan sonra Türk-Rum nüfus mübadelesinin uygulanmasında ortaya çıkan ve 1930'da Yunanistan ile imzalanan anlaşmalarla çözülen sorun aşağıdakilerden hangisidir?",
+		"options": [
+			"Osmanlı borçları sorunu",
+			"Etabli (yerleşik) sorunu",
+			"Boğazlar sorunu",
+			"Yabancı okullar sorunu",
+			"Musul sorunu"
+		],
+		"correctIndex": 1,
+		"explanation": "Mübadele dışında tutulan İstanbul Rumları ile Batı Trakya Türklerinin hangi tarihten beri o yerde \"yerleşik\" (etabli) sayılacağı tartışma konusu olmuş; bu sorun 1930'da Yunanistan ile imzalanan anlaşmalarla çözülmüştür. Musul 1926 Ankara Antlaşması'yla, Boğazlar 1936 Montrö Sözleşmesi'yle sonuçlanmıştır.",
+		"reference": {
+			"title": "Türk-Yunan Anlaşmaları (1930)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-ilke-024",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Montrö Boğazlar Sözleşmesi'ne göre Türkiye'nin tarafsız olduğu bir savaşta, savaşan devletlerin savaş gemilerinin Boğazlardan geçişi konusunda hangi kural geçerlidir?",
+		"options": [
+			"Geçiş yalnızca gündüz saatlerinde yapılabilir.",
+			"Savaşan devletlerin savaş gemileri serbestçe geçebilir.",
+			"Savaşan devletlerin savaş gemileri Boğazlardan geçemez.",
+			"Geçişe Milletler Cemiyeti izin verir.",
+			"Geçişe Boğazlar Komisyonu karar verir."
+		],
+		"correctIndex": 2,
+		"explanation": "Montrö Boğazlar Sözleşmesi'ne göre Türkiye savaş dışındaysa (tarafsızsa) savaşan devletlerin savaş gemileri Boğazlardan geçemez. Türkiye savaşa girerse ya da yakın savaş tehdidi altındaysa geçişleri kendisi düzenler. Sözleşme ayrıca Lozan'la kurulan uluslararası Boğazlar Komisyonu'nu kaldırmıştır.",
+		"reference": {
+			"title": "Montrö Boğazlar Sözleşmesi (20 Temmuz 1936)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika",
+			"bogazlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-ilke-025",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/ataturk-ilkeleri-ve-dis-politika",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Hatay Devleti hangi tarihte kurulmuştur?",
+		"options": [
+			"9 Şubat 1934",
+			"29 Haziran 1939",
+			"20 Temmuz 1936",
+			"2 Eylül 1938",
+			"10 Kasım 1938"
+		],
+		"correctIndex": 3,
+		"explanation": "Milletler Cemiyeti'nin 1937'de Hatay'a ayrı bir statü tanımasının ardından 2 Eylül 1938'de Hatay Devleti kurulmuştur. Atatürk 10 Kasım 1938'de vefat etmiş, Hatay Millet Meclisi'nin Türkiye'ye katılma kararı ise 29 Haziran 1939'da alınmıştır; yani Hatay'ın Türkiye'ye katılması Atatürk'ün vefatından sonradır.",
+		"reference": {
+			"title": "Hatay Devleti'nin kuruluşu (2 Eylül 1938)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika",
+			"hatay"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

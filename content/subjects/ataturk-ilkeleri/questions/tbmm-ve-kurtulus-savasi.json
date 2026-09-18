@@ -322,5 +322,331 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-kurtulus-011",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Mustafa Kemal Paşa \"Hatt-ı müdafaa yoktur, sath-ı müdafaa vardır. O satıh bütün vatandır.\" sözünü hangi savaşa atfen söylemiştir?",
+		"options": [
+			"I. İnönü Savaşı",
+			"Kütahya-Eskişehir Savaşları",
+			"II. İnönü Savaşı",
+			"Başkomutan Meydan Muharebesi",
+			"Sakarya Meydan Muharebesi"
+		],
+		"correctIndex": 4,
+		"explanation": "Kütahya-Eskişehir Savaşları'ndan sonra ordu Sakarya Nehri'nin doğusuna çekilmiş ve savunmanın burada sürdürülmesine karar verilmişti. Mustafa Kemal Paşa, Sakarya Meydan Muharebesi'ne atfen savunmanın bir hatla sınırlı olmadığını, vatanın her karışının savunulacağını bu sözle anlatmıştır. Muharebe 23 Ağustos-13 Eylül 1921 tarihleri arasında yapılmıştır.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "Sakarya Meydan Muharebesi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bati-cephesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-kurtulus-012",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Büyük Taarruz'un ardından Türk ordusu hangi tarihte İzmir'e girmiştir?",
+		"options": [
+			"30 Ağustos 1922",
+			"13 Eylül 1921",
+			"11 Ekim 1922",
+			"9 Eylül 1922",
+			"26 Ağustos 1922"
+		],
+		"correctIndex": 3,
+		"explanation": "Büyük Taarruz 26 Ağustos 1922'de başlamış, Başkomutan Meydan Muharebesi 30 Ağustos'ta kazanılmış ve ordu 9 Eylül 1922'de İzmir'e girmiştir. 11 Ekim 1922 Mudanya Ateşkesi'nin, 13 Eylül 1921 ise Sakarya Meydan Muharebesi'nin sona erdiği tarihtir.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "Büyük Taarruz"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bati-cephesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-kurtulus-013",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "TBMM'nin açılışından kısa süre sonra, 29 Nisan 1920'de meclisin meşruiyetine karşı çıkanları vatan haini saymak amacıyla çıkarılan kanun aşağıdakilerden hangisidir?",
+		"options": [
+			"Hıyanet-i Vataniye Kanunu",
+			"Başkomutanlık Kanunu",
+			"Tekâlif-i Milliye Emirleri",
+			"Teşkilat-ı Esasiye Kanunu",
+			"Takrir-i Sükûn Kanunu"
+		],
+		"correctIndex": 0,
+		"explanation": "TBMM açıldıktan sonra İstanbul Hükûmetinin ve işgalcilerin desteklediği iç isyanlar çıkmıştır. Meclis, otoritesine karşı çıkanları vatan haini sayan Hıyanet-i Vataniye Kanunu'nu 29 Nisan 1920'de kabul etmiştir. Takrir-i Sükûn Kanunu ise 1925'te Şeyh Sait İsyanı üzerine çıkarılmıştır.",
+		"reference": {
+			"title": "Hıyanet-i Vataniye Kanunu (29 Nisan 1920)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ic-isyanlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-kurtulus-014",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Osmanlı Hükûmeti tarafından imzalanmasına rağmen Mebusan Meclisi dağıtılmış olduğu için onaylanmayan ve TBMM'nin tanımadığı antlaşma aşağıdakilerden hangisidir?",
+		"options": [
+			"Mudanya Ateşkes Antlaşması",
+			"Moskova Antlaşması",
+			"Sevr Antlaşması",
+			"Gümrü Antlaşması",
+			"Mondros Ateşkes Antlaşması"
+		],
+		"correctIndex": 2,
+		"explanation": "Sevr Antlaşması 10 Ağustos 1920'de Osmanlı Hükûmeti ile İtilaf Devletleri arasında imzalanmıştır. Antlaşmanın yürürlüğe girmesi için meclis onayı gerekiyordu; ancak Mebusan Meclisi dağıtılmış olduğundan onaylanamadı ve TBMM de antlaşmayı tanımadı. Bu yüzden Sevr hukuken yürürlüğe girmemiş, ölü doğmuş bir antlaşmadır.",
+		"reference": {
+			"title": "Sevr Antlaşması (10 Ağustos 1920)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"antlasmalar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-kurtulus-015",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "TBMM Hükûmetini tanıyan ilk büyük devletle 16 Mart 1921'de imzalanan ve Batum'un Gürcistan'a bırakıldığı antlaşma aşağıdakilerden hangisidir?",
+		"options": [
+			"Ankara Antlaşması",
+			"Moskova Antlaşması",
+			"Londra Antlaşması",
+			"Gümrü Antlaşması",
+			"Kars Antlaşması"
+		],
+		"correctIndex": 1,
+		"explanation": "Moskova Antlaşması 16 Mart 1921'de TBMM Hükûmeti ile Sovyet Rusya arasında imzalanmıştır; Sovyet Rusya TBMM'yi tanıyan ilk büyük devlettir. Antlaşmayla Kars ve Ardahan Türkiye'de kalmış, Batum Gürcistan'a bırakılmıştır. Doğu sınırı ise 13 Ekim 1921 tarihli Kars Antlaşması ile Kafkas cumhuriyetleriyle kesinleşmiştir.",
+		"reference": {
+			"title": "Moskova Antlaşması (16 Mart 1921)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"antlasmalar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-kurtulus-016",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Mustafa Kemal Paşa'nın İsmet Paşa'ya gönderdiği \"Siz orada yalnız düşmanı değil, milletin makûs talihini de yendiniz.\" telgrafı hangi savaşın kazanılması üzerine yazılmıştır?",
+		"options": [
+			"I. İnönü Savaşı",
+			"II. İnönü Savaşı",
+			"Başkomutan Meydan Muharebesi",
+			"Sakarya Meydan Muharebesi",
+			"Kütahya-Eskişehir Savaşları"
+		],
+		"correctIndex": 1,
+		"explanation": "II. İnönü Savaşı 23 Mart-1 Nisan 1921 tarihleri arasında yapılmıştır. Batı Cephesi Komutanı İsmet Paşa'nın zaferi bildiren telgrafına Mustafa Kemal Paşa bu sözlerle cevap vermiştir. I. İnönü Savaşı düzenli ordunun ilk zaferidir; ancak \"makûs talih\" telgrafı ikinci savaşın ardından çekilmiştir.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "II. İnönü Savaşı"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bati-cephesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-kurtulus-017",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdakilerden hangisi I. İnönü Savaşı'ndan sonraki süreçte ortaya çıkan gelişmelerden biri değildir?",
+		"options": [
+			"Londra Konferansı'nın toplanması",
+			"Moskova Antlaşması'nın imzalanması",
+			"Mustafa Kemal Paşa'ya mareşal rütbesi ve Gazi unvanının verilmesi",
+			"Teşkilat-ı Esasiye Kanunu'nun kabul edilmesi",
+			"II. İnönü Savaşı'nın yapılması"
+		],
+		"correctIndex": 2,
+		"explanation": "I. İnönü Savaşı 6-10 Ocak 1921'de kazanılmıştır. Ardından Teşkilat-ı Esasiye Kanunu kabul edilmiş (20 Ocak 1921), Londra Konferansı toplanmış (21 Şubat-12 Mart 1921), Moskova Antlaşması imzalanmış (16 Mart 1921) ve II. İnönü Savaşı yapılmıştır. Mareşal rütbesi ve Gazi unvanı ise I. İnönü'nün doğrudan sonucu değildir; Sakarya zaferinden sonra 19 Eylül 1921'de verilmiştir.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "I. İnönü Savaşı sonrası"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kronoloji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-kurtulus-018",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Büyük Taarruz sırasında 30 Ağustos 1922'de kazanılan ve bugün Zafer Bayramı olarak kutlanan meydan muharebesi aşağıdakilerden hangisidir?",
+		"options": [
+			"I. İnönü Savaşı",
+			"Sakarya Meydan Muharebesi",
+			"II. İnönü Savaşı",
+			"Kütahya-Eskişehir Savaşları",
+			"Başkomutan Meydan Muharebesi"
+		],
+		"correctIndex": 4,
+		"explanation": "Büyük Taarruz 26 Ağustos 1922'de başlamış, Yunan ordusunun ana gücü 30 Ağustos 1922'de Dumlupınar yöresinde yapılan Başkomutan Meydan Muharebesi'nde yenilgiye uğratılmıştır. Bu zaferin yıl dönümü Zafer Bayramı olarak kutlanır. Sakarya Meydan Muharebesi ise bir yıl önce, 23 Ağustos-13 Eylül 1921'de yapılmıştır.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "Büyük Taarruz ve Başkomutan Meydan Muharebesi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bati-cephesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-kurtulus-019",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "TBMM'nin Eylül 1920'de asker kaçaklarını, casusları ve isyancıları hızla yargılamak amacıyla kurduğu olağanüstü mahkemeler aşağıdakilerden hangisidir?",
+		"options": [
+			"Yargıtay",
+			"Anayasa Mahkemesi",
+			"Divan-ı Harp",
+			"İstiklal Mahkemeleri",
+			"Divan-ı Âli"
+		],
+		"correctIndex": 3,
+		"explanation": "Asker kaçaklarının artması ve iç isyanlar üzerine TBMM, firariler hakkındaki kanunla birlikte Eylül 1920'de İstiklal Mahkemelerini kurmuştur. Mahkemelerin üyeleri milletvekilleri arasından seçilmiş ve verdikleri kararlar hızla uygulanmıştır. Divan-ı Harp askerî mahkeme, Yargıtay ise olağan yargının üst mahkemesidir; Anayasa Mahkemesi 1961 Anayasası ile kurulmuştur.",
+		"reference": {
+			"title": "TBMM Zabıt Ceridesi",
+			"section": "İstiklal Mahkemeleri (Eylül 1920)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ic-isyanlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-kurtulus-020",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/tbmm-ve-kurtulus-savasi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Mudanya Ateşkes görüşmelerine temsilci gönderdiği hâlde temsilcileri görüşmelere doğrudan katılmayıp ateşkesi sonradan kabul eden devlet aşağıdakilerden hangisidir?",
+		"options": [
+			"Yunanistan",
+			"Fransa",
+			"İtalya",
+			"İngiltere",
+			"Sovyet Rusya"
+		],
+		"correctIndex": 0,
+		"explanation": "Mudanya görüşmelerinde TBMM Hükûmetini İsmet Paşa, İtilaf Devletlerini İngiltere, Fransa ve İtalya generalleri temsil etmiştir. Ateşkesle doğrudan ilgili olan Yunanistan temsilci göndermiş, ancak Yunan delegeler görüşmelere katılmayıp Mudanya açıklarında bir İngiliz gemisinde beklemiştir. Ateşkes 11 Ekim 1922'de imzalanmış, Yunanistan sonradan kabul etmiştir.",
+		"reference": {
+			"title": "Mudanya Ateşkes Antlaşması (11 Ekim 1922)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"antlasmalar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

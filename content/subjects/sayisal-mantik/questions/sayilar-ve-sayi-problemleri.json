@@ -268,5 +268,815 @@
 		"tags": [],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-sayi-011",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bir sayının 5 fazlasının 2 katı 34'tür.\n\nBu sayının kendisi kaçtır?",
+		"options": [
+			"7",
+			"29",
+			"12",
+			"14",
+			"17"
+		],
+		"correctIndex": 2,
+		"explanation": "\"5 fazlasının 2 katı\" ifadesinde önce 5 eklenir, sonra 2 ile çarpılır: 2(x + 5) = 34. İki taraf 2'ye bölünür: x + 5 = 17, buradan x = 12. 17 cevabı parantezin içini sayının kendisi sanmaktan doğar. Sağlama: (12 + 5) × 2 = 34.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-012",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bir bölme işleminde bölen 7, bölüm 12 ve kalan 5'tir.\n\nBölünen sayı kaçtır?",
+		"options": [
+			"79",
+			"89",
+			"84",
+			"96",
+			"91"
+		],
+		"correctIndex": 1,
+		"explanation": "Bölme işleminde bölünen = bölen × bölüm + kalan eşitliği geçerlidir. Bölünen = 7 × 12 + 5 = 84 + 5 = 89. Kalanın bölenden küçük olması gerekir; 5 < 7 olduğu için işlem geçerlidir. 84 cevabı kalanı eklemeyi unutmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-013",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Ardışık dört çift sayının toplamı 44'tür.\n\nBu sayılardan en küçüğü kaçtır?",
+		"options": [
+			"8",
+			"12",
+			"14",
+			"6",
+			"10"
+		],
+		"correctIndex": 0,
+		"explanation": "En küçük sayıya x denirse sayılar x, x + 2, x + 4, x + 6 olur. Toplam 4x + 12 = 44'tür; buradan 4x = 32 ve x = 8 bulunur. Sayılar 8, 10, 12, 14'tür ve toplamları 44'tür.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-014",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bugün Ayşe 12, annesi 38 yaşındadır.\n\n7 yıl sonra anne ile kızının yaşları arasındaki fark kaç olur?",
+		"options": [
+			"40",
+			"26",
+			"19",
+			"33",
+			"31"
+		],
+		"correctIndex": 1,
+		"explanation": "Yıllar geçtikçe iki kişinin de yaşı aynı miktarda artar; bu yüzden yaş farkı hiç değişmez. Bugünkü fark 38 − 12 = 26'dır ve 7 yıl sonra da 26 olur (45 − 19 = 26). 33 ve 19 cevapları 7 yılı yalnızca bir kişiye eklemekten doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-015",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir öğretmen elindeki 42 kalemi ve 56 defteri, hiç artmayacak biçimde öğrencilerine eşit sayıda dağıtacaktır.\n\nBu dağıtım en fazla kaç öğrenciye yapılabilir?",
+		"options": [
+			"7",
+			"28",
+			"168",
+			"98",
+			"14"
+		],
+		"correctIndex": 4,
+		"explanation": "Öğrenci sayısı hem 42'yi hem 56'yı tam bölmelidir; en fazla öğrenci sayısı bu yüzden EBOB(42, 56)'dır. 42 = 2 × 3 × 7 ve 56 = 2³ × 7 olduğundan EBOB = 2 × 7 = 14'tür. Her öğrenci 3 kalem ve 4 defter alır. 168, EKOK'u hesaplamaktan doğan çeldiricidir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-016",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Beş basamaklı 7318A sayısı 4 ile tam bölünebilmektedir.\n\nA rakamının alabileceği değerlerin toplamı kaçtır?",
+		"options": [
+			"20",
+			"8",
+			"10",
+			"14",
+			"12"
+		],
+		"correctIndex": 4,
+		"explanation": "Bir sayının 4 ile bölünebilmesi için son iki basamağının oluşturduğu sayı 4'ün katı olmalıdır. Son iki basamak 8A'dır; 80, 84 ve 88 sayıları 4'e bölünür. A rakamı 0, 4 veya 8 olabilir ve bu değerlerin toplamı 12'dir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-017",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir terminalden üç ayrı hattın otobüsleri 12, 18 ve 30 dakikada bir kalkmaktadır. Üç hattın otobüsleri saat 08.00'de birlikte kalkmıştır.\n\nÜç otobüs ilk kez saat kaçta yeniden birlikte kalkar?",
+		"options": [
+			"10.00",
+			"14.00",
+			"11.30",
+			"11.00",
+			"09.30"
+		],
+		"correctIndex": 3,
+		"explanation": "Birlikte kalkış süresi 12, 18 ve 30'un ortak katı olmalıdır; ilk karşılaşma EKOK'tadır. 12 = 2² × 3, 18 = 2 × 3², 30 = 2 × 3 × 5 olduğundan EKOK = 2² × 3² × 5 = 180 dakikadır. 180 dakika 3 saattir; otobüsler 08.00 + 3 saat = 11.00'de yeniden birlikte kalkar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-018",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Üç kardeşin bugünkü yaşları toplamı 36'dır.\n\n4 yıl sonra bu üç kardeşin yaşları toplamı kaç olur?",
+		"options": [
+			"48",
+			"39",
+			"52",
+			"44",
+			"40"
+		],
+		"correctIndex": 0,
+		"explanation": "Her yıl her kardeşin yaşı 1 artar. 4 yıl sonra üç kardeşin her biri 4 yaş büyüyeceği için toplam 3 × 4 = 12 artar: 36 + 12 = 48. 40 cevabı, 4 yılı toplamına yalnızca bir kez eklemekten doğar; n kişinin yaşları toplamı t yılda n × t artar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-019",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir memur aylık maaşının 2/5'ini kiraya, 1/4'ünü mutfak giderlerine ayırıyor ve geriye 10.500 TL kalıyor.\n\nBu memurun aylık maaşı kaç TL'dir?",
+		"options": [
+			"35.000",
+			"42.000",
+			"25.000",
+			"30.000",
+			"28.000"
+		],
+		"correctIndex": 3,
+		"explanation": "İki oran da maaşın tamamına göre verildiği için toplanır: 2/5 + 1/4 = 8/20 + 5/20 = 13/20. Geriye maaşın 7/20'si kalır. 7/20'si 10.500 TL ise 1/20'si 1.500 TL, tamamı 20 × 1.500 = 30.000 TL'dir. Oranlar yalnızca \"kalanın\" ifadesi geçtiğinde çarpılır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-020",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "İki basamaklı AB sayısından, rakamlarının yerleri değiştirilerek elde edilen BA sayısı çıkarıldığında 18 bulunmaktadır.\n\nAB sayısının rakamları toplamı 14 olduğuna göre AB kaçtır?",
+		"options": [
+			"86",
+			"95",
+			"84",
+			"77",
+			"68"
+		],
+		"correctIndex": 0,
+		"explanation": "AB − BA = (10A + B) − (10B + A) = 9(A − B) olduğundan 9(A − B) = 18 ve A − B = 2 bulunur. A + B = 14 ile birlikte çözülünce A = 8, B = 6 olur; AB = 86'dır. Sağlama: 86 − 68 = 18. 68 cevabı sayıyla yer değiştirilmiş hâlini karıştırmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-021",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "İki pozitif tam sayının EBOB'u 6, EKOK'u 180'dir.\n\nSayılardan biri 36 olduğuna göre diğeri kaçtır?",
+		"options": [
+			"45",
+			"30",
+			"60",
+			"24",
+			"18"
+		],
+		"correctIndex": 1,
+		"explanation": "İki sayı için EBOB × EKOK = sayıların çarpımı eşitliği geçerlidir: 6 × 180 = 1080 = 36 × diğer sayı. Buradan diğer sayı 1080 ÷ 36 = 30 bulunur. Sağlama: 36 = 2² × 3², 30 = 2 × 3 × 5; EBOB = 2 × 3 = 6, EKOK = 2² × 3² × 5 = 180.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-022",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Dört basamaklı 3A52 sayısı 11 ile tam bölünebilmektedir.\n\nBuna göre A rakamı kaçtır?",
+		"options": [
+			"8",
+			"7",
+			"4",
+			"5",
+			"6"
+		],
+		"correctIndex": 4,
+		"explanation": "11 ile bölünebilmede sağdan başlayarak rakamlara sırayla +, −, +, − işareti verilir: 2 − 5 + A − 3 = A − 6. Bu toplam 11'in katı olmalıdır; A bir rakam olduğu için A − 6 = 0 ve A = 6 bulunur. Sağlama: 3652 = 11 × 332.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-023",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir çiftlikte yalnızca tavuklar ve koyunlar vardır. Hayvanların toplam sayısı 30, ayaklarının toplam sayısı 84'tür.\n\nÇiftlikte kaç koyun vardır?",
+		"options": [
+			"18",
+			"12",
+			"15",
+			"10",
+			"14"
+		],
+		"correctIndex": 1,
+		"explanation": "Bütün hayvanlar tavuk olsaydı 30 × 2 = 60 ayak olurdu. Gerçekte 84 − 60 = 24 ayak fazladır. Her koyun bir tavuğa göre 2 ayak fazla getirdiğinden koyun sayısı 24 ÷ 2 = 12'dir; tavuk sayısı 18 olur. Sağlama: 18 × 2 + 12 × 4 = 36 + 48 = 84.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-024",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir annenin bugünkü yaşı kızının yaşının 3 katıdır. 10 yıl önce annenin yaşı kızının yaşının 7 katıydı.\n\nAnnenin bugünkü yaşı kaçtır?",
+		"options": [
+			"36",
+			"42",
+			"51",
+			"45",
+			"48"
+		],
+		"correctIndex": 3,
+		"explanation": "Kızın bugünkü yaşına x denirse anne 3x yaşındadır. 10 yıl önce kız x − 10, anne 3x − 10 yaşındaydı: 3x − 10 = 7(x − 10). Buradan 3x − 10 = 7x − 70, 4x = 60 ve x = 15 bulunur. Anne 3 × 15 = 45 yaşındadır. Sağlama: 10 yıl önce 35 ve 5 yaşlarındaydılar; 35 = 7 × 5.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-025",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Pozitif bir tam sayı 6'ya bölündüğünde 4, 8'e bölündüğünde 6 kalanını vermektedir.\n\nBu koşulu sağlayan en küçük sayı kaçtır?",
+		"options": [
+			"46",
+			"24",
+			"26",
+			"20",
+			"22"
+		],
+		"correctIndex": 4,
+		"explanation": "Her iki kalan da bölenden 2 eksiktir. Bu yüzden sayıya 2 eklenince hem 6'ya hem 8'e tam bölünen bir sayı elde edilir; bu sayı EKOK(6, 8) = 24'ün katıdır. En küçük durumda sayı + 2 = 24 ve sayı = 22 olur. Sağlama: 22 = 6 × 3 + 4 ve 22 = 8 × 2 + 6.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-026",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir öğrenci okuduğu kitabın ilk gün 1/4'ünü, ikinci gün kalan kısmın 2/3'ünü okumuştur. Okunmamış 50 sayfa kalmıştır.\n\nKitap kaç sayfadır?",
+		"options": [
+			"150",
+			"120",
+			"200",
+			"240",
+			"300"
+		],
+		"correctIndex": 2,
+		"explanation": "İlk gün 1/4'ü okununca kitabın 3/4'ü kalır. İkinci gün bu kalanın 2/3'ü okunduğu için kalanın 1/3'ü okunmadan kalır: 3/4 × 1/3 = 1/4. Kitabın 1/4'ü 50 sayfa olduğuna göre tamamı 200 sayfadır. Oranları toplamak (1/4 + 2/3 = 11/12) \"kalan\" ifadesini gözden kaçırmaktır ve 600 sayfa verir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-027",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "360 sayısının kaç tane pozitif tam sayı böleni vardır?",
+		"options": [
+			"20",
+			"30",
+			"24",
+			"18",
+			"12"
+		],
+		"correctIndex": 2,
+		"explanation": "Sayı asal çarpanlarına ayrılır: 360 = 2³ × 3² × 5¹. Pozitif bölen sayısı, her üssün 1 fazlasının çarpımıdır: (3 + 1) × (2 + 1) × (1 + 1) = 4 × 3 × 2 = 24. Her bölen, 2'nin 0-3, 3'ün 0-2 ve 5'in 0-1 arasındaki kuvvetlerinin bir birleşimidir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-028",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir sayı 3'e bölündüğünde 2, 5'e bölündüğünde 1 kalanını vermektedir.\n\nBu koşulları sağlayan üç basamaklı en küçük sayı kaçtır?",
+		"options": [
+			"101",
+			"116",
+			"111",
+			"106",
+			"104"
+		],
+		"correctIndex": 0,
+		"explanation": "Kalanlar bölenden aynı miktarda eksik olmadığı için EKOK kısayolu doğrudan kullanılamaz; koşullardan biri listelenir. 5'e bölününce 1 kalanını veren sayılar 1, 6, 11, 16... biçimindedir; bunlardan 3'e bölününce 2 kalanını veren ilk sayı 11'dir. Sonraki çözümler 15'er artar: 11, 26, 41, 56, 71, 86, 101. Üç basamaklı en küçüğü 101'dir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-029",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Ardışık beş çift sayının toplamı, bu sayıların en küçüğünün 6 katından 4 fazladır.\n\nBu sayıların en büyüğü kaçtır?",
+		"options": [
+			"16",
+			"26",
+			"20",
+			"24",
+			"22"
+		],
+		"correctIndex": 3,
+		"explanation": "En küçük sayıya x denirse sayılar x, x + 2, x + 4, x + 6, x + 8 olur ve toplamları 5x + 20'dir. Koşula göre 5x + 20 = 6x + 4, buradan x = 16 bulunur. Sayılar 16, 18, 20, 22, 24'tür; en büyüğü 24'tür. Sağlama: toplam 100, 6 × 16 + 4 = 100. 16 cevabı en küçük sayıda durmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-030",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir babanın bugünkü yaşı, iki çocuğunun yaşları toplamının 3 katıdır. 24 yıl sonra babanın yaşı, iki çocuğunun o zamanki yaşları toplamına eşit olacaktır.\n\nBabanın bugünkü yaşı kaçtır?",
+		"options": [
+			"30",
+			"48",
+			"36",
+			"42",
+			"39"
+		],
+		"correctIndex": 2,
+		"explanation": "Çocukların yaşları toplamına T denirse baba 3T yaşındadır. 24 yıl sonra baba 24 yaş büyür; iki çocuğun yaşları toplamı ise 2 × 24 = 48 artar. Buradan 3T + 24 = T + 48, 2T = 24 ve T = 12 bulunur. Baba 36 yaşındadır. Sağlama: 24 yıl sonra baba 60, çocukların toplamı 12 + 48 = 60. 48 cevabı iki çocuğun toplamını 24 artırmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-031",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Beş sayının aritmetik ortalaması 12'dir. Bu sayılara 18 sayısı da eklenmiştir.\n\nAltı sayının aritmetik ortalaması kaç olur?",
+		"options": [
+			"15",
+			"16",
+			"12",
+			"13",
+			"14"
+		],
+		"correctIndex": 3,
+		"explanation": "Aritmetik ortalama = toplam ÷ sayı adedi olduğundan beş sayının toplamı 5 × 12 = 60'tır. 18 eklenince toplam 78, sayı adedi 6 olur: 78 ÷ 6 = 13. 15 cevabı yalnızca 12 ile 18'in ortalamasını almaktan doğar; ortalama sayı adediyle ağırlıklandırılmalıdır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-032",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bir kırtasiyede 3 kalem ile 2 defterin toplam fiyatı 110 TL, 1 kalem ile 2 defterin toplam fiyatı 70 TL'dir.\n\nBir kalemin fiyatı kaç TL'dir?",
+		"options": [
+			"20",
+			"15",
+			"30",
+			"25",
+			"35"
+		],
+		"correctIndex": 0,
+		"explanation": "İki alışverişte defter sayısı aynıdır (2 defter). Birinci toplamdan ikinci toplam çıkarılınca defterler sadeleşir: 3 kalem − 1 kalem = 110 − 70, yani 2 kalem = 40 TL ve 1 kalem = 20 TL. Buradan 2 defter = 70 − 20 = 50 TL, 1 defter = 25 TL bulunur; 25 cevabı defterin fiyatıdır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-033",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir birimde çalışan 8 personelin yaş ortalaması 35'tir. Bu personelden 49 yaşındaki biri emekli olmuştur.\n\nBirimde kalan personelin yaş ortalaması kaçtır?",
+		"options": [
+			"34",
+			"32",
+			"33",
+			"31",
+			"35"
+		],
+		"correctIndex": 2,
+		"explanation": "8 personelin yaşları toplamı 8 × 35 = 280'dir. 49 yaşındaki personel ayrılınca toplam 280 − 49 = 231, kişi sayısı 7 olur: 231 ÷ 7 = 33. Ortalamanın üzerindeki bir yaş gruptan çıktığı için ortalama düşer.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-034",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "a, b ve c birer tam sayıdır. a + b tek sayı, b + c çift sayıdır.\n\nBuna göre aşağıdakilerden hangisi kesinlikle tek sayıdır?",
+		"options": [
+			"b + 2c",
+			"a + b + c",
+			"a · c",
+			"b · c",
+			"a + c"
+		],
+		"correctIndex": 4,
+		"explanation": "b + c çift olduğundan b ile c'nin tekliği aynıdır; a + b tek olduğundan a ile b'nin tekliği farklıdır. Bu yüzden a ile c'nin tekliği farklıdır ve a + c her zaman tektir. Biri tek biri çift iki sayının çarpımı çift olduğundan a · c her zaman çifttir. b · c, a + b + c ve b + 2c ise sayılara göre tek ya da çift olabilir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-035",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Rakamları birbirinden farklı üç basamaklı en büyük çift sayı ile rakamları birbirinden farklı üç basamaklı en küçük tek sayı veriliyor.\n\nBu iki sayının farkı kaçtır?",
+		"options": [
+			"881",
+			"883",
+			"873",
+			"897",
+			"885"
+		],
+		"correctIndex": 1,
+		"explanation": "En büyük sayı için yüzler basamağına 9, onlar basamağına 8 yazılır; birler basamağı çift ve 9 ile 8'den farklı olmalıdır, en büyüğü 6'dır: 986. En küçük sayı için yüzler basamağına 1, onlar basamağına 0 yazılır; birler basamağı tek ve 1 ile 0'dan farklı olmalıdır, en küçüğü 3'tür: 103. Fark 986 − 103 = 883'tür. 998 ve 101 rakamları farklı olmadığı için kullanılamaz.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-036",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "20 öğrencinin not ortalaması hesaplanırken bir öğrencinin 85 olan notu yanlışlıkla 58 olarak alınmış ve ortalama 70,65 bulunmuştur.\n\nDoğru not ortalaması kaçtır?",
+		"options": [
+			"71",
+			"73,35",
+			"71,35",
+			"72",
+			"69,3"
+		],
+		"correctIndex": 3,
+		"explanation": "Yanlış hesaplanan toplam 20 × 70,65 = 1.413'tür. Doğru toplam, eksik alınan 85 − 58 = 27 puan eklenerek bulunur: 1.413 + 27 = 1.440. Doğru ortalama 1.440 ÷ 20 = 72'dir. Kısa yol: 27 puanlık fark 20 öğrenciye bölününce ortalama 1,35 artar; 70,65 + 1,35 = 72.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-037",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir konserde tam bilet 150 TL, öğrenci bileti 90 TL'dir. Toplam 60 bilet satılmış ve 6.960 TL gelir elde edilmiştir.\n\nKaç öğrenci bileti satılmıştır?",
+		"options": [
+			"36",
+			"34",
+			"32",
+			"26",
+			"30"
+		],
+		"correctIndex": 1,
+		"explanation": "Biletlerin hepsi tam bilet olsaydı gelir 60 × 150 = 9.000 TL olurdu. Gerçek gelir 9.000 − 6.960 = 2.040 TL azdır. Her öğrenci bileti geliri 150 − 90 = 60 TL azaltır: 2.040 ÷ 60 = 34 öğrenci bileti. Tam bilet sayısı 60 − 34 = 26'dır. Sağlama: 26 × 150 + 34 × 90 = 3.900 + 3.060 = 6.960.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-038",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "a = 3/4, b = 5/7 ve c = 7/9 sayıları veriliyor.\n\nBu sayıların küçükten büyüğe doğru sıralanışı aşağıdakilerden hangisidir?",
+		"options": [
+			"a < c < b",
+			"b < c < a",
+			"c < a < b",
+			"a < b < c",
+			"b < a < c"
+		],
+		"correctIndex": 4,
+		"explanation": "Payı paydasından birer eksik kesirleri karşılaştırmak için 1'e olan uzaklıklarına bakılır: 1 − 3/4 = 1/4, 1 − 5/7 = 2/7, 1 − 7/9 = 2/9. Uzaklık küçüldükçe sayı büyür. 2/9 < 1/4 < 2/7 olduğundan c en büyük, b en küçüktür: b < a < c. Ondalık yazılışla da doğrulanır: 5/7 ≈ 0,714; 3/4 = 0,75; 7/9 ≈ 0,778.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-039",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Birbirinden farklı beş pozitif tam sayının aritmetik ortalaması 20'dir.\n\nBu sayılardan en büyüğü en fazla kaç olabilir?",
+		"options": [
+			"95",
+			"96",
+			"90",
+			"80",
+			"86"
+		],
+		"correctIndex": 2,
+		"explanation": "Beş sayının toplamı 5 × 20 = 100'dür. En büyük sayının en fazla olması için diğer dört sayı olabildiğince küçük seçilmelidir. Sayılar farklı ve pozitif olduğundan en küçük dört sayı 1, 2, 3 ve 4'tür; toplamları 10'dur. En büyük sayı en fazla 100 − 10 = 90 olur. 96 cevabı sayıların farklı olma şartını göz ardı edip dördünü de 1 almaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-sayi-040",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayilar-ve-sayi-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "x ve y birer asal sayıdır ve x + y = 25'tir.\n\nBuna göre x · y çarpımı kaçtır?",
+		"options": [
+			"46",
+			"154",
+			"100",
+			"126",
+			"66"
+		],
+		"correctIndex": 0,
+		"explanation": "İki sayının toplamı tek olduğundan sayılardan biri tek, diğeri çift olmalıdır. Tek çift asal sayı 2'dir; diğer sayı 25 − 2 = 23 olur ve 23 de asaldır. Çarpım 2 × 23 = 46'dır. 66 (3 × 22), 126 (7 × 18), 154 (11 × 14) ve 100 (5 × 20) çarpımlarında sayılardan biri asal değildir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

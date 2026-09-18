@@ -318,5 +318,327 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-inonu-011",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Atatürk'ün vefatından sonra toplanan CHP 1. Olağanüstü Kurultayı'nda İsmet İnönü'ye verilen unvan aşağıdakilerden hangisidir?",
+		"options": [
+			"Başöğretmen",
+			"Başkomutan",
+			"Gazi",
+			"Ebedî Şef",
+			"Millî Şef"
+		],
+		"correctIndex": 4,
+		"explanation": "Aralık 1938'de toplanan CHP 1. Olağanüstü Kurultayı'nda İsmet İnönü partinin değişmez genel başkanı seçilmiş ve kendisine \"Millî Şef\" unvanı verilmiştir. Aynı kurultayda Atatürk \"Ebedî Şef\" ilan edilmiştir. \"Gazi\" unvanı 1921'de Sakarya zaferinden sonra, \"Başöğretmen\" nitelemesi ise harf inkılabı sürecinde Mustafa Kemal için kullanılmıştır.",
+		"reference": {
+			"title": "CHP 1. Olağanüstü Kurultayı (Aralık 1938)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ic-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-inonu-012",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "İkinci Dünya Savaşı'nın yol açtığı gıda sıkıntısı ve üretim düşüşü nedeniyle Türkiye'de 1942-1946 yılları arasında uygulanan düzenleme aşağıdakilerden hangisidir?",
+		"options": [
+			"Gümrük Birliği uygulaması",
+			"Aşar vergisinin yeniden konulması",
+			"Ekmek karnesi uygulaması",
+			"Soyadı Kanunu",
+			"Kabotaj Kanunu"
+		],
+		"correctIndex": 2,
+		"explanation": "Savaş yıllarında ordunun seferber tutulması üretimi düşürmüş, gıda sıkıntısı ortaya çıkmıştır. Bu nedenle 1942-1946 yılları arasında büyük şehirlerde ekmek karneyle dağıtılmış, günlük ekmek miktarı karneye işlenmiştir. Kabotaj Kanunu 1926'nın, Soyadı Kanunu 1934'ün düzenlemesidir; aşar ise 1925'te kaldırılmış ve yeniden konulmamıştır.",
+		"reference": {
+			"title": "Ekmek karnesi uygulaması (1942-1946)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-inonu-013",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye'nin savaşa girmesi için baskı yapılan ve 4-6 Aralık 1943'te Mısır'da Roosevelt, Churchill ve İnönü'nün katıldığı toplantı aşağıdakilerden hangisidir?",
+		"options": [
+			"Adana Görüşmesi",
+			"İkinci Kahire Konferansı",
+			"Yalta Konferansı",
+			"Potsdam Konferansı",
+			"Tahran Konferansı"
+		],
+		"correctIndex": 1,
+		"explanation": "İkinci Kahire Konferansı 4-6 Aralık 1943'te Kahire'de toplanmış; ABD Başkanı Roosevelt, İngiltere Başbakanı Churchill ve Cumhurbaşkanı İnönü katılmıştır. Müttefiklerin baskısına rağmen Türkiye savaşa girmemiştir. Adana Görüşmesi ise Ocak 1943'te Türkiye'de yalnızca Churchill ile İnönü arasında yapılmıştır; Türkiye Yalta, Tahran ve Potsdam konferanslarına katılmamıştır.",
+		"reference": {
+			"title": "İkinci Kahire Konferansı (4-6 Aralık 1943)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-inonu-014",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "19 Ekim 1939 tarihli Türk-İngiliz-Fransız Karşılıklı Yardım Antlaşması'nın temel hükmü aşağıdakilerden hangisidir?",
+		"options": [
+			"Türkiye'nin Sovyetler Birliği ile ittifak kurmasının yasaklanması",
+			"Türkiye'nin savaşın başından itibaren Almanya'ya savaş ilan etmesi",
+			"Boğazların İngiltere ve Fransa donanmalarına sürekli açık tutulması",
+			"Hatay'ın Fransa'ya geri verilmesi",
+			"Akdeniz bölgesinde bir Avrupa devletinin saldırısıyla çıkacak bir savaşta tarafların birbirine yardım etmesi"
+		],
+		"correctIndex": 4,
+		"explanation": "İkinci Dünya Savaşı'nın başlamasından kısa süre sonra imzalanan antlaşma, Akdeniz bölgesinde bir Avrupa devletinin saldırısı sonucunda çıkacak bir savaşta Türkiye, İngiltere ve Fransa'nın birbirine yardım etmesini öngörmüştür. Türkiye ise savaş dışı kalma politikasını sürdürmüş, Almanya'ya ancak 23 Şubat 1945'te savaş ilan etmiştir. Hatay Haziran 1939'da Türkiye'ye katılmıştı.",
+		"reference": {
+			"title": "Türk-İngiliz-Fransız Karşılıklı Yardım Antlaşması (19 Ekim 1939)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-inonu-015",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Varlık Vergisi Kanunu'nun çıkarıldığı 1942'den çok partili hayatın ilk genel seçimlerinden sonrasına kadar başbakanlık yapan devlet adamı aşağıdakilerden hangisidir?",
+		"options": [
+			"Celal Bayar",
+			"Adnan Menderes",
+			"Refik Saydam",
+			"Şükrü Saracoğlu",
+			"Recep Peker"
+		],
+		"correctIndex": 3,
+		"explanation": "Şükrü Saracoğlu 9 Temmuz 1942'den 7 Ağustos 1946'ya kadar başbakanlık yapmıştır; Varlık Vergisi Kanunu 11 Kasım 1942'de onun hükûmeti döneminde çıkarılmıştır. Refik Saydam 1939-1942, Celal Bayar ise 1937-1939 arasında başbakandır. Adnan Menderes 1950'de Demokrat Parti iktidarıyla başbakan olmuştur.",
+		"reference": {
+			"title": "4305 sayılı Varlık Vergisi Kanunu (11 Kasım 1942)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ic-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-inonu-016",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Türkiye'nin 23 Şubat 1945'te Almanya ve Japonya'ya savaş ilan etmesinden önce, Ağustos 1944'te Müttefiklere yakınlaşma yönünde attığı adım aşağıdakilerden hangisidir?",
+		"options": [
+			"Birleşmiş Milletler'in kurucu üyesi olması",
+			"Truman Doktrini kapsamında yardım alması",
+			"NATO'ya üye olması",
+			"Almanya ile ilişkilerini kesmesi",
+			"Balkan Paktı'nı imzalaması"
+		],
+		"correctIndex": 3,
+		"explanation": "Bulgaristan'ın savaştan çekilmesi ve Sovyet ordusunun Balkanlara girmesiyle Türkiye, Ağustos 1944'te Almanya ile ilişkilerini kestiğini duyurmuştur. Ardından 23 Şubat 1945'te Almanya ve Japonya'ya savaş ilan ederek Birleşmiş Milletler'in kurucu üyesi olmuştur. Truman Doktrini 1947'de, NATO üyeliği 1952'de, Balkan Paktı ise 1953-1954'te gerçekleşmiştir.",
+		"reference": {
+			"title": "II. Dünya Savaşı'nda Türkiye",
+			"section": "Ağustos 1944"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-inonu-017",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Millî Korunma Kanunu'nun kabul edildiği ve Köy Enstitülerinin kurulduğu 1940 yılında başbakan olan devlet adamı aşağıdakilerden hangisidir?",
+		"options": [
+			"Refik Saydam",
+			"Şükrü Saracoğlu",
+			"Recep Peker",
+			"Hasan Saka",
+			"Celal Bayar"
+		],
+		"correctIndex": 0,
+		"explanation": "Refik Saydam 25 Ocak 1939'dan 8 Temmuz 1942'deki ölümüne kadar başbakanlık yapmıştır. Millî Korunma Kanunu (18 Ocak 1940) ve Köy Enstitüleri Kanunu (17 Nisan 1940) onun hükûmeti döneminde çıkarılmıştır. Yerine Şükrü Saracoğlu geçmiştir. Celal Bayar ise Atatürk'ün vefatı sırasında başbakandı ve Ocak 1939'a kadar görevde kaldı.",
+		"reference": {
+			"title": "3780 sayılı Millî Korunma Kanunu (18 Ocak 1940)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ic-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-inonu-018",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "11 Haziran 1945'te kabul edilen 4753 sayılı Çiftçiyi Topraklandırma Kanunu'nun temel amacı aşağıdakilerden hangisidir?",
+		"options": [
+			"Köylülerin şehirlere göç etmesinin teşvik edilmesi",
+			"Topraksız veya az topraklı çiftçilere toprak dağıtılması",
+			"Aşar vergisinin kaldırılması",
+			"Büyük toprak sahiplerinin vergiden muaf tutulması",
+			"Köylerde öğretmen yetiştirilmesi"
+		],
+		"correctIndex": 1,
+		"explanation": "Çiftçiyi Topraklandırma Kanunu topraksız veya yeterli toprağı olmayan çiftçilere toprak dağıtılmasını amaçlamıştır. Kanunun mecliste görüşülmesi sırasında büyük toprak sahibi milletvekillerinin itirazları CHP içinde muhalefetin doğmasına ve çok partili hayata geçiş sürecine yol açmıştır. Aşar 1925'te kaldırılmış, Köy Enstitüleri ise 1940'ta öğretmen yetiştirmek için kurulmuştur.",
+		"reference": {
+			"title": "4753 sayılı Çiftçiyi Topraklandırma Kanunu (11 Haziran 1945)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomi",
+			"ic-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-inonu-019",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "İkinci Dünya Savaşı yıllarında Türkiye savaşa girmediği hâlde ordunun uzun süre seferber tutulmasının ülke ekonomisine etkisi aşağıdakilerden hangisidir?",
+		"options": [
+			"Üretimin düşmesi, karaborsacılığın ve fiyat artışlarının yaygınlaşması",
+			"Sanayi üretiminin iki katına çıkması",
+			"Köyden kente işçi göçünün hızlanması ve kentsel üretimin artması",
+			"Enflasyonun tamamen ortadan kalkması",
+			"Dış ticaret fazlasıyla döviz rezervlerinin hızla artması"
+		],
+		"correctIndex": 0,
+		"explanation": "Savaş boyunca çalışabilir erkek nüfusun önemli bir kısmının silah altında tutulması özellikle köylerde üretimi düşürmüştür. Mal kıtlığı karaborsacılığı ve fiyat artışlarını yaygınlaştırmış; hükûmet Millî Korunma Kanunu, ekmek karnesi ve Varlık Vergisi gibi olağanüstü tedbirlere başvurmuştur.",
+		"reference": {
+			"title": "3780 sayılı Millî Korunma Kanunu (18 Ocak 1940)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-inonu-020",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/inonu-donemi-ve-ikinci-dunya-savasi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Atatürk'ün vefat ettiği sırada başbakan olan ve İnönü'nün Cumhurbaşkanlığının ilk aylarında da Ocak 1939'a kadar bu görevde kalan devlet adamı aşağıdakilerden hangisidir?",
+		"options": [
+			"Fethi Okyar",
+			"Şükrü Saracoğlu",
+			"Celal Bayar",
+			"İsmet İnönü",
+			"Refik Saydam"
+		],
+		"correctIndex": 2,
+		"explanation": "Celal Bayar 1 Kasım 1937'den 25 Ocak 1939'a kadar başbakanlık yapmıştır; Atatürk'ün 10 Kasım 1938'deki vefatı ve İnönü'nün 11 Kasım 1938'de Cumhurbaşkanı seçilmesi bu dönemdedir. Bayar'ın ardından Refik Saydam başbakan olmuştur. Celal Bayar daha sonra Demokrat Parti'nin kurucuları arasında yer almış ve 1950'de Cumhurbaşkanı seçilmiştir.",
+		"reference": {
+			"title": "TBMM'nin 11 Kasım 1938 tarihli Cumhurbaşkanı seçimi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ic-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

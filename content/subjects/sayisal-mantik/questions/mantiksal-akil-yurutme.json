@@ -268,5 +268,815 @@
 		"tags": [],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-mantik-011",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bugün günlerden çarşambadır.\n\nBugünden 100 gün sonra günlerden ne olur?",
+		"options": [
+			"Pazar",
+			"Cuma",
+			"Salı",
+			"Perşembe",
+			"Cumartesi"
+		],
+		"correctIndex": 1,
+		"explanation": "Günler 7 günde bir tekrar eder; bu yüzden 100'ün 7'ye bölümünden kalana bakılır. 100 = 7 × 14 + 2 olduğundan 98 gün sonra yine çarşambadır. 2 gün daha ilerlenince cuma olur.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-012",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bir toplantıya katılan 10 kişinin her biri diğerleriyle yalnızca birer kez tokalaşmıştır.\n\nToplam kaç tokalaşma olmuştur?",
+		"options": [
+			"50",
+			"90",
+			"100",
+			"20",
+			"45"
+		],
+		"correctIndex": 4,
+		"explanation": "Her tokalaşma iki kişi arasında olur ve kişilerin sırası önemsizdir; bu yüzden 10 kişiden 2'li seçim sayısı hesaplanır: C(10, 2) = 10 × 9 ÷ 2 = 45. 90 cevabı her tokalaşmayı iki kişinin tarafından ayrı ayrı saymaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-013",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "İki madeni para aynı anda havaya atılıyor.\n\nParalardan en az birinin yazı gelme olasılığı kaçtır?",
+		"options": [
+			"2/3",
+			"1/2",
+			"1/4",
+			"3/4",
+			"1/3"
+		],
+		"correctIndex": 3,
+		"explanation": "İki paranın eşit olasılıklı dört sonucu vardır: YY, YT, TY, TT. Bunlardan yalnızca TT'de hiç yazı yoktur. En az bir yazı içeren sonuç sayısı 3 olduğundan olasılık 3/4'tür. Tümleyenle de bulunur: 1 − 1/4 = 3/4. 2/3 cevabı YT ile TY'yi tek sonuç saymaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-014",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bir çekmecede 5 kırmızı, 7 mavi ve 9 siyah çorap bulunmaktadır.\n\nKaranlıkta bakmadan çekmeceden en az kaç çorap alınırsa aynı renkten iki çorap alındığı kesin olur?",
+		"options": [
+			"22",
+			"10",
+			"4",
+			"8",
+			"3"
+		],
+		"correctIndex": 2,
+		"explanation": "En kötü durumda ilk çoraplar hep farklı renkten gelir. Üç renk olduğu için 3 çorap alınınca her renkten birer tane gelmiş olabilir. Dördüncü çorap mutlaka bu üç renkten birine aittir ve bir çift oluşur. Bu yüzden en az 4 çorap alınmalıdır; renklerin kaçar tane olduğu sonucu değiştirmez.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-015",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "KALEM kelimesinin harflerinin tamamı kullanılarak anlamlı ya da anlamsız beş harfli kaç farklı dizilim yazılabilir?",
+		"options": [
+			"60",
+			"120",
+			"25",
+			"24",
+			"720"
+		],
+		"correctIndex": 1,
+		"explanation": "Kelimenin beş harfi birbirinden farklıdır. Birinci yere 5, ikinci yere 4, üçüncüye 3, dördüncüye 2, sonuncuya 1 harf yerleştirilebilir: 5! = 5 × 4 × 3 × 2 × 1 = 120. 60 cevabı tekrar eden harf varmış gibi 2'ye bölmekten doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-016",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "K ve A harfleri ikişer kez geçen KAPAK sözcüğündeki harflerin yerleri değiştirilerek, sözcüğün kendisi de dâhil, birbirinden farklı kaç harf dizisi elde edilir?",
+		"options": [
+			"30",
+			"120",
+			"20",
+			"60",
+			"15"
+		],
+		"correctIndex": 0,
+		"explanation": "Kelimede K ve A harfleri ikişer kez, P harfi bir kez geçer. Tekrar eden harflerin kendi aralarında yer değiştirmesi yeni bir dizilim oluşturmadığı için 5! sonucu tekrar sayılarının faktöriyellerine bölünür: 5! ÷ (2! × 2!) = 120 ÷ 4 = 30. 60 cevabı yalnızca bir harfin tekrarını hesaba katmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-017",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "İki zar birlikte atılıyor.\n\nZarların üst yüzüne gelen sayıların toplamının 7 olma olasılığı kaçtır?",
+		"options": [
+			"5/36",
+			"7/36",
+			"1/11",
+			"1/6",
+			"1/12"
+		],
+		"correctIndex": 3,
+		"explanation": "İki zarın 6 × 6 = 36 eşit olasılıklı sonucu vardır. Toplamı 7 yapan sonuçlar (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) olmak üzere 6 tanedir. Olasılık 6/36 = 1/6'dır. 1/11 cevabı 2'den 12'ye kadar 11 toplamı eşit olasılıklı sanmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-018",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "6 erkek ve 4 kadın personel arasından 2 erkek ve 1 kadından oluşan 3 kişilik bir komisyon kurulacaktır.\n\nBu komisyon kaç farklı şekilde oluşturulabilir?",
+		"options": [
+			"80",
+			"24",
+			"36",
+			"60",
+			"120"
+		],
+		"correctIndex": 3,
+		"explanation": "Erkekler ve kadınlar ayrı ayrı seçilir, sonuçlar çarpılır. 6 erkekten 2'si C(6, 2) = 15, 4 kadından 1'i C(4, 1) = 4 farklı şekilde seçilir. Komisyon 15 × 4 = 60 farklı şekilde kurulur. 120 cevabı erkekleri seçerken sırayı önemli saymaktan (6 × 5) doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-019",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir kurumdaki 60 personelden 35'i hesap tablosu, 25'i sunum programı kullanabilmektedir. 10 personel her iki programı da kullanabilmektedir.\n\nBu iki programdan yalnızca birini kullanabilen kaç personel vardır?",
+		"options": [
+			"40",
+			"30",
+			"60",
+			"45",
+			"50"
+		],
+		"correctIndex": 0,
+		"explanation": "Yalnızca hesap tablosu kullananlar 35 − 10 = 25, yalnızca sunum programı kullananlar 25 − 10 = 15 kişidir. Yalnızca birini kullananların toplamı 25 + 15 = 40'tır. En az birini kullanan 50 kişidir; 50 cevabı kesişimdeki 10 kişiyi de saymaktan doğar. 10 personel ise hiçbirini kullanamamaktadır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-020",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "\"Hiçbir memur tüccar değildir.\"\n\"Bazı tüccarlar esnaftır.\"\n\nBu iki önerme doğru olduğuna göre aşağıdakilerden hangisi kesinlikle doğrudur?",
+		"options": [
+			"Hiçbir esnaf memur değildir.",
+			"Bütün esnaflar tüccardır.",
+			"Bazı memurlar esnaftır.",
+			"Bazı tüccarlar memurdur.",
+			"Bazı esnaflar memur değildir."
+		],
+		"correctIndex": 4,
+		"explanation": "Bazı tüccarlar esnaftır; bu esnaflar tüccar oldukları için ilk önermeye göre memur olamazlar. Demek ki memur olmayan en az bir esnaf vardır. Tüccar olmayan esnafların memur olup olmadığı hakkında bilgi verilmediği için \"hiçbir esnaf memur değildir\" ya da \"bazı memurlar esnaftır\" kesin değildir. Tüccar olan memur ise ilk önermeyle çelişir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-021",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aralarında Ali ve Veli'nin de bulunduğu 5 kişi bir sıraya dizilecektir.\n\nAli ile Veli'nin yan yana olduğu kaç farklı sıralama yapılabilir?",
+		"options": [
+			"120",
+			"24",
+			"48",
+			"96",
+			"72"
+		],
+		"correctIndex": 2,
+		"explanation": "Yan yana olması istenen Ali ve Veli tek bir blok gibi düşünülür. Blok ve diğer 3 kişi 4 birimdir ve 4! = 24 farklı şekilde sıralanır. Blok içinde Ali-Veli ya da Veli-Ali olmak üzere 2 farklı düzen vardır. Toplam 24 × 2 = 48 sıralama yapılır. 24 cevabı blok içindeki yer değiştirmeyi unutmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-022",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "0, 1, 2, 3 ve 4 rakamları kullanılarak rakamları birbirinden farklı üç basamaklı kaç sayı yazılabilir?",
+		"options": [
+			"100",
+			"64",
+			"125",
+			"60",
+			"48"
+		],
+		"correctIndex": 4,
+		"explanation": "Üç basamaklı bir sayı 0 ile başlayamaz; yüzler basamağına 0 dışındaki 4 rakamdan biri gelir. Onlar basamağına kalan 4 rakamdan (0 artık kullanılabilir) biri, birler basamağına kalan 3 rakamdan biri yazılır: 4 × 4 × 3 = 48. 60 cevabı 0'ın başa gelemeyeceğini unutmaktan (5 × 4 × 3) doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-023",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aylin, Berk, Cemre, Doruk ve Eda beş katlı bir binanın farklı katlarında çalışmaktadır.\n• Cemre 3. katta çalışmaktadır.\n• Aylin, Doruk'un bir üst katında çalışmaktadır.\n• Eda en üst katta çalışmamaktadır.\n• Berk, Eda'dan daha üst bir katta çalışmaktadır.\n• Doruk 1. katta çalışmamaktadır.\n\nBuna göre 2. katta kim çalışmaktadır?",
+		"options": [
+			"Cemre",
+			"Eda",
+			"Berk",
+			"Doruk",
+			"Aylin"
+		],
+		"correctIndex": 2,
+		"explanation": "Cemre 3. kattadır. Aylin Doruk'un bir üst katında olduğu için ikisi ardışık iki kattadır; 3. kat dolu olduğundan bu katlar 1-2 ya da 4-5'tir. Doruk 1. katta olamayacağı için Doruk 4., Aylin 5. kattadır. Kalan 1. ve 2. katlara Eda ile Berk yerleşir; Berk Eda'dan üstte olduğundan Berk 2., Eda 1. kattadır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-024",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir vazoyu Ayhan, Bora ve Cenk'ten yalnızca biri kırmıştır. Üçü şu açıklamaları yapmıştır:\nAyhan: \"Vazoyu Bora kırdı.\"\nBora: \"Ayhan yalan söylüyor.\"\nCenk: \"Vazoyu ben kırmadım.\"\n\nBu üç kişiden yalnızca biri doğru söylediğine göre vazoyu kim kırmıştır?",
+		"options": [
+			"Belirlenemez",
+			"Bora",
+			"Cenk",
+			"Ayhan ya da Bora",
+			"Ayhan"
+		],
+		"correctIndex": 2,
+		"explanation": "Bora'nın sözü Ayhan'ın sözünün tersidir; bu yüzden ikisinden tam olarak biri doğru söyler. Yalnızca bir kişi doğru söylediğine göre doğru söyleyen hakkı Ayhan ile Bora arasında kullanılmıştır ve Cenk yalan söylemektedir. Cenk'in \"ben kırmadım\" sözü yalansa vazoyu Cenk kırmıştır. Sağlama: Ayhan yanlış, Bora doğru, Cenk yanlış söylemiş olur.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-025",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir kutuda 3 kırmızı ve 5 mavi top vardır. Kutudan, çekilen top geri konulmadan art arda iki top çekiliyor.\n\nÇekilen iki topun farklı renkte olma olasılığı kaçtır?",
+		"options": [
+			"15/56",
+			"15/28",
+			"13/28",
+			"15/64",
+			"1/2"
+		],
+		"correctIndex": 1,
+		"explanation": "Farklı renk iki sırayla gelebilir. Önce kırmızı sonra mavi: 3/8 × 5/7 = 15/56. Önce mavi sonra kırmızı: 5/8 × 3/7 = 15/56. İki durum toplanır: 30/56 = 15/28. 15/56 cevabı yalnızca tek sırayı hesaplamaktan, 15/64 ise topu geri konuyor sanmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-026",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "6 kişi yuvarlak bir masanın etrafındaki 6 sandalyeye oturacaktır.\n\nYalnızca kişilerin birbirine göre konumu önemli olduğuna göre kaç farklı oturma düzeni oluşturulabilir?",
+		"options": [
+			"60",
+			"120",
+			"24",
+			"720",
+			"360"
+		],
+		"correctIndex": 1,
+		"explanation": "Düz bir sırada 6 kişi 6! = 720 farklı şekilde dizilir. Yuvarlak masada ise herkesi bir sandalye kaydırmak aynı düzeni verir; her düzen 6 kez sayılmış olur. Dairesel sıralama sayısı 720 ÷ 6 = 120, yani (6 − 1)! = 5! = 120'dir. 360 cevabı ayrıca saat yönünü de önemsiz sayarak ikiye bölmekten doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-027",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "40 kişilik bir sınıfta 20 öğrenci futbol, 15 öğrenci basketbol, 12 öğrenci voleybol oynamaktadır. Futbol ve basketbol oynayan 6, futbol ve voleybol oynayan 5, basketbol ve voleybol oynayan 4 öğrenci vardır. Üç sporu da oynayan 2 öğrencidir.\n\nBu üç spordan hiçbirini oynamayan kaç öğrenci vardır?",
+		"options": [
+			"2",
+			"8",
+			"4",
+			"6",
+			"11"
+		],
+		"correctIndex": 3,
+		"explanation": "Üç küme için s(A ∪ B ∪ C) = s(A) + s(B) + s(C) − ikili kesişimler + üçlü kesişim formülü kullanılır: 20 + 15 + 12 − 6 − 5 − 4 + 2 = 34. En az bir spor yapan 34 öğrenci olduğundan hiçbirini oynamayan 40 − 34 = 6 öğrencidir. Üçlü kesişimi eklemeyi unutmak 32 ve dolayısıyla 8 sonucunu verir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-028",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "5 erkek ve 3 kadın arasından 3 kişilik bir çalışma grubu oluşturulacaktır.\n\nGrupta en az bir kadın bulunması koşuluyla kaç farklı grup oluşturulabilir?",
+		"options": [
+			"46",
+			"36",
+			"45",
+			"56",
+			"30"
+		],
+		"correctIndex": 0,
+		"explanation": "\"En az bir\" koşulunda tümleyen yöntemi en kısadır. Kısıtsız seçim sayısı C(8, 3) = 56'dır. Hiç kadın içermeyen, yani yalnızca erkeklerden oluşan grup sayısı C(5, 3) = 10'dur. En az bir kadın içeren grup sayısı 56 − 10 = 46'dır. 56 cevabı koşulu hiç uygulamamaktan, 30 cevabı ise yalnızca tam bir kadın içeren grupları (3 × C(5, 2) = 30) sayıp iki ve üç kadınlı grupları atlamaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-029",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Arda, Bilge, Cansu ve Derya; Hukuk, Mali İşler, İnsan Kaynakları ve Bilgi İşlem birimlerinden farklı birinde ve dört katlı bir binanın farklı katlarında çalışmaktadır.\n• İnsan Kaynakları 1. kattadır.\n• Arda 3. katta çalışmaktadır.\n• Bilge Hukuk biriminde çalışmaktadır ve 2. katta değildir.\n• Mali İşler 2. kattadır.\n• Cansu, Derya'nın bir üst katında çalışmaktadır.\n\nBuna göre Derya hangi birimde çalışmaktadır?",
+		"options": [
+			"Hukuk",
+			"Mali İşler",
+			"Kesin olarak belirlenemez.",
+			"Bilgi İşlem",
+			"İnsan Kaynakları"
+		],
+		"correctIndex": 4,
+		"explanation": "Bilge Hukuk'tadır; 1. kat İnsan Kaynakları, 2. kat Mali İşler olduğundan Bilge bu katlarda olamaz, 3. katta da Arda vardır. Bilge 4. kattadır. Kalan 1. ve 2. katlarda Cansu ile Derya çalışır; Cansu Derya'nın bir üst katında olduğu için Derya 1., Cansu 2. kattadır. Derya 1. kattaki İnsan Kaynakları biriminde, Cansu Mali İşler'de, Arda ise kalan Bilgi İşlem'de çalışır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-030",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Üç atıcının bir hedefi vurma olasılıkları sırayla 1/2, 1/3 ve 1/4'tür. Her atıcı birbirinden bağımsız olarak hedefe birer atış yapıyor.\n\nHedefin en az bir kez vurulma olasılığı kaçtır?",
+		"options": [
+			"3/4",
+			"23/24",
+			"1/24",
+			"13/12",
+			"1/4"
+		],
+		"correctIndex": 0,
+		"explanation": "\"En az bir kez\" olasılığı tümleyenden hesaplanır: 1 − (hiç vurulmama olasılığı). Atıcıların ıskalama olasılıkları 1/2, 2/3 ve 3/4'tür; üçünün birden ıskalaması 1/2 × 2/3 × 3/4 = 1/4 olur. Hedefin en az bir kez vurulma olasılığı 1 − 1/4 = 3/4'tür. Olasılıkları toplamak 13/12 verir ve 1'den büyük bir olasılık olamaz.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-031",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bir şifrelemede her harf, Türk alfabesinde kendisinden 2 sonra gelen harfle yazılmaktadır.\nTürk alfabesi: A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z\n\nBu şifrelemeye göre \"KAR\" kelimesi nasıl yazılır?",
+		"options": [
+			"MCS",
+			"MÇŞ",
+			"MBŞ",
+			"MCŞ",
+			"LBS"
+		],
+		"correctIndex": 3,
+		"explanation": "Her harf alfabede iki adım ileri kaydırılır: K → L → M, A → B → C, R → S → Ş. Şifreli kelime MCŞ'dir. \"MCS\" cevabı Ş harfini atlayıp İngiliz alfabesine göre saymaktan doğar; Türk alfabesinde R'den sonra S, ondan sonra Ş gelir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-032",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1 Mart 2027 günü pazartesidir.\n\n1 Nisan 2027 hangi güne denk gelir?",
+		"options": [
+			"Çarşamba",
+			"Pazar",
+			"Cuma",
+			"Salı",
+			"Perşembe"
+		],
+		"correctIndex": 4,
+		"explanation": "Mart ayı 31 gündür; 1 Mart'tan 1 Nisan'a 31 gün geçer. Günler 7 günde bir tekrar ettiğinden 31'in 7'ye bölümünden kalan bulunur: 31 = 4 × 7 + 3. Pazartesiden 3 gün sonrası perşembedir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-033",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Ağırlıkça 3 elma 2 armuda, 4 armut da 6 portakala denktir.\n\nBuna göre 9 elma kaç portakala denktir?",
+		"options": [
+			"4",
+			"8",
+			"12",
+			"6",
+			"9"
+		],
+		"correctIndex": 4,
+		"explanation": "3 elma 2 armuda denk olduğundan 9 elma (3 katı) 6 armuda denktir. 4 armut 6 portakala denk olduğundan 1 armut 1,5 portakala, 6 armut 6 × 1,5 = 9 portakala denktir. Buna göre 9 elma 9 portakala denktir. 6 cevabı armut sayısında durmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-034",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "\"Yağmur yağarsa maç ertelenir.\" önermesinin doğru olduğu bilinmektedir.\n\nBuna göre aşağıdakilerden hangisi kesinlikle doğrudur?",
+		"options": [
+			"Yağmur yağmazsa maç ertelenmez.",
+			"Yağmur yağmadıysa maç ertelenmiştir.",
+			"Maç ertelenmediyse yağmur yağmamıştır.",
+			"Maç ertelendiyse yağmur yağmamıştır.",
+			"Maç ertelendiyse yağmur yağmıştır."
+		],
+		"correctIndex": 2,
+		"explanation": "\"p ise q\" önermesi doğruysa onun karşıt tersi olan \"q değilse p değil\" de her zaman doğrudur: maç ertelenmediyse yağmur yağmış olamaz. \"Maç ertelendiyse yağmur yağmıştır\" ve \"Yağmur yağmazsa maç ertelenmez\" çıkarımları geçersizdir; maç başka bir sebeple de ertelenebilir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-035",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir kodlamada her harfe Türk alfabesindeki sıra numarası verilmekte ve bir kelimenin kodu harflerinin sıra numaraları toplanarak bulunmaktadır.\nTürk alfabesi: A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z\n\nBu kodlamaya göre \"ADA\" kelimesinin kodu kaçtır?",
+		"options": [
+			"8",
+			"7",
+			"6",
+			"5",
+			"9"
+		],
+		"correctIndex": 1,
+		"explanation": "Türk alfabesinde A 1., B 2., C 3., Ç 4. ve D 5. harftir. ADA kelimesinin kodu 1 + 5 + 1 = 7'dir. 6 cevabı Ç harfini atlayıp D'yi 4. harf saymaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-036",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir grupta doğum günü (ay ve gün olarak) aynı olan en az iki kişinin kesinlikle bulunması isteniyor.\n\nGrupta en az kaç kişi olmalıdır?",
+		"options": [
+			"367",
+			"366",
+			"368",
+			"13",
+			"365"
+		],
+		"correctIndex": 0,
+		"explanation": "Bir yılda 29 Şubat dâhil 366 farklı doğum günü olabilir. En kötü durumda ilk 366 kişinin hepsi farklı günlerde doğmuş olabilir; 367. kişi mutlaka bunlardan biriyle aynı güne düşer. 366 cevabı en kötü durumdaki farklı gün sayısıdır, 365 cevabı ise 29 Şubat'ı unutmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-037",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "A, B, C, D ve E adlı beş kişinin boyları birbirinden farklıdır.\n• A, B'den uzundur.\n• C, A'dan uzundur.\n• D, B'den kısadır.\n• E, C'den uzundur.\n\nBoyca uzundan kısaya sıralamada üçüncü sırada kim vardır?",
+		"options": [
+			"B",
+			"E",
+			"C",
+			"A",
+			"D"
+		],
+		"correctIndex": 3,
+		"explanation": "Bilgiler zincir oluşturur: E > C (E, C'den uzun), C > A, A > B ve B > D. Sıralama uzundan kısaya E, C, A, B, D'dir. Üçüncü sırada A vardır. Her bilgi iki kişi arasında ilişki kurduğu için sıralama tektir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-038",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Rakamları birbirinden farklı, 3 ile başlayan ve çift sayı olan dört basamaklı kaç farklı şifre oluşturulabilir?",
+		"options": [
+			"336",
+			"320",
+			"280",
+			"252",
+			"504"
+		],
+		"correctIndex": 2,
+		"explanation": "Binler basamağı 3'tür. Birler basamağı çift olmalıdır: 0, 2, 4, 6, 8 — 3 çift olmadığı için beş seçenek de kullanılabilir. Kalan iki basamak, kullanılan iki rakam dışındaki 8 rakamdan sırayla seçilir: 8 × 7 = 56. Toplam 5 × 56 = 280 şifredir. 320 cevabı ortadaki basamaklarda rakam tekrarına izin vermekten (5 × 8 × 8) doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-039",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Üç kutunun üzerinde \"Elma\", \"Armut\" ve \"Karışık\" etiketleri vardır. Kutulardan biri yalnızca elma, biri yalnızca armut, biri elma ve armut içermektedir; ancak etiketlerin hepsi yanlış yapıştırılmıştır. \"Karışık\" etiketli kutudan bakmadan çekilen meyve elma çıkmıştır.\n\nBuna göre \"Elma\" etiketli kutunun içinde ne vardır?",
+		"options": [
+			"Belirlenemez",
+			"Yalnızca armut",
+			"Elma ve armut",
+			"Yalnızca elma",
+			"Yalnızca elma ya da elma ve armut"
+		],
+		"correctIndex": 1,
+		"explanation": "\"Karışık\" etiketli kutu karışık olamaz; ondan elma çıktığına göre yalnızca elma içerir. \"Armut\" etiketli kutu armut olamaz ve elma kutusu artık belli olduğu için karışıktır. Geriye kalan \"Elma\" etiketli kutu yalnızca armut içerir. Etiketlerin hepsinin yanlış olması bilgisi, tek bir çekimle üç kutunun da içeriğini belirler.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-mantik-040",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/mantiksal-akil-yurutme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir torbada 10 kırmızı, 8 mavi ve 6 yeşil top vardır.\n\nTorbadan bakmadan en az kaç top çekilirse çekilen toplar arasında her renkten en az bir top bulunacağı kesinleşir?",
+		"options": [
+			"19",
+			"25",
+			"17",
+			"3",
+			"18"
+		],
+		"correctIndex": 0,
+		"explanation": "Kesinlik soruları en kötü durum düşünülerek çözülür. En kötü durumda önce en kalabalık iki rengin bütün topları çekilir: 10 kırmızı + 8 mavi = 18 top; bu toplar arasında hiç yeşil yoktur. Bir sonraki top mutlaka yeşildir; bu yüzden 18 + 1 = 19 top çekmek gerekir. 3 cevabı yalnızca en şanslı durumu verir; 18 cevabı en kötü durumu bulup bir fazlasını almayı unutmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

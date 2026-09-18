@@ -328,5 +328,335 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-iklim-011",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Yazları serin, kışları ılık geçen ve yılın her mevsiminde yağış alan iklim tipi aşağıdakilerden hangisidir?",
+		"options": [
+			"Karasal iklim",
+			"Akdeniz iklimi",
+			"Kutup iklimi",
+			"Çöl iklimi",
+			"Karadeniz iklimi"
+		],
+		"correctIndex": 4,
+		"explanation": "Karadeniz ikliminde yazlar serin, kışlar ılık geçer ve yağış yılın her mevsimine dağılmıştır; bu yüzden doğal bitki örtüsü ormandır. Akdeniz ikliminde yazlar kurak, kışlar yağışlı; karasal iklimde yazlar sıcak ve kurak, kışlar soğuk ve karlıdır.",
+		"reference": {
+			"title": "Meteoroloji Genel Müdürlüğü",
+			"section": "Türkiye'nin iklimi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iklim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-iklim-012",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Akdeniz ve Ege kıyılarında yaygın olan, kuraklığa dayanıklı ve her mevsim yeşil kalan çalılardan oluşan doğal bitki örtüsü aşağıdakilerden hangisidir?",
+		"options": [
+			"Savan",
+			"Tundra",
+			"Maki",
+			"Alpin çayır",
+			"Bozkır"
+		],
+		"correctIndex": 2,
+		"explanation": "Maki, Akdeniz ikliminin yaz kuraklığına uyum sağlamış, her dem yeşil sert yapraklı çalılardan oluşan bitki örtüsüdür ve Akdeniz ile Ege kıyılarında yaygındır. Bozkır İç Anadolu'da, alpin çayır ise yüksek dağlarda orman üst sınırının üzerinde görülür. Tundra ve savan Türkiye'de doğal olarak bulunmaz.",
+		"reference": {
+			"title": "Orman Genel Müdürlüğü",
+			"section": "Türkiye'nin doğal bitki örtüsü"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bitki-ortusu"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-iklim-013",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kuzeydoğudan esen, soğuk olan ve özellikle kışın Marmara ile Karadeniz'de kar yağışı getiren yerel rüzgâr aşağıdakilerden hangisidir?",
+		"options": [
+			"Keşişleme",
+			"Poyraz",
+			"Kıble",
+			"İmbat",
+			"Lodos"
+		],
+		"correctIndex": 1,
+		"explanation": "Poyraz kuzeydoğudan esen soğuk bir rüzgârdır ve kışın kar yağışına yol açar. Lodos güneybatıdan esen ılık ve nemli, keşişleme güneydoğudan esen kuru, kıble güneyden esen sıcak rüzgârdır. İmbat ise Ege kıyılarında gündüz denizden karaya esen meltemdir.",
+		"reference": {
+			"title": "Meteoroloji Genel Müdürlüğü",
+			"section": "Yerel rüzgârlar"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iklim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-iklim-014",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye'nin yüz ölçümü bakımından ikinci büyük gölü olan ve yer kabuğu hareketleriyle çöken bir alanda oluşan tuzlu göl aşağıdakilerden hangisidir?",
+		"options": [
+			"Çıldır Gölü",
+			"Beyşehir Gölü",
+			"Eğirdir Gölü",
+			"Tuz Gölü",
+			"Van Gölü"
+		],
+		"correctIndex": 3,
+		"explanation": "Tuz Gölü tektonik oluşumlu, tuzlu bir göldür ve Türkiye'nin yüz ölçümü bakımından ikinci büyük gölüdür. En büyük göl olan Van Gölü volkanik set gölüdür ve sodalıdır. Beyşehir ve Eğirdir tatlı sulu tektonik göllerdir; Çıldır Gölü ise volkanik set gölüdür.",
+		"reference": {
+			"title": "Devlet Su İşleri Genel Müdürlüğü",
+			"section": "Akarsu havzaları ve göller"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"su-kaynaklari"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-iklim-015",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye'den doğarak Basra Körfezi'ne ulaşan akarsular aşağıdakilerden hangisidir?",
+		"options": [
+			"Fırat ve Dicle",
+			"Sakarya ve Kızılırmak",
+			"Seyhan ve Ceyhan",
+			"Gediz ve Büyük Menderes",
+			"Kura ve Aras"
+		],
+		"correctIndex": 0,
+		"explanation": "Fırat ve Dicle Doğu Anadolu'dan doğar, Irak'ta birleşerek Şattülarap adını alır ve Basra Körfezi'ne dökülür. Kura ve Aras Hazar Denizi'ne, Seyhan ve Ceyhan Akdeniz'e, Sakarya ve Kızılırmak Karadeniz'e, Gediz ve Büyük Menderes ise Ege Denizi'ne dökülür.",
+		"reference": {
+			"title": "Devlet Su İşleri Genel Müdürlüğü",
+			"section": "Akarsu havzaları ve göller"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"su-kaynaklari"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-iklim-016",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Doğu Karadeniz kıyılarının Türkiye'de en çok yağış alan yer olmasında etkili olan yağış türü aşağıdakilerden hangisidir?",
+		"options": [
+			"Cephesel yağış",
+			"Konveksiyonel (yükselim) yağışı",
+			"Orografik (yamaç) yağışı",
+			"Kırkikindi yağışı",
+			"Muson yağışı"
+		],
+		"correctIndex": 2,
+		"explanation": "Denizden gelen nemli hava kütleleri kıyıya paralel uzanan dağların yamaçları boyunca yükselirken soğur ve bol yağış bırakır; buna orografik (yamaç) yağışı denir. Bu nedenle en çok yağış alan il Rize'dir. Konveksiyonel yağış İç Anadolu'daki kırkikindi yağışları, cephesel yağış ise Akdeniz ve Ege'deki kış yağışları için tipiktir.",
+		"reference": {
+			"title": "Meteoroloji Genel Müdürlüğü",
+			"section": "Türkiye'de yağış türleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iklim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-iklim-017",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Ege kıyılarında yaz günlerinde gündüz denizden karaya doğru esen ve sıcaklığı hafifleten meltem rüzgârı aşağıdakilerden hangisidir?",
+		"options": [
+			"Poyraz",
+			"İmbat",
+			"Karayel",
+			"Samyeli",
+			"Fön"
+		],
+		"correctIndex": 1,
+		"explanation": "İmbat, Ege kıyılarında gündüz karanın denizden daha çok ısınması sonucu denizden karaya esen serinletici bir melteme verilen addır. Samyeli Güneydoğu Anadolu'ya güneyden gelen sıcak ve kuru rüzgâr, fön dağdan inerken ısınan kuru rüzgârdır. Poyraz kuzeydoğudan, karayel kuzeybatıdan esen soğuk rüzgârlardır.",
+		"reference": {
+			"title": "Meteoroloji Genel Müdürlüğü",
+			"section": "Yerel rüzgârlar"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"iklim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-iklim-018",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Erzurum'daki Tortum Gölü oluşumu bakımından aşağıdaki göl türlerinden hangisine örnektir?",
+		"options": [
+			"Krater gölü",
+			"Alüvyal set gölü",
+			"Karstik göl",
+			"Tektonik göl",
+			"Heyelan set gölü"
+		],
+		"correctIndex": 4,
+		"explanation": "Tortum Gölü, bir toprak kaymasının (heyelan) vadinin önünü kapatması sonucu oluşmuş heyelan set gölüdür; Yedigöller de bu türe örnektir. Nemrut Gölü krater, Tuz Gölü tektonik, Salda Gölü karstik, Bafa ve Köyceğiz gölleri ise alüvyal set gölüdür.",
+		"reference": {
+			"title": "Devlet Su İşleri Genel Müdürlüğü",
+			"section": "Akarsu havzaları ve göller"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"su-kaynaklari"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-iklim-019",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir zamanlar Ege Denizi'nin bir koyu iken önü Büyük Menderes'in taşıdığı alüvyonlarla kapanarak oluşan göl aşağıdakilerden hangisidir?",
+		"options": [
+			"Sapanca Gölü",
+			"Nemrut Gölü",
+			"Salda Gölü",
+			"Bafa Gölü",
+			"Çıldır Gölü"
+		],
+		"correctIndex": 3,
+		"explanation": "Bafa Gölü, bir körfezin önünün Büyük Menderes Nehri'nin getirdiği alüvyonlarla kapanması sonucu oluşmuş alüvyal set gölüdür; Köyceğiz Gölü de bu türe örnektir. Salda karstik, Sapanca tektonik, Çıldır volkanik set, Nemrut ise krater gölüdür.",
+		"reference": {
+			"title": "Devlet Su İşleri Genel Müdürlüğü",
+			"section": "Akarsu havzaları ve göller"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"su-kaynaklari"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-iklim-020",
+		"subjectId": "cografya",
+		"topicId": "cografya/iklim-bitki-ortusu-ve-su-kaynaklari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Türkiye'den doğup Hazar Denizi'ne ulaşan akarsular aşağıdakilerden hangisidir?",
+		"options": [
+			"Kura ve Aras",
+			"Asi ve Göksu",
+			"Çoruh ve Yeşilırmak",
+			"Fırat ve Dicle",
+			"Meriç ve Ergene"
+		],
+		"correctIndex": 0,
+		"explanation": "Kura ve Aras nehirleri Kuzeydoğu Anadolu'dan doğar ve Hazar Denizi'ne ulaşır. Fırat ve Dicle Basra Körfezi'ne, Çoruh ve Yeşilırmak Karadeniz'e, Asi ve Göksu Akdeniz'e, Meriç ise Ege Denizi'ne dökülür; Ergene Meriç'in bir koludur.",
+		"reference": {
+			"title": "Devlet Su İşleri Genel Müdürlüğü",
+			"section": "Akarsu havzaları ve göller"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"su-kaynaklari"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

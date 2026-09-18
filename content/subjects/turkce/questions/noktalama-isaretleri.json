@@ -339,5 +339,1025 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-noktalama-011",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki cümlelerin hangisinde nokta, bir kısaltmanın sonuna konmuştur?",
+		"options": [
+			"Başvurular 29.10.2026 tarihine kadar sürecek.",
+			"XV. yüzyılda şehir büyük bir gelişme gösterdi.",
+			"Tren 09.15'te hareket etti.",
+			"Kurum 1932 yılında kurulmuştur.",
+			"Açılış konuşmasını Prof. Dr. Ayşe Yılmaz yaptı."
+		],
+		"correctIndex": 4,
+		"explanation": "Nokta; Prof. (profesör), Dr. (doktor), Cad. (cadde), vb. gibi bazı kısaltmaların sonuna konur. Diğer cümlelerde nokta farklı görevlerdedir: cümle sonunda, tarihte gün-ay-yılı ayırmak için, saat ile dakikayı ayırmak için ve sıra bildiren sayıdan (XV.) sonra.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Nokta",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-012",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Sonundaki noktalama işareti silinmiş aşağıdaki cümlelerden hangisinin sonuna ünlem işareti konmalıdır?",
+		"options": [
+			"Raporu masanın üzerine bıraktım",
+			"Bu kitabı geçen yıl okumuştum",
+			"Ne kadar güzel bir sabah",
+			"Toplantı öğleden sonra başlayacak",
+			"Yarın saat kaçta buluşuyoruz"
+		],
+		"correctIndex": 2,
+		"explanation": "Ünlem işareti sevinç, kıvanç, acı, korku, şaşma gibi duyguları anlatan cümlelerin sonuna konur. \"Ne kadar güzel bir sabah!\" hayranlık bildirdiği için ünlemle biter. \"Yarın saat kaçta buluşuyoruz?\" soru bildirdiği için soru işareti, diğer iki bildirme cümlesi ise nokta alır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ünlem İşareti",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-013",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki cümlelerin hangisinde yay ayraç içindeki soru işareti, verilen bilginin kesin olmadığını göstermek için kullanılmıştır?",
+		"options": [
+			"Kurul (bütün üyeler hazırdı) sabah toplandı.",
+			"Çok çalışkan (!) olduğunu her fırsatta söylüyor.",
+			"Adınız?",
+			"Şairin 1480 (?) yılında Bağdat yakınlarında doğduğu sanılıyor.",
+			"Toplantı ne zaman başlayacak, biliyor musun?"
+		],
+		"correctIndex": 3,
+		"explanation": "Bilinmeyen, kesin olmayan veya şüpheyle karşılanan yer, tarih gibi bilgiler için yay ayraç içinde soru işareti kullanılır: 1480 (?) yılında. Yay ayraç içindeki ünlem işareti ise alay veya küçümseme anlamı katar. \"Adınız?\" soru eki içermese de soru bildirdiği için soru işareti alır; bu, şüphe gösterme görevi değildir.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Soru İşareti",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-014",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki cümlelerin hangisinde iki nokta, kendisinden sonra bir açıklama gelecek cümlenin sonuna konmuştur?",
+		"options": [
+			"Başvuru formu (Ek-1) eksiksiz doldurulmalıdır.",
+			"Toplantı 13.00'te başladı.",
+			"Dosyayı, kalemi ve defteri çantasına koydu.",
+			"Evet, yarın erkenden yola çıkacağım.",
+			"Kararın gerekçesi açıktı: Başvuru süresi dolmuştu."
+		],
+		"correctIndex": 4,
+		"explanation": "İki nokta, kendisiyle ilgili açıklama veya örnek verilecek cümlenin sonuna konur. \"Kararın gerekçesi açıktı\" ifadesinin ne olduğu iki noktadan sonra açıklanmıştır. İki noktadan sonra gelen bölüm cümle olduğu için büyük harfle başlamıştır. Diğer cümlelerde iki nokta kullanılmamıştır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "İki Nokta",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-015",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde virgül, sıralı cümleleri birbirinden ayırmak için kullanılmıştır?",
+		"options": [
+			"Sayın Müdürüm, istediğiniz rapor hazır.",
+			"Ali, Ayşe ve Can yarın sınava girecek.",
+			"Bu, yıllardır beklenen bir karardı.",
+			"Dosyayı açtı, belgeleri inceledi, notlarını aldı.",
+			"Evet, toplantıya ben de katılacağım."
+		],
+		"correctIndex": 3,
+		"explanation": "\"Açtı, inceledi, aldı\" yüklemleriyle kurulan üç cümle birbirine virgülle bağlanmıştır; virgül burada sıralı cümleleri ayırır. Diğer cümlelerde virgül; kabul bildiren \"evet\"ten sonra, hitaptan sonra, özne olarak kullanılan \"bu\" zamirinden sonra ve eş görevli kelimeler arasında kullanılmıştır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Virgül",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-016",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "\"Bu, şu, o\" sözcüklerinden sonra gelen virgülle ilgili olarak aşağıdaki cümlelerin hangisinde virgül, özne görevindeki zamirden sonra doğru biçimde konmuştur?",
+		"options": [
+			"Şu, dosyaları arşive kaldırın.",
+			"O, gün toplantıya katılamadı.",
+			"Bu, kurumun son yıllarda aldığı en önemli karardı.",
+			"Bu, karar herkes tarafından desteklendi.",
+			"Bu, konuda herkes aynı fikirdeydi."
+		],
+		"correctIndex": 2,
+		"explanation": "Bu, şu, o zamirleri özne olarak kullanıldığında kendilerinden sonra virgül konur: \"Bu, kurumun ... en önemli karardı.\" Virgül, sözcüğün sıfat olarak sonraki isme bağlı olmadığını gösterir. \"Bu karar\", \"o gün\", \"şu dosyalar\", \"bu konu\" sıfat tamlamasıdır; sıfatla ismin arasına virgül konursa anlam ve yapı bozulur.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Virgül",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-017",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde \"ve\" bağlacıyla birlikte kullanılan virgül TDK Yazım Kılavuzu'na aykırıdır?",
+		"options": [
+			"Ya bugün gel ya yarın.",
+			"Hem çalışıyor hem okuyor.",
+			"Raporu özenle hazırladı, ve müdürüne sundu.",
+			"Toplantıya sen de mutlaka katılmalısın.",
+			"Dilekçeyi okudu ve imzaladı."
+		],
+		"correctIndex": 2,
+		"explanation": "TDK Yazım Kılavuzu'na göre metin içinde ve, veya, yahut, ya ... ya bağlaçlarından önce de sonra da virgül konmaz. Doğrusu: \"Raporu özenle hazırladı ve müdürüne sundu.\" Tekrarlı bağlaçlardan (ya ... ya, hem ... hem) önce ve sonra da virgül konmaz; da/de bağlacından sonra da virgül kullanılmaz.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Virgül",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-018",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde noktalı virgül, ögeleri arasında virgül bulunan sıralı cümleleri ayırmak için kullanılmıştır?",
+		"options": [
+			"Kurul sabah toplandı ve kararını öğleden sonra açıkladı.",
+			"Yorgunluktan, uykusuzluktan gözleri kapanıyordu; oturmak, dinlenmek, uyumak istiyordu.",
+			"İstenen belgeler şunlardır: kimlik, dilekçe, fotoğraf.",
+			"Evet, başvurunuz sisteme kaydedildi.",
+			"Birinci salona Ahmet, Zeynep; ikinci salona Murat, Elif alındı."
+		],
+		"correctIndex": 1,
+		"explanation": "Noktalı virgül, ögeleri arasında virgül bulunan sıralı cümleleri ayırmak için konur: \"Yorgunluktan, uykusuzluktan gözleri kapanıyordu; oturmak, dinlenmek, uyumak istiyordu.\" Ahmet, Zeynep; Murat, Elif örneğinde ise noktalı virgül cümleleri değil, virgülle ayrılmış takımları birbirinden ayırır; bu, işaretin başka bir kullanımıdır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Noktalı Virgül",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-019",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde üç nokta, açıkça yazılmak istenmeyen bir özel adın yerine konmuştur?",
+		"options": [
+			"Olayın yaşandığı K... köyünün adı gizli tutuldu.",
+			"Yolumuz burada ayrılıyor... Hoşça kal!",
+			"Söyleyeceklerim bitmedi ama...",
+			"Kalem, defter, silgi... Her şey hazırdı.",
+			"Bu işin sonu nereye varacak, bilmiyorum..."
+		],
+		"correctIndex": 0,
+		"explanation": "Üç nokta; kaba sayıldığı için veya başka bir sebeple açık yazılmak istenmeyen kelime ve bölümlerin yerine konur: K... köyü. Diğer cümlelerde üç nokta, tamamlanmamış cümlenin sonunda ya da sözün okuyucunun hayal dünyasına bırakıldığını göstermek ve anlatıma güç katmak için kullanılmıştır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Üç Nokta",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-020",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerin hangisinde kısaltmaya getirilen ek, kısaltmanın okunuşuna uygun olarak doğru yazılmıştır?",
+		"options": [
+			"TV'ya",
+			"ABD'de",
+			"BM'da",
+			"TBMM'nın",
+			"TDK'nın"
+		],
+		"correctIndex": 1,
+		"explanation": "Kısaltmalara getirilen ekler kesmeyle ayrılır ve ek, kısaltmanın okunuşuna uyar. ABD \"a-be-de\" diye okunduğu için ek ince ünlülü olur: ABD'de. Aynı biçimde TDK (te-de-ke) → TDK'nin, BM (be-me) → BM'de, TV (te-ve) → TV'ye, TBMM (te-be-me-me) → TBMM'nin yazılmalıdır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Kesme İşareti",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-021",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde özel ada gelen ekin kesme işaretiyle ayrılmamış olması kurala uygundur?",
+		"options": [
+			"Ağrı Dağımızın eteklerinde yeni bir yol açıldı.",
+			"Yeni yönetmelik 2026da yürürlüğe girdi.",
+			"Toplantıdan sonra Ahmet Beye uğradık.",
+			"Genel kurul 15 Mayısta toplanacak.",
+			"Heyet dün öğleden sonra TBMMye gitti."
+		],
+		"correctIndex": 0,
+		"explanation": "Sonunda üçüncü teklik kişi iyelik eki bulunan bir özel ada başka bir iyelik eki getirildiğinde kesme işareti konmaz: Boğaz Köprümüzün, Amik Ovamızın, Ağrı Dağımızın. Diğer cümlelerde kesme zorunludur: belirli tarih bildiren ay adına gelen ek (15 Mayıs'ta), unvana gelen ek (Ahmet Bey'e), sayıya gelen ek (2026'da) ve kısaltmaya gelen ek (TBMM'ye).",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Kesme İşareti",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/kesme-isareti/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-022",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde kesme işareti yerinde kullanılmıştır?",
+		"options": [
+			"Bu Kanun'un 17. maddesi yeniden düzenlendi.",
+			"Bu hafta sonu Ahmetler'e misafir olacağız.",
+			"Hristiyanlık'ta bu bayramın önemi büyüktür.",
+			"Bursalı'lar yeni stadı çok sevdi.",
+			"Kurul, raporu Bakanlar Kurulu'na sundu."
+		],
+		"correctIndex": 0,
+		"explanation": "Belli bir kanun, tüzük veya yönetmelik kastedildiğinde büyük harfle yazılan bu sözlere gelen ekler kesmeyle ayrılır: Bu Kanun'un, Yönetmelik'in. Buna karşılık özel adlara gelen yapım ekleri ve çokluk eki (Bursalılar, Ahmetlere, Hristiyanlıkta) ile kurum ve kurul adlarına gelen ekler (Bakanlar Kuruluna) kesmeyle ayrılmaz.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Kesme İşareti",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/kesme-isareti/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-023",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde tırnak işaretinin kullanımıyla ilgili bir yanlışlık vardır?",
+		"options": [
+			"Müdür \"Yarın herkes erken gelsin.\" dedi.",
+			"Atatürk'ün \"Hayatta en hakiki mürşit ilimdir.\" sözü duvarda yazılıydı.",
+			"Sınıfta \"Han Duvarları\" adlı şiiri inceledik.",
+			"Kurumda yeni bir \"tasarruf dönemi\" başladı.",
+			"Yahya Kemal'in \"Sessiz Gemi\"'sini ezbere biliyordu."
+		],
+		"correctIndex": 4,
+		"explanation": "Tırnak içine alınan sözlerden sonra gelen ekler kesme işaretiyle ayrılmaz: \"Sessiz Gemi\"sini. Diğer cümlelerde tırnak doğru kullanılmıştır: aktarılan sözde, cümle içindeki eser adında ve özel olarak vurgulanan sözde. Tırnak içindeki alıntının sonundaki nokta, soru veya ünlem işareti tırnak içinde kalır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Tırnak İşareti",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-024",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde kısa çizgi \"arasında, ile, -den -e\" anlamlarından birini vermek için kullanılmamıştır?",
+		"options": [
+			"1914-1918 yılları arasındaki savaş bütün dengeleri değiştirdi.",
+			"Kelime hecelerine ayrılınca ku-yum-cu-luk biçimini aldı.",
+			"Türk-Alman ticaret ilişkileri gelişiyor.",
+			"Ankara-İstanbul seferleri yeniden başladı.",
+			"Mesai 08.30-17.30 saatleri arasında sürüyor."
+		],
+		"correctIndex": 1,
+		"explanation": "Kısa çizgi; kelimeler veya sayılar arasında \"arasında, ve, ile, ila, -den -e\" anlamları vermek için kullanılır: Ankara-İstanbul, Türk-Alman, 08.30-17.30, 1914-1918. Heceleri göstermek ise kısa çizginin ayrı bir kullanımıdır: ku-yum-cu-luk, a-raş-tır-ma.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Kısa Çizgi",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-025",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Soru bildiren aşağıdaki cümlelerin hangisinde soru işaretinin yeri yanlıştır?",
+		"options": [
+			"Adınız?",
+			"Kaçta çıkacağız, biliyor musun?",
+			"Nereye gidiyorsunuz?",
+			"Toplantıya bugün mü katılacaksınız? yarın mı?",
+			"Bu ses çok yakından mı geliyor, çok uzaklardan mı?"
+		],
+		"correctIndex": 3,
+		"explanation": "Soru ifadesi taşıyan sıralı ve bağlı cümlelerde soru işareti en sona konur: \"Toplantıya bugün mü katılacaksınız, yarın mı?\" Soru eki veya sözü içermeyen ama soru bildiren \"Adınız?\" gibi sözlerin sonuna da soru işareti konur.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Soru İşareti",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-026",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Özel ada ilişkin yay ayraç içinde açıklama yapılan aşağıdaki ifadelerin hangisinde ek doğru yere yazılmıştır?",
+		"options": [
+			"Yakup Kadri'nin (Karaosmanoğlu) romanları",
+			"Nazım Hikmet (Ran)'in şiirleri",
+			"Mehmet Âkif (Ersoy)'in dizeleri",
+			"Ömer Seyfettin (1884-1920)'in hikâyeleri",
+			"Yunus Emre (1240?-1320)'nin şiirleri"
+		],
+		"correctIndex": 0,
+		"explanation": "Özel adlar için yay ayraç içinde bir açıklama yapıldığında ek ve kesme işareti ayraçtan önce yazılır: Yakup Kadri'nin (Karaosmanoğlu), Yunus Emre'nin (1240?-1320). Ekin ayraçtan sonraya bırakılması yanlıştır; ek, açıklamaya değil özel ada aittir.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Yay Ayraç",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-027",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde tek bir zarf-fiilden sonra virgül konması TDK Yazım Kılavuzu'ndaki uyarıya aykırıdır?",
+		"options": [
+			"Peki, yarın ayrıntıları görüşelim.",
+			"Bu, çok tartışılan bir uygulamaydı.",
+			"Değerli Katılımcılar, toplantımız başlıyor.",
+			"Bir karara varıp, arkadaşına dikkatle bakarak konuştu.",
+			"Eve gelince, hemen bilgisayarını açıp çalışmaya başladı."
+		],
+		"correctIndex": 4,
+		"explanation": "Kılavuzdaki uyarıya göre metin içinde zarf-fiil eki almış kelimelerden sonra virgül konmaz: \"Eve gelince hemen...\". Metin içinde art arda gelen zarf-fiil eki almış kelimelerden sonra ise virgül konur: \"Bir karara varıp, arkadaşına dikkatle bakarak konuştu.\" Diğer cümlelerde virgül, kabul bildiren söz, özne olan \"bu\" zamiri ve hitaptan sonra yerinde kullanılmıştır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Virgül",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-028",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdakilerin hangisinde köşeli ayraç, ayraç içinde yeniden ayraç kullanılması gerektiği için kullanılmıştır?",
+		"options": [
+			"Reşat Nuri [Güntekin], Çalıkuşu, İstanbul, 1922.",
+			"Başvurular (dilekçe ekli olarak) müdürlüğe teslim edildi.",
+			"Yunus Emre'nin (1240?-1320) şiirleri törende okundu.",
+			"Refik Halit [Karay (1888-1965)] sürgün yıllarında da hikâye yazdı.",
+			"Yazar, \"en önemli fark[ın] üslupta görül[düğünü]\" belirtmişti."
+		],
+		"correctIndex": 3,
+		"explanation": "Köşeli ayraç, ayraç içinde ayraç kullanılması gereken durumlarda yay ayraçtan önce kullanılır: Refik Halit [Karay (1888-1965)]. Alıntıya aktaranın eklediği sözleri göstermek (fark[ın]) ve künyelerdeki ayrıntıları belirtmek (Reşat Nuri [Güntekin]) köşeli ayracın başka kullanımlarıdır. Diğer iki cümlede yalnızca yay ayraç vardır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Köşeli Ayraç",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-029",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde noktalı virgül, ikiden fazla eş değer ögesi virgülle ayrılmış bir cümlede özneden sonra kullanılmıştır?",
+		"options": [
+			"Yağmur durmadı, yollar kapandı; köy dünyayla bağını yitirdi.",
+			"Birinci grupta Ali, Can; ikinci grupta Ece, Mert vardı.",
+			"Yeni yönetmelik; açık, anlaşılır, uygulanabilir bulundu.",
+			"Kuru ve soğuk bir kış günüydü.",
+			"Toplantıya katılanlar: Ahmet, Zeynep, Murat."
+		],
+		"correctIndex": 2,
+		"explanation": "İkiden fazla eş değer ögesi arasında virgül bulunan cümlelerde özneden sonra noktalı virgül konabilir: \"Yeni yönetmelik; açık, anlaşılır, uygulanabilir bulundu.\" Ali, Can; Ece, Mert örneğinde noktalı virgül takımları, \"yollar kapandı; köy...\" örneğinde ise ögeleri arasında virgül bulunan sıralı cümleleri ayırır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Noktalı Virgül",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-030",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Art arda sıralanan sıra sayılarının yazımıyla ilgili olarak aşağıdaki cümlelerin hangisinde nokta, kurala uygun kullanılmıştır?",
+		"options": [
+			"Binanın 2. ve 3. katları boşaltıldı.",
+			"Yönetmeliğin 3, 4 ve 7. maddeleri değiştirildi.",
+			"Yönetmeliğin 3., 4. ve 7. maddeleri değiştirildi.",
+			"Sınav 1., 2. ve 3. sınıflarda yapılacak.",
+			"XII.-XIV. yüzyıllar arasında şehir hızla büyüdü."
+		],
+		"correctIndex": 1,
+		"explanation": "Sayılardan sonra sıra bildirmek için nokta konur; ancak art arda sıralandıkları için virgülle veya çizgiyle ayrılan rakamlardan yalnızca sonuncusundan sonra nokta konur: 3, 4 ve 7. maddeler; XII-XIV. yüzyıllar; 2 ve 3. katlar; 1, 2 ve 3. sınıflar.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Nokta",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-031",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki cümlelerin hangisinde virgül, kabul bildiren bir sözden sonra konmuştur?",
+		"options": [
+			"Dosyaları yarın getiririm, dedi.",
+			"Peki, raporu yarın sabah teslim ederim.",
+			"Sayın Başkan, önerinize katılıyoruz.",
+			"Bu, yılın en önemli kararıydı.",
+			"Toplantıya müdür, şef ve uzmanlar katıldı."
+		],
+		"correctIndex": 1,
+		"explanation": "Virgül, kendisinden sonraki cümleye bağlı olarak ret, kabul ve teşvik bildiren hayır, evet, peki, tamam, olur, haydi gibi kelimelerden sonra konur. Diğer cümlelerdeki virgüller başka kurallara dayanır: eş görevli kelimeler arasında, tırnak içinde olmayan alıntı cümlesinden sonra, özne olan \"bu\" zamirinden sonra ve hitap sözünden sonra.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Virgül",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-032",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdakilerin hangisinde eğik çizgi, yan yana yazılan dizeleri birbirinden ayırmak için kullanılmıştır?",
+		"options": [
+			"Aracın hızı 90 km/sa olarak ölçüldü.",
+			"Altay Sokağı No.: 21/6 Kurtuluş / ANKARA",
+			"Bu ekin iki biçimi -lık /-lik olarak gösterilir.",
+			"Korkma! Sönmez bu şafaklarda yüzen al sancak / Sönmeden yurdumun üstünde tüten en son ocak",
+			"Toplantı tarihi 18/11/2026 olarak belirlendi."
+		],
+		"correctIndex": 3,
+		"explanation": "Eğik çizgi, dizeler yan yana yazıldığında aralarına konur; İstiklal Marşı'ndan alınan dizeler buna örnektir. TDK Yazım Kılavuzu eğik çizginin başka kullanımlarını da sayar: adreste apartman ile daire numarası ve semt ile şehir arasında, tarihlerde gün-ay-yıl arasında, dil bilgisinde eklerin farklı biçimlerini göstermede ve birimler arası orantılarda.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Eğik Çizgi",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-033",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde noktalama işareti TDK Yazım Kılavuzu'na aykırı kullanılmıştır?",
+		"options": [
+			"Gerçekten yarın gelecek mi?..",
+			"Kapıyı yavaşça açtı ve…",
+			"Söze başladı, sonra birden sustu..",
+			"Söyleyecek çok şey vardı ama…",
+			"Ne güzel bir gündü!.."
+		],
+		"correctIndex": 2,
+		"explanation": "Üç nokta yerine iki veya daha çok nokta kullanılmaz; tamamlanmamış bir cümlenin sonuna üç nokta konur. Kılavuz yalnızca ünlem ve soru işaretinden sonra üç nokta yerine iki nokta konulmasını yeterli sayar: \"!..\" ve \"?..\" doğrudur. Bu yüzden ünlem veya soru işareti olmadan kullanılan iki nokta yanlıştır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Üç Nokta",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-034",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Ay adı, sayı, kısaltma veya saygı sözüne getirilen eklerle ilgili olarak aşağıdaki cümlelerin hangisinde kesme işareti yanlış kullanılmıştır?",
+		"options": [
+			"Kurum her yıl Aralık'ta personel alımı yapar.",
+			"Dosyayı Ahmet Bey'e verdiniz mi?",
+			"Başvurular 17 Aralık'a kadar sürecektir.",
+			"Toplantı binanın 2'nci katında yapılacak.",
+			"TBMM'nin yeni yasama yılı başladı."
+		],
+		"correctIndex": 0,
+		"explanation": "Kesme işareti yalnızca belirli bir tarih bildiren ay ve gün adlarına gelen ekleri ayırmak için konur: 17 Aralık'a kadar. Belirli bir tarih bildirmeyen ay adı küçük harfle yazılır ve ekini kesmeyle ayırmaz: aralıkta. Sayılara (2'nci), kısaltmalara (TBMM'nin) ve kişi adından sonra gelen saygı sözlerine (Ahmet Bey'e) gelen ekler ise kesmeyle ayrılır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Kesme İşareti",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-035",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Alt alta sıralanan maddelerde veya çizelgelerde aynı sözün tekrar yazılmasını önlemek için kullanılan işaret aşağıdakilerden hangisidir?",
+		"options": [
+			"Tek tırnak işareti",
+			"Eğik çizgi",
+			"Kısa çizgi",
+			"Denden işareti",
+			"Köşeli ayraç"
+		],
+		"correctIndex": 3,
+		"explanation": "Denden işareti (\"), bir yazıdaki maddelerin sıralanmasında veya bir çizelgede alt alta gelen aynı sözlerin, söz gruplarının ve sayıların tekrar yazılmasını önler: a. Etken fiil, b. Edilgen \", c. Dönüşlü \". Tek tırnak tırnak içindeki cümlede yeniden tırnağa alınacak söz için, köşeli ayraç ayraç içinde ayraç gerektiğinde kullanılır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Denden İşareti",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-036",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde yay ayraç içindeki işaret, söze alay veya küçümseme anlamı katmak için kullanılmıştır?",
+		"options": [
+			"Başvuru için şunlar gerekir: 1) dilekçe, 2) kimlik fotokopisi.",
+			"Şairin 1496 (?) yılında doğduğu sanılmaktadır.",
+			"Raporu bir günde bitirecekmiş (!) ama bir ayda bile bitiremedi.",
+			"İhtiyar – (Kapıya doğru yürür.) Kim var orada?",
+			"Ek fiilin (imek) geniş zamanı kişi ekleriyle çekilir."
+		],
+		"correctIndex": 2,
+		"explanation": "Bir söze alay, kinaye veya küçümseme anlamı kazandırmak için kullanılan ünlem işareti yay ayraç içine alınır: \"bitirecekmiş (!)\". Yay ayraç içindeki soru işareti bilginin kesin olmadığını gösterir; tiyatro eserlerinde konuşanın hareketleri, cümle dışında kalan ek bilgiler ayraç içinde verilir; maddeleri gösteren sayılardan sonra ise kapama ayracı konur.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Yay Ayraç",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-037",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde \"-ınca, -ince\" anlamıyla kullanılan mı/mi ekinden sonra gereksiz yere virgül konmuştur?",
+		"options": [
+			"Hava karardı mı, bütün kuşlar yuvasına döner.",
+			"Bu, hepimizin ortak kararıdır.",
+			"Peki, bu konuyu yarın konuşuruz.",
+			"Dosyayı açtı, belgeleri tek tek inceledi.",
+			"Sabah oldu mu işe erkenden çıkar."
+		],
+		"correctIndex": 0,
+		"explanation": "TDK Yazım Kılavuzu'na göre metin içinde -ınca/-ince anlamıyla zarf-fiil görevinde kullanılan mı/mi ekinden sonra virgül konmaz: \"Hava karardı mı bütün kuşlar yuvasına döner.\" Kabul bildiren \"peki\" sözünden sonra, sıralı cümleler arasında ve özne olan \"bu\" zamirinden sonra ise virgül kullanılır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Virgül",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-038",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde tırnak içindeki alıntının sonunda bulunan noktalama işaretinin yeri doğrudur?",
+		"options": [
+			"Memur \"Başvurunuzu yaptınız mı\"? diye sordu.",
+			"Başkan \"Bu projeyi mutlaka tamamlayacağız.\" diyerek sözlerini bitirdi.",
+			"Çocuklar \"Ne güzel bir sürpriz\"! diye bağırdı.",
+			"Müdür \"Yarın erken gelelim\". dedi.",
+			"Öğretmen \"Sınav haftaya ertelendi\". diye duyurdu."
+		],
+		"correctIndex": 1,
+		"explanation": "Tırnak içindeki alıntının sonunda bulunan nokta, soru işareti ve ünlem işareti tırnak içinde kalır: \"İzmir üzerine dünyada bir şehir daha yoktur!\" diyorlar. Bu nedenle soru işaretinin, ünlemin veya noktanın tırnak kapandıktan sonra konduğu cümleler kurala aykırıdır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Tırnak İşareti",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-039",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki tarih yazımlarından hangisi TDK Yazım Kılavuzu'na aykırıdır?",
+		"options": [
+			"18/11/1969",
+			"29.X.1923",
+			"29 Ekim 1923",
+			"29.10.1923",
+			"29. Ekim. 1923"
+		],
+		"correctIndex": 4,
+		"explanation": "Tarihlerde gün, ay ve yılı gösteren sayılar nokta ya da eğik çizgiyle ayrılabilir: 29.10.1923, 29.X.1923, 18/11/1969. Ay adı yazıyla yazıldığında ise ay adından önce ve sonra nokta kullanılmaz: 29 Ekim 1923.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Nokta",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-noktalama-040",
+		"subjectId": "turkce",
+		"topicId": "turkce/noktalama-isaretleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdakilerin hangisinde uzun çizginin (konuşma çizgisinin) kullanımı TDK Yazım Kılavuzu'na aykırıdır?",
+		"options": [
+			"Muhtar — Bu yol ne zaman yapılacak?",
+			"— Toplantı bitti mi?",
+			"— Evet, az önce bitti.",
+			"— Yarın erkenden yola çıkacak mıyız?",
+			"— \"Yarın erkenden yola çıkacağız.\" dedi."
+		],
+		"correctIndex": 4,
+		"explanation": "Uzun çizgi, yazıda satır başına alınan konuşmaları göstermek için kullanılır; oyunlarda konuşanın adından sonra da konabilir. Kılavuz, konuşmalar tırnak içinde verildiğinde uzun çizginin kullanılmayacağını belirtir. Bu nedenle konuşmanın hem uzun çizgi hem tırnakla gösterilmesi yanlıştır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Uzun Çizgi",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"noktalama"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

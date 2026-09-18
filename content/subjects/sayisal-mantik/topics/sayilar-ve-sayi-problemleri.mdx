@@ -2,7 +2,7 @@
 topicId: sayisal-mantik/sayilar-ve-sayi-problemleri
 title: Sayılar, Bölünebilme ve Sayı Problemleri
 legislationVersion: Mevzuata bağlı olmayan içerik — örnek çözümler hesaplanarak doğrulanmıştır
-lastVerifiedAt: "2026-09-16"
+lastVerifiedAt: "2026-09-17"
 keyPoints:
   - Olayların birlikte yeniden gerçekleşeceği en kısa süre EKOK, bir bütünün ayrılabileceği en büyük eşit parça EBOB sorusudur.
   - Bir sayı 3'e bölünüyorsa rakamları toplamı 3'ün, 9'a bölünüyorsa 9'un katıdır.
@@ -48,6 +48,23 @@ olur. Toplamı 75 olan ardışık üç tek sayı için x = 25; sayılar 23, 25, 
 Örnek: 52A4 sayısının 9'a bölünmesi için 5 + 2 + A + 4 = 11 + A toplamı 9'un katı olmalıdır.
 A bir rakam olduğundan toplam ancak 18 olabilir; **A = 7**.
 
+Örnek: 3A52 sayısının 11'e bölünmesi için sağdan 2 − 5 + A − 3 = A − 6 toplamı 11'in katı
+olmalıdır; **A = 6** (3652 = 11 × 332).
+
+<Tuzak>
+4 ile bölünebilmede **yalnızca son rakama** bakılmaz. 7318A sayısında son iki basamak 8A'dır;
+80, 84 ve 88 dörde bölündüğü için A = 0, 4 veya 8 olabilir.
+</Tuzak>
+
+## Bölme işlemi ve bölen sayısı
+
+<Sayi>bölünen = bölen × bölüm + kalan (kalan her zaman bölenden küçüktür)</Sayi>
+
+Bölen 7, bölüm 12, kalan 5 ise bölünen 7 × 12 + 5 = **89**'dur.
+
+Bir sayının **pozitif bölen sayısı**, asal çarpanlarına ayrıldığında üslerin birer fazlasının
+çarpımıdır: 360 = 2³ × 3² × 5 için (3 + 1) × (2 + 1) × (1 + 1) = **24** bölen.
+
 ## EBOB ve EKOK
 
 - **EBOB (en büyük ortak bölen):** ortak asal çarpanların **en küçük** üslüleri çarpılır.
@@ -79,6 +96,19 @@ Kalanlar farklı ama **her biri bölenden aynı miktarda eksikse** kalanın eksi
 - 4'e bölününce 3, 5'e bölününce 4, 6'ya bölününce 5 kalanı → sayı + 1, EKOK(4, 5, 6) = 60'ın katıdır
   → 59, 119...
 
+Kalanlar ne aynı ne de bölenden eşit eksikse **kısayol yoktur**; koşullardan birini listeleyip
+diğerini sağlayanı arayın. 3'e bölününce 2, 5'e bölününce 1 kalanını veren sayılar için 5'e
+bölününce 1 kalanını verenler (1, 6, 11...) listelenir; 3'e bölününce 2 kalanını veren ilk sayı
+11'dir. Sonraki çözümler EKOK(3, 5) = 15'er artar: 11, 26, 41, ..., **101**.
+
+## İki bilinmeyenli sayma problemleri
+
+Tavuk-koyun, 20 TL-50 TL gibi iki türün toplam sayısı ve toplam "değeri" verildiğinde **hepsi
+aynı türdenmiş gibi** varsayın:
+
+- 30 hayvanın hepsi tavuk olsaydı 60 ayak olurdu; gerçekte 84 ayak var.
+- 24 ayaklık fazlayı her koyun 2'şer ayakla getirir → 24 ÷ 2 = **12 koyun**.
+
 ## Yaş problemleri
 
 <Kritik>
@@ -89,6 +119,15 @@ Kalanlar farklı ama **her biri bölenden aynı miktarda eksikse** kalanın eksi
 
 Örnek: Babanın yaşı oğlunun 4 katı, 5 yıl sonra 3 katı olacaksa: 4x + 5 = 3(x + 5) → x = 10,
 baba **40** yaşındadır.
+
+<Tuzak>
+Bir kişi ile **bir grubun toplamı** karşılaştırılıyorsa artışlar eşit değildir. Baba 24 yılda
+24 yaş büyürken iki çocuğun yaşları toplamı 2 × 24 = **48** artar. "Babanın yaşı çocukların
+toplamının 3 katı, 24 yıl sonra eşit" için: 3T + 24 = T + 48 → T = 12, baba **36**.
+</Tuzak>
+
+Oranlar **ikisi de bütüne göre** verilmişse toplanır: maaşın 2/5'i ve 1/4'ü harcanırsa
+13/20'si gider, 7/20'si kalır. 7/20'si 10.500 TL ise maaş **30.000 TL**'dir.
 
 ## Kesir problemleri: "kalanın" tuzağı
 
@@ -111,3 +150,33 @@ verilmişse doğrudur. "Kalanın" kelimesi gördüğünüzde kalan oranları **�
 - AB − BA = 9(A − B)
 
 AB + BA = 132 ise A + B = 12'dir; A > B şartıyla en büyük AB **93**'tür.
+
+## Aritmetik ortalama
+
+**Ortalama = toplam ÷ sayı adedi**, dolayısıyla **toplam = ortalama × adet**. Ortalama sorularında
+her zaman önce toplama geçilir:
+
+| Durum | Yöntem | Örnek |
+|---|---|---|
+| Gruba sayı eklenir | Yeni toplam ÷ yeni adet | 5 sayının ort. 12, 18 eklenince (60 + 18) ÷ 6 = **13** |
+| Gruptan biri çıkar | (toplam − çıkan) ÷ (adet − 1) | 8 kişi ort. 35, 49 yaşındaki ayrılınca 231 ÷ 7 = **33** |
+| Bir değer yanlış kaydedilmiş | Farkı toplama ekleyip yeniden böl | 20 kişide 27 puan eksik → ortalama 27 ÷ 20 = **1,35** artar |
+| Bir değer en fazla kaç olabilir? | Diğerlerini olabildiğince küçük seç | 5 farklı pozitif sayı, ort. 20 → 100 − (1+2+3+4) = **90** |
+
+<Tuzak>
+İki grubun ortalaması, ortalamaların ortalaması **değildir**. 12 ortalamalı 5 sayıya 18 eklenince
+ortalama (12 + 18) ÷ 2 = 15 olmaz; ağırlıklar farklıdır.
+</Tuzak>
+
+## Tek-çift ve asal sayılar
+
+- Tek ± tek = çift, tek ± çift = tek; **çarpımda bir çarpan çiftse sonuç çifttir**.
+- a + b tek ise a ile b'nin tekliği farklıdır; b + c çift ise b ile c'nin tekliği aynıdır.
+- **2 tek çift asal sayıdır.** İki asal sayının toplamı tekse biri mutlaka 2'dir: x + y = 25 → 2 ve 23.
+
+**İki bilinmeyenli fiyat problemleri** de "hepsi ... olsaydı" yöntemiyle çözülür: 60 biletin hepsi
+150 TL'lik tam bilet olsaydı gelir 9.000 TL olurdu; gerçek gelirle fark her öğrenci biletinin getirdiği
+60 TL'lik eksiğe bölünür.
+
+**Kesirleri karşılaştırmak:** payı paydasından birer eksik kesirlerde (3/4, 5/7, 7/9) 1'e olan uzaklığa
+bakılır; uzaklık küçüldükçe kesir büyür.

@@ -268,5 +268,815 @@
 		"tags": [],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-oran-011",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "80 koltuklu bir toplantı salonunun %45'i doludur.\n\nSalonda kaç koltuk boştur?",
+		"options": [
+			"40",
+			"35",
+			"36",
+			"45",
+			"44"
+		],
+		"correctIndex": 4,
+		"explanation": "Koltukların %45'i doluysa %55'i boştur. Boş koltuk sayısı 80 × 55 ÷ 100 = 44'tür. 36 cevabı dolu koltuk sayısını (80 × 45 ÷ 100) bulup soruyu yanlış okumaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-012",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bir sınıfta kız öğrencilerin sayısının erkek öğrencilerin sayısına oranı 4/3'tür.\n\nSınıfta 21 erkek öğrenci olduğuna göre kaç kız öğrenci vardır?",
+		"options": [
+			"49",
+			"35",
+			"24",
+			"28",
+			"16"
+		],
+		"correctIndex": 3,
+		"explanation": "Kızların sayısı 4k, erkeklerin sayısı 3k biçiminde yazılır. 3k = 21 olduğundan k = 7 ve kız öğrenci sayısı 4 × 7 = 28'dir. Sınıf mevcudu 7k = 49'dur; 49 çeldiricisi mevcudu kız sayısı sanmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-013",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Ölçeği 1:50.000 olan bir haritada iki şehir arasındaki uzaklık 6 cm olarak ölçülmüştür.\n\nBu iki şehir arasındaki gerçek uzaklık kaç kilometredir?",
+		"options": [
+			"300",
+			"3",
+			"30",
+			"6",
+			"0,3"
+		],
+		"correctIndex": 1,
+		"explanation": "1:50.000 ölçeği haritadaki 1 cm'nin gerçekte 50.000 cm olduğunu gösterir. Gerçek uzaklık 6 × 50.000 = 300.000 cm'dir. 1 km = 100.000 cm olduğundan 300.000 cm = 3 km'dir. 30 ve 0,3 cevapları birim çevirisinde basamak kaydırmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-014",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Etiket fiyatı 1.200 TL olan bir montta %15 indirim yapılmıştır.\n\nMontun indirimli fiyatı kaç TL'dir?",
+		"options": [
+			"1.050",
+			"1.000",
+			"1.020",
+			"1.185",
+			"1.080"
+		],
+		"correctIndex": 2,
+		"explanation": "İndirim tutarı 1.200 × 15 ÷ 100 = 180 TL'dir; indirimli fiyat 1.200 − 180 = 1.020 TL olur. Aynı sonuca çarpanla da ulaşılır: 1.200 × 0,85 = 1.020. 1.185 cevabı yüzdeyi TL gibi çıkarmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-015",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir ürünün fiyatı 360 liradan 450 liraya çıkmıştır.\n\nBu ürüne yüzde kaç zam yapılmıştır?",
+		"options": [
+			"%25",
+			"%30",
+			"%15",
+			"%90",
+			"%20"
+		],
+		"correctIndex": 0,
+		"explanation": "Zam oranı artış miktarının eski fiyata oranıdır. Artış 450 − 360 = 90 liradır ve 90 ÷ 360 = 0,25 yani %25'tir. %20 cevabı artışı yeni fiyata bölmekten (90 ÷ 450) doğar; yüzde değişim her zaman eski değere göre hesaplanır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-016",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "KDV dahil satış fiyatı 1.440 TL olan bir ürüne %20 KDV uygulanmıştır.\n\nBu ürünün KDV hariç fiyatı kaç TL'dir?",
+		"options": [
+			"1.200",
+			"1.152",
+			"1.240",
+			"1.180",
+			"1.100"
+		],
+		"correctIndex": 0,
+		"explanation": "KDV, KDV hariç fiyatın üzerine eklenir: KDV hariç fiyat × 1,20 = 1.440. Buradan KDV hariç fiyat 1.440 ÷ 1,20 = 1.200 TL bulunur. 1.152 cevabı 1.440'tan %20 düşmekten doğar; oysa KDV 1.440 üzerinden değil 1.200 üzerinden hesaplanmıştır (1.200'ün %20'si 240).",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-017",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "a/b = 2/3 ve b/c = 4/5 olduğuna göre a/c oranı kaçtır?",
+		"options": [
+			"3/4",
+			"5/6",
+			"8/12",
+			"2/5",
+			"8/15"
+		],
+		"correctIndex": 4,
+		"explanation": "İki oranda ortak olan b eşitlenir. a : b = 2 : 3 = 8 : 12 ve b : c = 4 : 5 = 12 : 15 yazılır. Buradan a : b : c = 8 : 12 : 15 ve a/c = 8/15 bulunur. Kısa yol olarak oranlar çarpılır: (a/b) × (b/c) = 2/3 × 4/5 = 8/15.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-018",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "360 lira, iki kişi arasında 2 ve 3 sayılarıyla ters orantılı olarak paylaştırılmıştır.\n\nKüçük pay kaç liradır?",
+		"options": [
+			"216",
+			"240",
+			"144",
+			"180",
+			"120"
+		],
+		"correctIndex": 2,
+		"explanation": "Ters orantılı paylaştırmada paylar sayıların tersleriyle, yani 1/2 ve 1/3 ile doğru orantılıdır. Paydalar eşitlenince 3/6 ve 2/6 olur; paylar 3k ve 2k'dır. 5k = 360 ise k = 72; paylar 216 ve 144 liradır. Küçük pay 144 liradır ve 3 sayısıyla eşleşen kişiye düşer.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-019",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "25.000 TL, yıllık %12 basit faiz oranıyla bankaya yatırılmıştır.\n\nBu para 9 ayın sonunda kaç TL faiz getirir?",
+		"options": [
+			"2.250",
+			"1.875",
+			"2.500",
+			"2.700",
+			"3.000"
+		],
+		"correctIndex": 0,
+		"explanation": "Basit faiz = anapara × yıllık oran × süre (yıl) formülüyle hesaplanır. 9 ay 9/12 = 0,75 yıldır: 25.000 × 0,12 × 0,75 = 2.250 TL. 3.000 cevabı bir yıllık faizdir; süreyi aya çevirmeyi unutmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-020",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir kurumdaki yıllık sınavda başarı oranı %40'tan %50'ye yükselmiştir.\n\nBaşarı oranındaki artış yüzde kaçtır?",
+		"options": [
+			"%10",
+			"%25",
+			"%20",
+			"%90",
+			"%50"
+		],
+		"correctIndex": 1,
+		"explanation": "Oran 40'tan 50'ye çıktığında 10 puanlık artış vardır; bu artış eski değere göre 10 ÷ 40 = 0,25 yani %25'tir. %10 cevabı yüzde puanı yüzde artışla karıştırmaktır: başarı oranı 10 yüzde puan artmış, kendi değerine göre %25 artmıştır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-021",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Tuz oranı %10 olan 60 kilogram tuzlu sudan bir miktar su buharlaştırılarak tuz oranı %15'e çıkarılmak isteniyor.\n\nKaç kilogram su buharlaştırılmalıdır?",
+		"options": [
+			"30",
+			"20",
+			"25",
+			"10",
+			"15"
+		],
+		"correctIndex": 1,
+		"explanation": "Buharlaşan yalnızca sudur; tuz miktarı değişmez. Başlangıçta 60 × 0,10 = 6 kg tuz vardır. Buharlaşmadan sonra 6 kg tuz karışımın %15'i olmalıdır: karışım 6 ÷ 0,15 = 40 kg olur. Buharlaştırılacak su 60 − 40 = 20 kg'dır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-022",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Alkol oranı %20 olan 30 litre karışıma, alkol oranı %50 olan bir karışımdan ekleniyor.\n\nElde edilen karışımın alkol oranının %30 olması için %50'lik karışımdan kaç litre eklenmelidir?",
+		"options": [
+			"10",
+			"20",
+			"18",
+			"15",
+			"12"
+		],
+		"correctIndex": 3,
+		"explanation": "Eklenecek miktara y denirse alkol miktarları toplanır: 30 × 0,20 + y × 0,50 = (30 + y) × 0,30. Buradan 6 + 0,5y = 9 + 0,3y, 0,2y = 3 ve y = 15 litre bulunur. Sağlama: 6 + 7,5 = 13,5 litre alkol 45 litrenin %30'udur.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-023",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir satıcı bir ürünü 540 liraya satarak %10 zarar etmiştir.\n\nSatıcı aynı ürünü %20 kârla satsaydı kaç liraya satardı?",
+		"options": [
+			"720",
+			"756",
+			"648",
+			"594",
+			"700"
+		],
+		"correctIndex": 0,
+		"explanation": "Zarar maliyet üzerinden hesaplanır: maliyet × 0,90 = 540 ise maliyet 600 liradır. %20 kârlı satış fiyatı 600 × 1,20 = 720 liradır. 648 cevabı kârı 540 üzerinden hesaplamaktan, 594 ise maliyeti 540'ın %10 fazlası sanmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-024",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir memurun maaşına önce %10, ardından yeni maaşı üzerinden %20 zam yapılmıştır.\n\nMemurun maaşı başlangıca göre toplam yüzde kaç artmıştır?",
+		"options": [
+			"%30",
+			"%34",
+			"%28",
+			"%32",
+			"%31"
+		],
+		"correctIndex": 3,
+		"explanation": "Ardışık yüzde değişimleri toplanmaz, çarpanlar çarpılır: 1,10 × 1,20 = 1,32. Maaş %32 artmıştır. 100 liralık maaş önce 110'a, sonra 110'un %20'si olan 22 lira eklenerek 132'ye çıkar. %30 cevabı yüzdeleri toplamaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-025",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Özdeş 5 makine günde 8 saat çalışarak 4 günde 1.600 parça üretmektedir.\n\nAynı özellikteki 3 makine günde 10 saat çalışarak 2.400 parçayı kaç günde üretir?",
+		"options": [
+			"10",
+			"8",
+			"12",
+			"9",
+			"6"
+		],
+		"correctIndex": 1,
+		"explanation": "Birim iş bulunur: 5 makine × 8 saat × 4 gün = 160 makine-saatte 1.600 parça üretildiğine göre 1 makine-saatte 10 parça üretilir. 3 makine günde 10 saat çalışınca günde 3 × 10 × 10 = 300 parça üretir. 2.400 parça 2.400 ÷ 300 = 8 günde üretilir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-026",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir satıcı ürünlerinin etiket fiyatını maliyetin %50 fazlası olarak belirlemiştir.\n\nSatıcı etiket fiyatı üzerinden %20 indirim yaparsa maliyete göre yüzde kaç kâr eder?",
+		"options": [
+			"%30",
+			"%10",
+			"%25",
+			"%20",
+			"%35"
+		],
+		"correctIndex": 3,
+		"explanation": "Maliyet 100 lira alınırsa etiket fiyatı 150 liradır. %20 indirim etiket fiyatı üzerinden yapılır: 150 × 0,80 = 120 lira. Satış 100 liralık maliyete göre 20 lira kârlıdır, yani kâr %20'dir. %30 cevabı yüzdeleri çıkarmaktan (50 − 20) doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-027",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "5.200 TL, üç kişi arasında 1/2, 1/3 ve 1/4 sayılarıyla doğru orantılı olarak paylaştırılmıştır.\n\nEn büyük pay kaç TL'dir?",
+		"options": [
+			"2.080",
+			"2.600",
+			"1.600",
+			"1.200",
+			"2.400"
+		],
+		"correctIndex": 4,
+		"explanation": "Oran sayıları kesirliyse paydalar eşitlenir: 1/2, 1/3, 1/4 kesirleri 6/12, 4/12, 3/12 olur ve paylar 6k, 4k, 3k ile orantılıdır. 13k = 5.200 ise k = 400'dür. Paylar 2.400, 1.600 ve 1.200 TL'dir; en büyüğü 1/2 ile eşleşen 2.400 TL'dir. 2.600 cevabı paranın yarısını doğrudan en büyük pay sanmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-028",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir ürünün fiyatı iki yıl üst üste aynı oranda artarak 400 TL'den 576 TL'ye çıkmıştır.\n\nÜrünün fiyatı her yıl yüzde kaç artmıştır?",
+		"options": [
+			"%22",
+			"%44",
+			"%20",
+			"%18",
+			"%24"
+		],
+		"correctIndex": 2,
+		"explanation": "Yıllık artış çarpanı r ise 400 × r × r = 576 olur; r² = 576 ÷ 400 = 1,44 ve r = 1,2 bulunur. Her yıl fiyat %20 artmıştır: 400 → 480 → 576. %22 cevabı toplam %44'lük artışı iki yıla eşit bölmekten doğar; ardışık artışlar toplanmaz, çarpılır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-029",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir sınıfta kız öğrencilerin sayısının erkek öğrencilerin sayısına oranı 3/4'tür. Sınıfa 4 kız öğrenci daha katıldığında kızların sayısı erkeklerin sayısına eşit olmaktadır.\n\nSınıfın ilk mevcudu kaçtır?",
+		"options": [
+			"35",
+			"21",
+			"32",
+			"24",
+			"28"
+		],
+		"correctIndex": 4,
+		"explanation": "Kızların sayısı 3k, erkeklerin sayısı 4k'dır. 4 kız katılınca 3k + 4 = 4k olur ve k = 4 bulunur. İlk durumda 12 kız ve 16 erkek, yani 28 öğrenci vardır. 32 cevabı yeni katılan 4 öğrenciyi de ilk mevcuda eklemekten doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-030",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Kilogramı 120 TL olan kahve ile kilogramı 180 TL olan kahve karıştırılarak kilogramı 160 TL'ye mal olan 30 kilogramlık bir karışım hazırlanacaktır.\n\nKarışımda kilogramı 120 TL olan kahveden kaç kilogram kullanılmalıdır?",
+		"options": [
+			"20",
+			"12",
+			"10",
+			"18",
+			"15"
+		],
+		"correctIndex": 2,
+		"explanation": "Ucuz kahveden a, pahalı kahveden 30 − a kilogram kullanılırsa toplam maliyet 120a + 180(30 − a) = 160 × 30 olmalıdır. Buradan 5.400 − 60a = 4.800, 60a = 600 ve a = 10 bulunur; pahalı kahveden 20 kg kullanılır. Karışım fiyatı 160 TL pahalı kahveye daha yakın olduğu için pahalı kahvenin miktarı daha fazladır; 20 cevabı bu iki miktarı karıştırmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-031",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bir kurumdaki 400 personelin birimlere göre dağılımı şöyledir:\n• İdari İşler: 120\n• Mali İşler: 80\n• Hukuk: 60\n• Bilgi İşlem: 140\n\nBilgi İşlem biriminde çalışanlar tüm personelin yüzde kaçıdır?",
+		"options": [
+			"35",
+			"28",
+			"14",
+			"40",
+			"30"
+		],
+		"correctIndex": 0,
+		"explanation": "Bir parçanın bütüne göre yüzdesi = parça ÷ bütün × 100'dür. 140 ÷ 400 × 100 = 35. Birimlerin toplamı 120 + 80 + 60 + 140 = 400 olduğundan tablo bütünü eksiksiz verir. 14 cevabı 140'ı 1.000'e bölmekten, 30 cevabı İdari İşlerin oranını almaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-032",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "20.000 TL, yıllık %15 basit faiz oranıyla 2 yıl süreyle bankada tutulmuştur.\n\nBu süre sonunda elde edilen faiz kaç TL'dir?",
+		"options": [
+			"26.000",
+			"6.450",
+			"4.500",
+			"6.000",
+			"3.000"
+		],
+		"correctIndex": 3,
+		"explanation": "Basit faizde faiz yalnızca ana paraya işler: faiz = ana para × yıllık oran × süre = 20.000 × 15/100 × 2 = 6.000 TL. 3.000 TL bir yıllık faizdir, 26.000 TL faizle birlikte toplam paradır. 6.450 TL ise faizin faizini de hesaba katan bileşik faizle bulunur.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-033",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir ailenin aylık 36.000 TL'lik bütçesinin harcama kalemlerine dağılımı bir daire grafiğinde gösterilmiştir. Grafikte kiraya ayrılan dilimin merkez açısı 120°'dir.\n\nAile kiraya aylık kaç TL ayırmaktadır?",
+		"options": [
+			"10.800",
+			"14.400",
+			"12.000",
+			"12.600",
+			"9.000"
+		],
+		"correctIndex": 2,
+		"explanation": "Daire grafiğinde bütün 360°'ye karşılık gelir. Bir dilimin payı merkez açısının 360°'ye oranıdır: 120 ÷ 360 = 1/3. Kiraya ayrılan tutar 36.000 × 1/3 = 12.000 TL'dir. 9.000 TL 90°'lik, 10.800 TL %30'luk bir dilime karşılık gelir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-034",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir günde 1 avro 36 TL, 1 dolar 33 TL olarak işlem görmektedir.\n\nBu günde 660 dolar kaç avro eder?",
+		"options": [
+			"598",
+			"720",
+			"605",
+			"550",
+			"612"
+		],
+		"correctIndex": 2,
+		"explanation": "Önce dolar TL'ye çevrilir: 660 × 33 = 21.780 TL. Sonra TL avroya çevrilir: 21.780 ÷ 36 = 605 avro. Avro dolardan değerli olduğu için avro miktarı dolar miktarından az çıkmalıdır; 720 cevabı oranı ters kurmaktan (660 × 36 ÷ 33) doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-035",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "80 soruluk bir sınavda soruların %35'i yanlış cevaplanmış, 8 soru boş bırakılmış, geri kalan sorular doğru cevaplanmıştır.\n\nDoğru cevaplanan soru sayısı kaçtır?",
+		"options": [
+			"48",
+			"44",
+			"36",
+			"46",
+			"52"
+		],
+		"correctIndex": 1,
+		"explanation": "Yanlış cevap sayısı 80 × 35/100 = 28'dir. Doğru cevap sayısı 80 − 28 − 8 = 44 olur. 52 cevabı boş soruları çıkarmayı unutmaktan, 36 cevabı ise yanlış ve boş soruların toplamını (28 + 8) doğru sayısı sanmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-036",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "İki birime yapılan başvuru sayıları şöyledir:\n• 2024: A birimi 250, B birimi 150\n• 2025: A birimi 300, B birimi 120\n\nİki birimin toplam başvuru sayısı 2024'ten 2025'e nasıl değişmiştir?",
+		"options": [
+			"%20 artmıştır.",
+			"%20 azalmıştır.",
+			"%10 artmıştır.",
+			"%5 azalmıştır.",
+			"%5 artmıştır."
+		],
+		"correctIndex": 4,
+		"explanation": "Toplam başvuru 2024'te 250 + 150 = 400, 2025'te 300 + 120 = 420'dir. Artış 20'dir; yüzde değişim eski değere göre hesaplanır: 20 ÷ 400 × 100 = %5 artış. A biriminin başvuruları %20 artmış, B biriminin başvuruları %20 azalmıştır; bu iki oran birbirini götürmez, çünkü birimlerin başlangıç büyüklükleri farklıdır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-037",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Ölçeği 1:20.000 olan bir haritada bir arazi 4 cm² büyüklüğünde gösterilmiştir.\n\nBu arazinin gerçek alanı kaç hektardır? (1 hektar = 10.000 m²)",
+		"options": [
+			"16",
+			"160",
+			"0,08",
+			"1,6",
+			"8"
+		],
+		"correctIndex": 0,
+		"explanation": "1:20.000 ölçeğinde haritadaki 1 cm gerçekte 20.000 cm = 200 m'dir. Alan hesaplanırken uzunluk oranının karesi alınır: 1 cm² gerçekte 200 m × 200 m = 40.000 m²'dir. 4 cm² → 160.000 m² = 16 hektar. 0,08 cevabı ölçeği alana doğrudan uygulamaktan (4 × 200 m) doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-038",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Un ile şekerin kütlece 5 : 3 oranında karıştırıldığı 64 kilogramlık bir karışım hazırlanmıştır.\n\nBu karışıma kaç kilogram un eklenirse unun şekere oranı 3 : 1 olur?",
+		"options": [
+			"16",
+			"24",
+			"8",
+			"40",
+			"32"
+		],
+		"correctIndex": 4,
+		"explanation": "64 kilogram 5 + 3 = 8 paya bölünür; bir pay 8 kg'dır. Karışımda 5 × 8 = 40 kg un ve 3 × 8 = 24 kg şeker vardır. Yalnızca un eklendiği için şeker 24 kg kalır. Oranın 3 : 1 olması için un 24 × 3 = 72 kg olmalıdır: eklenecek un 72 − 40 = 32 kg'dır. 24 cevabı şeker miktarıdır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-039",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir kurumda kadın çalışanların oranı 2024'te %40, 2025'te %45'tir. Kurumun toplam çalışan sayısı 2024'te 500, 2025'te 600'dür.\n\nKadın çalışan sayısı 2024'ten 2025'e yüzde kaç artmıştır?",
+		"options": [
+			"5",
+			"35",
+			"25",
+			"12,5",
+			"20"
+		],
+		"correctIndex": 1,
+		"explanation": "Kadın çalışan sayısı 2024'te 500 × 40/100 = 200, 2025'te 600 × 45/100 = 270'tir. Artış 70'tir; eski değere göre yüzde artış 70 ÷ 200 × 100 = %35'tir. 5 cevabı oranların farkıdır (yüzde puan), 12,5 cevabı oranın kendi içindeki artışı (5 ÷ 40), 20 cevabı ise yalnızca toplam çalışan sayısındaki artıştır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-oran-040",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/oran-oranti-ve-yuzde",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "A'nın parası B'nin parasının 3/5'i, C'nin parası ise B'nin parasının %20 fazlasıdır. Üç kişinin toplam parası 5.600 TL'dir.\n\nC'nin parası kaç TL'dir?",
+		"options": [
+			"2.000",
+			"2.800",
+			"1.680",
+			"2.400",
+			"1.200"
+		],
+		"correctIndex": 3,
+		"explanation": "Karşılaştırma B üzerinden yapıldığı için B'nin parasına b denir: A = 0,6b, C = 1,2b. Toplam 0,6b + b + 1,2b = 2,8b = 5.600, buradan b = 2.000 TL. C = 1,2 × 2.000 = 2.400 TL, A = 1.200 TL'dir. 2.000 TL B'nin parasıdır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

@@ -331,5 +331,672 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-nufus-011",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türkiye'de kaç il vardır?",
+		"options": [
+			"79",
+			"82",
+			"76",
+			"81",
+			"80"
+		],
+		"correctIndex": 3,
+		"explanation": "Türkiye'de 81 il vardır. Bu illerden 30'unda büyükşehir belediyesi bulunur; büyükşehir olan illerde belediye sınırları il mülki sınırlarıyla aynıdır.",
+		"reference": {
+			"title": "İçişleri Bakanlığı İller İdaresi Genel Müdürlüğü",
+			"section": "Mülki idari bölümler"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yerlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-012",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Göçebelerin konakladığı yere ve bu yerde konaklayan göçebe topluluğa verilen ad aşağıdakilerden hangisidir?",
+		"options": [
+			"Oba",
+			"Kasaba",
+			"Kom",
+			"Mezra",
+			"Dam"
+		],
+		"correctIndex": 0,
+		"explanation": "Oba, konar-göçer toplulukların konak yeri ve bu yerde konaklayan göçebe topluluktur; Toroslar ve çevresinde görülür. Mezra köye bağlı küçük yerleşme, dam İç Anadolu'da ekim-biçim döneminde kullanılan geçici yerleşme, kom Doğu ve Güneydoğu Anadolu'da hayvancılık için kurulan geçici yerleşmedir. Kasaba ise köyden büyük, şehirden küçük yerleşmedir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"oba\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yerlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-013",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kırsalda birkaç evden oluşan, köyden küçük ve yönetim bakımından bir köye bağlı olan en küçük yerleşim birimi aşağıdakilerden hangisidir?",
+		"options": [
+			"Mezra",
+			"Belde",
+			"Divan",
+			"Kasaba",
+			"Oba"
+		],
+		"correctIndex": 0,
+		"explanation": "Mezra, kırsalda birkaç evden oluşan en küçük yerleşim birimidir ve yönetim bakımından bağlı olduğu köyün muhtarlığına tabidir. Kasaba ve belde köyden büyük yerleşmelerdir; oba göçebelerin konak yeri, divan ise Batı Karadeniz'de birkaç mahallenin oluşturduğu birliktir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"mezra\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yerlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-014",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Akademisyen, mühendis ve hekim gibi yüksek nitelikli kişilerin daha iyi çalışma koşulları için başka ülkelere yerleşmesi aşağıdaki göç türlerinden hangisine örnektir?",
+		"options": [
+			"Zorunlu göç",
+			"Beyin göçü",
+			"Kırdan kente göç",
+			"İç göç",
+			"Mevsimlik göç"
+		],
+		"correctIndex": 1,
+		"explanation": "Nitelikli insan gücünün yurt dışına gitmesine beyin göçü denir ve bir dış göç türüdür. Mevsimlik göç belirli dönemlerde geçici olarak yapılır (Çukurova'da pamuk, Karadeniz'de fındık toplama); iç göç ve kırdan kente göç ülke sınırları içinde kalır. Zorunlu göç ise savaş, afet gibi kişinin isteği dışındaki nedenlerle olur.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Göç istatistikleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"goc"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-015",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Toplam nüfusu 2.000.000, kır nüfusu 500.000, yüz ölçümü 25.000 km² ve ekili-dikili alanı 10.000 km² olan bir ilin agrarik nüfus yoğunluğu kaç kişi/km²dir?",
+		"options": [
+			"150",
+			"80",
+			"50",
+			"20",
+			"200"
+		],
+		"correctIndex": 2,
+		"explanation": "Agrarik nüfus yoğunluğu, kır (çiftçi) nüfusunun ekili-dikili alana bölünmesiyle bulunur: 500.000 ÷ 10.000 = 50. Toplam nüfus yüz ölçümüne bölünürse aritmetik yoğunluk (80), ekili-dikili alana bölünürse fizyolojik yoğunluk (200) elde edilir.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Nüfus yoğunluğu hesaplamaları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-016",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Doğurganlığın düştüğü ve ortalama yaşam süresinin uzadığı bir ülkede zamanla aşağıdakilerden hangisinin görülmesi beklenir?",
+		"options": [
+			"Nüfus piramidinin tabanının genişlemesi ve genç nüfus oranının artması",
+			"Nüfus piramidinin tabanının daralması ve yaşlı nüfus oranının artması",
+			"Bağımlı yaşlı nüfus oranının azalması",
+			"Ortanca yaşın düşmesi ve çocuk nüfusun artması",
+			"Nüfus piramidinin tepesinin daralması"
+		],
+		"correctIndex": 1,
+		"explanation": "Doğum oranı düştükçe piramidin tabanındaki çocuk nüfus azalır; yaşam süresi uzadıkça üst basamaklardaki yaşlı nüfus artar. Böylece tabanı dar, gövdesi ve üst kısmı geniş bir piramit oluşur ve nüfus yaşlanır. Türkiye'de de doğurganlığın düşmesiyle bu yönde bir değişim yaşanmaktadır.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Nüfus piramitleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-017",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Evlerin su kaynakları çevresinde bir araya toplandığı kır yerleşmelerinin en tipik görüldüğü bölge ile bunun başlıca nedeni aşağıdakilerin hangisinde birlikte doğru verilmiştir?",
+		"options": [
+			"İç Anadolu - arazinin çok engebeli olması",
+			"Doğu Karadeniz - su kaynaklarının kıt olması",
+			"Doğu Karadeniz - yağışın bol olması",
+			"İç Anadolu - su kaynaklarının kıt olması",
+			"Batı Karadeniz - tarım alanlarının parçalı olması"
+		],
+		"correctIndex": 3,
+		"explanation": "İç Anadolu'da su kaynakları kıt olduğu için evler su çevresinde toplanır ve toplu yerleşme görülür. Doğu Karadeniz'de ise su her yerde bulunduğu ve engebeli arazide tarım alanları küçük parçalar hâlinde olduğu için yerleşme dağınıktır.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Kır ve kent yerleşmeleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yerlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-018",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "2007'den beri nüfusun her yıl ikamet adreslerine göre belirlenmesini sağlayan adres kayıt sistemi hangi kanunda düzenlenmiştir?",
+		"options": [
+			"6360 sayılı Kanun",
+			"5393 sayılı Belediye Kanunu",
+			"5490 sayılı Nüfus Hizmetleri Kanunu",
+			"442 sayılı Köy Kanunu",
+			"5302 sayılı İl Özel İdaresi Kanunu"
+		],
+		"correctIndex": 2,
+		"explanation": "Adres kayıt sistemi 5490 sayılı Nüfus Hizmetleri Kanunu'nun \"Adres Kayıt Sistemi\" başlıklı sekizinci kısmında düzenlenmiştir; ulusal adres veri tabanının MERNİS ile ilişkilendirilmesi bu kanuna dayanır. Adrese Dayalı Nüfus Kayıt Sistemi bu altyapı üzerine kurulmuş ve nüfus 2007'den itibaren her yıl bu kayıtlardan belirlenmeye başlanmıştır. 6360 sayılı Kanun ise büyükşehir belediyeleriyle ilgilidir.",
+		"legalRef": {
+			"law": "Nüfus Hizmetleri Kanunu",
+			"lawId": "5490",
+			"article": "48",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5490.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-019",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Türkiye'nin 1965 yılında işgücü anlaşması imzaladığı ülke aşağıdakilerden hangisidir?",
+		"options": [
+			"Federal Almanya",
+			"Avusturya",
+			"Hollanda",
+			"Belçika",
+			"Fransa"
+		],
+		"correctIndex": 4,
+		"explanation": "Batı Avrupa'ya işgücü göçü 30 Ekim 1961'de Federal Almanya ile imzalanan anlaşmayla başladı. Avusturya, Hollanda ve Belçika ile anlaşmalar 1964'te, Fransa ile anlaşma ise 1965'te imzalandı.",
+		"reference": {
+			"title": "Türkiye-Fransa İşgücü Anlaşması (1965)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"goc"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-020",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aritmetik nüfus yoğunluğu düşük olduğu hâlde fizyolojik nüfus yoğunluğu çok yüksek olan bir ülke için aşağıdakilerden hangisi kesin olarak söylenebilir?",
+		"options": [
+			"Nüfusu hızla azalmaktadır.",
+			"Kır nüfusunun oranı yüksektir.",
+			"Topraklarının büyük bölümü ekilip dikilmektedir.",
+			"Kent nüfusu kır nüfusundan azdır.",
+			"Ekili-dikili alanların toplam yüz ölçümü içindeki payı küçüktür."
+		],
+		"correctIndex": 4,
+		"explanation": "Aritmetik yoğunluk nüfusun toplam yüz ölçümüne, fizyolojik yoğunluk ise ekili-dikili alana bölünmesiyle bulunur. Aynı nüfus küçük bir sayıya bölündüğünde sonuç büyür; iki değer arasındaki fark büyükse ekili-dikili alan toplam alanın küçük bir bölümüdür. Kır ve kent nüfusu oranı ya da nüfusun değişim hızı bu iki değerden çıkarılamaz.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Nüfus yoğunluğu hesaplamaları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-021",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "İç Anadolu'da tarlaları köyden uzak olan çiftçilerin ekim ve biçim dönemlerinde kullandığı geçici kır yerleşmesi aşağıdakilerden hangisidir?",
+		"options": [
+			"Dam",
+			"Oba",
+			"Mezra",
+			"Divan",
+			"Kom"
+		],
+		"correctIndex": 0,
+		"explanation": "Dam, İç Anadolu'da tarlalara yakın kurulan ve ekim-biçim döneminde kullanılan geçici tarım yerleşmesidir. Kom Doğu ve Güneydoğu Anadolu'da hayvancılığa bağlı geçici yerleşme, oba konar-göçerlerin çadır yerleşmesi, divan Batı Karadeniz'de birkaç mahallenin oluşturduğu birlik, mezra ise köye bağlı birkaç evlik en küçük yerleşmedir.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Kır ve kent yerleşmeleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yerlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-022",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki şehirlerden hangisi öne çıkan işlevi bakımından bir liman şehridir?",
+		"options": [
+			"Ankara",
+			"Eskişehir",
+			"Mersin",
+			"Kayseri",
+			"Konya"
+		],
+		"correctIndex": 2,
+		"explanation": "Şehirler öne çıkan işlevlerine göre sınıflandırılır: Mersin liman, Ankara idari, Kocaeli sanayi, Antalya turizm işleviyle öne çıkar. Ankara, Kayseri, Konya ve Eskişehir denize kıyısı olmayan iç bölge şehirleridir.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Kır ve kent yerleşmeleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yerlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-023",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Batı Karadeniz'de görülen ve birkaç mahallenin bir araya gelmesiyle oluşan kır yerleşmesi birimi aşağıdakilerden hangisidir?",
+		"options": [
+			"Dam",
+			"Yayla",
+			"Kom",
+			"Divan",
+			"Oba"
+		],
+		"correctIndex": 3,
+		"explanation": "Divan, Batı Karadeniz'de birkaç mahallenin oluşturduğu kır yerleşmesi birimidir. Dam İç Anadolu'da ekim-biçim döneminde, kom Doğu ve Güneydoğu Anadolu'da hayvancılık için kullanılan geçici yerleşmelerdir. Oba konar-göçerlerin çadır yerleşmesi, yayla ise yazın hayvan otlatmak ve serinlemek için çıkılan dağlık alandaki yerleşmedir.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Kır ve kent yerleşmeleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yerlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-024",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye, Avusturya, Hollanda ve Belçika ile işgücü anlaşmalarını hangi yıl imzalamıştır?",
+		"options": [
+			"1964",
+			"1965",
+			"1970",
+			"1973",
+			"1961"
+		],
+		"correctIndex": 0,
+		"explanation": "Batı Avrupa'ya işgücü göçü 30 Ekim 1961'de Federal Almanya ile imzalanan anlaşmayla başlamıştır. Avusturya, Hollanda ve Belçika ile anlaşmalar 1964'te, Fransa ile anlaşma ise 1965'te imzalanmıştır.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Göç istatistikleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"goc"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-025",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye'de nüfusun, herkesin belirli bir gün evinde beklemesiyle sayıldığı son geleneksel genel nüfus sayımı hangi yıl yapılmıştır?",
+		"options": [
+			"2010",
+			"1990",
+			"2000",
+			"1985",
+			"2007"
+		],
+		"correctIndex": 2,
+		"explanation": "1927'den sonra genel nüfus sayımları 1935-1990 arasında genellikle beş yılda bir yapılmış, son geleneksel sayım 2000'de gerçekleştirilmiştir. 2007'den beri nüfus Adrese Dayalı Nüfus Kayıt Sistemi ile ikamet adresi kayıtlarından her yıl belirlenmektedir.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Genel nüfus sayımları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-026",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "A ilinin nüfusu 900.000, yüz ölçümü 12.000 km²; B ilinin nüfusu 600.000, yüz ölçümü 5.000 km²dir.\n\nBuna göre B ilinin aritmetik nüfus yoğunluğu, A ilininkinden kaç kişi/km² fazladır?",
+		"options": [
+			"120",
+			"45",
+			"25",
+			"60",
+			"75"
+		],
+		"correctIndex": 1,
+		"explanation": "Aritmetik nüfus yoğunluğu toplam nüfusun yüz ölçümüne bölünmesiyle bulunur. A ili: 900.000 ÷ 12.000 = 75 kişi/km². B ili: 600.000 ÷ 5.000 = 120 kişi/km². Fark 120 − 75 = 45 kişi/km²dir. 25 ve 60 cevapları iki ilin nüfus farkını (300.000) yüz ölçümlerinden birine bölmekten doğar.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Nüfus yoğunluğu hesaplamaları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-027",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "6360 sayılı Kanun'la 2012'de büyükşehir belediyesi kurulan on üç ile 2013'te eklenen il aşağıdakilerden hangisidir?",
+		"options": [
+			"Samsun",
+			"Rize",
+			"Trabzon",
+			"Giresun",
+			"Ordu"
+		],
+		"correctIndex": 4,
+		"explanation": "6360 sayılı Kanun 2012'de on üç ilde büyükşehir belediyesi kurmuş, 2013'te 6447 sayılı Kanun'la Ordu da eklenmiştir; Kanun'un adı bu yüzden \"On Dört İlde Büyükşehir Belediyesi...\" biçimindedir. Trabzon ilk on üç il arasındadır, Samsun ise daha önce büyükşehir olmuştu. Rize ve Giresun'da büyükşehir belediyesi yoktur.",
+		"legalRef": {
+			"law": "On Dört İlde Büyükşehir Belediyesi ve Yirmi Yedi İlçe Kurulması ile Bazı Kanun ve Kanun Hükmünde Kararnamelerde Değişiklik Yapılmasına Dair Kanun",
+			"lawId": "6360",
+			"article": "1",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6360.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yerlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-028",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Doğu Anadolu Bölgesi'nde nüfusun seyrek olmasının başlıca nedeni aşağıdakilerden hangisidir?",
+		"options": [
+			"Yer altı sularının yüzeye çok yakın olması",
+			"Kıyı ovalarının geniş yer kaplaması",
+			"Orman örtüsünün bölgenin tamamını kaplaması",
+			"Yükseltinin fazla, arazinin engebeli ve iklimin sert olması",
+			"Yağışların her mevsime düzenli dağılması"
+		],
+		"correctIndex": 3,
+		"explanation": "Nüfus kıyılarda, ovalarda ve sanayi-ticaret merkezlerinde yoğunlaşır. Doğu Anadolu'da yükseltinin fazla, arazinin engebeli ve kışların uzun ve sert olması tarım ve yerleşmeyi sınırladığı için nüfus seyrektir. İç Anadolu'nun bazı kesimlerinde seyrekliğin başlıca nedeni ise kuraklıktır.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Nüfus yoğunluğu hesaplamaları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-029",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "5216 sayılı Büyükşehir Belediyesi Kanunu'na göre büyükşehir belediyelerinin sınırları nasıl belirlenir?",
+		"options": [
+			"Yalnızca merkez ilçelerin mülki sınırlarıdır.",
+			"Büyükşehir belediyelerinin sınırları il mülki sınırlarıdır.",
+			"Köyler hariç ilçe belediyelerinin sınırlarından oluşur.",
+			"Valilik binası merkez alınarak nüfusa göre belirlenen yarıçaplı alandır.",
+			"Büyükşehir belediye meclisinin kararıyla belirlenir."
+		],
+		"correctIndex": 1,
+		"explanation": "5216 sayılı Kanun'un 6360 sayılı Kanun'la değiştirilen 5. maddesine göre büyükşehir belediyelerinin sınırları il mülki sınırlarıdır; ilçe belediyelerinin sınırları da o ilçelerin mülki sınırlarıdır. Bu değişiklikten önce İstanbul ve Kocaeli dışındaki büyükşehirlerde sınır, valilik binası merkez alınarak nüfusa göre belirlenen yarıçaplı bir alandı.",
+		"legalRef": {
+			"law": "Büyükşehir Belediyesi Kanunu",
+			"lawId": "5216",
+			"article": "5",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5216.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yerlesme"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-nufus-030",
+		"subjectId": "cografya",
+		"topicId": "cografya/nufus-ve-yerlesme",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir ilde toplam nüfus, yüz ölçümü ve ekili-dikili alan değişmeden kalırken kentleşmeyle kır nüfusu azalmıştır.\n\nBuna göre bu ilin aşağıdaki nüfus yoğunluklarından hangisi azalır?",
+		"options": [
+			"Aritmetik ve fizyolojik nüfus yoğunluğu",
+			"Hiçbiri",
+			"Fizyolojik nüfus yoğunluğu",
+			"Aritmetik nüfus yoğunluğu",
+			"Agrarik nüfus yoğunluğu"
+		],
+		"correctIndex": 4,
+		"explanation": "Aritmetik yoğunluk toplam nüfus ÷ yüz ölçümü, fizyolojik yoğunluk toplam nüfus ÷ ekili-dikili alan, agrarik yoğunluk ise kır nüfusu ÷ ekili-dikili alandır. Toplam nüfus, yüz ölçümü ve ekili-dikili alan değişmediği için aritmetik ve fizyolojik yoğunluk aynı kalır; yalnızca kır nüfusu azaldığından agrarik yoğunluk düşer.",
+		"reference": {
+			"title": "Türkiye İstatistik Kurumu (TÜİK)",
+			"section": "Nüfus yoğunluğu hesaplamaları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"nufus"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

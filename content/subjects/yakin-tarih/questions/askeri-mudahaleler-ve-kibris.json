@@ -322,5 +322,649 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1960-011",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türk anayasa tarihinde halkoylamasına sunularak kabul edilen ilk anayasa aşağıdakilerden hangisidir?",
+		"options": [
+			"1961 Anayasası",
+			"1876 Kanun-i Esasi",
+			"1921 Teşkilat-ı Esasiye Kanunu",
+			"1982 Anayasası",
+			"1924 Anayasası"
+		],
+		"correctIndex": 0,
+		"explanation": "1961 Anayasası Kurucu Meclis tarafından hazırlanmış ve 9 Temmuz 1961'de halkoylamasıyla kabul edilmiştir; Türkiye'de halkoylamasına sunulan ilk anayasadır. 1876, 1921 ve 1924 anayasaları halkoylamasına sunulmamıştır. 1982 Anayasası da 7 Kasım 1982'de halkoylamasıyla kabul edilmiştir, ancak bu ikinci örnektir.",
+		"reference": {
+			"title": "1961 Türkiye Cumhuriyeti Anayasası (9 Temmuz 1961 halkoylaması)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"1961-anayasasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-012",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "16 Ağustos 1960'ta kurulan Kıbrıs Cumhuriyeti'nin düzenini güvence altına alan Garanti Antlaşması'nın garantör devletleri aşağıdakilerden hangisidir?",
+		"options": [
+			"Türkiye, Yunanistan ve Birleşmiş Milletler",
+			"Türkiye, Yunanistan ve ABD",
+			"Yunanistan, İngiltere ve ABD",
+			"Türkiye, İngiltere ve Fransa",
+			"Türkiye, Yunanistan ve İngiltere"
+		],
+		"correctIndex": 4,
+		"explanation": "1959 Zürih ve Londra antlaşmalarının ardından 16 Ağustos 1960'ta Kıbrıs Cumhuriyeti kurulmuştur. Garanti Antlaşması'yla Türkiye, Yunanistan ve İngiltere kurulan düzenin garantörü olmuştur. Antlaşmanın 4. maddesi, hükümler ihlal edildiğinde garantörlere düzeni yeniden kurmak için harekete geçme hakkı tanır; 1974 Kıbrıs Barış Harekâtı bu maddeye dayanır.",
+		"reference": {
+			"title": "Kıbrıs Garanti Antlaşması (16 Ağustos 1960)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kibris"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-013",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1961 seçimlerinin ardından CHP ile Adalet Partisi arasında kurulan ve Cumhuriyet tarihinin ilk koalisyon hükûmeti olan hükûmetin başbakanı aşağıdakilerden hangisidir?",
+		"options": [
+			"Nihat Erim",
+			"İsmet İnönü",
+			"Cemal Gürsel",
+			"Süleyman Demirel",
+			"Bülent Ecevit"
+		],
+		"correctIndex": 1,
+		"explanation": "15 Ekim 1961 seçimlerinden sonra İsmet İnönü başkanlığında CHP-AP koalisyonu kurulmuştur; bu, Cumhuriyet tarihinin ilk koalisyon hükûmetidir. Aynı dönemde Cemal Gürsel Cumhurbaşkanıdır. Süleyman Demirel 1965'te AP'nin tek başına iktidarıyla başbakan olmuş, Nihat Erim 1971 Muhtırası'ndan sonra, Bülent Ecevit ise 1974'te başbakanlık yapmıştır.",
+		"reference": {
+			"title": "26. Türkiye Hükûmeti (1961-1962)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koalisyonlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-014",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "27 Mayıs 1960'tan sonra ekonomik ve sosyal kalkınmayı plana bağlamak amacıyla kurulan ve I. Beş Yıllık Kalkınma Planı'nı (1963) hazırlayan kurum aşağıdakilerden hangisidir?",
+		"options": [
+			"Merkez Bankası",
+			"Türkiye İstatistik Kurumu",
+			"Sümerbank",
+			"Hazine Müsteşarlığı",
+			"Devlet Planlama Teşkilatı"
+		],
+		"correctIndex": 4,
+		"explanation": "Devlet Planlama Teşkilatı (DPT) 1960'ta kurulmuş ve 1961 Anayasası'nın kalkınmanın plana bağlanması ilkesi doğrultusunda beş yıllık kalkınma planlarını hazırlamıştır; ilk plan 1963'te uygulamaya konmuştur. Merkez Bankası (1930) ve Sümerbank (1933) Atatürk döneminde kurulmuştur.",
+		"reference": {
+			"title": "Devlet Planlama Teşkilatı (1960)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-015",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Millî bakiye sisteminin ilk kez uygulandığı 1965 genel seçimlerinde tek başına iktidara gelen parti ve başbakan aşağıdakilerin hangisinde doğru verilmiştir?",
+		"options": [
+			"Demokrat Parti – Adnan Menderes",
+			"Adalet Partisi – Ragıp Gümüşpala",
+			"Adalet Partisi – Süleyman Demirel",
+			"Cumhuriyet Halk Partisi – İsmet İnönü",
+			"Millî Selamet Partisi – Necmettin Erbakan"
+		],
+		"correctIndex": 2,
+		"explanation": "10 Ekim 1965 genel seçimleri millî bakiye sisteminin ilk kez uygulandığı seçimdir. Adalet Partisi tek başına iktidara gelmiş ve Süleyman Demirel başbakan olmuştur. Demokrat Parti 1960'ta kapatılmıştı; Millî Selamet Partisi ise 1972'de kurulmuştur. Ragıp Gümüşpala AP'nin 1964'te vefat eden ilk genel başkanıdır.",
+		"reference": {
+			"title": "1965 Türkiye genel seçimleri (10 Ekim 1965)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koalisyonlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-016",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Türkiye ile Avrupa Ekonomik Topluluğu arasındaki ortaklıkta geçiş döneminin esaslarını belirleyen ve 23 Kasım 1970'te imzalanan belge aşağıdakilerden hangisidir?",
+		"options": [
+			"Roma Antlaşması",
+			"Helsinki Zirvesi Kararları",
+			"Ankara Antlaşması",
+			"Katma Protokol",
+			"Gümrük Birliği Kararı"
+		],
+		"correctIndex": 3,
+		"explanation": "Türkiye-AET ortaklık ilişkisi 12 Eylül 1963 tarihli Ankara Antlaşması ile başlamıştır. Brüksel'de 23 Kasım 1970'te imzalanan Katma Protokol, ortaklığın geçiş döneminin esaslarını ve takvimini belirlemiştir. Gümrük Birliği 1 Ocak 1996'da yürürlüğe girmiş, Türkiye'nin adaylığı 1999 Helsinki Zirvesi'nde kabul edilmiştir.",
+		"reference": {
+			"title": "Katma Protokol (23 Kasım 1970)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"avrupa"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-017",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Kıbrıs Barış Harekâtı'nın ardından ABD'nin 5 Şubat 1975'te Türkiye'ye karşı uygulamaya başladığı yaptırım aşağıdakilerden hangisidir?",
+		"options": [
+			"Silah ambargosu",
+			"Marshall Planı yardımlarının başlatılması",
+			"Johnson Mektubu'nun gönderilmesi",
+			"Truman Doktrini'nin ilan edilmesi",
+			"NATO üyeliğinin askıya alınması"
+		],
+		"correctIndex": 0,
+		"explanation": "ABD Kongresi, 1974 Kıbrıs Barış Harekâtı'nda ABD'den alınan silahların kullanıldığı gerekçesiyle 5 Şubat 1975'te Türkiye'ye silah ambargosu uygulanmasına karar vermiştir. Johnson Mektubu 1964'te gönderilmiş; Truman Doktrini (1947) ve Marshall Planı (1948) çok daha önceki gelişmelerdir. Türkiye'nin NATO üyeliği askıya alınmamıştır.",
+		"reference": {
+			"title": "ABD'nin Türkiye'ye silah ambargosu (5 Şubat 1975)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kibris",
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-018",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1963'teki saldırıların ardından Kıbrıs Türklerinin kendi işlerini yürütmek üzere 27 Aralık 1967'de oluşturduğu yönetim aşağıdakilerden hangisidir?",
+		"options": [
+			"Otonom Kıbrıs Türk Yönetimi",
+			"Kıbrıs Türk Federe Devleti",
+			"Kıbrıs Cumhuriyeti",
+			"Kıbrıs Geçici Türk Yönetimi",
+			"Kuzey Kıbrıs Türk Cumhuriyeti"
+		],
+		"correctIndex": 3,
+		"explanation": "Kıbrıs Türkleri 1963'ten itibaren Kıbrıs Türk Genel Komitesi ile, 27 Aralık 1967'den sonra ise Kıbrıs Geçici Türk Yönetimi ile kendi işlerini yürütmüştür. Otonom Kıbrıs Türk Yönetimi 1 Ekim 1974'te, Kıbrıs Türk Federe Devleti 13 Şubat 1975'te, Kuzey Kıbrıs Türk Cumhuriyeti 15 Kasım 1983'te kurulmuştur.",
+		"reference": {
+			"title": "Kıbrıs Geçici Türk Yönetimi (27 Aralık 1967)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kibris"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-019",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Kıbrıs Barış Harekâtı'nın ikinci aşaması hangi tarihte başlamıştır?",
+		"options": [
+			"15 Temmuz 1974",
+			"14 Ağustos 1974",
+			"20 Temmuz 1974",
+			"15 Kasım 1983",
+			"13 Şubat 1975"
+		],
+		"correctIndex": 1,
+		"explanation": "Kıbrıs Barış Harekâtı 20 Temmuz 1974'te başlamış; Cenevre görüşmelerinden sonuç alınamaması üzerine ikinci harekât 14 Ağustos 1974'te gerçekleştirilmiştir. 15 Temmuz 1974 Makarios'a karşı yapılan Yunanistan destekli darbenin, 13 Şubat 1975 Kıbrıs Türk Federe Devleti'nin, 15 Kasım 1983 ise KKTC'nin kuruluş tarihidir.",
+		"reference": {
+			"title": "Kıbrıs Barış Harekâtı (20 Temmuz-16 Ağustos 1974)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kibris"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-020",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Türkiye'nin 20 Temmuz 1974'te Kıbrıs'a müdahale etmesinden hemen önce adada yaşanan ve harekâtı doğrudan tetikleyen gelişme aşağıdakilerden hangisidir?",
+		"options": [
+			"Zürih ve Londra antlaşmalarının imzalanması",
+			"Kıbrıs Türk Federe Devleti'nin ilan edilmesi",
+			"Cumhurbaşkanı Makarios'a karşı Yunanistan destekli bir darbe yapılması",
+			"Johnson Mektubu'nun gönderilmesi",
+			"ABD'nin Türkiye'ye silah ambargosu uygulaması"
+		],
+		"correctIndex": 2,
+		"explanation": "15 Temmuz 1974'te Yunanistan'daki askerî yönetimin desteklediği bir darbeyle Cumhurbaşkanı Makarios devrilmiş ve adanın Yunanistan'a bağlanması tehlikesi doğmuştur. Türkiye, Garanti Antlaşması'nın 4. maddesine dayanarak 20 Temmuz 1974'te harekâtı başlatmıştır. Johnson Mektubu 1964'te, Zürih ve Londra antlaşmaları 1959'da, KTFD ve silah ambargosu ise harekâttan sonra (1975) gerçekleşmiştir.",
+		"reference": {
+			"title": "Kıbrıs Garanti Antlaşması (16 Ağustos 1960)",
+			"section": "m. 4"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kibris"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-021",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "27 Mayıs 1960'tan sonra yapılan Yassıada yargılamaları sonucunda 1961'de idam edilen eski başbakan aşağıdakilerden hangisidir?",
+		"options": [
+			"Celal Bayar",
+			"Adnan Menderes",
+			"Fuat Köprülü",
+			"Refik Koraltan",
+			"Şükrü Saracoğlu"
+		],
+		"correctIndex": 1,
+		"explanation": "Yassıada yargılamaları sonunda eski Başbakan Adnan Menderes, Dışişleri Bakanı Fatin Rüştü Zorlu ve Maliye Bakanı Hasan Polatkan 1961'de idam edilmiştir. Eski Cumhurbaşkanı Celal Bayar hakkında verilen ölüm cezası ise yaşı nedeniyle uygulanmamıştır.",
+		"reference": {
+			"title": "Yassıada yargılamaları (1960-1961)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"27-mayis"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-022",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "20 Temmuz 1974'te Kıbrıs Barış Harekâtı başlatıldığında Türkiye'nin başbakanı kimdi?",
+		"options": [
+			"Bülent Ecevit",
+			"Nihat Erim",
+			"Sadi Irmak",
+			"Turgut Özal",
+			"Süleyman Demirel"
+		],
+		"correctIndex": 0,
+		"explanation": "Kıbrıs Barış Harekâtı, 1974'te kurulan CHP-MSP koalisyon hükûmetinin başbakanı Bülent Ecevit döneminde başlatılmıştır. Sadi Irmak harekâttan sonra 1974-1975'te seçim hükûmetine, Süleyman Demirel 1975'ten itibaren Milliyetçi Cephe hükûmetlerine başkanlık etmiştir.",
+		"reference": {
+			"title": "Kıbrıs Barış Harekâtı (20 Temmuz 1974)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kibris"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-023",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi 1961 Anayasası ile getirilen yeniliklerden biridir?",
+		"options": [
+			"Kadınlara milletvekili seçme ve seçilme hakkı tanınması",
+			"Anayasa Mahkemesine bireysel başvuru hakkı tanınması",
+			"Tek meclisli yasama yapısına geçilmesi",
+			"Üniversitelere özerklik tanınması",
+			"Cumhurbaşkanının halk tarafından seçilmesi"
+		],
+		"correctIndex": 3,
+		"explanation": "1961 Anayasası üniversitelere özerklik tanımış; ayrıca çift meclis, Anayasa Mahkemesi ve anayasal kurum olarak Millî Güvenlik Kurulunu getirmiş, sosyal ve ekonomik hakları anayasaya almıştır. Kadınlara milletvekili seçme ve seçilme hakkı 1934'te, Cumhurbaşkanının halkça seçilmesi 2007'de, bireysel başvuru 2010'da getirilmiştir; tek meclise 1982 Anayasası ile dönülmüştür.",
+		"reference": {
+			"title": "1961 Türkiye Cumhuriyeti Anayasası"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"1961-anayasasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-024",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "12 Mart 1971 Muhtırası üzerine istifa eden hükûmetin başbakanı aşağıdakilerden hangisidir?",
+		"options": [
+			"Ferit Melen",
+			"Nihat Erim",
+			"Süleyman Demirel",
+			"Bülent Ecevit",
+			"İsmet İnönü"
+		],
+		"correctIndex": 2,
+		"explanation": "12 Mart 1971'de Genelkurmay Başkanı ve kuvvet komutanlarının verdiği muhtıra üzerine Adalet Partisi'nin başbakanı Süleyman Demirel hükûmeti istifa etmiştir. Ardından 26 Mart 1971'de Nihat Erim partiler üstü bir hükûmet kurmuş; Ferit Melen de muhtıra döneminde daha sonra başbakanlık yapmıştır.",
+		"reference": {
+			"title": "12 Mart 1971 Muhtırası"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"12-mart"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-025",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kıbrıs'ta Rumların Türklere yönelik saldırılarının yoğunlaştığı ve \"Kanlı Noel\" olarak anılan olaylar hangi yıl yaşanmıştır?",
+		"options": [
+			"1959",
+			"1974",
+			"1967",
+			"1960",
+			"1963"
+		],
+		"correctIndex": 4,
+		"explanation": "Kanlı Noel olayları Aralık 1963'te yaşanmıştır. 1959 Zürih ve Londra antlaşmalarının, 1960 Kıbrıs Cumhuriyeti'nin kuruluşunun, 1967 Kıbrıs Türk yönetiminin oluşturulmasının, 1974 ise Kıbrıs Barış Harekâtı'nın yılıdır. Olayların ardından Türkiye'nin müdahale ihtimaline karşı 1964'te Johnson Mektubu gönderilmiştir.",
+		"reference": {
+			"title": "Kıbrıs'ta 1963 olayları (Kanlı Noel)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kibris"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-026",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "16 Ağustos 1960'ta kurulan Kıbrıs Cumhuriyeti'nin temelini oluşturan ve 1959'da imzalanan antlaşmalar aşağıdakilerden hangisidir?",
+		"options": [
+			"Balkan Paktı ve Bağdat Paktı",
+			"Ankara Antlaşması ve Katma Protokol",
+			"Paris ve Cenevre antlaşmaları",
+			"Lozan ve Montrö antlaşmaları",
+			"Zürih ve Londra antlaşmaları"
+		],
+		"correctIndex": 4,
+		"explanation": "1959'da imzalanan Zürih ve Londra antlaşmaları Kıbrıs Cumhuriyeti'nin temelini oluşturmuş; cumhuriyet 16 Ağustos 1960'ta Türkiye, Yunanistan ve İngiltere'nin garantörlüğünde kurulmuştur. Ankara Antlaşması (1963) ve Katma Protokol (1970) ise Türkiye-AET ortaklığına ilişkindir.",
+		"reference": {
+			"title": "Zürih ve Londra antlaşmaları (1959)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kibris"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-027",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1975-1977 yılları arasında Süleyman Demirel başbakanlığında sağ partilerin oluşturduğu koalisyon hükûmetleri hangi adla anılır?",
+		"options": [
+			"Milliyetçi Cephe hükûmetleri",
+			"Demokratik Sol hükûmetleri",
+			"Partiler üstü hükûmetler",
+			"Millî Birlik hükûmetleri",
+			"Reform hükûmetleri"
+		],
+		"correctIndex": 0,
+		"explanation": "1975-1977 yılları arasında AP, MSP, CGP ve MHP'nin katıldığı koalisyonlar Milliyetçi Cephe hükûmetleri olarak anılır; başbakan Süleyman Demirel'dir. 12 Mart 1971'den sonra Nihat Erim'in kurduğu hükûmet partiler üstü \"reform hükûmeti\", 27 Mayıs 1960'tan sonraki yönetim ise Millî Birlik Komitesidir.",
+		"reference": {
+			"title": "I. Milliyetçi Cephe Hükûmeti (1975)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koalisyonlar"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-028",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1961 Anayasası'nı hazırlayan Kurucu Meclis'te Millî Birlik Komitesinin yanında yer alan organ aşağıdakilerden hangisidir?",
+		"options": [
+			"Danışma Meclisi",
+			"Millî Güvenlik Konseyi",
+			"Heyet-i Âyan",
+			"Temsilciler Meclisi",
+			"Cumhuriyet Senatosu"
+		],
+		"correctIndex": 3,
+		"explanation": "1961 Anayasası, Millî Birlik Komitesi ile Temsilciler Meclisinden oluşan Kurucu Meclis tarafından hazırlanmıştır. Danışma Meclisi ile Millî Güvenlik Konseyi 1982 Anayasası'nı hazırlayan Kurucu Meclisi oluşturmuştur. Cumhuriyet Senatosu 1961 Anayasası'nın kurduğu yasama kanadıdır, Heyet-i Âyan ise Osmanlı Meclis-i Umumisinin kanadıdır.",
+		"reference": {
+			"title": "1961 Türkiye Cumhuriyeti Anayasası",
+			"section": "Kurucu Meclis"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"1961-anayasasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-029",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Türkiye, Ankara Antlaşması'nın imzalanmasından önce Avrupa Ekonomik Topluluğu ile ortaklık ilişkisi kurmak için ilk başvurusunu hangi yıl yapmıştır?",
+		"options": [
+			"1987",
+			"1963",
+			"1959",
+			"1957",
+			"1970"
+		],
+		"correctIndex": 2,
+		"explanation": "Türkiye Avrupa Ekonomik Topluluğuna ortaklık için 1959'da başvurmuş; ortaklık ilişkisi 12 Eylül 1963 tarihli Ankara Antlaşması ile başlamıştır. 1957 Topluluğu kuran Roma Antlaşması'nın, 1970 Katma Protokol'ün, 1987 ise tam üyelik başvurusunun yılıdır.",
+		"reference": {
+			"title": "Türkiye-AET ortaklık başvurusu (1959)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"avrupa-birligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1960-030",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/askeri-mudahaleler-ve-kibris",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "1964 Johnson Mektubu'nun Türk dış politikası üzerindeki etkisi aşağıdakilerden hangisidir?",
+		"options": [
+			"Balkan Paktı'nın kurulması",
+			"ABD'ye bağımlı dış politikanın sorgulanıp çok yönlü dış politika arayışına girilmesi",
+			"Türkiye'nin Marshall Planı'ndan yararlanmaya başlaması",
+			"Türkiye'nin Kıbrıs'a hemen askerî müdahalede bulunması",
+			"Türkiye'nin NATO'ya üye olması"
+		],
+		"correctIndex": 1,
+		"explanation": "Johnson Mektubu, Türkiye'nin Kıbrıs'a müdahalesi hâlinde ABD silahlarının kullanılamayacağını bildirmiş ve müdahaleyi o tarihte engellemiştir. Bu gelişme Türkiye'yi ABD'ye bağımlı dış politikayı sorgulamaya itmiş, çok yönlü dış politika arayışını başlatmıştır. Marshall Planı 1948'de, NATO üyeliği 1952'de, Balkan Paktı 1953-1954'te gerçekleşmiştir.",
+		"reference": {
+			"title": "Johnson Mektubu (5 Haziran 1964)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kibris",
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]
