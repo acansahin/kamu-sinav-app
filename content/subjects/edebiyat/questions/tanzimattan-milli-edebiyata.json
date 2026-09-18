@@ -319,5 +319,325 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-tanzimat-011",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Kurtuluş Savaşı'nı konu alan Ateşten Gömlek romanının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Halide Edip Adıvar",
+			"Mehmet Rauf",
+			"Reşat Nuri Güntekin",
+			"Yakup Kadri Karaosmanoğlu",
+			"Ömer Seyfettin"
+		],
+		"correctIndex": 0,
+		"explanation": "Ateşten Gömlek, Halide Edip Adıvar'ın Kurtuluş Savaşı yıllarını anlatan romanıdır; yazarın Sinekli Bakkal ve Vurun Kahpeye adlı eserleri de vardır. Reşat Nuri Güntekin Çalıkuşu'nun, Yakup Kadri Karaosmanoğlu Yaban'ın, Mehmet Rauf Eylül'ün yazarıdır; Ömer Seyfettin ise hikâyeleriyle tanınır.",
+		"reference": {
+			"title": "Halide Edip Adıvar — Ateşten Gömlek"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"milli-edebiyat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-tanzimat-012",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Vatan yahut Silistre adlı tiyatro eserinin yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Ahmet Mithat Efendi",
+			"Namık Kemal",
+			"Abdülhak Hamit Tarhan",
+			"Ziya Paşa",
+			"Şinasi"
+		],
+		"correctIndex": 1,
+		"explanation": "Vatan yahut Silistre, vatan ve hürriyet düşüncesini işleyen Namık Kemal'in en tanınmış tiyatro eseridir; yazarın İntibah ve Cezmi adlı romanları da vardır. Şinasi Şair Evlenmesi'nin, Ziya Paşa Harabat'ın, Abdülhak Hamit Makber ve Finten'in, Ahmet Mithat Efendi Felatun Bey ile Rakım Efendi'nin yazarıdır.",
+		"reference": {
+			"title": "Namık Kemal — Vatan yahut Silistre"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tanzimat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-tanzimat-013",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Alafranga züppe tipinin Türk romanında ilk kez işlendiği Felatun Bey ile Rakım Efendi'nin yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Namık Kemal",
+			"Recaizade Mahmut Ekrem",
+			"Ahmet Mithat Efendi",
+			"Nabizade Nazım",
+			"Şemsettin Sami"
+		],
+		"correctIndex": 2,
+		"explanation": "Alafranga züppe tipi ilk kez Ahmet Mithat Efendi'nin Felatun Bey ile Rakım Efendi romanında Felatun Bey karakteriyle işlenmiştir. Bu tipin en başarılı örneği sayılan Bihruz Bey ise Recaizade Mahmut Ekrem'in Araba Sevdası'ndadır; iki eser aynı tipi işlediği için sık karıştırılır.",
+		"reference": {
+			"title": "Ahmet Mithat Efendi — Felatun Bey ile Rakım Efendi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tanzimat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-tanzimat-014",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Servet-i Fünun döneminde yazılan Eylül romanının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Halit Ziya Uşaklıgil",
+			"Tevfik Fikret",
+			"Hüseyin Cahit Yalçın",
+			"Mehmet Rauf",
+			"Sami Paşazade Sezai"
+		],
+		"correctIndex": 3,
+		"explanation": "Eylül, Mehmet Rauf'un 1901'de önce Servet-i Fünun dergisinde tefrika edilip sonra kitap olarak yayımlanan romanıdır. Halit Ziya Uşaklıgil Mai ve Siyah ile Aşk-ı Memnu'nun, Hüseyin Cahit Yalçın Nadide ve Hayat-ı Muhayyel'in, Sami Paşazade Sezai Sergüzeşt'in yazarıdır. Tevfik Fikret dönemin şairidir.",
+		"reference": {
+			"title": "Mehmet Rauf — Eylül (1901)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"servet-i-funun"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-tanzimat-015",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Fecr-i Âti topluluğuyla birlikte anılan ve Göl Saatleri adlı şiir kitabını 1921'de yayımlayan şair aşağıdakilerden hangisidir?",
+		"options": [
+			"Mehmet Emin Yurdakul",
+			"Ziya Gökalp",
+			"Tevfik Fikret",
+			"Ahmet Haşim",
+			"Mehmet Akif Ersoy"
+		],
+		"correctIndex": 3,
+		"explanation": "Ahmet Haşim, Fecr-i Âti topluluğuyla birlikte anılan şairdir; Göl Saatleri (1921) ve Piyale onun şiir kitaplarıdır. Tevfik Fikret Servet-i Fünun şairidir ve Rübab-ı Şikeste'yi yazmıştır. Mehmet Emin Yurdakul Türkçe Şiirler'in, Mehmet Akif Ersoy Safahat'ın, Ziya Gökalp Kızılelma'nın şairidir.",
+		"reference": {
+			"title": "Ahmet Haşim — Göl Saatleri (1921)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fecr-i-ati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-tanzimat-016",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Eşinin ölümü üzerine yazdığı Makber adlı şiiriyle tanınan Tanzimat ikinci kuşak şairi aşağıdakilerden hangisidir?",
+		"options": [
+			"Namık Kemal",
+			"Abdülhak Hamit Tarhan",
+			"Şinasi",
+			"Ziya Paşa",
+			"Tevfik Fikret"
+		],
+		"correctIndex": 1,
+		"explanation": "Makber, Abdülhak Hamit Tarhan'ın eşinin ölümü üzerine yazdığı uzun şiiridir; şair Finten gibi tiyatro eserleriyle de tanınır ve Tanzimat'ın \"sanat için sanat\" anlayışındaki ikinci kuşağındandır. Ziya Paşa, Namık Kemal ve Şinasi birinci kuşak yazarlarıdır; Tevfik Fikret ise Servet-i Fünun şairidir.",
+		"reference": {
+			"title": "Abdülhak Hamit Tarhan — Makber"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tanzimat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-tanzimat-017",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Türk edebiyatında köy hayatını konu alan ilk eser sayılan Karabibik'in yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Nabizade Nazım",
+			"Refik Halit Karay",
+			"Sami Paşazade Sezai",
+			"Recaizade Mahmut Ekrem",
+			"Ahmet Mithat Efendi"
+		],
+		"correctIndex": 0,
+		"explanation": "Karabibik (1890), Nabizade Nazım'ın Antalya'nın bir köyünde yaşayan Karabibik adlı köylünün yaşam mücadelesini anlattığı eseridir ve köy hayatını konu alan ilk eser sayılır. Nabizade Nazım Tanzimat'ın ikinci kuşağındandır. Ahmet Mithat Efendi Felatun Bey ile Rakım Efendi'nin, Sami Paşazade Sezai Sergüzeşt'in, Recaizade Mahmut Ekrem Araba Sevdası'nın, Refik Halit Karay Memleket Hikâyeleri'nin yazarıdır.",
+		"reference": {
+			"title": "Nabizade Nazım — Karabibik (1890)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tanzimat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-tanzimat-018",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Şinasi ile Agâh Efendi'nin 1860'ta çıkardığı ve ilk özel Türk gazetesi kabul edilen yayın aşağıdakilerden hangisidir?",
+		"options": [
+			"Takvim-i Vekayi",
+			"Servet-i Fünun",
+			"Tasvir-i Efkâr",
+			"Genç Kalemler",
+			"Tercüman-ı Ahval"
+		],
+		"correctIndex": 4,
+		"explanation": "Tercüman-ı Ahval, 22 Ekim 1860'ta Agâh Efendi ve Şinasi tarafından çıkarılan ilk özel gazetedir; Şinasi'nin Şair Evlenmesi de bu gazetede tefrika edilmiştir. Takvim-i Vekayi resmî gazetedir; Tasvir-i Efkâr Şinasi'nin 1862'de çıkardığı gazetedir. Servet-i Fünun ve Genç Kalemler ise daha sonraki dönemlere adını veren dergilerdir.",
+		"reference": {
+			"title": "Tercüman-ı Ahval gazetesi (22 Ekim 1860)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tanzimat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-tanzimat-019",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir cariyenin acıklı hayatını anlatarak esaret konusunu işleyen Sergüzeşt romanının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Mehmet Rauf",
+			"Şemsettin Sami",
+			"Sami Paşazade Sezai",
+			"Namık Kemal",
+			"Nabizade Nazım"
+		],
+		"correctIndex": 2,
+		"explanation": "Sergüzeşt, Sami Paşazade Sezai'nin Kafkasya'dan getirilip satılan Dilber adlı bir cariyenin hayatını anlatarak esaret konusunu işlediği romandır. Adları benzeştiği için Şemsettin Sami ile karıştırılır; Şemsettin Sami ilk yerli roman Taaşşuk-ı Talat ve Fitnat'ın yazarıdır. Nabizade Nazım Karabibik'in, Namık Kemal İntibah'ın, Mehmet Rauf Eylül'ün yazarıdır.",
+		"reference": {
+			"title": "Sami Paşazade Sezai — Sergüzeşt (1888)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tanzimat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-tanzimat-020",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/tanzimattan-milli-edebiyata",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Türk, Arap ve İran şairlerinden seçtiği şiirleri Harabat adlı antolojide toplayan ve Terkib-i Bent'i yazan şair aşağıdakilerden hangisidir?",
+		"options": [
+			"Recaizade Mahmut Ekrem",
+			"Şinasi",
+			"Namık Kemal",
+			"Abdülhak Hamit Tarhan",
+			"Ziya Paşa"
+		],
+		"correctIndex": 4,
+		"explanation": "Ziya Paşa, Tanzimat'ın birinci kuşağındandır; Türk, Arap ve İran şairlerinden seçilmiş şiirleri topladığı Harabat antolojisi ile Terkib-i Bent ve Terci-i Bent adlı şiirleriyle tanınır. Namık Kemal Vatan yahut Silistre'nin, Şinasi Şair Evlenmesi'nin, Recaizade Mahmut Ekrem Araba Sevdası'nın, Abdülhak Hamit Tarhan Makber'in yazarıdır.",
+		"reference": {
+			"title": "Ziya Paşa — Harabat (1874-1875)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tanzimat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

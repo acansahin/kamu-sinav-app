@@ -86,7 +86,8 @@ artık boşluk sınırsız değil; yeni ders eklerken yeniden sayın.
 >
 > Aşağı yuvarlanır ve **asla yukarı yuvarlanmaz**: mağaza metni içerikten
 > türemediği için havuz küçülmedikçe doğru kalmalıdır. 17 Eylül 2026
-> ölçümü 1710 soru; “1700'ün üzerinde” ifadesi 1700'e inene kadar geçerli.
+> ölçümü 2275 soru (genel kültür konuları 20-30, Türkçe ve sayısal mantık konuları 40 soruya çıkarıldı); “1700'ün
+> üzerinde” doğru kalıyor, bir sonraki metin güncellemesinde “2000'in üzerinde” yazılabilir.
 >
 > ⚠️ **“Her sorunun mevzuat dayanağı var” artık YAZILMAZ.** 1.0.0'dan beri
 > doğruydu; genel kültür ve genel yetenek dersleri eklenince yanlış oldu:

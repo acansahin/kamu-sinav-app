@@ -2,7 +2,7 @@
 topicId: sayisal-mantik/isci-hiz-ve-zaman-problemleri
 title: İşçi, Hız ve Zaman Problemleri
 legislationVersion: Mevzuata bağlı olmayan içerik — örnek çözümler hesaplanarak doğrulanmıştır
-lastVerifiedAt: "2026-09-16"
+lastVerifiedAt: "2026-09-17"
 keyPoints:
   - Bir işi t günde bitiren kişi bir günde işin 1/t'sini yapar; birlikte çalışanların bir günlük işleri toplanır.
   - Boşaltan musluğun bir saatlik katkısı dolduranınkinden çıkarılır.
@@ -45,6 +45,25 @@ A 10 günde, B 15 günde bitiriyor; birlikte 4 gün çalışıp A ayrılıyor:
 2. 4 günde 4/6 = 2/3 biter, 1/3 kalır
 3. B kalan 1/3'ü (1/3) ÷ (1/15) = **5 günde** bitirir
 
+Ters durumda, yani biri **sonradan katılıyorsa** da aynı sıra izlenir. A 18, B 12 günde bitiriyor;
+A tek başına 3 gün çalışıp işin 1/6'sını yapar, kalan 5/6'yı birlikte (günde 5/36) 6 günde
+bitirirler. Soru "başlangıçtan kaç gün sonra" diyorsa cevap 3 + 6 = **9**'dur.
+
+### Verim farkı
+
+"A, B'nin iki katı hızlı" ise A'nın bir günlük işi 2x, B'ninki x'tir. Birlikte 8 günde
+bitiriyorlarsa 3x = 1/8 → x = 1/24; B **24**, A **12** günde bitirir. İki katı hızlı olan
+işi **yarı sürede** bitirir.
+
+### Günlük çalışma saati ve işçi ayrılması
+
+Günlük saat de değişiyorsa iş **işçi × saat × gün** olarak sabittir: 6 kişi × 8 saat × 10 gün
+= 480 → 4 kişi × 10 saat ile 480 ÷ 40 = **12 gün**.
+
+İşin ortasında işçi ayrılırsa yapılan kısım düşülür, kalan kısım yeni işçi sayısına bölünür:
+12 işçi × 20 gün = 240; 8 günde 96 yapılır, kalan 144 dokuz işçiyle 16 günde biter. Toplam 24
+gün, yani plandan **4 gün** geç.
+
 ## Havuz problemleri
 
 Havuz problemleri işçi problemlerinin aynısıdır; tek fark **boşaltan muslukların eksi işaretli**
@@ -64,6 +83,18 @@ açıldığında **hiç dolmaz**. Şıklarda sayısal bir süre varsa önce işa
 Süreyi ondalık saate doğru çevirin: 3 saat 30 dakika **3,5 saattir**, 3,3 saat değildir.
 80 km/sa hızla 3 saat 30 dakikada 80 × 3,5 = **280 km** gidilir.
 
+<Sayi>km/sa ÷ 3,6 = m/sn (72 km/sa = 20 m/sn)</Sayi>
+
+### Akıntı
+
+| Yön | Gerçek hız |
+|---|---|
+| Akıntı yönünde | tekne hızı + akıntı hızı |
+| Akıntıya karşı | tekne hızı − akıntı hızı |
+
+İki yöndeki hızlar biliniyorsa **akıntı hızı = (akıntı yönündeki hız − karşı hız) ÷ 2** olur.
+60 km'yi akıntı yönünde 3, karşı 5 saatte alan teknede hızlar 20 ve 12'dir; akıntı **4 km/sa**.
+
 ### İki araç
 
 | Durum | Aradaki mesafe her saat | Formül |
@@ -73,6 +104,13 @@ Süreyi ondalık saate doğru çevirin: 3 saat 30 dakika **3,5 saattir**, 3,3 sa
 
 - 360 km aradan 70 ve 50 km/sa hızla birbirine doğru → 360 ÷ 120 = **3 saat**.
 - 50 km/sa araç 2 saat önce çıkmışsa arada 100 km vardır; 75 km/sa araç 100 ÷ 25 = **4 saatte** yakalar.
+- Karşılaşmadan önce **kalan mesafe** soruluyorsa kapanan kısım toplam mesafeden çıkarılır:
+  500 km aradan 60 ve 80 km/sa ile 2 saat sonra 500 − 280 = **220 km** kalır.
+
+**Dairesel pistte** aynı kural geçerlidir; "mesafe" pistin çevresidir. Zıt yönde koşanlar
+600 m'lik pistte 70 ve 80 m/dk ile 600 ÷ 150 = **4 dakikada** karşılaşır. Aynı yönde gidenlerde
+hızlı olanın **bir tur fark atması** gerekir: 1,2 km'lik parkurda 24 ve 18 km/sa ile
+1,2 ÷ 6 = 0,2 saat = **12 dakika**.
 
 ### Ortalama hız
 
@@ -84,6 +122,15 @@ Ortalama hız = toplam yol ÷ toplam süre. Yol 120 km alınırsa gidiş 2, dön
 
 Eşit yollar için kısa formül: **ortalama hız = 2 × v₁ × v₂ ÷ (v₁ + v₂)**.
 
+**Süreler eşit ya da farklı verilmişse** yine toplam yol ÷ toplam süre kullanılır: 2 saat 90,
+3 saat 60 km/sa → (180 + 180) ÷ 5 = **72**, hızların ortalaması (75) değil.
+
+Yolun iki yarısı farklı hızlarla alınıp toplam süre verilmişse: ilk yarı 40, ikinci yarı 60 km/sa
+ve toplam 5 saat → d/80 + d/120 = 5 → d = **240 km**.
+
+İki hızla varış farkı verilmişse süreler çıkarılır: 60 km/sa hızla gidildiğinde 80 km/sa hızla
+gidildiğinden 1 saat geç varılıyorsa d/60 − d/80 = 1 → d = **240 km**.
+
 ### Tren ve tünel
 
 Trenin tünele girmeye başladığı andan **tamamen çıktığı** ana kadar aldığı yol:
@@ -91,7 +138,12 @@ Trenin tünele girmeye başladığı andan **tamamen çıktığı** ana kadar al
 <Sayi>tünel uzunluğu + tren uzunluğu</Sayi>
 
 200 m tren, 800 m tünelden 50 saniyede geçiyorsa hız (800 + 200) ÷ 50 = **20 m/sn**. Bir direğin ya
-da bir insanın önünden geçerken ise yalnızca trenin kendi uzunluğu kadar yol alınır.
+da bir insanın önünden geçerken ise yalnızca trenin kendi uzunluğu kadar yol alınır: 150 m tren
+25 m/sn ile direği **6 saniyede** geçer.
+
+İki tren birbirinin yanından geçiyorsa **iki uzunluk toplanır** ve göreli hız kullanılır (karşıt
+yönde toplam, aynı yönde fark): 180 m ve 220 m trenler 15 ve 25 m/sn ile karşılıklı
+400 ÷ 40 = **10 saniyede** ayrılır.
 
 ## Saat açıları
 
@@ -100,7 +152,28 @@ da bir insanın önünden geçerken ise yalnızca trenin kendi uzunluğu kadar y
 
 3.30'da yelkovan 30 × 6 = 180°'de, akrep 3 × 30 + 30 × 0,5 = 105°'dedir; aradaki açı **75°**'dir.
 
+Fark 180°'den büyük çıkarsa **dar açı 360°'den çıkarılarak** bulunur: 9.15'te akrep 277,5°,
+yelkovan 90°'dedir; fark 187,5°, aradaki dar açı **172,5°**'dir.
+
 <Kritik>
 Akrebin dakika ilerledikçe **kendisinin de hareket ettiğini** unutmayın. 3.30'da akrep tam 3'ün
 üzerinde değil, 3 ile 4'ün ortasındadır.
 </Kritik>
+
+## Zaman hesapları
+
+- Saat ve dakikalar ayrı toplanır, **60 dakika 1 saate** çevrilir: 09.45 + 3 sa 35 dk = 12 sa 80 dk = **13.20**.
+- Süre çarpımında önce her şey **aynı birime** getirilir: 2 saat 20 dakika = 140 dakika (220 değil).
+- **Geri kalan / ileri giden saat:** saatte 2 dakika geri kalan saat 48 saatte 96 dakika geri kalır.
+
+## Aynı yönde hareket eden zeminler
+
+Yürüyen bant ve yürüyen merdivende hızlar **toplanır** (zıt yönde çıkarılır). Süre verildiğinde
+hızlar işçi problemlerindeki gibi **1/süre** olarak toplanır: merdiven 60 sn, kişi 90 sn ise birlikte
+1/60 + 1/90 = 1/36 → **36 sn**. Birlikte hareket süresi her iki süreden de kısa olmalıdır.
+
+<Tuzak>
+**Farklı saatlerde yola çıkan araçlarda** önce erken çıkanın tek başına aldığı yol düşülür; karşılaşma
+süresi geç çıkanın saatine eklenir. **Ücret paylaşımında** aynı sürede çalışanların payı, çalışma
+hızlarıyla orantılıdır: 6 günlük ve 12 günlük işçi 2 : 1 alır.
+</Tuzak>

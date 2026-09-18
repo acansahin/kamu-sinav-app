@@ -330,5 +330,668 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "cografya-ekonomi-011",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türkiye'de ham petrol çıkarılan başlıca il aşağıdakilerden hangisidir?",
+		"options": [
+			"Zonguldak",
+			"Batman",
+			"Konya",
+			"Sivas",
+			"Artvin"
+		],
+		"correctIndex": 1,
+		"explanation": "Türkiye'de ham petrol başlıca Batman ve Adıyaman çevresinden çıkarılır. Zonguldak taşkömürü, Sivas (Divriği) demir, Konya (Seydişehir) boksit, Artvin (Murgul) bakır yataklarıyla tanınır.",
+		"reference": {
+			"title": "Maden Tetkik ve Arama Genel Müdürlüğü",
+			"section": "Petrol ve doğal gaz"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"madenler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-012",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Sivas'ın Divriği ilçesi aşağıdaki madenlerden hangisinin çıkarıldığı yer olarak tanınır?",
+		"options": [
+			"Boksit",
+			"Taşkömürü",
+			"Bor",
+			"Demir",
+			"Krom"
+		],
+		"correctIndex": 3,
+		"explanation": "Divriği, Türkiye'nin en önemli demir cevheri yataklarındandır; çıkarılan cevher demir-çelik fabrikalarına gönderilir. Divriği bir fabrika değil, madenin çıkarıldığı yerdir. Bor Balıkesir, Kütahya ve Eskişehir'de, krom Elazığ (Guleman) ve Muğla'da, boksit Seydişehir'de, taşkömürü Zonguldak'ta çıkarılır.",
+		"reference": {
+			"title": "Maden Tetkik ve Arama Genel Müdürlüğü",
+			"section": "Demir yatakları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"madenler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-013",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kahramanmaraş'taki Afşin-Elbistan termik santrallerinde yakıt olarak kullanılan yerli kaynak aşağıdakilerden hangisidir?",
+		"options": [
+			"Doğal gaz",
+			"Taşkömürü",
+			"Jeotermal akışkan",
+			"Linyit",
+			"Ham petrol"
+		],
+		"correctIndex": 3,
+		"explanation": "Afşin-Elbistan termik santralleri, çevredeki linyit yataklarından çıkarılan kömürle çalışır; Soma ve Tunçbilek de linyite dayalı termik santralleriyle tanınır. Taşkömürü Türkiye'de yalnızca Zonguldak havzasında çıkarılır; linyit ise pek çok yerde bulunur.",
+		"reference": {
+			"title": "Enerji ve Tabii Kaynaklar Bakanlığı",
+			"section": "Kömür ve termik santraller"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"enerji",
+			"madenler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-014",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Rusya'dan Karadeniz'in altından geçerek Samsun'a doğal gaz taşıyan boru hattı aşağıdakilerden hangisidir?",
+		"options": [
+			"Mavi Akım",
+			"TANAP",
+			"Bakü-Tiflis-Ceyhan",
+			"TürkAkım",
+			"Kerkük-Yumurtalık"
+		],
+		"correctIndex": 0,
+		"explanation": "Mavi Akım, Rus doğal gazını Karadeniz'in altından Samsun'a taşır. TürkAkım da Rusya'dan Karadeniz altından gelir ama Trakya kıyısına ulaşır. TANAP Azerbaycan gazını Türkiye üzerinden Avrupa'ya taşır. Bakü-Tiflis-Ceyhan ve Kerkük-Yumurtalık ise doğal gaz değil ham petrol boru hatlarıdır.",
+		"reference": {
+			"title": "BOTAŞ",
+			"section": "Uluslararası boru hattı projeleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ulasim",
+			"enerji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-015",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kocaeli ile Yalova arasında İzmit Körfezi'ni geçen asma köprü aşağıdakilerden hangisidir?",
+		"options": [
+			"15 Temmuz Şehitler Köprüsü",
+			"Osmangazi Köprüsü",
+			"1915 Çanakkale Köprüsü",
+			"Yavuz Sultan Selim Köprüsü",
+			"Fatih Sultan Mehmet Köprüsü"
+		],
+		"correctIndex": 1,
+		"explanation": "Osmangazi Köprüsü İzmit Körfezi'ni geçerek Kocaeli'nin Dilovası ilçesini Yalova'nın Altınova ilçesine bağlar. 1915 Çanakkale Köprüsü Çanakkale Boğazı'nı; Yavuz Sultan Selim, Fatih Sultan Mehmet ve 15 Temmuz Şehitler köprüleri ise İstanbul Boğazı'nı geçer.",
+		"reference": {
+			"title": "Karayolları Genel Müdürlüğü",
+			"section": "Köprüler"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ulasim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-016",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Atatürk Barajı'ndan Şanlıurfa Tünelleri ile aktarılan suyla sulanan ova aşağıdakilerden hangisidir?",
+		"options": [
+			"Konya Ovası",
+			"Çukurova",
+			"Bafra Ovası",
+			"Muş Ovası",
+			"Harran Ovası"
+		],
+		"correctIndex": 4,
+		"explanation": "GAP kapsamında Atatürk Barajı'nda biriken Fırat suyu Şanlıurfa Tünelleri ile aktarılarak Harran Ovası sulanır. Bu nedenle GAP yalnızca enerji değil, sulama ve bölgesel kalkınma projesidir. Çukurova Seyhan ve Ceyhan, Bafra Ovası Kızılırmak, Muş Ovası ise Murat Nehri çevresindedir.",
+		"reference": {
+			"title": "GAP Bölge Kalkınma İdaresi Başkanlığı",
+			"section": "Şanlıurfa Tünelleri ve Harran Ovası sulaması"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"bolgesel-kalkinma"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-017",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Elazığ'daki Guleman (Alacakaya) yöresi aşağıdaki madenlerden hangisinin yataklarıyla tanınır?",
+		"options": [
+			"Krom",
+			"Taşkömürü",
+			"Bor",
+			"Boksit",
+			"Ham petrol"
+		],
+		"correctIndex": 0,
+		"explanation": "Guleman, Türkiye'nin en zengin krom yataklarındandır; Muğla (Fethiye) ve Eskişehir çevresi de krom çıkarılan yerlerdendir. Krom paslanmaz çelik ve alaşımlarda kullanılır. Bor Balıkesir, Kütahya ve Eskişehir'de, boksit Seydişehir'de, taşkömürü Zonguldak'ta, ham petrol Batman ve Adıyaman'da çıkarılır.",
+		"reference": {
+			"title": "Maden Tetkik ve Arama Genel Müdürlüğü",
+			"section": "Krom yatakları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"madenler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-018",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Cumhuriyet'in ilk şeker fabrikaları 1926'da aşağıdaki yerlerin hangisinde açılmıştır?",
+		"options": [
+			"Karabük ve Ereğli",
+			"Seydişehir ve Divriği",
+			"Eskişehir ve Turhal",
+			"Adapazarı ve Konya",
+			"Uşak ve Alpullu"
+		],
+		"correctIndex": 4,
+		"explanation": "Cumhuriyet'in ilk şeker fabrikaları 1926'da Uşak'ta ve Kırklareli'nin Alpullu beldesinde açılmıştır. Karabük ve Ereğli demir-çelik, Seydişehir alüminyum tesisleriyle; Divriği ise demir madeniyle tanınır.",
+		"reference": {
+			"title": "Türkiye Şeker Fabrikaları A.Ş.",
+			"section": "Tarihçe"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sanayi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-019",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Karabük'ün ilk entegre demir-çelik fabrikası için seçilmesinde aşağıdakilerden hangisi etkili olmuştur?",
+		"options": [
+			"Büyük bir hidroelektrik santralinin yanında kurulması",
+			"Büyük bir limana sahip olması",
+			"Zonguldak kömür havzasına yakın olması ve kıyıdan içeride korunaklı bir yerde bulunması",
+			"Boksit yataklarına yakın olması",
+			"Divriği demir yataklarının fabrikanın hemen yanında bulunması"
+		],
+		"correctIndex": 2,
+		"explanation": "Temeli 3 Nisan 1937'de atılan Karabük Demir-Çelik Fabrikaları, demir-çelik üretiminde çok miktarda gereken kömürü sağlayan Zonguldak havzasına ve Ankara-Zonguldak demiryoluna yakındır; kıyıdan içeride olması da güvenlik bakımından tercih edilmiştir. Demir cevheri ise uzaktaki Divriği gibi yataklardan gelir. Sonraki demir-çelik tesisleri Ereğli (Erdemir) ve İskenderun (İsdemir) kıyıda kurulmuştur.",
+		"reference": {
+			"title": "Kardemir (Karabük Demir Çelik Fabrikaları)",
+			"section": "Kuruluş, 3 Nisan 1937"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sanayi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-020",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Irak'ta çıkarılan ham petrolü Adana kıyısındaki bir terminale taşıyan boru hattı aşağıdakilerden hangisidir?",
+		"options": [
+			"Mavi Akım",
+			"TANAP",
+			"Kerkük-Yumurtalık",
+			"Bakü-Tiflis-Ceyhan",
+			"TürkAkım"
+		],
+		"correctIndex": 2,
+		"explanation": "Kerkük-Yumurtalık boru hattı Irak'ın Kerkük bölgesindeki petrolü Adana'nın Yumurtalık kıyısına taşır. Bakü-Tiflis-Ceyhan da ham petrol taşır ama Azerbaycan'dan (Hazar havzası) gelir. TANAP, Mavi Akım ve TürkAkım doğal gaz boru hatlarıdır.",
+		"reference": {
+			"title": "BOTAŞ",
+			"section": "Uluslararası boru hattı projeleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ulasim",
+			"enerji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-021",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Artvin'in Murgul ilçesi aşağıdaki madenlerden hangisinin çıkarıldığı yer olarak tanınır?",
+		"options": [
+			"Demir",
+			"Bakır",
+			"Boksit",
+			"Bor",
+			"Krom"
+		],
+		"correctIndex": 1,
+		"explanation": "Bakır başlıca Artvin (Murgul), Kastamonu (Küre) ve Elazığ'ın Maden ilçesinde çıkarılır. Krom Elazığ (Guleman) ve Muğla (Fethiye), boksit Konya (Seydişehir), bor Balıkesir, Kütahya ve Eskişehir, demir ise Sivas (Divriği) ve Malatya (Hekimhan) ile tanınır.",
+		"reference": {
+			"title": "Maden Tetkik ve Arama Genel Müdürlüğü",
+			"section": "Bakır yatakları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"madenler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-022",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Azerbaycan doğal gazını Türkiye üzerinden Avrupa'ya taşıyan boru hattı aşağıdakilerden hangisidir?",
+		"options": [
+			"Mavi Akım",
+			"TürkAkım",
+			"Kerkük-Yumurtalık",
+			"TANAP",
+			"Bakü-Tiflis-Ceyhan"
+		],
+		"correctIndex": 3,
+		"explanation": "TANAP (Trans Anadolu Doğal Gaz Boru Hattı) Azerbaycan gazını Türkiye üzerinden Avrupa'ya taşır. Bakü-Tiflis-Ceyhan ve Kerkük-Yumurtalık ham petrol hattıdır; Mavi Akım ve TürkAkım ise Rusya'dan Karadeniz'in altından doğal gaz getirir.",
+		"reference": {
+			"title": "Enerji ve Tabii Kaynaklar Bakanlığı",
+			"section": "Doğal gaz boru hatları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ulasim",
+			"enerji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-023",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Zonguldak'ın Ereğli ilçesinde kurulu olan demir-çelik tesisi aşağıdakilerden hangisidir?",
+		"options": [
+			"Erdemir",
+			"İsdemir",
+			"Sümerbank",
+			"Etibank",
+			"Kardemir"
+		],
+		"correctIndex": 0,
+		"explanation": "Karabük'teki ilk entegre tesisten (Kardemir) sonra kurulan demir-çelik tesisleri Ereğli'deki Erdemir ile İskenderun'daki İsdemir'dir. Etibank ve Sümerbank, 1930'larda madencilik ve sanayi yatırımları için kurulan kamu bankalarıdır.",
+		"reference": {
+			"title": "Ereğli Demir ve Çelik Fabrikaları (Erdemir)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sanayi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-024",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Balıkesir-Bigadiç, Kütahya-Emet ve Eskişehir-Kırka hangi madenin çıkarıldığı başlıca yerlerdir?",
+		"options": [
+			"Boksit",
+			"Bakır",
+			"Linyit",
+			"Bor",
+			"Krom"
+		],
+		"correctIndex": 3,
+		"explanation": "Bor başlıca Balıkesir (Bigadiç), Kütahya (Emet) ve Eskişehir (Kırka) yataklarından Eti Maden tarafından çıkarılır; Türkiye dünya bor rezervlerinde en büyük paya sahiptir. Linyit Afşin-Elbistan, Soma ve Tunçbilek; krom Guleman ve Fethiye; bakır Murgul ve Küre; boksit Seydişehir ile tanınır.",
+		"reference": {
+			"title": "Eti Maden İşletmeleri Genel Müdürlüğü",
+			"section": "Bor yatakları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"madenler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-025",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki barajlardan hangisi Dicle Nehri üzerinde kuruludur?",
+		"options": [
+			"Birecik",
+			"Keban",
+			"Ilısu",
+			"Karakaya",
+			"Atatürk"
+		],
+		"correctIndex": 2,
+		"explanation": "Ilısu Barajı Dicle Nehri üzerindedir. Keban, Karakaya, Atatürk ve Birecik barajları ise Fırat Nehri üzerinde kuruludur; bunlardan Atatürk Barajı kurulu gücü en yüksek hidroelektrik santraline sahiptir.",
+		"reference": {
+			"title": "Devlet Su İşleri Genel Müdürlüğü",
+			"section": "Barajlar ve hidroelektrik santraller"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"enerji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-026",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki maden–çıkarıldığı yer eşleştirmelerinden hangisi yanlıştır?",
+		"options": [
+			"Demir – Hekimhan",
+			"Bakır – Küre",
+			"Linyit – Tunçbilek",
+			"Bor – Emet",
+			"Bakır – Seydişehir"
+		],
+		"correctIndex": 4,
+		"explanation": "Konya'nın Seydişehir ilçesi bakırla değil boksitle tanınır ve buradaki tesisler alüminyum üretir. Bor Kütahya-Emet'te, demir Malatya-Hekimhan'da, linyit Kütahya-Tunçbilek'te, bakır ise Kastamonu-Küre'de çıkarılır.",
+		"reference": {
+			"title": "Maden Tetkik ve Arama Genel Müdürlüğü",
+			"section": "Türkiye maden yatakları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"madenler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-027",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Konya'nın Karapınar ilçesi aşağıdaki enerji kaynaklarından hangisine dayalı büyük ölçekli santraliyle bilinir?",
+		"options": [
+			"Nükleer",
+			"Rüzgâr",
+			"Linyit",
+			"Jeotermal",
+			"Güneş"
+		],
+		"correctIndex": 4,
+		"explanation": "Karapınar'daki santral güneş enerjisine dayanır; güneş enerjisi yatırımları İç ve Güney Anadolu'da yoğunlaşır. Rüzgâr santralleri daha çok Ege ve Marmara kıyılarında, jeotermal santraller Batı Anadolu'nun fay hatlarında bulunur. Nükleer santral Mersin-Akkuyu'da, linyite dayalı termik santraller Afşin-Elbistan ve Soma'dadır.",
+		"reference": {
+			"title": "Enerji ve Tabii Kaynaklar Bakanlığı",
+			"section": "Güneş enerjisi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"enerji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-028",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "İstanbul Boğazı'nın altından geçen ve iki yakayı demiryoluyla birbirine bağlayan tüp geçit aşağıdakilerden hangisidir?",
+		"options": [
+			"Marmaray",
+			"1915 Çanakkale Köprüsü",
+			"Osmangazi Köprüsü",
+			"Avrasya Tüneli",
+			"Yavuz Sultan Selim Köprüsü"
+		],
+		"correctIndex": 0,
+		"explanation": "Marmaray, İstanbul Boğazı'nın altından geçen demiryolu tüp geçididir. Avrasya Tüneli de Boğaz'ın altından geçer ama karayolu tünelidir. Osmangazi Köprüsü İzmit Körfezi'ni, 1915 Çanakkale Köprüsü Çanakkale Boğazı'nı geçer; Yavuz Sultan Selim Köprüsü ise Boğaz'ın üzerinden geçen bir asma köprüdür.",
+		"reference": {
+			"title": "Ulaştırma ve Altyapı Bakanlığı",
+			"section": "Marmaray"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ulasim"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-029",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Türkiye'de jeotermal kaynakların ve santrallerin özellikle Batı Anadolu'da yoğunlaşmasının temel nedeni aşağıdakilerden hangisidir?",
+		"options": [
+			"Bölgede yıllık yağış miktarının çok yüksek olması",
+			"Bölgede nüfusun yoğun olması",
+			"Bölgede fay hatlarının yoğun olması",
+			"Bölgenin kıyı uzunluğunun fazla olması",
+			"Bölgede karstik arazilerin yaygın olması"
+		],
+		"correctIndex": 2,
+		"explanation": "Jeotermal kaynaklar yer kabuğunun kırıldığı fay hatları boyunca yüzeye çıkan sıcak sulardan oluşur. Ege'de horst-graben yapısını oluşturan fay hatları yoğun olduğu için ilk jeotermal santral 1984'te Denizli-Kızıldere'de kurulmuştur ve santrallerin çoğu bu bölgededir. Karstik araziler Akdeniz Bölgesi'nde yaygındır.",
+		"reference": {
+			"title": "Enerji ve Tabii Kaynaklar Bakanlığı",
+			"section": "Jeotermal enerji"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"enerji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "cografya-ekonomi-030",
+		"subjectId": "cografya",
+		"topicId": "cografya/ekonomik-faaliyetler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Türkiye'de taşkömürünün çıkarıldığı tek havzada yer alan yer aşağıdakilerden hangisidir?",
+		"options": [
+			"Divriği",
+			"Amasra",
+			"Soma",
+			"Tunçbilek",
+			"Afşin"
+		],
+		"correctIndex": 1,
+		"explanation": "Türkiye'de taşkömürü yalnızca Zonguldak havzasında (Bartın-Amasra dâhil) çıkarılır. Soma, Tunçbilek ve Afşin linyit sahalarıdır; Divriği ise demir cevheriyle tanınır.",
+		"reference": {
+			"title": "Maden Tetkik ve Arama Genel Müdürlüğü",
+			"section": "Kömür yatakları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Resmî kurum verileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"madenler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

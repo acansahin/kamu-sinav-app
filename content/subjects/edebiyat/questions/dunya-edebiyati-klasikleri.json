@@ -318,5 +318,646 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-dunya-011",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Hamlet, Romeo ve Juliet ve Macbeth oyunlarının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Charles Dickens",
+			"Voltaire",
+			"Molière",
+			"Johann Wolfgang von Goethe",
+			"William Shakespeare"
+		],
+		"correctIndex": 4,
+		"explanation": "Hamlet, Romeo ve Juliet ve Macbeth İngiliz yazar William Shakespeare'in oyunlarıdır. Molière Cimri'nin, Charles Dickens Oliver Twist'in, Goethe Faust'un, Voltaire ise Candide'in yazarıdır.",
+		"reference": {
+			"title": "William Shakespeare — Hamlet; Romeo ve Juliet; Macbeth"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ingiliz-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-012",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Savaş ve Barış ile Anna Karenina romanlarının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Lev Tolstoy",
+			"Anton Çehov",
+			"Fyodor Dostoyevski",
+			"Aleksandr Puşkin",
+			"Nikolay Gogol"
+		],
+		"correctIndex": 0,
+		"explanation": "Savaş ve Barış ile Anna Karenina, geniş toplum panoramalarıyla tanınan Lev Tolstoy'un romanlarıdır. En sık karıştırılan ad Dostoyevski'dir; Suç ve Ceza, Karamazov Kardeşler ve Budala onundur. Anton Çehov Vişne Bahçesi'nin, Puşkin Yevgeni Onegin'in, Gogol Ölü Canlar'ın yazarıdır.",
+		"reference": {
+			"title": "Lev Tolstoy — Savaş ve Barış; Anna Karenina"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"rus-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-013",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Faust ve Genç Werther'in Acıları adlı eserlerin yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Dante Alighieri",
+			"Franz Kafka",
+			"Victor Hugo",
+			"Johann Wolfgang von Goethe",
+			"William Shakespeare"
+		],
+		"correctIndex": 3,
+		"explanation": "Faust ve Genç Werther'in Acıları Alman yazar Goethe'nin eserleridir. Franz Kafka Dönüşüm ve Dava'nın, Dante İlahi Komedya'nın, Victor Hugo Sefiller'in, Shakespeare ise Hamlet'in yazarıdır.",
+		"reference": {
+			"title": "Johann Wolfgang von Goethe — Faust; Genç Werther'in Acıları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"alman-dilli-edebiyat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-014",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Küçük Prens adlı eserin yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Voltaire",
+			"Jean-Paul Sartre",
+			"Antoine de Saint-Exupéry",
+			"Albert Camus",
+			"Marcel Proust"
+		],
+		"correctIndex": 2,
+		"explanation": "Küçük Prens, Fransız yazar Antoine de Saint-Exupéry'nin eseridir. Albert Camus Yabancı'nın, Jean-Paul Sartre Bulantı'nın, Marcel Proust Kayıp Zamanın İzinde'nin, Voltaire ise Candide'in yazarıdır.",
+		"reference": {
+			"title": "Antoine de Saint-Exupéry — Küçük Prens"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fransiz-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-015",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Yabancı romanının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Franz Kafka",
+			"Stendhal",
+			"Jean-Paul Sartre",
+			"Gustave Flaubert",
+			"Albert Camus"
+		],
+		"correctIndex": 4,
+		"explanation": "Yabancı, Albert Camus'nün romanıdır. Aynı dönemde yazan Jean-Paul Sartre Bulantı'nın yazarıdır ve ikisi sık karıştırılır. Franz Kafka Dönüşüm'ün, Flaubert Madam Bovary'nin, Stendhal Kırmızı ve Siyah'ın yazarıdır.",
+		"reference": {
+			"title": "Albert Camus — Yabancı"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fransiz-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-016",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Yüz hikâyeden oluşan çerçeve eser Decameron'un yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Vergilius",
+			"Giovanni Boccaccio",
+			"Miguel de Cervantes",
+			"Dante Alighieri",
+			"Geoffrey Chaucer"
+		],
+		"correctIndex": 1,
+		"explanation": "Decameron, İtalyan yazar Boccaccio'nun yüz hikâyeden oluşan çerçeve eseridir. Dante İlahi Komedya'nın, Chaucer Canterbury Hikâyeleri'nin, Cervantes Don Kişot'un, Vergilius ise Latin destanı Aeneis'in yazarıdır.",
+		"reference": {
+			"title": "Giovanni Boccaccio — Decameron (14. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"italyan-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-017",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Cimri adlı komedinin yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Anton Çehov",
+			"Voltaire",
+			"Honoré de Balzac",
+			"Molière",
+			"William Shakespeare"
+		],
+		"correctIndex": 3,
+		"explanation": "Cimri, Fransız oyun yazarı Molière'in komedisidir. Voltaire Candide'in, Balzac Goriot Baba'nın yazarıdır. Shakespeare Hamlet ve Macbeth'in, Anton Çehov ise Vişne Bahçesi ve Martı'nın oyun yazarıdır.",
+		"reference": {
+			"title": "Molière — Cimri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fransiz-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-018",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Kafka'nın eserlerinden hangisinin kahramanı Josef K.'dır?",
+		"options": [
+			"Yabancı",
+			"Dava",
+			"Ulysses",
+			"Dönüşüm",
+			"Bulantı"
+		],
+		"correctIndex": 1,
+		"explanation": "Josef K., Franz Kafka'nın Dava romanının kahramanıdır. Kafka'nın Dönüşüm'ünün kahramanı ise Gregor Samsa'dır; iki eser aynı yazara ait olduğu için karakterle ayırt edilir. Yabancı Albert Camus'nün, Bulantı Jean-Paul Sartre'ın, Ulysses James Joyce'un eseridir.",
+		"reference": {
+			"title": "Franz Kafka — Dava"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"alman-dilli-edebiyat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-019",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Latin edebiyatının destanı Aeneis'in yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Vergilius",
+			"Dante Alighieri",
+			"Homeros",
+			"Giovanni Boccaccio",
+			"Firdevsi"
+		],
+		"correctIndex": 0,
+		"explanation": "Aeneis, Latin şair Vergilius'un destanıdır. Homeros İlyada ve Odysseia'nın, Firdevsi Şehname'nin, Dante İlahi Komedya'nın, Boccaccio ise Decameron'un yazarıdır.",
+		"reference": {
+			"title": "Vergilius — Aeneis"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"antik-edebiyat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-020",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "İngiliz edebiyatının ilk büyük eserlerinden sayılan Canterbury Hikâyeleri'nin yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"James Joyce",
+			"William Shakespeare",
+			"Geoffrey Chaucer",
+			"Charles Dickens",
+			"John Milton"
+		],
+		"correctIndex": 2,
+		"explanation": "Canterbury Hikâyeleri, Geoffrey Chaucer'ın İngiliz edebiyatının ilk büyük eserlerinden sayılan hikâye derlemesidir. Shakespeare Hamlet'in, John Milton Kayıp Cennet'in, Charles Dickens Oliver Twist'in, James Joyce Ulysses'in yazarıdır.",
+		"reference": {
+			"title": "Geoffrey Chaucer — Canterbury Hikâyeleri (14. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ingiliz-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-021",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Oliver Twist ve İki Şehrin Hikâyesi romanlarının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Aldous Huxley",
+			"George Orwell",
+			"William Shakespeare",
+			"James Joyce",
+			"Charles Dickens"
+		],
+		"correctIndex": 4,
+		"explanation": "Oliver Twist ve İki Şehrin Hikâyesi İngiliz romancı Charles Dickens'ın eserleridir. Shakespeare Hamlet ve Macbeth gibi oyunlarıyla, Orwell 1984 ve Hayvan Çiftliği ile, Huxley Cesur Yeni Dünya ile, Joyce ise Ulysses ile tanınır.",
+		"reference": {
+			"title": "Charles Dickens — Oliver Twist; İki Şehrin Hikâyesi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ingiliz-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-022",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Vişne Bahçesi ve Martı adlı oyunların yazarı olan Rus yazar aşağıdakilerden hangisidir?",
+		"options": [
+			"Fyodor Dostoyevski",
+			"Anton Çehov",
+			"Nikolay Gogol",
+			"Lev Tolstoy",
+			"Aleksandr Puşkin"
+		],
+		"correctIndex": 1,
+		"explanation": "Vişne Bahçesi ve Martı Anton Çehov'un oyunlarıdır. Puşkin Yevgeni Onegin, Gogol Ölü Canlar ve Palto, Dostoyevski Suç ve Ceza ile Karamazov Kardeşler, Tolstoy ise Savaş ve Barış ile Anna Karenina ile tanınır.",
+		"reference": {
+			"title": "Anton Çehov — Vişne Bahçesi; Martı"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"rus-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-023",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Manzum roman Yevgeni Onegin'in yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Anton Çehov",
+			"Aleksandr Puşkin",
+			"Nikolay Gogol",
+			"Lev Tolstoy",
+			"Fyodor Dostoyevski"
+		],
+		"correctIndex": 1,
+		"explanation": "Yevgeni Onegin, Rus edebiyatının kurucu adlarından Aleksandr Puşkin'in manzum romanıdır. Gogol Ölü Canlar ve Palto'nun, Çehov Vişne Bahçesi ve Martı'nın yazarıdır; Dostoyevski ile Tolstoy ise daha çok büyük romanlarıyla tanınır.",
+		"reference": {
+			"title": "Aleksandr Puşkin — Yevgeni Onegin"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"rus-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-024",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aydınlanma çağının iyimserlik felsefesiyle alay eden Candide adlı eserin yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Voltaire",
+			"Molière",
+			"Balzac",
+			"Gustave Flaubert",
+			"Stendhal"
+		],
+		"correctIndex": 0,
+		"explanation": "Candide (1759), Fransız düşünür ve yazar Voltaire'in felsefi hikâyesidir. Molière Cimri, Balzac Goriot Baba, Stendhal Kırmızı ve Siyah, Flaubert ise Madam Bovary ile tanınır.",
+		"reference": {
+			"title": "Voltaire — Candide (1759)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fransiz-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-025",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Kayıp Zamanın İzinde adlı çok ciltli romanın yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Albert Camus",
+			"Victor Hugo",
+			"James Joyce",
+			"Jean-Paul Sartre",
+			"Marcel Proust"
+		],
+		"correctIndex": 4,
+		"explanation": "Kayıp Zamanın İzinde, 20. yüzyıl romanının başyapıtlarından sayılan Marcel Proust'un yedi ciltlik romanıdır. Joyce Ulysses'in, Camus Yabancı'nın, Sartre Bulantı'nın, Victor Hugo ise Sefiller'in yazarıdır.",
+		"reference": {
+			"title": "Marcel Proust — Kayıp Zamanın İzinde"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fransiz-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-026",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Mezopotamya'ya ait olan ve bilinen en eski destanlardan sayılan anonim eser aşağıdakilerden hangisidir?",
+		"options": [
+			"Gılgamış Destanı",
+			"Odysseia",
+			"İlyada",
+			"Şehname",
+			"Aeneis"
+		],
+		"correctIndex": 0,
+		"explanation": "Gılgamış Destanı Mezopotamya'ya ait anonim bir destandır ve bilinen en eski destanlardan sayılır. İlyada ve Odysseia Homeros'a, Aeneis Vergilius'a, Şehname ise Firdevsi'ye aittir; bu eserler anonim değildir ve Gılgamış'tan çok sonra yazılmıştır.",
+		"reference": {
+			"title": "Gılgamış Destanı (Mezopotamya)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"antik-edebiyat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-027",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Kırmızı ve Siyah romanının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Voltaire",
+			"Victor Hugo",
+			"Stendhal",
+			"Balzac",
+			"Gustave Flaubert"
+		],
+		"correctIndex": 2,
+		"explanation": "Kırmızı ve Siyah Fransız romancı Stendhal'in eseridir. Balzac Goriot Baba'nın yer aldığı İnsanlık Komedyası'nın, Flaubert Madam Bovary'nin, Victor Hugo Sefiller'in, Voltaire ise Candide'in yazarıdır.",
+		"reference": {
+			"title": "Stendhal — Kırmızı ve Siyah"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"fransiz-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-028",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Modernist romanın önemli örneklerinden Ulysses'in yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Aldous Huxley",
+			"George Orwell",
+			"Marcel Proust",
+			"James Joyce",
+			"Franz Kafka"
+		],
+		"correctIndex": 3,
+		"explanation": "Ulysses İrlandalı yazar James Joyce'un romanıdır. Proust Kayıp Zamanın İzinde'nin, Kafka Dönüşüm ve Dava'nın, Orwell 1984 ve Hayvan Çiftliği'nin, Huxley ise Cesur Yeni Dünya'nın yazarıdır.",
+		"reference": {
+			"title": "James Joyce — Ulysses"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"irlanda-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-029",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki eser–yazar eşleştirmelerinden hangisi yanlıştır?",
+		"options": [
+			"Bulantı – Jean-Paul Sartre",
+			"Ölü Canlar – Nikolay Gogol",
+			"Goriot Baba – Balzac",
+			"Kayıp Cennet – Dante Alighieri",
+			"Cesur Yeni Dünya – Aldous Huxley"
+		],
+		"correctIndex": 3,
+		"explanation": "Kayıp Cennet İngiliz şair John Milton'ın eseridir. Dante Alighieri'nin eseri Cehennem, Araf ve Cennet bölümlerinden oluşan İlahi Komedya'dır; iki eser sık karıştırılır. Diğer eşleştirmeler doğrudur.",
+		"reference": {
+			"title": "John Milton — Kayıp Cennet"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ingiliz-edebiyati",
+			"italyan-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-dunya-030",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/dunya-edebiyati-klasikleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki eser çiftlerinden hangisindeki iki eser aynı yazara aittir?",
+		"options": [
+			"Dönüşüm – Kayıp Zamanın İzinde",
+			"Hayvan Çiftliği – Cesur Yeni Dünya",
+			"Fareler ve İnsanlar – Gazap Üzümleri",
+			"Suç ve Ceza – Anna Karenina",
+			"Yabancı – Bulantı"
+		],
+		"correctIndex": 2,
+		"explanation": "Fareler ve İnsanlar ile Gazap Üzümleri Amerikalı yazar John Steinbeck'in romanlarıdır. Yabancı Camus'nün, Bulantı Sartre'ın; Suç ve Ceza Dostoyevski'nin, Anna Karenina Tolstoy'un; Hayvan Çiftliği Orwell'ın, Cesur Yeni Dünya Huxley'nin; Dönüşüm Kafka'nın, Kayıp Zamanın İzinde ise Proust'un eseridir.",
+		"reference": {
+			"title": "John Steinbeck — Fareler ve İnsanlar; Gazap Üzümleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"amerikan-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

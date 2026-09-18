@@ -268,5 +268,815 @@
 		"tags": [],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-hiz-011",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Saatteki hızı 72 kilometre olan bir araç saniyede kaç metre yol alır?",
+		"options": [
+			"36",
+			"12",
+			"72",
+			"20",
+			"25"
+		],
+		"correctIndex": 3,
+		"explanation": "1 km = 1.000 m ve 1 saat = 3.600 saniyedir. 72 km/sa = 72 × 1.000 ÷ 3.600 = 20 m/sn olur. Kısa yol: km/sa değerini 3,6'ya bölmek m/sn değerini verir (72 ÷ 3,6 = 20).",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-012",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bir yol yapım ekibi 8 kişiyle 15 günde tamamlanacak asfaltlama işine 12 kişiyle başlamıştır.\n\nÇalışanların verimi eşit olduğuna göre iş kaç günde tamamlanır?",
+		"options": [
+			"10",
+			"9",
+			"12",
+			"20",
+			"18"
+		],
+		"correctIndex": 0,
+		"explanation": "Kişi sayısı ile süre ters orantılıdır; işin büyüklüğü kişi × gün olarak sabittir: 8 × 15 = 120 kişi-gün. 12 kişi bu işi 120 ÷ 12 = 10 günde bitirir. 20 cevabı problemi doğru orantı gibi kurmaktan doğar; daha çok kişi işi daha kısa sürede bitirmelidir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-013",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Uzunluğu 150 metre olan bir tren saniyede 25 metre hızla ilerlemektedir.\n\nTren, yol kenarındaki bir elektrik direğinin önünden kaç saniyede tamamen geçer?",
+		"options": [
+			"10",
+			"6",
+			"30",
+			"12",
+			"4"
+		],
+		"correctIndex": 1,
+		"explanation": "Direk bir noktadır; trenin direğin önünden tamamen geçmesi için ön ucunun direğe gelişinden arka ucunun direği geçişine kadar kendi uzunluğu kadar yol alması yeterlidir. Süre = 150 ÷ 25 = 6 saniyedir. Tünel ya da köprü sorularından farklı olarak burada ek bir uzunluk eklenmez.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-014",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Saatte 5 kilometre hızla yürüyen bir kişi 17,5 kilometrelik bir parkuru ara vermeden kaç saatte tamamlar?",
+		"options": [
+			"3 saat 5 dakika",
+			"3 saat",
+			"4 saat",
+			"3 saat 50 dakika",
+			"3 saat 30 dakika"
+		],
+		"correctIndex": 4,
+		"explanation": "Süre = yol ÷ hız = 17,5 ÷ 5 = 3,5 saattir. Saatin ondalık kısmı dakikaya çevrilir: 0,5 saat = 0,5 × 60 = 30 dakika. Parkur 3 saat 30 dakikada tamamlanır. 3 saat 50 dakika cevabı 3,5 saati 3 saat 50 dakika sanmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-015",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "A bir işi tek başına 12 günde, B 20 günde, C ise 30 günde bitirebilmektedir.\n\nÜçü birlikte çalışırsa bu işi kaç günde bitirirler?",
+		"options": [
+			"8",
+			"6",
+			"10",
+			"5",
+			"7"
+		],
+		"correctIndex": 1,
+		"explanation": "Bir günde yapılan işler toplanır: 1/12 + 1/20 + 1/30. Paydalar 60'ta eşitlenir: 5/60 + 3/60 + 2/60 = 10/60 = 1/6. Üçü birlikte bir günde işin 1/6'sını yaptığı için iş 6 günde biter. Sonuç en hızlı çalışanın süresinden (12 gün) kısa olmalıdır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-016",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "A, B'nin iki katı hızla çalışmaktadır. İkisi birlikte bir işi 8 günde bitirmektedir.\n\nA bu işi tek başına kaç günde bitirir?",
+		"options": [
+			"12",
+			"16",
+			"24",
+			"10",
+			"6"
+		],
+		"correctIndex": 0,
+		"explanation": "B bir günde işin x'ini yapıyorsa A 2x'ini yapar; birlikte 3x = 1/8 olur ve x = 1/24 bulunur. B işi 24 günde, A ise günde 2/24 = 1/12 iş yaptığı için 12 günde bitirir. 24 cevabı B'nin süresidir; iki katı hızlı çalışan işi yarı sürede bitirir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-017",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir motorlu teknenin durgun sudaki hızı saatte 20 kilometredir. Nehirdeki akıntının hızı saatte 4 kilometredir.\n\nTekne akıntıya karşı 48 kilometrelik yolu kaç saatte alır?",
+		"options": [
+			"4",
+			"2,5",
+			"3",
+			"2,4",
+			"2"
+		],
+		"correctIndex": 2,
+		"explanation": "Akıntıya karşı giderken akıntı tekneyi yavaşlatır: gerçek hız 20 − 4 = 16 km/sa olur. Süre = 48 ÷ 16 = 3 saattir. Akıntı yönünde hız 20 + 4 = 24 km/sa olurdu ve süre 2 saat çıkardı; 2,4 ise akıntıyı hiç hesaba katmamaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-018",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Saat dokuzu çeyrek geçerken akrep ile yelkovanın oluşturduğu küçük açının ölçüsü kaç derecedir?",
+		"options": [
+			"172,5",
+			"165",
+			"180",
+			"157,5",
+			"187,5"
+		],
+		"correctIndex": 0,
+		"explanation": "Yelkovan 15 dakikada 15 × 6 = 90°'dedir. Akrep saat 9'da 9 × 30 = 270°'dedir ve 15 dakikada 15 × 0,5 = 7,5° daha ilerler: 277,5°. Aradaki fark 277,5 − 90 = 187,5°'dir; bu 180°'den büyük olduğu için dar açı 360 − 187,5 = 172,5°'dir. 180 cevabı akrebin hareketini unutmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-019",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aralarında 500 kilometre bulunan iki şehirden, saatteki hızları 60 ve 80 kilometre olan iki araç aynı anda birbirine doğru hareket ediyor.\n\nHareketten 2 saat sonra araçlar arasındaki mesafe kaç kilometre olur?",
+		"options": [
+			"280",
+			"220",
+			"140",
+			"360",
+			"440"
+		],
+		"correctIndex": 1,
+		"explanation": "Birbirine doğru giden araçlar arasındaki mesafe her saat hızların toplamı kadar, yani 60 + 80 = 140 km kapanır. 2 saatte 280 km kapanır ve araçlar arasında 500 − 280 = 220 km kalır. 280 cevabı kapanan mesafeyi kalan mesafe sanmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-020",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Boş bir depoyu A musluğu 3 saatte, B musluğu 6 saatte doldurmaktadır. C musluğu ise dolu depoyu 4 saatte boşaltmaktadır.\n\nDepo boşken üç musluk birlikte açılırsa depo kaç saatte dolar?",
+		"options": [
+			"3",
+			"2",
+			"6",
+			"12",
+			"4"
+		],
+		"correctIndex": 4,
+		"explanation": "Bir saatte doldurulan kısımlar toplanır, boşaltılan çıkarılır: 1/3 + 1/6 − 1/4. Paydalar 12'de eşitlenir: 4/12 + 2/12 − 3/12 = 3/12 = 1/4. Depo her saat 1/4 dolduğu için 4 saatte dolar. 2 cevabı C musluğunu hiç hesaba katmamaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-021",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir araç önce 2 saat boyunca saatte 90 kilometre, ardından 3 saat boyunca saatte 60 kilometre hızla yol almıştır.\n\nAracın bu yolculuktaki ortalama hızı saatte kaç kilometredir?",
+		"options": [
+			"66",
+			"80",
+			"75",
+			"72",
+			"70"
+		],
+		"correctIndex": 3,
+		"explanation": "Ortalama hız toplam yolun toplam süreye bölümüdür. İlk bölümde 2 × 90 = 180 km, ikinci bölümde 3 × 60 = 180 km yol alınmıştır. Toplam 360 km yol 5 saatte alındığı için ortalama hız 360 ÷ 5 = 72 km/sa'dir. 75 cevabı iki hızın aritmetik ortalamasıdır ve süreler farklı olduğu için yanlıştır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-022",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir sürücü iki şehir arasındaki yolu saatte 60 kilometre hızla gittiğinde, saatte 80 kilometre hızla gittiğinden 1 saat daha geç varmaktadır.\n\nİki şehir arasındaki mesafe kaç kilometredir?",
+		"options": [
+			"280",
+			"300",
+			"240",
+			"200",
+			"180"
+		],
+		"correctIndex": 2,
+		"explanation": "Mesafeye d denirse süreler d/60 ve d/80'dir ve farkları 1 saattir: d/60 − d/80 = 1. Payda 240'ta eşitlenir: 4d/240 − 3d/240 = d/240 = 1, buradan d = 240 km bulunur. Sağlama: 240 km, 60 km/sa ile 4 saat, 80 km/sa ile 3 saat sürer.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-023",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Çevresi 600 metre olan dairesel bir koşu pistinde iki sporcu aynı noktadan aynı anda zıt yönlere doğru koşmaya başlıyor. Sporcuların hızları dakikada 70 ve 80 metredir.\n\nSporcular kaç dakika sonra ilk kez karşılaşır?",
+		"options": [
+			"30",
+			"8",
+			"4",
+			"60",
+			"6"
+		],
+		"correctIndex": 2,
+		"explanation": "Zıt yönlere koşan sporcular birbirine yaklaşır ve aralarındaki pist boyu her dakika hızların toplamı kadar, yani 70 + 80 = 150 metre kapanır. İlk karşılaşma için toplam 600 metre koşmaları gerekir: 600 ÷ 150 = 4 dakika. 60 cevabı hızların farkını (10) kullanmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-024",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir parkurun bir turu 1,2 kilometredir. İki bisikletli aynı başlangıç çizgisinden aynı anda ve aynı yönde, saatte 24 ve 18 kilometre hızla yola çıkıyor.\n\nHızlı olan bisikletli, yavaş olanı ilk kez kaç dakika sonra tur bindirerek yakalar?",
+		"options": [
+			"30",
+			"3",
+			"6",
+			"12",
+			"20"
+		],
+		"correctIndex": 3,
+		"explanation": "Aynı yönde giderken aradaki fark her saat hızların farkı kadar, yani 24 − 18 = 6 km açılır. Tur bindirmek için hızlı olanın bir tur, yani 1,2 km öne geçmesi gerekir: 1,2 ÷ 6 = 0,2 saat. 0,2 saat 0,2 × 60 = 12 dakikadır. 3 cevabı hızların toplamını kullanmaktan doğar; o yalnızca zıt yönde doğrudur.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-025",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "A bir işi tek başına 18 günde, B ise 12 günde bitirebilmektedir. İşe önce A başlıyor; 3 gün sonra B de A'ya katılıyor ve iş birlikte tamamlanıyor.\n\nİş, A'nın başlamasından kaç gün sonra biter?",
+		"options": [
+			"8",
+			"10",
+			"6",
+			"7",
+			"9"
+		],
+		"correctIndex": 4,
+		"explanation": "A 3 günde işin 3/18 = 1/6'sını yapar; 5/6'sı kalır. Birlikte bir günde 1/18 + 1/12 = 2/36 + 3/36 = 5/36 iş yapılır. Kalan 5/6 = 30/36 iş 30/36 ÷ 5/36 = 6 günde biter. İş başlangıçtan 3 + 6 = 9 gün sonra tamamlanır; 6 cevabı yalnızca birlikte çalışılan süredir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-026",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Günde 8 saat çalışan 6 personel bir arşiv düzenleme işini 10 iş gününde tamamlamaktadır.\n\nAynı verimle günde 10 saat çalışan 4 personel bu işi kaç iş gününde tamamlar?",
+		"options": [
+			"16",
+			"15",
+			"10",
+			"12",
+			"8"
+		],
+		"correctIndex": 3,
+		"explanation": "İşin büyüklüğü personel × saat olarak sabittir: 6 × 8 × 10 = 480 personel-saat. 4 personel günde 10 saat çalışınca günde 40 personel-saat iş yapılır; iş 480 ÷ 40 = 12 günde tamamlanır. Personel azaldığı için süre uzar, günlük saat arttığı için kısalır; iki etkiyi birim işle birlikte hesaplamak hatayı önler.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-027",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir araç bir yolun ilk yarısını saatte 40 kilometre, ikinci yarısını saatte 60 kilometre hızla almış ve yolun tamamını 5 saatte bitirmiştir.\n\nYolun tamamı kaç kilometredir?",
+		"options": [
+			"240",
+			"250",
+			"300",
+			"225",
+			"200"
+		],
+		"correctIndex": 0,
+		"explanation": "Yolun tamamına d denirse her yarı d/2 km'dir. Süreler d/2 ÷ 40 = d/80 ve d/2 ÷ 60 = d/120 olur. d/80 + d/120 = 5 denkleminde payda 240'ta eşitlenir: 3d/240 + 2d/240 = 5d/240 = 5, buradan d = 240 km. 250 cevabı ortalama hızı 50 alıp 5 saatle çarpmaktan doğar; eşit yollarda ortalama hız 48'dir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-028",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir tekne akıntı yönünde 60 kilometrelik yolu 3 saatte, akıntıya karşı aynı yolu 5 saatte almaktadır.\n\nAkıntının hızı saatte kaç kilometredir?",
+		"options": [
+			"6",
+			"3",
+			"4",
+			"8",
+			"16"
+		],
+		"correctIndex": 2,
+		"explanation": "Akıntı yönündeki hız 60 ÷ 3 = 20 km/sa, akıntıya karşı hız 60 ÷ 5 = 12 km/sa'dir. Tekne hızına v, akıntı hızına a denirse v + a = 20 ve v − a = 12 olur. Denklemler çıkarılınca 2a = 8 ve a = 4 km/sa; teknenin durgun sudaki hızı 16 km/sa'dir. 8 cevabı iki hızın farkını ikiye bölmeyi unutmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-029",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Uzunlukları 180 metre ve 220 metre olan iki tren, paralel raylarda birbirine doğru saniyede 15 ve 25 metre hızla ilerlemektedir.\n\nTrenlerin ön uçlarının hizalandığı andan arka uçlarının birbirinden ayrıldığı ana kadar kaç saniye geçer?",
+		"options": [
+			"11",
+			"9",
+			"20",
+			"40",
+			"10"
+		],
+		"correctIndex": 4,
+		"explanation": "Trenlerin tamamen ayrılması için birbirlerine göre iki trenin uzunlukları toplamı kadar, yani 180 + 220 = 400 metre yol almaları gerekir. Birbirine doğru ilerledikleri için göreli hızları 15 + 25 = 40 m/sn'dir. Süre 400 ÷ 40 = 10 saniyedir. 40 cevabı hızların farkını (10) kullanmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-030",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "12 işçinin 20 günde bitireceği bir işte, işçiler 8 gün çalıştıktan sonra aralarından 3'ü işten ayrılıyor.\n\nİşçilerin verimi eşit olduğuna göre iş, planlanan süreden kaç gün geç biter?",
+		"options": [
+			"6",
+			"4",
+			"8",
+			"3",
+			"5"
+		],
+		"correctIndex": 1,
+		"explanation": "İşin büyüklüğü 12 × 20 = 240 işçi-gündür. İlk 8 günde 12 × 8 = 96 işçi-gün iş yapılır ve 144 işçi-gün kalır. Kalan iş 9 işçiyle 144 ÷ 9 = 16 günde biter. Toplam süre 8 + 16 = 24 gün olur; planlanan 20 günden 4 gün fazladır. 16 günü doğrudan fark sanmak yaygın bir hatadır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-031",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Saat 09.45'te yola çıkan bir otobüsün yolculuğu 3 saat 35 dakika sürmektedir.\n\nOtobüs saat kaçta varır?",
+		"options": [
+			"13.20",
+			"13.30",
+			"12.20",
+			"13.10",
+			"14.20"
+		],
+		"correctIndex": 0,
+		"explanation": "Saat ve dakika ayrı toplanır: 9 saat 45 dakika + 3 saat 35 dakika = 12 saat 80 dakika. 80 dakika 1 saat 20 dakikadır; sonuç 13 saat 20 dakika, yani 13.20'dir. 12.20 cevabı 60 dakikayı bir saate çevirmeyi unutmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-032",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bir makine dakikada 15 parça üretmektedir.\n\nBu makine aynı hızla 2 saat 20 dakikada kaç parça üretir?",
+		"options": [
+			"3.300",
+			"1.800",
+			"2.100",
+			"2.400",
+			"1.950"
+		],
+		"correctIndex": 2,
+		"explanation": "Süre dakikaya çevrilir: 2 saat 20 dakika = 2 × 60 + 20 = 140 dakika. Üretim = 140 × 15 = 2.100 parça. 3.300 cevabı \"2 saat 20 dakika\"yı 220 dakika sanmaktan, 1.800 cevabı yalnızca 2 saati hesaba katmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-033",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "A bir işi tek başına 6 günde, B aynı işi tek başına 12 günde bitirebilmektedir. İkisi birlikte çalışarak işi bitirmiş ve toplam 9.000 TL ücret almıştır.\n\nÜcret yaptıkları iş oranında paylaşılırsa A kaç TL alır?",
+		"options": [
+			"3.000",
+			"6.750",
+			"4.500",
+			"4.000",
+			"6.000"
+		],
+		"correctIndex": 4,
+		"explanation": "A günde işin 1/6'sını, B 1/12'sini yapar; birlikte günde 1/6 + 1/12 = 3/12 = 1/4'ünü yaparlar ve işi 4 günde bitirirler. Bu sürede A işin 4 × 1/6 = 2/3'ünü, B 1/3'ünü yapar. A'nın payı 9.000 × 2/3 = 6.000 TL'dir. Aynı sürede çalıştıklarından ücret çalışma hızlarıyla (2 : 1) orantılıdır; 3.000 TL B'nin payıdır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-034",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Uzunluğu 60 metre olan bir yürüyen bant saniyede 1 metre hızla ilerlemektedir. Bir yolcu bant üzerinde, bantla aynı yönde saniyede 2 metre hızla yürümektedir.\n\nYolcu bandın başından sonuna kaç saniyede ulaşır?",
+		"options": [
+			"60",
+			"20",
+			"40",
+			"30",
+			"15"
+		],
+		"correctIndex": 1,
+		"explanation": "Aynı yöndeki hızlar toplanır: yolcunun yere göre hızı 2 + 1 = 3 m/sn'dir. Süre = yol ÷ hız = 60 ÷ 3 = 20 saniyedir. 30 saniye yalnızca yolcunun yürüme hızıyla, 60 saniye yalnızca bandın hızıyla bulunur; 60 ÷ 1 = 60 saniye ise yolcu yürümeseydi geçecek süredir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-035",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Bir işçi bir işin %40'ını 6 günde bitirmektedir.\n\nİşçi aynı hızla çalışırsa işin tamamını kaç günde bitirir?",
+		"options": [
+			"14",
+			"24",
+			"10",
+			"15",
+			"12"
+		],
+		"correctIndex": 3,
+		"explanation": "İşin %40'ı 6 günde yapıldığına göre %10'u 6 ÷ 4 = 1,5 günde yapılır. İşin tamamı (%100) 1,5 × 10 = 15 günde biter. Doğru orantı kurulabilir: 40/100 = 6/x ⇒ x = 15. Kalan %60'lık iş için 9 gün daha gerekir; soru toplam süreyi sorduğu için cevap 6 + 9 = 15 gündür.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-036",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aralarında 480 km bulunan iki şehirden A aracı saat 08.00'de saatte 60 km, B aracı saat 09.00'da saatte 80 km hızla birbirine doğru yola çıkmıştır.\n\nİki araç saat kaçta karşılaşır?",
+		"options": [
+			"12.00",
+			"13.00",
+			"11.30",
+			"11.00",
+			"12.30"
+		],
+		"correctIndex": 0,
+		"explanation": "B yola çıktığında A bir saat yol almış ve aradaki mesafe 480 − 60 = 420 km'ye inmiştir. Bu andan itibaren araçlar birbirine doğru gittiği için mesafe saatte 60 + 80 = 140 km kapanır: 420 ÷ 140 = 3 saat. Karşılaşma saati 09.00 + 3 saat = 12.00'dir. 11.00 cevabı 3 saati A'nın çıkış saatine eklemekten doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-037",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aralarında 300 km bulunan iki şehirden saatteki hızları 60 km ve 40 km olan iki araç aynı anda birbirine doğru yola çıkmıştır.\n\nAraçlar arasındaki mesafenin 100 km olduğu iki an arasında kaç saat geçer?",
+		"options": [
+			"4",
+			"3",
+			"1",
+			"2,5",
+			"2"
+		],
+		"correctIndex": 4,
+		"explanation": "Araçlar birbirine doğru giderken aradaki mesafe saatte 60 + 40 = 100 km kapanır. Mesafe ilk kez 100 km olduğunda 200 km kapanmıştır: 2. saat. Araçlar karşılaşıp birbirinden uzaklaşırken toplam 300 + 100 = 400 km yol almış olurlar: 4. saat. İki an arasındaki süre 4 − 2 = 2 saattir. 3 saat karşılaşma anı, 1 saat ise karşılaşmaya kalan süredir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-038",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Hacmi 2.600 litre olan boş bir depoyu dakikada 30 litre su akıtan A musluğu ile dakikada 50 litre su akıtan B musluğu doldurmaktadır. Önce A musluğu açılıyor, 20 dakika sonra B musluğu da açılıyor.\n\nDepo, A musluğu açıldıktan kaç dakika sonra dolar?",
+		"options": [
+			"25",
+			"40",
+			"45",
+			"32,5",
+			"52"
+		],
+		"correctIndex": 2,
+		"explanation": "İlk 20 dakikada yalnızca A çalışır ve 20 × 30 = 600 litre doldurur. Kalan 2.600 − 600 = 2.000 litre iki muslukla dakikada 30 + 50 = 80 litre dolar: 2.000 ÷ 80 = 25 dakika. Toplam süre 20 + 25 = 45 dakikadır. 25 cevabı yalnızca iki musluğun birlikte çalıştığı süredir; 32,5 dakika ise iki musluk baştan birlikte açılsaydı geçecek süredir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-039",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Yürüyen bir merdivende hiç yürümeden duran bir kişi yukarı 60 saniyede çıkmaktadır. Aynı kişi merdiven çalışmıyorken yürüyerek 90 saniyede çıkmaktadır.\n\nKişi, merdiven çalışırken aynı hızla yürürse yukarı kaç saniyede çıkar?",
+		"options": [
+			"75",
+			"36",
+			"30",
+			"45",
+			"150"
+		],
+		"correctIndex": 1,
+		"explanation": "Merdivenin uzunluğuna L denirse merdivenin hızı L/60, kişinin hızı L/90'dır. Aynı yönde hızlar toplanır: L/60 + L/90 = 3L/180 + 2L/180 = 5L/180 = L/36. Bu hızla L uzunluğu 36 saniyede alınır. 75 cevabı iki sürenin ortalamasını almaktan, 150 cevabı süreleri toplamaktan doğar; birlikte çalışmada süre her ikisinden de kısa olmalıdır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-hiz-040",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/isci-hiz-ve-zaman-problemleri",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir duvar saati her saatte 2 dakika geri kalmaktadır. Saat pazartesi günü 12.00'de doğru olarak ayarlanmıştır.\n\nAynı haftanın çarşamba günü saat tam 12.00 olduğunda bu saat kaçı gösterir?",
+		"options": [
+			"10.12",
+			"11.04",
+			"13.36",
+			"10.24",
+			"11.36"
+		],
+		"correctIndex": 3,
+		"explanation": "Pazartesi 12.00'den çarşamba 12.00'ye 48 saat geçer. Saat her saatte 2 dakika geri kaldığından toplam 48 × 2 = 96 dakika, yani 1 saat 36 dakika geri kalır. Gösterdiği saat 12.00 − 1.36 = 10.24'tür. 13.36 cevabı saati ileri almaktan, 11.04 cevabı yalnızca 24 saatlik gecikmeyi hesaplamaktan (48 dakika) doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

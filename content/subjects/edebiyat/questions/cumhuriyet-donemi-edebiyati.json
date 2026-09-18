@@ -270,7 +270,7 @@
 			"Asaf Halet Çelebi"
 		],
 		"correctIndex": 2,
-		"explanation": "Necip Fazıl Kısakürek'in şiirleri Çile adlı kitapta toplanmıştır; ilk dönem şiirlerinde ölüm, yalnızlık ve korku, sonraki dönemde metafizik arayış öne çıkar. Sezai Karakoç Monna Rosa'nın, Cahit Sıtkı Tarancı \"Otuz Beş Yaş\" şiirinin yer aldığı Ömrümde Sükût'un şairidir.",
+		"explanation": "Necip Fazıl Kısakürek'in şiirleri Çile adlı kitapta toplanmıştır; ilk dönem şiirlerinde ölüm, yalnızlık ve korku, sonraki dönemde metafizik arayış öne çıkar. Sezai Karakoç Monna Rosa'nın, Cahit Sıtkı Tarancı ise Ömrümde Sükût (1933) ve Otuz Beş Yaş (1946) kitaplarının şairidir.",
 		"reference": {
 			"title": "Necip Fazıl Kısakürek — Çile"
 		},
@@ -318,5 +318,485 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-011",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Kendi Gök Kubbemiz adlı şiir kitabının şairi aşağıdakilerden hangisidir?",
+		"options": [
+			"Nazım Hikmet",
+			"Necip Fazıl Kısakürek",
+			"Orhan Veli Kanık",
+			"Yahya Kemal Beyatlı",
+			"Cahit Sıtkı Tarancı"
+		],
+		"correctIndex": 3,
+		"explanation": "Kendi Gök Kubbemiz, Yahya Kemal Beyatlı'nın şiirlerinin toplandığı kitaptır. Necip Fazıl Kısakürek Çile'nin, Nazım Hikmet Memleketimden İnsan Manzaraları'nın şairidir. Orhan Veli Kanık Garip hareketinin öncüsüdür; Cahit Sıtkı Tarancı ise \"Otuz Beş Yaş\" şiiriyle tanınır.",
+		"reference": {
+			"title": "Yahya Kemal Beyatlı — Kendi Gök Kubbemiz"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siir"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-012",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Memleketimden İnsan Manzaraları adlı eserin şairi aşağıdakilerden hangisidir?",
+		"options": [
+			"Nazım Hikmet",
+			"Faruk Nafiz Çamlıbel",
+			"Yahya Kemal Beyatlı",
+			"Cemal Süreya",
+			"Sezai Karakoç"
+		],
+		"correctIndex": 0,
+		"explanation": "Memleketimden İnsan Manzaraları, toplumcu gerçekçi şiirin öncüsü Nazım Hikmet'in eseridir; şairin Kuvâyi Milliye adlı destanı da vardır. Yahya Kemal Beyatlı Kendi Gök Kubbemiz'in, Sezai Karakoç Monna Rosa'nın şairidir. Cemal Süreya İkinci Yeni'nin, Faruk Nafiz Çamlıbel Beş Hececiler'in temsilcisidir.",
+		"reference": {
+			"title": "Nazım Hikmet — Memleketimden İnsan Manzaraları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siir"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-013",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Faruk Nafiz Çamlıbel, Enis Behiç Koryürek, Halit Fahri Ozansoy, Orhan Seyfi Orhon ve Yusuf Ziya Ortaç'ın oluşturduğu şiir topluluğu aşağıdakilerden hangisidir?",
+		"options": [
+			"Fecr-i Âti",
+			"Beş Hececiler",
+			"Yedi Meşaleciler",
+			"İkinci Yeni",
+			"Garip"
+		],
+		"correctIndex": 1,
+		"explanation": "Beş Hececiler, hece ölçüsünü benimseyen ve Anadolu temalarını işleyen beş şairin oluşturduğu topluluktur. Yedi Meşaleciler 1928'de onlara tepki olarak ortaya çıkmıştır. Garip hareketi Orhan Veli Kanık, Oktay Rifat ve Melih Cevdet Anday'ın; İkinci Yeni Cemal Süreya, Turgut Uyar ve Edip Cansever'in adıyla anılır. Fecr-i Âti ise Cumhuriyet öncesi bir topluluktur.",
+		"reference": {
+			"title": "Beş Hececiler — Cumhuriyet dönemi şiir toplulukları"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siir"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-014",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki şairlerden hangisi imge yoğun ve kapalı şiiri savunan İkinci Yeni hareketinin temsilcilerindendir?",
+		"options": [
+			"Yaşar Nabi Nayır",
+			"Faruk Nafiz Çamlıbel",
+			"Turgut Uyar",
+			"Ahmet Arif",
+			"Orhan Veli Kanık"
+		],
+		"correctIndex": 2,
+		"explanation": "İkinci Yeni, 1950'lerde Garip şiirinin yalınlığına tepki olarak imge yoğunluğunu ve anlam kapalılığını savunan harekettir; Turgut Uyar, Cemal Süreya ve Edip Cansever başlıca temsilcileridir. Orhan Veli Kanık Garip'in, Faruk Nafiz Çamlıbel Beş Hececiler'in, Yaşar Nabi Nayır Yedi Meşaleciler'in şairidir. Ahmet Arif ise toplumcu gerçekçi şiirle anılır.",
+		"reference": {
+			"title": "İkinci Yeni şiiri (1950'ler)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siir"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-015",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aylak Adam romanının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Tarık Buğra",
+			"Yusuf Atılgan",
+			"Oğuz Atay",
+			"Orhan Kemal",
+			"Peyami Safa"
+		],
+		"correctIndex": 1,
+		"explanation": "Aylak Adam, Yusuf Atılgan'ın romanıdır. Oğuz Atay Tutunamayanlar'ın, Peyami Safa Dokuzuncu Hariciye Koğuşu ve Fatih-Harbiye'nin, Orhan Kemal Bereketli Topraklar Üzerinde'nin, Tarık Buğra Küçük Ağa'nın yazarıdır.",
+		"reference": {
+			"title": "Yusuf Atılgan — Aylak Adam (1959)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"roman"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-016",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Semaver ve Sarnıç adlı hikâye kitaplarının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Sabahattin Ali",
+			"Ömer Seyfettin",
+			"Fakir Baykurt",
+			"Refik Halit Karay",
+			"Sait Faik Abasıyanık"
+		],
+		"correctIndex": 4,
+		"explanation": "Semaver, Sait Faik Abasıyanık'ın ilk kitabıdır; Sarnıç ve Alemdağ'da Var Bir Yılan da onun hikâye kitaplarıdır. Sabahattin Ali Kürk Mantolu Madonna ve Kuyucaklı Yusuf'un, Ömer Seyfettin Kaşağı ve Forsa gibi hikâyelerin, Refik Halit Karay Memleket Hikâyeleri'nin, Fakir Baykurt Yılanların Öcü'nün yazarıdır.",
+		"reference": {
+			"title": "Sait Faik Abasıyanık — Semaver; Sarnıç"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hikaye"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-017",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bereketli Topraklar Üzerinde romanının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Namık Kemal",
+			"Yaşar Kemal",
+			"Kemal Tahir",
+			"Orhan Kemal",
+			"Orhan Pamuk"
+		],
+		"correctIndex": 3,
+		"explanation": "Bereketli Topraklar Üzerinde, Orhan Kemal'in romanıdır. Benzer adlar sık karıştırılır: Yaşar Kemal İnce Memed'in, Kemal Tahir Devlet Ana'nın, Namık Kemal İntibah ve Vatan yahut Silistre'nin, Orhan Pamuk ise Benim Adım Kırmızı ve Kar'ın yazarıdır.",
+		"reference": {
+			"title": "Orhan Kemal — Bereketli Topraklar Üzerinde (1954)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"roman"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-018",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Ölmeye Yatmak romanının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Yusuf Atılgan",
+			"Kemal Tahir",
+			"Peyami Safa",
+			"Halide Edip Adıvar",
+			"Adalet Ağaoğlu"
+		],
+		"correctIndex": 4,
+		"explanation": "Ölmeye Yatmak, Adalet Ağaoğlu'nun romanıdır. Halide Edip Adıvar Ateşten Gömlek ve Sinekli Bakkal'ın, Yusuf Atılgan Aylak Adam'ın, Peyami Safa Dokuzuncu Hariciye Koğuşu'nun, Kemal Tahir Devlet Ana'nın yazarıdır.",
+		"reference": {
+			"title": "Adalet Ağaoğlu — Ölmeye Yatmak (1973)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"roman"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-019",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Köy Enstitüsü çıkışlı yazarlardan Fakir Baykurt'un eseri aşağıdakilerden hangisidir?",
+		"options": [
+			"Yılanların Öcü",
+			"Bizim Köy",
+			"Bereketli Topraklar Üzerinde",
+			"Sarı Traktör",
+			"İnce Memed"
+		],
+		"correctIndex": 0,
+		"explanation": "Yılanların Öcü, köy edebiyatının önemli temsilcisi Fakir Baykurt'un romanıdır. Sarı Traktör Talip Apaydın'ın, Bizim Köy Mahmut Makal'ın, İnce Memed Yaşar Kemal'in, Bereketli Topraklar Üzerinde ise Orhan Kemal'in eseridir.",
+		"reference": {
+			"title": "Fakir Baykurt — Yılanların Öcü (1959)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koy-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-020",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "1928'de Yedi Meşale adlı ortak yayınla ortaya çıkan ve Beş Hececiler'e tepki olarak yenilik arayan topluluğun şairlerinden biri aşağıdakilerden hangisidir?",
+		"options": [
+			"Oktay Rifat",
+			"Ahmet Arif",
+			"Ziya Osman Saba",
+			"Faruk Nafiz Çamlıbel",
+			"Edip Cansever"
+		],
+		"correctIndex": 2,
+		"explanation": "Yedi Meşaleciler, 1928'de Sabri Esat Siyavuşgil, Yaşar Nabi Nayır, Ziya Osman Saba, Cevdet Kudret ve Vasfi Mahir Kocatürk gibi genç şairlerin oluşturduğu topluluktur. Faruk Nafiz Çamlıbel Beş Hececiler'den, Oktay Rifat Garip'ten, Edip Cansever İkinci Yeni'den, Ahmet Arif ise toplumcu gerçekçi şiirden gelir.",
+		"reference": {
+			"title": "Yedi Meşale (1928)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siir"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-021",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "\"Otuz Beş Yaş\" şiirinin şairi aşağıdakilerden hangisidir?",
+		"options": [
+			"Necip Fazıl Kısakürek",
+			"Cahit Sıtkı Tarancı",
+			"Orhan Veli Kanık",
+			"Yahya Kemal Beyatlı",
+			"Nazım Hikmet"
+		],
+		"correctIndex": 1,
+		"explanation": "\"Otuz Beş Yaş\" Cahit Sıtkı Tarancı'nın şiiridir ve şairin 1946'da yayımlanan kitabına da adını vermiştir; ilk kitabı Ömrümde Sükût ise 1933'te çıkmıştır. Orhan Veli Garip hareketinin, Necip Fazıl Çile'nin, Yahya Kemal Kendi Gök Kubbemiz'in, Nazım Hikmet ise Memleketimden İnsan Manzaraları'nın şairidir.",
+		"reference": {
+			"title": "Cahit Sıtkı Tarancı — Otuz Beş Yaş"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siir"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-022",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Dokuzuncu Hariciye Koğuşu ve Fatih-Harbiye romanlarının yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Oğuz Atay",
+			"Sabahattin Ali",
+			"Kemal Tahir",
+			"Ahmet Hamdi Tanpınar",
+			"Peyami Safa"
+		],
+		"correctIndex": 4,
+		"explanation": "Dokuzuncu Hariciye Koğuşu ve Fatih-Harbiye Peyami Safa'nın romanlarıdır. Sabahattin Ali Kürk Mantolu Madonna'nın, Tanpınar Huzur'un, Kemal Tahir Devlet Ana'nın, Oğuz Atay ise Tutunamayanlar'ın yazarıdır.",
+		"reference": {
+			"title": "Peyami Safa — Dokuzuncu Hariciye Koğuşu; Fatih-Harbiye"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"roman"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-023",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Köy Enstitüsü çıkışlı yazarlardan birine ait olan Sarı Traktör adlı eserin yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Talip Apaydın",
+			"Orhan Kemal",
+			"Mahmut Makal",
+			"Fakir Baykurt",
+			"Yaşar Kemal"
+		],
+		"correctIndex": 0,
+		"explanation": "Sarı Traktör Talip Apaydın'ın eseridir. Köy Enstitüsü çıkışlı yazarlardan Fakir Baykurt Yılanların Öcü'nü, Mahmut Makal Bizim Köy'ü yazmıştır. Orhan Kemal Bereketli Topraklar Üzerinde'nin, Yaşar Kemal ise İnce Memed'in yazarıdır.",
+		"reference": {
+			"title": "Talip Apaydın — Sarı Traktör"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"koy-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-024",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Monna Rosa şiiriyle tanınan şair aşağıdakilerden hangisidir?",
+		"options": [
+			"Necip Fazıl Kısakürek",
+			"Ahmet Arif",
+			"Cahit Sıtkı Tarancı",
+			"Sezai Karakoç",
+			"Cemal Süreya"
+		],
+		"correctIndex": 3,
+		"explanation": "Monna Rosa Sezai Karakoç'un şiiridir. Cemal Süreya İkinci Yeni'nin, Ahmet Arif toplumcu gerçekçi şiirin temsilcisidir; Necip Fazıl Çile ile, Cahit Sıtkı Tarancı ise \"Otuz Beş Yaş\" şiiriyle tanınır.",
+		"reference": {
+			"title": "Sezai Karakoç — Monna Rosa"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siir"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-cumhuriyet-025",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/cumhuriyet-donemi-edebiyati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki şairlerden hangisi toplumsal sorunları işleyen toplumcu gerçekçi şiirin temsilcilerindendir?",
+		"options": [
+			"Oktay Rifat",
+			"Ziya Osman Saba",
+			"Ahmet Arif",
+			"Cemal Süreya",
+			"Faruk Nafiz Çamlıbel"
+		],
+		"correctIndex": 2,
+		"explanation": "Ahmet Arif, Nazım Hikmet ve Enver Gökçe ile birlikte toplumcu gerçekçi şiirin temsilcilerindendir. Cemal Süreya İkinci Yeni'nin, Oktay Rifat Garip hareketinin, Ziya Osman Saba Yedi Meşalecilerin, Faruk Nafiz Çamlıbel ise Beş Hececilerin şairidir.",
+		"reference": {
+			"title": "Ahmet Arif — Hasretinden Prangalar Eskittim"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"siir"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

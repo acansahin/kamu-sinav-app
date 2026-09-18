@@ -339,5 +339,1025 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-yazim-011",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki cümlelerin hangisinde birden fazla kelimeden oluşan bir sayı yanlış yazılmıştır?",
+		"options": [
+			"Kuruma 1.250.000 lira ödenek ayrıldı.",
+			"Törene ikiyüz elli davetli katıldı.",
+			"Salonda on beş kişilik bir masa vardı.",
+			"Her birime ikişer bilgisayar verildi.",
+			"Toplantı saat 17.30'da başlayacak."
+		],
+		"correctIndex": 1,
+		"explanation": "TDK Yazım Kılavuzu'na göre birden fazla kelimeden oluşan sayılar ayrı yazılır: iki yüz elli, üç yüz altmış beş, bin iki yüz elli bir. Para tutarı ve saat gibi sayılarda rakam kullanılır; dört ve daha çok basamaklı sayılar üçlü gruplara ayrılıp aralarına nokta konur. Bitişik yazım yalnızca senet, çek gibi ticari belgelerdeki para tutarlarında uygulanır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Sayıların Yazılışı",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/sayilarin-yazilisi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-012",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki ikilemelerden hangisinin yazımı yanlıştır?",
+		"options": [
+			"adım adım",
+			"eski püskü",
+			"yanyana",
+			"göz göze",
+			"yavaş yavaş"
+		],
+		"correctIndex": 2,
+		"explanation": "İkilemeler ayrı yazılır. Durum ekiyle kurulan ikilemeler de bu kurala girer: baş başa, el ele, göz göze, yan yana, omuz omuza. Doğrusu \"yan yana\"dır. Eski püskü, eğri büğrü gibi anlamca ilişkili kelimelerden kurulan ikilemeler de ayrı yazılır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "İkilemelerin Yazılışı",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/ikilemelerin-yazilisi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-013",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Düz ünlüden sonra düz, yuvarlak ünlüden sonra dar yuvarlak ya da düz geniş ünlü gelmesi kuralına aşağıdaki Türkçe kelimelerden hangisi aykırıdır?",
+		"options": [
+			"özlemek",
+			"yumurta",
+			"boyunduruk",
+			"çocuk",
+			"yağmur"
+		],
+		"correctIndex": 4,
+		"explanation": "Soruda küçük ünlü uyumu tarif edilmektedir. \"Yağmur\" kelimesinde düz \"a\"dan sonra yuvarlak \"u\" geldiği için kural bozulur; TDK Yazım Kılavuzu bu kelimeyi avuç, çamur, kabuk, kavun gibi uyuma aykırı Türkçe kelimeler arasında sayar. Çocuk ve boyunduruk yuvarlaktan sonra u, yumurta u'dan sonra a, özlemek ö'den sonra e ünlüsüyle kurala uyar.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Küçük Ünlü Uyumu",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/kucuk-unlu-uyumu/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ses-bilgisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-014",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki cümlelerin hangisinde zamanla ilgili birleşik kelime yanlış yazılmıştır?",
+		"options": [
+			"Hafta başı yapılacak toplantı ertelendi.",
+			"Gece yarısı gelen mesajı sabah okudu.",
+			"Nöbet gün ortasında devredildi.",
+			"Bağ bozumu şenlikleri eylülde başlıyor.",
+			"Kurumun kütüphanesi haftasonu kapalı olacak."
+		],
+		"correctIndex": 4,
+		"explanation": "Zamanla ilgili birleşik kelimeler ayrı yazılır: bağ bozumu, gece yarısı, gün ortası, hafta başı, hafta sonu. Doğru yazım \"hafta sonu\"dur. Bu kelimelerde iki öge de kendi anlamını koruduğu için bitişik yazım için bir gerekçe yoktur.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ayrı Yazılan Birleşik Kelimeler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/ayri-yazilan-birlesik-kelimeler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-015",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde bir renk adının yazımı kurallara aykırıdır?",
+		"options": [
+			"Duvarda kirli sarı bir leke kalmıştı.",
+			"Kapıları portakal rengine boyadılar.",
+			"Akşam gökyüzü gece mavisine döndü.",
+			"Toplantı salonunun duvarları açıkmavi renge boyanmıştı.",
+			"Masaya fildişi renginde bir örtü serildi."
+		],
+		"correctIndex": 3,
+		"explanation": "Rengin tonunu belirtmek için renkten önce gelen sıfatlar ayrı yazılır: açık mavi, koyu yeşil, kirli sarı. Renk sözüyle ya da bir renk adıyla kurulan isim tamlaması yapısındaki renk adları da ayrıdır: portakal rengi, gece mavisi. Buna karşılık anlam değişmesiyle oluşmuş renk adları bitişiktir: fildişi, camgöbeği, vişneçürüğü.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ayrı Yazılan Birleşik Kelimeler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/ayri-yazilan-birlesik-kelimeler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-016",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde yeterlilik, tezlik ya da süreklilik bildiren birleşik fiil yanlış yazılmıştır?",
+		"options": [
+			"Kapıyı açıverdi ve sessizce içeri girdi.",
+			"Merdivenlerden inerken düşeyazdı.",
+			"Yorgunluktan koltukta uyuyakalmış.",
+			"Bu raporu yarına kadar tek başına hazırlaya bilir misin?",
+			"Hiç beklemediğimiz bir anda çıkageldi."
+		],
+		"correctIndex": 3,
+		"explanation": "-a, -e, -ı, -i, -u, -ü zarf-fiil ekleriyle bilmek, vermek, kalmak, durmak, gelmek ve yazmak fiillerinden kurulan tasvirî fiiller bitişik yazılır: hazırlayabilmek, açıvermek, uyuyakalmak, gidedurmak, çıkagelmek, düşeyazmak. Doğru yazım \"hazırlayabilir misin\"dir; soru eki ise ayrı kalır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Bitişik Yazılan Birleşik Kelimeler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/bitisik-yazilan-birlesik-kelimeler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-017",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerin hangisinde aitlik bildiren -ki ekinin ünlüsü yanlış yazılmıştır?",
+		"options": [
+			"dünki",
+			"bugünkü",
+			"yarınki",
+			"akşamki",
+			"öbürkü"
+		],
+		"correctIndex": 0,
+		"explanation": "-ki aitlik eki genel olarak ünlü uyumlarına girmez: yarınki, akşamki, sabahki. TDK Yazım Kılavuzu bu ekin küçük ünlü uyumuna uyduğu yalnızca birkaç örnek sayar: bugünkü, dünkü, öbürkü. Bu yüzden doğru yazım \"dünkü\"dür.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Küçük Ünlü Uyumu",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/kucuk-unlu-uyumu/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ses-bilgisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-018",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Ek-fiilin kelimeye bitişik yazılmasıyla ilgili olarak aşağıdakilerin hangisinde yanlışlık yapılmıştır?",
+		"options": [
+			"okurkan",
+			"çalışıyorken",
+			"yorgundu",
+			"yabancıymış",
+			"evdeyken"
+		],
+		"correctIndex": 0,
+		"explanation": "Ek-fiil bitişik yazıldığında başındaki i düşer ve ek büyük ünlü uyumuna uyar: yorgun idi → yorgundu, yabancı imiş → yabancıymış. iken ise bitişik yazıldığında ünlüsü her zaman ince kalır: okur iken → okurken, çalışıyor iken → çalışıyorken. Ünlüyle biten kelimelerde araya y girer: evde iken → evdeyken. \"Okurkan\" biçimi bu yüzden yanlıştır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ek-fiilin Yazılışı",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/ek-fiilin-yazilisi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-019",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde \"dış, iç, sıra\" sözleriyle kurulan birleşik kelimelerin yazımıyla ilgili bir yanlışlık vardır?",
+		"options": [
+			"Çağ dışı uygulamalar eleştirildi.",
+			"Eğitimin yanı sıra sağlık alanında da çalıştı.",
+			"Yurt içi görevlendirmeler onaylandı.",
+			"Kanundışı yapılan bütün işlemler iptal edildi.",
+			"Hafta içi mesai saatleri yeniden düzenlendi."
+		],
+		"correctIndex": 3,
+		"explanation": "Dış, iç ve sıra sözleriyle oluşturulan birleşik kelime ve terimler ayrı yazılır: kanun dışı, yasa dışı, olağan dışı, çağ dışı; hafta içi, yurt içi; yanı sıra, peşi sıra. Doğru yazım \"kanun dışı\"dır. \"Olağanüstü\" gibi somut yer bildirmeyen üst sözüyle kurulanlar ise bitişik yazılır; iki kural karıştırılmamalıdır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ayrı Yazılan Birleşik Kelimeler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/ayri-yazilan-birlesik-kelimeler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-020",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde gün adının büyük harfle başlatılması kurala aykırıdır?",
+		"options": [
+			"Birim toplantılarımızı her Perşembe günü yapıyoruz.",
+			"Kurul, kararını 25 Haziran'da açıklayacak.",
+			"Okullar genellikle eylülün ikinci haftasında açılır.",
+			"Cumhuriyet 29 Ekim 1923'te ilan edildi.",
+			"İstanbul 29 Mayıs 1453 Salı günü fethedildi."
+		],
+		"correctIndex": 0,
+		"explanation": "Belirli bir tarih bildiren ay ve gün adları büyük harfle başlar: 29 Mayıs 1453 Salı günü, 25 Haziran'da. Belirli bir tarihi belirtmeyen ay ve gün adları ise küçük harfle başlar: eylülün ikinci haftası, perşembe günleri. \"Her perşembe\" belirli bir tarih göstermediği için gün adı küçük yazılmalıdır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Büyük Harflerin Kullanıldığı Yerler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/buyuk-harflerin-kullanildigi-yerler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"büyük-harf"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-021",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde üleştirme sayısı TDK'nin önerdiği biçimde yazılmamıştır?",
+		"options": [
+			"Görevlilere yüzer lira yol parası verildi.",
+			"Seminer katılımcılarına 2'şer kitap dağıtıldı.",
+			"Her masanın etrafına dörder sandalye kondu.",
+			"Konuklar birer birer salona alındı.",
+			"Öğrenciler üçer kişilik gruplara ayrıldı."
+		],
+		"correctIndex": 1,
+		"explanation": "TDK Yazım Kılavuzu'na göre üleştirme sayıları rakamla değil yazıyla belirtilir: 2'şer değil ikişer, 9'ar değil dokuzar, 100'er değil yüzer. Cümlenin doğrusu \"ikişer kitap\"tır. Sıra sayıları ise rakamla da yazılabilir (15. ya da 15'inci); iki kural birbirine karıştırılmamalıdır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Sayıların Yazılışı",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/sayilarin-yazilisi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-022",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki bitki ve hayvan adlarından hangisinin yazımı yanlıştır?",
+		"options": [
+			"kuş burnu",
+			"yalıçapkını",
+			"aslanağzı",
+			"hamam böceği",
+			"ayrık otu"
+		],
+		"correctIndex": 0,
+		"explanation": "Kelimelerden biri ya da ikisi anlam değişmesine uğradığında bitki ve hayvan adları bitişik yazılır: aslanağzı, kuşburnu, yalıçapkını. Bir bitki veya hayvan türünün adıyla kurulan ve anlam değişmesine uğramayanlar ise ayrı yazılır: hamam böceği, ayrık otu, kılıç balığı. Kuşburnu bir bitki adıdır ve kuşun burnunu anlatmaz; bu yüzden bitişik yazılır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Bitişik Yazılan Birleşik Kelimeler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/bitisik-yazilan-birlesik-kelimeler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-023",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Yardımcı fiille kurulan aşağıdaki birleşik fiillerden hangisinin yazımı yanlıştır?",
+		"options": [
+			"emretmek",
+			"terk etmek",
+			"affetmek",
+			"kabuletmek",
+			"kaybolmak"
+		],
+		"correctIndex": 3,
+		"explanation": "Etmek, olmak gibi yardımcı fiillerle kurulan birleşik fiiller, ilk kelimede ses düşmesi, değişmesi veya türemesi olursa bitişik yazılır: af → affetmek, kayıp → kaybolmak, emir → emretmek. Ses olayı yoksa ayrı yazılır: kabul etmek, terk etmek, not etmek, dans etmek. \"Kabul\" kelimesinde hiçbir ses değişmediği için doğru yazım \"kabul etmek\"tir.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ayrı Yazılan Birleşik Kelimeler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/ayri-yazilan-birlesik-kelimeler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-024",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki yer adlarından hangisinin yazımı yanlıştır?",
+		"options": [
+			"Uzak Doğu",
+			"Yenimahalle",
+			"Güney Doğu Anadolu",
+			"Kızılırmak",
+			"Orta Anadolu"
+		],
+		"correctIndex": 2,
+		"explanation": "Ara yönleri belirten güneydoğu, kuzeybatı gibi kelimeler bitişik yazılır; yer adlarında kullanılan doğu, batı, orta, uzak gibi kelimeler ise yer adından ayrı yazılır: Güneydoğu Anadolu, Orta Anadolu, Uzak Doğu. Irmak, mahalle gibi kelimelerle kurulmuş sıfat tamlaması kalıbındaki yer adları bitişiktir: Kızılırmak, Yenimahalle.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ayrı Yazılan Birleşik Kelimeler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/ayri-yazilan-birlesik-kelimeler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-025",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde sıfat-fiil ekiyle kurulmuş birleşik kelimenin yazımında yanlışlık vardır?",
+		"options": [
+			"Şehrin merkezinde bir gökdelen yükseliyor.",
+			"Katılımcılara tükenmez kalem dağıtıldı.",
+			"Kurum, dönersermaye gelirlerini bu yıl artırdı.",
+			"Limana yeni bir dalgakıran yapıldı.",
+			"Eski mahallede çıkmaz sokaklar çoktur."
+		],
+		"correctIndex": 2,
+		"explanation": "-r, -maz ve -an sıfat-fiil ekleriyle kurulan sıfat tamlaması yapısındaki birleşik kelimeler ayrı yazılır: döner sermaye, çalar saat, tükenmez kalem, çıkmaz sokak. Aynı eklerle kurulup kalıplaşarak tek bir kavramı karşılayanlar ise bitişik yazılır: dalgakıran, gökdelen, cankurtaran. Doğru yazım \"döner sermaye\"dir.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ayrı Yazılan Birleşik Kelimeler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/ayri-yazilan-birlesik-kelimeler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-026",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde özel ad kökenli olup yeni bir anlam kazanmış bir kelime büyük harfle başlatılarak yanlış yazılmıştır?",
+		"options": [
+			"Bu davranışı donkişotluk olarak niteledi.",
+			"Sanatçı eseri Hicaz makamında seslendirdi.",
+			"Avrupalılaşma çabaları uzun süre tartışıldı.",
+			"Türkçülük akımı bu dönemde güçlendi.",
+			"Konyalı bir ailenin çocuğuydu."
+		],
+		"correctIndex": 1,
+		"explanation": "Özel adlardan türetilen kelimeler büyük harfle başlar: Konyalı, Türkçülük, Avrupalılaşmak. Ancak özel ad kendi anlamı dışında yeni bir anlam kazanmışsa küçük harfle yazılır: hicaz (Türk müziğinde bir makam), acem (bir perde), donkişotluk. Müzikteki makam adları da büyük harfle başlamaz; doğru yazım \"hicaz makamında\"dır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Büyük Harflerin Kullanıldığı Yerler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/buyuk-harflerin-kullanildigi-yerler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"büyük-harf"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-027",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde kurum adındaki kelimelerin ilk harflerinin yazımı kurala uygun değildir?",
+		"options": [
+			"Konya ili sınırlarında yeni bir baraj yapılıyor.",
+			"Türkiye Büyük Millet Meclisi 1 Ekim'de toplandı; Meclis bu yıl erken çalışmaya başladı.",
+			"Kurul, Talim ve Terbiye Kurulu Başkanlığının önerisini görüştü.",
+			"Uzak Doğu'dan gelen heyeti Vali dün makamında kabul etti.",
+			"Toplantıya Türk Dil kurumu temsilcileri de katıldı."
+		],
+		"correctIndex": 4,
+		"explanation": "Kurum, kuruluş ve kurul adlarının her kelimesi büyük harfle başlar: Türk Dil Kurumu, Talim ve Terbiye Kurulu Başkanlığı. Kurum ve makam sözleri asılları kastedildiğinde tek başına da büyük yazılır (Meclis, Vali). Özel ada dâhil olmayan il, ilçe gibi sözler ise küçük başlar (Konya ili). Adın içindeki \"ve\" küçük kalır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Büyük Harflerin Kullanıldığı Yerler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/buyuk-harflerin-kullanildigi-yerler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"büyük-harf"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-028",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki eser adlarından hangisinin yazımı TDK'nin büyük harf kuralına uymamaktadır?",
+		"options": [
+			"Mai ve Siyah",
+			"Leyla ile Mecnun",
+			"Kendi Gök Kubbemiz",
+			"Sinekli Bakkal",
+			"Suç Ve Ceza"
+		],
+		"correctIndex": 4,
+		"explanation": "Kitap, dergi ve sanat eserlerinin adlarında her kelime büyük harfle başlar: Sinekli Bakkal, Kendi Gök Kubbemiz. Ancak bu adlarda geçen ve, ile, ya, veya, yahut, ki, da, de sözleriyle soru eki küçük yazılır: Mai ve Siyah, Leyla ile Mecnun, Suç ve Ceza. Adın tamamı büyük harfle yazıldığında ise bu sözler de büyük yazılır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Büyük Harflerin Kullanıldığı Yerler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/buyuk-harflerin-kullanildigi-yerler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"büyük-harf"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-029",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "\"Baş\" ya da \"başı\" sözüyle kurulan aşağıdaki unvan ve görev adlarından hangisi yanlış yazılmıştır?",
+		"options": [
+			"başsavcı",
+			"baş müfettiş",
+			"başhekim",
+			"ustabaşı",
+			"yüzbaşı"
+		],
+		"correctIndex": 1,
+		"explanation": "Her iki ögesi de asıl anlamını korusa da gelenekleşmiş olarak bitişik yazılan kelimeler vardır. Baş sözüyle kurulan sıfat tamlamaları bitişiktir: başhekim, başsavcı, başmüfettiş, başkent. Bir topluluğun yöneticisi anlamındaki başı sözüyle kurulanlar da bitişiktir: ustabaşı, yüzbaşı, onbaşı. Doğru yazım \"başmüfettiş\"tir.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Bitişik Yazılan Birleşik Kelimeler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/bitisik-yazilan-birlesik-kelimeler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-030",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde ara söz ya da cümle içindeki başka bir cümlenin ilk harfi kurala aykırı yazılmıştır?",
+		"options": [
+			"Başvuru süresi -bu süre uzatılmayacak- cuma günü doluyor.",
+			"Müdür \"Rapor yarın teslim edilmeli.\" dedi.",
+			"Toplantı -Bu toplantı üç saat sürdü- oldukça verimli geçti.",
+			"Köyleri (Yolların çoğu toprak olduğu için zorlandık.) tek tek gezdik.",
+			"Kural açıktır: Süresinde yapılmayan başvuru kabul edilmez."
+		],
+		"correctIndex": 2,
+		"explanation": "Cümle içinde tırnak veya yay ayraç içine alınan cümleler büyük harfle başlar; iki noktadan sonra gelen cümleler de büyük başlar. Buna karşılık iki çizgi arasındaki açıklama cümleleri büyük harfle başlamaz: \"Toplantı -bu toplantı üç saat sürdü- oldukça verimli geçti.\" Aynı kural gereği \"-bu süre uzatılmayacak-\" ara sözü küçük harfle doğru yazılmıştır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Büyük Harflerin Kullanıldığı Yerler",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/buyuk-harflerin-kullanildigi-yerler/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"büyük-harf"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-031",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki kelimelerin hangisinde sert ünsüzle biten bir kelimeye sert ünsüzle başlayan ek getirilmiştir?",
+		"options": [
+			"ipekçi",
+			"bilgi",
+			"verdi",
+			"yolda",
+			"gözcü"
+		],
+		"correctIndex": 0,
+		"explanation": "TDK Yazım Kılavuzu'na göre sert ünsüzle (ç, f, h, k, p, s, ş, t) biten kelimeler sert ünsüzle başlayan ekler alır: ipek-çi, aş-çı, çiçek-ten. Yumuşak ünsüzle biten kelimeler ise yumuşak ünsüzle başlayan ekler alır: göz-cü, yol-da, bil-gi, ver-di. Bu kurala ünsüz uyumu denir.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ünsüz Uyumu",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/unsuz-uyumu/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ses-bilgisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-032",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki cümlelerin hangisinde pekiştirmeli bir sözün yazımı yanlıştır?",
+		"options": [
+			"Bahar gelince bahçe yemyeşil oldu.",
+			"Güpegündüz kapıyı açık bırakmışlar.",
+			"Masadaki sap sarı dosyayı bana verir misiniz?",
+			"Yağmura yakalanınca sırılsıklam oldu.",
+			"Yere düşen vazo paramparça olmuştu."
+		],
+		"correctIndex": 2,
+		"explanation": "Sıfat veya zarf görevindeki pekiştirmeli sözler bitişik yazılır: apaçık, güpegündüz, kapkara, masmavi, paramparça, sapsarı, sırılsıklam, yemyeşil. Bu nedenle \"sap sarı\" yazımı yanlış, \"sapsarı\" yazımı doğrudur.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Pekiştirmeli Sözlerin Yazılışı",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/pekistirmeli-sozlerin-yazilisi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-033",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki tek heceli kelimelerden hangisi ünlüyle başlayan bir ek aldığında sonundaki ünsüz yumuşar?",
+		"options": [
+			"ok",
+			"kap",
+			"saç",
+			"süt",
+			"at"
+		],
+		"correctIndex": 1,
+		"explanation": "Tek heceli kelimelerin sonundaki p, ç, t, k ünsüzleri iki ünlü arasında genellikle korunur: at / atı, ok / oku, saç / saçı, süt / sütü. TDK Yazım Kılavuzu bunun istisnalarını da sayar: but / budu, dip / dibi, gök / göğü, kap / kabı, uç / ucu, yurt / yurdu. Çok heceli kelimelerde ise yumuşama kuraldır: ağaç / ağacı, kanat / kanadı.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ünsüzlerin Nitelikleri",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/unsuzlerin-nitelikleri/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ses-bilgisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-034",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde \"ki\"nin yazımı yanlıştır?",
+		"options": [
+			"Hâlbuki raporu dün teslim ettiğini söylemişti.",
+			"Belki yarın toplantıya ben de katılırım.",
+			"Demek ki dosya başka bir birime gönderilmiş.",
+			"Bu işi bitirmek için yeterki biraz sabırlı olalım.",
+			"Mademki kararını verdin, sonuna kadar arkandayız."
+		],
+		"correctIndex": 3,
+		"explanation": "Bağlaç olan ki ayrı yazılır: yeter ki, demek ki, bilmem ki, kaldı ki. Yalnızca kalıplaşmış birkaç örnek bitişik yazılır: belki, çünkü, hâlbuki, mademki, meğerki, oysaki, sanki. \"Yeterki\" bu listede olmadığı için \"yeter ki\" biçiminde ayrı yazılmalıdır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Bağlaç Olan ki'nin Yazılışı",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/baglac-olan-kinin-yazilisi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-035",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde bir deyimin yazımı yanlıştır?",
+		"options": [
+			"Müdür hazırlanan rapora kısaca gözattı.",
+			"Toplantıda yine çam devirdi.",
+			"Bu işin kolay olduğunu, çantada keklik sayılmayacağını söyledi.",
+			"Bu harcama bütçenin yanında devede kulak kalır.",
+			"Uyarıları dinledi ama hiçbirine kulak asmadı."
+		],
+		"correctIndex": 0,
+		"explanation": "TDK Yazım Kılavuzu'na göre deyimler ayrı yazılır: göz atmak, kulak asmak, çam devirmek, devede kulak, çantada keklik. \"Gözattı\" yazımı bu kurala aykırıdır; doğrusu \"göz attı\"dır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Deyimlerin Yazılışı",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/deyimlerin-yazilisi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-036",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki alıntı kelimelerden hangisi ünlüyle başlayan bir ek aldığında sonundaki ünsüz yumuşamaz?",
+		"options": [
+			"standart",
+			"renk",
+			"kitap",
+			"metot",
+			"hukuk"
+		],
+		"correctIndex": 4,
+		"explanation": "Alıntı kelimelerin sonundaki yumuşak ünsüzler Türkçede sertleşir ve ünlüyle başlayan ek gelince yeniden yumuşar: kitap / kitabı, renk / rengi, metot / metodu, standart / standardı. TDK Yazım Kılavuzu bazı alıntılarda yumuşama olmadığını belirtir: ahlak / ahlakın, evrak / evrakı, hukuk / hukuku, ittifak / ittifaka, cumhuriyet / cumhuriyete.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Ünsüzlerin Nitelikleri",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/unsuzlerin-nitelikleri/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ses-bilgisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-037",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Satır sonunda bölünen aşağıdaki kelimelerden hangisi TDK Yazım Kılavuzu'na uygun bölünmüştür?",
+		"options": [
+			"ilk-okul",
+			"baş-öğretmen",
+			"kont-rol",
+			"müdafa-a",
+			"u-çurtma"
+		],
+		"correctIndex": 2,
+		"explanation": "Batı kökenli kelimeler Türkçenin hece yapısına göre bölünür: kont-rol, prog-ram, sant-ral. Satır sonunda ve satır başında tek harf bırakılmaz; bu yüzden \"u-çurtma\" ve \"müdafa-a\" yanlıştır. İlk heceden sonraki heceler ünsüzle başladığı için bitişik yazılan kelimelerde de bu kurala uyulur: il-ko-kul, ba-şöğ-ret-men.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Hece Yapısı ve Satır Sonunda Kelimelerin Bölünmesi",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/hece-yapisi-ve-satir-sonunda-kelimelerin-bolunmesi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-038",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "\"ile\" sözünün kendinden önceki kelimeye bitişik yazıldığı aşağıdaki örneklerden hangisi yanlıştır?",
+		"options": [
+			"bulutla",
+			"çevreyle",
+			"çiçekle",
+			"sürüle",
+			"yapıyla"
+		],
+		"correctIndex": 3,
+		"explanation": "ile, ünsüzle biten kelimelere bitişik yazıldığında i ünlüsü düşer ve ek büyük ünlü uyumuna uyar: bulut-la, çiçek-le. Ünlüyle biten kelimelere bitişik yazıldığında ise araya y ünsüzü girer: çevre-y-le, yapı-y-la, sürü-y-le. Bu nedenle doğru yazım \"sürüyle\"dir.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "ile'nin Yazılışı",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/ilenin-yazilisi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-039",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde söyleyişe uyularak yapılmış bir yazım yanlışı vardır?",
+		"options": [
+			"İsterseniz size ben geleyim.",
+			"Rapora yarın sabah başlayacağım.",
+			"Kapıda bekleyen misafirleri içeri aldı.",
+			"Bu akşam işten biraz erken çıkalım.",
+			"Yarınki toplantıya katılmıyacağımı bildirdim."
+		],
+		"correctIndex": 4,
+		"explanation": "TDK Yazım Kılavuzu'na göre -a/-e, -acak/-ecek, -ayım/-eyim, -alım/-elim, -an/-en eklerinden önce gelen ünlü veya ekin geniş ünlüsü söyleyişe bakılmaksızın a/e ile yazılır: başlayacağım, geleyim, çıkalım, bekleyen. Olumsuzluk ekinden sonra da aynı kural geçerlidir: gelmeyeceksin, katılmayacağım. \"Katılmıyacağım\" yazımı söyleyişe uyulduğu için yanlıştır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Fiil Çekimi ile İlgili Yazılışlar",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/fiil-cekimi-ile-ilgili-yazilislar/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-yazim-040",
+		"subjectId": "turkce",
+		"topicId": "turkce/ses-bilgisi-ve-yazim-kurallari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde -ma/-me ile biten bir mastara gelen ekin yazımı yanlıştır?",
+		"options": [
+			"O günlerde gülmeyi unutmuş gibiydi.",
+			"Sabahları erken kalkmağa alışmıştı.",
+			"Her akşam kitap okumaya zaman ayırır.",
+			"Toplantıdan sonra çalışmaya devam etti.",
+			"Yeni şehrini sevmeye başlamıştı."
+		],
+		"correctIndex": 1,
+		"explanation": "-ma/-me ile biten mastarlardan sonra -a/-e ya da -ı/-i eklerinden biri geldiğinde araya y koruyucu ünsüzü girer: çalışma-y-a, okuma-y-a, gülme-y-i, sevme-y-e. Bu yüzden \"kalkmağa\" değil \"kalkmaya\" yazılmalıdır.",
+		"reference": {
+			"title": "TDK Yazım Kılavuzu",
+			"section": "Mastarlara Gelen Eklerin Yazılışı",
+			"url": "https://tdk.gov.tr/icerik/yazim-kurallari/mastarlara-gelen-eklerin-yazilisi/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"yazım"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

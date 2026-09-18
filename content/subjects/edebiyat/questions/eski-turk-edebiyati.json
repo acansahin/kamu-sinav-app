@@ -319,5 +319,487 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "edebiyat-eski-011",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "On ciltlik Seyahatname'nin yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Naima",
+			"Evliya Çelebi",
+			"Süleyman Çelebi",
+			"Kâtip Çelebi",
+			"Piri Reis"
+		],
+		"correctIndex": 1,
+		"explanation": "Seyahatname, Evliya Çelebi'nin gezip gördüğü yerleri anlattığı on ciltlik eserdir ve divan nesrinin en tanınmış örneklerindendir. Kâtip Çelebi Keşfü'z-Zunun ve Cihannüma'nın, Piri Reis Kitab-ı Bahriye'nin, Naima ise Naima Tarihi'nin yazarıdır. Süleyman Çelebi Mevlid'i yazmıştır.",
+		"reference": {
+			"title": "Evliya Çelebi — Seyahatname (10 cilt, 17. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"divan-nesri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-eski-012",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Mevlid adıyla bilinen Vesiletü'n-Necat'ın şairi aşağıdakilerden hangisidir?",
+		"options": [
+			"Yunus Emre",
+			"Süleyman Çelebi",
+			"Fuzuli",
+			"Nabi",
+			"Şeyh Galip"
+		],
+		"correctIndex": 1,
+		"explanation": "Vesiletü'n-Necat, Hz. Muhammed'in doğumunu konu alan ve Mevlid adıyla bilinen mesnevidir; Süleyman Çelebi tarafından 1409'da yazılmıştır. Yunus Emre Risaletü'n-Nushiyye'nin, Fuzuli Leyla ile Mecnun'un, Nabi Hayriye'nin, Şeyh Galip Hüsn ü Aşk'ın şairidir.",
+		"reference": {
+			"title": "Süleyman Çelebi — Vesiletü'n-Necat (1409)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"divan-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-eski-013",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Tasavvufi öğütleri hikmet adı verilen şiirlerle dile getiren Divan-ı Hikmet'in şairi aşağıdakilerden hangisidir?",
+		"options": [
+			"Âşık Paşa",
+			"Yusuf Has Hacib",
+			"Hoca Ahmet Yesevi",
+			"Kaygusuz Abdal",
+			"Kaşgarlı Mahmud"
+		],
+		"correctIndex": 2,
+		"explanation": "Divan-ı Hikmet, 12. yüzyılda Hoca Ahmet Yesevi'nin tasavvufi düşüncelerini hikmet adı verilen şiirlerle anlattığı eserdir. Kaşgarlı Mahmud Divanü Lügati't-Türk'ün, Yusuf Has Hacib Kutadgu Bilig'in, Âşık Paşa Garipname'nin yazarıdır. Kaygusuz Abdal ise tekke-tasavvuf şiirinin sonraki temsilcilerindendir.",
+		"reference": {
+			"title": "Hoca Ahmet Yesevi — Divan-ı Hikmet (12. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"islami-donem"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-eski-014",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1783'te yazılan sembolik aşk mesnevisi Hüsn ü Aşk'ın şairi aşağıdakilerden hangisidir?",
+		"options": [
+			"Nedim",
+			"Nefi",
+			"Şeyh Galip",
+			"Baki",
+			"Fuzuli"
+		],
+		"correctIndex": 2,
+		"explanation": "Hüsn ü Aşk, Şeyh Galip'in 1783'te yazdığı sembolik (alegorik) bir mesnevidir; Şeyh Galip sebk-i Hindî üslubuyla tanınır ve divan şiirinin son büyük şairi sayılır. Fuzuli Leyla ile Mecnun'un şairidir; Nedim Lale Devri şairi, Baki \"sultanü'ş-şuara\", Nefi ise kaside ve hicivleriyle tanınır.",
+		"reference": {
+			"title": "Şeyh Galip — Hüsn ü Aşk (1783)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"divan-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-eski-015",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Divan edebiyatında \"sultanü'ş-şuara\" (şairlerin sultanı) unvanıyla anılan şair aşağıdakilerden hangisidir?",
+		"options": [
+			"Şeyhi",
+			"Nabi",
+			"Nefi",
+			"Baki",
+			"Nedim"
+		],
+		"correctIndex": 3,
+		"explanation": "16. yüzyılda yaşayan Baki, divan şiirindeki ustalığı nedeniyle \"sultanü'ş-şuara\" (şairlerin sultanı) olarak anılmıştır. Nefi kaside ve hicivleriyle, Nedim Lale Devri ve mahallîleşmeyle, Nabi hikemî (öğretici) şiirle, Şeyhi ise Harname mesnevisiyle tanınır.",
+		"reference": {
+			"title": "Baki — Divan (16. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"divan-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-eski-016",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Eşeği sembol olarak kullanarak döneminin kişilerini eleştiren hiciv türündeki Harname mesnevisinin şairi aşağıdakilerden hangisidir?",
+		"options": [
+			"Şeyhi",
+			"Nabi",
+			"Süleyman Çelebi",
+			"Nefi",
+			"Âşık Paşa"
+		],
+		"correctIndex": 0,
+		"explanation": "Harname (Eşekname), 15. yüzyıl şairi Şeyhi'nin eşeği sembol olarak kullandığı hiciv türünde bir mesnevidir. Nefi de hicivleriyle tanınır ancak Harname onun değildir; Âşık Paşa Garipname'nin, Süleyman Çelebi Mevlid'in, Nabi Hayriye'nin şairidir.",
+		"reference": {
+			"title": "Şeyhi — Harname (15. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"divan-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-eski-017",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Lale Devri'nin şairi olan ve şiirde mahallîleşme akımının öncüsü sayılan divan şairi aşağıdakilerden hangisidir?",
+		"options": [
+			"Nedim",
+			"Baki",
+			"Fuzuli",
+			"Nabi",
+			"Şeyh Galip"
+		],
+		"correctIndex": 0,
+		"explanation": "Nedim, 18. yüzyıl başındaki Lale Devri'nin şairidir; İstanbul'un gündelik hayatını, eğlence yerlerini ve yerli söyleyişleri şiire taşıyarak mahallîleşme akımının öncüsü olmuştur. Baki \"sultanü'ş-şuara\", Fuzuli lirizmi, Şeyh Galip sebk-i Hindî üslubu, Nabi ise hikemî şiiriyle tanınır.",
+		"reference": {
+			"title": "Nedim — Divan (18. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"divan-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-eski-018",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Akdeniz kıyılarını, limanlarını ve denizcilik bilgilerini anlatan Kitab-ı Bahriye'nin yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Seydi Ali Reis",
+			"Naima",
+			"Kâtip Çelebi",
+			"Piri Reis",
+			"Evliya Çelebi"
+		],
+		"correctIndex": 3,
+		"explanation": "Kitab-ı Bahriye, Osmanlı denizcisi Piri Reis'in Akdeniz'in kıyıları, limanları ve adaları hakkında denizcilere yol gösteren eseridir. Kâtip Çelebi Cihannüma ve Keşfü'z-Zunun'un, Evliya Çelebi Seyahatname'nin, Naima ise Naima Tarihi'nin yazarıdır. Seydi Ali Reis Mir'atü'l-Memalik'i yazmıştır.",
+		"reference": {
+			"title": "Piri Reis — Kitab-ı Bahriye (16. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"divan-nesri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-eski-019",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Dede Korkut Hikâyeleri'nin Vatikan nüshasında giriş bölümünden sonra kaç hikâye yer alır?",
+		"options": [
+			"4",
+			"12",
+			"10",
+			"8",
+			"6"
+		],
+		"correctIndex": 4,
+		"explanation": "Dede Korkut Hikâyeleri'nin en çok bilinen iki nüshasından Dresden nüshası giriş ile 12 hikâye, Vatikan nüshası ise giriş ile 6 hikâye içerir. Bu yüzden eserin en kapsamlı metni Dresden nüshasıdır.",
+		"reference": {
+			"title": "Hikâyet-i Oğuznâme, Kazan Beğ ve Gayrı — Vatikan nüshası (Vat. turc. 102)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gecis-donemi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-eski-020",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "İslamiyet öncesi Türk sözlü edebiyatında ölen kişinin ardından söylenen ağıtlara verilen ad aşağıdakilerden hangisidir?",
+		"options": [
+			"Koşuk",
+			"Destan",
+			"Sav",
+			"Mani",
+			"Sagu"
+		],
+		"correctIndex": 4,
+		"explanation": "Sagu, İslamiyet öncesi Türk edebiyatında ölen kişinin ardından onun iyiliklerini ve yiğitliğini anlatarak söylenen ağıttır; halk edebiyatındaki ağıtın karşılığıdır. Koşuk toylarda kopuzla söylenen aşk, doğa ve yiğitlik şiiri, sav ise atasözüdür. Mani anonim halk edebiyatına ait bir türdür.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"sagu\", \"koşuk\" ve \"sav\" maddeleri",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"islamiyet-oncesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-eski-021",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türk edebiyatının parçası sayılan ama Farsça yazılmış olan tasavvufi başyapıt Mesnevi'nin şairi aşağıdakilerden hangisidir?",
+		"options": [
+			"Hoca Ahmet Yesevi",
+			"Şeyh Galip",
+			"Mevlana Celaleddin Rumi",
+			"Fuzuli",
+			"Yunus Emre"
+		],
+		"correctIndex": 2,
+		"explanation": "Mesnevi, Mevlana Celaleddin Rumi'nin Farsça yazdığı tasavvufi başyapıttır; Türk edebiyatının parçası sayılsa da Türkçe değildir. Yunus Emre ve Ahmet Yesevi tasavvufi şiirlerini Türkçe yazmıştır; Şeyh Galip Hüsn ü Aşk'ın, Fuzuli Leyla ile Mecnun'un şairidir.",
+		"reference": {
+			"title": "Mevlana Celaleddin Rumi — Mesnevi (13. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"divan-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-eski-022",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Tasavvufi-didaktik bir mesnevi olan Garipname'nin şairi aşağıdakilerden hangisidir?",
+		"options": [
+			"Âşık Paşa",
+			"Şeyhi",
+			"Nabi",
+			"Süleyman Çelebi",
+			"Yunus Emre"
+		],
+		"correctIndex": 0,
+		"explanation": "Garipname, Âşık Paşa'nın tasavvufi ve öğretici mesnevisidir. Şeyhi Harname'nin, Nabi Hayriye'nin, Süleyman Çelebi Mevlid (Vesiletü'n-Necat) adlı eserin, Yunus Emre ise Risaletü'n-Nushiyye'nin şairidir.",
+		"reference": {
+			"title": "Âşık Paşa — Garipname (14. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"divan-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-eski-023",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Divan edebiyatında özellikle kaside ve hiciv türlerindeki şiirleriyle tanınan şair aşağıdakilerden hangisidir?",
+		"options": [
+			"Baki",
+			"Nefi",
+			"Nedim",
+			"Fuzuli",
+			"Nabi"
+		],
+		"correctIndex": 1,
+		"explanation": "Nefi divan edebiyatının kaside ve hiciv ustasıdır. Baki \"sultanü'ş-şuara\" unvanıyla, Nedim Lale Devri ve mahallîleşmeyle, Nabi hikemî (öğretici) şiirle, Fuzuli ise lirizmiyle öne çıkar.",
+		"reference": {
+			"title": "Nefi — Divan (17. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"divan-edebiyati"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-eski-024",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Divan nesrinin seyahat türündeki eserlerinden Mir'atü'l-Memalik'in yazarı aşağıdakilerden hangisidir?",
+		"options": [
+			"Piri Reis",
+			"Kâtip Çelebi",
+			"Evliya Çelebi",
+			"Seydi Ali Reis",
+			"Naima"
+		],
+		"correctIndex": 3,
+		"explanation": "Mir'atü'l-Memalik, Seydi Ali Reis'in eseridir. Piri Reis Kitab-ı Bahriye'nin, Kâtip Çelebi Keşfü'z-Zunun ve Cihannüma'nın, Evliya Çelebi on ciltlik Seyahatname'nin, Naima ise Naima Tarihi'nin yazarıdır.",
+		"reference": {
+			"title": "Seydi Ali Reis — Mir'atü'l-Memalik (16. yüzyıl)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"divan-nesri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "edebiyat-eski-025",
+		"subjectId": "edebiyat",
+		"topicId": "edebiyat/eski-turk-edebiyati",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Battalname, Danişmendname ve Saltukname aşağıdaki eser türlerinden hangisine örnektir?",
+		"options": [
+			"Tezkire",
+			"Hiciv türünde mesnevi",
+			"Siyasetname",
+			"Seyahatname",
+			"Dinî-destani eserler"
+		],
+		"correctIndex": 4,
+		"explanation": "Battalname, Danişmendname ve Saltukname destan geleneğini İslami kahramanlık konularıyla birleştiren dinî-destani eserlerdir ve geçiş döneminin ürünleridir. Kutadgu Bilig bir siyasetname, Evliya Çelebi'nin eseri bir seyahatname, Şeyhi'nin Harname'si ise hiciv türünde bir mesnevidir.",
+		"reference": {
+			"title": "Battalname; Danişmendname; Saltukname"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Eserlerin künye bilgileri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"gecis-donemi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

@@ -322,5 +322,655 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-hazirlik-011",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Mustafa Kemal'in İzmir ve Manisa'nın işgalini protesto etmek amacıyla mitingler düzenlenmesini ve İtilaf temsilcilerine telgraflar çekilmesini istediği ilk genelge aşağıdakilerden hangisidir?",
+		"options": [
+			"Erzurum Kongresi Beyannamesi",
+			"Havza Genelgesi",
+			"Sivas Kongresi Beyannamesi",
+			"Amasya Genelgesi",
+			"Misak-ı Millî"
+		],
+		"correctIndex": 1,
+		"explanation": "Havza Genelgesi 28 Mayıs 1919'da 9. Ordu Müfettişi Mustafa Kemal tarafından yayımlanmış, Millî Mücadele döneminin ilk genelgesidir. İşgallerin mitinglerle protesto edilmesini ve İtilaf Devletleri temsilcileri ile Osmanlı Hükûmetine etkili telgraflar çekilmesini istemiş, halkta millî bilinç uyandırmayı amaçlamıştır. Kurtuluş Savaşı'nın gerekçe, amaç ve yöntemini açıklayan belge ise Amasya Genelgesi'dir.",
+		"reference": {
+			"title": "Havza Genelgesi (28 Mayıs 1919)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"genelgeler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-012",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Heyet-i Temsiliye 27 Aralık 1919'da hangi şehre gelerek çalışmalarını orada sürdürmeye başlamıştır?",
+		"options": [
+			"Eskişehir",
+			"Ankara",
+			"Sivas",
+			"Amasya",
+			"Erzurum"
+		],
+		"correctIndex": 1,
+		"explanation": "Sivas Kongresi'nden sonra bir süre Sivas'ta kalan Heyet-i Temsiliye, 27 Aralık 1919'da Ankara'ya gelmiştir. Ankara'nın batı cephesine yakınlığı, demiryolu bağlantısı ve İstanbul ile haberleşme imkânı bu seçimde etkili olmuştur. Millî Mücadele'nin merkezi bundan sonra Ankara olmuş, TBMM de 23 Nisan 1920'de burada açılmıştır.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "Heyet-i Temsiliye'nin Ankara'ya gelişi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"heyet-i-temsiliye"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-013",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Mondros Ateşkes Antlaşması'nı Osmanlı Devleti adına imzalayan Bahriye Nazırı aşağıdakilerden hangisidir?",
+		"options": [
+			"Salih Paşa",
+			"Ali Rıza Paşa",
+			"Ahmet İzzet Paşa",
+			"Rauf Bey (Orbay)",
+			"Damat Ferit Paşa"
+		],
+		"correctIndex": 3,
+		"explanation": "Mondros Ateşkes Antlaşması 30 Ekim 1918'de Limni adasının Mondros limanında demirli Agamemnon zırhlısında, Osmanlı Devleti adına Bahriye Nazırı Rauf Bey (Orbay), İtilaf Devletleri adına İngiliz Amiral Calthorpe tarafından imzalanmıştır. Ahmet İzzet Paşa o sırada sadrazamdı. Salih Paşa ise bir yıl sonra Amasya Görüşmeleri'nde İstanbul Hükûmetini temsil eden Bahriye Nazırıdır.",
+		"reference": {
+			"title": "Mondros Ateşkes Antlaşması (30 Ekim 1918)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mondros"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-014",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Çıkarılmasına Sivas Kongresi'nde karar verilen ve Kurtuluş Hareketi'nin ilk yayın organı olan gazete aşağıdakilerden hangisidir?",
+		"options": [
+			"İrade-i Milliye",
+			"Hâkimiyet-i Milliye",
+			"Açıksöz",
+			"Takvim-i Vekayi",
+			"Tasvir-i Efkâr"
+		],
+		"correctIndex": 0,
+		"explanation": "İrade-i Milliye (Ulusal İrade), Sivas Kongresi'nde alınan karar üzerine Sivas'ta çıkarılmış ve ilk sayısı 14 Eylül 1919'da yayımlanmıştır. Millî Mücadele'nin gerekçesini halka ve dünya kamuoyuna duyuran ilk yayın organıdır. Hâkimiyet-i Milliye ise Heyet-i Temsiliye Ankara'ya geldikten sonra 10 Ocak 1920'de Ankara'da çıkarılmaya başlanmıştır.",
+		"reference": {
+			"title": "Sivas Kongresi Kararları (4-11 Eylül 1919)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"sivas-kongresi",
+			"basın"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-015",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Mustafa Kemal'in 8-9 Temmuz 1919 gecesi askerlik görevinden istifa etmesi aşağıdaki gelişmelerden hangi ikisinin arasında gerçekleşmiştir?",
+		"options": [
+			"Misak-ı Millî'nin kabulü ile TBMM'nin açılışı",
+			"Sivas Kongresi ile Amasya Görüşmeleri",
+			"Amasya Genelgesi ile Erzurum Kongresi'nin toplanması",
+			"Samsun'a çıkış ile Havza Genelgesi",
+			"Erzurum Kongresi ile Sivas Kongresi"
+		],
+		"correctIndex": 2,
+		"explanation": "Amasya Genelgesi 22 Haziran 1919'da yayımlanmış, İstanbul Hükûmeti bunun üzerine Mustafa Kemal'i geri çağırmıştır. Mustafa Kemal 8-9 Temmuz 1919 gecesi Harbiye Nazırı ile yaptığı telgraf görüşmesinin ardından askerlik görevinden istifa etmiş ve mücadeleyi sivil olarak sürdürmüştür. Erzurum Kongresi ise 23 Temmuz 1919'da toplanmıştır.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "Askerlikten istifa (8-9 Temmuz 1919)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kronoloji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-016",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Misak-ı Millî'de gerekirse yeniden halk oylamasına başvurulabileceği kabul edilen \"Elviye-i Selase\" (Üç Sancak) aşağıdakilerden hangisidir?",
+		"options": [
+			"Musul, Kerkük ve Süleymaniye",
+			"Midilli, Sakız ve Limni",
+			"Edirne, Kırklareli ve Tekirdağ",
+			"Antep, Maraş ve Urfa",
+			"Kars, Ardahan ve Batum"
+		],
+		"correctIndex": 4,
+		"explanation": "Elviye-i Selase (Üç Liva), Osmanlı döneminde Kars, Ardahan ve Batum sancaklarının ortak adıdır. Misak-ı Millî, halkın ilk kurtuluşunda kendi oyuyla anavatana katıldığı bu üç sancak için gerekirse yeniden halk oylamasına başvurulabileceğini kabul etmiştir. 1921 Moskova ve Kars antlaşmalarıyla Kars ve Ardahan Türkiye'ye, Batum Gürcistan'a bırakılmıştır.",
+		"reference": {
+			"title": "Misak-ı Millî (28 Ocak 1920)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"misak-i-milli"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-017",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Amasya Görüşmeleri'nde Heyet-i Temsiliye'nin talep ettiği ancak anayasaya aykırı olacağı gerekçesiyle İstanbul Hükûmetince kabul edilmeyen husus aşağıdakilerden hangisidir?",
+		"options": [
+			"Barış konferansına Heyet-i Temsiliye'nin uygun gördüğü kişilerin de gönderilmesi",
+			"Hiçbir yabancı devlete toprak verilmemesi",
+			"Meclis-i Mebusan seçimlerinin yapılması",
+			"Meclis-i Mebusan'ın İstanbul dışında güvenli bir yerde toplanması",
+			"Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti'nin tanınması"
+		],
+		"correctIndex": 3,
+		"explanation": "20-22 Ekim 1919'daki Amasya Görüşmeleri'nde Mebusan Meclisinin İstanbul'da toplanmasının güvenli olmadığı görüşü ileri sürüldü. İstanbul Hükûmeti bu hükmü anayasaya aykırı bularak kabul etmedi ve Mustafa Kemal ısrar etmedi; meclis İstanbul'da toplandı. Görüşmelerle İstanbul Hükûmeti Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti'ni ve Heyet-i Temsiliye'yi resmen tanımış oldu.",
+		"reference": {
+			"title": "Amasya Protokolü (20-22 Ekim 1919)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"amasya-gorusmeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-018",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Son Osmanlı Mebusan Meclisi'nde Millî Mücadele taraftarı mebusların, Müdafaa-i Hukuk adını kullanmaktan çekindikleri için kurdukları grubun adı aşağıdakilerden hangisidir?",
+		"options": [
+			"Felah-ı Vatan Grubu",
+			"İkinci Grup",
+			"Halk Zümresi",
+			"Müdafaa-i Hukuk Grubu",
+			"Hürriyet ve İtilaf Fırkası"
+		],
+		"correctIndex": 0,
+		"explanation": "Mustafa Kemal, Mebusan Meclisinde bir Müdafaa-i Hukuk Grubu kurulmasını ve kendisinin başkan seçilmesini istemişti. Mebuslar ise Müdafaa-i Hukuk adını kullanmaktan çekinerek Felah-ı Vatan (Vatanın Kurtuluşu) Grubu'nu kurdular ve Mustafa Kemal'i başkan seçtiremediler. Buna karşın grup, kongre kararlarına dayanan Misak-ı Millî'nin kabul edilmesini sağladı. İkinci Grup ve Halk Zümresi ise TBMM dönemine ait gruplardır.",
+		"reference": {
+			"title": "Misak-ı Millî (28 Ocak 1920)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"misak-i-milli"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-019",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "İstanbul'un resmen işgalinin ardından Heyet-i Temsiliye'nin 19 Mart 1920 tarihli genelgesinde istenen aşağıdakilerden hangisidir?",
+		"options": [
+			"Meclis-i Mebusan'ın Sivas'ta yeniden toplanması",
+			"Bütün cemiyetlerin kapatılarak tek bir parti kurulması",
+			"Heyet-i Temsiliye'nin feshedilerek yerine bir hükûmet kurulması",
+			"Misak-ı Millî'nin halk oylamasına sunulması",
+			"Ankara'da olağanüstü yetkilere sahip bir meclisin toplanması için seçim yapılması"
+		],
+		"correctIndex": 4,
+		"explanation": "Meclis-i Mebusan'ın dağıtılması ve İstanbul'un 16 Mart 1920'de resmen işgal edilmesi üzerine Mustafa Kemal, \"olağanüstü yetkili bir meclis\" toplanmasına karar verildiğini açıkladı. Heyet-i Temsiliye 19 Mart 1920'de bu meclis için seçim yapılmasını ilgili makamlara bildirdi; her sancaktan beş üye seçilmesi istendi. Seçilen mebuslar ve İstanbul'dan kaçabilen mebuslarla TBMM 23 Nisan 1920'de Ankara'da açıldı.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "19 Mart 1920 genelgesi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tbmm-acilisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-020",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki gelişmelerden hangisi diğerlerinden daha sonra gerçekleşmiştir?",
+		"options": [
+			"Amasya Görüşmeleri'nin yapılması",
+			"Heyet-i Temsiliye'nin Ankara'ya gelmesi",
+			"İstanbul'un İtilaf Devletlerince resmen işgal edilmesi",
+			"Sivas Kongresi'nin toplanması",
+			"Misak-ı Millî'nin kabul edilmesi"
+		],
+		"correctIndex": 2,
+		"explanation": "Olayların tarihleri şöyledir: Sivas Kongresi 4-11 Eylül 1919, Amasya Görüşmeleri 20-22 Ekim 1919, Heyet-i Temsiliye'nin Ankara'ya gelişi 27 Aralık 1919, Misak-ı Millî'nin kabulü 28 Ocak 1920. İstanbul ise Misak-ı Millî'nin kabulüne tepki olarak 16 Mart 1920'de resmen işgal edilmiştir; bu yüzden en son gerçekleşen gelişmedir.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "1919-1920 kronolojisi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kronoloji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-021",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Mondros Ateşkes Antlaşması nerede imzalanmıştır?",
+		"options": [
+			"Paris yakınlarındaki Sevr kasabasında",
+			"İstanbul'da, Dolmabahçe Sarayı'nda",
+			"Mudanya'da, bir konağın salonunda",
+			"Limni adasının Mondros limanında, Agamemnon zırhlısında",
+			"İsviçre'nin Lozan kentinde"
+		],
+		"correctIndex": 3,
+		"explanation": "Mondros Ateşkes Antlaşması 30 Ekim 1918'de Limni adasının Mondros limanında demirli İngiliz Agamemnon zırhlısında imzalanmıştır; Osmanlı Devleti adına Bahriye Nazırı Rauf Bey (Orbay) imzalamıştır. Mudanya'da 1922'de ateşkes, Sevr'de 1920'de barış antlaşması, Lozan'da 1923'te barış antlaşması imzalanmıştır.",
+		"reference": {
+			"title": "Mondros Ateşkes Antlaşması (30 Ekim 1918)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mondros"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-022",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "İzmir'in Yunanlılar tarafından işgal edilmesine tepki olarak kurulan ve adı \"ilhakı reddetme\" anlamına gelen millî cemiyet aşağıdakilerden hangisidir?",
+		"options": [
+			"Trabzon Muhafaza-i Hukuk-ı Milliye Cemiyeti",
+			"Reddi İlhak Cemiyeti",
+			"Kilikyalılar Cemiyeti",
+			"Vilâyât-ı Şarkiye Müdafaa-i Hukuk-ı Milliye Cemiyeti",
+			"Trakya-Paşaeli Müdafaa-i Heyeti Osmaniyesi"
+		],
+		"correctIndex": 1,
+		"explanation": "Reddi İlhak Cemiyeti İzmir'in işgali sırasında kurulmuş ve Batı Anadolu'da işgale karşı ilk tepkileri örgütlemiştir. Kilikyalılar Cemiyeti Adana ve çevresinde, Trakya-Paşaeli Müdafaa-i Heyeti Trakya'da, Trabzon Muhafaza-i Hukuk Cemiyeti Karadeniz'de, Vilâyât-ı Şarkiye Müdafaa-i Hukuk Cemiyeti ise Doğu Anadolu'da kurulan millî cemiyetlerdir.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "Giriş — 1919 yılı"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cemiyetler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-023",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "İstanbul Rum Patrikhanesi'nde kurulan, Yunan hükûmetinden yardım alarak Osmanlı topraklarında çeteler oluşturan ve propaganda yürüten zararlı cemiyet aşağıdakilerden hangisidir?",
+		"options": [
+			"Mavri Mira",
+			"Taşnak",
+			"Wilson Prensipleri Cemiyeti",
+			"Kürt Teali Cemiyeti",
+			"Alyans İsrailit"
+		],
+		"correctIndex": 0,
+		"explanation": "Nutuk'taki belgelere göre Mavri Mira, İstanbul Rum Patrikhanesi'nde kurulmuş, Yunan hükûmetinden para yardımı alan ve çete kurup propaganda yapan bir örgüttür. Taşnak Ermeni, Alyans İsrailit Musevi cemiyetidir. Kürt Teali Cemiyeti ve Wilson Prensipleri Cemiyeti de Millî Mücadele'ye karşı tutum alan cemiyetler arasında sayılır; ancak Patrikhane'de kurulmamış, Yunan desteğiyle çete örgütlememiştir.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "Vesika 1"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cemiyetler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-024",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Misak-ı Millî'de Boğazlarla ilgili olarak aşağıdakilerden hangisi kabul edilmiştir?",
+		"options": [
+			"Boğazlarda Türkiye'nin tam egemenlik kurup asker bulundurabilmesi",
+			"Boğazların İtilaf devletlerinin denetimine verilmesi",
+			"İstanbul ve Marmara'nın güvenliği sağlanmak şartıyla Boğazların dünya ticaretine açılması",
+			"Boğazların uluslararası bir komisyonun yönetimine bırakılması",
+			"Boğazların bütün gemilere kalıcı olarak kapatılması"
+		],
+		"correctIndex": 2,
+		"explanation": "Misak-ı Millî, İstanbul ve Marmara Denizi'nin güvenliği sağlanmak şartıyla Boğazların dünya ticaret ve ulaşımına açılmasını kabul etmiştir. Boğazların uluslararası bir komisyona bırakılması Lozan Antlaşması'yla, Türkiye'nin Boğazlarda tam egemenlik kazanması 1936 Montrö Sözleşmesi'yle gerçekleşmiştir. Boğazların İtilaf donanmalarına açılması ise Mondros'un 1. maddesiydi.",
+		"reference": {
+			"title": "Misak-ı Millî (28 Ocak 1920)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"misak-i-milli"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-025",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Millî Mücadele'yi yürütmek üzere Heyet-i Temsiliye ilk kez aşağıdakilerin hangisinde seçilmiştir?",
+		"options": [
+			"Erzurum Kongresi",
+			"Amasya Görüşmeleri",
+			"Son Osmanlı Mebusan Meclisi",
+			"Balıkesir Kongresi",
+			"Sivas Kongresi"
+		],
+		"correctIndex": 0,
+		"explanation": "Heyet-i Temsiliye ilk kez Erzurum Kongresi'nde seçilmiştir; \"Manda ve himaye kabul olunamaz\" kararı da ilk kez burada alınmıştır. Sivas Kongresi'nde Heyet-i Temsiliye genişletilerek bütün yurdu temsil eder hâle getirilmiştir. Amasya Görüşmeleri'nde İstanbul Hükûmeti Heyet-i Temsiliye'yi muhatap alarak tanımıştır.",
+		"reference": {
+			"title": "Erzurum Kongresi Kararları (23 Temmuz-7 Ağustos 1919)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"erzurum-kongresi",
+			"heyet-i-temsiliye"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-026",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Amasya Genelgesi'nde İstanbul Hükûmetiyle ilgili olarak aşağıdaki tespitlerden hangisi yapılmıştır?",
+		"options": [
+			"İstanbul Hükûmeti Heyet-i Temsiliye'yi resmen tanımıştır.",
+			"Manda ve himaye kabul olunamaz.",
+			"İstanbul Hükûmetinin yerine Türkiye Büyük Millet Meclisi Hükûmeti kurulmuştur.",
+			"Mebusan Meclisi İstanbul dışında toplanmalıdır.",
+			"İstanbul Hükûmeti üzerine aldığı sorumluluğun gereğini yerine getirememektedir."
+		],
+		"correctIndex": 4,
+		"explanation": "Amasya Genelgesi (22 Haziran 1919), İstanbul Hükûmetinin üzerine aldığı sorumluluğun gereğini yerine getiremediğini ve bu durumun milleti yok olmuş gösterdiğini açıklamıştır. Heyet-i Temsiliye'nin tanınması ve meclisin İstanbul dışında toplanması talebi Amasya Görüşmeleri'ne (Ekim 1919), manda ve himayenin reddi Erzurum Kongresi'ne, TBMM Hükûmeti 1920'ye aittir.",
+		"reference": {
+			"title": "Amasya Genelgesi (22 Haziran 1919)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"amasya-genelgesi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-027",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Misak-ı Millî'nin siyasi, adli ve mali gelişmeyi engelleyen kısıtlamalarla ilgili kararı aşağıdakilerden hangisini hedef almaktadır?",
+		"options": [
+			"Azınlık okullarını",
+			"Kapitülasyonları",
+			"Osmanlı borçlarını",
+			"Nüfus mübadelesini",
+			"Musul meselesini"
+		],
+		"correctIndex": 1,
+		"explanation": "Misak-ı Millî, siyasi, adli, mali ve diğer gelişmemizi engelleyen kısıtlamaların kabul edilemeyeceğini belirterek kapitülasyonları reddetmiştir. Kapitülasyonlar Lozan Antlaşması'yla tamamen kaldırılmıştır. Osmanlı borçlarının paylaştırılması ve nüfus mübadelesi Lozan döneminin, Musul meselesi ise 1926 Ankara Antlaşması'nın konusudur.",
+		"reference": {
+			"title": "Misak-ı Millî (28 Ocak 1920)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"misak-i-milli"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-028",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Mondros Ateşkes Antlaşması'nın, altı vilayette (Vilâyât-ı Sitte) karışıklık çıkması hâlinde bu vilayetlerin işgal edilebileceğini öngören 24. maddesi aşağıdakilerden hangisine zemin hazırlamıştır?",
+		"options": [
+			"İtalyanların Antalya'ya asker çıkarmasına",
+			"Boğazların İtilaf donanmalarına açılmasına",
+			"İstanbul'un resmen işgal edilmesine",
+			"Doğu Anadolu'da bir Ermeni devleti kurulmasına",
+			"Osmanlı ordusunun terhis edilmesine"
+		],
+		"correctIndex": 3,
+		"explanation": "Mondros'un 24. maddesi Doğu Anadolu'daki altı vilayette (Vilâyât-ı Sitte) karışıklık çıkarsa bu vilayetlerin işgal edilebileceğini öngörüyor ve bölgede bir Ermeni devleti kurulmasına zemin hazırlıyordu. Boğazların açılması 1., ordunun terhisi 5. maddedir; İtalyanlar Antalya'ya çıkarken her stratejik noktanın işgaline imkân veren 7. maddeyi gerekçe göstermiştir.",
+		"reference": {
+			"title": "Mondros Ateşkes Antlaşması (30 Ekim 1918)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"mondros"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-029",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Heyet-i Temsiliye'nin 19 Mart 1920 tarihli genelgesine göre Ankara'da toplanacak olağanüstü yetkili meclis için her sancaktan kaç üye seçilecekti?",
+		"options": [
+			"2",
+			"10",
+			"5",
+			"3",
+			"7"
+		],
+		"correctIndex": 2,
+		"explanation": "İstanbul'un 16 Mart 1920'de resmen işgal edilip Mebusan Meclisi'nin dağıtılması üzerine Heyet-i Temsiliye 19 Mart 1920'de yayımladığı genelgeyle Ankara'da olağanüstü yetkili bir meclis için her sancaktan beş üye seçilmesini istemiştir. İstanbul'dan gelebilen mebuslar da bu meclise katılmıştır. TBMM 23 Nisan 1920'de açılmıştır.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "19 Mart 1920 genelgesi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"tbmm-acilisi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-hazirlik-030",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/milli-mucadele-hazirlik-donemi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Millî Mücadele'nin hazırlık dönemine ait gelişmeler hangi seçenekte kronolojik olarak doğru sıralanmıştır?",
+		"options": [
+			"Havza Genelgesi – Erzurum Kongresi – Misak-ı Millî – Amasya Görüşmeleri",
+			"Erzurum Kongresi – Havza Genelgesi – Misak-ı Millî – Amasya Görüşmeleri",
+			"Havza Genelgesi – Amasya Görüşmeleri – Erzurum Kongresi – Misak-ı Millî",
+			"Amasya Görüşmeleri – Havza Genelgesi – Erzurum Kongresi – Misak-ı Millî",
+			"Havza Genelgesi – Erzurum Kongresi – Amasya Görüşmeleri – Misak-ı Millî"
+		],
+		"correctIndex": 4,
+		"explanation": "Doğru sıra şöyledir: Havza Genelgesi (28 Mayıs 1919), Erzurum Kongresi (23 Temmuz-7 Ağustos 1919), Amasya Görüşmeleri (20-22 Ekim 1919) ve Misak-ı Millî (28 Ocak 1920). Amasya Görüşmeleri Sivas Kongresi'nden sonra, Misak-ı Millî ise görüşmelerde kararlaştırılan seçimlerle toplanan Mebusan Meclisi'nde kabul edilmiştir.",
+		"reference": {
+			"title": "Nutuk (1927)",
+			"section": "Giriş — 1919 yılı"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kronoloji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

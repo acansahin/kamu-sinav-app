@@ -338,5 +338,1025 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "turkce-cumle-011",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "\"Kurul, yeni yönetmelik taslağını dün öğleden sonra oy birliğiyle kabul etti.\" cümlesinin yüklemi aşağıdakilerden hangisidir?",
+		"options": [
+			"oy birliğiyle kabul etti",
+			"dün öğleden sonra",
+			"kabul etti",
+			"etti",
+			"taslağını kabul etti"
+		],
+		"correctIndex": 2,
+		"explanation": "Yüklem cümlede iş, oluş ve yargıyı bildiren çekimli ögedir. \"Kabul etmek\" yardımcı fiille kurulmuş birleşik bir fiildir ve bölünemez; bu yüzden yüklem yalnızca \"etti\" değil \"kabul etti\"dir. \"Taslağını\" belirtili nesne, \"oy birliğiyle\" ve \"dün öğleden sonra\" ise yüklemi tamamlayan ayrı ögelerdir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"yüklem\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-012",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki cümlelerin hangisinde özne cümlede yazılmamış, yüklemin kişi ekinden anlaşılmaktadır?",
+		"options": [
+			"Müdür yarın sabah yola çıkacak.",
+			"Toplantı öğleden sonra başladı.",
+			"Yarın sabah erkenden yola çıkacağız.",
+			"Çocuklar bahçede top oynuyor.",
+			"Yağmur bütün gece durmadan yağdı."
+		],
+		"correctIndex": 2,
+		"explanation": "Özne cümlede açıkça yazılmadığında yüklemin kişi ekinden anlaşılır; buna gizli özne denir. \"Çıkacağız\" yüklemindeki -ız eki öznenin \"biz\" olduğunu gösterir. Diğer cümlelerde özne açıkça yazılmıştır: müdür, çocuklar, toplantı, yağmur.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"özne\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-013",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki cümlelerin hangisinde belirtme eki almadan fiille ilişkilendirilmiş bir nesne vardır?",
+		"options": [
+			"Akşam yemekten sonra gazete okudu.",
+			"Gazeteyi masanın üzerine bıraktı.",
+			"Dün akşam çok yoruldu.",
+			"Kitaplar rafa özenle dizildi.",
+			"Sabah erkenden işe gitti."
+		],
+		"correctIndex": 0,
+		"explanation": "Belirtisiz nesne belirtme eki almadan fiille ilişkilendirilir: \"Ne okudu?\" — \"gazete\". \"Gazeteyi\" belirtme eki aldığı için belirtili nesnedir. \"Gitmek\" ve \"yorulmak\" nesne almaz. \"Kitaplar rafa dizildi\" cümlesinin yüklemi edilgen olduğu için \"kitaplar\" sözde öznedir, nesne değildir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"belirtisiz nesne\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-014",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdaki cümlelerden hangisi yargının gerçekleşmediğini bildiren olumsuz bir cümledir?",
+		"options": [
+			"Rapor zamanında teslim edildi.",
+			"Toplantıya herkes katıldı.",
+			"Sonuçlar yarın açıklanacak.",
+			"Başvurusu henüz sonuçlanmadı.",
+			"Başvurusu dün sonuçlandı."
+		],
+		"correctIndex": 3,
+		"explanation": "Olumsuz cümle, yargının gerçekleşmediğini veya gerçekleşmeyeceğini anlatır. \"Sonuçlanmadı\" yüklemindeki -ma olumsuzluk eki yargının gerçekleşmediğini bildirir. Diğer cümlelerin yüklemleri yargının gerçekleştiğini ya da gerçekleşeceğini anlatan olumlu yüklemlerdir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"olumsuz cümle\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-015",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "\"Müdür, eski dosyaları arşivden sabah erkenden getirtti.\" cümlesinde dolaylı tümleç aşağıdakilerden hangisidir?",
+		"options": [
+			"arşivden",
+			"eski dosyaları",
+			"getirtti",
+			"sabah erkenden",
+			"Müdür"
+		],
+		"correctIndex": 0,
+		"explanation": "Dolaylı tümleç yönelme (-e), bulunma (-de) veya ayrılma (-den) durumunda bulunan ve yüklemi tümleyen ögedir; \"nereden getirtti?\" sorusunun cevabı olan \"arşivden\" dolaylı tümleçtir. \"Müdür\" özne, \"eski dosyaları\" belirtili nesne, \"sabah erkenden\" zaman bildiren zarf tümleci, \"getirtti\" yüklemdir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"dolaylı tümleç\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-016",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi tek başına yargı bildiren cümlelerin yan yana sıralanmasıyla oluşmuş bir sıralı cümledir?",
+		"options": [
+			"Kapıyı açtığı için içerisi soğudu.",
+			"Kapı açıldı, içeriye soğuk bir rüzgâr doldu.",
+			"Kapıyı açan görevli hemen içeri girdi.",
+			"Kapı açılırsa içeriye soğuk rüzgâr dolar.",
+			"Kapı açılınca içeriye soğuk bir rüzgâr doldu."
+		],
+		"correctIndex": 1,
+		"explanation": "Sıralı cümle, tek başına yargı bildiren iki veya daha fazla cümlenin anlam bütünlüğü içinde yan yana sıralanmasıyla oluşur: \"Kapı açıldı\" ve \"içeriye soğuk bir rüzgâr doldu\" ayrı ayrı tam cümlelerdir. Diğer seçeneklerde ilk yargı \"açılınca, açan, açılırsa, açtığı için\" biçimleriyle temel cümleye bağlanmıştır ve tek başına cümle değildir; bunlar birleşik cümlelerdir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"sıralı cümle\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-017",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisi soru eki içerdiği hâlde soru anlamı taşımamaktadır?",
+		"options": [
+			"Raporu teslim ettin mi?",
+			"Yarın bize gelecek misiniz?",
+			"Güzel mi güzel bir gün geçirdik.",
+			"Bu kararı neden aldınız?",
+			"Toplantıya kim katılacak?"
+		],
+		"correctIndex": 2,
+		"explanation": "Soru eki mı/mi her zaman soru anlamı katmaz; \"güzel mi güzel\" kalıbında pekiştirme görevindedir ve cümle bir bildirme cümlesidir. \"Ettin mi?\" ve \"gelecek misiniz?\" soru ekiyle, \"kim\" ve \"neden\" ise soru kelimeleriyle kurulmuş gerçek soru cümleleridir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"soru cümlesi\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-018",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "\"Öğrenciler sınıfa sessizce girdi.\" cümlesinde yüklemi durum bakımından belirleyen zarf tümleci aşağıdakilerden hangisidir?",
+		"options": [
+			"Öğrenciler",
+			"sessizce",
+			"girdi",
+			"sınıfa",
+			"sınıfa sessizce"
+		],
+		"correctIndex": 1,
+		"explanation": "Zarf tümleci yüklemin anlamını zaman, durum, sebep, ölçü gibi bakımlardan belirler; \"nasıl girdi?\" sorusunun cevabı \"sessizce\"dir. \"Sınıfa\" yönelme durumunda olduğu ve \"nereye?\" sorusuna cevap verdiği için dolaylı tümleçtir; iki öge tek bir öge gibi birleştirilemez. \"Öğrenciler\" özne, \"girdi\" yüklemdir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"zarf tümleci\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-019",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisinde nesne yoktur?",
+		"options": [
+			"Kurul yeni bir karar aldı.",
+			"Toplantı salonu sabahtan beri doluydu.",
+			"Herkes onun başarısını kutladı.",
+			"Raporları dün akşam bitirdi.",
+			"Kapıyı yavaşça kapattı."
+		],
+		"correctIndex": 1,
+		"explanation": "Nesne yalnızca geçişli fiillerin bulunduğu cümlelerde olur. \"Doluydu\" ek-fiil almış ad soylu bir yüklemdir ve nesne almaz; \"toplantı salonu\" öznedir. Diğer cümlelerde \"raporları, bir karar, onun başarısını, kapıyı\" sözleri geçişli fiillerin nesnesidir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"belirtili nesne\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-020",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi fiilimsi, şart eki veya bağlaç içermeyen, tek yüklemli basit bir cümledir?",
+		"options": [
+			"Birimleri ziyaret eden müdür notlar aldı.",
+			"Müdür vakit bulursa birimleri ziyaret edecek.",
+			"Müdür birimleri ziyaret etti, sorunları dinledi.",
+			"Müdür göreve başlayınca bütün birimleri ziyaret etti.",
+			"Müdür dün bütün birimleri tek tek ziyaret etti."
+		],
+		"correctIndex": 4,
+		"explanation": "Basit cümlede tek bir yüklem ve tek bir yargı bulunur. \"Başlayınca\" zarf-fiil, \"ziyaret eden\" sıfat-fiil, \"bulursa\" şart ekiyle kurulan yan yargılar birleşik cümle oluşturur. \"Ziyaret etti, sorunları dinledi\" ise iki ayrı yargının yan yana dizildiği sıralı cümledir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"basit cümle\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-021",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisi yapıca olumsuz olduğu hâlde anlamca olumlu bir yargı bildirmektedir?",
+		"options": [
+			"Bu toplantıya katılmayan kalmadı.",
+			"Toplantıya katılıp katılmayacağını bilmiyoruz.",
+			"Toplantıya katılmak istemiyor.",
+			"Bu toplantıya kimse katılmadı.",
+			"Toplantının ne zaman yapılacağı belli değil."
+		],
+		"correctIndex": 0,
+		"explanation": "\"Katılmayan kalmadı\" sözünde iki olumsuzluk vardır: katılmayan kişi kalmamıştır, yani herkes katılmıştır. Cümle yapıca olumsuz (kalmadı) ama anlamca olumludur. Diğer cümlelerde yargı anlamca da olumsuzdur: kimse katılmamış, katılmak istenmiyor, zaman belli değil, katılım bilinmiyor.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"olumlu cümle\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-022",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "\"Başkan, hazırlanan raporları dün akşam bütün üyelere dağıttı.\" cümlesinin ögeleri baştan sona doğru hangi seçenekte doğru verilmiştir?",
+		"options": [
+			"Özne – belirtisiz nesne – zarf tümleci – dolaylı tümleç – yüklem",
+			"Özne – belirtili nesne – dolaylı tümleç – zarf tümleci – yüklem",
+			"Özne – belirtili nesne – zarf tümleci – belirtili nesne – yüklem",
+			"Özne – zarf tümleci – belirtili nesne – dolaylı tümleç – yüklem",
+			"Özne – belirtili nesne – zarf tümleci – dolaylı tümleç – yüklem"
+		],
+		"correctIndex": 4,
+		"explanation": "Yüklem \"dağıttı\"dır. \"Kim dağıttı?\" — Başkan (özne). \"Neyi dağıttı?\" — hazırlanan raporları (belirtme eki aldığı için belirtili nesne). \"Ne zaman dağıttı?\" — dün akşam (zarf tümleci). \"Kime dağıttı?\" — bütün üyelere (yönelme durumunda, dolaylı tümleç). Sıfat-fiil grubu \"hazırlanan raporları\" bölünmeden tek öge sayılır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"dolaylı tümleç\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-023",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde yan cümle, temel cümleye \"ki\" bağlacıyla bağlanmıştır?",
+		"options": [
+			"Yorulduğu için yemek yemeden uyudu.",
+			"Yorulmuştu ve yemek yemeden uyudu.",
+			"Çok yorulmuştu, yemek yemeden uyudu.",
+			"Öyle yorulmuştu ki yemek yemeden uyudu.",
+			"Eve gelince yemek yemeden uyudu."
+		],
+		"correctIndex": 3,
+		"explanation": "Yan cümle; yüklemine fiilimsi, soru eki, ki bağlacı, dilek kipi veya şartlı birleşik zaman eki getirilerek temel cümleye bağlanır. \"Öyle yorulmuştu ki\" yan cümlesi \"ki\" ile temel cümleye bağlanmıştır. \"Yorulduğu için\" ve \"gelince\" fiilimsiyle kurulmuştur; virgülle ayrılan cümle sıralı, \"ve\" ile bağlanan cümle ise bağlı cümledir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"yan cümle\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-024",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "\"Kurumun en deneyimli uzmanını, Ayşe Hanım'ı, yeni projenin başına getirdiler.\" cümlesindeki ara söz hangi ögeyi açıklamaktadır?",
+		"options": [
+			"Belirtili nesneyi",
+			"Dolaylı tümleci",
+			"Özneyi",
+			"Zarf tümlecini",
+			"Yüklemi"
+		],
+		"correctIndex": 0,
+		"explanation": "Ara söz, bir ögeyi açıklamak için araya giren ve virgülle ayrılan sözdür; ayrı bir öge sayılmaz, açıkladığı ögenin içinde değerlendirilir. \"Ayşe Hanım'ı\" sözü \"Neyi/kimi getirdiler?\" sorusunun cevabı olan \"kurumun en deneyimli uzmanını\" ögesini açıklar; bu öge belirtili nesnedir. Açıklayan ile açıklanan aynı eki (-ı) almıştır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"belirtili nesne\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-025",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "\"Yıllarca bu kurumda çalışan ve herkesin sevgisini kazanan emektar memur dün törenle emekli oldu.\" cümlesinin öznesi aşağıdakilerden hangisidir?",
+		"options": [
+			"emektar memur",
+			"memur",
+			"herkesin sevgisini kazanan emektar memur",
+			"herkes",
+			"Yıllarca bu kurumda çalışan ve herkesin sevgisini kazanan emektar memur"
+		],
+		"correctIndex": 4,
+		"explanation": "Öge bölünmez; özneyi niteleyen bütün sözler özneye dâhildir. \"Kim emekli oldu?\" sorusunun cevabı, \"ve\" bağlacıyla bağlanmış iki sıfat-fiil grubuyla nitelenen \"memur\" sözünün tamamıdır. \"Herkes\" ise \"sevgisini kazanan\" sıfat-fiil grubunun içindedir; cümlenin öznesi değildir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"özne\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-026",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Kurallı cümlede vurgunun yükleme en yakın ögede olduğu düşünüldüğünde aşağıdaki cümlelerin hangisinde belirtili nesne vurgulanmıştır?",
+		"options": [
+			"Müdür raporu dün akşam evde okudu.",
+			"Müdür raporu dün akşam okudu.",
+			"Raporu müdür dün akşam hızla okudu.",
+			"Raporu dün akşam müdür okudu.",
+			"Müdür dün akşam raporu okudu."
+		],
+		"correctIndex": 4,
+		"explanation": "Kurallı cümlede vurgu genellikle yüklemden hemen önceki ögededir. \"Müdür dün akşam raporu okudu.\" cümlesinde yükleme en yakın öge belirtili nesne olan \"raporu\"dur. Diğer cümlelerde yükleme en yakın ögeler \"dün akşam\" ve \"hızla\" (zarf tümleci), \"müdür\" (özne) ve \"evde\" (dolaylı tümleç) olduğu için vurgu bunlardadır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"vurgu\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-027",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "\"Sabah erkenden kalkan memurlar, servisi kaçırmamak için hızla hazırlandı.\" cümlesi için aşağıdakilerden hangisi söylenebilir?",
+		"options": [
+			"Yüklemi fiil olan, kurallı, şartlı birleşik bir cümledir.",
+			"Yüklemi fiil olan, devrik, basit bir cümledir.",
+			"Yüklemi fiil olan, kurallı, fiilimsi içeren birleşik bir cümledir.",
+			"Yüklemi fiil olan, kurallı, sıralı bir cümledir.",
+			"Yüklemi ad soylu olan, kurallı, basit bir cümledir."
+		],
+		"correctIndex": 2,
+		"explanation": "Yüklem \"hazırlandı\" çekimli bir fiildir ve cümlenin sonundadır; cümle fiil cümlesi ve kurallıdır. \"Kalkan\" sıfat-fiili ile \"kaçırmamak\" ad-fiili yan yargılar kurduğu için cümle yapıca birleşiktir. Virgülle ayrılmış iki tam cümle olmadığı için sıralı, şart eki bulunmadığı için şartlı birleşik değildir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"birleşik cümle\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-028",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "\"Müdürlüğe yeni atanan uzman, ilk raporunu dün teslim etti.\" cümlesinde \"müdürlüğe\" sözü cümlenin hangi ögesinin içinde yer almaktadır?",
+		"options": [
+			"Yüklem",
+			"Özne",
+			"Belirtili nesne",
+			"Dolaylı tümleç",
+			"Zarf tümleci"
+		],
+		"correctIndex": 1,
+		"explanation": "\"Müdürlüğe\" yönelme eki aldığı için tek başına dolaylı tümleç gibi görünse de \"atanan\" sıfat-fiiline bağlıdır. \"Kim teslim etti?\" sorusunun cevabı \"müdürlüğe yeni atanan uzman\"dır ve bu grup bölünmeden özne sayılır. Öge bulunurken sorular yükleme sorulur; yan yargının içindeki sözler ayrı öge yapılmaz.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"özne\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-029",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde yüklem edilgen olduğu hâlde işi yapan da belirtilmiştir?",
+		"options": [
+			"Rapor yeniden incelendi.",
+			"Rapor yeniden incelenmeli.",
+			"Raporu yeniden inceleyen uzmanlar not aldı.",
+			"Rapor, uzmanlar tarafından yeniden incelendi.",
+			"Uzmanlar raporu yeniden inceledi."
+		],
+		"correctIndex": 3,
+		"explanation": "Edilgen yüklemli cümlelerde işi yapan genellikle söylenmez ve oluşa konu olan öge sözde öznedir (rapor). \"Uzmanlar tarafından\" sözüyle işi yapan ayrıca belirtilmiştir; yüklem yine edilgendir. \"Rapor yeniden incelendi/incelenmeli\" cümlelerinde işi yapan belli değildir. \"İnceledi\" ve \"not aldı\" ise etken yüklemlerdir; bu cümlelerde işi yapan gerçek öznedir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"sözde özne\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-030",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki cümlelerin hangisinde başka birinin sözü değiştirilmeden aktarılmış ve cümlede nesne görevinde kullanılmıştır?",
+		"options": [
+			"Müdür, toplantının yarın başlayacağını söyledi.",
+			"Toplantı yarın başlarsa müdür de katılacak.",
+			"Müdür konuştu, herkes sessizce dinledi.",
+			"Müdür \"Toplantı yarın saat onda başlayacak.\" dedi.",
+			"Müdür toplantıyı bir gün erteledi."
+		],
+		"correctIndex": 3,
+		"explanation": "Tırnak içindeki cümle müdürün sözü olarak olduğu gibi aktarılmıştır ve \"Ne dedi?\" sorusunun cevabı olduğu için \"dedi\" yükleminin nesnesidir. \"Toplantının yarın başlayacağını\" da nesnedir, ancak söz değiştirilerek, sıfat-fiil grubuyla dolaylı olarak aktarılmıştır. Diğer cümlelerde aktarılan bir söz yoktur.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"temel cümle\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-031",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Aşağıdakilerden hangisi, tek başına yargı bildiren cümlelerin bir bağlaçla birbirine bağlandığı bağlı cümledir?",
+		"options": [
+			"Raporu hazırlarsa müdüre sunar.",
+			"Raporu hazırlayınca müdüre sundu.",
+			"Raporu hazırladı ama müdüre henüz sunmadı.",
+			"Raporu hazırladı, müdüre sundu.",
+			"Raporunu dün akşam müdüre sundu."
+		],
+		"correctIndex": 2,
+		"explanation": "Bağlı cümlede tek başına yargı bildiren cümleler \"ve, ama, fakat, çünkü\" gibi bağlaçlarla birbirine bağlanır. Virgülle yan yana dizilen cümleler sıralı cümle, zarf-fiil (-ınca) veya şart ekiyle (-sa) kurulan cümleler birleşik cümle, tek yüklemli cümle ise basit cümledir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"bağlaç\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-032",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "\"Kurul toplantısı gelecek hafta pazartesi günü yapılacak.\" cümlesinde \"ne zaman?\" sorusunun cevabı olan öge aşağıdakilerden hangisidir?",
+		"options": [
+			"pazartesi günü",
+			"gelecek hafta pazartesi günü",
+			"Kurul toplantısı",
+			"yapılacak",
+			"gelecek hafta"
+		],
+		"correctIndex": 1,
+		"explanation": "Zarf tümleci yüklemi zaman, durum, sebep, yer, yön vb. bakımlardan belirler. Yükleme \"ne zaman yapılacak?\" diye sorulduğunda cevap \"gelecek hafta pazartesi günü\"dür ve bu söz grubu bölünmeden tek bir zarf tümleci sayılır. \"Kurul toplantısı\" sözde özne, \"yapılacak\" yüklemdir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"zarf tümleci\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-033",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "\"Müdür, toplantının yarın başlayacağını söyledi.\" cümlesinde \"toplantının yarın başlayacağını\" sözü hangi ögedir?",
+		"options": [
+			"Belirtili nesne",
+			"Dolaylı tümleç",
+			"Özne",
+			"Yüklem",
+			"Zarf tümleci"
+		],
+		"correctIndex": 0,
+		"explanation": "Yükleme \"neyi söyledi?\" diye sorulduğunda cevap \"toplantının yarın başlayacağını\"dır. Söz grubu belirtme durumu eki (-ı) aldığı için belirtili nesnedir. Başkasının sözü tırnak içinde olduğu gibi aktarılsaydı da (\"Toplantı yarın başlayacak.\" dedi) nesne görevinde olurdu; burada söz değiştirilerek aktarılmıştır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"belirtili nesne\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-034",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdakilerden hangisi, yan cümlesi bir sıfat-fiil grubuyla kurulmuş birleşik cümledir?",
+		"options": [
+			"Personel neden uyarıldı?",
+			"Personel toplantıya geç kaldı.",
+			"Personel toplantıya geç kaldı ve uyarıldı.",
+			"Personel toplantıya geç kaldı, uyarıldı.",
+			"Toplantıya geç kalan personel uyarıldı."
+		],
+		"correctIndex": 4,
+		"explanation": "Birleşik cümlede yan cümle fiilimsi, şart eki veya \"ki\" ile temel cümleye bağlanır ve tek başına tam bir cümle değildir. \"Toplantıya geç kalan\" sözü -an sıfat-fiil ekiyle kurulmuş bir yan cümledir. Virgülle dizilen cümleler sıralı, \"ve\" ile bağlanan cümleler bağlı cümledir; tek yüklemli cümleler ise basit cümledir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"birleşik cümle\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-035",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki cümlelerin hangisi soru biçiminde olduğu hâlde bilgi istemez ve anlamca olumsuz bir yargı bildirir?",
+		"options": [
+			"Raporu kim hazırladı?",
+			"Dosyaları nereye koydunuz?",
+			"Toplantı saat kaçta başlayacak?",
+			"Bu kadar işi bir günde kim bitirebilir?",
+			"Yarın bize uğrayabilir misin?"
+		],
+		"correctIndex": 3,
+		"explanation": "\"Bu kadar işi bir günde kim bitirebilir?\" cümlesi soru biçimindedir ama cevap beklemez; \"kimse bitiremez\" anlamında olumsuz bir yargı bildirir. Yapı ile anlam her zaman örtüşmez. Diğer cümleler gerçek soru cümleleridir ve bir bilgi ya da cevap ister.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"soru cümlesi\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-036",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "\"Toplantının ertelendiği bütün birimlere duyuruldu.\" cümlesinin öznesi aşağıdakilerden hangisidir?",
+		"options": [
+			"birimler",
+			"Cümlede özne yoktur.",
+			"bütün birimlere",
+			"Toplantının ertelendiği",
+			"Toplantının"
+		],
+		"correctIndex": 3,
+		"explanation": "Yüklem \"duyuruldu\" edilgendir; işi yapan söylenmemiştir. Yükleme \"ne duyuruldu?\" diye sorulduğunda cevap \"toplantının ertelendiği\"dir: bu söz grubu sözde öznedir ve bölünmez. \"Bütün birimlere\" yönelme durumundaki dolaylı tümleçtir. Edilgen yüklemli cümlede sözde özne bulunduğu için \"özne yoktur\" seçeneği yanlıştır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"sözde özne\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-037",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "\"Uzman raporu hazırladı, müdüre sundu.\" cümlesinde iki yargıda ortak kullanılan ögeler aşağıdakilerin hangisinde birlikte verilmiştir?",
+		"options": [
+			"Nesne ve dolaylı tümleç",
+			"Özne ve nesne",
+			"Özne ve dolaylı tümleç",
+			"Yalnızca özne",
+			"Yalnızca nesne"
+		],
+		"correctIndex": 1,
+		"explanation": "Cümle iki sıralı yargıdan oluşur: \"Uzman raporu hazırladı\" ve \"(Uzman) (raporu) müdüre sundu\". Hazırlayan da sunan da uzmandır, sunulan da hazırlanan rapordur; bu yüzden özne \"uzman\" ile nesne \"raporu\" iki yargıda ortaktır. \"Müdüre\" yalnızca ikinci yargının dolaylı tümlecidir.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"sıralı cümle\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-038",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki cümlelerin hangisinde yer bildiren söz dolaylı tümleç değil, yön bildiren bir zarf tümlecidir?",
+		"options": [
+			"Kitapları özenle rafa dizdi.",
+			"Eski dosyaları arşivden çıkardı.",
+			"Çocuklar zil çalınca bahçeye koştu.",
+			"Toplantıyı yeni binada yaptı.",
+			"Çocuklar zil çalınca dışarı koştu."
+		],
+		"correctIndex": 4,
+		"explanation": "Yönelme, bulunma ve ayrılma durum eki almış yer adları dolaylı tümleçtir: bahçeye, rafa, arşivden, binada. \"Dışarı\" ise ek almadan fiilin yönünü bildiren bir yön zarfıdır ve cümlede zarf tümleci görevindedir; \"nereye?\" sorusunun cevabı olsa da durum eki taşımaz.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"zarf tümleci\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-039",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "\"Hiç de kolay değildi o günler.\" cümlesi için aşağıdakilerden hangisi doğrudur?",
+		"options": [
+			"Yüklemi ad soylu, devrik ve olumlu bir cümledir.",
+			"Yüklemi ad soylu, kurallı ve olumsuz bir cümledir.",
+			"Yüklemi ad soylu, devrik ve olumsuz bir cümledir.",
+			"Yüklemi fiil olan, devrik ve olumsuz bir cümledir.",
+			"Yüklemi fiil olan, kurallı ve olumlu bir cümledir."
+		],
+		"correctIndex": 2,
+		"explanation": "Yüklem \"değildi\"dir (değil + idi); ad soylu olduğu için cümle ad (isim) cümlesidir. Yüklem sonda değil, \"o günler\" öznesi yüklemden sonra geldiği için cümle devriktir. \"Değil\" sözü yargıyı olumsuz yapar. \"Hiç de\" pekiştirme bildirir, cümlenin olumsuzluğunu değiştirmez.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"devrik cümle\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-türleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "turkce-cumle-040",
+		"subjectId": "turkce",
+		"topicId": "turkce/cumle-bilgisi",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "\"Belgelerini eksiksiz tamamlarsan başvurun hemen işleme alınır.\" cümlesinde \"belgelerini eksiksiz tamamlarsan\" sözü hangi ögedir?",
+		"options": [
+			"Zarf tümleci",
+			"Belirtili nesne",
+			"Dolaylı tümleç",
+			"Özne",
+			"Yüklem"
+		],
+		"correctIndex": 0,
+		"explanation": "Şart ekiyle (-sa) kurulan yan cümle, temel cümlenin yüklemini şart bakımından belirler ve bütünüyle zarf tümleci olur: \"Hangi şartla işleme alınır?\" Yan cümlenin içindeki \"belgelerini\" kelimesi kendi yargısının nesnesidir, cümlenin ayrı bir ögesi sayılmaz. Temel cümlenin sözde öznesi \"başvurun\", yüklemi \"işleme alınır\"dır.",
+		"reference": {
+			"title": "TDK Güncel Türkçe Sözlük",
+			"section": "\"zarf tümleci\" maddesi",
+			"url": "https://sozluk.gov.tr/"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "TDK Yazım Kılavuzu ve Güncel Türkçe Sözlük esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cümle-ögeleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

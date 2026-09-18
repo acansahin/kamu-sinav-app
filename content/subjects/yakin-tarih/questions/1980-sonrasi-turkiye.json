@@ -327,5 +327,656 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-1980-011",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "12 Eylül 1980 askerî müdahalesinden sonra yönetimi üstlenen Millî Güvenlik Konseyi'nin başkanı aşağıdakilerden hangisidir?",
+		"options": [
+			"Turgut Özal",
+			"Süleyman Demirel",
+			"Bülent Ulusu",
+			"Cemal Gürsel",
+			"Kenan Evren"
+		],
+		"correctIndex": 4,
+		"explanation": "12 Eylül 1980'de yönetimi Genelkurmay Başkanı Kenan Evren başkanlığındaki Millî Güvenlik Konseyi üstlenmiştir. 1982 Anayasası'nın geçici 1. maddesiyle Evren, halkoylamasıyla birlikte yedi yıllık dönem için Cumhurbaşkanı olmuştur. Cemal Gürsel 1960 müdahalesinden sonraki Millî Birlik Komitesi'nin başkanıdır.",
+		"reference": {
+			"title": "12 Eylül 1980 — Millî Güvenlik Konseyi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"12-eylul"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-012",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1983-1989 yılları arasında Başbakanlık yaptıktan sonra 1989'da TBMM tarafından Cumhurbaşkanı seçilen devlet adamı aşağıdakilerden hangisidir?",
+		"options": [
+			"Turgut Özal",
+			"Kenan Evren",
+			"Ahmet Necdet Sezer",
+			"Bülent Ecevit",
+			"Süleyman Demirel"
+		],
+		"correctIndex": 0,
+		"explanation": "Turgut Özal, 6 Kasım 1983 seçimlerini kazanan Anavatan Partisi'nin genel başkanı olarak Başbakan olmuş, 1989'da Kenan Evren'in görev süresi bitince TBMM tarafından Cumhurbaşkanı seçilmiştir. Süleyman Demirel 1993'te, Ahmet Necdet Sezer 2000'de Cumhurbaşkanı seçilmiştir.",
+		"reference": {
+			"title": "Türkiye cumhurbaşkanları — Turgut Özal (1989-1993)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ozal-donemi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-013",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "12 Eylül yönetiminin ardından yapılan 6 Kasım 1983 genel seçimlerine katılabilen partiler aşağıdakilerin hangisinde doğru verilmiştir?",
+		"options": [
+			"Halkçı Parti, Doğru Yol Partisi, Milliyetçi Çalışma Partisi",
+			"Anavatan Partisi, Refah Partisi, Demokratik Sol Parti",
+			"Adalet Partisi, Cumhuriyet Halk Partisi, Millî Selamet Partisi",
+			"Anavatan Partisi, Halkçı Parti, Milliyetçi Demokrasi Partisi",
+			"Anavatan Partisi, Doğru Yol Partisi, Sosyaldemokrat Halkçı Parti"
+		],
+		"correctIndex": 3,
+		"explanation": "1980 öncesi partiler kapatılmış, yeni kurulan partilerin seçime katılması Millî Güvenlik Konseyi'nin denetimine bağlanmıştır. 6 Kasım 1983 seçimlerine yalnızca Anavatan Partisi, Halkçı Parti ve Milliyetçi Demokrasi Partisi katılabilmiş; ANAP tek başına iktidara gelmiştir. Adalet Partisi, CHP ve MSP 1980'de kapatılan partilerdir.",
+		"reference": {
+			"title": "6 Kasım 1983 genel seçimleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"secimler"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-014",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye Avrupa Ekonomik Topluluğuna tam üyelik için resmî başvurusunu hangi tarihte yapmıştır?",
+		"options": [
+			"14 Nisan 1987",
+			"23 Kasım 1970",
+			"11 Aralık 1999",
+			"12 Eylül 1963",
+			"1 Ocak 1996"
+		],
+		"correctIndex": 0,
+		"explanation": "Türkiye 14 Nisan 1987'de Avrupa Ekonomik Topluluğuna tam üyelik başvurusunda bulunmuştur. 12 Eylül 1963 ortaklığı başlatan Ankara Antlaşması'nın, 23 Kasım 1970 Katma Protokol'ün, 1 Ocak 1996 Gümrük Birliği'nin yürürlüğe girişinin, 11 Aralık 1999 ise Helsinki Zirvesi'nde adaylığın kabul edildiği tarihtir.",
+		"reference": {
+			"title": "Türkiye'nin AET'ye tam üyelik başvurusu (14 Nisan 1987)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"avrupa"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-015",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1999 Helsinki Zirvesi'nde aday ülke olarak kabul edilen Türkiye ile Avrupa Birliği arasında katılım müzakereleri hangi tarihte başlamıştır?",
+		"options": [
+			"14 Nisan 1987",
+			"1 Ocak 1996",
+			"3 Ekim 2005",
+			"11 Aralık 1999",
+			"17 Aralık 2004"
+		],
+		"correctIndex": 2,
+		"explanation": "Türkiye 1999 Helsinki Zirvesi'nde aday ülke olmuştur. 17 Aralık 2004 Brüksel Zirvesi'nde müzakerelere başlanması kararı alınmış, katılım müzakereleri ise 3 Ekim 2005'te resmen başlamıştır. Adaylık, müzakere kararı ve müzakerelerin başlaması ayrı aşamalardır.",
+		"reference": {
+			"title": "Türkiye-AB katılım müzakereleri (3 Ekim 2005)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"avrupa"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-016",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1982 Anayasası'nı hazırlayan Kurucu Meclis hangi iki organdan oluşmuştur?",
+		"options": [
+			"Millî Birlik Komitesi ve Temsilciler Meclisi",
+			"Danışma Meclisi ve Anayasa Mahkemesi",
+			"Millî Güvenlik Konseyi ve Danışma Meclisi",
+			"Millet Meclisi ve Cumhuriyet Senatosu",
+			"Millî Güvenlik Konseyi ve Cumhuriyet Senatosu"
+		],
+		"correctIndex": 2,
+		"explanation": "12 Eylül 1980'den sonra 1981'de kurulan Danışma Meclisi, Millî Güvenlik Konseyi ile birlikte 1982 Anayasası'nı hazırlayan Kurucu Meclisi oluşturmuştur. 1961 Anayasası'nı hazırlayan Kurucu Meclis ise Millî Birlik Komitesi ile Temsilciler Meclisinden oluşuyordu. Millet Meclisi ve Cumhuriyet Senatosu 1961 Anayasası'nın çift meclisli yasama organıdır.",
+		"reference": {
+			"title": "TBMM 1981 Danışma Meclisi"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"1982-anayasasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-017",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "12 Eylül 2010 halkoylamasıyla kabul edilen Anayasa değişikliğiyle vatandaşlara aşağıdaki haklardan hangisi tanınmıştır?",
+		"options": [
+			"Cumhurbaşkanını doğrudan seçme hakkı",
+			"18 yaşında seçmen olma hakkı",
+			"Kanunları doğrudan halkoylamasına götürme hakkı",
+			"Anayasa Mahkemesine bireysel başvuru hakkı",
+			"Milletvekillerini geri çağırma hakkı"
+		],
+		"correctIndex": 3,
+		"explanation": "12 Eylül 2010 halkoylamasıyla kabul edilen değişiklik paketiyle vatandaşlara Anayasa Mahkemesine bireysel başvuru hakkı tanınmış, Anayasa Mahkemesi ve Hâkimler ve Savcılar Yüksek Kurulu yeniden yapılandırılmıştır. Cumhurbaşkanının halk tarafından seçilmesi 2007'de, seçmen yaşının 18'e indirilmesi 1995'te kabul edilmiştir.",
+		"reference": {
+			"title": "2010 Anayasa değişikliği halkoylaması (12 Eylül 2010)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-degisiklikleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-018",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "7 Mayıs 2004 tarihli 5170 sayılı Kanun'la yapılan Anayasa değişikliğiyle aşağıdakilerden hangisi gerçekleştirilmiştir?",
+		"options": [
+			"Cumhurbaşkanlığı Hükümet Sistemine geçilmesi",
+			"Çift meclisli yasama yapısına dönülmesi",
+			"Anayasa Mahkemesine bireysel başvurunun getirilmesi",
+			"Siyasi yasakların kaldırılması",
+			"Ölüm cezasına ilişkin hükümlerin Anayasa'dan çıkarılması ve Devlet Güvenlik Mahkemelerinin kaldırılması"
+		],
+		"correctIndex": 4,
+		"explanation": "5170 sayılı Kanun'la yapılan 2004 değişikliğiyle ölüm cezasına ilişkin hükümler Anayasa'dan çıkarılmış ve Devlet Güvenlik Mahkemeleri kaldırılmıştır. Siyasi yasaklar 1987'de, bireysel başvuru 2010'da, Cumhurbaşkanlığı Hükümet Sistemi 2017'de getirilmiştir. 1982 Anayasası tek meclisli yapıyı korumuştur.",
+		"reference": {
+			"title": "5170 sayılı Anayasa değişikliği (7 Mayıs 2004)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-degisiklikleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-019",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Türkiye'de seçmen yaşı hangi yıl yapılan düzenlemeyle 18'e indirilmiş ve 18 yaşındakiler ilk kez aynı yılın genel seçimlerinde oy kullanmıştır?",
+		"options": [
+			"1983",
+			"1995",
+			"2007",
+			"1987",
+			"2001"
+		],
+		"correctIndex": 1,
+		"explanation": "Seçmen yaşı 1995'te yapılan düzenlemeyle 18'e indirilmiş ve 18 yaşındaki vatandaşlar ilk kez 24 Aralık 1995 genel seçimlerinde oy kullanmıştır. 1987'de siyasi yasaklar halkoylamasıyla kaldırılmış, 2001'de temel haklarda kapsamlı değişiklik yapılmış, 2007'de ise Cumhurbaşkanının halkça seçilmesi kabul edilmiştir.",
+		"reference": {
+			"title": "1995 Anayasa değişikliği ve 24 Aralık 1995 genel seçimleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-degisiklikleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-020",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "16 Nisan 2017 halkoylamasıyla kabul edilen Cumhurbaşkanlığı Hükümet Sistemi hangi gelişmeyle birlikte fiilen yürürlüğe girmiştir?",
+		"options": [
+			"21 Ekim 2007 halkoylaması",
+			"24 Haziran 2018 Cumhurbaşkanlığı ve milletvekili genel seçimleri",
+			"12 Eylül 2010 halkoylaması",
+			"10 Ağustos 2014 Cumhurbaşkanlığı seçimi",
+			"1 Kasım 2015 genel seçimleri"
+		],
+		"correctIndex": 1,
+		"explanation": "Cumhurbaşkanlığı Hükümet Sistemi 16 Nisan 2017 halkoylamasıyla kabul edilmiş, 24 Haziran 2018'de birlikte yapılan Cumhurbaşkanlığı ve milletvekili genel seçimleriyle yürürlüğe girmiştir. Bu sistemle Bakanlar Kurulu kaldırılmış ve yürütme yetkisi Cumhurbaşkanına verilmiştir. Cumhurbaşkanı ilk kez 10 Ağustos 2014'te halk tarafından seçilmiştir.",
+		"reference": {
+			"title": "24 Haziran 2018 Cumhurbaşkanlığı ve milletvekili genel seçimleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-degisiklikleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-021",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1982 Türkiye Cumhuriyeti Anayasası'nın kanun numarası aşağıdakilerden hangisidir?",
+		"options": [
+			"3361",
+			"5170",
+			"2709",
+			"6771",
+			"5678"
+		],
+		"correctIndex": 2,
+		"explanation": "1982 Anayasası 2709 sayılı Türkiye Cumhuriyeti Anayasası'dır. 3361 sayılı Kanun 1987'de siyasi yasakları kaldıran, 5170 sayılı Kanun 2004'te ölüm cezasını ve Devlet Güvenlik Mahkemelerini kaldıran, 5678 sayılı Kanun 2007'de Cumhurbaşkanının halkça seçilmesini getiren, 6771 sayılı Kanun ise 2017'de Cumhurbaşkanlığı Hükümet Sistemini getiren değişiklik kanunlarıdır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"1982-anayasasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-022",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "15 Kasım 1983'te ilan edilen Kuzey Kıbrıs Türk Cumhuriyeti'nin ilk Cumhurbaşkanı aşağıdakilerden hangisidir?",
+		"options": [
+			"Makarios",
+			"Mehmet Ali Talat",
+			"Derviş Eroğlu",
+			"Rauf Denktaş",
+			"Fazıl Küçük"
+		],
+		"correctIndex": 3,
+		"explanation": "Kuzey Kıbrıs Türk Cumhuriyeti 15 Kasım 1983'te ilan edilmiş, ilk Cumhurbaşkanı Rauf Denktaş olmuştur. Fazıl Küçük 1960'ta kurulan Kıbrıs Cumhuriyeti'nin Türk Cumhurbaşkanı Yardımcısı, Makarios ise aynı cumhuriyetin Rum Cumhurbaşkanıdır. Mehmet Ali Talat ve Derviş Eroğlu KKTC'nin sonraki cumhurbaşkanlarıdır.",
+		"reference": {
+			"title": "Kuzey Kıbrıs Türk Cumhuriyeti'nin ilanı (15 Kasım 1983)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kibris"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-023",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1982 Anayasası'nın geçici 1. maddesine göre, halkoylaması tarihindeki Millî Güvenlik Konseyi Başkanı kaç yıllık dönem için Cumhurbaşkanı sıfatını kazanmıştır?",
+		"options": [
+			"7",
+			"6",
+			"10",
+			"4",
+			"5"
+		],
+		"correctIndex": 0,
+		"explanation": "Geçici 1. madde, Anayasa'nın halkoylamasıyla kabul edilmesiyle birlikte Millî Güvenlik Konseyi Başkanı ve Devlet Başkanının yedi yıllık dönem için Cumhurbaşkanı sıfatını kazanacağını öngörmüştür. Böylece 7 Kasım 1982 halkoylaması aynı zamanda Kenan Evren'in Cumhurbaşkanlığı oylaması olmuştur.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "Geçici 1",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"1982-anayasasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-024",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye-AT Ortaklık Konseyi'nin 6 Mart 1995 tarihli 1/95 sayılı kararıyla aşağıdakilerden hangisinin esasları belirlenmiştir?",
+		"options": [
+			"Tam üyelik başvurusunun kabul edilmesi",
+			"Türkiye'ye aday ülke statüsü tanınması",
+			"Katılım müzakerelerinin başlatılması",
+			"Ortaklığın geçiş döneminin başlatılması",
+			"Gümrük Birliği'nin tamamlanması"
+		],
+		"correctIndex": 4,
+		"explanation": "Ortaklık Konseyi'nin 1/95 sayılı kararı Gümrük Birliği'nin son döneminin esaslarını belirlemiş; Gümrük Birliği 1 Ocak 1996'da yürürlüğe girmiştir. Geçiş dönemi 1970 Katma Protokol'le düzenlenmiş, aday ülke statüsü 1999 Helsinki Zirvesi'nde tanınmış, katılım müzakereleri ise 3 Ekim 2005'te başlamıştır.",
+		"reference": {
+			"title": "Türkiye-AT Ortaklık Konseyi'nin 1/95 sayılı Kararı (6 Mart 1995)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"avrupa-birligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-025",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye'nin Avrupa Birliği genişleme sürecinin dışında bırakıldığı 1997 tarihli zirve aşağıdakilerden hangisidir?",
+		"options": [
+			"Nice Zirvesi",
+			"Brüksel Zirvesi",
+			"Helsinki Zirvesi",
+			"Kopenhag Zirvesi",
+			"Lüksemburg Zirvesi"
+		],
+		"correctIndex": 4,
+		"explanation": "Aralık 1997 Lüksemburg Zirvesi'nde Orta ve Doğu Avrupa ülkeleri ile Kıbrıs için genişleme süreci başlatılmış, Türkiye ise bu sürecin dışında bırakılmıştır. Türkiye 1999 Helsinki Zirvesi'nde aday ülke olarak kabul edilmiş, 17 Aralık 2004 Brüksel Zirvesi'nde de katılım müzakerelerinin başlatılması kararı alınmıştır.",
+		"reference": {
+			"title": "Lüksemburg Avrupa Konseyi Zirvesi (12-13 Aralık 1997)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"avrupa-birligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-026",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Türkiye ile katılım müzakerelerinin 3 Ekim 2005'te başlatılması kararının alındığı Avrupa Birliği zirvesi aşağıdakilerden hangisidir?",
+		"options": [
+			"Lizbon Zirvesi (2007)",
+			"Brüksel Zirvesi (17 Aralık 2004)",
+			"Lüksemburg Zirvesi (1997)",
+			"Helsinki Zirvesi (1999)",
+			"Kopenhag Zirvesi (2002)"
+		],
+		"correctIndex": 1,
+		"explanation": "17 Aralık 2004 Brüksel Zirvesi'nde Türkiye ile katılım müzakerelerinin 3 Ekim 2005'te başlatılmasına karar verilmiştir. Helsinki Zirvesi Türkiye'yi aday ülke olarak kabul etmiş, Lüksemburg Zirvesi ise Türkiye'yi genişleme sürecinin dışında bırakmıştır. Kopenhag Zirvesi (2002) kararı Aralık 2004'e bırakmış, müzakere kararını vermemiştir.",
+		"reference": {
+			"title": "Brüksel Avrupa Konseyi Zirvesi (16-17 Aralık 2004)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"avrupa-birligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-027",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1982 Anayasası ile 1961 Anayasası'ndaki hangi organ kaldırılarak tek meclisli yasama yapısına dönülmüştür?",
+		"options": [
+			"Sayıştay",
+			"Cumhuriyet Senatosu",
+			"Anayasa Mahkemesi",
+			"Millî Güvenlik Kurulu",
+			"Danıştay"
+		],
+		"correctIndex": 1,
+		"explanation": "1961 Anayasası'nda TBMM, Millet Meclisi ve Cumhuriyet Senatosundan oluşuyordu. 1982 Anayasası Cumhuriyet Senatosunu kaldırarak tek meclisli yapıya dönmüştür. Anayasa Mahkemesi, Millî Güvenlik Kurulu, Danıştay ve Sayıştay 1982 Anayasası'nda da yer alan kurumlardır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "75",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"1982-anayasasi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-028",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Aşağıdaki Anayasa değişikliklerinden hangisi halkoylamasına gidilmeden doğrudan TBMM tarafından kabul edilmiştir?",
+		"options": [
+			"1987'de siyasi yasakların kaldırılması",
+			"2007'de Cumhurbaşkanının halk tarafından seçilmesinin getirilmesi",
+			"1995'te seçmen yaşının 18'e indirilmesi",
+			"2017'de Cumhurbaşkanlığı Hükümet Sistemine geçilmesi",
+			"2010'da Anayasa Mahkemesine bireysel başvurunun getirilmesi"
+		],
+		"correctIndex": 2,
+		"explanation": "1995 değişikliği seçmen yaşını 18'e indirmiş ve TBMM tarafından kabul edilerek halkoylamasına gitmeden yürürlüğe girmiştir. 1987 (6 Eylül), 2007 (21 Ekim), 2010 (12 Eylül) ve 2017 (16 Nisan) değişiklikleri ise halkoylamasıyla kabul edilmiştir.",
+		"reference": {
+			"title": "4121 sayılı Anayasa değişikliği (23 Temmuz 1995)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-degisiklikleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-029",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Türkiye'nin Avrupa Birliği yolundaki adımları hangi seçenekte kronolojik olarak doğru sıralanmıştır?",
+		"options": [
+			"Tam üyelik başvurusu – Adaylık – Gümrük Birliği – Katılım müzakereleri",
+			"Tam üyelik başvurusu – Gümrük Birliği – Katılım müzakereleri – Adaylık",
+			"Gümrük Birliği – Tam üyelik başvurusu – Adaylık – Katılım müzakereleri",
+			"Tam üyelik başvurusu – Gümrük Birliği – Adaylık – Katılım müzakereleri",
+			"Adaylık – Tam üyelik başvurusu – Gümrük Birliği – Katılım müzakereleri"
+		],
+		"correctIndex": 3,
+		"explanation": "Doğru sıra şöyledir: tam üyelik başvurusu (14 Nisan 1987), Gümrük Birliği (1 Ocak 1996), Helsinki Zirvesi'nde adaylık (1999) ve katılım müzakerelerinin başlaması (3 Ekim 2005). Gümrük Birliği'nin adaylıktan önce gerçekleştiği sık karıştırılır.",
+		"reference": {
+			"title": "Helsinki Avrupa Konseyi Zirvesi (10-11 Aralık 1999)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"avrupa-birligi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-1980-030",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/1980-sonrasi-turkiye",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Cumhurbaşkanlığı Hükümet Sistemine geçilmesiyle yürütme organında kaldırılan makam ve kurul aşağıdakilerden hangisidir?",
+		"options": [
+			"Başbakanlık ve Bakanlar Kurulu",
+			"Sayıştay ve Yargıtay",
+			"Millî Güvenlik Kurulu ve Devlet Denetleme Kurulu",
+			"Anayasa Mahkemesi ve Danıştay",
+			"Cumhurbaşkanlığı ve Hâkimler ve Savcılar Kurulu"
+		],
+		"correctIndex": 0,
+		"explanation": "16 Nisan 2017 halkoylamasıyla kabul edilen 6771 sayılı Kanun'la getirilen Cumhurbaşkanlığı Hükümet Sistemi 24 Haziran 2018 seçimleriyle yürürlüğe girmiş; Başbakanlık ve Bakanlar Kurulu kaldırılmış, yürütme yetkisi Cumhurbaşkanına verilmiştir. Millî Güvenlik Kurulu ve Devlet Denetleme Kurulu varlığını sürdürmektedir; diğer kurumlar yargı ve denetim organlarıdır.",
+		"legalRef": {
+			"law": "Türkiye Cumhuriyeti Anayasası",
+			"lawId": "2709",
+			"article": "8",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"anayasa-degisiklikleri"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

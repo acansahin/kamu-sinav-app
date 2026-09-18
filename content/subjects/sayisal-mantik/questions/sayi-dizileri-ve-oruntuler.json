@@ -268,5 +268,815 @@
 		"tags": [],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "sayisal-dizi-011",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "40, 34, 28, 22, ?\n\nAzalan bu dizide soru işaretinin yerine hangi sayı yazılmalıdır?",
+		"options": [
+			"18",
+			"20",
+			"12",
+			"14",
+			"16"
+		],
+		"correctIndex": 4,
+		"explanation": "Her terim bir öncekinden 6 eksiktir: 40 − 6 = 34, 34 − 6 = 28, 28 − 6 = 22. Bu yüzden sonraki terim 22 − 6 = 16'dır. Fark sabit olduğu için dizi aritmetiktir; farkın negatif olması yalnızca dizinin azaldığını gösterir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-012",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1, 4, 9, 16, 25, ?\n\nSayıların oluşturduğu örüntüde altıncı sayı kaçtır?",
+		"options": [
+			"49",
+			"32",
+			"36",
+			"30",
+			"35"
+		],
+		"correctIndex": 2,
+		"explanation": "Terimler sıra numaralarının kareleridir: 1², 2², 3², 4², 5². Altıncı terim 6² = 36'dır. Farklara bakıldığında da 3, 5, 7, 9 diye ardışık tek sayılar görülür; sonraki fark 11'dir ve 25 + 11 = 36.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-013",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "96, 48, 24, 12, ?\n\nHer adımda aynı işlemin uygulandığı dizide sıradaki terim nedir?",
+		"options": [
+			"6",
+			"2",
+			"3",
+			"8",
+			"4"
+		],
+		"correctIndex": 0,
+		"explanation": "Her terim bir öncekinin yarısıdır: 96 ÷ 2 = 48, 48 ÷ 2 = 24, 24 ÷ 2 = 12. Sonraki terim 12 ÷ 2 = 6'dır. Farklar (48, 24, 12) da her adımda yarıya indiği için kural oran üzerinden daha hızlı görülür.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-014",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "3, 6, 12, 24, 48, ?\n\nDiziyi sürdüren sayı aşağıdakilerden hangisidir?",
+		"options": [
+			"60",
+			"144",
+			"96",
+			"84",
+			"72"
+		],
+		"correctIndex": 2,
+		"explanation": "Her terim bir öncekinin 2 katıdır: 3 × 2 = 6, 6 × 2 = 12, 12 × 2 = 24, 24 × 2 = 48. Sıradaki terim 48 × 2 = 96'dır. 72 cevabı, farkları (3, 6, 12, 24) sabit sanıp 48'e 24 eklemekten doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-015",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "4, 9, 14, 19, ..., 99\n\nBu aritmetik dizi kaç terimden oluşur?",
+		"options": [
+			"20",
+			"18",
+			"21",
+			"19",
+			"25"
+		],
+		"correctIndex": 0,
+		"explanation": "Ardışık terimler arasındaki fark 5'tir. Terim sayısı = (son terim − ilk terim) ÷ fark + 1 = (99 − 4) ÷ 5 + 1 = 19 + 1 = 20. Sondaki +1 unutulursa 19 bulunur; bu, ilk terimin de sayılması gerektiğini atlamaktan kaynaklanır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-016",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1, 8, 27, 64, ?\n\nBu sayıları üreten kurala göre beşinci sayı hangisidir?",
+		"options": [
+			"81",
+			"100",
+			"128",
+			"125",
+			"216"
+		],
+		"correctIndex": 3,
+		"explanation": "Terimler sıra numaralarının küpleridir: 1³ = 1, 2³ = 8, 3³ = 27, 4³ = 64. Beşinci terim 5³ = 125'tir. 81 ve 100 kare sayılarla, 128 ise 2'nin kuvvetleriyle karıştırmaktan doğan çeldiricilerdir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-017",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "0, 3, 8, 15, 24, ?\n\nDizinin kuralı bulunduğunda soru işaretinin değeri kaç olur?",
+		"options": [
+			"34",
+			"33",
+			"36",
+			"35",
+			"48"
+		],
+		"correctIndex": 3,
+		"explanation": "Terimler sıra numarasının karesinin 1 eksiğidir: 1² − 1 = 0, 2² − 1 = 3, 3² − 1 = 8, 4² − 1 = 15, 5² − 1 = 24. Altıncı terim 6² − 1 = 35'tir. Farklar 3, 5, 7, 9 diye ardışık tek sayılarla ilerler; sonraki fark 11 olduğundan 24 + 11 = 35.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-018",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "20, 17, 19, 16, 18, ?\n\nBir azalıp bir artan bu dizide sıradaki sayı kaçtır?",
+		"options": [
+			"15",
+			"21",
+			"14",
+			"17",
+			"13"
+		],
+		"correctIndex": 0,
+		"explanation": "Dizide iki işlem dönüşümlü uygulanır: 3 çıkarılır, sonra 2 eklenir. 20 − 3 = 17, 17 + 2 = 19, 19 − 3 = 16, 16 + 2 = 18. Son adımda 2 eklendiği için sıradaki işlem 3 çıkarmaktır: 18 − 3 = 15.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-019",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "1, 3, 6, 10, 15, ?\n\nNoktalarla üçgen biçimi oluşturan bu sayıların devamı hangisidir?",
+		"options": [
+			"25",
+			"24",
+			"21",
+			"18",
+			"20"
+		],
+		"correctIndex": 2,
+		"explanation": "Farklar 2, 3, 4, 5 diye birer birer artar; sonraki fark 6'dır ve 15 + 6 = 21. Bu sayılar üçgensel sayılardır: n. terim 1'den n'ye kadar olan sayıların toplamıdır ve n × (n + 1) ÷ 2 ile hesaplanır. Altıncı terim 6 × 7 ÷ 2 = 21'dir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-020",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "2, 3, 5, 7, 11, 13, ?\n\nDizideki sayıların ortak özelliğine göre sıradaki sayı nedir?",
+		"options": [
+			"19",
+			"14",
+			"15",
+			"17",
+			"16"
+		],
+		"correctIndex": 3,
+		"explanation": "Dizi küçükten büyüğe asal sayılardan oluşur; asal sayı yalnızca 1'e ve kendisine bölünebilen, 1'den büyük doğal sayıdır. 13'ten sonraki asal sayı 17'dir: 14, 15 ve 16 asal değildir. 15 çeldiricisi 3 ve 5'e bölündüğü için asal değildir; 19 ise 17'den sonraki asaldır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-021",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "4, 6, 10, 18, 34, ?\n\nFarkları da bir kurala uyan dizide boş bırakılan yere hangi sayı gelir?",
+		"options": [
+			"50",
+			"66",
+			"68",
+			"64",
+			"58"
+		],
+		"correctIndex": 1,
+		"explanation": "Farklar 2, 4, 8, 16 diye her adımda iki katına çıkar; sonraki fark 32'dir ve 34 + 32 = 66. Aynı dizi tek kuralla da okunur: her terim bir öncekinin 2 katının 2 eksiğidir (34 × 2 − 2 = 66). 50 cevabı son farkı yeniden 16 almaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-022",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir aritmetik dizinin 3. terimi 14, 8. terimi 39'dur.\n\nBu dizinin 15. terimi kaçtır?",
+		"options": [
+			"69",
+			"79",
+			"70",
+			"75",
+			"74"
+		],
+		"correctIndex": 4,
+		"explanation": "3. terimden 8. terime 5 adım atılır; bu adımlarda 39 − 14 = 25 artış olduğu için fark 25 ÷ 5 = 5'tir. İlk terim 14 − 2 × 5 = 4 bulunur. 15. terim = 4 + 14 × 5 = 74'tür. Doğrudan 8. terimden de gidilebilir: 39 + 7 × 5 = 74.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-023",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "5, 9, 13, 17, ...\n\nBu dizinin ilk 10 teriminin toplamı kaçtır?",
+		"options": [
+			"205",
+			"210",
+			"230",
+			"250",
+			"225"
+		],
+		"correctIndex": 2,
+		"explanation": "Önce 10. terim bulunur: 5 + 9 × 4 = 41. Aritmetik dizide ilk n terimin toplamı (ilk terim + son terim) × n ÷ 2 formülüyle hesaplanır: (5 + 41) × 10 ÷ 2 = 46 × 5 = 230. Formül, ilk ve son terimden eşit uzaklıktaki terim çiftlerinin toplamının hep aynı olmasına dayanır.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-024",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1, 2, 5, 14, 41, ?\n\nAynı işlemle türetilen terimlerin devamında hangi sayı yer alır?",
+		"options": [
+			"82",
+			"122",
+			"121",
+			"124",
+			"123"
+		],
+		"correctIndex": 1,
+		"explanation": "Her terim bir öncekinin 3 katının 1 eksiğidir: 1 × 3 − 1 = 2, 2 × 3 − 1 = 5, 5 × 3 − 1 = 14, 14 × 3 − 1 = 41. Sonraki terim 41 × 3 − 1 = 122'dir. Farklar 1, 3, 9, 27 diye 3 katına çıkar; sonraki fark 81'dir ve 41 + 81 = 122.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-025",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1, 50, 2, 45, 4, 40, 8, ?, ?\n\nİki ayrı kuralın iç içe işlediği bu dizide soru işaretleri yerine soldan sağa hangi sayılar gelir?",
+		"options": [
+			"35 ve 12",
+			"16 ve 35",
+			"36 ve 16",
+			"30 ve 16",
+			"35 ve 16"
+		],
+		"correctIndex": 4,
+		"explanation": "Tek sıradaki terimler 1, 2, 4, 8 diye her adımda 2 katına çıkar; çift sıradaki terimler 50, 45, 40 diye 5'er azalır. Sekizinci terim çift sıradadır ve 40 − 5 = 35 olur; dokuzuncu terim tek sıradadır ve 8 × 2 = 16 olur. Doğru sayılar bulunup yerleri ters yazılırsa 16 ve 35 cevabına düşülür.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-026",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "İlk terimi 5 ve ardışık terimleri arasındaki farkı 3 olan bir sayı dizisinde 110 sayısı kaçıncı terimdir?",
+		"options": [
+			"36",
+			"35",
+			"38",
+			"34",
+			"37"
+		],
+		"correctIndex": 0,
+		"explanation": "n. terim = 5 + (n − 1) × 3 olduğundan 5 + (n − 1) × 3 = 110 yazılır. Buradan (n − 1) × 3 = 105, n − 1 = 35 ve n = 36 bulunur. 35 cevabı, atılan adım sayısını terimin sıra numarası sanmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-027",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "2, 12, 36, 80, 150, ?\n\nTerimleri sıra numarasına bağlı bir kuralla oluşan dizide altıncı terim kaçtır?",
+		"options": [
+			"294",
+			"222",
+			"240",
+			"216",
+			"252"
+		],
+		"correctIndex": 4,
+		"explanation": "Her terim sıra numarasının küpü ile karesinin toplamıdır: 1 + 1 = 2, 8 + 4 = 12, 27 + 9 = 36, 64 + 16 = 80, 125 + 25 = 150. Altıncı terim 216 + 36 = 252'dir. Aynı ifade n² × (n + 1) biçiminde de yazılabilir: 36 × 7 = 252.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-028",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "2, 3, 7, 16, 32, ?\n\nArdışık terimler arasındaki farkların oluşturduğu örüntüye göre sıradaki sayı nedir?",
+		"options": [
+			"52",
+			"57",
+			"64",
+			"48",
+			"56"
+		],
+		"correctIndex": 1,
+		"explanation": "Ardışık terimler arasındaki farklar 1, 4, 9, 16'dır; bunlar 1², 2², 3², 4² kare sayılarıdır. Sonraki fark 5² = 25 olduğundan aranan terim 32 + 25 = 57'dir. 48 cevabı farkları 16'da sabit sanmaktan, 64 ise diziyi 2 katına çıkan bir dizi sanmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-029",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "1, 1, 1, 3, 5, 9, 17, ?\n\nDördüncü terimden itibaren aynı kuralla oluşan dizide boş yere gelecek sayı kaçtır?",
+		"options": [
+			"33",
+			"29",
+			"26",
+			"31",
+			"34"
+		],
+		"correctIndex": 3,
+		"explanation": "Dördüncü terimden itibaren her terim kendinden önceki üç terimin toplamıdır: 1 + 1 + 1 = 3, 1 + 1 + 3 = 5, 1 + 3 + 5 = 9, 3 + 5 + 9 = 17. Sonraki terim 5 + 9 + 17 = 31'dir. Yalnızca önceki iki terimi toplamak 9 + 17 = 26 verir; bu Fibonacci kuralıdır ve bu dizinin baştaki terimlerinde tutmaz.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-030",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir dizide her terim, bir önceki terime o terimin rakamları toplamı eklenerek bulunmaktadır.\n\nİlk terimi 15 olan bu dizinin 4. terimi kaçtır?",
+		"options": [
+			"28",
+			"30",
+			"36",
+			"27",
+			"33"
+		],
+		"correctIndex": 1,
+		"explanation": "15'in rakamları toplamı 1 + 5 = 6'dır; 2. terim 15 + 6 = 21 olur. 21'in rakamları toplamı 3'tür; 3. terim 21 + 3 = 24 olur. 24'ün rakamları toplamı 6'dır; 4. terim 24 + 6 = 30 olur. Her adımda eklenen sayı değiştiği için dizi aritmetik değildir.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-031",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Türk alfabesi: A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z\n\nAşağıdaki harfler belirli bir kurala göre dizilmiştir:\nB, Ç, E, G, ?\n\nSoru işareti yerine hangi harf gelmelidir?",
+		"options": [
+			"İ",
+			"I",
+			"J",
+			"Ğ",
+			"H"
+		],
+		"correctIndex": 4,
+		"explanation": "Harflerin Türk alfabesindeki sıra numaraları yazılır: B = 2, Ç = 4, E = 6, G = 8. Dizi ikişer artmaktadır; sonraki sıra numarası 10'dur ve alfabenin 10. harfi H'dir. Ğ cevabı G'den sonra bir harf ilerlemekten doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-032",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Bir süsleme dizisinde lambalar kırmızı, mavi, yeşil, sarı sırasıyla tekrar ederek dizilmiştir. Dizi kırmızı lambayla başlamaktadır.\n\nDizinin 50. lambası hangi renktir?",
+		"options": [
+			"Yeşil",
+			"Mavi",
+			"Sarı",
+			"Kırmızı",
+			"Belirlenemez"
+		],
+		"correctIndex": 1,
+		"explanation": "Renkler 4 lambalık bir döngüyle tekrar eder. 50'nin 4'e bölümünden kalan bulunur: 50 = 12 × 4 + 2. Kalan 2 olduğundan 50. lamba döngünün 2. rengidir: mavi. Kalan 0 çıksaydı döngünün son rengi (sarı) olurdu.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-033",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "7¹, 7², 7³, 7⁴, ... sayılarının birler basamakları 7, 9, 3, 1, 7, 9, ... biçiminde tekrar etmektedir.\n\n7⁴⁵ sayısının birler basamağı kaçtır?",
+		"options": [
+			"9",
+			"3",
+			"1",
+			"7",
+			"5"
+		],
+		"correctIndex": 3,
+		"explanation": "Birler basamağı 4'lü bir döngüyle tekrar eder: 7, 9, 3, 1. Üs 4'e bölünür ve kalana bakılır: 45 = 11 × 4 + 1. Kalan 1 olduğundan birler basamağı döngünün ilk elemanı olan 7'dir. Kalan 0 olsaydı döngünün son elemanı 1 olurdu.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-034",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Aşağıdaki tablonun her satırında üçüncü sayı, ilk iki sayının çarpımının 1 eksiğidir.\n3   4   11\n5   2   9\n6   ?   41\n\nSoru işareti yerine hangi sayı gelmelidir?",
+		"options": [
+			"7",
+			"6",
+			"35",
+			"8",
+			"5"
+		],
+		"correctIndex": 0,
+		"explanation": "Kural ilk iki satırda doğrulanır: 3 × 4 − 1 = 11, 5 × 2 − 1 = 9. Üçüncü satırda 6 × ? − 1 = 41, yani 6 × ? = 42 ve ? = 7'dir. 35 cevabı 41'den 6 çıkarmaktan, 6 cevabı birinci sayıyı tekrar etmekten doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-035",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türk alfabesi: A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z\n\nBir örüntüde her harf, alfabedeki sıra numarasının karesiyle eşleştirilmiştir: A → 1, B → 4, C → 9.\n\nBuna göre E harfi hangi sayıyla eşleşir?",
+		"options": [
+			"49",
+			"16",
+			"36",
+			"25",
+			"30"
+		],
+		"correctIndex": 2,
+		"explanation": "Türk alfabesinde A 1., B 2., C 3., Ç 4., D 5. ve E 6. harftir. E'nin sıra numarasının karesi 6² = 36'dır. 25 cevabı Ç harfini sayılmayıp E'yi 5. harf kabul etmekten doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-036",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "3, 6, 12, 24, ...\n\nBu biçimde devam eden dizide 768 sayısı kaçıncı terimdir?",
+		"options": [
+			"10",
+			"9",
+			"256",
+			"8",
+			"7"
+		],
+		"correctIndex": 1,
+		"explanation": "Dizinin her terimi bir öncekinin 2 katıdır; n. terim 3 × 2ⁿ⁻¹ biçimindedir. 3 × 2ⁿ⁻¹ = 768 ise 2ⁿ⁻¹ = 256 = 2⁸ olur; buradan n − 1 = 8 ve n = 9'dur. Sağlama: 3, 6, 12, 24, 48, 96, 192, 384, 768. 8 cevabı üssü terim sırası sanmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-037",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Bir sayı üçgeninde her sayı, hemen altındaki iki komşu sayının toplamıdır. Üçgenin en alt satırı soldan sağa 2, 5, 3, 7'dir.\n\nÜçgenin en üstündeki sayı kaçtır?",
+		"options": [
+			"36",
+			"25",
+			"33",
+			"17",
+			"30"
+		],
+		"correctIndex": 2,
+		"explanation": "Satırlar aşağıdan yukarı kurulur. En alt satır 2, 5, 3, 7 ise bir üst satır 2 + 5 = 7, 5 + 3 = 8, 3 + 7 = 10 olur. Bir üst satır 7 + 8 = 15 ve 8 + 10 = 18'dir. En üstteki sayı 15 + 18 = 33'tür. 17 cevabı yalnızca alt satırın toplamıdır; ortadaki sayılar yukarı çıkarken birden çok kez toplandığı için sonuç daha büyüktür.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-038",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1 + 3 + 5 + 7 + ... + 59\n\nBu toplamın sonucu kaçtır?",
+		"options": [
+			"870",
+			"930",
+			"1.800",
+			"900",
+			"885"
+		],
+		"correctIndex": 3,
+		"explanation": "Toplanan sayılar 1'den 59'a kadar ardışık tek sayılardır; terim sayısı (59 − 1) ÷ 2 + 1 = 30'dur. İlk n tek sayının toplamı n² olduğundan toplam 30² = 900'dür. Aritmetik dizi toplamı formülüyle de bulunur: (ilk terim + son terim) × terim sayısı ÷ 2 = (1 + 59) × 30 ÷ 2 = 900. 1.800 cevabı 2'ye bölmeyi unutmaktan doğar.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-039",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Bir dizide üçüncü terimden itibaren her terim, kendisinden önceki iki terimin toplamıdır. Dizinin 1. terimi 2, 5. terimi 19'dur.\n\nDizinin 2. terimi kaçtır?",
+		"options": [
+			"6",
+			"4",
+			"3",
+			"7",
+			"5"
+		],
+		"correctIndex": 4,
+		"explanation": "2. terime x denirse terimler şöyle yazılır: 1. terim 2, 2. terim x, 3. terim 2 + x, 4. terim x + (2 + x) = 2 + 2x, 5. terim (2 + x) + (2 + 2x) = 4 + 3x. 4 + 3x = 19 ise 3x = 15 ve x = 5'tir. Sağlama: 2, 5, 7, 12, 19.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "sayisal-dizi-040",
+		"subjectId": "sayisal-mantik",
+		"topicId": "sayisal-mantik/sayi-dizileri-ve-oruntuler",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Türk alfabesi: A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z\n\nBir şifreleme oyununda harfler gizli bir kurala göre art arda seçilmiştir:\nA, C, E, H, ?\n\nOyunda seçilecek sonraki harf hangisidir?",
+		"options": [
+			"L",
+			"K",
+			"J",
+			"M",
+			"O"
+		],
+		"correctIndex": 0,
+		"explanation": "Harflerin Türk alfabesindeki sıra numaraları 1 (A), 3 (C), 6 (E), 10 (H)'dur. Aradaki farklar 2, 3, 4 biçiminde birer artmaktadır; sonraki fark 5'tir. 10 + 5 = 15 ve alfabenin 15. harfi L'dir. K cevabı farkların artmadığını sanıp son farkı (4) tekrar etmekten doğar: 10 + 4 = 14.",
+		"source": {
+			"kind": "original",
+			"origin": "Özgün soru yazımı; çözümler hesaplanarak doğrulanmıştır",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

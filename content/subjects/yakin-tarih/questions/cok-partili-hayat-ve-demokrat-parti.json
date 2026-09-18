@@ -318,5 +318,328 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "yakin-dp-011",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Çok partili hayata geçiş sürecinde Nuri Demirağ tarafından 18 Temmuz 1945'te kurulan ve bu dönemin ilk muhalefet partisi sayılan parti aşağıdakilerden hangisidir?",
+		"options": [
+			"Terakkiperver Cumhuriyet Fırkası",
+			"Demokrat Parti",
+			"Cumhuriyetçi Köylü Millet Partisi",
+			"Serbest Cumhuriyet Fırkası",
+			"Millî Kalkınma Partisi"
+		],
+		"correctIndex": 4,
+		"explanation": "Millî Kalkınma Partisi 18 Temmuz 1945'te sanayici Nuri Demirağ tarafından kurulmuş ve İkinci Dünya Savaşı sonrasındaki çok partili dönemin ilk muhalefet partisi olmuştur. Demokrat Parti ise 7 Ocak 1946'da kurulmuştur. Terakkiperver (1924) ve Serbest Cumhuriyet (1930) fırkaları Atatürk dönemindeki çok partili hayat denemeleridir.",
+		"reference": {
+			"title": "Millî Kalkınma Partisi (18 Temmuz 1945)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"cok-partili-hayat"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-dp-012",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "14 Mayıs 1950 genel seçimlerini Demokrat Parti'nin kazanmasının ardından Cumhurbaşkanı ve Başbakan olan isimler aşağıdakilerin hangisinde doğru verilmiştir?",
+		"options": [
+			"Cumhurbaşkanı Celal Bayar, Başbakan Refik Koraltan",
+			"Cumhurbaşkanı Celal Bayar, Başbakan Adnan Menderes",
+			"Cumhurbaşkanı Fuat Köprülü, Başbakan Adnan Menderes",
+			"Cumhurbaşkanı İsmet İnönü, Başbakan Adnan Menderes",
+			"Cumhurbaşkanı Adnan Menderes, Başbakan Celal Bayar"
+		],
+		"correctIndex": 1,
+		"explanation": "1950 seçimleri Türkiye'de iktidarın seçimle el değiştirdiği ilk seçimdir. Seçimi kazanan Demokrat Parti'nin genel başkanı Celal Bayar TBMM tarafından Cumhurbaşkanı seçilmiş, Adnan Menderes Başbakan olmuştur. Refik Koraltan TBMM Başkanı olmuş, Fuat Köprülü ise Dışişleri Bakanlığı yapmıştır.",
+		"reference": {
+			"title": "14 Mayıs 1950 genel seçimleri"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dp-donemi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-dp-013",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Demokrat Parti iktidarının ilk aylarında, 1950'de gerçekleştirilen ve 1932'den beri süren bir uygulamayı sona erdiren düzenleme aşağıdakilerden hangisidir?",
+		"options": [
+			"Harf inkılabından vazgeçilmesi",
+			"Şapka Kanunu'nun kaldırılması",
+			"Medeni Kanun'un yürürlükten kaldırılması",
+			"Ezanın yeniden Arapça okunmasının serbest bırakılması",
+			"Tekke ve zaviyelerin yeniden açılması"
+		],
+		"correctIndex": 3,
+		"explanation": "1932'de resmî olarak başlatılan Türkçe ezan uygulaması, 1950 seçimlerinden sonra Demokrat Parti iktidarının ilk aylarında yapılan düzenlemeyle sona ermiş ve ezanın Arapça okunması serbest bırakılmıştır. Harf inkılabı, Medeni Kanun ve Şapka Kanunu yürürlükte kalmış; tekke ve zaviyeler yeniden açılmamıştır.",
+		"reference": {
+			"title": "Türkçe ezan uygulamasının sona ermesi (1950)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dp-donemi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-dp-014",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türkiye'nin 1950'de Birleşmiş Milletler kararı doğrultusunda Kore'ye asker göndermesinin dış politikadaki en önemli sonucu aşağıdakilerden hangisidir?",
+		"options": [
+			"Bağdat Paktı'nın kurulması",
+			"Truman Doktrini'nin ilan edilmesi",
+			"NATO üyeliğinin yolunun açılması",
+			"Sovyetler Birliği ile ittifak kurulması",
+			"Avrupa Ekonomik Topluluğu'na tam üye olunması"
+		],
+		"correctIndex": 2,
+		"explanation": "Kore Savaşı (1950-1953) Soğuk Savaş'ın ilk sıcak çatışmasıdır. Türkiye'nin Birleşmiş Milletler komutasında savaşan bir tugay göndermesi Batı Bloku içindeki güvenilirliğini artırmış ve 18 Şubat 1952'de NATO'ya girmesinin yolunu açmıştır. Truman Doktrini 1947'de, yani Kore Savaşı'ndan önce ilan edilmiş; Türkiye AET'ye tam üye olmamıştır.",
+		"reference": {
+			"title": "Türk Tugayı — Kore Savaşı (1950-1953)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-dp-015",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Soğuk Savaş'ın başlarında Truman Doktrini'nden farklı olarak bütün Avrupa ülkelerinin savaş sonrası ekonomik kalkınmasını amaçlayan ve Türkiye'nin de yararlandığı 1948 tarihli ABD yardım programı aşağıdakilerden hangisidir?",
+		"options": [
+			"Marshall Planı",
+			"Truman Doktrini",
+			"Balkan Paktı",
+			"Eisenhower Doktrini",
+			"Bağdat Paktı"
+		],
+		"correctIndex": 0,
+		"explanation": "Truman Doktrini (1947) yalnızca Türkiye ve Yunanistan'a Sovyet tehdidine karşı askerî ve ekonomik yardımı öngörmüştür. Marshall Planı (1948) ise savaştan yıkılmış bütün Avrupa ülkelerine yönelik ekonomik kalkınma programıdır ve Türkiye de bu yardımdan yararlanmıştır. Balkan ve Bağdat paktları birer bölgesel güvenlik antlaşmasıdır.",
+		"reference": {
+			"title": "Marshall Planı (1948)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dis-politika"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-dp-016",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Demokrat Parti döneminde 25 Temmuz 1951'de kabul edilen 5816 sayılı Kanun'un konusu aşağıdakilerden hangisidir?",
+		"options": [
+			"Basın özgürlüğünün genişletilmesi",
+			"Halkevlerinin kapatılması",
+			"Atatürk'ün hatırasına ve onu temsil eden eserlere karşı işlenen suçların cezalandırılması",
+			"Ezanın Arapça okunmasının serbest bırakılması",
+			"Köy Enstitülerinin kapatılması"
+		],
+		"correctIndex": 2,
+		"explanation": "5816 sayılı Atatürk Aleyhine İşlenen Suçlar Hakkında Kanun 25 Temmuz 1951'de kabul edilmiştir ve m.1'e göre Atatürk'ün hatırasına alenen hakaret etmeyi veya sövmeyi, Atatürk'ü temsil eden heykel, büst ve abideleri ya da kabrini tahrip etmeyi cezalandırır. Kanun bugün de yürürlüktedir. Halkevleri aynı yıl başka bir kanunla kapatılmış, Köy Enstitüleri 1954'te öğretmen okullarına dönüştürülmüştür.",
+		"legalRef": {
+			"law": "Atatürk Aleyhine İşlenen Suçlar Hakkında Kanun",
+			"lawId": "5816",
+			"article": "1",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.5816.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dp-donemi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-dp-017",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1932'de kurulan ve halkı eğitmeyi, kültürel etkinlikleri yaygınlaştırmayı amaçlayan Halkevleri hangi yıl Demokrat Parti iktidarı döneminde çıkarılan kanunla kapatılmıştır?",
+		"options": [
+			"1951",
+			"1950",
+			"1954",
+			"1946",
+			"1960"
+		],
+		"correctIndex": 0,
+		"explanation": "Halkevleri 19 Şubat 1932'de kurulmuş ve Cumhuriyet'in kültür politikasının önemli araçlarından biri olmuştur. 1950'de iktidara gelen Demokrat Parti'nin girişimiyle TBMM'de 8 Ağustos 1951'de kabul edilen kanunla kapatılmış, mal varlıkları Hazineye devredilmiştir. Köy Enstitüleri ise 1954'te öğretmen okullarına dönüştürülmüştür.",
+		"reference": {
+			"title": "Halkevlerinin kapatılması (8 Ağustos 1951)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dp-donemi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-dp-018",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Menderes'in 1958'de muhalefetin oluşturduğu Güç Birliği'ne karşı DP'nin il ve ilçe teşkilatları üzerinden başlattığı ve radyoda katılanların isimlerinin okunduğu siyasi kampanya aşağıdakilerden hangisidir?",
+		"options": [
+			"12 Temmuz Beyannamesi",
+			"Vatan Cephesi",
+			"Millî Birlik Komitesi",
+			"Tahkikat Komisyonu",
+			"Dörtlü Takrir"
+		],
+		"correctIndex": 1,
+		"explanation": "Vatan Cephesi, Başbakan Adnan Menderes'in Ekim 1958'de muhalefetin Güç Birliği'ne karşı başlattığı siyasi kampanyadır; katılanların adları radyoda duyurulmuş ve toplumdaki kutuplaşmayı artırmıştır. Tahkikat Komisyonu 1960'ta, Dörtlü Takrir 1945'te verilmiştir; Millî Birlik Komitesi ise 27 Mayıs 1960 müdahalesinden sonra kurulmuştur.",
+		"reference": {
+			"title": "Vatan Cephesi (1958)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dp-donemi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-dp-019",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Demokrat Parti'nin 18 Nisan 1960'ta muhalefetin faaliyetlerini soruşturmak üzere TBMM'de kurduğu ve 27 Mayıs 1960 müdahalesinden önceki gerginliği artıran yapı aşağıdakilerden hangisidir?",
+		"options": [
+			"Millî Birlik Komitesi",
+			"Yüksek Seçim Kurulu",
+			"Kurucu Meclis",
+			"Tahkikat Komisyonu",
+			"Vatan Cephesi"
+		],
+		"correctIndex": 3,
+		"explanation": "Tahkikat Komisyonu, Demokrat Parti'nin 18 Nisan 1960'ta kurduğu 15 üyeli bir TBMM komisyonudur ve CHP ile basının faaliyetlerini soruşturmakla görevlendirilmiştir. Komisyona geniş yetkiler veren kanun 27 Nisan 1960'ta kabul edilmiş, 28-29 Nisan olaylarına ve 27 Mayıs 1960 askerî müdahalesine giden gerginliği artırmıştır. Millî Birlik Komitesi ve Kurucu Meclis müdahaleden sonra oluşturulmuştur.",
+		"reference": {
+			"title": "Tahkikat Komisyonu (18 Nisan 1960)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"dp-donemi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "yakin-dp-020",
+		"subjectId": "yakin-tarih",
+		"topicId": "yakin-tarih/cok-partili-hayat-ve-demokrat-parti",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdaki gelişmeler kronolojik olarak sıralandığında hangisi en son gerçekleşmiştir?",
+		"options": [
+			"Demokrat Parti'nin kurulması",
+			"Truman Doktrini'nin ilan edilmesi",
+			"12 Temmuz Beyannamesi'nin yayımlanması",
+			"Demokrat Parti'nin seçimle iktidara gelmesi",
+			"Türkiye'nin NATO'ya üye olması"
+		],
+		"correctIndex": 4,
+		"explanation": "Olayların tarihleri şöyledir: Demokrat Parti'nin kuruluşu 7 Ocak 1946, Truman Doktrini 12 Mart 1947, 12 Temmuz Beyannamesi 12 Temmuz 1947, DP'nin iktidara gelişi 14 Mayıs 1950, NATO üyeliği ise 18 Şubat 1952'dir. Bu yüzden en son gerçekleşen gelişme NATO üyeliğidir.",
+		"reference": {
+			"title": "Kuzey Atlantik Antlaşması'na katılım (18 Şubat 1952)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"kronoloji"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]

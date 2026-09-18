@@ -2,7 +2,7 @@
 topicId: sayisal-mantik/mantiksal-akil-yurutme
 title: Mantıksal Akıl Yürütme, Kümeler ve Olasılık
 legislationVersion: Mevzuata bağlı olmayan içerik — örnek çözümler hesaplanarak doğrulanmıştır
-lastVerifiedAt: "2026-09-16"
+lastVerifiedAt: "2026-09-17"
 keyPoints:
   - İki kümenin birleşimi s(A ∪ B) = s(A) + s(B) − s(A ∩ B); kesişim iki kez sayıldığı için bir kez çıkarılır.
   - Sıralama ve eşleştirme sorularında önce kesin bilgiler yerleştirilir, sonra yasaklarla kalan seçenekler elenir.
@@ -27,6 +27,16 @@ tabloya ya da sıraya dökmeden kafada çözmeye çalışmak hataya en açık yo
 Soru "yalnızca İngilizce bilen" derse kesişim çıkarılır: 18 − 3 = 15. "İngilizce bilen" derse
 kesişim dâhildir: 18. Sorudaki "yalnızca", "en az biri", "hiçbiri" kelimelerinin altını çizin.
 </Tuzak>
+
+**Yalnızca birine sahip olanlar** iki küme için (s(A) − kesişim) + (s(B) − kesişim) ile bulunur:
+35 hesap tablosu, 25 sunum, 10 ikisi birden → 25 + 15 = **40**.
+
+Üç küme için:
+
+<Sayi>s(A ∪ B ∪ C) = s(A) + s(B) + s(C) − (ikili kesişimler) + (üçlü kesişim)</Sayi>
+
+20 + 15 + 12 − 6 − 5 − 4 + 2 = 34; 40 kişilik sınıfta hiçbirini yapmayan **6** kişi vardır.
+Üçlü kesişim ikili kesişimlerin her birinde sayıldığı için **geri eklenir**.
 
 ## Sıralama ve eşleştirme
 
@@ -64,6 +74,10 @@ doğrudur. Bu gözlem çoğu zaman diğer kişilerin yalan söylediğini hemen g
 | Bütün A'lar B'dir | B olmayan hiçbir şey A değildir | Bütün B'ler A'dır |
 | Hiçbir A B değildir | Hiçbir B A değildir | — |
 | Bazı A'lar B'dir | Bazı B'ler A'dır | Bütün A'lar B'dir |
+| Hiçbir A B değildir + Bazı B'ler C'dir | Bazı C'ler A değildir | Hiçbir C A değildir |
+
+Son satırın gerekçesi: C olan o bazı B'ler, B oldukları için A olamaz. B olmayan C'lerin A olup
+olmadığı ise bilinmez.
 
 "Bütün müfettişler hukuk mezunu" ve "bazı hukuk mezunları avukat" önermelerinden **müfettişlerle
 avukatlar hakkında kesin bir şey çıkmaz**: avukat olan hukuk mezunları müfettişlerin içinde de
@@ -81,6 +95,21 @@ Grupta **görev ayrımı yoksa** sıra önemsizdir; 8 × 7 × 6 = 336 sonucu ayn
 sırayla ayrı ayrı sayar. Kombinasyon için 336 ÷ 3! = 56.
 </Tuzak>
 
+| Durum | Hesap | Örnek |
+|---|---|---|
+| Harfleri farklı kelimenin dizilişi | n! | KALEM: 5! = **120** |
+| Tekrar eden harfler | n! ÷ (tekrarların faktöriyelleri) | KAPAK: 5! ÷ (2! × 2!) = **30** |
+| İki kişi yan yana | (n − 1)! × 2 | 5 kişide 4! × 2 = **48** |
+| Yuvarlak masa | (n − 1)! | 6 kişi: 5! = **120** |
+| Tokalaşma, ikili karşılaşma | C(n, 2) | 10 kişi: **45** |
+| 0'ı içeren rakamlarla sayı | İlk basamağa 0 gelemez | 0-4 ile farklı rakamlı 3 basamaklı: 4 × 4 × 3 = **48** |
+| Gruplardan ayrı ayrı seçim | Seçimler çarpılır | 6 erkekten 2, 4 kadından 1: 15 × 4 = **60** |
+
+<Kritik>
+"**En az bir**" koşulunda tümleyen yöntemi kullanın: tüm seçimlerden koşulu hiç sağlamayanları
+çıkarın. 5 erkek 3 kadından en az bir kadınlı 3 kişilik grup: C(8, 3) − C(5, 3) = 56 − 10 = **46**.
+</Kritik>
+
 ## Olasılık
 
 <Sayi>olasılık = istenen durum sayısı ÷ tüm durumların sayısı</Sayi>
@@ -95,3 +124,37 @@ Geri konulmadan art arda iki kırmızı kalem (4 kırmızı, 6 mavi):
 "Geri konulmadan" ifadesi ikinci çekilişte **hem kırmızı sayısını hem toplamı** bir azaltır.
 Yalnızca birini azaltmak en sık yapılan hatadır.
 </Kritik>
+
+- **Farklı renk** iki sırayla gelebilir; iki sıra ayrı hesaplanıp toplanır. 3 kırmızı 5 mavide
+  3/8 × 5/7 + 5/8 × 3/7 = **15/28**.
+- **İki zarın toplamı** eşit olasılıklı değildir: 36 sonuçtan 6'sı 7 eder → **1/6**.
+- **İki para:** YY, YT, TY, TT dört ayrı sonuçtur; en az bir yazı **3/4**.
+- **En az bir kez olma** olasılığı = 1 − hiç olmama olasılığı. Vurma olasılıkları 1/2, 1/3, 1/4
+  ise hiç vuramama 1/2 × 2/3 × 3/4 = 1/4, en az bir isabet **3/4**. Olasılıkları toplamak 1'i
+  aşabilir; bu işlemin yanlış olduğunun işaretidir.
+
+## Kesinlik ve döngü soruları
+
+- **En kötü durum (güvercin yuvası):** Kaç tane alınırsa **kesinlikle** aynı renkten iki tane
+  olur? Her renkten birer tane alındığı en kötü durum düşünülür: renk sayısı + 1. 3 renkte **4**.
+- **Günler:** 7 günde bir tekrar eder; gün sayısının 7'ye bölümünden kalan kadar ileri gidilir.
+  Çarşambadan 100 gün sonra: 100 = 7 × 14 + 2 → **cuma**.
+- **Her renkten en az bir** isteniyorsa en kötü durumda en kalabalık iki rengin tamamı çekilir:
+  10 kırmızı, 8 mavi, 6 yeşilde 10 + 8 + 1 = **19**. **Doğum günü** sorularında 29 Şubat dâhil 366 gün
+  vardır; aynı günü garanti etmek için **367** kişi gerekir.
+
+## Şifreleme ve kodlama
+
+Harflerle yapılan kodlamalarda **Türk alfabesi** esas alınır ve 29 harfin sırası dikkatle sayılır:
+A B C **Ç** D E F G **Ğ** H **I İ** J K L M N O **Ö** P R S **Ş** T U **Ü** V Y Z. İngiliz alfabesinde
+olmayan Ç, Ğ, I, Ö, Ş, Ü harflerini atlamak en sık yapılan hatadır: D İngiliz alfabesinde 4., Türk
+alfabesinde **5.** harftir.
+
+## Denklik ve koşullu önermeler
+
+- **Terazi denklikleri** ortak bir birime çevrilerek çözülür: 3 elma = 2 armut, 4 armut = 6 portakal →
+  9 elma = 6 armut = **9 portakal**.
+- **"p ise q"** doğruysa yalnızca **"q değilse p değil"** (karşıt ters) kesin doğrudur. "q ise p" ve
+  "p değilse q değil" çıkarımları geçersizdir: maç yağmur dışında başka bir sebeple de ertelenebilir.
+- **Etiketlerin hepsi yanlış** bilgisi güçlüdür: "Karışık" etiketli kutudan elma çıkarsa o kutu yalnızca
+  elmadır; diğer iki kutunun içeriği de buradan belirlenir.

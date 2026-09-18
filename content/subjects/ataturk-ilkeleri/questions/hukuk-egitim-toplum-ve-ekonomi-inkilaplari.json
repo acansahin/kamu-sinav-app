@@ -340,5 +340,497 @@
 		],
 		"version": 1,
 		"updatedAt": "2026-09-16"
+	},
+	{
+		"id": "ataturk-inkilap-011",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "25 Kasım 1925'te kabul edilen ve memurların şapka giymesini zorunlu kılarak halkın genel serpuşunun şapka olduğunu belirten kanun aşağıdakilerden hangisidir?",
+		"options": [
+			"Soyadı Kanunu",
+			"Bazı Kisvelerin Giyilemeyeceğine Dair Kanun",
+			"Şapka İktisası Hakkında Kanun",
+			"Lakap ve Unvanların Kaldırılmasına Dair Kanun",
+			"Tevhidi Tedrisat Kanunu"
+		],
+		"correctIndex": 2,
+		"explanation": "671 sayılı Şapka İktisası Hakkında Kanun 25 Kasım 1925'te kabul edilmiştir. Kanunla TBMM üyeleri ve memurların şapka giymesi zorunlu olmuş, Türk milletinin genel serpuşunun şapka olduğu belirtilmiştir. Kanun, Anayasa'nın 174. maddesinde korunan inkılap kanunlarındandır. Bazı Kisvelerin Giyilemeyeceğine Dair Kanun ise 1934'te din adamlarının kıyafetini düzenlemiştir.",
+		"legalRef": {
+			"law": "Şapka İktisası Hakkında Kanun",
+			"lawId": "671",
+			"article": "1",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.671.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toplum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-inkilap-012",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "Hicri ve rumi takvim yerine miladi takvimin, alaturka saat yerine günün yirmi dört saate bölündüğü uluslararası saat sisteminin kabulü hangi yıl gerçekleşmiştir?",
+		"options": [
+			"1923",
+			"1925",
+			"1934",
+			"1931",
+			"1928"
+		],
+		"correctIndex": 1,
+		"explanation": "26 Aralık 1925'te kabul edilen kanunlarla takvim ve saat düzenlenmiştir: miladi takvim resmî takvim olmuş, 697 sayılı Günün Yirmi Dört Saate Taksimine Dair Kanun ile uluslararası saat sistemine geçilmiştir. Uluslararası rakamlar 1928'de, uluslararası ölçü birimleri 1931'de kabul edilmiştir.",
+		"reference": {
+			"title": "Günün Yirmi Dört Saate Taksimine Dair Kanun (26 Aralık 1925)",
+			"section": "697 sayılı Kanun"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toplum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-inkilap-013",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Hukuk alanındaki yeniliklerden 1926 tarihli Türk Ceza Kanunu hangi ülkenin ceza kanunu esas alınarak hazırlanmıştır?",
+		"options": [
+			"Almanya",
+			"Belçika",
+			"İtalya",
+			"Fransa",
+			"İsviçre"
+		],
+		"correctIndex": 2,
+		"explanation": "1926 tarihli Türk Ceza Kanunu, 1889 tarihli İtalyan Zanardelli Ceza Kanunu esas alınarak hazırlanmış ve 2005'e kadar yürürlükte kalmıştır. Aynı yıl kabul edilen Türk Kanunu Medenisi ile Borçlar Kanunu İsviçre'den, Ticaret Kanunu ise Almanya'dan örnek alınmıştır.",
+		"reference": {
+			"title": "Türk Ceza Kanunu (1926)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hukuk"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-inkilap-014",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Soyadı Kanunu'nun ardından Mustafa Kemal'e \"Atatürk\" soyadını veren özel kanun hangi yıl kabul edilmiştir?",
+		"options": [
+			"1935",
+			"1938",
+			"1926",
+			"1934",
+			"1930"
+		],
+		"correctIndex": 3,
+		"explanation": "Soyadı Kanunu (2525 sayılı) 21 Haziran 1934'te kabul edilmiştir. Ardından 24 Kasım 1934 tarihli ve 2587 sayılı Kanun ile Mustafa Kemal'e \"Atatürk\" soyadı verilmiş ve bu soyadının başkaları tarafından alınması yasaklanmıştır. İki gün sonra, 26 Kasım 1934'te lakap ve unvanlar da kaldırılmıştır.",
+		"reference": {
+			"title": "Kemal Öz Adlı Cumhur Reisimize Verilen Soyadı Hakkında Kanun (24 Kasım 1934)",
+			"section": "2587 sayılı Kanun"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toplum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-inkilap-015",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türk dilinin özleştirilmesi ve bilimsel olarak incelenmesi amacıyla 1932'de kurulan ve bugünkü Türk Dil Kurumu'nun temelini oluşturan dernek aşağıdakilerden hangisidir?",
+		"options": [
+			"Türk Dili Tetkik Cemiyeti",
+			"Türk Tarihi Tetkik Cemiyeti",
+			"Türk Ocakları",
+			"Millet Mektepleri",
+			"Halkevleri"
+		],
+		"correctIndex": 0,
+		"explanation": "Türk Dili Tetkik Cemiyeti 1932'de kurulmuş, daha sonra Türk Dil Kurumu adını almıştır. Türk Tarihi Tetkik Cemiyeti ise 1931'de kurulmuş ve Türk Tarih Kurumu'na dönüşmüştür. Halkevleri 1932'de halkı eğitmek amacıyla açılmış; Millet Mektepleri ise harf inkılabından sonra 1929'da okuma yazma öğretmek için kurulmuştur.",
+		"reference": {
+			"title": "Türk Dil Kurumu kuruluşu (12 Temmuz 1932)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"egitim-kultur"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-inkilap-016",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Okka, arşın, endaze gibi geleneksel ölçü birimlerinin yerine metre, kilogram ve litre gibi uluslararası birimlerin kabul edildiği Ölçüler Kanunu hangi yıl çıkarılmıştır?",
+		"options": [
+			"1925",
+			"1934",
+			"1928",
+			"1926",
+			"1931"
+		],
+		"correctIndex": 4,
+		"explanation": "26 Mart 1931 tarihli ve 1782 sayılı Ölçüler Kanunu ile arşın, okka, endaze gibi eski ölçü birimleri kaldırılmış; metre, gram ve litre esasına dayanan uluslararası ölçü sistemi kabul edilmiştir. Takvim ve saat 1925'te, rakamlar 1928'de değiştirilmiştir. Böylece ticaret ve günlük hayatta dünyayla ortak bir ölçü dili sağlanmıştır.",
+		"reference": {
+			"title": "Ölçüler Kanunu (26 Mart 1931)",
+			"section": "1782 sayılı Kanun"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toplum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-inkilap-017",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Hafta tatilinin cuma gününden pazar gününe alınması hangi yıl kabul edilmiştir?",
+		"options": [
+			"1928",
+			"1926",
+			"1931",
+			"1925",
+			"1935"
+		],
+		"correctIndex": 4,
+		"explanation": "Hafta tatilinin cumadan pazara alınması 27 Mayıs 1935'te TBMM'de kabul edilmiştir. Bu düzenleme, uluslararası takvim ve saatin kabulü (1925) ile ölçü birimlerinin değiştirilmesi (1931) gibi, günlük hayatın ve ekonomik ilişkilerin Batı dünyasıyla uyumlu hâle getirilmesini amaçlayan düzenlemelerin devamıdır.",
+		"reference": {
+			"title": "Hafta tatilinin pazar gününe alınması (27 Mayıs 1935)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toplum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-inkilap-018",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "1933 Üniversite Reformu ile aşağıdakilerden hangisi gerçekleştirilmiştir?",
+		"options": [
+			"Türk Tarihi Tetkik Cemiyeti'nin kurulması",
+			"Darülfünun'un kapatılarak yerine İstanbul Üniversitesi'nin kurulması",
+			"Millet Mekteplerinin açılması",
+			"Köy Enstitülerinin kurulması",
+			"Bütün okulların Maarif Vekâletine bağlanması"
+		],
+		"correctIndex": 1,
+		"explanation": "Modern yükseköğretim ihtiyacını karşılamadığı gerekçesiyle Darülfünun 1933'te 2252 sayılı Kanun'la kapatılmış, yerine İstanbul Üniversitesi kurulmuştur. Okulların Maarif Vekâletine bağlanması 1924 Tevhidi Tedrisat Kanunu'nun, Millet Mektepleri 1929'un, Türk Tarihi Tetkik Cemiyeti ise 1931'in gelişmesidir. Köy Enstitüleri Atatürk döneminden sonra, 1940'ta kurulmuştur.",
+		"reference": {
+			"title": "Üniversite Reformu (1933)",
+			"section": "2252 sayılı Kanun"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"egitim-kultur"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-inkilap-019",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "1923-1929 döneminde özel teşebbüsü desteklemek amacıyla 1927'de çıkarılan ve sanayi yatırımı yapacak işletmelere muafiyet ve teşvik sağlayan düzenleme aşağıdakilerden hangisidir?",
+		"options": [
+			"Aşar vergisinin kaldırılması",
+			"Kabotaj Kanunu",
+			"I. Beş Yıllık Sanayi Planı",
+			"Teşvik-i Sanayi Kanunu",
+			"Misak-ı İktisadi"
+		],
+		"correctIndex": 3,
+		"explanation": "Teşvik-i Sanayi Kanunu 28 Mayıs 1927'de çıkarılmış ve sanayi yatırımı yapacak özel işletmelere muafiyet, imtiyaz ve teşvikler sağlamıştır. Bu kanun 1923-1929 arasındaki özel teşebbüsü destekleyen ekonomi politikasının bir parçasıdır. I. Beş Yıllık Sanayi Planı ise 1929 krizinden sonra benimsenen devletçilik döneminde, 1934'te uygulamaya konmuştur.",
+		"reference": {
+			"title": "Teşvik-i Sanayi Kanunu (28 Mayıs 1927)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-inkilap-020",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Aşağıdakilerden hangisi 1929 Dünya Ekonomik Krizi'nden sonra benimsenen devletçilik politikasının uygulamalarından biri değildir?",
+		"options": [
+			"İzmir İktisat Kongresi'nin toplanması",
+			"Etibank'ın kurulması",
+			"Devlet eliyle yeni fabrikaların kurulması",
+			"I. Beş Yıllık Sanayi Planı'nın uygulamaya konması",
+			"Sümerbank'ın kurulması"
+		],
+		"correctIndex": 0,
+		"explanation": "1929 Dünya Ekonomik Krizi'nden sonra özel sermayenin yetersiz kalması üzerine devletçilik öne çıkmış; Sümerbank (1933) ve Etibank (1935) kurulmuş, I. Beş Yıllık Sanayi Planı (1934) uygulanmış ve devlet eliyle fabrikalar açılmıştır. İzmir İktisat Kongresi ise 17 Şubat-4 Mart 1923'te, Cumhuriyet'in ilanından önce toplanmıştır ve devletçilik döneminin uygulaması değildir.",
+		"reference": {
+			"title": "İzmir İktisat Kongresi Kararları — Misak-ı İktisadi (1923)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-inkilap-021",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "kolay",
+		"stem": "1926'da kabul edilen Türk Ticaret Kanunu hangi ülkenin ticaret kanunu esas alınarak hazırlanmıştır?",
+		"options": [
+			"İtalya",
+			"Fransa",
+			"Belçika",
+			"İsviçre",
+			"Almanya"
+		],
+		"correctIndex": 4,
+		"explanation": "Hukuk inkılabında kanunlar farklı ülkelerden örnek alınmıştır: Türk Kanunu Medenisi ve Borçlar Kanunu İsviçre'den, Ceza Kanunu İtalya'dan, Ticaret Kanunu ise Almanya'dan alınmıştır. Böylece kısa sürede çağdaş ve bütünlüklü bir hukuk düzeni kurulmuştur.",
+		"reference": {
+			"title": "Türk Ticaret Kanunu (1926)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hukuk"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-inkilap-022",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türk Kanunu Medenisi'nin aile hukukunda getirdiği değişiklik aşağıdakilerden hangisidir?",
+		"options": [
+			"Kadınlara belediye seçimlerinde oy hakkı tanınması",
+			"Boşanma hakkının yalnızca erkeğe tanınması",
+			"Resmî nikâhın zorunlu hâle gelmesi ve tek eşlilik esasının kabul edilmesi",
+			"Mirasta kadına erkeğin yarısı kadar pay verilmesi",
+			"Kadınlara milletvekili seçilme hakkı tanınması"
+		],
+		"correctIndex": 2,
+		"explanation": "17 Şubat 1926'da kabul edilip 4 Ekim 1926'da yürürlüğe giren Türk Kanunu Medenisi resmî nikâhı zorunlu kılmış, tek eşlilik esasını benimsemiş, boşanma ve mirasta kadın-erkek eşitliği sağlamıştır. Kadınların belediye (1930) ve milletvekili (1934) seçimlerine ilişkin hakları ise ayrı düzenlemelerle tanınmıştır.",
+		"legalRef": {
+			"law": "Türk Kanunu Medenisi",
+			"lawId": "743",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.743.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"hukuk",
+			"toplum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-inkilap-023",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "orta",
+		"stem": "Türk tarihinin bilimsel yöntemlerle araştırılması amacıyla 1931'de kurulan ve bugün Türk Tarih Kurumu adıyla faaliyetini sürdüren kuruluş aşağıdakilerden hangisidir?",
+		"options": [
+			"Türk Ocağı",
+			"Türkiyat Enstitüsü",
+			"Halkevleri",
+			"Türk Tarihi Tetkik Cemiyeti",
+			"Türk Dili Tetkik Cemiyeti"
+		],
+		"correctIndex": 3,
+		"explanation": "1931'de kurulan Türk Tarihi Tetkik Cemiyeti bugünkü Türk Tarih Kurumu'nun, 1932'de kurulan Türk Dili Tetkik Cemiyeti ise Türk Dil Kurumu'nun temelidir. Halkevleri de 1932'de halk eğitimi ve kültür çalışmaları için açılmıştır.",
+		"reference": {
+			"title": "Türk Tarihi Tetkik Cemiyeti (1931)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"egitim-kultur"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-inkilap-024",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "zor",
+		"stem": "Din adamlarının mabet ve ayin dışında dinî kisve (kıyafet) taşımasını yasaklayan 3 Aralık 1934 tarihli kanun aşağıdakilerden hangisidir?",
+		"options": [
+			"Tekke ve Zaviyelerle Türbelerin Seddine Dair Kanun",
+			"Bazı Kisvelerin Giyilemeyeceğine Dair Kanun",
+			"Lakap ve Unvanların Kaldırıldığına Dair Kanun",
+			"Soyadı Kanunu",
+			"Şapka İktisası Hakkında Kanun"
+		],
+		"correctIndex": 1,
+		"explanation": "3 Aralık 1934 tarihli ve 2596 sayılı Bazı Kisvelerin Giyilemeyeceğine Dair Kanun, din adamlarının mabet ve ayin dışında dinî kıyafetle dolaşmasını yasaklamıştır. 671 sayılı Şapka Kanunu 1925'te serpuşu, 677 sayılı Kanun tekke ve zaviyeleri, 2590 sayılı Kanun lakap ve unvanları, 2525 sayılı Kanun ise soyadını düzenlemiştir.",
+		"legalRef": {
+			"law": "Bazı Kisvelerin Giyilemeyeceğine Dair Kanun",
+			"lawId": "2596",
+			"url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.2596.pdf"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"toplum"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
+	},
+	{
+		"id": "ataturk-inkilap-025",
+		"subjectId": "ataturk-ilkeleri",
+		"topicId": "ataturk-ilkeleri/hukuk-egitim-toplum-ve-ekonomi-inkilaplari",
+		"scope": "ortak",
+		"difficulty": "uzman",
+		"stem": "Madencilik ve enerji alanındaki yatırımları yürütmek üzere 1935'te kurulan banka aşağıdakilerden hangisidir?",
+		"options": [
+			"Etibank",
+			"Sümerbank",
+			"Türkiye İş Bankası",
+			"Ziraat Bankası",
+			"Türkiye Cumhuriyet Merkez Bankası"
+		],
+		"correctIndex": 0,
+		"explanation": "Devletçilik politikası çerçevesinde 1933'te sanayi yatırımları için Sümerbank, 1935'te madencilik ve enerji yatırımları için Etibank kurulmuştur. Türkiye İş Bankası 1924'te, Merkez Bankası 1930'da kurulmuş; Ziraat Bankası ise Osmanlı döneminden devralınmıştır.",
+		"reference": {
+			"title": "Etibank'ın kuruluşu (1935)"
+		},
+		"source": {
+			"kind": "original",
+			"origin": "Tarihî belgeler ve mevzuat metinleri esas alınarak özgün soru yazımı",
+			"year": 2026,
+			"license": "own-work"
+		},
+		"status": "published",
+		"tags": [
+			"ekonomi"
+		],
+		"version": 1,
+		"updatedAt": "2026-09-17"
 	}
 ]
