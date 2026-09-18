@@ -101,6 +101,21 @@ artık boşluk sınırsız değil; yeni ders eklerken yeniden sayın.
 
 ## Sürüm notları (en çok 500 karakter)
 
+### 1.5.0 — genel kültür ve genel yetenek soruları artırıldı
+
+```
+• Genel kültür ve genel yetenek derslerine 565 yeni soru eklendi; havuz 2275
+  soruya ulaştı. Türkçe ve Sayısal Mantık konularında artık 40'ar soru var.
+• Bu derslerin konu testleri yeniden dağıldı: konu başına artık 2 ila 4 test
+  var. Daha önce çözdüğünüz test numaraları farklı sorular gösterebilir.
+• Konu özetleri yeni bilgilerle genişletildi.
+```
+
+⚠️ **İkinci madde çıkarılmamalıdır** (1.3.0'daki üçüncü maddeyle aynı
+gerekçe): altı dersin her konusunda 10 soruluk tek test vardı, şimdi 2-4 test
+var ve "Test 1" başka soruları gösteriyor. Mevzuat derslerinin konu testleri
+ve deneme dağılımı DEĞİŞMEDİ; bu yüzden denemeye dair bir madde yok.
+
 ### 1.4.0 — genel kültür ve genel yetenek dersleri
 
 ```
